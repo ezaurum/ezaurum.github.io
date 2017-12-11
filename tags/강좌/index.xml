@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>강좌 on Ezaurum&#39;s Blog</title>
+    <link>https://ezaurum.com/tags/%EA%B0%95%EC%A2%8C/</link>
+    <description>Recent content in 강좌 on Ezaurum&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <copyright>© Ezaurum 2001-</copyright>
+    <lastBuildDate>Wed, 22 Sep 2010 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ezaurum.com/tags/%EA%B0%95%EC%A2%8C/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>한국어 발음 강좌</title>
+      <link>https://ezaurum.com/2010/09/%ED%95%9C%EA%B5%AD%EC%96%B4-%EB%B0%9C%EC%9D%8C-%EA%B0%95%EC%A2%8C/</link>
+      <pubDate>Wed, 22 Sep 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2010/09/%ED%95%9C%EA%B5%AD%EC%96%B4-%EB%B0%9C%EC%9D%8C-%EA%B0%95%EC%A2%8C/</guid>
+      <description>[youtube https://www.youtube.com/watch?v=CR48gU4VagA&amp;amp;color1=0xb1b1b1&amp;amp;color2=0xd0d0d0&amp;amp;hl=ko_KR&amp;amp;feature=player_embedded&amp;amp;fs=1] 멋지다&amp;hellip; 발음 제대론데?</description>
+    </item>
+    
+  </channel>
+</rss>

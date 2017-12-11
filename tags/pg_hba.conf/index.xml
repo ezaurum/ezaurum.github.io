@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pg_hba.conf on Ezaurum&#39;s Blog</title>
+    <link>https://ezaurum.com/tags/pg_hba.conf/</link>
+    <description>Recent content in Pg_hba.conf on Ezaurum&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <copyright>© Ezaurum 2001-</copyright>
+    <lastBuildDate>Fri, 10 Oct 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ezaurum.com/tags/pg_hba.conf/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>pg_hba.conf load fail error</title>
+      <link>https://ezaurum.com/2014/10/pg_hba.conf-load-fail-error/</link>
+      <pubDate>Fri, 10 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2014/10/pg_hba.conf-load-fail-error/</guid>
+      <description>pg_hba.conf load fail error가 발생. 설정 파일 내부에 항목이 하나도 없으면 로드에 에러 발생 기본 항목 주석 해제로 해결</description>
+    </item>
+    
+  </channel>
+</rss>

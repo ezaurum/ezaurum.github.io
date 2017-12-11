@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang='ko-kr'>
+<head>
+    <meta charset="UTF-8">
+    
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-40920966-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-40920966-1');
+</script>
+
+
+    <title>   Lisp로 주문 외기 - 10 - 추가 -  Ezaurum&#39;s Blog </title>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body class='index'>
+
+    <header>
+    <nav>
+
+    <a href="https://ezaurum.com/about/">About</a>
+
+    <a href="https://ezaurum.com/">Ezaurum&#39;s Blog</a>
+
+</nav>
+</header>
+
+
+
+
+<main class="post single">
+<h1>Lisp로 주문 외기 - 10 - 추가</h1>
+2009-05-26
+<section><h3>추가</h3>
+ 
+
+<p>좋아요. 이제 이 설명서에서 대충 얼버무리고 지나간 것들에 대해 얘기해 봅시다&hellip;</p>
+
+<p>무엇보다, Lisp 코드는 컴파일 되기도 하고 종종 실행시간에 번역(interpreted) 되기도 합니다. 같은 프로그램 안에서도 말이죠. 이 때문에, Lisp 환경은 컴파일러라고 불리지 않고, <em>구현(implementations)</em>이라 불리고 있습니다.
+(비록 실행시간에 번역되는 Lisp코드가 보통은 일단 바이트코드로 컴파일되긴 하지만, 그건 일단 다른 얘기고&hellip;)</p>
+
+<p>추가로, 언급할 만한 가치가 있는 다른 굉장한 Lisp 구현이 있습니다. Rainer Joswig 와 Bill Clementson가 함께 만든 자세한 목록(링크 깨짐)이 사용 가능하지요.</p>
+
+<p>이 설명서에서 사용한 큰 꼼수 하나는 게임에 쓰인 문장을 기호로 적은 것입니다.</p>
+
+<p>&rsquo;(Lisp 사용자는 이렇게 문장을 쓰지 않습니다)</p>
+
+<p>&ldquo;Lisp 사용자는 문장을 겹따옴표 안에 씁니다&rdquo;</p>
+
+<p>기호(Symbols)는 Lisp에서 특별한 의미를 띄고, 함수, 변수, 또 다른 것들의 유일한 이름을 저장하기 위해 사용됩니다. 이 때문에, Lisp는 기호를 다루는 방법이 특별합니다. 그래서 문자 메세지를 다루는 것이 어설프지요(몽땅 대문자로 만들어버린다든지&hellip;). 문장을 다루기 위해 기호 대신에 문자열(String)을 사용하게 된다면 그런 어설픈 것에 영향을 받지 않겠지요. 하지만 문장을 다루기 위한 더욱 난해한 명령이 필요하게 됩니다. 거기다, 문자열을 다루는 것은 Lisp에서 훨씬 중요한 기호를 다루는 명령을 가르치는 것과는 크게 관련이없습니다.</p>
+
+<p>하나 더 빠프린 것은, 전역 변수를 만들기 위한 명령어인 defparameter입니다. 대신, 변수를 선언하기 위해 그냥 setf를 썼습니다.(돌아는 갑니다만, 좋지 못한 모양새라&hellip;)</p>
+
+<p>연관 목록(alists라고도 하는)도 생략해버렸습니다. 숙련된 Lisp사용자에겐 그게 좀 더 효율적이고 격조높기 때문에, 점이 찍힌 목록 형태로 쓰입니다. 이건 초심자를 혼란스럽게 할 수 있습니다. 하지만 <a href="http://c2.com/cgi/wiki?ConsCell">여기</a>서 읽을 수 있는 Cons Cell을 이해하기 위해서는 꼭 필요한 개념입니다.</p>
+
+<p>다른 미뤄둔 것은 주문(SPELs)은 더 일반적으로는 &ldquo;Lisp 진(眞) macros&rdquo;라 불리고, defmacro 명령으로 만들어진다는 건데, 가르치기엔 좀 헷갈립니다. 왜 다른 이름을 쓰는 것이 좋은가에 대해 쓴 <a href="http://gateopener.mireene.com/wordpress/2009/04/21/매크로가-아니다/">다음 이야기</a>를 읽어주세요. 이제 마지막으로, 주문(SPEL)이 <em>game-action</em> 주문(SPEL)처럼 쓰인다면 일어날 수 있는 이상한 이름 충돌이 있습니다.  더 전문적인 lisp관련 자료를 읽는다면, 아주 자세하게 이게 설명되어 있을 겁니다.</p>
+
+<p>Q. Lisp에 대해 더 공부하기 위해 뭘 더 봐야 할까요?</p>
+
+<p>A.</p>
+
+<p><a href="http://www.cliki.net/Lisp%20books">cliki 사이트</a>에서 볼 수 있는 굉장한 Lisp 책들이 아주 많습니다.(개중 몇은 내려받을 수 있죠).</p>
+
+<p>아주 극도로 이론적인 문서에 관심이 있다면, Paul Graham의 <a href="http://www.paulgraham.com/onlisp.html">On Lisp</a>의 eBook을 권해드립니다. 그가 쓴 다른 책과 수필은 그의 웹사이트에서 볼 수 있고 상당히 멋져요.</p>
+
+<p>더 실질적인 전략에 관심이 있다면, 많은 Lisp 사용자가 지금 Peter Seibel의 <a href="http://www.amazon.com/exec/obidos/tg/detail/-/1590592395/qid=1102288668/sr=8-1/ref=sr_8_xs_ap_i1_xgl14/104-7821785-4266358?v=glance&amp;s=books&amp;n=507846">Practical Common Lisp</a>에 환호하고 있습니다. 이 책의 <a href="http://www.gigamonkeys.com/book/">몇 장은 인터넷</a>에서도 볼 수 있어요.</p>
+</section>
+
+
+
+
+    <ul class="taxonomy tag">
+        Tag
+        
+        <li><a href="/tags/casting-spels">casting-spels</a></li>
+        
+        <li><a href="/tags/%EB%B2%88%EC%97%AD">번역</a></li>
+        
+        <li><a href="/tags/%EA%B2%B0%EA%B3%BC%EB%AC%BC">결과물</a></li>
+        
+        <li><a href="/tags/%EA%B3%B5%EB%B6%80">공부</a></li>
+        
+        <li><a href="/tags/LISP">LISP</a></li>
+        </ul>
+    </ul>
+
+
+
+<a href="https://ezaurum.com/2009/06/Ubuntu-%EC%97%90%EC%84%9C-%EB%98%90-%EC%9C%88%EB%8F%84%EB%A1%9C.../"> Ubuntu 에서 또 윈도로...</a>
+
+
+<a href="https://ezaurum.com/2009/05/Voices/">Voices</a>
+
+
+
+
+
+    <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "ezaurum" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3471055249244195"
+     data-ad-slot="7282877318"
+     data-ad-format="auto"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+</main>
+
+
+
+    <footer>
+© Ezaurum 2001-
+</footer>
+
+
+
+
+
+    <script>
+
+</script>
+
+
+</body>
+</html>

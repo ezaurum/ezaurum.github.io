@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang='ko-kr'>
+<head>
+    <meta charset="UTF-8">
+    
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-40920966-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-40920966-1');
+</script>
+
+
+    <title>   Bubble Sort -  Ezaurum&#39;s Blog </title>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body class='index'>
+
+    <header>
+    <nav>
+
+    <a href="https://ezaurum.com/about/">About</a>
+
+    <a href="https://ezaurum.com/">Ezaurum&#39;s Blog</a>
+
+</nav>
+</header>
+
+
+
+
+<main class="post single">
+<h1>Bubble Sort</h1>
+2011-01-13
+<section><p><code>
+void bubbleSort(int * array, int size)
+{
+    int temp = 0;
+    int j=0;
+    bool swapped = true;
+    while(swapped)
+    {
+<del datetime="2011-01-13T07:13:28+00:00">      j++;</del>
+        swapped = false;
+    for( int i = 0; i &lt; size -1 <ins datetime="2011-01-13T07:13:28+00:00">-j</ins> ; i++)
+    {
+        if ( array[i] &gt; array[i+1] )
+        {
+            temp = array[i];
+            array[i] = array[i+1];
+            array[i+1] = temp;
+            swapped = true;
+        }
+    }
+<ins datetime="2011-01-13T07:13:28+00:00">j++;</ins>
+    }
+}
+<ins datetime="2011-01-13T08:05:15+00:00">
+void swap(int * a, int * b)
+{
+    int temp = 0;
+    temp = *a;
+    *a = *b;
+    *b = temp;
+}</ins>
+<ins datetime="2011-01-13T08:06:26+00:00">
+bool swapif(int * a, int * b)
+{
+    if ( *a &gt; *b)
+    {
+        swap(a,b);
+        return true;
+    }
+    else
+    {
+        return false;
+    }
+}</ins></p>
+
+<p><ins datetime="2011-01-13T08:07:57+00:00">void bubbleSort2(int * array, int size)
+{
+    int j=0;
+    bool swapped = true;
+    while(swapped)
+    {
+    swapped=false;
+    for( int i = 0; i &lt; size -j -1 ; i++)
+    {
+        swapped = swapif(array+i,array+i+1) ? true : swapped;
+    }
+    j++;
+    }
+}
+</ins></p>
+
+<p></code></p>
+
+<p>정렬되는 것이 방울이 올라가는 것처럼 보인다고 해서 버블 정렬. 버블~ 버블~
+기초중의 기초. 거의 외워서 쓰고 있음.
+<ins datetime="2011-01-13T07:13:28+00:00">빼먹은 게 있었다. -j 추가.</ins>
+<ins datetime="2011-01-13T07:13:28+00:00">또 빼먹었다. j++;  의 위치를 아래로 옮김. 그대로는 마지막 항목이 정렬되지 않음.</ins>
+<ins datetime="2011-01-13T08:05:15+00:00">개량형 추가. 성능상 차이 없음.</ins></p>
+</section>
+
+
+
+
+    <ul class="taxonomy tag">
+        Tag
+        
+        <li><a href="/tags/Bubble-Sort">Bubble Sort</a></li>
+        
+        <li><a href="/tags/c">c</a></li>
+        
+        <li><a href="/tags/C/C&#43;&#43;">C/C&#43;&#43;</a></li>
+        
+        <li><a href="/tags/%EA%B3%B5%EB%B6%80">공부</a></li>
+        
+        <li><a href="/tags/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D">프로그래밍</a></li>
+        
+        <li><a href="/tags/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98">알고리즘</a></li>
+        
+        <li><a href="/tags/%EC%A0%95%EB%A0%AC">정렬</a></li>
+        </ul>
+    </ul>
+
+
+
+<a href="https://ezaurum.com/2011/01/%EC%A0%95%EC%9D%98%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80/"> 정의란 무엇인가</a>
+
+
+<a href="https://ezaurum.com/2011/01/Selection-Sort/">Selection Sort</a>
+
+
+
+
+
+    <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "ezaurum" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3471055249244195"
+     data-ad-slot="7282877318"
+     data-ad-format="auto"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+</main>
+
+
+
+    <footer>
+© Ezaurum 2001-
+</footer>
+
+
+
+
+
+    <script>
+
+</script>
+
+
+</body>
+</html>

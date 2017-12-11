@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>이야기 on Ezaurum&#39;s Blog</title>
+    <link>https://ezaurum.com/tags/%EC%9D%B4%EC%95%BC%EA%B8%B0/</link>
+    <description>Recent content in 이야기 on Ezaurum&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <copyright>© Ezaurum 2001-</copyright>
+    <lastBuildDate>Sun, 11 Jan 2009 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ezaurum.com/tags/%EC%9D%B4%EC%95%BC%EA%B8%B0/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>살아가는 이유</title>
+      <link>https://ezaurum.com/2009/01/%EC%82%B4%EC%95%84%EA%B0%80%EB%8A%94-%EC%9D%B4%EC%9C%A0/</link>
+      <pubDate>Sun, 11 Jan 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2009/01/%EC%82%B4%EC%95%84%EA%B0%80%EB%8A%94-%EC%9D%B4%EC%9C%A0/</guid>
+      <description>재미있는 이야기가 끝도 없이 나오니까. 내일 일은 모레 걱정하고, 절망에게 농담을 건네자. 슬픈 이야기도 재미는 있기 마련이고, 눈물은 슬플 때만 나오는 건 아니니까. 그러니까. 고마워. 즐거워.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ssh on Ezaurum&#39;s Blog</title>
+    <link>https://ezaurum.com/tags/ssh/</link>
+    <description>Recent content in Ssh on Ezaurum&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <copyright>© Ezaurum 2001-</copyright>
+    <lastBuildDate>Mon, 20 May 2013 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ezaurum.com/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>jenkins-git 연동시 주의점</title>
+      <link>https://ezaurum.com/2013/05/jenkins-git-%EC%97%B0%EB%8F%99%EC%8B%9C-%EC%A3%BC%EC%9D%98%EC%A0%90/</link>
+      <pubDate>Mon, 20 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2013/05/jenkins-git-%EC%97%B0%EB%8F%99%EC%8B%9C-%EC%A3%BC%EC%9D%98%EC%A0%90/</guid>
+      <description>git 서버에 public 키를 추가할 때, jenkins 유저로 들어가서 추가해야 함.</description>
+    </item>
+    
+    <item>
+      <title>scp만으로 git 서버에 key여럿 추가하기</title>
+      <link>https://ezaurum.com/2013/05/scp%EB%A7%8C%EC%9C%BC%EB%A1%9C-git-%EC%84%9C%EB%B2%84%EC%97%90-key%EC%97%AC%EB%9F%BF-%EC%B6%94%EA%B0%80%ED%95%98%EA%B8%B0/</link>
+      <pubDate>Mon, 20 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2013/05/scp%EB%A7%8C%EC%9C%BC%EB%A1%9C-git-%EC%84%9C%EB%B2%84%EC%97%90-key%EC%97%AC%EB%9F%BF-%EC%B6%94%EA%B0%80%ED%95%98%EA%B8%B0/</guid>
+      <description>출처 역시 누군가 뭘 해 놨을 줄 알았어. 다 필요 없는 짓이었다. ssh-copy-id 라는 명령어가&amp;hellip; OTL&amp;hellip; 역시 무식하면 몸이 고생. scp file_name user@182.213.312.122:path 다 하고 나면 보안을 위해 파일 권한이 600으로 되어 있는지 확인할 것 그 외 ssh에 대한 참고 링크</description>
+    </item>
+    
+    <item>
+      <title>Edit plus sftp 문제</title>
+      <link>https://ezaurum.com/2008/12/Edit-plus-sftp-%EB%AC%B8%EC%A0%9C/</link>
+      <pubDate>Mon, 08 Dec 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2008/12/Edit-plus-sftp-%EB%AC%B8%EC%A0%9C/</guid>
+      <description>http://quiin.com/13
+이 설명은 데비안이지만, 당연히 우분투에서도 그대로 된다.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jettyrun on Ezaurum&#39;s Blog</title>
+    <link>https://ezaurum.com/tags/jettyrun/</link>
+    <description>Recent content in Jettyrun on Ezaurum&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <copyright>© Ezaurum 2001-</copyright>
+    <lastBuildDate>Thu, 23 May 2013 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ezaurum.com/tags/jettyrun/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>gradle에서 jetty 9 쓰기</title>
+      <link>https://ezaurum.com/2013/05/gradle%EC%97%90%EC%84%9C-jetty-9-%EC%93%B0%EA%B8%B0/</link>
+      <pubDate>Thu, 23 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2013/05/gradle%EC%97%90%EC%84%9C-jetty-9-%EC%93%B0%EA%B8%B0/</guid>
+      <description>gradle에 plugin으로 사용되는 jetty는 jetty 9이 아니다. 그러므로 WebApplicationInitializer를 써서 만든 앱은 돌아가지 않는다.
+저 이슈 말미의 커멘트에 나온 방법으로 해결. 이걸로 6시간 넘게 잡아먹었다&amp;hellip;</description>
+    </item>
+    
+  </channel>
+</rss>

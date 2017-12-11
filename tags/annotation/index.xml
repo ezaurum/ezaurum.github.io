@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Annotation on Ezaurum&#39;s Blog</title>
+    <link>https://ezaurum.com/tags/annotation/</link>
+    <description>Recent content in Annotation on Ezaurum&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <copyright>© Ezaurum 2001-</copyright>
+    <lastBuildDate>Fri, 19 Jul 2013 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ezaurum.com/tags/annotation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>lombok intelliJ 컴파일 에러시</title>
+      <link>https://ezaurum.com/2013/07/lombok-intelliJ-%EC%BB%B4%ED%8C%8C%EC%9D%BC-%EC%97%90%EB%9F%AC%EC%8B%9C/</link>
+      <pubDate>Fri, 19 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2013/07/lombok-intelliJ-%EC%BB%B4%ED%8C%8C%EC%9D%BC-%EC%97%90%EB%9F%AC%EC%8B%9C/</guid>
+      <description>ᅟSettings-&amp;gt;Compiler-&amp;gt;Annotation Processors 에서 Enable annotation processing 에 체크</description>
+    </item>
+    
+    <item>
+      <title>jUnit4 annotations</title>
+      <link>https://ezaurum.com/2010/08/jUnit4-annotations/</link>
+      <pubDate>Tue, 10 Aug 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2010/08/jUnit4-annotations/</guid>
+      <description>package testCases;
+import static org.junit.Assert.assertEquals;
+import org.junit.Test; import org.junit.Before; import org.junit.After;
+public class myTest {
+@Test public void testCodes() throws Exception { System.out.println(&amp;ldquo;3&amp;rdquo;); }
+@Before public void testMakeClass1() { System.out.println(&amp;quot;2&amp;quot;); } @Before public void testMakeClass() { System.out.println(&amp;quot;1&amp;quot;); }  @After public void afterClass() { System.out.println(&amp;ldquo;4&amp;rdquo;);
+} @After public void afterClass1() { System.out.println(&amp;quot;5&amp;quot;); }  } 
+실행 결과는 적힌 대로 12345가 된다.</description>
+    </item>
+    
+  </channel>
+</rss>

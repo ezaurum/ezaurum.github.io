@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pojo on Ezaurum&#39;s Blog</title>
+    <link>https://ezaurum.com/tags/pojo/</link>
+    <description>Recent content in Pojo on Ezaurum&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <copyright>© Ezaurum 2001-</copyright>
+    <lastBuildDate>Mon, 22 Jul 2013 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ezaurum.com/tags/pojo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Spring mvc에서 로직에 이상이 없는데 406에러가 날 때</title>
+      <link>https://ezaurum.com/2013/07/Spring-mvc%EC%97%90%EC%84%9C-%EB%A1%9C%EC%A7%81%EC%97%90-%EC%9D%B4%EC%83%81%EC%9D%B4-%EC%97%86%EB%8A%94%EB%8D%B0-406%EC%97%90%EB%9F%AC%EA%B0%80-%EB%82%A0-%EB%95%8C/</link>
+      <pubDate>Mon, 22 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2013/07/Spring-mvc%EC%97%90%EC%84%9C-%EB%A1%9C%EC%A7%81%EC%97%90-%EC%9D%B4%EC%83%81%EC%9D%B4-%EC%97%86%EB%8A%94%EB%8D%B0-406%EC%97%90%EB%9F%AC%EA%B0%80-%EB%82%A0-%EB%95%8C/</guid>
+      <description>JSON변환 중, 필드의 jsonProperty가 서로 겹치면 406이 뜬다.</description>
+    </item>
+    
+    <item>
+      <title>lombok 적용</title>
+      <link>https://ezaurum.com/2013/07/lombok-%EC%A0%81%EC%9A%A9/</link>
+      <pubDate>Wed, 17 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2013/07/lombok-%EC%A0%81%EC%9A%A9/</guid>
+      <description>Lombok이란 getter, setter, toString, equals, hash 같은 꼭 필요하고 IDE가 보통 자동으로 생성해주지만 필드 바꾸다 보면 자주 새로 만드는 것을 잊게 되고 결정적으로 귀찮은 메소드들을 컴파일 타임에 자동으로 생성해주는 라이브러리이다.(정확한지는 모르겠다)
+여튼 필드가 몇십개 되거나 하면 getter, setter만 해도 꽤 많은데, 그 때문에 방해되서 도메인의 중요한 로직을 보지 못하는 경우가 생긴다. 이상하게 묘한 거부감이랄까 어찌 돌아가는지 모르는 라이브러리에 대한 불안감이 있어서 적용을 안 했었는데, 이번에 도저히 못 참아서 시도해 보았다.</description>
+    </item>
+    
+  </channel>
+</rss>

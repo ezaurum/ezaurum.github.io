@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Viewresolver on Ezaurum&#39;s Blog</title>
+    <link>https://ezaurum.com/tags/viewresolver/</link>
+    <description>Recent content in Viewresolver on Ezaurum&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <copyright>© Ezaurum 2001-</copyright>
+    <lastBuildDate>Thu, 09 May 2013 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ezaurum.com/tags/viewresolver/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>controller에서 넘긴 viewName은 viewResolver가 보고 처리한다.</title>
+      <link>https://ezaurum.com/2013/05/controller%EC%97%90%EC%84%9C-%EB%84%98%EA%B8%B4-viewName%EC%9D%80-viewResolver%EA%B0%80-%EB%B3%B4%EA%B3%A0-%EC%B2%98%EB%A6%AC%ED%95%9C%EB%8B%A4./</link>
+      <pubDate>Thu, 09 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2013/05/controller%EC%97%90%EC%84%9C-%EB%84%98%EA%B8%B4-viewName%EC%9D%80-viewResolver%EA%B0%80-%EB%B3%B4%EA%B3%A0-%EC%B2%98%EB%A6%AC%ED%95%9C%EB%8B%A4./</guid>
+      <description>controller에서 넘긴 viewName은 viewResolver가 보고 처리한다.</description>
+    </item>
+    
+  </channel>
+</rss>

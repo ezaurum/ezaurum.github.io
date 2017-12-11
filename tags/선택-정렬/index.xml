@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>선택 정렬 on Ezaurum&#39;s Blog</title>
+    <link>https://ezaurum.com/tags/%EC%84%A0%ED%83%9D-%EC%A0%95%EB%A0%AC/</link>
+    <description>Recent content in 선택 정렬 on Ezaurum&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <copyright>© Ezaurum 2001-</copyright>
+    <lastBuildDate>Thu, 13 Jan 2011 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ezaurum.com/tags/%EC%84%A0%ED%83%9D-%EC%A0%95%EB%A0%AC/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Selection Sort</title>
+      <link>https://ezaurum.com/2011/01/Selection-Sort/</link>
+      <pubDate>Thu, 13 Jan 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2011/01/Selection-Sort/</guid>
+      <description>void selectSort(int * array, int size) { int minPoint = 0;
+for( int j = 0; j &amp;amp;lt; size -1; j++) { minPoint = j; for (int i = j; i &amp;amp;lt; size ; i++) { if(array[i] &amp;amp;lt; array[minPoint]) { minPoint = i; } } swap(array+j, array+minPoint); }  }
+오랜만에 공부 좀 하니까 머리가 돌아가는 듯.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>싸이 on Ezaurum&#39;s Blog</title>
+    <link>https://ezaurum.com/tags/%EC%8B%B8%EC%9D%B4/</link>
+    <description>Recent content in 싸이 on Ezaurum&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <copyright>© Ezaurum 2001-</copyright>
+    <lastBuildDate>Sat, 25 Apr 2009 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ezaurum.com/tags/%EC%8B%B8%EC%9D%B4/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>나는 왜 싸이를 싫어하는가</title>
+      <link>https://ezaurum.com/2009/04/%EB%82%98%EB%8A%94-%EC%99%9C-%EC%8B%B8%EC%9D%B4%EB%A5%BC-%EC%8B%AB%EC%96%B4%ED%95%98%EB%8A%94%EA%B0%80/</link>
+      <pubDate>Sat, 25 Apr 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2009/04/%EB%82%98%EB%8A%94-%EC%99%9C-%EC%8B%B8%EC%9D%B4%EB%A5%BC-%EC%8B%AB%EC%96%B4%ED%95%98%EB%8A%94%EA%B0%80/</guid>
+      <description>일단 그 답답한 화면이 첫 번째겠지만, 대충 만들었다는 티가 나는 그 구조가 싫다. 오늘은 양력 4월 24일. 내 생일은 음력 4월 24일로 입력되어 있단 말이지.
+&amp;hellip;싸이월드는 오늘 내 생일을 축하해준다.
+이러니 좋아할 수가 없지.</description>
+    </item>
+    
+  </channel>
+</rss>

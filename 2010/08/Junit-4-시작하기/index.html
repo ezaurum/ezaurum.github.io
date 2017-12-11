@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang='ko-kr'>
+<head>
+    <meta charset="UTF-8">
+    
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-40920966-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-40920966-1');
+</script>
+
+
+    <title>   Junit 4 시작하기 -  Ezaurum&#39;s Blog </title>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body class='index'>
+
+    <header>
+    <nav>
+
+    <a href="https://ezaurum.com/about/">About</a>
+
+    <a href="https://ezaurum.com/">Ezaurum&#39;s Blog</a>
+
+</nav>
+</header>
+
+
+
+
+<main class="post single">
+<h1>Junit 4 시작하기</h1>
+2010-08-10
+<section><p>며칠 전에 <a href="/2010/08/06/tdd-시작/">TDD를 시작 하겠다고</a> 한 바, 시작은 하는데, 기왕 하는 거 깔끔하게 정리도 해 보자는 생각에 포스팅도 하기로 했다.
+더 자세한 내용은 <a href="http://www.ibm.com/developerworks/kr/library/tutorial/j-junit4/index.html">이 기사를 참고</a>
+또한 이걸 왜 해야 하는지에 대한 것은 <a href="http://oddpoet.net/archives/242">여기</a>를 참고</p>
+
+<p><a href="/wordpress/wp-content/uploads/2010/08/001-makeNewProject.png"><img src="/wordpress/wp-content/uploads/2010/08/001-makeNewProject.png" alt="" title="001-makeNewProject" width="514" height="274" class="alignnone size-full wp-image-1101" /></a>
+일단 새 프로젝트를 하나 만들어 보자. 당연히 Java 프로젝트로 만든다.</p>
+
+<p><a href="/wordpress/wp-content/uploads/2010/08/002-noteTest.png"><img src="/wordpress/wp-content/uploads/2010/08/002-noteTest.png" alt="" title="002-noteTest" width="536" height="477" class="alignnone size-full wp-image-1108" /></a>
+다음은 테스트할 내용을 적는다. 일단 첫 테스트이고, 테스트 내용보다 테스트 방법-정확히는 jUnit4의 사용법-을 익히는 게 중요하므로, 입력이 뭐가 되든 값이 26이 나오는 데 집중한다.
+<strong>어쨌든 처음 할 일은 결과 값이 26이 나오는지를 검사하는 테스트를 만드는 일이다.</strong></p>
+
+<p><a href="/wordpress/wp-content/uploads/2010/08/003-makeTestCase.png"><img src="/wordpress/wp-content/uploads/2010/08/003-makeTestCase.png" alt="" title="003-makeTestCase" width="524" height="498" class="alignnone size-full wp-image-1109" /></a>
+자 테스트를 만들어 봅시다.
+<a href="/wordpress/wp-content/uploads/2010/08/004-makeTestCase.png"><img src="/wordpress/wp-content/uploads/2010/08/004-makeTestCase.png" alt="" title="004-makeTestCase" width="515" height="549" class="alignnone size-full wp-image-1110" /></a>
+<a href="/wordpress/wp-content/uploads/2010/08/005-makeTestCase.png"><img src="/wordpress/wp-content/uploads/2010/08/005-makeTestCase.png" alt="" title="005-makeTestCase" width="521" height="249" class="alignnone size-full wp-image-1111" /></a>
+이렇게 하면 myTest라는 클래스가 추가된다.
+그럼 이제 코드를 짜 봅시다.
+<a href="/wordpress/wp-content/uploads/2010/08/006-writeTheCodes.png"><img src="/wordpress/wp-content/uploads/2010/08/006-writeTheCodes.png" alt="" title="006-writeTheCodes" width="494" height="269" class="alignnone size-full wp-image-1112" /></a>
+중요한 점은 2가지.
+<ol>
+    <li>org.junit.Test를 import 한다.</li>
+    <li>@Test <a href="http://decoder.tistory.com/21">Annotation</a>을 사용한다.</li>
+</ol>
+참 쉽죠? 지금 보이는 빨간 X나 노란전구에 쫄지 말자. <kbd>Ctrl + 1</kbd>로 처리할 수 있으니까.
+<a href="/wordpress/wp-content/uploads/2010/08/007-writeTheCode.png"><img src="/wordpress/wp-content/uploads/2010/08/007-writeTheCode.png" alt="" title="007-writeTheCode" width="799" height="469" class="alignnone size-full wp-image-1113" /></a>
+계속 써 봅시다. 일단 getArea라는 메소드를 맘대로 적고, 거기서 <kbd>Ctrl + 1</kbd>을 누른다. 간단히 새 메소드(비어있)가 생기고(이거 여기다 만들어도 되나 하는 걱정은 잠시 잊자.) 아래쪽 task 에 뭐가 하나 생겼다.
+다음 단계는&hellip;
+<ol>
+<li>새로 만든 메소드가 26을 제대로 리턴하는지 확인한다.</li>
+<li>그렇지 않다면 새로만든 메소드가 원하는 동작을 하게 만든다.</li>
+</ol>
+1번은 위에 <a href="http://www.junit.org/apidocs/org/junit/Assert.html#assertEquals(java.lang.String, java.lang.Object, java.lang.Object)">assertEquals</a>메소드로 처리한다.
+그 다음에 테스트를 돌려본다.
+<a href="/wordpress/wp-content/uploads/2010/08/009-runJunitTest.png"><img src="/wordpress/wp-content/uploads/2010/08/009-runJunitTest.png" alt="" title="009-runJunitTest" width="702" height="590" class="alignnone size-full wp-image-1117" /></a>
+이렇게 해서 Run As JUnit Test 하면&hellip;
+<a href="/wordpress/wp-content/uploads/2010/08/010-testFailed.png"><img src="/wordpress/wp-content/uploads/2010/08/010-testFailed.png" alt="" title="010-testFailed" width="318" height="181" class="alignnone size-full wp-image-1118" /></a>
+테스트는 깔끔하게 실패할 것이다. 빨간색에 겁먹지 말자.
+이제 2번을 할 차례다. 2번은 아래쪽 task에서 클릭해서 들어가도 되고, 바로 찾아 들어가도 된다. 일단 리턴 타입은 int로 하고 return 26; 만 적어주자.
+<a href="/wordpress/wp-content/uploads/2010/08/008-writeTheCode.png"><img src="/wordpress/wp-content/uploads/2010/08/008-writeTheCode.png" alt="" title="008-writeTheCode" width="663" height="403" class="alignnone size-full wp-image-1119" /></a>
+이렇게 하면 된다.
+그리고 다시 junit test를 돌리면&hellip;
+<a href="/wordpress/wp-content/uploads/2010/08/011-testSucced.png"><img src="/wordpress/wp-content/uploads/2010/08/011-testSucced.png" alt="" title="011-testSucced" width="317" height="162" class="alignnone size-full wp-image-1120" /></a>
+성공!</p>
+
+<p>이제
+<ol>
+    <li>메소드가 뭘 해야 하는지 적고,</li>
+    <li>거기에 대한 테스트를 추가하고,</li>
+    <li>테스트에 통과할 때까지 메소드를 고친다.</li></ol>
+이런 식으로 프로그램이 완성될 때까지 반복하면 된다.</p>
+</section>
+
+
+
+
+    <ul class="taxonomy tag">
+        Tag
+        
+        <li><a href="/tags/BDD">BDD</a></li>
+        
+        <li><a href="/tags/%EA%B3%B5%EB%B6%80">공부</a></li>
+        
+        <li><a href="/tags/%EC%9D%BC%EC%83%81">일상</a></li>
+        
+        <li><a href="/tags/java">java</a></li>
+        
+        <li><a href="/tags/jUnit">jUnit</a></li>
+        
+        <li><a href="/tags/jUnit4">jUnit4</a></li>
+        
+        <li><a href="/tags/TDD">TDD</a></li>
+        </ul>
+    </ul>
+
+
+
+<a href="https://ezaurum.com/2010/08/%EC%A0%81%EC%9E%AC%EC%A0%81%EC%86%8C/"> 적재적소</a>
+
+
+<a href="https://ezaurum.com/2010/08/jUnit4-annotations/">jUnit4 annotations</a>
+
+
+
+
+
+    <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "ezaurum" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3471055249244195"
+     data-ad-slot="7282877318"
+     data-ad-format="auto"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+</main>
+
+
+
+    <footer>
+© Ezaurum 2001-
+</footer>
+
+
+
+
+
+    <script>
+
+</script>
+
+
+</body>
+</html>

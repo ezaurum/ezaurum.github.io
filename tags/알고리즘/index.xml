@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>알고리즘 on Ezaurum&#39;s Blog</title>
+    <link>https://ezaurum.com/tags/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/</link>
+    <description>Recent content in 알고리즘 on Ezaurum&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <copyright>© Ezaurum 2001-</copyright>
+    <lastBuildDate>Mon, 17 Jan 2011 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ezaurum.com/tags/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Quick Sort</title>
+      <link>https://ezaurum.com/2011/01/Quick-Sort/</link>
+      <pubDate>Mon, 17 Jan 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2011/01/Quick-Sort/</guid>
+      <description>int partition(int * array, int leftIndex, int lastIndex, int pivotIndex) { int pivotValue = array[pivotIndex]; swap(&amp;amp;array[pivotIndex], &amp;amp;array[lastIndex]); int storeIndex = leftIndex; for(int i = leftIndex; i &amp;lt; lastIndex; i++) { if(array[i] leftIndex) { int newPivotIndex = partition(array,leftIndex,lastIndex,lastIndex); quickSort(array, leftIndex,newPivotIndex-1); quickSort(array, newPivotIndex+1,lastIndex); } }
+오늘은 정렬의 왕도, 퀵정렬. 사실 하다 꼬여서 이 소스는 위키에서 퍼온 의사코드를 그대로 옮긴 것. 아놔. 내 뇌의 숫자개념에는 뭔가 문제가 있는 게 확실해. 지금와서 어떻게 할 수도 없고, 힘내서 외운 걸로 커버하자.</description>
+    </item>
+    
+    <item>
+      <title>Insertion Sort</title>
+      <link>https://ezaurum.com/2011/01/Insertion-Sort/</link>
+      <pubDate>Fri, 14 Jan 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2011/01/Insertion-Sort/</guid>
+      <description>void insertionSort(int * array, int size) { int j = 0; int temp = 0; for (int i = 1; i &amp;lt; size ; i++) { j = 0; while(j array[j]) { j++; } else { temp = array[i]; for ( int k = i; k &amp;gt; j; k&amp;ndash;) { array[k] = array[k-1]; } array[j] = temp; j = i; } } } }
+void insertionSort2(int * array, int size) { int j = 0; for (int i = 1; i 0 &amp;amp;&amp;amp; array[j-1] &amp;gt; array[j] ) { swap(array[j-1],array[j]); j&amp;ndash;; } } }</description>
+    </item>
+    
+    <item>
+      <title>Bubble Sort</title>
+      <link>https://ezaurum.com/2011/01/Bubble-Sort/</link>
+      <pubDate>Thu, 13 Jan 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2011/01/Bubble-Sort/</guid>
+      <description>void bubbleSort(int * array, int size) { int temp = 0; int j=0; bool swapped = true; while(swapped) { j++; swapped = false; for( int i = 0; i &amp;lt; size -1 -j ; i++) { if ( array[i] &amp;gt; array[i+1] ) { temp = array[i]; array[i] = array[i+1]; array[i+1] = temp; swapped = true; } } j++; } } void swap(int * a, int * b) { int temp = 0; temp = *a; *a = *b; *b = temp; } bool swapif(int * a, int * b) { if ( *a &amp;gt; *b) { swap(a,b); return true; } else { return false; } }</description>
+    </item>
+    
+    <item>
+      <title>Selection Sort</title>
+      <link>https://ezaurum.com/2011/01/Selection-Sort/</link>
+      <pubDate>Thu, 13 Jan 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2011/01/Selection-Sort/</guid>
+      <description>void selectSort(int * array, int size) { int minPoint = 0;
+for( int j = 0; j &amp;amp;lt; size -1; j++) { minPoint = j; for (int i = j; i &amp;amp;lt; size ; i++) { if(array[i] &amp;amp;lt; array[minPoint]) { minPoint = i; } } swap(array+j, array+minPoint); }  }
+오랜만에 공부 좀 하니까 머리가 돌아가는 듯.</description>
+    </item>
+    
+    <item>
+      <title>내가 프로그래밍을 해서 먹고 살 수 있을까</title>
+      <link>https://ezaurum.com/2010/08/%EB%82%B4%EA%B0%80-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EC%9D%84-%ED%95%B4%EC%84%9C-%EB%A8%B9%EA%B3%A0-%EC%82%B4-%EC%88%98-%EC%9E%88%EC%9D%84%EA%B9%8C/</link>
+      <pubDate>Thu, 19 Aug 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2010/08/%EB%82%B4%EA%B0%80-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EC%9D%84-%ED%95%B4%EC%84%9C-%EB%A8%B9%EA%B3%A0-%EC%82%B4-%EC%88%98-%EC%9E%88%EC%9D%84%EA%B9%8C/</guid>
+      <description>이걸 짜는데 이틀 걸렸다면 믿으시겠습니까? 젠장
+private String a(int initial, int max, String leftValue) { String returnValue = &amp;ldquo;&amp;rdquo;;
+ if (initial &amp;amp;lt; max) { if (initial != -1) { if (leftValue != null) { leftValue += &amp;amp;quot; &amp;amp;quot;; leftValue += initial; } else { leftValue = String.valueOf(initial); } } for (int i = initial + 1; i &amp;amp;lt;= max; i++) { returnValue += a(i, max, leftValue); } return returnValue; } else { if (leftValue !</description>
+    </item>
+    
+    <item>
+      <title>상자 4개</title>
+      <link>https://ezaurum.com/2010/08/%EC%83%81%EC%9E%90-4%EA%B0%9C/</link>
+      <pubDate>Fri, 06 Aug 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2010/08/%EC%83%81%EC%9E%90-4%EA%B0%9C/</guid>
+      <description>문제 출처 - http://xper.org/wiki/seminar/FourBoxes  4개의 직사각형이 평면에 있는데 밑변이 모두 가로축에 평행하다. 이 직사각형들이 차지하는 면적을 구하는 프로그램을 작성하시오. 이 네 개의 직사각형들은 서로 떨어져 있을 수도 있고 겹쳐 있을 수도 있다. 또한 하나가 다른 하나를 포함할 수도 있으며, 변이나 꼭지점이 겹쳐질 수도 있다. 실행 파일의 이름은 RECT.EXE로 하시오.
+입력형식
+하나의 직사각형은 왼쪽 아래의 꼭지점과 오른쪽 위의 꼭지점의 좌표로 주어진다. 입력은 네 줄이며, 각 줄은 네 개의 정수로 하나의 직사각형을 나타낸다.</description>
+    </item>
+    
+  </channel>
+</rss>

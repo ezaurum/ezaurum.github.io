@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Apache2 on Ezaurum&#39;s Blog</title>
+    <link>https://ezaurum.com/tags/apache2/</link>
+    <description>Recent content in Apache2 on Ezaurum&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <copyright>© Ezaurum 2001-</copyright>
+    <lastBuildDate>Sat, 08 Sep 2012 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ezaurum.com/tags/apache2/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>호스팅 아마존으로 이전</title>
+      <link>https://ezaurum.com/2012/09/%ED%98%B8%EC%8A%A4%ED%8C%85-%EC%95%84%EB%A7%88%EC%A1%B4%EC%9C%BC%EB%A1%9C-%EC%9D%B4%EC%A0%84/</link>
+      <pubDate>Sat, 08 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2012/09/%ED%98%B8%EC%8A%A4%ED%8C%85-%EC%95%84%EB%A7%88%EC%A1%B4%EC%9C%BC%EB%A1%9C-%EC%9D%B4%EC%A0%84/</guid>
+      <description>내년에는 돈을 내야 하니까 또 옮겨갈지는 모르겠지만&amp;hellip;.
+여튼 일단은 여기로 왔음. 암 것도 안 했는데 뭔가 많이 바뀐 느낌인데 이상하게&amp;hellip;.
+자꾸 404가 떠서 고생했는데 이 링크 에서 mod_rewite를 켜는 방법을 보고 해결&amp;hellip; OTL&amp;hellip; 한글 문제인줄 알고 계속 삽질.
+&amp;nbsp;
+&amp;nbsp;</description>
+    </item>
+    
+    <item>
+      <title>워드프레스에서 UTF-8이 euc-kr로 나오는 경우</title>
+      <link>https://ezaurum.com/2009/09/%EC%9B%8C%EB%93%9C%ED%94%84%EB%A0%88%EC%8A%A4%EC%97%90%EC%84%9C-UTF-8%EC%9D%B4-euc-kr%EB%A1%9C-%EB%82%98%EC%98%A4%EB%8A%94-%EA%B2%BD%EC%9A%B0/</link>
+      <pubDate>Sat, 12 Sep 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2009/09/%EC%9B%8C%EB%93%9C%ED%94%84%EB%A0%88%EC%8A%A4%EC%97%90%EC%84%9C-UTF-8%EC%9D%B4-euc-kr%EB%A1%9C-%EB%82%98%EC%98%A4%EB%8A%94-%EA%B2%BD%EC%9A%B0/</guid>
+      <description>공짜 호스팅을 쓰다가 용량 문제도 있고 이거저거 귀찮은 일들이 많아서 그냥 유료 호스팅을 하나 뚫었다. nayana.com 을 쓰기로 했는데&amp;hellip; &amp;hellip;아파치 설정이 이상한지 워드프레스에서 한글이 다 깨지는 거다. 이것저것 알아본 바, 다음 원인&amp;amp; 해결책이 나왔다.
+utf-8을 지원한다더니&amp;hellip; mysql만 그걸 지원하고 아파치는 euc-kr로 해 뒀나 보더라. 하지만&amp;hellip; 이건 구버전용. 지금은 전부 class를 사용해서 짜 놨더라. 분석하고 있겠냐!
+그래서&amp;hellip;워드프레스 포럼의 글을 참고했으나, 여기서도 실패한 결과. 어쨌든 지금 포스팅 내용은 멀쩡히 나오니까. 일단은 그냥 넘어가자.</description>
+    </item>
+    
+    <item>
+      <title>Ubuntu Apache2 사용자별 웹 디렉토리 설정</title>
+      <link>https://ezaurum.com/2008/11/Ubuntu-Apache2-%EC%82%AC%EC%9A%A9%EC%9E%90%EB%B3%84-%EC%9B%B9-%EB%94%94%EB%A0%89%ED%86%A0%EB%A6%AC-%EC%84%A4%EC%A0%95/</link>
+      <pubDate>Sat, 29 Nov 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2008/11/Ubuntu-Apache2-%EC%82%AC%EC%9A%A9%EC%9E%90%EB%B3%84-%EC%9B%B9-%EB%94%94%EB%A0%89%ED%86%A0%EB%A6%AC-%EC%84%A4%EC%A0%95/</guid>
+      <description>http://leeted.egloos.com/1489000 위 링크 참고 했음.
+콘솔에서 입력.
+cd /etc/apache2/mods-available sudo cp userdir.conf userdir.load /etc/apache2/mods-enabled sudo /etc/init.d/apache2 restart
+이후, 각 유자가 자기 홈 디렉 토리에다 public_html을 만들어주면 된다. 아래와 같은 식? cd ~ mkdir public_html public_html 디렉토리 아래에 index.html 생성</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>로또 on Ezaurum&#39;s Blog</title>
+    <link>https://ezaurum.com/tags/%EB%A1%9C%EB%98%90/</link>
+    <description>Recent content in 로또 on Ezaurum&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <copyright>© Ezaurum 2001-</copyright>
+    <lastBuildDate>Sun, 08 Feb 2009 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ezaurum.com/tags/%EB%A1%9C%EB%98%90/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>행운</title>
+      <link>https://ezaurum.com/2009/02/%ED%96%89%EC%9A%B4/</link>
+      <pubDate>Sun, 08 Feb 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2009/02/%ED%96%89%EC%9A%B4/</guid>
+      <description>행운은 기대하지 않았을 때만 찾아온다.
+바라는 일 따위 이루어지지 않아.
+일어나는 일은 당연한 것들 뿐.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Series on Ezaurum&#39;s Blog</title>
+    <link>https://ezaurum.com/series/</link>
+    <description>Recent content in Series on Ezaurum&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <copyright>© Ezaurum 2001-</copyright>
+    
+	<atom:link href="https://ezaurum.com/series/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>치앙마이 생활기</title>
+      <link>https://ezaurum.com/series/%EC%B9%98%EC%95%99%EB%A7%88%EC%9D%B4-%EC%83%9D%ED%99%9C%EA%B8%B0/</link>
+      <pubDate>Tue, 28 Nov 2017 22:43:34 +0700</pubDate>
+      
+      <guid>https://ezaurum.com/series/%EC%B9%98%EC%95%99%EB%A7%88%EC%9D%B4-%EC%83%9D%ED%99%9C%EA%B8%B0/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

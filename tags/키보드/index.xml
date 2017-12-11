@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>키보드 on Ezaurum&#39;s Blog</title>
+    <link>https://ezaurum.com/tags/%ED%82%A4%EB%B3%B4%EB%93%9C/</link>
+    <description>Recent content in 키보드 on Ezaurum&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <copyright>© Ezaurum 2001-</copyright>
+    <lastBuildDate>Wed, 30 Jan 2008 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ezaurum.com/tags/%ED%82%A4%EB%B3%B4%EB%93%9C/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>어쩐지 키보드 상태가 좋질 않다.</title>
+      <link>https://ezaurum.com/2008/01/%EC%96%B4%EC%A9%90%EC%A7%80-%ED%82%A4%EB%B3%B4%EB%93%9C-%EC%83%81%ED%83%9C%EA%B0%80-%EC%A2%8B%EC%A7%88-%EC%95%8A%EB%8B%A4./</link>
+      <pubDate>Wed, 30 Jan 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2008/01/%EC%96%B4%EC%A9%90%EC%A7%80-%ED%82%A4%EB%B3%B4%EB%93%9C-%EC%83%81%ED%83%9C%EA%B0%80-%EC%A2%8B%EC%A7%88-%EC%95%8A%EB%8B%A4./</guid>
+      <description>변명같지만 그래서 두드리기가 귀찮다. 좀 뻑뻑해졌달까. 그런 느낌. 눌러도 잘 안 눌러지거나 하는 일이 잦다. 요새 팬터그래프 타입 키보드가 싸다던데 교체를 해 볼까 생각중..</description>
+    </item>
+    
+  </channel>
+</rss>

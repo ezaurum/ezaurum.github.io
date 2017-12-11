@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Virtualbox on Ezaurum&#39;s Blog</title>
+    <link>https://ezaurum.com/tags/virtualbox/</link>
+    <description>Recent content in Virtualbox on Ezaurum&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <copyright>© Ezaurum 2001-</copyright>
+    <lastBuildDate>Thu, 25 Apr 2013 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ezaurum.com/tags/virtualbox/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>virtualbox 설치시 에러</title>
+      <link>https://ezaurum.com/2013/04/virtualbox-%EC%84%A4%EC%B9%98%EC%8B%9C-%EC%97%90%EB%9F%AC/</link>
+      <pubDate>Thu, 25 Apr 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2013/04/virtualbox-%EC%84%A4%EC%B9%98%EC%8B%9C-%EC%97%90%EB%9F%AC/</guid>
+      <description>window에서 사용자 계정이 한글인경우, 설치가 안 된다. 그런 경우는, virtualbox-setup.exe -x -p 경로 형태로 실행하여 압축을 푼 다음. cpu에 맞는 파일을 실행한다.</description>
+    </item>
+    
+    <item>
+      <title>Vitual box 가상 머신 백그라운드 실행</title>
+      <link>https://ezaurum.com/2012/11/Vitual-box-%EA%B0%80%EC%83%81-%EB%A8%B8%EC%8B%A0-%EB%B0%B1%EA%B7%B8%EB%9D%BC%EC%9A%B4%EB%93%9C-%EC%8B%A4%ED%96%89/</link>
+      <pubDate>Sun, 25 Nov 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2012/11/Vitual-box-%EA%B0%80%EC%83%81-%EB%A8%B8%EC%8B%A0-%EB%B0%B1%EA%B7%B8%EB%9D%BC%EC%9A%B4%EB%93%9C-%EC%8B%A4%ED%96%89/</guid>
+      <description>윈도 기준
+VBoxManage.exe startvm &amp;ldquo;가상머신 이름&amp;rdquo; -type vrdp</description>
+    </item>
+    
+  </channel>
+</rss>

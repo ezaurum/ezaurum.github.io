@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Ezaurum&#39;s Blog</title>
+    <link>https://ezaurum.com/categories/</link>
+    <description>Recent content in Categories on Ezaurum&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <copyright>© Ezaurum 2001-</copyright>
+    
+	<atom:link href="https://ezaurum.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>생활기</title>
+      <link>https://ezaurum.com/categories/%EC%83%9D%ED%99%9C%EA%B8%B0/</link>
+      <pubDate>Tue, 28 Nov 2017 22:43:34 +0700</pubDate>
+      
+      <guid>https://ezaurum.com/categories/%EC%83%9D%ED%99%9C%EA%B8%B0/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>여행기</title>
+      <link>https://ezaurum.com/categories/%EC%97%AC%ED%96%89%EA%B8%B0/</link>
+      <pubDate>Sun, 12 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/categories/%EC%97%AC%ED%96%89%EA%B8%B0/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>일상</title>
+      <link>https://ezaurum.com/categories/%EC%9D%BC%EC%83%81/</link>
+      <pubDate>Fri, 24 Nov 2017 20:26:53 +0700</pubDate>
+      
+      <guid>https://ezaurum.com/categories/%EC%9D%BC%EC%83%81/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

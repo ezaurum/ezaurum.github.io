@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>양자컴퓨터 on Ezaurum&#39;s Blog</title>
+    <link>https://ezaurum.com/tags/%EC%96%91%EC%9E%90%EC%BB%B4%ED%93%A8%ED%84%B0/</link>
+    <description>Recent content in 양자컴퓨터 on Ezaurum&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <copyright>© Ezaurum 2001-</copyright>
+    <lastBuildDate>Sun, 25 May 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ezaurum.com/tags/%EC%96%91%EC%9E%90%EC%BB%B4%ED%93%A8%ED%84%B0/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>프로그래밍 유니버스</title>
+      <link>https://ezaurum.com/2014/05/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EC%9C%A0%EB%8B%88%EB%B2%84%EC%8A%A4/</link>
+      <pubDate>Sun, 25 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2014/05/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EC%9C%A0%EB%8B%88%EB%B2%84%EC%8A%A4/</guid>
+      <description>뭔소린지 모르겠다.
+정말로.
+그냥 술술술 넘겼는데, 책을 덮고 며칠 지나니 내용도 생각이 안 나고, 뭔지도 모르겠다.
+일단 세계가 존재하는 방식에 대한 고찰이라고 보는데, 시간 날 때 한 번 더 보고 생각을 해 봐야겠다.
+보면서 맵스의 전승족이 계속 생각났다.
+우주 자체가 어떤 정보를 담고 있고, 그것을 계산하는 계산기라는 이야기를 그대로 받아들이려니, 내가 생각하는 그 계산이라는 행위와 여기서 말하는 계산이라는 행위가 많이 다른건지 바로 들어오질 않는다.</description>
+    </item>
+    
+  </channel>
+</rss>

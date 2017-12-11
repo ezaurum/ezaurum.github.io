@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang='ko-kr'>
+<head>
+    <meta charset="UTF-8">
+    
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-40920966-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-40920966-1');
+</script>
+
+
+    <title>   Spring multipart upload에서 put 메소드 사용 -  Ezaurum&#39;s Blog </title>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body class='index'>
+
+    <header>
+    <nav>
+
+    <a href="https://ezaurum.com/about/">About</a>
+
+    <a href="https://ezaurum.com/">Ezaurum&#39;s Blog</a>
+
+</nav>
+</header>
+
+
+
+
+<main class="post single">
+<h1>Spring multipart upload에서 put 메소드 사용</h1>
+2012-07-11
+<section><p><a href="http://commons.apache.org/fileupload/">org.apache.commons.fileupload.FileUploadBase 에서 multipart를 POST만 인식하게 되어 있으므로</a>, 그냥은 안 된다. 자꾸 파라마터가 없다는 에러를 보게 될 것.
+해결방법은 당연히 스택오버플로우에&hellip; <a href="http://stackoverflow.com/questions/7981640/spring-3-0-fileupload-only-with-post/10041789#10041789">이 링크 참조</a>
+이 방법으로 CommonsMultipartResolver를 상속해서 put 메소드도 인식하게 해 주면, put으로 업로드 해도 정상 작동.
+이방법을 쓴 건 3.0이지만, 소스 뜯어보니 아직 3.1도 안 되는 듯 하다.
+당분간 이걸 써야지&hellip;</p>
+</section>
+
+
+
+
+    <ul class="taxonomy tag">
+        Tag
+        
+        <li><a href="/tags/%ED%95%B4%EA%B2%B0%EB%B2%95">해결법</a></li>
+        
+        <li><a href="/tags/multipart">multipart</a></li>
+        
+        <li><a href="/tags/Programming">Programming</a></li>
+        
+        <li><a href="/tags/put">put</a></li>
+        
+        <li><a href="/tags/REST">REST</a></li>
+        
+        <li><a href="/tags/Spring">Spring</a></li>
+        
+        <li><a href="/tags/upload">upload</a></li>
+        
+        <li><a href="/tags/web">web</a></li>
+        </ul>
+    </ul>
+
+
+
+<a href="https://ezaurum.com/2012/07/%EC%9A%B4%EB%8F%99%EC%9D%BC%EA%B8%B0/"> 운동일기</a>
+
+
+<a href="https://ezaurum.com/2012/07/7%EC%9B%94-%EC%B2%AB%EC%A7%B8-%EC%A3%BC-%EC%A0%95%EB%A6%AC/">7월 첫째 주 정리</a>
+
+
+
+
+
+    <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "ezaurum" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3471055249244195"
+     data-ad-slot="7282877318"
+     data-ad-format="auto"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+</main>
+
+
+
+    <footer>
+© Ezaurum 2001-
+</footer>
+
+
+
+
+
+    <script>
+
+</script>
+
+
+</body>
+</html>

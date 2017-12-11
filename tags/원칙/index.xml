@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>원칙 on Ezaurum&#39;s Blog</title>
+    <link>https://ezaurum.com/tags/%EC%9B%90%EC%B9%99/</link>
+    <description>Recent content in 원칙 on Ezaurum&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <copyright>© Ezaurum 2001-</copyright>
+    <lastBuildDate>Sat, 15 Mar 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ezaurum.com/tags/%EC%9B%90%EC%B9%99/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>3월 둘째주 정리</title>
+      <link>https://ezaurum.com/2014/03/3%EC%9B%94-%EB%91%98%EC%A7%B8%EC%A3%BC-%EC%A0%95%EB%A6%AC/</link>
+      <pubDate>Sat, 15 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2014/03/3%EC%9B%94-%EB%91%98%EC%A7%B8%EC%A3%BC-%EC%A0%95%EB%A6%AC/</guid>
+      <description> 시간 산정할 때, 해 본 일은 1.5배 안 해 본 일은 3배 partial은 interface 기준으로 나누자 코드가 복잡해지고 길어지면 뭔가 잘못된 거다  </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>일상 on Ezaurum&#39;s Blog</title>
+    <link>https://ezaurum.com/categories/%EC%9D%BC%EC%83%81/</link>
+    <description>Recent content in 일상 on Ezaurum&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <copyright>© Ezaurum 2001-</copyright>
+    <lastBuildDate>Fri, 24 Nov 2017 20:26:53 +0700</lastBuildDate>
+    
+	<atom:link href="https://ezaurum.com/categories/%EC%9D%BC%EC%83%81/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Move to Hugo</title>
+      <link>https://ezaurum.com/2017/11/Move-to-Hugo/</link>
+      <pubDate>Fri, 24 Nov 2017 20:26:53 +0700</pubDate>
+      
+      <guid>https://ezaurum.com/2017/11/Move-to-Hugo/</guid>
+      <description>휴고로 옮겼다. 지킬이 뭐 나쁜 건 아니었&amp;hellip;지만 어째선지 테마 바꾸니까 제대로 돌지도 않고 익숙지 않은 루비 코드 보기도 좀 뭣하고 github에 올리는 것도 어쩐지 애매모호 하달까 해서 그냥 go 기반으로 옮겨왔다.</description>
+    </item>
+    
+  </channel>
+</rss>

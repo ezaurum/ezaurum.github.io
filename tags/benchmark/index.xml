@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Benchmark on Ezaurum&#39;s Blog</title>
+    <link>https://ezaurum.com/tags/benchmark/</link>
+    <description>Recent content in Benchmark on Ezaurum&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <copyright>© Ezaurum 2001-</copyright>
+    <lastBuildDate>Fri, 03 May 2013 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ezaurum.com/tags/benchmark/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>redis benchmark 사용법</title>
+      <link>https://ezaurum.com/2013/05/redis-benchmark-%EC%82%AC%EC%9A%A9%EB%B2%95/</link>
+      <pubDate>Fri, 03 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2013/05/redis-benchmark-%EC%82%AC%EC%9A%A9%EB%B2%95/</guid>
+      <description>redis 실제 사용할 때 성능 체크를 해 보는 간단한 방법 $ ./redis-benchmark -n 30 -r 32 -d 1024 -c 1000
+-n 반복 횟수 -r 키 길이(바이트) -d 데이터 길이(바이트) -c 동접 클라이언트 갯수
+코어2 듀오, 램 2기가 리눅스 민트에서 실험해 본 결과 대충 1666 request/s 고, 17ms안에 모든 응답이 돌아왔다.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>잡담 on Ezaurum&#39;s Blog</title>
+    <link>https://ezaurum.com/tags/%EC%9E%A1%EB%8B%B4/</link>
+    <description>Recent content in 잡담 on Ezaurum&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <copyright>© Ezaurum 2001-</copyright>
+    <lastBuildDate>Wed, 24 Dec 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ezaurum.com/tags/%EC%9E%A1%EB%8B%B4/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>미야베 미유키</title>
+      <link>https://ezaurum.com/2014/12/%EB%AF%B8%EC%95%BC%EB%B2%A0-%EB%AF%B8%EC%9C%A0%ED%82%A4/</link>
+      <pubDate>Wed, 24 Dec 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2014/12/%EB%AF%B8%EC%95%BC%EB%B2%A0-%EB%AF%B8%EC%9C%A0%ED%82%A4/</guid>
+      <description>올해는 미야베 미유키 책을 많이 읽었다. 거의 국내에 나온 책을 다 읽을 요량으로 봤는데, 그러다 보니 봤는지 안 봤는지도 헷갈리고, 책 내용이 섞이는 경우도 생긴다. 그렇게 보다 보니 비슷한 패턴이랄까가 보이는데, 일단 미야베 월드에는 악역이 없다. 편하게 미워하면 되는 그런 악연은 없다고 말할 수도 있겠다.
+나에게는 소독약 같은 책이다. 과산화수소수, 한 방울 떨어트리면 상처 주변에서 촤-하고 거품이 올라온다. 나도 모르고 있던 오래된 상처에서 아직도 피가 나는구나 하는 생각에 상처를 한참 보게 되는 그런 책.</description>
+    </item>
+    
+    <item>
+      <title>자주 포스팅  하자</title>
+      <link>https://ezaurum.com/2012/03/%EC%9E%90%EC%A3%BC-%ED%8F%AC%EC%8A%A4%ED%8C%85--%ED%95%98%EC%9E%90/</link>
+      <pubDate>Mon, 26 Mar 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2012/03/%EC%9E%90%EC%A3%BC-%ED%8F%AC%EC%8A%A4%ED%8C%85--%ED%95%98%EC%9E%90/</guid>
+      <description>iBus가 마지막 글자를 씹어먹는 현상이 있건 어쨌건, 피곤하건 어쨌건, 일 주일에 몇 번은 포스팅을 하자. 말을 안 하니까 더 못하게 된다. 그런 생각으로 오늘 한 일을 정리하려고 포스팅을 올리다 보니 java컴파일러가 없어. 그래서 JDK를 깔아. 기다려. 트위터를 좀 해. 그러다 보니 벌써 한시 16분&amp;hellip; 빨리 마무리 하고 자야겠다.</description>
+    </item>
+    
+  </channel>
+</rss>

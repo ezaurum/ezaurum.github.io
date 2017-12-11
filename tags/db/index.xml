@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Db on Ezaurum&#39;s Blog</title>
+    <link>https://ezaurum.com/tags/db/</link>
+    <description>Recent content in Db on Ezaurum&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <copyright>© Ezaurum 2001-</copyright>
+    <lastBuildDate>Thu, 25 Dec 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ezaurum.com/tags/db/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>C# DB 라이브러리 비교</title>
+      <link>https://ezaurum.com/2014/12/C#-DB-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-%EB%B9%84%EA%B5%90/</link>
+      <pubDate>Thu, 25 Dec 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2014/12/C#-DB-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-%EB%B9%84%EA%B5%90/</guid>
+      <description>별로 구체적으로 비교를 해 본 것은 아니지만, 지난 두 달간 이런저런 삽질을 한 결과를 정리한다.  Linq To SQL - MS스러운 DB라이브러리  장점 - IDE에 통합된 사용환경, VS에서 DB에 연결 후, 테이블을 끌어오는 것만으로도 바로 도메인 객체가 생성된다. 속도가 빠르다. 복잡한 쿼리에 신경 안 써도 된다. 러닝커브 작음. 단점 - 자동생성되는 도메인 객체가 복잡하다. 로직이 들어가야 하는 경우 매우 곤란해진다. POCO객체는 불가능. 추가 수정도 귀찮다. 적절한 사용처 - 이미 DB가 존재하고, 거기에 간단한 CRUD연산을 해야 하는 웹 툴 정도를 붙이는 경우.</description>
+    </item>
+    
+    <item>
+      <title>pg_hba.conf load fail error</title>
+      <link>https://ezaurum.com/2014/10/pg_hba.conf-load-fail-error/</link>
+      <pubDate>Fri, 10 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2014/10/pg_hba.conf-load-fail-error/</guid>
+      <description>pg_hba.conf load fail error가 발생. 설정 파일 내부에 항목이 하나도 없으면 로드에 에러 발생 기본 항목 주석 해제로 해결</description>
+    </item>
+    
+    <item>
+      <title>PL/SQL for 문</title>
+      <link>https://ezaurum.com/2011/11/PL/SQL-for-%EB%AC%B8/</link>
+      <pubDate>Fri, 11 Nov 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2011/11/PL/SQL-for-%EB%AC%B8/</guid>
+      <description>기억을 위한 메모용이라고 되어 있는 글을 복구.
+상황 몇 개 게시판의 글 내용을 모두 하나의 게시판(id=111)으로 옮겨야 했다. 게시판은 글 제목과 글 번호가 있는 board게시판이 하나, 글내용과 글 번호, 내용 순서 번호가 들어있는 contents게시판이 하나 있는 상황이었다. 게시판이 이 상황이 된 이유는, 언제적인지 모르지만, 한 컬럼에 들어가는 용량제한이 있었던 모양이고, 그 용량제한을 회피하고자 이렇게 짠 모양인데&amp;hellip; 문제는 소스가 잘못되서 제한보다 훨씬 적은 용량으로 글을 잘랐&amp;hellip; 일단 그래서 간단히 PL/SQL을 짜 봤다.</description>
+    </item>
+    
+  </channel>
+</rss>

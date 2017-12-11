@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>신기술 on Ezaurum&#39;s Blog</title>
+    <link>https://ezaurum.com/tags/%EC%8B%A0%EA%B8%B0%EC%88%A0/</link>
+    <description>Recent content in 신기술 on Ezaurum&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <copyright>© Ezaurum 2001-</copyright>
+    <lastBuildDate>Thu, 22 Jul 2010 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ezaurum.com/tags/%EC%8B%A0%EA%B8%B0%EC%88%A0/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>내일은 휴가...</title>
+      <link>https://ezaurum.com/2010/07/%EB%82%B4%EC%9D%BC%EC%9D%80-%ED%9C%B4%EA%B0%80.../</link>
+      <pubDate>Thu, 22 Jul 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2010/07/%EB%82%B4%EC%9D%BC%EC%9D%80-%ED%9C%B4%EA%B0%80.../</guid>
+      <description>그래서 마음이 들떠 이리저리 보노라니&amp;hellip;
+어라? 이클립스 헬리오스가 떴네? 깔고 보니&amp;hellip; 어라? tomcat 7.0? 뭐가 달라졌지? 어라? Glassfish는 또 뭐야? 어라? Geronimo? 이건 또 뭐지?
+&amp;hellip;결론. 이클립스 하나 깔려다가 하루 다 갔다.</description>
+    </item>
+    
+  </channel>
+</rss>

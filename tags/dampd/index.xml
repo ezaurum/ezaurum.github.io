@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dampd on Ezaurum&#39;s Blog</title>
+    <link>https://ezaurum.com/tags/dampd/</link>
+    <description>Recent content in Dampd on Ezaurum&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <copyright>© Ezaurum 2001-</copyright>
+    <lastBuildDate>Mon, 27 Jan 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ezaurum.com/tags/dampd/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>D&amp;D가 40주년이라고 한다</title>
+      <link>https://ezaurum.com/2014/01/DD%EA%B0%80-40%EC%A3%BC%EB%85%84%EC%9D%B4%EB%9D%BC%EA%B3%A0-%ED%95%9C%EB%8B%A4/</link>
+      <pubDate>Mon, 27 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2014/01/DD%EA%B0%80-40%EC%A3%BC%EB%85%84%EC%9D%B4%EB%9D%BC%EA%B3%A0-%ED%95%9C%EB%8B%A4/</guid>
+      <description>그 때 게임을 만들고 싶어하던 아이는 길을 돌고돌고돌아와서 결국 게임을 만들고는 있는데&amp;hellip; 그 마음은 그대로일까.</description>
+    </item>
+    
+  </channel>
+</rss>

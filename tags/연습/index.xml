@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>연습 on Ezaurum&#39;s Blog</title>
+    <link>https://ezaurum.com/tags/%EC%97%B0%EC%8A%B5/</link>
+    <description>Recent content in 연습 on Ezaurum&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <copyright>© Ezaurum 2001-</copyright>
+    <lastBuildDate>Fri, 06 Aug 2010 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ezaurum.com/tags/%EC%97%B0%EC%8A%B5/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>내 문제점 분석</title>
+      <link>https://ezaurum.com/2010/08/%EB%82%B4-%EB%AC%B8%EC%A0%9C%EC%A0%90-%EB%B6%84%EC%84%9D/</link>
+      <pubDate>Fri, 06 Aug 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2010/08/%EB%82%B4-%EB%AC%B8%EC%A0%9C%EC%A0%90-%EB%B6%84%EC%84%9D/</guid>
+      <description>이론의 뼈대만 알고서 다 알았다고 생각한다는 점. 근의 공식만 안다고 해서 모든 2차 방정식 문제를 풀 수 있다고 생각하는 것이다. 절대적인 연습부족이다. 뭐든지 한 번에 다 잘하려고 하는 태도라고도 볼 수 있겠다. 그러면서 한 번에 안되면 좌절한다. 그냥 계란으로 바위를 백만번 쳐 봐야 계란이 깨질 뿐이다. 바위를 연구해서 깨질 만한 자리를 찾고, 계란을 연구해서 단단하게 만들 방안도 찾고, 때리는 폼을 연구해서 가장 힘을 잘 전달할 자세와 속도를 찾아낸 다음에도, 백만번 해 봐야 할 일이다.</description>
+    </item>
+    
+  </channel>
+</rss>

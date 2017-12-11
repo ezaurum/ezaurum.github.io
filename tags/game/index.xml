@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Game on Ezaurum&#39;s Blog</title>
+    <link>https://ezaurum.com/tags/game/</link>
+    <description>Recent content in Game on Ezaurum&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <copyright>© Ezaurum 2001-</copyright>
+    <lastBuildDate>Thu, 25 Dec 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ezaurum.com/tags/game/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>게임 제작 관련 링크</title>
+      <link>https://ezaurum.com/2014/12/%EA%B2%8C%EC%9E%84-%EC%A0%9C%EC%9E%91-%EA%B4%80%EB%A0%A8-%EB%A7%81%ED%81%AC/</link>
+      <pubDate>Thu, 25 Dec 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2014/12/%EA%B2%8C%EC%9E%84-%EC%A0%9C%EC%9E%91-%EA%B4%80%EB%A0%A8-%EB%A7%81%ED%81%AC/</guid>
+      <description>게임 제작에 관한 링크 모음 게임 프로그래밍 패턴에 관한 책</description>
+    </item>
+    
+  </channel>
+</rss>

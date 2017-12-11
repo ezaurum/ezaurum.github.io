@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>삽입 정렬 on Ezaurum&#39;s Blog</title>
+    <link>https://ezaurum.com/tags/%EC%82%BD%EC%9E%85-%EC%A0%95%EB%A0%AC/</link>
+    <description>Recent content in 삽입 정렬 on Ezaurum&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <copyright>© Ezaurum 2001-</copyright>
+    <lastBuildDate>Fri, 14 Jan 2011 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ezaurum.com/tags/%EC%82%BD%EC%9E%85-%EC%A0%95%EB%A0%AC/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Insertion Sort</title>
+      <link>https://ezaurum.com/2011/01/Insertion-Sort/</link>
+      <pubDate>Fri, 14 Jan 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2011/01/Insertion-Sort/</guid>
+      <description>void insertionSort(int * array, int size) { int j = 0; int temp = 0; for (int i = 1; i &amp;lt; size ; i++) { j = 0; while(j array[j]) { j++; } else { temp = array[i]; for ( int k = i; k &amp;gt; j; k&amp;ndash;) { array[k] = array[k-1]; } array[j] = temp; j = i; } } } }
+void insertionSort2(int * array, int size) { int j = 0; for (int i = 1; i 0 &amp;amp;&amp;amp; array[j-1] &amp;gt; array[j] ) { swap(array[j-1],array[j]); j&amp;ndash;; } } }</description>
+    </item>
+    
+  </channel>
+</rss>

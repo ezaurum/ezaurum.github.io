@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>휴가 on Ezaurum&#39;s Blog</title>
+    <link>https://ezaurum.com/tags/%ED%9C%B4%EA%B0%80/</link>
+    <description>Recent content in 휴가 on Ezaurum&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <copyright>© Ezaurum 2001-</copyright>
+    <lastBuildDate>Thu, 16 Sep 2010 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ezaurum.com/tags/%ED%9C%B4%EA%B0%80/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>IE9이 나왔다</title>
+      <link>https://ezaurum.com/2010/09/IE9%EC%9D%B4-%EB%82%98%EC%99%94%EB%8B%A4/</link>
+      <pubDate>Thu, 16 Sep 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2010/09/IE9%EC%9D%B4-%EB%82%98%EC%99%94%EB%8B%A4/</guid>
+      <description>윈도우7 이후로 가장 기대되는 M$물건. 하지만 XP에서는 깔아볼 수도 없&amp;hellip; &amp;hellip;휴가 보내주세요. 현기증 난단 말이에요. ORL</description>
+    </item>
+    
+    <item>
+      <title>내일은 휴가...</title>
+      <link>https://ezaurum.com/2010/07/%EB%82%B4%EC%9D%BC%EC%9D%80-%ED%9C%B4%EA%B0%80.../</link>
+      <pubDate>Thu, 22 Jul 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2010/07/%EB%82%B4%EC%9D%BC%EC%9D%80-%ED%9C%B4%EA%B0%80.../</guid>
+      <description>그래서 마음이 들떠 이리저리 보노라니&amp;hellip;
+어라? 이클립스 헬리오스가 떴네? 깔고 보니&amp;hellip; 어라? tomcat 7.0? 뭐가 달라졌지? 어라? Glassfish는 또 뭐야? 어라? Geronimo? 이건 또 뭐지?
+&amp;hellip;결론. 이클립스 하나 깔려다가 하루 다 갔다.</description>
+    </item>
+    
+    <item>
+      <title>첫 휴가</title>
+      <link>https://ezaurum.com/2009/12/%EC%B2%AB-%ED%9C%B4%EA%B0%80/</link>
+      <pubDate>Sun, 13 Dec 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2009/12/%EC%B2%AB-%ED%9C%B4%EA%B0%80/</guid>
+      <description>정확히는 신병 위로 휴가였던가. 3.4초라는 말이 실감난다. 8시간 후에는 부대로 복귀해 있어야겠지. 여러가지 생각이 많았는데, 정리할 여유도 없었다. 아니, 정리하려고 하지 않았다는 게 맞겠지. 6주 뒤에 다시 나올 때는 여유가 있기를.</description>
+    </item>
+    
+  </channel>
+</rss>

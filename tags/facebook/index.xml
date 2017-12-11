@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Facebook on Ezaurum&#39;s Blog</title>
+    <link>https://ezaurum.com/tags/facebook/</link>
+    <description>Recent content in Facebook on Ezaurum&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <copyright>© Ezaurum 2001-</copyright>
+    <lastBuildDate>Fri, 11 Dec 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ezaurum.com/tags/facebook/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>페북 로그인 연동</title>
+      <link>https://ezaurum.com/2015/12/%ED%8E%98%EB%B6%81-%EB%A1%9C%EA%B7%B8%EC%9D%B8-%EC%97%B0%EB%8F%99/</link>
+      <pubDate>Fri, 11 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2015/12/%ED%8E%98%EB%B6%81-%EB%A1%9C%EA%B7%B8%EC%9D%B8-%EC%97%B0%EB%8F%99/</guid>
+      <description>페이스북 유니티3D 연동은 좋은 자료가 많다.
+페이스 북 연동이라고 해도 사실 Graph API를 쓸 일은 잘 없으니 액세스 토큰 받아오는 거랑, 퍼미션 창 띄우는 부분에서 에디터인 경우 레거시 GUI를 쓰고 있어서 그 부분만 정리했다.
+https://gist.github.com/ezaurum/80c7b509fe5d6458e831.js</description>
+    </item>
+    
+  </channel>
+</rss>

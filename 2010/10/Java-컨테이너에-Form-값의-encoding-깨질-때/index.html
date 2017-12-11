@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang='ko-kr'>
+<head>
+    <meta charset="UTF-8">
+    
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-40920966-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-40920966-1');
+</script>
+
+
+    <title>   Java 컨테이너에 Form 값의 encoding 깨질 때 -  Ezaurum&#39;s Blog </title>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body class='index'>
+
+    <header>
+    <nav>
+
+    <a href="https://ezaurum.com/about/">About</a>
+
+    <a href="https://ezaurum.com/">Ezaurum&#39;s Blog</a>
+
+</nav>
+</header>
+
+
+
+
+<main class="post single">
+<h1>Java 컨테이너에 Form 값의 encoding 깨질 때</h1>
+2010-10-22
+<section><p>점검사항은 아래 세가지.
+<ol>
+    <li>폼에서 정확히 인코딩을 지정해서 넘겨주는가?</li>
+    <li>서버에서 정확히 인코딩을 인식하는가?</li>
+    <li>DB에서 정확히 인코딩을 인식하는가?</li>
+</ol>
+이다.
+<ol>    <li>폼에서 정확히 인코딩을 지정해서 념겨주는가?
+<p>이 경우는 일단 문서 첫머리에 meta태그가 utf-8으로 지정되어 있고, 폼에 accept-charset 어트리뷰트가 지정되어 있고, 브라우저에서 확인해서 문서가 utf-8으로 읽히는 상황이라면 문제 없다고 보면 된다. UTF-8으로 나와야 하는 페이지가 UTF-8으로 안나오는 경우는 여기서 다룰 게 아니다.</p>
+<code>
+&lt;meta http-equiv=&ldquo;Content-Type&rdquo; content=&ldquo;text/html; charset=UTF-8&rdquo; /&gt;
+&lt;meta charset=&ldquo;UTF-8&rdquo; /&gt;
+&lt;form accept-charset=&ldquo;UTF-8&rdquo; &gt;
+</code>
+</li>   <li>서버에서 인코딩을 제대로 인식하는가?
+<p>경험상 대부분 문제는 여기서 발생한다. 특히 서버 관리자와 프로그래머가 독립적으로 있고, 서로 업무 연계가 힘든 상황이라면 더욱 문제다. 가능하면 인코딩을 서버 설정에 맞추자.
+java라면 아래와 같이 해결.
+<code>request.setCharacterSet(&ldquo;utf-8&rdquo;); </code>
+php도 비슷한 게 있을 터다. 하지만 여기서는 문제를 못 봤으니까 빼고. 일단 대부분의 문제는 저걸로 해결될 거다.
+</p></p>
+
+<p></li>   <li>DB에서 정확히 인코딩을 이해하는가?</li>
+<p>DB님에게는 개기지 말자. 원하시는 인코딩을 알아낸 다음, 어떻게든 맞춰서 보내주자. 사실 이쪽은 잘 모르겠다. 문제 일어난 적도 없고. 인코딩이 달라도 잘 되더라.</p></p>
+
+<p>포인트는 이것, <strong>원인은 크게 세가지니까 하나씩 제대로 되었는지 시험해볼것.</strong></p>
+</section>
+
+
+
+
+    <ul class="taxonomy tag">
+        Tag
+        
+        <li><a href="/tags/encoding">encoding</a></li>
+        
+        <li><a href="/tags/form">form</a></li>
+        
+        <li><a href="/tags/%ED%95%B4%EA%B2%B0%EB%B2%95">해결법</a></li>
+        
+        <li><a href="/tags/java">java</a></li>
+        
+        <li><a href="/tags/jsp">jsp</a></li>
+        
+        <li><a href="/tags/Programming">Programming</a></li>
+        
+        <li><a href="/tags/request">request</a></li>
+        
+        <li><a href="/tags/utf-8">utf-8</a></li>
+        
+        <li><a href="/tags/web">web</a></li>
+        </ul>
+    </ul>
+
+
+
+<a href="https://ezaurum.com/2010/12/%EC%9D%B4-%EC%B1%85%EC%9D%84-%EA%B6%8C%ED%95%9C%EB%8B%A4/"> 이 책을 권한다</a>
+
+
+<a href="https://ezaurum.com/2010/10/%EC%84%B1%EA%B3%BC%EB%AC%BC-2010%EB%85%84-10%EC%9B%94-%EC%A4%91%EC%88%9C/">성과물 2010년 10월 중순</a>
+
+
+
+
+
+    <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "ezaurum" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3471055249244195"
+     data-ad-slot="7282877318"
+     data-ad-format="auto"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+</main>
+
+
+
+    <footer>
+© Ezaurum 2001-
+</footer>
+
+
+
+
+
+    <script>
+
+</script>
+
+
+</body>
+</html>

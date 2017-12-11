@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Orm on Ezaurum&#39;s Blog</title>
+    <link>https://ezaurum.com/tags/orm/</link>
+    <description>Recent content in Orm on Ezaurum&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <copyright>© Ezaurum 2001-</copyright>
+    <lastBuildDate>Sun, 01 Jul 2012 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ezaurum.com/tags/orm/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>한 줄 정리</title>
+      <link>https://ezaurum.com/2012/07/%ED%95%9C-%EC%A4%84-%EC%A0%95%EB%A6%AC/</link>
+      <pubDate>Sun, 01 Jul 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2012/07/%ED%95%9C-%EC%A4%84-%EC%A0%95%EB%A6%AC/</guid>
+      <description>@OneToOne 에서는 Lazy 페칭이 안 먹음</description>
+    </item>
+    
+  </channel>
+</rss>

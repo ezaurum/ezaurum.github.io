@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dev on Ezaurum&#39;s Blog</title>
+    <link>https://ezaurum.com/tags/dev/</link>
+    <description>Recent content in Dev on Ezaurum&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <copyright>© Ezaurum 2001-</copyright>
+    <lastBuildDate>Sun, 25 Nov 2012 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ezaurum.com/tags/dev/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Raspberry pi에 개발서버 셋팅</title>
+      <link>https://ezaurum.com/2012/11/Raspberry-pi%EC%97%90-%EA%B0%9C%EB%B0%9C%EC%84%9C%EB%B2%84-%EC%85%8B%ED%8C%85/</link>
+      <pubDate>Sun, 25 Nov 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2012/11/Raspberry-pi%EC%97%90-%EA%B0%9C%EB%B0%9C%EC%84%9C%EB%B2%84-%EC%85%8B%ED%8C%85/</guid>
+      <description>일단 라스베리 파이 파티션을 sd카드를 다 채우게 확장하기. 이걸 안 하면 깔다가 용량부족하다고 에러를 뱉는다. [youtube https://www.youtube.com/watch?v=R4VovMDnsIE&amp;amp;w=560&amp;amp;h=315] 동영상에서는 fdisk -uc 라고 했는데, 나는 fdisk -u -c 로 해야 되었다. 파티션이 3개가 아니라 처음부터 2개고, 첫번째 파티션이 0부터 시작하질 않아서 새로 파티션을 만들 때 이상한 위치가 잡혀서 숫자를 입력해 줘야 했다. sd카드를 빠른 걸 샀더니 의외로 금방 끝났다. 동영상은 4mb/s인데 내 껀 29.9mb/s&amp;hellip; 타이핑이 힘든 경우 여기에서 복사.   초기 셋팅 참고 링크 이거 따라서 다 했다.</description>
+    </item>
+    
+    <item>
+      <title>가상머신에 서버 셋팅 하고 나니까 깨달았는데...</title>
+      <link>https://ezaurum.com/2012/11/%EA%B0%80%EC%83%81%EB%A8%B8%EC%8B%A0%EC%97%90-%EC%84%9C%EB%B2%84-%EC%85%8B%ED%8C%85-%ED%95%98%EA%B3%A0-%EB%82%98%EB%8B%88%EA%B9%8C-%EA%B9%A8%EB%8B%AC%EC%95%98%EB%8A%94%EB%8D%B0.../</link>
+      <pubDate>Sun, 25 Nov 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2012/11/%EA%B0%80%EC%83%81%EB%A8%B8%EC%8B%A0%EC%97%90-%EC%84%9C%EB%B2%84-%EC%85%8B%ED%8C%85-%ED%95%98%EA%B3%A0-%EB%82%98%EB%8B%88%EA%B9%8C-%EA%B9%A8%EB%8B%AC%EC%95%98%EB%8A%94%EB%8D%B0.../</guid>
+      <description>나 왜 라즈베리 파이를 놀려두고 있었지.. OTL&amp;hellip;
+&amp;hellip;그래서 오늘 밤은 거기다 다시 셋팅해야&amp;hellip; OTL&amp;hellip;
+일단 할 거 목록을 적으면&amp;hellip;  라즈베리 파이에 필요한 것들을 깐다. - 기본 설정은 되어 있으니 apt-get으로 대충&amp;hellip;  nexus - 지난 주에 배웠으니 어디&amp;hellip; git - github는 public이라.. 거기 돈을 내고 private을 할까 이거 전기세가 쌀까 생각중&amp;hellip; jenkins - 음.. 어디 한 번&amp;hellip; gradle - 어디 써 보자.. ftp - 혹시나.   아무거나 빌드해서 올려본다 - 되는가 test 해 봄 리셋해도 바뀌지 않도록 각 PC의 내부 IP를 고정한다.</description>
+    </item>
+    
+  </channel>
+</rss>

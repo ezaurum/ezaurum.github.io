@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Upgrade on Ezaurum&#39;s Blog</title>
+    <link>https://ezaurum.com/tags/upgrade/</link>
+    <description>Recent content in Upgrade on Ezaurum&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <copyright>© Ezaurum 2001-</copyright>
+    <lastBuildDate>Wed, 08 May 2013 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ezaurum.com/tags/upgrade/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>AWS ec2 open-jdk7으로 업그레이드</title>
+      <link>https://ezaurum.com/2013/05/AWS-ec2-open-jdk7%EC%9C%BC%EB%A1%9C-%EC%97%85%EA%B7%B8%EB%A0%88%EC%9D%B4%EB%93%9C/</link>
+      <pubDate>Wed, 08 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2013/05/AWS-ec2-open-jdk7%EC%9C%BC%EB%A1%9C-%EC%97%85%EA%B7%B8%EB%A0%88%EC%9D%B4%EB%93%9C/</guid>
+      <description>일단 open jdk 7 을 설치한다. sudo yum install java-1.7.0-openjdk  그 다음 java에 걸려 있는 심볼릭 링크를 바꿔줘야 하는데, /usr/bin/java -&amp;gt; /etc/alternatives/java -&amp;gt; -&amp;gt; /usr/lib/jvm/(현재 jre)/bin/java 이렇게 되어 있으므로,  sudo ln -s /usr/lib/jvm/jre-1.7.0-openjdk.x86_64/bin/java /etc/alternatives/java7 sudo mv /etc/alternatives/java7 /etc/alternatives/java  을 실행해서 심볼릭 링크를 바꿔준다. 지우고 다시 걸어도 되지만, 일단 지우고 거는 사이에 전 링크가 끊어지므로 가능한 영향을 적게 하기 위해서&amp;hellip;
+ln -s /location/to/link2 newlink mv newlink linkname</description>
+    </item>
+    
+  </channel>
+</rss>

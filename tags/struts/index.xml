@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Struts on Ezaurum&#39;s Blog</title>
+    <link>https://ezaurum.com/tags/struts/</link>
+    <description>Recent content in Struts on Ezaurum&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <copyright>© Ezaurum 2001-</copyright>
+    <lastBuildDate>Wed, 30 Jun 2010 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ezaurum.com/tags/struts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>성과물 2010년 6월 말</title>
+      <link>https://ezaurum.com/2010/06/%EC%84%B1%EA%B3%BC%EB%AC%BC-2010%EB%85%84-6%EC%9B%94-%EB%A7%90/</link>
+      <pubDate>Wed, 30 Jun 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2010/06/%EC%84%B1%EA%B3%BC%EB%AC%BC-2010%EB%85%84-6%EC%9B%94-%EB%A7%90/</guid>
+      <description>이미 있는 홈페이지에서 팝업으로 폼을 입력받아 그 결과 처리
+실 소요시간 16시간 정도.
+간단한 작업 이지만, 프레임워크에 대한 이해가 없어서 꽤 오래 걸렸다.
+소득 - iBatis, Struts에 대한 이해가 조금 늘었다.
+역시 프로젝트를 하면서 이해하는 쪽이 빠르다. - 또한 가르쳐줄 사람이 있는 쪽이 훨씬 빠르다.
+ZPD에 대한 생각을 하게 되었다.
+그것과 관련해서 인강이 쓸모없지는 않구나 하는 생각을 하였다. - 그래서 PMP에 대한 구매욕구가 생겼다.</description>
+    </item>
+    
+  </channel>
+</rss>

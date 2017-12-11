@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>좀비 on Ezaurum&#39;s Blog</title>
+    <link>https://ezaurum.com/tags/%EC%A2%80%EB%B9%84/</link>
+    <description>Recent content in 좀비 on Ezaurum&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <copyright>© Ezaurum 2001-</copyright>
+    <lastBuildDate>Sun, 16 May 2010 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ezaurum.com/tags/%EC%A2%80%EB%B9%84/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>세계대전Z</title>
+      <link>https://ezaurum.com/2010/05/%EC%84%B8%EA%B3%84%EB%8C%80%EC%A0%84Z/</link>
+      <pubDate>Sun, 16 May 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2010/05/%EC%84%B8%EA%B3%84%EB%8C%80%EC%A0%84Z/</guid>
+      <description>상민이한테서 빌려봄. ISBN(13자리) : 9788960171961
+좀비물이라고 되어 있지만, 중요한 것은 좀비가 아니다. 사람이지.
+어떻게 이런 생각을 할 수 있을까 싶을 정도로 참신했다.</description>
+    </item>
+    
+  </channel>
+</rss>

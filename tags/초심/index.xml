@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>초심 on Ezaurum&#39;s Blog</title>
+    <link>https://ezaurum.com/tags/%EC%B4%88%EC%8B%AC/</link>
+    <description>Recent content in 초심 on Ezaurum&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <copyright>© Ezaurum 2001-</copyright>
+    <lastBuildDate>Mon, 11 Jul 2011 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ezaurum.com/tags/%EC%B4%88%EC%8B%AC/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>프로그래머의 길 멘토에게 묻다</title>
+      <link>https://ezaurum.com/2011/07/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%9D%98-%EA%B8%B8-%EB%A9%98%ED%86%A0%EC%97%90%EA%B2%8C-%EB%AC%BB%EB%8B%A4/</link>
+      <pubDate>Mon, 11 Jul 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2011/07/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%9D%98-%EA%B8%B8-%EB%A9%98%ED%86%A0%EC%97%90%EA%B2%8C-%EB%AC%BB%EB%8B%A4/</guid>
+      <description>제목 그대로, 멘토에게 물어보면 대답할 만한 이야기였다.
+나같은 초보에게 추천. 열심히 해야겠다.</description>
+    </item>
+    
+  </channel>
+</rss>

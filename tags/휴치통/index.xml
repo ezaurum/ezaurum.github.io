@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>휴치통 on Ezaurum&#39;s Blog</title>
+    <link>https://ezaurum.com/tags/%ED%9C%B4%EC%B9%98%ED%86%B5/</link>
+    <description>Recent content in 휴치통 on Ezaurum&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <copyright>© Ezaurum 2001-</copyright>
+    <lastBuildDate>Fri, 28 Jun 2013 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ezaurum.com/tags/%ED%9C%B4%EC%B9%98%ED%86%B5/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>루분투 휴지통 위치</title>
+      <link>https://ezaurum.com/2013/06/%EB%A3%A8%EB%B6%84%ED%88%AC-%ED%9C%B4%EC%A7%80%ED%86%B5-%EC%9C%84%EC%B9%98/</link>
+      <pubDate>Fri, 28 Jun 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2013/06/%EB%A3%A8%EB%B6%84%ED%88%AC-%ED%9C%B4%EC%A7%80%ED%86%B5-%EC%9C%84%EC%B9%98/</guid>
+      <description>루분투 휴지통은 ~/.local/share/Trash 에 있다.</description>
+    </item>
+    
+  </channel>
+</rss>

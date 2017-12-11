@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Spring Mvc on Ezaurum&#39;s Blog</title>
+    <link>https://ezaurum.com/tags/spring-mvc/</link>
+    <description>Recent content in Spring Mvc on Ezaurum&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <copyright>© Ezaurum 2001-</copyright>
+    <lastBuildDate>Tue, 25 Jun 2013 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ezaurum.com/tags/spring-mvc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>controller에서 특정 메소드가 List을 반환할 때</title>
+      <link>https://ezaurum.com/2013/06/controller%EC%97%90%EC%84%9C-%ED%8A%B9%EC%A0%95-%EB%A9%94%EC%86%8C%EB%93%9C%EA%B0%80-List%EC%9D%84-%EB%B0%98%ED%99%98%ED%95%A0-%EB%95%8C/</link>
+      <pubDate>Tue, 25 Jun 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2013/06/controller%EC%97%90%EC%84%9C-%ED%8A%B9%EC%A0%95-%EB%A9%94%EC%86%8C%EB%93%9C%EA%B0%80-List%EC%9D%84-%EB%B0%98%ED%99%98%ED%95%A0-%EB%95%8C/</guid>
+      <description>@ResponseBody를 안 붙여 주면 [&amp;ldquo;bla&amp;rdquo;,&amp;ldquo;bla&amp;rdquo;]꼴이 아니라 {&amp;ldquo;stringList&amp;rdquo;:[&amp;ldquo;bloa&amp;rdquo;,&amp;ldquo;bloa&amp;rdquo;] 꼴로 반환된다.</description>
+    </item>
+    
+    <item>
+      <title>spring @RequestMapping 우선순위</title>
+      <link>https://ezaurum.com/2013/05/spring-RequestMapping-%EC%9A%B0%EC%84%A0%EC%88%9C%EC%9C%84/</link>
+      <pubDate>Thu, 09 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2013/05/spring-RequestMapping-%EC%9A%B0%EC%84%A0%EC%88%9C%EC%9C%84/</guid>
+      <description>/*html pages*/ //매핑시 같은 URL에 produce 우선순위를 이용해 다른 메소드로 연결하고자 하면, URL value에 같은 값을 설정해 주어야 한다. // /*로 설정된 것은 /{variaBLE} 보다 나중에 검색된다. @RequestMapping(value={&#34;/&#34;,&#34;&#34;,&#34;/{questId}&#34;},method=RequestMethod.GET, produces=&#34;text/html&#34; ) public String getQuestIndex() { return &#34;quest&#34;; } /*json requests*/ @RequestMapping(value=&#34;/{questId}&#34;,method=RequestMethod.GET, produces = &#34;application/json&#34;) public @ResponseBody Quest getQuestDetail(@PathVariable(&#34;questId&#34;) long questId) { return questService.find(questId); } @RequestMapping(value={&#34;/&#34;,&#34;&#34;}, method = RequestMethod.GET, produces = &#34;application/json&#34;) public @ResponseBody Collection&amp;lt;Quest&amp;gt; updateQuestDetail() { return questService.findAll(); }  </description>
+    </item>
+    
+  </channel>
+</rss>

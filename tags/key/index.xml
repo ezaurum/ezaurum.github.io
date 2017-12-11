@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Key on Ezaurum&#39;s Blog</title>
+    <link>https://ezaurum.com/tags/key/</link>
+    <description>Recent content in Key on Ezaurum&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <copyright>© Ezaurum 2001-</copyright>
+    <lastBuildDate>Sun, 24 Nov 2013 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ezaurum.com/tags/key/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>소스트리 사용시 저장소 접근 키를 자동으로 로드하게 하기</title>
+      <link>https://ezaurum.com/2013/11/%EC%86%8C%EC%8A%A4%ED%8A%B8%EB%A6%AC-%EC%82%AC%EC%9A%A9%EC%8B%9C-%EC%A0%80%EC%9E%A5%EC%86%8C-%EC%A0%91%EA%B7%BC-%ED%82%A4%EB%A5%BC-%EC%9E%90%EB%8F%99%EC%9C%BC%EB%A1%9C-%EB%A1%9C%EB%93%9C%ED%95%98%EA%B2%8C-%ED%95%98%EA%B8%B0/</link>
+      <pubDate>Sun, 24 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2013/11/%EC%86%8C%EC%8A%A4%ED%8A%B8%EB%A6%AC-%EC%82%AC%EC%9A%A9%EC%8B%9C-%EC%A0%80%EC%9E%A5%EC%86%8C-%EC%A0%91%EA%B7%BC-%ED%82%A4%EB%A5%BC-%EC%9E%90%EB%8F%99%EC%9C%BC%EB%A1%9C-%EB%A1%9C%EB%93%9C%ED%95%98%EA%B2%8C-%ED%95%98%EA%B8%B0/</guid>
+      <description>http://blog.shvetsov.com/2010/03/making-pageant-automatically-load-keys.html 소스트리도 pageant를 이용하므로 이거와 같은 방식으로 하면 된다.</description>
+    </item>
+    
+  </channel>
+</rss>

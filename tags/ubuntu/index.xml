@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ubuntu on Ezaurum&#39;s Blog</title>
+    <link>https://ezaurum.com/tags/ubuntu/</link>
+    <description>Recent content in Ubuntu on Ezaurum&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <copyright>© Ezaurum 2001-</copyright>
+    <lastBuildDate>Mon, 20 May 2013 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ezaurum.com/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>unbuntu(mint)에서 jenkins 실행 포트 바꾸기</title>
+      <link>https://ezaurum.com/2013/05/unbuntumint%EC%97%90%EC%84%9C-jenkins-%EC%8B%A4%ED%96%89-%ED%8F%AC%ED%8A%B8-%EB%B0%94%EA%BE%B8%EA%B8%B0/</link>
+      <pubDate>Mon, 20 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2013/05/unbuntumint%EC%97%90%EC%84%9C-jenkins-%EC%8B%A4%ED%96%89-%ED%8F%AC%ED%8A%B8-%EB%B0%94%EA%BE%B8%EA%B8%B0/</guid>
+      <description>시작 스크립트는 /etc/init.d/jenkins에 저장된다. 거기 보면 /etc/default/jenkins를 불러오는 부분이 있을 텐데, 그걸 불러오면 port나 기타 필요한 부분을 다 바꿀 수 있다.</description>
+    </item>
+    
+    <item>
+      <title>윈도에서 USB 메모리에 우분투 설치 씨디 담기</title>
+      <link>https://ezaurum.com/2009/05/%EC%9C%88%EB%8F%84%EC%97%90%EC%84%9C-USB-%EB%A9%94%EB%AA%A8%EB%A6%AC%EC%97%90-%EC%9A%B0%EB%B6%84%ED%88%AC-%EC%84%A4%EC%B9%98-%EC%94%A8%EB%94%94-%EB%8B%B4%EA%B8%B0/</link>
+      <pubDate>Tue, 26 May 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2009/05/%EC%9C%88%EB%8F%84%EC%97%90%EC%84%9C-USB-%EB%A9%94%EB%AA%A8%EB%A6%AC%EC%97%90-%EC%9A%B0%EB%B6%84%ED%88%AC-%EC%84%A4%EC%B9%98-%EC%94%A8%EB%94%94-%EB%8B%B4%EA%B8%B0/</guid>
+      <description>이 사이트의 내용 참고.
+준비물 - 7zip %drive% &amp;ndash; drive 문자 format %drive%: /FS:fat32 /V:Ubuntu8 /Q 7z x .iso -x!bin -x!programs -x!isolinuxisolinux.txt -x![BOOT] -o%drive%: mkdir %drive%:syslinuxwin32 copy syslinuxwin32.* %drive%:syslinuxwin32 copy backg.png %drive%: copy syslinux.cfg %drive%: copy vesamenu.c32 %drive%: copy makeboot.bat %drive%: %drive%: copy isolinux. rd isolinux /s/q del isolinux.bin call %drive%:makeboot.bat</description>
+    </item>
+    
+    <item>
+      <title>Ubuntu Apache2 사용자별 웹 디렉토리 설정</title>
+      <link>https://ezaurum.com/2008/11/Ubuntu-Apache2-%EC%82%AC%EC%9A%A9%EC%9E%90%EB%B3%84-%EC%9B%B9-%EB%94%94%EB%A0%89%ED%86%A0%EB%A6%AC-%EC%84%A4%EC%A0%95/</link>
+      <pubDate>Sat, 29 Nov 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2008/11/Ubuntu-Apache2-%EC%82%AC%EC%9A%A9%EC%9E%90%EB%B3%84-%EC%9B%B9-%EB%94%94%EB%A0%89%ED%86%A0%EB%A6%AC-%EC%84%A4%EC%A0%95/</guid>
+      <description>http://leeted.egloos.com/1489000 위 링크 참고 했음.
+콘솔에서 입력.
+cd /etc/apache2/mods-available sudo cp userdir.conf userdir.load /etc/apache2/mods-enabled sudo /etc/init.d/apache2 restart
+이후, 각 유자가 자기 홈 디렉 토리에다 public_html을 만들어주면 된다. 아래와 같은 식? cd ~ mkdir public_html public_html 디렉토리 아래에 index.html 생성</description>
+    </item>
+    
+    <item>
+      <title>리눅스 삽질기 - 3 -</title>
+      <link>https://ezaurum.com/2008/11/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%82%BD%EC%A7%88%EA%B8%B0---3--/</link>
+      <pubDate>Mon, 17 Nov 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2008/11/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%82%BD%EC%A7%88%EA%B8%B0---3--/</guid>
+      <description>일단 gcc를 써 보자. 라고 생각해서 간단히 짜고 컴파일을 해보는데, 계속 에러. 구글링을 통해 해법을 찾았다. http://dantes.kr/blog/320 이 설명에서는 CD를 요구한다는데. 일단 8.10에서는 필요 없는듯?
+일단 이러고 나서, gcc 파일이름 이렇게 치면, 컴파일은 되는데, 실행이 안된다.
+왜?
+참고글 - http://wiki.kldp.org/KoreanDoc/html/gcc_and_make/gcc_and_make.html#toc2
+리눅스는 $ ./a.out 라는 식으로 실행해야 함.</description>
+    </item>
+    
+    <item>
+      <title>리눅스 삽질기 - 2 -</title>
+      <link>https://ezaurum.com/2008/11/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%82%BD%EC%A7%88%EA%B8%B0---2--/</link>
+      <pubDate>Sun, 16 Nov 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2008/11/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%82%BD%EC%A7%88%EA%B8%B0---2--/</guid>
+      <description>지난 번에 리눅스를 깔아놓기만 한 PC가 팔려나가 버려서, 다른 PC에 깔게 되었다. 이번에는 버전업 된 우분투 8.10을 설치. 32비트 버전이다.
+일단 텔넷을 깔아야 하므로 아래의 참고 링크. 설치법 - http://eloid.tistory.com/21 텔넷 포트 바꾸기 - http://rustymind.egloos.com/3310669
+오늘은 여기까지</description>
+    </item>
+    
+    <item>
+      <title>리눅스 삽질기 - 1 -</title>
+      <link>https://ezaurum.com/2008/10/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%82%BD%EC%A7%88%EA%B8%B0---1--/</link>
+      <pubDate>Fri, 17 Oct 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2008/10/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%82%BD%EC%A7%88%EA%B8%B0---1--/</guid>
+      <description>리눅스를 깔기로 결정했다. 몇 번이나 깔았다 지웠다를 반복한 지금, 결국 Vista 64 SP1을 기본으로 하고, Virtual PC를 이용해서, 사용하기로 함. virtual pc 2007 sp1은 여기서 받으면 됨. 다운로드 링크 정도는 알아서 찾자. 아래쪽에 64비트와 32비트 용으로 두 개가 있음.
+프로그램을 실행하고 MS사 물건답게, Next를 적당히 눌러주면 가상머신이 실행된다.
+여기까지 하다가, 만들어 보니 64비트 OS가 깔리지 않는다. 가상화는 무조건 32비트. 어째서일까. 혹시나 해서 Virtual BOX를 써 봤는데 기본 셋팅으로는 안 되고, 설정창에서 VT-X/AMD-V 설정을 켜 줘야 가능.</description>
+    </item>
+    
+    <item>
+      <title>Ubuntu를 설치했다.</title>
+      <link>https://ezaurum.com/2008/07/Ubuntu%EB%A5%BC-%EC%84%A4%EC%B9%98%ED%96%88%EB%8B%A4./</link>
+      <pubDate>Sat, 19 Jul 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2008/07/Ubuntu%EB%A5%BC-%EC%84%A4%EC%B9%98%ED%96%88%EB%8B%A4./</guid>
+      <description>지금까지 설치해 본 리눅스 중에 가장 성공적. Opera를 깔았고, 지금 포스팅도 할 수 있고, 음악도 들을 수 있다. 음악 들으면서 글을 쓸 수 있으면 이제 절반은 된 것, 동영상도 봐 진다!
+어째서 가장 쉬운 리눅스인가가 확실히 알 수 있다는 느낌.
+앞으로의 목표는 듀얼 모니터 설정과&amp;hellip; 그래픽 드라이버 설치-어째선지 그래픽 드라이버를 설치하면 X윈도우가 먹통이 되어버린다.</description>
+    </item>
+    
+    <item>
+      <title>Virtual Box</title>
+      <link>https://ezaurum.com/2008/07/Virtual-Box/</link>
+      <pubDate>Sat, 19 Jul 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2008/07/Virtual-Box/</guid>
+      <description>http://feryjunaedi.wordpress.com/2008/05/15/installing-virtualbox/</description>
+    </item>
+    
+    <item>
+      <title>네이트 온 설치 성공!</title>
+      <link>https://ezaurum.com/2008/07/%EB%84%A4%EC%9D%B4%ED%8A%B8-%EC%98%A8-%EC%84%A4%EC%B9%98-%EC%84%B1%EA%B3%B5/</link>
+      <pubDate>Sat, 19 Jul 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2008/07/%EB%84%A4%EC%9D%B4%ED%8A%B8-%EC%98%A8-%EC%84%A4%EC%B9%98-%EC%84%B1%EA%B3%B5/</guid>
+      <description>일단 리눅스에서 네이트온 설치까지 성공했다. 좀 불안정하긴 하지만, 돌아는 가니까 됐어. 근데 메일이 안 읽어진다. 우분투8.04 를 위한 64비트 버전이 없어서 그냥 대충 7.01 버전으로 깔았음.</description>
+    </item>
+    
+  </channel>
+</rss>

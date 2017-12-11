@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Virtual Box on Ezaurum&#39;s Blog</title>
+    <link>https://ezaurum.com/tags/virtual-box/</link>
+    <description>Recent content in Virtual Box on Ezaurum&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <copyright>© Ezaurum 2001-</copyright>
+    <lastBuildDate>Sat, 19 Jul 2008 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ezaurum.com/tags/virtual-box/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Virtual Box</title>
+      <link>https://ezaurum.com/2008/07/Virtual-Box/</link>
+      <pubDate>Sat, 19 Jul 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2008/07/Virtual-Box/</guid>
+      <description>http://feryjunaedi.wordpress.com/2008/05/15/installing-virtualbox/</description>
+    </item>
+    
+  </channel>
+</rss>

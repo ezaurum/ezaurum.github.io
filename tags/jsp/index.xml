@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jsp on Ezaurum&#39;s Blog</title>
+    <link>https://ezaurum.com/tags/jsp/</link>
+    <description>Recent content in Jsp on Ezaurum&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <copyright>© Ezaurum 2001-</copyright>
+    <lastBuildDate>Tue, 03 Jul 2012 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ezaurum.com/tags/jsp/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>이클립스에서 JSP를 열 때 JSP editor가 기본으로 열리게 하기</title>
+      <link>https://ezaurum.com/2012/07/%EC%9D%B4%ED%81%B4%EB%A6%BD%EC%8A%A4%EC%97%90%EC%84%9C-JSP%EB%A5%BC-%EC%97%B4-%EB%95%8C-JSP-editor%EA%B0%80-%EA%B8%B0%EB%B3%B8%EC%9C%BC%EB%A1%9C-%EC%97%B4%EB%A6%AC%EA%B2%8C-%ED%95%98%EA%B8%B0/</link>
+      <pubDate>Tue, 03 Jul 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2012/07/%EC%9D%B4%ED%81%B4%EB%A6%BD%EC%8A%A4%EC%97%90%EC%84%9C-JSP%EB%A5%BC-%EC%97%B4-%EB%95%8C-JSP-editor%EA%B0%80-%EA%B8%B0%EB%B3%B8%EC%9C%BC%EB%A1%9C-%EC%97%B4%EB%A6%AC%EA%B2%8C-%ED%95%98%EA%B8%B0/</guid>
+      <description>어째선지 가끔 JSP가 디자인 모드(HTML 디자인 편집기 같은 형태) 로 열릴 때가 있다. 그럴 때는 Window-&amp;gt;General-&amp;gt;Editors-&amp;gt;File Associations에서 JSP 파일을 찾고 아래쪽에서 JSP editor를 디폴트로 지정!</description>
+    </item>
+    
+    <item>
+      <title>Java 컨테이너에 Form 값의 encoding 깨질 때</title>
+      <link>https://ezaurum.com/2010/10/Java-%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88%EC%97%90-Form-%EA%B0%92%EC%9D%98-encoding-%EA%B9%A8%EC%A7%88-%EB%95%8C/</link>
+      <pubDate>Fri, 22 Oct 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2010/10/Java-%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88%EC%97%90-Form-%EA%B0%92%EC%9D%98-encoding-%EA%B9%A8%EC%A7%88-%EB%95%8C/</guid>
+      <description>점검사항은 아래 세가지.  폼에서 정확히 인코딩을 지정해서 넘겨주는가? 서버에서 정확히 인코딩을 인식하는가? DB에서 정확히 인코딩을 인식하는가?  이다.  폼에서 정확히 인코딩을 지정해서 념겨주는가? 이 경우는 일단 문서 첫머리에 meta태그가 utf-8으로 지정되어 있고, 폼에 accept-charset 어트리뷰트가 지정되어 있고, 브라우저에서 확인해서 문서가 utf-8으로 읽히는 상황이라면 문제 없다고 보면 된다. UTF-8으로 나와야 하는 페이지가 UTF-8으로 안나오는 경우는 여기서 다룰 게 아니다.
+ &amp;lt;meta http-equiv=&amp;ldquo;Content-Type&amp;rdquo; content=&amp;ldquo;text/html; charset=UTF-8&amp;rdquo; /&amp;gt; &amp;lt;meta charset=&amp;ldquo;UTF-8&amp;rdquo; /&amp;gt; &amp;lt;form accept-charset=&amp;ldquo;UTF-8&amp;rdquo; &amp;gt;   서버에서 인코딩을 제대로 인식하는가?</description>
+    </item>
+    
+    <item>
+      <title>성과물 2010년 4월 초</title>
+      <link>https://ezaurum.com/2010/05/%EC%84%B1%EA%B3%BC%EB%AC%BC-2010%EB%85%84-4%EC%9B%94-%EC%B4%88/</link>
+      <pubDate>Wed, 05 May 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2010/05/%EC%84%B1%EA%B3%BC%EB%AC%BC-2010%EB%85%84-4%EC%9B%94-%EC%B4%88/</guid>
+      <description>전시용 홈페이지 제작 JSP로 막 발랐음. 실 제작기간 - 한나절. 4-5시간 가량. 게시판류는 있는 것을 모두 iframe으로 가져다 씀. 만든 것은 메뉴를 class로 만들어서 추가, 삭제가 용의하게 한 부분 뿐. 실 작업시간의 대부분은 CSS노가다. 메인 네비게이션은 다른쪽에서 flash로 만들어 줌. 디자인도 거기서 해 줬음.
+소득 JSP 내부에서 클래스를 생성하면 그 안의 어트리뷰트들은 모두 public이다. css도 framework나 그 비슷한 틀 짜는 사이트 등을 활용하는 게 좋겠다. struts2를 좀 연습해 뒀으면 더 빨리 했을텐데.</description>
+    </item>
+    
+  </channel>
+</rss>

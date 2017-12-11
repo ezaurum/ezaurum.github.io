@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Setting on Ezaurum&#39;s Blog</title>
+    <link>https://ezaurum.com/tags/setting/</link>
+    <description>Recent content in Setting on Ezaurum&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <copyright>© Ezaurum 2001-</copyright>
+    <lastBuildDate>Thu, 21 Aug 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ezaurum.com/tags/setting/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Sublime Text 필요 설정</title>
+      <link>https://ezaurum.com/2014/08/Sublime-Text-%ED%95%84%EC%9A%94-%EC%84%A4%EC%A0%95/</link>
+      <pubDate>Thu, 21 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2014/08/Sublime-Text-%ED%95%84%EC%9A%94-%EC%84%A4%EC%A0%95/</guid>
+      <description>나눔 고딕 코딩으로 폰트 설정하고, 사이즈는 14, 위아래 4px씩 패딩을 준다
+{ &amp;ldquo;font_face&amp;rdquo;: &amp;ldquo;나눔고딕코딩&amp;rdquo;, &amp;ldquo;font_size&amp;rdquo;: 14, &amp;ldquo;line_padding_top&amp;rdquo;: 4, &amp;ldquo;line_padding_bottom&amp;rdquo;: 4 }</description>
+    </item>
+    
+    <item>
+      <title>이클립스에서 JSP를 열 때 JSP editor가 기본으로 열리게 하기</title>
+      <link>https://ezaurum.com/2012/07/%EC%9D%B4%ED%81%B4%EB%A6%BD%EC%8A%A4%EC%97%90%EC%84%9C-JSP%EB%A5%BC-%EC%97%B4-%EB%95%8C-JSP-editor%EA%B0%80-%EA%B8%B0%EB%B3%B8%EC%9C%BC%EB%A1%9C-%EC%97%B4%EB%A6%AC%EA%B2%8C-%ED%95%98%EA%B8%B0/</link>
+      <pubDate>Tue, 03 Jul 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2012/07/%EC%9D%B4%ED%81%B4%EB%A6%BD%EC%8A%A4%EC%97%90%EC%84%9C-JSP%EB%A5%BC-%EC%97%B4-%EB%95%8C-JSP-editor%EA%B0%80-%EA%B8%B0%EB%B3%B8%EC%9C%BC%EB%A1%9C-%EC%97%B4%EB%A6%AC%EA%B2%8C-%ED%95%98%EA%B8%B0/</guid>
+      <description>어째선지 가끔 JSP가 디자인 모드(HTML 디자인 편집기 같은 형태) 로 열릴 때가 있다. 그럴 때는 Window-&amp;gt;General-&amp;gt;Editors-&amp;gt;File Associations에서 JSP 파일을 찾고 아래쪽에서 JSP editor를 디폴트로 지정!</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tag on Ezaurum&#39;s Blog</title>
+    <link>https://ezaurum.com/tags/tag/</link>
+    <description>Recent content in Tag on Ezaurum&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <copyright>© Ezaurum 2001-</copyright>
+    <lastBuildDate>Sun, 22 Jul 2012 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ezaurum.com/tags/tag/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>spring에서 enum을 select로 매핑</title>
+      <link>https://ezaurum.com/2012/07/spring%EC%97%90%EC%84%9C-enum%EC%9D%84-select%EB%A1%9C-%EB%A7%A4%ED%95%91/</link>
+      <pubDate>Sun, 22 Jul 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2012/07/spring%EC%97%90%EC%84%9C-enum%EC%9D%84-select%EB%A1%9C-%EB%A7%A4%ED%95%91/</guid>
+      <description>enum안에 desc라는 이름으로 label이 붙어 있는 경우.
+&amp;lt;form:select path=&amp;ldquo;status&amp;rdquo;&amp;gt; &amp;lt;form:options itemLabel=&amp;ldquo;desc&amp;rdquo;/&amp;gt; &amp;lt;/form:select&amp;gt;</description>
+    </item>
+    
+    <item>
+      <title>input.value = textarea.innerHTML 의 작동</title>
+      <link>https://ezaurum.com/2010/08/input.value--textarea.innerHTML-%EC%9D%98-%EC%9E%91%EB%8F%99/</link>
+      <pubDate>Thu, 12 Aug 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2010/08/input.value--textarea.innerHTML-%EC%9D%98-%EC%9E%91%EB%8F%99/</guid>
+      <description>input.value = textarea.innerHTML; 이라는 구문이 실행될 때, innerHTML안에 tag가 있으면 &amp;gt;가 &amp;amp;gt;로, &amp;lt;가 &amp;amp;lt;로 바뀐다. (IE6에서 확인)</description>
+    </item>
+    
+    <item>
+      <title>긴생머리</title>
+      <link>https://ezaurum.com/2009/09/%EA%B8%B4%EC%83%9D%EB%A8%B8%EB%A6%AC/</link>
+      <pubDate>Sat, 12 Sep 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2009/09/%EA%B8%B4%EC%83%9D%EB%A8%B8%EB%A6%AC/</guid>
+      <description>현재까지 발견된 98억 7천만의 머리모양 중, 절대다수의 남자가 호감을 나타내는 유일한 머리모양. 여성의 매력도를 수치화 할 경우, 다른 머리 모양에 비해 통상 7배 이상의 증가률을 보인다. 아님 말고</description>
+    </item>
+    
+    <item>
+      <title>스토커</title>
+      <link>https://ezaurum.com/2009/02/%EC%8A%A4%ED%86%A0%EC%BB%A4/</link>
+      <pubDate>Thu, 05 Feb 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2009/02/%EC%8A%A4%ED%86%A0%EC%BB%A4/</guid>
+      <description>자기에게 호감을 가지고 적극적으로 접근하는 못생긴 이성</description>
+    </item>
+    
+    <item>
+      <title>도넛</title>
+      <link>https://ezaurum.com/2008/10/%EB%8F%84%EB%84%9B/</link>
+      <pubDate>Mon, 20 Oct 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2008/10/%EB%8F%84%EB%84%9B/</guid>
+      <description>도넛이란 것은 B.C. 6C 무렵, 메소포타미아 언저리에서 날아다니는 스파게티 괴물의 사역에 의해 만들어졌다. 그 둥근 모습은 세계 자체를, 가운데가 빈 것은 태초 이전의 허무를, 처음과 끝이 이어져 있는 모습은 우주의 영원불멸을 뜻한다.
+실제로 선과 악의 근원은 하나라는 것의 유력한 증거로, 악마의 창작품이라 불리는 검은 음료-커피와 코코아-와 함께 복용하면 인간의 정신을 한층 더 고차원의 존재와 접하게 해 주는 효과가 있다고 한다. (아님 말고)
+이 모습을 본따 “바퀴“가 만들어졌으며, 갈릴레오 갈릴레이는 운동하고 있는 바퀴가 외부로부터의 추가적인 힘이 없을 때, 무한히 운동한다는 것을 발견했다.</description>
+    </item>
+    
+    <item>
+      <title>워드프레스를 업그레이드했다.</title>
+      <link>https://ezaurum.com/2008/02/%EC%9B%8C%EB%93%9C%ED%94%84%EB%A0%88%EC%8A%A4%EB%A5%BC-%EC%97%85%EA%B7%B8%EB%A0%88%EC%9D%B4%EB%93%9C%ED%96%88%EB%8B%A4./</link>
+      <pubDate>Mon, 18 Feb 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2008/02/%EC%9B%8C%EB%93%9C%ED%94%84%EB%A0%88%EC%8A%A4%EB%A5%BC-%EC%97%85%EA%B7%B8%EB%A0%88%EC%9D%B4%EB%93%9C%ED%96%88%EB%8B%A4./</guid>
+      <description>언제부턴지 모르지만, 태그가 자동 지원된다. 으으. 포스트가 많지 않아서 다행이랄까. 여튼 그래서 좋긴 함. 그리고 스킨을 바꿨음. .. 별로 차이가 없어 보이는 건 기분 탓.</description>
+    </item>
+    
+  </channel>
+</rss>

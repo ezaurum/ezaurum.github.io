@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mvc on Ezaurum&#39;s Blog</title>
+    <link>https://ezaurum.com/tags/mvc/</link>
+    <description>Recent content in Mvc on Ezaurum&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <copyright>© Ezaurum 2001-</copyright>
+    <lastBuildDate>Fri, 17 Oct 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ezaurum.com/tags/mvc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ASP .NET에서 쓰는 용어</title>
+      <link>https://ezaurum.com/2014/10/ASP-.NET%EC%97%90%EC%84%9C-%EC%93%B0%EB%8A%94-%EC%9A%A9%EC%96%B4/</link>
+      <pubDate>Fri, 17 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2014/10/ASP-.NET%EC%97%90%EC%84%9C-%EC%93%B0%EB%8A%94-%EC%9A%A9%EC%96%B4/</guid>
+      <description>출처 - Getting Started with ASP.NET MVC 6  컨트롤러(controller)는 HTTP 요청을 받아서 어플리케이션 로직을 실행한다. 액션(Action)은 컨트롤러에 있는 메소드를 말하는데, HTTP 요청을 처리하기 위해서 실행된다. 액션의 반환값은 HTTP 응답을 만들기 위해서 사용된다. 라우팅(Routing)은 특정 HTTP 요청에 어떤 액션을 실행해야 할지를 선택하는 메커니즘이다. 주로 URL과 HTTP 행동에 의해 결정된다. 뷰(view)는 HTML을 만들어내는 부품이다. 컨트롤러는 HTTP 응답이 HTML을 포함하는 경우 사용할 수 있다. 모델(model)은 어플리케이션에서 사용하는 도메인 데이터이다. 보통 JSON등으로 직렬화하거나 HTML으로 만든다.</description>
+    </item>
+    
+    <item>
+      <title>Spring mvc에서 로직에 이상이 없는데 406에러가 날 때</title>
+      <link>https://ezaurum.com/2013/07/Spring-mvc%EC%97%90%EC%84%9C-%EB%A1%9C%EC%A7%81%EC%97%90-%EC%9D%B4%EC%83%81%EC%9D%B4-%EC%97%86%EB%8A%94%EB%8D%B0-406%EC%97%90%EB%9F%AC%EA%B0%80-%EB%82%A0-%EB%95%8C/</link>
+      <pubDate>Mon, 22 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2013/07/Spring-mvc%EC%97%90%EC%84%9C-%EB%A1%9C%EC%A7%81%EC%97%90-%EC%9D%B4%EC%83%81%EC%9D%B4-%EC%97%86%EB%8A%94%EB%8D%B0-406%EC%97%90%EB%9F%AC%EA%B0%80-%EB%82%A0-%EB%95%8C/</guid>
+      <description>JSON변환 중, 필드의 jsonProperty가 서로 겹치면 406이 뜬다.</description>
+    </item>
+    
+    <item>
+      <title>spring @RequestMapping 우선순위</title>
+      <link>https://ezaurum.com/2013/05/spring-RequestMapping-%EC%9A%B0%EC%84%A0%EC%88%9C%EC%9C%84/</link>
+      <pubDate>Thu, 09 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2013/05/spring-RequestMapping-%EC%9A%B0%EC%84%A0%EC%88%9C%EC%9C%84/</guid>
+      <description>/*html pages*/ //매핑시 같은 URL에 produce 우선순위를 이용해 다른 메소드로 연결하고자 하면, URL value에 같은 값을 설정해 주어야 한다. // /*로 설정된 것은 /{variaBLE} 보다 나중에 검색된다. @RequestMapping(value={&#34;/&#34;,&#34;&#34;,&#34;/{questId}&#34;},method=RequestMethod.GET, produces=&#34;text/html&#34; ) public String getQuestIndex() { return &#34;quest&#34;; } /*json requests*/ @RequestMapping(value=&#34;/{questId}&#34;,method=RequestMethod.GET, produces = &#34;application/json&#34;) public @ResponseBody Quest getQuestDetail(@PathVariable(&#34;questId&#34;) long questId) { return questService.find(questId); } @RequestMapping(value={&#34;/&#34;,&#34;&#34;}, method = RequestMethod.GET, produces = &#34;application/json&#34;) public @ResponseBody Collection&amp;lt;Quest&amp;gt; updateQuestDetail() { return questService.findAll(); }  </description>
+    </item>
+    
+    <item>
+      <title>spring에서 enum을 select로 매핑</title>
+      <link>https://ezaurum.com/2012/07/spring%EC%97%90%EC%84%9C-enum%EC%9D%84-select%EB%A1%9C-%EB%A7%A4%ED%95%91/</link>
+      <pubDate>Sun, 22 Jul 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2012/07/spring%EC%97%90%EC%84%9C-enum%EC%9D%84-select%EB%A1%9C-%EB%A7%A4%ED%95%91/</guid>
+      <description>enum안에 desc라는 이름으로 label이 붙어 있는 경우.
+&amp;lt;form:select path=&amp;ldquo;status&amp;rdquo;&amp;gt; &amp;lt;form:options itemLabel=&amp;ldquo;desc&amp;rdquo;/&amp;gt; &amp;lt;/form:select&amp;gt;</description>
+    </item>
+    
+    <item>
+      <title>Filter의 사용</title>
+      <link>https://ezaurum.com/2012/06/Filter%EC%9D%98-%EC%82%AC%EC%9A%A9/</link>
+      <pubDate>Mon, 04 Jun 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2012/06/Filter%EC%9D%98-%EC%82%AC%EC%9A%A9/</guid>
+      <description>IE 3rd party cookie정책 때문에, 모든 응답 헤더에 특정 구문을 넣을 일이 있어서 filter기능을 이용해 보기로 했다. P3P라든가 기타등등에 대한 설명 만든 필터 모든 리퀘스트에 대해 필터 적용 필터 만드는 법 예제
+스택 오버플로우 없었으면 어쩔 뻔&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>consumes과 produces 조건 @RequestMapping에 쓰기</title>
+      <link>https://ezaurum.com/2012/05/consumes%EA%B3%BC-produces-%EC%A1%B0%EA%B1%B4-RequestMapping%EC%97%90-%EC%93%B0%EA%B8%B0/</link>
+      <pubDate>Thu, 24 May 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2012/05/consumes%EA%B3%BC-produces-%EC%A1%B0%EA%B1%B4-RequestMapping%EC%97%90-%EC%93%B0%EA%B8%B0/</guid>
+      <description>spring 3.1에서 @RequestMapping에 새 조건 두 개가 들어갔다. 그 이외에도 많은 것들이 바뀌었지만, 일단은 당장 쓸 수 있는 이것부터. 여기서도 볼 수 있는데, 기본적으로 consumes는 header의 Content-Type 대체, produces는 Accept 대체가 된다.
+이렇게 쓰면 된다. @RequestMapping(value=&amp;ldquo;/&amp;rdquo;, consumes={&amp;ldquo;application/json&amp;rdquo;,&amp;ldquo;multipart/form-data&amp;rdquo;,&amp;ldquo;application/x-www-form-urlencoded&amp;rdquo;})</description>
+    </item>
+    
+  </channel>
+</rss>

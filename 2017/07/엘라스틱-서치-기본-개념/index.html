@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang='ko-kr'>
+<head>
+    <meta charset="UTF-8">
+    
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-40920966-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-40920966-1');
+</script>
+
+
+    <title>   엘라스틱 서치 기본 개념 -  Ezaurum&#39;s Blog </title>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body class='index'>
+
+    <header>
+    <nav>
+
+    <a href="https://ezaurum.com/about/">About</a>
+
+    <a href="https://ezaurum.com/">Ezaurum&#39;s Blog</a>
+
+</nav>
+</header>
+
+
+
+
+<main class="post single">
+<h1>엘라스틱 서치 기본 개념</h1>
+2017-07-25
+<section><p>공식 홈피의 문서를 대충 맘대로 옮겼다.</p>
+
+<ul>
+<li><p>Near Realtime (NRT)
+엘라스틱 서치는 거의 실시간 플랫폼이다. 이 말은 검색할 수 있도록 인덱스를 만드는 데 1초쯤은 걸릴 수 있다는 거다.</p></li>
+
+<li><p>클러스터, Cluster
+클러스터는 데이터 전체를 함께 가지고서 검색하고 색인하고 있는 한개 이상의 노드(서버) 집합이다.
+클러스터는 이름으로 구분되는데, 기본값은 &ldquo;elasticsearch&rdquo;이다. 한 번 이름을 지정하면 거기에만 속해 있는다. 다른 환영이라도 같은 클러스터 네임을 재사용하지 않도록 한다. 안 그러면 노드가 엉뚱한 데 붙을 수 있다.
+logging-stage, logging-product 이렇게하도록.
+클러스터에는 노드 하나만 있을 수도 있고, 이름이 다르면 여러 독립된 클러스터를 만들 수 있다.</p></li>
+
+<li><p>Node, 노드
+노드는 클러스터의 일부인 서버하나다. 노드에는 이름이 붙는데, 없으면 기동시 UUID를 가지고 자동생성. 어느 노드가 어느 클러스터에 붙었는지 관리 할 때 중요하다.
+클러스터 이름을 지정 안 해주면 elasticsearch로 네트워크 안에 있는 애들끼리 서로 검색해서 붙어버린다.
+아무 클러스터도 없으면 elasticsearch를 가지고 새로 만든다.</p></li>
+
+<li><p>인덱스, Index
+인덱스는 비슷한 특성을 가진 문서의 집합이다.
+예를 들면, 고객정보에 대한 인덱스, 상품에 대한 인덱스,주문에 대한 인덱스를 가질 수 있다.
+원하는 대로 생성 가능하다. 인덱스는 모두 소문자로 된 이름으로 구분 가능하고, 인덱스 안의 도큐먼트를 검색하고 기타등등에 이용가능하다.
+테이블이라고 생각하면 된다.</p></li>
+
+<li><p>타입, Type
+인덱스 안에서, 하나 이상의 타입을 정의할 수 있다. 타입은 의미를 맘대로 결정할 수 있는 논리적인 카테고리/파티션이다.</p></li>
+
+<li><p>도큐먼트, Document
+도큐먼트는 색인될 수 있는 정보의 기본 단위이다. 예를 들어, 한 유저에 대한 도큐먼트 하나가 있고, 한 상품에 대한 도큐먼트 하나, 한 주문에 대한 도큐먼트를 따로 가질 수 있다.
+도큐먼트는 JSON  으로 색인된다.
+테이블의 로우라고 생각하면 된다.</p></li>
+
+<li><p>샤드와 레플리카, Shards &amp; Replicas
+인덱스는 엄청 클 수 있다. 인덱스 하나에 10억개 도큐먼트가 들어가면 1TB  정도 된다.  그러면 한 노드에서 처리하기는 너무 느리다.
+이 문제를 해결하기 위해서, 엘라스틱 서치는 인덱스를 더 작은 단위로 쪼갤수 있는 기능을 제공하는데 그게 샤드다. 인덱스를 만들면, 원하는 데로 샤드를 지정할 수 있다. 각 샤는 완전히 기능하는 독립된 인덱스고 클러스터 내의 어느 노드에서도 돌아간다.</p>
+
+<ul>
+<li>샤딩은 수평적 분할/확장을 가능하게 한다.</li>
+<li>샤딩은 샤드들 간 분산/병렬 처리를 가능하게 한다.
+샤드, 레플리카는 최초 index가 생성될 때 지정 가능하다. 그 말은 만들고 나서 변경이 불가능하다는 말이다.
+엘라스틱 서치의 기본 값은 5개 기본 샤드와 1 개 레플리카이다. 노드가 둘이 되면 10개 샤드와 2개 레플리카가 된다.<br /></li>
+</ul></li>
+</ul>
+</section>
+
+
+
+
+
+
+<a href="https://ezaurum.com/2017/07/%EC%97%98%EB%9D%BC%EC%8A%A4%ED%8B%B1-%EC%84%9C%EC%B9%98-index-%EB%A7%8C%EB%93%A4%EA%B8%B0/"> 엘라스틱 서치 index 만들기</a>
+
+
+<a href="https://ezaurum.com/2017/06/%EB%82%98%EB%8A%94-%EB%B9%A0%EB%A6%AC%EC%9D%98-%ED%83%9D%EC%8B%9C-%EC%9A%B4%EC%A0%84%EC%82%AC/">나는 빠리의 택시 운전사</a>
+
+
+
+
+
+    <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "ezaurum" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3471055249244195"
+     data-ad-slot="7282877318"
+     data-ad-format="auto"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+</main>
+
+
+
+    <footer>
+© Ezaurum 2001-
+</footer>
+
+
+
+
+
+    <script>
+
+</script>
+
+
+</body>
+</html>
