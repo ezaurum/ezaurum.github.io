@@ -241,5 +241,15 @@
       <description>jquery validation 에러 해결 방법</description>
     </item>
     
+    <item>
+      <title>Opera webGL 활성화</title>
+      <link>https://ezaurum.com/2012/06/Opera-webGL-%ED%99%9C%EC%84%B1%ED%99%94/</link>
+      <pubDate>Fri, 15 Jun 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2012/06/Opera-webGL-%ED%99%9C%EC%84%B1%ED%99%94/</guid>
+      <description>opera:config#Enable WebGL - 1로 설정 opera:config#Enable Hardware Acceleration - 1로 설정 opera:gpu opera:config#Preferred%20renderer 0 - openGL, 1 - DirectX
+기타 자세한 사항은 여기 참고</description>
+    </item>
+    
   </channel>
 </rss>
