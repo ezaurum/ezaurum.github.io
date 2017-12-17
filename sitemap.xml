@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://ezaurum.com/2017/12/Go-Web-Server/</loc>
+    <lastmod>2017-12-16T18:01:25+07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ezaurum.com/2017/12/Chiangmai-Life-06---%EC%83%9D%ED%99%9C%EB%B9%84/</loc>
     <lastmod>2017-12-15T19:14:31+07:00</lastmod>
   </url>
@@ -4008,7 +4013,7 @@
   
   <url>
     <loc>https://ezaurum.com/</loc>
-    <lastmod>2017-12-15T19:14:31+07:00</lastmod>
+    <lastmod>2017-12-16T18:01:25+07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -4103,8 +4108,20 @@
   </url>
   
   <url>
+    <loc>https://ezaurum.com/tags/gin/</loc>
+    <lastmod>2017-12-16T18:01:25+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://ezaurum.com/tags/git/</loc>
     <lastmod>2013-11-24T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/tags/go/</loc>
+    <lastmod>2017-12-16T18:01:25+07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -4812,7 +4829,7 @@
   
   <url>
     <loc>https://ezaurum.com/post/</loc>
-    <lastmod>2017-12-15T19:14:31+07:00</lastmod>
+    <lastmod>2017-12-16T18:01:25+07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -5754,6 +5771,12 @@
   <url>
     <loc>https://ezaurum.com/tags/%EA%B0%90%ED%83%84/</loc>
     <lastmod>2009-04-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/categories/%EA%B0%95%EC%9D%98/</loc>
+    <lastmod>2017-12-16T18:01:25+07:00</lastmod>
     <priority>0</priority>
   </url>
   

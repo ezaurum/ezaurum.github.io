@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>강의 on Ezaurum&#39;s Blog</title>
+    <link>https://ezaurum.com/categories/%EA%B0%95%EC%9D%98/</link>
+    <description>Recent content in 강의 on Ezaurum&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <copyright>© Ezaurum 2001-</copyright>
+    <lastBuildDate>Sat, 16 Dec 2017 18:01:25 +0700</lastBuildDate>
+    
+	<atom:link href="https://ezaurum.com/categories/%EA%B0%95%EC%9D%98/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Go Web Server</title>
+      <link>https://ezaurum.com/2017/12/Go-Web-Server/</link>
+      <pubDate>Sat, 16 Dec 2017 18:01:25 +0700</pubDate>
+      
+      <guid>https://ezaurum.com/2017/12/Go-Web-Server/</guid>
+      <description>Go는 기본적으로 web서버를 쉽게 만들 수 있게 되어 있다.
+그래도 막상 하려고 하면 자잘하게 할 게 많아서 추가 라이브러리나 프레임워크가 필요하게 된다.
+개중 쓸 만한 것이 gin이라, 소개 겸, 헬로 월드를 찍어봤다.
+ Github 저장소에도 하나씩 올릴 예정.
+하는 김에 동영상도 찍어봤다</description>
+    </item>
+    
+  </channel>
+</rss>
