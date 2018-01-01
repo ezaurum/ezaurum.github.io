@@ -41,9 +41,18 @@
     <item>
       <title>일상</title>
       <link>https://ezaurum.com/categories/%EC%9D%BC%EC%83%81/</link>
-      <pubDate>Fri, 29 Dec 2017 19:36:26 +0700</pubDate>
+      <pubDate>Mon, 01 Jan 2018 22:01:09 +0700</pubDate>
       
       <guid>https://ezaurum.com/categories/%EC%9D%BC%EC%83%81/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>정리</title>
+      <link>https://ezaurum.com/categories/%EC%A0%95%EB%A6%AC/</link>
+      <pubDate>Mon, 01 Jan 2018 20:36:02 +0700</pubDate>
+      
+      <guid>https://ezaurum.com/categories/%EC%A0%95%EB%A6%AC/</guid>
       <description></description>
     </item>
     
@@ -59,7 +68,7 @@
     <item>
       <title>회고</title>
       <link>https://ezaurum.com/categories/%ED%9A%8C%EA%B3%A0/</link>
-      <pubDate>Fri, 29 Dec 2017 19:36:26 +0700</pubDate>
+      <pubDate>Mon, 01 Jan 2018 20:36:02 +0700</pubDate>
       
       <guid>https://ezaurum.com/categories/%ED%9A%8C%EA%B3%A0/</guid>
       <description></description>
