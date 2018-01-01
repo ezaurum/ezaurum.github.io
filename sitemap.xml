@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://ezaurum.com/2018/01/%EC%9D%BC%EC%9A%A9%ED%92%88-%EC%86%8C%EB%AA%A8%EC%9C%A8/</loc>
+    <lastmod>2018-01-02T00:12:13+07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ezaurum.com/2018/01/2018%EB%85%84-%EB%AA%A9%ED%91%9C/</loc>
     <lastmod>2018-01-01T22:01:09+07:00</lastmod>
   </url>
@@ -4056,7 +4061,7 @@
   
   <url>
     <loc>https://ezaurum.com/</loc>
-    <lastmod>2018-01-01T22:01:09+07:00</lastmod>
+    <lastmod>2018-01-02T00:12:13+07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -4878,7 +4883,7 @@
   
   <url>
     <loc>https://ezaurum.com/post/</loc>
-    <lastmod>2018-01-01T22:01:09+07:00</lastmod>
+    <lastmod>2018-01-02T00:12:13+07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -8507,13 +8512,19 @@
   
   <url>
     <loc>https://ezaurum.com/tags/%EC%9D%BC%EC%83%81/</loc>
-    <lastmod>2017-11-24T20:26:53+07:00</lastmod>
+    <lastmod>2018-01-02T00:12:13+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ezaurum.com/categories/%EC%9D%BC%EC%83%81/</loc>
-    <lastmod>2018-01-01T22:01:09+07:00</lastmod>
+    <lastmod>2018-01-02T00:12:13+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/tags/%EC%9D%BC%EC%9A%A9%ED%92%88/</loc>
+    <lastmod>2018-01-02T00:12:13+07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -9023,7 +9034,7 @@
   
   <url>
     <loc>https://ezaurum.com/tags/%EC%B9%98%EC%95%99%EB%A7%88%EC%9D%B4/</loc>
-    <lastmod>2017-12-18T17:22:52+07:00</lastmod>
+    <lastmod>2018-01-02T00:12:13+07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -9035,7 +9046,7 @@
   
   <url>
     <loc>https://ezaurum.com/series/%EC%B9%98%EC%95%99%EB%A7%88%EC%9D%B4-%EC%83%9D%ED%99%9C%EA%B8%B0/</loc>
-    <lastmod>2017-12-18T17:22:52+07:00</lastmod>
+    <lastmod>2018-01-02T00:12:13+07:00</lastmod>
     <priority>0</priority>
   </url>
   
