@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Tue, 02 Jan 2018 00:12:13 +0700</lastBuildDate>
+    <lastBuildDate>Wed, 31 Jan 2018 17:01:52 +0700</lastBuildDate>
     
 	<atom:link href="https://ezaurum.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Chiangmai Life 08 - 고기와 소주</title>
+      <link>https://ezaurum.com/2018/01/Chiangmai-Life-08---%EA%B3%A0%EA%B8%B0%EC%99%80-%EC%86%8C%EC%A3%BC/</link>
+      <pubDate>Wed, 31 Jan 2018 17:01:52 +0700</pubDate>
+      
+      <guid>https://ezaurum.com/2018/01/Chiangmai-Life-08---%EA%B3%A0%EA%B8%B0%EC%99%80-%EC%86%8C%EC%A3%BC/</guid>
+      <description>태국 사람들은 술을 많이 먹지 않는다. 사실 내가 많이 먹는 편일지도 모르겠다는 생각이 들긴 하지만&amp;hellip; 퇴근길에 순대국에 소주한잔 하고 들어가는 걸 할 수 없다는 건 상당히 곤란한 일이라, 비슷한 대체품을 찾아보았다. 꿔이짭, 꿔이띠아오 같은 걸로 순대국은 대체가 가능하지만&amp;hellip; 역시 술을 마실 수 없다는 게 아쉬웠다. 꿩 대신 닭으로 고기와 술 조합을 찾았는데, 태국에는 고기부페-무까타- 가 매우 많다. 가격에 비해서 품질도 괜찮다. 그러니 술을 마실 수 있는 곳만 찾으면 되는데, 그게 쉽지가 않았다.</description>
+    </item>
     
     <item>
       <title>일용품 소모율</title>
@@ -6835,6 +6844,52 @@ H는 그랬다.
       
       <guid>https://ezaurum.com/2007/02/%EA%B2%B0%EA%B5%AD-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%8B%A4%EC%8B%9C-%EB%A7%8C%EB%93%A4%EB%8B%A4./</guid>
       <description>뭐, 결국 Wordpress 2.1로 왔음. 무료 계정. UTF-8을 지원한다길래 덥석. 근데 포스트 슬러그는 여전히 작동 불가&amp;hellip; 뭐지.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://ezaurum.com/1/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/1/01/</guid>
+      <description>Go 는 작업 공간을 GOPATH 라는 환경변수에 지정한다. 다른 언어에서는 각 프로젝트마다 독립적으로 쓰고 있지만, Go 에서는 한 군데에 모아서 쓴다 C:\workspace\go 또는 ~/workspace/go 를 작업공간으로 쓰기로 했다면, 내부에
+go |&amp;ndash; bin | 실행 파일이 존재한다. Go 언어에서 사용하는 util 등이 여기 저장되고, 추가로 설치도 가능하다. | |- pkg | 참조되는 외부 패키지들이 저장된다. | |- src 실제 소스가 들어가는 위치
+src 내부에는 github.com bitbucket.org 형태로 저장된다.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://ezaurum.com/1/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/1/01/</guid>
+      <description>기본 배경 - 밝은 빨강 E74C3C
+경고 - d9ff2b 노랑
+진빨강 ff2812
+밝은 파랑 226ecc 진파랑 0351b2</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://ezaurum.com/1/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/1/01/</guid>
+      <description>소모율 샴푸 1개월에 작은것 100ml? 1개 알로에겔 1개월에 1개 세제 1개월에 절반 450Ml 주방세제 1개월에 500ml</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://ezaurum.com/1/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/1/01/</guid>
+      <description>그릇 최소 2개 - 전자렌지 가능, 국그릇, 밥그릇 냄비, 팬 - 중화냄비 하나면 될까? 전기 or 가스렌지
+과도, 식칼, 체, 포크, 수저, 도마 - 천밧 안쪽으로 살 수 있다
+장사도구 -5kg 가방까지
+세면도구 - 2Kg 옷 - 5Kg 캐리어 5Kg 큰 백팩 2Kg - 짧은 여행 등 작은 백팩 1kg - 일상용 허리색 1kg - 관광용
+큰 백팩 세면도구, 장사도구, 옷
+작은 백팩은 노트북 캐리어 이상의 의미가 없어. 접어다닐 수 있는 더 작은 게 있으면 좋겠네.</description>
     </item>
     
   </channel>
