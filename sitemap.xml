@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>https://ezaurum.com/2018/02/Chiangmai-Life-13---%EC%B9%98%EC%95%99%EB%9D%BC%EC%9D%B4/</loc>
+    <lastmod>2018-02-07T17:01:52+07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ezaurum.com/2018/02/Chiangmai-Life-12---%EB%8F%84%EC%9D%B4%EC%88%98%ED%85%9D/</loc>
     <lastmod>2018-02-07T16:26:52+07:00</lastmod>
   </url>
@@ -9155,6 +9160,12 @@
   <url>
     <loc>https://ezaurum.com/tags/%EC%B7%A8%ED%96%A5/</loc>
     <lastmod>2010-08-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/tags/%EC%B9%98%EC%95%99%EB%9D%BC%EC%9D%B4/</loc>
+    <lastmod>2018-02-07T17:01:52+07:00</lastmod>
     <priority>0</priority>
   </url>
   
