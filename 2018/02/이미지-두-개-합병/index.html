@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang='ko-kr'>
+<head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <script>console.log("google analytics id : UA-40920966-1")</script>
+
+
+    <title>   이미지 두 개 합병 -  Ezaurum&#39;s Blog </title>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+    
+    
+
+    
+<meta itemprop="name" content="이미지 두 개 합병">
+<meta itemprop="description" content="이미지 두 개 합병
+package main import ( &quot;image&quot; &quot;image/draw&quot; &quot;image/jpeg&quot; &quot;image/png&quot; &quot;os&quot; &quot;log&quot; ) func main() { image1,err := os.Open(&quot;jellyfish.jpg&quot;) if err != nil { log.Fatalf(&quot;failed to open: %s&quot;, err) } first, err := jpeg.Decode(image1) if err != nil { log.Fatalf(&quot;failed to decode: %s&quot;, err) } defer image1.Close() image2,err := os.Open(&quot;pokeball.png&quot;) if err != nil { log.Fatalf(&quot;failed to open: %s&quot;, err) } second,err := png.Decode(image2) if err != nil { log.">
+
+
+<meta itemprop="datePublished" content="2018-02-24T16:05:50&#43;09:00" />
+<meta itemprop="dateModified" content="2018-02-24T16:05:50&#43;09:00" />
+<meta itemprop="wordCount" content="119">
+
+
+
+<meta itemprop="keywords" content="" />
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="이미지 두 개 합병"/>
+<meta name="twitter:description" content="이미지 두 개 합병
+package main import ( &quot;image&quot; &quot;image/draw&quot; &quot;image/jpeg&quot; &quot;image/png&quot; &quot;os&quot; &quot;log&quot; ) func main() { image1,err := os.Open(&quot;jellyfish.jpg&quot;) if err != nil { log.Fatalf(&quot;failed to open: %s&quot;, err) } first, err := jpeg.Decode(image1) if err != nil { log.Fatalf(&quot;failed to decode: %s&quot;, err) } defer image1.Close() image2,err := os.Open(&quot;pokeball.png&quot;) if err != nil { log.Fatalf(&quot;failed to open: %s&quot;, err) } second,err := png.Decode(image2) if err != nil { log."/>
+
+    <meta property="og:title" content="이미지 두 개 합병" />
+<meta property="og:description" content="이미지 두 개 합병
+package main import ( &quot;image&quot; &quot;image/draw&quot; &quot;image/jpeg&quot; &quot;image/png&quot; &quot;os&quot; &quot;log&quot; ) func main() { image1,err := os.Open(&quot;jellyfish.jpg&quot;) if err != nil { log.Fatalf(&quot;failed to open: %s&quot;, err) } first, err := jpeg.Decode(image1) if err != nil { log.Fatalf(&quot;failed to decode: %s&quot;, err) } defer image1.Close() image2,err := os.Open(&quot;pokeball.png&quot;) if err != nil { log.Fatalf(&quot;failed to open: %s&quot;, err) } second,err := png.Decode(image2) if err != nil { log." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ezaurum.com/2018/02/%EC%9D%B4%EB%AF%B8%EC%A7%80-%EB%91%90-%EA%B0%9C-%ED%95%A9%EB%B3%91/" />
+
+
+
+<meta property="article:published_time" content="2018-02-24T16:05:50&#43;09:00"/>
+
+<meta property="article:modified_time" content="2018-02-24T16:05:50&#43;09:00"/>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+</head>
+<body>
+
+    <header>
+    <nav>
+
+    <a href="https://ezaurum.com/about/">About</a>
+
+    <a href="https://ezaurum.com/">Ezaurum&#39;s Blog</a>
+
+</nav>
+</header>
+
+
+
+
+<main class="post single">
+<h1>이미지 두 개 합병</h1>
+2018-02-24
+<section><p>이미지 두 개 합병</p>
+
+<pre><code>package main
+ 
+import (
+    &quot;image&quot;
+    &quot;image/draw&quot;
+    &quot;image/jpeg&quot;
+    &quot;image/png&quot;
+    &quot;os&quot;
+    &quot;log&quot;
+)
+ 
+func main() {
+    image1,err := os.Open(&quot;jellyfish.jpg&quot;)
+    if err != nil {
+        log.Fatalf(&quot;failed to open: %s&quot;, err)
+    }
+     
+    first, err := jpeg.Decode(image1)
+    if err != nil {
+        log.Fatalf(&quot;failed to decode: %s&quot;, err)
+    }
+    defer image1.Close()
+ 
+    image2,err := os.Open(&quot;pokeball.png&quot;)
+    if err != nil {
+        log.Fatalf(&quot;failed to open: %s&quot;, err)
+    }
+    second,err := png.Decode(image2)
+    if err != nil {
+        log.Fatalf(&quot;failed to decode: %s&quot;, err)
+    }
+    defer image2.Close()
+ 
+    offset := image.Pt(300, 200)
+    b := first.Bounds()
+    image3 := image.NewRGBA(b)
+    draw.Draw(image3, b, first, image.ZP, draw.Src)
+    draw.Draw(image3, second.Bounds().Add(offset), second, image.ZP, draw.Over)
+ 
+    third,err := os.Create(&quot;result.jpg&quot;)
+    if err != nil {
+        log.Fatalf(&quot;failed to create: %s&quot;, err)
+    }
+    jpeg.Encode(third, image3, &amp;jpeg.Options{jpeg.DefaultQuality})
+    defer third.Close()
+}
+</code></pre>
+</section>
+
+
+
+
+
+
+<a href="https://ezaurum.com/2018/03/"> </a>
+
+
+<a href="https://ezaurum.com/2018/02/Chiangmai-Life-15---%EC%A0%95%EB%A6%AC/">Chiangmai Life 15 - 정리</a>
+
+
+
+
+
+<script>console.log("disquss ezaurum")</script>
+
+
+
+<script>
+    console.log("adsense client ca-pub-3471055249244195")
+    console.log("adsense slot 7282877318")
+    console.log("adsense format auto")
+</script>
+
+
+</main>
+
+
+
+    <footer>
+© Ezaurum 2001-
+</footer>
+
+
+
+
+
+    <script>
+
+</script>
+
+
+</body>
+</html>

@@ -4,14 +4,7 @@
     <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-40920966-1"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'UA-40920966-1');
-</script>
+    <script>console.log("google analytics id : UA-40920966-1")</script>
 
 
     <title>   PL/SQL for 문 -  Ezaurum&#39;s Blog </title>
@@ -34,7 +27,8 @@
 
 <meta itemprop="keywords" content="DB,공부,Oracle,PL/SQL," />
 
-    <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="PL/SQL for 문"/>
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="PL/SQL for 문"/>
 <meta name="twitter:description" content="기억을 위한 메모용이라고 되어 있는 글을 복구.
 상황 몇 개 게시판의 글 내용을 모두 하나의 게시판(id=111)으로 옮겨야 했다. 게시판은 글 제목과 글 번호가 있는 board게시판이 하나, 글내용과 글 번호, 내용 순서 번호가 들어있는 contents게시판이 하나 있는 상황이었다. 게시판이 이 상황이 된 이유는, 언제적인지 모르지만, 한 컬럼에 들어가는 용량제한이 있었던 모양이고, 그 용량제한을 회피하고자 이렇게 짠 모양인데&hellip; 문제는 소스가 잘못되서 제한보다 훨씬 적은 용량으로 글을 잘랐&hellip; 일단 그래서 간단히 PL/SQL을 짜 봤다."/>
 
@@ -72,20 +66,6 @@
 
     <a href="https://ezaurum.com/">Ezaurum&#39;s Blog</a>
 
-    <div>
-    <script>
-        (function() {
-            var cx = '011707263751963300540:8lscseckemu';
-            var gcse = document.createElement('script');
-            gcse.type = 'text/javascript';
-            gcse.async = true;
-            gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(gcse, s);
-        })();
-    </script>
-    <gcse:search></gcse:search>
-    </div>
 </nav>
 </header>
 
@@ -149,38 +129,14 @@ END;
 
 
 
-    <div id="disqus_thread"></div>
+<script>console.log("disquss ezaurum")</script>
+
+
+
 <script>
-    var disqus_config = function () {
-    
-    
-    
-    };
-    (function() {
-        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
-            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
-            return;
-        }
-        var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + "ezaurum" + '.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-
-
-
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3471055249244195"
-     data-ad-slot="7282877318"
-     data-ad-format="auto"></ins>
-<script>
-    (adsbygoogle = window.adsbygoogle || []).push({});
+    console.log("adsense client ca-pub-3471055249244195")
+    console.log("adsense slot 7282877318")
+    console.log("adsense format auto")
 </script>
 
 

@@ -4,14 +4,7 @@
     <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-40920966-1"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'UA-40920966-1');
-</script>
+    <script>console.log("google analytics id : UA-40920966-1")</script>
 
 
     <title>   9월 첫째주 정리 -  Ezaurum&#39;s Blog </title>
@@ -33,7 +26,8 @@
 
 <meta itemprop="keywords" content="error,exception,패킷,프로젝트,에러,익셉션,정리," />
 
-    <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="9월 첫째주 정리"/>
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="9월 첫째주 정리"/>
 <meta name="twitter:description" content="에러와 익셉션 처리에 대해 생각해 봤다.  에러는 예상/처리 불가능한 상황, 익셉션은 예상/처리 가능하지만 비정상 상황 여러 모듈이 복합적으로 돌아서 다양한 종류의 오류(에러, 익셉션 모두)가 발생할 수 있는 코드라면, 해당 상황을 예측하여 복잡한 에러 코드를 만드는 것보다, 또는 다른 모듈끼리 서로 에러코드를 공유하게 하려 하거나하는 것보다 커스텀 익셉션을 써서 최외곽 코드에서 한 번에 처리하는 것이 편하다.   로그 관리/수집기가 필요하다.  로그 관리는 프로젝트 초반에 만들어지면 좋고, 프로젝트 후반에는 꼭 있어야 한다."/>
 
     <meta property="og:title" content="9월 첫째주 정리" />
@@ -69,20 +63,6 @@
 
     <a href="https://ezaurum.com/">Ezaurum&#39;s Blog</a>
 
-    <div>
-    <script>
-        (function() {
-            var cx = '011707263751963300540:8lscseckemu';
-            var gcse = document.createElement('script');
-            gcse.type = 'text/javascript';
-            gcse.async = true;
-            gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(gcse, s);
-        })();
-    </script>
-    <gcse:search></gcse:search>
-    </div>
 </nav>
 </header>
 
@@ -162,38 +142,14 @@
 
 
 
-    <div id="disqus_thread"></div>
+<script>console.log("disquss ezaurum")</script>
+
+
+
 <script>
-    var disqus_config = function () {
-    
-    
-    
-    };
-    (function() {
-        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
-            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
-            return;
-        }
-        var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + "ezaurum" + '.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-
-
-
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3471055249244195"
-     data-ad-slot="7282877318"
-     data-ad-format="auto"></ins>
-<script>
-    (adsbygoogle = window.adsbygoogle || []).push({});
+    console.log("adsense client ca-pub-3471055249244195")
+    console.log("adsense slot 7282877318")
+    console.log("adsense format auto")
 </script>
 
 

@@ -4,14 +4,7 @@
     <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-40920966-1"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'UA-40920966-1');
-</script>
+    <script>console.log("google analytics id : UA-40920966-1")</script>
 
 
     <title>   도커로 elastic search 설치하기 -  Ezaurum&#39;s Blog </title>
@@ -35,7 +28,8 @@ services: elasticsearch1: image: docker.elastic.co/elasticsearch/elasticsearch:5
 
 <meta itemprop="keywords" content="" />
 
-    <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="도커로 elastic search 설치하기"/>
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="도커로 elastic search 설치하기"/>
 <meta name="twitter:description" content="참고는 역시 공식 사이트
 일단 docker-compose.yml 로 다음을 지정
 services: elasticsearch1: image: docker.elastic.co/elasticsearch/elasticsearch:5.5.0 container_name: elasticsearch1 environment: - cluster.name=docker-cluster - bootstrap.memory_lock=true - &quot;ES_JAVA_OPTS=-Xms512m -Xmx512m&quot; ulimits: memlock: soft: -1 hard: -1 mem_limit: 1g volumes: - esdata1:/usr/share/elasticsearch/data ports: - 9200:9200 networks: - esnet elasticsearch2: image: docker.elastic.co/elasticsearch/elasticsearch:5.5.0 container_name: elasticsearch2 environment: - cluster.name=docker-cluster - bootstrap.memory_lock=true - &quot;ES_JAVA_OPTS=-Xms512m -Xmx512m&quot; - &quot;discovery.zen.ping.unicast.hosts=elasticsearch1&quot; ulimits: memlock: soft: -1 hard: -1 mem_limit: 1g volumes: - esdata2:/usr/share/elasticsearch/data networks: - esnet volumes: esdata1: driver: local esdata2: driver: local networks: esnet:  그 다음 docker-compose 로 띄운다."/>
@@ -75,20 +69,6 @@ services: elasticsearch1: image: docker.elastic.co/elasticsearch/elasticsearch:5
 
     <a href="https://ezaurum.com/">Ezaurum&#39;s Blog</a>
 
-    <div>
-    <script>
-        (function() {
-            var cx = '011707263751963300540:8lscseckemu';
-            var gcse = document.createElement('script');
-            gcse.type = 'text/javascript';
-            gcse.async = true;
-            gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(gcse, s);
-        })();
-    </script>
-    <gcse:search></gcse:search>
-    </div>
 </nav>
 </header>
 
@@ -179,38 +159,14 @@ networks:
 
 
 
-    <div id="disqus_thread"></div>
+<script>console.log("disquss ezaurum")</script>
+
+
+
 <script>
-    var disqus_config = function () {
-    
-    
-    
-    };
-    (function() {
-        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
-            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
-            return;
-        }
-        var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + "ezaurum" + '.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-
-
-
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3471055249244195"
-     data-ad-slot="7282877318"
-     data-ad-format="auto"></ins>
-<script>
-    (adsbygoogle = window.adsbygoogle || []).push({});
+    console.log("adsense client ca-pub-3471055249244195")
+    console.log("adsense slot 7282877318")
+    console.log("adsense format auto")
 </script>
 
 

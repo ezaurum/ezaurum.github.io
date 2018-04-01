@@ -4,14 +4,7 @@
     <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-40920966-1"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'UA-40920966-1');
-</script>
+    <script>console.log("google analytics id : UA-40920966-1")</script>
 
 
     <title>   UTF-8 환경에서 한글 post slug 문제 -  Ezaurum&#39;s Blog </title>
@@ -33,7 +26,8 @@
 
 <meta itemprop="keywords" content="일상,POST-SLUG,utf-8,wordpress," />
 
-    <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="UTF-8 환경에서 한글 post slug 문제"/>
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="UTF-8 환경에서 한글 post slug 문제"/>
 <meta name="twitter:description" content="지난 번에 워드프레스를 쓰다가 결국 해결하지 못했던 문제가, 한글로 post slug(포스트의 url 을 숫자와 물음표가 범벅이 된 모양이 아니라 그냥 글자로 바꿔주는 기능이라고 생각하면 될 듯)를 쓰면 그 포스트를 찾지 못했던 것인데, 이번에 해결했다.  &lt;IfModule mod_url.c&gt; CheckURL Off &lt;/IfModule&gt;    문제점 : 옵션에서 퍼머링크를 누르기만 해도, WP가 .htaccess 파일을 자동으로 수정해 버리는 바람에 곤란.   문제점 해결 : .htaccess 파일의 권한을 755로 변경. 쓰지 못하게 해버렸음."/>
 
     <meta property="og:title" content="UTF-8 환경에서 한글 post slug 문제" />
@@ -69,20 +63,6 @@
 
     <a href="https://ezaurum.com/">Ezaurum&#39;s Blog</a>
 
-    <div>
-    <script>
-        (function() {
-            var cx = '011707263751963300540:8lscseckemu';
-            var gcse = document.createElement('script');
-            gcse.type = 'text/javascript';
-            gcse.async = true;
-            gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(gcse, s);
-        })();
-    </script>
-    <gcse:search></gcse:search>
-    </div>
 </nav>
 </header>
 
@@ -134,38 +114,14 @@ CheckURL Off
 
 
 
-    <div id="disqus_thread"></div>
+<script>console.log("disquss ezaurum")</script>
+
+
+
 <script>
-    var disqus_config = function () {
-    
-    
-    
-    };
-    (function() {
-        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
-            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
-            return;
-        }
-        var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + "ezaurum" + '.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-
-
-
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3471055249244195"
-     data-ad-slot="7282877318"
-     data-ad-format="auto"></ins>
-<script>
-    (adsbygoogle = window.adsbygoogle || []).push({});
+    console.log("adsense client ca-pub-3471055249244195")
+    console.log("adsense slot 7282877318")
+    console.log("adsense format auto")
 </script>
 
 

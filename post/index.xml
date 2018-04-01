@@ -7,10 +7,49 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Thu, 08 Feb 2018 15:01:52 +0700</lastBuildDate>
+    <lastBuildDate>Sun, 01 Apr 2018 13:36:26 +0700</lastBuildDate>
     
 	<atom:link href="https://ezaurum.com/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>그래들은 컴파일이 되는데 인텔리J에서 컴파일이 안 되던 문제</title>
+      <link>https://ezaurum.com/2018/04/%EA%B7%B8%EB%9E%98%EB%93%A4%EC%9D%80-%EC%BB%B4%ED%8C%8C%EC%9D%BC%EC%9D%B4-%EB%90%98%EB%8A%94%EB%8D%B0-%EC%9D%B8%ED%85%94%EB%A6%ACJ%EC%97%90%EC%84%9C-%EC%BB%B4%ED%8C%8C%EC%9D%BC%EC%9D%B4-%EC%95%88-%EB%90%98%EB%8D%98-%EB%AC%B8%EC%A0%9C/</link>
+      <pubDate>Sun, 01 Apr 2018 13:36:26 +0700</pubDate>
+      
+      <guid>https://ezaurum.com/2018/04/%EA%B7%B8%EB%9E%98%EB%93%A4%EC%9D%80-%EC%BB%B4%ED%8C%8C%EC%9D%BC%EC%9D%B4-%EB%90%98%EB%8A%94%EB%8D%B0-%EC%9D%B8%ED%85%94%EB%A6%ACJ%EC%97%90%EC%84%9C-%EC%BB%B4%ED%8C%8C%EC%9D%BC%EC%9D%B4-%EC%95%88-%EB%90%98%EB%8D%98-%EB%AC%B8%EC%A0%9C/</guid>
+      <description>문제 상황 - 그래들에서는 컴파일이 되는데, IntelliJ는 디펜던시를 인식하지 못하고 컴파일을 못 했다.
+문제 원인 - 인텔리J 업데이트시, 존재하던 폴더에 새 버전을 그대로 덮어씌웠다.
+재발 방지를 위해 - 업데이트시는 있던 버전을 지우고 하자.</description>
+    </item>
+    
+    <item>
+      <title>Nginx에서 POST로 보낸 데이터도 로그하기</title>
+      <link>https://ezaurum.com/2018/03/Nginx%EC%97%90%EC%84%9C-POST%EB%A1%9C-%EB%B3%B4%EB%82%B8-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%8F%84-%EB%A1%9C%EA%B7%B8%ED%95%98%EA%B8%B0/</link>
+      <pubDate>Thu, 29 Mar 2018 12:31:18 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/2018/03/Nginx%EC%97%90%EC%84%9C-POST%EB%A1%9C-%EB%B3%B4%EB%82%B8-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%8F%84-%EB%A1%9C%EA%B7%B8%ED%95%98%EA%B8%B0/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://ezaurum.com/2018/03/</link>
+      <pubDate>Sun, 25 Mar 2018 16:47:57 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/2018/03/</guid>
+      <description>xkb 고치려면 gnome 트윅을 깔고 거기서 처리하는 게 좋고 grave 문제는 거기 없으니까 /usr/share/X11/xkbd/symbols/kr 이걸 수정해서 처리하면 된다. 아오</description>
+    </item>
+    
+    <item>
+      <title>이미지 두 개 합병</title>
+      <link>https://ezaurum.com/2018/02/%EC%9D%B4%EB%AF%B8%EC%A7%80-%EB%91%90-%EA%B0%9C-%ED%95%A9%EB%B3%91/</link>
+      <pubDate>Sat, 24 Feb 2018 16:05:50 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/2018/02/%EC%9D%B4%EB%AF%B8%EC%A7%80-%EB%91%90-%EA%B0%9C-%ED%95%A9%EB%B3%91/</guid>
+      <description>이미지 두 개 합병
+package main import ( &amp;quot;image&amp;quot; &amp;quot;image/draw&amp;quot; &amp;quot;image/jpeg&amp;quot; &amp;quot;image/png&amp;quot; &amp;quot;os&amp;quot; &amp;quot;log&amp;quot; ) func main() { image1,err := os.Open(&amp;quot;jellyfish.jpg&amp;quot;) if err != nil { log.Fatalf(&amp;quot;failed to open: %s&amp;quot;, err) } first, err := jpeg.Decode(image1) if err != nil { log.Fatalf(&amp;quot;failed to decode: %s&amp;quot;, err) } defer image1.Close() image2,err := os.Open(&amp;quot;pokeball.png&amp;quot;) if err != nil { log.Fatalf(&amp;quot;failed to open: %s&amp;quot;, err) } second,err := png.Decode(image2) if err != nil { log.</description>
+    </item>
     
     <item>
       <title>Chiangmai Life 15 - 정리</title>
@@ -6935,10 +6974,38 @@ src 내부에는 github.com bitbucket.org 형태로 저장된다.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/1/01/</guid>
+      <description>게시판 만들기
+go-gin / 에서 hello world 찍기 c.HTML 로 화면 뿌리기 CRUD 화면 생성 폼 바인드 객체 화면에 뿌리기
+DB연결 gorm 설치 만든 객체 DB에 CRUD 구현
+와우!
+게시판 테스트 코드 생성
+게시판 테스트 코드에서 역순으로 구현
+로그인 화면 생성 입력 폼 바인드 입력된 내용 처리 리다이렉트
+세션 생성
+테스트 코드 생성
+테스트 코드부터 역순으로 구현</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://ezaurum.com/1/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/1/01/</guid>
       <description>기본 배경 - 밝은 빨강 E74C3C
 경고 - d9ff2b 노랑
 진빨강 ff2812
 밝은 파랑 226ecc 진파랑 0351b2</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://ezaurum.com/1/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/1/01/</guid>
+      <description>저스티스 리그에서 좋았던 부분 1. 오프닝의 Everybody know 노래 및 슈퍼맨이 없어진 세계 2. 원더우먼 가죽바지 3. 처음 빅터 등장 신 4. 플래시가 처음 전투에 참여하려고 하는 장면 / 배트맨의 멘토링 5. 원더우먼 등장 씬 / 이후 유물 복구까지
+저 부분만 살리고 어떻게 안 되려나&amp;hellip;</description>
     </item>
     
     <item>

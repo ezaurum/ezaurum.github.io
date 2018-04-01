@@ -4,14 +4,7 @@
     <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-40920966-1"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'UA-40920966-1');
-</script>
+    <script>console.log("google analytics id : UA-40920966-1")</script>
 
 
     <title>   Raspberry pi에 개발서버 셋팅 -  Ezaurum&#39;s Blog </title>
@@ -33,7 +26,8 @@
 
 <meta itemprop="keywords" content="dev,개발,설정,linux,raspberry pi," />
 
-    <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Raspberry pi에 개발서버 셋팅"/>
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Raspberry pi에 개발서버 셋팅"/>
 <meta name="twitter:description" content="일단 라스베리 파이 파티션을 sd카드를 다 채우게 확장하기. 이걸 안 하면 깔다가 용량부족하다고 에러를 뱉는다. [youtube https://www.youtube.com/watch?v=R4VovMDnsIE&amp;w=560&amp;h=315] 동영상에서는 fdisk -uc 라고 했는데, 나는 fdisk -u -c 로 해야 되었다. 파티션이 3개가 아니라 처음부터 2개고, 첫번째 파티션이 0부터 시작하질 않아서 새로 파티션을 만들 때 이상한 위치가 잡혀서 숫자를 입력해 줘야 했다. sd카드를 빠른 걸 샀더니 의외로 금방 끝났다. 동영상은 4mb/s인데 내 껀 29.9mb/s&hellip; 타이핑이 힘든 경우 여기에서 복사.   초기 셋팅 참고 링크 이거 따라서 다 했다."/>
 
     <meta property="og:title" content="Raspberry pi에 개발서버 셋팅" />
@@ -69,20 +63,6 @@
 
     <a href="https://ezaurum.com/">Ezaurum&#39;s Blog</a>
 
-    <div>
-    <script>
-        (function() {
-            var cx = '011707263751963300540:8lscseckemu';
-            var gcse = document.createElement('script');
-            gcse.type = 'text/javascript';
-            gcse.async = true;
-            gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(gcse, s);
-        })();
-    </script>
-    <gcse:search></gcse:search>
-    </div>
 </nav>
 </header>
 
@@ -136,38 +116,14 @@ rasp-config를 실행해서 해도 어지간한 건 다 되었다.
 
 
 
-    <div id="disqus_thread"></div>
+<script>console.log("disquss ezaurum")</script>
+
+
+
 <script>
-    var disqus_config = function () {
-    
-    
-    
-    };
-    (function() {
-        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
-            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
-            return;
-        }
-        var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + "ezaurum" + '.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-
-
-
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3471055249244195"
-     data-ad-slot="7282877318"
-     data-ad-format="auto"></ins>
-<script>
-    (adsbygoogle = window.adsbygoogle || []).push({});
+    console.log("adsense client ca-pub-3471055249244195")
+    console.log("adsense slot 7282877318")
+    console.log("adsense format auto")
 </script>
 
 

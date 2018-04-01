@@ -4,14 +4,7 @@
     <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-40920966-1"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'UA-40920966-1');
-</script>
+    <script>console.log("google analytics id : UA-40920966-1")</script>
 
 
     <title>   jetty9 jenkins 셀 스크립트만으로 자동 배포 -  Ezaurum&#39;s Blog </title>
@@ -34,7 +27,8 @@ jenkins 설정에서, build 칸에 보면 스크립트 추가할 수 있는 곳�
 
 <meta itemprop="keywords" content="CI,deploy,해결법,jenkins,jetty,linux,sudo,sudoer.d,visudo," />
 
-    <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="jetty9 jenkins 셀 스크립트만으로 자동 배포"/>
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="jetty9 jenkins 셀 스크립트만으로 자동 배포"/>
 <meta name="twitter:description" content="미리 말해두면, 이건 좋지 못한 방법이다. 참고링크 jetty9은 gradle이 지원을 안 한다. cargo로 하려 그래도 containerId를 jetty9x로 지정하면 에러나 뜨고&hellip; 앤트 스크립트도 지금 모르겠고, 그루비도 골치아프다면 그냥 편안하게 셀 스크립트로 하는 방법이 있다. jetty9 설치 방법을 참고했으면, jetty가 서비스로 돌고 있을 테니, 참고 링크보다 좀 더 쉽게 할 수 있다.
 jenkins 설정에서, build 칸에 보면 스크립트 추가할 수 있는 곳이 있다.  sudo service jetty stop sudo cp war파일.war 제티/webapp/파일이름.war sudo service jetty start  이게 sudo를 칠 때마다 비번을 물어보면 안 되니까 jenkins에 sudo 권한을 주고 비번을 안 묻게 하자."/>
 
@@ -72,20 +66,6 @@ jenkins 설정에서, build 칸에 보면 스크립트 추가할 수 있는 곳�
 
     <a href="https://ezaurum.com/">Ezaurum&#39;s Blog</a>
 
-    <div>
-    <script>
-        (function() {
-            var cx = '011707263751963300540:8lscseckemu';
-            var gcse = document.createElement('script');
-            gcse.type = 'text/javascript';
-            gcse.async = true;
-            gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(gcse, s);
-        })();
-    </script>
-    <gcse:search></gcse:search>
-    </div>
 </nav>
 </header>
 
@@ -155,38 +135,14 @@ jenkins ALL=(ALL:ALL) NOPASSWD:ALL
 
 
 
-    <div id="disqus_thread"></div>
+<script>console.log("disquss ezaurum")</script>
+
+
+
 <script>
-    var disqus_config = function () {
-    
-    
-    
-    };
-    (function() {
-        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
-            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
-            return;
-        }
-        var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + "ezaurum" + '.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-
-
-
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3471055249244195"
-     data-ad-slot="7282877318"
-     data-ad-format="auto"></ins>
-<script>
-    (adsbygoogle = window.adsbygoogle || []).push({});
+    console.log("adsense client ca-pub-3471055249244195")
+    console.log("adsense slot 7282877318")
+    console.log("adsense format auto")
 </script>
 
 

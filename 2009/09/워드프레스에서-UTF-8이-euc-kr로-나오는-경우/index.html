@@ -4,14 +4,7 @@
     <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-40920966-1"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'UA-40920966-1');
-</script>
+    <script>console.log("google analytics id : UA-40920966-1")</script>
 
 
     <title>   워드프레스에서 UTF-8이 euc-kr로 나오는 경우 -  Ezaurum&#39;s Blog </title>
@@ -35,7 +28,8 @@ utf-8을 지원한다더니&hellip; mysql만 그걸 지원하고 아파치는 eu
 
 <meta itemprop="keywords" content="apache2,encoding,euc-kr,나야나,한글도메인,해결법,호스팅,워드프레스,utf-8,wordpress,wp-config.php," />
 
-    <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="워드프레스에서 UTF-8이 euc-kr로 나오는 경우"/>
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="워드프레스에서 UTF-8이 euc-kr로 나오는 경우"/>
 <meta name="twitter:description" content="공짜 호스팅을 쓰다가 용량 문제도 있고 이거저거 귀찮은 일들이 많아서 그냥 유료 호스팅을 하나 뚫었다. nayana.com 을 쓰기로 했는데&hellip; &hellip;아파치 설정이 이상한지 워드프레스에서 한글이 다 깨지는 거다. 이것저것 알아본 바, 다음 원인&amp; 해결책이 나왔다.
 utf-8을 지원한다더니&hellip; mysql만 그걸 지원하고 아파치는 euc-kr로 해 뒀나 보더라. 하지만&hellip; 이건 구버전용. 지금은 전부 class를 사용해서 짜 놨더라. 분석하고 있겠냐!
 그래서&hellip;워드프레스 포럼의 글을 참고했으나, 여기서도 실패한 결과. 어쨌든 지금 포스팅 내용은 멀쩡히 나오니까. 일단은 그냥 넘어가자."/>
@@ -75,20 +69,6 @@ utf-8을 지원한다더니&hellip; mysql만 그걸 지원하고 아파치는 eu
 
     <a href="https://ezaurum.com/">Ezaurum&#39;s Blog</a>
 
-    <div>
-    <script>
-        (function() {
-            var cx = '011707263751963300540:8lscseckemu';
-            var gcse = document.createElement('script');
-            gcse.type = 'text/javascript';
-            gcse.async = true;
-            gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(gcse, s);
-        })();
-    </script>
-    <gcse:search></gcse:search>
-    </div>
 </nav>
 </header>
 
@@ -164,38 +144,14 @@ wp-config.php 파일에
 
 
 
-    <div id="disqus_thread"></div>
+<script>console.log("disquss ezaurum")</script>
+
+
+
 <script>
-    var disqus_config = function () {
-    
-    
-    
-    };
-    (function() {
-        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
-            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
-            return;
-        }
-        var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + "ezaurum" + '.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-
-
-
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3471055249244195"
-     data-ad-slot="7282877318"
-     data-ad-format="auto"></ins>
-<script>
-    (adsbygoogle = window.adsbygoogle || []).push({});
+    console.log("adsense client ca-pub-3471055249244195")
+    console.log("adsense slot 7282877318")
+    console.log("adsense format auto")
 </script>
 
 
