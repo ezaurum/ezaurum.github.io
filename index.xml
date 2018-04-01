@@ -33,25 +33,6 @@
     </item>
     
     <item>
-      <title></title>
-      <link>https://ezaurum.com/2018/03/</link>
-      <pubDate>Sun, 25 Mar 2018 16:47:57 +0900</pubDate>
-      
-      <guid>https://ezaurum.com/2018/03/</guid>
-      <description>xkb 고치려면 gnome 트윅을 깔고 거기서 처리하는 게 좋고 grave 문제는 거기 없으니까 /usr/share/X11/xkbd/symbols/kr 이걸 수정해서 처리하면 된다. 아오</description>
-    </item>
-    
-    <item>
-      <title>이미지 두 개 합병</title>
-      <link>https://ezaurum.com/2018/02/%EC%9D%B4%EB%AF%B8%EC%A7%80-%EB%91%90-%EA%B0%9C-%ED%95%A9%EB%B3%91/</link>
-      <pubDate>Sat, 24 Feb 2018 16:05:50 +0900</pubDate>
-      
-      <guid>https://ezaurum.com/2018/02/%EC%9D%B4%EB%AF%B8%EC%A7%80-%EB%91%90-%EA%B0%9C-%ED%95%A9%EB%B3%91/</guid>
-      <description>이미지 두 개 합병
-package main import ( &amp;quot;image&amp;quot; &amp;quot;image/draw&amp;quot; &amp;quot;image/jpeg&amp;quot; &amp;quot;image/png&amp;quot; &amp;quot;os&amp;quot; &amp;quot;log&amp;quot; ) func main() { image1,err := os.Open(&amp;quot;jellyfish.jpg&amp;quot;) if err != nil { log.Fatalf(&amp;quot;failed to open: %s&amp;quot;, err) } first, err := jpeg.Decode(image1) if err != nil { log.Fatalf(&amp;quot;failed to decode: %s&amp;quot;, err) } defer image1.Close() image2,err := os.Open(&amp;quot;pokeball.png&amp;quot;) if err != nil { log.Fatalf(&amp;quot;failed to open: %s&amp;quot;, err) } second,err := png.Decode(image2) if err != nil { log.</description>
-    </item>
-    
-    <item>
       <title>Chiangmai Life 15 - 정리</title>
       <link>https://ezaurum.com/2018/02/Chiangmai-Life-15---%EC%A0%95%EB%A6%AC/</link>
       <pubDate>Thu, 08 Feb 2018 15:01:52 +0700</pubDate>
@@ -6983,38 +6964,10 @@ src 내부에는 github.com bitbucket.org 형태로 저장된다.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/1/01/</guid>
-      <description>게시판 만들기
-go-gin / 에서 hello world 찍기 c.HTML 로 화면 뿌리기 CRUD 화면 생성 폼 바인드 객체 화면에 뿌리기
-DB연결 gorm 설치 만든 객체 DB에 CRUD 구현
-와우!
-게시판 테스트 코드 생성
-게시판 테스트 코드에서 역순으로 구현
-로그인 화면 생성 입력 폼 바인드 입력된 내용 처리 리다이렉트
-세션 생성
-테스트 코드 생성
-테스트 코드부터 역순으로 구현</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://ezaurum.com/1/01/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ezaurum.com/1/01/</guid>
       <description>기본 배경 - 밝은 빨강 E74C3C
 경고 - d9ff2b 노랑
 진빨강 ff2812
 밝은 파랑 226ecc 진파랑 0351b2</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://ezaurum.com/1/01/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ezaurum.com/1/01/</guid>
-      <description>저스티스 리그에서 좋았던 부분 1. 오프닝의 Everybody know 노래 및 슈퍼맨이 없어진 세계 2. 원더우먼 가죽바지 3. 처음 빅터 등장 신 4. 플래시가 처음 전투에 참여하려고 하는 장면 / 배트맨의 멘토링 5. 원더우먼 등장 씬 / 이후 유물 복구까지
-저 부분만 살리고 어떻게 안 되려나&amp;hellip;</description>
     </item>
     
     <item>
