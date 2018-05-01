@@ -6975,5 +6975,15 @@ src 내부에는 github.com bitbucket.org 형태로 저장된다.</description>
 작은 백팩은 노트북 캐리어 이상의 의미가 없어. 접어다닐 수 있는 더 작은 게 있으면 좋겠네.</description>
     </item>
     
+    <item>
+      <title></title>
+      <link>https://ezaurum.com/1/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/1/01/</guid>
+      <description>4.2 gin의 Use 가 어떻게 돌아가는 몰라서 한시간 소요 route가 먼저 처리되고 나면 Use의 펑션들이 안 들어가는 줄 몰랐다. 결국 사용법을 몰라서 문제 4시간 정도 작업
+4.3 기획 하는데 한시간 소요</description>
+    </item>
+    
   </channel>
 </rss>
