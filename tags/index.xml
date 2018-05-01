@@ -841,6 +841,15 @@
     </item>
     
     <item>
+      <title>Document</title>
+      <link>https://ezaurum.com/tags/document/</link>
+      <pubDate>Tue, 01 May 2018 23:36:26 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/tags/document/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Dom</title>
       <link>https://ezaurum.com/tags/dom/</link>
       <pubDate>Thu, 12 Aug 2010 00:00:00 +0000</pubDate>
@@ -1176,9 +1185,18 @@
     <item>
       <title>Go</title>
       <link>https://ezaurum.com/tags/go/</link>
-      <pubDate>Fri, 29 Dec 2017 19:36:26 +0700</pubDate>
+      <pubDate>Tue, 01 May 2018 23:36:26 +0900</pubDate>
       
       <guid>https://ezaurum.com/tags/go/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gorm</title>
+      <link>https://ezaurum.com/tags/gorm/</link>
+      <pubDate>Tue, 01 May 2018 23:36:26 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/tags/gorm/</guid>
       <description></description>
     </item>
     
