@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://ezaurum.com/2018/05/VueJS-%EC%97%90%EC%84%9C-%ED%85%9C%ED%94%8C%EB%A6%BF%EC%9D%84-%EB%A6%AC%ED%84%B0%EB%9F%B4%EB%A1%9C-%EC%84%A0%EC%96%B8-%ED%96%88%EC%9D%84-%EB%95%8C-%EB%B0%94%EC%9D%B8%EB%94%A9%EC%9D%B4-%EC%95%88%EB%90%A8/</loc>
+    <lastmod>2018-05-08T00:16:20+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ezaurum.com/2018/05/GORM%EC%97%90%EC%84%9C-Many-To-Many-%EA%B0%92%EC%9D%84-%EC%A0%9C%EB%8C%80%EB%A1%9C-%EA%B0%80%EC%A0%B8%EC%98%A4%EC%A7%80-%EB%AA%BB%ED%95%98%EB%8A%94-%EB%AC%B8%EC%A0%9C/</loc>
     <lastmod>2018-05-01T23:36:26+09:00</lastmod>
   </url>
@@ -4133,7 +4138,7 @@
   
   <url>
     <loc>https://ezaurum.com/</loc>
-    <lastmod>2018-05-01T23:36:26+09:00</lastmod>
+    <lastmod>2018-05-08T00:16:20+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -4553,7 +4558,7 @@
   
   <url>
     <loc>https://ezaurum.com/tags/js/</loc>
-    <lastmod>2014-12-25T00:00:00+00:00</lastmod>
+    <lastmod>2018-05-08T00:16:20+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -4967,7 +4972,7 @@
   
   <url>
     <loc>https://ezaurum.com/post/</loc>
-    <lastmod>2018-05-01T23:36:26+09:00</lastmod>
+    <lastmod>2018-05-08T00:16:20+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -5693,6 +5698,12 @@
   <url>
     <loc>https://ezaurum.com/tags/vs2013/</loc>
     <lastmod>2013-09-24T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/tags/vuejs/</loc>
+    <lastmod>2018-05-08T00:16:20+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -7180,7 +7191,7 @@
   
   <url>
     <loc>https://ezaurum.com/series/%EB%B2%84%EA%B7%B8%EC%9D%BC%EA%B8%B0/</loc>
-    <lastmod>2018-05-01T23:36:26+09:00</lastmod>
+    <lastmod>2018-05-08T00:16:20+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -8692,7 +8703,7 @@
   
   <url>
     <loc>https://ezaurum.com/categories/%EC%9D%BC%EC%83%81/</loc>
-    <lastmod>2018-05-01T23:36:26+09:00</lastmod>
+    <lastmod>2018-05-08T00:16:20+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -9688,7 +9699,7 @@
   
   <url>
     <loc>https://ezaurum.com/categories/%ED%9A%8C%EA%B3%A0/</loc>
-    <lastmod>2018-05-01T23:36:26+09:00</lastmod>
+    <lastmod>2018-05-08T00:16:20+09:00</lastmod>
     <priority>0</priority>
   </url>
   
