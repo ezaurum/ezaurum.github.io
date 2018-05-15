@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Tue, 08 May 2018 00:16:20 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 15 May 2018 23:01:57 +0900</lastBuildDate>
     
 	<atom:link href="https://ezaurum.com/categories/%EC%9D%BC%EC%83%81/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>요가를 시작했다</title>
+      <link>https://ezaurum.com/2018/05/%EC%9A%94%EA%B0%80%EB%A5%BC-%EC%8B%9C%EC%9E%91%ED%96%88%EB%8B%A4/</link>
+      <pubDate>Tue, 15 May 2018 23:01:57 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/2018/05/%EC%9A%94%EA%B0%80%EB%A5%BC-%EC%8B%9C%EC%9E%91%ED%96%88%EB%8B%A4/</guid>
+      <description>발바닥에 염증이 생겨서 한 동안 운동을 안 했더니, 더 몸이 안 좋아지는 것 같아서 요가를 시작했다. 문제는 생각보다 더 힘이 들어서 과연 계속할 수 있을런지 의문이지만, 일단 시작해봤다.</description>
+    </item>
     
     <item>
       <title>VueJS 에서 템플릿을 리터럴로 선언 했을 때, 바인딩이 안됨</title>
