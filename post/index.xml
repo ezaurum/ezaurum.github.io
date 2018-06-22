@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Tue, 15 May 2018 23:01:57 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 22 Jun 2018 23:31:58 +0900</lastBuildDate>
     
 	<atom:link href="https://ezaurum.com/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2009 하반기 - 2018 상반기 일/공부 회고</title>
+      <link>https://ezaurum.com/2018/06/2009-%ED%95%98%EB%B0%98%EA%B8%B0---2018-%EC%83%81%EB%B0%98%EA%B8%B0-%EC%9D%BC/%EA%B3%B5%EB%B6%80-%ED%9A%8C%EA%B3%A0/</link>
+      <pubDate>Fri, 22 Jun 2018 23:31:58 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/2018/06/2009-%ED%95%98%EB%B0%98%EA%B8%B0---2018-%EC%83%81%EB%B0%98%EA%B8%B0-%EC%9D%BC/%EA%B3%B5%EB%B6%80-%ED%9A%8C%EA%B3%A0/</guid>
+      <description>2009년에 중앙전산소를 들어가면서 본격적으로 회사원으로서의 프로그래머가 되었다.
+그 이후 나름 다종다양한 일을 하면서 배운 것과 느낀 점을 키워드 중심으로 기록해 두고자 한다.
+중앙전산소 - 2009.1-2010.10  스프링 - 토비의 스프링을 정독했다. aop가 뭔지 DI가 뭔지 모르는 상태라도 하루 두 시간씩 하니까 한 달만에 되더라. 혼자 헤딩 - 여기저기 헤딩하면서 혼자 작업했다. 뭐 가르쳐줄 사람도 없었고, 나이도 많고 해서 어쩔 수 없이 야근을 달고 살았다. 책의 중요성 - 본격적으로 공부를 하려니 역시 책으로 보는 게 제일이었다.</description>
+    </item>
     
     <item>
       <title>요가를 시작했다</title>
@@ -6969,6 +6980,32 @@ H는 그랬다.
       <description>Go 는 작업 공간을 GOPATH 라는 환경변수에 지정한다. 다른 언어에서는 각 프로젝트마다 독립적으로 쓰고 있지만, Go 에서는 한 군데에 모아서 쓴다 C:\workspace\go 또는 ~/workspace/go 를 작업공간으로 쓰기로 했다면, 내부에
 go |&amp;ndash; bin | 실행 파일이 존재한다. Go 언어에서 사용하는 util 등이 여기 저장되고, 추가로 설치도 가능하다. | |- pkg | 참조되는 외부 패키지들이 저장된다. | |- src 실제 소스가 들어가는 위치
 src 내부에는 github.com bitbucket.org 형태로 저장된다.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://ezaurum.com/1/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/1/01/</guid>
+      <description>차는 낡았는데 홍콩 택시 꽤 크다 입국장 통과하는데 한시간 반 걸렸다 첨에 줄 서고 30분 기다려서 도착했는데 서류 하나 안 적어서 다시 30분 반복.
+크다 마천루 공기 마빠
+버섯 같음 가로등
+인간른 하늘을 땅에 끌어매리고 서서히 썩어가믐거지 처박아 버려 별을 선에 쥐에 땅에 뿌린다
+홍콩은 돈 많~ 이 벌어서오는 걸로
+일단 마카오는 셔틀이 있어서 좋네 꿈과 환상의 세계로구만 가게가 별로 없다
+홍컹이랑 많이 비교되네 예쁘다
+인천공항
+상공에서 내려다보다누갓들이 조금씩 카지다가 아깨를 나란히하고 나를 픔고 나를 내려다본다</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://ezaurum.com/1/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/1/01/</guid>
+      <description>@ManyToMany(cascade = CascadeType.ALL) @JoinTable(name = &amp;ldquo;tx_book_ship_record_item&amp;rdquo;, inverseJoinColumns = @JoinColumn(name = &amp;ldquo;item_id&amp;rdquo;), joinColumns = @JoinColumn(name=&amp;ldquo;tx_book_ship_record_id&amp;rdquo;)) private Set items;</description>
     </item>
     
     <item>
