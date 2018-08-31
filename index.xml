@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Wed, 15 Aug 2018 23:15:09 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 31 Aug 2018 22:31:05 +0900</lastBuildDate>
     
 	<atom:link href="https://ezaurum.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Vue에서 외부 모듈의 스타일을 적용했는데 적용되지 않을 때</title>
+      <link>https://ezaurum.com/2018/08/Vue%EC%97%90%EC%84%9C-%EC%99%B8%EB%B6%80-%EB%AA%A8%EB%93%88%EC%9D%98-%EC%8A%A4%ED%83%80%EC%9D%BC%EC%9D%84-%EC%A0%81%EC%9A%A9%ED%96%88%EB%8A%94%EB%8D%B0-%EC%A0%81%EC%9A%A9%EB%90%98%EC%A7%80-%EC%95%8A%EC%9D%84-%EB%95%8C/</link>
+      <pubDate>Fri, 31 Aug 2018 22:31:05 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/2018/08/Vue%EC%97%90%EC%84%9C-%EC%99%B8%EB%B6%80-%EB%AA%A8%EB%93%88%EC%9D%98-%EC%8A%A4%ED%83%80%EC%9D%BC%EC%9D%84-%EC%A0%81%EC%9A%A9%ED%96%88%EB%8A%94%EB%8D%B0-%EC%A0%81%EC%9A%A9%EB%90%98%EC%A7%80-%EC%95%8A%EC%9D%84-%EB%95%8C/</guid>
+      <description> 문제 상황 Vue 프로그래밍 중 외부 모듈을 사용했는데, 해당 모듈의 기본 css를 덮어씌우려고 불러오는 vue 페이지의 style을 변경했다. 클래스 이름을 분명히 지정했고, !important도 먹히지 않았음
+문제 원인 알고 보니 style 태그에 scoped가 지정되어 있어서 자동으로 한정자가 붙어버린다. 그러니 단순히 클래스만 지정해서는 해당 모듈에 반영되지 않았다.
+재발 방지를 위해  외부 모듈의 경우는 style태그를 따로 하나 더 만들어서 처리한다. CSS를 해당 외부 모듈을 감싸는 부모 태그를 포함해서 선언 한다.  </description>
+    </item>
     
     <item>
       <title>여러 Github 계정 SSH로 접근</title>
