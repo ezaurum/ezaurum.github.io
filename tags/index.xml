@@ -112,6 +112,15 @@
     </item>
     
     <item>
+      <title>304</title>
+      <link>https://ezaurum.com/tags/304/</link>
+      <pubDate>Wed, 19 Sep 2018 11:42:38 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/tags/304/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>404</title>
       <link>https://ezaurum.com/tags/404/</link>
       <pubDate>Sat, 08 Sep 2012 00:00:00 +0000</pubDate>
@@ -204,7 +213,7 @@
     <item>
       <title>Ajax</title>
       <link>https://ezaurum.com/tags/ajax/</link>
-      <pubDate>Sun, 30 May 2010 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 19 Sep 2018 11:42:38 +0900</pubDate>
       
       <guid>https://ezaurum.com/tags/ajax/</guid>
       <description></description>
@@ -474,7 +483,7 @@
     <item>
       <title>Bug</title>
       <link>https://ezaurum.com/tags/bug/</link>
-      <pubDate>Fri, 29 Dec 2017 19:36:26 +0700</pubDate>
+      <pubDate>Wed, 19 Sep 2018 11:42:38 +0900</pubDate>
       
       <guid>https://ezaurum.com/tags/bug/</guid>
       <description></description>
@@ -527,10 +536,19 @@
     
     <item>
       <title>C/C&#43;&#43;</title>
-      <link>https://ezaurum.com/tags/c/c&#43;&#43;/</link>
+      <link>https://ezaurum.com/tags/c-c&#43;&#43;/</link>
       <pubDate>Mon, 17 Jan 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/tags/c/c&#43;&#43;/</guid>
+      <guid>https://ezaurum.com/tags/c-c&#43;&#43;/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cache</title>
+      <link>https://ezaurum.com/tags/cache/</link>
+      <pubDate>Wed, 19 Sep 2018 11:42:38 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/tags/cache/</guid>
       <description></description>
     </item>
     
@@ -1662,7 +1680,7 @@
     <item>
       <title>Json</title>
       <link>https://ezaurum.com/tags/json/</link>
-      <pubDate>Thu, 25 Jul 2013 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 19 Sep 2018 11:42:38 +0900</pubDate>
       
       <guid>https://ezaurum.com/tags/json/</guid>
       <description></description>
@@ -2201,10 +2219,10 @@
     
     <item>
       <title>Pl/Sql</title>
-      <link>https://ezaurum.com/tags/pl/sql/</link>
+      <link>https://ezaurum.com/tags/pl-sql/</link>
       <pubDate>Fri, 11 Nov 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/tags/pl/sql/</guid>
+      <guid>https://ezaurum.com/tags/pl-sql/</guid>
       <description></description>
     </item>
     

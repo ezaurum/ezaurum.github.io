@@ -46,24 +46,8 @@ cd /usr/local/ sudo wget &ldquo;http://eclipse.org/downloads/download.php?file=/
 일단 자바는 설치되었다고 가정한다. java 라고 쳐 보고 설치되었는지 확인. 별 문제 없다면 기본으로 설치되어 있을 터다. 설치 되었다면 /usr/local/ 로 이동해서 최신버전을 받아본다. 다음에 압축풀고 적당한 디렉토리로 옮긴다.
 cd /usr/local/ sudo wget &ldquo;http://eclipse.org/downloads/download.php?file=/jetty/stable-9/dist/jetty-distribution-9.0.3.v20130506.tar.gz&amp;r=1&quot; sudo tar -xvf jetty-distribution-9.0.3.v20130506.tar.gz sudo mv jetty-distribution-9.0.3.v20130506 jetty  이제는 서비스로 실행을 시켜보자. 시작 스크립트는 제티 설치 디렉토리/bin/jetty.sh 다. jetty라는 유저를 만들어서 그걸로 실행하도록 한다.  sudo useradd jetty -U -s /bin/false sudo chown -R jetty:jetty /usr/local/jetty sudo cp /usr/local/jetty/bin/jetty." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://ezaurum.com/2013/06/mint-%EC%97%90-jetty9-%EC%84%A4%EC%B9%98/" />
-
-
-
-<meta property="article:published_time" content="2013-06-06T00:00:00&#43;00:00"/>
-
+<meta property="og:url" content="https://ezaurum.com/2013/06/mint-%EC%97%90-jetty9-%EC%84%A4%EC%B9%98/" /><meta property="article:published_time" content="2013-06-06T00:00:00&#43;00:00"/>
 <meta property="article:modified_time" content="2013-06-06T00:00:00&#43;00:00"/>
-
-
-
-
-
-
-
-
-
-
-
     
 
 </head>
@@ -157,7 +141,7 @@ sudo update-rc.d jetty defaults
 
 
     <div id="disqus_thread"></div>
-<script>
+<script type="application/javascript">
     var disqus_config = function () {
     
     
