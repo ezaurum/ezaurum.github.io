@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Thu, 08 Feb 2018 15:01:52 +0700</lastBuildDate>
+    <lastBuildDate>Tue, 02 Oct 2018 13:23:21 +0900</lastBuildDate>
     
 	<atom:link href="https://ezaurum.com/tags/%EC%A0%95%EB%A6%AC/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Font Awesome이 적용되지 않았던 문제</title>
+      <link>https://ezaurum.com/bug/font-awesome-not-apply/</link>
+      <pubDate>Tue, 02 Oct 2018 13:23:21 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/bug/font-awesome-not-apply/</guid>
+      <description>문제상황 - font awesome을 버전업 했는데, 아무리 해도 적용이 안 되었다. 되는 곳에서 복사해 온 거였는데. 원인 - 복사하면서 이전 버전의 font awsome data hash 값을 안 지우고, 새 것에 합쳐져 버렸다. hash값이 안 맞아서 다운로드가 안 되었던 것. 해결방안 - 지우고 새로 붙여넣었다. 재발 방지를 위해 - 완전히 지우고 새로 붙여넣자.</description>
+    </item>
     
     <item>
       <title>Chiangmai Life 15 - 정리</title>

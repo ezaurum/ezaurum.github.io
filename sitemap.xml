@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://ezaurum.com/bug/font-awesome-not-apply/</loc>
+    <lastmod>2018-10-02T13:23:21+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ezaurum.com/2018/09/AJAX-%EC%9A%94%EC%B2%AD%EC%9D%B4-%EA%B0%84%ED%97%90%EC%A0%81%EC%9C%BC%EB%A1%9C-%EC%8B%A4%ED%8C%A8%ED%95%98%EB%8A%94-%EB%AC%B8%EC%A0%9C/</loc>
     <lastmod>2018-09-19T11:42:38+09:00</lastmod>
   </url>
@@ -3810,6 +3815,12 @@
   </url>
   
   <url>
+    <loc>https://ezaurum.com/bug/</loc>
+    <lastmod>2018-10-02T13:23:21+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://ezaurum.com/tags/build/</loc>
     <lastmod>2014-12-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -3972,7 +3983,7 @@
   
   <url>
     <loc>https://ezaurum.com/tags/css/</loc>
-    <lastmod>2011-09-11T00:00:00+00:00</lastmod>
+    <lastmod>2018-10-02T13:23:21+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -4188,7 +4199,7 @@
   
   <url>
     <loc>https://ezaurum.com/</loc>
-    <lastmod>2018-09-19T11:42:38+09:00</lastmod>
+    <lastmod>2018-10-02T13:23:21+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -7252,6 +7263,12 @@
   </url>
   
   <url>
+    <loc>https://ezaurum.com/tags/%EB%B2%84%EA%B7%B8/</loc>
+    <lastmod>2018-10-02T13:23:21+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://ezaurum.com/tags/%EB%B2%84%EA%B7%B8%EB%85%B8%ED%8A%B8/</loc>
     <lastmod>2015-02-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -7259,7 +7276,7 @@
   
   <url>
     <loc>https://ezaurum.com/series/%EB%B2%84%EA%B7%B8%EC%9D%BC%EA%B8%B0/</loc>
-    <lastmod>2018-09-19T11:42:38+09:00</lastmod>
+    <lastmod>2018-10-02T13:23:21+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -8957,7 +8974,7 @@
   
   <url>
     <loc>https://ezaurum.com/tags/%EC%A0%95%EB%A6%AC/</loc>
-    <lastmod>2018-02-08T15:01:52+07:00</lastmod>
+    <lastmod>2018-10-02T13:23:21+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -9773,13 +9790,13 @@
   
   <url>
     <loc>https://ezaurum.com/tags/%ED%9A%8C%EA%B3%A0/</loc>
-    <lastmod>2018-06-22T23:31:58+09:00</lastmod>
+    <lastmod>2018-10-02T13:23:21+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ezaurum.com/categories/%ED%9A%8C%EA%B3%A0/</loc>
-    <lastmod>2018-09-19T11:42:38+09:00</lastmod>
+    <lastmod>2018-10-02T13:23:21+09:00</lastmod>
     <priority>0</priority>
   </url>
   
