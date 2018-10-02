@@ -22,6 +22,15 @@
     </item>
     
     <item>
+      <title>Font Awesome이 적용되지 않았던 문제</title>
+      <link>https://ezaurum.com/2018/10/Font-Awesome%EC%9D%B4-%EC%A0%81%EC%9A%A9%EB%90%98%EC%A7%80-%EC%95%8A%EC%95%98%EB%8D%98-%EB%AC%B8%EC%A0%9C/</link>
+      <pubDate>Tue, 02 Oct 2018 13:23:21 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/2018/10/Font-Awesome%EC%9D%B4-%EC%A0%81%EC%9A%A9%EB%90%98%EC%A7%80-%EC%95%8A%EC%95%98%EB%8D%98-%EB%AC%B8%EC%A0%9C/</guid>
+      <description>문제상황 - font awesome을 버전업 했는데, 아무리 해도 적용이 안 되었다. 되는 곳에서 복사해 온 거였는데. 원인 - 복사하면서 이전 버전의 font awsome data hash 값을 안 지우고, 새 것에 합쳐져 버렸다. hash값이 안 맞아서 다운로드가 안 되었던 것. 해결방안 - 지우고 새로 붙여넣었다. 재발 방지를 위해 - 완전히 지우고 새로 붙여넣자.</description>
+    </item>
+    
+    <item>
       <title>AJAX 요청이 간헐적으로 실패하는 문제</title>
       <link>https://ezaurum.com/2018/09/AJAX-%EC%9A%94%EC%B2%AD%EC%9D%B4-%EA%B0%84%ED%97%90%EC%A0%81%EC%9C%BC%EB%A1%9C-%EC%8B%A4%ED%8C%A8%ED%95%98%EB%8A%94-%EB%AC%B8%EC%A0%9C/</link>
       <pubDate>Wed, 19 Sep 2018 11:42:38 +0900</pubDate>
