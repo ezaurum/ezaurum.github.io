@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Tue, 02 Oct 2018 13:23:21 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 02 Nov 2018 02:08:41 +0900</lastBuildDate>
     
 	<atom:link href="https://ezaurum.com/tags/%EC%A0%95%EB%A6%AC/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>AJAX 요청응답이 왔는데 JSON parse에러가 났는데 정상 작동</title>
+      <link>https://ezaurum.com/bug/ajax-response-is-invalid-but-valid/</link>
+      <pubDate>Fri, 02 Nov 2018 02:08:41 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/bug/ajax-response-is-invalid-but-valid/</guid>
+      <description>문제상황 - AJAX요청을 직접 구현해야 할 일이 생겨서 검색 후 복붙하고, XHR을 써서 요청을 보내고, 응답을 받았는데, 이상하게 json parse에러가 나고 콘솔에 reponse를 찍어보니 빈 상태로 왔다. 그런데도 응답이 정상적으로 처리가 되었다. 원인 - 스펙문서를 보면 readystate 3이란 게 있고, 그 단계에서는 response가 다 도달하지 않은 상태다. 그 상태에서 콘솔에 찍으니 당연히 이상하게 나왔고, 코드가 진행되면서 값이 들어가니 처음에 파스 에러가 났다가 아래쪽 재시도에서는 정상이 된 거다. 결국 참고한 코드가 잘못되어 있었는데, 무작정 복붙해서 일어난 문제.</description>
+    </item>
     
     <item>
       <title>Font Awesome이 적용되지 않았던 문제</title>
@@ -23,10 +32,10 @@
     
     <item>
       <title>Chiangmai Life 15 - 정리</title>
-      <link>https://ezaurum.com/2018/02/Chiangmai-Life-15---%EC%A0%95%EB%A6%AC/</link>
+      <link>https://ezaurum.com/2018/02/Chiangmai-Life-15-%EC%A0%95%EB%A6%AC/</link>
       <pubDate>Thu, 08 Feb 2018 15:01:52 +0700</pubDate>
       
-      <guid>https://ezaurum.com/2018/02/Chiangmai-Life-15---%EC%A0%95%EB%A6%AC/</guid>
+      <guid>https://ezaurum.com/2018/02/Chiangmai-Life-15-%EC%A0%95%EB%A6%AC/</guid>
       <description>경비  총 소모 경비 250만원(83만/월, 비행기 제외)  식비 - 5500B/M 생활비 - 2000B/M 교통비 - 1000B/M 여가 - 6000B/M, 근교 여행 1주일 포함 방세 - 9000B/M  근교 1주일 여행 4인팟 - 6500밧  카드를 쓸 수 없으니 예산을 세우고 예산 내에서 집행하는 연습이 강제로 되었다.
 절약 가능해 보이는 포인트는
  식비 - -1000B/M, 조리법이 간단한 고기요리나 쌀국수 종류는 집에서 해먹는게 나을듯 하다. 방세 - -3000B/M, 너무 방이 컸다.</description>
@@ -119,10 +128,10 @@ http://theeye.pe.kr/archives/2014 http://mudchobo.tistory.com/549 http://woniper
     
     <item>
       <title>C# 에서 Dispose, Close, Stop의 차이</title>
-      <link>https://ezaurum.com/2015/02/C#-%EC%97%90%EC%84%9C-Dispose-Close-Stop%EC%9D%98-%EC%B0%A8%EC%9D%B4/</link>
+      <link>https://ezaurum.com/2015/02/C-%EC%97%90%EC%84%9C-Dispose-Close-Stop%EC%9D%98-%EC%B0%A8%EC%9D%B4/</link>
       <pubDate>Fri, 20 Feb 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2015/02/C#-%EC%97%90%EC%84%9C-Dispose-Close-Stop%EC%9D%98-%EC%B0%A8%EC%9D%B4/</guid>
+      <guid>https://ezaurum.com/2015/02/C-%EC%97%90%EC%84%9C-Dispose-Close-Stop%EC%9D%98-%EC%B0%A8%EC%9D%B4/</guid>
       <description>내가 정리를 할 필요가 있어서&amp;hellip; Dispose - 더 이상 이 오브젝트를 쓰지 않음. 관련 리소스를 정리함. 자동으로 Null로 만들지는 않음. 여러 번 호출해도 괜찮음. Close, Stop - Dispose의 하위집합이거나 기능상 동일할 수 있음. 보통 Close/Open, Start/Stop 이며, 하위집합인 경우, Close이후 재 Open이 가능. Stop이후 Start가 가능.</description>
     </item>
     

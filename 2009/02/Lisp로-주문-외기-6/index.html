@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang='ko-kr'>
+<head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-40920966-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-40920966-1');
+</script>
+
+
+    <title>   Lisp로 주문 외기 - 6 - -  Ezaurum&#39;s Blog </title>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+    
+    
+
+    
+<meta itemprop="name" content="Lisp로 주문 외기 - 6 -">
+<meta itemprop="description" content="라이센스 - The GNU Free Documentation License 원저자 - Conrad Barski, M.D. 원본 출처 - http://lisperati.com/casting.html
+게임 세계를 살펴 보기 만들어볼 첫 명령은 지금 서 있는 장소에 대해 말해줄 명령입니다. 그러니 함수가 그 장소에 대해 묘사하기 위해 필요한 게 뭘까요?
+에, 묘사할 장소에 대해 알아야 하고, 지도에서 그게 어디에 있는지를 찾을 수 있어야겠죠. 여기 함수가 있고요, 그건 바로 그렇게 동작합니다.  (defun describe-location (location map) (second (assoc location map)))
+defun이라고 하는 단어는 예상대로, 함수를 선언하고 있습니다.">
+
+
+<meta itemprop="datePublished" content="2009-02-03T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2009-02-03T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="1193">
+
+
+
+<meta itemprop="keywords" content="casting-spels,번역,결과물,공부,LISP," />
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Lisp로 주문 외기 - 6 -"/>
+<meta name="twitter:description" content="라이센스 - The GNU Free Documentation License 원저자 - Conrad Barski, M.D. 원본 출처 - http://lisperati.com/casting.html
+게임 세계를 살펴 보기 만들어볼 첫 명령은 지금 서 있는 장소에 대해 말해줄 명령입니다. 그러니 함수가 그 장소에 대해 묘사하기 위해 필요한 게 뭘까요?
+에, 묘사할 장소에 대해 알아야 하고, 지도에서 그게 어디에 있는지를 찾을 수 있어야겠죠. 여기 함수가 있고요, 그건 바로 그렇게 동작합니다.  (defun describe-location (location map) (second (assoc location map)))
+defun이라고 하는 단어는 예상대로, 함수를 선언하고 있습니다."/>
+
+    <meta property="og:title" content="Lisp로 주문 외기 - 6 -" />
+<meta property="og:description" content="라이센스 - The GNU Free Documentation License 원저자 - Conrad Barski, M.D. 원본 출처 - http://lisperati.com/casting.html
+게임 세계를 살펴 보기 만들어볼 첫 명령은 지금 서 있는 장소에 대해 말해줄 명령입니다. 그러니 함수가 그 장소에 대해 묘사하기 위해 필요한 게 뭘까요?
+에, 묘사할 장소에 대해 알아야 하고, 지도에서 그게 어디에 있는지를 찾을 수 있어야겠죠. 여기 함수가 있고요, 그건 바로 그렇게 동작합니다.  (defun describe-location (location map) (second (assoc location map)))
+defun이라고 하는 단어는 예상대로, 함수를 선언하고 있습니다." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-6/" /><meta property="article:published_time" content="2009-02-03T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2009-02-03T00:00:00&#43;00:00"/>
+
+    
+
+</head>
+<body>
+
+    <header>
+    <nav>
+
+    <a href="https://ezaurum.com/about/">About</a>
+
+    <a href="https://ezaurum.com/">Ezaurum&#39;s Blog</a>
+
+    <a href="/bug">버그일기</a>
+</nav>
+
+</header>
+
+
+
+
+<main class="post single">
+<h1>Lisp로 주문 외기 - 6 -</h1>
+2009-02-03
+<section><p>라이센스 - <a href="http://www.gnu.org/licenses/licenses.html#FDL">The GNU Free Documentation License</a>
+원저자 - <a href="mailto:lisperati@gmail.com">Conrad Barski, M.D.</a>
+원본 출처 - <a href="http://lisperati.com/casting.html">http://lisperati.com/casting.html</a></p>
+
+<h3>게임 세계를 살펴 보기</h3>
+
+<p>만들어볼 첫 명령은 지금 서 있는 장소에 대해 말해줄 명령입니다. 그러니 함수가 그 장소에 대해 묘사하기 위해 필요한 게 뭘까요?</p>
+
+<p>에, 묘사할 장소에 대해 알아야 하고, 지도에서 그게 어디에 있는지를 찾을 수 있어야겠죠. 여기 함수가 있고요, 그건 바로 그렇게 동작합니다.
+<code>
+(defun describe-location (location map)
+  (second (assoc location map)))</code></p>
+
+<p>defun이라고 하는 단어는 예상대로, 함수를 선언하고 있습니다. 함수의 이름은 describe-location이고 두 개의 인수를 받습니다. 장소와 지도. 이 변수들 앞뒤로 별이 없으므로, 이것은 지역 변수이고, 따라서 전역변수인 <em>location</em> 과 <em>map</em> 변수와는 관련이 없습니다. Lisp에서 함수는 종종 다른 프로그래밍 언어의 함수보다 더 수학의 함수같다는 것을 기억해두세요. 수학에서처럼, 이 함수는 사용자에게 메세지나 팝업창을 출력하지 않습니다. 그게 하는 거라고는 묘사를 담은 값을 함수의 실행 결과로서 돌려준다는 것 뿐입니다. 우리의 위치가 거실(living-room)이라고 생각합시다. (사실 그렇습니다&hellip;).
+<img src="/wordpress/wp-content/uploads/2009/02/living_room.jpg" alt="living_room" title="living_room" width="500" height="512" class="alignnone size-full wp-image-409" /></p>
+
+<p>이에 대한 묘사를 찾기 위해, 첫 번째로 필요한 것은 지도에서 living-room을 가리키는 점을 찾는 것이죠. assoc 명령이 이를 수행하며 living-room을 묘사하는 데이타를 돌려줍니다. 그런 다음 second 명령은 목록에서 두 번째 항목-living-room에 대한 묘사-을 잘라냅니다. (거실에 대한 모든 데이타가 담긴 미리 만들어놓은 <em>map</em> 변수를 봤다면, 거실에 대해 묘사하는 문장은 목록이 포함하는 두 번째 항목이었다는 것을 알 수 있을 겁니다.)
+이제 Lisp 명령줄을 써서 함수를 시험해 봅시다. 다시, 다음의 문장을 Lisp 명령줄에 붙여 넣으세요.</p>
+
+<p><code>(describe-location &lsquo;living-room <em>map</em>) </code>
+<strong>==&gt; (YOU ARE IN THE LIVING-ROOM OF A WIZARD&rsquo;S HOUSE. THERE IS A WIZARD SNORING LOUDLY ON THE COUCH.)</strong></p>
+
+<p>완벽해요!
+바로 우리가 원하던 거군요&hellip; living-room이라는 기호 앞에 작은 따옴표를 넣었다는 것을 주목하세요, 왜냐면 이 기호는 그저 장소라고 이름붙은 데이터의 조각 하나니까요. (즉, 그건 데이터 모드로 읽혀야 하죠.) 하지만 *map*이라는 기호 앞에는 따옴표가 없는 것을 보세요, 왜냐면 이 경우 컴파일러가 *map*변수 안에 저장된 데이터를 찾아 읽어야 하니까요.(즉, 컴파일러가 코드 모드로 동작하고, *map*이란 단어를 그냥 데이터 묶음으로 보지 않아야 합니다.)</p>
+
+<h4>함수식 프로그래밍 스타일</h4>
+
+<p>우리가 만든 describe-location함수가 여러 면에서 상당히 어색해 보인다는 것을 알아챘을 지도 모릅니다. 일단, 왜 그냥 전역 변수를 바로 읽지 않고 장소와 지도를 변수로 넘겨주나? 이유는 Lisp 프로그래머는 종종 코드를 함수식 프로그래밍 스타일로로 작성하는 것을 좋아하기 때문입니다.(확실히 하자면, 이것은 어쩌면 고등학교에서 배웠을지도 모를 &ldquo;절차식 프로그래밍&rdquo;이나 &ldquo;구조적 프로그래밍&rdquo;과 완전히 연관이 없습니다.). 이 스타일에서는, 목표는 항상 다음의 규칙을 따르는 함수를 작성하는 겁니다.
+<ol>    <li>함수에 넘겨지거나 함수에 의해 만들어진 변수만 읽을 수 있다.(그러니 아무 전역 변수도 읽지 않습니다.)</li>
+    <li>이미 지정된 변수의 값을 바꾸지 않는다.(그러니 증가하는 변수라든가 다른 바보짓은 없습니다.)</li>
+    <li>세계 바깥과 소통하지 않는다. 결과값을 돌려주는 것을 빼고.(그러니 파일에 쓴다든가 사용자에게 메세지를 전달한다든가 하지 않습니다.)</li>
+</ol>
+이렇게 가차 없는 제한이 걸린 상태로 실제로 뭐든 유용한 것을 하는 코드를 실제로 작성할 수 있을까 하는 의문이 들 수 있을 겁니다&hellip; 답은 그렇다. 입니다. 익숙해 지기만 한다면&hellip; 왜 이렇게 귀찮은 규칙을 따르는가? 한 가지 매우 중요한 이유가 있습니다. 이 스타일로 코드를 작성하면 참조 투명성이 보장된 프로그램이 됩니다. 같은 인수에 의해 호출되고, 항상 같은 결과를 돌려주고 언제 호츨했든지에 관계 없이 정확하게 같은 일을 합니다. 이는 에러를 줄일 수 있고, 많은 경우 프로그래머의 생산성을 증대시킵니다.</p>
+
+<p>물론, 꼭 어떤 함수는 함수식 프로그래밍 스타일이 아니게 되거나, 사용자, 아니면 바깥 세계의 다른 부분과 소통할 수 없을 겁니다.
+이 강좌에서 나중에 나올 대부분의 함수는 이 규칙을 따르지 않습니다.
+describe-location 함수가 가진 다른 문제는 그 장소에서 다른 장소로 들어가고 나가는 길에 대해서 말해주지 않는다는 겁니다. 그럼 그 길에 대해서 묘사하는 함수를 만들어 봅시다.</p>
+
+<p><code>(defun describe-path (path)
+  `(there is a ,(second path) going ,(first path) from here.))</code></p>
+
+<p>좋아요, 지금 이 함수는 좀 이상해 보입니다. 이건 함수라기 보단 거의 데이터 조각 같아 보입니다. 일단 시도해 보고 어째야 될 지, 이후에는 어쩔지 생각해 봅시다.</p>
+
+<p><code>(describe-path &lsquo;(west door garden))</code>
+<strong>==&gt; (THERE IS A DOOR GOING WEST FROM HERE.)</strong></p>
+
+<p>자 이제 확실해 졌죠. 이 함수는 길을 묘사하는 목록을 가지고 있고(<em>map</em> 변수 안에 있는 것처럼) 멋지게 문장을 만들어냅니다. 이제 함수를 다시 보면, 함수는 그게 만드는 데이터와 아주 많이 닮았다는 걸 볼 수 있을 겁니다. 그건 기본적으로 선언된 문장에 경로를 가지고 그냥 처음과 두 번째 항목을 나눠 놓은 것 뿐이에요. 그런데 어떻게 이게 되는거죠? 역-따옴표(`)를 쓰면 됩니다!</p>
+
+<p>이전에 컴파일러에게 코드모드와 데이터 모드를 전환하게 하기 위해 작은 따옴표(&lsquo;)를 썼었죠. 음, 역-따옴표( ` , 키보드의 왼쪽 위, 숫자 1 왼쪽에 있는 것)를 쓰면 한 번 전환할 뿐만아니라 콤마를 사용해서 다시 코드 모드로 돌아올 수도 있어요.
+<img src="/wordpress/wp-content/uploads/2009/02/backquote.jpg" alt="backquote" title="backquote" width="500" height="103" class="alignnone size-full wp-image-412" /></p>
+
+<p>이 &ldquo;역-따옴표&rdquo; 기술은 Lisp에서 굉장한 부분이랍니다. 이걸 쓰면 만들어낼 데이터랑 똑같은 식으로 코드를 짤 수 있어요. 이건 함수식 스타일로 코드를 짤 때 빈번하게 일어나는 일입니다. 만들어내는 데이터와 같아 보이는 모양으로 함수를 짠다는 것은, 코드를 이해하기 쉽게 만들 수 있을 뿐만 아니라, 아주 오래 효용성 있는 코드를 만들 수 있습니다. 데이터가 변하지 않으면, 함수는 데이터와 매우 밀접하게 닮아 있기 때문에 아마도 재설계되거나 여튼 바뀔 필요가 없으니까요. 이걸 VB나 C에서 어떻게 짜 왔는지 생각해 보세요. 아마도 경로를 조각조각 쪼개고, 그 다음에 문장 조각들을 이어다 붙이면 다시 그 조각들은 하나가 될 겁니다. 더 제멋대로인 과정이고, 완전히 데이터랑 다르게 보이고, 아마도 더 오래 쓰기는 힘들 겁니다.</p>
+
+<p>자 이제 경로를 묘사할 수 있게 됐습니다. 하지만 이 게임에서 각 장소는 경로 말고도 다른 속성들이 있죠. 그러니 describe-paths란 함수를 만들어봅시다.</p>
+
+<p><code>(defun describe-paths (location map)
+  (apply #&lsquo;append (mapcar #&lsquo;describe-path (cddr (assoc location map)))))</code></p>
+
+<p>이 함수에서는 또 다른 일반적인 함수형 프로그래밍 기법을 사용하고 있습니다. 상위 수준 함수를 쓰는 거죠. 이건 apply 와 mapcar 함수가 다른 함수를 인수로 가져가고 자기 자신을 호출할 수 있다는 것을 의미합니다. 함수를 넘겨주기 위해서, 그냥 함수 이름 앞에 #&rsquo; 를 붙여주기만 하면 됩니다. cddr명령은 목록의 앞에서 첫 번째 두 개 항목을 쪼개고 (그럼 경로 데이터만 남지요). mapcar는 간단히 다른 함수를 목록에 있는 모든 물체에 적용합니다. 기본적으로 describe-path함수에 의해 모든 경로가 멋진 묘사로 바뀌게 됩니다. &ldquo;apply #&lsquo;append&rdquo;는 그냥 괄호 몇 개를 지워줄 뿐, 별로 중요한 건 아니에요. 자, 이 새 함수를 시험해 봅시다.</p>
+
+<p><code>(describe-paths &lsquo;living-room <em>map</em>)</code>
+<strong>==&gt; (THERE IS A DOOR GOING WEST FROM HERE. THERE IS A STAIRWAY GOING UPSTAIRS FROM HERE.)</strong></p>
+
+<p>좋습니다!
+여전히 묘사할 필요가 있는 게 하나 남아 있죠. 서 있는 바닥에 뭔가 있다면 그것들도 모두 묘사해야 겠죠. 일단은 주어진 장소에 항목이 있는지 없는지 가르쳐 줄 도우미 함수를 만들어보죠.</p>
+
+<p><code>(defun is-at (obj loc obj-loc)
+  (eq (second (assoc obj obj-loc)) loc))</code></p>
+
+<p>eq 함수는 물체 위치 목록에서 나온 기호가 현재 위치인지 말해줍니다.</p>
+
+<p><img src="/wordpress/wp-content/uploads/2009/02/slob.jpg" alt="slob" title="slob" width="500" height="391" class="alignnone size-full wp-image-413" /></p>
+
+<p>이걸 시도해 봅시다.
+<code>(is-at &lsquo;whiskey-bottle &lsquo;living-room <em>object-locations</em>)</code>
+<strong>==&gt; T</strong></p>
+
+<p>t라는 기호는 (아니면 nil 이 아닌 다른 어떤 거라도) whiskey-bottle 이 living-room 에 있다는 것을 의미합니다.
+자 이 새로운 함수를 바닥을 묘사하기 위해 사용해 봅시다.
+<code>(defun describe-floor (loc objs obj-loc)
+  (apply #&lsquo;append (mapcar (lambda (x)
+                            `(you see a ,x on the floor.))
+                          (remove-if-not (lambda (x)
+                                           (is-at x loc obj-loc))
+                                         objs))))</code></p>
+
+<p>이 함수에는 새로운 점이 몇 개 있습니다. 첫째로, 이것은 무명함수 입니다.(람다는 그냥 이 때 쓰는 이쁜 이름입니다.). 첫 번째 람다 형식은 그냥 도우미 함수를 정의하는 것과 같습니다. (defun 뭐시라 (x) `(x 가 바닥에 놓여 있는 것이 보인다.)) 그런 다음 #&lsquo;뭐시라 를 mapcar 함수에 보냅니다. remove-if-not 함수는 목록이 mapcar에 넘겨져서 멋진 문장을 만들기 전에 현재 위치에 있지 않은 물체를 제거합니다.
+자, 이 새로운 함수를 시험해 봅시다.
+<code>(describe-floor &lsquo;living-room <em>objects</em> <em>object-locations</em>)</code>
+<strong>==&gt; (YOU SEE A WHISKEY-BOTTLE ON THE FLOOR. YOU SEE A BUCKET ON THE FLOOR)</strong></p>
+
+<p>이제 모든 묘사 함수들을 전역 변수를 쓰는 LOOK이라는 쉬운 명령 하나로 묶을 수 있습니다.(그래서 함수식 스타일이 안 되기는 했지만) 이건 모든 것을 표현합니다.</p>
+
+<p><code>(defun look ()
+  (append (describe-location <em>location</em> <em>map</em>)
+          (describe-paths <em>location</em> <em>map</em>)
+          (describe-floor <em>location</em> <em>objects</em> <em>object-locations</em>)))</code></p>
+
+<p><img src="/wordpress/wp-content/uploads/2009/02/functional.jpg" alt="functional" title="functional" width="250" height="242" class="alignnone size-full wp-image-414" />
+해 봅시다.
+<code>(look)</code>
+<strong>==&gt; (YOU ARE IN THE LIVING-ROOM OF A WIZARD&rsquo;S HOUSE.
+THERE IS A WIZARD SNORING LOUDLY ON THE COUCH.
+THERE IS A DOOR GOING WEST FROM HERE.
+THERE IS A STAIRWAY GOING UPSTAIRS FROM HERE.
+YOU SEE A WHISKEY-BOTTLE ON THE FLOOR.
+YOU SEE A BUCKET ON THE FLOOR)</strong></p>
+
+<p>굉장하죠!</p>
+</section>
+
+
+
+
+    <ul class="taxonomy tag">
+        Tag
+        
+        <li><a href="/tags/casting-spels">casting-spels</a></li>
+        
+        <li><a href="/tags/%EB%B2%88%EC%97%AD">번역</a></li>
+        
+        <li><a href="/tags/%EA%B2%B0%EA%B3%BC%EB%AC%BC">결과물</a></li>
+        
+        <li><a href="/tags/%EA%B3%B5%EB%B6%80">공부</a></li>
+        
+        <li><a href="/tags/LISP">LISP</a></li>
+        </ul>
+    </ul>
+
+
+
+<a href="https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-5/"> Lisp로 주문 외기 - 5 -</a>
+
+
+<a href="https://ezaurum.com/2009/02/%EC%A7%A4%EB%B0%A9%EC%9D%80-%EC%9E%AC%EB%B0%8C%EB%8B%A4/">짤방은 재밌다</a>
+
+
+
+
+
+    <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "ezaurum" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3471055249244195"
+     data-ad-slot="7282877318"
+     data-ad-format="auto"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+</main>
+
+
+
+    <footer>
+© Ezaurum 2001-
+</footer>
+
+
+
+
+
+    <script>
+
+</script>
+
+
+</body>
+</html>

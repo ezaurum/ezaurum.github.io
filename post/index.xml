@@ -44,10 +44,10 @@ git clone https://github.com/golang/go
     
     <item>
       <title>2009 하반기 - 2018 상반기 일/공부 회고</title>
-      <link>https://ezaurum.com/2018/06/2009-%ED%95%98%EB%B0%98%EA%B8%B0---2018-%EC%83%81%EB%B0%98%EA%B8%B0-%EC%9D%BC/%EA%B3%B5%EB%B6%80-%ED%9A%8C%EA%B3%A0/</link>
+      <link>https://ezaurum.com/2018/06/2009-%ED%95%98%EB%B0%98%EA%B8%B0-2018-%EC%83%81%EB%B0%98%EA%B8%B0-%EC%9D%BC-%EA%B3%B5%EB%B6%80-%ED%9A%8C%EA%B3%A0/</link>
       <pubDate>Fri, 22 Jun 2018 23:31:58 +0900</pubDate>
       
-      <guid>https://ezaurum.com/2018/06/2009-%ED%95%98%EB%B0%98%EA%B8%B0---2018-%EC%83%81%EB%B0%98%EA%B8%B0-%EC%9D%BC/%EA%B3%B5%EB%B6%80-%ED%9A%8C%EA%B3%A0/</guid>
+      <guid>https://ezaurum.com/2018/06/2009-%ED%95%98%EB%B0%98%EA%B8%B0-2018-%EC%83%81%EB%B0%98%EA%B8%B0-%EC%9D%BC-%EA%B3%B5%EB%B6%80-%ED%9A%8C%EA%B3%A0/</guid>
       <description>2009년에 중앙전산소를 들어가면서 본격적으로 회사원으로서의 프로그래머가 되었다.
 그 이후 나름 다종다양한 일을 하면서 배운 것과 느낀 점을 키워드 중심으로 기록해 두고자 한다.
 중앙전산소 - 2009.1-2010.10  스프링 - 토비의 스프링을 정독했다. aop가 뭔지 DI가 뭔지 모르는 상태라도 하루 두 시간씩 하니까 한 달만에 되더라. 혼자 헤딩 - 여기저기 헤딩하면서 혼자 작업했다. 뭐 가르쳐줄 사람도 없었고, 나이도 많고 해서 어쩔 수 없이 야근을 달고 살았다. 책의 중요성 - 본격적으로 공부를 하려니 역시 책으로 보는 게 제일이었다.</description>
@@ -64,10 +64,10 @@ git clone https://github.com/golang/go
     
     <item>
       <title>Chiangmai Life 15 - 정리</title>
-      <link>https://ezaurum.com/2018/02/Chiangmai-Life-15---%EC%A0%95%EB%A6%AC/</link>
+      <link>https://ezaurum.com/2018/02/Chiangmai-Life-15-%EC%A0%95%EB%A6%AC/</link>
       <pubDate>Thu, 08 Feb 2018 15:01:52 +0700</pubDate>
       
-      <guid>https://ezaurum.com/2018/02/Chiangmai-Life-15---%EC%A0%95%EB%A6%AC/</guid>
+      <guid>https://ezaurum.com/2018/02/Chiangmai-Life-15-%EC%A0%95%EB%A6%AC/</guid>
       <description>경비  총 소모 경비 250만원(83만/월, 비행기 제외)  식비 - 5500B/M 생활비 - 2000B/M 교통비 - 1000B/M 여가 - 6000B/M, 근교 여행 1주일 포함 방세 - 9000B/M  근교 1주일 여행 4인팟 - 6500밧  카드를 쓸 수 없으니 예산을 세우고 예산 내에서 집행하는 연습이 강제로 되었다.
 절약 가능해 보이는 포인트는
  식비 - -1000B/M, 조리법이 간단한 고기요리나 쌀국수 종류는 집에서 해먹는게 나을듯 하다. 방세 - -3000B/M, 너무 방이 컸다.</description>
@@ -75,10 +75,10 @@ git clone https://github.com/golang/go
     
     <item>
       <title>Chiangmai Life 14 - 푸치파</title>
-      <link>https://ezaurum.com/2018/02/Chiangmai-Life-14---%ED%91%B8%EC%B9%98%ED%8C%8C/</link>
+      <link>https://ezaurum.com/2018/02/Chiangmai-Life-14-%ED%91%B8%EC%B9%98%ED%8C%8C/</link>
       <pubDate>Wed, 07 Feb 2018 17:30:52 +0700</pubDate>
       
-      <guid>https://ezaurum.com/2018/02/Chiangmai-Life-14---%ED%91%B8%EC%B9%98%ED%8C%8C/</guid>
+      <guid>https://ezaurum.com/2018/02/Chiangmai-Life-14-%ED%91%B8%EC%B9%98%ED%8C%8C/</guid>
       <description>푸치파(phuchifa)
  교통비 : 150밧(편도)  라오스와 태국 경계에 있는 산   만족스럽다! 일단 교통편은 치앙라이에서 미니밴을 타고 4시간 정도 걸린다. 편도 150 왕복 300. 표 예약 따위 안 되니 아침에 터미널에 일찍 와서 표를 사 두는 걸 추천. 푸치파로 가는 건 한시 출발 오는 건 9시 출발&amp;hellip; 인데 치앙라이에서 한시간 가까이 연착되었다. 자주 있는 일인 듯. 짐은 미니밴 2층에 올린다.
 가는 길은 빠이처럼 험하지 않고, 풍경도 볼만하다. 마을은 아주 작다.</description>
@@ -86,20 +86,20 @@ git clone https://github.com/golang/go
     
     <item>
       <title>Chiangmai Life 13 - 치앙라이</title>
-      <link>https://ezaurum.com/2018/02/Chiangmai-Life-13---%EC%B9%98%EC%95%99%EB%9D%BC%EC%9D%B4/</link>
+      <link>https://ezaurum.com/2018/02/Chiangmai-Life-13-%EC%B9%98%EC%95%99%EB%9D%BC%EC%9D%B4/</link>
       <pubDate>Wed, 07 Feb 2018 17:01:52 +0700</pubDate>
       
-      <guid>https://ezaurum.com/2018/02/Chiangmai-Life-13---%EC%B9%98%EC%95%99%EB%9D%BC%EC%9D%B4/</guid>
+      <guid>https://ezaurum.com/2018/02/Chiangmai-Life-13-%EC%B9%98%EC%95%99%EB%9D%BC%EC%9D%B4/</guid>
       <description>교통비 : 166밧  치앙마이 근처의 소도시. 치앙마이 아케이드에서 버스를 타고 가면 된다. 많이 있으니 교통편은 걱정할 필요가 없다. 표 살 때 여권을 요구한다. 그린버스가 제일 유명한데, 166밧이고 이동시간은 세시간 반. 물 한통 준다. 화장실 없고 중간에 휴게소 들르고, 자잘하게 작은 정류소에서 내려준다.
 한국에서 직행 비행기도 없고 어차피 치앙마이에서 가야 한다면 나한테는 특별히 메리트는 없었다. 치앙마이행을 고려할 때 후보군에 있었던 곳이긴 한데, 실제 와 보니 인프라가 확실히 너무 부족하다는 느낌이다.</description>
     </item>
     
     <item>
       <title>Chiangmai Life 12 - 도이수텝</title>
-      <link>https://ezaurum.com/2018/02/Chiangmai-Life-12---%EB%8F%84%EC%9D%B4%EC%88%98%ED%85%9D/</link>
+      <link>https://ezaurum.com/2018/02/Chiangmai-Life-12-%EB%8F%84%EC%9D%B4%EC%88%98%ED%85%9D/</link>
       <pubDate>Wed, 07 Feb 2018 16:26:52 +0700</pubDate>
       
-      <guid>https://ezaurum.com/2018/02/Chiangmai-Life-12---%EB%8F%84%EC%9D%B4%EC%88%98%ED%85%9D/</guid>
+      <guid>https://ezaurum.com/2018/02/Chiangmai-Life-12-%EB%8F%84%EC%9D%B4%EC%88%98%ED%85%9D/</guid>
       <description>도이수텝 (수텝 산)  교통비 : 40밧(편도) 시간 : 30분 정도 입장료 : 40인가&amp;hellip;  치앙마이의 구경거리. 왓 프라탓 이라는 사원이 있다.
 치앙마이 대학 정문(나머)에서 썽태우들이 대기하고 있다가 태워간다. 도이수텝까지 인당 편도 40밧. 4명쯤 되면 사실 Grab 같은 걸 이용하는 것도 나쁘지 않을 듯 하다. 우린 도이뿌이까지 가는 장거리 코스라 안 했지만.
 우리 일행(4명)은 천 밧에 도이뿌이-도이수텝 코스로 갔다. 도이뿌이를 먼저 가는 게 안된다고 해서 열심히 설득했다.
@@ -108,10 +108,10 @@ git clone https://github.com/golang/go
     
     <item>
       <title>Chiangmai Life 11 - 빠이</title>
-      <link>https://ezaurum.com/2018/02/Chiangmai-Life-11---%EB%B9%A0%EC%9D%B4/</link>
+      <link>https://ezaurum.com/2018/02/Chiangmai-Life-11-%EB%B9%A0%EC%9D%B4/</link>
       <pubDate>Thu, 01 Feb 2018 19:30:52 +0700</pubDate>
       
-      <guid>https://ezaurum.com/2018/02/Chiangmai-Life-11---%EB%B9%A0%EC%9D%B4/</guid>
+      <guid>https://ezaurum.com/2018/02/Chiangmai-Life-11-%EB%B9%A0%EC%9D%B4/</guid>
       <description>배낭여행자의 천국이라고 하는 빠이에 가 보았다. 왜 천국인지는 잘 모르겠고, 일단 비행기 추천 다시 간다면 무조건 비행기를 탈 테다.
   여기 아야 서비스에서 편도 200밧 주고 차를 타면 된다.
 그렇긴 한데, 길이 진짜 힘들다. 꼬불꼬불한 산길을 4시간 정도 가게 되는데, 높은 확률로 멀미를 하고, 일단 여기저지 부딪혀서 힘들다.
@@ -120,10 +120,10 @@ git clone https://github.com/golang/go
     
     <item>
       <title>Chiangmai Life 10 - 동물</title>
-      <link>https://ezaurum.com/2018/02/Chiangmai-Life-10---%EB%8F%99%EB%AC%BC/</link>
+      <link>https://ezaurum.com/2018/02/Chiangmai-Life-10-%EB%8F%99%EB%AC%BC/</link>
       <pubDate>Thu, 01 Feb 2018 19:01:52 +0700</pubDate>
       
-      <guid>https://ezaurum.com/2018/02/Chiangmai-Life-10---%EB%8F%99%EB%AC%BC/</guid>
+      <guid>https://ezaurum.com/2018/02/Chiangmai-Life-10-%EB%8F%99%EB%AC%BC/</guid>
       <description>태국 와서 가장 놀란 것은, 아무래도 들개가 마구 돌아다닌 다는 거다. 그리고 사람하고 친해. 애완동물은 오면 안되지만, 들개는 돌아다닌다.
 걸어가고 있는데 개가 손을 핥고 가서 놀란 적도 있다. 석달 지냈지만, 사실 아직 개는 좀 무섭다. 이런 작은 애는 괜찮은데. 이렇게 큰 애가 갑자기 짖거나 하면 놀란다. 보통 낮에 보는 건 이렇게 자고 있는 모습.
 고양이들도 사람을 무서워 하지 않는다. 그냥 와서 쓰다듬으라고 누워 있고 그런다. 조타.
@@ -132,10 +132,10 @@ git clone https://github.com/golang/go
     
     <item>
       <title>Chiangmai Life 09 - 왓우몽</title>
-      <link>https://ezaurum.com/2018/02/Chiangmai-Life-09---%EC%99%93%EC%9A%B0%EB%AA%BD/</link>
+      <link>https://ezaurum.com/2018/02/Chiangmai-Life-09-%EC%99%93%EC%9A%B0%EB%AA%BD/</link>
       <pubDate>Thu, 01 Feb 2018 17:01:52 +0700</pubDate>
       
-      <guid>https://ezaurum.com/2018/02/Chiangmai-Life-09---%EC%99%93%EC%9A%B0%EB%AA%BD/</guid>
+      <guid>https://ezaurum.com/2018/02/Chiangmai-Life-09-%EC%99%93%EC%9A%B0%EB%AA%BD/</guid>
       <description>왓우몽 태국은 어디나 사원이 있다.
 대부분 관광지는 절이고, 우리가 생각하는 그런 고즈넉한 분위기는 아니다. 사원 내에 매점, 식당, 안마시술소 등이 있고, 때로 야시장도 열린다. 실생활에 가까운 곳이랄까.
 왓 우몽도 그런 사원 중 하나다. 절 건물이 동굴 내부에 있다는 점이 특이하지만, 그 이외에 크게 볼 건 없다. 뭐 불상의 미술 양식이라든가 역사적 가치라든가를 아는 것도 아니니까.
@@ -145,10 +145,10 @@ git clone https://github.com/golang/go
     
     <item>
       <title>Chiangmai Life 08 - 고기와 소주</title>
-      <link>https://ezaurum.com/2018/01/Chiangmai-Life-08---%EA%B3%A0%EA%B8%B0%EC%99%80-%EC%86%8C%EC%A3%BC/</link>
+      <link>https://ezaurum.com/2018/01/Chiangmai-Life-08-%EA%B3%A0%EA%B8%B0%EC%99%80-%EC%86%8C%EC%A3%BC/</link>
       <pubDate>Wed, 31 Jan 2018 17:01:52 +0700</pubDate>
       
-      <guid>https://ezaurum.com/2018/01/Chiangmai-Life-08---%EA%B3%A0%EA%B8%B0%EC%99%80-%EC%86%8C%EC%A3%BC/</guid>
+      <guid>https://ezaurum.com/2018/01/Chiangmai-Life-08-%EA%B3%A0%EA%B8%B0%EC%99%80-%EC%86%8C%EC%A3%BC/</guid>
       <description>태국 사람들은 술을 많이 먹지 않는다. 사실 내가 많이 먹는 편일지도 모르겠다는 생각이 들긴 하지만&amp;hellip; 퇴근길에 순대국에 소주한잔 하고 들어가는 걸 할 수 없다는 건 상당히 곤란한 일이라, 비슷한 대체품을 찾아보았다. 꿔이짭, 꿔이띠아오 같은 걸로 순대국은 대체가 가능하지만&amp;hellip; 역시 술을 마실 수 없다는 게 아쉬웠다. 꿩 대신 닭으로 고기와 술 조합을 찾았는데, 태국에는 고기부페-무까타- 가 매우 많다. 가격에 비해서 품질도 괜찮다. 그러니 술을 마실 수 있는 곳만 찾으면 되는데, 그게 쉽지가 않았다.</description>
     </item>
     
@@ -197,10 +197,10 @@ git clone https://github.com/golang/go
     
     <item>
       <title>Chiangmai Life 07 - 치앙마이 대학 후문 주변</title>
-      <link>https://ezaurum.com/2017/12/Chiangmai-Life-07---%EC%B9%98%EC%95%99%EB%A7%88%EC%9D%B4-%EB%8C%80%ED%95%99-%ED%9B%84%EB%AC%B8-%EC%A3%BC%EB%B3%80/</link>
+      <link>https://ezaurum.com/2017/12/Chiangmai-Life-07-%EC%B9%98%EC%95%99%EB%A7%88%EC%9D%B4-%EB%8C%80%ED%95%99-%ED%9B%84%EB%AC%B8-%EC%A3%BC%EB%B3%80/</link>
       <pubDate>Mon, 18 Dec 2017 17:22:52 +0700</pubDate>
       
-      <guid>https://ezaurum.com/2017/12/Chiangmai-Life-07---%EC%B9%98%EC%95%99%EB%A7%88%EC%9D%B4-%EB%8C%80%ED%95%99-%ED%9B%84%EB%AC%B8-%EC%A3%BC%EB%B3%80/</guid>
+      <guid>https://ezaurum.com/2017/12/Chiangmai-Life-07-%EC%B9%98%EC%95%99%EB%A7%88%EC%9D%B4-%EB%8C%80%ED%95%99-%ED%9B%84%EB%AC%B8-%EC%A3%BC%EB%B3%80/</guid>
       <description>현재 거주하는 곳은 치앙마이 대학 후문 근방이다.
 교통 버스 정류소는 봤지만, 버스가 다니는 걸 본 적은 없다. 편안하게 다니려면 스쿠터가 꼭 필요한 동네다. 인도가 아예 없는 길이 많다. 썽태우나 툭툭을 탈 때는 &amp;ldquo;랑머(후문)&amp;rdquo;, &amp;ldquo;랑머처(ㅊ후문)&amp;rdquo; 라고 하면 알아듣는다. 치앙마이 대학 첫자만 따서 랑머처라고 하나보다.
   대충 이 근방.
@@ -224,20 +224,20 @@ git clone https://github.com/golang/go
     
     <item>
       <title>Chiangmai Life 06 - 생활비</title>
-      <link>https://ezaurum.com/2017/12/Chiangmai-Life-06---%EC%83%9D%ED%99%9C%EB%B9%84/</link>
+      <link>https://ezaurum.com/2017/12/Chiangmai-Life-06-%EC%83%9D%ED%99%9C%EB%B9%84/</link>
       <pubDate>Fri, 15 Dec 2017 19:14:31 +0700</pubDate>
       
-      <guid>https://ezaurum.com/2017/12/Chiangmai-Life-06---%EC%83%9D%ED%99%9C%EB%B9%84/</guid>
+      <guid>https://ezaurum.com/2017/12/Chiangmai-Life-06-%EC%83%9D%ED%99%9C%EB%B9%84/</guid>
       <description>항목 금액 일간 사용량     교통비 638 21.27   생필품 1381 46.00   식비 5040 168.00   여가 5538 184.60   업무 225 7.50   생활비 9897 329.90   합계 22719 757.30    [2017-11-14~2017-11-15 사용금액]
 교통비 많이 돌아다닌다면 스쿠터가 나을 수 있다. 2000~3000밧 정도면 한 달 대여가 가능하고, 기름값은 얼마나 돌아다니느냐에 따라 다르겠지만 몇백 바트 수준이라고들 한다.</description>
     </item>
     
     <item>
       <title>Chiangmai Life 05 - 생필품</title>
-      <link>https://ezaurum.com/2017/12/Chiangmai-Life-05---%EC%83%9D%ED%95%84%ED%92%88/</link>
+      <link>https://ezaurum.com/2017/12/Chiangmai-Life-05-%EC%83%9D%ED%95%84%ED%92%88/</link>
       <pubDate>Thu, 14 Dec 2017 11:23:34 +0700</pubDate>
       
-      <guid>https://ezaurum.com/2017/12/Chiangmai-Life-05---%EC%83%9D%ED%95%84%ED%92%88/</guid>
+      <guid>https://ezaurum.com/2017/12/Chiangmai-Life-05-%EC%83%9D%ED%95%84%ED%92%88/</guid>
       <description>살아가려면 자잘한 물건들이 필요하다. 샴푸, 세제, 치약, 칫솔, 로션, 식기, 수저&amp;hellip;
 기본적으로 어지간한 물건은 여기도 다 팔고 있으니, 무겁게 가져올 필요는 없다. 비행기 비용만 늘어난다. 같은 메이커라면 가격은 한국과 동일한 편이다.
 하지만 전체적으로 공산품 품질이 떨어지는 건 사실이기 때문에 자기가 민감하다고 생각하는 물품이 태국에서 팔리고 있지 않으면, 가져오는 것도 좋을 거 같다.
@@ -247,10 +247,10 @@ git clone https://github.com/golang/go
     
     <item>
       <title>Chiangmai Life 04 - 가기 전 준비</title>
-      <link>https://ezaurum.com/2017/12/Chiangmai-Life-04---%EA%B0%80%EA%B8%B0-%EC%A0%84-%EC%A4%80%EB%B9%84/</link>
+      <link>https://ezaurum.com/2017/12/Chiangmai-Life-04-%EA%B0%80%EA%B8%B0-%EC%A0%84-%EC%A4%80%EB%B9%84/</link>
       <pubDate>Sun, 10 Dec 2017 22:43:34 +0700</pubDate>
       
-      <guid>https://ezaurum.com/2017/12/Chiangmai-Life-04---%EA%B0%80%EA%B8%B0-%EC%A0%84-%EC%A4%80%EB%B9%84/</guid>
+      <guid>https://ezaurum.com/2017/12/Chiangmai-Life-04-%EA%B0%80%EA%B8%B0-%EC%A0%84-%EC%A4%80%EB%B9%84/</guid>
       <description>가기 전에 준비가 이래저래 필요했다.
 장비 태국은 220V 이고, 대부분 건물에 LAN이 깔려있지 않고, WIFI 를 지원한다. 그러니 전기 부분은 걱정하지 않아도 된다.
  노트북 - 가볍고 싼 걸로 샀다. 노트북 받침대 - 접었을때 부피가 작은 걸로. 까페이서 가끔 일하려면 눈높이가 맞아야 한다. 키보드 - 화면 높이를 맞추려면 꼭 필요하다. 빨콩이 필요해서 레노버 울트라나브로 샀다. 핸드폰 - 마침 바꿀 때가 되어서 샤오미 A1을 샀다. 듀얼심이라 한국/태국 유심을 동시에 사용할 수 있고, 배터리가 오래가서 좋았다.</description>
@@ -258,20 +258,20 @@ git clone https://github.com/golang/go
     
     <item>
       <title>Chiangmai Life 03 - 방 구하기</title>
-      <link>https://ezaurum.com/2017/11/Chiangmai-Life-03---%EB%B0%A9-%EA%B5%AC%ED%95%98%EA%B8%B0/</link>
+      <link>https://ezaurum.com/2017/11/Chiangmai-Life-03-%EB%B0%A9-%EA%B5%AC%ED%95%98%EA%B8%B0/</link>
       <pubDate>Tue, 28 Nov 2017 22:43:34 +0700</pubDate>
       
-      <guid>https://ezaurum.com/2017/11/Chiangmai-Life-03---%EB%B0%A9-%EA%B5%AC%ED%95%98%EA%B8%B0/</guid>
+      <guid>https://ezaurum.com/2017/11/Chiangmai-Life-03-%EB%B0%A9-%EA%B5%AC%ED%95%98%EA%B8%B0/</guid>
       <description>TLDR; 방은 직접 발품을 파는게 좋다. 꼭 스쿠터를 렌트할 것 방 구할 때 체크 포인트  보증금(디파짓) 전기 - 보통 7/Unit 전후 물 - 정액이면 200바트 전후 청소 - 200-300 / 한 번 시트, 타올 교체 - 200-300 / 한 번 짐/수영장 - 있는 곳은 대부분 무료였다 인터넷 - 대부분 무료 WIFI  치앙마이는 방을 구하기 쉽다 치앙마이에서 방을 구하기 위해서는 아래 단계를 거치면 된다.
  맘에 드는 방을 찾는다.</description>
     </item>
     
     <item>
       <title>Chiangmai Life 02 - 치앙마이 가는 방법</title>
-      <link>https://ezaurum.com/2017/11/Chiangmai-Life-02---%EC%B9%98%EC%95%99%EB%A7%88%EC%9D%B4-%EA%B0%80%EB%8A%94-%EB%B0%A9%EB%B2%95/</link>
+      <link>https://ezaurum.com/2017/11/Chiangmai-Life-02-%EC%B9%98%EC%95%99%EB%A7%88%EC%9D%B4-%EA%B0%80%EB%8A%94-%EB%B0%A9%EB%B2%95/</link>
       <pubDate>Sun, 26 Nov 2017 22:43:34 +0700</pubDate>
       
-      <guid>https://ezaurum.com/2017/11/Chiangmai-Life-02---%EC%B9%98%EC%95%99%EB%A7%88%EC%9D%B4-%EA%B0%80%EB%8A%94-%EB%B0%A9%EB%B2%95/</guid>
+      <guid>https://ezaurum.com/2017/11/Chiangmai-Life-02-%EC%B9%98%EC%95%99%EB%A7%88%EC%9D%B4-%EA%B0%80%EB%8A%94-%EB%B0%A9%EB%B2%95/</guid>
       <description>치앙마이로 가는 비행기는 크게 잡자면 두 가지 코스가 있다.
  국적기를 타고 직항 - 비싸지만 편안함 저가항공을 타고 경유 - 싸지만 비행시간이 길고 비행기가 불편  첫 번째의 경우는 연휴기간이 아닌데도 70만원 이상(2017년 말 기준) 하는 금액 때문에 처음부터 고려 대상이 아니었다.
 그렇다면 두 번째인데, 그것도 몇 가지 코스가 있다. 고려한 것은 다음 세 가지다.
@@ -280,10 +280,10 @@ git clone https://github.com/golang/go
     
     <item>
       <title>Chiangmai Life 01 - 결심</title>
-      <link>https://ezaurum.com/2017/11/Chiangmai-Life-01---%EA%B2%B0%EC%8B%AC/</link>
+      <link>https://ezaurum.com/2017/11/Chiangmai-Life-01-%EA%B2%B0%EC%8B%AC/</link>
       <pubDate>Sun, 26 Nov 2017 22:02:43 +0700</pubDate>
       
-      <guid>https://ezaurum.com/2017/11/Chiangmai-Life-01---%EA%B2%B0%EC%8B%AC/</guid>
+      <guid>https://ezaurum.com/2017/11/Chiangmai-Life-01-%EA%B2%B0%EC%8B%AC/</guid>
       <description>치앙마이로 가기로 했다.
 군시절부터 합치면 7년간 해온 개발자 생활이 지쳐서 여행을 가려고 생각한 것도 있고, 1차 목적은 내 프로젝트를 해 보고 싶었다.
 그런데 한국에서는 내가 원하는 만큼만 일하고 생활비를 충당하기가 불가능했다.
@@ -829,10 +829,10 @@ Bitbucket에서는 커스텀 도메인을 쓸 수 없다. 그냥 github를 쓰�
     
     <item>
       <title>C# 에서 Dispose, Close, Stop의 차이</title>
-      <link>https://ezaurum.com/2015/02/C#-%EC%97%90%EC%84%9C-Dispose-Close-Stop%EC%9D%98-%EC%B0%A8%EC%9D%B4/</link>
+      <link>https://ezaurum.com/2015/02/C-%EC%97%90%EC%84%9C-Dispose-Close-Stop%EC%9D%98-%EC%B0%A8%EC%9D%B4/</link>
       <pubDate>Fri, 20 Feb 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2015/02/C#-%EC%97%90%EC%84%9C-Dispose-Close-Stop%EC%9D%98-%EC%B0%A8%EC%9D%B4/</guid>
+      <guid>https://ezaurum.com/2015/02/C-%EC%97%90%EC%84%9C-Dispose-Close-Stop%EC%9D%98-%EC%B0%A8%EC%9D%B4/</guid>
       <description>내가 정리를 할 필요가 있어서&amp;hellip; Dispose - 더 이상 이 오브젝트를 쓰지 않음. 관련 리소스를 정리함. 자동으로 Null로 만들지는 않음. 여러 번 호출해도 괜찮음. Close, Stop - Dispose의 하위집합이거나 기능상 동일할 수 있음. 보통 Close/Open, Start/Stop 이며, 하위집합인 경우, Close이후 재 Open이 가능. Stop이후 Start가 가능.</description>
     </item>
     
@@ -985,10 +985,10 @@ Bitbucket에서는 커스텀 도메인을 쓸 수 없다. 그냥 github를 쓰�
     
     <item>
       <title>C# DB 라이브러리 비교</title>
-      <link>https://ezaurum.com/2014/12/C#-DB-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-%EB%B9%84%EA%B5%90/</link>
+      <link>https://ezaurum.com/2014/12/C-DB-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-%EB%B9%84%EA%B5%90/</link>
       <pubDate>Thu, 25 Dec 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2014/12/C#-DB-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-%EB%B9%84%EA%B5%90/</guid>
+      <guid>https://ezaurum.com/2014/12/C-DB-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-%EB%B9%84%EA%B5%90/</guid>
       <description>별로 구체적으로 비교를 해 본 것은 아니지만, 지난 두 달간 이런저런 삽질을 한 결과를 정리한다.  Linq To SQL - MS스러운 DB라이브러리  장점 - IDE에 통합된 사용환경, VS에서 DB에 연결 후, 테이블을 끌어오는 것만으로도 바로 도메인 객체가 생성된다. 속도가 빠르다. 복잡한 쿼리에 신경 안 써도 된다. 러닝커브 작음. 단점 - 자동생성되는 도메인 객체가 복잡하다. 로직이 들어가야 하는 경우 매우 곤란해진다. POCO객체는 불가능. 추가 수정도 귀찮다. 적절한 사용처 - 이미 DB가 존재하고, 거기에 간단한 CRUD연산을 해야 하는 웹 툴 정도를 붙이는 경우.</description>
     </item>
     
@@ -1434,10 +1434,10 @@ CD를 살까 했는데 CD는 진짜 장식이고&amp;hellip; 음원을 어디서
     
     <item>
       <title>C# Socket.AcceptAsync에서 invalidOperationException이 날 때</title>
-      <link>https://ezaurum.com/2013/11/C#-Socket.AcceptAsync%EC%97%90%EC%84%9C-invalidOperationException%EC%9D%B4-%EB%82%A0-%EB%95%8C/</link>
+      <link>https://ezaurum.com/2013/11/C-Socket.AcceptAsync%EC%97%90%EC%84%9C-invalidOperationException%EC%9D%B4-%EB%82%A0-%EB%95%8C/</link>
       <pubDate>Sun, 24 Nov 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2013/11/C#-Socket.AcceptAsync%EC%97%90%EC%84%9C-invalidOperationException%EC%9D%B4-%EB%82%A0-%EB%95%8C/</guid>
+      <guid>https://ezaurum.com/2013/11/C-Socket.AcceptAsync%EC%97%90%EC%84%9C-invalidOperationException%EC%9D%B4-%EB%82%A0-%EB%95%8C/</guid>
       <description>C#에서 소켓 프로그래밍을 할 때, Socket.AcceptAsync로 연결하는데 다음과 같은 예외가 발생했다. System.InvalidOperationException이(가) 처리되지 않았습니다. Message=AcceptSocket: 소켓을 바인딩하거나 연결하면 안 됩니다. 원인은 AcceptAsync이후에 같은 SocketAsyncEventArgs객체를 이용해 계속 Accept를 받으려고 했는데, SocketAsyncEventArgs.AcceptSocket 프로퍼티를 null로 초기화하지 않았기 때문이다. 재사용하려면 AcceptSocket = null;을 넣어줄 것.</description>
     </item>
     
@@ -1510,10 +1510,10 @@ CD를 살까 했는데 CD는 진짜 장식이고&amp;hellip; 음원을 어디서
     
     <item>
       <title>C# TDD</title>
-      <link>https://ezaurum.com/2013/09/C#-TDD/</link>
+      <link>https://ezaurum.com/2013/09/C-TDD/</link>
       <pubDate>Mon, 30 Sep 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2013/09/C#-TDD/</guid>
+      <guid>https://ezaurum.com/2013/09/C-TDD/</guid>
       <description>C# 개발을 시작하면서 일단 두 개를 써 보기로 했다. Moq Quick Start NUnit 2.6.2 quick start Resharper를 쓰고 있어서 그런지, NUnit 테스트는 alt+Enter로 실행이 되고, 결과도 따로 창 안 뜨고 옆에 보인다. moq는 람다식 덕에 자바에서 mockito를 쓸 때보다 좀 더 편해보인다.</description>
     </item>
     
@@ -1872,10 +1872,10 @@ ln -s /location/to/link2 newlink mv newlink linkname</description>
     
     <item>
       <title>java -jar 옵션은 classpath를 무시한다</title>
-      <link>https://ezaurum.com/2013/04/java--jar-%EC%98%B5%EC%85%98%EC%9D%80-classpath%EB%A5%BC-%EB%AC%B4%EC%8B%9C%ED%95%9C%EB%8B%A4/</link>
+      <link>https://ezaurum.com/2013/04/java-jar-%EC%98%B5%EC%85%98%EC%9D%80-classpath%EB%A5%BC-%EB%AC%B4%EC%8B%9C%ED%95%9C%EB%8B%A4/</link>
       <pubDate>Mon, 29 Apr 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2013/04/java--jar-%EC%98%B5%EC%85%98%EC%9D%80-classpath%EB%A5%BC-%EB%AC%B4%EC%8B%9C%ED%95%9C%EB%8B%A4/</guid>
+      <guid>https://ezaurum.com/2013/04/java-jar-%EC%98%B5%EC%85%98%EC%9D%80-classpath%EB%A5%BC-%EB%AC%B4%EC%8B%9C%ED%95%9C%EB%8B%A4/</guid>
       <description>java 를 jar 형태로 실행할 때는 내부 MENIFEST.MF파일에 classpath를 적용해야 한다. 커맨드 라인으로 실행하는 것은 무시.
 참고 링크
 -jar Execute a program encapsulated in a JAR file. The first argument is the name of a JAR file instead of a startup class name. In order for this option to work, the manifest of the JAR file must contain a line of the form Main-Class: classname. Here, classname identifies the class having the public static void main(String[] args) method that serves as your application&#39;s starting point.</description>
@@ -1971,10 +1971,10 @@ ln -s /location/to/link2 newlink mv newlink linkname</description>
     
     <item>
       <title>능률적인 프로그래머 - 프로그래머 생산성의 비밀</title>
-      <link>https://ezaurum.com/2013/03/%EB%8A%A5%EB%A5%A0%EC%A0%81%EC%9D%B8-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8---%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8-%EC%83%9D%EC%82%B0%EC%84%B1%EC%9D%98-%EB%B9%84%EB%B0%80/</link>
+      <link>https://ezaurum.com/2013/03/%EB%8A%A5%EB%A5%A0%EC%A0%81%EC%9D%B8-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8-%EC%83%9D%EC%82%B0%EC%84%B1%EC%9D%98-%EB%B9%84%EB%B0%80/</link>
       <pubDate>Mon, 25 Mar 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2013/03/%EB%8A%A5%EB%A5%A0%EC%A0%81%EC%9D%B8-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8---%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8-%EC%83%9D%EC%82%B0%EC%84%B1%EC%9D%98-%EB%B9%84%EB%B0%80/</guid>
+      <guid>https://ezaurum.com/2013/03/%EB%8A%A5%EB%A5%A0%EC%A0%81%EC%9D%B8-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8-%EC%83%9D%EC%82%B0%EC%84%B1%EC%9D%98-%EB%B9%84%EB%B0%80/</guid>
       <description>딱 제목 그대로의 책. 생산성을 높일 수 있는 실질적인 방법을 알려준다. 몇 가지는 오래되어 쓸모 없어 보이는 것도 있지만 대부분 팁이 바로 적용가능한 것이고, 전반적인 자동화에 대한 관점만으로도 돈 값을 하는 물건이다.
 Don&#39;t repeat yourself.</description>
     </item>
@@ -2859,10 +2859,10 @@ public static void main(String args[]) { System.out.println(EnumStudy.valueOf(1)
     
     <item>
       <title>자주 포스팅  하자</title>
-      <link>https://ezaurum.com/2012/03/%EC%9E%90%EC%A3%BC-%ED%8F%AC%EC%8A%A4%ED%8C%85--%ED%95%98%EC%9E%90/</link>
+      <link>https://ezaurum.com/2012/03/%EC%9E%90%EC%A3%BC-%ED%8F%AC%EC%8A%A4%ED%8C%85-%ED%95%98%EC%9E%90/</link>
       <pubDate>Mon, 26 Mar 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2012/03/%EC%9E%90%EC%A3%BC-%ED%8F%AC%EC%8A%A4%ED%8C%85--%ED%95%98%EC%9E%90/</guid>
+      <guid>https://ezaurum.com/2012/03/%EC%9E%90%EC%A3%BC-%ED%8F%AC%EC%8A%A4%ED%8C%85-%ED%95%98%EC%9E%90/</guid>
       <description>iBus가 마지막 글자를 씹어먹는 현상이 있건 어쨌건, 피곤하건 어쨌건, 일 주일에 몇 번은 포스팅을 하자. 말을 안 하니까 더 못하게 된다. 그런 생각으로 오늘 한 일을 정리하려고 포스팅을 올리다 보니 java컴파일러가 없어. 그래서 JDK를 깔아. 기다려. 트위터를 좀 해. 그러다 보니 벌써 한시 16분&amp;hellip; 빨리 마무리 하고 자야겠다.</description>
     </item>
     
@@ -2924,10 +2924,10 @@ public static void main(String args[]) { System.out.println(EnumStudy.valueOf(1)
     
     <item>
       <title>PL/SQL for 문</title>
-      <link>https://ezaurum.com/2011/11/PL/SQL-for-%EB%AC%B8/</link>
+      <link>https://ezaurum.com/2011/11/PL-SQL-for-%EB%AC%B8/</link>
       <pubDate>Fri, 11 Nov 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2011/11/PL/SQL-for-%EB%AC%B8/</guid>
+      <guid>https://ezaurum.com/2011/11/PL-SQL-for-%EB%AC%B8/</guid>
       <description>기억을 위한 메모용이라고 되어 있는 글을 복구.
 상황 몇 개 게시판의 글 내용을 모두 하나의 게시판(id=111)으로 옮겨야 했다. 게시판은 글 제목과 글 번호가 있는 board게시판이 하나, 글내용과 글 번호, 내용 순서 번호가 들어있는 contents게시판이 하나 있는 상황이었다. 게시판이 이 상황이 된 이유는, 언제적인지 모르지만, 한 컬럼에 들어가는 용량제한이 있었던 모양이고, 그 용량제한을 회피하고자 이렇게 짠 모양인데&amp;hellip; 문제는 소스가 잘못되서 제한보다 훨씬 적은 용량으로 글을 잘랐&amp;hellip; 일단 그래서 간단히 PL/SQL을 짜 봤다.</description>
     </item>
@@ -3221,10 +3221,10 @@ public static void main(String args[]) { System.out.println(EnumStudy.valueOf(1)
     
     <item>
       <title>Blink - 첫 2초의 힘</title>
-      <link>https://ezaurum.com/2011/07/Blink---%EC%B2%AB-2%EC%B4%88%EC%9D%98-%ED%9E%98/</link>
+      <link>https://ezaurum.com/2011/07/Blink-%EC%B2%AB-2%EC%B4%88%EC%9D%98-%ED%9E%98/</link>
       <pubDate>Tue, 26 Jul 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2011/07/Blink---%EC%B2%AB-2%EC%B4%88%EC%9D%98-%ED%9E%98/</guid>
+      <guid>https://ezaurum.com/2011/07/Blink-%EC%B2%AB-2%EC%B4%88%EC%9D%98-%ED%9E%98/</guid>
       <description>제목 블링크(첫 2초의 힘) 저자 말콤글래드웰 번역자 이무열 발행인 21세기북스, 2005 ISBN 895090800X, 9788950908003 길이 349페이지
 사실 2007년인가 2008년인가 이마트에서 사서 누구 선물했던 책인데, 물론 내가 먼저 읽긴 했었다. 지금 다시 보니 왜 그 때는 이걸 발견하지 못했을까 하는 생각이 들었다. 아마 알았다면 잘 받았냐는 통화를 할 때 헤어지자고 말을 했겠지. 일단 이것은 상황을 조각내서 인지하는 인간 특성을 가지고 얘기한다. 앞과 뒤를 모두 잘라먹고 그 상황에서 직관은 생각보다 많은 것을 알아낼 수 있다.</description>
     </item>
@@ -3866,10 +3866,10 @@ for( int j = 0; j &amp;amp;lt; size -1; j++) { minPoint = j; for (int i = j; i &
     
     <item>
       <title>坊っちゃん – 3 -</title>
-      <link>https://ezaurum.com/2010/08/%E5%9D%8A%E3%81%A3%E3%81%A1%E3%82%83%E3%82%93--3--/</link>
+      <link>https://ezaurum.com/2010/08/%E5%9D%8A%E3%81%A3%E3%81%A1%E3%82%83%E3%82%93-3/</link>
       <pubDate>Sun, 22 Aug 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2010/08/%E5%9D%8A%E3%81%A3%E3%81%A1%E3%82%83%E3%82%93--3--/</guid>
+      <guid>https://ezaurum.com/2010/08/%E5%9D%8A%E3%81%A3%E3%81%A1%E3%82%83%E3%82%93-3/</guid>
       <description>痛かったから勘太郎を垣根へ押しつけておいて、足搦（あしがら）をかけて向うへ倒（たお）してやった。山城屋の地面は菜園より六尺がた低い。勘太郎は四つ目垣を半分崩（くず）して、自分の領分へ真逆様（まっさかさま）に落ちて、ぐうと云った。勘太郎が落ちるときに、おれの袷の片袖がもげて、急に手が自由になった。その晩母が山城屋に詫（わ）びに行ったついでに袷の片袖も取り返して来た。
 아파서 칸타로를 울타리에 밀어붙이고, 다리걸기로 저쪽에 쓰러트려 버렸다. 야마시로야의 지면은 채소밭보다 육척정도 낮았다. 칸타로는 사각대울타리를 절반쯤 수수고 자기네 땅에 거꾸로 떨어져서 꿍 소리를 냈다. 칸타로가 떨어질 때 내 겹옷 한쪽 소매가 뜯겨나가서, 갑자기 손이 자유로워졌다. 그날 밤, 어머니가 야마시로야에 사과하러 갔다가 돌아오시며 찾아오셨다.
 별로 진도가 빨리 나가질 않는군.</description>
@@ -3932,10 +3932,10 @@ FF - 내용이 없는 경우, outline을 나중에 그리고, 내용이 있는 �
     
     <item>
       <title>input.value = textarea.innerHTML 의 작동</title>
-      <link>https://ezaurum.com/2010/08/input.value--textarea.innerHTML-%EC%9D%98-%EC%9E%91%EB%8F%99/</link>
+      <link>https://ezaurum.com/2010/08/input.value-textarea.innerHTML-%EC%9D%98-%EC%9E%91%EB%8F%99/</link>
       <pubDate>Thu, 12 Aug 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2010/08/input.value--textarea.innerHTML-%EC%9D%98-%EC%9E%91%EB%8F%99/</guid>
+      <guid>https://ezaurum.com/2010/08/input.value-textarea.innerHTML-%EC%9D%98-%EC%9E%91%EB%8F%99/</guid>
       <description>input.value = textarea.innerHTML; 이라는 구문이 실행될 때, innerHTML안에 tag가 있으면 &amp;gt;가 &amp;amp;gt;로, &amp;lt;가 &amp;amp;lt;로 바뀐다. (IE6에서 확인)</description>
     </item>
     
@@ -3977,10 +3977,10 @@ public class myTest {
     
     <item>
       <title>RD-P1 - 구형 전자사전의 한계</title>
-      <link>https://ezaurum.com/2010/08/RD-P1---%EA%B5%AC%ED%98%95-%EC%A0%84%EC%9E%90%EC%82%AC%EC%A0%84%EC%9D%98-%ED%95%9C%EA%B3%84/</link>
+      <link>https://ezaurum.com/2010/08/RD-P1-%EA%B5%AC%ED%98%95-%EC%A0%84%EC%9E%90%EC%82%AC%EC%A0%84%EC%9D%98-%ED%95%9C%EA%B3%84/</link>
       <pubDate>Mon, 09 Aug 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2010/08/RD-P1---%EA%B5%AC%ED%98%95-%EC%A0%84%EC%9E%90%EC%82%AC%EC%A0%84%EC%9D%98-%ED%95%9C%EA%B3%84/</guid>
+      <guid>https://ezaurum.com/2010/08/RD-P1-%EA%B5%AC%ED%98%95-%EC%A0%84%EC%9E%90%EC%82%AC%EC%A0%84%EC%9D%98-%ED%95%9C%EA%B3%84/</guid>
       <description>RD-P1이라는 전자사전을 쓰고 있다. 필요로 하는 필기인식 기능이 있고, 흑백이라 가격도 저렴하고 동영상 기능이 없어서 공부에 집중할 수 있을 거라는 생각에 구입했는데, 이게 좀 거슬리는 것이. 일본어에는 四つ目垣(よつ-めがき)식으로 한자와 히라가나를 섞어 쓰는 경우가 많은데, 이 형식을 검색할 수가 없다. 일단 한자를 찾고, 음을 찾아서 아마 이거일 것이다 하는 음을 결정하고, 뒤의 히라가나와 합성해서, 검색하게 되는데&amp;hellip; 이 과정이 꽤 귀찮다. 위의 물건처럼 한자사이에 히라가나가 한두자씩 섞여있고 그 한자를 읽을 줄 모르면 다 찾아서 음을 모두 합성해야 한다.</description>
     </item>
     
@@ -3997,10 +3997,10 @@ public class myTest {
     
     <item>
       <title>坊っちゃん – 2 -</title>
-      <link>https://ezaurum.com/2010/08/%E5%9D%8A%E3%81%A3%E3%81%A1%E3%82%83%E3%82%93--2--/</link>
+      <link>https://ezaurum.com/2010/08/%E5%9D%8A%E3%81%A3%E3%81%A1%E3%82%83%E3%82%93-2/</link>
       <pubDate>Mon, 09 Aug 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2010/08/%E5%9D%8A%E3%81%A3%E3%81%A1%E3%82%83%E3%82%93--2--/</guid>
+      <guid>https://ezaurum.com/2010/08/%E5%9D%8A%E3%81%A3%E3%81%A1%E3%82%83%E3%82%93-2/</guid>
       <description>정원을 동쪽으로 20걸음 만 가면, 남쪽이 좊고 작은 채소밭이 있는데 한가운데 밤나무 한 그루가 있다. 이것은 목숨보다 소중한 밤나무다. 열매가 익는 시기에는 일어나자마자 뒷문을 나서서는 떨어진 것을 주워와서, 학교에서 먹는다. 채소밭 서쪽은 야마시로야라는 전탕포 정원과 이어져 있는데 이 전당포에 칸타로라는 열서너살 아들놈이 있었다. 칸타로는 물론 겁쟁이였다. 겁쟁이 주제에 각진대울타리를 넘어 밤을 훔치러 왔다. 어느날 저녁 접이문 그림자에 숨어서 드디어 칸타로를 붙잡으려 했다. 그 때 칸타로는 도망칠 길이 없어 필사적으로 달려들었다. 저쪽은 두 살 정도 연상이었다.</description>
     </item>
     
@@ -4079,10 +4079,10 @@ public class myTest {
     
     <item>
       <title>坊っちゃん - 1 -</title>
-      <link>https://ezaurum.com/2010/08/%E5%9D%8A%E3%81%A3%E3%81%A1%E3%82%83%E3%82%93---1--/</link>
+      <link>https://ezaurum.com/2010/08/%E5%9D%8A%E3%81%A3%E3%81%A1%E3%82%83%E3%82%93-1/</link>
       <pubDate>Thu, 05 Aug 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2010/08/%E5%9D%8A%E3%81%A3%E3%81%A1%E3%82%83%E3%82%93---1--/</guid>
+      <guid>https://ezaurum.com/2010/08/%E5%9D%8A%E3%81%A3%E3%81%A1%E3%82%83%E3%82%93-1/</guid>
       <description>물려받은 무대포성격 때무에 어릴때부터 깨지는 일 투성이었다. 소학교에 다니던 때 학교 2층에서 뛰어 내려서 일 주일 정도 허리가 빠졌던 일이 있다. 어째서 그런 터무니 없는 짓을 했냐고 묻는 사람이 있을지도 모른다. 별로 깊은 의미도 아니다. 신관 2층에서 목을 쭉 빼고 있으려니, 동급생 중 하나가 농담으로 아무리 뻐겨대도 거기서 뛰어내리지도 못하면서. 겁쟁이래도. 라고 놀려대서다. 사환에게 업혀 돌아왔을 때, 아버지가 눈을 크게 뜨고서 이 층 정도에서 뛰어내렸다고 허리가 빠지는 녀석이 있네. 라고 말해서 이 다음에는 안 빠지게 뛰어보이겠습니다.</description>
     </item>
     
@@ -4819,10 +4819,10 @@ utf-8을 지원한다더니&amp;hellip; mysql만 그걸 지원하고 아파치�
     
     <item>
       <title>가면 라이더 신작 - 가면 라이더 W</title>
-      <link>https://ezaurum.com/2009/09/%EA%B0%80%EB%A9%B4-%EB%9D%BC%EC%9D%B4%EB%8D%94-%EC%8B%A0%EC%9E%91---%EA%B0%80%EB%A9%B4-%EB%9D%BC%EC%9D%B4%EB%8D%94-W/</link>
+      <link>https://ezaurum.com/2009/09/%EA%B0%80%EB%A9%B4-%EB%9D%BC%EC%9D%B4%EB%8D%94-%EC%8B%A0%EC%9E%91-%EA%B0%80%EB%A9%B4-%EB%9D%BC%EC%9D%B4%EB%8D%94-W/</link>
       <pubDate>Wed, 09 Sep 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2009/09/%EA%B0%80%EB%A9%B4-%EB%9D%BC%EC%9D%B4%EB%8D%94-%EC%8B%A0%EC%9E%91---%EA%B0%80%EB%A9%B4-%EB%9D%BC%EC%9D%B4%EB%8D%94-W/</guid>
+      <guid>https://ezaurum.com/2009/09/%EA%B0%80%EB%A9%B4-%EB%9D%BC%EC%9D%B4%EB%8D%94-%EC%8B%A0%EC%9E%91-%EA%B0%80%EB%A9%B4-%EB%9D%BC%EC%9D%B4%EB%8D%94-W/</guid>
       <description>USB 메모리, 하드보일드, 탐정, 둘이서 하나, 어려보이는 히로인, 검색엔진</description>
     </item>
     
@@ -4979,10 +4979,10 @@ utf-8을 지원한다더니&amp;hellip; mysql만 그걸 지원하고 아파치�
     
     <item>
       <title>Lisp로 주문 외기 - 10 - 추가</title>
-      <link>https://ezaurum.com/2009/05/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0---10---%EC%B6%94%EA%B0%80/</link>
+      <link>https://ezaurum.com/2009/05/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-10-%EC%B6%94%EA%B0%80/</link>
       <pubDate>Tue, 26 May 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2009/05/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0---10---%EC%B6%94%EA%B0%80/</guid>
+      <guid>https://ezaurum.com/2009/05/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-10-%EC%B6%94%EA%B0%80/</guid>
       <description>추가 좋아요. 이제 이 설명서에서 대충 얼버무리고 지나간 것들에 대해 얘기해 봅시다&amp;hellip;
 무엇보다, Lisp 코드는 컴파일 되기도 하고 종종 실행시간에 번역(interpreted) 되기도 합니다. 같은 프로그램 안에서도 말이죠. 이 때문에, Lisp 환경은 컴파일러라고 불리지 않고, 구현(implementations)이라 불리고 있습니다. (비록 실행시간에 번역되는 Lisp코드가 보통은 일단 바이트코드로 컴파일되긴 하지만, 그건 일단 다른 얘기고&amp;hellip;)
 추가로, 언급할 만한 가치가 있는 다른 굉장한 Lisp 구현이 있습니다. Rainer Joswig 와 Bill Clementson가 함께 만든 자세한 목록(링크 깨짐)이 사용 가능하지요.</description>
@@ -5025,10 +5025,10 @@ VOICES (MACROSS PLUS OPENING THEME)
     
     <item>
       <title>Lisp로 주문 외기 - 9 -</title>
-      <link>https://ezaurum.com/2009/05/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0---9--/</link>
+      <link>https://ezaurum.com/2009/05/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-9/</link>
       <pubDate>Mon, 25 May 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2009/05/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0---9--/</guid>
+      <guid>https://ezaurum.com/2009/05/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-9/</guid>
       <description>게임의 특별한 동작 만들기 이제 완성까지 딱 하나만 더 하면 됩니다. 플레이어가 게임을 끝내기 위한 특별한 동작을 좀 더하는 거죠. 첫 번째 명령은 플레이어가 쇠사슬을 다락방에 있던 양동이에 용접하는 게 될 겁니다.
 (setf chain-welded nil)
 (defun weld (subject object) (cond ((and (eq location &amp;lsquo;attic) (eq subject &amp;lsquo;chain) (eq object &amp;lsquo;bucket) (have &amp;lsquo;chain) (have &amp;lsquo;bucket) (not chain-welded)) (setf chain-welded &amp;rsquo;t) &amp;lsquo;(the chain is now securely welded to the bucket.)) (t &amp;lsquo;(you cannot weld like that.</description>
@@ -5045,10 +5045,10 @@ VOICES (MACROSS PLUS OPENING THEME)
     
     <item>
       <title>Lisp로 주문 외기 - 8 -</title>
-      <link>https://ezaurum.com/2009/05/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0---8--/</link>
+      <link>https://ezaurum.com/2009/05/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-8/</link>
       <pubDate>Tue, 12 May 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2009/05/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0---8--/</guid>
+      <guid>https://ezaurum.com/2009/05/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-8/</guid>
       <description>라이센스 - The GNU Free Documentation License 원저자 - Conrad Barski, M.D. 원본 출처 - http://lisperati.com/casting.html
 주문(SPEL) 외기 이제 Lisp의 믿을 수 없을 만큼 강력한 기능을 배워 볼 겁니다. 바로 SPEL(주문)만들기지요! SPEL 은 &amp;ldquo;Semantic Program Enhancement Logic&amp;rdquo;의 줄임말이고 컴퓨터 코드의 세계 안에서 Lisp언어를 우리 필요에 따라 개조하기 위해 가장 기초적인 수준까지 바꾸는 행동을 만드는 걸 가능케 해 줍니다. - 이게 Lisp에서 가장 마술처럼 보이는 부분이지요. SPEL을 가능하게 하기 위해, 일단 Lisp 컴파일러에서 SPEL을 활성화 할 필요가 있습니다.</description>
     </item>
@@ -5084,10 +5084,10 @@ VOICES (MACROSS PLUS OPENING THEME)
     
     <item>
       <title>Dream Dream - 키 더 메탈 아이돌 (最終 ED c/w)</title>
-      <link>https://ezaurum.com/2009/04/Dream-Dream---%ED%82%A4-%EB%8D%94-%EB%A9%94%ED%83%88-%EC%95%84%EC%9D%B4%EB%8F%8C-%E6%9C%80%E7%B5%82-ED-c/w/</link>
+      <link>https://ezaurum.com/2009/04/Dream-Dream-%ED%82%A4-%EB%8D%94-%EB%A9%94%ED%83%88-%EC%95%84%EC%9D%B4%EB%8F%8C-%E6%9C%80%E7%B5%82-ED-c-w/</link>
       <pubDate>Tue, 21 Apr 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2009/04/Dream-Dream---%ED%82%A4-%EB%8D%94-%EB%A9%94%ED%83%88-%EC%95%84%EC%9D%B4%EB%8F%8C-%E6%9C%80%E7%B5%82-ED-c/w/</guid>
+      <guid>https://ezaurum.com/2009/04/Dream-Dream-%ED%82%A4-%EB%8D%94-%EB%A9%94%ED%83%88-%EC%95%84%EC%9D%B4%EB%8F%8C-%E6%9C%80%E7%B5%82-ED-c-w/</guid>
       <description>[youtube https://www.youtube.com/watch?v=RYYKVpvnvXA&amp;amp;hl=ko&amp;amp;fs=1] ごめんね　友だちだけど 미안해 친구인데도 きょうは　わけはきかないで 오늘은 왜그런지 묻지 마 きょうは　ちょっと元氣ない 오늘은 조금 기운이 없네 ほんとはちょっとじゃないけど 사실은 조금이 아니지만
 ごめんね　なんのことだか 미안해 무슨 일인지 わからないと思うけど 이해안될거 같지만서도 なにをしても お手上げで 뭘 해도 잘 안 되어서 なにも できる ことがない 뭘 할 수 있는게 없어
 なにをしても ダメなら 寢るしかないよね 뭘 해도 안된다면 잘 수 밖에는 없잖아 まだこんな 時間だけど． 아직 이런 시간이지만 ん∼ 電話を 切ったら　カ－テンを 閉めて 응~ 전화를 끊으면 커튼을 닫고 パジャマに きがえて　Ｄｒｅａｍ　Ｄｒｅａｍ 파자마로 갈아입고　Dream Dream</description>
@@ -5206,10 +5206,10 @@ VOICES (MACROSS PLUS OPENING THEME)
     
     <item>
       <title>才悩人応援歌(재뇌인응원가) - BUMP OF CHICKEN</title>
-      <link>https://ezaurum.com/2009/02/%E6%89%8D%E6%82%A9%E4%BA%BA%E5%BF%9C%E6%8F%B4%E6%AD%8C%EC%9E%AC%EB%87%8C%EC%9D%B8%EC%9D%91%EC%9B%90%EA%B0%80---BUMP-OF-CHICKEN/</link>
+      <link>https://ezaurum.com/2009/02/%E6%89%8D%E6%82%A9%E4%BA%BA%E5%BF%9C%E6%8F%B4%E6%AD%8C%EC%9E%AC%EB%87%8C%EC%9D%B8%EC%9D%91%EC%9B%90%EA%B0%80-BUMP-OF-CHICKEN/</link>
       <pubDate>Thu, 12 Feb 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2009/02/%E6%89%8D%E6%82%A9%E4%BA%BA%E5%BF%9C%E6%8F%B4%E6%AD%8C%EC%9E%AC%EB%87%8C%EC%9D%B8%EC%9D%91%EC%9B%90%EA%B0%80---BUMP-OF-CHICKEN/</guid>
+      <guid>https://ezaurum.com/2009/02/%E6%89%8D%E6%82%A9%E4%BA%BA%E5%BF%9C%E6%8F%B4%E6%AD%8C%EC%9E%AC%EB%87%8C%EC%9D%B8%EC%9D%91%EC%9B%90%EA%B0%80-BUMP-OF-CHICKEN/</guid>
       <description>[youtube https://www.youtube.com/watch?v=2x8uxa0ksDw&amp;amp;hl=ko&amp;amp;fs=1]
 才悩人応援歌(재뇌인응원가) - BUMP OF CHICKEN
 得意な事があった事 今じゃもう忘れてるのは 토쿠이나코토가앗-타코토 이마쟈모-와스레테루노와 재주를 갖고 있던 사실을 이제는 잊어버린 건 それを自分より 得意な誰かが居たから 소레오지분-요리 토쿠이나다레카가이타카라 그것을 나보다 잘하는 누군가가 있기에
@@ -5229,10 +5229,10 @@ VOICES (MACROSS PLUS OPENING THEME)
     
     <item>
       <title>100 Years - Five for Fighting</title>
-      <link>https://ezaurum.com/2009/02/100-Years---Five-for-Fighting/</link>
+      <link>https://ezaurum.com/2009/02/100-Years-Five-for-Fighting/</link>
       <pubDate>Wed, 11 Feb 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2009/02/100-Years---Five-for-Fighting/</guid>
+      <guid>https://ezaurum.com/2009/02/100-Years-Five-for-Fighting/</guid>
       <description>[youtube https://www.youtube.com/watch?v=qgN5TnQ23vs&amp;amp;color1=0xb1b1b1&amp;amp;color2=0xcfcfcf&amp;amp;hl=ko&amp;amp;feature=player_embedded&amp;amp;fs=1] I&amp;rsquo;m 15 for a moment Caught in between 10 and 20 And I&amp;rsquo;m just dreaming Counting the ways to where you are I&amp;rsquo;m 22 for a moment She feels better than ever And we&amp;rsquo;re on fire Making our way back from Mars 15 there&amp;rsquo;s still time for you Time to buy and time to lose 15, there&amp;rsquo;s never a wish better than this When you only got 100 years to live I&amp;rsquo;m 33 for a moment Still the man, but you see I&amp;rsquo;m a they A kid on the way A family on my mind I&amp;rsquo;m 45 for a moment The sea is high And I&amp;rsquo;m heading into a crisis Chasing the years of my life 15 there&amp;rsquo;s still time for you Time to buy, Time to lose yourself Within a morning star 15 I&amp;rsquo;m all right with you 15, there&amp;rsquo;s never a wish better than this When you only got 100 years to live Half time goes by Suddenly you&amp;rsquo;re wise Another blink of an eye 67 is gone The sun is getting high We&amp;rsquo;re moving on&amp;hellip; I&amp;rsquo;m 99 for a moment Dying for just another moment And I&amp;rsquo;m just dreaming Counting the ways to where you are 15 there&amp;rsquo;s still time for you 22 I feel her too 33 you&amp;rsquo;re on your way Every day&amp;rsquo;s a new day&amp;hellip; 15 there&amp;rsquo;s still time for you Time to buy and time to choose Hey 15, there&amp;rsquo;s never a wish better than this When you only got 100 years to live</description>
     </item>
     
@@ -5247,10 +5247,10 @@ VOICES (MACROSS PLUS OPENING THEME)
     
     <item>
       <title>Promise Her the Moon - Mr. Big</title>
-      <link>https://ezaurum.com/2009/02/Promise-Her-the-Moon---Mr.-Big/</link>
+      <link>https://ezaurum.com/2009/02/Promise-Her-the-Moon-Mr.-Big/</link>
       <pubDate>Wed, 11 Feb 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2009/02/Promise-Her-the-Moon---Mr.-Big/</guid>
+      <guid>https://ezaurum.com/2009/02/Promise-Her-the-Moon-Mr.-Big/</guid>
       <description>[youtube https://www.youtube.com/watch?v=uQfjo0RdsAE&amp;amp;hl=ko&amp;amp;fs=1]
 Promise Her the Moon - Mr. Big
 Hey, yeah yeah You don&amp;rsquo;t know what you&amp;rsquo;ve got Till the love is almost gone This time, yeah she&amp;rsquo;s given up Still in a state of shock I should&amp;rsquo;ve seen it coming on It&amp;rsquo;s too late for waking up Her mind&amp;rsquo;s made up I know the dream is over But my heart just can&amp;rsquo;t let go She&amp;rsquo;s too good to be forgotten Too good to be true Before my world is torn apart I&amp;rsquo;ll promise her the moon I&amp;rsquo;ll promise her the moon I was too blind to notice her Wrapped up in myself Workin&amp;rsquo; hard overtime, night and day I thought we were so secure Can&amp;rsquo; imagine someone else Could come between us And take her away Her mind&amp;rsquo;s made up I know the dream is over But my heart just can&amp;rsquo;t let go She&amp;rsquo;s too good to be forgotten Too good to be true Before my world is torn apart I&amp;rsquo;ll promise her the moon I&amp;rsquo;ll promise her the moon And all the time she stood by me I never said &amp;ldquo;I love you&amp;rdquo; Yeah, I kept it deep down in my soul And all the while I&amp;rsquo;ve been a fool yeah, yeah yeah.</description>
@@ -5418,19 +5418,19 @@ So tell me are you ready, really, really ready 그러니 말해줘요. 준비 �
     
     <item>
       <title>Lisp로 주문 외기 - 7 -</title>
-      <link>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0---7--/</link>
+      <link>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-7/</link>
       <pubDate>Wed, 04 Feb 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0---7--/</guid>
+      <guid>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-7/</guid>
       <description>라이센스 - The GNU Free Documentation License 원저자 - Conrad Barski, M.D. 원본 출처 - http://lisperati.com/casting.html 게임 세계를 돌아다녀 보기 좋아요, 이제 세계를 볼 수 있습니다. 그러니 돌아다닐 수 있도록 해 줄 코드를 짜 볼까요. walk-direction(함수식 스타일은 아니지만) 함수가 방향을 잡고 거기로 갈 수 있도록 해 줄겁니다. (defun walk-direction (direction) (let ((next (assoc direction (cddr (assoc location map))))) (cond (next (setf location (third next)) (look)) (t &amp;lsquo;(you cant go that way.</description>
     </item>
     
     <item>
       <title>真っ赤な空を見ただろうか - BUMP OF CHICKEN</title>
-      <link>https://ezaurum.com/2009/02/%E7%9C%9F%E3%81%A3%E8%B5%A4%E3%81%AA%E7%A9%BA%E3%82%92%E8%A6%8B%E3%81%9F%E3%81%A0%E3%82%8D%E3%81%86%E3%81%8B---BUMP-OF-CHICKEN/</link>
+      <link>https://ezaurum.com/2009/02/%E7%9C%9F%E3%81%A3%E8%B5%A4%E3%81%AA%E7%A9%BA%E3%82%92%E8%A6%8B%E3%81%9F%E3%81%A0%E3%82%8D%E3%81%86%E3%81%8B-BUMP-OF-CHICKEN/</link>
       <pubDate>Wed, 04 Feb 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2009/02/%E7%9C%9F%E3%81%A3%E8%B5%A4%E3%81%AA%E7%A9%BA%E3%82%92%E8%A6%8B%E3%81%9F%E3%81%A0%E3%82%8D%E3%81%86%E3%81%8B---BUMP-OF-CHICKEN/</guid>
+      <guid>https://ezaurum.com/2009/02/%E7%9C%9F%E3%81%A3%E8%B5%A4%E3%81%AA%E7%A9%BA%E3%82%92%E8%A6%8B%E3%81%9F%E3%81%A0%E3%82%8D%E3%81%86%E3%81%8B-BUMP-OF-CHICKEN/</guid>
       <description>[youtube https://www.youtube.com/watch?v=svR1QFdTui8&amp;amp;hl=en&amp;amp;fs=1] [youtube https://www.youtube.com/watch?v=LYMtygig3J4&amp;amp;hl=en&amp;amp;fs=1]
 真っ赤な空を見ただろうか - BUMP OF CHICKEN
 真っ赤な空を見ただろうか 새빨간 하늘을 보았을까
@@ -5445,10 +5445,10 @@ So tell me are you ready, really, really ready 그러니 말해줘요. 준비 �
     
     <item>
       <title>Lisp로 주문 외기 - 1 -</title>
-      <link>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0---1--/</link>
+      <link>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-1/</link>
       <pubDate>Tue, 03 Feb 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0---1--/</guid>
+      <guid>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-1/</guid>
       <description>라이센스 - The GNU Free Documentation License 원저자 - Conrad Barski, M.D. 원본 출처 - http://lisperati.com/casting.html
 어떻게 해서 Lisp가 그렇게 강력한지 궁금해 해 봤나요?
 이제 그 이유를 알 수 있습니다.
@@ -5461,10 +5461,10 @@ http://파란미르.com/
     
     <item>
       <title>Lisp로 주문 외기 - 2 -</title>
-      <link>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0---2--/</link>
+      <link>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-2/</link>
       <pubDate>Tue, 03 Feb 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0---2--/</guid>
+      <guid>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-2/</guid>
       <description>라이센스 - The GNU Free Documentation License 원저자 - Conrad Barski, M.D. 원본 출처 - http://lisperati.com/casting.html
 누구든 Lisp로 프로그램을 짜는 걸 배워본 사람이 있다면, 다른 프로그래밍 언어와 매우 다르다고 말할 겁니다. 그건 정말 신기할 정도로 달라요. 이 만화책이 Lisp의 독특한 디자인이 그걸 그렇게 강력하게 만든다는 것을 알게 해 줄겁니 다.
 이 강좌에서 쓰이는 매우 작은 Lisp 코드들은 이런 글꼴과 색입니다. 간단히 이 부분들을 Lisp컴파일러의 명령줄에 복사해 넣으세요. 그럼 강좌가 끝나는 그 순간 텍스트 어드벤처 게임이 완성될 겁니다!</description>
@@ -5472,30 +5472,30 @@ http://파란미르.com/
     
     <item>
       <title>Lisp로 주문 외기 - 3 -</title>
-      <link>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0---3--/</link>
+      <link>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-3/</link>
       <pubDate>Tue, 03 Feb 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0---3--/</guid>
+      <guid>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-3/</guid>
       <description>라이센스 - The GNU Free Documentation License 원저자 - Conrad Barski, M.D. 원본 출처 - http://lisperati.com/casting.html
 엄청나게 좋은 Lisp컴파일러가 많이 있지만, 이 강좌를 들으며 쓰기 가장 쉬운 것은 Franz의 Allegro Common Lisp, 매우 강력한 상업용 Lisp입니다. Franz, Inc. 는 친절하게도 텔넷환경을 통해서 사용할 수 있도록 해 주었지요. 여기에 있으니까 컴퓨터에 아무 것도 깔 필요는 없어요. 그냥 이 링크를 클릭하면 원하는 모든 것을 제공해주는 텔넷 화면이 뜰 겁니다! [caption id=&amp;ldquo;attachment_382&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;400&amp;rdquo; caption=&amp;ldquo;telnet화면&amp;rdquo;]/caption [caption id=&amp;ldquo;attachment_381&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; caption=&amp;ldquo;reset하고 싶을 때는 :res&amp;rdquo;][/caption] Allegro Common Lisp를 쓰고 있다면, Lisp 명령줄에서 다음을 실행해 보세요.</description>
     </item>
     
     <item>
       <title>Lisp로 주문 외기 - 4 -</title>
-      <link>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0---4--/</link>
+      <link>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-4/</link>
       <pubDate>Tue, 03 Feb 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0---4--/</guid>
+      <guid>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-4/</guid>
       <description>라이센스 - The GNU Free Documentation License 원저자 - Conrad Barski, M.D. 원본 출처 - http://lisperati.com/casting.html
 문법과 의미 모든 컴퓨터 언어는 문법(syntax)과 의미(semantics)로 구성된 코드가 있습니다. 컴퓨터 언어의 문법(syntax)이란 건, 컴파일러가 프로그램에 쓰여있는 게 뭐가 뭔지 알 수 있도록 프로그램을 짤 때 따라야 하는 기본적인 뼈대에요. 그러니까 그게 뭐가 함수고, 뭐가 변수고, 뭐가 뭐고 하는 걸 알 수 있도록 해 주는 거죠. 프로그램에서의 의미(semantics)란 건 아무거나라고 말하는 게 좋겠네요. 가능한 여러가지 서로 다른 명령이라든가, 프로그램의 어디서든 볼 수 있도록 허락한 변수들이라든가 뭐 그런 거.</description>
     </item>
     
     <item>
       <title>Lisp로 주문 외기 - 5 -</title>
-      <link>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0---5--/</link>
+      <link>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-5/</link>
       <pubDate>Tue, 03 Feb 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0---5--/</guid>
+      <guid>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-5/</guid>
       <description>라이센스 - The GNU Free Documentation License 원저자 - Conrad Barski, M.D. 원본 출처 - http://lisperati.com/casting.html
 게임 세계를 위한 데이터 정의 형식(Form)에 대해 조금 더 배우기 위해, 게임 세계의 데이터를 만드는 형식을 좀 만들어봅시다. 일단은, 게임에는 플레이어가 집어들어 사용할 수 있는 특정 물체들이 있을 겁니다. 이걸 정의해 봅시다.
 (setf objects &amp;lsquo;(whiskey-bottle bucket frog chain))
@@ -5504,10 +5504,10 @@ http://파란미르.com/
     
     <item>
       <title>Lisp로 주문 외기 - 6 -</title>
-      <link>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0---6--/</link>
+      <link>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-6/</link>
       <pubDate>Tue, 03 Feb 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0---6--/</guid>
+      <guid>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-6/</guid>
       <description>라이센스 - The GNU Free Documentation License 원저자 - Conrad Barski, M.D. 원본 출처 - http://lisperati.com/casting.html
 게임 세계를 살펴 보기 만들어볼 첫 명령은 지금 서 있는 장소에 대해 말해줄 명령입니다. 그러니 함수가 그 장소에 대해 묘사하기 위해 필요한 게 뭘까요?
 에, 묘사할 장소에 대해 알아야 하고, 지도에서 그게 어디에 있는지를 찾을 수 있어야겠죠. 여기 함수가 있고요, 그건 바로 그렇게 동작합니다.  (defun describe-location (location map) (second (assoc location map)))
@@ -5824,10 +5824,10 @@ cd /etc/apache2/mods-available sudo cp userdir.conf userdir.load /etc/apache2/mo
     
     <item>
       <title>-lsocket 옵션에서 에러가 날 때</title>
-      <link>https://ezaurum.com/2008/11/-lsocket-%EC%98%B5%EC%85%98%EC%97%90%EC%84%9C-%EC%97%90%EB%9F%AC%EA%B0%80-%EB%82%A0-%EB%95%8C/</link>
+      <link>https://ezaurum.com/2008/11/lsocket-%EC%98%B5%EC%85%98%EC%97%90%EC%84%9C-%EC%97%90%EB%9F%AC%EA%B0%80-%EB%82%A0-%EB%95%8C/</link>
       <pubDate>Fri, 28 Nov 2008 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2008/11/-lsocket-%EC%98%B5%EC%85%98%EC%97%90%EC%84%9C-%EC%97%90%EB%9F%AC%EA%B0%80-%EB%82%A0-%EB%95%8C/</guid>
+      <guid>https://ezaurum.com/2008/11/lsocket-%EC%98%B5%EC%85%98%EC%97%90%EC%84%9C-%EC%97%90%EB%9F%AC%EA%B0%80-%EB%82%A0-%EB%95%8C/</guid>
       <description>소켓 프로그래밍을 하는데 프린트물에 있는 대로 -lsocket 옵션을 주니 계속 cc 가 에러를 뱉었다.
 http://kldp.org/node/1377
 결론은 Sun 계열 유닉스에서 작업하는 게 아니면, -lnsl -lsocket 옵션을 주지 말고 컴파일하라는 것.
@@ -5912,10 +5912,10 @@ pointer +1 은 pointer값 + sizeof(*pointer);
     
     <item>
       <title>리눅스 삽질기 - 3 -</title>
-      <link>https://ezaurum.com/2008/11/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%82%BD%EC%A7%88%EA%B8%B0---3--/</link>
+      <link>https://ezaurum.com/2008/11/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%82%BD%EC%A7%88%EA%B8%B0-3/</link>
       <pubDate>Mon, 17 Nov 2008 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2008/11/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%82%BD%EC%A7%88%EA%B8%B0---3--/</guid>
+      <guid>https://ezaurum.com/2008/11/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%82%BD%EC%A7%88%EA%B8%B0-3/</guid>
       <description>일단 gcc를 써 보자. 라고 생각해서 간단히 짜고 컴파일을 해보는데, 계속 에러. 구글링을 통해 해법을 찾았다. http://dantes.kr/blog/320 이 설명에서는 CD를 요구한다는데. 일단 8.10에서는 필요 없는듯?
 일단 이러고 나서, gcc 파일이름 이렇게 치면, 컴파일은 되는데, 실행이 안된다.
 왜?
@@ -5925,10 +5925,10 @@ pointer +1 은 pointer값 + sizeof(*pointer);
     
     <item>
       <title>리눅스 삽질기 - 2 -</title>
-      <link>https://ezaurum.com/2008/11/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%82%BD%EC%A7%88%EA%B8%B0---2--/</link>
+      <link>https://ezaurum.com/2008/11/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%82%BD%EC%A7%88%EA%B8%B0-2/</link>
       <pubDate>Sun, 16 Nov 2008 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2008/11/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%82%BD%EC%A7%88%EA%B8%B0---2--/</guid>
+      <guid>https://ezaurum.com/2008/11/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%82%BD%EC%A7%88%EA%B8%B0-2/</guid>
       <description>지난 번에 리눅스를 깔아놓기만 한 PC가 팔려나가 버려서, 다른 PC에 깔게 되었다. 이번에는 버전업 된 우분투 8.10을 설치. 32비트 버전이다.
 일단 텔넷을 깔아야 하므로 아래의 참고 링크. 설치법 - http://eloid.tistory.com/21 텔넷 포트 바꾸기 - http://rustymind.egloos.com/3310669
 오늘은 여기까지</description>
@@ -5936,10 +5936,10 @@ pointer +1 은 pointer값 + sizeof(*pointer);
     
     <item>
       <title>교육의 목적 - 전문계 고교? 헛소리.</title>
-      <link>https://ezaurum.com/2008/11/%EA%B5%90%EC%9C%A1%EC%9D%98-%EB%AA%A9%EC%A0%81---%EC%A0%84%EB%AC%B8%EA%B3%84-%EA%B3%A0%EA%B5%90-%ED%97%9B%EC%86%8C%EB%A6%AC./</link>
+      <link>https://ezaurum.com/2008/11/%EA%B5%90%EC%9C%A1%EC%9D%98-%EB%AA%A9%EC%A0%81-%EC%A0%84%EB%AC%B8%EA%B3%84-%EA%B3%A0%EA%B5%90-%ED%97%9B%EC%86%8C%EB%A6%AC./</link>
       <pubDate>Sat, 15 Nov 2008 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2008/11/%EA%B5%90%EC%9C%A1%EC%9D%98-%EB%AA%A9%EC%A0%81---%EC%A0%84%EB%AC%B8%EA%B3%84-%EA%B3%A0%EA%B5%90-%ED%97%9B%EC%86%8C%EB%A6%AC./</guid>
+      <guid>https://ezaurum.com/2008/11/%EA%B5%90%EC%9C%A1%EC%9D%98-%EB%AA%A9%EC%A0%81-%EC%A0%84%EB%AC%B8%EA%B3%84-%EA%B3%A0%EA%B5%90-%ED%97%9B%EC%86%8C%EB%A6%AC./</guid>
       <description>비약도 있고, 여러모로 논쟁거리가 있기도 하겠지만. 대학은 왜 가는가? 졸업할 때, 많은 사람들이 무엇을 위해 애쓰는가를 생각하면 답은 나온다. 취직하려고. 대학가려면? 고교 졸업, 우수한 수능성적 고교 줄업하려면? 중학교 졸업 중학교 졸업하려면? 초등학교 입학
 목표와 선수 조건의 관계다.
 대학이 교육기관의 종착지이자 최고위 유닛 정도의 위치를 가졌다고 보면, 그 목적이 다른 모든 목적을 지배한다고 봐도 문제가 없을 것이다. 비약이 심한가? 하지만 당장 아무 고등학교나 가서, 수능에 나오지 않는 과목을 얼마나 성의있게 가르치는지, 얼마나 많은 시간을 할애하는지 한 번 보자.</description>
@@ -6153,10 +6153,10 @@ A : 너 어제 누구랑 있었어! 왜 전화를 안 받아! 다른 남자가 �
     
     <item>
       <title>리눅스 삽질기 - 1 -</title>
-      <link>https://ezaurum.com/2008/10/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%82%BD%EC%A7%88%EA%B8%B0---1--/</link>
+      <link>https://ezaurum.com/2008/10/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%82%BD%EC%A7%88%EA%B8%B0-1/</link>
       <pubDate>Fri, 17 Oct 2008 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2008/10/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%82%BD%EC%A7%88%EA%B8%B0---1--/</guid>
+      <guid>https://ezaurum.com/2008/10/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%82%BD%EC%A7%88%EA%B8%B0-1/</guid>
       <description>리눅스를 깔기로 결정했다. 몇 번이나 깔았다 지웠다를 반복한 지금, 결국 Vista 64 SP1을 기본으로 하고, Virtual PC를 이용해서, 사용하기로 함. virtual pc 2007 sp1은 여기서 받으면 됨. 다운로드 링크 정도는 알아서 찾자. 아래쪽에 64비트와 32비트 용으로 두 개가 있음.
 프로그램을 실행하고 MS사 물건답게, Next를 적당히 눌러주면 가상머신이 실행된다.
 여기까지 하다가, 만들어 보니 64비트 OS가 깔리지 않는다. 가상화는 무조건 32비트. 어째서일까. 혹시나 해서 Virtual BOX를 써 봤는데 기본 셋팅으로는 안 되고, 설정창에서 VT-X/AMD-V 설정을 켜 줘야 가능.</description>
@@ -6442,10 +6442,10 @@ A : 너 어제 누구랑 있었어! 왜 전화를 안 받아! 다른 남자가 �
     
     <item>
       <title>워드프레스 테마 만들기 - 1 -</title>
-      <link>https://ezaurum.com/2008/05/%EC%9B%8C%EB%93%9C%ED%94%84%EB%A0%88%EC%8A%A4-%ED%85%8C%EB%A7%88-%EB%A7%8C%EB%93%A4%EA%B8%B0---1--/</link>
+      <link>https://ezaurum.com/2008/05/%EC%9B%8C%EB%93%9C%ED%94%84%EB%A0%88%EC%8A%A4-%ED%85%8C%EB%A7%88-%EB%A7%8C%EB%93%A4%EA%B8%B0-1/</link>
       <pubDate>Mon, 19 May 2008 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2008/05/%EC%9B%8C%EB%93%9C%ED%94%84%EB%A0%88%EC%8A%A4-%ED%85%8C%EB%A7%88-%EB%A7%8C%EB%93%A4%EA%B8%B0---1--/</guid>
+      <guid>https://ezaurum.com/2008/05/%EC%9B%8C%EB%93%9C%ED%94%84%EB%A0%88%EC%8A%A4-%ED%85%8C%EB%A7%88-%EB%A7%8C%EB%93%A4%EA%B8%B0-1/</guid>
       <description>내가 만든게 짱이야~ 라는 식은 아니지만, 아무래도 남이 만든 건 아무리 예뻐도 마음에 안 드는 부분이 있기 마련이다. 그러니 자, 시작해 보자. 워드프레스 테마 만들기!
 일단 스텝 1. 블로그의 구조를 결정하자.
 기본적으로 상단에는 블로그 제목, 가벼운 설명이나, 현재 위치한 페이지 정도가 들어간다. 하단에는 광고나, 블로그의 기술적 정보 정도가 들어가게 되겠다. 사이드 바라고 불리는 부분, 왼쪽이나 오른쪽의 실제 내용과 조금 동떨어진 부분에는 카테고리 구조나, 검색창, 태그 클라우드, 뭐 기타 등등이 들어갈 예정이다.</description>
@@ -6650,10 +6650,10 @@ DDR 램 4개는 램디스크를 위한 것. 다나와에서는 램디스크 모�
     
     <item>
       <title>왜 나는 너를 사랑하는가 - 알랭 드 보통</title>
-      <link>https://ezaurum.com/2007/11/%EC%99%9C-%EB%82%98%EB%8A%94-%EB%84%88%EB%A5%BC-%EC%82%AC%EB%9E%91%ED%95%98%EB%8A%94%EA%B0%80---%EC%95%8C%EB%9E%AD-%EB%93%9C-%EB%B3%B4%ED%86%B5/</link>
+      <link>https://ezaurum.com/2007/11/%EC%99%9C-%EB%82%98%EB%8A%94-%EB%84%88%EB%A5%BC-%EC%82%AC%EB%9E%91%ED%95%98%EB%8A%94%EA%B0%80-%EC%95%8C%EB%9E%AD-%EB%93%9C-%EB%B3%B4%ED%86%B5/</link>
       <pubDate>Sun, 04 Nov 2007 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2007/11/%EC%99%9C-%EB%82%98%EB%8A%94-%EB%84%88%EB%A5%BC-%EC%82%AC%EB%9E%91%ED%95%98%EB%8A%94%EA%B0%80---%EC%95%8C%EB%9E%AD-%EB%93%9C-%EB%B3%B4%ED%86%B5/</guid>
+      <guid>https://ezaurum.com/2007/11/%EC%99%9C-%EB%82%98%EB%8A%94-%EB%84%88%EB%A5%BC-%EC%82%AC%EB%9E%91%ED%95%98%EB%8A%94%EA%B0%80-%EC%95%8C%EB%9E%AD-%EB%93%9C-%EB%B3%B4%ED%86%B5/</guid>
       <description>스무 살에 읽어도 좋고, 스물 여섯에 읽어도 좋고. 뭐 그렇네.
 히죽.
 여튼 보기 좋게 정리를 한다는 건 좋은 거야. 책상이든, 감정이든, 이론이든 간에.</description>
@@ -6936,10 +6936,10 @@ H는 그랬다.
     
     <item>
       <title>방출 도서 목록 - 종료</title>
-      <link>https://ezaurum.com/2007/02/%EB%B0%A9%EC%B6%9C-%EB%8F%84%EC%84%9C-%EB%AA%A9%EB%A1%9D---%EC%A2%85%EB%A3%8C/</link>
+      <link>https://ezaurum.com/2007/02/%EB%B0%A9%EC%B6%9C-%EB%8F%84%EC%84%9C-%EB%AA%A9%EB%A1%9D-%EC%A2%85%EB%A3%8C/</link>
       <pubDate>Fri, 16 Feb 2007 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2007/02/%EB%B0%A9%EC%B6%9C-%EB%8F%84%EC%84%9C-%EB%AA%A9%EB%A1%9D---%EC%A2%85%EB%A3%8C/</guid>
+      <guid>https://ezaurum.com/2007/02/%EB%B0%A9%EC%B6%9C-%EB%8F%84%EC%84%9C-%EB%AA%A9%EB%A1%9D-%EC%A2%85%EB%A3%8C/</guid>
       <description>권당 500원 도서
 블랙라군 1,2(3권을 같이 샀다고 기억하는데..;;) 경마장 살인 사건 쇠못 살인 사건 피의 문화사 뇌 1, 2권 만화로 배우는 일본어 회화 밤의 향기 1, 8 너버스 비너스 5 프레드 워드의 오리 8 약선선녀 마담 明 1-3 클랜 2, 3 트리니티 블러드 1 냉정과 열정 사이 Blue 카메라 촬영 레슨
 총 20권, 같이사면 1만원. 당연히 착불.

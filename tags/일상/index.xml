@@ -611,10 +611,10 @@ POI, google drive api 대충 조사.</description>
     
     <item>
       <title>자주 포스팅  하자</title>
-      <link>https://ezaurum.com/2012/03/%EC%9E%90%EC%A3%BC-%ED%8F%AC%EC%8A%A4%ED%8C%85--%ED%95%98%EC%9E%90/</link>
+      <link>https://ezaurum.com/2012/03/%EC%9E%90%EC%A3%BC-%ED%8F%AC%EC%8A%A4%ED%8C%85-%ED%95%98%EC%9E%90/</link>
       <pubDate>Mon, 26 Mar 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2012/03/%EC%9E%90%EC%A3%BC-%ED%8F%AC%EC%8A%A4%ED%8C%85--%ED%95%98%EC%9E%90/</guid>
+      <guid>https://ezaurum.com/2012/03/%EC%9E%90%EC%A3%BC-%ED%8F%AC%EC%8A%A4%ED%8C%85-%ED%95%98%EC%9E%90/</guid>
       <description>iBus가 마지막 글자를 씹어먹는 현상이 있건 어쨌건, 피곤하건 어쨌건, 일 주일에 몇 번은 포스팅을 하자. 말을 안 하니까 더 못하게 된다. 그런 생각으로 오늘 한 일을 정리하려고 포스팅을 올리다 보니 java컴파일러가 없어. 그래서 JDK를 깔아. 기다려. 트위터를 좀 해. 그러다 보니 벌써 한시 16분&amp;hellip; 빨리 마무리 하고 자야겠다.</description>
     </item>
     
@@ -1052,10 +1052,10 @@ JS 소품 하나, Servlet으로 만든 API 두 개, JSP로 대충 게시판 하�
     
     <item>
       <title>坊っちゃん – 3 -</title>
-      <link>https://ezaurum.com/2010/08/%E5%9D%8A%E3%81%A3%E3%81%A1%E3%82%83%E3%82%93--3--/</link>
+      <link>https://ezaurum.com/2010/08/%E5%9D%8A%E3%81%A3%E3%81%A1%E3%82%83%E3%82%93-3/</link>
       <pubDate>Sun, 22 Aug 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2010/08/%E5%9D%8A%E3%81%A3%E3%81%A1%E3%82%83%E3%82%93--3--/</guid>
+      <guid>https://ezaurum.com/2010/08/%E5%9D%8A%E3%81%A3%E3%81%A1%E3%82%83%E3%82%93-3/</guid>
       <description>痛かったから勘太郎を垣根へ押しつけておいて、足搦（あしがら）をかけて向うへ倒（たお）してやった。山城屋の地面は菜園より六尺がた低い。勘太郎は四つ目垣を半分崩（くず）して、自分の領分へ真逆様（まっさかさま）に落ちて、ぐうと云った。勘太郎が落ちるときに、おれの袷の片袖がもげて、急に手が自由になった。その晩母が山城屋に詫（わ）びに行ったついでに袷の片袖も取り返して来た。
 아파서 칸타로를 울타리에 밀어붙이고, 다리걸기로 저쪽에 쓰러트려 버렸다. 야마시로야의 지면은 채소밭보다 육척정도 낮았다. 칸타로는 사각대울타리를 절반쯤 수수고 자기네 땅에 거꾸로 떨어져서 꿍 소리를 냈다. 칸타로가 떨어질 때 내 겹옷 한쪽 소매가 뜯겨나가서, 갑자기 손이 자유로워졌다. 그날 밤, 어머니가 야마시로야에 사과하러 갔다가 돌아오시며 찾아오셨다.
 별로 진도가 빨리 나가질 않는군.</description>
@@ -1118,10 +1118,10 @@ FF - 내용이 없는 경우, outline을 나중에 그리고, 내용이 있는 �
     
     <item>
       <title>input.value = textarea.innerHTML 의 작동</title>
-      <link>https://ezaurum.com/2010/08/input.value--textarea.innerHTML-%EC%9D%98-%EC%9E%91%EB%8F%99/</link>
+      <link>https://ezaurum.com/2010/08/input.value-textarea.innerHTML-%EC%9D%98-%EC%9E%91%EB%8F%99/</link>
       <pubDate>Thu, 12 Aug 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2010/08/input.value--textarea.innerHTML-%EC%9D%98-%EC%9E%91%EB%8F%99/</guid>
+      <guid>https://ezaurum.com/2010/08/input.value-textarea.innerHTML-%EC%9D%98-%EC%9E%91%EB%8F%99/</guid>
       <description>input.value = textarea.innerHTML; 이라는 구문이 실행될 때, innerHTML안에 tag가 있으면 &amp;gt;가 &amp;amp;gt;로, &amp;lt;가 &amp;amp;lt;로 바뀐다. (IE6에서 확인)</description>
     </item>
     
@@ -1163,10 +1163,10 @@ public class myTest {
     
     <item>
       <title>RD-P1 - 구형 전자사전의 한계</title>
-      <link>https://ezaurum.com/2010/08/RD-P1---%EA%B5%AC%ED%98%95-%EC%A0%84%EC%9E%90%EC%82%AC%EC%A0%84%EC%9D%98-%ED%95%9C%EA%B3%84/</link>
+      <link>https://ezaurum.com/2010/08/RD-P1-%EA%B5%AC%ED%98%95-%EC%A0%84%EC%9E%90%EC%82%AC%EC%A0%84%EC%9D%98-%ED%95%9C%EA%B3%84/</link>
       <pubDate>Mon, 09 Aug 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2010/08/RD-P1---%EA%B5%AC%ED%98%95-%EC%A0%84%EC%9E%90%EC%82%AC%EC%A0%84%EC%9D%98-%ED%95%9C%EA%B3%84/</guid>
+      <guid>https://ezaurum.com/2010/08/RD-P1-%EA%B5%AC%ED%98%95-%EC%A0%84%EC%9E%90%EC%82%AC%EC%A0%84%EC%9D%98-%ED%95%9C%EA%B3%84/</guid>
       <description>RD-P1이라는 전자사전을 쓰고 있다. 필요로 하는 필기인식 기능이 있고, 흑백이라 가격도 저렴하고 동영상 기능이 없어서 공부에 집중할 수 있을 거라는 생각에 구입했는데, 이게 좀 거슬리는 것이. 일본어에는 四つ目垣(よつ-めがき)식으로 한자와 히라가나를 섞어 쓰는 경우가 많은데, 이 형식을 검색할 수가 없다. 일단 한자를 찾고, 음을 찾아서 아마 이거일 것이다 하는 음을 결정하고, 뒤의 히라가나와 합성해서, 검색하게 되는데&amp;hellip; 이 과정이 꽤 귀찮다. 위의 물건처럼 한자사이에 히라가나가 한두자씩 섞여있고 그 한자를 읽을 줄 모르면 다 찾아서 음을 모두 합성해야 한다.</description>
     </item>
     
@@ -1746,10 +1746,10 @@ window.open(&amp;ldquo;title&amp;rdquo;, &amp;ldquo;frameName&amp;rdquo;, &amp;l
     
     <item>
       <title>가면 라이더 신작 - 가면 라이더 W</title>
-      <link>https://ezaurum.com/2009/09/%EA%B0%80%EB%A9%B4-%EB%9D%BC%EC%9D%B4%EB%8D%94-%EC%8B%A0%EC%9E%91---%EA%B0%80%EB%A9%B4-%EB%9D%BC%EC%9D%B4%EB%8D%94-W/</link>
+      <link>https://ezaurum.com/2009/09/%EA%B0%80%EB%A9%B4-%EB%9D%BC%EC%9D%B4%EB%8D%94-%EC%8B%A0%EC%9E%91-%EA%B0%80%EB%A9%B4-%EB%9D%BC%EC%9D%B4%EB%8D%94-W/</link>
       <pubDate>Wed, 09 Sep 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2009/09/%EA%B0%80%EB%A9%B4-%EB%9D%BC%EC%9D%B4%EB%8D%94-%EC%8B%A0%EC%9E%91---%EA%B0%80%EB%A9%B4-%EB%9D%BC%EC%9D%B4%EB%8D%94-W/</guid>
+      <guid>https://ezaurum.com/2009/09/%EA%B0%80%EB%A9%B4-%EB%9D%BC%EC%9D%B4%EB%8D%94-%EC%8B%A0%EC%9E%91-%EA%B0%80%EB%A9%B4-%EB%9D%BC%EC%9D%B4%EB%8D%94-W/</guid>
       <description>USB 메모리, 하드보일드, 탐정, 둘이서 하나, 어려보이는 히로인, 검색엔진</description>
     </item>
     
@@ -1965,10 +1965,10 @@ window.open(&amp;ldquo;title&amp;rdquo;, &amp;ldquo;frameName&amp;rdquo;, &amp;l
     
     <item>
       <title>Dream Dream - 키 더 메탈 아이돌 (最終 ED c/w)</title>
-      <link>https://ezaurum.com/2009/04/Dream-Dream---%ED%82%A4-%EB%8D%94-%EB%A9%94%ED%83%88-%EC%95%84%EC%9D%B4%EB%8F%8C-%E6%9C%80%E7%B5%82-ED-c/w/</link>
+      <link>https://ezaurum.com/2009/04/Dream-Dream-%ED%82%A4-%EB%8D%94-%EB%A9%94%ED%83%88-%EC%95%84%EC%9D%B4%EB%8F%8C-%E6%9C%80%E7%B5%82-ED-c-w/</link>
       <pubDate>Tue, 21 Apr 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2009/04/Dream-Dream---%ED%82%A4-%EB%8D%94-%EB%A9%94%ED%83%88-%EC%95%84%EC%9D%B4%EB%8F%8C-%E6%9C%80%E7%B5%82-ED-c/w/</guid>
+      <guid>https://ezaurum.com/2009/04/Dream-Dream-%ED%82%A4-%EB%8D%94-%EB%A9%94%ED%83%88-%EC%95%84%EC%9D%B4%EB%8F%8C-%E6%9C%80%E7%B5%82-ED-c-w/</guid>
       <description>[youtube https://www.youtube.com/watch?v=RYYKVpvnvXA&amp;amp;hl=ko&amp;amp;fs=1] ごめんね　友だちだけど 미안해 친구인데도 きょうは　わけはきかないで 오늘은 왜그런지 묻지 마 きょうは　ちょっと元氣ない 오늘은 조금 기운이 없네 ほんとはちょっとじゃないけど 사실은 조금이 아니지만
 ごめんね　なんのことだか 미안해 무슨 일인지 わからないと思うけど 이해안될거 같지만서도 なにをしても お手上げで 뭘 해도 잘 안 되어서 なにも できる ことがない 뭘 할 수 있는게 없어
 なにをしても ダメなら 寢るしかないよね 뭘 해도 안된다면 잘 수 밖에는 없잖아 まだこんな 時間だけど． 아직 이런 시간이지만 ん∼ 電話を 切ったら　カ－テンを 閉めて 응~ 전화를 끊으면 커튼을 닫고 パジャマに きがえて　Ｄｒｅａｍ　Ｄｒｅａｍ 파자마로 갈아입고　Dream Dream</description>
@@ -2109,10 +2109,10 @@ window.open(&amp;ldquo;title&amp;rdquo;, &amp;ldquo;frameName&amp;rdquo;, &amp;l
     
     <item>
       <title>真っ赤な空を見ただろうか - BUMP OF CHICKEN</title>
-      <link>https://ezaurum.com/2009/02/%E7%9C%9F%E3%81%A3%E8%B5%A4%E3%81%AA%E7%A9%BA%E3%82%92%E8%A6%8B%E3%81%9F%E3%81%A0%E3%82%8D%E3%81%86%E3%81%8B---BUMP-OF-CHICKEN/</link>
+      <link>https://ezaurum.com/2009/02/%E7%9C%9F%E3%81%A3%E8%B5%A4%E3%81%AA%E7%A9%BA%E3%82%92%E8%A6%8B%E3%81%9F%E3%81%A0%E3%82%8D%E3%81%86%E3%81%8B-BUMP-OF-CHICKEN/</link>
       <pubDate>Wed, 04 Feb 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2009/02/%E7%9C%9F%E3%81%A3%E8%B5%A4%E3%81%AA%E7%A9%BA%E3%82%92%E8%A6%8B%E3%81%9F%E3%81%A0%E3%82%8D%E3%81%86%E3%81%8B---BUMP-OF-CHICKEN/</guid>
+      <guid>https://ezaurum.com/2009/02/%E7%9C%9F%E3%81%A3%E8%B5%A4%E3%81%AA%E7%A9%BA%E3%82%92%E8%A6%8B%E3%81%9F%E3%81%A0%E3%82%8D%E3%81%86%E3%81%8B-BUMP-OF-CHICKEN/</guid>
       <description>[youtube https://www.youtube.com/watch?v=svR1QFdTui8&amp;amp;hl=en&amp;amp;fs=1] [youtube https://www.youtube.com/watch?v=LYMtygig3J4&amp;amp;hl=en&amp;amp;fs=1]
 真っ赤な空を見ただろうか - BUMP OF CHICKEN
 真っ赤な空を見ただろうか 새빨간 하늘을 보았을까
@@ -2853,10 +2853,10 @@ DDR 램 4개는 램디스크를 위한 것. 다나와에서는 램디스크 모�
     
     <item>
       <title>왜 나는 너를 사랑하는가 - 알랭 드 보통</title>
-      <link>https://ezaurum.com/2007/11/%EC%99%9C-%EB%82%98%EB%8A%94-%EB%84%88%EB%A5%BC-%EC%82%AC%EB%9E%91%ED%95%98%EB%8A%94%EA%B0%80---%EC%95%8C%EB%9E%AD-%EB%93%9C-%EB%B3%B4%ED%86%B5/</link>
+      <link>https://ezaurum.com/2007/11/%EC%99%9C-%EB%82%98%EB%8A%94-%EB%84%88%EB%A5%BC-%EC%82%AC%EB%9E%91%ED%95%98%EB%8A%94%EA%B0%80-%EC%95%8C%EB%9E%AD-%EB%93%9C-%EB%B3%B4%ED%86%B5/</link>
       <pubDate>Sun, 04 Nov 2007 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2007/11/%EC%99%9C-%EB%82%98%EB%8A%94-%EB%84%88%EB%A5%BC-%EC%82%AC%EB%9E%91%ED%95%98%EB%8A%94%EA%B0%80---%EC%95%8C%EB%9E%AD-%EB%93%9C-%EB%B3%B4%ED%86%B5/</guid>
+      <guid>https://ezaurum.com/2007/11/%EC%99%9C-%EB%82%98%EB%8A%94-%EB%84%88%EB%A5%BC-%EC%82%AC%EB%9E%91%ED%95%98%EB%8A%94%EA%B0%80-%EC%95%8C%EB%9E%AD-%EB%93%9C-%EB%B3%B4%ED%86%B5/</guid>
       <description>스무 살에 읽어도 좋고, 스물 여섯에 읽어도 좋고. 뭐 그렇네.
 히죽.
 여튼 보기 좋게 정리를 한다는 건 좋은 거야. 책상이든, 감정이든, 이론이든 간에.</description>
@@ -3080,10 +3080,10 @@ DDR 램 4개는 램디스크를 위한 것. 다나와에서는 램디스크 모�
     
     <item>
       <title>방출 도서 목록 - 종료</title>
-      <link>https://ezaurum.com/2007/02/%EB%B0%A9%EC%B6%9C-%EB%8F%84%EC%84%9C-%EB%AA%A9%EB%A1%9D---%EC%A2%85%EB%A3%8C/</link>
+      <link>https://ezaurum.com/2007/02/%EB%B0%A9%EC%B6%9C-%EB%8F%84%EC%84%9C-%EB%AA%A9%EB%A1%9D-%EC%A2%85%EB%A3%8C/</link>
       <pubDate>Fri, 16 Feb 2007 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2007/02/%EB%B0%A9%EC%B6%9C-%EB%8F%84%EC%84%9C-%EB%AA%A9%EB%A1%9D---%EC%A2%85%EB%A3%8C/</guid>
+      <guid>https://ezaurum.com/2007/02/%EB%B0%A9%EC%B6%9C-%EB%8F%84%EC%84%9C-%EB%AA%A9%EB%A1%9D-%EC%A2%85%EB%A3%8C/</guid>
       <description>권당 500원 도서
 블랙라군 1,2(3권을 같이 샀다고 기억하는데..;;) 경마장 살인 사건 쇠못 살인 사건 피의 문화사 뇌 1, 2권 만화로 배우는 일본어 회화 밤의 향기 1, 8 너버스 비너스 5 프레드 워드의 오리 8 약선선녀 마담 明 1-3 클랜 2, 3 트리니티 블러드 1 냉정과 열정 사이 Blue 카메라 촬영 레슨
 총 20권, 같이사면 1만원. 당연히 착불.

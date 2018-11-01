@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Tue, 02 Oct 2018 13:23:21 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 02 Nov 2018 02:08:41 +0900</lastBuildDate>
     
 	<atom:link href="https://ezaurum.com/categories/%ED%9A%8C%EA%B3%A0/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>AJAX 요청응답이 왔는데 JSON parse에러가 났는데 정상 작동</title>
+      <link>https://ezaurum.com/bug/ajax-response-is-invalid-but-valid/</link>
+      <pubDate>Fri, 02 Nov 2018 02:08:41 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/bug/ajax-response-is-invalid-but-valid/</guid>
+      <description>문제상황 - AJAX요청을 직접 구현해야 할 일이 생겨서 검색 후 복붙하고, XHR을 써서 요청을 보내고, 응답을 받았는데, 이상하게 json parse에러가 나고 콘솔에 reponse를 찍어보니 빈 상태로 왔다. 그런데도 응답이 정상적으로 처리가 되었다. 원인 - 스펙문서를 보면 readystate 3이란 게 있고, 그 단계에서는 response가 다 도달하지 않은 상태다. 그 상태에서 콘솔에 찍으니 당연히 이상하게 나왔고, 코드가 진행되면서 값이 들어가니 처음에 파스 에러가 났다가 아래쪽 재시도에서는 정상이 된 거다. 결국 참고한 코드가 잘못되어 있었는데, 무작정 복붙해서 일어난 문제.</description>
+    </item>
     
     <item>
       <title>Font Awesome이 적용되지 않았던 문제</title>
@@ -46,10 +55,10 @@
     
     <item>
       <title>2009 하반기 - 2018 상반기 일/공부 회고</title>
-      <link>https://ezaurum.com/2018/06/2009-%ED%95%98%EB%B0%98%EA%B8%B0---2018-%EC%83%81%EB%B0%98%EA%B8%B0-%EC%9D%BC/%EA%B3%B5%EB%B6%80-%ED%9A%8C%EA%B3%A0/</link>
+      <link>https://ezaurum.com/2018/06/2009-%ED%95%98%EB%B0%98%EA%B8%B0-2018-%EC%83%81%EB%B0%98%EA%B8%B0-%EC%9D%BC-%EA%B3%B5%EB%B6%80-%ED%9A%8C%EA%B3%A0/</link>
       <pubDate>Fri, 22 Jun 2018 23:31:58 +0900</pubDate>
       
-      <guid>https://ezaurum.com/2018/06/2009-%ED%95%98%EB%B0%98%EA%B8%B0---2018-%EC%83%81%EB%B0%98%EA%B8%B0-%EC%9D%BC/%EA%B3%B5%EB%B6%80-%ED%9A%8C%EA%B3%A0/</guid>
+      <guid>https://ezaurum.com/2018/06/2009-%ED%95%98%EB%B0%98%EA%B8%B0-2018-%EC%83%81%EB%B0%98%EA%B8%B0-%EC%9D%BC-%EA%B3%B5%EB%B6%80-%ED%9A%8C%EA%B3%A0/</guid>
       <description>2009년에 중앙전산소를 들어가면서 본격적으로 회사원으로서의 프로그래머가 되었다.
 그 이후 나름 다종다양한 일을 하면서 배운 것과 느낀 점을 키워드 중심으로 기록해 두고자 한다.
 중앙전산소 - 2009.1-2010.10  스프링 - 토비의 스프링을 정독했다. aop가 뭔지 DI가 뭔지 모르는 상태라도 하루 두 시간씩 하니까 한 달만에 되더라. 혼자 헤딩 - 여기저기 헤딩하면서 혼자 작업했다. 뭐 가르쳐줄 사람도 없었고, 나이도 많고 해서 어쩔 수 없이 야근을 달고 살았다. 책의 중요성 - 본격적으로 공부를 하려니 역시 책으로 보는 게 제일이었다.</description>

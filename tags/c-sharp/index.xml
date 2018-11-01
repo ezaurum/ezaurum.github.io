@@ -14,10 +14,10 @@
     
     <item>
       <title>C# DB 라이브러리 비교</title>
-      <link>https://ezaurum.com/2014/12/C#-DB-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-%EB%B9%84%EA%B5%90/</link>
+      <link>https://ezaurum.com/2014/12/C-DB-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-%EB%B9%84%EA%B5%90/</link>
       <pubDate>Thu, 25 Dec 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2014/12/C#-DB-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-%EB%B9%84%EA%B5%90/</guid>
+      <guid>https://ezaurum.com/2014/12/C-DB-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-%EB%B9%84%EA%B5%90/</guid>
       <description>별로 구체적으로 비교를 해 본 것은 아니지만, 지난 두 달간 이런저런 삽질을 한 결과를 정리한다.  Linq To SQL - MS스러운 DB라이브러리  장점 - IDE에 통합된 사용환경, VS에서 DB에 연결 후, 테이블을 끌어오는 것만으로도 바로 도메인 객체가 생성된다. 속도가 빠르다. 복잡한 쿼리에 신경 안 써도 된다. 러닝커브 작음. 단점 - 자동생성되는 도메인 객체가 복잡하다. 로직이 들어가야 하는 경우 매우 곤란해진다. POCO객체는 불가능. 추가 수정도 귀찮다. 적절한 사용처 - 이미 DB가 존재하고, 거기에 간단한 CRUD연산을 해야 하는 웹 툴 정도를 붙이는 경우.</description>
     </item>
     
@@ -52,10 +52,10 @@ public void AddText(string value) { richTextBox1.Invoke((Action) OnAction, value
     
     <item>
       <title>C# TDD</title>
-      <link>https://ezaurum.com/2013/09/C#-TDD/</link>
+      <link>https://ezaurum.com/2013/09/C-TDD/</link>
       <pubDate>Mon, 30 Sep 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2013/09/C#-TDD/</guid>
+      <guid>https://ezaurum.com/2013/09/C-TDD/</guid>
       <description>C# 개발을 시작하면서 일단 두 개를 써 보기로 했다. Moq Quick Start NUnit 2.6.2 quick start Resharper를 쓰고 있어서 그런지, NUnit 테스트는 alt+Enter로 실행이 되고, 결과도 따로 창 안 뜨고 옆에 보인다. moq는 람다식 덕에 자바에서 mockito를 쓸 때보다 좀 더 편해보인다.</description>
     </item>
     

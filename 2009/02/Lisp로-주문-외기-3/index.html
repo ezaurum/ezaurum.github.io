@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang='ko-kr'>
+<head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-40920966-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-40920966-1');
+</script>
+
+
+    <title>   Lisp로 주문 외기 - 3 - -  Ezaurum&#39;s Blog </title>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+    
+    
+
+    
+<meta itemprop="name" content="Lisp로 주문 외기 - 3 -">
+<meta itemprop="description" content="라이센스 - The GNU Free Documentation License 원저자 - Conrad Barski, M.D. 원본 출처 - http://lisperati.com/casting.html
+엄청나게 좋은 Lisp컴파일러가 많이 있지만, 이 강좌를 들으며 쓰기 가장 쉬운 것은 Franz의 Allegro Common Lisp, 매우 강력한 상업용 Lisp입니다. Franz, Inc. 는 친절하게도 텔넷환경을 통해서 사용할 수 있도록 해 주었지요. 여기에 있으니까 컴퓨터에 아무 것도 깔 필요는 없어요. 그냥 이 링크를 클릭하면 원하는 모든 것을 제공해주는 텔넷 화면이 뜰 겁니다! [caption id=&ldquo;attachment_382&rdquo; align=&ldquo;alignnone&rdquo; width=&ldquo;400&rdquo; caption=&ldquo;telnet화면&rdquo;]/caption [caption id=&ldquo;attachment_381&rdquo; align=&ldquo;alignnone&rdquo; width=&ldquo;500&rdquo; caption=&ldquo;reset하고 싶을 때는 :res&rdquo;][/caption] Allegro Common Lisp를 쓰고 있다면, Lisp 명령줄에서 다음을 실행해 보세요.">
+
+
+<meta itemprop="datePublished" content="2009-02-03T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2009-02-03T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="124">
+
+
+
+<meta itemprop="keywords" content="casting-spels,번역,결과물,공부,LISP," />
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Lisp로 주문 외기 - 3 -"/>
+<meta name="twitter:description" content="라이센스 - The GNU Free Documentation License 원저자 - Conrad Barski, M.D. 원본 출처 - http://lisperati.com/casting.html
+엄청나게 좋은 Lisp컴파일러가 많이 있지만, 이 강좌를 들으며 쓰기 가장 쉬운 것은 Franz의 Allegro Common Lisp, 매우 강력한 상업용 Lisp입니다. Franz, Inc. 는 친절하게도 텔넷환경을 통해서 사용할 수 있도록 해 주었지요. 여기에 있으니까 컴퓨터에 아무 것도 깔 필요는 없어요. 그냥 이 링크를 클릭하면 원하는 모든 것을 제공해주는 텔넷 화면이 뜰 겁니다! [caption id=&ldquo;attachment_382&rdquo; align=&ldquo;alignnone&rdquo; width=&ldquo;400&rdquo; caption=&ldquo;telnet화면&rdquo;]/caption [caption id=&ldquo;attachment_381&rdquo; align=&ldquo;alignnone&rdquo; width=&ldquo;500&rdquo; caption=&ldquo;reset하고 싶을 때는 :res&rdquo;][/caption] Allegro Common Lisp를 쓰고 있다면, Lisp 명령줄에서 다음을 실행해 보세요."/>
+
+    <meta property="og:title" content="Lisp로 주문 외기 - 3 -" />
+<meta property="og:description" content="라이센스 - The GNU Free Documentation License 원저자 - Conrad Barski, M.D. 원본 출처 - http://lisperati.com/casting.html
+엄청나게 좋은 Lisp컴파일러가 많이 있지만, 이 강좌를 들으며 쓰기 가장 쉬운 것은 Franz의 Allegro Common Lisp, 매우 강력한 상업용 Lisp입니다. Franz, Inc. 는 친절하게도 텔넷환경을 통해서 사용할 수 있도록 해 주었지요. 여기에 있으니까 컴퓨터에 아무 것도 깔 필요는 없어요. 그냥 이 링크를 클릭하면 원하는 모든 것을 제공해주는 텔넷 화면이 뜰 겁니다! [caption id=&ldquo;attachment_382&rdquo; align=&ldquo;alignnone&rdquo; width=&ldquo;400&rdquo; caption=&ldquo;telnet화면&rdquo;]/caption [caption id=&ldquo;attachment_381&rdquo; align=&ldquo;alignnone&rdquo; width=&ldquo;500&rdquo; caption=&ldquo;reset하고 싶을 때는 :res&rdquo;][/caption] Allegro Common Lisp를 쓰고 있다면, Lisp 명령줄에서 다음을 실행해 보세요." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-3/" /><meta property="article:published_time" content="2009-02-03T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2009-02-03T00:00:00&#43;00:00"/>
+
+    
+
+</head>
+<body>
+
+    <header>
+    <nav>
+
+    <a href="https://ezaurum.com/about/">About</a>
+
+    <a href="https://ezaurum.com/">Ezaurum&#39;s Blog</a>
+
+    <a href="/bug">버그일기</a>
+</nav>
+
+</header>
+
+
+
+
+<main class="post single">
+<h1>Lisp로 주문 외기 - 3 -</h1>
+2009-02-03
+<section><p>라이센스 - <a href="http://www.gnu.org/licenses/licenses.html#FDL">The GNU Free Documentation License</a>
+원저자 - <a href="mailto:lisperati@gmail.com">Conrad Barski, M.D.</a>
+원본 출처 - <a href="http://lisperati.com/casting.html">http://lisperati.com/casting.html</a></p>
+
+<p>엄청나게 좋은 Lisp컴파일러가 많이 있지만, 이 강좌를 들으며 쓰기 가장 쉬운 것은 Franz의 <a href="http://www.franz.com/">Allegro Common Lisp</a>, 매우 강력한 상업용 Lisp입니다. Franz, Inc. 는 친절하게도 텔넷환경을 통해서 사용할 수 있도록 해 주었지요. <a href="telnet://prompt.franz.com">여기</a>에 있으니까 컴퓨터에 아무 것도 깔 필요는 없어요. 그냥 이 링크를 클릭하면 원하는 모든 것을 제공해주는 텔넷 화면이 뜰 겁니다!
+[caption id=&ldquo;attachment_382&rdquo; align=&ldquo;alignnone&rdquo; width=&ldquo;400&rdquo; caption=&ldquo;telnet화면&rdquo;]<img src="/wordpress/wp-content/uploads/2009/02/telnet.jpg" alt="telnet화면" title="telnet" width="400" height="202" class="size-full wp-image-382" /><a href="내가 정말 쓰려고 했던 다른 Lisp는 오픈소스인 CLISP인데, 만일 Lisp랑 더 많은 시간을 보내게 될 걸 안다면 다운받고 싶어질 겁니다.">/caption</a>
+[caption id=&ldquo;attachment_381&rdquo; align=&ldquo;alignnone&rdquo; width=&ldquo;500&rdquo; caption=&ldquo;reset하고 싶을 때는 :res&rdquo;]<img src="/wordpress/wp-content/uploads/2009/02/reset.png" alt="reset하고 싶을 때는 :res" title="reset" width="500" height="450" class="size-full wp-image-381" />[/caption]
+Allegro Common Lisp를 쓰고 있다면, Lisp 명령줄에서 다음을 실행해 보세요.
+<code>(setf tpl:<em>print-length</em> nil)</code>
+일단 브라우저에서 이걸 복사해서 텔넷 창에서 오른쪽 클릭을 하고, 붙여넣기를 선택합니다. 이 줄에 대해서 너무 신경쓸 필요는 없어요. 이건 그냥 알레그로가 우리의 텍스트 게임에서 출력되는 문장을 썰어대는 걸 방지하는 것 뿐이에요.</p>
+</section>
+
+
+
+
+    <ul class="taxonomy tag">
+        Tag
+        
+        <li><a href="/tags/casting-spels">casting-spels</a></li>
+        
+        <li><a href="/tags/%EB%B2%88%EC%97%AD">번역</a></li>
+        
+        <li><a href="/tags/%EA%B2%B0%EA%B3%BC%EB%AC%BC">결과물</a></li>
+        
+        <li><a href="/tags/%EA%B3%B5%EB%B6%80">공부</a></li>
+        
+        <li><a href="/tags/LISP">LISP</a></li>
+        </ul>
+    </ul>
+
+
+
+<a href="https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-2/"> Lisp로 주문 외기 - 2 -</a>
+
+
+<a href="https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-4/">Lisp로 주문 외기 - 4 -</a>
+
+
+
+
+
+    <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "ezaurum" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3471055249244195"
+     data-ad-slot="7282877318"
+     data-ad-format="auto"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+</main>
+
+
+
+    <footer>
+© Ezaurum 2001-
+</footer>
+
+
+
+
+
+    <script>
+
+</script>
+
+
+</body>
+</html>
