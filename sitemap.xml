@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://ezaurum.com/retrospective/2018-fullyear/</loc>
+    <lastmod>2019-01-10T21:37:28+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ezaurum.com/bug/ajax-response-is-invalid-but-valid/</loc>
     <lastmod>2018-11-02T02:08:41+09:00</lastmod>
   </url>
@@ -4204,7 +4209,7 @@
   
   <url>
     <loc>https://ezaurum.com/</loc>
-    <lastmod>2018-11-02T02:08:41+09:00</lastmod>
+    <lastmod>2019-01-10T21:37:28+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -5207,6 +5212,12 @@
   <url>
     <loc>https://ezaurum.com/tags/restful/</loc>
     <lastmod>2012-08-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/retrospective/</loc>
+    <lastmod>2019-01-10T21:37:28+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -9801,13 +9812,19 @@
   
   <url>
     <loc>https://ezaurum.com/categories/%ED%9A%8C%EA%B3%A0/</loc>
-    <lastmod>2018-11-02T02:08:41+09:00</lastmod>
+    <lastmod>2019-01-10T21:37:28+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/series/%ED%9A%8C%EA%B3%A0/</loc>
+    <lastmod>2019-01-10T21:37:28+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ezaurum.com/tags/%ED%9A%8C%EA%B3%A0/</loc>
-    <lastmod>2018-11-02T02:08:41+09:00</lastmod>
+    <lastmod>2019-01-10T21:37:28+09:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Fri, 02 Nov 2018 02:08:41 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 10 Jan 2019 21:37:28 +0900</lastBuildDate>
     
 	<atom:link href="https://ezaurum.com/tags/%ED%9A%8C%EA%B3%A0/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2018년 회고</title>
+      <link>https://ezaurum.com/retrospective/2018-fullyear/</link>
+      <pubDate>Thu, 10 Jan 2019 21:37:28 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/retrospective/2018-fullyear/</guid>
+      <description>한 일  5kg 감량, 10개월 후 두 달 만에 다시 원복 간이 ERP 개발(백/프론트) CMS 개발(SPA) 강의 및 기타 컨설턴트 서비스 유지보수 및 기능 6개 개발, 개중 3개는 날짜 못 맞춤 PHP 레거시 서비스 마이그레이션 통상 웹페이지를 SPA구조로 변경 강의 영상 하나 완성(하나는 찍기만 함) 대충 4천커밋(매일 커밋은 실패) 요가 시작, 첫 달은 1&amp;frasl;2 정도 출석, 둘째 달은 1/3정도, 마지막 달은 거의 안 감. 만화/소설/전산기술서적 제외하고 읽은 책은 1권  감상  생각보다 많이 일했다.</description>
+    </item>
     
     <item>
       <title>AJAX 요청응답이 왔는데 JSON parse에러가 났는데 정상 작동</title>
