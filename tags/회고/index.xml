@@ -37,7 +37,10 @@
       <pubDate>Tue, 02 Oct 2018 13:23:21 +0900</pubDate>
       
       <guid>https://ezaurum.com/bug/font-awesome-not-apply/</guid>
-      <description>문제상황 - font awesome을 버전업 했는데, 아무리 해도 적용이 안 되었다. 되는 곳에서 복사해 온 거였는데. 원인 - 복사하면서 이전 버전의 font awsome data hash 값을 안 지우고, 새 것에 합쳐져 버렸다. hash값이 안 맞아서 다운로드가 안 되었던 것. 해결방안 - 지우고 새로 붙여넣었다. 재발 방지를 위해 - 완전히 지우고 새로 붙여넣자.</description>
+      <description>문제상황 - font awesome을 버전업 했는데, 아무리 해도 적용이 안 되었다. 되는 곳에서 복사해 온 거였는데.
+원인 - 복사하면서 이전 버전의 font awsome data hash 값을 안 지우고, 새 것에 합쳐져 버렸다. hash값이 안 맞아서 다운로드가 안 되었던 것.
+해결방안 - 지우고 새로 붙여넣었다.
+재발 방지를 위해 - 완전히 지우고 새로 붙여넣자.</description>
     </item>
     
     <item>
