@@ -14,10 +14,10 @@
     
     <item>
       <title>C# TDD</title>
-      <link>https://ezaurum.com/2013/09/C-TDD/</link>
+      <link>https://ezaurum.com/2013/09/C#-TDD/</link>
       <pubDate>Mon, 30 Sep 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2013/09/C-TDD/</guid>
+      <guid>https://ezaurum.com/2013/09/C#-TDD/</guid>
       <description>C# 개발을 시작하면서 일단 두 개를 써 보기로 했다. Moq Quick Start NUnit 2.6.2 quick start Resharper를 쓰고 있어서 그런지, NUnit 테스트는 alt+Enter로 실행이 되고, 결과도 따로 창 안 뜨고 옆에 보인다. moq는 람다식 덕에 자바에서 mockito를 쓸 때보다 좀 더 편해보인다.</description>
     </item>
     

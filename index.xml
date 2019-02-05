@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Thu, 10 Jan 2019 22:14:27 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 04 Feb 2019 21:13:18 +0900</lastBuildDate>
     
 	<atom:link href="https://ezaurum.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Vue 프로젝트에서 import에서 @가 인식되지 않는 경우</title>
+      <link>https://ezaurum.com/2019/02/Vue-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EC%97%90%EC%84%9C-import%EC%97%90%EC%84%9C-%EA%B0%80-%EC%9D%B8%EC%8B%9D%EB%90%98%EC%A7%80-%EC%95%8A%EB%8A%94-%EA%B2%BD%EC%9A%B0/</link>
+      <pubDate>Mon, 04 Feb 2019 21:13:18 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/2019/02/Vue-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EC%97%90%EC%84%9C-import%EC%97%90%EC%84%9C-%EA%B0%80-%EC%9D%B8%EC%8B%9D%EB%90%98%EC%A7%80-%EC%95%8A%EB%8A%94-%EA%B2%BD%EC%9A%B0/</guid>
+      <description>Settings-&amp;gt;Javascript-&amp;gt;Webpack 에서 node_modules/@vue/cli-service/webpack.config.js 를 설정해 주면 된다.
+참고</description>
+    </item>
     
     <item>
       <title>2019년 목표</title>
@@ -104,10 +114,10 @@ git clone https://github.com/golang/go
     
     <item>
       <title>2009 하반기 - 2018 상반기 일/공부 회고</title>
-      <link>https://ezaurum.com/2018/06/2009-%ED%95%98%EB%B0%98%EA%B8%B0-2018-%EC%83%81%EB%B0%98%EA%B8%B0-%EC%9D%BC-%EA%B3%B5%EB%B6%80-%ED%9A%8C%EA%B3%A0/</link>
+      <link>https://ezaurum.com/2018/06/2009-%ED%95%98%EB%B0%98%EA%B8%B0-2018-%EC%83%81%EB%B0%98%EA%B8%B0-%EC%9D%BC/%EA%B3%B5%EB%B6%80-%ED%9A%8C%EA%B3%A0/</link>
       <pubDate>Fri, 22 Jun 2018 23:31:58 +0900</pubDate>
       
-      <guid>https://ezaurum.com/2018/06/2009-%ED%95%98%EB%B0%98%EA%B8%B0-2018-%EC%83%81%EB%B0%98%EA%B8%B0-%EC%9D%BC-%EA%B3%B5%EB%B6%80-%ED%9A%8C%EA%B3%A0/</guid>
+      <guid>https://ezaurum.com/2018/06/2009-%ED%95%98%EB%B0%98%EA%B8%B0-2018-%EC%83%81%EB%B0%98%EA%B8%B0-%EC%9D%BC/%EA%B3%B5%EB%B6%80-%ED%9A%8C%EA%B3%A0/</guid>
       <description>2009년에 중앙전산소를 들어가면서 본격적으로 회사원으로서의 프로그래머가 되었다.
 그 이후 나름 다종다양한 일을 하면서 배운 것과 느낀 점을 키워드 중심으로 기록해 두고자 한다.
 중앙전산소 - 2009.1-2010.10  스프링 - 토비의 스프링을 정독했다. aop가 뭔지 DI가 뭔지 모르는 상태라도 하루 두 시간씩 하니까 한 달만에 되더라. 혼자 헤딩 - 여기저기 헤딩하면서 혼자 작업했다. 뭐 가르쳐줄 사람도 없었고, 나이도 많고 해서 어쩔 수 없이 야근을 달고 살았다. 책의 중요성 - 본격적으로 공부를 하려니 역시 책으로 보는 게 제일이었다.</description>
@@ -934,10 +944,10 @@ Bitbucket에서는 커스텀 도메인을 쓸 수 없다. 그냥 github를 쓰�
     
     <item>
       <title>C# 에서 Dispose, Close, Stop의 차이</title>
-      <link>https://ezaurum.com/2015/02/C-%EC%97%90%EC%84%9C-Dispose-Close-Stop%EC%9D%98-%EC%B0%A8%EC%9D%B4/</link>
+      <link>https://ezaurum.com/2015/02/C#-%EC%97%90%EC%84%9C-Dispose-Close-Stop%EC%9D%98-%EC%B0%A8%EC%9D%B4/</link>
       <pubDate>Fri, 20 Feb 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2015/02/C-%EC%97%90%EC%84%9C-Dispose-Close-Stop%EC%9D%98-%EC%B0%A8%EC%9D%B4/</guid>
+      <guid>https://ezaurum.com/2015/02/C#-%EC%97%90%EC%84%9C-Dispose-Close-Stop%EC%9D%98-%EC%B0%A8%EC%9D%B4/</guid>
       <description>내가 정리를 할 필요가 있어서&amp;hellip; Dispose - 더 이상 이 오브젝트를 쓰지 않음. 관련 리소스를 정리함. 자동으로 Null로 만들지는 않음. 여러 번 호출해도 괜찮음. Close, Stop - Dispose의 하위집합이거나 기능상 동일할 수 있음. 보통 Close/Open, Start/Stop 이며, 하위집합인 경우, Close이후 재 Open이 가능. Stop이후 Start가 가능.</description>
     </item>
     
@@ -1090,10 +1100,10 @@ Bitbucket에서는 커스텀 도메인을 쓸 수 없다. 그냥 github를 쓰�
     
     <item>
       <title>C# DB 라이브러리 비교</title>
-      <link>https://ezaurum.com/2014/12/C-DB-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-%EB%B9%84%EA%B5%90/</link>
+      <link>https://ezaurum.com/2014/12/C#-DB-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-%EB%B9%84%EA%B5%90/</link>
       <pubDate>Thu, 25 Dec 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2014/12/C-DB-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-%EB%B9%84%EA%B5%90/</guid>
+      <guid>https://ezaurum.com/2014/12/C#-DB-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-%EB%B9%84%EA%B5%90/</guid>
       <description>별로 구체적으로 비교를 해 본 것은 아니지만, 지난 두 달간 이런저런 삽질을 한 결과를 정리한다.  Linq To SQL - MS스러운 DB라이브러리  장점 - IDE에 통합된 사용환경, VS에서 DB에 연결 후, 테이블을 끌어오는 것만으로도 바로 도메인 객체가 생성된다. 속도가 빠르다. 복잡한 쿼리에 신경 안 써도 된다. 러닝커브 작음. 단점 - 자동생성되는 도메인 객체가 복잡하다. 로직이 들어가야 하는 경우 매우 곤란해진다. POCO객체는 불가능. 추가 수정도 귀찮다. 적절한 사용처 - 이미 DB가 존재하고, 거기에 간단한 CRUD연산을 해야 하는 웹 툴 정도를 붙이는 경우.</description>
     </item>
     
@@ -1539,10 +1549,10 @@ CD를 살까 했는데 CD는 진짜 장식이고&amp;hellip; 음원을 어디서
     
     <item>
       <title>C# Socket.AcceptAsync에서 invalidOperationException이 날 때</title>
-      <link>https://ezaurum.com/2013/11/C-Socket.AcceptAsync%EC%97%90%EC%84%9C-invalidOperationException%EC%9D%B4-%EB%82%A0-%EB%95%8C/</link>
+      <link>https://ezaurum.com/2013/11/C#-Socket.AcceptAsync%EC%97%90%EC%84%9C-invalidOperationException%EC%9D%B4-%EB%82%A0-%EB%95%8C/</link>
       <pubDate>Sun, 24 Nov 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2013/11/C-Socket.AcceptAsync%EC%97%90%EC%84%9C-invalidOperationException%EC%9D%B4-%EB%82%A0-%EB%95%8C/</guid>
+      <guid>https://ezaurum.com/2013/11/C#-Socket.AcceptAsync%EC%97%90%EC%84%9C-invalidOperationException%EC%9D%B4-%EB%82%A0-%EB%95%8C/</guid>
       <description>C#에서 소켓 프로그래밍을 할 때, Socket.AcceptAsync로 연결하는데 다음과 같은 예외가 발생했다. System.InvalidOperationException이(가) 처리되지 않았습니다. Message=AcceptSocket: 소켓을 바인딩하거나 연결하면 안 됩니다. 원인은 AcceptAsync이후에 같은 SocketAsyncEventArgs객체를 이용해 계속 Accept를 받으려고 했는데, SocketAsyncEventArgs.AcceptSocket 프로퍼티를 null로 초기화하지 않았기 때문이다. 재사용하려면 AcceptSocket = null;을 넣어줄 것.</description>
     </item>
     
@@ -1615,10 +1625,10 @@ CD를 살까 했는데 CD는 진짜 장식이고&amp;hellip; 음원을 어디서
     
     <item>
       <title>C# TDD</title>
-      <link>https://ezaurum.com/2013/09/C-TDD/</link>
+      <link>https://ezaurum.com/2013/09/C#-TDD/</link>
       <pubDate>Mon, 30 Sep 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2013/09/C-TDD/</guid>
+      <guid>https://ezaurum.com/2013/09/C#-TDD/</guid>
       <description>C# 개발을 시작하면서 일단 두 개를 써 보기로 했다. Moq Quick Start NUnit 2.6.2 quick start Resharper를 쓰고 있어서 그런지, NUnit 테스트는 alt+Enter로 실행이 되고, 결과도 따로 창 안 뜨고 옆에 보인다. moq는 람다식 덕에 자바에서 mockito를 쓸 때보다 좀 더 편해보인다.</description>
     </item>
     
@@ -3029,10 +3039,10 @@ public static void main(String args[]) { System.out.println(EnumStudy.valueOf(1)
     
     <item>
       <title>PL/SQL for 문</title>
-      <link>https://ezaurum.com/2011/11/PL-SQL-for-%EB%AC%B8/</link>
+      <link>https://ezaurum.com/2011/11/PL/SQL-for-%EB%AC%B8/</link>
       <pubDate>Fri, 11 Nov 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2011/11/PL-SQL-for-%EB%AC%B8/</guid>
+      <guid>https://ezaurum.com/2011/11/PL/SQL-for-%EB%AC%B8/</guid>
       <description>기억을 위한 메모용이라고 되어 있는 글을 복구.
 상황 몇 개 게시판의 글 내용을 모두 하나의 게시판(id=111)으로 옮겨야 했다. 게시판은 글 제목과 글 번호가 있는 board게시판이 하나, 글내용과 글 번호, 내용 순서 번호가 들어있는 contents게시판이 하나 있는 상황이었다. 게시판이 이 상황이 된 이유는, 언제적인지 모르지만, 한 컬럼에 들어가는 용량제한이 있었던 모양이고, 그 용량제한을 회피하고자 이렇게 짠 모양인데&amp;hellip; 문제는 소스가 잘못되서 제한보다 훨씬 적은 용량으로 글을 잘랐&amp;hellip; 일단 그래서 간단히 PL/SQL을 짜 봤다.</description>
     </item>
@@ -5189,10 +5199,10 @@ VOICES (MACROSS PLUS OPENING THEME)
     
     <item>
       <title>Dream Dream - 키 더 메탈 아이돌 (最終 ED c/w)</title>
-      <link>https://ezaurum.com/2009/04/Dream-Dream-%ED%82%A4-%EB%8D%94-%EB%A9%94%ED%83%88-%EC%95%84%EC%9D%B4%EB%8F%8C-%E6%9C%80%E7%B5%82-ED-c-w/</link>
+      <link>https://ezaurum.com/2009/04/Dream-Dream-%ED%82%A4-%EB%8D%94-%EB%A9%94%ED%83%88-%EC%95%84%EC%9D%B4%EB%8F%8C-%E6%9C%80%E7%B5%82-ED-c/w/</link>
       <pubDate>Tue, 21 Apr 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2009/04/Dream-Dream-%ED%82%A4-%EB%8D%94-%EB%A9%94%ED%83%88-%EC%95%84%EC%9D%B4%EB%8F%8C-%E6%9C%80%E7%B5%82-ED-c-w/</guid>
+      <guid>https://ezaurum.com/2009/04/Dream-Dream-%ED%82%A4-%EB%8D%94-%EB%A9%94%ED%83%88-%EC%95%84%EC%9D%B4%EB%8F%8C-%E6%9C%80%E7%B5%82-ED-c/w/</guid>
       <description>[youtube https://www.youtube.com/watch?v=RYYKVpvnvXA&amp;amp;hl=ko&amp;amp;fs=1] ごめんね　友だちだけど 미안해 친구인데도 きょうは　わけはきかないで 오늘은 왜그런지 묻지 마 きょうは　ちょっと元氣ない 오늘은 조금 기운이 없네 ほんとはちょっとじゃないけど 사실은 조금이 아니지만
 ごめんね　なんのことだか 미안해 무슨 일인지 わからないと思うけど 이해안될거 같지만서도 なにをしても お手上げで 뭘 해도 잘 안 되어서 なにも できる ことがない 뭘 할 수 있는게 없어
 なにをしても ダメなら 寢るしかないよね 뭘 해도 안된다면 잘 수 밖에는 없잖아 まだこんな 時間だけど． 아직 이런 시간이지만 ん∼ 電話を 切ったら　カ－テンを 閉めて 응~ 전화를 끊으면 커튼을 닫고 パジャマに きがえて　Ｄｒｅａｍ　Ｄｒｅａｍ 파자마로 갈아입고　Dream Dream</description>
@@ -7072,10 +7082,10 @@ H는 그랬다.
     
     <item>
       <title></title>
-      <link>https://ezaurum.com/1/01/</link>
+      <link>https://ezaurum.com/todo/go-%EC%9E%91%EC%97%85%EA%B3%B5%EA%B0%84/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/1/01/</guid>
+      <guid>https://ezaurum.com/todo/go-%EC%9E%91%EC%97%85%EA%B3%B5%EA%B0%84/</guid>
       <description>Go 는 작업 공간을 GOPATH 라는 환경변수에 지정한다. 다른 언어에서는 각 프로젝트마다 독립적으로 쓰고 있지만, Go 에서는 한 군데에 모아서 쓴다 C:\workspace\go 또는 ~/workspace/go 를 작업공간으로 쓰기로 했다면, 내부에
 go |&amp;ndash; bin | 실행 파일이 존재한다. Go 언어에서 사용하는 util 등이 여기 저장되고, 추가로 설치도 가능하다. | |- pkg | 참조되는 외부 패키지들이 저장된다. | |- src 실제 소스가 들어가는 위치
 src 내부에는 github.com bitbucket.org 형태로 저장된다.</description>
@@ -7083,10 +7093,10 @@ src 내부에는 github.com bitbucket.org 형태로 저장된다.</description>
     
     <item>
       <title></title>
-      <link>https://ezaurum.com/1/01/</link>
+      <link>https://ezaurum.com/todo/hongkong/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/1/01/</guid>
+      <guid>https://ezaurum.com/todo/hongkong/</guid>
       <description>차는 낡았는데 홍콩 택시 꽤 크다 입국장 통과하는데 한시간 반 걸렸다 첨에 줄 서고 30분 기다려서 도착했는데 서류 하나 안 적어서 다시 30분 반복.
 크다 마천루 공기 마빠
 버섯 같음 가로등
@@ -7100,19 +7110,19 @@ src 내부에는 github.com bitbucket.org 형태로 저장된다.</description>
     
     <item>
       <title></title>
-      <link>https://ezaurum.com/1/01/</link>
+      <link>https://ezaurum.com/todo/jpa/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/1/01/</guid>
+      <guid>https://ezaurum.com/todo/jpa/</guid>
       <description>@ManyToMany(cascade = CascadeType.ALL) @JoinTable(name = &amp;ldquo;tx_book_ship_record_item&amp;rdquo;, inverseJoinColumns = @JoinColumn(name = &amp;ldquo;item_id&amp;rdquo;), joinColumns = @JoinColumn(name=&amp;ldquo;tx_book_ship_record_id&amp;rdquo;)) private Set items;</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://ezaurum.com/1/01/</link>
+      <link>https://ezaurum.com/todo/%EC%83%89%EA%B9%94/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/1/01/</guid>
+      <guid>https://ezaurum.com/todo/%EC%83%89%EA%B9%94/</guid>
       <description>기본 배경 - 밝은 빨강 E74C3C
 경고 - d9ff2b 노랑
 진빨강 ff2812
@@ -7121,26 +7131,16 @@ src 내부에는 github.com bitbucket.org 형태로 저장된다.</description>
     
     <item>
       <title></title>
-      <link>https://ezaurum.com/1/01/</link>
+      <link>https://ezaurum.com/todo/%ED%95%84%EC%9A%94%ED%95%9C%EB%AC%BC%ED%92%88/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/1/01/</guid>
+      <guid>https://ezaurum.com/todo/%ED%95%84%EC%9A%94%ED%95%9C%EB%AC%BC%ED%92%88/</guid>
       <description>그릇 최소 2개 - 전자렌지 가능, 국그릇, 밥그릇 냄비, 팬 - 중화냄비 하나면 될까? 전기 or 가스렌지
 과도, 식칼, 체, 포크, 수저, 도마 - 천밧 안쪽으로 살 수 있다
 장사도구 -5kg 가방까지
 세면도구 - 2Kg 옷 - 5Kg 캐리어 5Kg 큰 백팩 2Kg - 짧은 여행 등 작은 백팩 1kg - 일상용 허리색 1kg - 관광용
 큰 백팩 세면도구, 장사도구, 옷
 작은 백팩은 노트북 캐리어 이상의 의미가 없어. 접어다닐 수 있는 더 작은 게 있으면 좋겠네.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://ezaurum.com/1/01/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ezaurum.com/1/01/</guid>
-      <description>4.2 gin의 Use 가 어떻게 돌아가는 몰라서 한시간 소요 route가 먼저 처리되고 나면 Use의 펑션들이 안 들어가는 줄 몰랐다. 결국 사용법을 몰라서 문제 4시간 정도 작업
-4.3 기획 하는데 한시간 소요</description>
     </item>
     
   </channel>

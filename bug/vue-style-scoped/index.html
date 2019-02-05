@@ -46,7 +46,8 @@
 문제 원인 알고 보니 style 태그에 scoped가 지정되어 있어서 자동으로 한정자가 붙어버린다. 그러니 단순히 클래스만 지정해서는 해당 모듈에 반영되지 않았다.
 재발 방지를 위해  외부 모듈의 경우는 style태그를 따로 하나 더 만들어서 처리한다. CSS를 해당 외부 모듈을 감싸는 부모 태그를 포함해서 선언 한다.  " />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://ezaurum.com/bug/vue-style-scoped/" /><meta property="article:published_time" content="2018-08-31T22:31:05&#43;09:00"/>
+<meta property="og:url" content="https://ezaurum.com/bug/vue-style-scoped/" />
+<meta property="article:published_time" content="2018-08-31T22:31:05&#43;09:00"/>
 <meta property="article:modified_time" content="2018-08-31T22:31:05&#43;09:00"/><meta property="og:see_also" content="https://ezaurum.com/bug/ajax-response-is-invalid-but-valid/" /><meta property="og:see_also" content="https://ezaurum.com/bug/font-awesome-not-apply/" /><meta property="og:see_also" content="https://ezaurum.com/bug/not-modified-json-response/" /><meta property="og:see_also" content="https://ezaurum.com/bug/vue-conflict-js-literal/" /><meta property="og:see_also" content="https://ezaurum.com/bug/gorm-related-bug/" />
 
 
@@ -122,8 +123,6 @@
     
         
 
-        
-            
         
             
         
@@ -577,6 +576,10 @@
         
             
         <li><a href="https://ezaurum.com/bug/gorm-related-bug/">GORM에서 Many To Many 값을 제대로 가져오지 못하는 문제</a></li>
+            
+        
+            
+        
             
         
             
