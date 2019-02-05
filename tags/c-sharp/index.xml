@@ -7,10 +7,22 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Thu, 25 Dec 2014 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 05 Feb 2019 19:15:02 +0900</lastBuildDate>
     
 	<atom:link href="https://ezaurum.com/tags/c-sharp/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>유니코드 문자를 Console.WriteLine으로 출력시 에러</title>
+      <link>https://ezaurum.com/bug/console-writeline/</link>
+      <pubDate>Tue, 05 Feb 2019 19:15:02 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/bug/console-writeline/</guid>
+      <description>문제상황 - Console.WriteLine 으로 스트링 출력시 에러
+원인 - 기본 출력 인코딩이 ASCII라서 출력시 에러남.
+해결방안 - Console.OutputEncoding = System.Text.Encoding.UTF8; 참고
+재발 방지를 위해 - 미리 세팅해 두자</description>
+    </item>
     
     <item>
       <title>C# DB 라이브러리 비교</title>
