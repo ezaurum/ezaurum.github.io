@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Mon, 04 Feb 2019 21:13:18 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 05 Feb 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://ezaurum.com/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>게임 마케팅 용어</title>
+      <link>https://ezaurum.com/2019/02/%EA%B2%8C%EC%9E%84-%EB%A7%88%EC%BC%80%ED%8C%85-%EC%9A%A9%EC%96%B4/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2019/02/%EA%B2%8C%EC%9E%84-%EB%A7%88%EC%BC%80%ED%8C%85-%EC%9A%A9%EC%96%B4/</guid>
+      <description> 사용자  ARPDAU average revenue per daily active user 일간 활성 사용자 평균 수입, 일간 수입 / 일간 활성 사용자, 서버비 계산할 때 쓰면 되려나 ARPU average revenue per user 사용자당 평균 수입, 총수입/총 유저수, 광고비 집행할 때 고려 ARPPU average revenue Per Paying User 과금 사용자당 평균 수입, 광고비 집행할 때 고려, 낮은 가격의 한 번만 살 수 있는 상품 판촉할 때 고려 DAU Daily Average Users 일반 평균 사용자, 하루 얼마나 오는지 MAU Monthly Average Users 월간 평균 사용자, 한 달에 얼마나 오는지 LTV Lifetime Value 사용자가 수입을 얼마나 가져오나 하는 것 F2P Free 2 Play 게임 하는 건 공짜, 부분유료화 모델  광고  CAC Customer Acquisition Cost, 사용자를 획득하는 데 드는 비용, 광고비 및 기타등등, 이게 ARPU 보다 낮으면 무조건 이득 CPC Cost per click, 클릭당 비용, 광고를 클릭했을 때 내는 광고 비용 CPD Cost per Download, 다운로드당 비용, 사용자가 다운로드 했을 때 광고 비용, 게임 다운만 받아도 200원씩 주는 그런 거 CPI Cost Per Install, 설치당 지불하는 광고 비용, 실제 설치했다는 증명이 된다 IAA In App Advertisement, 앱 내 광고 IAP In-App Purchase, 앱 내 구매  </description>
+    </item>
     
     <item>
       <title>Vue 프로젝트에서 import에서 @가 인식되지 않는 경우</title>
@@ -123,15 +132,6 @@ git clone https://github.com/golang/go
 치앙마이 대학 정문(나머)에서 썽태우들이 대기하고 있다가 태워간다. 도이수텝까지 인당 편도 40밧. 4명쯤 되면 사실 Grab 같은 걸 이용하는 것도 나쁘지 않을 듯 하다. 우린 도이뿌이까지 가는 장거리 코스라 안 했지만.
 우리 일행(4명)은 천 밧에 도이뿌이-도이수텝 코스로 갔다. 도이뿌이를 먼저 가는 게 안된다고 해서 열심히 설득했다.
 야경이 유명하니 일몰 시간을 맞춰서 해질 때쯤 도착하게 가면 좋을 것 같다.</description>
-    </item>
-    
-    <item>
-      <title>게임 마케팅 용어</title>
-      <link>https://ezaurum.com/2018/02/%EA%B2%8C%EC%9E%84-%EB%A7%88%EC%BC%80%ED%8C%85-%EC%9A%A9%EC%96%B4/</link>
-      <pubDate>Mon, 05 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://ezaurum.com/2018/02/%EA%B2%8C%EC%9E%84-%EB%A7%88%EC%BC%80%ED%8C%85-%EC%9A%A9%EC%96%B4/</guid>
-      <description> 사용자  ARPDAU average revenue per daily active user 일간 활성 사용자 평균 수입, 일간 수입 / 일간 활성 사용자, 서버비 계산할 때 쓰면 되려나 ARPU average revenue per user 사용자당 평균 수입, 총수입/총 유저수, 광고비 집행할 때 고려 ARPPU average revenue Per Paying User 과금 사용자당 평균 수입, 광고비 집행할 때 고려, 낮은 가격의 한 번만 살 수 있는 상품 판촉할 때 고려 DAU Daily Average Users 일반 평균 사용자, 하루 얼마나 오는지 MAU Monthly Average Users 월간 평균 사용자, 한 달에 얼마나 오는지 LTV Lifetime Value 사용자가 수입을 얼마나 가져오나 하는 것 F2P Free 2 Play 게임 하는 건 공짜, 부분유료화 모델  광고  CAC Customer Acquisition Cost, 사용자를 획득하는 데 드는 비용, 광고비 및 기타등등, 이게 ARPU 보다 낮으면 무조건 이득 CPC Cost per click, 클릭당 비용, 광고를 클릭했을 때 내는 광고 비용 CPD Cost per Download, 다운로드당 비용, 사용자가 다운로드 했을 때 광고 비용, 게임 다운만 받아도 200원씩 주는 그런 거 CPI Cost Per Install, 설치당 지불하는 광고 비용, 실제 설치했다는 증명이 된다 IAA In App Advertisement, 앱 내 광고 IAP In-App Purchase, 앱 내 구매  </description>
     </item>
     
     <item>
