@@ -93,6 +93,11 @@
   </url>
   
   <url>
+    <loc>https://ezaurum.com/2018/02/%EA%B2%8C%EC%9E%84-%EB%A7%88%EC%BC%80%ED%8C%85-%EC%9A%A9%EC%96%B4/</loc>
+    <lastmod>2018-02-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ezaurum.com/2018/02/Chiangmai-Life-11-%EB%B9%A0%EC%9D%B4/</loc>
     <lastmod>2018-02-01T19:30:52+07:00</lastmod>
   </url>
@@ -6271,7 +6276,13 @@
   
   <url>
     <loc>https://ezaurum.com/tags/%EA%B3%B5%EB%B6%80/</loc>
-    <lastmod>2015-02-16T00:00:00+00:00</lastmod>
+    <lastmod>2018-02-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/categories/%EA%B3%B5%EB%B6%80/</loc>
+    <lastmod>2018-02-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -6997,7 +7008,7 @@
   
   <url>
     <loc>https://ezaurum.com/tags/%EB%A7%88%EC%BC%80%ED%8C%85/</loc>
-    <lastmod>2009-09-06T00:00:00+00:00</lastmod>
+    <lastmod>2018-02-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -8532,6 +8543,12 @@
   </url>
   
   <url>
+    <loc>https://ezaurum.com/tags/%EC%9A%A9%EC%96%B4/</loc>
+    <lastmod>2018-02-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://ezaurum.com/tags/%EC%9A%B0%EB%B6%84%ED%88%AC/</loc>
     <lastmod>2008-11-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -9834,6 +9851,12 @@
   </url>
   
   <url>
+    <loc>https://ezaurum.com/series/%ED%9A%8C%EA%B3%A0/</loc>
+    <lastmod>2019-01-10T21:37:28+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://ezaurum.com/tags/%ED%9A%8C%EA%B3%A0/</loc>
     <lastmod>2019-01-10T21:37:28+09:00</lastmod>
     <priority>0</priority>
@@ -9841,12 +9864,6 @@
   
   <url>
     <loc>https://ezaurum.com/categories/%ED%9A%8C%EA%B3%A0/</loc>
-    <lastmod>2019-01-10T21:37:28+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ezaurum.com/series/%ED%9A%8C%EA%B3%A0/</loc>
     <lastmod>2019-01-10T21:37:28+09:00</lastmod>
     <priority>0</priority>
   </url>
