@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Tue, 05 Feb 2019 19:15:02 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 21 Feb 2019 18:20:40 +0900</lastBuildDate>
     
 	<atom:link href="https://ezaurum.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>엑셀에서 컬럼을 로우로, 로우를 컬럼으로 변환</title>
+      <link>https://ezaurum.com/2019/02/%EC%97%91%EC%85%80%EC%97%90%EC%84%9C-%EC%BB%AC%EB%9F%BC%EC%9D%84-%EB%A1%9C%EC%9A%B0%EB%A1%9C-%EB%A1%9C%EC%9A%B0%EB%A5%BC-%EC%BB%AC%EB%9F%BC%EC%9C%BC%EB%A1%9C-%EB%B3%80%ED%99%98/</link>
+      <pubDate>Thu, 21 Feb 2019 18:20:40 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/2019/02/%EC%97%91%EC%85%80%EC%97%90%EC%84%9C-%EC%BB%AC%EB%9F%BC%EC%9D%84-%EB%A1%9C%EC%9A%B0%EB%A1%9C-%EB%A1%9C%EC%9A%B0%EB%A5%BC-%EC%BB%AC%EB%9F%BC%EC%9C%BC%EB%A1%9C-%EB%B3%80%ED%99%98/</guid>
+      <description>TRANSPOSE(범위) 피봇 테이블 할 것도 없이 이거면 끝</description>
+    </item>
     
     <item>
       <title>유니코드 문자를 Console.WriteLine으로 출력시 에러</title>
