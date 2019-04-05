@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Tue, 05 Feb 2019 19:15:02 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 05 Apr 2019 18:51:59 +0900</lastBuildDate>
     
 	<atom:link href="https://ezaurum.com/tags/%EC%A0%95%EB%A6%AC/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>그래들 래퍼 버전을 잘못 입력 했을 때</title>
+      <link>https://ezaurum.com/bug/gradle-wrapper-version-mismatch/</link>
+      <pubDate>Fri, 05 Apr 2019 18:51:59 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/bug/gradle-wrapper-version-mismatch/</guid>
+      <description>문제상황 -그래들 버전 업데이트 후 그래들 태스크를 실행할 때 Exception in thread &amp;ldquo;main&amp;rdquo; java.io.FileNotFoundException 원인 - 그래들 래퍼 버전을 입력할 때 한 번 잘못 입력하면 계속 오류난다 해결방안 -그래들 버전을 잘못 입력 했으면 걍 gradle-wrapper.properites 에서 바로 수정 재발 방지를 위해 - 오류를 잘 보자</description>
+    </item>
     
     <item>
       <title>유니코드 문자를 Console.WriteLine으로 출력시 에러</title>
