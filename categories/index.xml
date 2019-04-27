@@ -7,25 +7,26 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
+    <lastBuildDate>Sat, 27 Apr 2019 11:38:00 +0900</lastBuildDate>
     
 	<atom:link href="https://ezaurum.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Toy</title>
-      <link>https://ezaurum.com/categories/toy/</link>
-      <pubDate>Wed, 27 Jun 2018 14:46:48 +0900</pubDate>
+      <title>일상</title>
+      <link>https://ezaurum.com/categories/%EC%9D%BC%EC%83%81/</link>
+      <pubDate>Sat, 27 Apr 2019 11:38:00 +0900</pubDate>
       
-      <guid>https://ezaurum.com/categories/toy/</guid>
+      <guid>https://ezaurum.com/categories/%EC%9D%BC%EC%83%81/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>강의</title>
-      <link>https://ezaurum.com/categories/%EA%B0%95%EC%9D%98/</link>
-      <pubDate>Sat, 16 Dec 2017 18:01:25 +0700</pubDate>
+      <title>회고</title>
+      <link>https://ezaurum.com/categories/%ED%9A%8C%EA%B3%A0/</link>
+      <pubDate>Sat, 27 Apr 2019 11:38:00 +0900</pubDate>
       
-      <guid>https://ezaurum.com/categories/%EA%B0%95%EC%9D%98/</guid>
+      <guid>https://ezaurum.com/categories/%ED%9A%8C%EA%B3%A0/</guid>
       <description></description>
     </item>
     
@@ -39,38 +40,29 @@
     </item>
     
     <item>
-      <title>생활기</title>
-      <link>https://ezaurum.com/categories/%EC%83%9D%ED%99%9C%EA%B8%B0/</link>
-      <pubDate>Thu, 08 Feb 2018 15:01:52 +0700</pubDate>
-      
-      <guid>https://ezaurum.com/categories/%EC%83%9D%ED%99%9C%EA%B8%B0/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>여행기</title>
-      <link>https://ezaurum.com/categories/%EC%97%AC%ED%96%89%EA%B8%B0/</link>
-      <pubDate>Sun, 12 Jul 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://ezaurum.com/categories/%EC%97%AC%ED%96%89%EA%B8%B0/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>일상</title>
-      <link>https://ezaurum.com/categories/%EC%9D%BC%EC%83%81/</link>
-      <pubDate>Thu, 10 Jan 2019 22:14:27 +0900</pubDate>
-      
-      <guid>https://ezaurum.com/categories/%EC%9D%BC%EC%83%81/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>정리</title>
       <link>https://ezaurum.com/categories/%EC%A0%95%EB%A6%AC/</link>
       <pubDate>Wed, 15 Aug 2018 23:15:09 +0900</pubDate>
       
       <guid>https://ezaurum.com/categories/%EC%A0%95%EB%A6%AC/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Toy</title>
+      <link>https://ezaurum.com/categories/Toy/</link>
+      <pubDate>Wed, 27 Jun 2018 14:46:48 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/categories/Toy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>생활기</title>
+      <link>https://ezaurum.com/categories/%EC%83%9D%ED%99%9C%EA%B8%B0/</link>
+      <pubDate>Thu, 08 Feb 2018 15:01:52 +0700</pubDate>
+      
+      <guid>https://ezaurum.com/categories/%EC%83%9D%ED%99%9C%EA%B8%B0/</guid>
       <description></description>
     </item>
     
@@ -84,11 +76,20 @@
     </item>
     
     <item>
-      <title>회고</title>
-      <link>https://ezaurum.com/categories/%ED%9A%8C%EA%B3%A0/</link>
-      <pubDate>Fri, 05 Apr 2019 18:51:59 +0900</pubDate>
+      <title>강의</title>
+      <link>https://ezaurum.com/categories/%EA%B0%95%EC%9D%98/</link>
+      <pubDate>Sat, 16 Dec 2017 18:01:25 +0700</pubDate>
       
-      <guid>https://ezaurum.com/categories/%ED%9A%8C%EA%B3%A0/</guid>
+      <guid>https://ezaurum.com/categories/%EA%B0%95%EC%9D%98/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>여행기</title>
+      <link>https://ezaurum.com/categories/%EC%97%AC%ED%96%89%EA%B8%B0/</link>
+      <pubDate>Sun, 12 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/categories/%EC%97%AC%ED%96%89%EA%B8%B0/</guid>
       <description></description>
     </item>
     

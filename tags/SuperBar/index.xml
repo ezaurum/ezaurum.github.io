@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SuperBar on Ezaurum&#39;s Blog</title>
+    <link>https://ezaurum.com/tags/SuperBar/</link>
+    <description>Recent content in SuperBar on Ezaurum&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <copyright>© Ezaurum 2001-</copyright>
+    <lastBuildDate>Sun, 11 Jan 2009 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ezaurum.com/tags/SuperBar/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Window7 64bit BETA</title>
+      <link>https://ezaurum.com/2009/01/Window7-64bit-BETA/</link>
+      <pubDate>Sun, 11 Jan 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2009/01/Window7-64bit-BETA/</guid>
+      <description>설치한 감상으로는&amp;hellip; 역시 슈퍼바! 비스타보다 좀 빠른 것 같기도 하고 아닌 것 같기도 하고&amp;hellip; 여튼 별 문제 없다. 아직은. 문제 발생 농협 인터넷 뱅킹에서 로그인은 되었는데, 이체시 보안 카드의 비번을 입력하면 전혀 엉뚱한 수가 입력된다. nProtect와 충돌이 있는 모양. 쳇.</description>
+    </item>
+    
+  </channel>
+</rss>

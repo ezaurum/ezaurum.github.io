@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>iBatis on Ezaurum&#39;s Blog</title>
+    <link>https://ezaurum.com/tags/iBatis/</link>
+    <description>Recent content in iBatis on Ezaurum&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <copyright>© Ezaurum 2001-</copyright>
+    <lastBuildDate>Mon, 26 Mar 2012 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ezaurum.com/tags/iBatis/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>iBatis TypeHandler</title>
+      <link>https://ezaurum.com/2012/03/iBatis-TypeHandler/</link>
+      <pubDate>Mon, 26 Mar 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2012/03/iBatis-TypeHandler/</guid>
+      <description>TypeHandler는 iBatis에서 특정 타입을 매핑할 때 원하는 행동을 지정해주는 클래스다. 이걸 이용하면 DB에는 Y/N으로 저장된 걸 boolean으로 처리한다든가 하는 게 가능해진다.  public class StudyTypeHandler extends EnumTypeHandler { public StudyTypeHandler() { super(EnumStudy.class); }
+//얘가 결과를 받아서 빈에 매핑하는 애다. @Override public Object getResult(ResultGetter getter) throws SQLException { int result = getter.getInt(); if(getter.wasNull()) { return null; } return EnumStudy.valueOf(result); } //얘는 빈에서 받아다가 DB에 매핑하는 애다. @Override public void setParameter(ParameterSetter setter, Object parameter) throws SQLException { if(parameter == null) { setter.</description>
+    </item>
+    
+    <item>
+      <title>성과물 2010년 6월 말</title>
+      <link>https://ezaurum.com/2010/06/%EC%84%B1%EA%B3%BC%EB%AC%BC-2010%EB%85%84-6%EC%9B%94-%EB%A7%90/</link>
+      <pubDate>Wed, 30 Jun 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2010/06/%EC%84%B1%EA%B3%BC%EB%AC%BC-2010%EB%85%84-6%EC%9B%94-%EB%A7%90/</guid>
+      <description>이미 있는 홈페이지에서 팝업으로 폼을 입력받아 그 결과 처리
+실 소요시간 16시간 정도.
+간단한 작업 이지만, 프레임워크에 대한 이해가 없어서 꽤 오래 걸렸다.
+소득 - iBatis, Struts에 대한 이해가 조금 늘었다.
+역시 프로젝트를 하면서 이해하는 쪽이 빠르다. - 또한 가르쳐줄 사람이 있는 쪽이 훨씬 빠르다.
+ZPD에 대한 생각을 하게 되었다.
+그것과 관련해서 인강이 쓸모없지는 않구나 하는 생각을 하였다. - 그래서 PMP에 대한 구매욕구가 생겼다.</description>
+    </item>
+    
+  </channel>
+</rss>

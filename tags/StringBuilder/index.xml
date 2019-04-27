@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>StringBuilder on Ezaurum&#39;s Blog</title>
+    <link>https://ezaurum.com/tags/StringBuilder/</link>
+    <description>Recent content in StringBuilder on Ezaurum&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <copyright>© Ezaurum 2001-</copyright>
+    <lastBuildDate>Sat, 10 Dec 2011 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ezaurum.com/tags/StringBuilder/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>String, StringBuilder, StringBuffer 중 뭘 써야 할까?</title>
+      <link>https://ezaurum.com/2011/12/String-StringBuilder-StringBuffer-%EC%A4%91-%EB%AD%98-%EC%8D%A8%EC%95%BC-%ED%95%A0%EA%B9%8C/</link>
+      <pubDate>Sat, 10 Dec 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2011/12/String-StringBuilder-StringBuffer-%EC%A4%91-%EB%AD%98-%EC%8D%A8%EC%95%BC-%ED%95%A0%EA%B9%8C/</guid>
+      <description>출처 -http://www.a2ztechguide.com/2011/12/difference-between-string-stringbuffer.html
+ 값이 변하지 않으면 불변객체 String String은 immutable 이다. 한 번 만들어두고 걍 읽어만 올 거면 대부분의 경우 String을 쓰면 되는 모양. 자주 변하는 경우, 그때마다 새로 만들어줘야 하므로 비추천. equals가 오버라이드 되어 있다.  싱글 스레드라면 StringBuilder mutable함. 데이터가 막 바뀌는 경우 사용. 나온지 얼마 안 된 신삥. StringBuffer랑 synchronization 빼고 동일. 출처 포스트에는 StringBuffer보다 빠르다고 한다. equals오버라이드 안 되어 있음. 멀티스레드라면 StringBuffer equals오버라이드 안 되어 있음. StringBuilder랑 synchronization 빼고는 동일  </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sun on Ezaurum&#39;s Blog</title>
+    <link>https://ezaurum.com/tags/Sun/</link>
+    <description>Recent content in Sun on Ezaurum&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <copyright>© Ezaurum 2001-</copyright>
+    <lastBuildDate>Fri, 28 Nov 2008 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ezaurum.com/tags/Sun/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>-lsocket 옵션에서 에러가 날 때</title>
+      <link>https://ezaurum.com/2008/11/lsocket-%EC%98%B5%EC%85%98%EC%97%90%EC%84%9C-%EC%97%90%EB%9F%AC%EA%B0%80-%EB%82%A0-%EB%95%8C/</link>
+      <pubDate>Fri, 28 Nov 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2008/11/lsocket-%EC%98%B5%EC%85%98%EC%97%90%EC%84%9C-%EC%97%90%EB%9F%AC%EA%B0%80-%EB%82%A0-%EB%95%8C/</guid>
+      <description>소켓 프로그래밍을 하는데 프린트물에 있는 대로 -lsocket 옵션을 주니 계속 cc 가 에러를 뱉었다.
+http://kldp.org/node/1377
+결론은 Sun 계열 유닉스에서 작업하는 게 아니면, -lnsl -lsocket 옵션을 주지 말고 컴파일하라는 것.
+한참 헤매다가 답 발견. 학교 서버가 sun 계열이라 그런 듯.</description>
+    </item>
+    
+  </channel>
+</rss>

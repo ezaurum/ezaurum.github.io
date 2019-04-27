@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JSON on Ezaurum&#39;s Blog</title>
+    <link>https://ezaurum.com/tags/JSON/</link>
+    <description>Recent content in JSON on Ezaurum&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <copyright>© Ezaurum 2001-</copyright>
+    <lastBuildDate>Thu, 25 Jul 2013 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ezaurum.com/tags/JSON/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Jackson이 null 인 프로퍼티를 빼고 Serialize하게 하기</title>
+      <link>https://ezaurum.com/2013/07/Jackson%EC%9D%B4-null-%EC%9D%B8-%ED%94%84%EB%A1%9C%ED%8D%BC%ED%8B%B0%EB%A5%BC-%EB%B9%BC%EA%B3%A0-Serialize%ED%95%98%EA%B2%8C-%ED%95%98%EA%B8%B0/</link>
+      <pubDate>Thu, 25 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2013/07/Jackson%EC%9D%B4-null-%EC%9D%B8-%ED%94%84%EB%A1%9C%ED%8D%BC%ED%8B%B0%EB%A5%BC-%EB%B9%BC%EA%B3%A0-Serialize%ED%95%98%EA%B2%8C-%ED%95%98%EA%B8%B0/</guid>
+      <description>클래스 선언부에 다음을 추가  @JsonSerialize(include = JsonSerialize.Inclusion.NON_NULL) public class Blabla { &amp;hellip; }  상속도 된다.</description>
+    </item>
+    
+    <item>
+      <title>Spring mvc에서 로직에 이상이 없는데 406에러가 날 때</title>
+      <link>https://ezaurum.com/2013/07/Spring-mvc%EC%97%90%EC%84%9C-%EB%A1%9C%EC%A7%81%EC%97%90-%EC%9D%B4%EC%83%81%EC%9D%B4-%EC%97%86%EB%8A%94%EB%8D%B0-406%EC%97%90%EB%9F%AC%EA%B0%80-%EB%82%A0-%EB%95%8C/</link>
+      <pubDate>Mon, 22 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2013/07/Spring-mvc%EC%97%90%EC%84%9C-%EB%A1%9C%EC%A7%81%EC%97%90-%EC%9D%B4%EC%83%81%EC%9D%B4-%EC%97%86%EB%8A%94%EB%8D%B0-406%EC%97%90%EB%9F%AC%EA%B0%80-%EB%82%A0-%EB%95%8C/</guid>
+      <description>JSON변환 중, 필드의 jsonProperty가 서로 겹치면 406이 뜬다.</description>
+    </item>
+    
+    <item>
+      <title>controller에서 특정 메소드가 List을 반환할 때</title>
+      <link>https://ezaurum.com/2013/06/controller%EC%97%90%EC%84%9C-%ED%8A%B9%EC%A0%95-%EB%A9%94%EC%86%8C%EB%93%9C%EA%B0%80-List%EC%9D%84-%EB%B0%98%ED%99%98%ED%95%A0-%EB%95%8C/</link>
+      <pubDate>Tue, 25 Jun 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2013/06/controller%EC%97%90%EC%84%9C-%ED%8A%B9%EC%A0%95-%EB%A9%94%EC%86%8C%EB%93%9C%EA%B0%80-List%EC%9D%84-%EB%B0%98%ED%99%98%ED%95%A0-%EB%95%8C/</guid>
+      <description>@ResponseBody를 안 붙여 주면 [&amp;ldquo;bla&amp;rdquo;,&amp;ldquo;bla&amp;rdquo;]꼴이 아니라 {&amp;ldquo;stringList&amp;rdquo;:[&amp;ldquo;bloa&amp;rdquo;,&amp;ldquo;bloa&amp;rdquo;] 꼴로 반환된다.</description>
+    </item>
+    
+    <item>
+      <title>json 요청 보내기</title>
+      <link>https://ezaurum.com/2013/05/json-%EC%9A%94%EC%B2%AD-%EB%B3%B4%EB%82%B4%EA%B8%B0/</link>
+      <pubDate>Thu, 16 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2013/05/json-%EC%9A%94%EC%B2%AD-%EB%B3%B4%EB%82%B4%EA%B8%B0/</guid>
+      <description>curl -v -H &amp;ldquo;Accept: application/json&amp;rdquo; -H &amp;ldquo;Content-type: application/json&amp;rdquo; -X POST -d &amp;lsquo;{&amp;ldquo;email&amp;rdquo;:&amp;ldquo;abesteail@mailcom&amp;rdquo;,&amp;ldquo;password&amp;rdquo;:&amp;ldquo;234234&amp;rdquo;}&amp;rsquo; http://localhost:8080/json</description>
+    </item>
+    
+    <item>
+      <title>부정기 정리</title>
+      <link>https://ezaurum.com/2013/01/%EB%B6%80%EC%A0%95%EA%B8%B0-%EC%A0%95%EB%A6%AC/</link>
+      <pubDate>Sun, 27 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2013/01/%EB%B6%80%EC%A0%95%EA%B8%B0-%EC%A0%95%EB%A6%AC/</guid>
+      <description>모든 것에 의미있는 히스토리가 있어야 한다. log, history 들은 AOP로 구현해야 한다. 필연적으로 데이터가 많아지므로 async&amp;amp;big data를 고려. 사용하는 객체는 UUID 류의 인덱스가 붙어 있는 게 편하다. 그러잖으면 검색이 계속 일어나야 함. hash든 뭐든 즉시 찾을 수 있게 하자. JSON-object 변환시, 상황에 따라 내부 object를 다 변환할지 id만 뽑아올지를 생각해보자. AWS S3에서 파일이 없어도 403이 뜬다. 보안상 당연한가... switch 문에 케이스가 줄줄 붙어 있으면 제거해 보자. 요구 사항 명세, 문서와 테스트 케이스가 같으면 좋다.</description>
+    </item>
+    
+    <item>
+      <title>Designing a Beautiful REST&#43;JSON API</title>
+      <link>https://ezaurum.com/2012/08/Designing-a-Beautiful-REST-JSON-API/</link>
+      <pubDate>Sat, 04 Aug 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2012/08/Designing-a-Beautiful-REST-JSON-API/</guid>
+      <description>원문 링크 설명이 잘 되어 있는 영상. 개인적으로 포인트를 좀 잡아본다. 에러 HTTP 에러 코드를 넣고, 다른 설명이 필요. 가능한 많이. ID는 순차를 피하고 숨길 것. UUID 같은 걸 쓰라. 캐시 - ETag 가능하면 세션 사용을 피할 것. 기본적으로 객체가 콜렉션이나 하위 객체를 포함하면, 그걸 다 뿌려주지 말고, 하위객체나 콜렉션에 대한 링크를 제공 파라마터를 이용해서 객체를 다 뿌릴지 말지를 결정. GET /object?expand=true 파라마터를 이용해서 필터링과 페이지구분. offset, limit사용. 페이지 제공하는 경우 next, prev 링크 제공 다대다 관계의 경우, 조인된 한 행을 하나의 객체로 보고 필요에 따라 필터링 MEDIA TYPE 포맷+파싱룰 request - Accept header respons - content-type header media type에 변수 넣기 application/foo+json;bar=baz ISO 8601 UTC를 쓰라 POST vs PUT POST는 멱등아님 - 전체 대체 PUT은 멱등 - 업데이트 or 전체 대체 app/collection/instance POST로 전체 대체를 하는 경우, 부모 자원에다가 요청을 보내면 된다.</description>
+    </item>
+    
+  </channel>
+</rss>

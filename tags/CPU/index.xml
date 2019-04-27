@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CPU on Ezaurum&#39;s Blog</title>
+    <link>https://ezaurum.com/tags/CPU/</link>
+    <description>Recent content in CPU on Ezaurum&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <copyright>© Ezaurum 2001-</copyright>
+    <lastBuildDate>Sun, 25 May 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ezaurum.com/tags/CPU/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>프로그래머가 몰랐던 멀티코어 CPU 이야기</title>
+      <link>https://ezaurum.com/2014/05/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EA%B0%80-%EB%AA%B0%EB%9E%90%EB%8D%98-%EB%A9%80%ED%8B%B0%EC%BD%94%EC%96%B4-CPU-%EC%9D%B4%EC%95%BC%EA%B8%B0/</link>
+      <pubDate>Sun, 25 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2014/05/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EA%B0%80-%EB%AA%B0%EB%9E%90%EB%8D%98-%EB%A9%80%ED%8B%B0%EC%BD%94%EC%96%B4-CPU-%EC%9D%B4%EC%95%BC%EA%B8%B0/</guid>
+      <description>가벼운 교양은 아니다 일단. 내 전공이 저 쪽이 아니라 더 그럴지도 모르겠지만.
+학부 전공서적을 좀 읽기 쉽게 만들고 최신 경향을 집어넣었다는 느낌이 드는 책.
+가볍게 한 번 읽고, 필요할 때 생각나면 찾아서 읽어보면 좋을 거 같다.</description>
+    </item>
+    
+  </channel>
+</rss>

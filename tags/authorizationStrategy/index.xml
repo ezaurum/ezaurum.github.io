@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>authorizationStrategy on Ezaurum&#39;s Blog</title>
+    <link>https://ezaurum.com/tags/authorizationStrategy/</link>
+    <description>Recent content in authorizationStrategy on Ezaurum&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <copyright>© Ezaurum 2001-</copyright>
+    <lastBuildDate>Mon, 20 May 2013 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ezaurum.com/tags/authorizationStrategy/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>jenkins 보안 설정 초기화</title>
+      <link>https://ezaurum.com/2013/05/jenkins-%EB%B3%B4%EC%95%88-%EC%84%A4%EC%A0%95-%EC%B4%88%EA%B8%B0%ED%99%94/</link>
+      <pubDate>Mon, 20 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2013/05/jenkins-%EB%B3%B4%EC%95%88-%EC%84%A4%EC%A0%95-%EC%B4%88%EA%B8%B0%ED%99%94/</guid>
+      <description>출처 내 경우는 보안 설정을 하고 유닉스 유저 정보를 가져와서 로그인 하게 했는데, 로그인 암호가 자꾸 틀렸다고 나와서, /var/lib/jenkins/config.xml에서 useSecurity 태그와 authorizationStrategy 태그를 지우고 재시작 하니까 초기화 되었음</description>
+    </item>
+    
+  </channel>
+</rss>

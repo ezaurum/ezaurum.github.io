@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Spring on Ezaurum&#39;s Blog</title>
+    <link>https://ezaurum.com/tags/Spring/</link>
+    <description>Recent content in Spring on Ezaurum&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <copyright>© Ezaurum 2001-</copyright>
+    <lastBuildDate>Sun, 11 Oct 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ezaurum.com/tags/Spring/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Spring boot 감상</title>
+      <link>https://ezaurum.com/2015/10/Spring-boot-%EA%B0%90%EC%83%81/</link>
+      <pubDate>Sun, 11 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2015/10/Spring-boot-%EA%B0%90%EC%83%81/</guid>
+      <description>스프링을 쓸 일이 오랜만에 생겨서 기왕 하는 거 신기술! 이라는 평소의 마음가짐으로 스프링 부트를 골라봤다.
+참고 문서는 아주아주 널려 있어서 간단하게 해결할 수 있었다.
+http://theeye.pe.kr/archives/2014 http://mudchobo.tistory.com/549 http://woniperstory.tistory.com/230 http://bcho.tistory.com/979
+참고 문서를 읽는 것보다 간편하게 처리할 수 있었다. 3.0 때의 xml 삽질을 생각하면 아&amp;hellip;.</description>
+    </item>
+    
+    <item>
+      <title>Jackson이 null 인 프로퍼티를 빼고 Serialize하게 하기</title>
+      <link>https://ezaurum.com/2013/07/Jackson%EC%9D%B4-null-%EC%9D%B8-%ED%94%84%EB%A1%9C%ED%8D%BC%ED%8B%B0%EB%A5%BC-%EB%B9%BC%EA%B3%A0-Serialize%ED%95%98%EA%B2%8C-%ED%95%98%EA%B8%B0/</link>
+      <pubDate>Thu, 25 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2013/07/Jackson%EC%9D%B4-null-%EC%9D%B8-%ED%94%84%EB%A1%9C%ED%8D%BC%ED%8B%B0%EB%A5%BC-%EB%B9%BC%EA%B3%A0-Serialize%ED%95%98%EA%B2%8C-%ED%95%98%EA%B8%B0/</guid>
+      <description>클래스 선언부에 다음을 추가  @JsonSerialize(include = JsonSerialize.Inclusion.NON_NULL) public class Blabla { &amp;hellip; }  상속도 된다.</description>
+    </item>
+    
+    <item>
+      <title>Spring mvc에서 로직에 이상이 없는데 406에러가 날 때</title>
+      <link>https://ezaurum.com/2013/07/Spring-mvc%EC%97%90%EC%84%9C-%EB%A1%9C%EC%A7%81%EC%97%90-%EC%9D%B4%EC%83%81%EC%9D%B4-%EC%97%86%EB%8A%94%EB%8D%B0-406%EC%97%90%EB%9F%AC%EA%B0%80-%EB%82%A0-%EB%95%8C/</link>
+      <pubDate>Mon, 22 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2013/07/Spring-mvc%EC%97%90%EC%84%9C-%EB%A1%9C%EC%A7%81%EC%97%90-%EC%9D%B4%EC%83%81%EC%9D%B4-%EC%97%86%EB%8A%94%EB%8D%B0-406%EC%97%90%EB%9F%AC%EA%B0%80-%EB%82%A0-%EB%95%8C/</guid>
+      <description>JSON변환 중, 필드의 jsonProperty가 서로 겹치면 406이 뜬다.</description>
+    </item>
+    
+    <item>
+      <title>controller에서 특정 메소드가 List을 반환할 때</title>
+      <link>https://ezaurum.com/2013/06/controller%EC%97%90%EC%84%9C-%ED%8A%B9%EC%A0%95-%EB%A9%94%EC%86%8C%EB%93%9C%EA%B0%80-List%EC%9D%84-%EB%B0%98%ED%99%98%ED%95%A0-%EB%95%8C/</link>
+      <pubDate>Tue, 25 Jun 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2013/06/controller%EC%97%90%EC%84%9C-%ED%8A%B9%EC%A0%95-%EB%A9%94%EC%86%8C%EB%93%9C%EA%B0%80-List%EC%9D%84-%EB%B0%98%ED%99%98%ED%95%A0-%EB%95%8C/</guid>
+      <description>@ResponseBody를 안 붙여 주면 [&amp;ldquo;bla&amp;rdquo;,&amp;ldquo;bla&amp;rdquo;]꼴이 아니라 {&amp;ldquo;stringList&amp;rdquo;:[&amp;ldquo;bloa&amp;rdquo;,&amp;ldquo;bloa&amp;rdquo;] 꼴로 반환된다.</description>
+    </item>
+    
+    <item>
+      <title>java code base spring security setting with gradle</title>
+      <link>https://ezaurum.com/2013/05/java-code-base-spring-security-setting-with-gradle/</link>
+      <pubDate>Tue, 28 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2013/05/java-code-base-spring-security-setting-with-gradle/</guid>
+      <description>java code base spring security setting github 리파지토리 build.gradle에 다음을 추가  repositories { mavenCentral() maven { url &amp;ldquo;http://repo.springsource.org/snapshot&amp;quot; } }
+dependencies { def springSecurityVersion = &amp;ldquo;3.1.4.RELEASE&amp;rdquo; compile &amp;ldquo;org.springframework.security:spring-security-core:$springSecurityVersion&amp;rdquo; compile &amp;ldquo;org.springframework.security:spring-security-web:$springSecurityVersion&amp;rdquo; compile &amp;ldquo;org.springframework.security:spring-security-config:$springSecurityVersion&amp;rdquo; compile &amp;ldquo;org.springframework.security:spring-security-javaconfig:1.0.0.CI-SNAPSHOT&amp;rdquo; }</description>
+    </item>
+    
+    <item>
+      <title>gradle에서 jetty 9 쓰기</title>
+      <link>https://ezaurum.com/2013/05/gradle%EC%97%90%EC%84%9C-jetty-9-%EC%93%B0%EA%B8%B0/</link>
+      <pubDate>Thu, 23 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2013/05/gradle%EC%97%90%EC%84%9C-jetty-9-%EC%93%B0%EA%B8%B0/</guid>
+      <description>gradle에 plugin으로 사용되는 jetty는 jetty 9이 아니다. 그러므로 WebApplicationInitializer를 써서 만든 앱은 돌아가지 않는다.
+저 이슈 말미의 커멘트에 나온 방법으로 해결. 이걸로 6시간 넘게 잡아먹었다&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>controller에서 넘긴 viewName은 viewResolver가 보고 처리한다.</title>
+      <link>https://ezaurum.com/2013/05/controller%EC%97%90%EC%84%9C-%EB%84%98%EA%B8%B4-viewName%EC%9D%80-viewResolver%EA%B0%80-%EB%B3%B4%EA%B3%A0-%EC%B2%98%EB%A6%AC%ED%95%9C%EB%8B%A4./</link>
+      <pubDate>Thu, 09 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2013/05/controller%EC%97%90%EC%84%9C-%EB%84%98%EA%B8%B4-viewName%EC%9D%80-viewResolver%EA%B0%80-%EB%B3%B4%EA%B3%A0-%EC%B2%98%EB%A6%AC%ED%95%9C%EB%8B%A4./</guid>
+      <description>controller에서 넘긴 viewName은 viewResolver가 보고 처리한다.</description>
+    </item>
+    
+    <item>
+      <title>spring @RequestMapping 우선순위</title>
+      <link>https://ezaurum.com/2013/05/spring-RequestMapping-%EC%9A%B0%EC%84%A0%EC%88%9C%EC%9C%84/</link>
+      <pubDate>Thu, 09 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2013/05/spring-RequestMapping-%EC%9A%B0%EC%84%A0%EC%88%9C%EC%9C%84/</guid>
+      <description>/*html pages*/ //매핑시 같은 URL에 produce 우선순위를 이용해 다른 메소드로 연결하고자 하면, URL value에 같은 값을 설정해 주어야 한다. // /*로 설정된 것은 /{variaBLE} 보다 나중에 검색된다. @RequestMapping(value={&#34;/&#34;,&#34;&#34;,&#34;/{questId}&#34;},method=RequestMethod.GET, produces=&#34;text/html&#34; ) public String getQuestIndex() { return &#34;quest&#34;; } /*json requests*/ @RequestMapping(value=&#34;/{questId}&#34;,method=RequestMethod.GET, produces = &#34;application/json&#34;) public @ResponseBody Quest getQuestDetail(@PathVariable(&#34;questId&#34;) long questId) { return questService.find(questId); } @RequestMapping(value={&#34;/&#34;,&#34;&#34;}, method = RequestMethod.GET, produces = &#34;application/json&#34;) public @ResponseBody Collection&amp;lt;Quest&amp;gt; updateQuestDetail() { return questService.findAll(); }  </description>
+    </item>
+    
+    <item>
+      <title>spring에서 enum을 select로 매핑</title>
+      <link>https://ezaurum.com/2012/07/spring%EC%97%90%EC%84%9C-enum%EC%9D%84-select%EB%A1%9C-%EB%A7%A4%ED%95%91/</link>
+      <pubDate>Sun, 22 Jul 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2012/07/spring%EC%97%90%EC%84%9C-enum%EC%9D%84-select%EB%A1%9C-%EB%A7%A4%ED%95%91/</guid>
+      <description>enum안에 desc라는 이름으로 label이 붙어 있는 경우.
+&amp;lt;form:select path=&amp;ldquo;status&amp;rdquo;&amp;gt; &amp;lt;form:options itemLabel=&amp;ldquo;desc&amp;rdquo;/&amp;gt; &amp;lt;/form:select&amp;gt;</description>
+    </item>
+    
+    <item>
+      <title>Request 객체를 파라마터로 받아오지 않고 참조하기</title>
+      <link>https://ezaurum.com/2012/07/Request-%EA%B0%9D%EC%B2%B4%EB%A5%BC-%ED%8C%8C%EB%9D%BC%EB%A7%88%ED%84%B0%EB%A1%9C-%EB%B0%9B%EC%95%84%EC%98%A4%EC%A7%80-%EC%95%8A%EA%B3%A0-%EC%B0%B8%EC%A1%B0%ED%95%98%EA%B8%B0/</link>
+      <pubDate>Fri, 13 Jul 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2012/07/Request-%EA%B0%9D%EC%B2%B4%EB%A5%BC-%ED%8C%8C%EB%9D%BC%EB%A7%88%ED%84%B0%EB%A1%9C-%EB%B0%9B%EC%95%84%EC%98%A4%EC%A7%80-%EC%95%8A%EA%B3%A0-%EC%B0%B8%EC%A1%B0%ED%95%98%EA%B8%B0/</guid>
+      <description>RequestContextHolder를 쓰면 됨. 쓰레드에다가 필요 정보가 다 저장되므로 같은 쓰레드에서 돌아가는 애들은 정보 공유가 됨. &amp;hellip;그럼 한 쓰레드에서 두 개 이상이 돌아가는&amp;hellip; 건 없나? 모르겠네. 깔끔해 지긴 하지만 직관적이진 않은 방법같다. 그래도 서비스단에 request가 주렁주렁 달려서 내려가거나 컨트롤러에서 체크를 하느니 이걸 하겠어.</description>
+    </item>
+    
+    <item>
+      <title>Spring multipart upload에서 put 메소드 사용</title>
+      <link>https://ezaurum.com/2012/07/Spring-multipart-upload%EC%97%90%EC%84%9C-put-%EB%A9%94%EC%86%8C%EB%93%9C-%EC%82%AC%EC%9A%A9/</link>
+      <pubDate>Wed, 11 Jul 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2012/07/Spring-multipart-upload%EC%97%90%EC%84%9C-put-%EB%A9%94%EC%86%8C%EB%93%9C-%EC%82%AC%EC%9A%A9/</guid>
+      <description>org.apache.commons.fileupload.FileUploadBase 에서 multipart를 POST만 인식하게 되어 있으므로, 그냥은 안 된다. 자꾸 파라마터가 없다는 에러를 보게 될 것. 해결방법은 당연히 스택오버플로우에&amp;hellip; 이 링크 참조 이 방법으로 CommonsMultipartResolver를 상속해서 put 메소드도 인식하게 해 주면, put으로 업로드 해도 정상 작동. 이방법을 쓴 건 3.0이지만, 소스 뜯어보니 아직 3.1도 안 되는 듯 하다. 당분간 이걸 써야지&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Spring 3.1 profile 이클립스에서 사용</title>
+      <link>https://ezaurum.com/2012/05/Spring-3.1-profile-%EC%9D%B4%ED%81%B4%EB%A6%BD%EC%8A%A4%EC%97%90%EC%84%9C-%EC%82%AC%EC%9A%A9/</link>
+      <pubDate>Thu, 24 May 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2012/05/Spring-3.1-profile-%EC%9D%B4%ED%81%B4%EB%A6%BD%EC%8A%A4%EC%97%90%EC%84%9C-%EC%82%AC%EC%9A%A9/</guid>
+      <description>스프링 3.1부터 메이븐처럼 profile 설정을 사용할 수 있게 되었다. 그래서 개발과 실서버의 설정을 다르게 만들 수 있음. 상세설명은 영어지만 여기를 참조하시고, 문제는 커맨드라인에서 실행하는 게 아니라 이클립스에서 실행할 때다. 모르는 게 나만이 아니라는 생각에 올려둠.  서버를 더블클릭해서 나오는 저 화면에서 다시 Open launcher configuration을 클릭하고, 나온 화면에서 Enviroment 탭에다가 저런 식으로 추가 해 주면 된다.</description>
+    </item>
+    
+    <item>
+      <title>Spring application context schema version 지정</title>
+      <link>https://ezaurum.com/2012/05/Spring-application-context-schema-version-%EC%A7%80%EC%A0%95/</link>
+      <pubDate>Thu, 24 May 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2012/05/Spring-application-context-schema-version-%EC%A7%80%EC%A0%95/</guid>
+      <description>스프링 어플리케이션 콘텍스트 파일 처음에 스키마를 지정해 주는데, 스키마 파일 버전 지정 안 하면 그냥 알아서 가져온다. 링크 들어가서 파일 직접 받아보니 최신(현재 3.1)과 버전 지정 안 한 파일이 똑같다. 최신버전으로 자동 갱신 되는 듯. 그러니 모를 때는 귀찮게 검색하지 말고 그냥 적으면 되겠다. 출처 - http://stackoverflow.com/questions/9197141/spring-config-files-and-specifying-schema-versions</description>
+    </item>
+    
+    <item>
+      <title>consumes과 produces 조건 @RequestMapping에 쓰기</title>
+      <link>https://ezaurum.com/2012/05/consumes%EA%B3%BC-produces-%EC%A1%B0%EA%B1%B4-RequestMapping%EC%97%90-%EC%93%B0%EA%B8%B0/</link>
+      <pubDate>Thu, 24 May 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2012/05/consumes%EA%B3%BC-produces-%EC%A1%B0%EA%B1%B4-RequestMapping%EC%97%90-%EC%93%B0%EA%B8%B0/</guid>
+      <description>spring 3.1에서 @RequestMapping에 새 조건 두 개가 들어갔다. 그 이외에도 많은 것들이 바뀌었지만, 일단은 당장 쓸 수 있는 이것부터. 여기서도 볼 수 있는데, 기본적으로 consumes는 header의 Content-Type 대체, produces는 Accept 대체가 된다.
+이렇게 쓰면 된다. @RequestMapping(value=&amp;ldquo;/&amp;rdquo;, consumes={&amp;ldquo;application/json&amp;rdquo;,&amp;ldquo;multipart/form-data&amp;rdquo;,&amp;ldquo;application/x-www-form-urlencoded&amp;rdquo;})</description>
+    </item>
+    
+    <item>
+      <title>성과물 2011년 8월 말</title>
+      <link>https://ezaurum.com/2011/08/%EC%84%B1%EA%B3%BC%EB%AC%BC-2011%EB%85%84-8%EC%9B%94-%EB%A7%90/</link>
+      <pubDate>Sun, 28 Aug 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2011/08/%EC%84%B1%EA%B3%BC%EB%AC%BC-2011%EB%85%84-8%EC%9B%94-%EB%A7%90/</guid>
+      <description>spring+hibernate로 짠 게시판 2개. 하나는 TDD적용(100%는 아님), 하나는 미적용. 기간은 똑같이 2주 걸렸지만, 역시 TDD 적용한 쪽이 상태가 낫다. 두 번째 건 RESTful하게 @MVC로 해 봤음. 어느 정도 확장성도 있고&amp;hellip; 다음번 물건은 좀 더 괜찮은 걸로!
+아, 추가로 토비의 스프링3 완독 정도가 있겠군.</description>
+    </item>
+    
+    <item>
+      <title>성과물 2010년 6월 말</title>
+      <link>https://ezaurum.com/2010/06/%EC%84%B1%EA%B3%BC%EB%AC%BC-2010%EB%85%84-6%EC%9B%94-%EB%A7%90/</link>
+      <pubDate>Wed, 30 Jun 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2010/06/%EC%84%B1%EA%B3%BC%EB%AC%BC-2010%EB%85%84-6%EC%9B%94-%EB%A7%90/</guid>
+      <description>이미 있는 홈페이지에서 팝업으로 폼을 입력받아 그 결과 처리
+실 소요시간 16시간 정도.
+간단한 작업 이지만, 프레임워크에 대한 이해가 없어서 꽤 오래 걸렸다.
+소득 - iBatis, Struts에 대한 이해가 조금 늘었다.
+역시 프로젝트를 하면서 이해하는 쪽이 빠르다. - 또한 가르쳐줄 사람이 있는 쪽이 훨씬 빠르다.
+ZPD에 대한 생각을 하게 되었다.
+그것과 관련해서 인강이 쓸모없지는 않구나 하는 생각을 하였다. - 그래서 PMP에 대한 구매욕구가 생겼다.</description>
+    </item>
+    
+  </channel>
+</rss>

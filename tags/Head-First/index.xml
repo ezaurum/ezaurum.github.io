@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Head First on Ezaurum&#39;s Blog</title>
+    <link>https://ezaurum.com/tags/Head-First/</link>
+    <description>Recent content in Head First on Ezaurum&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <copyright>© Ezaurum 2001-</copyright>
+    <lastBuildDate>Wed, 22 Jun 2011 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ezaurum.com/tags/Head-First/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Head First Software Development</title>
+      <link>https://ezaurum.com/2011/06/Head-First-Software-Development/</link>
+      <pubDate>Wed, 22 Jun 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2011/06/Head-First-Software-Development/</guid>
+      <description>Head First 시리즈 답게 쉽게 술술 넘어간다. 그러면서 빠진 것 없이(내가 보기엔) 다 다루고 있다. 테스트 주도 개발 TDD실천법과 도구와 함께 잘 보고 있는 중. 하지만 열심히 안 하고 있는 것 같다&amp;hellip; XP installed랑도 같이 보고 있음&amp;hellip;</description>
+    </item>
+    
+  </channel>
+</rss>

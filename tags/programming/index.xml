@@ -1,26 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Programming on Ezaurum&#39;s Blog</title>
+    <title>programming on Ezaurum&#39;s Blog</title>
     <link>https://ezaurum.com/tags/programming/</link>
-    <description>Recent content in Programming on Ezaurum&#39;s Blog</description>
+    <description>Recent content in programming on Ezaurum&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Sun, 08 Feb 2015 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 05 Jan 2015 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://ezaurum.com/tags/programming/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Nuget 패키지에 의존성 지정하기</title>
-      <link>https://ezaurum.com/2015/02/Nuget-%ED%8C%A8%ED%82%A4%EC%A7%80%EC%97%90-%EC%9D%98%EC%A1%B4%EC%84%B1-%EC%A7%80%EC%A0%95%ED%95%98%EA%B8%B0/</link>
-      <pubDate>Sun, 08 Feb 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://ezaurum.com/2015/02/Nuget-%ED%8C%A8%ED%82%A4%EC%A7%80%EC%97%90-%EC%9D%98%EC%A1%B4%EC%84%B1-%EC%A7%80%EC%A0%95%ED%95%98%EA%B8%B0/</guid>
-      <description>출처 - Nuget 매뉴얼 Nuget 패키지를 만들 때 의존성을 지정하려면, .nuspec 파일 안의 metadata 태그의 자식으로 
-&amp;lt;/code&amp;gt;  이렇게 지정해 주면 된다.</description>
-    </item>
     
     <item>
       <title>oAuth 정리</title>
@@ -38,54 +28,6 @@
       
       <guid>https://ezaurum.com/2014/12/C#-DB-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-%EB%B9%84%EA%B5%90/</guid>
       <description>별로 구체적으로 비교를 해 본 것은 아니지만, 지난 두 달간 이런저런 삽질을 한 결과를 정리한다.  Linq To SQL - MS스러운 DB라이브러리  장점 - IDE에 통합된 사용환경, VS에서 DB에 연결 후, 테이블을 끌어오는 것만으로도 바로 도메인 객체가 생성된다. 속도가 빠르다. 복잡한 쿼리에 신경 안 써도 된다. 러닝커브 작음. 단점 - 자동생성되는 도메인 객체가 복잡하다. 로직이 들어가야 하는 경우 매우 곤란해진다. POCO객체는 불가능. 추가 수정도 귀찮다. 적절한 사용처 - 이미 DB가 존재하고, 거기에 간단한 CRUD연산을 해야 하는 웹 툴 정도를 붙이는 경우.</description>
-    </item>
-    
-    <item>
-      <title>C# DB 라이브러리 비교</title>
-      <link>https://ezaurum.com/2014/12/C#-DB-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-%EB%B9%84%EA%B5%90/</link>
-      <pubDate>Thu, 25 Dec 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://ezaurum.com/2014/12/C#-DB-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-%EB%B9%84%EA%B5%90/</guid>
-      <description>별로 구체적으로 비교를 해 본 것은 아니지만, 지난 두 달간 이런저런 삽질을 한 결과를 정리한다.  Linq To SQL - MS스러운 DB라이브러리  장점 - IDE에 통합된 사용환경, VS에서 DB에 연결 후, 테이블을 끌어오는 것만으로도 바로 도메인 객체가 생성된다. 속도가 빠르다. 복잡한 쿼리에 신경 안 써도 된다. 러닝커브 작음. 단점 - 자동생성되는 도메인 객체가 복잡하다. 로직이 들어가야 하는 경우 매우 곤란해진다. POCO객체는 불가능. 추가 수정도 귀찮다. 적절한 사용처 - 이미 DB가 존재하고, 거기에 간단한 CRUD연산을 해야 하는 웹 툴 정도를 붙이는 경우.</description>
-    </item>
-    
-    <item>
-      <title>Ninject 첫인상</title>
-      <link>https://ezaurum.com/2014/12/Ninject-%EC%B2%AB%EC%9D%B8%EC%83%81/</link>
-      <pubDate>Wed, 24 Dec 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://ezaurum.com/2014/12/Ninject-%EC%B2%AB%EC%9D%B8%EC%83%81/</guid>
-      <description>DI 를 위해 Ninject를 사용함. NInject는 Web API controller를 생성할 때, 컨트롤러에 해당 의존성 객체가 존재하는 생성자가 없으면, 제대로 DI가 되지 않으므로 주의</description>
-    </item>
-    
-    <item>
-      <title>nuget 패키지 자동으로 만들기</title>
-      <link>https://ezaurum.com/2014/12/nuget-%ED%8C%A8%ED%82%A4%EC%A7%80-%EC%9E%90%EB%8F%99%EC%9C%BC%EB%A1%9C-%EB%A7%8C%EB%93%A4%EA%B8%B0/</link>
-      <pubDate>Wed, 24 Dec 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://ezaurum.com/2014/12/nuget-%ED%8C%A8%ED%82%A4%EC%A7%80-%EC%9E%90%EB%8F%99%EC%9C%BC%EB%A1%9C-%EB%A7%8C%EB%93%A4%EA%B8%B0/</guid>
-      <description>msbuild를 사용해서 만들기</description>
-    </item>
-    
-    <item>
-      <title>Cross-thread operation not valid 해결</title>
-      <link>https://ezaurum.com/2014/12/Cross-thread-operation-not-valid-%ED%95%B4%EA%B2%B0/</link>
-      <pubDate>Fri, 05 Dec 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://ezaurum.com/2014/12/Cross-thread-operation-not-valid-%ED%95%B4%EA%B2%B0/</guid>
-      <description>출처 - 스택오버플로우  private void OnAction(string v) { richTextBox1.AppendText(v + Environment.NewLine); richTextBox1.ScrollToCaret(); }
-public void AddText(string value) { richTextBox1.Invoke((Action) OnAction, value); } 
-기본적으로 invoke를 이용하면 해당 문제를 막을 수 있음.</description>
-    </item>
-    
-    <item>
-      <title>MSSQL에서 유니코드 텍스트는 nvarchar로</title>
-      <link>https://ezaurum.com/2014/12/MSSQL%EC%97%90%EC%84%9C-%EC%9C%A0%EB%8B%88%EC%BD%94%EB%93%9C-%ED%85%8D%EC%8A%A4%ED%8A%B8%EB%8A%94-nvarchar%EB%A1%9C/</link>
-      <pubDate>Mon, 01 Dec 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://ezaurum.com/2014/12/MSSQL%EC%97%90%EC%84%9C-%EC%9C%A0%EB%8B%88%EC%BD%94%EB%93%9C-%ED%85%8D%EC%8A%A4%ED%8A%B8%EB%8A%94-nvarchar%EB%A1%9C/</guid>
-      <description>mssql에서 유니코드로 된 텍스트를 저장해야 하면 varchar대신 nvarchar를 쓰자.
-그래야 DB 관리툴이라든가 쿼리 등에서 문제가 없다.</description>
     </item>
     
     <item>
@@ -116,16 +58,6 @@ public void AddText(string value) { richTextBox1.Invoke((Action) OnAction, value
     </item>
     
     <item>
-      <title>java에서 arraylist 삭제하는 방법</title>
-      <link>https://ezaurum.com/2013/11/java%EC%97%90%EC%84%9C-arraylist-%EC%82%AD%EC%A0%9C%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/</link>
-      <pubDate>Sun, 24 Nov 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://ezaurum.com/2013/11/java%EC%97%90%EC%84%9C-arraylist-%EC%82%AD%EC%A0%9C%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/</guid>
-      <description>iterator를 사용한다.
-참고 - removeAlll은 hashset과 arrayList가 구현이 다르게 되어 있다.</description>
-    </item>
-    
-    <item>
       <title>인증과 인가의 차이</title>
       <link>https://ezaurum.com/2013/11/%EC%9D%B8%EC%A6%9D%EA%B3%BC-%EC%9D%B8%EA%B0%80%EC%9D%98-%EC%B0%A8%EC%9D%B4/</link>
       <pubDate>Sun, 24 Nov 2013 00:00:00 +0000</pubDate>
@@ -144,67 +76,12 @@ public void AddText(string value) { richTextBox1.Invoke((Action) OnAction, value
     </item>
     
     <item>
-      <title>gradle에서 jetty 9 쓰기</title>
-      <link>https://ezaurum.com/2013/05/gradle%EC%97%90%EC%84%9C-jetty-9-%EC%93%B0%EA%B8%B0/</link>
-      <pubDate>Thu, 23 May 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://ezaurum.com/2013/05/gradle%EC%97%90%EC%84%9C-jetty-9-%EC%93%B0%EA%B8%B0/</guid>
-      <description>gradle에 plugin으로 사용되는 jetty는 jetty 9이 아니다. 그러므로 WebApplicationInitializer를 써서 만든 앱은 돌아가지 않는다.
-저 이슈 말미의 커멘트에 나온 방법으로 해결. 이걸로 6시간 넘게 잡아먹었다&amp;hellip;</description>
-    </item>
-    
-    <item>
       <title>Designing a Beautiful REST&#43;JSON API</title>
       <link>https://ezaurum.com/2012/08/Designing-a-Beautiful-REST-JSON-API/</link>
       <pubDate>Sat, 04 Aug 2012 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2012/08/Designing-a-Beautiful-REST-JSON-API/</guid>
       <description>원문 링크 설명이 잘 되어 있는 영상. 개인적으로 포인트를 좀 잡아본다. 에러 HTTP 에러 코드를 넣고, 다른 설명이 필요. 가능한 많이. ID는 순차를 피하고 숨길 것. UUID 같은 걸 쓰라. 캐시 - ETag 가능하면 세션 사용을 피할 것. 기본적으로 객체가 콜렉션이나 하위 객체를 포함하면, 그걸 다 뿌려주지 말고, 하위객체나 콜렉션에 대한 링크를 제공 파라마터를 이용해서 객체를 다 뿌릴지 말지를 결정. GET /object?expand=true 파라마터를 이용해서 필터링과 페이지구분. offset, limit사용. 페이지 제공하는 경우 next, prev 링크 제공 다대다 관계의 경우, 조인된 한 행을 하나의 객체로 보고 필요에 따라 필터링 MEDIA TYPE 포맷+파싱룰 request - Accept header respons - content-type header media type에 변수 넣기 application/foo+json;bar=baz ISO 8601 UTC를 쓰라 POST vs PUT POST는 멱등아님 - 전체 대체 PUT은 멱등 - 업데이트 or 전체 대체 app/collection/instance POST로 전체 대체를 하는 경우, 부모 자원에다가 요청을 보내면 된다.</description>
-    </item>
-    
-    <item>
-      <title>Request 객체를 파라마터로 받아오지 않고 참조하기</title>
-      <link>https://ezaurum.com/2012/07/Request-%EA%B0%9D%EC%B2%B4%EB%A5%BC-%ED%8C%8C%EB%9D%BC%EB%A7%88%ED%84%B0%EB%A1%9C-%EB%B0%9B%EC%95%84%EC%98%A4%EC%A7%80-%EC%95%8A%EA%B3%A0-%EC%B0%B8%EC%A1%B0%ED%95%98%EA%B8%B0/</link>
-      <pubDate>Fri, 13 Jul 2012 00:00:00 +0000</pubDate>
-      
-      <guid>https://ezaurum.com/2012/07/Request-%EA%B0%9D%EC%B2%B4%EB%A5%BC-%ED%8C%8C%EB%9D%BC%EB%A7%88%ED%84%B0%EB%A1%9C-%EB%B0%9B%EC%95%84%EC%98%A4%EC%A7%80-%EC%95%8A%EA%B3%A0-%EC%B0%B8%EC%A1%B0%ED%95%98%EA%B8%B0/</guid>
-      <description>RequestContextHolder를 쓰면 됨. 쓰레드에다가 필요 정보가 다 저장되므로 같은 쓰레드에서 돌아가는 애들은 정보 공유가 됨. &amp;hellip;그럼 한 쓰레드에서 두 개 이상이 돌아가는&amp;hellip; 건 없나? 모르겠네. 깔끔해 지긴 하지만 직관적이진 않은 방법같다. 그래도 서비스단에 request가 주렁주렁 달려서 내려가거나 컨트롤러에서 체크를 하느니 이걸 하겠어.</description>
-    </item>
-    
-    <item>
-      <title>Spring multipart upload에서 put 메소드 사용</title>
-      <link>https://ezaurum.com/2012/07/Spring-multipart-upload%EC%97%90%EC%84%9C-put-%EB%A9%94%EC%86%8C%EB%93%9C-%EC%82%AC%EC%9A%A9/</link>
-      <pubDate>Wed, 11 Jul 2012 00:00:00 +0000</pubDate>
-      
-      <guid>https://ezaurum.com/2012/07/Spring-multipart-upload%EC%97%90%EC%84%9C-put-%EB%A9%94%EC%86%8C%EB%93%9C-%EC%82%AC%EC%9A%A9/</guid>
-      <description>org.apache.commons.fileupload.FileUploadBase 에서 multipart를 POST만 인식하게 되어 있으므로, 그냥은 안 된다. 자꾸 파라마터가 없다는 에러를 보게 될 것. 해결방법은 당연히 스택오버플로우에&amp;hellip; 이 링크 참조 이 방법으로 CommonsMultipartResolver를 상속해서 put 메소드도 인식하게 해 주면, put으로 업로드 해도 정상 작동. 이방법을 쓴 건 3.0이지만, 소스 뜯어보니 아직 3.1도 안 되는 듯 하다. 당분간 이걸 써야지&amp;hellip;</description>
-    </item>
-    
-    <item>
-      <title>이클립스에서 jquery validation 에러 해결</title>
-      <link>https://ezaurum.com/2012/07/%EC%9D%B4%ED%81%B4%EB%A6%BD%EC%8A%A4%EC%97%90%EC%84%9C-jquery-validation-%EC%97%90%EB%9F%AC-%ED%95%B4%EA%B2%B0/</link>
-      <pubDate>Tue, 10 Jul 2012 00:00:00 +0000</pubDate>
-      
-      <guid>https://ezaurum.com/2012/07/%EC%9D%B4%ED%81%B4%EB%A6%BD%EC%8A%A4%EC%97%90%EC%84%9C-jquery-validation-%EC%97%90%EB%9F%AC-%ED%95%B4%EA%B2%B0/</guid>
-      <description>jquery validation 에러 해결 방법</description>
-    </item>
-    
-    <item>
-      <title>이클립스에서 JSP를 열 때 JSP editor가 기본으로 열리게 하기</title>
-      <link>https://ezaurum.com/2012/07/%EC%9D%B4%ED%81%B4%EB%A6%BD%EC%8A%A4%EC%97%90%EC%84%9C-JSP%EB%A5%BC-%EC%97%B4-%EB%95%8C-JSP-editor%EA%B0%80-%EA%B8%B0%EB%B3%B8%EC%9C%BC%EB%A1%9C-%EC%97%B4%EB%A6%AC%EA%B2%8C-%ED%95%98%EA%B8%B0/</link>
-      <pubDate>Tue, 03 Jul 2012 00:00:00 +0000</pubDate>
-      
-      <guid>https://ezaurum.com/2012/07/%EC%9D%B4%ED%81%B4%EB%A6%BD%EC%8A%A4%EC%97%90%EC%84%9C-JSP%EB%A5%BC-%EC%97%B4-%EB%95%8C-JSP-editor%EA%B0%80-%EA%B8%B0%EB%B3%B8%EC%9C%BC%EB%A1%9C-%EC%97%B4%EB%A6%AC%EA%B2%8C-%ED%95%98%EA%B8%B0/</guid>
-      <description>어째선지 가끔 JSP가 디자인 모드(HTML 디자인 편집기 같은 형태) 로 열릴 때가 있다. 그럴 때는 Window-&amp;gt;General-&amp;gt;Editors-&amp;gt;File Associations에서 JSP 파일을 찾고 아래쪽에서 JSP editor를 디폴트로 지정!</description>
-    </item>
-    
-    <item>
-      <title>Spring application context schema version 지정</title>
-      <link>https://ezaurum.com/2012/05/Spring-application-context-schema-version-%EC%A7%80%EC%A0%95/</link>
-      <pubDate>Thu, 24 May 2012 00:00:00 +0000</pubDate>
-      
-      <guid>https://ezaurum.com/2012/05/Spring-application-context-schema-version-%EC%A7%80%EC%A0%95/</guid>
-      <description>스프링 어플리케이션 콘텍스트 파일 처음에 스키마를 지정해 주는데, 스키마 파일 버전 지정 안 하면 그냥 알아서 가져온다. 링크 들어가서 파일 직접 받아보니 최신(현재 3.1)과 버전 지정 안 한 파일이 똑같다. 최신버전으로 자동 갱신 되는 듯. 그러니 모를 때는 귀찮게 검색하지 말고 그냥 적으면 되겠다. 출처 - http://stackoverflow.com/questions/9197141/spring-config-files-and-specifying-schema-versions</description>
     </item>
     
     <item>
@@ -226,61 +103,6 @@ public static void main(String args[]) { System.out.println(EnumStudy.valueOf(1)
       <guid>https://ezaurum.com/2011/12/String-StringBuilder-StringBuffer-%EC%A4%91-%EB%AD%98-%EC%8D%A8%EC%95%BC-%ED%95%A0%EA%B9%8C/</guid>
       <description>출처 -http://www.a2ztechguide.com/2011/12/difference-between-string-stringbuffer.html
  값이 변하지 않으면 불변객체 String String은 immutable 이다. 한 번 만들어두고 걍 읽어만 올 거면 대부분의 경우 String을 쓰면 되는 모양. 자주 변하는 경우, 그때마다 새로 만들어줘야 하므로 비추천. equals가 오버라이드 되어 있다.  싱글 스레드라면 StringBuilder mutable함. 데이터가 막 바뀌는 경우 사용. 나온지 얼마 안 된 신삥. StringBuffer랑 synchronization 빼고 동일. 출처 포스트에는 StringBuffer보다 빠르다고 한다. equals오버라이드 안 되어 있음. 멀티스레드라면 StringBuffer equals오버라이드 안 되어 있음. StringBuilder랑 synchronization 빼고는 동일  </description>
-    </item>
-    
-    <item>
-      <title>Java 컨테이너에 Form 값의 encoding 깨질 때</title>
-      <link>https://ezaurum.com/2010/10/Java-%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88%EC%97%90-Form-%EA%B0%92%EC%9D%98-encoding-%EA%B9%A8%EC%A7%88-%EB%95%8C/</link>
-      <pubDate>Fri, 22 Oct 2010 00:00:00 +0000</pubDate>
-      
-      <guid>https://ezaurum.com/2010/10/Java-%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88%EC%97%90-Form-%EA%B0%92%EC%9D%98-encoding-%EA%B9%A8%EC%A7%88-%EB%95%8C/</guid>
-      <description>점검사항은 아래 세가지.  폼에서 정확히 인코딩을 지정해서 넘겨주는가? 서버에서 정확히 인코딩을 인식하는가? DB에서 정확히 인코딩을 인식하는가?  이다.  폼에서 정확히 인코딩을 지정해서 념겨주는가? 이 경우는 일단 문서 첫머리에 meta태그가 utf-8으로 지정되어 있고, 폼에 accept-charset 어트리뷰트가 지정되어 있고, 브라우저에서 확인해서 문서가 utf-8으로 읽히는 상황이라면 문제 없다고 보면 된다. UTF-8으로 나와야 하는 페이지가 UTF-8으로 안나오는 경우는 여기서 다룰 게 아니다.
- &amp;lt;meta http-equiv=&amp;ldquo;Content-Type&amp;rdquo; content=&amp;ldquo;text/html; charset=UTF-8&amp;rdquo; /&amp;gt; &amp;lt;meta charset=&amp;ldquo;UTF-8&amp;rdquo; /&amp;gt; &amp;lt;form accept-charset=&amp;ldquo;UTF-8&amp;rdquo; &amp;gt;   서버에서 인코딩을 제대로 인식하는가?</description>
-    </item>
-    
-    <item>
-      <title>오늘의 교훈</title>
-      <link>https://ezaurum.com/2010/05/%EC%98%A4%EB%8A%98%EC%9D%98-%EA%B5%90%ED%9B%88/</link>
-      <pubDate>Fri, 14 May 2010 00:00:00 +0000</pubDate>
-      
-      <guid>https://ezaurum.com/2010/05/%EC%98%A4%EB%8A%98%EC%9D%98-%EA%B5%90%ED%9B%88/</guid>
-      <description>잠을 자자 충분히 푹
-오 분만에 해결책이 안 보이면 좀 걷자.
-&amp;hellip;.이름만 적어야 하는데 괄호까지 같이 적어서 콜을 해 버렸어&amp;hellip; &amp;hellip;그게 왜 안 되는지 세시간을 찾았다&amp;hellip;
-&amp;hellip;. 덕분에 jQuery에 대해 좀 더 알았음.
-.ready - DOM 객체가 메모리에 만들어졌을 때 - 이미지나 동영상 등은 로드되는 중일 수 있음. .load - 페이지가 render된 이후 - 정말 로드가 다 끝났을 때.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://ezaurum.com/2008/12/</link>
-      <pubDate>Mon, 08 Dec 2008 00:00:00 +0000</pubDate>
-      
-      <guid>https://ezaurum.com/2008/12/</guid>
-      <description>아마도 원인은 이 아래 링크 http://kldp.org/node/92618 따라서, extern 키워드를 활용하도록 한다!</description>
-    </item>
-    
-    <item>
-      <title>소켓 프로그래밍을 할 때 read가 생각대로 작동하지 않는 경우</title>
-      <link>https://ezaurum.com/2008/12/%EC%86%8C%EC%BC%93-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EC%9D%84-%ED%95%A0-%EB%95%8C-read%EA%B0%80-%EC%83%9D%EA%B0%81%EB%8C%80%EB%A1%9C-%EC%9E%91%EB%8F%99%ED%95%98%EC%A7%80-%EC%95%8A%EB%8A%94-%EA%B2%BD%EC%9A%B0/</link>
-      <pubDate>Thu, 04 Dec 2008 00:00:00 +0000</pubDate>
-      
-      <guid>https://ezaurum.com/2008/12/%EC%86%8C%EC%BC%93-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EC%9D%84-%ED%95%A0-%EB%95%8C-read%EA%B0%80-%EC%83%9D%EA%B0%81%EB%8C%80%EB%A1%9C-%EC%9E%91%EB%8F%99%ED%95%98%EC%A7%80-%EC%95%8A%EB%8A%94-%EA%B2%BD%EC%9A%B0/</guid>
-      <description>기말고사용으로 채팅 프로그램을 만들던 중, close를 하지 않고, 연결을 유지한 채로 write함수로 EOF값 만을 보내서 대화 내용의 종결을 알리려고 했으나, 잘 작동하지 않았다.
-read는 socket 이 close되지 않으면 EOF를 읽더라도 1을 반환한다. 따라서 연결을 유지하고 read/write를 하려면 읽은 값이 EOF인지를 체크해준다! 이거 알아내려고 이틀 밤 샜다. 젠장. 나만 병신인가.  while (temp) { read(sockfd, &amp;amp;s, 1); if ( s == EOF) break; printf(&amp;ldquo;%c&amp;rdquo;,s); } 
-read 의 리턴값 - 기본적으로 실제로 읽은 바이트 수 만큼.</description>
-    </item>
-    
-    <item>
-      <title>-lsocket 옵션에서 에러가 날 때</title>
-      <link>https://ezaurum.com/2008/11/lsocket-%EC%98%B5%EC%85%98%EC%97%90%EC%84%9C-%EC%97%90%EB%9F%AC%EA%B0%80-%EB%82%A0-%EB%95%8C/</link>
-      <pubDate>Fri, 28 Nov 2008 00:00:00 +0000</pubDate>
-      
-      <guid>https://ezaurum.com/2008/11/lsocket-%EC%98%B5%EC%85%98%EC%97%90%EC%84%9C-%EC%97%90%EB%9F%AC%EA%B0%80-%EB%82%A0-%EB%95%8C/</guid>
-      <description>소켓 프로그래밍을 하는데 프린트물에 있는 대로 -lsocket 옵션을 주니 계속 cc 가 에러를 뱉었다.
-http://kldp.org/node/1377
-결론은 Sun 계열 유닉스에서 작업하는 게 아니면, -lnsl -lsocket 옵션을 주지 말고 컴파일하라는 것.
-한참 헤매다가 답 발견. 학교 서버가 sun 계열이라 그런 듯.</description>
     </item>
     
   </channel>

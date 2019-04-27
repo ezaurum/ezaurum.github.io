@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>requestMapping on Ezaurum&#39;s Blog</title>
+    <link>https://ezaurum.com/tags/requestMapping/</link>
+    <description>Recent content in requestMapping on Ezaurum&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <copyright>© Ezaurum 2001-</copyright>
+    <lastBuildDate>Thu, 09 May 2013 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ezaurum.com/tags/requestMapping/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>spring @RequestMapping 우선순위</title>
+      <link>https://ezaurum.com/2013/05/spring-RequestMapping-%EC%9A%B0%EC%84%A0%EC%88%9C%EC%9C%84/</link>
+      <pubDate>Thu, 09 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2013/05/spring-RequestMapping-%EC%9A%B0%EC%84%A0%EC%88%9C%EC%9C%84/</guid>
+      <description>/*html pages*/ //매핑시 같은 URL에 produce 우선순위를 이용해 다른 메소드로 연결하고자 하면, URL value에 같은 값을 설정해 주어야 한다. // /*로 설정된 것은 /{variaBLE} 보다 나중에 검색된다. @RequestMapping(value={&#34;/&#34;,&#34;&#34;,&#34;/{questId}&#34;},method=RequestMethod.GET, produces=&#34;text/html&#34; ) public String getQuestIndex() { return &#34;quest&#34;; } /*json requests*/ @RequestMapping(value=&#34;/{questId}&#34;,method=RequestMethod.GET, produces = &#34;application/json&#34;) public @ResponseBody Quest getQuestDetail(@PathVariable(&#34;questId&#34;) long questId) { return questService.find(questId); } @RequestMapping(value={&#34;/&#34;,&#34;&#34;}, method = RequestMethod.GET, produces = &#34;application/json&#34;) public @ResponseBody Collection&amp;lt;Quest&amp;gt; updateQuestDetail() { return questService.findAll(); }  </description>
+    </item>
+    
+    <item>
+      <title>consumes과 produces 조건 @RequestMapping에 쓰기</title>
+      <link>https://ezaurum.com/2012/05/consumes%EA%B3%BC-produces-%EC%A1%B0%EA%B1%B4-RequestMapping%EC%97%90-%EC%93%B0%EA%B8%B0/</link>
+      <pubDate>Thu, 24 May 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2012/05/consumes%EA%B3%BC-produces-%EC%A1%B0%EA%B1%B4-RequestMapping%EC%97%90-%EC%93%B0%EA%B8%B0/</guid>
+      <description>spring 3.1에서 @RequestMapping에 새 조건 두 개가 들어갔다. 그 이외에도 많은 것들이 바뀌었지만, 일단은 당장 쓸 수 있는 이것부터. 여기서도 볼 수 있는데, 기본적으로 consumes는 header의 Content-Type 대체, produces는 Accept 대체가 된다.
+이렇게 쓰면 된다. @RequestMapping(value=&amp;ldquo;/&amp;rdquo;, consumes={&amp;ldquo;application/json&amp;rdquo;,&amp;ldquo;multipart/form-data&amp;rdquo;,&amp;ldquo;application/x-www-form-urlencoded&amp;rdquo;})</description>
+    </item>
+    
+  </channel>
+</rss>

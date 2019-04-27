@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Thu, 10 Jan 2019 22:14:27 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 27 Apr 2019 11:38:00 +0900</lastBuildDate>
     
 	<atom:link href="https://ezaurum.com/categories/%EC%9D%BC%EC%83%81/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>배포 이후 변경이 안 되는 문제</title>
+      <link>https://ezaurum.com/bug/deploy-bug-not-changed/</link>
+      <pubDate>Sat, 27 Apr 2019 11:38:00 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/bug/deploy-bug-not-changed/</guid>
+      <description>문제 상황 - 버그를 고치고 배포했는데 고쳐지지 않았다
+문제 원인 - ECS에서 배포하면서 Task에서 docker 버전을 지정하고 안 바꿨다
+재발 방지를 위해 - 한 번 해서 안 되면 한 단계 더 들어가서 원인을 찾자</description>
+    </item>
     
     <item>
       <title>2019년 목표</title>

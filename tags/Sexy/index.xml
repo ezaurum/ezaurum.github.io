@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sexy on Ezaurum&#39;s Blog</title>
+    <link>https://ezaurum.com/tags/Sexy/</link>
+    <description>Recent content in Sexy on Ezaurum&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <copyright>© Ezaurum 2001-</copyright>
+    <lastBuildDate>Thu, 05 Feb 2009 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ezaurum.com/tags/Sexy/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>이것이 공부다</title>
+      <link>https://ezaurum.com/2009/02/%EC%9D%B4%EA%B2%83%EC%9D%B4-%EA%B3%B5%EB%B6%80%EB%8B%A4/</link>
+      <pubDate>Thu, 05 Feb 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2009/02/%EC%9D%B4%EA%B2%83%EC%9D%B4-%EA%B3%B5%EB%B6%80%EB%8B%A4/</guid>
+      <description>Sexy CSS tips 주의집중을 매우 효율적으로 이끌어내는 물건 내용에도 충실하다.</description>
+    </item>
+    
+  </channel>
+</rss>

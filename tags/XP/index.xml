@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>XP on Ezaurum&#39;s Blog</title>
+    <link>https://ezaurum.com/tags/XP/</link>
+    <description>Recent content in XP on Ezaurum&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <copyright>© Ezaurum 2001-</copyright>
+    <lastBuildDate>Thu, 16 Sep 2010 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ezaurum.com/tags/XP/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>IE9이 나왔다</title>
+      <link>https://ezaurum.com/2010/09/IE9%EC%9D%B4-%EB%82%98%EC%99%94%EB%8B%A4/</link>
+      <pubDate>Thu, 16 Sep 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2010/09/IE9%EC%9D%B4-%EB%82%98%EC%99%94%EB%8B%A4/</guid>
+      <description>윈도우7 이후로 가장 기대되는 M$물건. 하지만 XP에서는 깔아볼 수도 없&amp;hellip; &amp;hellip;휴가 보내주세요. 현기증 난단 말이에요. ORL</description>
+    </item>
+    
+    <item>
+      <title>TDD 시작</title>
+      <link>https://ezaurum.com/2010/08/TDD-%EC%8B%9C%EC%9E%91/</link>
+      <pubDate>Fri, 06 Aug 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2010/08/TDD-%EC%8B%9C%EC%9E%91/</guid>
+      <description>TDD란 걸 시작했다. 좋은 튜토리얼을 발견해서 그걸 보고 대충 익혔는데, 여기의 글들과 관련해서 좀 공부를 더 해야 겠다.  테스트를 작성한다. 
+&amp;lt;li&amp;gt;작성한 테스트를 통과할 수 있도록 가장 빠른 방법으로 코드를 작성한다. 이 과정에 중복된 코드를 만들어도 상관 없다. &amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;테스트를 수행한다. &amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;  테스트를 통과하면 작성한 코드에서 중복을 제거한다. 아니면 2번으로 돌아간다.  
+테스트를 수행한다. 
+&amp;lt;li&amp;gt;테스트를 통과하면 완성. 다음 테스트를 1번부터 시작한다. 실패하면 4로 돌아가서 디버깅한다.&amp;lt;/li&amp;gt;&amp;lt;/ol&amp;gt;   TDD(TestDrivenDevelopement)이런 식으로 진행되는데, 개발 속도가 엄청나게 빨라진다고 한다.</description>
+    </item>
+    
+    <item>
+      <title>윈도XP 시스템 파일 복구법</title>
+      <link>https://ezaurum.com/2009/02/%EC%9C%88%EB%8F%84XP-%EC%8B%9C%EC%8A%A4%ED%85%9C-%ED%8C%8C%EC%9D%BC-%EB%B3%B5%EA%B5%AC%EB%B2%95/</link>
+      <pubDate>Thu, 12 Feb 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2009/02/%EC%9C%88%EB%8F%84XP-%EC%8B%9C%EC%8A%A4%ED%85%9C-%ED%8C%8C%EC%9D%BC-%EB%B3%B5%EA%B5%AC%EB%B2%95/</guid>
+      <description>적용대상  winlogon.exe, userinit.exe, lsass.exe등의 파일이 없거나, 손상되어 정상적인 부팅이 불가능할 때 뭔지는 모르겠지만, 일단 윈도우 시작은 됐는데, 사용자 이름을 눌러도 로그인이 안되거나, 바탕화면이 뜨지 않거나 할 때. 기타 이유로 파일 복구가 필요할 때winlogon.exe, userinit.exe, lsass.exe등의 파일이 없거나, 손상되어 정상적인 부팅이 불가능할 때 
+준비물  1, 2 중 하나만 있으면 됨. 깔려있는 것과 동일한 버전의 XP 정품 씨디 깔린 게 SP2면 SP2, SP3면 SP3여야 하는 게 원칙이나, 될 수도 있음.</description>
+    </item>
+    
+    <item>
+      <title>Windows XP 사용자 계정 비밀번호를 잊었을 때</title>
+      <link>https://ezaurum.com/2008/11/Windows-XP-%EC%82%AC%EC%9A%A9%EC%9E%90-%EA%B3%84%EC%A0%95-%EB%B9%84%EB%B0%80%EB%B2%88%ED%98%B8%EB%A5%BC-%EC%9E%8A%EC%97%88%EC%9D%84-%EB%95%8C/</link>
+      <pubDate>Fri, 21 Nov 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2008/11/Windows-XP-%EC%82%AC%EC%9A%A9%EC%9E%90-%EA%B3%84%EC%A0%95-%EB%B9%84%EB%B0%80%EB%B2%88%ED%98%B8%EB%A5%BC-%EC%9E%8A%EC%97%88%EC%9D%84-%EB%95%8C/</guid>
+      <description>관리자 -Administrator 계정의 비번을 알 경우 관리자 계정 로그인-제어판-사용자 계정-비번을 잊은 계정 선택-비밀번호 변경 관리자 계정이 보통 때 뜨지 않는 경우는, 부팅 시, F8을 눌러서 안전모드로 들어간다.  관리자 계정 비번을 모를 경우 F8을 눌러서 안전모드 명령 프롬프트 사용 을 선택해서, net user 필요한아이디 *ENTER를 입력. 그럼 비번 재설정 가능.  둘 다 여의치 않을 경우 안전모드든, hiren&#39;s CD를 이용하든 윈도우즈 폴더의 system32config 폴더 안에 있는 SAM파일을 지우고 재부팅 - 이 방법은 위험하다고 함.</description>
+    </item>
+    
+    <item>
+      <title>XP용 Intel AHCI driver</title>
+      <link>https://ezaurum.com/2008/11/XP%EC%9A%A9-Intel-AHCI-driver/</link>
+      <pubDate>Thu, 20 Nov 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2008/11/XP%EC%9A%A9-Intel-AHCI-driver/</guid>
+      <description>XP란 게 SATA2를 제대로 지원하지는 못한다. AHCI를 쓰려고 많은 삽질을 했는데, 일하다가 AHCI 모드로 XP가 깔린 놋북을 복구해야 할 일이 생겼다. 요즘 학교에 또 만연하는 로그온 실패를 유발하는 바이러스다. 그런데 문제가, 일반 XP씨디를 이용해서 손상된 userinit.exe라든가, lsass.exe라든가 winlogon.exe를 복구하려고 하면, 이놈이 AHCI 모드인 하드를 인식하지를 못한다. 요즘 놋북에 FDD가 있을리 만무. 그래서 USB FDD를 어렵사리 찾아서, 그걸 이용해서 드라이버를 깔려고 하는데, 이런 망할 놈들이 윈도용 드라이버-설치된 후 사용하는-는 흔한데, 설치할 때 쓰는 드라이버는 안 보이는 거다!</description>
+    </item>
+    
+  </channel>
+</rss>
