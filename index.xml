@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Sat, 27 Apr 2019 11:38:00 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 12 May 2019 01:54:01 +0900</lastBuildDate>
     
 	<atom:link href="https://ezaurum.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>쿼리 결과를 CSV 파일로 생성</title>
+      <link>https://ezaurum.com/2019/05/%EC%BF%BC%EB%A6%AC-%EA%B2%B0%EA%B3%BC%EB%A5%BC-CSV-%ED%8C%8C%EC%9D%BC%EB%A1%9C-%EC%83%9D%EC%84%B1/</link>
+      <pubDate>Sun, 12 May 2019 01:54:01 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/2019/05/%EC%BF%BC%EB%A6%AC-%EA%B2%B0%EA%B3%BC%EB%A5%BC-CSV-%ED%8C%8C%EC%9D%BC%EB%A1%9C-%EC%83%9D%EC%84%B1/</guid>
+      <description>select b.*, a.* from log_table a, somehow_table b where a.id = b.id and check_result=&#39;Success&#39; and a.column=123 INTO OUTFILE &#39;orders.csv&#39; FIELDS TERMINATED BY &#39;,&#39; ENCLOSED BY &#39;&amp;quot;&#39; LINES TERMINATED BY &#39;\n&#39;;  </description>
+    </item>
     
     <item>
       <title>배포 이후 변경이 안 되는 문제</title>
@@ -91,6 +100,22 @@
       
       <guid>https://ezaurum.com/retrospective/2018-fullyear/</guid>
       <description>한 일  5kg 감량, 10개월 후 두 달 만에 다시 원복 간이 ERP 개발(백/프론트) CMS 개발(SPA) 강의 및 기타 컨설턴트 서비스 유지보수 및 기능 6개 개발, 개중 3개는 날짜 못 맞춤 PHP 레거시 서비스 마이그레이션 통상 웹페이지를 SPA구조로 변경 강의 영상 하나 완성(하나는 찍기만 함) 대충 4천커밋(매일 커밋은 실패) 요가 시작, 첫 달은 1&amp;frasl;2 정도 출석, 둘째 달은 1/3정도, 마지막 달은 거의 안 감. 만화/소설/전산기술서적 제외하고 읽은 책은 1권 django 배포, docker사용  감상  생각보다 많이 일했다.</description>
+    </item>
+    
+    <item>
+      <title>2019년 1사분기 회고</title>
+      <link>https://ezaurum.com/retrospective/2019-1st-quater/</link>
+      <pubDate>Thu, 10 Jan 2019 21:37:28 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/retrospective/2019-1st-quater/</guid>
+      <description>한 일  1월에서 2월까지는 큰 회사에서 내부 레거시 시스템을 정리하는 팀 외주가 들어와서 팀 구성을 위해 돌아다님
+ 별로 성과 없었음   2월부터 출퇴근을 하기 시작함
+ 외부 API 연동 R&amp;amp;D 이것저것 - micronaut, CI/CD   뽑기를 만들면서 순열을 이해했다.
+ CodeJam 도전
+ 리디셀렉트를 쓰면서 좀 책을 더 보게 되었다
+ 출퇴근을 하니까 규칙적인 생활을 했다
+ 드디어 도커로 배포를 시작했다.
+  감상  소설을 다시 써 보기로 했다.</description>
     </item>
     
     <item>

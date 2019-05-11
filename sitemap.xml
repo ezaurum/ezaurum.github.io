@@ -4,7 +4,60 @@
   
   <url>
     <loc>https://ezaurum.com/tags/</loc>
-    <lastmod>2019-04-27T11:38:00+09:00</lastmod>
+    <lastmod>2019-05-12T01:54:01+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/categories/</loc>
+    <lastmod>2019-05-12T01:54:01+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/</loc>
+    <lastmod>2019-05-12T01:54:01+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/post/</loc>
+    <lastmod>2019-05-12T01:54:01+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/tags/</loc>
+    <lastmod>2019-05-12T01:54:01+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/tags/cli/</loc>
+    <lastmod>2019-05-12T01:54:01+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/tags/csv/</loc>
+    <lastmod>2019-05-12T01:54:01+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/tags/sql/</loc>
+    <lastmod>2019-05-12T01:54:01+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/2019/05/%EC%BF%BC%EB%A6%AC-%EA%B2%B0%EA%B3%BC%EB%A5%BC-CSV-%ED%8C%8C%EC%9D%BC%EB%A1%9C-%EC%83%9D%EC%84%B1/</loc>
+    <lastmod>2019-05-12T01:54:01+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/categories/%ED%95%9C%EC%A4%84%EC%A0%95%EB%A6%AC/</loc>
+    <lastmod>2019-05-12T01:54:01+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -15,25 +68,7 @@
   </url>
   
   <url>
-    <loc>https://ezaurum.com/categories/</loc>
-    <lastmod>2019-04-27T11:38:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ezaurum.com/</loc>
-    <lastmod>2019-04-27T11:38:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://ezaurum.com/series/</loc>
-    <lastmod>2019-04-27T11:38:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ezaurum.com/tags/</loc>
     <lastmod>2019-04-27T11:38:00+09:00</lastmod>
     <priority>0</priority>
   </url>
@@ -105,12 +140,6 @@
   <url>
     <loc>https://ezaurum.com/tags/%ED%9A%8C%EA%B3%A0/</loc>
     <lastmod>2019-04-05T18:51:59+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ezaurum.com/post/</loc>
-    <lastmod>2019-02-21T18:20:40+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -207,6 +236,11 @@
   
   <url>
     <loc>https://ezaurum.com/retrospective/2018-fullyear/</loc>
+    <lastmod>2019-01-10T21:37:28+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/retrospective/2019-1st-quater/</loc>
     <lastmod>2019-01-10T21:37:28+09:00</lastmod>
   </url>
   
