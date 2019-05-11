@@ -103,22 +103,6 @@
     </item>
     
     <item>
-      <title>2019년 1사분기 회고</title>
-      <link>https://ezaurum.com/retrospective/2019-1st-quater/</link>
-      <pubDate>Thu, 10 Jan 2019 21:37:28 +0900</pubDate>
-      
-      <guid>https://ezaurum.com/retrospective/2019-1st-quater/</guid>
-      <description>한 일  1월에서 2월까지는 큰 회사에서 내부 레거시 시스템을 정리하는 팀 외주가 들어와서 팀 구성을 위해 돌아다님
- 별로 성과 없었음   2월부터 출퇴근을 하기 시작함
- 외부 API 연동 R&amp;amp;D 이것저것 - micronaut, CI/CD   뽑기를 만들면서 순열을 이해했다.
- CodeJam 도전
- 리디셀렉트를 쓰면서 좀 책을 더 보게 되었다
- 출퇴근을 하니까 규칙적인 생활을 했다
- 드디어 도커로 배포를 시작했다.
-  감상  소설을 다시 써 보기로 했다.</description>
-    </item>
-    
-    <item>
       <title>AJAX 요청응답이 왔는데 JSON parse에러가 났는데 정상 작동</title>
       <link>https://ezaurum.com/bug/ajax-response-is-invalid-but-valid/</link>
       <pubDate>Fri, 02 Nov 2018 02:08:41 +0900</pubDate>
