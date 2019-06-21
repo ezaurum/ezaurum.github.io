@@ -4,30 +4,106 @@
   
   <url>
     <loc>https://ezaurum.com/tags/</loc>
-    <lastmod>2019-05-12T01:54:01+09:00</lastmod>
+    <lastmod>2019-06-20T22:31:05+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/tags/AccessDenied/</loc>
+    <lastmod>2019-06-20T22:31:05+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/bug/</loc>
+    <lastmod>2019-06-20T22:31:05+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ezaurum.com/categories/</loc>
-    <lastmod>2019-05-12T01:54:01+09:00</lastmod>
+    <lastmod>2019-06-20T22:31:05+09:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/tags/CloudFront/</loc>
+    <lastmod>2019-06-20T22:31:05+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/bug/cloud-front-access-denied/</loc>
+    <lastmod>2019-06-20T22:31:05+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://ezaurum.com/</loc>
-    <lastmod>2019-05-12T01:54:01+09:00</lastmod>
+    <lastmod>2019-06-20T22:31:05+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ezaurum.com/post/</loc>
-    <lastmod>2019-05-12T01:54:01+09:00</lastmod>
+    <loc>https://ezaurum.com/tags/S3/</loc>
+    <lastmod>2019-06-20T22:31:05+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/series/</loc>
+    <lastmod>2019-06-20T22:31:05+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ezaurum.com/tags/</loc>
+    <lastmod>2019-06-20T22:31:05+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/tags/aws/</loc>
+    <lastmod>2019-06-20T22:31:05+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/series/%EB%B2%84%EA%B7%B8%EC%9D%BC%EA%B8%B0/</loc>
+    <lastmod>2019-06-20T22:31:05+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/categories/%ED%9A%8C%EA%B3%A0/</loc>
+    <lastmod>2019-06-20T22:31:05+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/retrospective/2019-1st-quater/</loc>
+    <lastmod>2019-05-12T21:37:28+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/retrospective/</loc>
+    <lastmod>2019-05-12T21:37:28+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/tags/%ED%9A%8C%EA%B3%A0/</loc>
+    <lastmod>2019-05-12T21:37:28+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/series/%ED%9A%8C%EA%B3%A0/</loc>
+    <lastmod>2019-05-12T21:37:28+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/post/</loc>
     <lastmod>2019-05-12T01:54:01+09:00</lastmod>
     <priority>0</priority>
   </url>
@@ -62,24 +138,6 @@
   </url>
   
   <url>
-    <loc>https://ezaurum.com/bug/</loc>
-    <lastmod>2019-04-27T11:38:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ezaurum.com/series/</loc>
-    <lastmod>2019-04-27T11:38:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ezaurum.com/tags/aws/</loc>
-    <lastmod>2019-04-27T11:38:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://ezaurum.com/tags/deploy/</loc>
     <lastmod>2019-04-27T11:38:00+09:00</lastmod>
     <priority>0</priority>
@@ -103,19 +161,7 @@
   </url>
   
   <url>
-    <loc>https://ezaurum.com/series/%EB%B2%84%EA%B7%B8%EC%9D%BC%EA%B8%B0/</loc>
-    <lastmod>2019-04-27T11:38:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://ezaurum.com/categories/%EC%9D%BC%EC%83%81/</loc>
-    <lastmod>2019-04-27T11:38:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ezaurum.com/categories/%ED%9A%8C%EA%B3%A0/</loc>
     <lastmod>2019-04-27T11:38:00+09:00</lastmod>
     <priority>0</priority>
   </url>
@@ -133,12 +179,6 @@
   
   <url>
     <loc>https://ezaurum.com/tags/%EC%A0%95%EB%A6%AC/</loc>
-    <lastmod>2019-04-05T18:51:59+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ezaurum.com/tags/%ED%9A%8C%EA%B3%A0/</loc>
     <lastmod>2019-04-05T18:51:59+09:00</lastmod>
     <priority>0</priority>
   </url>
@@ -237,18 +277,6 @@
   <url>
     <loc>https://ezaurum.com/retrospective/2018-fullyear/</loc>
     <lastmod>2019-01-10T21:37:28+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ezaurum.com/retrospective/</loc>
-    <lastmod>2019-01-10T21:37:28+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ezaurum.com/series/%ED%9A%8C%EA%B3%A0/</loc>
-    <lastmod>2019-01-10T21:37:28+09:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -462,13 +490,13 @@
   </url>
   
   <url>
-    <loc>https://ezaurum.com/categories/%EC%83%9D%ED%99%9C%EA%B8%B0/</loc>
+    <loc>https://ezaurum.com/tags/%EC%83%9D%ED%99%9C%EA%B8%B0/</loc>
     <lastmod>2018-02-08T15:01:52+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ezaurum.com/tags/%EC%83%9D%ED%99%9C%EA%B8%B0/</loc>
+    <loc>https://ezaurum.com/categories/%EC%83%9D%ED%99%9C%EA%B8%B0/</loc>
     <lastmod>2018-02-08T15:01:52+07:00</lastmod>
     <priority>0</priority>
   </url>
@@ -714,13 +742,13 @@
   </url>
   
   <url>
-    <loc>https://ezaurum.com/categories/%EC%A7%80%EB%A6%84/</loc>
+    <loc>https://ezaurum.com/tags/%EC%A7%80%EB%A6%84/</loc>
     <lastmod>2017-12-27T15:58:04+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ezaurum.com/tags/%EC%A7%80%EB%A6%84/</loc>
+    <loc>https://ezaurum.com/categories/%EC%A7%80%EB%A6%84/</loc>
     <lastmod>2017-12-27T15:58:04+07:00</lastmod>
     <priority>0</priority>
   </url>
@@ -3479,12 +3507,6 @@
   
   <url>
     <loc>https://ezaurum.com/tags/BDD/</loc>
-    <lastmod>2013-01-27T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ezaurum.com/tags/S3/</loc>
     <lastmod>2013-01-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>

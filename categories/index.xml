@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Sun, 12 May 2019 01:54:01 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 20 Jun 2019 22:31:05 +0900</lastBuildDate>
     
 	<atom:link href="https://ezaurum.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>회고</title>
+      <link>https://ezaurum.com/categories/%ED%9A%8C%EA%B3%A0/</link>
+      <pubDate>Thu, 20 Jun 2019 22:31:05 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/categories/%ED%9A%8C%EA%B3%A0/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>한줄정리</title>
@@ -27,15 +36,6 @@
       <pubDate>Sat, 27 Apr 2019 11:38:00 +0900</pubDate>
       
       <guid>https://ezaurum.com/categories/%EC%9D%BC%EC%83%81/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>회고</title>
-      <link>https://ezaurum.com/categories/%ED%9A%8C%EA%B3%A0/</link>
-      <pubDate>Sat, 27 Apr 2019 11:38:00 +0900</pubDate>
-      
-      <guid>https://ezaurum.com/categories/%ED%9A%8C%EA%B3%A0/</guid>
       <description></description>
     </item>
     
