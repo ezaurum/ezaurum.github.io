@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Thu, 20 Jun 2019 22:31:05 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jul 2019 15:53:07 +0900</lastBuildDate>
     
 	<atom:link href="https://ezaurum.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2019년 2사분기 회고</title>
+      <link>https://ezaurum.com/retrospective/2019-2nd-quater/</link>
+      <pubDate>Mon, 01 Jul 2019 15:53:07 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/retrospective/2019-2nd-quater/</guid>
+      <description>한 일  첫 일본여행 - 후쿠오카 4박5 컴 업글 - AMD로 돌아감 운동시작 - 6.10 부터 유니티 앱 개발 - 시작만 함 AR전화 서비스 구조개선 네이버에서 AWS로 운영서버 이전 도커로 빌드, 배포 오래 묵은 DB 트랙잭션 중 예외처리 중 rollback 처리가 되지 않은 버그 수정. 코오롱 리뷰 - 크레마API 연동 스택 드라이버 세팅 공부 웹에서 이어올리기 기능 구현 람다를 해 봄 여러 CI/CD 서비스 조사 고시원 생활 시작 - 3개 회사 일이라 출퇴근 시간을 줄이기 위해 회사 정기 소모비용 발생 - 서버/고시원 비용 대출금 1건 변제 완료 빠찡꼬 해봄 목표 연수입 달성  감상  큰 통신사도 역시 구리다.</description>
+    </item>
     
     <item>
       <title>CloudFront에서 웹사이트 연동을 위해 S3의 파일을 불러올 때 Access Denied가 날 때</title>
@@ -7170,6 +7179,41 @@ H는 그랬다.
       
       <guid>https://ezaurum.com/2007/02/%EA%B2%B0%EA%B5%AD-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%8B%A4%EC%8B%9C-%EB%A7%8C%EB%93%A4%EB%8B%A4./</guid>
       <description>뭐, 결국 Wordpress 2.1로 왔음. 무료 계정. UTF-8을 지원한다길래 덥석. 근데 포스트 슬러그는 여전히 작동 불가&amp;hellip; 뭐지.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://ezaurum.com/todo/congkong-progress/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/todo/congkong-progress/</guid>
+      <description>2017.7 php php/wordpress 2018.2 php/go go/vue 2018.12 PHP -&amp;gt; wordpress -&amp;gt; go -&amp;gt; go / vue
+ftp -&amp;gt; scp / rsync / docker -&amp;gt; ecs Docker 이미지 생성방법 등
+db -&amp;gt; master/slave -&amp;gt; rds
+관리 시건이 줄어들었다
+PHP/Apache -&amp;gt; nginx -&amp;gt; LB
+No log -&amp;gt; journalctl -f -&amp;gt; cloud watch
+web -&amp;gt; REST API -&amp;gt; REST API / websocket / gRPC
+AUTH 할 때 고려할 점
+https://medium.com/@jcbaey/authentication-in-spa-reactjs-and-vuejs-the-right-way-e4a9ac5cd9a3</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://ezaurum.com/todo/docker-ecs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/todo/docker-ecs/</guid>
+      <description>https://www.44bits.io/ko/post/container-orchestration-101-with-docker-and-aws-elastic-container-service#%ED%81%B4%EB%9F%AC%EC%8A%A4%ED%84%B0%EC%97%90-%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88-%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4-%EC%B6%94%EA%B0%80</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://ezaurum.com/todo/docker-push/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/todo/docker-push/</guid>
+      <description>docker build -t congkong/key-store:latest -t congkong/key-store:v0.0.1 . docker build . aws configure $(aws ecr get-login &amp;ndash;no-include-email &amp;ndash;region ap-northeast-2) docker tag congkong/key-store:latest 998714011995.dkr.ecr.ap-northeast-2.amazonaws.com/congkong/key-store:latest docker tag congkong/key-store:v0.0.1 998714011995.dkr.ecr.ap-northeast-2.amazonaws.com/congkong/key-store:v0.0.1 docker push 998714011995.dkr.ecr.ap-northeast-2.amazonaws.com/congkong/key-store:latest</description>
     </item>
     
     <item>
