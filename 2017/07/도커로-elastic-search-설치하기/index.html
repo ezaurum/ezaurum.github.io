@@ -20,8 +20,7 @@
     
     
 
-    
-<meta itemprop="name" content="도커로 elastic search 설치하기">
+    <meta itemprop="name" content="도커로 elastic search 설치하기">
 <meta itemprop="description" content="참고는 역시 공식 사이트
 일단 docker-compose.yml 로 다음을 지정
 services: elasticsearch1: image: docker.elastic.co/elasticsearch/elasticsearch:5.5.0 container_name: elasticsearch1 environment: - cluster.name=docker-cluster - bootstrap.memory_lock=true - &quot;ES_JAVA_OPTS=-Xms512m -Xmx512m&quot; ulimits: memlock: soft: -1 hard: -1 mem_limit: 1g volumes: - esdata1:/usr/share/elasticsearch/data ports: - 9200:9200 networks: - esnet elasticsearch2: image: docker.elastic.co/elasticsearch/elasticsearch:5.5.0 container_name: elasticsearch2 environment: - cluster.name=docker-cluster - bootstrap.memory_lock=true - &quot;ES_JAVA_OPTS=-Xms512m -Xmx512m&quot; - &quot;discovery.zen.ping.unicast.hosts=elasticsearch1&quot; ulimits: memlock: soft: -1 hard: -1 mem_limit: 1g volumes: - esdata2:/usr/share/elasticsearch/data networks: - esnet volumes: esdata1: driver: local esdata2: driver: local networks: esnet:  그 다음 docker-compose 로 띄운다.">
@@ -47,8 +46,8 @@ services: elasticsearch1: image: docker.elastic.co/elasticsearch/elasticsearch:5
 services: elasticsearch1: image: docker.elastic.co/elasticsearch/elasticsearch:5.5.0 container_name: elasticsearch1 environment: - cluster.name=docker-cluster - bootstrap.memory_lock=true - &quot;ES_JAVA_OPTS=-Xms512m -Xmx512m&quot; ulimits: memlock: soft: -1 hard: -1 mem_limit: 1g volumes: - esdata1:/usr/share/elasticsearch/data ports: - 9200:9200 networks: - esnet elasticsearch2: image: docker.elastic.co/elasticsearch/elasticsearch:5.5.0 container_name: elasticsearch2 environment: - cluster.name=docker-cluster - bootstrap.memory_lock=true - &quot;ES_JAVA_OPTS=-Xms512m -Xmx512m&quot; - &quot;discovery.zen.ping.unicast.hosts=elasticsearch1&quot; ulimits: memlock: soft: -1 hard: -1 mem_limit: 1g volumes: - esdata2:/usr/share/elasticsearch/data networks: - esnet volumes: esdata1: driver: local esdata2: driver: local networks: esnet:  그 다음 docker-compose 로 띄운다." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://ezaurum.com/2017/07/%EB%8F%84%EC%BB%A4%EB%A1%9C-elastic-search-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0/" />
-<meta property="article:published_time" content="2017-07-25T00:00:00&#43;00:00"/>
-<meta property="article:modified_time" content="2017-07-25T00:00:00&#43;00:00"/>
+<meta property="article:published_time" content="2017-07-25T00:00:00+00:00" />
+<meta property="article:modified_time" content="2017-07-25T00:00:00+00:00" />
 
     
 

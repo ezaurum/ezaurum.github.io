@@ -20,8 +20,7 @@
     
     
 
-    
-<meta itemprop="name" content="spring @RequestMapping 우선순위">
+    <meta itemprop="name" content="spring @RequestMapping 우선순위">
 <meta itemprop="description" content="/*html pages*/ //매핑시 같은 URL에 produce 우선순위를 이용해 다른 메소드로 연결하고자 하면, URL value에 같은 값을 설정해 주어야 한다. // /*로 설정된 것은 /{variaBLE} 보다 나중에 검색된다. @RequestMapping(value={&#34;/&#34;,&#34;&#34;,&#34;/{questId}&#34;},method=RequestMethod.GET, produces=&#34;text/html&#34; ) public String getQuestIndex() { return &#34;quest&#34;; } /*json requests*/ @RequestMapping(value=&#34;/{questId}&#34;,method=RequestMethod.GET, produces = &#34;application/json&#34;) public @ResponseBody Quest getQuestDetail(@PathVariable(&#34;questId&#34;) long questId) { return questService.find(questId); } @RequestMapping(value={&#34;/&#34;,&#34;&#34;}, method = RequestMethod.GET, produces = &#34;application/json&#34;) public @ResponseBody Collection&lt;Quest&gt; updateQuestDetail() { return questService.findAll(); }  ">
 
 
@@ -41,8 +40,8 @@
 <meta property="og:description" content="/*html pages*/ //매핑시 같은 URL에 produce 우선순위를 이용해 다른 메소드로 연결하고자 하면, URL value에 같은 값을 설정해 주어야 한다. // /*로 설정된 것은 /{variaBLE} 보다 나중에 검색된다. @RequestMapping(value={&#34;/&#34;,&#34;&#34;,&#34;/{questId}&#34;},method=RequestMethod.GET, produces=&#34;text/html&#34; ) public String getQuestIndex() { return &#34;quest&#34;; } /*json requests*/ @RequestMapping(value=&#34;/{questId}&#34;,method=RequestMethod.GET, produces = &#34;application/json&#34;) public @ResponseBody Quest getQuestDetail(@PathVariable(&#34;questId&#34;) long questId) { return questService.find(questId); } @RequestMapping(value={&#34;/&#34;,&#34;&#34;}, method = RequestMethod.GET, produces = &#34;application/json&#34;) public @ResponseBody Collection&lt;Quest&gt; updateQuestDetail() { return questService.findAll(); }  " />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://ezaurum.com/2013/05/spring-RequestMapping-%EC%9A%B0%EC%84%A0%EC%88%9C%EC%9C%84/" />
-<meta property="article:published_time" content="2013-05-09T00:00:00&#43;00:00"/>
-<meta property="article:modified_time" content="2013-05-09T00:00:00&#43;00:00"/>
+<meta property="article:published_time" content="2013-05-09T00:00:00+00:00" />
+<meta property="article:modified_time" content="2013-05-09T00:00:00+00:00" />
 
     
 
