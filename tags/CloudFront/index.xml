@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CloudFront on Ezaurum&#39;s Blog</title>
+    <link>https://ezaurum.com/tags/CloudFront/</link>
+    <description>Recent content in CloudFront on Ezaurum&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <copyright>© Ezaurum 2001-</copyright>
+    <lastBuildDate>Thu, 20 Jun 2019 22:31:05 +0900</lastBuildDate>
+    
+	<atom:link href="https://ezaurum.com/tags/CloudFront/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>CloudFront에서 웹사이트 연동을 위해 S3의 파일을 불러올 때 Access Denied가 날 때</title>
+      <link>https://ezaurum.com/bug/cloud-front-access-denied/</link>
+      <pubDate>Thu, 20 Jun 2019 22:31:05 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/bug/cloud-front-access-denied/</guid>
+      <description> 문제 상황 CloudFront 를 웹사이트로 쓰기로 하고 S3의 파일을 연동했는데 메인 화면에서 AccessDenied가 뜸 읽기 권한은 있는 상태
+문제 원인 CloudFront의 ᅟDefaultObject가 지정되지 않았다. 목록을 읽어오는 권한은 없으니 AccessDenied가 뜬 것
+재발 방지를 위해  가끔 하는 작업은 진행 순서표 등을 이용해서 보고 따라한다. 작업을 하면 진행 순서표를 만든다.  </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -13,6 +13,41 @@
     
     <item>
       <title></title>
+      <link>https://ezaurum.com/todo/congkong-progress/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/todo/congkong-progress/</guid>
+      <description>2017.7 php php/wordpress 2018.2 php/go go/vue 2018.12 PHP -&amp;gt; wordpress -&amp;gt; go -&amp;gt; go / vue
+ftp -&amp;gt; scp / rsync / docker -&amp;gt; ecs Docker 이미지 생성방법 등
+db -&amp;gt; master/slave -&amp;gt; rds
+관리 시건이 줄어들었다
+PHP/Apache -&amp;gt; nginx -&amp;gt; LB
+No log -&amp;gt; journalctl -f -&amp;gt; cloud watch
+web -&amp;gt; REST API -&amp;gt; REST API / websocket / gRPC
+AUTH 할 때 고려할 점
+https://medium.com/@jcbaey/authentication-in-spa-reactjs-and-vuejs-the-right-way-e4a9ac5cd9a3</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://ezaurum.com/todo/docker-ecs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/todo/docker-ecs/</guid>
+      <description>https://www.44bits.io/ko/post/container-orchestration-101-with-docker-and-aws-elastic-container-service#%ED%81%B4%EB%9F%AC%EC%8A%A4%ED%84%B0%EC%97%90-%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88-%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4-%EC%B6%94%EA%B0%80</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://ezaurum.com/todo/docker-push/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/todo/docker-push/</guid>
+      <description>docker build -t congkong/key-store:latest -t congkong/key-store:v0.0.1 . docker build . aws configure $(aws ecr get-login &amp;ndash;no-include-email &amp;ndash;region ap-northeast-2) docker tag congkong/key-store:latest 998714011995.dkr.ecr.ap-northeast-2.amazonaws.com/congkong/key-store:latest docker tag congkong/key-store:v0.0.1 998714011995.dkr.ecr.ap-northeast-2.amazonaws.com/congkong/key-store:v0.0.1 docker push 998714011995.dkr.ecr.ap-northeast-2.amazonaws.com/congkong/key-store:latest</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://ezaurum.com/todo/go-%EC%9E%91%EC%97%85%EA%B3%B5%EA%B0%84/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -20,23 +55,6 @@
       <description>Go 는 작업 공간을 GOPATH 라는 환경변수에 지정한다. 다른 언어에서는 각 프로젝트마다 독립적으로 쓰고 있지만, Go 에서는 한 군데에 모아서 쓴다 C:\workspace\go 또는 ~/workspace/go 를 작업공간으로 쓰기로 했다면, 내부에
 go |&amp;ndash; bin | 실행 파일이 존재한다. Go 언어에서 사용하는 util 등이 여기 저장되고, 추가로 설치도 가능하다. | |- pkg | 참조되는 외부 패키지들이 저장된다. | |- src 실제 소스가 들어가는 위치
 src 내부에는 github.com bitbucket.org 형태로 저장된다.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://ezaurum.com/todo/hongkong/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ezaurum.com/todo/hongkong/</guid>
-      <description>차는 낡았는데 홍콩 택시 꽤 크다 입국장 통과하는데 한시간 반 걸렸다 첨에 줄 서고 30분 기다려서 도착했는데 서류 하나 안 적어서 다시 30분 반복.
-크다 마천루 공기 마빠
-버섯 같음 가로등
-인간른 하늘을 땅에 끌어매리고 서서히 썩어가믐거지 처박아 버려 별을 선에 쥐에 땅에 뿌린다
-홍콩은 돈 많~ 이 벌어서오는 걸로
-일단 마카오는 셔틀이 있어서 좋네 꿈과 환상의 세계로구만 가게가 별로 없다
-홍컹이랑 많이 비교되네 예쁘다
-인천공항
-상공에서 내려다보다누갓들이 조금씩 카지다가 아깨를 나란히하고 나를 픔고 나를 내려다본다</description>
     </item>
     
     <item>

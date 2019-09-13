@@ -1465,21 +1465,21 @@ CD를 살까 했는데 CD는 진짜 장식이고&amp;hellip; 음원을 어디서
     </item>
     
     <item>
-      <title>Git에서 특정파일 임시로 커밋내역에서 제외하기</title>
-      <link>https://ezaurum.com/2013/11/Git%EC%97%90%EC%84%9C-%ED%8A%B9%EC%A0%95%ED%8C%8C%EC%9D%BC-%EC%9E%84%EC%8B%9C%EB%A1%9C-%EC%BB%A4%EB%B0%8B%EB%82%B4%EC%97%AD%EC%97%90%EC%84%9C-%EC%A0%9C%EC%99%B8%ED%95%98%EA%B8%B0/</link>
-      <pubDate>Sun, 24 Nov 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://ezaurum.com/2013/11/Git%EC%97%90%EC%84%9C-%ED%8A%B9%EC%A0%95%ED%8C%8C%EC%9D%BC-%EC%9E%84%EC%8B%9C%EB%A1%9C-%EC%BB%A4%EB%B0%8B%EB%82%B4%EC%97%AD%EC%97%90%EC%84%9C-%EC%A0%9C%EC%99%B8%ED%95%98%EA%B8%B0/</guid>
-      <description>출처 - http://blog.outsider.ne.kr/817 Unity3D로 공동작업을 하다 보면 meta파일이 많이 생기고, 뭐 잠깐 이쪽에서 고쳐보고 싶은데 하던 작업 중에 일부는 또 올려야 할 때가 있고해서 골치 아플 때 유용함. 제외 - git update-index &amp;ndash;assume-unchanged 파일명 복구 - git update-index &amp;ndash;no-assume-unchanged 파일명 초기화 - git update-index &amp;ndash;really-refresh</description>
-    </item>
-    
-    <item>
       <title>git 현재 날짜로 번들 만들어서 지정 디렉토리로 이동하는 스크립트</title>
       <link>https://ezaurum.com/2013/11/git-%ED%98%84%EC%9E%AC-%EB%82%A0%EC%A7%9C%EB%A1%9C-%EB%B2%88%EB%93%A4-%EB%A7%8C%EB%93%A4%EC%96%B4%EC%84%9C-%EC%A7%80%EC%A0%95-%EB%94%94%EB%A0%89%ED%86%A0%EB%A6%AC%EB%A1%9C-%EC%9D%B4%EB%8F%99%ED%95%98%EB%8A%94-%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8/</link>
       <pubDate>Sun, 24 Nov 2013 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2013/11/git-%ED%98%84%EC%9E%AC-%EB%82%A0%EC%A7%9C%EB%A1%9C-%EB%B2%88%EB%93%A4-%EB%A7%8C%EB%93%A4%EC%96%B4%EC%84%9C-%EC%A7%80%EC%A0%95-%EB%94%94%EB%A0%89%ED%86%A0%EB%A6%AC%EB%A1%9C-%EC%9D%B4%EB%8F%99%ED%95%98%EB%8A%94-%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8/</guid>
       <description>date +%Y%m%d | xargs -i{} git bundle create {}.bundle &amp;ndash;all ; mv *.bundle [대상 디렉토리]</description>
+    </item>
+    
+    <item>
+      <title>Git에서 특정파일 임시로 커밋내역에서 제외하기</title>
+      <link>https://ezaurum.com/2013/11/Git%EC%97%90%EC%84%9C-%ED%8A%B9%EC%A0%95%ED%8C%8C%EC%9D%BC-%EC%9E%84%EC%8B%9C%EB%A1%9C-%EC%BB%A4%EB%B0%8B%EB%82%B4%EC%97%AD%EC%97%90%EC%84%9C-%EC%A0%9C%EC%99%B8%ED%95%98%EA%B8%B0/</link>
+      <pubDate>Sun, 24 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2013/11/Git%EC%97%90%EC%84%9C-%ED%8A%B9%EC%A0%95%ED%8C%8C%EC%9D%BC-%EC%9E%84%EC%8B%9C%EB%A1%9C-%EC%BB%A4%EB%B0%8B%EB%82%B4%EC%97%AD%EC%97%90%EC%84%9C-%EC%A0%9C%EC%99%B8%ED%95%98%EA%B8%B0/</guid>
+      <description>출처 - http://blog.outsider.ne.kr/817 Unity3D로 공동작업을 하다 보면 meta파일이 많이 생기고, 뭐 잠깐 이쪽에서 고쳐보고 싶은데 하던 작업 중에 일부는 또 올려야 할 때가 있고해서 골치 아플 때 유용함. 제외 - git update-index &amp;ndash;assume-unchanged 파일명 복구 - git update-index &amp;ndash;no-assume-unchanged 파일명 초기화 - git update-index &amp;ndash;really-refresh</description>
     </item>
     
     <item>
@@ -2743,6 +2743,16 @@ POI, google drive api 대충 조사.</description>
     </item>
     
     <item>
+      <title>consumes과 produces 조건 @RequestMapping에 쓰기</title>
+      <link>https://ezaurum.com/2012/05/consumes%EA%B3%BC-produces-%EC%A1%B0%EA%B1%B4-RequestMapping%EC%97%90-%EC%93%B0%EA%B8%B0/</link>
+      <pubDate>Thu, 24 May 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2012/05/consumes%EA%B3%BC-produces-%EC%A1%B0%EA%B1%B4-RequestMapping%EC%97%90-%EC%93%B0%EA%B8%B0/</guid>
+      <description>spring 3.1에서 @RequestMapping에 새 조건 두 개가 들어갔다. 그 이외에도 많은 것들이 바뀌었지만, 일단은 당장 쓸 수 있는 이것부터. 여기서도 볼 수 있는데, 기본적으로 consumes는 header의 Content-Type 대체, produces는 Accept 대체가 된다.
+이렇게 쓰면 된다. @RequestMapping(value=&amp;ldquo;/&amp;rdquo;, consumes={&amp;ldquo;application/json&amp;rdquo;,&amp;ldquo;multipart/form-data&amp;rdquo;,&amp;ldquo;application/x-www-form-urlencoded&amp;rdquo;})</description>
+    </item>
+    
+    <item>
       <title>Maven Dependency Management</title>
       <link>https://ezaurum.com/2012/05/Maven-Dependency-Management/</link>
       <pubDate>Thu, 24 May 2012 00:00:00 +0000</pubDate>
@@ -2768,16 +2778,6 @@ POI, google drive api 대충 조사.</description>
       
       <guid>https://ezaurum.com/2012/05/Spring-application-context-schema-version-%EC%A7%80%EC%A0%95/</guid>
       <description>스프링 어플리케이션 콘텍스트 파일 처음에 스키마를 지정해 주는데, 스키마 파일 버전 지정 안 하면 그냥 알아서 가져온다. 링크 들어가서 파일 직접 받아보니 최신(현재 3.1)과 버전 지정 안 한 파일이 똑같다. 최신버전으로 자동 갱신 되는 듯. 그러니 모를 때는 귀찮게 검색하지 말고 그냥 적으면 되겠다. 출처 - http://stackoverflow.com/questions/9197141/spring-config-files-and-specifying-schema-versions</description>
-    </item>
-    
-    <item>
-      <title>consumes과 produces 조건 @RequestMapping에 쓰기</title>
-      <link>https://ezaurum.com/2012/05/consumes%EA%B3%BC-produces-%EC%A1%B0%EA%B1%B4-RequestMapping%EC%97%90-%EC%93%B0%EA%B8%B0/</link>
-      <pubDate>Thu, 24 May 2012 00:00:00 +0000</pubDate>
-      
-      <guid>https://ezaurum.com/2012/05/consumes%EA%B3%BC-produces-%EC%A1%B0%EA%B1%B4-RequestMapping%EC%97%90-%EC%93%B0%EA%B8%B0/</guid>
-      <description>spring 3.1에서 @RequestMapping에 새 조건 두 개가 들어갔다. 그 이외에도 많은 것들이 바뀌었지만, 일단은 당장 쓸 수 있는 이것부터. 여기서도 볼 수 있는데, 기본적으로 consumes는 header의 Content-Type 대체, produces는 Accept 대체가 된다.
-이렇게 쓰면 된다. @RequestMapping(value=&amp;ldquo;/&amp;rdquo;, consumes={&amp;ldquo;application/json&amp;rdquo;,&amp;ldquo;multipart/form-data&amp;rdquo;,&amp;ldquo;application/x-www-form-urlencoded&amp;rdquo;})</description>
     </item>
     
     <item>
@@ -2860,6 +2860,16 @@ POI, google drive api 대충 조사.</description>
     </item>
     
     <item>
+      <title>iBatis TypeHandler</title>
+      <link>https://ezaurum.com/2012/03/iBatis-TypeHandler/</link>
+      <pubDate>Mon, 26 Mar 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2012/03/iBatis-TypeHandler/</guid>
+      <description>TypeHandler는 iBatis에서 특정 타입을 매핑할 때 원하는 행동을 지정해주는 클래스다. 이걸 이용하면 DB에는 Y/N으로 저장된 걸 boolean으로 처리한다든가 하는 게 가능해진다.  public class StudyTypeHandler extends EnumTypeHandler { public StudyTypeHandler() { super(EnumStudy.class); }
+//얘가 결과를 받아서 빈에 매핑하는 애다. @Override public Object getResult(ResultGetter getter) throws SQLException { int result = getter.getInt(); if(getter.wasNull()) { return null; } return EnumStudy.valueOf(result); } //얘는 빈에서 받아다가 DB에 매핑하는 애다. @Override public void setParameter(ParameterSetter setter, Object parameter) throws SQLException { if(parameter == null) { setter.</description>
+    </item>
+    
+    <item>
       <title>Java Enum</title>
       <link>https://ezaurum.com/2012/03/Java-Enum/</link>
       <pubDate>Mon, 26 Mar 2012 00:00:00 +0000</pubDate>
@@ -2868,16 +2878,6 @@ POI, google drive api 대충 조사.</description>
       <description>import java.lang.IllegalArgumentException;
 public enum EnumStudy { JAVA(1), C(2),RUBY(3); private int value; public int intValue() { return value;} private EnumStudy(int value) { this.value = value; } public static EnumStudy valueOf(int value) { switch (value) { case 1: return JAVA; case 2: return C; case 3: return RUBY; default: throw new IllegalArgumentException(&amp;ldquo;There is no matching for &amp;ldquo;+value); } }
 public static void main(String args[]) { System.out.println(EnumStudy.valueOf(1)); System.out.println(EnumStudy.valueOf(&amp;ldquo;JAVA&amp;rdquo;)); //이건 enum들은 기본적으로 선언되는 메소드.</description>
-    </item>
-    
-    <item>
-      <title>iBatis TypeHandler</title>
-      <link>https://ezaurum.com/2012/03/iBatis-TypeHandler/</link>
-      <pubDate>Mon, 26 Mar 2012 00:00:00 +0000</pubDate>
-      
-      <guid>https://ezaurum.com/2012/03/iBatis-TypeHandler/</guid>
-      <description>TypeHandler는 iBatis에서 특정 타입을 매핑할 때 원하는 행동을 지정해주는 클래스다. 이걸 이용하면 DB에는 Y/N으로 저장된 걸 boolean으로 처리한다든가 하는 게 가능해진다.  public class StudyTypeHandler extends EnumTypeHandler { public StudyTypeHandler() { super(EnumStudy.class); }
-//얘가 결과를 받아서 빈에 매핑하는 애다. @Override public Object getResult(ResultGetter getter) throws SQLException { int result = getter.getInt(); if(getter.wasNull()) { return null; } return EnumStudy.valueOf(result); } //얘는 빈에서 받아다가 DB에 매핑하는 애다. @Override public void setParameter(ParameterSetter setter, Object parameter) throws SQLException { if(parameter == null) { setter.</description>
     </item>
     
     <item>
