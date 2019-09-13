@@ -3,17 +3,47 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://ezaurum.com/retrospective/2019-2nd-quater/</loc>
-    <lastmod>2019-07-01T15:53:07+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://ezaurum.com/categories/</loc>
-    <lastmod>2019-07-01T15:53:07+09:00</lastmod>
+    <lastmod>2019-09-13T15:49:27+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://ezaurum.com/</loc>
+    <lastmod>2019-09-13T15:49:27+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/post/</loc>
+    <lastmod>2019-09-13T15:49:27+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/tags/</loc>
+    <lastmod>2019-09-13T15:49:27+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/tags/%EC%97%AC%ED%96%89/</loc>
+    <lastmod>2019-09-13T15:49:27+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/categories/%EC%97%AC%ED%96%89%EA%B8%B0/</loc>
+    <lastmod>2019-09-13T15:49:27+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/tags/%ED%99%8D%EC%BD%A9/</loc>
+    <lastmod>2019-09-13T15:49:27+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/2019/09/%ED%99%8D%EC%BD%A9-%EC%97%AC%ED%96%89/</loc>
+    <lastmod>2019-09-13T15:49:27+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/retrospective/2019-2nd-quater/</loc>
     <lastmod>2019-07-01T15:53:07+09:00</lastmod>
   </url>
   
@@ -28,17 +58,12 @@
   </url>
   
   <url>
-    <loc>https://ezaurum.com/tags/</loc>
+    <loc>https://ezaurum.com/series/%ED%9A%8C%EA%B3%A0/</loc>
     <lastmod>2019-07-01T15:53:07+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://ezaurum.com/categories/%ED%9A%8C%EA%B3%A0/</loc>
-    <lastmod>2019-07-01T15:53:07+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ezaurum.com/series/%ED%9A%8C%EA%B3%A0/</loc>
     <lastmod>2019-07-01T15:53:07+09:00</lastmod>
   </url>
   
@@ -94,11 +119,6 @@
   
   <url>
     <loc>https://ezaurum.com/tags/csv/</loc>
-    <lastmod>2019-05-12T01:54:01+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ezaurum.com/post/</loc>
     <lastmod>2019-05-12T01:54:01+09:00</lastmod>
   </url>
   
@@ -999,16 +1019,6 @@
   
   <url>
     <loc>https://ezaurum.com/2015/07/%EB%B3%B4%EB%9D%BC%EC%B9%B4%EC%9D%B4-%EC%97%AC%ED%96%89%EA%B8%B0/</loc>
-    <lastmod>2015-07-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ezaurum.com/tags/%EC%97%AC%ED%96%89/</loc>
-    <lastmod>2015-07-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ezaurum.com/categories/%EC%97%AC%ED%96%89%EA%B8%B0/</loc>
     <lastmod>2015-07-12T00:00:00+00:00</lastmod>
   </url>
   
@@ -8925,45 +8935,6 @@
   <url>
     <loc>https://ezaurum.com/2007/02/%EA%B2%B0%EA%B5%AD-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%8B%A4%EC%8B%9C-%EB%A7%8C%EB%93%A4%EB%8B%A4./</loc>
     <lastmod>2007-02-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ezaurum.com/todo/congkong-progress/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ezaurum.com/todo/docker-ecs/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ezaurum.com/todo/docker-push/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ezaurum.com/todo/go-%EC%9E%91%EC%97%85%EA%B3%B5%EA%B0%84/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ezaurum.com/todo/jpa/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ezaurum.com/todo/%EC%83%89%EA%B9%94/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ezaurum.com/todo/%ED%95%84%EC%9A%94%ED%95%9C%EB%AC%BC%ED%92%88/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ezaurum.com/todo/</loc>
   </url>
   
 </urlset>
