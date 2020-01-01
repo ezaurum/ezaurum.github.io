@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>퀵 정렬 on Ezaurum&#39;s Blog</title>
@@ -18,8 +18,7 @@
       <pubDate>Mon, 17 Jan 2011 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2011/01/Quick-Sort/</guid>
-      <description>int partition(int * array, int leftIndex, int lastIndex, int pivotIndex) { int pivotValue = array[pivotIndex]; swap(&amp;amp;array[pivotIndex], &amp;amp;array[lastIndex]); int storeIndex = leftIndex; for(int i = leftIndex; i &amp;lt; lastIndex; i++) { if(array[i] leftIndex) { int newPivotIndex = partition(array,leftIndex,lastIndex,lastIndex); quickSort(array, leftIndex,newPivotIndex-1); quickSort(array, newPivotIndex+1,lastIndex); } }
-오늘은 정렬의 왕도, 퀵정렬. 사실 하다 꼬여서 이 소스는 위키에서 퍼온 의사코드를 그대로 옮긴 것. 아놔. 내 뇌의 숫자개념에는 뭔가 문제가 있는 게 확실해. 지금와서 어떻게 할 수도 없고, 힘내서 외운 걸로 커버하자.</description>
+      <description>int partition(int * array, int leftIndex, int lastIndex, int pivotIndex) { int pivotValue = array[pivotIndex]; swap(&amp;amp;array[pivotIndex], &amp;amp;array[lastIndex]); int storeIndex = leftIndex; for(int i = leftIndex; i &amp;lt; lastIndex; i++) { if(array[i] leftIndex) { int newPivotIndex = partition(array,leftIndex,lastIndex,lastIndex); quickSort(array, leftIndex,newPivotIndex-1); quickSort(array, newPivotIndex+1,lastIndex); } }오늘은 정렬의 왕도, 퀵정렬. 사실 하다 꼬여서 이 소스는 위키에서 퍼온 의사코드를 그대로 옮긴 것. 아놔. 내 뇌의 숫자개념에는 뭔가 문제가 있는 게 확실해. 지금와서 어떻게 할 수도 없고, 힘내서 외운 걸로 커버하자.</description>
     </item>
     
   </channel>

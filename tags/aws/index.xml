@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>aws on Ezaurum&#39;s Blog</title>
@@ -18,7 +18,7 @@
       <pubDate>Thu, 20 Jun 2019 22:31:05 +0900</pubDate>
       
       <guid>https://ezaurum.com/bug/cloud-front-access-denied/</guid>
-      <description> 문제 상황 CloudFront 를 웹사이트로 쓰기로 하고 S3의 파일을 연동했는데 메인 화면에서 AccessDenied가 뜸 읽기 권한은 있는 상태
+      <description>문제 상황 CloudFront 를 웹사이트로 쓰기로 하고 S3의 파일을 연동했는데 메인 화면에서 AccessDenied가 뜸 읽기 권한은 있는 상태
 문제 원인 CloudFront의 ᅟDefaultObject가 지정되지 않았다. 목록을 읽어오는 권한은 없으니 AccessDenied가 뜬 것
 재발 방지를 위해  가끔 하는 작업은 진행 순서표 등을 이용해서 보고 따라한다. 작업을 하면 진행 순서표를 만든다.  </description>
     </item>
@@ -50,7 +50,7 @@
       <pubDate>Wed, 08 May 2013 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2013/05/AWS-ec2-open-jdk7%EC%9C%BC%EB%A1%9C-%EC%97%85%EA%B7%B8%EB%A0%88%EC%9D%B4%EB%93%9C/</guid>
-      <description>일단 open jdk 7 을 설치한다. sudo yum install java-1.7.0-openjdk  그 다음 java에 걸려 있는 심볼릭 링크를 바꿔줘야 하는데, /usr/bin/java -&amp;gt; /etc/alternatives/java -&amp;gt; -&amp;gt; /usr/lib/jvm/(현재 jre)/bin/java 이렇게 되어 있으므로,  sudo ln -s /usr/lib/jvm/jre-1.7.0-openjdk.x86_64/bin/java /etc/alternatives/java7 sudo mv /etc/alternatives/java7 /etc/alternatives/java  을 실행해서 심볼릭 링크를 바꿔준다. 지우고 다시 걸어도 되지만, 일단 지우고 거는 사이에 전 링크가 끊어지므로 가능한 영향을 적게 하기 위해서&amp;hellip;
+      <description>일단 open jdk 7 을 설치한다. sudo yum install java-1.7.0-openjdk 그 다음 java에 걸려 있는 심볼릭 링크를 바꿔줘야 하는데, /usr/bin/java -&amp;gt; /etc/alternatives/java -&amp;gt; -&amp;gt; /usr/lib/jvm/(현재 jre)/bin/java 이렇게 되어 있으므로, sudo ln -s /usr/lib/jvm/jre-1.7.0-openjdk.x86_64/bin/java /etc/alternatives/java7 sudo mv /etc/alternatives/java7 /etc/alternatives/java 을 실행해서 심볼릭 링크를 바꿔준다. 지우고 다시 걸어도 되지만, 일단 지우고 거는 사이에 전 링크가 끊어지므로 가능한 영향을 적게 하기 위해서&amp;hellip;
 ln -s /location/to/link2 newlink mv newlink linkname</description>
     </item>
     
@@ -60,7 +60,7 @@ ln -s /location/to/link2 newlink mv newlink linkname</description>
       <pubDate>Tue, 30 Apr 2013 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2013/04/AWS-RDS-%EC%9D%B8%EC%BD%94%EB%94%A9-UTF-8%EC%9C%BC%EB%A1%9C-%EC%84%A4%EC%A0%95/</guid>
-      <description>파라마터를 바꾼 다음, DB인스턴스를 리셋해야 한다. 있던 걸 자동으로 바꿔주는 건 아니다. 이미 있는 데이터는 뺀 다음 다시 넣든지 해야 할 듯. 지금은 데이터가 없는 상태라 새로 만들기만 함. 참고링크 일단 파라마터 그룹을 하나 만든다. 변경해야 할 것은 다음과 같다.  character_set_client = utf8 character_set_connection = utf8 character_set_database = utf8 character_set_results = utf8 character_set_server = utf8 collation_connection = utf8_general_ci collation_server = utf8_general_ci  파라마터 그룹을 이걸로 바꾸고, 리셋을 해 준다. 그러면 그 다음부터 들어가는 값은 UTF-8으로 들어가게 된다.</description>
+      <description>파라마터를 바꾼 다음, DB인스턴스를 리셋해야 한다. 있던 걸 자동으로 바꿔주는 건 아니다. 이미 있는 데이터는 뺀 다음 다시 넣든지 해야 할 듯. 지금은 데이터가 없는 상태라 새로 만들기만 함. 참고링크일단 파라마터 그룹을 하나 만든다. 변경해야 할 것은 다음과 같다. character_set_client = utf8 character_set_connection = utf8 character_set_database = utf8 character_set_results = utf8 character_set_server = utf8 collation_connection = utf8_general_ci collation_server = utf8_general_ci 파라마터 그룹을 이걸로 바꾸고, 리셋을 해 준다. 그러면 그 다음부터 들어가는 값은 UTF-8으로 들어가게 된다.</description>
     </item>
     
     <item>
@@ -69,7 +69,7 @@ ln -s /location/to/link2 newlink mv newlink linkname</description>
       <pubDate>Sun, 27 Jan 2013 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2013/01/%EB%B6%80%EC%A0%95%EA%B8%B0-%EC%A0%95%EB%A6%AC/</guid>
-      <description>모든 것에 의미있는 히스토리가 있어야 한다. log, history 들은 AOP로 구현해야 한다. 필연적으로 데이터가 많아지므로 async&amp;amp;big data를 고려. 사용하는 객체는 UUID 류의 인덱스가 붙어 있는 게 편하다. 그러잖으면 검색이 계속 일어나야 함. hash든 뭐든 즉시 찾을 수 있게 하자. JSON-object 변환시, 상황에 따라 내부 object를 다 변환할지 id만 뽑아올지를 생각해보자. AWS S3에서 파일이 없어도 403이 뜬다. 보안상 당연한가... switch 문에 케이스가 줄줄 붙어 있으면 제거해 보자. 요구 사항 명세, 문서와 테스트 케이스가 같으면 좋다.</description>
+      <description></description>
     </item>
     
     <item>
@@ -80,9 +80,8 @@ ln -s /location/to/link2 newlink mv newlink linkname</description>
       <guid>https://ezaurum.com/2012/09/%ED%98%B8%EC%8A%A4%ED%8C%85-%EC%95%84%EB%A7%88%EC%A1%B4%EC%9C%BC%EB%A1%9C-%EC%9D%B4%EC%A0%84/</guid>
       <description>내년에는 돈을 내야 하니까 또 옮겨갈지는 모르겠지만&amp;hellip;.
 여튼 일단은 여기로 왔음. 암 것도 안 했는데 뭔가 많이 바뀐 느낌인데 이상하게&amp;hellip;.
-자꾸 404가 떠서 고생했는데 이 링크 에서 mod_rewite를 켜는 방법을 보고 해결&amp;hellip; OTL&amp;hellip; 한글 문제인줄 알고 계속 삽질.
-&amp;nbsp;
-&amp;nbsp;</description>
+자꾸 404가 떠서 고생했는데 이 링크에서 mod_rewite를 켜는 방법을 보고 해결&amp;hellip; OTL&amp;hellip; 한글 문제인줄 알고 계속 삽질.
+  </description>
     </item>
     
   </channel>

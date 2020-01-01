@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>encoding on Ezaurum&#39;s Blog</title>
@@ -18,7 +18,7 @@
       <pubDate>Wed, 08 May 2013 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2013/05/mySQL-%EC%A0%84%EC%97%AD-%EC%84%A4%EC%A0%95-%EB%B3%80%EA%B2%BD/</guid>
-      <description>이상하게 utf8으로 바꾸는데 안 바뀌어서, session과 global 양 쪽을 다 바꾸었다.  SET GLOBAL character_set_client = &amp;ldquo;utf8&amp;rdquo;, character_set_connection = &amp;ldquo;utf8&amp;rdquo;, character_set_database = &amp;ldquo;utf8&amp;rdquo;, character_set_results = &amp;ldquo;utf8&amp;rdquo; , character_set_server = &amp;ldquo;utf8&amp;rdquo;, collation_connection = &amp;ldquo;utf8_general_ci&amp;rdquo;, collation_server = &amp;ldquo;utf8_general_ci&amp;rdquo;; SET SESSION character_set_client = &amp;ldquo;utf8&amp;rdquo;, character_set_connection = &amp;ldquo;utf8&amp;rdquo;, character_set_database = &amp;ldquo;utf8&amp;rdquo;, character_set_results = &amp;ldquo;utf8&amp;rdquo; , character_set_server = &amp;ldquo;utf8&amp;rdquo;, collation_connection = &amp;ldquo;utf8_general_ci&amp;rdquo;, collation_server = &amp;ldquo;utf8_general_ci&amp;rdquo;;  이유를 모르니 찜찜하지만&amp;hellip; 여튼 해결. 그런데 콘솔에서 접근하면 collation_connection은 여전히 latin1_swedish_ci 으로 뜬다&amp;hellip; 뭐지&amp;hellip;</description>
+      <description>이상하게 utf8으로 바꾸는데 안 바뀌어서, session과 global 양 쪽을 다 바꾸었다. SET GLOBAL character_set_client = &amp;ldquo;utf8&amp;rdquo;, character_set_connection = &amp;ldquo;utf8&amp;rdquo;, character_set_database = &amp;ldquo;utf8&amp;rdquo;, character_set_results = &amp;ldquo;utf8&amp;rdquo; , character_set_server = &amp;ldquo;utf8&amp;rdquo;, collation_connection = &amp;ldquo;utf8_general_ci&amp;rdquo;, collation_server = &amp;ldquo;utf8_general_ci&amp;rdquo;; SET SESSION character_set_client = &amp;ldquo;utf8&amp;rdquo;, character_set_connection = &amp;ldquo;utf8&amp;rdquo;, character_set_database = &amp;ldquo;utf8&amp;rdquo;, character_set_results = &amp;ldquo;utf8&amp;rdquo; , character_set_server = &amp;ldquo;utf8&amp;rdquo;, collation_connection = &amp;ldquo;utf8_general_ci&amp;rdquo;, collation_server = &amp;ldquo;utf8_general_ci&amp;rdquo;; 이유를 모르니 찜찜하지만&amp;hellip; 여튼 해결. 그런데 콘솔에서 접근하면 collation_connection은 여전히 latin1_swedish_ci 으로 뜬다&amp;hellip; 뭐지&amp;hellip;</description>
     </item>
     
     <item>
@@ -27,8 +27,8 @@
       <pubDate>Fri, 22 Oct 2010 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2010/10/Java-%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88%EC%97%90-Form-%EA%B0%92%EC%9D%98-encoding-%EA%B9%A8%EC%A7%88-%EB%95%8C/</guid>
-      <description>점검사항은 아래 세가지.  폼에서 정확히 인코딩을 지정해서 넘겨주는가? 서버에서 정확히 인코딩을 인식하는가? DB에서 정확히 인코딩을 인식하는가?  이다.  폼에서 정확히 인코딩을 지정해서 념겨주는가? 이 경우는 일단 문서 첫머리에 meta태그가 utf-8으로 지정되어 있고, 폼에 accept-charset 어트리뷰트가 지정되어 있고, 브라우저에서 확인해서 문서가 utf-8으로 읽히는 상황이라면 문제 없다고 보면 된다. UTF-8으로 나와야 하는 페이지가 UTF-8으로 안나오는 경우는 여기서 다룰 게 아니다.
- &amp;lt;meta http-equiv=&amp;ldquo;Content-Type&amp;rdquo; content=&amp;ldquo;text/html; charset=UTF-8&amp;rdquo; /&amp;gt; &amp;lt;meta charset=&amp;ldquo;UTF-8&amp;rdquo; /&amp;gt; &amp;lt;form accept-charset=&amp;ldquo;UTF-8&amp;rdquo; &amp;gt;   서버에서 인코딩을 제대로 인식하는가?</description>
+      <description>점검사항은 아래 세가지.
+포인트는 이것, 원인은 크게 세가지니까 하나씩 제대로 되었는지 시험해볼것.</description>
     </item>
     
     <item>

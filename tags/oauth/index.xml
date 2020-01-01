@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>oauth on Ezaurum&#39;s Blog</title>
@@ -18,7 +18,7 @@
       <pubDate>Mon, 05 Jan 2015 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2015/01/oAuth-%EC%A0%95%EB%A6%AC/</guid>
-      <description>OAuth를 통해 보는 안전한 통신 프로토콜의 조건 oAuth와 춤을 oAuth 공식 사이트</description>
+      <description>OAuth를 통해 보는 안전한 통신 프로토콜의 조건oAuth와 춤을oAuth 공식 사이트</description>
     </item>
     
   </channel>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>password on Ezaurum&#39;s Blog</title>
@@ -18,7 +18,7 @@
       <pubDate>Fri, 21 Nov 2008 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2008/11/Windows-XP-%EC%82%AC%EC%9A%A9%EC%9E%90-%EA%B3%84%EC%A0%95-%EB%B9%84%EB%B0%80%EB%B2%88%ED%98%B8%EB%A5%BC-%EC%9E%8A%EC%97%88%EC%9D%84-%EB%95%8C/</guid>
-      <description>관리자 -Administrator 계정의 비번을 알 경우 관리자 계정 로그인-제어판-사용자 계정-비번을 잊은 계정 선택-비밀번호 변경 관리자 계정이 보통 때 뜨지 않는 경우는, 부팅 시, F8을 눌러서 안전모드로 들어간다.  관리자 계정 비번을 모를 경우 F8을 눌러서 안전모드 명령 프롬프트 사용 을 선택해서, net user 필요한아이디 *ENTER를 입력. 그럼 비번 재설정 가능.  둘 다 여의치 않을 경우 안전모드든, hiren&#39;s CD를 이용하든 윈도우즈 폴더의 system32config 폴더 안에 있는 SAM파일을 지우고 재부팅 - 이 방법은 위험하다고 함.</description>
+      <description></description>
     </item>
     
   </channel>

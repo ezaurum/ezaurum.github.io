@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>일상 on Ezaurum&#39;s Blog</title>
@@ -29,7 +29,7 @@
       <pubDate>Thu, 10 Jan 2019 22:14:27 +0900</pubDate>
       
       <guid>https://ezaurum.com/2019/01/2019%EB%85%84-%EB%AA%A9%ED%91%9C/</guid>
-      <description> 건강  체중 5kg 감량 자전거 출퇴근  재무  채무 완전 변제  </description>
+      <description>건강  체중 5kg 감량 자전거 출퇴근  재무  채무 완전 변제  </description>
     </item>
     
     <item>
@@ -59,7 +59,7 @@
       
       <guid>https://ezaurum.com/bug/vue-conflict-js-literal/</guid>
       <description>문제상황 - VueJS를 시작하면서, go와 template이 겹쳐서 ${ }로 구분자를 변경해서 작업중이었는데, 이상하게도 한 컴포넌트에서 계속 row 가 undefined라는 에러가 떴음.
-let reserveRow = `&amp;lt;li&amp;gt;${row.reserveName} - ${row.reservePhone}&amp;lt;/li&amp;gt;`  문제 원인 - ${ } 가 ES2016의 템플릿 리터럴에서 사용하는 구분자었다. 그래서 VueJS가 번역하기 전에 JS가 번역해버려서 에러가 났던 것.
+let reserveRow = `&amp;lt;li&amp;gt;${row.reserveName} - ${row.reservePhone}&amp;lt;/li&amp;gt;` 문제 원인 - ${ } 가 ES2016의 템플릿 리터럴에서 사용하는 구분자었다. 그래서 VueJS가 번역하기 전에 JS가 번역해버려서 에러가 났던 것.
 해결방안 - 문서를 꼼꼼히, 그리고 실제로 go template과 겹치는 부분에서만 구분자를 변경하자.</description>
     </item>
     
@@ -78,7 +78,7 @@ let reserveRow = `&amp;lt;li&amp;gt;${row.reserveName} - ${row.reservePhone}&amp
       <pubDate>Mon, 01 Jan 2018 22:01:09 +0700</pubDate>
       
       <guid>https://ezaurum.com/2018/01/2018%EB%85%84-%EB%AA%A9%ED%91%9C/</guid>
-      <description> 마음자세  어디서 무얼 하더라도 내게 필요한 것, 내가 원하는 것을 한다. 내게 필요없는 것을 욕심내지 않는다. 그러기 위해서 항상 생각할 여유가 있도록 한다.  건강  북한강 종주 라이딩 - 여의치 않으면 일단 다른 뭔가로&amp;hellip; 체중 5kg 감량  사이드 프로젝트  택틱스 게임 완성 게시판 프로젝트 완성  </description>
+      <description>마음자세  어디서 무얼 하더라도 내게 필요한 것, 내가 원하는 것을 한다. 내게 필요없는 것을 욕심내지 않는다. 그러기 위해서 항상 생각할 여유가 있도록 한다.  건강  북한강 종주 라이딩 - 여의치 않으면 일단 다른 뭔가로&amp;hellip; 체중 5kg 감량  사이드 프로젝트  택틱스 게임 완성 게시판 프로젝트 완성  </description>
     </item>
     
     <item>
@@ -89,7 +89,7 @@ let reserveRow = `&amp;lt;li&amp;gt;${row.reserveName} - ${row.reservePhone}&amp
       <guid>https://ezaurum.com/bug/2017-12-29-bug-diary/</guid>
       <description>문제 상황 - 에러가 없는데 DB에 자료가 기록되지 않았다.
 문제 원인 -
-func (dbm *Manager) transaction(action TransactionHandlerFunc, targets ...interface{})  를 tranaction(action) 형태로 호출하고는 왜 안되는지를 못 찾아서 2시간 허비.
+func (dbm *Manager) transaction(action TransactionHandlerFunc, targets ...interface{}) 를 tranaction(action) 형태로 호출하고는 왜 안되는지를 못 찾아서 2시간 허비.
 재발 방지를 위해 - 인수를 먼저 확인하자.</description>
     </item>
     

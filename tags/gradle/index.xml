@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>gradle on Ezaurum&#39;s Blog</title>
@@ -39,7 +39,7 @@
       <pubDate>Tue, 28 May 2013 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2013/05/java-code-base-spring-security-setting-with-gradle/</guid>
-      <description>java code base spring security setting github 리파지토리 build.gradle에 다음을 추가  repositories { mavenCentral() maven { url &amp;ldquo;http://repo.springsource.org/snapshot&amp;quot; } }
+      <description>java code base spring security setting github 리파지토리build.gradle에 다음을 추가 repositories { mavenCentral() maven { url &amp;ldquo;http://repo.springsource.org/snapshot&amp;quot; } }
 dependencies { def springSecurityVersion = &amp;ldquo;3.1.4.RELEASE&amp;rdquo; compile &amp;ldquo;org.springframework.security:spring-security-core:$springSecurityVersion&amp;rdquo; compile &amp;ldquo;org.springframework.security:spring-security-web:$springSecurityVersion&amp;rdquo; compile &amp;ldquo;org.springframework.security:spring-security-config:$springSecurityVersion&amp;rdquo; compile &amp;ldquo;org.springframework.security:spring-security-javaconfig:1.0.0.CI-SNAPSHOT&amp;rdquo; }</description>
     </item>
     
@@ -49,7 +49,7 @@ dependencies { def springSecurityVersion = &amp;ldquo;3.1.4.RELEASE&amp;rdquo; c
       <pubDate>Thu, 23 May 2013 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2013/05/gradle%EC%97%90%EC%84%9C-jetty-9-%EC%93%B0%EA%B8%B0/</guid>
-      <description>gradle에 plugin으로 사용되는 jetty는 jetty 9이 아니다. 그러므로 WebApplicationInitializer를 써서 만든 앱은 돌아가지 않는다.
+      <description>gradle에 plugin으로 사용되는 jetty는 jetty 9이 아니다.그러므로 WebApplicationInitializer를 써서 만든 앱은 돌아가지 않는다.
 저 이슈 말미의 커멘트에 나온 방법으로 해결. 이걸로 6시간 넘게 잡아먹었다&amp;hellip;</description>
     </item>
     
@@ -61,7 +61,8 @@ dependencies { def springSecurityVersion = &amp;ldquo;3.1.4.RELEASE&amp;rdquo; c
       <guid>https://ezaurum.com/2012/11/%EA%B0%80%EC%83%81%EB%A8%B8%EC%8B%A0%EC%97%90-%EC%84%9C%EB%B2%84-%EC%85%8B%ED%8C%85-%ED%95%98%EA%B3%A0-%EB%82%98%EB%8B%88%EA%B9%8C-%EA%B9%A8%EB%8B%AC%EC%95%98%EB%8A%94%EB%8D%B0.../</guid>
       <description>나 왜 라즈베리 파이를 놀려두고 있었지.. OTL&amp;hellip;
 &amp;hellip;그래서 오늘 밤은 거기다 다시 셋팅해야&amp;hellip; OTL&amp;hellip;
-일단 할 거 목록을 적으면&amp;hellip;  라즈베리 파이에 필요한 것들을 깐다. - 기본 설정은 되어 있으니 apt-get으로 대충&amp;hellip;  nexus - 지난 주에 배웠으니 어디&amp;hellip; git - github는 public이라.. 거기 돈을 내고 private을 할까 이거 전기세가 쌀까 생각중&amp;hellip; jenkins - 음.. 어디 한 번&amp;hellip; gradle - 어디 써 보자.. ftp - 혹시나.   아무거나 빌드해서 올려본다 - 되는가 test 해 봄 리셋해도 바뀌지 않도록 각 PC의 내부 IP를 고정한다.</description>
+일단 할 거 목록을 적으면&amp;hellip;
+자, 이걸 하려면&amp;hellip; 일단 일을 빨리 끝내고 집에 가야지&amp;hellip;</description>
     </item>
     
   </channel>

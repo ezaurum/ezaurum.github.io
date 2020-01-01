@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>socket on Ezaurum&#39;s Blog</title>
@@ -18,7 +18,7 @@
       <pubDate>Sun, 24 Nov 2013 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2013/11/C#-Socket.AcceptAsync%EC%97%90%EC%84%9C-invalidOperationException%EC%9D%B4-%EB%82%A0-%EB%95%8C/</guid>
-      <description>C#에서 소켓 프로그래밍을 할 때, Socket.AcceptAsync로 연결하는데 다음과 같은 예외가 발생했다. System.InvalidOperationException이(가) 처리되지 않았습니다. Message=AcceptSocket: 소켓을 바인딩하거나 연결하면 안 됩니다. 원인은 AcceptAsync이후에 같은 SocketAsyncEventArgs객체를 이용해 계속 Accept를 받으려고 했는데, SocketAsyncEventArgs.AcceptSocket 프로퍼티를 null로 초기화하지 않았기 때문이다. 재사용하려면 AcceptSocket = null;을 넣어줄 것.</description>
+      <description>C#에서 소켓 프로그래밍을 할 때, Socket.AcceptAsync로 연결하는데 다음과 같은 예외가 발생했다. System.InvalidOperationException이(가) 처리되지 않았습니다. Message=AcceptSocket: 소켓을 바인딩하거나 연결하면 안 됩니다.원인은 AcceptAsync이후에 같은 SocketAsyncEventArgs객체를 이용해 계속 Accept를 받으려고 했는데, SocketAsyncEventArgs.AcceptSocket 프로퍼티를 null로 초기화하지 않았기 때문이다. 재사용하려면 AcceptSocket = null;을 넣어줄 것.</description>
     </item>
     
     <item>
@@ -27,9 +27,7 @@
       <pubDate>Thu, 04 Dec 2008 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2008/12/%EC%86%8C%EC%BC%93-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EC%9D%84-%ED%95%A0-%EB%95%8C-read%EA%B0%80-%EC%83%9D%EA%B0%81%EB%8C%80%EB%A1%9C-%EC%9E%91%EB%8F%99%ED%95%98%EC%A7%80-%EC%95%8A%EB%8A%94-%EA%B2%BD%EC%9A%B0/</guid>
-      <description>기말고사용으로 채팅 프로그램을 만들던 중, close를 하지 않고, 연결을 유지한 채로 write함수로 EOF값 만을 보내서 대화 내용의 종결을 알리려고 했으나, 잘 작동하지 않았다.
-read는 socket 이 close되지 않으면 EOF를 읽더라도 1을 반환한다. 따라서 연결을 유지하고 read/write를 하려면 읽은 값이 EOF인지를 체크해준다! 이거 알아내려고 이틀 밤 샜다. 젠장. 나만 병신인가.  while (temp) { read(sockfd, &amp;amp;s, 1); if ( s == EOF) break; printf(&amp;ldquo;%c&amp;rdquo;,s); } 
-read 의 리턴값 - 기본적으로 실제로 읽은 바이트 수 만큼.</description>
+      <description>기말고사용으로 채팅 프로그램을 만들던 중, close를 하지 않고, 연결을 유지한 채로 write함수로 EOF값 만을 보내서 대화 내용의 종결을 알리려고 했으나, 잘 작동하지 않았다.read는 socket 이 close되지 않으면 EOF를 읽더라도 1을 반환한다. 따라서 연결을 유지하고 read/write를 하려면 읽은 값이 EOF인지를 체크해준다! 이거 알아내려고 이틀 밤 샜다. 젠장. 나만 병신인가. while (temp) { read(sockfd, &amp;amp;s, 1); if ( s == EOF) break; printf(&amp;quot;%c&amp;rdquo;,s); } read 의 리턴값 - 기본적으로 실제로 읽은 바이트 수 만큼.</description>
     </item>
     
     <item>
@@ -39,9 +37,8 @@ read 의 리턴값 - 기본적으로 실제로 읽은 바이트 수 만큼.</des
       
       <guid>https://ezaurum.com/2008/11/lsocket-%EC%98%B5%EC%85%98%EC%97%90%EC%84%9C-%EC%97%90%EB%9F%AC%EA%B0%80-%EB%82%A0-%EB%95%8C/</guid>
       <description>소켓 프로그래밍을 하는데 프린트물에 있는 대로 -lsocket 옵션을 주니 계속 cc 가 에러를 뱉었다.
-http://kldp.org/node/1377
-결론은 Sun 계열 유닉스에서 작업하는 게 아니면, -lnsl -lsocket 옵션을 주지 말고 컴파일하라는 것.
-한참 헤매다가 답 발견. 학교 서버가 sun 계열이라 그런 듯.</description>
+http://kldp.org/node/1377&amp;lt;/a&amp;gt;
+결론은 Sun 계열 유닉스에서 작업하는 게 아니면, -lnsl -lsocket 옵션을 주지 말고 컴파일하라는 것.한참 헤매다가 답 발견. 학교 서버가 sun 계열이라 그런 듯.</description>
     </item>
     
   </channel>

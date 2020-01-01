@@ -21,23 +21,20 @@
     
 
     <meta itemprop="name" content="Bubble Sort">
-<meta itemprop="description" content="void bubbleSort(int * array, int size) { int temp = 0; int j=0; bool swapped = true; while(swapped) { j&#43;&#43;; swapped = false; for( int i = 0; i &lt; size -1 -j ; i&#43;&#43;) { if ( array[i] &gt; array[i&#43;1] ) { temp = array[i]; array[i] = array[i&#43;1]; array[i&#43;1] = temp; swapped = true; } } j&#43;&#43;; } } void swap(int * a, int * b) { int temp = 0; temp = *a; *a = *b; *b = temp; } bool swapif(int * a, int * b) { if ( *a &gt; *b) { swap(a,b); return true; } else { return false; } }">
-
-
+<meta itemprop="description" content="void bubbleSort2(int * array, int size) { int j=0; bool swapped = true; while(swapped) { swapped=false; for( int i = 0; i &lt; size -j -1 ; i&#43;&#43;) { swapped = swapif(array&#43;i,array&#43;i&#43;1) ? true : swapped; } j&#43;&#43;; } } 정렬되는 것이 방울이 올라가는 것처럼 보인다고 해서 버블 정렬. 버블~ 버블~ 기초중의 기초. 거의 외워서 쓰고 있음. 빼먹은 게 있었다. -j 추가.또 빼먹었다. j&#43;&#43;; 의 위치를 아래로 옮김. 그대로는 마지막 항목이 정렬되지 않음.">
 <meta itemprop="datePublished" content="2011-01-13T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2011-01-13T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="185">
+<meta itemprop="wordCount" content="77">
 
 
 
 <meta itemprop="keywords" content="Bubble Sort,c,C/C&#43;&#43;,공부,프로그래밍,알고리즘,정렬," />
-
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Bubble Sort"/>
-<meta name="twitter:description" content="void bubbleSort(int * array, int size) { int temp = 0; int j=0; bool swapped = true; while(swapped) { j&#43;&#43;; swapped = false; for( int i = 0; i &lt; size -1 -j ; i&#43;&#43;) { if ( array[i] &gt; array[i&#43;1] ) { temp = array[i]; array[i] = array[i&#43;1]; array[i&#43;1] = temp; swapped = true; } } j&#43;&#43;; } } void swap(int * a, int * b) { int temp = 0; temp = *a; *a = *b; *b = temp; } bool swapif(int * a, int * b) { if ( *a &gt; *b) { swap(a,b); return true; } else { return false; } }"/>
+<meta name="twitter:description" content="void bubbleSort2(int * array, int size) { int j=0; bool swapped = true; while(swapped) { swapped=false; for( int i = 0; i &lt; size -j -1 ; i&#43;&#43;) { swapped = swapif(array&#43;i,array&#43;i&#43;1) ? true : swapped; } j&#43;&#43;; } } 정렬되는 것이 방울이 올라가는 것처럼 보인다고 해서 버블 정렬. 버블~ 버블~ 기초중의 기초. 거의 외워서 쓰고 있음. 빼먹은 게 있었다. -j 추가.또 빼먹었다. j&#43;&#43;; 의 위치를 아래로 옮김. 그대로는 마지막 항목이 정렬되지 않음."/>
 
     <meta property="og:title" content="Bubble Sort" />
-<meta property="og:description" content="void bubbleSort(int * array, int size) { int temp = 0; int j=0; bool swapped = true; while(swapped) { j&#43;&#43;; swapped = false; for( int i = 0; i &lt; size -1 -j ; i&#43;&#43;) { if ( array[i] &gt; array[i&#43;1] ) { temp = array[i]; array[i] = array[i&#43;1]; array[i&#43;1] = temp; swapped = true; } } j&#43;&#43;; } } void swap(int * a, int * b) { int temp = 0; temp = *a; *a = *b; *b = temp; } bool swapif(int * a, int * b) { if ( *a &gt; *b) { swap(a,b); return true; } else { return false; } }" />
+<meta property="og:description" content="void bubbleSort2(int * array, int size) { int j=0; bool swapped = true; while(swapped) { swapped=false; for( int i = 0; i &lt; size -j -1 ; i&#43;&#43;) { swapped = swapif(array&#43;i,array&#43;i&#43;1) ? true : swapped; } j&#43;&#43;; } } 정렬되는 것이 방울이 올라가는 것처럼 보인다고 해서 버블 정렬. 버블~ 버블~ 기초중의 기초. 거의 외워서 쓰고 있음. 빼먹은 게 있었다. -j 추가.또 빼먹었다. j&#43;&#43;; 의 위치를 아래로 옮김. 그대로는 마지막 항목이 정렬되지 않음." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://ezaurum.com/2011/01/Bubble-Sort/" />
 <meta property="article:published_time" content="2011-01-13T00:00:00+00:00" />
@@ -67,74 +64,28 @@
 <main class="post single">
 <h1>Bubble Sort</h1>
 2011-01-13
-<section><p><code>
-void bubbleSort(int * array, int size)
+<section><!-- raw HTML omitted -->
+<p><!-- raw HTML omitted -->void bubbleSort2(int * array, int size)
 {
-    int temp = 0;
-    int j=0;
-    bool swapped = true;
-    while(swapped)
-    {
-<del datetime="2011-01-13T07:13:28+00:00">      j++;</del>
-        swapped = false;
-    for( int i = 0; i &lt; size -1 <ins datetime="2011-01-13T07:13:28+00:00">-j</ins> ; i++)
-    {
-        if ( array[i] &gt; array[i+1] )
-        {
-            temp = array[i];
-            array[i] = array[i+1];
-            array[i+1] = temp;
-            swapped = true;
-        }
-    }
-<ins datetime="2011-01-13T07:13:28+00:00">j++;</ins>
-    }
+int j=0;
+bool swapped = true;
+while(swapped)
+{
+swapped=false;
+for( int i = 0; i &lt; size -j -1 ; i++)
+{
+swapped = swapif(array+i,array+i+1) ? true : swapped;
 }
-<ins datetime="2011-01-13T08:05:15+00:00">
-void swap(int * a, int * b)
-{
-    int temp = 0;
-    temp = *a;
-    *a = *b;
-    *b = temp;
-}</ins>
-<ins datetime="2011-01-13T08:06:26+00:00">
-bool swapif(int * a, int * b)
-{
-    if ( *a &gt; *b)
-    {
-        swap(a,b);
-        return true;
-    }
-    else
-    {
-        return false;
-    }
-}</ins></p>
-
-<p><ins datetime="2011-01-13T08:07:57+00:00">void bubbleSort2(int * array, int size)
-{
-    int j=0;
-    bool swapped = true;
-    while(swapped)
-    {
-    swapped=false;
-    for( int i = 0; i &lt; size -j -1 ; i++)
-    {
-        swapped = swapif(array+i,array+i+1) ? true : swapped;
-    }
-    j++;
-    }
+j++;
 }
-</ins></p>
-
-<p></code></p>
-
+}
+<!-- raw HTML omitted --></p>
+<!-- raw HTML omitted -->
 <p>정렬되는 것이 방울이 올라가는 것처럼 보인다고 해서 버블 정렬. 버블~ 버블~
 기초중의 기초. 거의 외워서 쓰고 있음.
-<ins datetime="2011-01-13T07:13:28+00:00">빼먹은 게 있었다. -j 추가.</ins>
-<ins datetime="2011-01-13T07:13:28+00:00">또 빼먹었다. j++;  의 위치를 아래로 옮김. 그대로는 마지막 항목이 정렬되지 않음.</ins>
-<ins datetime="2011-01-13T08:05:15+00:00">개량형 추가. 성능상 차이 없음.</ins></p>
+<!-- raw HTML omitted -->빼먹은 게 있었다. -j 추가.<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->또 빼먹었다. j++;  의 위치를 아래로 옮김. 그대로는 마지막 항목이 정렬되지 않음.<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->개량형 추가. 성능상 차이 없음.<!-- raw HTML omitted --></p>
 </section>
 
 

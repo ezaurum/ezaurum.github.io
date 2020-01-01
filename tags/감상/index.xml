@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>감상 on Ezaurum&#39;s Blog</title>
@@ -36,7 +36,7 @@
       <pubDate>Sun, 13 Nov 2011 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2011/11/%EB%94%94%ED%8D%BC%EB%9F%B0%ED%8A%B8/</guid>
-      <description>부제는넘버원을 넘어 온리원으로 동일함이 지배하는 세상에서 아이디어 브랜드는 어떻게 세상을 경영하는가 주요 내용은 부제와 같다. 실제로 다르다는 것이 어떻게 인식되고 있으며, 성공한 기업들은 어떻게 다르게 만들어서 성공했는지를 말한다. 일관된 관점에서 잘 정리되어 있다. 제대 기념으로 후임이 선물해줬단 건 자랑.</description>
+      <description>부제는넘버원을 넘어 온리원으로 동일함이 지배하는 세상에서 아이디어 브랜드는 어떻게 세상을 경영하는가주요 내용은 부제와 같다. 실제로 다르다는 것이 어떻게 인식되고 있으며, 성공한 기업들은 어떻게 다르게만들어서 성공했는지를 말한다. 일관된 관점에서 잘 정리되어 있다. 제대 기념으로 후임이 선물해줬단 건 자랑.</description>
     </item>
     
     <item>
@@ -54,8 +54,8 @@
       <pubDate>Fri, 11 Nov 2011 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2011/11/%EB%8C%80%EB%A8%B8%EB%A6%AC-%EC%98%88%EC%B0%AC/</guid>
-      <description>대머리는 지상의 별이다. 지성이란 열매는 머리에서 불필요한 장식을 하나둘씩 떨어낸 연휴에야 맺을 수 있다. 본래 머리털이 없는 대머리는 신성 그 자체다. 제목과 발췌한 이 몇 줄이 모든 것을 설명해 주는 글이다. 짧고 가볍고 &amp;hellip;유쾌하긴 한데, 그냥 보다보면 5세기에도 대머리는 여자한테 인기가 없고, 결국 꾸미고 옷 잘 입고 다니는 사람이 인기가 있었구나&amp;hellip; 하는 생각이 든다.
-저자는 히파티아의 문하에 있었다고 하는데, 갑자기 아고라가 생각났다&amp;hellip; 거기서는 배신자였지만, 실제로는 아니었던 모양. &amp;hellip; 그리고 거기서는 머리칼이 있었는데&amp;hellip;.</description>
+      <description>제목과 발췌한 이 몇 줄이 모든 것을 설명해 주는 글이다. 짧고 가볍고 &amp;hellip;유쾌하긴 한데, 그냥 보다보면 5세기에도 대머리는 여자한테 인기가 없고, 결국 꾸미고 옷 잘 입고 다니는 사람이 인기가 있었구나&amp;hellip; 하는 생각이 든다.
+저자는 히파티아의 문하에 있었다고 하는데, 갑자기 아고라가 생각났다&amp;hellip; 거기서는 배신자였지만, 실제로는 아니었던 모양. &amp;hellip; 그리고 거기서는 머리칼이 있었는데&amp;hellip;. &amp;hellip;.아아 눈물이 눈물이 멈추지 않아&amp;hellip;</description>
     </item>
     
     <item>
@@ -82,8 +82,12 @@
       <pubDate>Sun, 11 Sep 2011 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2011/09/%EC%97%90%EB%A6%AD-%EB%A7%88%EC%9D%B4%EC%96%B4%EC%9D%98-CSS-%EB%85%B8%ED%95%98%EC%9A%B0/</guid>
-      <description>에릭 마이어의 CSS 노하우 - 
-에릭 마이어 지음, 한선용 옮김/인사이트 진짜 순전히 저자 보고 샀다. 사고 나서 깨달았는데, 최초로 산 CSS책이다. 그동안 안 본 건 아니지만 내돈으로 구매는 안 했으니까... 결론적으로는 돈 값 한다. 기초를 다시 다지기에도 좋고, 급할 때 펼쳐보는 쿡북 용도로도 좋다. CSS3에 대해서도 나와 있지만, 그게 주는 아니다. CSS3만 필요하면 다른 책을 사는게 나을지도. 내용이 부실하다는 게 아니라 삐까뻔쩍한 CSS3로 채워져 있지는 않다는 얘기다. 그리고 CSS 초보(CSS가 뭔지 알고, 글자 색 바꿀 수 있는 정도)가 보기도 충분히 좋다.</description>
+      <description>사고 나서 깨달았는데, 최초로 산 CSS책이다. 그동안 안 본 건 아니지만 내돈으로 구매는 안 했으니까&amp;hellip;
+결론적으로는 돈 값 한다.기초를 다시 다지기에도 좋고, 급할 때 펼쳐보는 쿡북 용도로도 좋다.
+CSS3에 대해서도 나와 있지만, 그게 주는 아니다.
+CSS3만 필요하면 다른 책을 사는게 나을지도. 내용이 부실하다는 게 아니라 삐까뻔쩍한 CSS3로 채워져 있지는 않다는 얘기다.
+그리고 CSS 초보(CSS가 뭔지 알고, 글자 색 바꿀 수 있는 정도)가 보기도 충분히 좋다.
+책이 얇은데도 색인도 풍부하다. 값도 일단 2만원 아래니까 괜찮은 편.</description>
     </item>
     
     <item>
@@ -120,7 +124,7 @@
       
       <guid>https://ezaurum.com/2011/08/%EC%84%9C%EB%A5%B8-%EC%82%B4%EC%97%90-%EA%BF%88%EA%BE%B8%EB%A9%B4-%EC%A2%8B%EC%9D%80-%EA%B2%83%EB%93%A4/</guid>
       <description>성당에서 같이 주일학교 교사를 하고 있는 스물 아홉살 동생에게 선물받음. 그 친구는 스물아홉부터 쓰는 인생전략노트를 사고&amp;hellip;
-여하튼 최근에 읽은 행복에 목숨 걸지 마라, 아프니까 청춘이다, 멀리 가려면 함께 가라 같이 막연한 불안감과 우울과 기타등등과&amp;hellip; 에 지친 영혼에게 위안을 줄 수 있는 책.
+여하튼 최근에 읽은 행복에 목숨 걸지 마라, 아프니까 청춘이다, 멀리 가려면 함께 가라같이 막연한 불안감과 우울과 기타등등과&amp;hellip; 에 지친 영혼에게 위안을 줄 수 있는 책.
 선물이라 더욱 좋았다.
 각 챕터가 짧아서 읽기 부담도 없다. 독서량이 많지 않은 사람도 쉬이 읽을 수 있음. 판형이 A5라 약간 신기했다.
 표지에 있는 대로 서른은 인생 절정이다. 십대 때나 이십대 초반 정도만 해도 뭔가 구렁텅이로 떨어지는 기분이었는데 막상 넘어가니 더 차분해 진 것 같고 좋다.</description>
@@ -219,8 +223,8 @@
       <pubDate>Tue, 26 Jul 2011 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2011/07/Blink-%EC%B2%AB-2%EC%B4%88%EC%9D%98-%ED%9E%98/</guid>
-      <description>제목 블링크(첫 2초의 힘) 저자 말콤글래드웰 번역자 이무열 발행인 21세기북스, 2005 ISBN 895090800X, 9788950908003 길이 349페이지
-사실 2007년인가 2008년인가 이마트에서 사서 누구 선물했던 책인데, 물론 내가 먼저 읽긴 했었다. 지금 다시 보니 왜 그 때는 이걸 발견하지 못했을까 하는 생각이 들었다. 아마 알았다면 잘 받았냐는 통화를 할 때 헤어지자고 말을 했겠지. 일단 이것은 상황을 조각내서 인지하는 인간 특성을 가지고 얘기한다. 앞과 뒤를 모두 잘라먹고 그 상황에서 직관은 생각보다 많은 것을 알아낼 수 있다.</description>
+      <description>제목	블링크(첫 2초의 힘) 저자	말콤글래드웰 번역자	이무열 발행인	21세기북스, 2005 ISBN	895090800X, 9788950908003길이	349페이지
+사실 2007년인가 2008년인가 이마트에서 사서 누구 선물했던 책인데, 물론 내가 먼저 읽긴 했었다. 지금 다시 보니 왜 그 때는 이걸 발견하지 못했을까 하는 생각이 들었다. 아마 알았다면 잘 받았냐는 통화를 할 때 헤어지자고 말을 했겠지.일단 이것은 상황을 조각내서 인지하는 인간 특성을 가지고 얘기한다. 앞과 뒤를 모두 잘라먹고 그 상황에서 직관은 생각보다 많은 것을 알아낼 수 있다.</description>
     </item>
     
     <item>
@@ -241,7 +245,7 @@
       
       <guid>https://ezaurum.com/2011/07/%EC%83%9D%EA%B0%81%EC%9D%98-%EC%A7%80%EB%8F%84/</guid>
       <description>동서양의 사람은 각각 사물의 관계와 사물의 속성 중 어느 것에 비중을 두는가 하는 이야기이다.
-책에 나온 표현을 빌리자면, 내 이런 내용일 줄 알았다. :D
+책에 나온 표현을 빌리자면, 내 이런 내용일 줄 알았다.:D
 술술술 넘어가고 그리 복잡한 것도 없고, 확 새롭다는 느낌도 안 들지만, 차분히 분석하고 정리해 놓은 책.
 이 책의 기준에 따르자면 서양식 사고방식을 가진 책이다. 저자가 서양인이니 당연한가&amp;hellip;</description>
     </item>
@@ -255,7 +259,7 @@
       <description>낚였다!
 어찌보면 이 한 마디로 설명가능한 책이다.
 번역서의 마케팅 방향은 가벼운 서브컬쳐인 양 잡혀 있지만, 실제로는 띠지에 나온 것과 비슷한 내용이다. 가벼운 것은 맞고, 서브컬쳐를 중심으로 설명하는 것도 맞지만 그 두 단어의 조합에서 나오는 이미지와는 많이 다르달까.
- 현대사회의 근본적인 문제를 짚어낸 책  뭐가 근본이고 뭐가 문제인지는 책을 보면 알 터, 사회를 보는 눈을 좀 더 넓혀주는 좋은 물건이다.</description>
+뭐가 근본이고 뭐가 문제인지는 책을 보면 알 터, 사회를 보는 눈을 좀 더 넓혀주는 좋은 물건이다.</description>
     </item>
     
     <item>
@@ -367,7 +371,7 @@
       <pubDate>Fri, 04 Feb 2011 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2011/02/%EC%A4%84%EB%9D%BC%EC%9D%B4%EC%BC%84-%EC%82%AC%EB%9E%8C%EB%93%A4/</guid>
-      <description>줄라이켄 사람들 뭐랄까 기승전결이 잘 와 닿지 않는 이야기인데도 슬슬슬 따라가다 보면 재미있다. 그냥 봄이나 가을쯤, 눈부시지도 않는 느즈막한 오후 햇살이 비치는 곳을 멍하니 쳐다보는 그런 이야기랄까.</description>
+      <description>줄라이켄 사람들뭐랄까 기승전결이 잘 와 닿지 않는 이야기인데도 슬슬슬 따라가다 보면 재미있다. 그냥 봄이나 가을쯤, 눈부시지도 않는 느즈막한 오후 햇살이 비치는 곳을 멍하니 쳐다보는 그런 이야기랄까.</description>
     </item>
     
     <item>
@@ -399,8 +403,7 @@
       <pubDate>Mon, 23 Aug 2010 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2010/08/%EA%BF%88%EA%BE%B8%EB%8A%94-%EC%B1%85%EB%93%A4%EC%9D%98-%EB%8F%84%EC%8B%9C/</guid>
-      <description>제목 꿈꾸는책들의도시: 차모니아출신힐데군스트폰미텐메츠의장편소설 Volume 1/Kkumkkunŭn chʻaekdŭlŭi tŏsĭ, Walter Moers, ISBN 8975274861, 9788975274862 꿈꾸는책들의도시: 차모니아출신힐데군스트폰미텐메츠의장편소설, 두행숙, ISBN 8975274861, 9788975274862 저자 발터뫼르스 번역자 두행숙 발행인 들녘, 2005 ISBN 897527487X, 9788975274879 길이 350페이지
-38/150
+      <description>제목	꿈꾸는책들의도시: 차모니아출신힐데군스트폰미텐메츠의장편소설 Volume 1/Kkumkkunŭn chʻaekdŭlŭi tŏsĭ, Walter Moers, ISBN 8975274861, 9788975274862 꿈꾸는책들의도시: 차모니아출신힐데군스트폰미텐메츠의장편소설, 두행숙, ISBN 8975274861, 9788975274862 저자	발터뫼르스 번역자	두행숙 발행인	들녘, 2005 ISBN	897527487X, 9788975274879 길이	350페이지
 오름이라는 개념이 흥미로왔다. 어쨌든 글쟁이가 주인공이라면 글을 잘 쓰고 싶어하고 좋은 글을 읽고 싶어하는 것이 정상. 여하튼 공룡 쵝오. 다른 책도 보고 싶다. 모모, 끝없는 이야기 정도 포지션을 차지하는 좋은 물건. 여튼 오름이란 거, 나도 좀&amp;hellip;</description>
     </item>
     
@@ -421,8 +424,7 @@
       <pubDate>Mon, 09 Aug 2010 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2010/08/%EB%A1%9C%EC%8A%A4%ED%8A%B8-%EC%8B%AC%EB%B2%8C/</guid>
-      <description>ISBN 8983923377, 9788983923370 댄 브라운스러운 소설. 그리 재미있지는 않았지만, 영화로 만들어지면 TV에서 할 때 틀어놓을 정도는 되는 듯. 사실 다빈치 코드가 너무 실망스럽달까 그래서 그 후속작들도 영&amp;hellip; 그래도 나보다는 잘 쓴 것 같다. ORL 워싱턴 관광공사에서 후원을 받은 듯, 관광요지마다 설명을 줄줄 넣어놨다. 관광할 일이 생기면 참고해야지.
-33/150</description>
+      <description>ISBN 8983923377, 9788983923370댄 브라운스러운 소설. 그리 재미있지는 않았지만, 영화로 만들어지면 TV에서 할 때 틀어놓을 정도는 되는 듯. 사실 다빈치 코드가 너무 실망스럽달까 그래서 그 후속작들도 영&amp;hellip; 그래도 나보다는 잘 쓴 것 같다. ORL 워싱턴 관광공사에서 후원을 받은 듯, 관광요지마다 설명을 줄줄 넣어놨다. 관광할 일이 생기면 참고해야지.</description>
     </item>
     
     <item>
@@ -431,9 +433,8 @@
       <pubDate>Mon, 09 Aug 2010 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2010/08/%EC%BD%94%ED%95%80-%EB%8C%84%EC%84%9C/</guid>
-      <description>제목 코핀댄서(전2권) - 암살자의 문신 저자 제프리디버 번역자 유소영 발행인 노블하우스, 2005 ISBN 8991207499, 9788991207493 길이 631페이지
-표지를 보기에도 미드, 읽어봐도 미드다. 반전이 약간 반칙성. 하지만 재미는 있다. 여주인공의 관절염이 약간 안습.
-35/150</description>
+      <description>제목	코핀댄서(전2권) - 암살자의 문신 저자	제프리디버 번역자	유소영 발행인	노블하우스, 2005 ISBN	8991207499, 9788991207493길이	631페이지
+표지를 보기에도 미드, 읽어봐도 미드다. 반전이 약간 반칙성. 하지만 재미는 있다. 여주인공의 관절염이 약간 안습.</description>
     </item>
     
     <item>
@@ -442,8 +443,8 @@
       <pubDate>Mon, 02 Aug 2010 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2010/08/%E4%B8%89%E4%BA%BA%E4%B8%89%E8%89%B2-%EB%AF%B8%ED%95%99-%EC%98%A4%EB%94%94%EC%84%B8%EC%9D%B4/</guid>
-      <description>제목 삼인삼색 미학 오디세이 세트(전3권) 저자 김태권 발행인 휴머니스트, 2006 ISBN 8958621060, 9788958621065 디 재밌음. 삼인삼색이라는 말 답게 세 권 모두 색깔이 분명히 다르다. 하나의 시리즈로 접근한다면 좀 곤란할 듯 싶기도 하고. 원작인 진중권의 미학 오디세이를 보고 싶게 만드는 물건이라는 점에서는 공통적이다.
-원작을 읽고 나서 다시 한 번 읽어봐야겠다. 30&amp;frasl;150</description>
+      <description>제목	삼인삼색 미학 오디세이 세트(전3권) 저자	김태권 발행인	휴머니스트, 2006 ISBN	8958621060, 9788958621065디 재밌음. 삼인삼색이라는 말 답게 세 권 모두 색깔이 분명히 다르다. 하나의 시리즈로 접근한다면 좀 곤란할 듯 싶기도 하고. 원작인 진중권의 미학 오디세이를 보고 싶게 만드는 물건이라는 점에서는 공통적이다.
+원작을 읽고 나서 다시 한 번 읽어봐야겠다.</description>
     </item>
     
     <item>
@@ -452,8 +453,8 @@
       <pubDate>Mon, 02 Aug 2010 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2010/08/%EB%B0%B1%EC%83%89%EC%9D%98-%EA%B0%80%EB%A9%B4/</guid>
-      <description>제목 백색의 가면 저자 딘 R.쿤츠 번역자 박주동 발행인 고려원, 1993 ISBN 8912111493, 9788912111496 길이 410페이지
-오래된 소설. 특별한 점은 발견되지 않지만 끝까지 읽을 만 했다. 아마 영화가 나왔으면 최소한 B+이상 급은 뽑아주지 않을까 싶은 물건. 마지막 결론은 약간 뜬금없었지만 그건 시대의 차이때문일지도. 이런 게 이쪽 소설이 갖춰야할 미덕일까. 하나 더 성과 비슷한 걸 꼽자면 옛날 번역이라 그런지 내 국어 실력이 모자라서인지 국어사전을 찾아볼 일이 생겼다는 정도일까. 29&amp;frasl;150</description>
+      <description>제목	백색의 가면 저자	딘 R.쿤츠 번역자	박주동 발행인	고려원, 1993 ISBN	8912111493, 9788912111496길이	410페이지
+오래된 소설. 특별한 점은 발견되지 않지만 끝까지 읽을 만 했다. 아마 영화가 나왔으면 최소한 B+이상 급은 뽑아주지 않을까 싶은 물건. 마지막 결론은 약간 뜬금없었지만 그건 시대의 차이때문일지도. 이런 게 이쪽 소설이 갖춰야할 미덕일까. 하나 더 성과 비슷한 걸 꼽자면 옛날 번역이라 그런지 내 국어 실력이 모자라서인지 국어사전을 찾아볼 일이 생겼다는 정도일까.</description>
     </item>
     
     <item>
@@ -462,9 +463,8 @@
       <pubDate>Mon, 02 Aug 2010 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2010/08/%EC%84%B1%EA%B3%84%EC%9D%98-%EB%AC%B8%EC%9E%A5/</guid>
-      <description>제목 성계의 문장. 1: 제국의 왕녀 저자 모리오카히로유키 번역자 김영종 발행인 대원씨아이(주), 2010 ISBN 8925262916, 9788925262918 길이 306페이지
-고교때 은하전기라는 책으로 처음 접했다. 2권부터라는 치명적인 문제가 있기는 했지만 신선한 설정-2차원 함대전을 하고 싶다고 말하는 듯한 평면우주,더듬이가 달린 미남미녀 종족&amp;hellip;-과 생동감 넘치는 캐릭터- 거기다 히로인은 파란머리. 아니 이건 상관없나. 여하튼 밝고 상큼한 모험물인데, 이번에 나온 것의 치명적 문제라면 역시 번역? 2권에서 좀 실망하고 3권에서 그냥 원판살걸 하고 있다.
-19/150</description>
+      <description>제목	성계의 문장. 1: 제국의 왕녀 저자	모리오카히로유키 번역자	김영종 발행인	대원씨아이(주), 2010 ISBN	8925262916, 9788925262918길이	306페이지
+고교때 은하전기라는 책으로 처음 접했다. 2권부터라는 치명적인 문제가 있기는 했지만 신선한 설정-2차원 함대전을 하고 싶다고 말하는 듯한 평면우주,더듬이가 달린 미남미녀 종족&amp;hellip;-과 생동감 넘치는 캐릭터- 거기다 히로인은 파란머리. 아니 이건 상관없나. 여하튼 밝고 상큼한 모험물인데, 이번에 나온 것의 치명적 문제라면 역시 번역? 2권에서 좀 실망하고 3권에서 그냥 원판살걸 하고 있다.</description>
     </item>
     
     <item>
@@ -473,9 +473,8 @@
       <pubDate>Mon, 02 Aug 2010 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2010/08/%EC%84%B1%EA%B3%84%EC%9D%98-%EB%AC%B8%EC%9E%A5/</guid>
-      <description>제목 성계의 문장. 1: 제국의 왕녀 저자 모리오카히로유키 번역자 김영종 발행인 대원씨아이(주), 2010 ISBN 8925262916, 9788925262918 길이 306페이지
-고교때 은하전기라는 책으로 처음 접했다. 2권부터라는 치명적인 문제가 있기는 했지만 신선한 설정-2차원 함대전을 하고 싶다고 말하는 듯한 평면우주,더듬이가 달린 미남미녀 종족&amp;hellip;-과 생동감 넘치는 캐릭터- 거기다 히로인은 파란머리. 아니 이건 상관없나. 여하튼 밝고 상큼한 모험물인데, 이번에 나온 것의 치명적 문제라면 역시 번역? 2권에서 좀 실망하고 3권에서 그냥 원판살걸 하고 있다.
-19/150</description>
+      <description>제목	성계의 문장. 1: 제국의 왕녀 저자	모리오카히로유키 번역자	김영종 발행인	대원씨아이(주), 2010 ISBN	8925262916, 9788925262918길이	306페이지
+고교때 은하전기라는 책으로 처음 접했다. 2권부터라는 치명적인 문제가 있기는 했지만 신선한 설정-2차원 함대전을 하고 싶다고 말하는 듯한 평면우주,더듬이가 달린 미남미녀 종족&amp;hellip;-과 생동감 넘치는 캐릭터- 거기다 히로인은 파란머리. 아니 이건 상관없나. 여하튼 밝고 상큼한 모험물인데, 이번에 나온 것의 치명적 문제라면 역시 번역? 2권에서 좀 실망하고 3권에서 그냥 원판살걸 하고 있다.</description>
     </item>
     
     <item>
@@ -484,11 +483,10 @@
       <pubDate>Wed, 14 Jul 2010 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2010/07/%EB%8B%A8%EC%88%9C%ED%95%98%EA%B2%8C-%EC%82%B4%EC%95%84%EB%9D%BC/</guid>
-      <description>ISBN8934911360 저자 베르너티키퀴스텐마허 번역자 유혜자
+      <description>ISBN8934911360저자	베르너티키퀴스텐마허 번역자	유혜자
 단순하게 살기 위해서는 복잡한 규칙을 잘 지켜야 한다는 가르침을 주는 책.
 여튼 많은 자기계발서는 선택과 집중에 대해 이야기 하고 있다.
-여튼, Divide and Conquer.
-24/150</description>
+여튼, Divide and Conquer.</description>
     </item>
     
     <item>
@@ -500,8 +498,7 @@
       <description>에쿠니 가오리 저
 보는 내내 가슴이 짠하고 울렸다. 감정이입이 심하게 되는, 내 미래의 모습 같은 느낌이랄까. 그리 멀지도 않네.
 &amp;hellip;그래 연애 따위 안 해도 재미있는 거야 많지.
-영화는 차마 가슴아파서 못 볼 듯.
-21/150</description>
+영화는 차마 가슴아파서 못 볼 듯.</description>
     </item>
     
     <item>
@@ -513,8 +510,7 @@
       <description>여기저기 사진들이 떠돌았기 때문에 두번 보는 기분으로 봤다.
 내용은 그리 감동스럽지는 않았지만, 사진과 문구의 절묘한 매치가 좋았다.
 이런 감각을 좀 키우고 싶다는 생각을 들게 해 주는 책.
-선물용으로도 나쁘지 않겠다.
-23/150</description>
+선물용으로도 나쁘지 않겠다.</description>
     </item>
     
     <item>
@@ -526,8 +522,7 @@
       <description>자대 와서 대기기간에 읽음.
 좋은 말이 쓰여져 있다. 그 때 자기계발서 여러권을 한번에 읽어서 솔직히 어느 책이 어떤 얘기를 한 건지는 기억이 잘 안 난다.
 중요한 것은 주도적으로 임할 것. 상황을 긍정적으로 대할 것 정도?
-실천을 해 봐야 겠다. 생각해 보니 이렇게 우울하고 가라앉은 상황에서는 꽤 도움이 되는 것 같다.
-18/150</description>
+실천을 해 봐야 겠다. 생각해 보니 이렇게 우울하고 가라앉은 상황에서는 꽤 도움이 되는 것 같다.</description>
     </item>
     
     <item>
@@ -539,8 +534,7 @@
       <description>자대 와서 대기기간에 읽음.
 좋은 말이 쓰여져 있다. 그 때 자기계발서 여러권을 한번에 읽어서 솔직히 어느 책이 어떤 얘기를 한 건지는 기억이 잘 안 난다.
 중요한 것은 주도적으로 임할 것. 상황을 긍정적으로 대할 것 정도?
-실천을 해 봐야 겠다. 생각해 보니 이렇게 우울하고 가라앉은 상황에서는 꽤 도움이 되는 것 같다.
-18/150</description>
+실천을 해 봐야 겠다. 생각해 보니 이렇게 우울하고 가라앉은 상황에서는 꽤 도움이 되는 것 같다.</description>
     </item>
     
     <item>
@@ -549,7 +543,7 @@
       <pubDate>Thu, 08 Jul 2010 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2010/07/%EC%98%A4%ED%83%80%EC%BF%A0/</guid>
-      <description>제목 그대로 오타쿠에 대한 책 책 진행도 오타쿠스럽다. 애니메이션-실제로는 영상매체 전반-의 오타쿠스런 감상법에 대한 내용이 글쓰기에도 도움이 될 듯. 22&amp;frasl;150</description>
+      <description>제목 그대로 오타쿠에 대한 책 책 진행도 오타쿠스럽다. 애니메이션-실제로는 영상매체 전반-의 오타쿠스런 감상법에 대한 내용이 글쓰기에도 도움이 될 듯.</description>
     </item>
     
     <item>
@@ -607,7 +601,7 @@
       <pubDate>Wed, 11 Feb 2009 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2009/02/100-Years-Five-for-Fighting/</guid>
-      <description>[youtube https://www.youtube.com/watch?v=qgN5TnQ23vs&amp;amp;color1=0xb1b1b1&amp;amp;color2=0xcfcfcf&amp;amp;hl=ko&amp;amp;feature=player_embedded&amp;amp;fs=1] I&amp;rsquo;m 15 for a moment Caught in between 10 and 20 And I&amp;rsquo;m just dreaming Counting the ways to where you are I&amp;rsquo;m 22 for a moment She feels better than ever And we&amp;rsquo;re on fire Making our way back from Mars 15 there&amp;rsquo;s still time for you Time to buy and time to lose 15, there&amp;rsquo;s never a wish better than this When you only got 100 years to live I&amp;rsquo;m 33 for a moment Still the man, but you see I&amp;rsquo;m a they A kid on the way A family on my mind I&amp;rsquo;m 45 for a moment The sea is high And I&amp;rsquo;m heading into a crisis Chasing the years of my life 15 there&amp;rsquo;s still time for you Time to buy, Time to lose yourself Within a morning star 15 I&amp;rsquo;m all right with you 15, there&amp;rsquo;s never a wish better than this When you only got 100 years to live Half time goes by Suddenly you&amp;rsquo;re wise Another blink of an eye 67 is gone The sun is getting high We&amp;rsquo;re moving on&amp;hellip; I&amp;rsquo;m 99 for a moment Dying for just another moment And I&amp;rsquo;m just dreaming Counting the ways to where you are 15 there&amp;rsquo;s still time for you 22 I feel her too 33 you&amp;rsquo;re on your way Every day&amp;rsquo;s a new day&amp;hellip; 15 there&amp;rsquo;s still time for you Time to buy and time to choose Hey 15, there&amp;rsquo;s never a wish better than this When you only got 100 years to live</description>
+      <description>[youtube https://www.youtube.com/watch?v=qgN5TnQ23vs&amp;amp;color1=0xb1b1b1&amp;amp;color2=0xcfcfcf&amp;amp;hl=ko&amp;amp;feature=player_embedded&amp;amp;fs=1] I&#39;m 15 for a moment Caught in between 10 and 20 And I&#39;m just dreaming Counting the ways to where you are I&#39;m 22 for a moment She feels better than ever And we&#39;re on fire Making our way back from Mars 15 there&#39;s still time for you Time to buy and time to lose 15, there&#39;s never a wish better than this When you only got 100 years to live I&#39;m 33 for a moment Still the man, but you see I&#39;m a they A kid on the way A family on my mind I&#39;m 45 for a moment The sea is high And I&#39;m heading into a crisis Chasing the years of my life 15 there&#39;s still time for you Time to buy, Time to lose yourself Within a morning star 15 I&#39;m all right with you 15, there&#39;s never a wish better than this When you only got 100 years to live Half time goes by Suddenly you&#39;re wise Another blink of an eye 67 is gone The sun is getting high We&#39;re moving on&amp;hellip; I&#39;m 99 for a moment Dying for just another moment And I&#39;m just dreaming Counting the ways to where you are 15 there&#39;s still time for you 22 I feel her too 33 you&#39;re on your way Every day&#39;s a new day&amp;hellip; 15 there&#39;s still time for you Time to buy and time to choose Hey 15, there&#39;s never a wish better than this When you only got 100 years to live</description>
     </item>
     
     <item>
@@ -618,7 +612,7 @@
       <guid>https://ezaurum.com/2009/02/Promise-Her-the-Moon-Mr.-Big/</guid>
       <description>[youtube https://www.youtube.com/watch?v=uQfjo0RdsAE&amp;amp;hl=ko&amp;amp;fs=1]
 Promise Her the Moon - Mr. Big
-Hey, yeah yeah You don&amp;rsquo;t know what you&amp;rsquo;ve got Till the love is almost gone This time, yeah she&amp;rsquo;s given up Still in a state of shock I should&amp;rsquo;ve seen it coming on It&amp;rsquo;s too late for waking up Her mind&amp;rsquo;s made up I know the dream is over But my heart just can&amp;rsquo;t let go She&amp;rsquo;s too good to be forgotten Too good to be true Before my world is torn apart I&amp;rsquo;ll promise her the moon I&amp;rsquo;ll promise her the moon I was too blind to notice her Wrapped up in myself Workin&amp;rsquo; hard overtime, night and day I thought we were so secure Can&amp;rsquo; imagine someone else Could come between us And take her away Her mind&amp;rsquo;s made up I know the dream is over But my heart just can&amp;rsquo;t let go She&amp;rsquo;s too good to be forgotten Too good to be true Before my world is torn apart I&amp;rsquo;ll promise her the moon I&amp;rsquo;ll promise her the moon And all the time she stood by me I never said &amp;ldquo;I love you&amp;rdquo; Yeah, I kept it deep down in my soul And all the while I&amp;rsquo;ve been a fool yeah, yeah yeah.</description>
+Hey, yeah yeah You don&#39;t know what you&#39;ve got Till the love is almost gone This time, yeah she&#39;s given up Still in a state of shock I should&#39;ve seen it coming on It&#39;s too late for waking up Her mind&#39;s made up I know the dream is over But my heart just can&#39;t let go She&#39;s too good to be forgotten Too good to be true Before my world is torn apart I&#39;ll promise her the moon I&#39;ll promise her the moon I was too blind to notice her Wrapped up in myself Workin&amp;rsquo; hard overtime, night and day I thought we were so secure Can&amp;rsquo; imagine someone else Could come between us And take her away Her mind&#39;s made up I know the dream is over But my heart just can&#39;t let go She&#39;s too good to be forgotten Too good to be true Before my world is torn apart I&#39;ll promise her the moon I&#39;ll promise her the moon And all the time she stood by me I never said &amp;ldquo;I love you&amp;rdquo; Yeah, I kept it deep down in my soul And all the while I&#39;ve been a fool yeah, yeah yeah.</description>
     </item>
     
     <item>
@@ -637,7 +631,7 @@ Hey, yeah yeah You don&amp;rsquo;t know what you&amp;rsquo;ve got Till the love 
       
       <guid>https://ezaurum.com/2009/02/0083-ED-Magic/</guid>
       <description>[youtube https://www.youtube.com/watch?v=XfRNDLoq7wE&amp;amp;hl=en&amp;amp;fs=1]
-Don&amp;rsquo;t come to me, just &amp;lsquo;cause you&amp;rsquo;re lonely tonight 외롭다고 오늘 밤 나에게 오지는 말아요. Lonely&amp;rsquo;s only part of your game 외로움은 당신 게임의 일부일 뿐. Long as you live, you must remember one thing 살아가는 동안, 하나는 꼭 기억해 둬요. Give and take are one in the same 주는 것도 받는 것도 결국 하나란 걸
+Don&#39;t come to me, just &amp;lsquo;cause you&#39;re lonely tonight 외롭다고 오늘 밤 나에게 오지는 말아요. Lonely&#39;s only part of your game 외로움은 당신 게임의 일부일 뿐. Long as you live, you must remember one thing 살아가는 동안, 하나는 꼭 기억해 둬요. Give and take are one in the same 주는 것도 받는 것도 결국 하나란 걸
 So tell me are you ready, really, really ready 그러니 말해줘요. 준비 되었다고.</description>
     </item>
     
@@ -648,7 +642,7 @@ So tell me are you ready, really, really ready 그러니 말해줘요. 준비 �
       
       <guid>https://ezaurum.com/2009/02/0083-ED-Magic/</guid>
       <description>[youtube https://www.youtube.com/watch?v=XfRNDLoq7wE&amp;amp;hl=en&amp;amp;fs=1]
-Don&amp;rsquo;t come to me, just &amp;lsquo;cause you&amp;rsquo;re lonely tonight 외롭다고 오늘 밤 나에게 오지는 말아요. Lonely&amp;rsquo;s only part of your game 외로움은 당신 게임의 일부일 뿐. Long as you live, you must remember one thing 살아가는 동안, 하나는 꼭 기억해 둬요. Give and take are one in the same 주는 것도 받는 것도 결국 하나란 걸
+Don&#39;t come to me, just &amp;lsquo;cause you&#39;re lonely tonight 외롭다고 오늘 밤 나에게 오지는 말아요. Lonely&#39;s only part of your game 외로움은 당신 게임의 일부일 뿐. Long as you live, you must remember one thing 살아가는 동안, 하나는 꼭 기억해 둬요. Give and take are one in the same 주는 것도 받는 것도 결국 하나란 걸
 So tell me are you ready, really, really ready 그러니 말해줘요. 준비 되었다고.</description>
     </item>
     
@@ -746,7 +740,8 @@ So tell me are you ready, really, really ready 그러니 말해줘요. 준비 �
       <pubDate>Sun, 19 Aug 2007 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2007/08/%EB%8D%94%EC%9B%8C/</guid>
-      <description>덥다. D-war를 보러 간 날이 더웠는지 어쨌는지는 모르겠다. 벌써 삼 주가 가까워 오니까. 여튼 그걸 보고 나서 간 술집은 그럭저럭 시원했고, 돌아오는 길도 그럭저럭 시원했다. 일단 D-war에는 두 가지 문제점이 있었다.  이야기 연출  거기다 하나를 더 꼽자면 CG정도가 있겠다. 이걸 빼면 뭐-이런 장르에서 배우의 연기는 크게 필요 없더라 -, 그럭저럭 볼 만한 영화라고 할 수 있겠다. 이걸 빼고도 영화라고 부르는 굉장한 용자분들이 계시다면 별로 말릴 생각은 없다. 세상에는 60억이 넘는 인간도 있고, 나도 살고 있는 판국이니까.</description>
+      <description>덥다. D-war를 보러 간 날이 더웠는지 어쨌는지는 모르겠다. 벌써 삼 주가 가까워 오니까. 여튼 그걸 보고 나서 간 술집은 그럭저럭 시원했고, 돌아오는 길도 그럭저럭 시원했다. 일단 D-war에는 두 가지 문제점이 있었다.
+사실 여기저기서 굉장하다고 하는 CG는 현재 나오고 있는 다른 CG떡칠 영화에 비해서 그렇게 굉장하다고는 말할 수 없었다. 이무기만 혼자 튄다는 느낌이랄까. 공중 날아다니는 애들은 빨라서 표가 잘 안 나는데, 기어다니는 애들이라든가, 폭발해서 날아가는 부분이라든가, 용은 좀 그랬다. 특히 용이 이무기와 비교되서 좀 더 실망스러웠달까.</description>
     </item>
     
     <item>
@@ -756,7 +751,7 @@ So tell me are you ready, really, really ready 그러니 말해줘요. 준비 �
       
       <guid>https://ezaurum.com/2007/08/%EB%A6%AC%ED%84%B4/</guid>
       <description>최면술이 나온 영화중에 제대로 된 게 없었다.
-사실 최면술이 나오는 영화 중에 지금 기억 나는 건 오늘 본 리턴과 몇 년 전에 본H 정도겠다.
+사실 최면술이 나오는 영화 중에 지금 기억 나는 건 오늘 본 리턴과 몇 년 전에 본H정도겠다.
 최면술이라는 게 어찌 보면 사람을 조종하는 반칙기-또는 최강기-라서 쓰면 스토리가 재밌기가 힘들다고 본다.
 각본가-뭐든 이야기를만드 는 사람-입장에서 인물 행동의 일관성이나 개연성 등의 문제를 &amp;lsquo;사실은 조종당하고 있었다.&amp;lsquo;로 해결할 수 있는데 그걸 마구 안 쓰기는 힘든 일이고, 정신을 차려보면 스토리는 엉망이 되어 있을 것이다.
 H는 그랬다.

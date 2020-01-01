@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>해결법 on Ezaurum&#39;s Blog</title>
@@ -18,8 +18,7 @@
       <pubDate>Sun, 08 Feb 2015 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2015/02/Nuget-%ED%8C%A8%ED%82%A4%EC%A7%80%EC%97%90-%EC%9D%98%EC%A1%B4%EC%84%B1-%EC%A7%80%EC%A0%95%ED%95%98%EA%B8%B0/</guid>
-      <description>출처 - Nuget 매뉴얼 Nuget 패키지를 만들 때 의존성을 지정하려면, .nuspec 파일 안의 metadata 태그의 자식으로 
-&amp;lt;/code&amp;gt;  이렇게 지정해 주면 된다.</description>
+      <description>출처 - Nuget 매뉴얼Nuget 패키지를 만들 때 의존성을 지정하려면, .nuspec 파일 안의 metadata 태그의 자식으로 &amp;lt;/code&amp;gt; 이렇게 지정해 주면 된다.</description>
     </item>
     
     <item>
@@ -66,7 +65,7 @@
       <pubDate>Sun, 24 Nov 2013 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2013/11/C#-Socket.AcceptAsync%EC%97%90%EC%84%9C-invalidOperationException%EC%9D%B4-%EB%82%A0-%EB%95%8C/</guid>
-      <description>C#에서 소켓 프로그래밍을 할 때, Socket.AcceptAsync로 연결하는데 다음과 같은 예외가 발생했다. System.InvalidOperationException이(가) 처리되지 않았습니다. Message=AcceptSocket: 소켓을 바인딩하거나 연결하면 안 됩니다. 원인은 AcceptAsync이후에 같은 SocketAsyncEventArgs객체를 이용해 계속 Accept를 받으려고 했는데, SocketAsyncEventArgs.AcceptSocket 프로퍼티를 null로 초기화하지 않았기 때문이다. 재사용하려면 AcceptSocket = null;을 넣어줄 것.</description>
+      <description>C#에서 소켓 프로그래밍을 할 때, Socket.AcceptAsync로 연결하는데 다음과 같은 예외가 발생했다. System.InvalidOperationException이(가) 처리되지 않았습니다. Message=AcceptSocket: 소켓을 바인딩하거나 연결하면 안 됩니다.원인은 AcceptAsync이후에 같은 SocketAsyncEventArgs객체를 이용해 계속 Accept를 받으려고 했는데, SocketAsyncEventArgs.AcceptSocket 프로퍼티를 null로 초기화하지 않았기 때문이다. 재사용하려면 AcceptSocket = null;을 넣어줄 것.</description>
     </item>
     
     <item>
@@ -75,7 +74,7 @@
       <pubDate>Sun, 24 Nov 2013 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2013/11/Git%EC%97%90%EC%84%9C-%ED%8A%B9%EC%A0%95%ED%8C%8C%EC%9D%BC-%EC%9E%84%EC%8B%9C%EB%A1%9C-%EC%BB%A4%EB%B0%8B%EB%82%B4%EC%97%AD%EC%97%90%EC%84%9C-%EC%A0%9C%EC%99%B8%ED%95%98%EA%B8%B0/</guid>
-      <description>출처 - http://blog.outsider.ne.kr/817 Unity3D로 공동작업을 하다 보면 meta파일이 많이 생기고, 뭐 잠깐 이쪽에서 고쳐보고 싶은데 하던 작업 중에 일부는 또 올려야 할 때가 있고해서 골치 아플 때 유용함. 제외 - git update-index &amp;ndash;assume-unchanged 파일명 복구 - git update-index &amp;ndash;no-assume-unchanged 파일명 초기화 - git update-index &amp;ndash;really-refresh</description>
+      <description>출처 - http://blog.outsider.ne.kr/817&amp;lt;/a&amp;gt; Unity3D로 공동작업을 하다 보면 meta파일이 많이 생기고, 뭐 잠깐 이쪽에서 고쳐보고 싶은데 하던 작업 중에 일부는 또 올려야 할 때가 있고해서 골치 아플 때 유용함. 제외 - git update-index &amp;ndash;assume-unchanged 파일명복구 - git update-index &amp;ndash;no-assume-unchanged 파일명초기화 - git update-index &amp;ndash;really-refresh</description>
     </item>
     
     <item>
@@ -94,7 +93,7 @@
       <pubDate>Sun, 24 Nov 2013 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2013/11/%EC%86%8C%EC%8A%A4%ED%8A%B8%EB%A6%AC-%EC%82%AC%EC%9A%A9%EC%8B%9C-%EC%A0%80%EC%9E%A5%EC%86%8C-%EC%A0%91%EA%B7%BC-%ED%82%A4%EB%A5%BC-%EC%9E%90%EB%8F%99%EC%9C%BC%EB%A1%9C-%EB%A1%9C%EB%93%9C%ED%95%98%EA%B2%8C-%ED%95%98%EA%B8%B0/</guid>
-      <description>http://blog.shvetsov.com/2010/03/making-pageant-automatically-load-keys.html 소스트리도 pageant를 이용하므로 이거와 같은 방식으로 하면 된다.</description>
+      <description>http://blog.shvetsov.com/2010/03/making-pageant-automatically-load-keys.html&amp;lt;/a&amp;gt; 소스트리도 pageant를 이용하므로 이거와 같은 방식으로 하면 된다.</description>
     </item>
     
     <item>
@@ -103,7 +102,7 @@
       <pubDate>Wed, 21 Aug 2013 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2013/08/jaxb-%EB%A1%9C-xsd%EB%A5%BC-java-class%EB%A1%9C-%EB%A7%8C%EB%93%A4-%EB%95%8C/</guid>
-      <description>상속되는 객체가 제대로 만들어지지 않는다면, mixed=&amp;ldquo;true&amp;rdquo;를 없애보라</description>
+      <description>상속되는 객체가 제대로 만들어지지 않는다면, mixed=&amp;quot;true&amp;quot;를 없애보라</description>
     </item>
     
     <item>
@@ -112,7 +111,7 @@
       <pubDate>Wed, 07 Aug 2013 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2013/08/unity3d-%EC%8B%9C%EC%9E%91-%EC%97%90%EB%9F%AC/</guid>
-      <description>참고 윈도우 7에서 unity3d를 실행하다가 Automatic import for &amp;lsquo;Assets/Standard Assets/Terrain Assets/Terrain Textures/Cliff (Layered Rock).psd&amp;rsquo; was disabled because the asset importer crashed on it last time. You can use &amp;lsquo;Assets -&amp;gt; Reimport&amp;rsquo; to enable automatic importing again. 처럼 psd 파일 불러오는 에러가 로그에 찍히면서 사용이 중지되면, dx11 모드로 강제로 실행시키면 해결될 수 있다. 실행시  -force-d3d11 옵션을 주고 실행하면 dx11모드로 실행된다. 문제가 일어난 환경은 i5, Intel HD4600, 윈7
+      <description>참고윈도우 7에서 unity3d를 실행하다가 Automatic import for &amp;lsquo;Assets/Standard Assets/Terrain Assets/Terrain Textures/Cliff (Layered Rock).psd&amp;rsquo; was disabled because the asset importer crashed on it last time. You can use &amp;lsquo;Assets -&amp;gt; Reimport&amp;rsquo; to enable automatic importing again.처럼 psd 파일 불러오는 에러가 로그에 찍히면서 사용이 중지되면, dx11 모드로 강제로 실행시키면 해결될 수 있다. 실행시 -force-d3d11옵션을 주고 실행하면 dx11모드로 실행된다. 문제가 일어난 환경은 i5, Intel HD4600, 윈7
 더블 클릭해서 열 때도 dx11모드로 실행하게 하려면 레지스트리에서 다음 키를 찾아서 옵션을 추가함 HKEY_CLASSES_ROOTcom.</description>
     </item>
     
@@ -122,7 +121,7 @@
       <pubDate>Thu, 25 Jul 2013 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2013/07/Jackson%EC%9D%B4-null-%EC%9D%B8-%ED%94%84%EB%A1%9C%ED%8D%BC%ED%8B%B0%EB%A5%BC-%EB%B9%BC%EA%B3%A0-Serialize%ED%95%98%EA%B2%8C-%ED%95%98%EA%B8%B0/</guid>
-      <description>클래스 선언부에 다음을 추가  @JsonSerialize(include = JsonSerialize.Inclusion.NON_NULL) public class Blabla { &amp;hellip; }  상속도 된다.</description>
+      <description>클래스 선언부에 다음을 추가 @JsonSerialize(include = JsonSerialize.Inclusion.NON_NULL) public class Blabla { &amp;hellip; } 상속도 된다.</description>
     </item>
     
     <item>
@@ -140,8 +139,8 @@
       <pubDate>Thu, 06 Jun 2013 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2013/06/jetty9-jenkins-%EC%85%80-%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EB%A7%8C%EC%9C%BC%EB%A1%9C-%EC%9E%90%EB%8F%99-%EB%B0%B0%ED%8F%AC/</guid>
-      <description>미리 말해두면, 이건 좋지 못한 방법이다. 참고링크 jetty9은 gradle이 지원을 안 한다. cargo로 하려 그래도 containerId를 jetty9x로 지정하면 에러나 뜨고&amp;hellip; 앤트 스크립트도 지금 모르겠고, 그루비도 골치아프다면 그냥 편안하게 셀 스크립트로 하는 방법이 있다. jetty9 설치 방법을 참고했으면, jetty가 서비스로 돌고 있을 테니, 참고 링크보다 좀 더 쉽게 할 수 있다.
-jenkins 설정에서, build 칸에 보면 스크립트 추가할 수 있는 곳이 있다.  sudo service jetty stop sudo cp war파일.war 제티/webapp/파일이름.war sudo service jetty start  이게 sudo를 칠 때마다 비번을 물어보면 안 되니까 jenkins에 sudo 권한을 주고 비번을 안 묻게 하자.</description>
+      <description>미리 말해두면, 이건 좋지 못한 방법이다. 참고링크jetty9은 gradle이 지원을 안 한다. cargo로 하려 그래도 containerId를 jetty9x로 지정하면 에러나 뜨고&amp;hellip; 앤트 스크립트도 지금 모르겠고, 그루비도 골치아프다면 그냥 편안하게 셀 스크립트로 하는 방법이 있다. jetty9 설치 방법을 참고했으면, jetty가 서비스로 돌고 있을 테니, 참고 링크보다 좀 더 쉽게 할 수 있다.
+jenkins 설정에서, build 칸에 보면 스크립트 추가할 수 있는 곳이 있다. sudo service jetty stop sudo cp war파일.war 제티/webapp/파일이름.war sudo service jetty start 이게 sudo를 칠 때마다 비번을 물어보면 안 되니까 jenkins에 sudo 권한을 주고 비번을 안 묻게 하자.</description>
     </item>
     
     <item>
@@ -150,9 +149,8 @@ jenkins 설정에서, build 칸에 보면 스크립트 추가할 수 있는 곳�
       <pubDate>Thu, 06 Jun 2013 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2013/06/mint-%EC%97%90-jetty9-%EC%84%A4%EC%B9%98/</guid>
-      <description>참고링크1 참고링크2
-일단 자바는 설치되었다고 가정한다. java 라고 쳐 보고 설치되었는지 확인. 별 문제 없다면 기본으로 설치되어 있을 터다. 설치 되었다면 /usr/local/ 로 이동해서 최신버전을 받아본다. 다음에 압축풀고 적당한 디렉토리로 옮긴다.
-cd /usr/local/ sudo wget &amp;ldquo;http://eclipse.org/downloads/download.php?file=/jetty/stable-9/dist/jetty-distribution-9.0.3.v20130506.tar.gz&amp;amp;r=1&amp;quot; sudo tar -xvf jetty-distribution-9.0.3.v20130506.tar.gz sudo mv jetty-distribution-9.0.3.v20130506 jetty  이제는 서비스로 실행을 시켜보자. 시작 스크립트는 제티 설치 디렉토리/bin/jetty.sh 다. jetty라는 유저를 만들어서 그걸로 실행하도록 한다.  sudo useradd jetty -U -s /bin/false sudo chown -R jetty:jetty /usr/local/jetty sudo cp /usr/local/jetty/bin/jetty.</description>
+      <description>참고링크1참고링크2일단 자바는 설치되었다고 가정한다. java 라고 쳐 보고 설치되었는지 확인. 별 문제 없다면 기본으로 설치되어 있을 터다. 설치 되었다면 /usr/local/ 로 이동해서 최신버전을 받아본다. 다음에 압축풀고 적당한 디렉토리로 옮긴다.
+cd /usr/local/ sudo wget &amp;ldquo;http://eclipse.org/downloads/download.php?file=/jetty/stable-9/dist/jetty-distribution-9.0.3.v20130506.tar.gz&amp;amp;amp;r=1&amp;quot; sudo tar -xvf jetty-distribution-9.0.3.v20130506.tar.gz sudo mv jetty-distribution-9.0.3.v20130506 jetty 이제는 서비스로 실행을 시켜보자. 시작 스크립트는 제티 설치 디렉토리/bin/jetty.sh 다. jetty라는 유저를 만들어서 그걸로 실행하도록 한다. sudo useradd jetty -U -s /bin/false sudo chown -R jetty:jetty /usr/local/jetty sudo cp /usr/local/jetty/bin/jetty.</description>
     </item>
     
     <item>
@@ -161,7 +159,7 @@ cd /usr/local/ sudo wget &amp;ldquo;http://eclipse.org/downloads/download.php?fi
       <pubDate>Tue, 28 May 2013 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2013/05/java-code-base-spring-security-setting-with-gradle/</guid>
-      <description>java code base spring security setting github 리파지토리 build.gradle에 다음을 추가  repositories { mavenCentral() maven { url &amp;ldquo;http://repo.springsource.org/snapshot&amp;quot; } }
+      <description>java code base spring security setting github 리파지토리build.gradle에 다음을 추가 repositories { mavenCentral() maven { url &amp;ldquo;http://repo.springsource.org/snapshot&amp;quot; } }
 dependencies { def springSecurityVersion = &amp;ldquo;3.1.4.RELEASE&amp;rdquo; compile &amp;ldquo;org.springframework.security:spring-security-core:$springSecurityVersion&amp;rdquo; compile &amp;ldquo;org.springframework.security:spring-security-web:$springSecurityVersion&amp;rdquo; compile &amp;ldquo;org.springframework.security:spring-security-config:$springSecurityVersion&amp;rdquo; compile &amp;ldquo;org.springframework.security:spring-security-javaconfig:1.0.0.CI-SNAPSHOT&amp;rdquo; }</description>
     </item>
     
@@ -171,7 +169,7 @@ dependencies { def springSecurityVersion = &amp;ldquo;3.1.4.RELEASE&amp;rdquo; c
       <pubDate>Thu, 23 May 2013 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2013/05/gradle%EC%97%90%EC%84%9C-jetty-9-%EC%93%B0%EA%B8%B0/</guid>
-      <description>gradle에 plugin으로 사용되는 jetty는 jetty 9이 아니다. 그러므로 WebApplicationInitializer를 써서 만든 앱은 돌아가지 않는다.
+      <description>gradle에 plugin으로 사용되는 jetty는 jetty 9이 아니다.그러므로 WebApplicationInitializer를 써서 만든 앱은 돌아가지 않는다.
 저 이슈 말미의 커멘트에 나온 방법으로 해결. 이걸로 6시간 넘게 잡아먹었다&amp;hellip;</description>
     </item>
     
@@ -181,7 +179,7 @@ dependencies { def springSecurityVersion = &amp;ldquo;3.1.4.RELEASE&amp;rdquo; c
       <pubDate>Mon, 20 May 2013 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2013/05/jenkins-%EB%B3%B4%EC%95%88-%EC%84%A4%EC%A0%95-%EC%B4%88%EA%B8%B0%ED%99%94/</guid>
-      <description>출처 내 경우는 보안 설정을 하고 유닉스 유저 정보를 가져와서 로그인 하게 했는데, 로그인 암호가 자꾸 틀렸다고 나와서, /var/lib/jenkins/config.xml에서 useSecurity 태그와 authorizationStrategy 태그를 지우고 재시작 하니까 초기화 되었음</description>
+      <description>출처내 경우는 보안 설정을 하고 유닉스 유저 정보를 가져와서 로그인 하게 했는데, 로그인 암호가 자꾸 틀렸다고 나와서, /var/lib/jenkins/config.xml에서 useSecurity 태그와 authorizationStrategy 태그를 지우고 재시작 하니까 초기화 되었음</description>
     </item>
     
     <item>
@@ -190,7 +188,7 @@ dependencies { def springSecurityVersion = &amp;ldquo;3.1.4.RELEASE&amp;rdquo; c
       <pubDate>Mon, 20 May 2013 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2013/05/scp%EB%A7%8C%EC%9C%BC%EB%A1%9C-git-%EC%84%9C%EB%B2%84%EC%97%90-key%EC%97%AC%EB%9F%BF-%EC%B6%94%EA%B0%80%ED%95%98%EA%B8%B0/</guid>
-      <description>출처 역시 누군가 뭘 해 놨을 줄 알았어. 다 필요 없는 짓이었다. ssh-copy-id 라는 명령어가&amp;hellip; OTL&amp;hellip; 역시 무식하면 몸이 고생. scp file_name user@182.213.312.122:path 다 하고 나면 보안을 위해 파일 권한이 600으로 되어 있는지 확인할 것 그 외 ssh에 대한 참고 링크</description>
+      <description>출처역시 누군가 뭘 해 놨을 줄 알았어.다 필요 없는 짓이었다. ssh-copy-id 라는 명령어가&amp;hellip; OTL&amp;hellip; 역시 무식하면 몸이 고생.scp file_name user@182.213.312.122:path다 하고 나면 보안을 위해 파일 권한이 600으로 되어 있는지 확인할 것그 외 ssh에 대한 참고 링크</description>
     </item>
     
     <item>
@@ -208,7 +206,7 @@ dependencies { def springSecurityVersion = &amp;ldquo;3.1.4.RELEASE&amp;rdquo; c
       <pubDate>Wed, 08 May 2013 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2013/05/AWS-ec2-open-jdk7%EC%9C%BC%EB%A1%9C-%EC%97%85%EA%B7%B8%EB%A0%88%EC%9D%B4%EB%93%9C/</guid>
-      <description>일단 open jdk 7 을 설치한다. sudo yum install java-1.7.0-openjdk  그 다음 java에 걸려 있는 심볼릭 링크를 바꿔줘야 하는데, /usr/bin/java -&amp;gt; /etc/alternatives/java -&amp;gt; -&amp;gt; /usr/lib/jvm/(현재 jre)/bin/java 이렇게 되어 있으므로,  sudo ln -s /usr/lib/jvm/jre-1.7.0-openjdk.x86_64/bin/java /etc/alternatives/java7 sudo mv /etc/alternatives/java7 /etc/alternatives/java  을 실행해서 심볼릭 링크를 바꿔준다. 지우고 다시 걸어도 되지만, 일단 지우고 거는 사이에 전 링크가 끊어지므로 가능한 영향을 적게 하기 위해서&amp;hellip;
+      <description>일단 open jdk 7 을 설치한다. sudo yum install java-1.7.0-openjdk 그 다음 java에 걸려 있는 심볼릭 링크를 바꿔줘야 하는데, /usr/bin/java -&amp;gt; /etc/alternatives/java -&amp;gt; -&amp;gt; /usr/lib/jvm/(현재 jre)/bin/java 이렇게 되어 있으므로, sudo ln -s /usr/lib/jvm/jre-1.7.0-openjdk.x86_64/bin/java /etc/alternatives/java7 sudo mv /etc/alternatives/java7 /etc/alternatives/java 을 실행해서 심볼릭 링크를 바꿔준다. 지우고 다시 걸어도 되지만, 일단 지우고 거는 사이에 전 링크가 끊어지므로 가능한 영향을 적게 하기 위해서&amp;hellip;
 ln -s /location/to/link2 newlink mv newlink linkname</description>
     </item>
     
@@ -218,7 +216,7 @@ ln -s /location/to/link2 newlink mv newlink linkname</description>
       <pubDate>Thu, 02 May 2013 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2013/05/bash-%EC%85%80%EC%97%90%EC%84%9C-%EB%B3%80%EC%88%98-%EC%82%AC%EC%9A%A9/</guid>
-      <description>#!/bin/sh -e TODAY=date -u +%Y%m%d REDIS_HOME=&amp;ldquo;/usr/redis-2.6.13/src&amp;rdquo; fileName=&amp;ldquo;redis-&amp;rdquo;$TODAY&amp;rdquo;.log&amp;rdquo; $REDIS_HOME/redis-server &amp;gt;&amp;gt; $REDIS_HOME/$fileName &amp;amp;  보시다시피 그냥 변수이름=값 해주면 쓸 수 있고, $를 붙이면 값을 받아오고, 문자열과는 붙여놓으면 자동으로 달라붙는다.</description>
+      <description></description>
     </item>
     
     <item>
@@ -236,7 +234,7 @@ ln -s /location/to/link2 newlink mv newlink linkname</description>
       <pubDate>Tue, 30 Apr 2013 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2013/04/AWS-RDS-%EC%9D%B8%EC%BD%94%EB%94%A9-UTF-8%EC%9C%BC%EB%A1%9C-%EC%84%A4%EC%A0%95/</guid>
-      <description>파라마터를 바꾼 다음, DB인스턴스를 리셋해야 한다. 있던 걸 자동으로 바꿔주는 건 아니다. 이미 있는 데이터는 뺀 다음 다시 넣든지 해야 할 듯. 지금은 데이터가 없는 상태라 새로 만들기만 함. 참고링크 일단 파라마터 그룹을 하나 만든다. 변경해야 할 것은 다음과 같다.  character_set_client = utf8 character_set_connection = utf8 character_set_database = utf8 character_set_results = utf8 character_set_server = utf8 collation_connection = utf8_general_ci collation_server = utf8_general_ci  파라마터 그룹을 이걸로 바꾸고, 리셋을 해 준다. 그러면 그 다음부터 들어가는 값은 UTF-8으로 들어가게 된다.</description>
+      <description>파라마터를 바꾼 다음, DB인스턴스를 리셋해야 한다. 있던 걸 자동으로 바꿔주는 건 아니다. 이미 있는 데이터는 뺀 다음 다시 넣든지 해야 할 듯. 지금은 데이터가 없는 상태라 새로 만들기만 함. 참고링크일단 파라마터 그룹을 하나 만든다. 변경해야 할 것은 다음과 같다. character_set_client = utf8 character_set_connection = utf8 character_set_database = utf8 character_set_results = utf8 character_set_server = utf8 collation_connection = utf8_general_ci collation_server = utf8_general_ci 파라마터 그룹을 이걸로 바꾸고, 리셋을 해 준다. 그러면 그 다음부터 들어가는 값은 UTF-8으로 들어가게 된다.</description>
     </item>
     
     <item>
@@ -255,8 +253,8 @@ ln -s /location/to/link2 newlink mv newlink linkname</description>
       
       <guid>https://ezaurum.com/2013/04/java-jar-%EC%98%B5%EC%85%98%EC%9D%80-classpath%EB%A5%BC-%EB%AC%B4%EC%8B%9C%ED%95%9C%EB%8B%A4/</guid>
       <description>java 를 jar 형태로 실행할 때는 내부 MENIFEST.MF파일에 classpath를 적용해야 한다. 커맨드 라인으로 실행하는 것은 무시.
-참고 링크
--jar Execute a program encapsulated in a JAR file. The first argument is the name of a JAR file instead of a startup class name. In order for this option to work, the manifest of the JAR file must contain a line of the form Main-Class: classname. Here, classname identifies the class having the public static void main(String[] args) method that serves as your application&#39;s starting point.</description>
+참고 링크When you use this option, the JAR file is the source of all user classes, and other user class path settings are ignored.
+On Solaris 8, JAR files that can be run with the &amp;ldquo;java -jar&amp;rdquo; option can have their execute permissions set so they can be run without using &amp;ldquo;java -jar&amp;rdquo;.</description>
     </item>
     
     <item>
@@ -306,7 +304,7 @@ ln -s /location/to/link2 newlink mv newlink linkname</description>
       <guid>https://ezaurum.com/2012/11/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%BD%98%EC%86%94%EC%97%90%EC%84%9C-%ED%95%9C%EA%B8%80%EC%9D%B4-%EC%95%88-%EB%90%A0-%EB%95%8C/</guid>
       <description>locale 값이 다 정상인데 화면에 한글이 다 깨져서 나온다면, 한글이 확실히 되는 OS에서 ssh 등으로 접속해 보라.
 OTL&amp;hellip;. 어차피 ssh로 접속해서만 쓸 건데&amp;hellip; 몇 시간 소모한 거지.
-&amp;nbsp;</description>
+ </description>
     </item>
     
     <item>
@@ -324,7 +322,7 @@ OTL&amp;hellip;. 어차피 ssh로 접속해서만 쓸 건데&amp;hellip; �
       <pubDate>Wed, 11 Jul 2012 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2012/07/Spring-multipart-upload%EC%97%90%EC%84%9C-put-%EB%A9%94%EC%86%8C%EB%93%9C-%EC%82%AC%EC%9A%A9/</guid>
-      <description>org.apache.commons.fileupload.FileUploadBase 에서 multipart를 POST만 인식하게 되어 있으므로, 그냥은 안 된다. 자꾸 파라마터가 없다는 에러를 보게 될 것. 해결방법은 당연히 스택오버플로우에&amp;hellip; 이 링크 참조 이 방법으로 CommonsMultipartResolver를 상속해서 put 메소드도 인식하게 해 주면, put으로 업로드 해도 정상 작동. 이방법을 쓴 건 3.0이지만, 소스 뜯어보니 아직 3.1도 안 되는 듯 하다. 당분간 이걸 써야지&amp;hellip;</description>
+      <description>org.apache.commons.fileupload.FileUploadBase 에서 multipart를 POST만 인식하게 되어 있으므로, 그냥은 안 된다. 자꾸 파라마터가 없다는 에러를 보게 될 것. 해결방법은 당연히 스택오버플로우에&amp;hellip; 이 링크 참조이 방법으로 CommonsMultipartResolver를 상속해서 put 메소드도 인식하게 해 주면, put으로 업로드 해도 정상 작동. 이방법을 쓴 건 3.0이지만, 소스 뜯어보니 아직 3.1도 안 되는 듯 하다. 당분간 이걸 써야지&amp;hellip;</description>
     </item>
     
     <item>
@@ -342,7 +340,7 @@ OTL&amp;hellip;. 어차피 ssh로 접속해서만 쓸 건데&amp;hellip; �
       <pubDate>Tue, 03 Jul 2012 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2012/07/%EC%9D%B4%ED%81%B4%EB%A6%BD%EC%8A%A4%EC%97%90%EC%84%9C-JSP%EB%A5%BC-%EC%97%B4-%EB%95%8C-JSP-editor%EA%B0%80-%EA%B8%B0%EB%B3%B8%EC%9C%BC%EB%A1%9C-%EC%97%B4%EB%A6%AC%EA%B2%8C-%ED%95%98%EA%B8%B0/</guid>
-      <description>어째선지 가끔 JSP가 디자인 모드(HTML 디자인 편집기 같은 형태) 로 열릴 때가 있다. 그럴 때는 Window-&amp;gt;General-&amp;gt;Editors-&amp;gt;File Associations에서 JSP 파일을 찾고 아래쪽에서 JSP editor를 디폴트로 지정!</description>
+      <description>어째선지 가끔 JSP가 디자인 모드(HTML 디자인 편집기 같은 형태) 로 열릴 때가 있다. 그럴 때는 Window-&amp;gt;General-&amp;gt;Editors-&amp;gt;File Associations에서 JSP 파일을 찾고 아래쪽에서 JSP editor를 디폴트로 지정! </description>
     </item>
     
     <item>
@@ -351,7 +349,7 @@ OTL&amp;hellip;. 어차피 ssh로 접속해서만 쓸 건데&amp;hellip; �
       <pubDate>Thu, 24 May 2012 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2012/05/Spring-3.1-profile-%EC%9D%B4%ED%81%B4%EB%A6%BD%EC%8A%A4%EC%97%90%EC%84%9C-%EC%82%AC%EC%9A%A9/</guid>
-      <description>스프링 3.1부터 메이븐처럼 profile 설정을 사용할 수 있게 되었다. 그래서 개발과 실서버의 설정을 다르게 만들 수 있음. 상세설명은 영어지만 여기를 참조하시고, 문제는 커맨드라인에서 실행하는 게 아니라 이클립스에서 실행할 때다. 모르는 게 나만이 아니라는 생각에 올려둠.  서버를 더블클릭해서 나오는 저 화면에서 다시 Open launcher configuration을 클릭하고, 나온 화면에서 Enviroment 탭에다가 저런 식으로 추가 해 주면 된다.</description>
+      <description>스프링 3.1부터 메이븐처럼 profile 설정을 사용할 수 있게 되었다. 그래서 개발과 실서버의 설정을 다르게 만들 수 있음. 상세설명은 영어지만 여기를 참조하시고, 문제는 커맨드라인에서 실행하는 게 아니라 이클립스에서 실행할 때다. 모르는 게 나만이 아니라는 생각에 올려둠. 서버를 더블클릭해서 나오는 저 화면에서 다시 Open launcher configuration을 클릭하고, 나온 화면에서 Enviroment 탭에다가 저런 식으로 추가 해 주면 된다.</description>
     </item>
     
     <item>
@@ -370,10 +368,9 @@ OTL&amp;hellip;. 어차피 ssh로 접속해서만 쓸 건데&amp;hellip; �
       
       <guid>https://ezaurum.com/2011/04/input%EC%9D%B4%EB%82%98-textarea%EC%9D%98-%ED%81%AC%EA%B8%B0%EA%B0%80-%EC%9E%98-%EB%A7%9E%EC%A7%80-%EC%95%8A%EC%9D%84-%EB%95%8C/</guid>
       <description>아무리 width를 조정하고 padding, margin, border까지 똑같이 줘도 제대로 사이즈가 맞지 않을 때는,
-box-sizing:border-box; 를 넣어줘 본다.  &amp;lt;div style=&amp;ldquo;box-sizing:border-box;width:100px;border:1px solid gray;height:20px;float:left;display:block;&amp;rdquo;&amp;gt;test&amp;lt;/div&amp;gt; &amp;lt;input type=&amp;ldquo;text&amp;rdquo; style=&amp;ldquo;box-sizing:border-box;width:100px;height:20px;float:left;display:block;&amp;rdquo; value=&amp;ldquo;test&amp;rdquo;/&amp;gt; &amp;lt;textarea style=&amp;ldquo;box-sizing:border-box;width:100px;height:20px;float:left;display:block;&amp;rdquo;&amp;gt;test&amp;lt;/textarea&amp;gt;   test
-test 
+box-sizing:border-box; 를 넣어줘 본다. &amp;lt;div style=&amp;quot;box-sizing:border-box;width:100px;border:1px solid gray;height:20px;float:left;display:block;&amp;quot;&amp;gt;test&amp;lt;/div&amp;gt; &amp;lt;input type=&amp;quot;text&amp;rdquo; style=&amp;quot;box-sizing:border-box;width:100px;height:20px;float:left;display:block;&amp;rdquo; value=&amp;quot;test&amp;rdquo;/&amp;gt; &amp;lt;textarea style=&amp;quot;box-sizing:border-box;width:100px;height:20px;float:left;display:block;&amp;quot;&amp;gt;test&amp;lt;/textarea&amp;gt; test
 자세한 것은 다음 링크참조
-chrome같은 경우엔 기본적으로 input[type=&amp;ldquo;text&amp;rdquo;],input[type=&amp;ldquo;button&amp;rdquo;]같은 것들이 box-sizing:border-box로 되어 있는 듯 하다.
+chrome같은 경우엔 기본적으로 input[type=&amp;quot;text&amp;rdquo;],input[type=&amp;quot;button&amp;rdquo;]같은 것들이 box-sizing:border-box로 되어 있는 듯 하다.
 css3 속성이므로 ie에서는 제대로 안 된다.</description>
     </item>
     
@@ -383,10 +380,9 @@ css3 속성이므로 ie에서는 제대로 안 된다.</description>
       <pubDate>Tue, 08 Mar 2011 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2011/03/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EC%97%90%EC%84%9C-%EC%B9%B4%EC%9A%B4%ED%8A%B8%EB%8B%A4%EC%9A%B4-%ED%83%80%EC%9D%B4%EB%A8%B8%EB%A5%BC-%EB%A7%8C%EB%93%A4-%EB%95%8C-%EC%9C%A0%EC%9D%98%EC%A0%90/</guid>
-      <description>영문 - http://ejohn.org/blog/how-javascript-timers-work/ 한글 - http://okjungsoo.tistory.com/entry/JavaScript-Timer
+      <description>영문 - http://ejohn.org/blog/how-javascript-timers-work/&amp;lt;/a&amp;gt; 한글 - http://okjungsoo.tistory.com/entry/JavaScript-Timer&amp;lt;/a&amp;gt;
 뽀모도로 타이머를 만들던 중, setInterval을 이용하여 코드를 짜니 25분 짜리 타이머에서 한 15초 가량 오차가 나는 것을 발견, 이리저리 뒤지자 이런 것이 나왔다.
-간단한 결론은, 오차가 적어야 하는 상황이면 setTimeout을 쓰라는 것.setTimeout을 쓴다고 해도 그래도 오차가 없어지지는 않음&amp;hellip;.(new Date()).getMillisecond()를 쓰면 시각 자체에 대한 정확성은 그래도 어느 정도까지는 보장할 수 있을테니까 그것으로 타협.
-타이머 성능 관련 링크</description>
+간단한 결론은, 오차가 적어야 하는 상황이면 setTimeout을 쓰라는 것.setTimeout을 쓴다고 해도 그래도 오차가 없어지지는 않음&amp;hellip;.(new Date()).getMillisecond()를 쓰면 시각 자체에 대한 정확성은 그래도 어느 정도까지는 보장할 수 있을테니까 그것으로 타협.타이머 성능 관련 링크</description>
     </item>
     
     <item>
@@ -395,8 +391,8 @@ css3 속성이므로 ie에서는 제대로 안 된다.</description>
       <pubDate>Fri, 22 Oct 2010 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2010/10/Java-%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88%EC%97%90-Form-%EA%B0%92%EC%9D%98-encoding-%EA%B9%A8%EC%A7%88-%EB%95%8C/</guid>
-      <description>점검사항은 아래 세가지.  폼에서 정확히 인코딩을 지정해서 넘겨주는가? 서버에서 정확히 인코딩을 인식하는가? DB에서 정확히 인코딩을 인식하는가?  이다.  폼에서 정확히 인코딩을 지정해서 념겨주는가? 이 경우는 일단 문서 첫머리에 meta태그가 utf-8으로 지정되어 있고, 폼에 accept-charset 어트리뷰트가 지정되어 있고, 브라우저에서 확인해서 문서가 utf-8으로 읽히는 상황이라면 문제 없다고 보면 된다. UTF-8으로 나와야 하는 페이지가 UTF-8으로 안나오는 경우는 여기서 다룰 게 아니다.
- &amp;lt;meta http-equiv=&amp;ldquo;Content-Type&amp;rdquo; content=&amp;ldquo;text/html; charset=UTF-8&amp;rdquo; /&amp;gt; &amp;lt;meta charset=&amp;ldquo;UTF-8&amp;rdquo; /&amp;gt; &amp;lt;form accept-charset=&amp;ldquo;UTF-8&amp;rdquo; &amp;gt;   서버에서 인코딩을 제대로 인식하는가?</description>
+      <description>점검사항은 아래 세가지.
+포인트는 이것, 원인은 크게 세가지니까 하나씩 제대로 되었는지 시험해볼것.</description>
     </item>
     
     <item>
@@ -405,7 +401,10 @@ css3 속성이므로 ie에서는 제대로 안 된다.</description>
       <pubDate>Mon, 20 Sep 2010 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2010/09/%ED%85%8D%EC%8A%A4%ED%8A%B8%EB%A1%9C-%EB%90%98%EC%96%B4-%EC%9E%88%EB%8A%94-%EC%83%89%EC%83%81-%EB%AA%A9%EB%A1%9D%EC%9D%84-%EC%B9%98%ED%99%98%ED%95%98%EA%B8%B0/</guid>
-      <description>다음과 같은 텍스트가 있다. #2f4f4f darkslategray 어두운푸른빛회색 #708090 slategray 푸른빛회색 #778899 lightslategray 밝은푸른빛회색 #696969 dimgray 칙칙한회색 #808080 gray 회색 #a9a9a9 darkgray 어두운회색 #c0c0c0 silver 은색 #d3d3d3 lightgrey 밝은회색 #dcdcdc gainsboro #ffffff white 백색 #fff5ee seashell 바다조가비 #fffafa snow 설백 #f8f8ff ghostwhite 허깨비백색 #fffaf0 floralwhite 꽃의백색 #f5f5f5 whitesmoke 백색연기 #f0f8ff aliceblue 엷은잿빛바탕에푸른빛 #f0ffff azure 하늘색 #fdf5e6 oldlace 낡은끈 #f5fffa mintcream 박하크림 #ffefd5 papayawhip 열대아메리카산과수매질 #ffdab9 peachpuff 복숭아빛불기 #faf0e6 linen 리넨 #eee8aa palegoldenrod 옅은국화과의다년초 #ffe4e1 mistyrose 짙은장미빛 #ffe4b5 moccasin 사슴가죽의구두 #ffdead navajowhite 나바호족백색 #d2b48c tan 볕에탄빛깔 #f5deb3 wheat 밀 #fafad2 lightgoldenrodyellow 밝은국화과다년초노랑 #ffffe0 lightyellow 밝은노랑 #fff8dc cornsilk 옥수수명주실 #faebd7 antiquewhite 옛날의백색 #f5f5dc beige 엷은갈색 #fffacd lemonchiffon 레몬빛가볍고얇은직물 #fffff0 ivory 상앗빛 #f0e68c khaki 누른빛에엷은다색이섞인빛깔 #e6e6fa lavender 연한자주색 #fff0f5 lavenderblush 연한자주빛붉기 #ffe4c4 bisque 분홍빛이도는검은빛을띤누른빛 #ffebcd blanchedalmond 희어진엷은황갈색 #deb887 burlywood 튼튼한목재 #cd853f peru 남미서부의공화국 #00ced1 darkturquoise 어두운푸른빛녹색 #00bfff deepskyblue 짙은하늘파랑 #7fffd4 aquamarine 엷은푸른빛녹색 #1e90ff dodgerblue옥수수빵파랑 #00ffff cyan 푸른정도 #f0fff0 honeydew 식물의잎에서나는단물 #87cefa lightskyblue 밝은하늘파랑 #afeeee paleturquoise 옅은푸른빛녹색 #e0ffff lightcyan 밝은푸른정도 #add8e6 lightblue 밝은파랑 #b0c4de lightsteelblue 밝은철강빛파랑 #40e0d0 turquoise 푸른빛녹색 #48d1cc mediumturquoise 중간의푸른빛녹색 #00ffff aqua 엷은푸른빛녹색 #7b68ee mediumslateblue 중푸른빛회색파랑 #191970 midnightblue 깜깜한파랑 #6495ed cornflowerblue 옥수수꽃파랑 #0000cd mediumblue 중간의파랑 #6a5acd slateblue 푸른빛회색파랑 #4682b4 steelblue 철강빛파랑 #0000ff blue 파랑 #483d8b darkslateblue 어두운푸른빛회색파랑 #5f9ea0 cadetblue 이하의파랑 #87ceeb skyblue 하늘파랑 #4169e1 royalblue 황실의파랑 #b0e0e6 powderblue 가루파랑 #000080 navy 짙은검은빛을띤남빛 #00008b darkblue 어두운파랑 #8a2be2 blueviolet 파란제비꽃색 #8b008b darkmagenta 어두운짙은분홍색 #9932cc darkorchid 어두운연보라색 #9400d3 darkviolet 어두운제비꽃색 #ff00ff magenta 짙은분홍색 #ff00ff fuchsia 붉은빛깔이나는자줏빛 #c71585 mediumvioletred 중제비꽃빨강 #ba55d3 mediumorchid 중간의연보라색 #9370db mediumpurple 중간의자줏빛 #dc143c crimson 짙게붉은색깔 #ff1493 deeppink 짙은연분홍색 #ffb6c1 lightpink 밝은연분홍색 #ff69b4 hotpink 강렬한연분홍색 #ffc0cb pink 연분홍색 #dda0dd plum 짙은 보라색 #800080 purple 자줏빛 #ee82ee violet 제비꽃색 #d8bfd8 thistle 엉겅퀴 #da70d6 orchid 연보라색 #4b0082 indigo 남색 #a52a2a brown 갈색 #e9967a darksalmon 어두운주황색 #f08080 lightcoral 밝은산호빛 #cd5c5c indianred 인디언빨강 #ffa07a lightsalmon 밝은주황색 #db7093 palevioletred 옅은제비꽃빨강 #f4a460 sandybrown 엷은갈색 #fa8072 salmon 주황색 #ff6347 tomato 토마토색 #ff0000 red 빨강 #800000 maroon 붉은빛을띤갈색 #8b0000 darkred 어두운빨강 #b22222 firebrick 내화 #d2691e chocolate 갈색 #8b4513 saddlebrown 안장갈색 #a0522d sienna 붉은빛을띤갈색 #bc8f8f rosybrown 장미빛갈색 #ff7f50 coral 산호빛 #ff8c00 darkorange 어두운붉은빛을띤누른색 #ffa500 orange 붉은빛을띤누른색 #b8860b darkgoldenrod 어둔운국화과의다년초 #ffd700 gold 금빛 #ffff00 yellow 노랑 #7fff00 chartreuse 연두색 #7cfc00 lawngreen 잔디녹색 #00ff00 lime 열대산의레몬비슷한과일 #32cd32 limegreen 라임녹색 #00ff7f springgreen 봄녹색 #3cb371 mediumseagreen 중간의바다녹색 #adff2f greenyellow 녹색의노랑 #8fbc8f darkseagreen 어두운바다녹색 #90ee90 lightgreen 밝은녹색 #98fb98 palegreen 옅은녹색 #2e8b57 seagreen 바다녹색 #00fa9a mediumspringgreen 중봄녹색 #20b2aa lightseagreen 밝은바다녹색 #66cdaa mediumaquamarine 중엷은청록색 #228b22 forestgreen 숲녹색 #008b8b darkcyan 어두운푸른정도 #008080 teal 암록색을띤청색 #006400 darkgreen 어두운녹색 #556b2f darkolivegreen 어두운올리브녹색 #008000 green 녹색 #808000 olive 물푸레나뭇과의상록교목 #6b8e23 olivedrab 올리브엷은갈색 #bdb76b darkkhaki 어두운누른빛에엷은다색 #daa520 goldenrod 국화과의다년초</description>
+      <description>다음과 같은 텍스트가 있다.
+기왕 색깔에 대한 설명인 바, 각 색이 바로 보이면 되겠다 싶었다. 하지만 그냥 검색, 치환으로는 불가능. 그런 상황에서 나오는 것이 정규표현식.
+vim을 사용했다.
+%s/^(#.{6})s(.*)/&amp;lt;p style=&amp;quot;background-color:1&amp;rdquo;&amp;gt;1 2&amp;lt;/p&amp;gt;/g이렇게 하면 깔끔. vim 에서는 ( , ) , , {, } 를 이스케이프 해 줘야 메타문자로 동작한다. 수정해 놓고 빼먹고 있었군&amp;hellip;오오 위대해.</description>
     </item>
     
     <item>
@@ -414,7 +413,7 @@ css3 속성이므로 ie에서는 제대로 안 된다.</description>
       <pubDate>Thu, 19 Aug 2010 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2010/08/css-img-%EC%97%AC%EB%B0%B1/</guid>
-      <description>img는 inline 글자랑 같다. &amp;lt;img src=&amp;ldquo;xx&amp;rdquo; /&amp;gt; &amp;lt;img src=&amp;ldquo;xx&amp;rdquo; /&amp;gt; &amp;lt;img src=&amp;ldquo;xx&amp;rdquo; /&amp;gt; 이렇게 하면 여백이 생긴다. html이므로, 빈줄은 빈칸으로 취급. &amp;lt;img src=&amp;ldquo;xx&amp;rdquo; /&amp;gt;&amp;lt;img src=&amp;ldquo;xx&amp;rdquo; /&amp;gt;&amp;lt;img src=&amp;ldquo;xx&amp;rdquo; /&amp;gt; 이렇게 하면 안 생긴다.</description>
+      <description>img는 inline 글자랑 같다. &amp;lt;img src=&amp;quot;xx&amp;rdquo; /&amp;gt; &amp;lt;img src=&amp;quot;xx&amp;rdquo; /&amp;gt; &amp;lt;img src=&amp;quot;xx&amp;rdquo; /&amp;gt; 이렇게 하면 여백이 생긴다. html이므로, 빈줄은 빈칸으로 취급. &amp;lt;img src=&amp;quot;xx&amp;rdquo; /&amp;gt;&amp;lt;img src=&amp;quot;xx&amp;rdquo; /&amp;gt;&amp;lt;img src=&amp;quot;xx&amp;rdquo; /&amp;gt; 이렇게 하면 안 생긴다.</description>
     </item>
     
     <item>
@@ -438,8 +437,10 @@ css3 속성이므로 ie에서는 제대로 안 된다.</description>
 #second{ width:140px; background:green; }
 #last{ width:140px;
 position:relative; left:-140px; top:20px;
-background:yellow; } &amp;lt;/style&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; 길다란 가변형 문자열  고정폭/고정높이  고정폭  &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt; 문제점 - 부모 element가 보이는 것보다 좀 더-div#last의 폭이 추가된만큼- 커야 한다.
-방안 2 -div를 4개 쓰는 경우, 즉 부모 엘리먼트를 하나 두는 경우 &amp;lt;!</description>
+background:yellow; } &amp;lt;/style&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt;
+방안 2 -div를 4개 쓰는 경우, 즉 부모 엘리먼트를 하나 두는 경우 &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;style&amp;gt; div{ margin:0px; background:gray; }
+#first {height:40px;}
+#second , #last{ height:20px; width:140px; background:green; position:absolute; right:0px; }</description>
     </item>
     
     <item>
@@ -449,7 +450,7 @@ background:yellow; } &amp;lt;/style&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&a
       
       <guid>https://ezaurum.com/2009/09/%EB%8B%A4%EB%A5%B8-%ED%94%84%EB%A0%88%EC%9E%84%EC%9C%BC%EB%A1%9C-%ED%8F%BC-%EA%B0%92-%EC%A0%84%EC%86%A1/</guid>
       <description>자바스크립트 이용
-window.open(&amp;ldquo;title&amp;rdquo;, &amp;ldquo;frameName&amp;rdquo;, &amp;ldquo;width=600, height=400, scrollbars=yes&amp;rdquo;); document.form1.action = &amp;ldquo;action.php&amp;rdquo;; document.form1.target = &amp;ldquo;frameName&amp;rdquo;; document.form1.method = &amp;ldquo;post&amp;rdquo;; document.form1.submit();</description>
+window.open(&amp;ldquo;title&amp;rdquo;, &amp;ldquo;frameName&amp;rdquo;, &amp;ldquo;width=600, height=400, scrollbars=yes&amp;rdquo;); document.form1.action = &amp;ldquo;action.php&amp;rdquo;; document.form1.target = &amp;ldquo;frameName&amp;rdquo;; document.form1.method = &amp;ldquo;post&amp;rdquo;; document.</description>
     </item>
     
     <item>
@@ -469,8 +470,7 @@ utf-8을 지원한다더니&amp;hellip; mysql만 그걸 지원하고 아파치�
       <pubDate>Thu, 12 Feb 2009 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2009/02/%EC%9C%88%EB%8F%84XP-%EC%8B%9C%EC%8A%A4%ED%85%9C-%ED%8C%8C%EC%9D%BC-%EB%B3%B5%EA%B5%AC%EB%B2%95/</guid>
-      <description>적용대상  winlogon.exe, userinit.exe, lsass.exe등의 파일이 없거나, 손상되어 정상적인 부팅이 불가능할 때 뭔지는 모르겠지만, 일단 윈도우 시작은 됐는데, 사용자 이름을 눌러도 로그인이 안되거나, 바탕화면이 뜨지 않거나 할 때. 기타 이유로 파일 복구가 필요할 때winlogon.exe, userinit.exe, lsass.exe등의 파일이 없거나, 손상되어 정상적인 부팅이 불가능할 때 
-준비물  1, 2 중 하나만 있으면 됨. 깔려있는 것과 동일한 버전의 XP 정품 씨디 깔린 게 SP2면 SP2, SP3면 SP3여야 하는 게 원칙이나, 될 수도 있음.</description>
+      <description>또 다른 참고 사이트 NTFAQ- NT기반의 설명이지만 XP에서도 대부분 된다. 복구 콘솔 명령어와 팁</description>
     </item>
     
     <item>
@@ -479,7 +479,7 @@ utf-8을 지원한다더니&amp;hellip; mysql만 그걸 지원하고 아파치�
       <pubDate>Mon, 09 Feb 2009 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2009/02/opera-%EB%B0%B1%EC%97%85%ED%95%98%EA%B8%B0/</guid>
-      <description>백업할 디렉토리 위치 확인 오페라 주소창에서 opera:about 라고 친다. 그럼 경로 정보가 나온다. 내 경우(Windows7, Administrator계정 사용)는 아래와 같았음 환경설정 C:UsersAdministratorAppDataRoamingOperaOperaprofileopera6.ini 저장한 세션 C:UsersAdministratorAppDataRoamingOperaOperaprofilesessionsautopera.win 북마크 C:UsersAdministratorAppDataRoamingOperaOperaprofileopera6.adr Opera 디렉토리 C:UsersAdministratorAppDataRoamingOperaOperaprofile 캐시 C:UsersAdministratorAppDataLocalOperaOperaprofilecache4 도움말 C:UsersAdministratorAppDataLocalOperaOperaprofileopcache 메일 디렉토리 C:UsersAdministratorAppDataLocalOperaOperamail 플러그인 경로 C:Program Files (x86)OperaProgramPlugins User CSS 디렉토리 C:UsersAdministratorAppDataRoamingOperaOperaprofilestylesuser  필요한 것들을 복사한다. 참고 - RSS feed 메세지는 mail에 저장된다.  OS를 새로 설치하거나 뭐, 하려고 했던 걸 한다. 새로 깐 오페라 주소창에서 opera:about 라고 친다.</description>
+      <description></description>
     </item>
     
     <item>
@@ -488,7 +488,7 @@ utf-8을 지원한다더니&amp;hellip; mysql만 그걸 지원하고 아파치�
       <pubDate>Mon, 08 Dec 2008 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2008/12/</guid>
-      <description>아마도 원인은 이 아래 링크 http://kldp.org/node/92618 따라서, extern 키워드를 활용하도록 한다!</description>
+      <description>아마도 원인은 이 아래 링크 http://kldp.org/node/92618&amp;lt;/a&amp;gt; 따라서, extern키워드를 활용하도록 한다!</description>
     </item>
     
     <item>
@@ -497,7 +497,7 @@ utf-8을 지원한다더니&amp;hellip; mysql만 그걸 지원하고 아파치�
       <pubDate>Mon, 08 Dec 2008 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2008/12/Edit-plus-sftp-%EB%AC%B8%EC%A0%9C/</guid>
-      <description>http://quiin.com/13
+      <description>http://quiin.com/13&amp;lt;/a&amp;gt;
 이 설명은 데비안이지만, 당연히 우분투에서도 그대로 된다.</description>
     </item>
     
@@ -507,9 +507,7 @@ utf-8을 지원한다더니&amp;hellip; mysql만 그걸 지원하고 아파치�
       <pubDate>Thu, 04 Dec 2008 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2008/12/%EC%86%8C%EC%BC%93-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EC%9D%84-%ED%95%A0-%EB%95%8C-read%EA%B0%80-%EC%83%9D%EA%B0%81%EB%8C%80%EB%A1%9C-%EC%9E%91%EB%8F%99%ED%95%98%EC%A7%80-%EC%95%8A%EB%8A%94-%EA%B2%BD%EC%9A%B0/</guid>
-      <description>기말고사용으로 채팅 프로그램을 만들던 중, close를 하지 않고, 연결을 유지한 채로 write함수로 EOF값 만을 보내서 대화 내용의 종결을 알리려고 했으나, 잘 작동하지 않았다.
-read는 socket 이 close되지 않으면 EOF를 읽더라도 1을 반환한다. 따라서 연결을 유지하고 read/write를 하려면 읽은 값이 EOF인지를 체크해준다! 이거 알아내려고 이틀 밤 샜다. 젠장. 나만 병신인가.  while (temp) { read(sockfd, &amp;amp;s, 1); if ( s == EOF) break; printf(&amp;ldquo;%c&amp;rdquo;,s); } 
-read 의 리턴값 - 기본적으로 실제로 읽은 바이트 수 만큼.</description>
+      <description>기말고사용으로 채팅 프로그램을 만들던 중, close를 하지 않고, 연결을 유지한 채로 write함수로 EOF값 만을 보내서 대화 내용의 종결을 알리려고 했으나, 잘 작동하지 않았다.read는 socket 이 close되지 않으면 EOF를 읽더라도 1을 반환한다. 따라서 연결을 유지하고 read/write를 하려면 읽은 값이 EOF인지를 체크해준다! 이거 알아내려고 이틀 밤 샜다. 젠장. 나만 병신인가. while (temp) { read(sockfd, &amp;amp;s, 1); if ( s == EOF) break; printf(&amp;quot;%c&amp;rdquo;,s); } read 의 리턴값 - 기본적으로 실제로 읽은 바이트 수 만큼.</description>
     </item>
     
     <item>
@@ -518,8 +516,8 @@ read 의 리턴값 - 기본적으로 실제로 읽은 바이트 수 만큼.</des
       <pubDate>Mon, 01 Dec 2008 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2008/12/%EC%9A%B0%EB%B6%84%ED%88%AC-%EC%99%B8%EB%B6%80-%EC%A0%91%EC%86%8D-%EB%AC%B8%EC%A0%9C/</guid>
-      <description>텔넷이고 SSH고 ftp고 간에 하나도 외부에서는 접속이 되지 않는 것을 발견, 원인을 애타게 찾다가 다음 링크에서 대충의 힌트를 발견. http://kldp.org/node/19990
-IPTABLE 에 대한 설명 http://www.i-swear.com/148
+      <description>텔넷이고 SSH고 ftp고 간에 하나도 외부에서는 접속이 되지 않는 것을 발견, 원인을 애타게 찾다가 다음 링크에서 대충의 힌트를 발견. http://kldp.org/node/19990&amp;lt;/a&amp;gt;
+IPTABLE 에 대한 설명 http://www.i-swear.com/148&amp;lt;/a&amp;gt;
 sudo iptables-save
 &amp;hellip;&amp;hellip;&amp;hellip;..하지만 다 소용 없었다.
 그냥 sudo reboot 몇 번 하니 해결.
@@ -533,7 +531,7 @@ sudo iptables-save
       <pubDate>Sat, 29 Nov 2008 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2008/11/Ubuntu-Apache2-%EC%82%AC%EC%9A%A9%EC%9E%90%EB%B3%84-%EC%9B%B9-%EB%94%94%EB%A0%89%ED%86%A0%EB%A6%AC-%EC%84%A4%EC%A0%95/</guid>
-      <description>http://leeted.egloos.com/1489000 위 링크 참고 했음.
+      <description>http://leeted.egloos.com/1489000&amp;lt;/a&amp;gt; 위 링크 참고 했음.
 콘솔에서 입력.
 cd /etc/apache2/mods-available sudo cp userdir.conf userdir.load /etc/apache2/mods-enabled sudo /etc/init.d/apache2 restart
 이후, 각 유자가 자기 홈 디렉 토리에다 public_html을 만들어주면 된다. 아래와 같은 식? cd ~ mkdir public_html public_html 디렉토리 아래에 index.html 생성</description>
@@ -546,9 +544,8 @@ cd /etc/apache2/mods-available sudo cp userdir.conf userdir.load /etc/apache2/mo
       
       <guid>https://ezaurum.com/2008/11/lsocket-%EC%98%B5%EC%85%98%EC%97%90%EC%84%9C-%EC%97%90%EB%9F%AC%EA%B0%80-%EB%82%A0-%EB%95%8C/</guid>
       <description>소켓 프로그래밍을 하는데 프린트물에 있는 대로 -lsocket 옵션을 주니 계속 cc 가 에러를 뱉었다.
-http://kldp.org/node/1377
-결론은 Sun 계열 유닉스에서 작업하는 게 아니면, -lnsl -lsocket 옵션을 주지 말고 컴파일하라는 것.
-한참 헤매다가 답 발견. 학교 서버가 sun 계열이라 그런 듯.</description>
+http://kldp.org/node/1377&amp;lt;/a&amp;gt;
+결론은 Sun 계열 유닉스에서 작업하는 게 아니면, -lnsl -lsocket 옵션을 주지 말고 컴파일하라는 것.한참 헤매다가 답 발견. 학교 서버가 sun 계열이라 그런 듯.</description>
     </item>
     
     <item>
@@ -557,12 +554,7 @@ http://kldp.org/node/1377
       <pubDate>Tue, 25 Nov 2008 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2008/11/%EC%99%B8%EB%B6%80-%EC%84%9C%EB%B2%84%EC%97%90%EC%84%9C-%ED%94%84%EB%A0%88%EC%9E%84%EC%9C%BC%EB%A1%9C-%EB%AC%B8%EC%84%9C%EB%A5%BC-%EC%9D%BD%EA%B2%8C-%ED%95%98%EA%B3%A0-%EC%8B%B6%EC%A7%80-%EC%95%8A%EC%9D%84-%EB%95%8C/</guid>
-      <description>출저는 여기
-당연히 &amp;lt;head&amp;gt; 와 &amp;lt;/head&amp;gt; 사이에 넣어준다. type=&amp;ldquo;text/javascript&amp;rdquo;&amp;gt;
-//
-if (top.frames.length!=0) top.location=self.document.location;
-//]]&amp;gt;
- 일단 학교 서버에서 모든 외부 서버로 엑세스 할 때는 프레임을 기본적으로 씌워서, ActiveX를 실행시키기 때문에;; 상당히 귀찮다. 내 홈피라도 그런 꼴을 안 보려는 자구책.</description>
+      <description>출저는 여기당연히 &amp;lt;head&amp;gt; 와 &amp;lt;/head&amp;gt; 사이에 넣어준다. type=&amp;quot;text/javascript&amp;quot;&amp;gt;//if(top.frames.length!=0)top.location=self.document.location;//]]&amp;gt;일단 학교 서버에서 모든 외부 서버로 엑세스 할 때는 프레임을 기본적으로 씌워서, ActiveX를 실행시키기 때문에;; 상당히 귀찮다. 내 홈피라도 그런 꼴을 안 보려는 자구책.</description>
     </item>
     
     <item>
@@ -571,8 +563,8 @@ if (top.frames.length!=0) top.location=self.document.location;
       <pubDate>Mon, 24 Nov 2008 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2008/11/SmartFTP%EC%97%90%EC%84%9C-%EB%94%94%EB%A0%89%ED%86%A0%EB%A6%AC-%EB%AA%A9%EB%A1%9D-%EC%95%88-%EB%B3%B4%EC%9D%B4%EB%8A%94-%EB%AC%B8%EC%A0%9C/</guid>
-      <description>http://kldp.org/node/34348 파일질라와 같은 문제인 듯. XP로 ALftp로 윈도우 환경에서 서버를 돌리고 있는데, 다른 컴에서 smartftp로 접속하면 디렉토리 목록이 보이지 않는다. raw목록을 보면 제대로 받아오고 있긴 한데, 한글 주소는 아예 접근이 안되고, 해서 여러가지 알아본 바.
-http://www.smartftp.com/support/kb/no-files-folders-are-being-being-displayed-f48.html 일단 이건 소용없었고. 그 아래, MLSD란 걸 사용 안 함으로 해 줘야 한다. [caption id=&amp;ldquo;attachment_212&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;300&amp;rdquo; caption=&amp;ldquo;디렉토리 목록이 나오지 않는 서버의 링크-즐겨찾기에 있을 거다-에서 오른쪽 버튼을 누르고, 속성으로 들어간다. 누르면 크게 볼 수 있음.</description>
+      <description>http://kldp.org/node/34348&amp;lt;/a&amp;gt; 파일질라와 같은 문제인 듯. XP로 ALftp로 윈도우 환경에서 서버를 돌리고 있는데, 다른 컴에서 smartftp로 접속하면 디렉토리 목록이 보이지 않는다. raw목록을 보면 제대로 받아오고 있긴 한데, 한글 주소는 아예 접근이 안되고, 해서 여러가지 알아본 바.
+http://www.smartftp.com/support/kb/no-files-folders-are-being-being-displayed-f48.html&amp;lt;/a&amp;gt; 일단 이건 소용없었고. 그 아래, MLSD란 걸 사용 안 함으로 해 줘야 한다. [caption id=&amp;quot;attachment_212&amp;rdquo; align=&amp;quot;alignnone&amp;rdquo; width=&amp;quot;300&amp;rdquo; caption=&amp;quot;디렉토리 목록이 나오지 않는 서버의 링크-즐겨찾기에 있을 거다-에서 오른쪽 버튼을 누르고, 속성으로 들어간다. 누르면 크게 볼 수 있음.</description>
     </item>
     
     <item>
@@ -581,7 +573,7 @@ http://www.smartftp.com/support/kb/no-files-folders-are-being-being-displayed-f4
       <pubDate>Fri, 21 Nov 2008 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2008/11/Windows-XP-%EC%82%AC%EC%9A%A9%EC%9E%90-%EA%B3%84%EC%A0%95-%EB%B9%84%EB%B0%80%EB%B2%88%ED%98%B8%EB%A5%BC-%EC%9E%8A%EC%97%88%EC%9D%84-%EB%95%8C/</guid>
-      <description>관리자 -Administrator 계정의 비번을 알 경우 관리자 계정 로그인-제어판-사용자 계정-비번을 잊은 계정 선택-비밀번호 변경 관리자 계정이 보통 때 뜨지 않는 경우는, 부팅 시, F8을 눌러서 안전모드로 들어간다.  관리자 계정 비번을 모를 경우 F8을 눌러서 안전모드 명령 프롬프트 사용 을 선택해서, net user 필요한아이디 *ENTER를 입력. 그럼 비번 재설정 가능.  둘 다 여의치 않을 경우 안전모드든, hiren&#39;s CD를 이용하든 윈도우즈 폴더의 system32config 폴더 안에 있는 SAM파일을 지우고 재부팅 - 이 방법은 위험하다고 함.</description>
+      <description></description>
     </item>
     
     <item>

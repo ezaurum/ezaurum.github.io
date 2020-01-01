@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>css3 on Ezaurum&#39;s Blog</title>
@@ -19,10 +19,9 @@
       
       <guid>https://ezaurum.com/2011/04/input%EC%9D%B4%EB%82%98-textarea%EC%9D%98-%ED%81%AC%EA%B8%B0%EA%B0%80-%EC%9E%98-%EB%A7%9E%EC%A7%80-%EC%95%8A%EC%9D%84-%EB%95%8C/</guid>
       <description>아무리 width를 조정하고 padding, margin, border까지 똑같이 줘도 제대로 사이즈가 맞지 않을 때는,
-box-sizing:border-box; 를 넣어줘 본다.  &amp;lt;div style=&amp;ldquo;box-sizing:border-box;width:100px;border:1px solid gray;height:20px;float:left;display:block;&amp;rdquo;&amp;gt;test&amp;lt;/div&amp;gt; &amp;lt;input type=&amp;ldquo;text&amp;rdquo; style=&amp;ldquo;box-sizing:border-box;width:100px;height:20px;float:left;display:block;&amp;rdquo; value=&amp;ldquo;test&amp;rdquo;/&amp;gt; &amp;lt;textarea style=&amp;ldquo;box-sizing:border-box;width:100px;height:20px;float:left;display:block;&amp;rdquo;&amp;gt;test&amp;lt;/textarea&amp;gt;   test
-test 
+box-sizing:border-box; 를 넣어줘 본다. &amp;lt;div style=&amp;quot;box-sizing:border-box;width:100px;border:1px solid gray;height:20px;float:left;display:block;&amp;quot;&amp;gt;test&amp;lt;/div&amp;gt; &amp;lt;input type=&amp;quot;text&amp;rdquo; style=&amp;quot;box-sizing:border-box;width:100px;height:20px;float:left;display:block;&amp;rdquo; value=&amp;quot;test&amp;rdquo;/&amp;gt; &amp;lt;textarea style=&amp;quot;box-sizing:border-box;width:100px;height:20px;float:left;display:block;&amp;quot;&amp;gt;test&amp;lt;/textarea&amp;gt; test
 자세한 것은 다음 링크참조
-chrome같은 경우엔 기본적으로 input[type=&amp;ldquo;text&amp;rdquo;],input[type=&amp;ldquo;button&amp;rdquo;]같은 것들이 box-sizing:border-box로 되어 있는 듯 하다.
+chrome같은 경우엔 기본적으로 input[type=&amp;quot;text&amp;rdquo;],input[type=&amp;quot;button&amp;rdquo;]같은 것들이 box-sizing:border-box로 되어 있는 듯 하다.
 css3 속성이므로 ie에서는 제대로 안 된다.</description>
     </item>
     

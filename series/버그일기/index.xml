@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>버그일기 on Ezaurum&#39;s Blog</title>
@@ -18,7 +18,7 @@
       <pubDate>Thu, 20 Jun 2019 22:31:05 +0900</pubDate>
       
       <guid>https://ezaurum.com/bug/cloud-front-access-denied/</guid>
-      <description> 문제 상황 CloudFront 를 웹사이트로 쓰기로 하고 S3의 파일을 연동했는데 메인 화면에서 AccessDenied가 뜸 읽기 권한은 있는 상태
+      <description>문제 상황 CloudFront 를 웹사이트로 쓰기로 하고 S3의 파일을 연동했는데 메인 화면에서 AccessDenied가 뜸 읽기 권한은 있는 상태
 문제 원인 CloudFront의 ᅟDefaultObject가 지정되지 않았다. 목록을 읽어오는 권한은 없으니 AccessDenied가 뜬 것
 재발 방지를 위해  가끔 하는 작업은 진행 순서표 등을 이용해서 보고 따라한다. 작업을 하면 진행 순서표를 만든다.  </description>
     </item>
@@ -98,7 +98,7 @@
       <pubDate>Fri, 31 Aug 2018 22:31:05 +0900</pubDate>
       
       <guid>https://ezaurum.com/bug/vue-style-scoped/</guid>
-      <description> 문제 상황 Vue 프로그래밍 중 외부 모듈을 사용했는데, 해당 모듈의 기본 css를 덮어씌우려고 불러오는 vue 페이지의 style을 변경했다. 클래스 이름을 분명히 지정했고, !important도 먹히지 않았음
+      <description>문제 상황 Vue 프로그래밍 중 외부 모듈을 사용했는데, 해당 모듈의 기본 css를 덮어씌우려고 불러오는 vue 페이지의 style을 변경했다. 클래스 이름을 분명히 지정했고, !important도 먹히지 않았음
 문제 원인 알고 보니 style 태그에 scoped가 지정되어 있어서 자동으로 한정자가 붙어버린다. 그러니 단순히 클래스만 지정해서는 해당 모듈에 반영되지 않았다.
 재발 방지를 위해  외부 모듈의 경우는 style태그를 따로 하나 더 만들어서 처리한다. CSS를 해당 외부 모듈을 감싸는 부모 태그를 포함해서 선언 한다.  </description>
     </item>
@@ -110,7 +110,7 @@
       
       <guid>https://ezaurum.com/bug/vue-conflict-js-literal/</guid>
       <description>문제상황 - VueJS를 시작하면서, go와 template이 겹쳐서 ${ }로 구분자를 변경해서 작업중이었는데, 이상하게도 한 컴포넌트에서 계속 row 가 undefined라는 에러가 떴음.
-let reserveRow = `&amp;lt;li&amp;gt;${row.reserveName} - ${row.reservePhone}&amp;lt;/li&amp;gt;`  문제 원인 - ${ } 가 ES2016의 템플릿 리터럴에서 사용하는 구분자었다. 그래서 VueJS가 번역하기 전에 JS가 번역해버려서 에러가 났던 것.
+let reserveRow = `&amp;lt;li&amp;gt;${row.reserveName} - ${row.reservePhone}&amp;lt;/li&amp;gt;` 문제 원인 - ${ } 가 ES2016의 템플릿 리터럴에서 사용하는 구분자었다. 그래서 VueJS가 번역하기 전에 JS가 번역해버려서 에러가 났던 것.
 해결방안 - 문서를 꼼꼼히, 그리고 실제로 go template과 겹치는 부분에서만 구분자를 변경하자.</description>
     </item>
     
@@ -144,7 +144,7 @@ let reserveRow = `&amp;lt;li&amp;gt;${row.reserveName} - ${row.reservePhone}&amp
       <guid>https://ezaurum.com/bug/2017-12-29-bug-diary/</guid>
       <description>문제 상황 - 에러가 없는데 DB에 자료가 기록되지 않았다.
 문제 원인 -
-func (dbm *Manager) transaction(action TransactionHandlerFunc, targets ...interface{})  를 tranaction(action) 형태로 호출하고는 왜 안되는지를 못 찾아서 2시간 허비.
+func (dbm *Manager) transaction(action TransactionHandlerFunc, targets ...interface{}) 를 tranaction(action) 형태로 호출하고는 왜 안되는지를 못 찾아서 2시간 허비.
 재발 방지를 위해 - 인수를 먼저 확인하자.</description>
     </item>
     

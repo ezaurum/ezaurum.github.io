@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>인가 on Ezaurum&#39;s Blog</title>
@@ -18,7 +18,7 @@
       <pubDate>Sun, 24 Nov 2013 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2013/11/%EC%9D%B8%EC%A6%9D%EA%B3%BC-%EC%9D%B8%EA%B0%80%EC%9D%98-%EC%B0%A8%EC%9D%B4/</guid>
-      <description>인증(Authorization,認證)은 본인 인증 인가(Authentication,認可)는 사용 인가  인증은 누가 &amp;ldquo;내가 장동건인데~&amp;rdquo; 라고 했을 때, 말하는 사람이 장동건인지 아닌지 확인하는 과정. 인가는 누가 타인에게 뭘 요구할 때, 그걸 요구할 권한이 있는지 확인하는 과정.</description>
+      <description>인증은 누가 &amp;ldquo;내가 장동건인데~&amp;rdquo; 라고 했을 때, 말하는 사람이 장동건인지 아닌지 확인하는 과정. 인가는 누가 타인에게 뭘 요구할 때, 그걸 요구할 권한이 있는지 확인하는 과정.</description>
     </item>
     
   </channel>

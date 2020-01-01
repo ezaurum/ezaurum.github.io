@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>parameter on Ezaurum&#39;s Blog</title>
@@ -20,7 +20,7 @@
       <guid>https://ezaurum.com/bug/2017-12-29-bug-diary/</guid>
       <description>문제 상황 - 에러가 없는데 DB에 자료가 기록되지 않았다.
 문제 원인 -
-func (dbm *Manager) transaction(action TransactionHandlerFunc, targets ...interface{})  를 tranaction(action) 형태로 호출하고는 왜 안되는지를 못 찾아서 2시간 허비.
+func (dbm *Manager) transaction(action TransactionHandlerFunc, targets ...interface{}) 를 tranaction(action) 형태로 호출하고는 왜 안되는지를 못 찾아서 2시간 허비.
 재발 방지를 위해 - 인수를 먼저 확인하자.</description>
     </item>
     

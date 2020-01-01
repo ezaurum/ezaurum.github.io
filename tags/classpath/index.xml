@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>classpath on Ezaurum&#39;s Blog</title>
@@ -19,8 +19,8 @@
       
       <guid>https://ezaurum.com/2013/04/java-jar-%EC%98%B5%EC%85%98%EC%9D%80-classpath%EB%A5%BC-%EB%AC%B4%EC%8B%9C%ED%95%9C%EB%8B%A4/</guid>
       <description>java 를 jar 형태로 실행할 때는 내부 MENIFEST.MF파일에 classpath를 적용해야 한다. 커맨드 라인으로 실행하는 것은 무시.
-참고 링크
--jar Execute a program encapsulated in a JAR file. The first argument is the name of a JAR file instead of a startup class name. In order for this option to work, the manifest of the JAR file must contain a line of the form Main-Class: classname. Here, classname identifies the class having the public static void main(String[] args) method that serves as your application&#39;s starting point.</description>
+참고 링크When you use this option, the JAR file is the source of all user classes, and other user class path settings are ignored.
+On Solaris 8, JAR files that can be run with the &amp;ldquo;java -jar&amp;rdquo; option can have their execute permissions set so they can be run without using &amp;ldquo;java -jar&amp;rdquo;.</description>
     </item>
     
   </channel>

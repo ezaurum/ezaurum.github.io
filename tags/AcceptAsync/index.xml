@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AcceptAsync on Ezaurum&#39;s Blog</title>
@@ -18,7 +18,7 @@
       <pubDate>Sun, 24 Nov 2013 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2013/11/C#-Socket.AcceptAsync%EC%97%90%EC%84%9C-invalidOperationException%EC%9D%B4-%EB%82%A0-%EB%95%8C/</guid>
-      <description>C#에서 소켓 프로그래밍을 할 때, Socket.AcceptAsync로 연결하는데 다음과 같은 예외가 발생했다. System.InvalidOperationException이(가) 처리되지 않았습니다. Message=AcceptSocket: 소켓을 바인딩하거나 연결하면 안 됩니다. 원인은 AcceptAsync이후에 같은 SocketAsyncEventArgs객체를 이용해 계속 Accept를 받으려고 했는데, SocketAsyncEventArgs.AcceptSocket 프로퍼티를 null로 초기화하지 않았기 때문이다. 재사용하려면 AcceptSocket = null;을 넣어줄 것.</description>
+      <description>C#에서 소켓 프로그래밍을 할 때, Socket.AcceptAsync로 연결하는데 다음과 같은 예외가 발생했다. System.InvalidOperationException이(가) 처리되지 않았습니다. Message=AcceptSocket: 소켓을 바인딩하거나 연결하면 안 됩니다.원인은 AcceptAsync이후에 같은 SocketAsyncEventArgs객체를 이용해 계속 Accept를 받으려고 했는데, SocketAsyncEventArgs.AcceptSocket 프로퍼티를 null로 초기화하지 않았기 때문이다. 재사용하려면 AcceptSocket = null;을 넣어줄 것.</description>
     </item>
     
   </channel>

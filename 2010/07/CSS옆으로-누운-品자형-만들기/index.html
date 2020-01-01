@@ -27,18 +27,17 @@
 #second{ width:140px; background:green; }
 #last{ width:140px;
 position:relative; left:-140px; top:20px;
-background:yellow; } &lt;/style&gt; &lt;/head&gt; &lt;body&gt; 길다란 가변형 문자열  고정폭/고정높이  고정폭  &lt;/body&gt; &lt;/html&gt; 문제점 - 부모 element가 보이는 것보다 좀 더-div#last의 폭이 추가된만큼- 커야 한다.
-방안 2 -div를 4개 쓰는 경우, 즉 부모 엘리먼트를 하나 두는 경우 &lt;!">
-
-
+background:yellow; } &lt;/style&gt; &lt;/head&gt; &lt;body&gt;
+방안 2 -div를 4개 쓰는 경우, 즉 부모 엘리먼트를 하나 두는 경우 &lt;!DOCTYPE html&gt; &lt;html&gt; &lt;head&gt; &lt;style&gt; div{ margin:0px; background:gray; }
+#first {height:40px;}
+#second , #last{ height:20px; width:140px; background:green; position:absolute; right:0px; }">
 <meta itemprop="datePublished" content="2010-07-30T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2010-07-30T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="199">
+<meta itemprop="wordCount" content="149">
 
 
 
 <meta itemprop="keywords" content="css,해결법,layout,web," />
-
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="CSS옆으로 누운 品자형 만들기"/>
 <meta name="twitter:description" content="옆으로 누운 品자형 만들기 이런 걸 만들려고 한다.
@@ -47,8 +46,10 @@ background:yellow; } &lt;/style&gt; &lt;/head&gt; &lt;body&gt; 길다란 가변�
 #second{ width:140px; background:green; }
 #last{ width:140px;
 position:relative; left:-140px; top:20px;
-background:yellow; } &lt;/style&gt; &lt;/head&gt; &lt;body&gt; 길다란 가변형 문자열  고정폭/고정높이  고정폭  &lt;/body&gt; &lt;/html&gt; 문제점 - 부모 element가 보이는 것보다 좀 더-div#last의 폭이 추가된만큼- 커야 한다.
-방안 2 -div를 4개 쓰는 경우, 즉 부모 엘리먼트를 하나 두는 경우 &lt;!"/>
+background:yellow; } &lt;/style&gt; &lt;/head&gt; &lt;body&gt;
+방안 2 -div를 4개 쓰는 경우, 즉 부모 엘리먼트를 하나 두는 경우 &lt;!DOCTYPE html&gt; &lt;html&gt; &lt;head&gt; &lt;style&gt; div{ margin:0px; background:gray; }
+#first {height:40px;}
+#second , #last{ height:20px; width:140px; background:green; position:absolute; right:0px; }"/>
 
     <meta property="og:title" content="CSS옆으로 누운 品자형 만들기" />
 <meta property="og:description" content="옆으로 누운 品자형 만들기 이런 걸 만들려고 한다.
@@ -57,8 +58,10 @@ background:yellow; } &lt;/style&gt; &lt;/head&gt; &lt;body&gt; 길다란 가변�
 #second{ width:140px; background:green; }
 #last{ width:140px;
 position:relative; left:-140px; top:20px;
-background:yellow; } &lt;/style&gt; &lt;/head&gt; &lt;body&gt; 길다란 가변형 문자열  고정폭/고정높이  고정폭  &lt;/body&gt; &lt;/html&gt; 문제점 - 부모 element가 보이는 것보다 좀 더-div#last의 폭이 추가된만큼- 커야 한다.
-방안 2 -div를 4개 쓰는 경우, 즉 부모 엘리먼트를 하나 두는 경우 &lt;!" />
+background:yellow; } &lt;/style&gt; &lt;/head&gt; &lt;body&gt;
+방안 2 -div를 4개 쓰는 경우, 즉 부모 엘리먼트를 하나 두는 경우 &lt;!DOCTYPE html&gt; &lt;html&gt; &lt;head&gt; &lt;style&gt; div{ margin:0px; background:gray; }
+#first {height:40px;}
+#second , #last{ height:20px; width:140px; background:green; position:absolute; right:0px; }" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://ezaurum.com/2010/07/CSS%EC%98%86%EC%9C%BC%EB%A1%9C-%EB%88%84%EC%9A%B4-%E5%93%81%EC%9E%90%ED%98%95-%EB%A7%8C%EB%93%A4%EA%B8%B0/" />
 <meta property="article:published_time" content="2010-07-30T00:00:00+00:00" />
@@ -89,9 +92,8 @@ background:yellow; } &lt;/style&gt; &lt;/head&gt; &lt;body&gt; 길다란 가변�
 <h1>CSS옆으로 누운 品자형 만들기</h1>
 2010-07-30
 <section><p>옆으로 누운 品자형 만들기
-<img class="alignnone size-full wp-image-976" title="옆으로 누운 品자형 레이아웃" src="http://gateopener.ncity.net/wordpress/wp-content/uploads/2010/07/Untitled-11.png" alt="" width="296" height="42" />
+<!-- raw HTML omitted -->
 이런 걸 만들려고 한다.</p>
-
 <p>방안 1 -div를 3개만 쓰는 경우
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
@@ -103,36 +105,22 @@ float:left;
 background:gray;
 height:20px;
 }</p>
-
 <p>#first {height:40px;}</p>
-
 <p>#second{
 width:140px;
 background:green;
 }</p>
-
 <p>#last{
 width:140px;</p>
-
 <p>position:relative;
 left:-140px;
 top:20px;</p>
-
 <p>background:yellow;
 }
 &lt;/style&gt;
 &lt;/head&gt;
-&lt;body&gt;
-<div id="first">길다란 가변형 문자열
-</div>
-<div id="second">고정폭/고정높이
-</div>
-<div id="last">고정폭
-</div>
-&lt;/body&gt;
-&lt;/html&gt;
-문제점 - 부모 element가 보이는 것보다 좀 더-div#last의 폭이 추가된만큼- 커야 한다.</p>
-
+&lt;body&gt;</p>
+<!-- raw HTML omitted -->
 <p>방안 2 -div를 4개 쓰는 경우, 즉 부모 엘리먼트를 하나 두는 경우
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
@@ -142,9 +130,7 @@ div{
 margin:0px;
 background:gray;
 }</p>
-
 <p>#first {height:40px;}</p>
-
 <p>#second , #last{
 height:20px;
 width:140px;
@@ -152,36 +138,21 @@ background:green;
 position:absolute;
 right:0px;
 }</p>
-
 <p>#second {
 top:0px;
 }</p>
-
 <p>#last{
 background:yellow;
 bottom:0px;
 }</p>
-
 <p>#parent {
 position:relative;
 }</p>
-
 <p>&lt;/style&gt;
 &lt;/head&gt;
-&lt;body&gt;
-<div id="parent">
-<div id="first">길다란 가변형 문자열
-</div>
-<div id="second">고정폭/고정높이
-</div>
-<div id="last">고정폭
-</div>
-&lt;/div&gt;
-&lt;/body&gt;
-&lt;/html&gt;</p>
-
+&lt;body&gt;</p>
+<!-- raw HTML omitted -->
 <p>단점 - 폭이 좁아질 경우, div#first가 가리게 된다. div#parent에 min-width 를 주는 것으로 해결</p>
-
 <p>방안 3 - div를 3개 쓰되, 두 개를 하나 안에 넣는 경우
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
@@ -192,7 +163,6 @@ margin:0px;
 background:gray;
 position:absolute;
 }</p>
-
 <p>#second , #last{
 height:20px;
 width:140px;
@@ -200,35 +170,21 @@ background:green;
 position:absolute;
 right:0px;
 }</p>
-
 <p>#second {
 top:0px;
 }</p>
-
 <p>#last{
 background:yellow;
 bottom:0px;
 }</p>
-
 <p>#parent {
 height:40px;
 min-width:220px;
 }</p>
-
 <p>&lt;/style&gt;
 &lt;/head&gt;
-&lt;body&gt;
-<div id="parent">
-길다란 가변형 문자열
-<div id="second">고정폭/고정높이
-</div>
-<div id="last">고정폭
-</div>
-&lt;/div&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-단점 - 최소 폭을 정확히 지정해 주어야 한다.
-일단 생각나는 것은 이 셋 정도. 기록용.</p>
+&lt;body&gt;</p>
+<!-- raw HTML omitted -->
 </section>
 
 

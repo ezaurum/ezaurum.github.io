@@ -25,8 +25,6 @@
 문제 원인 - 브라우저에서 If-Modified-Since 를 헤더에 넣어서 보냈고, echo에서는 304를 리턴해 줬다. ajax요청과 html 요청 주소가 같아서 브라우저는 캐시된 html을 로드했고, json 파싱이 되지 않았다.
 해결 - HTTP헤더에 If-Modified-Since를 빈 값으로 넣어줬다.
 재발 방지를 위해 - 기본으로 값을 넣어주자.">
-
-
 <meta itemprop="datePublished" content="2018-09-19T11:42:38&#43;09:00" />
 <meta itemprop="dateModified" content="2018-09-19T11:42:38&#43;09:00" />
 <meta itemprop="wordCount" content="53">
@@ -34,7 +32,6 @@
 
 
 <meta itemprop="keywords" content="json,304,cache,ajax,bug," />
-
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="AJAX 요청이 간헐적으로 실패하는 문제"/>
 <meta name="twitter:description" content="문제 상황 - Ajax 요청이 간헐적으로 잘못된 응답이뜨는데, Axios에서는 에러 메세지가 뜨지 않았다.
@@ -78,11 +75,8 @@
 <h1>AJAX 요청이 간헐적으로 실패하는 문제</h1>
 2018-09-19
 <section><p>문제 상황 - Ajax 요청이 간헐적으로 잘못된 응답이뜨는데, Axios에서는 에러 메세지가 뜨지 않았다.</p>
-
 <p>문제 원인 - 브라우저에서 <code>If-Modified-Since</code> 를 헤더에 넣어서 보냈고, echo에서는 304를 리턴해 줬다. ajax요청과 html 요청 주소가 같아서 브라우저는 캐시된 html을 로드했고, json 파싱이 되지 않았다.</p>
-
 <p>해결 - HTTP헤더에 <code>If-Modified-Since</code>를 빈 값으로 넣어줬다.</p>
-
 <p>재발 방지를 위해 - 기본으로 값을 넣어주자.</p>
 </section>
 
@@ -264,11 +258,15 @@
             
         
             
+        
+            
         <li><a href="https://ezaurum.com/bug/ajax-response-is-invalid-but-valid/">AJAX 요청응답이 왔는데 JSON parse에러가 났는데 정상 작동</a></li>
             
         
             
         <li><a href="https://ezaurum.com/bug/not-modified-json-response/">AJAX 요청이 간헐적으로 실패하는 문제</a></li>
+            
+        
             
         
             
@@ -627,6 +625,16 @@
         
             
         <li><a href="https://ezaurum.com/bug/gorm-related-bug/">GORM에서 Many To Many 값을 제대로 가져오지 못하는 문제</a></li>
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
             
         
             

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>POST-SLUG on Ezaurum&#39;s Blog</title>
@@ -18,7 +18,7 @@
       <pubDate>Fri, 17 Aug 2007 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2007/08/UTF-8-%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C-%ED%95%9C%EA%B8%80-post-slug-%EB%AC%B8%EC%A0%9C/</guid>
-      <description>지난 번에 워드프레스를 쓰다가 결국 해결하지 못했던 문제가, 한글로 post slug(포스트의 url 을 숫자와 물음표가 범벅이 된 모양이 아니라 그냥 글자로 바꿔주는 기능이라고 생각하면 될 듯)를 쓰면 그 포스트를 찾지 못했던 것인데, 이번에 해결했다.  &amp;lt;IfModule mod_url.c&amp;gt; CheckURL Off &amp;lt;/IfModule&amp;gt;    문제점 : 옵션에서 퍼머링크를 누르기만 해도, WP가 .htaccess 파일을 자동으로 수정해 버리는 바람에 곤란.   문제점 해결 : .htaccess 파일의 권한을 755로 변경. 쓰지 못하게 해버렸음.</description>
+      <description>지난 번에 워드프레스를 쓰다가 결국 해결하지 못했던 문제가, 한글로 post slug(포스트의 url 을 숫자와 물음표가 범벅이 된 모양이 아니라 그냥 글자로 바꿔주는 기능이라고 생각하면 될 듯)를 쓰면 그 포스트를 찾지 못했던 것인데, 이번에 해결했다.</description>
     </item>
     
   </channel>

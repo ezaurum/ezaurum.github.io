@@ -22,10 +22,8 @@
 
     <meta itemprop="name" content="VueJS 에서 템플릿을 리터럴로 선언 했을 때, 바인딩이 안됨">
 <meta itemprop="description" content="문제상황 - VueJS를 시작하면서, go와 template이 겹쳐서 ${ }로 구분자를 변경해서 작업중이었는데, 이상하게도 한 컴포넌트에서 계속 row 가 undefined라는 에러가 떴음.
-let reserveRow = `&lt;li&gt;${row.reserveName} - ${row.reservePhone}&lt;/li&gt;`  문제 원인 - ${ } 가 ES2016의 템플릿 리터럴에서 사용하는 구분자었다. 그래서 VueJS가 번역하기 전에 JS가 번역해버려서 에러가 났던 것.
+let reserveRow = `&lt;li&gt;${row.reserveName} - ${row.reservePhone}&lt;/li&gt;` 문제 원인 - ${ } 가 ES2016의 템플릿 리터럴에서 사용하는 구분자었다. 그래서 VueJS가 번역하기 전에 JS가 번역해버려서 에러가 났던 것.
 해결방안 - 문서를 꼼꼼히, 그리고 실제로 go template과 겹치는 부분에서만 구분자를 변경하자.">
-
-
 <meta itemprop="datePublished" content="2018-05-08T00:16:20&#43;09:00" />
 <meta itemprop="dateModified" content="2018-05-08T00:16:20&#43;09:00" />
 <meta itemprop="wordCount" content="59">
@@ -33,16 +31,15 @@ let reserveRow = `&lt;li&gt;${row.reserveName} - ${row.reservePhone}&lt;/li&gt;`
 
 
 <meta itemprop="keywords" content="VueJS,JS," />
-
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="VueJS 에서 템플릿을 리터럴로 선언 했을 때, 바인딩이 안됨"/>
 <meta name="twitter:description" content="문제상황 - VueJS를 시작하면서, go와 template이 겹쳐서 ${ }로 구분자를 변경해서 작업중이었는데, 이상하게도 한 컴포넌트에서 계속 row 가 undefined라는 에러가 떴음.
-let reserveRow = `&lt;li&gt;${row.reserveName} - ${row.reservePhone}&lt;/li&gt;`  문제 원인 - ${ } 가 ES2016의 템플릿 리터럴에서 사용하는 구분자었다. 그래서 VueJS가 번역하기 전에 JS가 번역해버려서 에러가 났던 것.
+let reserveRow = `&lt;li&gt;${row.reserveName} - ${row.reservePhone}&lt;/li&gt;` 문제 원인 - ${ } 가 ES2016의 템플릿 리터럴에서 사용하는 구분자었다. 그래서 VueJS가 번역하기 전에 JS가 번역해버려서 에러가 났던 것.
 해결방안 - 문서를 꼼꼼히, 그리고 실제로 go template과 겹치는 부분에서만 구분자를 변경하자."/>
 
     <meta property="og:title" content="VueJS 에서 템플릿을 리터럴로 선언 했을 때, 바인딩이 안됨" />
 <meta property="og:description" content="문제상황 - VueJS를 시작하면서, go와 template이 겹쳐서 ${ }로 구분자를 변경해서 작업중이었는데, 이상하게도 한 컴포넌트에서 계속 row 가 undefined라는 에러가 떴음.
-let reserveRow = `&lt;li&gt;${row.reserveName} - ${row.reservePhone}&lt;/li&gt;`  문제 원인 - ${ } 가 ES2016의 템플릿 리터럴에서 사용하는 구분자었다. 그래서 VueJS가 번역하기 전에 JS가 번역해버려서 에러가 났던 것.
+let reserveRow = `&lt;li&gt;${row.reserveName} - ${row.reservePhone}&lt;/li&gt;` 문제 원인 - ${ } 가 ES2016의 템플릿 리터럴에서 사용하는 구분자었다. 그래서 VueJS가 번역하기 전에 JS가 번역해버려서 에러가 났던 것.
 해결방안 - 문서를 꼼꼼히, 그리고 실제로 go template과 겹치는 부분에서만 구분자를 변경하자." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://ezaurum.com/bug/vue-conflict-js-literal/" />
@@ -75,12 +72,8 @@ let reserveRow = `&lt;li&gt;${row.reserveName} - ${row.reservePhone}&lt;/li&gt;`
 <h1>VueJS 에서 템플릿을 리터럴로 선언 했을 때, 바인딩이 안됨</h1>
 2018-05-08
 <section><p>문제상황 - VueJS를 시작하면서, go와 template이 겹쳐서 <code>${  }</code>로 구분자를 변경해서 작업중이었는데, 이상하게도 한 컴포넌트에서 계속 row 가 undefined라는 에러가 떴음.</p>
-
 <pre><code>let reserveRow = `&lt;li&gt;${row.reserveName} - ${row.reservePhone}&lt;/li&gt;`
-</code></pre>
-
-<p>문제 원인 - <code>${ }</code> 가 ES2016의 템플릿 리터럴에서 사용하는 구분자었다. 그래서 VueJS가 번역하기 전에 JS가 번역해버려서 에러가 났던 것.</p>
-
+</code></pre><p>문제 원인 - <code>${ }</code> 가 ES2016의 템플릿 리터럴에서 사용하는 구분자었다. 그래서 VueJS가 번역하기 전에 JS가 번역해버려서 에러가 났던 것.</p>
 <p>해결방안 - 문서를 꼼꼼히, 그리고 실제로 go template과 겹치는 부분에서만 구분자를 변경하자.</p>
 </section>
 
@@ -258,11 +251,15 @@ let reserveRow = `&lt;li&gt;${row.reserveName} - ${row.reservePhone}&lt;/li&gt;`
             
         
             
+        
+            
         <li><a href="https://ezaurum.com/bug/ajax-response-is-invalid-but-valid/">AJAX 요청응답이 왔는데 JSON parse에러가 났는데 정상 작동</a></li>
             
         
             
         <li><a href="https://ezaurum.com/bug/not-modified-json-response/">AJAX 요청이 간헐적으로 실패하는 문제</a></li>
+            
+        
             
         
             
@@ -621,6 +618,16 @@ let reserveRow = `&lt;li&gt;${row.reserveName} - ${row.reservePhone}&lt;/li&gt;`
         
             
         <li><a href="https://ezaurum.com/bug/gorm-related-bug/">GORM에서 Many To Many 값을 제대로 가져오지 못하는 문제</a></li>
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
             
         
             

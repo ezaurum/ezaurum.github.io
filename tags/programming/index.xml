@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>programming on Ezaurum&#39;s Blog</title>
@@ -18,7 +18,7 @@
       <pubDate>Mon, 05 Jan 2015 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2015/01/oAuth-%EC%A0%95%EB%A6%AC/</guid>
-      <description>OAuth를 통해 보는 안전한 통신 프로토콜의 조건 oAuth와 춤을 oAuth 공식 사이트</description>
+      <description>OAuth를 통해 보는 안전한 통신 프로토콜의 조건oAuth와 춤을oAuth 공식 사이트</description>
     </item>
     
     <item>
@@ -27,7 +27,7 @@
       <pubDate>Thu, 25 Dec 2014 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2014/12/C#-DB-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-%EB%B9%84%EA%B5%90/</guid>
-      <description>별로 구체적으로 비교를 해 본 것은 아니지만, 지난 두 달간 이런저런 삽질을 한 결과를 정리한다.  Linq To SQL - MS스러운 DB라이브러리  장점 - IDE에 통합된 사용환경, VS에서 DB에 연결 후, 테이블을 끌어오는 것만으로도 바로 도메인 객체가 생성된다. 속도가 빠르다. 복잡한 쿼리에 신경 안 써도 된다. 러닝커브 작음. 단점 - 자동생성되는 도메인 객체가 복잡하다. 로직이 들어가야 하는 경우 매우 곤란해진다. POCO객체는 불가능. 추가 수정도 귀찮다. 적절한 사용처 - 이미 DB가 존재하고, 거기에 간단한 CRUD연산을 해야 하는 웹 툴 정도를 붙이는 경우.</description>
+      <description>별로 구체적으로 비교를 해 본 것은 아니지만, 지난 두 달간 이런저런 삽질을 한 결과를 정리한다.</description>
     </item>
     
     <item>
@@ -45,7 +45,7 @@
       <pubDate>Sun, 24 Nov 2013 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2013/11/C#-Socket.AcceptAsync%EC%97%90%EC%84%9C-invalidOperationException%EC%9D%B4-%EB%82%A0-%EB%95%8C/</guid>
-      <description>C#에서 소켓 프로그래밍을 할 때, Socket.AcceptAsync로 연결하는데 다음과 같은 예외가 발생했다. System.InvalidOperationException이(가) 처리되지 않았습니다. Message=AcceptSocket: 소켓을 바인딩하거나 연결하면 안 됩니다. 원인은 AcceptAsync이후에 같은 SocketAsyncEventArgs객체를 이용해 계속 Accept를 받으려고 했는데, SocketAsyncEventArgs.AcceptSocket 프로퍼티를 null로 초기화하지 않았기 때문이다. 재사용하려면 AcceptSocket = null;을 넣어줄 것.</description>
+      <description>C#에서 소켓 프로그래밍을 할 때, Socket.AcceptAsync로 연결하는데 다음과 같은 예외가 발생했다. System.InvalidOperationException이(가) 처리되지 않았습니다. Message=AcceptSocket: 소켓을 바인딩하거나 연결하면 안 됩니다.원인은 AcceptAsync이후에 같은 SocketAsyncEventArgs객체를 이용해 계속 Accept를 받으려고 했는데, SocketAsyncEventArgs.AcceptSocket 프로퍼티를 null로 초기화하지 않았기 때문이다. 재사용하려면 AcceptSocket = null;을 넣어줄 것.</description>
     </item>
     
     <item>
@@ -54,7 +54,7 @@
       <pubDate>Sun, 24 Nov 2013 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2013/11/Git%EC%97%90%EC%84%9C-%ED%8A%B9%EC%A0%95%ED%8C%8C%EC%9D%BC-%EC%9E%84%EC%8B%9C%EB%A1%9C-%EC%BB%A4%EB%B0%8B%EB%82%B4%EC%97%AD%EC%97%90%EC%84%9C-%EC%A0%9C%EC%99%B8%ED%95%98%EA%B8%B0/</guid>
-      <description>출처 - http://blog.outsider.ne.kr/817 Unity3D로 공동작업을 하다 보면 meta파일이 많이 생기고, 뭐 잠깐 이쪽에서 고쳐보고 싶은데 하던 작업 중에 일부는 또 올려야 할 때가 있고해서 골치 아플 때 유용함. 제외 - git update-index &amp;ndash;assume-unchanged 파일명 복구 - git update-index &amp;ndash;no-assume-unchanged 파일명 초기화 - git update-index &amp;ndash;really-refresh</description>
+      <description>출처 - http://blog.outsider.ne.kr/817&amp;lt;/a&amp;gt; Unity3D로 공동작업을 하다 보면 meta파일이 많이 생기고, 뭐 잠깐 이쪽에서 고쳐보고 싶은데 하던 작업 중에 일부는 또 올려야 할 때가 있고해서 골치 아플 때 유용함. 제외 - git update-index &amp;ndash;assume-unchanged 파일명복구 - git update-index &amp;ndash;no-assume-unchanged 파일명초기화 - git update-index &amp;ndash;really-refresh</description>
     </item>
     
     <item>
@@ -63,7 +63,7 @@
       <pubDate>Sun, 24 Nov 2013 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2013/11/%EC%9D%B8%EC%A6%9D%EA%B3%BC-%EC%9D%B8%EA%B0%80%EC%9D%98-%EC%B0%A8%EC%9D%B4/</guid>
-      <description>인증(Authorization,認證)은 본인 인증 인가(Authentication,認可)는 사용 인가  인증은 누가 &amp;ldquo;내가 장동건인데~&amp;rdquo; 라고 했을 때, 말하는 사람이 장동건인지 아닌지 확인하는 과정. 인가는 누가 타인에게 뭘 요구할 때, 그걸 요구할 권한이 있는지 확인하는 과정.</description>
+      <description>인증은 누가 &amp;ldquo;내가 장동건인데~&amp;rdquo; 라고 했을 때, 말하는 사람이 장동건인지 아닌지 확인하는 과정. 인가는 누가 타인에게 뭘 요구할 때, 그걸 요구할 권한이 있는지 확인하는 과정.</description>
     </item>
     
     <item>
@@ -72,7 +72,7 @@
       <pubDate>Mon, 30 Sep 2013 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2013/09/C#-TDD/</guid>
-      <description>C# 개발을 시작하면서 일단 두 개를 써 보기로 했다. Moq Quick Start NUnit 2.6.2 quick start Resharper를 쓰고 있어서 그런지, NUnit 테스트는 alt+Enter로 실행이 되고, 결과도 따로 창 안 뜨고 옆에 보인다. moq는 람다식 덕에 자바에서 mockito를 쓸 때보다 좀 더 편해보인다.</description>
+      <description>C# 개발을 시작하면서 일단 두 개를 써 보기로 했다. Moq Quick StartNUnit 2.6.2 quick startResharper를 쓰고 있어서 그런지, NUnit 테스트는 alt+Enter로 실행이 되고, 결과도 따로 창 안 뜨고 옆에 보인다. moq는 람다식 덕에 자바에서 mockito를 쓸 때보다 좀 더 편해보인다.</description>
     </item>
     
     <item>
@@ -81,7 +81,7 @@
       <pubDate>Sat, 04 Aug 2012 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2012/08/Designing-a-Beautiful-REST-JSON-API/</guid>
-      <description>원문 링크 설명이 잘 되어 있는 영상. 개인적으로 포인트를 좀 잡아본다. 에러 HTTP 에러 코드를 넣고, 다른 설명이 필요. 가능한 많이. ID는 순차를 피하고 숨길 것. UUID 같은 걸 쓰라. 캐시 - ETag 가능하면 세션 사용을 피할 것. 기본적으로 객체가 콜렉션이나 하위 객체를 포함하면, 그걸 다 뿌려주지 말고, 하위객체나 콜렉션에 대한 링크를 제공 파라마터를 이용해서 객체를 다 뿌릴지 말지를 결정. GET /object?expand=true 파라마터를 이용해서 필터링과 페이지구분. offset, limit사용. 페이지 제공하는 경우 next, prev 링크 제공 다대다 관계의 경우, 조인된 한 행을 하나의 객체로 보고 필요에 따라 필터링 MEDIA TYPE 포맷+파싱룰 request - Accept header respons - content-type header media type에 변수 넣기 application/foo+json;bar=baz ISO 8601 UTC를 쓰라 POST vs PUT POST는 멱등아님 - 전체 대체 PUT은 멱등 - 업데이트 or 전체 대체 app/collection/instance POST로 전체 대체를 하는 경우, 부모 자원에다가 요청을 보내면 된다.</description>
+      <description>원문 링크설명이 잘 되어 있는 영상. 개인적으로 포인트를 좀 잡아본다. 에러 HTTP 에러 코드를 넣고, 다른 설명이 필요. 가능한 많이. ID는 순차를 피하고 숨길 것. UUID 같은 걸 쓰라. 캐시 - ETag 가능하면 세션 사용을 피할 것. 기본적으로 객체가 콜렉션이나 하위 객체를 포함하면, 그걸 다 뿌려주지 말고, 하위객체나 콜렉션에 대한 링크를 제공 파라마터를 이용해서 객체를 다 뿌릴지 말지를 결정. GET /object?expand=true 파라마터를 이용해서 필터링과 페이지구분. offset, limit사용. 페이지 제공하는 경우 next, prev 링크 제공 다대다 관계의 경우, 조인된 한 행을 하나의 객체로 보고 필요에 따라 필터링 MEDIA TYPE 포맷+파싱룰 request - Accept header respons - content-type header media type에 변수 넣기 application/foo+json;bar=baz ISO 8601 UTC를 쓰라 POST vs PUT POST는 멱등아님 - 전체 대체 PUT은 멱등 - 업데이트 or 전체 대체 app/collection/instance POST로 전체 대체를 하는 경우, 부모 자원에다가 요청을 보내면 된다.</description>
     </item>
     
     <item>
@@ -90,9 +90,8 @@
       <pubDate>Mon, 26 Mar 2012 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2012/03/Java-Enum/</guid>
-      <description>import java.lang.IllegalArgumentException;
-public enum EnumStudy { JAVA(1), C(2),RUBY(3); private int value; public int intValue() { return value;} private EnumStudy(int value) { this.value = value; } public static EnumStudy valueOf(int value) { switch (value) { case 1: return JAVA; case 2: return C; case 3: return RUBY; default: throw new IllegalArgumentException(&amp;ldquo;There is no matching for &amp;ldquo;+value); } }
-public static void main(String args[]) { System.out.println(EnumStudy.valueOf(1)); System.out.println(EnumStudy.valueOf(&amp;ldquo;JAVA&amp;rdquo;)); //이건 enum들은 기본적으로 선언되는 메소드.</description>
+      <description>public enum EnumStudy { JAVA(1), C(2),RUBY(3); private int value; public int intValue() { return value;} private EnumStudy(int value) { this.value = value; } public static EnumStudy valueOf(int value) { switch (value) { case 1: return JAVA; case 2: return C; case 3: return RUBY; default: throw new IllegalArgumentException(&amp;ldquo;There is no matching for &amp;ldquo;+value); } }
+public static void main(String args[]) { System.out.println(EnumStudy.valueOf(1)); System.out.println(EnumStudy.valueOf(&amp;ldquo;JAVA&amp;rdquo;)); //이건 enum들은 기본적으로 선언되는 메소드. System.out.println(EnumStudy.JAVA); System.out.println(EnumStudy.JAVA.intValue()); } } 이 결과는&amp;hellip;</description>
     </item>
     
     <item>
@@ -101,8 +100,7 @@ public static void main(String args[]) { System.out.println(EnumStudy.valueOf(1)
       <pubDate>Sat, 10 Dec 2011 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2011/12/String-StringBuilder-StringBuffer-%EC%A4%91-%EB%AD%98-%EC%8D%A8%EC%95%BC-%ED%95%A0%EA%B9%8C/</guid>
-      <description>출처 -http://www.a2ztechguide.com/2011/12/difference-between-string-stringbuffer.html
- 값이 변하지 않으면 불변객체 String String은 immutable 이다. 한 번 만들어두고 걍 읽어만 올 거면 대부분의 경우 String을 쓰면 되는 모양. 자주 변하는 경우, 그때마다 새로 만들어줘야 하므로 비추천. equals가 오버라이드 되어 있다.  싱글 스레드라면 StringBuilder mutable함. 데이터가 막 바뀌는 경우 사용. 나온지 얼마 안 된 신삥. StringBuffer랑 synchronization 빼고 동일. 출처 포스트에는 StringBuffer보다 빠르다고 한다. equals오버라이드 안 되어 있음. 멀티스레드라면 StringBuffer equals오버라이드 안 되어 있음. StringBuilder랑 synchronization 빼고는 동일  </description>
+      <description>출처 -http://www.</description>
     </item>
     
   </channel>

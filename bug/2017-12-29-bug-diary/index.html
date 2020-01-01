@@ -23,10 +23,8 @@
     <meta itemprop="name" content="인수 전달이 잘못된 문제">
 <meta itemprop="description" content="문제 상황 - 에러가 없는데 DB에 자료가 기록되지 않았다.
 문제 원인 -
-func (dbm *Manager) transaction(action TransactionHandlerFunc, targets ...interface{})  를 tranaction(action) 형태로 호출하고는 왜 안되는지를 못 찾아서 2시간 허비.
+func (dbm *Manager) transaction(action TransactionHandlerFunc, targets ...interface{}) 를 tranaction(action) 형태로 호출하고는 왜 안되는지를 못 찾아서 2시간 허비.
 재발 방지를 위해 - 인수를 먼저 확인하자.">
-
-
 <meta itemprop="datePublished" content="2017-12-29T19:36:26&#43;07:00" />
 <meta itemprop="dateModified" content="2017-12-29T19:36:26&#43;07:00" />
 <meta itemprop="wordCount" content="36">
@@ -34,18 +32,17 @@ func (dbm *Manager) transaction(action TransactionHandlerFunc, targets ...interf
 
 
 <meta itemprop="keywords" content="bug,go,parameter," />
-
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="인수 전달이 잘못된 문제"/>
 <meta name="twitter:description" content="문제 상황 - 에러가 없는데 DB에 자료가 기록되지 않았다.
 문제 원인 -
-func (dbm *Manager) transaction(action TransactionHandlerFunc, targets ...interface{})  를 tranaction(action) 형태로 호출하고는 왜 안되는지를 못 찾아서 2시간 허비.
+func (dbm *Manager) transaction(action TransactionHandlerFunc, targets ...interface{}) 를 tranaction(action) 형태로 호출하고는 왜 안되는지를 못 찾아서 2시간 허비.
 재발 방지를 위해 - 인수를 먼저 확인하자."/>
 
     <meta property="og:title" content="인수 전달이 잘못된 문제" />
 <meta property="og:description" content="문제 상황 - 에러가 없는데 DB에 자료가 기록되지 않았다.
 문제 원인 -
-func (dbm *Manager) transaction(action TransactionHandlerFunc, targets ...interface{})  를 tranaction(action) 형태로 호출하고는 왜 안되는지를 못 찾아서 2시간 허비.
+func (dbm *Manager) transaction(action TransactionHandlerFunc, targets ...interface{}) 를 tranaction(action) 형태로 호출하고는 왜 안되는지를 못 찾아서 2시간 허비.
 재발 방지를 위해 - 인수를 먼저 확인하자." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://ezaurum.com/bug/2017-12-29-bug-diary/" />
@@ -78,14 +75,9 @@ func (dbm *Manager) transaction(action TransactionHandlerFunc, targets ...interf
 <h1>인수 전달이 잘못된 문제</h1>
 2017-12-29
 <section><p>문제 상황 - 에러가 없는데 DB에 자료가 기록되지 않았다.</p>
-
 <p>문제 원인 -</p>
-
 <pre><code>func (dbm *Manager) transaction(action TransactionHandlerFunc, targets ...interface{})
-</code></pre>
-
-<p>를 <code>tranaction(action)</code> 형태로 호출하고는 왜 안되는지를 못 찾아서 2시간 허비.</p>
-
+</code></pre><p>를 <code>tranaction(action)</code> 형태로 호출하고는 왜 안되는지를 못 찾아서 2시간 허비.</p>
 <p>재발 방지를 위해 - 인수를 먼저 확인하자.</p>
 </section>
 
@@ -265,11 +257,15 @@ func (dbm *Manager) transaction(action TransactionHandlerFunc, targets ...interf
             
         
             
+        
+            
         <li><a href="https://ezaurum.com/bug/ajax-response-is-invalid-but-valid/">AJAX 요청응답이 왔는데 JSON parse에러가 났는데 정상 작동</a></li>
             
         
             
         <li><a href="https://ezaurum.com/bug/not-modified-json-response/">AJAX 요청이 간헐적으로 실패하는 문제</a></li>
+            
+        
             
         
             
@@ -628,6 +624,16 @@ func (dbm *Manager) transaction(action TransactionHandlerFunc, targets ...interf
         
             
         <li><a href="https://ezaurum.com/bug/gorm-related-bug/">GORM에서 Many To Many 값을 제대로 가져오지 못하는 문제</a></li>
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
             
         
             

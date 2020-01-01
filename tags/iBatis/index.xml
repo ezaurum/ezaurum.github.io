@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iBatis on Ezaurum&#39;s Blog</title>
@@ -18,7 +18,7 @@
       <pubDate>Mon, 26 Mar 2012 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2012/03/iBatis-TypeHandler/</guid>
-      <description>TypeHandler는 iBatis에서 특정 타입을 매핑할 때 원하는 행동을 지정해주는 클래스다. 이걸 이용하면 DB에는 Y/N으로 저장된 걸 boolean으로 처리한다든가 하는 게 가능해진다.  public class StudyTypeHandler extends EnumTypeHandler { public StudyTypeHandler() { super(EnumStudy.class); }
+      <description>TypeHandler는 iBatis에서 특정 타입을 매핑할 때 원하는 행동을 지정해주는 클래스다. 이걸 이용하면 DB에는 Y/N으로 저장된 걸 boolean으로 처리한다든가 하는 게 가능해진다. public class StudyTypeHandler extends EnumTypeHandler { public StudyTypeHandler() { super(EnumStudy.class); }
 //얘가 결과를 받아서 빈에 매핑하는 애다. @Override public Object getResult(ResultGetter getter) throws SQLException { int result = getter.getInt(); if(getter.wasNull()) { return null; } return EnumStudy.valueOf(result); } //얘는 빈에서 받아다가 DB에 매핑하는 애다. @Override public void setParameter(ParameterSetter setter, Object parameter) throws SQLException { if(parameter == null) { setter.</description>
     </item>
     

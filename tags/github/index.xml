@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>github on Ezaurum&#39;s Blog</title>
@@ -19,10 +19,10 @@
       
       <guid>https://ezaurum.com/2018/08/%EC%97%AC%EB%9F%AC-Github-%EA%B3%84%EC%A0%95-SSH%EB%A1%9C-%EC%A0%91%EA%B7%BC/</guid>
       <description>Github 계정이 두 개 이상인 경우, ssh 로 접근하기 위해서는 좀 다른 세팅이 필요하다. 참고링크
-1.다른 이름으로 키를 하나 만든다 ssh-keygen -t rsa -b 4096 -C “your_email@example.com”  이러면 파일 이름을 물어볼텐데, 그걸 적당히 다른 이름으로 지정해 준다.
-id_rsa_personal  뭐 이런 식으로
-2.만든 키를 Github 계정에 등록한다. 3.Git 이 ssh 키를 인식하게 한다 ~/.ssh/config  Git 은 이 파일을 가지고 ssh 키를 인식한다.
-Host other.github.com HostName github.com PreferredAuthentications publickey IdentityFile ~/.</description>
+1.다른 이름으로 키를 하나 만든다 ssh-keygen -t rsa -b 4096 -C “your_email@example.com” 이러면 파일 이름을 물어볼텐데, 그걸 적당히 다른 이름으로 지정해 준다.
+id_rsa_personal 뭐 이런 식으로
+2.만든 키를 Github 계정에 등록한다. 3.Git 이 ssh 키를 인식하게 한다 ~/.ssh/config Git 은 이 파일을 가지고 ssh 키를 인식한다.
+Host other.github.com HostName github.com PreferredAuthentications publickey IdentityFile ~/.ssh/id_rsa_personal 여기서 other.</description>
     </item>
     
   </channel>

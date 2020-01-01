@@ -21,32 +21,26 @@
     
 
     <meta itemprop="name" content="Lisp로 주문 외기 - 5 -">
-<meta itemprop="description" content="라이센스 - The GNU Free Documentation License 원저자 - Conrad Barski, M.D. 원본 출처 - http://lisperati.com/casting.html
-게임 세계를 위한 데이터 정의 형식(Form)에 대해 조금 더 배우기 위해, 게임 세계의 데이터를 만드는 형식을 좀 만들어봅시다. 일단은, 게임에는 플레이어가 집어들어 사용할 수 있는 특정 물체들이 있을 겁니다. 이걸 정의해 봅시다.
-(setf objects &lsquo;(whiskey-bottle bucket frog chain))
-좋아요. 이제 이 줄이 뭘 의미하는지 해부해 봅시다. Lisp 컴파일러는 항상 코드 모드로 읽기 시작하고 형식을 기대하기 때문에, 첫번째 기호-setf-는 명령어가 되어야 합니다.">
-
-
+<meta itemprop="description" content="라이센스 - The GNU Free Documentation License원저자 - Conrad Barski, M.D.원본 출처 - http://lisperati.com/casting.html&lt;/a&gt;
+형식(Form)에 대해 조금 더 배우기 위해, 게임 세계의 데이터를 만드는 형식을 좀 만들어봅시다. 일단은, 게임에는 플레이어가 집어들어 사용할 수 있는 특정 물체들이 있을 겁니다. 이걸 정의해 봅시다.
+(setf objects &lsquo;(whiskey-bottle bucket frog chain))좋아요. 이제 이 줄이 뭘 의미하는지 해부해 봅시다. Lisp 컴파일러는 항상 코드 모드로 읽기 시작하고 형식을 기대하기 때문에, 첫번째 기호-setf-는 명령어가 되어야 합니다. 이 경우, 명령어는 변수에 값을 지정합니다.">
 <meta itemprop="datePublished" content="2009-02-03T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2009-02-03T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="504">
+<meta itemprop="wordCount" content="489">
 
 
 
 <meta itemprop="keywords" content="casting-spels,번역,결과물,공부,LISP," />
-
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Lisp로 주문 외기 - 5 -"/>
-<meta name="twitter:description" content="라이센스 - The GNU Free Documentation License 원저자 - Conrad Barski, M.D. 원본 출처 - http://lisperati.com/casting.html
-게임 세계를 위한 데이터 정의 형식(Form)에 대해 조금 더 배우기 위해, 게임 세계의 데이터를 만드는 형식을 좀 만들어봅시다. 일단은, 게임에는 플레이어가 집어들어 사용할 수 있는 특정 물체들이 있을 겁니다. 이걸 정의해 봅시다.
-(setf objects &lsquo;(whiskey-bottle bucket frog chain))
-좋아요. 이제 이 줄이 뭘 의미하는지 해부해 봅시다. Lisp 컴파일러는 항상 코드 모드로 읽기 시작하고 형식을 기대하기 때문에, 첫번째 기호-setf-는 명령어가 되어야 합니다."/>
+<meta name="twitter:description" content="라이센스 - The GNU Free Documentation License원저자 - Conrad Barski, M.D.원본 출처 - http://lisperati.com/casting.html&lt;/a&gt;
+형식(Form)에 대해 조금 더 배우기 위해, 게임 세계의 데이터를 만드는 형식을 좀 만들어봅시다. 일단은, 게임에는 플레이어가 집어들어 사용할 수 있는 특정 물체들이 있을 겁니다. 이걸 정의해 봅시다.
+(setf objects &lsquo;(whiskey-bottle bucket frog chain))좋아요. 이제 이 줄이 뭘 의미하는지 해부해 봅시다. Lisp 컴파일러는 항상 코드 모드로 읽기 시작하고 형식을 기대하기 때문에, 첫번째 기호-setf-는 명령어가 되어야 합니다. 이 경우, 명령어는 변수에 값을 지정합니다."/>
 
     <meta property="og:title" content="Lisp로 주문 외기 - 5 -" />
-<meta property="og:description" content="라이센스 - The GNU Free Documentation License 원저자 - Conrad Barski, M.D. 원본 출처 - http://lisperati.com/casting.html
-게임 세계를 위한 데이터 정의 형식(Form)에 대해 조금 더 배우기 위해, 게임 세계의 데이터를 만드는 형식을 좀 만들어봅시다. 일단은, 게임에는 플레이어가 집어들어 사용할 수 있는 특정 물체들이 있을 겁니다. 이걸 정의해 봅시다.
-(setf objects &lsquo;(whiskey-bottle bucket frog chain))
-좋아요. 이제 이 줄이 뭘 의미하는지 해부해 봅시다. Lisp 컴파일러는 항상 코드 모드로 읽기 시작하고 형식을 기대하기 때문에, 첫번째 기호-setf-는 명령어가 되어야 합니다." />
+<meta property="og:description" content="라이센스 - The GNU Free Documentation License원저자 - Conrad Barski, M.D.원본 출처 - http://lisperati.com/casting.html&lt;/a&gt;
+형식(Form)에 대해 조금 더 배우기 위해, 게임 세계의 데이터를 만드는 형식을 좀 만들어봅시다. 일단은, 게임에는 플레이어가 집어들어 사용할 수 있는 특정 물체들이 있을 겁니다. 이걸 정의해 봅시다.
+(setf objects &lsquo;(whiskey-bottle bucket frog chain))좋아요. 이제 이 줄이 뭘 의미하는지 해부해 봅시다. Lisp 컴파일러는 항상 코드 모드로 읽기 시작하고 형식을 기대하기 때문에, 첫번째 기호-setf-는 명령어가 되어야 합니다. 이 경우, 명령어는 변수에 값을 지정합니다." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-5/" />
 <meta property="article:published_time" content="2009-02-03T00:00:00+00:00" />
@@ -76,54 +70,39 @@
 <main class="post single">
 <h1>Lisp로 주문 외기 - 5 -</h1>
 2009-02-03
-<section><p>라이센스 - <a href="http://www.gnu.org/licenses/licenses.html#FDL">The GNU Free Documentation License</a>
-원저자 - <a href="mailto:lisperati@gmail.com">Conrad Barski, M.D.</a>
-원본 출처 - <a href="http://lisperati.com/casting.html">http://lisperati.com/casting.html</a></p>
-
-<h3>게임 세계를 위한 데이터 정의</h3>
-
+<section><p>라이센스 - <!-- raw HTML omitted -->The GNU Free Documentation License<!-- raw HTML omitted -->
+원저자 - <!-- raw HTML omitted -->Conrad Barski, M.D.<!-- raw HTML omitted -->
+원본 출처 - <!-- raw HTML omitted --><a href="http://lisperati.com/casting.html%3C/a%3E">http://lisperati.com/casting.html&lt;/a&gt;</a></p>
+<!-- raw HTML omitted -->
 <p>형식(Form)에 대해 조금 더 배우기 위해, 게임 세계의 데이터를 만드는 형식을 좀 만들어봅시다.
 일단은, 게임에는 플레이어가 집어들어 사용할 수 있는 특정 물체들이 있을 겁니다. 이걸 정의해 봅시다.</p>
-
-<p><code>(setf <em>objects</em> &lsquo;(whiskey-bottle bucket frog chain))</code></p>
-
-<p>좋아요. 이제 이 줄이 뭘 의미하는지 해부해 봅시다. Lisp 컴파일러는 항상 <em>코드 모드</em>로 읽기 시작하고 형식을 기대하기 때문에, 첫번째 기호-setf-는 명령어가 되어야 합니다. 이 경우, 명령어는 변수에 값을 지정합니다. 변수는 <em>objects</em> (Lisp를 쓰는 사람들은 편의를 위해 전역변수는 이름 앞뒤로 별을 붙여줍니다.) 그리고 지정해줄 값은 네 개의 물체를 가진 목록입니다. 이제, 목록이 데이터(컴파일러가 <em>whiskey-bottle</em>이라는 함수를 실행하려고 애쓰는 걸 원하진 않죠.)이기 때문에 이 목록을 읽을 때는 컴파일러를 <em>데이터모드</em>로 <strong>뒤집어야</strong> 합니다. 목록의 앞에 있는 작은 따옴표가 컴파일러에게 뒤집으라고 말해주는 명령어입니다.
-<img src="/wordpress/wp-content/uploads/2009/02/objects.jpg" alt="objects" title="objects" width="500" height="215" class="alignnone size-full wp-image-397" />
+<p><!-- raw HTML omitted -->(setf <em>objects</em> &lsquo;(whiskey-bottle bucket frog chain))<!-- raw HTML omitted --></p>
+<p>좋아요. 이제 이 줄이 뭘 의미하는지 해부해 봅시다. Lisp 컴파일러는 항상 <!-- raw HTML omitted -->코드 모드<!-- raw HTML omitted -->로 읽기 시작하고 형식을 기대하기 때문에, 첫번째 기호-setf-는 명령어가 되어야 합니다. 이 경우, 명령어는 변수에 값을 지정합니다. 변수는 <em>objects</em> (Lisp를 쓰는 사람들은 편의를 위해 전역변수는 이름 앞뒤로 별을 붙여줍니다.) 그리고 지정해줄 값은 네 개의 물체를 가진 목록입니다. 이제, 목록이 데이터(컴파일러가 <!-- raw HTML omitted -->whiskey-bottle<!-- raw HTML omitted -->이라는 함수를 실행하려고 애쓰는 걸 원하진 않죠.)이기 때문에 이 목록을 읽을 때는 컴파일러를 <!-- raw HTML omitted -->데이터모드<!-- raw HTML omitted -->로 <!-- raw HTML omitted -->뒤집어야<!-- raw HTML omitted --> 합니다. 목록의 앞에 있는 작은 따옴표가 컴파일러에게 뒤집으라고 말해주는 명령어입니다.
+<!-- raw HTML omitted -->
 왜 명령어가 setf라고 불리는지 궁금해할지도 모르겠습니다만&hellip; 사실, 왜 그런지는 모르겠습니다만, Lisp에서 매우 많은 명령어가 괴상한 이름을 가지고 있습니다. 그냥 Lisp가 그런 고대언어기 때문이겠죠. 이건 실제론 어떤 면에서는 유용합니다. 왜냐면 Lisp의 버전들에서 일반 명령들은 Lisp를 독특하게 해 주는 모든 종류의 우아한 힘들을 가지고 있습니다. 그러니까 Lisp의 명령어는 괴상하므로, 다른 언어들에 비해서 철자가 덜 헷갈립니다.
 setf 명령은, 예를 들면, 이 강좌에서는 건드려볼 기회도 없을 똑똑한 능력들을 많이 가지고 있습니다.</p>
-
 <p>이제 우리는 몇 개의 물체를 정의했습니다. 그걸 한 발자국 더 끌어올려 봅시다. 그리고 실제 세계 자체의 지도를 정의해 봅시다. 여기에 우리 세계가 어떻게 생겼는지 알려주는 그림이 있습니다.</p>
-
-<p><img src="/wordpress/wp-content/uploads/2009/02/world.jpg" alt="world" title="world" width="500" height="381" class="alignnone size-full wp-image-398" /></p>
-
+<p><!-- raw HTML omitted --></p>
 <p>이 간단한 게임에서, 장소는 세 군데 밖에 없습니다. 거실과 다락이 있는 집에는 마당이 딸려 있습니다. 이 작은 세계를 묘사하는 <em>map</em> 이라고 하는 새 변수를 정의해 봅시다.</p>
-
-<p><code>(setf <em>map</em> &lsquo;((living-room (you are in the living-room of a wizards house. there is a wizard snoring loudly on the couch.)
-                           (west door garden)<br />
-                           (upstairs stairway attic))
-              (garden (you are in a beautiful garden. there is a well in front of you.)
-                      (east door living-room))
-              (attic (you are in the attic of the wizards house. there is a giant welding torch in the corner.)
-                     (downstairs stairway living-room))))</code></p>
-
-<p>이 지도는 세 지역에 대해 알기 원하는 중요한 것들을 모두 포함하고 있습니다. 장소에 대한 독특한 이름, (즉, <em>living-room</em>, <em>garden</em>, <em>attic</em>) 거기서 볼 수 있는 것들에 대한 짧은 설명 (더 큰 목록 안에 포함된 자기의 목록에 저장되어 있다.), 거기에 더해 각 길이 그 장소로 <em>어디로 어떻게</em> 오가는가 하는 것도.
+<p><!-- raw HTML omitted -->(setf <em>map</em> &lsquo;((living-room (you are in the living-room of a wizards house. there is a wizard snoring loudly on the couch.)
+(west door garden)<br>
+(upstairs stairway attic))
+(garden (you are in a beautiful garden. there is a well in front of you.)
+(east door living-room))
+(attic (you are in the attic of the wizards house. there is a giant welding torch in the corner.)
+(downstairs stairway living-room))))<!-- raw HTML omitted --></p>
+<p>이 지도는 세 지역에 대해 알기 원하는 중요한 것들을 모두 포함하고 있습니다. 장소에 대한 독특한 이름, (즉, <!-- raw HTML omitted -->living-room<!-- raw HTML omitted -->, <!-- raw HTML omitted -->garden<!-- raw HTML omitted -->, <!-- raw HTML omitted -->attic<!-- raw HTML omitted -->) 거기서 볼 수 있는 것들에 대한 짧은 설명 (더 큰 목록 안에 포함된 자기의 목록에 저장되어 있다.), 거기에 더해 각 길이 그 장소로 <!-- raw HTML omitted -->어디로 어떻게<!-- raw HTML omitted --> 오가는가 하는 것도. 
 이 하나의 변수가 얼마나 정보가 풍부한지, 그리고 어떻게 우리가 알아야 할 필요가 있는 것에 대해 딱 필요한 만큼만 충분히 묘사하고 있는 주목하세요. Lisp를 쓰는 사람들은 작고, 간결한, 기름을 완전히 빼고 그냥 보는것만으로도 이해가 가능한 코드를 만드는 것을 종아한답니다.</p>
-
 <p>이제 지도와 물체 다발이 생겼습니다. 그건 이 물체들이 지도 어디에 있는지 알려주는 다른 변수들을 만들 수 있는 감각을 키워줬을 겁니다.</p>
-
-<p><code>(setf <em>object-locations</em> &lsquo;((whiskey-bottle living-room)
-                           (bucket living-room)
-                           (chain garden)
-                           (frog garden)))</code></p>
-
-<p>각각의 물체는 한 장소와 연관되었습니다. Lisp에서 이 같은 목록들을 놀랄 것도 없이, <strong>연관 목록</strong>이라고 합니다. 연관목록은 목록들을 적어놓은 간단한 목록 하나입니다. 각 목록 안에 있는 첫 번째 항목 위치가 다른 데이터 다발과 연관된 <strong>열쇠</strong> 기호 입니다. <em>map</em> 변수 또한 연관 목록이었습니다. 그 경우 세 개의 열쇠는 <em>living-room</em>, <em>garden</em>, <em>attic</em> 입니다.</p>
-
+<p><!-- raw HTML omitted -->(setf <em>object-locations</em> &lsquo;((whiskey-bottle living-room)
+(bucket living-room)
+(chain garden)
+(frog garden)))<!-- raw HTML omitted --></p>
+<p>각각의 물체는 한 장소와 연관되었습니다. Lisp에서 이 같은 목록들을 놀랄 것도 없이, <!-- raw HTML omitted -->연관 목록<!-- raw HTML omitted -->이라고 합니다. 연관목록은 목록들을 적어놓은 간단한 목록 하나입니다. 각 목록 안에 있는 첫 번째 항목 위치가 다른 데이터 다발과 연관된 <!-- raw HTML omitted -->열쇠<!-- raw HTML omitted --> 기호 입니다. <em>map</em> 변수 또한 연관 목록이었습니다. 그 경우 세 개의 열쇠는 <!-- raw HTML omitted -->living-room<!-- raw HTML omitted -->, <!-- raw HTML omitted -->garden<!-- raw HTML omitted -->, <!-- raw HTML omitted -->attic<!-- raw HTML omitted --> 입니다.</p>
 <p>이제 이 세계를 정의했으니, 남은 것은 게임을 즐기는 플레이어의 위치를 정해주는 겁니다.</p>
-
-<p><code>(setf <em>location</em> &lsquo;living-room)</code></p>
-
+<p><!-- raw HTML omitted -->(setf <em>location</em> &lsquo;living-room)<!-- raw HTML omitted --></p>
 <p>이제 게임 명령을 만들어 봅시다!
-<img src="/wordpress/wp-content/uploads/2009/02/drink.jpg" alt="drink" title="drink" width="300" height="285" class="alignnone size-full wp-image-400" /></p>
+<!-- raw HTML omitted --></p>
 </section>
 
 

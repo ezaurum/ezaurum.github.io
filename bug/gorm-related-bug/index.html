@@ -24,8 +24,6 @@
 <meta itemprop="description" content="문제 상황 - GORM 문서대로 했는데 제대로 값이 불려오지 않았다.
 문제 원인 - 문서에서는 db.Model(&amp;language).Related(&amp;users)식으로 하면 된다고 했는데, 실제로는 db.Model(&amp;language).Related(&amp;users,&quot;Users&quot;) 식으로 프로퍼티 이름을 적어줘야 했다. 연관 테이블을 쓰는 게 두 개 이상이라 문제가 생긴 모양.
 재발 방지를 위해 - 일단 소스를 뒤지자">
-
-
 <meta itemprop="datePublished" content="2018-05-01T23:36:26&#43;09:00" />
 <meta itemprop="dateModified" content="2018-05-01T23:36:26&#43;09:00" />
 <meta itemprop="wordCount" content="42">
@@ -33,7 +31,6 @@
 
 
 <meta itemprop="keywords" content="gorm,go,document," />
-
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="GORM에서 Many To Many 값을 제대로 가져오지 못하는 문제"/>
 <meta name="twitter:description" content="문제 상황 - GORM 문서대로 했는데 제대로 값이 불려오지 않았다.
@@ -75,9 +72,7 @@
 <h1>GORM에서 Many To Many 값을 제대로 가져오지 못하는 문제</h1>
 2018-05-01
 <section><p>문제 상황 - <a href="http://gorm.io/docs/many_to_many.html">GORM 문서</a>대로 했는데 제대로 값이 불려오지 않았다.</p>
-
 <p>문제 원인 - 문서에서는 <code>db.Model(&amp;language).Related(&amp;users)</code>식으로 하면 된다고 했는데, 실제로는 <code>db.Model(&amp;language).Related(&amp;users,&quot;Users&quot;)</code> 식으로 프로퍼티 이름을 적어줘야 했다. 연관 테이블을 쓰는 게 두 개 이상이라 문제가 생긴 모양.</p>
-
 <p>재발 방지를 위해 - 일단 소스를 뒤지자</p>
 </section>
 
@@ -255,11 +250,15 @@
             
         
             
+        
+            
         <li><a href="https://ezaurum.com/bug/ajax-response-is-invalid-but-valid/">AJAX 요청응답이 왔는데 JSON parse에러가 났는데 정상 작동</a></li>
             
         
             
         <li><a href="https://ezaurum.com/bug/not-modified-json-response/">AJAX 요청이 간헐적으로 실패하는 문제</a></li>
+            
+        
             
         
             
@@ -618,6 +617,16 @@
         
             
         <li><a href="https://ezaurum.com/bug/gorm-related-bug/">GORM에서 Many To Many 값을 제대로 가져오지 못하는 문제</a></li>
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
             
         
             

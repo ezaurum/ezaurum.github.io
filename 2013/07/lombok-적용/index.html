@@ -23,16 +23,13 @@
     <meta itemprop="name" content="lombok 적용">
 <meta itemprop="description" content="Lombok이란 getter, setter, toString, equals, hash 같은 꼭 필요하고 IDE가 보통 자동으로 생성해주지만 필드 바꾸다 보면 자주 새로 만드는 것을 잊게 되고 결정적으로 귀찮은 메소드들을 컴파일 타임에 자동으로 생성해주는 라이브러리이다.(정확한지는 모르겠다)
 여튼 필드가 몇십개 되거나 하면 getter, setter만 해도 꽤 많은데, 그 때문에 방해되서 도메인의 중요한 로직을 보지 못하는 경우가 생긴다. 이상하게 묘한 거부감이랄까 어찌 돌아가는지 모르는 라이브러리에 대한 불안감이 있어서 적용을 안 했었는데, 이번에 도저히 못 참아서 시도해 보았다.">
-
-
 <meta itemprop="datePublished" content="2013-07-17T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2013-07-17T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="160">
+<meta itemprop="wordCount" content="129">
 
 
 
 <meta itemprop="keywords" content="gradle,intelliJ,java,lombok,POJO," />
-
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="lombok 적용"/>
 <meta name="twitter:description" content="Lombok이란 getter, setter, toString, equals, hash 같은 꼭 필요하고 IDE가 보통 자동으로 생성해주지만 필드 바꾸다 보면 자주 새로 만드는 것을 잊게 되고 결정적으로 귀찮은 메소드들을 컴파일 타임에 자동으로 생성해주는 라이브러리이다.(정확한지는 모르겠다)
@@ -71,27 +68,14 @@
 <h1>lombok 적용</h1>
 2013-07-17
 <section><p>Lombok이란 getter, setter, toString, equals, hash 같은 꼭 필요하고 IDE가 보통 자동으로 생성해주지만 필드 바꾸다 보면 자주 새로 만드는 것을 잊게 되고 결정적으로 귀찮은 메소드들을 컴파일 타임에 자동으로 생성해주는 라이브러리이다.(정확한지는 모르겠다)</p>
-
 <p>여튼 필드가 몇십개 되거나 하면 getter, setter만 해도 꽤 많은데, 그 때문에 방해되서 도메인의 중요한 로직을 보지 못하는 경우가 생긴다. 이상하게 묘한 거부감이랄까 어찌 돌아가는지 모르는 라이브러리에 대한 불안감이 있어서 적용을 안 했었는데, 이번에 도저히 못 참아서 시도해 보았다.</p>
-
-<p>사용 환경은 gradle, intellJ. 최초 적용 시간은 5분이 안 걸렸다.
-<ol>
-<li>구글에서 lombok을 검색한다.</li>
-<li>홈페이지 첫 화면의 동영상을 플레이 하면서 gradle.build 에 다음 한 줄을 추가한다.
-<code> compile &ldquo;org.projectlombok:lombok:0.12.0&rdquo;</code>
-</li>
-<li>intelliJ는 plugin 메뉴에서 lombok을 검색해 설치한다.(하나 뿐이라 헷갈릴 것도 없다)</li></p>
-
-<p><li>리셋해주면 끝.</li>
-</ol></p>
-
-<p><strong>소스 수정은 무의미한 getter, setter를 다 없애고, class 앞에 @Data 만 붙여주면 된다.</strong>
+<p>사용 환경은 gradle, intellJ. 최초 적용 시간은 5분이 안 걸렸다.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p><!-- raw HTML omitted -->소스 수정은 무의미한 getter, setter를 다 없애고, class 앞에 @Data 만 붙여주면 된다.<!-- raw HTML omitted -->
 로직이 들어간 setter, getter의 경우 그냥 두면 된다. 알아서 비켜간다.</p>
-
 <p>final로 된 필드가 있으면 그걸 기반으로 한 생성자도 만들어준다.</p>
-
-<p>써 본 감상은 <strong>왜 진작 안 썼을까</strong></p>
-
+<p>써 본 감상은 <!-- raw HTML omitted -->왜 진작 안 썼을까<!-- raw HTML omitted --></p>
 <p>소스가 확 줄고, 딴 거 건드릴 필요도 없고 아주 편해졌다. 강력 추천.</p>
 </section>
 

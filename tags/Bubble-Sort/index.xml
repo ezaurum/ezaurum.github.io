@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bubble Sort on Ezaurum&#39;s Blog</title>
@@ -18,7 +18,7 @@
       <pubDate>Thu, 13 Jan 2011 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2011/01/Bubble-Sort/</guid>
-      <description>void bubbleSort(int * array, int size) { int temp = 0; int j=0; bool swapped = true; while(swapped) { j++; swapped = false; for( int i = 0; i &amp;lt; size -1 -j ; i++) { if ( array[i] &amp;gt; array[i+1] ) { temp = array[i]; array[i] = array[i+1]; array[i+1] = temp; swapped = true; } } j++; } } void swap(int * a, int * b) { int temp = 0; temp = *a; *a = *b; *b = temp; } bool swapif(int * a, int * b) { if ( *a &amp;gt; *b) { swap(a,b); return true; } else { return false; } }</description>
+      <description>void bubbleSort2(int * array, int size) { int j=0; bool swapped = true; while(swapped) { swapped=false; for( int i = 0; i &amp;lt; size -j -1 ; i++) { swapped = swapif(array+i,array+i+1) ? true : swapped; } j++; } } 정렬되는 것이 방울이 올라가는 것처럼 보인다고 해서 버블 정렬. 버블~ 버블~ 기초중의 기초. 거의 외워서 쓰고 있음. 빼먹은 게 있었다. -j 추가.또 빼먹었다. j++; 의 위치를 아래로 옮김. 그대로는 마지막 항목이 정렬되지 않음.</description>
     </item>
     
   </channel>

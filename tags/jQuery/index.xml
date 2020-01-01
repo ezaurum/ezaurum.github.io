@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>jQuery on Ezaurum&#39;s Blog</title>
@@ -27,7 +27,7 @@
       <pubDate>Sun, 01 Jul 2012 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2012/07/%ED%95%9C%EC%A4%84-%EC%A0%95%EB%A6%AC/</guid>
-      <description>jQuery.prevAll은, 시작점부터 역순으로 리스트를 만든다.   &amp;lt;ul&amp;gt; &amp;lt;li&amp;gt;4&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;3&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;2&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;1&amp;lt;/li&amp;gt; &amp;lt;li id=&amp;ldquo;target&amp;rdquo;&amp;gt;0&amp;lt;/li&amp;gt; &amp;lt;/ul&amp;gt;   이 경우, $(&amp;ldquo;#target&amp;rdquo;).prevAll(&amp;ldquo;li&amp;rdquo;)는 2, 3, 4가 된다. 당연한가? 쓰고 보니 한 줄도 아니군.</description>
+      <description>jQuery.prevAll은, 시작점부터 역순으로 리스트를 만든다. </description>
     </item>
     
     <item>

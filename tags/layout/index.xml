@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>layout on Ezaurum&#39;s Blog</title>
@@ -24,8 +24,10 @@
 #second{ width:140px; background:green; }
 #last{ width:140px;
 position:relative; left:-140px; top:20px;
-background:yellow; } &amp;lt;/style&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; 길다란 가변형 문자열  고정폭/고정높이  고정폭  &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt; 문제점 - 부모 element가 보이는 것보다 좀 더-div#last의 폭이 추가된만큼- 커야 한다.
-방안 2 -div를 4개 쓰는 경우, 즉 부모 엘리먼트를 하나 두는 경우 &amp;lt;!</description>
+background:yellow; } &amp;lt;/style&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt;
+방안 2 -div를 4개 쓰는 경우, 즉 부모 엘리먼트를 하나 두는 경우 &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;style&amp;gt; div{ margin:0px; background:gray; }
+#first {height:40px;}
+#second , #last{ height:20px; width:140px; background:green; position:absolute; right:0px; }</description>
     </item>
     
   </channel>

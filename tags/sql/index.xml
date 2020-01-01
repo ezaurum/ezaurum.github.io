@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>sql on Ezaurum&#39;s Blog</title>
@@ -18,7 +18,7 @@
       <pubDate>Sun, 12 May 2019 01:54:01 +0900</pubDate>
       
       <guid>https://ezaurum.com/2019/05/%EC%BF%BC%EB%A6%AC-%EA%B2%B0%EA%B3%BC%EB%A5%BC-CSV-%ED%8C%8C%EC%9D%BC%EB%A1%9C-%EC%83%9D%EC%84%B1/</guid>
-      <description>select b.*, a.* from log_table a, somehow_table b where a.id = b.id and check_result=&#39;Success&#39; and a.column=123 INTO OUTFILE &#39;orders.csv&#39; FIELDS TERMINATED BY &#39;,&#39; ENCLOSED BY &#39;&amp;quot;&#39; LINES TERMINATED BY &#39;\n&#39;;  </description>
+      <description>select b.*, a.* from log_table a, somehow_table b where a.id = b.id and check_result=&#39;Success&#39; and a.column=123 INTO OUTFILE &#39;orders.csv&#39; FIELDS TERMINATED BY &#39;,&#39; ENCLOSED BY &#39;&amp;quot;&#39; LINES TERMINATED BY &#39;\n&#39;; </description>
     </item>
     
   </channel>

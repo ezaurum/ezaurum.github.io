@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>삽입 정렬 on Ezaurum&#39;s Blog</title>
@@ -18,8 +18,8 @@
       <pubDate>Fri, 14 Jan 2011 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2011/01/Insertion-Sort/</guid>
-      <description>void insertionSort(int * array, int size) { int j = 0; int temp = 0; for (int i = 1; i &amp;lt; size ; i++) { j = 0; while(j array[j]) { j++; } else { temp = array[i]; for ( int k = i; k &amp;gt; j; k&amp;ndash;) { array[k] = array[k-1]; } array[j] = temp; j = i; } } } }
-void insertionSort2(int * array, int size) { int j = 0; for (int i = 1; i 0 &amp;amp;&amp;amp; array[j-1] &amp;gt; array[j] ) { swap(array[j-1],array[j]); j&amp;ndash;; } } }</description>
+      <description>void insertionSort(int * array, int size) { int j = 0; int temp = 0; for (int i = 1; i &amp;lt; size ; i++)	{ j = 0; while(jarray[j]) { j++; } else { temp = array[i]; for ( int k = i; k &amp;gt; j; k&amp;ndash;) { array[k] = array[k-1]; } array[j] = temp; j = i; } } } }
+void insertionSort2(int * array, int size) { int j = 0; for (int i = 1; i 0 &amp;amp;&amp;amp; array[j-1] &amp;gt; array[j] ) { swap(array[j-1],array[j]); j&amp;ndash;; } } }위키 등에 올라온 최적화 코드와는 거리가 멀지만&amp;hellip; 일단은 별 문제없이 가볍게 짤 수 있는 수준.</description>
     </item>
     
   </channel>

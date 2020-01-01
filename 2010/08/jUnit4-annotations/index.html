@@ -24,13 +24,9 @@
 <meta itemprop="description" content="package testCases;
 import static org.junit.Assert.assertEquals;
 import org.junit.Test; import org.junit.Before; import org.junit.After;
-public class myTest {
-@Test public void testCodes() throws Exception { System.out.println(&ldquo;3&rdquo;); }
-@Before public void testMakeClass1() { System.out.println(&quot;2&quot;); } @Before public void testMakeClass() { System.out.println(&quot;1&quot;); }  @After public void afterClass() { System.out.println(&ldquo;4&rdquo;);
-} @After public void afterClass1() { System.out.println(&quot;5&quot;); }  } 
-실행 결과는 적힌 대로 12345가 된다.">
-
-
+public class myTest {	@Test public void testCodes() throws Exception { System.out.println(&ldquo;3&rdquo;); }
+@Beforepublic void testMakeClass1(){System.out.println(&quot;2&quot;);	}	@Beforepublic void testMakeClass(){System.out.println(&quot;1&quot;);	} @After public void afterClass() { System.out.println(&ldquo;4&rdquo;);
+}@Afterpublic void afterClass1(){System.out.println(&quot;5&quot;);}	 } 실행 결과는 적힌 대로 12345가 된다.">
 <meta itemprop="datePublished" content="2010-08-10T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2010-08-10T00:00:00&#43;00:00" />
 <meta itemprop="wordCount" content="59">
@@ -38,27 +34,22 @@ public class myTest {
 
 
 <meta itemprop="keywords" content="Annotation,개발,공부,프로그래밍,일상,java,jUnit,jUnit4,TDD," />
-
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="jUnit4 annotations"/>
 <meta name="twitter:description" content="package testCases;
 import static org.junit.Assert.assertEquals;
 import org.junit.Test; import org.junit.Before; import org.junit.After;
-public class myTest {
-@Test public void testCodes() throws Exception { System.out.println(&ldquo;3&rdquo;); }
-@Before public void testMakeClass1() { System.out.println(&quot;2&quot;); } @Before public void testMakeClass() { System.out.println(&quot;1&quot;); }  @After public void afterClass() { System.out.println(&ldquo;4&rdquo;);
-} @After public void afterClass1() { System.out.println(&quot;5&quot;); }  } 
-실행 결과는 적힌 대로 12345가 된다."/>
+public class myTest {	@Test public void testCodes() throws Exception { System.out.println(&ldquo;3&rdquo;); }
+@Beforepublic void testMakeClass1(){System.out.println(&quot;2&quot;);	}	@Beforepublic void testMakeClass(){System.out.println(&quot;1&quot;);	} @After public void afterClass() { System.out.println(&ldquo;4&rdquo;);
+}@Afterpublic void afterClass1(){System.out.println(&quot;5&quot;);}	 } 실행 결과는 적힌 대로 12345가 된다."/>
 
     <meta property="og:title" content="jUnit4 annotations" />
 <meta property="og:description" content="package testCases;
 import static org.junit.Assert.assertEquals;
 import org.junit.Test; import org.junit.Before; import org.junit.After;
-public class myTest {
-@Test public void testCodes() throws Exception { System.out.println(&ldquo;3&rdquo;); }
-@Before public void testMakeClass1() { System.out.println(&quot;2&quot;); } @Before public void testMakeClass() { System.out.println(&quot;1&quot;); }  @After public void afterClass() { System.out.println(&ldquo;4&rdquo;);
-} @After public void afterClass1() { System.out.println(&quot;5&quot;); }  } 
-실행 결과는 적힌 대로 12345가 된다." />
+public class myTest {	@Test public void testCodes() throws Exception { System.out.println(&ldquo;3&rdquo;); }
+@Beforepublic void testMakeClass1(){System.out.println(&quot;2&quot;);	}	@Beforepublic void testMakeClass(){System.out.println(&quot;1&quot;);	} @After public void afterClass() { System.out.println(&ldquo;4&rdquo;);
+}@Afterpublic void afterClass1(){System.out.println(&quot;5&quot;);}	 } 실행 결과는 적힌 대로 12345가 된다." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://ezaurum.com/2010/08/jUnit4-annotations/" />
 <meta property="article:published_time" content="2010-08-10T00:00:00+00:00" />
@@ -88,50 +79,42 @@ public class myTest {
 <main class="post single">
 <h1>jUnit4 annotations</h1>
 2010-08-10
-<section><p><code>package testCases;</p>
-
+<section><p><!-- raw HTML omitted -->package testCases;</p>
 <p>import static org.junit.Assert.assertEquals;</p>
-
 <p>import org.junit.Test;
 import org.junit.Before;
 import org.junit.After;</p>
-
-<p>public class myTest {<br />
-    @Test
-    public void testCodes() throws Exception
-    {
-        System.out.println(&ldquo;3&rdquo;);
-    }</p>
-
+<p>public class myTest {	
+@Test
+public void testCodes() throws Exception
+{
+System.out.println(&ldquo;3&rdquo;);
+}</p>
 <pre><code>@Before
 public void testMakeClass1()
 {
-    System.out.println(&quot;2&quot;);        
-}   
+    System.out.println(&quot;2&quot;);		
+}	
 @Before
 public void testMakeClass()
 {
-    System.out.println(&quot;1&quot;);        
+    System.out.println(&quot;1&quot;);		
 }
 </code></pre>
-
 <p>@After
-    public void afterClass()
-    {
-        System.out.println(&ldquo;4&rdquo;);</p>
-
+public void afterClass()
+{
+System.out.println(&ldquo;4&rdquo;);</p>
 <pre><code>}
 @After
 public void afterClass1()
 {
     System.out.println(&quot;5&quot;);
-
-}   
+	
+}	
 </code></pre>
-
 <p>}
-</code></p>
-
+<!-- raw HTML omitted --></p>
 <p>실행 결과는 적힌 대로 12345가 된다.</p>
 </section>
 

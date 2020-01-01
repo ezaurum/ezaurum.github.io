@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>한줄정리 on Ezaurum&#39;s Blog</title>
@@ -27,7 +27,7 @@
       <pubDate>Mon, 09 Feb 2015 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2015/02/%EB%AA%BD%EA%B3%A0-DB-ISODate%EA%B0%9D%EC%B2%B4%EB%A1%9C-%EA%B2%80%EC%83%89/</guid>
-      <description>db.logs.find({&amp;ldquo;timestamp&amp;rdquo;: { &amp;ldquo;$gte&amp;rdquo;: new Date(&amp;ldquo;2015-02-05&amp;rdquo;)}, &amp;ldquo;level&amp;rdquo;:&amp;ldquo;ERROR&amp;rdquo;})  $gte, $gt, $lt, $lte를 쓸 수 있고, new Date(&amp;ldquo;2015-02-01T00:00:00.000Z&amp;rdquo;) 형태로 검색한다.</description>
+      <description>db.logs.find({&amp;ldquo;timestamp&amp;rdquo;: { &amp;ldquo;$gte&amp;rdquo;: new Date(&amp;ldquo;2015-02-05&amp;rdquo;)}, &amp;ldquo;level&amp;rdquo;:&amp;ldquo;ERROR&amp;rdquo;}) $gte, $gt, $lt, $lte를 쓸 수 있고, new Date(&amp;ldquo;2015-02-01T00:00:00.000Z&amp;rdquo;) 형태로 검색한다.</description>
     </item>
     
     <item>
@@ -36,7 +36,7 @@
       <pubDate>Sat, 27 Dec 2014 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2014/12/VS-2013%EC%97%90%EC%84%9C-%EA%B0%91%EC%9E%90%EA%B8%B0-CPU-%EC%82%AC%EC%9A%A9%EC%9C%A8%EC%9D%B4-%EC%B9%98%EC%86%9F%EB%8A%94-%EA%B2%BD%EC%9A%B0/</guid>
-      <description>참고 링크 내 경우는 Enable Browser Link를 끄는 것만으로 해결되었다.</description>
+      <description>참고 링크내 경우는 Enable Browser Link를 끄는 것만으로 해결되었다.</description>
     </item>
     
     <item>
@@ -110,7 +110,7 @@
       <pubDate>Sun, 24 Nov 2013 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2013/11/Git%EC%97%90%EC%84%9C-%ED%8A%B9%EC%A0%95%ED%8C%8C%EC%9D%BC-%EC%9E%84%EC%8B%9C%EB%A1%9C-%EC%BB%A4%EB%B0%8B%EB%82%B4%EC%97%AD%EC%97%90%EC%84%9C-%EC%A0%9C%EC%99%B8%ED%95%98%EA%B8%B0/</guid>
-      <description>출처 - http://blog.outsider.ne.kr/817 Unity3D로 공동작업을 하다 보면 meta파일이 많이 생기고, 뭐 잠깐 이쪽에서 고쳐보고 싶은데 하던 작업 중에 일부는 또 올려야 할 때가 있고해서 골치 아플 때 유용함. 제외 - git update-index &amp;ndash;assume-unchanged 파일명 복구 - git update-index &amp;ndash;no-assume-unchanged 파일명 초기화 - git update-index &amp;ndash;really-refresh</description>
+      <description>출처 - http://blog.outsider.ne.kr/817&amp;lt;/a&amp;gt; Unity3D로 공동작업을 하다 보면 meta파일이 많이 생기고, 뭐 잠깐 이쪽에서 고쳐보고 싶은데 하던 작업 중에 일부는 또 올려야 할 때가 있고해서 골치 아플 때 유용함. 제외 - git update-index &amp;ndash;assume-unchanged 파일명복구 - git update-index &amp;ndash;no-assume-unchanged 파일명초기화 - git update-index &amp;ndash;really-refresh</description>
     </item>
     
     <item>
@@ -138,7 +138,7 @@
       <pubDate>Wed, 21 Aug 2013 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2013/08/jaxb-%EB%A1%9C-xsd%EB%A5%BC-java-class%EB%A1%9C-%EB%A7%8C%EB%93%A4-%EB%95%8C/</guid>
-      <description>상속되는 객체가 제대로 만들어지지 않는다면, mixed=&amp;ldquo;true&amp;rdquo;를 없애보라</description>
+      <description>상속되는 객체가 제대로 만들어지지 않는다면, mixed=&amp;quot;true&amp;quot;를 없애보라</description>
     </item>
     
     <item>
@@ -192,7 +192,7 @@
       <pubDate>Mon, 20 May 2013 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2013/05/scp%EB%A7%8C%EC%9C%BC%EB%A1%9C-git-%EC%84%9C%EB%B2%84%EC%97%90-key%EC%97%AC%EB%9F%BF-%EC%B6%94%EA%B0%80%ED%95%98%EA%B8%B0/</guid>
-      <description>출처 역시 누군가 뭘 해 놨을 줄 알았어. 다 필요 없는 짓이었다. ssh-copy-id 라는 명령어가&amp;hellip; OTL&amp;hellip; 역시 무식하면 몸이 고생. scp file_name user@182.213.312.122:path 다 하고 나면 보안을 위해 파일 권한이 600으로 되어 있는지 확인할 것 그 외 ssh에 대한 참고 링크</description>
+      <description>출처역시 누군가 뭘 해 놨을 줄 알았어.다 필요 없는 짓이었다. ssh-copy-id 라는 명령어가&amp;hellip; OTL&amp;hellip; 역시 무식하면 몸이 고생.scp file_name user@182.213.312.122:path다 하고 나면 보안을 위해 파일 권한이 600으로 되어 있는지 확인할 것그 외 ssh에 대한 참고 링크</description>
     </item>
     
     <item>
@@ -219,7 +219,7 @@
       <pubDate>Thu, 09 May 2013 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2013/05/controller%EC%97%90%EC%84%9C-%EB%84%98%EA%B8%B4-viewName%EC%9D%80-viewResolver%EA%B0%80-%EB%B3%B4%EA%B3%A0-%EC%B2%98%EB%A6%AC%ED%95%9C%EB%8B%A4./</guid>
-      <description>controller에서 넘긴 viewName은 viewResolver가 보고 처리한다.</description>
+      <description></description>
     </item>
     
     <item>
@@ -228,7 +228,7 @@
       <pubDate>Thu, 09 May 2013 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2013/05/sts%EA%B0%80-%EB%A1%9C%EB%94%A9%EC%8B%9C-%EB%BB%97%EC%9D%84-%EB%95%8C/</guid>
-      <description>STS나 이클립스가 로딩시 뻗을 때, loading workbench에서 뻗었다. [Workspace Directory]/.metadata/.plugins/org.eclipse.core.resources/.snap 을 지워줄 것.</description>
+      <description></description>
     </item>
     
     <item>
@@ -238,7 +238,7 @@
       
       <guid>https://ezaurum.com/2012/07/spring%EC%97%90%EC%84%9C-enum%EC%9D%84-select%EB%A1%9C-%EB%A7%A4%ED%95%91/</guid>
       <description>enum안에 desc라는 이름으로 label이 붙어 있는 경우.
-&amp;lt;form:select path=&amp;ldquo;status&amp;rdquo;&amp;gt; &amp;lt;form:options itemLabel=&amp;ldquo;desc&amp;rdquo;/&amp;gt; &amp;lt;/form:select&amp;gt;</description>
+&amp;lt;form:select path=&amp;quot;status&amp;rdquo;&amp;gt; &amp;lt;form:options itemLabel=&amp;quot;desc&amp;rdquo;/&amp;gt; &amp;lt;/form:select&amp;gt;</description>
     </item>
     
     <item>
@@ -256,8 +256,8 @@
       <pubDate>Fri, 15 Jun 2012 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2012/06/Opera-webGL-%ED%99%9C%EC%84%B1%ED%99%94/</guid>
-      <description>opera:config#Enable WebGL - 1로 설정 opera:config#Enable Hardware Acceleration - 1로 설정 opera:gpu opera:config#Preferred%20renderer 0 - openGL, 1 - DirectX
-기타 자세한 사항은 여기 참고</description>
+      <description>opera:config#Enable WebGL- 1로 설정 opera:config#Enable Hardware Acceleration- 1로 설정 opera:gpuopera:config#Preferred%20renderer0 - openGL, 1 - DirectX
+기타 자세한 사항은 여기참고</description>
     </item>
     
   </channel>

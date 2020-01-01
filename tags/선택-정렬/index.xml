@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>선택 정렬 on Ezaurum&#39;s Blog</title>
@@ -19,8 +19,7 @@
       
       <guid>https://ezaurum.com/2011/01/Selection-Sort/</guid>
       <description>void selectSort(int * array, int size) { int minPoint = 0;
-for( int j = 0; j &amp;amp;lt; size -1; j++) { minPoint = j; for (int i = j; i &amp;amp;lt; size ; i++) { if(array[i] &amp;amp;lt; array[minPoint]) { minPoint = i; } } swap(array+j, array+minPoint); }  }
-오랜만에 공부 좀 하니까 머리가 돌아가는 듯.</description>
+for( int j = 0; j &amp;amp;lt; size -1; j++){minPoint = j;for (int i = j; i &amp;amp;lt; size ; i++){if(array[i] &amp;amp;lt; array[minPoint]){minPoint = i;}}swap(array+j, array+minPoint);} }오랜만에 공부 좀 하니까 머리가 돌아가는 듯.</description>
     </item>
     
   </channel>

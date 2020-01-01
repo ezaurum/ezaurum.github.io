@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>extends on Ezaurum&#39;s Blog</title>
@@ -18,7 +18,7 @@
       <pubDate>Wed, 21 Aug 2013 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2013/08/jaxb-%EB%A1%9C-xsd%EB%A5%BC-java-class%EB%A1%9C-%EB%A7%8C%EB%93%A4-%EB%95%8C/</guid>
-      <description>상속되는 객체가 제대로 만들어지지 않는다면, mixed=&amp;ldquo;true&amp;rdquo;를 없애보라</description>
+      <description>상속되는 객체가 제대로 만들어지지 않는다면, mixed=&amp;quot;true&amp;quot;를 없애보라</description>
     </item>
     
   </channel>

@@ -25,8 +25,6 @@
 원인 - 기본 출력 인코딩이 ASCII라서 출력시 에러남.
 해결방안 - Console.OutputEncoding = System.Text.Encoding.UTF8; 참고
 재발 방지를 위해 - 미리 세팅해 두자">
-
-
 <meta itemprop="datePublished" content="2019-02-05T19:15:02&#43;09:00" />
 <meta itemprop="dateModified" content="2019-02-05T19:15:02&#43;09:00" />
 <meta itemprop="wordCount" content="28">
@@ -34,7 +32,6 @@
 
 
 <meta itemprop="keywords" content="버그,회고,정리,c-sharp," />
-
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="유니코드 문자를 Console.WriteLine으로 출력시 에러"/>
 <meta name="twitter:description" content="문제상황 - Console.WriteLine 으로 스트링 출력시 에러
@@ -78,11 +75,8 @@
 <h1>유니코드 문자를 Console.WriteLine으로 출력시 에러</h1>
 2019-02-05
 <section><p>문제상황 - Console.WriteLine 으로 스트링 출력시 에러</p>
-
 <p>원인 - 기본 출력 인코딩이 ASCII라서 출력시 에러남.</p>
-
 <p>해결방안 - <code>Console.OutputEncoding = System.Text.Encoding.UTF8;</code> <a href="https://stackoverflow.com/questions/5750203/how-to-write-unicode-characters-to-the-console">참고</a></p>
-
 <p>재발 방지를 위해 - 미리 세팅해 두자</p>
 </section>
 
@@ -262,11 +256,15 @@
             
         
             
+        
+            
         <li><a href="https://ezaurum.com/bug/ajax-response-is-invalid-but-valid/">AJAX 요청응답이 왔는데 JSON parse에러가 났는데 정상 작동</a></li>
             
         
             
         <li><a href="https://ezaurum.com/bug/not-modified-json-response/">AJAX 요청이 간헐적으로 실패하는 문제</a></li>
+            
+        
             
         
             
@@ -625,6 +623,16 @@
         
             
         <li><a href="https://ezaurum.com/bug/gorm-related-bug/">GORM에서 Many To Many 값을 제대로 가져오지 못하는 문제</a></li>
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
             
         
             

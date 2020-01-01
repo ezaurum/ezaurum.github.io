@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>개발 on Ezaurum&#39;s Blog</title>
@@ -18,7 +18,7 @@
       <pubDate>Tue, 05 Feb 2013 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2013/02/%EB%B6%80%EC%A0%95%EA%B8%B0-%EC%A0%95%EB%A6%AC/</guid>
-      <description>크롬의 navigator.userAgent 값에는 Safari가 들어가 있다. webkit엔진이라 그런가? 톰캣은 jstl라이브러리를 제공하지 않는다. http://stackoverflow.com/tags/jstl/info 스프링에서 파라마터로 list를 받아오려면 static class TagList extends ArrayList { } - 내부 클래스로 선언할 경우, static을 붙여줘야 jackson에서 인식을 해 준다. backbone.js은 DOM 구조만 건드린다. knockout.js은 template 포함. 한방에 할 수 있는 솔루션 그런고로 경량 vs 좀 무거움. 게임이나 어디든 패킷 기록, 재생기는 필수! 어쨌든 독립 웹요청 테스트가 가능해야 함! 레거시 코드를 건드릴 때는 최대한 그대로 옮기자.</description>
+      <description></description>
     </item>
     
     <item>
@@ -27,7 +27,7 @@
       <pubDate>Sun, 25 Nov 2012 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2012/11/Raspberry-pi%EC%97%90-%EA%B0%9C%EB%B0%9C%EC%84%9C%EB%B2%84-%EC%85%8B%ED%8C%85/</guid>
-      <description>일단 라스베리 파이 파티션을 sd카드를 다 채우게 확장하기. 이걸 안 하면 깔다가 용량부족하다고 에러를 뱉는다. [youtube https://www.youtube.com/watch?v=R4VovMDnsIE&amp;amp;w=560&amp;amp;h=315] 동영상에서는 fdisk -uc 라고 했는데, 나는 fdisk -u -c 로 해야 되었다. 파티션이 3개가 아니라 처음부터 2개고, 첫번째 파티션이 0부터 시작하질 않아서 새로 파티션을 만들 때 이상한 위치가 잡혀서 숫자를 입력해 줘야 했다. sd카드를 빠른 걸 샀더니 의외로 금방 끝났다. 동영상은 4mb/s인데 내 껀 29.9mb/s&amp;hellip; 타이핑이 힘든 경우 여기에서 복사.   초기 셋팅 참고 링크 이거 따라서 다 했다.</description>
+      <description></description>
     </item>
     
     <item>
@@ -54,7 +54,7 @@
       <pubDate>Thu, 19 Aug 2010 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2010/08/css-img-%EC%97%AC%EB%B0%B1/</guid>
-      <description>img는 inline 글자랑 같다. &amp;lt;img src=&amp;ldquo;xx&amp;rdquo; /&amp;gt; &amp;lt;img src=&amp;ldquo;xx&amp;rdquo; /&amp;gt; &amp;lt;img src=&amp;ldquo;xx&amp;rdquo; /&amp;gt; 이렇게 하면 여백이 생긴다. html이므로, 빈줄은 빈칸으로 취급. &amp;lt;img src=&amp;ldquo;xx&amp;rdquo; /&amp;gt;&amp;lt;img src=&amp;ldquo;xx&amp;rdquo; /&amp;gt;&amp;lt;img src=&amp;ldquo;xx&amp;rdquo; /&amp;gt; 이렇게 하면 안 생긴다.</description>
+      <description>img는 inline 글자랑 같다. &amp;lt;img src=&amp;quot;xx&amp;rdquo; /&amp;gt; &amp;lt;img src=&amp;quot;xx&amp;rdquo; /&amp;gt; &amp;lt;img src=&amp;quot;xx&amp;rdquo; /&amp;gt; 이렇게 하면 여백이 생긴다. html이므로, 빈줄은 빈칸으로 취급. &amp;lt;img src=&amp;quot;xx&amp;rdquo; /&amp;gt;&amp;lt;img src=&amp;quot;xx&amp;rdquo; /&amp;gt;&amp;lt;img src=&amp;quot;xx&amp;rdquo; /&amp;gt; 이렇게 하면 안 생긴다.</description>
     </item>
     
     <item>
@@ -66,11 +66,9 @@
       <description>package testCases;
 import static org.junit.Assert.assertEquals;
 import org.junit.Test; import org.junit.Before; import org.junit.After;
-public class myTest {
-@Test public void testCodes() throws Exception { System.out.println(&amp;ldquo;3&amp;rdquo;); }
-@Before public void testMakeClass1() { System.out.println(&amp;quot;2&amp;quot;); } @Before public void testMakeClass() { System.out.println(&amp;quot;1&amp;quot;); }  @After public void afterClass() { System.out.println(&amp;ldquo;4&amp;rdquo;);
-} @After public void afterClass1() { System.out.println(&amp;quot;5&amp;quot;); }  } 
-실행 결과는 적힌 대로 12345가 된다.</description>
+public class myTest {	@Test public void testCodes() throws Exception { System.out.println(&amp;ldquo;3&amp;rdquo;); }
+@Beforepublic void testMakeClass1(){System.out.println(&amp;quot;2&amp;quot;);	}	@Beforepublic void testMakeClass(){System.out.println(&amp;quot;1&amp;quot;);	} @After public void afterClass() { System.out.println(&amp;ldquo;4&amp;rdquo;);
+}@Afterpublic void afterClass1(){System.out.println(&amp;quot;5&amp;quot;);}	 } 실행 결과는 적힌 대로 12345가 된다.</description>
     </item>
     
   </channel>

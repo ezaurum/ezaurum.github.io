@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>css on Ezaurum&#39;s Blog</title>
@@ -30,8 +30,12 @@
       <pubDate>Sun, 11 Sep 2011 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2011/09/%EC%97%90%EB%A6%AD-%EB%A7%88%EC%9D%B4%EC%96%B4%EC%9D%98-CSS-%EB%85%B8%ED%95%98%EC%9A%B0/</guid>
-      <description>에릭 마이어의 CSS 노하우 - 
-에릭 마이어 지음, 한선용 옮김/인사이트 진짜 순전히 저자 보고 샀다. 사고 나서 깨달았는데, 최초로 산 CSS책이다. 그동안 안 본 건 아니지만 내돈으로 구매는 안 했으니까... 결론적으로는 돈 값 한다. 기초를 다시 다지기에도 좋고, 급할 때 펼쳐보는 쿡북 용도로도 좋다. CSS3에 대해서도 나와 있지만, 그게 주는 아니다. CSS3만 필요하면 다른 책을 사는게 나을지도. 내용이 부실하다는 게 아니라 삐까뻔쩍한 CSS3로 채워져 있지는 않다는 얘기다. 그리고 CSS 초보(CSS가 뭔지 알고, 글자 색 바꿀 수 있는 정도)가 보기도 충분히 좋다.</description>
+      <description>사고 나서 깨달았는데, 최초로 산 CSS책이다. 그동안 안 본 건 아니지만 내돈으로 구매는 안 했으니까&amp;hellip;
+결론적으로는 돈 값 한다.기초를 다시 다지기에도 좋고, 급할 때 펼쳐보는 쿡북 용도로도 좋다.
+CSS3에 대해서도 나와 있지만, 그게 주는 아니다.
+CSS3만 필요하면 다른 책을 사는게 나을지도. 내용이 부실하다는 게 아니라 삐까뻔쩍한 CSS3로 채워져 있지는 않다는 얘기다.
+그리고 CSS 초보(CSS가 뭔지 알고, 글자 색 바꿀 수 있는 정도)가 보기도 충분히 좋다.
+책이 얇은데도 색인도 풍부하다. 값도 일단 2만원 아래니까 괜찮은 편.</description>
     </item>
     
     <item>
@@ -41,10 +45,9 @@
       
       <guid>https://ezaurum.com/2011/04/input%EC%9D%B4%EB%82%98-textarea%EC%9D%98-%ED%81%AC%EA%B8%B0%EA%B0%80-%EC%9E%98-%EB%A7%9E%EC%A7%80-%EC%95%8A%EC%9D%84-%EB%95%8C/</guid>
       <description>아무리 width를 조정하고 padding, margin, border까지 똑같이 줘도 제대로 사이즈가 맞지 않을 때는,
-box-sizing:border-box; 를 넣어줘 본다.  &amp;lt;div style=&amp;ldquo;box-sizing:border-box;width:100px;border:1px solid gray;height:20px;float:left;display:block;&amp;rdquo;&amp;gt;test&amp;lt;/div&amp;gt; &amp;lt;input type=&amp;ldquo;text&amp;rdquo; style=&amp;ldquo;box-sizing:border-box;width:100px;height:20px;float:left;display:block;&amp;rdquo; value=&amp;ldquo;test&amp;rdquo;/&amp;gt; &amp;lt;textarea style=&amp;ldquo;box-sizing:border-box;width:100px;height:20px;float:left;display:block;&amp;rdquo;&amp;gt;test&amp;lt;/textarea&amp;gt;   test
-test 
+box-sizing:border-box; 를 넣어줘 본다. &amp;lt;div style=&amp;quot;box-sizing:border-box;width:100px;border:1px solid gray;height:20px;float:left;display:block;&amp;quot;&amp;gt;test&amp;lt;/div&amp;gt; &amp;lt;input type=&amp;quot;text&amp;rdquo; style=&amp;quot;box-sizing:border-box;width:100px;height:20px;float:left;display:block;&amp;rdquo; value=&amp;quot;test&amp;rdquo;/&amp;gt; &amp;lt;textarea style=&amp;quot;box-sizing:border-box;width:100px;height:20px;float:left;display:block;&amp;quot;&amp;gt;test&amp;lt;/textarea&amp;gt; test
 자세한 것은 다음 링크참조
-chrome같은 경우엔 기본적으로 input[type=&amp;ldquo;text&amp;rdquo;],input[type=&amp;ldquo;button&amp;rdquo;]같은 것들이 box-sizing:border-box로 되어 있는 듯 하다.
+chrome같은 경우엔 기본적으로 input[type=&amp;quot;text&amp;rdquo;],input[type=&amp;quot;button&amp;rdquo;]같은 것들이 box-sizing:border-box로 되어 있는 듯 하다.
 css3 속성이므로 ie에서는 제대로 안 된다.</description>
     </item>
     
@@ -54,7 +57,10 @@ css3 속성이므로 ie에서는 제대로 안 된다.</description>
       <pubDate>Mon, 20 Sep 2010 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2010/09/%ED%85%8D%EC%8A%A4%ED%8A%B8%EB%A1%9C-%EB%90%98%EC%96%B4-%EC%9E%88%EB%8A%94-%EC%83%89%EC%83%81-%EB%AA%A9%EB%A1%9D%EC%9D%84-%EC%B9%98%ED%99%98%ED%95%98%EA%B8%B0/</guid>
-      <description>다음과 같은 텍스트가 있다. #2f4f4f darkslategray 어두운푸른빛회색 #708090 slategray 푸른빛회색 #778899 lightslategray 밝은푸른빛회색 #696969 dimgray 칙칙한회색 #808080 gray 회색 #a9a9a9 darkgray 어두운회색 #c0c0c0 silver 은색 #d3d3d3 lightgrey 밝은회색 #dcdcdc gainsboro #ffffff white 백색 #fff5ee seashell 바다조가비 #fffafa snow 설백 #f8f8ff ghostwhite 허깨비백색 #fffaf0 floralwhite 꽃의백색 #f5f5f5 whitesmoke 백색연기 #f0f8ff aliceblue 엷은잿빛바탕에푸른빛 #f0ffff azure 하늘색 #fdf5e6 oldlace 낡은끈 #f5fffa mintcream 박하크림 #ffefd5 papayawhip 열대아메리카산과수매질 #ffdab9 peachpuff 복숭아빛불기 #faf0e6 linen 리넨 #eee8aa palegoldenrod 옅은국화과의다년초 #ffe4e1 mistyrose 짙은장미빛 #ffe4b5 moccasin 사슴가죽의구두 #ffdead navajowhite 나바호족백색 #d2b48c tan 볕에탄빛깔 #f5deb3 wheat 밀 #fafad2 lightgoldenrodyellow 밝은국화과다년초노랑 #ffffe0 lightyellow 밝은노랑 #fff8dc cornsilk 옥수수명주실 #faebd7 antiquewhite 옛날의백색 #f5f5dc beige 엷은갈색 #fffacd lemonchiffon 레몬빛가볍고얇은직물 #fffff0 ivory 상앗빛 #f0e68c khaki 누른빛에엷은다색이섞인빛깔 #e6e6fa lavender 연한자주색 #fff0f5 lavenderblush 연한자주빛붉기 #ffe4c4 bisque 분홍빛이도는검은빛을띤누른빛 #ffebcd blanchedalmond 희어진엷은황갈색 #deb887 burlywood 튼튼한목재 #cd853f peru 남미서부의공화국 #00ced1 darkturquoise 어두운푸른빛녹색 #00bfff deepskyblue 짙은하늘파랑 #7fffd4 aquamarine 엷은푸른빛녹색 #1e90ff dodgerblue옥수수빵파랑 #00ffff cyan 푸른정도 #f0fff0 honeydew 식물의잎에서나는단물 #87cefa lightskyblue 밝은하늘파랑 #afeeee paleturquoise 옅은푸른빛녹색 #e0ffff lightcyan 밝은푸른정도 #add8e6 lightblue 밝은파랑 #b0c4de lightsteelblue 밝은철강빛파랑 #40e0d0 turquoise 푸른빛녹색 #48d1cc mediumturquoise 중간의푸른빛녹색 #00ffff aqua 엷은푸른빛녹색 #7b68ee mediumslateblue 중푸른빛회색파랑 #191970 midnightblue 깜깜한파랑 #6495ed cornflowerblue 옥수수꽃파랑 #0000cd mediumblue 중간의파랑 #6a5acd slateblue 푸른빛회색파랑 #4682b4 steelblue 철강빛파랑 #0000ff blue 파랑 #483d8b darkslateblue 어두운푸른빛회색파랑 #5f9ea0 cadetblue 이하의파랑 #87ceeb skyblue 하늘파랑 #4169e1 royalblue 황실의파랑 #b0e0e6 powderblue 가루파랑 #000080 navy 짙은검은빛을띤남빛 #00008b darkblue 어두운파랑 #8a2be2 blueviolet 파란제비꽃색 #8b008b darkmagenta 어두운짙은분홍색 #9932cc darkorchid 어두운연보라색 #9400d3 darkviolet 어두운제비꽃색 #ff00ff magenta 짙은분홍색 #ff00ff fuchsia 붉은빛깔이나는자줏빛 #c71585 mediumvioletred 중제비꽃빨강 #ba55d3 mediumorchid 중간의연보라색 #9370db mediumpurple 중간의자줏빛 #dc143c crimson 짙게붉은색깔 #ff1493 deeppink 짙은연분홍색 #ffb6c1 lightpink 밝은연분홍색 #ff69b4 hotpink 강렬한연분홍색 #ffc0cb pink 연분홍색 #dda0dd plum 짙은 보라색 #800080 purple 자줏빛 #ee82ee violet 제비꽃색 #d8bfd8 thistle 엉겅퀴 #da70d6 orchid 연보라색 #4b0082 indigo 남색 #a52a2a brown 갈색 #e9967a darksalmon 어두운주황색 #f08080 lightcoral 밝은산호빛 #cd5c5c indianred 인디언빨강 #ffa07a lightsalmon 밝은주황색 #db7093 palevioletred 옅은제비꽃빨강 #f4a460 sandybrown 엷은갈색 #fa8072 salmon 주황색 #ff6347 tomato 토마토색 #ff0000 red 빨강 #800000 maroon 붉은빛을띤갈색 #8b0000 darkred 어두운빨강 #b22222 firebrick 내화 #d2691e chocolate 갈색 #8b4513 saddlebrown 안장갈색 #a0522d sienna 붉은빛을띤갈색 #bc8f8f rosybrown 장미빛갈색 #ff7f50 coral 산호빛 #ff8c00 darkorange 어두운붉은빛을띤누른색 #ffa500 orange 붉은빛을띤누른색 #b8860b darkgoldenrod 어둔운국화과의다년초 #ffd700 gold 금빛 #ffff00 yellow 노랑 #7fff00 chartreuse 연두색 #7cfc00 lawngreen 잔디녹색 #00ff00 lime 열대산의레몬비슷한과일 #32cd32 limegreen 라임녹색 #00ff7f springgreen 봄녹색 #3cb371 mediumseagreen 중간의바다녹색 #adff2f greenyellow 녹색의노랑 #8fbc8f darkseagreen 어두운바다녹색 #90ee90 lightgreen 밝은녹색 #98fb98 palegreen 옅은녹색 #2e8b57 seagreen 바다녹색 #00fa9a mediumspringgreen 중봄녹색 #20b2aa lightseagreen 밝은바다녹색 #66cdaa mediumaquamarine 중엷은청록색 #228b22 forestgreen 숲녹색 #008b8b darkcyan 어두운푸른정도 #008080 teal 암록색을띤청색 #006400 darkgreen 어두운녹색 #556b2f darkolivegreen 어두운올리브녹색 #008000 green 녹색 #808000 olive 물푸레나뭇과의상록교목 #6b8e23 olivedrab 올리브엷은갈색 #bdb76b darkkhaki 어두운누른빛에엷은다색 #daa520 goldenrod 국화과의다년초</description>
+      <description>다음과 같은 텍스트가 있다.
+기왕 색깔에 대한 설명인 바, 각 색이 바로 보이면 되겠다 싶었다. 하지만 그냥 검색, 치환으로는 불가능. 그런 상황에서 나오는 것이 정규표현식.
+vim을 사용했다.
+%s/^(#.{6})s(.*)/&amp;lt;p style=&amp;quot;background-color:1&amp;rdquo;&amp;gt;1 2&amp;lt;/p&amp;gt;/g이렇게 하면 깔끔. vim 에서는 ( , ) , , {, } 를 이스케이프 해 줘야 메타문자로 동작한다. 수정해 놓고 빼먹고 있었군&amp;hellip;오오 위대해.</description>
     </item>
     
     <item>
@@ -63,7 +69,7 @@ css3 속성이므로 ie에서는 제대로 안 된다.</description>
       <pubDate>Thu, 19 Aug 2010 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2010/08/css-img-%EC%97%AC%EB%B0%B1/</guid>
-      <description>img는 inline 글자랑 같다. &amp;lt;img src=&amp;ldquo;xx&amp;rdquo; /&amp;gt; &amp;lt;img src=&amp;ldquo;xx&amp;rdquo; /&amp;gt; &amp;lt;img src=&amp;ldquo;xx&amp;rdquo; /&amp;gt; 이렇게 하면 여백이 생긴다. html이므로, 빈줄은 빈칸으로 취급. &amp;lt;img src=&amp;ldquo;xx&amp;rdquo; /&amp;gt;&amp;lt;img src=&amp;ldquo;xx&amp;rdquo; /&amp;gt;&amp;lt;img src=&amp;ldquo;xx&amp;rdquo; /&amp;gt; 이렇게 하면 안 생긴다.</description>
+      <description>img는 inline 글자랑 같다. &amp;lt;img src=&amp;quot;xx&amp;rdquo; /&amp;gt; &amp;lt;img src=&amp;quot;xx&amp;rdquo; /&amp;gt; &amp;lt;img src=&amp;quot;xx&amp;rdquo; /&amp;gt; 이렇게 하면 여백이 생긴다. html이므로, 빈줄은 빈칸으로 취급. &amp;lt;img src=&amp;quot;xx&amp;rdquo; /&amp;gt;&amp;lt;img src=&amp;quot;xx&amp;rdquo; /&amp;gt;&amp;lt;img src=&amp;quot;xx&amp;rdquo; /&amp;gt; 이렇게 하면 안 생긴다.</description>
     </item>
     
     <item>
@@ -77,7 +83,7 @@ IE, opera - outline을 나중에 그린다.(다음 엘리먼트에 가려지지 
 FF - 내용이 없는 경우, outline을 나중에 그리고, 내용이 있는 경우, outline을 먼저 그린다. img가 block 이 아니므로 width, height안 먹는다.
 &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;title&amp;gt;&amp;lt;/title&amp;gt; &amp;lt;style&amp;gt; img{ outline:15px solid green; margin:0px; border:20px solid gray; width:150px; height:150px;
 }
-.a1 { border:5px solid red; } .</description>
+.a1 { border:5px solid red; } .a2 { outline:15px solid yellow; margin:5px; } &amp;lt;/style&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;img src=&amp;quot;aa&amp;rdquo;/&amp;gt;&amp;lt;img src=&amp;quot;aa&amp;rdquo;/&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt;</description>
     </item>
     
     <item>
@@ -92,8 +98,10 @@ FF - 내용이 없는 경우, outline을 나중에 그리고, 내용이 있는 �
 #second{ width:140px; background:green; }
 #last{ width:140px;
 position:relative; left:-140px; top:20px;
-background:yellow; } &amp;lt;/style&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; 길다란 가변형 문자열  고정폭/고정높이  고정폭  &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt; 문제점 - 부모 element가 보이는 것보다 좀 더-div#last의 폭이 추가된만큼- 커야 한다.
-방안 2 -div를 4개 쓰는 경우, 즉 부모 엘리먼트를 하나 두는 경우 &amp;lt;!</description>
+background:yellow; } &amp;lt;/style&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt;
+방안 2 -div를 4개 쓰는 경우, 즉 부모 엘리먼트를 하나 두는 경우 &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;style&amp;gt; div{ margin:0px; background:gray; }
+#first {height:40px;}
+#second , #last{ height:20px; width:140px; background:green; position:absolute; right:0px; }</description>
     </item>
     
     <item>
@@ -131,7 +139,7 @@ background:yellow; } &amp;lt;/style&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&a
       <pubDate>Thu, 05 Feb 2009 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2009/02/%EC%9D%B4%EA%B2%83%EC%9D%B4-%EA%B3%B5%EB%B6%80%EB%8B%A4/</guid>
-      <description>Sexy CSS tips 주의집중을 매우 효율적으로 이끌어내는 물건 내용에도 충실하다.</description>
+      <description>Sexy CSS tips주의집중을 매우 효율적으로 이끌어내는 물건 내용에도 충실하다.</description>
     </item>
     
     <item>
@@ -140,7 +148,7 @@ background:yellow; } &amp;lt;/style&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&a
       <pubDate>Fri, 07 Mar 2008 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2008/03/%EC%84%B8%EC%83%81%EC%97%94-%EC%A2%8B%EC%9D%80-%EC%82%AC%EB%9E%8C%EB%93%A4%EC%9D%B4-%EC%B0%B8-%EB%A7%8E%EB%8B%A4./</guid>
-      <description>무료 웹사이트 템플릿 사이트를 모아놓은 곳 나 같은 디자인盲 에게는 그저 감사할 따름</description>
+      <description>무료 웹사이트 템플릿 사이트를 모아놓은 곳나 같은 디자인盲 에게는 그저 감사할 따름</description>
     </item>
     
   </channel>

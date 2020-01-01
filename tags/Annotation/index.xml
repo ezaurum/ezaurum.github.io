@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Annotation on Ezaurum&#39;s Blog</title>
@@ -30,11 +30,9 @@
       <description>package testCases;
 import static org.junit.Assert.assertEquals;
 import org.junit.Test; import org.junit.Before; import org.junit.After;
-public class myTest {
-@Test public void testCodes() throws Exception { System.out.println(&amp;ldquo;3&amp;rdquo;); }
-@Before public void testMakeClass1() { System.out.println(&amp;quot;2&amp;quot;); } @Before public void testMakeClass() { System.out.println(&amp;quot;1&amp;quot;); }  @After public void afterClass() { System.out.println(&amp;ldquo;4&amp;rdquo;);
-} @After public void afterClass1() { System.out.println(&amp;quot;5&amp;quot;); }  } 
-실행 결과는 적힌 대로 12345가 된다.</description>
+public class myTest {	@Test public void testCodes() throws Exception { System.out.println(&amp;ldquo;3&amp;rdquo;); }
+@Beforepublic void testMakeClass1(){System.out.println(&amp;quot;2&amp;quot;);	}	@Beforepublic void testMakeClass(){System.out.println(&amp;quot;1&amp;quot;);	} @After public void afterClass() { System.out.println(&amp;ldquo;4&amp;rdquo;);
+}@Afterpublic void afterClass1(){System.out.println(&amp;quot;5&amp;quot;);}	 } 실행 결과는 적힌 대로 12345가 된다.</description>
     </item>
     
   </channel>

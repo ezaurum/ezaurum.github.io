@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>회고 on Ezaurum&#39;s Blog</title>
@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Mon, 01 Jul 2019 15:53:07 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 31 Dec 2019 15:53:07 +0900</lastBuildDate>
     
 	<atom:link href="https://ezaurum.com/series/%ED%9A%8C%EA%B3%A0/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2019년 전체 회고</title>
+      <link>https://ezaurum.com/retrospective/2019-full-year/</link>
+      <pubDate>Tue, 31 Dec 2019 15:53:07 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/retrospective/2019-full-year/</guid>
+      <description>돈을 열심히 벌었다. 정말 열심히 벌어서 꽤 많이 쓰고도 남았다. 드디어 가용자산이 생겼다. 돈을 많이 썼다. 역시 최고. 스터디 3개 완료. 머신러닝 한 번 해 보고, 10년간 묵혀뒀던 책을 가지고 알고리즘 스터디를 시작해서 두 번 완료했다. 아직 좀 더 해봐야겠다는 생각이 들었다. React 는 생각보다 괜찮았다. 특히 JSX는 보기보다 쉽고 쓸만했다. 하지만 처음 러닝커브가 생각보다 있고, typescript는 아주 맘에 안 들었다. 도리어 일만 늘어나는 느낌. Vue는 역시 편하다. 2년이 되어가는데 익숙해진 느낌.</description>
+    </item>
     
     <item>
       <title>2019년 2사분기 회고</title>
@@ -27,14 +36,13 @@
       <pubDate>Sun, 12 May 2019 21:37:28 +0900</pubDate>
       
       <guid>https://ezaurum.com/retrospective/2019-1st-quater/</guid>
-      <description>한 일  1월에서 2월까지는 큰 회사에서 내부 레거시 시스템을 정리하는 팀 외주가 들어와서 팀 구성을 위해 돌아다님
- 별로 성과 없었음   2월부터 출퇴근을 하기 시작함
- 외부 API 연동 R&amp;amp;D 이것저것 - micronaut, CI/CD   뽑기를 만들면서 순열을 이해했다.
- CodeJam 도전
- 리디셀렉트를 쓰면서 좀 책을 더 보게 되었다
- 출퇴근을 하니까 규칙적인 생활을 했다
- 드디어 도커로 배포를 시작했다.
-  감상  소설을 다시 써 보기로 했다.</description>
+      <description>한 일   1월에서 2월까지는 큰 회사에서 내부 레거시 시스템을 정리하는 팀 외주가 들어와서 팀 구성을 위해 돌아다님
+ 별로 성과 없었음    2월부터 출퇴근을 하기 시작함
+ 외부 API 연동 R&amp;amp;D 이것저것 - micronaut, CI/CD    뽑기를 만들면서 순열을 이해했다.
+  CodeJam 도전
+  리디셀렉트를 쓰면서 좀 책을 더 보게 되었다
+  출퇴근을 하니까 규칙적인 생활을 했다
+  드디어 도커로 배포를 시작했다.</description>
     </item>
     
     <item>
@@ -43,7 +51,7 @@
       <pubDate>Thu, 10 Jan 2019 21:37:28 +0900</pubDate>
       
       <guid>https://ezaurum.com/retrospective/2018-fullyear/</guid>
-      <description>한 일  5kg 감량, 10개월 후 두 달 만에 다시 원복 간이 ERP 개발(백/프론트) CMS 개발(SPA) 강의 및 기타 컨설턴트 서비스 유지보수 및 기능 6개 개발, 개중 3개는 날짜 못 맞춤 PHP 레거시 서비스 마이그레이션 통상 웹페이지를 SPA구조로 변경 강의 영상 하나 완성(하나는 찍기만 함) 대충 4천커밋(매일 커밋은 실패) 요가 시작, 첫 달은 1&amp;frasl;2 정도 출석, 둘째 달은 1/3정도, 마지막 달은 거의 안 감. 만화/소설/전산기술서적 제외하고 읽은 책은 1권 django 배포, docker사용  감상  생각보다 많이 일했다.</description>
+      <description>한 일  5kg 감량, 10개월 후 두 달 만에 다시 원복 간이 ERP 개발(백/프론트) CMS 개발(SPA) 강의 및 기타 컨설턴트 서비스 유지보수 및 기능 6개 개발, 개중 3개는 날짜 못 맞춤 PHP 레거시 서비스 마이그레이션 통상 웹페이지를 SPA구조로 변경 강의 영상 하나 완성(하나는 찍기만 함) 대충 4천커밋(매일 커밋은 실패) 요가 시작, 첫 달은 1/2 정도 출석, 둘째 달은 1/3정도, 마지막 달은 거의 안 감. 만화/소설/전산기술서적 제외하고 읽은 책은 1권 django 배포, docker사용  감상  생각보다 많이 일했다.</description>
     </item>
     
     <item>
