@@ -22,60 +22,6 @@
     </item>
     
     <item>
-      <title>Install Arch Linux</title>
-      <link>https://ezaurum.com/2019/11/Install-Arch-Linux/</link>
-      <pubDate>Sun, 10 Nov 2019 16:17:30 +0900</pubDate>
-      
-      <guid>https://ezaurum.com/2019/11/Install-Arch-Linux/</guid>
-      <description>아치 리눅스는
-설치 전 준비물  USB, CD 등 부팅할 물건 ISO 이미지 인터넷, 가능하면 유선환경을 추천(WIFI가 안 되는 경우가 있음) 설치 중 문제해결을 위한 추가PC or 스마트폰 아치 리눅스 설치 한국어 가이드  설치 1. 이미지 usb에 굽기 일단 lsblk 로 usb의 경로를 알아낸다.
-NAME MAJ:MIN RM SIZE RO TYPE MOUNTPOINT sda 8:0 1 14.9G 0 disk ├─sda1 8:1 1 609M 0 part /run/media/ezaurum/ARCH_201905 └─sda2 8:2 1 64M 0 part nvme0n1 259:0 0 953.</description>
-    </item>
-    
-    <item>
-      <title>Install Arch Linux - 개발 관련 설정</title>
-      <link>https://ezaurum.com/2019/11/Install-Arch-Linux-%EA%B0%9C%EB%B0%9C-%EA%B4%80%EB%A0%A8-%EC%84%A4%EC%A0%95/</link>
-      <pubDate>Sun, 10 Nov 2019 16:17:30 +0900</pubDate>
-      
-      <guid>https://ezaurum.com/2019/11/Install-Arch-Linux-%EA%B0%9C%EB%B0%9C-%EA%B4%80%EB%A0%A8-%EC%84%A4%EC%A0%95/</guid>
-      <description>ssh 키 생성
-pacman -S git go docker
-기타 등등</description>
-    </item>
-    
-    <item>
-      <title>Install Arch Linux - 개발 관련 설정</title>
-      <link>https://ezaurum.com/2019/11/Install-Arch-Linux-%EA%B0%9C%EB%B0%9C-%EA%B4%80%EB%A0%A8-%EC%84%A4%EC%A0%95/</link>
-      <pubDate>Sun, 10 Nov 2019 16:17:30 +0900</pubDate>
-      
-      <guid>https://ezaurum.com/2019/11/Install-Arch-Linux-%EA%B0%9C%EB%B0%9C-%EA%B4%80%EB%A0%A8-%EC%84%A4%EC%A0%95/</guid>
-      <description>일단 윈도와 함께 쓸 파티션 하나 설정
-FAT32로 설정?</description>
-    </item>
-    
-    <item>
-      <title>Install Arch Linux - 데스크탑 환경설정</title>
-      <link>https://ezaurum.com/2019/11/Install-Arch-Linux-%EB%8D%B0%EC%8A%A4%ED%81%AC%ED%83%91-%ED%99%98%EA%B2%BD%EC%84%A4%EC%A0%95/</link>
-      <pubDate>Sun, 10 Nov 2019 16:17:30 +0900</pubDate>
-      
-      <guid>https://ezaurum.com/2019/11/Install-Arch-Linux-%EB%8D%B0%EC%8A%A4%ED%81%AC%ED%83%91-%ED%99%98%EA%B2%BD%EC%84%A4%EC%A0%95/</guid>
-      <description>Gnome 은 알아서
-i3 는 xorg로 실행 xinit 을 실행해서 처리
-사운드 설치
-yay 설치 nimf 설치
-xorg 설치
-xorg mesa xf86-driver xort-xinit
-xinit 이 설치 안 되면 startx가 안 먹는다. 실제로는 Xorg를 실행하는 건데, xinit이 스크립트 짜서 실행해 줌 .xinitrc 를 홈에 넣어둠
-rofi? 필요할ㄹ까?
-i3status 를 설치
-battery 가 종류가 달라서 스크립트를 짬
-.config/i3/i3.conf 에서 i3status 실행 스크립트 i3status -c 경로 지정
-클립보드 매니저
-폰트
-키매핑 https://vim.fandom.com/wiki/Map_caps_lock_to_escape_in_XWindows https://superuser.com/questions/760602/how-to-remap-keys-under-linux-for-a-specific-keyboard-only#869064</description>
-    </item>
-    
-    <item>
       <title>저스티스 리그에서 좋았던 부분</title>
       <link>https://ezaurum.com/2019/09/%EC%A0%80%EC%8A%A4%ED%8B%B0%EC%8A%A4-%EB%A6%AC%EA%B7%B8%EC%97%90%EC%84%9C-%EC%A2%8B%EC%95%98%EB%8D%98-%EB%B6%80%EB%B6%84/</link>
       <pubDate>Sat, 14 Sep 2019 18:03:45 +0900</pubDate>
