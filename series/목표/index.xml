@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>목표 on Ezaurum&#39;s Blog</title>
+    <link>https://ezaurum.com/series/%EB%AA%A9%ED%91%9C/</link>
+    <description>Recent content in 목표 on Ezaurum&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <copyright>© Ezaurum 2001-</copyright>
+    <lastBuildDate>Wed, 01 Jan 2020 21:30:07 +0900</lastBuildDate>
+    
+	<atom:link href="https://ezaurum.com/series/%EB%AA%A9%ED%91%9C/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>2020년 목표</title>
+      <link>https://ezaurum.com/2020/01/2020%EB%85%84-%EB%AA%A9%ED%91%9C/</link>
+      <pubDate>Wed, 01 Jan 2020 21:30:07 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/2020/01/2020%EB%85%84-%EB%AA%A9%ED%91%9C/</guid>
+      <description> 건강 - 10kg 감량 업무 - 게임 2개 오픈, 콩콩 배포 및 운영 자동화 공부 - 콘크리트 매쓰매틱스 다 보기  </description>
+    </item>
+    
+  </channel>
+</rss>
