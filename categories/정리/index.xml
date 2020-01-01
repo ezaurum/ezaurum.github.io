@@ -37,5 +37,14 @@ Host other.github.com HostName github.com PreferredAuthentications publickey Ide
 원인  여전히 남에게 기대했다. 남의 부족한 부분을 채워주면 그사람이 성공으로 가는 길을 열어줄 거라 생각했다.</description>
     </item>
     
+    <item>
+      <title>2015년 상반기 정리</title>
+      <link>https://ezaurum.com/retrospective/2015-1st-half/</link>
+      <pubDate>Fri, 17 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/retrospective/2015-1st-half/</guid>
+      <description> 포기하는 법을 배웠다. 마음을 비우고, 나 자신에게 기대를 덜 하고 주변에도 배를 째는 방식을 배웠다. 그게 나에게도 모두에게도 낫더라. 일정을 짤 때는 정말 생각보다 2-3배는 잡을 것. 항상 생각하던 거지만, 설천해 본 결과는 놀라웠다. 여행의 힘을 배웠다. 여행은 좋더라. 힐링이라는 말의 의미를 체험했다.  </description>
+    </item>
+    
   </channel>
 </rss>
