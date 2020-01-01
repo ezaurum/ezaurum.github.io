@@ -117,10 +117,10 @@ volumes:
 networks:
   esnet:
 </code></pre></div><p>그 다음 docker-compose 로 띄운다.</p>
-<pre><code>docker-compose up
-</code></pre><p>이제 제대로 떴는지 확인을 할 텐데, 기본 비번은 changeme, user id는 elastic 이고 http basic authentication으로 접속한다.</p>
-<pre><code>$ curl -u elastic:changeme http://127.0.0.1:9200/_cat/health
-</code></pre><p>결과
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">docker-compose up
+</code></pre></div><p>이제 제대로 떴는지 확인을 할 텐데, 기본 비번은 changeme, user id는 elastic 이고 http basic authentication으로 접속한다.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ curl -u elastic:changeme http://127.0.0.1:9200/_cat/health
+</code></pre></div><p>결과
 1500017692 07:34:52 docker-cluster green 2 2 10 5 0 0 0 0 - 100.0%</p>
 <p>green 이고 100%면 된다.
 이러면 일단 떴다.</p>
