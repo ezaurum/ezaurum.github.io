@@ -3622,8 +3622,7 @@ void insertionSort2(int * array, int size) { int j = 0; for (int i = 1; i 0 &amp
       <pubDate>Thu, 13 Jan 2011 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2011/01/Selection-Sort/</guid>
-      <description>void selectSort(int * array, int size) { int minPoint = 0;
-for( int j = 0; j &amp;amp;lt; size -1; j++){minPoint = j;for (int i = j; i &amp;amp;lt; size ; i++){if(array[i] &amp;amp;lt; array[minPoint]){minPoint = i;}}swap(array+j, array+minPoint);} }오랜만에 공부 좀 하니까 머리가 돌아가는 듯.</description>
+      <description>void selectSort(int * array, int size){int minPoint = 0;for( int j = 0; j &amp;amp;lt; size -1; j++){minPoint = j;for (int i = j; i &amp;amp;lt; size ; i++){if(array[i] &amp;amp;lt; array[minPoint]){minPoint = i;}}swap(array+j, array+minPoint);}}오랜만에 공부 좀 하니까 머리가 돌아가는 듯.</description>
     </item>
     
     <item>
@@ -3633,7 +3632,10 @@ for( int j = 0; j &amp;amp;lt; size -1; j++){minPoint = j;for (int i = j; i &
       
       <guid>https://ezaurum.com/2010/12/%EC%9D%B4-%EC%B1%85%EC%9D%84-%EA%B6%8C%ED%95%9C%EB%8B%A4/</guid>
       <description>회사에 리눅스 서버를 설치하겠다고 하는 친구 모 군에게 이 책을 권한다. 삽질 열심히 하시기를.
-실제 구현하는 것은 인터넷 쪽에 자료가 더 많을 듯.</description>
+  성공과 실패를 결정하는 1%의 네트워크 원리- 가지고 있어서 문제될 것 없는 책. 1%시리즈는 다 괜찮긴 하지. 서버 구축을 하려면 기본적인 네트워크 원리는 알고 있어야 하니까 꼭 읽어둘 것.
+  Unix가 보이는 그림책- 아주 친절한 유닉스/리눅스 입문서. 책장이 숙숙 넘어가서 좋다.
+  유닉스 리눅스 명령어 사전 - 이건 안 읽어봤다. 평이 좋더라고.
+  실제 구현하는 것은 인터넷 쪽에 자료가 더 많을 듯.</description>
     </item>
     
     <item>

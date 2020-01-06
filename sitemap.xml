@@ -33,17 +33,17 @@
   </url>
   
   <url>
+    <loc>https://ezaurum.com/categories/%EB%AA%A9%ED%91%9C/</loc>
+    <lastmod>2020-01-01T21:30:07+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ezaurum.com/tags/%EB%AA%A9%ED%91%9C/</loc>
     <lastmod>2020-01-01T21:30:07+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://ezaurum.com/series/%EB%AA%A9%ED%91%9C/</loc>
-    <lastmod>2020-01-01T21:30:07+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ezaurum.com/categories/%EB%AA%A9%ED%91%9C/</loc>
     <lastmod>2020-01-01T21:30:07+09:00</lastmod>
   </url>
   
@@ -58,6 +58,11 @@
   </url>
   
   <url>
+    <loc>https://ezaurum.com/tags/%ED%9A%8C%EA%B3%A0/</loc>
+    <lastmod>2019-12-31T15:53:07+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ezaurum.com/series/%ED%9A%8C%EA%B3%A0/</loc>
     <lastmod>2019-12-31T15:53:07+09:00</lastmod>
   </url>
@@ -68,8 +73,33 @@
   </url>
   
   <url>
-    <loc>https://ezaurum.com/tags/%ED%9A%8C%EA%B3%A0/</loc>
-    <lastmod>2019-12-31T15:53:07+09:00</lastmod>
+    <loc>https://ezaurum.com/tags/arch/</loc>
+    <lastmod>2019-11-10T16:17:30+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/recipe/install-arch-linux/</loc>
+    <lastmod>2019-11-10T16:17:30+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/tags/linux/</loc>
+    <lastmod>2019-11-10T16:17:30+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/recipe/</loc>
+    <lastmod>2019-11-10T16:17:30+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/categories/%EB%A0%88%EC%8B%9C%ED%94%BC/</loc>
+    <lastmod>2019-11-10T16:17:30+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/categories/%EC%A0%95%EB%A6%AC/</loc>
+    <lastmod>2019-11-10T16:17:30+09:00</lastmod>
   </url>
   
   <url>
@@ -369,11 +399,6 @@
   
   <url>
     <loc>https://ezaurum.com/2018/08/%EC%97%AC%EB%9F%AC-Github-%EA%B3%84%EC%A0%95-SSH%EB%A1%9C-%EC%A0%91%EA%B7%BC/</loc>
-    <lastmod>2018-08-15T23:15:09+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ezaurum.com/categories/%EC%A0%95%EB%A6%AC/</loc>
     <lastmod>2018-08-15T23:15:09+09:00</lastmod>
   </url>
   
@@ -698,12 +723,12 @@
   </url>
   
   <url>
-    <loc>https://ezaurum.com/categories/%EC%A7%80%EB%A6%84/</loc>
+    <loc>https://ezaurum.com/tags/%EC%A7%80%EB%A6%84/</loc>
     <lastmod>2017-12-27T15:58:04+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ezaurum.com/tags/%EC%A7%80%EB%A6%84/</loc>
+    <loc>https://ezaurum.com/categories/%EC%A7%80%EB%A6%84/</loc>
     <lastmod>2017-12-27T15:58:04+07:00</lastmod>
   </url>
   
@@ -2380,11 +2405,6 @@
   <url>
     <loc>https://ezaurum.com/2013/07/lombok-%EC%A0%81%EC%9A%A9/</loc>
     <lastmod>2013-07-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ezaurum.com/tags/linux/</loc>
-    <lastmod>2013-06-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -5168,7 +5188,7 @@
   </url>
   
   <url>
-    <loc>https://ezaurum.com/tags/%EC%9D%B4-%EC%B1%85%EC%9D%84-%EA%B6%8C%ED%95%9C%EB%8B%A4/</loc>
+    <loc>https://ezaurum.com/categories/%EC%9D%B4-%EC%B1%85%EC%9D%84-%EA%B6%8C%ED%95%9C%EB%8B%A4/</loc>
     <lastmod>2010-12-29T00:00:00+00:00</lastmod>
   </url>
   
@@ -5180,6 +5200,11 @@
   <url>
     <loc>https://ezaurum.com/tags/%EC%B6%94%EC%B2%9C/</loc>
     <lastmod>2010-12-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/tags/%EC%9D%B4-%EC%B1%85%EC%9D%84-%EA%B6%8C%ED%95%9C%EB%8B%A4/</loc>
+    <lastmod>2010-12-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>

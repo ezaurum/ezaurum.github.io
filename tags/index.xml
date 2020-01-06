@@ -31,6 +31,24 @@
     </item>
     
     <item>
+      <title>arch</title>
+      <link>https://ezaurum.com/tags/arch/</link>
+      <pubDate>Sun, 10 Nov 2019 16:17:30 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/tags/arch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>https://ezaurum.com/tags/linux/</link>
+      <pubDate>Sun, 10 Nov 2019 16:17:30 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>DC</title>
       <link>https://ezaurum.com/tags/DC/</link>
       <pubDate>Sat, 14 Sep 2019 18:03:45 +0900</pubDate>
@@ -2511,15 +2529,6 @@
       <pubDate>Fri, 19 Jul 2013 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/tags/%ED%99%80%EB%A1%9C%EC%BD%94%EC%8A%A4%ED%8A%B8/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>linux</title>
-      <link>https://ezaurum.com/tags/linux/</link>
-      <pubDate>Fri, 28 Jun 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://ezaurum.com/tags/linux/</guid>
       <description></description>
     </item>
     
@@ -5674,20 +5683,20 @@
     </item>
     
     <item>
-      <title>이 책을 권한다</title>
-      <link>https://ezaurum.com/tags/%EC%9D%B4-%EC%B1%85%EC%9D%84-%EA%B6%8C%ED%95%9C%EB%8B%A4/</link>
-      <pubDate>Wed, 29 Dec 2010 00:00:00 +0000</pubDate>
-      
-      <guid>https://ezaurum.com/tags/%EC%9D%B4-%EC%B1%85%EC%9D%84-%EA%B6%8C%ED%95%9C%EB%8B%A4/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>추천</title>
       <link>https://ezaurum.com/tags/%EC%B6%94%EC%B2%9C/</link>
       <pubDate>Wed, 29 Dec 2010 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/tags/%EC%B6%94%EC%B2%9C/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>이 책을 권한다</title>
+      <link>https://ezaurum.com/tags/%EC%9D%B4-%EC%B1%85%EC%9D%84-%EA%B6%8C%ED%95%9C%EB%8B%A4/</link>
+      <pubDate>Mon, 27 Dec 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/tags/%EC%9D%B4-%EC%B1%85%EC%9D%84-%EA%B6%8C%ED%95%9C%EB%8B%A4/</guid>
       <description></description>
     </item>
     
