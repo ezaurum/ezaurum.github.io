@@ -26,7 +26,7 @@
 NAME MAJ:MIN RM SIZE RO TYPE MOUNTPOINT sda 8:0 1 14.9G 0 disk ├─sda1 8:1 1 609M 0 part /run/media/ezaurum/ARCH_201905 └─sda2 8:2 1 64M 0 part nvme0n1 259:0 0 953.">
 <meta itemprop="datePublished" content="2019-11-10T16:17:30&#43;09:00" />
 <meta itemprop="dateModified" content="2019-11-10T16:17:30&#43;09:00" />
-<meta itemprop="wordCount" content="585">
+<meta itemprop="wordCount" content="603">
 
 
 
@@ -209,6 +209,10 @@ umount /mnt
 </code></pre><p>해당 명령으로 하나씩 마운트를 해제한다. 파티션을 추가로 나눈 게 있다면 더 해 줘야 하고, 루트는 제일 나중에 하면 된다.
 바로 리붓해도 되지만, 혹시나 작업이 덜 끝나서 락이 걸린게 있다면 그걸 확인하기 위한 과정.
 <code>reboot</code> 으로 재시작.</p>
+<h2 id="7---wifi---">7. 리부트 이후 WIFI가 안 될 때</h2>
+<pre><code>systemctl enable dhcpcd
+systemctl enable NetworkManager
+</code></pre><p>이후 리부트. 또는 start로 실행</p>
 </section>
 
 
