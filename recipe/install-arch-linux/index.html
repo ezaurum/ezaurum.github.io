@@ -26,7 +26,7 @@
 NAME MAJ:MIN RM SIZE RO TYPE MOUNTPOINT sda 8:0 1 14.9G 0 disk ├─sda1 8:1 1 609M 0 part /run/media/ezaurum/ARCH_201905 └─sda2 8:2 1 64M 0 part nvme0n1 259:0 0 953.">
 <meta itemprop="datePublished" content="2019-11-10T16:17:30&#43;09:00" />
 <meta itemprop="dateModified" content="2019-11-10T16:17:30&#43;09:00" />
-<meta itemprop="wordCount" content="619">
+<meta itemprop="wordCount" content="634">
 
 
 
@@ -167,7 +167,8 @@ mount /dev/nvme0n1p1 /mnt/boot
 <h2 id="5-">5.기본 설정</h2>
 <ol>
 <li>로케일 설정
-/etc/locale.conf 에서 en_US.UTF-8과 ko_KR.UTF-8 을 찾아서 주석을 제거한다.</li>
+/etc/locale.conf 에서 en_US.UTF-8 을 찾아서 주석을 제거한다.
+한국어 ko_KR.UTF-8을 지금 해제하면 에러메세지가 한글로 나오는데 폰트가 없어서 알아볼 수 없는 사태가 생긴다. 나중에 처리할것.</li>
 </ol>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">ln -sf /usr/share/zoneinfo/Asis/Seoul /etc/localtime
 hwclock --systohc
