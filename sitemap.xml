@@ -3,17 +3,62 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://ezaurum.com/2020/01/2020%EB%85%84-%EB%AA%A9%ED%91%9C/</loc>
-    <lastmod>2020-01-01T21:30:07+09:00</lastmod>
+    <loc>https://ezaurum.com/tags/arch/</loc>
+    <lastmod>2020-01-10T16:17:30+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://ezaurum.com/categories/</loc>
-    <lastmod>2020-01-01T21:30:07+09:00</lastmod>
+    <lastmod>2020-01-10T16:17:30+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://ezaurum.com/</loc>
+    <lastmod>2020-01-10T16:17:30+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/tags/i3wm/</loc>
+    <lastmod>2020-01-10T16:17:30+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/recipe/install-arch-linux-desktop/</loc>
+    <lastmod>2020-01-10T16:17:30+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/tags/linux/</loc>
+    <lastmod>2020-01-10T16:17:30+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/tags/linux-desktop/</loc>
+    <lastmod>2020-01-10T16:17:30+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/recipe/</loc>
+    <lastmod>2020-01-10T16:17:30+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/tags/</loc>
+    <lastmod>2020-01-10T16:17:30+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/categories/%EB%A0%88%EC%8B%9C%ED%94%BC/</loc>
+    <lastmod>2020-01-10T16:17:30+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/categories/%EC%A0%95%EB%A6%AC/</loc>
+    <lastmod>2020-01-10T16:17:30+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/2020/01/2020%EB%85%84-%EB%AA%A9%ED%91%9C/</loc>
     <lastmod>2020-01-01T21:30:07+09:00</lastmod>
   </url>
   
@@ -28,17 +73,12 @@
   </url>
   
   <url>
-    <loc>https://ezaurum.com/tags/</loc>
+    <loc>https://ezaurum.com/categories/%EB%AA%A9%ED%91%9C/</loc>
     <lastmod>2020-01-01T21:30:07+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://ezaurum.com/tags/%EB%AA%A9%ED%91%9C/</loc>
-    <lastmod>2020-01-01T21:30:07+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ezaurum.com/categories/%EB%AA%A9%ED%91%9C/</loc>
     <lastmod>2020-01-01T21:30:07+09:00</lastmod>
   </url>
   
@@ -58,12 +98,12 @@
   </url>
   
   <url>
-    <loc>https://ezaurum.com/series/%ED%9A%8C%EA%B3%A0/</loc>
+    <loc>https://ezaurum.com/tags/%ED%9A%8C%EA%B3%A0/</loc>
     <lastmod>2019-12-31T15:53:07+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ezaurum.com/tags/%ED%9A%8C%EA%B3%A0/</loc>
+    <loc>https://ezaurum.com/series/%ED%9A%8C%EA%B3%A0/</loc>
     <lastmod>2019-12-31T15:53:07+09:00</lastmod>
   </url>
   
@@ -73,32 +113,7 @@
   </url>
   
   <url>
-    <loc>https://ezaurum.com/tags/arch/</loc>
-    <lastmod>2019-11-10T16:17:30+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://ezaurum.com/recipe/install-arch-linux/</loc>
-    <lastmod>2019-11-10T16:17:30+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ezaurum.com/tags/linux/</loc>
-    <lastmod>2019-11-10T16:17:30+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ezaurum.com/recipe/</loc>
-    <lastmod>2019-11-10T16:17:30+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ezaurum.com/categories/%EB%A0%88%EC%8B%9C%ED%94%BC/</loc>
-    <lastmod>2019-11-10T16:17:30+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ezaurum.com/categories/%EC%A0%95%EB%A6%AC/</loc>
     <lastmod>2019-11-10T16:17:30+09:00</lastmod>
   </url>
   
@@ -503,12 +518,12 @@
   </url>
   
   <url>
-    <loc>https://ezaurum.com/categories/%EC%83%9D%ED%99%9C%EA%B8%B0/</loc>
+    <loc>https://ezaurum.com/tags/%EC%83%9D%ED%99%9C%EA%B8%B0/</loc>
     <lastmod>2018-02-08T15:01:52+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ezaurum.com/tags/%EC%83%9D%ED%99%9C%EA%B8%B0/</loc>
+    <loc>https://ezaurum.com/categories/%EC%83%9D%ED%99%9C%EA%B8%B0/</loc>
     <lastmod>2018-02-08T15:01:52+07:00</lastmod>
   </url>
   
@@ -723,12 +738,12 @@
   </url>
   
   <url>
-    <loc>https://ezaurum.com/categories/%EC%A7%80%EB%A6%84/</loc>
+    <loc>https://ezaurum.com/tags/%EC%A7%80%EB%A6%84/</loc>
     <lastmod>2017-12-27T15:58:04+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ezaurum.com/tags/%EC%A7%80%EB%A6%84/</loc>
+    <loc>https://ezaurum.com/categories/%EC%A7%80%EB%A6%84/</loc>
     <lastmod>2017-12-27T15:58:04+07:00</lastmod>
   </url>
   
@@ -9000,6 +9015,11 @@
   <url>
     <loc>https://ezaurum.com/2007/02/%EA%B2%B0%EA%B5%AD-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%8B%A4%EC%8B%9C-%EB%A7%8C%EB%93%A4%EB%8B%A4./</loc>
     <lastmod>2007-02-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/recipe/linux-arch-bluetooth/</loc>
+    <priority>0</priority>
   </url>
   
 </urlset>

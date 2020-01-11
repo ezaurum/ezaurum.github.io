@@ -7,52 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Sun, 10 Nov 2019 16:17:30 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 10 Jan 2020 16:17:30 +0900</lastBuildDate>
     
 	<atom:link href="https://ezaurum.com/tags/i3wm/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Install Arch Linux - 개발 관련 설정</title>
-      <link>https://ezaurum.com/2019/11/Install-Arch-Linux-%EA%B0%9C%EB%B0%9C-%EA%B4%80%EB%A0%A8-%EC%84%A4%EC%A0%95/</link>
-      <pubDate>Sun, 10 Nov 2019 16:17:30 +0900</pubDate>
-      
-      <guid>https://ezaurum.com/2019/11/Install-Arch-Linux-%EA%B0%9C%EB%B0%9C-%EA%B4%80%EB%A0%A8-%EC%84%A4%EC%A0%95/</guid>
-      <description>ssh 키 생성
-pacman -S git go docker
-기타 등등</description>
-    </item>
-    
-    <item>
-      <title>Install Arch Linux - 개발 관련 설정</title>
-      <link>https://ezaurum.com/2019/11/Install-Arch-Linux-%EA%B0%9C%EB%B0%9C-%EA%B4%80%EB%A0%A8-%EC%84%A4%EC%A0%95/</link>
-      <pubDate>Sun, 10 Nov 2019 16:17:30 +0900</pubDate>
-      
-      <guid>https://ezaurum.com/2019/11/Install-Arch-Linux-%EA%B0%9C%EB%B0%9C-%EA%B4%80%EB%A0%A8-%EC%84%A4%EC%A0%95/</guid>
-      <description>일단 윈도와 함께 쓸 파티션 하나 설정
-FAT32로 설정?</description>
-    </item>
-    
-    <item>
       <title>Install Arch Linux - 데스크탑 환경설정</title>
-      <link>https://ezaurum.com/2019/11/Install-Arch-Linux-%EB%8D%B0%EC%8A%A4%ED%81%AC%ED%83%91-%ED%99%98%EA%B2%BD%EC%84%A4%EC%A0%95/</link>
-      <pubDate>Sun, 10 Nov 2019 16:17:30 +0900</pubDate>
+      <link>https://ezaurum.com/recipe/install-arch-linux-desktop/</link>
+      <pubDate>Fri, 10 Jan 2020 16:17:30 +0900</pubDate>
       
-      <guid>https://ezaurum.com/2019/11/Install-Arch-Linux-%EB%8D%B0%EC%8A%A4%ED%81%AC%ED%83%91-%ED%99%98%EA%B2%BD%EC%84%A4%EC%A0%95/</guid>
-      <description>Gnome 은 알아서
-i3 는 xorg로 실행 xinit 을 실행해서 처리
-사운드 설치
-yay 설치 nimf 설치
-xorg 설치
-xorg mesa xf86-driver xort-xinit
-xinit 이 설치 안 되면 startx가 안 먹는다. 실제로는 Xorg를 실행하는 건데, xinit이 스크립트 짜서 실행해 줌 .xinitrc 를 홈에 넣어둠
-rofi? 필요할ㄹ까?
-i3status 를 설치
-battery 가 종류가 달라서 스크립트를 짬
-.config/i3/i3.conf 에서 i3status 실행 스크립트 i3status -c 경로 지정
-클립보드 매니저
-폰트
-키매핑 https://vim.fandom.com/wiki/Map_caps_lock_to_escape_in_XWindows https://superuser.com/questions/760602/how-to-remap-keys-under-linux-for-a-specific-keyboard-only#869064</description>
+      <guid>https://ezaurum.com/recipe/install-arch-linux-desktop/</guid>
+      <description>설치를 했으니 실제로 데스크탑으로 쓸 수 있도록 만들어본다. (어째서 아치리눅스를 쓰며 데스크탑환경을 안쓰는지)[https://ageldama.github.io/posts/2018-09sep15sat-my-choices-linux/] 를 많이 참조했다.
+ 사용자 추가 root 로 계속 쓸 수 없으니 사용자를 추가한다.  useradd -m 이름 -g wheel passwd 이름 그룹을 wheel 로 설정했으니 wheel 이 sudo를 쓸 수 있게 해 준다.
+/etc/sudoers 를 열고 wheel 이 sudo 를 쓸 수 있게 해 준다.
+%wheel ALL=(ALL) ALL zsh 로 변경 bash는 불편한 점이 많으니, (Oh My Zsh)[https://ohmyz.</description>
     </item>
     
   </channel>
