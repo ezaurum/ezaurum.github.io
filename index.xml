@@ -7180,16 +7180,5 @@ H는 그랬다.
       <description>뭐, 결국 Wordpress 2.1로 왔음. 무료 계정. UTF-8을 지원한다길래 덥석. 근데 포스트 슬러그는 여전히 작동 불가&amp;hellip; 뭐지.</description>
     </item>
     
-    <item>
-      <title></title>
-      <link>https://ezaurum.com/recipe/linux-arch-bluetooth/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ezaurum.com/recipe/linux-arch-bluetooth/</guid>
-      <description>블루투스 설정  블투 키보드를 쓰거나 하기 위해서 블루투스를 설정 bluez bluez-utils 을 설치
-sudo pacman -S bluez bluez-utils 깔고 나면 블루투스를 기본으로 켜지고 계속 연결이 가능한 상태로 해야 한다. 기본값은 안 켜지게 되어 있다. /etc/bluetooth/main.conf 파일을 수정한다
-/etc/bluetooth/main.conf [Policy] AutoEnable=true [General] DiscoverableTimeout = 0 Discoverable=true </description>
-    </item>
-    
   </channel>
 </rss>
