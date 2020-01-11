@@ -78,13 +78,13 @@ Host other.github.com HostName github.com PreferredAuthentications publickey Ide
 2018-08-15
 <section><p>Github 계정이 두 개 이상인 경우, ssh 로 접근하기 위해서는 좀 다른 세팅이 필요하다.
 <a href="https://medium.com/@trionkidnapper/ssh-keys-with-multiple-github-accounts-c67db56f191e">참고링크</a></p>
-<h3 id="1----">1.다른 이름으로 키를 하나 만든다</h3>
+<h3 id="1다른-이름으로-키를-하나-만든다">1.다른 이름으로 키를 하나 만든다</h3>
 <pre><code>ssh-keygen -t rsa -b 4096 -C “your_email@example.com”
 </code></pre><p>이러면 파일 이름을 물어볼텐데, 그걸 적당히 다른 이름으로 지정해 준다.</p>
 <pre><code>id_rsa_personal
 </code></pre><p>뭐 이런 식으로</p>
-<h3 id="2--github--">2.만든 키를 Github 계정에 등록한다.</h3>
-<h3 id="3git--ssh---">3.Git 이 ssh 키를 인식하게 한다</h3>
+<h3 id="2만든-키를-github-계정에-등록한다">2.만든 키를 Github 계정에 등록한다.</h3>
+<h3 id="3git-이-ssh-키를-인식하게-한다">3.Git 이 ssh 키를 인식하게 한다</h3>
 <pre><code>~/.ssh/config 
 </code></pre><p>Git 은 이 파일을 가지고 ssh 키를 인식한다.</p>
 <pre><code>Host other.github.com
@@ -92,7 +92,7 @@ HostName github.com
 PreferredAuthentications publickey
 IdentityFile ~/.ssh/id_rsa_personal
 </code></pre><p>여기서 other.github.com 이 포인트. 원하는 이름으로 도메인을 지정한다.</p>
-<h3 id="4git--remote--">4.git 저장소의 remote 를 변경한다.</h3>
+<h3 id="4git-저장소의-remote-를-변경한다">4.git 저장소의 remote 를 변경한다.</h3>
 <p>본래 주소 대신에 위에서 지정한 other.github.com으로 리포지토리를 지정해 준다.</p>
 </section>
 
