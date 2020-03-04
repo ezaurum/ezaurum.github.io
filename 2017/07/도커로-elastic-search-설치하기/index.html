@@ -54,9 +54,9 @@ services:elasticsearch1:image: docker.elastic.co/elasticsearch/elasticsearch:5
     <header>
     <nav>
     
-        <a href="https://ezaurum.com/">Ezaurum&#39;s Blog</a>
-    
         <a href="https://ezaurum.com/about/">About</a>
+    
+        <a href="https://ezaurum.com/">Ezaurum&#39;s Blog</a>
     
     <a href="/bug">버그일기</a>
     <a href="/retrospective">회고</a>
@@ -74,17 +74,17 @@ services:elasticsearch1:image: docker.elastic.co/elasticsearch/elasticsearch:5
 <p>일단 docker-compose.yml 로 다음을 지정</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yml" data-lang="yml">services:
   elasticsearch1:
-    image: docker.elastic.co/elasticsearch/elasticsearch:<span style="color:#ae81ff">5.5</span><span style="color:#ae81ff">.0</span>
-    container_name: elasticsearch1
+    <span style="color:#66d9ef">image</span>: docker.elastic.co/elasticsearch/elasticsearch:<span style="color:#ae81ff">5.5.0</span>
+    <span style="color:#66d9ef">container_name</span>: elasticsearch1
     environment:
       - cluster.name=docker-cluster
       - bootstrap.memory_lock=<span style="color:#66d9ef">true</span>
       - <span style="color:#e6db74">&#34;ES_JAVA_OPTS=-Xms512m -Xmx512m&#34;</span>
     ulimits:
       memlock:
-        soft: -<span style="color:#ae81ff">1</span>
-        hard: -<span style="color:#ae81ff">1</span>
-    mem_limit: 1g
+        <span style="color:#66d9ef">soft</span>: -<span style="color:#ae81ff">1</span>
+        <span style="color:#66d9ef">hard</span>: -<span style="color:#ae81ff">1</span>
+    <span style="color:#66d9ef">mem_limit</span>: 1g
     volumes:
       - esdata1:/usr/share/elasticsearch/data
     ports:
@@ -93,8 +93,8 @@ services:elasticsearch1:image: docker.elastic.co/elasticsearch/elasticsearch:5
       - esnet
 
   elasticsearch2:
-    image: docker.elastic.co/elasticsearch/elasticsearch:<span style="color:#ae81ff">5.5</span><span style="color:#ae81ff">.0</span>
-    container_name: elasticsearch2
+    <span style="color:#66d9ef">image</span>: docker.elastic.co/elasticsearch/elasticsearch:<span style="color:#ae81ff">5.5.0</span>
+    <span style="color:#66d9ef">container_name</span>: elasticsearch2
     environment:
       - cluster.name=docker-cluster
       - bootstrap.memory_lock=<span style="color:#66d9ef">true</span>
@@ -102,18 +102,18 @@ services:elasticsearch1:image: docker.elastic.co/elasticsearch/elasticsearch:5
       - <span style="color:#e6db74">&#34;discovery.zen.ping.unicast.hosts=elasticsearch1&#34;</span>
     ulimits:
       memlock:
-        soft: -<span style="color:#ae81ff">1</span>
-        hard: -<span style="color:#ae81ff">1</span>
-    mem_limit: 1g
+        <span style="color:#66d9ef">soft</span>: -<span style="color:#ae81ff">1</span>
+        <span style="color:#66d9ef">hard</span>: -<span style="color:#ae81ff">1</span>
+    <span style="color:#66d9ef">mem_limit</span>: 1g
     volumes:
       - esdata2:/usr/share/elasticsearch/data
     networks:
       - esnet
 volumes:
   esdata1:
-    driver: local
+    <span style="color:#66d9ef">driver</span>: local
   esdata2:
-    driver: local
+    <span style="color:#66d9ef">driver</span>: local
 networks:
   esnet:
 </code></pre></div><p>그 다음 docker-compose 로 띄운다.</p>

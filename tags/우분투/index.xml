@@ -18,11 +18,10 @@
       <pubDate>Mon, 17 Nov 2008 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2008/11/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%82%BD%EC%A7%88%EA%B8%B0-3/</guid>
-      <description>일단 gcc를 써 보자. 라고 생각해서 간단히 짜고 컴파일을 해보는데, 계속 에러. 구글링을 통해 해법을 찾았다. http://dantes.kr/blog/320&amp;lt;/a&amp;gt; 이 설명에서는 CD를 요구한다는데. 일단 8.10에서는 필요 없는듯?
+      <description>일단 gcc를 써 보자. 라고 생각해서 간단히 짜고 컴파일을 해보는데, 계속 에러. 구글링을 통해 해법을 찾았다. http://dantes.kr/blog/320이 설명에서는 CD를 요구한다는데. 일단 8.10에서는 필요 없는듯?
 일단 이러고 나서, gcc 파일이름 이렇게 치면, 컴파일은 되는데, 실행이 안된다.
 왜?
-참고글 - http://wiki.kldp.org/KoreanDoc/html/gcc_and_make/gcc_and_make.html#toc2&amp;lt;/a&amp;gt;
-리눅스는 $ ./a.out 라는 식으로 실행해야 함.</description>
+참고글 - http://wiki.kldp.org/KoreanDoc/html/gcc_and_make/gcc_and_make.html#toc2리눅스는 $ ./a.out 라는 식으로 실행해야 함.</description>
     </item>
     
     <item>
@@ -32,8 +31,7 @@
       
       <guid>https://ezaurum.com/2008/11/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%82%BD%EC%A7%88%EA%B8%B0-2/</guid>
       <description>지난 번에 리눅스를 깔아놓기만 한 PC가 팔려나가 버려서, 다른 PC에 깔게 되었다. 이번에는 버전업 된 우분투 8.10을 설치. 32비트 버전이다.
-일단 텔넷을 깔아야 하므로 아래의 참고 링크. 설치법 - http://eloid.tistory.com/21&amp;lt;/a&amp;gt; 텔넷 포트 바꾸기 - http://rustymind.egloos.com/3310669&amp;lt;/a&amp;gt;
-오늘은 여기까지</description>
+일단 텔넷을 깔아야 하므로 아래의 참고 링크. 설치법 - http://eloid.tistory.com/21텔넷 포트 바꾸기 - http://rustymind.egloos.com/3310669오늘은 여기까지</description>
     </item>
     
     <item>

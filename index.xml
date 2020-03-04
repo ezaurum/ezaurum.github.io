@@ -7,10 +7,26 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Fri, 10 Jan 2020 16:17:30 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 17 Aug 2007 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://ezaurum.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>쿠키에 대한 정리</title>
+      <link>https://ezaurum.com/2020/03/%EC%BF%A0%ED%82%A4%EC%97%90-%EB%8C%80%ED%95%9C-%EC%A0%95%EB%A6%AC/</link>
+      <pubDate>Wed, 04 Mar 2020 16:04:22 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/2020/03/%EC%BF%A0%ED%82%A4%EC%97%90-%EB%8C%80%ED%95%9C-%EC%A0%95%EB%A6%AC/</guid>
+      <description>MDN 문서
+  Max-Age가 있으면 퍼시스턴스 쿠키(지정 시간까지 유효), 없으면 세션 쿠키(브라우저 닫힐 때 없어짐). 값이 0이나 음수면 쿠키가 삭제됨.
+  HttpOnly를 true로 두면 클라이언트에서 읽을 수 없음
+  Expires는 구버전(IE등)을 위한 것, Max-Age를 쓰자 쿠키에서 Max-Age와 Expires의 차이
+  메인 도메인을 지정하면 서브도메인도 매칭된다.
+  Secure는 HTTPS를 강제한다
+  Path 는 /를 쓰면 하위 매칭
+  도메인당 쿠키는 50개 이하, 최대 4KiB(실제로는 4000byte 라고 생각하는 게 편함) 으로 두는게 구형 브라우저에서도 문제가 없다.</description>
+    </item>
     
     <item>
       <title>Install Arch Linux - 데스크탑 환경설정</title>
@@ -82,6 +98,16 @@ NAME MAJ:MIN RM SIZE RO TYPE MOUNTPOINT sda 8:0 1 14.9G 0 disk ├─sda1 8:1 1 
       
       <guid>https://ezaurum.com/retrospective/2019-2nd-quater/</guid>
       <description>한 일  첫 일본여행 - 후쿠오카 4박5 컴 업글 - AMD로 돌아감 운동시작 - 6.10 부터 유니티 앱 개발 - 시작만 함 AR전화 서비스 구조개선 네이버에서 AWS로 운영서버 이전 도커로 빌드, 배포 오래 묵은 DB 트랙잭션 중 예외처리 중 rollback 처리가 되지 않은 버그 수정. 코오롱 리뷰 - 크레마API 연동 스택 드라이버 세팅 공부 웹에서 이어올리기 기능 구현 람다를 해 봄 여러 CI/CD 서비스 조사 고시원 생활 시작 - 3개 회사 일이라 출퇴근 시간을 줄이기 위해 회사 정기 소모비용 발생 - 서버/고시원 비용 대출금 1건 변제 완료 빠찡꼬 해봄 목표 연수입 달성  감상  큰 통신사도 역시 구리다.</description>
+    </item>
+    
+    <item>
+      <title>클라우드 프론트에 웹사이트 배포</title>
+      <link>https://ezaurum.com/recipe/create-cloud-front-website/</link>
+      <pubDate>Fri, 21 Jun 2019 09:44:59 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/recipe/create-cloud-front-website/</guid>
+      <description>목적 클라우드 프론트에서 웹사이트 호스팅
+ S3 생성 권한 등은 건드릴 필요 없음 클라우드 프론트 생성  만들면서 권한 role, 생성, policy 업데이트 커스텀 도메인을 써야 하면 미리 인증서 생성. 인증서는 미국동부쪽에 생성- 클라우드 프론트에서는 여기서 지정한 것만 쓸 수 있음 CNAME에 커스텀 도메인 이름 써주기 behavior에서 DefaultObject 써주기 index.html으로. 하지 않으면 루트 접근시 403 에러 남. 설정에서 defaultRoot도 index파일 로 써주기 적절하게 404,403 리다이렉트. VUE나 PWA 를 쓸 때    Troubleshoot  클라우드 프론트에서 307이 리턴되고 S3파일로 리다이렉트 될 때 - S3가 us-east-1 이 아닌경우, 이름이 전파되는 데 최대 24시간 걸릴 수 있다.</description>
     </item>
     
     <item>
@@ -725,8 +751,7 @@ curl -XPUT -u elastic:changeme &#39;localhost:9200/twitter/tweet/1?pretty&#39; -
       
       <guid>https://ezaurum.com/2015/12/%ED%8E%98%EB%B6%81-%EB%A1%9C%EA%B7%B8%EC%9D%B8-%EC%97%B0%EB%8F%99/</guid>
       <description>페이스북 유니티3D 연동은 좋은 자료가 많다.
-페이스 북 연동이라고 해도 사실 Graph API를 쓸 일은 잘 없으니 액세스 토큰 받아오는 거랑, 퍼미션 창 띄우는 부분에서 에디터인 경우 레거시 GUI를 쓰고 있어서 그 부분만 정리했다.
-https://gist.github.com/ezaurum/80c7b509fe5d6458e831.js&amp;lt;/a&amp;gt;</description>
+페이스 북 연동이라고 해도 사실 Graph API를 쓸 일은 잘 없으니 액세스 토큰 받아오는 거랑, 퍼미션 창 띄우는 부분에서 에디터인 경우 레거시 GUI를 쓰고 있어서 그 부분만 정리했다.</description>
     </item>
     
     <item>
@@ -813,7 +838,7 @@ http://theeye.pe.kr/archives/2014 http://mudchobo.tistory.com/549 http://woniper
       <pubDate>Fri, 11 Sep 2015 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2015/09/%ED%8C%8C%EC%9D%B4%EC%8D%AC-DB-%EC%9E%85%EB%A0%A5%ED%88%B4/</guid>
-      <description>xml 파일 파싱해서 DB에 넣는 간단한 툴. 인터넷 검색에 한시간쯤 걸리고 코딩에 30분은 걸린듯&amp;hellip; 파이썬은 할 때마다 인터넷을 찾아봐야 하는 문제가 있긴 하지만 언제나 결과물이 만족스럽다. https://gist.github.com/ezaurum/61d748130f185c964960.js&amp;lt;/a&amp;gt;</description>
+      <description>xml 파일 파싱해서 DB에 넣는 간단한 툴. 인터넷 검색에 한시간쯤 걸리고 코딩에 30분은 걸린듯&amp;hellip; 파이썬은 할 때마다 인터넷을 찾아봐야 하는 문제가 있긴 하지만 언제나 결과물이 만족스럽다. https://gist.</description>
     </item>
     
     <item>
@@ -1114,8 +1139,7 @@ Bitbucket에서는 커스텀 도메인을 쓸 수 없다. 그냥 github를 쓰�
       <pubDate>Mon, 16 Feb 2015 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2015/02/Task%EC%9D%98-%EC%8B%A4%ED%96%89-%EC%8B%9C%EC%A0%90/</guid>
-      <description>Stackexchange redis에서 트랜잭션 진행이 멈춤이라는 질문과 답변을 보다가 Execute가 실제 명령어들보다 앞에서 await로 되어 있는 것을 보고 좀 이상하다는 느낌을 받았다. 그래서 열심히 검색하고 테스트 코드를 짜 보았다. https://gist.github.com/ezaurum/746ea24220b52b27b56c.js&amp;lt;/a&amp;gt;
-결론은, Task는 await로 되는 시점에 실행되는 것이 아니다. 단지 Task는 실행되고 있는 쓰레드(정확히 대응하는 것은 아니지만&amp;hellip;)에 대한 핸들러를 주는 것이고, await는 그게 종료 되었는지 확인 될 때까지 해당 프로시저를 멈추는 역할을 할 뿐이다. 그러니, 저 코드는 실제로는 다음과 같을 것이다.
+      <description>Stackexchange redis에서 트랜잭션 진행이 멈춤이라는 질문과 답변을 보다가 Execute가 실제 명령어들보다 앞에서 await로 되어 있는 것을 보고 좀 이상하다는 느낌을 받았다. 그래서 열심히 검색하고 테스트 코드를 짜 보았다. https://gist.github.com/ezaurum/746ea24220b52b27b56c.js결론은, Task는 await로 되는 시점에 실행되는 것이 아니다. 단지 Task는 실행되고 있는 쓰레드(정확히 대응하는 것은 아니지만&amp;hellip;)에 대한 핸들러를 주는 것이고, await는 그게 종료 되었는지 확인 될 때까지 해당 프로시저를 멈추는 역할을 할 뿐이다. 그러니, 저 코드는 실제로는 다음과 같을 것이다.
 음. Task의 개념에 대해 공부를 한 충실한 오전이었&amp;hellip;나?</description>
     </item>
     
@@ -1189,7 +1213,7 @@ Bitbucket에서는 커스텀 도메인을 쓸 수 없다. 그냥 github를 쓰�
       <pubDate>Thu, 05 Feb 2015 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2015/02/%EB%B3%84%EA%B1%B0-%EC%95%88-%ED%96%88%EB%8A%94%EB%8D%B0-TypeInitializeException-%EC%9D%B4-%EB%82%98%EB%8A%94-%EA%B2%BD%EC%9A%B0/</guid>
-      <description>아래와 같은 코드를 실행하면, TypeInitializeException이 뜬다. https://gist.github.com/ezaurum/fdcb0dce79ed900d5fb8.js&amp;lt;/a&amp;gt; 자세히 보면, Dictionary에 같은 키로 값을 넣으려 하고 있다. 이러면 이렇게ArgumentException이 나게 되는데, 그게 static 변수를 할당하는 시점에 일어나므로, TypeInitializeException이 뜨게 된다. 그러니 저거 원인을 못 찾을 때는 static으로 선언한 변수에 값이 들어가는 부분을 체크해 보자.</description>
+      <description>아래와 같은 코드를 실행하면, TypeInitializeException이 뜬다. https://gist.github.com/ezaurum/fdcb0dce79ed900d5fb8.js자세히 보면, Dictionary에 같은 키로 값을 넣으려 하고 있다. 이러면 이렇게ArgumentException이 나게 되는데, 그게 static 변수를 할당하는 시점에 일어나므로, TypeInitializeException이 뜨게 된다. 그러니 저거 원인을 못 찾을 때는 static으로 선언한 변수에 값이 들어가는 부분을 체크해 보자.</description>
     </item>
     
     <item>
@@ -1722,7 +1746,7 @@ CD를 살까 했는데 CD는 진짜 장식이고&amp;hellip; 음원을 어디서
       <pubDate>Sun, 24 Nov 2013 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2013/11/Git%EC%97%90%EC%84%9C-%ED%8A%B9%EC%A0%95%ED%8C%8C%EC%9D%BC-%EC%9E%84%EC%8B%9C%EB%A1%9C-%EC%BB%A4%EB%B0%8B%EB%82%B4%EC%97%AD%EC%97%90%EC%84%9C-%EC%A0%9C%EC%99%B8%ED%95%98%EA%B8%B0/</guid>
-      <description>출처 - http://blog.outsider.ne.kr/817&amp;lt;/a&amp;gt; Unity3D로 공동작업을 하다 보면 meta파일이 많이 생기고, 뭐 잠깐 이쪽에서 고쳐보고 싶은데 하던 작업 중에 일부는 또 올려야 할 때가 있고해서 골치 아플 때 유용함. 제외 - git update-index &amp;ndash;assume-unchanged 파일명복구 - git update-index &amp;ndash;no-assume-unchanged 파일명초기화 - git update-index &amp;ndash;really-refresh</description>
+      <description>출처 - http://blog.outsider.ne.kr/817Unity3D로 공동작업을 하다 보면 meta파일이 많이 생기고, 뭐 잠깐 이쪽에서 고쳐보고 싶은데 하던 작업 중에 일부는 또 올려야 할 때가 있고해서 골치 아플 때 유용함. 제외 - git update-index &amp;ndash;assume-unchanged 파일명복구 - git update-index &amp;ndash;no-assume-unchanged 파일명초기화 - git update-index &amp;ndash;really-refresh</description>
     </item>
     
     <item>
@@ -1741,7 +1765,7 @@ CD를 살까 했는데 CD는 진짜 장식이고&amp;hellip; 음원을 어디서
       <pubDate>Sun, 24 Nov 2013 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2013/11/%EC%86%8C%EC%8A%A4%ED%8A%B8%EB%A6%AC-%EC%82%AC%EC%9A%A9%EC%8B%9C-%EC%A0%80%EC%9E%A5%EC%86%8C-%EC%A0%91%EA%B7%BC-%ED%82%A4%EB%A5%BC-%EC%9E%90%EB%8F%99%EC%9C%BC%EB%A1%9C-%EB%A1%9C%EB%93%9C%ED%95%98%EA%B2%8C-%ED%95%98%EA%B8%B0/</guid>
-      <description>http://blog.shvetsov.com/2010/03/making-pageant-automatically-load-keys.html&amp;lt;/a&amp;gt; 소스트리도 pageant를 이용하므로 이거와 같은 방식으로 하면 된다.</description>
+      <description>http://blog.shvetsov.com/2010/03/making-pageant-automatically-load-keys.html소스트리도 pageant를 이용하므로 이거와 같은 방식으로 하면 된다.</description>
     </item>
     
     <item>
@@ -3649,7 +3673,7 @@ css3 속성이므로 ie에서는 제대로 안 된다.</description>
       <pubDate>Mon, 11 Apr 2011 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2011/04/4829-3/</guid>
-      <description>시류를 타서 유입량을 늘려볼까 하는 포스팅 자세한 설명은 아래 두 링크를 참조 http://kldp.org/node/122519&amp;lt;/a&amp;gt; http://seomindang.com/900&amp;lt;/a&amp;gt; 논쟁의 끝은 키배로 정해진 것은 아니지만, 여기저기서 키배가 벌어지고 있다. 시끄러워서 싫다는 분들도 많지만, 개인적으로-그리 바람직한 취향은 아니겠지만- 키배 구경은 즐기는 편이고, 논쟁과는 상관없이 여하튼 꽤 바람직한 결과물을 얻었다. 일단 러셀 공리라는 걸 들어는 보게 되었고, 이것저것 단어 의미도 좀 명확히 이해하게 되었고, 누군가 설득하려고 애쓰는 사람들이 내세우는 다양한 논리는 뇌에 자극을 준다. 좋다. 노이즈가 많이 끼어서 걸러 봐야 하긴 하지만&amp;hellip; 그건 평소에도 그렇지 않나.</description>
+      <description>시류를 타서 유입량을 늘려볼까 하는 포스팅 자세한 설명은 아래 두 링크를 참조 http://kldp.org/node/122519http://seomindang.com/900논쟁의 끝은 키배로 정해진 것은 아니지만, 여기저기서 키배가 벌어지고 있다. 시끄러워서 싫다는 분들도 많지만, 개인적으로-그리 바람직한 취향은 아니겠지만- 키배 구경은 즐기는 편이고, 논쟁과는 상관없이 여하튼 꽤 바람직한 결과물을 얻었다. 일단 러셀 공리라는 걸 들어는 보게 되었고, 이것저것 단어 의미도 좀 명확히 이해하게 되었고, 누군가 설득하려고 애쓰는 사람들이 내세우는 다양한 논리는 뇌에 자극을 준다. 좋다. 노이즈가 많이 끼어서 걸러 봐야 하긴 하지만&amp;hellip; 그건 평소에도 그렇지 않나.</description>
     </item>
     
     <item>
@@ -3703,8 +3727,7 @@ css3 속성이므로 ie에서는 제대로 안 된다.</description>
       <pubDate>Tue, 08 Mar 2011 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2011/03/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EC%97%90%EC%84%9C-%EC%B9%B4%EC%9A%B4%ED%8A%B8%EB%8B%A4%EC%9A%B4-%ED%83%80%EC%9D%B4%EB%A8%B8%EB%A5%BC-%EB%A7%8C%EB%93%A4-%EB%95%8C-%EC%9C%A0%EC%9D%98%EC%A0%90/</guid>
-      <description>영문 - http://ejohn.org/blog/how-javascript-timers-work/&amp;lt;/a&amp;gt; 한글 - http://okjungsoo.tistory.com/entry/JavaScript-Timer&amp;lt;/a&amp;gt;
-뽀모도로 타이머를 만들던 중, setInterval을 이용하여 코드를 짜니 25분 짜리 타이머에서 한 15초 가량 오차가 나는 것을 발견, 이리저리 뒤지자 이런 것이 나왔다.
+      <description>영문 - http://ejohn.org/blog/how-javascript-timers-work/한글 - http://okjungsoo.tistory.com/entry/JavaScript-Timer뽀모도로 타이머를 만들던 중, setInterval을 이용하여 코드를 짜니 25분 짜리 타이머에서 한 15초 가량 오차가 나는 것을 발견, 이리저리 뒤지자 이런 것이 나왔다.
 간단한 결론은, 오차가 적어야 하는 상황이면 setTimeout을 쓰라는 것.setTimeout을 쓴다고 해도 그래도 오차가 없어지지는 않음&amp;hellip;.(new Date()).getMillisecond()를 쓰면 시각 자체에 대한 정확성은 그래도 어느 정도까지는 보장할 수 있을테니까 그것으로 타협.타이머 성능 관련 링크</description>
     </item>
     
@@ -4325,8 +4348,7 @@ public class myTest {	@Test public void testCodes() throws Exception { System.ou
       <pubDate>Fri, 06 Aug 2010 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2010/08/%EC%83%81%EC%9E%90-4%EA%B0%9C/</guid>
-      <description>문제 출처 - http://xper.org/wiki/seminar/FourBoxes&amp;lt;/a&amp;gt;
-입력형식
+      <description>문제 출처 - http://xper.org/wiki/seminar/FourBoxes입력형식
 하나의 직사각형은 왼쪽 아래의 꼭지점과 오른쪽 위의 꼭지점의 좌표로 주어진다. 입력은 네 줄이며, 각 줄은 네 개의 정수로 하나의 직사각형을 나타낸다. 첫 번째와 두 번째의 정수는 사각형의 왼쪽 아래 꼭지점의 x좌표, y좌표이고, 세 번째와 네 번째의 정수는 사각형의 오른쪽 위 꼭지점의 x좌표, y좌표이다. 단, x좌표와 y좌표는 1 이상이고 1000 이하인 정수이다.
 출력형식
 화면에 4개의 직사각형이 차지하는 면적을 출력한다.
@@ -5292,8 +5314,7 @@ VOICES (MACROSS PLUS OPENING THEME)
       <pubDate>Tue, 12 May 2009 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2009/05/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-8/</guid>
-      <description>라이센스 - The GNU Free Documentation License원저자 - Conrad Barski, M.D.원본 출처 - http://lisperati.com/casting.html&amp;lt;/a&amp;gt;
-이제 Lisp의 믿을 수 없을 만큼 강력한 기능을 배워 볼 겁니다. 바로 SPEL(주문)만들기지요! SPEL 은 &amp;ldquo;Semantic Program Enhancement Logic&amp;quot;의 줄임말이고 컴퓨터 코드의 세계 안에서 Lisp언어를 우리 필요에 따라 개조하기 위해 가장 기초적인 수준까지 바꾸는 행동을 만드는 걸 가능케 해 줍니다. - 이게 Lisp에서 가장 마술처럼 보이는 부분이지요. SPEL을 가능하게 하기 위해, 일단 Lisp 컴파일러에서 SPEL을 활성화 할 필요가 있습니다.</description>
+      <description>라이센스 - The GNU Free Documentation License원저자 - Conrad Barski, M.D.원본 출처 - http://lisperati.com/casting.html이제 Lisp의 믿을 수 없을 만큼 강력한 기능을 배워 볼 겁니다. 바로 SPEL(주문)만들기지요! SPEL 은 &amp;ldquo;Semantic Program Enhancement Logic&amp;quot;의 줄임말이고 컴퓨터 코드의 세계 안에서 Lisp언어를 우리 필요에 따라 개조하기 위해 가장 기초적인 수준까지 바꾸는 행동을 만드는 걸 가능케 해 줍니다. - 이게 Lisp에서 가장 마술처럼 보이는 부분이지요. SPEL을 가능하게 하기 위해, 일단 Lisp 컴파일러에서 SPEL을 활성화 할 필요가 있습니다.</description>
     </item>
     
     <item>
@@ -5351,8 +5372,7 @@ VOICES (MACROSS PLUS OPENING THEME)
       <pubDate>Tue, 21 Apr 2009 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2009/04/%EB%A7%A4%ED%81%AC%EB%A1%9C%EA%B0%80-%EC%95%84%EB%8B%88%EB%8B%A4/</guid>
-      <description>라이센스 - The GNU Free Documentation License원저자 - Conrad Barski, M.D.원본 출처 - http://lisperati.com/casting.html&amp;lt;/a&amp;gt;
-이 강좌의 부분적 목적은 Lisp의 진짜 매크로라는 어려운 것에 관해 다룰 수 있는 방법에 대한 실험이었다. 종종, 매크로라는 것에 대한 개념을 다른 언어만 사용해 본 사람들에게 설명하려고 할 때면, &amp;ldquo;아 그래! C++에도 매크로 같은 게 있다구!&amp;ldquo;라는 반응을 보곤 한다. 그렇게 되면, &amp;ldquo;진짜 매크로&amp;quot;란 걸 설명하기가 아주 힘들어진다. 왜냐면 &amp;ldquo;매크로&amp;quot;란 말에 실려 있는 의미 때문이다. 무엇보다, &amp;ldquo;진짜 매크로&amp;quot;는 C++에 있는 그런 것, 수정된 코드를 컴파일러에게 알려주는 그런 방식과 전혀 같지 않다.</description>
+      <description>라이센스 - The GNU Free Documentation License원저자 - Conrad Barski, M.D.원본 출처 - http://lisperati.com/casting.html이 강좌의 부분적 목적은 Lisp의 진짜 매크로라는 어려운 것에 관해 다룰 수 있는 방법에 대한 실험이었다. 종종, 매크로라는 것에 대한 개념을 다른 언어만 사용해 본 사람들에게 설명하려고 할 때면, &amp;ldquo;아 그래! C++에도 매크로 같은 게 있다구!&amp;ldquo;라는 반응을 보곤 한다. 그렇게 되면, &amp;ldquo;진짜 매크로&amp;quot;란 걸 설명하기가 아주 힘들어진다. 왜냐면 &amp;ldquo;매크로&amp;quot;란 말에 실려 있는 의미 때문이다. 무엇보다, &amp;ldquo;진짜 매크로&amp;quot;는 C++에 있는 그런 것, 수정된 코드를 컴파일러에게 알려주는 그런 방식과 전혀 같지 않다.</description>
     </item>
     
     <item>
@@ -5474,7 +5494,7 @@ VOICES (MACROSS PLUS OPENING THEME)
       <pubDate>Wed, 11 Feb 2009 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2009/02/100-Years-Five-for-Fighting/</guid>
-      <description>[youtube https://www.youtube.com/watch?v=qgN5TnQ23vs&amp;amp;color1=0xb1b1b1&amp;amp;color2=0xcfcfcf&amp;amp;hl=ko&amp;amp;feature=player_embedded&amp;amp;fs=1] I&#39;m 15 for a moment Caught in between 10 and 20 And I&#39;m just dreaming Counting the ways to where you are I&#39;m 22 for a moment She feels better than ever And we&#39;re on fire Making our way back from Mars 15 there&#39;s still time for you Time to buy and time to lose 15, there&#39;s never a wish better than this When you only got 100 years to live I&#39;m 33 for a moment Still the man, but you see I&#39;m a they A kid on the way A family on my mind I&#39;m 45 for a moment The sea is high And I&#39;m heading into a crisis Chasing the years of my life 15 there&#39;s still time for you Time to buy, Time to lose yourself Within a morning star 15 I&#39;m all right with you 15, there&#39;s never a wish better than this When you only got 100 years to live Half time goes by Suddenly you&#39;re wise Another blink of an eye 67 is gone The sun is getting high We&#39;re moving on&amp;hellip; I&#39;m 99 for a moment Dying for just another moment And I&#39;m just dreaming Counting the ways to where you are 15 there&#39;s still time for you 22 I feel her too 33 you&#39;re on your way Every day&#39;s a new day&amp;hellip; 15 there&#39;s still time for you Time to buy and time to choose Hey 15, there&#39;s never a wish better than this When you only got 100 years to live</description>
+      <description>[youtube https://www.youtube.com/watch?v=qgN5TnQ23vs&amp;amp;color1=0xb1b1b1&amp;amp;color2=0xcfcfcf&amp;amp;hl=ko&amp;amp;feature=player_embedded&amp;amp;fs=1] I&amp;rsquo;m 15 for a moment Caught in between 10 and 20 And I&amp;rsquo;m just dreaming Counting the ways to where you are I&amp;rsquo;m 22 for a moment She feels better than ever And we&amp;rsquo;re on fire Making our way back from Mars 15 there&amp;rsquo;s still time for you Time to buy and time to lose 15, there&amp;rsquo;s never a wish better than this When you only got 100 years to live I&amp;rsquo;m 33 for a moment Still the man, but you see I&amp;rsquo;m a they A kid on the way A family on my mind I&amp;rsquo;m 45 for a moment The sea is high And I&amp;rsquo;m heading into a crisis Chasing the years of my life 15 there&amp;rsquo;s still time for you Time to buy, Time to lose yourself Within a morning star 15 I&amp;rsquo;m all right with you 15, there&amp;rsquo;s never a wish better than this When you only got 100 years to live Half time goes by Suddenly you&amp;rsquo;re wise Another blink of an eye 67 is gone The sun is getting high We&amp;rsquo;re moving on&amp;hellip; I&amp;rsquo;m 99 for a moment Dying for just another moment And I&amp;rsquo;m just dreaming Counting the ways to where you are 15 there&amp;rsquo;s still time for you 22 I feel her too 33 you&amp;rsquo;re on your way Every day&amp;rsquo;s a new day&amp;hellip; 15 there&amp;rsquo;s still time for you Time to buy and time to choose Hey 15, there&amp;rsquo;s never a wish better than this When you only got 100 years to live</description>
     </item>
     
     <item>
@@ -5494,7 +5514,7 @@ VOICES (MACROSS PLUS OPENING THEME)
       <guid>https://ezaurum.com/2009/02/Promise-Her-the-Moon-Mr.-Big/</guid>
       <description>[youtube https://www.youtube.com/watch?v=uQfjo0RdsAE&amp;amp;hl=ko&amp;amp;fs=1]
 Promise Her the Moon - Mr. Big
-Hey, yeah yeah You don&#39;t know what you&#39;ve got Till the love is almost gone This time, yeah she&#39;s given up Still in a state of shock I should&#39;ve seen it coming on It&#39;s too late for waking up Her mind&#39;s made up I know the dream is over But my heart just can&#39;t let go She&#39;s too good to be forgotten Too good to be true Before my world is torn apart I&#39;ll promise her the moon I&#39;ll promise her the moon I was too blind to notice her Wrapped up in myself Workin&amp;rsquo; hard overtime, night and day I thought we were so secure Can&amp;rsquo; imagine someone else Could come between us And take her away Her mind&#39;s made up I know the dream is over But my heart just can&#39;t let go She&#39;s too good to be forgotten Too good to be true Before my world is torn apart I&#39;ll promise her the moon I&#39;ll promise her the moon And all the time she stood by me I never said &amp;ldquo;I love you&amp;rdquo; Yeah, I kept it deep down in my soul And all the while I&#39;ve been a fool yeah, yeah yeah.</description>
+Hey, yeah yeah You don&amp;rsquo;t know what you&amp;rsquo;ve got Till the love is almost gone This time, yeah she&amp;rsquo;s given up Still in a state of shock I should&amp;rsquo;ve seen it coming on It&amp;rsquo;s too late for waking up Her mind&amp;rsquo;s made up I know the dream is over But my heart just can&amp;rsquo;t let go She&amp;rsquo;s too good to be forgotten Too good to be true Before my world is torn apart I&amp;rsquo;ll promise her the moon I&amp;rsquo;ll promise her the moon I was too blind to notice her Wrapped up in myself Workin&amp;rsquo; hard overtime, night and day I thought we were so secure Can&amp;rsquo; imagine someone else Could come between us And take her away Her mind&amp;rsquo;s made up I know the dream is over But my heart just can&amp;rsquo;t let go She&amp;rsquo;s too good to be forgotten Too good to be true Before my world is torn apart I&amp;rsquo;ll promise her the moon I&amp;rsquo;ll promise her the moon And all the time she stood by me I never said &amp;ldquo;I love you&amp;rdquo; Yeah, I kept it deep down in my soul And all the while I&amp;rsquo;ve been a fool yeah, yeah yeah.</description>
     </item>
     
     <item>
@@ -5534,7 +5554,7 @@ Hey, yeah yeah You don&#39;t know what you&#39;ve got Till the love is almost go
       <pubDate>Tue, 10 Feb 2009 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2009/02/%ED%95%9C%EA%B0%80%EC%9D%B8/</guid>
-      <description>[youtube https://www.youtube.com/watch?v=d2xXrbh4y3w&amp;amp;color1=0xb1b1b1&amp;amp;color2=0xcfcfcf&amp;amp;hl=ko&amp;amp;feature=player_embedded&amp;amp;fs=1] 내가 TV에서 자기 직전에 채널을 좀 돌리다가, 이 장면을 봤는데, 끝날 때까지 잠을 못 잤다. 사람이야? [youtube https://www.youtube.com/watch?v=sIpvAIKi_VY&amp;amp;color1=0xb1b1b1&amp;amp;color2=0xcfcfcf&amp;amp;hl=ko&amp;amp;feature=player_embedded&amp;amp;fs=1] [youtube https://www.youtube.com/watch?v=r0ffDw8xy_I&amp;amp;hl=ko&amp;amp;fs=1] http://andu.hanafos.com/home/play/playgw.asp?conkey=242425&amp;amp;#038;OwnerNo=36890972&amp;amp;#038;spreader=999999&amp;amp;#038;skinType=&amp;lt;/a&amp;gt;</description>
+      <description>[youtube https://www.youtube.com/watch?v=d2xXrbh4y3w&amp;amp;color1=0xb1b1b1&amp;amp;color2=0xcfcfcf&amp;amp;hl=ko&amp;amp;feature=player_embedded&amp;amp;fs=1] 내가 TV에서 자기 직전에 채널을 좀 돌리다가, 이 장면을 봤는데, 끝날 때까지 잠을 못 잤다. 사람이야? [youtube https://www.youtube.com/watch?v=sIpvAIKi_VY&amp;amp;color1=0xb1b1b1&amp;amp;color2=0xcfcfcf&amp;amp;hl=ko&amp;amp;feature=player_embedded&amp;amp;fs=1] [youtube https://www.youtube.com/watch?v=r0ffDw8xy_I&amp;amp;hl=ko&amp;amp;fs=1] http://andu.</description>
     </item>
     
     <item>
@@ -5595,7 +5615,7 @@ Hey, yeah yeah You don&#39;t know what you&#39;ve got Till the love is almost go
       
       <guid>https://ezaurum.com/2009/02/0083-ED-Magic/</guid>
       <description>[youtube https://www.youtube.com/watch?v=XfRNDLoq7wE&amp;amp;hl=en&amp;amp;fs=1]
-Don&#39;t come to me, just &amp;lsquo;cause you&#39;re lonely tonight 외롭다고 오늘 밤 나에게 오지는 말아요. Lonely&#39;s only part of your game 외로움은 당신 게임의 일부일 뿐. Long as you live, you must remember one thing 살아가는 동안, 하나는 꼭 기억해 둬요. Give and take are one in the same 주는 것도 받는 것도 결국 하나란 걸
+Don&amp;rsquo;t come to me, just &amp;lsquo;cause you&amp;rsquo;re lonely tonight 외롭다고 오늘 밤 나에게 오지는 말아요. Lonely&amp;rsquo;s only part of your game 외로움은 당신 게임의 일부일 뿐. Long as you live, you must remember one thing 살아가는 동안, 하나는 꼭 기억해 둬요. Give and take are one in the same 주는 것도 받는 것도 결국 하나란 걸
 So tell me are you ready, really, really ready 그러니 말해줘요. 준비 되었다고.</description>
     </item>
     
@@ -5633,8 +5653,7 @@ So tell me are you ready, really, really ready 그러니 말해줘요. 준비 �
       <pubDate>Fri, 06 Feb 2009 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2009/02/%ED%95%9C%EA%B5%AD%EC%96%B4%EC%9D%98-%EC%8B%9C%EC%A0%9C%EC%83%81%EC%96%91%ED%83%9C/</guid>
-      <description>http://www.docin.com/DocinViewer-122584-144.swf&amp;lt;/a&amp;gt;
-첨부된 문서를 찾은 곳은 DOC in 이란 서비스. 일본이나 중국 계열 같은데, 쓸만 할까나. 지금은 좀 불안한 듯 보인다. flash, AJAX, 등등&amp;hellip; 요즘은 완전히 새로운 플랫폼이나 기술보다는 이미 있는 것의 수정·보완·새로운 활용 등이 대세인 듯. 나는 나를 재활용할 수 있을까.</description>
+      <description>http://www.docin.com/DocinViewer-122584-144.swf첨부된 문서를 찾은 곳은 DOC in 이란 서비스. 일본이나 중국 계열 같은데, 쓸만 할까나. 지금은 좀 불안한 듯 보인다. flash, AJAX, 등등&amp;hellip; 요즘은 완전히 새로운 플랫폼이나 기술보다는 이미 있는 것의 수정·보완·새로운 활용 등이 대세인 듯. 나는 나를 재활용할 수 있을까.</description>
     </item>
     
     <item>
@@ -5661,8 +5680,7 @@ So tell me are you ready, really, really ready 그러니 말해줘요. 준비 �
       <pubDate>Wed, 04 Feb 2009 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-7/</guid>
-      <description>라이센스 - The GNU Free Documentation License원저자 - Conrad Barski, M.D.원본 출처 - http://lisperati.com/casting.html&amp;lt;/a&amp;gt;
-let이라는 특별한 명령이 플레이어가 가기를 원하는 방향을 경로 묘사 함수에 전달하게 할 지역변수 next을 허가합니다. cdr은 목록에서 첫 번째 항목을 그냥 잘라냅니다. 만일 사용자가 부적합한 방향을 입력했다면, next 변수는 nil이 됩니다. cond 명령은 Lisp에서 if-then 명령의 연쇄와 비슷합니다. 각 줄에는 cond가 검사할 값과 할 행동이 있습니다. 이 경우, next location이 nil이 아니라면, setf명령으로 플레이어의 위치는 새 방향을 묘사하고 있는 기호 목록의 목록의 세 번째 항목이 됩니다.</description>
+      <description>라이센스 - The GNU Free Documentation License원저자 - Conrad Barski, M.D.원본 출처 - http://lisperati.com/casting.htmllet이라는 특별한 명령이 플레이어가 가기를 원하는 방향을 경로 묘사 함수에 전달하게 할 지역변수 next을 허가합니다. cdr은 목록에서 첫 번째 항목을 그냥 잘라냅니다. 만일 사용자가 부적합한 방향을 입력했다면, next 변수는 nil이 됩니다. cond 명령은 Lisp에서 if-then 명령의 연쇄와 비슷합니다. 각 줄에는 cond가 검사할 값과 할 행동이 있습니다. 이 경우, next location이 nil이 아니라면, setf명령으로 플레이어의 위치는 새 방향을 묘사하고 있는 기호 목록의 목록의 세 번째 항목이 됩니다.</description>
     </item>
     
     <item>
@@ -5689,8 +5707,7 @@ let이라는 특별한 명령이 플레이어가 가기를 원하는 방향을 �
       <pubDate>Tue, 03 Feb 2009 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-1/</guid>
-      <description>라이센스 - The GNU Free Documentation License원저자 - Conrad Barski, M.D.원본 출처 - http://lisperati.com/casting.html&amp;lt;/a&amp;gt;
-어떻게 해서 Lisp가 그렇게 강력한지 궁금해 해 봤나요?이제 그 이유를 알 수 있습니다.그리고 그러기 위해 컴퓨터에 뭘 깔아둬야 할 필요는 없어요! Lisp로 주문(spel) 외기! 저자 : Conrad Barski, M.D.http://LISPERATI.COM/번역자 : 파란미르http://파란미르.com/오탈자, 번역 오류 지적 등은 항상 환영합니다.</description>
+      <description>라이센스 - The GNU Free Documentation License원저자 - Conrad Barski, M.D.원본 출처 - http://lisperati.com/casting.html어떻게 해서 Lisp가 그렇게 강력한지 궁금해 해 봤나요?이제 그 이유를 알 수 있습니다.그리고 그러기 위해 컴퓨터에 뭘 깔아둬야 할 필요는 없어요! Lisp로 주문(spel) 외기! 저자 : Conrad Barski, M.D.http://LISPERATI.COM/번역자 : 파란미르http://파란미르.com/오탈자, 번역 오류 지적 등은 항상 환영합니다.</description>
     </item>
     
     <item>
@@ -5699,8 +5716,7 @@ let이라는 특별한 명령이 플레이어가 가기를 원하는 방향을 �
       <pubDate>Tue, 03 Feb 2009 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-2/</guid>
-      <description>라이센스 - The GNU Free Documentation License원저자 - Conrad Barski, M.D.원본 출처 - http://lisperati.com/casting.html&amp;lt;/a&amp;gt;
-누구든 Lisp로 프로그램을 짜는 걸 배워본 사람이 있다면, 다른 프로그래밍 언어와 매우 다르다고 말할 겁니다. 그건 정말 신기할 정도로 달라요. 이 만화책이 Lisp의 독특한 디자인이 그걸 그렇게 강력하게 만든다는 것을 알게 해 줄겁니 다.
+      <description>라이센스 - The GNU Free Documentation License원저자 - Conrad Barski, M.D.원본 출처 - http://lisperati.com/casting.html누구든 Lisp로 프로그램을 짜는 걸 배워본 사람이 있다면, 다른 프로그래밍 언어와 매우 다르다고 말할 겁니다. 그건 정말 신기할 정도로 달라요. 이 만화책이 Lisp의 독특한 디자인이 그걸 그렇게 강력하게 만든다는 것을 알게 해 줄겁니 다.
 이 강좌에서 쓰이는 매우 작은 Lisp 코드들은 이런 글꼴과 색입니다.간단히 이 부분들을 Lisp컴파일러의 명령줄에 복사해 넣으세요. 그럼 강좌가 끝나는 그 순간 텍스트 어드벤처 게임이 완성될 겁니다!</description>
     </item>
     
@@ -5710,8 +5726,7 @@ let이라는 특별한 명령이 플레이어가 가기를 원하는 방향을 �
       <pubDate>Tue, 03 Feb 2009 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-3/</guid>
-      <description>라이센스 - The GNU Free Documentation License원저자 - Conrad Barski, M.D.원본 출처 - http://lisperati.com/casting.html&amp;lt;/a&amp;gt;
-엄청나게 좋은 Lisp컴파일러가 많이 있지만, 이 강좌를 들으며 쓰기 가장 쉬운 것은 Franz의 Allegro Common Lisp, 매우 강력한 상업용 Lisp입니다. Franz, Inc. 는 친절하게도 텔넷환경을 통해서 사용할 수 있도록 해 주었지요. 여기에 있으니까 컴퓨터에 아무 것도 깔 필요는 없어요. 그냥 이 링크를 클릭하면 원하는 모든 것을 제공해주는 텔넷 화면이 뜰 겁니다! [caption id=&amp;quot;attachment_382&amp;rdquo; align=&amp;quot;alignnone&amp;rdquo; width=&amp;quot;400&amp;rdquo; caption=&amp;quot;telnet화면&amp;rdquo;][/caption] (내가 정말 쓰려고 했던 다른 Lisp는 오픈소스인 CLISP인데, 만일 Lisp랑 더 많은 시간을 보내게 될 걸 안다면 다운받고 싶어질 겁니다.</description>
+      <description>라이센스 - The GNU Free Documentation License원저자 - Conrad Barski, M.D.원본 출처 - http://lisperati.com/casting.html엄청나게 좋은 Lisp컴파일러가 많이 있지만, 이 강좌를 들으며 쓰기 가장 쉬운 것은 Franz의 Allegro Common Lisp, 매우 강력한 상업용 Lisp입니다. Franz, Inc. 는 친절하게도 텔넷환경을 통해서 사용할 수 있도록 해 주었지요. 여기에 있으니까 컴퓨터에 아무 것도 깔 필요는 없어요. 그냥 이 링크를 클릭하면 원하는 모든 것을 제공해주는 텔넷 화면이 뜰 겁니다! [caption id=&amp;quot;attachment_382&amp;rdquo; align=&amp;quot;alignnone&amp;rdquo; width=&amp;quot;400&amp;rdquo; caption=&amp;quot;telnet화면&amp;rdquo;][/caption] (내가 정말 쓰려고 했던 다른 Lisp는 오픈소스인 CLISP인데, 만일 Lisp랑 더 많은 시간을 보내게 될 걸 안다면 다운받고 싶어질 겁니다.</description>
     </item>
     
     <item>
@@ -5720,8 +5735,7 @@ let이라는 특별한 명령이 플레이어가 가기를 원하는 방향을 �
       <pubDate>Tue, 03 Feb 2009 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-4/</guid>
-      <description>라이센스 - The GNU Free Documentation License원저자 - Conrad Barski, M.D.원본 출처 - http://lisperati.com/casting.html&amp;lt;/a&amp;gt;
-모든 컴퓨터 언어는 문법(syntax)과 의미(semantics)로 구성된 코드가 있습니다. 컴퓨터 언어의 문법(syntax)이란 건, 컴파일러가 프로그램에 쓰여있는 게 뭐가 뭔지 알 수 있도록 프로그램을 짤 때 따라야 하는 기본적인 뼈대에요. 그러니까 그게 뭐가 함수고, 뭐가 변수고, 뭐가 뭐고 하는 걸 알 수 있도록 해 주는 거죠. 프로그램에서의 의미(semantics)란 건 아무거나라고 말하는 게 좋겠네요. 가능한 여러가지 서로 다른 명령이라든가, 프로그램의 어디서든 볼 수 있도록 허락한 변수들이라든가 뭐 그런 거.</description>
+      <description>라이센스 - The GNU Free Documentation License원저자 - Conrad Barski, M.D.원본 출처 - http://lisperati.com/casting.html모든 컴퓨터 언어는 문법(syntax)과 의미(semantics)로 구성된 코드가 있습니다. 컴퓨터 언어의 문법(syntax)이란 건, 컴파일러가 프로그램에 쓰여있는 게 뭐가 뭔지 알 수 있도록 프로그램을 짤 때 따라야 하는 기본적인 뼈대에요. 그러니까 그게 뭐가 함수고, 뭐가 변수고, 뭐가 뭐고 하는 걸 알 수 있도록 해 주는 거죠. 프로그램에서의 의미(semantics)란 건 아무거나라고 말하는 게 좋겠네요. 가능한 여러가지 서로 다른 명령이라든가, 프로그램의 어디서든 볼 수 있도록 허락한 변수들이라든가 뭐 그런 거.</description>
     </item>
     
     <item>
@@ -5730,8 +5744,7 @@ let이라는 특별한 명령이 플레이어가 가기를 원하는 방향을 �
       <pubDate>Tue, 03 Feb 2009 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-5/</guid>
-      <description>라이센스 - The GNU Free Documentation License원저자 - Conrad Barski, M.D.원본 출처 - http://lisperati.com/casting.html&amp;lt;/a&amp;gt;
-형식(Form)에 대해 조금 더 배우기 위해, 게임 세계의 데이터를 만드는 형식을 좀 만들어봅시다. 일단은, 게임에는 플레이어가 집어들어 사용할 수 있는 특정 물체들이 있을 겁니다. 이걸 정의해 봅시다.
+      <description>라이센스 - The GNU Free Documentation License원저자 - Conrad Barski, M.D.원본 출처 - http://lisperati.com/casting.html형식(Form)에 대해 조금 더 배우기 위해, 게임 세계의 데이터를 만드는 형식을 좀 만들어봅시다. 일단은, 게임에는 플레이어가 집어들어 사용할 수 있는 특정 물체들이 있을 겁니다. 이걸 정의해 봅시다.
 (setf objects &amp;lsquo;(whiskey-bottle bucket frog chain))좋아요. 이제 이 줄이 뭘 의미하는지 해부해 봅시다. Lisp 컴파일러는 항상 코드 모드로 읽기 시작하고 형식을 기대하기 때문에, 첫번째 기호-setf-는 명령어가 되어야 합니다. 이 경우, 명령어는 변수에 값을 지정합니다.</description>
     </item>
     
@@ -5741,8 +5754,7 @@ let이라는 특별한 명령이 플레이어가 가기를 원하는 방향을 �
       <pubDate>Tue, 03 Feb 2009 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-6/</guid>
-      <description>라이센스 - The GNU Free Documentation License원저자 - Conrad Barski, M.D.원본 출처 - http://lisperati.com/casting.html&amp;lt;/a&amp;gt;
-만들어볼 첫 명령은 지금 서 있는 장소에 대해 말해줄 명령입니다. 그러니 함수가 그 장소에 대해 묘사하기 위해 필요한 게 뭘까요?
+      <description>라이센스 - The GNU Free Documentation License원저자 - Conrad Barski, M.D.원본 출처 - http://lisperati.com/casting.html만들어볼 첫 명령은 지금 서 있는 장소에 대해 말해줄 명령입니다. 그러니 함수가 그 장소에 대해 묘사하기 위해 필요한 게 뭘까요?
 에, 묘사할 장소에 대해 알아야 하고, 지도에서 그게 어디에 있는지를 찾을 수 있어야겠죠. 여기 함수가 있고요, 그건 바로 그렇게 동작합니다. (defun describe-location (location map) (second (assoc location map)))defun이라고 하는 단어는 예상대로, 함수를 선언하고 있습니다. 함수의 이름은 describe-location이고 두 개의 인수를 받습니다.</description>
     </item>
     
@@ -5881,7 +5893,7 @@ let이라는 특별한 명령이 플레이어가 가기를 원하는 방향을 �
       <pubDate>Sun, 11 Jan 2009 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2009/01/%EC%8B%A0%EA%B8%B0%ED%95%9C-%EB%A7%81%ED%81%AC-%EB%AA%87-%EA%B0%9C/</guid>
-      <description>http://www.textflow.com/&amp;lt;/a&amp;gt; 첫 화면에 있는 1분짜리 동영상을 보면 안다. 플래쉬의 미래는 밝을지도? 굉장해&amp;hellip; http://www.pixel2life.com/&amp;lt;/a&amp;gt; 그래픽 관련의 팁이 모여있는 사이트? 그런 듯. 참 쉽죠?따위의 말을 하는 것 같다.</description>
+      <description>http://www.textflow.com/첫 화면에 있는 1분짜리 동영상을 보면 안다. 플래쉬의 미래는 밝을지도? 굉장해&amp;hellip; http://www.pixel2life.com/그래픽 관련의 팁이 모여있는 사이트? 그런 듯. 참 쉽죠?따위의 말을 하는 것 같다.</description>
     </item>
     
     <item>
@@ -5955,7 +5967,7 @@ let이라는 특별한 명령이 플레이어가 가기를 원하는 방향을 �
       <pubDate>Mon, 08 Dec 2008 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2008/12/</guid>
-      <description>아마도 원인은 이 아래 링크 http://kldp.org/node/92618&amp;lt;/a&amp;gt; 따라서, extern키워드를 활용하도록 한다!</description>
+      <description>아마도 원인은 이 아래 링크 http://kldp.org/node/92618따라서, extern키워드를 활용하도록 한다!</description>
     </item>
     
     <item>
@@ -5964,8 +5976,7 @@ let이라는 특별한 명령이 플레이어가 가기를 원하는 방향을 �
       <pubDate>Mon, 08 Dec 2008 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2008/12/Edit-plus-sftp-%EB%AC%B8%EC%A0%9C/</guid>
-      <description>http://quiin.com/13&amp;lt;/a&amp;gt;
-이 설명은 데비안이지만, 당연히 우분투에서도 그대로 된다.</description>
+      <description>http://quiin.com/13이 설명은 데비안이지만, 당연히 우분투에서도 그대로 된다.</description>
     </item>
     
     <item>
@@ -6011,9 +6022,7 @@ let이라는 특별한 명령이 플레이어가 가기를 원하는 방향을 �
       <pubDate>Mon, 01 Dec 2008 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2008/12/%EC%9A%B0%EB%B6%84%ED%88%AC-%EC%99%B8%EB%B6%80-%EC%A0%91%EC%86%8D-%EB%AC%B8%EC%A0%9C/</guid>
-      <description>텔넷이고 SSH고 ftp고 간에 하나도 외부에서는 접속이 되지 않는 것을 발견, 원인을 애타게 찾다가 다음 링크에서 대충의 힌트를 발견. http://kldp.org/node/19990&amp;lt;/a&amp;gt;
-IPTABLE 에 대한 설명 http://www.i-swear.com/148&amp;lt;/a&amp;gt;
-sudo iptables-save
+      <description>텔넷이고 SSH고 ftp고 간에 하나도 외부에서는 접속이 되지 않는 것을 발견, 원인을 애타게 찾다가 다음 링크에서 대충의 힌트를 발견. http://kldp.org/node/19990IPTABLE 에 대한 설명 http://www.i-swear.com/148sudo iptables-save
 &amp;hellip;&amp;hellip;&amp;hellip;..하지만 다 소용 없었다.
 그냥 sudo reboot 몇 번 하니 해결.
 &amp;hellip;&amp;hellip;.. 뭐지 대체 뭐지.
@@ -6026,7 +6035,7 @@ sudo iptables-save
       <pubDate>Sat, 29 Nov 2008 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2008/11/Ubuntu-Apache2-%EC%82%AC%EC%9A%A9%EC%9E%90%EB%B3%84-%EC%9B%B9-%EB%94%94%EB%A0%89%ED%86%A0%EB%A6%AC-%EC%84%A4%EC%A0%95/</guid>
-      <description>http://leeted.egloos.com/1489000&amp;lt;/a&amp;gt; 위 링크 참고 했음.
+      <description>http://leeted.egloos.com/1489000위 링크 참고 했음.
 콘솔에서 입력.
 cd /etc/apache2/mods-available sudo cp userdir.conf userdir.load /etc/apache2/mods-enabled sudo /etc/init.d/apache2 restart
 이후, 각 유자가 자기 홈 디렉 토리에다 public_html을 만들어주면 된다. 아래와 같은 식? cd ~ mkdir public_html public_html 디렉토리 아래에 index.html 생성</description>
@@ -6060,8 +6069,7 @@ cd /etc/apache2/mods-available sudo cp userdir.conf userdir.load /etc/apache2/mo
       
       <guid>https://ezaurum.com/2008/11/lsocket-%EC%98%B5%EC%85%98%EC%97%90%EC%84%9C-%EC%97%90%EB%9F%AC%EA%B0%80-%EB%82%A0-%EB%95%8C/</guid>
       <description>소켓 프로그래밍을 하는데 프린트물에 있는 대로 -lsocket 옵션을 주니 계속 cc 가 에러를 뱉었다.
-http://kldp.org/node/1377&amp;lt;/a&amp;gt;
-결론은 Sun 계열 유닉스에서 작업하는 게 아니면, -lnsl -lsocket 옵션을 주지 말고 컴파일하라는 것.한참 헤매다가 답 발견. 학교 서버가 sun 계열이라 그런 듯.</description>
+http://kldp.org/node/1377결론은 Sun 계열 유닉스에서 작업하는 게 아니면, -lnsl -lsocket 옵션을 주지 말고 컴파일하라는 것.한참 헤매다가 답 발견. 학교 서버가 sun 계열이라 그런 듯.</description>
     </item>
     
     <item>
@@ -6097,8 +6105,8 @@ http://kldp.org/node/1377&amp;lt;/a&amp;gt;
       <pubDate>Mon, 24 Nov 2008 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2008/11/SmartFTP%EC%97%90%EC%84%9C-%EB%94%94%EB%A0%89%ED%86%A0%EB%A6%AC-%EB%AA%A9%EB%A1%9D-%EC%95%88-%EB%B3%B4%EC%9D%B4%EB%8A%94-%EB%AC%B8%EC%A0%9C/</guid>
-      <description>http://kldp.org/node/34348&amp;lt;/a&amp;gt; 파일질라와 같은 문제인 듯. XP로 ALftp로 윈도우 환경에서 서버를 돌리고 있는데, 다른 컴에서 smartftp로 접속하면 디렉토리 목록이 보이지 않는다. raw목록을 보면 제대로 받아오고 있긴 한데, 한글 주소는 아예 접근이 안되고, 해서 여러가지 알아본 바.
-http://www.smartftp.com/support/kb/no-files-folders-are-being-being-displayed-f48.html&amp;lt;/a&amp;gt; 일단 이건 소용없었고. 그 아래, MLSD란 걸 사용 안 함으로 해 줘야 한다. [caption id=&amp;quot;attachment_212&amp;rdquo; align=&amp;quot;alignnone&amp;rdquo; width=&amp;quot;300&amp;rdquo; caption=&amp;quot;디렉토리 목록이 나오지 않는 서버의 링크-즐겨찾기에 있을 거다-에서 오른쪽 버튼을 누르고, 속성으로 들어간다. 누르면 크게 볼 수 있음.</description>
+      <description>http://kldp.org/node/34348파일질라와 같은 문제인 듯. XP로 ALftp로 윈도우 환경에서 서버를 돌리고 있는데, 다른 컴에서 smartftp로 접속하면 디렉토리 목록이 보이지 않는다. raw목록을 보면 제대로 받아오고 있긴 한데, 한글 주소는 아예 접근이 안되고, 해서 여러가지 알아본 바.
+http://www.smartftp.com/support/kb/no-files-folders-are-being-being-displayed-f48.html일단 이건 소용없었고. 그 아래, MLSD란 걸 사용 안 함으로 해 줘야 한다. [caption id=&amp;quot;attachment_212&amp;rdquo; align=&amp;quot;alignnone&amp;rdquo; width=&amp;quot;300&amp;rdquo; caption=&amp;quot;디렉토리 목록이 나오지 않는 서버의 링크-즐겨찾기에 있을 거다-에서 오른쪽 버튼을 누르고, 속성으로 들어간다. 누르면 크게 볼 수 있음.&amp;quot;][/caption] [caption id=&amp;quot;attachment_213&amp;rdquo; align=&amp;quot;alignnone&amp;rdquo; width=&amp;quot;300&amp;rdquo; caption=&amp;quot;거기서 FTP 항목의 전송 항목을 클릭.</description>
     </item>
     
     <item>
@@ -6138,11 +6146,10 @@ printf(&amp;quot;%dn&amp;quot;,sizeof(pp));printf(&amp;quot;%dn&amp;quot;,*(int
       <pubDate>Mon, 17 Nov 2008 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2008/11/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%82%BD%EC%A7%88%EA%B8%B0-3/</guid>
-      <description>일단 gcc를 써 보자. 라고 생각해서 간단히 짜고 컴파일을 해보는데, 계속 에러. 구글링을 통해 해법을 찾았다. http://dantes.kr/blog/320&amp;lt;/a&amp;gt; 이 설명에서는 CD를 요구한다는데. 일단 8.10에서는 필요 없는듯?
+      <description>일단 gcc를 써 보자. 라고 생각해서 간단히 짜고 컴파일을 해보는데, 계속 에러. 구글링을 통해 해법을 찾았다. http://dantes.kr/blog/320이 설명에서는 CD를 요구한다는데. 일단 8.10에서는 필요 없는듯?
 일단 이러고 나서, gcc 파일이름 이렇게 치면, 컴파일은 되는데, 실행이 안된다.
 왜?
-참고글 - http://wiki.kldp.org/KoreanDoc/html/gcc_and_make/gcc_and_make.html#toc2&amp;lt;/a&amp;gt;
-리눅스는 $ ./a.out 라는 식으로 실행해야 함.</description>
+참고글 - http://wiki.kldp.org/KoreanDoc/html/gcc_and_make/gcc_and_make.html#toc2리눅스는 $ ./a.out 라는 식으로 실행해야 함.</description>
     </item>
     
     <item>
@@ -6152,8 +6159,7 @@ printf(&amp;quot;%dn&amp;quot;,sizeof(pp));printf(&amp;quot;%dn&amp;quot;,*(int
       
       <guid>https://ezaurum.com/2008/11/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%82%BD%EC%A7%88%EA%B8%B0-2/</guid>
       <description>지난 번에 리눅스를 깔아놓기만 한 PC가 팔려나가 버려서, 다른 PC에 깔게 되었다. 이번에는 버전업 된 우분투 8.10을 설치. 32비트 버전이다.
-일단 텔넷을 깔아야 하므로 아래의 참고 링크. 설치법 - http://eloid.tistory.com/21&amp;lt;/a&amp;gt; 텔넷 포트 바꾸기 - http://rustymind.egloos.com/3310669&amp;lt;/a&amp;gt;
-오늘은 여기까지</description>
+일단 텔넷을 깔아야 하므로 아래의 참고 링크. 설치법 - http://eloid.tistory.com/21텔넷 포트 바꾸기 - http://rustymind.egloos.com/3310669오늘은 여기까지</description>
     </item>
     
     <item>
@@ -6441,8 +6447,7 @@ A : 너 어제 누구랑 있었어! 왜 전화를 안 받아! 다른 남자가 �
       <pubDate>Mon, 22 Sep 2008 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2008/09/%EB%A1%9C%EB%A6%AC%EC%BD%98%EC%9D%80-%EC%B9%98%EB%A3%8C%EB%90%A0-%EC%88%98-%EC%9E%88%EB%8B%A4/</guid>
-      <description>http://arkleode.egloos.com/3845728&amp;lt;/a&amp;gt;
-&amp;hellip;웃다가 숨넘어갈 뻔 함.</description>
+      <description>http://arkleode.egloos.com/3845728&amp;hellip;웃다가 숨넘어갈 뻔 함.</description>
     </item>
     
     <item>
@@ -6570,7 +6575,7 @@ A : 너 어제 누구랑 있었어! 왜 전화를 안 받아! 다른 남자가 �
       <pubDate>Sat, 19 Jul 2008 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2008/07/Virtual-Box/</guid>
-      <description>http://feryjunaedi.wordpress.com/2008/05/15/installing-virtualbox/&amp;lt;/a&amp;gt;</description>
+      <description>http://feryjunaedi.wordpress.com/2008/05/15/installing-virtualbox/</description>
     </item>
     
     <item>
@@ -6597,7 +6602,7 @@ A : 너 어제 누구랑 있었어! 왜 전화를 안 받아! 다른 남자가 �
       <pubDate>Thu, 17 Jul 2008 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2008/07/XP-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8-%EB%A7%81%ED%81%AC%EB%93%A4/</guid>
-      <description>http://www.microsoft.com/downloads/details.aspx?displaylang=ko&amp;amp;amp;FamilyID=5b33b5a8-5e76-401f-be08-1e1555d4f3d4&amp;lt;/a&amp;gt; http://www.microsoft.com/downloads/details.aspx?displaylang=ko&amp;amp;amp;FamilyID=2da43d38-db71-4c1b-bc6a-9b6652cd92a3&amp;lt;/a&amp;gt; http://www.microsoft.com/downloads/details.aspx?displaylang=ko&amp;amp;amp;FamilyID=889482fc-5f56-4a38-b838-de776fd4138c&amp;lt;/a&amp;gt; http://www.microsoft.com/downloads/details.aspx?FamilyID=333325fd-ae52-4e35-b531-508d977d32a6&amp;amp;amp;DisplayLang=ko&amp;lt;/a&amp;gt;</description>
+      <description>http://www.microsoft.com/downloads/details.aspx?displaylang=ko&amp;amp;amp;FamilyID=5b33b5a8-5e76-401f-be08-1e1555d4f3d4http://www.microsoft.com/downloads/details.aspx?displaylang=ko&amp;amp;amp;FamilyID=2da43d38-db71-4c1b-bc6a-9b6652cd92a3http://www.microsoft.com/downloads/details.aspx?displaylang=ko&amp;amp;amp;FamilyID=889482fc-5f56-4a38-b838-de776fd4138chttp://www.microsoft.com/downloads/details.aspx?FamilyID=333325fd-ae52-4e35-b531-508d977d32a6&amp;amp;amp;DisplayLang=ko</description>
     </item>
     
     <item>
@@ -6911,7 +6916,7 @@ DDR 램 4개는 램디스크를 위한 것. 다나와에서는 램디스크 모�
       <pubDate>Thu, 18 Oct 2007 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2007/10/%EC%84%B8%EC%83%81%EC%9D%80-%EA%B0%9C%EA%B7%B8%EB%A1%9C-%EA%B0%80%EB%93%9D-%EC%B0%A8-%EC%9E%88%EC%96%B4/</guid>
-      <description>http://plznoname.springnote.com/pages/536924&amp;lt;/a&amp;gt; http://docs.google.com/View?docid=dff9cdbg_1dv882c 대단하다. 대한민국.</description>
+      <description>http://plznoname.springnote.com/pages/536924http://docs.google.com/View?docid=dff9cdbg_1dv882c 대단하다. 대한민국.</description>
     </item>
     
     <item>
@@ -7007,8 +7012,7 @@ DDR 램 4개는 램디스크를 위한 것. 다나와에서는 램디스크 모�
       
       <guid>https://ezaurum.com/2007/08/%EC%B2%9C%EC%9B%90%EB%8F%8C%ED%8C%8C-%EA%B7%B8%EB%A0%8C%EB%9D%BC%EA%B0%84-21%ED%99%94.../</guid>
       <description>니네들이 짱먹어라 가이낙스
-아이를 성장시킨 것도 모자라서, 존재감 없던 엑스트라는 악역으로 바꿔주고, 누님에 선생 속성을 더하고, 라이벌-좀 약하긴 하지만-은 아군으로 끌어온다. ㅠ.ㅠ 아아&amp;hellip; 이게 소년만화지.
-http://dory.mncast.com/mncHMovie.swf?movieID=10050784920070820122347&amp;amp;#038;skinNum=1&amp;lt;/a&amp;gt;</description>
+아이를 성장시킨 것도 모자라서, 존재감 없던 엑스트라는 악역으로 바꿔주고, 누님에 선생 속성을 더하고, 라이벌-좀 약하긴 하지만-은 아군으로 끌어온다. ㅠ.ㅠ 아아&amp;hellip; 이게 소년만화지.</description>
     </item>
     
     <item>

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang='ko-kr'>
+<head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-40920966-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-40920966-1');
+</script>
+
+
+    <title>   쿠키에 대한 정리 -  Ezaurum&#39;s Blog </title>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+    
+    
+
+    <meta itemprop="name" content="쿠키에 대한 정리">
+<meta itemprop="description" content="MDN 문서
+  Max-Age가 있으면 퍼시스턴스 쿠키(지정 시간까지 유효), 없으면 세션 쿠키(브라우저 닫힐 때 없어짐). 값이 0이나 음수면 쿠키가 삭제됨.
+  HttpOnly를 true로 두면 클라이언트에서 읽을 수 없음
+  Expires는 구버전(IE등)을 위한 것, Max-Age를 쓰자 쿠키에서 Max-Age와 Expires의 차이
+  메인 도메인을 지정하면 서브도메인도 매칭된다.
+  Secure는 HTTPS를 강제한다
+  Path 는 /를 쓰면 하위 매칭
+  도메인당 쿠키는 50개 이하, 최대 4KiB(실제로는 4000byte 라고 생각하는 게 편함) 으로 두는게 구형 브라우저에서도 문제가 없다.">
+<meta itemprop="datePublished" content="2020-03-04T16:04:22&#43;09:00" />
+<meta itemprop="dateModified" content="2020-03-04T16:04:22&#43;09:00" />
+<meta itemprop="wordCount" content="77">
+
+
+
+<meta itemprop="keywords" content="정리,cookie,web," />
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="쿠키에 대한 정리"/>
+<meta name="twitter:description" content="MDN 문서
+  Max-Age가 있으면 퍼시스턴스 쿠키(지정 시간까지 유효), 없으면 세션 쿠키(브라우저 닫힐 때 없어짐). 값이 0이나 음수면 쿠키가 삭제됨.
+  HttpOnly를 true로 두면 클라이언트에서 읽을 수 없음
+  Expires는 구버전(IE등)을 위한 것, Max-Age를 쓰자 쿠키에서 Max-Age와 Expires의 차이
+  메인 도메인을 지정하면 서브도메인도 매칭된다.
+  Secure는 HTTPS를 강제한다
+  Path 는 /를 쓰면 하위 매칭
+  도메인당 쿠키는 50개 이하, 최대 4KiB(실제로는 4000byte 라고 생각하는 게 편함) 으로 두는게 구형 브라우저에서도 문제가 없다."/>
+
+    <meta property="og:title" content="쿠키에 대한 정리" />
+<meta property="og:description" content="MDN 문서
+  Max-Age가 있으면 퍼시스턴스 쿠키(지정 시간까지 유효), 없으면 세션 쿠키(브라우저 닫힐 때 없어짐). 값이 0이나 음수면 쿠키가 삭제됨.
+  HttpOnly를 true로 두면 클라이언트에서 읽을 수 없음
+  Expires는 구버전(IE등)을 위한 것, Max-Age를 쓰자 쿠키에서 Max-Age와 Expires의 차이
+  메인 도메인을 지정하면 서브도메인도 매칭된다.
+  Secure는 HTTPS를 강제한다
+  Path 는 /를 쓰면 하위 매칭
+  도메인당 쿠키는 50개 이하, 최대 4KiB(실제로는 4000byte 라고 생각하는 게 편함) 으로 두는게 구형 브라우저에서도 문제가 없다." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ezaurum.com/2020/03/%EC%BF%A0%ED%82%A4%EC%97%90-%EB%8C%80%ED%95%9C-%EC%A0%95%EB%A6%AC/" />
+<meta property="article:published_time" content="2020-03-04T16:04:22+09:00" />
+<meta property="article:modified_time" content="2020-03-04T16:04:22+09:00" />
+
+    
+
+</head>
+<body>
+
+    <header>
+    <nav>
+    
+        <a href="https://ezaurum.com/about/">About</a>
+    
+        <a href="https://ezaurum.com/">Ezaurum&#39;s Blog</a>
+    
+    <a href="/bug">버그일기</a>
+    <a href="/retrospective">회고</a>
+</nav>
+
+</header>
+
+
+
+
+<main class="post single">
+<h1>쿠키에 대한 정리</h1>
+2020-03-04
+<section><p><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie">MDN 문서</a></p>
+<ol>
+<li>
+<p><code>Max-Age</code>가 있으면 퍼시스턴스 쿠키(지정 시간까지 유효), 없으면 세션 쿠키(브라우저 닫힐 때 없어짐). 값이 0이나 음수면 쿠키가 삭제됨.</p>
+</li>
+<li>
+<p><code>HttpOnly</code>를 true로 두면 클라이언트에서 읽을 수 없음</p>
+</li>
+<li>
+<p><code>Expires</code>는 구버전(IE등)을 위한 것, <code>Max-Age</code>를 쓰자
+<a href="https://mrcoles.com/blog/cookies-max-age-vs-expires/">쿠키에서 Max-Age와 Expires의 차이</a></p>
+</li>
+<li>
+<p>메인 도메인을 지정하면 서브도메인도 매칭된다.</p>
+</li>
+<li>
+<p><code>Secure</code>는 HTTPS를 강제한다</p>
+</li>
+<li>
+<p><code>Path</code> 는 <code>/</code>를 쓰면 하위 매칭</p>
+</li>
+<li>
+<p>도메인당 쿠키는 50개 이하, 최대 4KiB(실제로는 4000byte 라고 생각하는 게 편함) 으로 두는게 구형 브라우저에서도 문제가 없다. 실제론 이것보다 더 쓸 수 있다.
+<a href="https://stackoverflow.com/questions/640938/what-is-the-maximum-size-of-a-web-browsers-cookies-key">브라우저 쿠키의 최대 크기</a></p>
+</li>
+</ol>
+</section>
+
+
+<ul class="taxonomy category">
+    Category
+    
+    <li><a href="/categories/%EC%A0%95%EB%A6%AC">정리</a></li>
+    </ul>
+</ul>
+
+
+
+    <ul class="taxonomy tag">
+        Tag
+        
+        <li><a href="/tags/%EC%A0%95%EB%A6%AC">정리</a></li>
+        
+        <li><a href="/tags/cookie">cookie</a></li>
+        
+        <li><a href="/tags/web">web</a></li>
+        </ul>
+    </ul>
+
+
+
+
+<a href="https://ezaurum.com/recipe/install-arch-linux-desktop/">Install Arch Linux - 데스크탑 환경설정</a>
+
+
+
+
+
+    <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "ezaurum" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3471055249244195"
+     data-ad-slot="7282877318"
+     data-ad-format="auto"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+</main>
+
+
+
+    <footer>
+© Ezaurum 2001-
+</footer>
+
+
+
+
+
+    <script>
+
+</script>
+
+
+</body>
+</html>

@@ -7,10 +7,26 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Mon, 04 Jun 2012 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Mar 2020 16:04:22 +0900</lastBuildDate>
     
 	<atom:link href="https://ezaurum.com/tags/cookie/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>쿠키에 대한 정리</title>
+      <link>https://ezaurum.com/2020/03/%EC%BF%A0%ED%82%A4%EC%97%90-%EB%8C%80%ED%95%9C-%EC%A0%95%EB%A6%AC/</link>
+      <pubDate>Wed, 04 Mar 2020 16:04:22 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/2020/03/%EC%BF%A0%ED%82%A4%EC%97%90-%EB%8C%80%ED%95%9C-%EC%A0%95%EB%A6%AC/</guid>
+      <description>MDN 문서
+  Max-Age가 있으면 퍼시스턴스 쿠키(지정 시간까지 유효), 없으면 세션 쿠키(브라우저 닫힐 때 없어짐). 값이 0이나 음수면 쿠키가 삭제됨.
+  HttpOnly를 true로 두면 클라이언트에서 읽을 수 없음
+  Expires는 구버전(IE등)을 위한 것, Max-Age를 쓰자 쿠키에서 Max-Age와 Expires의 차이
+  메인 도메인을 지정하면 서브도메인도 매칭된다.
+  Secure는 HTTPS를 강제한다
+  Path 는 /를 쓰면 하위 매칭
+  도메인당 쿠키는 50개 이하, 최대 4KiB(실제로는 4000byte 라고 생각하는 게 편함) 으로 두는게 구형 브라우저에서도 문제가 없다.</description>
+    </item>
     
     <item>
       <title>Filter의 사용</title>

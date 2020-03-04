@@ -770,7 +770,7 @@ JS 소품 하나, Servlet으로 만든 API 두 개, JSP로 대충 게시판 하�
       <pubDate>Mon, 11 Apr 2011 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2011/04/4829-3/</guid>
-      <description>시류를 타서 유입량을 늘려볼까 하는 포스팅 자세한 설명은 아래 두 링크를 참조 http://kldp.org/node/122519&amp;lt;/a&amp;gt; http://seomindang.com/900&amp;lt;/a&amp;gt; 논쟁의 끝은 키배로 정해진 것은 아니지만, 여기저기서 키배가 벌어지고 있다. 시끄러워서 싫다는 분들도 많지만, 개인적으로-그리 바람직한 취향은 아니겠지만- 키배 구경은 즐기는 편이고, 논쟁과는 상관없이 여하튼 꽤 바람직한 결과물을 얻었다. 일단 러셀 공리라는 걸 들어는 보게 되었고, 이것저것 단어 의미도 좀 명확히 이해하게 되었고, 누군가 설득하려고 애쓰는 사람들이 내세우는 다양한 논리는 뇌에 자극을 준다. 좋다. 노이즈가 많이 끼어서 걸러 봐야 하긴 하지만&amp;hellip; 그건 평소에도 그렇지 않나.</description>
+      <description>시류를 타서 유입량을 늘려볼까 하는 포스팅 자세한 설명은 아래 두 링크를 참조 http://kldp.org/node/122519http://seomindang.com/900논쟁의 끝은 키배로 정해진 것은 아니지만, 여기저기서 키배가 벌어지고 있다. 시끄러워서 싫다는 분들도 많지만, 개인적으로-그리 바람직한 취향은 아니겠지만- 키배 구경은 즐기는 편이고, 논쟁과는 상관없이 여하튼 꽤 바람직한 결과물을 얻었다. 일단 러셀 공리라는 걸 들어는 보게 되었고, 이것저것 단어 의미도 좀 명확히 이해하게 되었고, 누군가 설득하려고 애쓰는 사람들이 내세우는 다양한 논리는 뇌에 자극을 준다. 좋다. 노이즈가 많이 끼어서 걸러 봐야 하긴 하지만&amp;hellip; 그건 평소에도 그렇지 않나.</description>
     </item>
     
     <item>
@@ -788,8 +788,7 @@ JS 소품 하나, Servlet으로 만든 API 두 개, JSP로 대충 게시판 하�
       <pubDate>Tue, 08 Mar 2011 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2011/03/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EC%97%90%EC%84%9C-%EC%B9%B4%EC%9A%B4%ED%8A%B8%EB%8B%A4%EC%9A%B4-%ED%83%80%EC%9D%B4%EB%A8%B8%EB%A5%BC-%EB%A7%8C%EB%93%A4-%EB%95%8C-%EC%9C%A0%EC%9D%98%EC%A0%90/</guid>
-      <description>영문 - http://ejohn.org/blog/how-javascript-timers-work/&amp;lt;/a&amp;gt; 한글 - http://okjungsoo.tistory.com/entry/JavaScript-Timer&amp;lt;/a&amp;gt;
-뽀모도로 타이머를 만들던 중, setInterval을 이용하여 코드를 짜니 25분 짜리 타이머에서 한 15초 가량 오차가 나는 것을 발견, 이리저리 뒤지자 이런 것이 나왔다.
+      <description>영문 - http://ejohn.org/blog/how-javascript-timers-work/한글 - http://okjungsoo.tistory.com/entry/JavaScript-Timer뽀모도로 타이머를 만들던 중, setInterval을 이용하여 코드를 짜니 25분 짜리 타이머에서 한 15초 가량 오차가 나는 것을 발견, 이리저리 뒤지자 이런 것이 나왔다.
 간단한 결론은, 오차가 적어야 하는 상황이면 setTimeout을 쓰라는 것.setTimeout을 쓴다고 해도 그래도 오차가 없어지지는 않음&amp;hellip;.(new Date()).getMillisecond()를 쓰면 시각 자체에 대한 정확성은 그래도 어느 정도까지는 보장할 수 있을테니까 그것으로 타협.타이머 성능 관련 링크</description>
     </item>
     
@@ -2246,7 +2245,7 @@ window.open(&amp;ldquo;title&amp;rdquo;, &amp;ldquo;frameName&amp;rdquo;, &amp;l
       <pubDate>Sun, 11 Jan 2009 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2009/01/%EC%8B%A0%EA%B8%B0%ED%95%9C-%EB%A7%81%ED%81%AC-%EB%AA%87-%EA%B0%9C/</guid>
-      <description>http://www.textflow.com/&amp;lt;/a&amp;gt; 첫 화면에 있는 1분짜리 동영상을 보면 안다. 플래쉬의 미래는 밝을지도? 굉장해&amp;hellip; http://www.pixel2life.com/&amp;lt;/a&amp;gt; 그래픽 관련의 팁이 모여있는 사이트? 그런 듯. 참 쉽죠?따위의 말을 하는 것 같다.</description>
+      <description>http://www.textflow.com/첫 화면에 있는 1분짜리 동영상을 보면 안다. 플래쉬의 미래는 밝을지도? 굉장해&amp;hellip; http://www.pixel2life.com/그래픽 관련의 팁이 모여있는 사이트? 그런 듯. 참 쉽죠?따위의 말을 하는 것 같다.</description>
     </item>
     
     <item>
@@ -2322,7 +2321,7 @@ window.open(&amp;ldquo;title&amp;rdquo;, &amp;ldquo;frameName&amp;rdquo;, &amp;l
       <pubDate>Sat, 29 Nov 2008 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2008/11/Ubuntu-Apache2-%EC%82%AC%EC%9A%A9%EC%9E%90%EB%B3%84-%EC%9B%B9-%EB%94%94%EB%A0%89%ED%86%A0%EB%A6%AC-%EC%84%A4%EC%A0%95/</guid>
-      <description>http://leeted.egloos.com/1489000&amp;lt;/a&amp;gt; 위 링크 참고 했음.
+      <description>http://leeted.egloos.com/1489000위 링크 참고 했음.
 콘솔에서 입력.
 cd /etc/apache2/mods-available sudo cp userdir.conf userdir.load /etc/apache2/mods-enabled sudo /etc/init.d/apache2 restart
 이후, 각 유자가 자기 홈 디렉 토리에다 public_html을 만들어주면 된다. 아래와 같은 식? cd ~ mkdir public_html public_html 디렉토리 아래에 index.html 생성</description>
@@ -2548,8 +2547,7 @@ cd /etc/apache2/mods-available sudo cp userdir.conf userdir.load /etc/apache2/mo
       <pubDate>Mon, 22 Sep 2008 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2008/09/%EB%A1%9C%EB%A6%AC%EC%BD%98%EC%9D%80-%EC%B9%98%EB%A3%8C%EB%90%A0-%EC%88%98-%EC%9E%88%EB%8B%A4/</guid>
-      <description>http://arkleode.egloos.com/3845728&amp;lt;/a&amp;gt;
-&amp;hellip;웃다가 숨넘어갈 뻔 함.</description>
+      <description>http://arkleode.egloos.com/3845728&amp;hellip;웃다가 숨넘어갈 뻔 함.</description>
     </item>
     
     <item>
@@ -2636,7 +2634,7 @@ cd /etc/apache2/mods-available sudo cp userdir.conf userdir.load /etc/apache2/mo
       <pubDate>Sat, 19 Jul 2008 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2008/07/Virtual-Box/</guid>
-      <description>http://feryjunaedi.wordpress.com/2008/05/15/installing-virtualbox/&amp;lt;/a&amp;gt;</description>
+      <description>http://feryjunaedi.wordpress.com/2008/05/15/installing-virtualbox/</description>
     </item>
     
     <item>
@@ -2654,7 +2652,7 @@ cd /etc/apache2/mods-available sudo cp userdir.conf userdir.load /etc/apache2/mo
       <pubDate>Thu, 17 Jul 2008 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2008/07/XP-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8-%EB%A7%81%ED%81%AC%EB%93%A4/</guid>
-      <description>http://www.microsoft.com/downloads/details.aspx?displaylang=ko&amp;amp;amp;FamilyID=5b33b5a8-5e76-401f-be08-1e1555d4f3d4&amp;lt;/a&amp;gt; http://www.microsoft.com/downloads/details.aspx?displaylang=ko&amp;amp;amp;FamilyID=2da43d38-db71-4c1b-bc6a-9b6652cd92a3&amp;lt;/a&amp;gt; http://www.microsoft.com/downloads/details.aspx?displaylang=ko&amp;amp;amp;FamilyID=889482fc-5f56-4a38-b838-de776fd4138c&amp;lt;/a&amp;gt; http://www.microsoft.com/downloads/details.aspx?FamilyID=333325fd-ae52-4e35-b531-508d977d32a6&amp;amp;amp;DisplayLang=ko&amp;lt;/a&amp;gt;</description>
+      <description>http://www.microsoft.com/downloads/details.aspx?displaylang=ko&amp;amp;amp;FamilyID=5b33b5a8-5e76-401f-be08-1e1555d4f3d4http://www.microsoft.com/downloads/details.aspx?displaylang=ko&amp;amp;amp;FamilyID=2da43d38-db71-4c1b-bc6a-9b6652cd92a3http://www.microsoft.com/downloads/details.aspx?displaylang=ko&amp;amp;amp;FamilyID=889482fc-5f56-4a38-b838-de776fd4138chttp://www.microsoft.com/downloads/details.aspx?FamilyID=333325fd-ae52-4e35-b531-508d977d32a6&amp;amp;amp;DisplayLang=ko</description>
     </item>
     
     <item>
@@ -2881,7 +2879,7 @@ DDR 램 4개는 램디스크를 위한 것. 다나와에서는 램디스크 모�
       <pubDate>Thu, 18 Oct 2007 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2007/10/%EC%84%B8%EC%83%81%EC%9D%80-%EA%B0%9C%EA%B7%B8%EB%A1%9C-%EA%B0%80%EB%93%9D-%EC%B0%A8-%EC%9E%88%EC%96%B4/</guid>
-      <description>http://plznoname.springnote.com/pages/536924&amp;lt;/a&amp;gt; http://docs.google.com/View?docid=dff9cdbg_1dv882c 대단하다. 대한민국.</description>
+      <description>http://plznoname.springnote.com/pages/536924http://docs.google.com/View?docid=dff9cdbg_1dv882c 대단하다. 대한민국.</description>
     </item>
     
     <item>

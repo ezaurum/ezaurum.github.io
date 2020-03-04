@@ -40,8 +40,7 @@
       <pubDate>Tue, 12 May 2009 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2009/05/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-8/</guid>
-      <description>라이센스 - The GNU Free Documentation License원저자 - Conrad Barski, M.D.원본 출처 - http://lisperati.com/casting.html&amp;lt;/a&amp;gt;
-이제 Lisp의 믿을 수 없을 만큼 강력한 기능을 배워 볼 겁니다. 바로 SPEL(주문)만들기지요! SPEL 은 &amp;ldquo;Semantic Program Enhancement Logic&amp;quot;의 줄임말이고 컴퓨터 코드의 세계 안에서 Lisp언어를 우리 필요에 따라 개조하기 위해 가장 기초적인 수준까지 바꾸는 행동을 만드는 걸 가능케 해 줍니다. - 이게 Lisp에서 가장 마술처럼 보이는 부분이지요. SPEL을 가능하게 하기 위해, 일단 Lisp 컴파일러에서 SPEL을 활성화 할 필요가 있습니다.</description>
+      <description>라이센스 - The GNU Free Documentation License원저자 - Conrad Barski, M.D.원본 출처 - http://lisperati.com/casting.html이제 Lisp의 믿을 수 없을 만큼 강력한 기능을 배워 볼 겁니다. 바로 SPEL(주문)만들기지요! SPEL 은 &amp;ldquo;Semantic Program Enhancement Logic&amp;quot;의 줄임말이고 컴퓨터 코드의 세계 안에서 Lisp언어를 우리 필요에 따라 개조하기 위해 가장 기초적인 수준까지 바꾸는 행동을 만드는 걸 가능케 해 줍니다. - 이게 Lisp에서 가장 마술처럼 보이는 부분이지요. SPEL을 가능하게 하기 위해, 일단 Lisp 컴파일러에서 SPEL을 활성화 할 필요가 있습니다.</description>
     </item>
     
     <item>
@@ -50,8 +49,7 @@
       <pubDate>Tue, 21 Apr 2009 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2009/04/%EB%A7%A4%ED%81%AC%EB%A1%9C%EA%B0%80-%EC%95%84%EB%8B%88%EB%8B%A4/</guid>
-      <description>라이센스 - The GNU Free Documentation License원저자 - Conrad Barski, M.D.원본 출처 - http://lisperati.com/casting.html&amp;lt;/a&amp;gt;
-이 강좌의 부분적 목적은 Lisp의 진짜 매크로라는 어려운 것에 관해 다룰 수 있는 방법에 대한 실험이었다. 종종, 매크로라는 것에 대한 개념을 다른 언어만 사용해 본 사람들에게 설명하려고 할 때면, &amp;ldquo;아 그래! C++에도 매크로 같은 게 있다구!&amp;ldquo;라는 반응을 보곤 한다. 그렇게 되면, &amp;ldquo;진짜 매크로&amp;quot;란 걸 설명하기가 아주 힘들어진다. 왜냐면 &amp;ldquo;매크로&amp;quot;란 말에 실려 있는 의미 때문이다. 무엇보다, &amp;ldquo;진짜 매크로&amp;quot;는 C++에 있는 그런 것, 수정된 코드를 컴파일러에게 알려주는 그런 방식과 전혀 같지 않다.</description>
+      <description>라이센스 - The GNU Free Documentation License원저자 - Conrad Barski, M.D.원본 출처 - http://lisperati.com/casting.html이 강좌의 부분적 목적은 Lisp의 진짜 매크로라는 어려운 것에 관해 다룰 수 있는 방법에 대한 실험이었다. 종종, 매크로라는 것에 대한 개념을 다른 언어만 사용해 본 사람들에게 설명하려고 할 때면, &amp;ldquo;아 그래! C++에도 매크로 같은 게 있다구!&amp;ldquo;라는 반응을 보곤 한다. 그렇게 되면, &amp;ldquo;진짜 매크로&amp;quot;란 걸 설명하기가 아주 힘들어진다. 왜냐면 &amp;ldquo;매크로&amp;quot;란 말에 실려 있는 의미 때문이다. 무엇보다, &amp;ldquo;진짜 매크로&amp;quot;는 C++에 있는 그런 것, 수정된 코드를 컴파일러에게 알려주는 그런 방식과 전혀 같지 않다.</description>
     </item>
     
     <item>
@@ -60,8 +58,7 @@
       <pubDate>Wed, 04 Feb 2009 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-7/</guid>
-      <description>라이센스 - The GNU Free Documentation License원저자 - Conrad Barski, M.D.원본 출처 - http://lisperati.com/casting.html&amp;lt;/a&amp;gt;
-let이라는 특별한 명령이 플레이어가 가기를 원하는 방향을 경로 묘사 함수에 전달하게 할 지역변수 next을 허가합니다. cdr은 목록에서 첫 번째 항목을 그냥 잘라냅니다. 만일 사용자가 부적합한 방향을 입력했다면, next 변수는 nil이 됩니다. cond 명령은 Lisp에서 if-then 명령의 연쇄와 비슷합니다. 각 줄에는 cond가 검사할 값과 할 행동이 있습니다. 이 경우, next location이 nil이 아니라면, setf명령으로 플레이어의 위치는 새 방향을 묘사하고 있는 기호 목록의 목록의 세 번째 항목이 됩니다.</description>
+      <description>라이센스 - The GNU Free Documentation License원저자 - Conrad Barski, M.D.원본 출처 - http://lisperati.com/casting.htmllet이라는 특별한 명령이 플레이어가 가기를 원하는 방향을 경로 묘사 함수에 전달하게 할 지역변수 next을 허가합니다. cdr은 목록에서 첫 번째 항목을 그냥 잘라냅니다. 만일 사용자가 부적합한 방향을 입력했다면, next 변수는 nil이 됩니다. cond 명령은 Lisp에서 if-then 명령의 연쇄와 비슷합니다. 각 줄에는 cond가 검사할 값과 할 행동이 있습니다. 이 경우, next location이 nil이 아니라면, setf명령으로 플레이어의 위치는 새 방향을 묘사하고 있는 기호 목록의 목록의 세 번째 항목이 됩니다.</description>
     </item>
     
     <item>
@@ -70,8 +67,7 @@ let이라는 특별한 명령이 플레이어가 가기를 원하는 방향을 �
       <pubDate>Tue, 03 Feb 2009 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-1/</guid>
-      <description>라이센스 - The GNU Free Documentation License원저자 - Conrad Barski, M.D.원본 출처 - http://lisperati.com/casting.html&amp;lt;/a&amp;gt;
-어떻게 해서 Lisp가 그렇게 강력한지 궁금해 해 봤나요?이제 그 이유를 알 수 있습니다.그리고 그러기 위해 컴퓨터에 뭘 깔아둬야 할 필요는 없어요! Lisp로 주문(spel) 외기! 저자 : Conrad Barski, M.D.http://LISPERATI.COM/번역자 : 파란미르http://파란미르.com/오탈자, 번역 오류 지적 등은 항상 환영합니다.</description>
+      <description>라이센스 - The GNU Free Documentation License원저자 - Conrad Barski, M.D.원본 출처 - http://lisperati.com/casting.html어떻게 해서 Lisp가 그렇게 강력한지 궁금해 해 봤나요?이제 그 이유를 알 수 있습니다.그리고 그러기 위해 컴퓨터에 뭘 깔아둬야 할 필요는 없어요! Lisp로 주문(spel) 외기! 저자 : Conrad Barski, M.D.http://LISPERATI.COM/번역자 : 파란미르http://파란미르.com/오탈자, 번역 오류 지적 등은 항상 환영합니다.</description>
     </item>
     
     <item>
@@ -80,8 +76,7 @@ let이라는 특별한 명령이 플레이어가 가기를 원하는 방향을 �
       <pubDate>Tue, 03 Feb 2009 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-2/</guid>
-      <description>라이센스 - The GNU Free Documentation License원저자 - Conrad Barski, M.D.원본 출처 - http://lisperati.com/casting.html&amp;lt;/a&amp;gt;
-누구든 Lisp로 프로그램을 짜는 걸 배워본 사람이 있다면, 다른 프로그래밍 언어와 매우 다르다고 말할 겁니다. 그건 정말 신기할 정도로 달라요. 이 만화책이 Lisp의 독특한 디자인이 그걸 그렇게 강력하게 만든다는 것을 알게 해 줄겁니 다.
+      <description>라이센스 - The GNU Free Documentation License원저자 - Conrad Barski, M.D.원본 출처 - http://lisperati.com/casting.html누구든 Lisp로 프로그램을 짜는 걸 배워본 사람이 있다면, 다른 프로그래밍 언어와 매우 다르다고 말할 겁니다. 그건 정말 신기할 정도로 달라요. 이 만화책이 Lisp의 독특한 디자인이 그걸 그렇게 강력하게 만든다는 것을 알게 해 줄겁니 다.
 이 강좌에서 쓰이는 매우 작은 Lisp 코드들은 이런 글꼴과 색입니다.간단히 이 부분들을 Lisp컴파일러의 명령줄에 복사해 넣으세요. 그럼 강좌가 끝나는 그 순간 텍스트 어드벤처 게임이 완성될 겁니다!</description>
     </item>
     
@@ -91,8 +86,7 @@ let이라는 특별한 명령이 플레이어가 가기를 원하는 방향을 �
       <pubDate>Tue, 03 Feb 2009 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-3/</guid>
-      <description>라이센스 - The GNU Free Documentation License원저자 - Conrad Barski, M.D.원본 출처 - http://lisperati.com/casting.html&amp;lt;/a&amp;gt;
-엄청나게 좋은 Lisp컴파일러가 많이 있지만, 이 강좌를 들으며 쓰기 가장 쉬운 것은 Franz의 Allegro Common Lisp, 매우 강력한 상업용 Lisp입니다. Franz, Inc. 는 친절하게도 텔넷환경을 통해서 사용할 수 있도록 해 주었지요. 여기에 있으니까 컴퓨터에 아무 것도 깔 필요는 없어요. 그냥 이 링크를 클릭하면 원하는 모든 것을 제공해주는 텔넷 화면이 뜰 겁니다! [caption id=&amp;quot;attachment_382&amp;rdquo; align=&amp;quot;alignnone&amp;rdquo; width=&amp;quot;400&amp;rdquo; caption=&amp;quot;telnet화면&amp;rdquo;][/caption] (내가 정말 쓰려고 했던 다른 Lisp는 오픈소스인 CLISP인데, 만일 Lisp랑 더 많은 시간을 보내게 될 걸 안다면 다운받고 싶어질 겁니다.</description>
+      <description>라이센스 - The GNU Free Documentation License원저자 - Conrad Barski, M.D.원본 출처 - http://lisperati.com/casting.html엄청나게 좋은 Lisp컴파일러가 많이 있지만, 이 강좌를 들으며 쓰기 가장 쉬운 것은 Franz의 Allegro Common Lisp, 매우 강력한 상업용 Lisp입니다. Franz, Inc. 는 친절하게도 텔넷환경을 통해서 사용할 수 있도록 해 주었지요. 여기에 있으니까 컴퓨터에 아무 것도 깔 필요는 없어요. 그냥 이 링크를 클릭하면 원하는 모든 것을 제공해주는 텔넷 화면이 뜰 겁니다! [caption id=&amp;quot;attachment_382&amp;rdquo; align=&amp;quot;alignnone&amp;rdquo; width=&amp;quot;400&amp;rdquo; caption=&amp;quot;telnet화면&amp;rdquo;][/caption] (내가 정말 쓰려고 했던 다른 Lisp는 오픈소스인 CLISP인데, 만일 Lisp랑 더 많은 시간을 보내게 될 걸 안다면 다운받고 싶어질 겁니다.</description>
     </item>
     
     <item>
@@ -101,8 +95,7 @@ let이라는 특별한 명령이 플레이어가 가기를 원하는 방향을 �
       <pubDate>Tue, 03 Feb 2009 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-4/</guid>
-      <description>라이센스 - The GNU Free Documentation License원저자 - Conrad Barski, M.D.원본 출처 - http://lisperati.com/casting.html&amp;lt;/a&amp;gt;
-모든 컴퓨터 언어는 문법(syntax)과 의미(semantics)로 구성된 코드가 있습니다. 컴퓨터 언어의 문법(syntax)이란 건, 컴파일러가 프로그램에 쓰여있는 게 뭐가 뭔지 알 수 있도록 프로그램을 짤 때 따라야 하는 기본적인 뼈대에요. 그러니까 그게 뭐가 함수고, 뭐가 변수고, 뭐가 뭐고 하는 걸 알 수 있도록 해 주는 거죠. 프로그램에서의 의미(semantics)란 건 아무거나라고 말하는 게 좋겠네요. 가능한 여러가지 서로 다른 명령이라든가, 프로그램의 어디서든 볼 수 있도록 허락한 변수들이라든가 뭐 그런 거.</description>
+      <description>라이센스 - The GNU Free Documentation License원저자 - Conrad Barski, M.D.원본 출처 - http://lisperati.com/casting.html모든 컴퓨터 언어는 문법(syntax)과 의미(semantics)로 구성된 코드가 있습니다. 컴퓨터 언어의 문법(syntax)이란 건, 컴파일러가 프로그램에 쓰여있는 게 뭐가 뭔지 알 수 있도록 프로그램을 짤 때 따라야 하는 기본적인 뼈대에요. 그러니까 그게 뭐가 함수고, 뭐가 변수고, 뭐가 뭐고 하는 걸 알 수 있도록 해 주는 거죠. 프로그램에서의 의미(semantics)란 건 아무거나라고 말하는 게 좋겠네요. 가능한 여러가지 서로 다른 명령이라든가, 프로그램의 어디서든 볼 수 있도록 허락한 변수들이라든가 뭐 그런 거.</description>
     </item>
     
     <item>
@@ -111,8 +104,7 @@ let이라는 특별한 명령이 플레이어가 가기를 원하는 방향을 �
       <pubDate>Tue, 03 Feb 2009 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-5/</guid>
-      <description>라이센스 - The GNU Free Documentation License원저자 - Conrad Barski, M.D.원본 출처 - http://lisperati.com/casting.html&amp;lt;/a&amp;gt;
-형식(Form)에 대해 조금 더 배우기 위해, 게임 세계의 데이터를 만드는 형식을 좀 만들어봅시다. 일단은, 게임에는 플레이어가 집어들어 사용할 수 있는 특정 물체들이 있을 겁니다. 이걸 정의해 봅시다.
+      <description>라이센스 - The GNU Free Documentation License원저자 - Conrad Barski, M.D.원본 출처 - http://lisperati.com/casting.html형식(Form)에 대해 조금 더 배우기 위해, 게임 세계의 데이터를 만드는 형식을 좀 만들어봅시다. 일단은, 게임에는 플레이어가 집어들어 사용할 수 있는 특정 물체들이 있을 겁니다. 이걸 정의해 봅시다.
 (setf objects &amp;lsquo;(whiskey-bottle bucket frog chain))좋아요. 이제 이 줄이 뭘 의미하는지 해부해 봅시다. Lisp 컴파일러는 항상 코드 모드로 읽기 시작하고 형식을 기대하기 때문에, 첫번째 기호-setf-는 명령어가 되어야 합니다. 이 경우, 명령어는 변수에 값을 지정합니다.</description>
     </item>
     
@@ -122,8 +114,7 @@ let이라는 특별한 명령이 플레이어가 가기를 원하는 방향을 �
       <pubDate>Tue, 03 Feb 2009 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-6/</guid>
-      <description>라이센스 - The GNU Free Documentation License원저자 - Conrad Barski, M.D.원본 출처 - http://lisperati.com/casting.html&amp;lt;/a&amp;gt;
-만들어볼 첫 명령은 지금 서 있는 장소에 대해 말해줄 명령입니다. 그러니 함수가 그 장소에 대해 묘사하기 위해 필요한 게 뭘까요?
+      <description>라이센스 - The GNU Free Documentation License원저자 - Conrad Barski, M.D.원본 출처 - http://lisperati.com/casting.html만들어볼 첫 명령은 지금 서 있는 장소에 대해 말해줄 명령입니다. 그러니 함수가 그 장소에 대해 묘사하기 위해 필요한 게 뭘까요?
 에, 묘사할 장소에 대해 알아야 하고, 지도에서 그게 어디에 있는지를 찾을 수 있어야겠죠. 여기 함수가 있고요, 그건 바로 그렇게 동작합니다. (defun describe-location (location map) (second (assoc location map)))defun이라고 하는 단어는 예상대로, 함수를 선언하고 있습니다. 함수의 이름은 describe-location이고 두 개의 인수를 받습니다.</description>
     </item>
     

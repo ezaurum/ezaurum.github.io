@@ -57,9 +57,9 @@
     <header>
     <nav>
     
-        <a href="https://ezaurum.com/">Ezaurum&#39;s Blog</a>
-    
         <a href="https://ezaurum.com/about/">About</a>
+    
+        <a href="https://ezaurum.com/">Ezaurum&#39;s Blog</a>
     
     <a href="/bug">버그일기</a>
     <a href="/retrospective">회고</a>
@@ -83,7 +83,7 @@ root 로 계속 쓸 수 없으니 사용자를 추가한다.</li>
 passwd 이름
 </code></pre></div><p>그룹을 wheel 로 설정했으니 wheel 이 sudo를 쓸 수 있게 해 준다.</p>
 <p>/etc/sudoers 를 열고 wheel 이 sudo 를 쓸 수 있게 해 준다.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">%wheel ALL<span style="color:#f92672">=</span><span style="color:#f92672">(</span>ALL<span style="color:#f92672">)</span> ALL
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">%wheel ALL<span style="color:#f92672">=(</span>ALL<span style="color:#f92672">)</span> ALL
 </code></pre></div><ol start="2">
 <li>zsh 로 변경
 bash는 불편한 점이 많으니, <a href="https://ohmyz.sh/">Oh My Zsh</a> 로 쉘을 변경한다.
@@ -103,7 +103,7 @@ picom은 compton 이 이름이 바뀐 것. 창을 투명하게 한다든가, 그
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">exec i3
 </code></pre></div><p>.zshrc 마지막에 startx 를 추가한다.
 아무때나 실행되는 걸 막기 위해서 XDG_VTNR 이 1인지 보고 수행되게 한다.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#66d9ef">if</span> <span style="color:#f92672">[</span><span style="color:#f92672">[</span> -z $DISPLAY <span style="color:#f92672">&amp;&amp;</span> $XDG_VTNR -eq <span style="color:#ae81ff">1</span> <span style="color:#f92672">]</span><span style="color:#f92672">]</span>; <span style="color:#66d9ef">then</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#66d9ef">if</span> <span style="color:#f92672">[[</span> -z $DISPLAY <span style="color:#f92672">&amp;&amp;</span> $XDG_VTNR -eq <span style="color:#ae81ff">1</span> <span style="color:#f92672">]]</span>; <span style="color:#66d9ef">then</span>
         exec startx
 <span style="color:#66d9ef">fi</span>
 </code></pre></div><p>아래쪽 스테이터스 바는 i3status로 설치되는데, ko_KR 인코딩이 추가되어 있으면 안 되는 경우가 있다.</p>
@@ -156,6 +156,8 @@ export XMODIFIERS<span style="color:#f92672">=</span>@im<span style="color:#f926
     </ul>
 
 
+
+<a href="https://ezaurum.com/2020/03/%EC%BF%A0%ED%82%A4%EC%97%90-%EB%8C%80%ED%95%9C-%EC%A0%95%EB%A6%AC/"> 쿠키에 대한 정리</a>
 
 
 <a href="https://ezaurum.com/2020/01/2020%EB%85%84-%EB%AA%A9%ED%91%9C/">2020년 목표</a>

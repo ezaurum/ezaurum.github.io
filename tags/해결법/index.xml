@@ -74,7 +74,7 @@
       <pubDate>Sun, 24 Nov 2013 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2013/11/Git%EC%97%90%EC%84%9C-%ED%8A%B9%EC%A0%95%ED%8C%8C%EC%9D%BC-%EC%9E%84%EC%8B%9C%EB%A1%9C-%EC%BB%A4%EB%B0%8B%EB%82%B4%EC%97%AD%EC%97%90%EC%84%9C-%EC%A0%9C%EC%99%B8%ED%95%98%EA%B8%B0/</guid>
-      <description>출처 - http://blog.outsider.ne.kr/817&amp;lt;/a&amp;gt; Unity3D로 공동작업을 하다 보면 meta파일이 많이 생기고, 뭐 잠깐 이쪽에서 고쳐보고 싶은데 하던 작업 중에 일부는 또 올려야 할 때가 있고해서 골치 아플 때 유용함. 제외 - git update-index &amp;ndash;assume-unchanged 파일명복구 - git update-index &amp;ndash;no-assume-unchanged 파일명초기화 - git update-index &amp;ndash;really-refresh</description>
+      <description>출처 - http://blog.outsider.ne.kr/817Unity3D로 공동작업을 하다 보면 meta파일이 많이 생기고, 뭐 잠깐 이쪽에서 고쳐보고 싶은데 하던 작업 중에 일부는 또 올려야 할 때가 있고해서 골치 아플 때 유용함. 제외 - git update-index &amp;ndash;assume-unchanged 파일명복구 - git update-index &amp;ndash;no-assume-unchanged 파일명초기화 - git update-index &amp;ndash;really-refresh</description>
     </item>
     
     <item>
@@ -93,7 +93,7 @@
       <pubDate>Sun, 24 Nov 2013 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2013/11/%EC%86%8C%EC%8A%A4%ED%8A%B8%EB%A6%AC-%EC%82%AC%EC%9A%A9%EC%8B%9C-%EC%A0%80%EC%9E%A5%EC%86%8C-%EC%A0%91%EA%B7%BC-%ED%82%A4%EB%A5%BC-%EC%9E%90%EB%8F%99%EC%9C%BC%EB%A1%9C-%EB%A1%9C%EB%93%9C%ED%95%98%EA%B2%8C-%ED%95%98%EA%B8%B0/</guid>
-      <description>http://blog.shvetsov.com/2010/03/making-pageant-automatically-load-keys.html&amp;lt;/a&amp;gt; 소스트리도 pageant를 이용하므로 이거와 같은 방식으로 하면 된다.</description>
+      <description>http://blog.shvetsov.com/2010/03/making-pageant-automatically-load-keys.html소스트리도 pageant를 이용하므로 이거와 같은 방식으로 하면 된다.</description>
     </item>
     
     <item>
@@ -380,8 +380,7 @@ css3 속성이므로 ie에서는 제대로 안 된다.</description>
       <pubDate>Tue, 08 Mar 2011 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2011/03/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EC%97%90%EC%84%9C-%EC%B9%B4%EC%9A%B4%ED%8A%B8%EB%8B%A4%EC%9A%B4-%ED%83%80%EC%9D%B4%EB%A8%B8%EB%A5%BC-%EB%A7%8C%EB%93%A4-%EB%95%8C-%EC%9C%A0%EC%9D%98%EC%A0%90/</guid>
-      <description>영문 - http://ejohn.org/blog/how-javascript-timers-work/&amp;lt;/a&amp;gt; 한글 - http://okjungsoo.tistory.com/entry/JavaScript-Timer&amp;lt;/a&amp;gt;
-뽀모도로 타이머를 만들던 중, setInterval을 이용하여 코드를 짜니 25분 짜리 타이머에서 한 15초 가량 오차가 나는 것을 발견, 이리저리 뒤지자 이런 것이 나왔다.
+      <description>영문 - http://ejohn.org/blog/how-javascript-timers-work/한글 - http://okjungsoo.tistory.com/entry/JavaScript-Timer뽀모도로 타이머를 만들던 중, setInterval을 이용하여 코드를 짜니 25분 짜리 타이머에서 한 15초 가량 오차가 나는 것을 발견, 이리저리 뒤지자 이런 것이 나왔다.
 간단한 결론은, 오차가 적어야 하는 상황이면 setTimeout을 쓰라는 것.setTimeout을 쓴다고 해도 그래도 오차가 없어지지는 않음&amp;hellip;.(new Date()).getMillisecond()를 쓰면 시각 자체에 대한 정확성은 그래도 어느 정도까지는 보장할 수 있을테니까 그것으로 타협.타이머 성능 관련 링크</description>
     </item>
     
@@ -488,7 +487,7 @@ utf-8을 지원한다더니&amp;hellip; mysql만 그걸 지원하고 아파치�
       <pubDate>Mon, 08 Dec 2008 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2008/12/</guid>
-      <description>아마도 원인은 이 아래 링크 http://kldp.org/node/92618&amp;lt;/a&amp;gt; 따라서, extern키워드를 활용하도록 한다!</description>
+      <description>아마도 원인은 이 아래 링크 http://kldp.org/node/92618따라서, extern키워드를 활용하도록 한다!</description>
     </item>
     
     <item>
@@ -497,8 +496,7 @@ utf-8을 지원한다더니&amp;hellip; mysql만 그걸 지원하고 아파치�
       <pubDate>Mon, 08 Dec 2008 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2008/12/Edit-plus-sftp-%EB%AC%B8%EC%A0%9C/</guid>
-      <description>http://quiin.com/13&amp;lt;/a&amp;gt;
-이 설명은 데비안이지만, 당연히 우분투에서도 그대로 된다.</description>
+      <description>http://quiin.com/13이 설명은 데비안이지만, 당연히 우분투에서도 그대로 된다.</description>
     </item>
     
     <item>
@@ -516,9 +514,7 @@ utf-8을 지원한다더니&amp;hellip; mysql만 그걸 지원하고 아파치�
       <pubDate>Mon, 01 Dec 2008 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2008/12/%EC%9A%B0%EB%B6%84%ED%88%AC-%EC%99%B8%EB%B6%80-%EC%A0%91%EC%86%8D-%EB%AC%B8%EC%A0%9C/</guid>
-      <description>텔넷이고 SSH고 ftp고 간에 하나도 외부에서는 접속이 되지 않는 것을 발견, 원인을 애타게 찾다가 다음 링크에서 대충의 힌트를 발견. http://kldp.org/node/19990&amp;lt;/a&amp;gt;
-IPTABLE 에 대한 설명 http://www.i-swear.com/148&amp;lt;/a&amp;gt;
-sudo iptables-save
+      <description>텔넷이고 SSH고 ftp고 간에 하나도 외부에서는 접속이 되지 않는 것을 발견, 원인을 애타게 찾다가 다음 링크에서 대충의 힌트를 발견. http://kldp.org/node/19990IPTABLE 에 대한 설명 http://www.i-swear.com/148sudo iptables-save
 &amp;hellip;&amp;hellip;&amp;hellip;..하지만 다 소용 없었다.
 그냥 sudo reboot 몇 번 하니 해결.
 &amp;hellip;&amp;hellip;.. 뭐지 대체 뭐지.
@@ -531,7 +527,7 @@ sudo iptables-save
       <pubDate>Sat, 29 Nov 2008 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2008/11/Ubuntu-Apache2-%EC%82%AC%EC%9A%A9%EC%9E%90%EB%B3%84-%EC%9B%B9-%EB%94%94%EB%A0%89%ED%86%A0%EB%A6%AC-%EC%84%A4%EC%A0%95/</guid>
-      <description>http://leeted.egloos.com/1489000&amp;lt;/a&amp;gt; 위 링크 참고 했음.
+      <description>http://leeted.egloos.com/1489000위 링크 참고 했음.
 콘솔에서 입력.
 cd /etc/apache2/mods-available sudo cp userdir.conf userdir.load /etc/apache2/mods-enabled sudo /etc/init.d/apache2 restart
 이후, 각 유자가 자기 홈 디렉 토리에다 public_html을 만들어주면 된다. 아래와 같은 식? cd ~ mkdir public_html public_html 디렉토리 아래에 index.html 생성</description>
@@ -544,8 +540,7 @@ cd /etc/apache2/mods-available sudo cp userdir.conf userdir.load /etc/apache2/mo
       
       <guid>https://ezaurum.com/2008/11/lsocket-%EC%98%B5%EC%85%98%EC%97%90%EC%84%9C-%EC%97%90%EB%9F%AC%EA%B0%80-%EB%82%A0-%EB%95%8C/</guid>
       <description>소켓 프로그래밍을 하는데 프린트물에 있는 대로 -lsocket 옵션을 주니 계속 cc 가 에러를 뱉었다.
-http://kldp.org/node/1377&amp;lt;/a&amp;gt;
-결론은 Sun 계열 유닉스에서 작업하는 게 아니면, -lnsl -lsocket 옵션을 주지 말고 컴파일하라는 것.한참 헤매다가 답 발견. 학교 서버가 sun 계열이라 그런 듯.</description>
+http://kldp.org/node/1377결론은 Sun 계열 유닉스에서 작업하는 게 아니면, -lnsl -lsocket 옵션을 주지 말고 컴파일하라는 것.한참 헤매다가 답 발견. 학교 서버가 sun 계열이라 그런 듯.</description>
     </item>
     
     <item>
@@ -563,8 +558,8 @@ http://kldp.org/node/1377&amp;lt;/a&amp;gt;
       <pubDate>Mon, 24 Nov 2008 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2008/11/SmartFTP%EC%97%90%EC%84%9C-%EB%94%94%EB%A0%89%ED%86%A0%EB%A6%AC-%EB%AA%A9%EB%A1%9D-%EC%95%88-%EB%B3%B4%EC%9D%B4%EB%8A%94-%EB%AC%B8%EC%A0%9C/</guid>
-      <description>http://kldp.org/node/34348&amp;lt;/a&amp;gt; 파일질라와 같은 문제인 듯. XP로 ALftp로 윈도우 환경에서 서버를 돌리고 있는데, 다른 컴에서 smartftp로 접속하면 디렉토리 목록이 보이지 않는다. raw목록을 보면 제대로 받아오고 있긴 한데, 한글 주소는 아예 접근이 안되고, 해서 여러가지 알아본 바.
-http://www.smartftp.com/support/kb/no-files-folders-are-being-being-displayed-f48.html&amp;lt;/a&amp;gt; 일단 이건 소용없었고. 그 아래, MLSD란 걸 사용 안 함으로 해 줘야 한다. [caption id=&amp;quot;attachment_212&amp;rdquo; align=&amp;quot;alignnone&amp;rdquo; width=&amp;quot;300&amp;rdquo; caption=&amp;quot;디렉토리 목록이 나오지 않는 서버의 링크-즐겨찾기에 있을 거다-에서 오른쪽 버튼을 누르고, 속성으로 들어간다. 누르면 크게 볼 수 있음.</description>
+      <description>http://kldp.org/node/34348파일질라와 같은 문제인 듯. XP로 ALftp로 윈도우 환경에서 서버를 돌리고 있는데, 다른 컴에서 smartftp로 접속하면 디렉토리 목록이 보이지 않는다. raw목록을 보면 제대로 받아오고 있긴 한데, 한글 주소는 아예 접근이 안되고, 해서 여러가지 알아본 바.
+http://www.smartftp.com/support/kb/no-files-folders-are-being-being-displayed-f48.html일단 이건 소용없었고. 그 아래, MLSD란 걸 사용 안 함으로 해 줘야 한다. [caption id=&amp;quot;attachment_212&amp;rdquo; align=&amp;quot;alignnone&amp;rdquo; width=&amp;quot;300&amp;rdquo; caption=&amp;quot;디렉토리 목록이 나오지 않는 서버의 링크-즐겨찾기에 있을 거다-에서 오른쪽 버튼을 누르고, 속성으로 들어간다. 누르면 크게 볼 수 있음.&amp;quot;][/caption] [caption id=&amp;quot;attachment_213&amp;rdquo; align=&amp;quot;alignnone&amp;rdquo; width=&amp;quot;300&amp;rdquo; caption=&amp;quot;거기서 FTP 항목의 전송 항목을 클릭.</description>
     </item>
     
     <item>

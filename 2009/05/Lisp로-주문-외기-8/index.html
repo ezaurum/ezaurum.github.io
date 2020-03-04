@@ -21,23 +21,20 @@
     
 
     <meta itemprop="name" content="Lisp로 주문 외기 - 8 -">
-<meta itemprop="description" content="라이센스 - The GNU Free Documentation License원저자 - Conrad Barski, M.D.원본 출처 - http://lisperati.com/casting.html&lt;/a&gt;
-이제 Lisp의 믿을 수 없을 만큼 강력한 기능을 배워 볼 겁니다. 바로 SPEL(주문)만들기지요! SPEL 은 &ldquo;Semantic Program Enhancement Logic&quot;의 줄임말이고 컴퓨터 코드의 세계 안에서 Lisp언어를 우리 필요에 따라 개조하기 위해 가장 기초적인 수준까지 바꾸는 행동을 만드는 걸 가능케 해 줍니다. - 이게 Lisp에서 가장 마술처럼 보이는 부분이지요. SPEL을 가능하게 하기 위해, 일단 Lisp 컴파일러에서 SPEL을 활성화 할 필요가 있습니다.">
+<meta itemprop="description" content="라이센스 - The GNU Free Documentation License원저자 - Conrad Barski, M.D.원본 출처 - http://lisperati.com/casting.html이제 Lisp의 믿을 수 없을 만큼 강력한 기능을 배워 볼 겁니다. 바로 SPEL(주문)만들기지요! SPEL 은 &ldquo;Semantic Program Enhancement Logic&quot;의 줄임말이고 컴퓨터 코드의 세계 안에서 Lisp언어를 우리 필요에 따라 개조하기 위해 가장 기초적인 수준까지 바꾸는 행동을 만드는 걸 가능케 해 줍니다. - 이게 Lisp에서 가장 마술처럼 보이는 부분이지요. SPEL을 가능하게 하기 위해, 일단 Lisp 컴파일러에서 SPEL을 활성화 할 필요가 있습니다.">
 <meta itemprop="datePublished" content="2009-05-12T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2009-05-12T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="351">
+<meta itemprop="wordCount" content="350">
 
 
 
 <meta itemprop="keywords" content="casting-spels,번역,결과물,공부,LISP," />
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Lisp로 주문 외기 - 8 -"/>
-<meta name="twitter:description" content="라이센스 - The GNU Free Documentation License원저자 - Conrad Barski, M.D.원본 출처 - http://lisperati.com/casting.html&lt;/a&gt;
-이제 Lisp의 믿을 수 없을 만큼 강력한 기능을 배워 볼 겁니다. 바로 SPEL(주문)만들기지요! SPEL 은 &ldquo;Semantic Program Enhancement Logic&quot;의 줄임말이고 컴퓨터 코드의 세계 안에서 Lisp언어를 우리 필요에 따라 개조하기 위해 가장 기초적인 수준까지 바꾸는 행동을 만드는 걸 가능케 해 줍니다. - 이게 Lisp에서 가장 마술처럼 보이는 부분이지요. SPEL을 가능하게 하기 위해, 일단 Lisp 컴파일러에서 SPEL을 활성화 할 필요가 있습니다."/>
+<meta name="twitter:description" content="라이센스 - The GNU Free Documentation License원저자 - Conrad Barski, M.D.원본 출처 - http://lisperati.com/casting.html이제 Lisp의 믿을 수 없을 만큼 강력한 기능을 배워 볼 겁니다. 바로 SPEL(주문)만들기지요! SPEL 은 &ldquo;Semantic Program Enhancement Logic&quot;의 줄임말이고 컴퓨터 코드의 세계 안에서 Lisp언어를 우리 필요에 따라 개조하기 위해 가장 기초적인 수준까지 바꾸는 행동을 만드는 걸 가능케 해 줍니다. - 이게 Lisp에서 가장 마술처럼 보이는 부분이지요. SPEL을 가능하게 하기 위해, 일단 Lisp 컴파일러에서 SPEL을 활성화 할 필요가 있습니다."/>
 
     <meta property="og:title" content="Lisp로 주문 외기 - 8 -" />
-<meta property="og:description" content="라이센스 - The GNU Free Documentation License원저자 - Conrad Barski, M.D.원본 출처 - http://lisperati.com/casting.html&lt;/a&gt;
-이제 Lisp의 믿을 수 없을 만큼 강력한 기능을 배워 볼 겁니다. 바로 SPEL(주문)만들기지요! SPEL 은 &ldquo;Semantic Program Enhancement Logic&quot;의 줄임말이고 컴퓨터 코드의 세계 안에서 Lisp언어를 우리 필요에 따라 개조하기 위해 가장 기초적인 수준까지 바꾸는 행동을 만드는 걸 가능케 해 줍니다. - 이게 Lisp에서 가장 마술처럼 보이는 부분이지요. SPEL을 가능하게 하기 위해, 일단 Lisp 컴파일러에서 SPEL을 활성화 할 필요가 있습니다." />
+<meta property="og:description" content="라이센스 - The GNU Free Documentation License원저자 - Conrad Barski, M.D.원본 출처 - http://lisperati.com/casting.html이제 Lisp의 믿을 수 없을 만큼 강력한 기능을 배워 볼 겁니다. 바로 SPEL(주문)만들기지요! SPEL 은 &ldquo;Semantic Program Enhancement Logic&quot;의 줄임말이고 컴퓨터 코드의 세계 안에서 Lisp언어를 우리 필요에 따라 개조하기 위해 가장 기초적인 수준까지 바꾸는 행동을 만드는 걸 가능케 해 줍니다. - 이게 Lisp에서 가장 마술처럼 보이는 부분이지요. SPEL을 가능하게 하기 위해, 일단 Lisp 컴파일러에서 SPEL을 활성화 할 필요가 있습니다." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://ezaurum.com/2009/05/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-8/" />
 <meta property="article:published_time" content="2009-05-12T00:00:00+00:00" />
@@ -51,9 +48,9 @@
     <header>
     <nav>
     
-        <a href="https://ezaurum.com/">Ezaurum&#39;s Blog</a>
-    
         <a href="https://ezaurum.com/about/">About</a>
+    
+        <a href="https://ezaurum.com/">Ezaurum&#39;s Blog</a>
     
     <a href="/bug">버그일기</a>
     <a href="/retrospective">회고</a>
@@ -69,7 +66,7 @@
 2009-05-12
 <section><p>라이센스 - <!-- raw HTML omitted -->The GNU Free Documentation License<!-- raw HTML omitted -->
 원저자 - <!-- raw HTML omitted -->Conrad Barski, M.D.<!-- raw HTML omitted -->
-원본 출처 - <!-- raw HTML omitted --><a href="http://lisperati.com/casting.html%3C/a%3E">http://lisperati.com/casting.html&lt;/a&gt;</a></p>
+원본 출처 - <!-- raw HTML omitted --><a href="http://lisperati.com/casting.html">http://lisperati.com/casting.html</a><!-- raw HTML omitted --></p>
 <!-- raw HTML omitted -->
 <p>이제 Lisp의 믿을 수 없을 만큼 강력한 기능을 배워 볼 겁니다. 바로 SPEL(주문)만들기지요! SPEL 은 &ldquo;Semantic Program Enhancement Logic&quot;의 줄임말이고 컴퓨터 코드의 세계 안에서 Lisp언어를 우리 필요에 따라 개조하기 위해 가장 기초적인 수준까지 바꾸는 행동을 만드는 걸 가능케 해 줍니다. - 이게 Lisp에서 가장 마술처럼 보이는 부분이지요. SPEL을 가능하게 하기 위해, 일단 Lisp 컴파일러에서 SPEL을 활성화 할 필요가 있습니다. (이 줄에 대해서 걱정하지 마세요. 더 나은 Lisp프로그래머로 나아가려면 <!-- raw HTML omitted -->클릭<!-- raw HTML omitted -->하세요.
 <!-- raw HTML omitted -->(defmacro defspel (&amp;rest rest) <code>(defmacro ,@rest))&lt;/code&gt; 자, 이제 활성화 되었습니다. 첫 번째 주문(spell)을 외워보죠. &lt;em&gt;walk&lt;/em&gt;입니다. &lt;code&gt;(defspel walk (direction)&lt;br&gt;  </code>(walk-direction &lsquo;,direction))<!-- raw HTML omitted --></p>
@@ -79,7 +76,7 @@
 이 함수가 우리가 길을 묘사하기 위해 사용했던 코드와 얼마나 비슷한지를 주목하세요. Lisp에서, 코드와 데이터가 비슷하게 보일 뿐만 아니라, 코드와 컴파일러에 보내는 특수명령(SPELs)도 비슷하게 보입니다. 아주 일관적이고 깔끔한 모양새지요!
 새 주문을 시험해 봅시다!</p>
 <p><!-- raw HTML omitted -->(walk east)<!-- raw HTML omitted --></p>
-<p><!-- raw HTML omitted -->==&gt; (YOU ARE IN THE LIVING ROOM OF A WIZARD'S HOUSE.THERE IS A WIZARD SNORING LOUDLY ON THE COUCH.THERE IS A DOOR GOING WEST FROM HERE.THERE IS A STAIRWAY GOING UPSTAIRS FROM HERE.YOU SEE A WHISKEY-BOTTLE ON THE FLOOR.YOU SEE A BUCKET ON THE FLOOR)<!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted -->==&gt; (YOU ARE IN THE LIVING ROOM OF A WIZARD&rsquo;S HOUSE.THERE IS A WIZARD SNORING LOUDLY ON THE COUCH.THERE IS A DOOR GOING WEST FROM HERE.THERE IS A STAIRWAY GOING UPSTAIRS FROM HERE.YOU SEE A WHISKEY-BOTTLE ON THE FLOOR.YOU SEE A BUCKET ON THE FLOOR)<!-- raw HTML omitted --></p>
 <p>훨씬 낫군요!</p>
 <p>이제 물건을 집어드는 명령을 만들 겁니다.</p>
 <p><!-- raw HTML omitted -->(defun pickup-object (object)

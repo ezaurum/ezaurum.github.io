@@ -7,10 +7,26 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Wed, 27 Jun 2018 14:46:48 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 04 Mar 2020 16:04:22 +0900</lastBuildDate>
     
 	<atom:link href="https://ezaurum.com/tags/web/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>쿠키에 대한 정리</title>
+      <link>https://ezaurum.com/2020/03/%EC%BF%A0%ED%82%A4%EC%97%90-%EB%8C%80%ED%95%9C-%EC%A0%95%EB%A6%AC/</link>
+      <pubDate>Wed, 04 Mar 2020 16:04:22 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/2020/03/%EC%BF%A0%ED%82%A4%EC%97%90-%EB%8C%80%ED%95%9C-%EC%A0%95%EB%A6%AC/</guid>
+      <description>MDN 문서
+  Max-Age가 있으면 퍼시스턴스 쿠키(지정 시간까지 유효), 없으면 세션 쿠키(브라우저 닫힐 때 없어짐). 값이 0이나 음수면 쿠키가 삭제됨.
+  HttpOnly를 true로 두면 클라이언트에서 읽을 수 없음
+  Expires는 구버전(IE등)을 위한 것, Max-Age를 쓰자 쿠키에서 Max-Age와 Expires의 차이
+  메인 도메인을 지정하면 서브도메인도 매칭된다.
+  Secure는 HTTPS를 강제한다
+  Path 는 /를 쓰면 하위 매칭
+  도메인당 쿠키는 50개 이하, 최대 4KiB(실제로는 4000byte 라고 생각하는 게 편함) 으로 두는게 구형 브라우저에서도 문제가 없다.</description>
+    </item>
     
     <item>
       <title>Go 로 WASM 해보기</title>
@@ -197,8 +213,7 @@ css3 속성이므로 ie에서는 제대로 안 된다.</description>
       <pubDate>Tue, 08 Mar 2011 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2011/03/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EC%97%90%EC%84%9C-%EC%B9%B4%EC%9A%B4%ED%8A%B8%EB%8B%A4%EC%9A%B4-%ED%83%80%EC%9D%B4%EB%A8%B8%EB%A5%BC-%EB%A7%8C%EB%93%A4-%EB%95%8C-%EC%9C%A0%EC%9D%98%EC%A0%90/</guid>
-      <description>영문 - http://ejohn.org/blog/how-javascript-timers-work/&amp;lt;/a&amp;gt; 한글 - http://okjungsoo.tistory.com/entry/JavaScript-Timer&amp;lt;/a&amp;gt;
-뽀모도로 타이머를 만들던 중, setInterval을 이용하여 코드를 짜니 25분 짜리 타이머에서 한 15초 가량 오차가 나는 것을 발견, 이리저리 뒤지자 이런 것이 나왔다.
+      <description>영문 - http://ejohn.org/blog/how-javascript-timers-work/한글 - http://okjungsoo.tistory.com/entry/JavaScript-Timer뽀모도로 타이머를 만들던 중, setInterval을 이용하여 코드를 짜니 25분 짜리 타이머에서 한 15초 가량 오차가 나는 것을 발견, 이리저리 뒤지자 이런 것이 나왔다.
 간단한 결론은, 오차가 적어야 하는 상황이면 setTimeout을 쓰라는 것.setTimeout을 쓴다고 해도 그래도 오차가 없어지지는 않음&amp;hellip;.(new Date()).getMillisecond()를 쓰면 시각 자체에 대한 정확성은 그래도 어느 정도까지는 보장할 수 있을테니까 그것으로 타협.타이머 성능 관련 링크</description>
     </item>
     
@@ -347,7 +362,7 @@ window.open(&amp;ldquo;title&amp;rdquo;, &amp;ldquo;frameName&amp;rdquo;, &amp;l
       <pubDate>Sat, 29 Nov 2008 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2008/11/Ubuntu-Apache2-%EC%82%AC%EC%9A%A9%EC%9E%90%EB%B3%84-%EC%9B%B9-%EB%94%94%EB%A0%89%ED%86%A0%EB%A6%AC-%EC%84%A4%EC%A0%95/</guid>
-      <description>http://leeted.egloos.com/1489000&amp;lt;/a&amp;gt; 위 링크 참고 했음.
+      <description>http://leeted.egloos.com/1489000위 링크 참고 했음.
 콘솔에서 입력.
 cd /etc/apache2/mods-available sudo cp userdir.conf userdir.load /etc/apache2/mods-enabled sudo /etc/init.d/apache2 restart
 이후, 각 유자가 자기 홈 디렉 토리에다 public_html을 만들어주면 된다. 아래와 같은 식? cd ~ mkdir public_html public_html 디렉토리 아래에 index.html 생성</description>

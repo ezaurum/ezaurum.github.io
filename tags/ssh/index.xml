@@ -49,8 +49,7 @@ Host other.github.com HostName github.com PreferredAuthentications publickey Ide
       <pubDate>Mon, 08 Dec 2008 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2008/12/Edit-plus-sftp-%EB%AC%B8%EC%A0%9C/</guid>
-      <description>http://quiin.com/13&amp;lt;/a&amp;gt;
-이 설명은 데비안이지만, 당연히 우분투에서도 그대로 된다.</description>
+      <description>http://quiin.com/13이 설명은 데비안이지만, 당연히 우분투에서도 그대로 된다.</description>
     </item>
     
   </channel>

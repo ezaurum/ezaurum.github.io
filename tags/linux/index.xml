@@ -166,8 +166,7 @@ OTL&amp;hellip;. 어차피 ssh로 접속해서만 쓸 건데&amp;hellip; �
       <pubDate>Mon, 08 Dec 2008 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2008/12/Edit-plus-sftp-%EB%AC%B8%EC%A0%9C/</guid>
-      <description>http://quiin.com/13&amp;lt;/a&amp;gt;
-이 설명은 데비안이지만, 당연히 우분투에서도 그대로 된다.</description>
+      <description>http://quiin.com/13이 설명은 데비안이지만, 당연히 우분투에서도 그대로 된다.</description>
     </item>
     
     <item>
@@ -176,9 +175,7 @@ OTL&amp;hellip;. 어차피 ssh로 접속해서만 쓸 건데&amp;hellip; �
       <pubDate>Mon, 01 Dec 2008 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2008/12/%EC%9A%B0%EB%B6%84%ED%88%AC-%EC%99%B8%EB%B6%80-%EC%A0%91%EC%86%8D-%EB%AC%B8%EC%A0%9C/</guid>
-      <description>텔넷이고 SSH고 ftp고 간에 하나도 외부에서는 접속이 되지 않는 것을 발견, 원인을 애타게 찾다가 다음 링크에서 대충의 힌트를 발견. http://kldp.org/node/19990&amp;lt;/a&amp;gt;
-IPTABLE 에 대한 설명 http://www.i-swear.com/148&amp;lt;/a&amp;gt;
-sudo iptables-save
+      <description>텔넷이고 SSH고 ftp고 간에 하나도 외부에서는 접속이 되지 않는 것을 발견, 원인을 애타게 찾다가 다음 링크에서 대충의 힌트를 발견. http://kldp.org/node/19990IPTABLE 에 대한 설명 http://www.i-swear.com/148sudo iptables-save
 &amp;hellip;&amp;hellip;&amp;hellip;..하지만 다 소용 없었다.
 그냥 sudo reboot 몇 번 하니 해결.
 &amp;hellip;&amp;hellip;.. 뭐지 대체 뭐지.
@@ -191,7 +188,7 @@ sudo iptables-save
       <pubDate>Sat, 29 Nov 2008 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2008/11/Ubuntu-Apache2-%EC%82%AC%EC%9A%A9%EC%9E%90%EB%B3%84-%EC%9B%B9-%EB%94%94%EB%A0%89%ED%86%A0%EB%A6%AC-%EC%84%A4%EC%A0%95/</guid>
-      <description>http://leeted.egloos.com/1489000&amp;lt;/a&amp;gt; 위 링크 참고 했음.
+      <description>http://leeted.egloos.com/1489000위 링크 참고 했음.
 콘솔에서 입력.
 cd /etc/apache2/mods-available sudo cp userdir.conf userdir.load /etc/apache2/mods-enabled sudo /etc/init.d/apache2 restart
 이후, 각 유자가 자기 홈 디렉 토리에다 public_html을 만들어주면 된다. 아래와 같은 식? cd ~ mkdir public_html public_html 디렉토리 아래에 index.html 생성</description>
@@ -204,8 +201,7 @@ cd /etc/apache2/mods-available sudo cp userdir.conf userdir.load /etc/apache2/mo
       
       <guid>https://ezaurum.com/2008/11/lsocket-%EC%98%B5%EC%85%98%EC%97%90%EC%84%9C-%EC%97%90%EB%9F%AC%EA%B0%80-%EB%82%A0-%EB%95%8C/</guid>
       <description>소켓 프로그래밍을 하는데 프린트물에 있는 대로 -lsocket 옵션을 주니 계속 cc 가 에러를 뱉었다.
-http://kldp.org/node/1377&amp;lt;/a&amp;gt;
-결론은 Sun 계열 유닉스에서 작업하는 게 아니면, -lnsl -lsocket 옵션을 주지 말고 컴파일하라는 것.한참 헤매다가 답 발견. 학교 서버가 sun 계열이라 그런 듯.</description>
+http://kldp.org/node/1377결론은 Sun 계열 유닉스에서 작업하는 게 아니면, -lnsl -lsocket 옵션을 주지 말고 컴파일하라는 것.한참 헤매다가 답 발견. 학교 서버가 sun 계열이라 그런 듯.</description>
     </item>
     
     <item>
@@ -214,11 +210,10 @@ http://kldp.org/node/1377&amp;lt;/a&amp;gt;
       <pubDate>Mon, 17 Nov 2008 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2008/11/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%82%BD%EC%A7%88%EA%B8%B0-3/</guid>
-      <description>일단 gcc를 써 보자. 라고 생각해서 간단히 짜고 컴파일을 해보는데, 계속 에러. 구글링을 통해 해법을 찾았다. http://dantes.kr/blog/320&amp;lt;/a&amp;gt; 이 설명에서는 CD를 요구한다는데. 일단 8.10에서는 필요 없는듯?
+      <description>일단 gcc를 써 보자. 라고 생각해서 간단히 짜고 컴파일을 해보는데, 계속 에러. 구글링을 통해 해법을 찾았다. http://dantes.kr/blog/320이 설명에서는 CD를 요구한다는데. 일단 8.10에서는 필요 없는듯?
 일단 이러고 나서, gcc 파일이름 이렇게 치면, 컴파일은 되는데, 실행이 안된다.
 왜?
-참고글 - http://wiki.kldp.org/KoreanDoc/html/gcc_and_make/gcc_and_make.html#toc2&amp;lt;/a&amp;gt;
-리눅스는 $ ./a.out 라는 식으로 실행해야 함.</description>
+참고글 - http://wiki.kldp.org/KoreanDoc/html/gcc_and_make/gcc_and_make.html#toc2리눅스는 $ ./a.out 라는 식으로 실행해야 함.</description>
     </item>
     
     <item>
@@ -228,8 +223,7 @@ http://kldp.org/node/1377&amp;lt;/a&amp;gt;
       
       <guid>https://ezaurum.com/2008/11/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%82%BD%EC%A7%88%EA%B8%B0-2/</guid>
       <description>지난 번에 리눅스를 깔아놓기만 한 PC가 팔려나가 버려서, 다른 PC에 깔게 되었다. 이번에는 버전업 된 우분투 8.10을 설치. 32비트 버전이다.
-일단 텔넷을 깔아야 하므로 아래의 참고 링크. 설치법 - http://eloid.tistory.com/21&amp;lt;/a&amp;gt; 텔넷 포트 바꾸기 - http://rustymind.egloos.com/3310669&amp;lt;/a&amp;gt;
-오늘은 여기까지</description>
+일단 텔넷을 깔아야 하므로 아래의 참고 링크. 설치법 - http://eloid.tistory.com/21텔넷 포트 바꾸기 - http://rustymind.egloos.com/3310669오늘은 여기까지</description>
     </item>
     
     <item>
@@ -260,7 +254,7 @@ http://kldp.org/node/1377&amp;lt;/a&amp;gt;
       <pubDate>Sat, 19 Jul 2008 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2008/07/Virtual-Box/</guid>
-      <description>http://feryjunaedi.wordpress.com/2008/05/15/installing-virtualbox/&amp;lt;/a&amp;gt;</description>
+      <description>http://feryjunaedi.wordpress.com/2008/05/15/installing-virtualbox/</description>
     </item>
     
     <item>

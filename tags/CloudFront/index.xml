@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Thu, 20 Jun 2019 22:31:05 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 21 Jun 2019 09:44:59 +0900</lastBuildDate>
     
 	<atom:link href="https://ezaurum.com/tags/CloudFront/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>클라우드 프론트에 웹사이트 배포</title>
+      <link>https://ezaurum.com/recipe/create-cloud-front-website/</link>
+      <pubDate>Fri, 21 Jun 2019 09:44:59 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/recipe/create-cloud-front-website/</guid>
+      <description>목적 클라우드 프론트에서 웹사이트 호스팅
+ S3 생성 권한 등은 건드릴 필요 없음 클라우드 프론트 생성  만들면서 권한 role, 생성, policy 업데이트 커스텀 도메인을 써야 하면 미리 인증서 생성. 인증서는 미국동부쪽에 생성- 클라우드 프론트에서는 여기서 지정한 것만 쓸 수 있음 CNAME에 커스텀 도메인 이름 써주기 behavior에서 DefaultObject 써주기 index.html으로. 하지 않으면 루트 접근시 403 에러 남. 설정에서 defaultRoot도 index파일 로 써주기 적절하게 404,403 리다이렉트. VUE나 PWA 를 쓸 때    Troubleshoot  클라우드 프론트에서 307이 리턴되고 S3파일로 리다이렉트 될 때 - S3가 us-east-1 이 아닌경우, 이름이 전파되는 데 최대 24시간 걸릴 수 있다.</description>
+    </item>
     
     <item>
       <title>CloudFront에서 웹사이트 연동을 위해 S3의 파일을 불러올 때 Access Denied가 날 때</title>
