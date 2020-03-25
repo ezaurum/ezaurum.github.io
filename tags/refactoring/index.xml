@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>refactoring on Ezaurum&#39;s Blog</title>
+    <link>https://ezaurum.com/tags/refactoring/</link>
+    <description>Recent content in refactoring on Ezaurum&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <copyright>© Ezaurum 2001-</copyright>
+    <lastBuildDate>Thu, 26 Mar 2020 01:42:28 +0900</lastBuildDate>
+    
+	<atom:link href="https://ezaurum.com/tags/refactoring/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Golang에서 같은 패키지에 여러 도메인 객체를 넣으면 안 되는 이유</title>
+      <link>https://ezaurum.com/2020/03/Golang%EC%97%90%EC%84%9C-%EA%B0%99%EC%9D%80-%ED%8C%A8%ED%82%A4%EC%A7%80%EC%97%90-%EC%97%AC%EB%9F%AC-%EB%8F%84%EB%A9%94%EC%9D%B8-%EA%B0%9D%EC%B2%B4%EB%A5%BC-%EB%84%A3%EC%9C%BC%EB%A9%B4-%EC%95%88-%EB%90%98%EB%8A%94-%EC%9D%B4%EC%9C%A0/</link>
+      <pubDate>Thu, 26 Mar 2020 01:42:28 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/2020/03/Golang%EC%97%90%EC%84%9C-%EA%B0%99%EC%9D%80-%ED%8C%A8%ED%82%A4%EC%A7%80%EC%97%90-%EC%97%AC%EB%9F%AC-%EB%8F%84%EB%A9%94%EC%9D%B8-%EA%B0%9D%EC%B2%B4%EB%A5%BC-%EB%84%A3%EC%9C%BC%EB%A9%B4-%EC%95%88-%EB%90%98%EB%8A%94-%EC%9D%B4%EC%9C%A0/</guid>
+      <description>Go 는 순환참조에 대해 매우 민감하다. 컴파일조차 되지 않는다.
+그게 불편해서 프로젝트의 도메인을 모두 한 곳에 집어넣는 경우가 있는데, 해 보니 다음과 같은 문제가 있었다.
+  네임스페이스가 겹쳐서 이름 짓기가 이상해진다 - 프로그래밍 레벨에서 이벤트를 쓰고, 행사라는 의미로 이벤트를 쓰면 둘 중 하나는 바꿔야 한다. 핸들러에서 메소드 이름으로 도메인 객체를 구분해야 하므로 매우 길어진다. create면 될 것을 createApplicationEvent 가 되는 식.
+  코드 복붙할 때 문제가 생긴다 - 자동 코드 생성기를 쓰든, 직접 복붙을 하든 1과 관련되어 패키지 이름이 겹치는 경우가 생기고, IDE의 리팩토링 툴을 쓰기도 곤란해진다.</description>
+    </item>
+    
+  </channel>
+</rss>

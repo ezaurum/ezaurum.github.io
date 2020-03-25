@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Fri, 21 Jun 2019 09:44:59 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 25 Mar 2020 09:44:59 +0900</lastBuildDate>
     
 	<atom:link href="https://ezaurum.com/series/%EB%A0%88%EC%8B%9C%ED%94%BC/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>CLI로 클라우드 와치 로그 보기</title>
+      <link>https://ezaurum.com/recipe/cli-cloudwatch/</link>
+      <pubDate>Wed, 25 Mar 2020 09:44:59 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/recipe/cli-cloudwatch/</guid>
+      <description>목적 aws cli 로 cloudwatch 로그 보기 방법(윈도에서 awslogs가 안 먹을때)
+ 로그 그룹 이름으로 로그 스트림들을 얻어온다 aws logs describe-log-streams --log-group-name /log/group/name 받아온 JSON에서 logStreamName 을 찾아 필요한 log stream name 을 알아낸다. 찾은 log stream 으로 로그를 얻어온다. aws logs get-log-events --output text --log-group-name /log/group/name --log-stream-name 2019/10/01/[$LATEST]hash  </description>
+    </item>
     
     <item>
       <title>클라우드 프론트에 웹사이트 배포</title>

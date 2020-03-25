@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Thu, 21 Feb 2019 18:20:40 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 26 Mar 2020 02:00:18 +0900</lastBuildDate>
     
 	<atom:link href="https://ezaurum.com/tags/%ED%95%9C%EC%A4%84%EC%A0%95%EB%A6%AC/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Vue에서 form 조건부 validation</title>
+      <link>https://ezaurum.com/2020/03/Vue%EC%97%90%EC%84%9C-form-%EC%A1%B0%EA%B1%B4%EB%B6%80-validation/</link>
+      <pubDate>Thu, 26 Mar 2020 02:00:18 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/2020/03/Vue%EC%97%90%EC%84%9C-form-%EC%A1%B0%EA%B1%B4%EB%B6%80-validation/</guid>
+      <description>Vue에서 특정 경우에만 나타나는 항목에 대해 validation을 하려면, v-show말코 v-if를 써서 꺼버리면 validation 이 아예 돌지 않는다.</description>
+    </item>
     
     <item>
       <title>엑셀에서 컬럼을 로우로, 로우를 컬럼으로 변환</title>

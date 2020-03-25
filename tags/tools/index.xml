@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tools on Ezaurum&#39;s Blog</title>
+    <link>https://ezaurum.com/tags/tools/</link>
+    <description>Recent content in tools on Ezaurum&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <copyright>© Ezaurum 2001-</copyright>
+    <lastBuildDate>Thu, 26 Mar 2020 01:49:15 +0900</lastBuildDate>
+    
+	<atom:link href="https://ezaurum.com/tags/tools/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>사용하는 툴</title>
+      <link>https://ezaurum.com/2020/03/%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%ED%88%B4/</link>
+      <pubDate>Thu, 26 Mar 2020 01:49:15 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/2020/03/%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%ED%88%B4/</guid>
+      <description>사용하는 툴 정리, 종종 업데이트
+  Tmuxinator - 작업 시작하려면 docker compose 켜고, 프론트 코드가 있는 디렉토리에 가서 yarn을 실행하고, 서버 디렉토리에서 서버 실행하고, 로그 창 하나 띄우고&amp;hellip; 그러기에는 인생이 너무 짧다. 간단하게 세트를 만들어두고 실행할 수 있다.
+  modd - go로 작업하려면 컴파일을 계속 다시 해 줘야 한다. 귀찮음을 덜으려면 꼭 필요.
+  env GO111MODULE=on go get github.com/cortesi/modd/cmd/modd  docker compose - docker는 당연히 쓰는 거고, mysql, redis, 하나하나 깔 수도 없고 팀원들한테 설명하기도 힘들다.</description>
+    </item>
+    
+  </channel>
+</rss>

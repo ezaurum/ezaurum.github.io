@@ -13,6 +13,49 @@
     
     
     <item>
+      <title>Vue에서 form 조건부 validation</title>
+      <link>https://ezaurum.com/2020/03/Vue%EC%97%90%EC%84%9C-form-%EC%A1%B0%EA%B1%B4%EB%B6%80-validation/</link>
+      <pubDate>Thu, 26 Mar 2020 02:00:18 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/2020/03/Vue%EC%97%90%EC%84%9C-form-%EC%A1%B0%EA%B1%B4%EB%B6%80-validation/</guid>
+      <description>Vue에서 특정 경우에만 나타나는 항목에 대해 validation을 하려면, v-show말코 v-if를 써서 꺼버리면 validation 이 아예 돌지 않는다.</description>
+    </item>
+    
+    <item>
+      <title>사용하는 툴</title>
+      <link>https://ezaurum.com/2020/03/%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%ED%88%B4/</link>
+      <pubDate>Thu, 26 Mar 2020 01:49:15 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/2020/03/%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%ED%88%B4/</guid>
+      <description>사용하는 툴 정리, 종종 업데이트
+  Tmuxinator - 작업 시작하려면 docker compose 켜고, 프론트 코드가 있는 디렉토리에 가서 yarn을 실행하고, 서버 디렉토리에서 서버 실행하고, 로그 창 하나 띄우고&amp;hellip; 그러기에는 인생이 너무 짧다. 간단하게 세트를 만들어두고 실행할 수 있다.
+  modd - go로 작업하려면 컴파일을 계속 다시 해 줘야 한다. 귀찮음을 덜으려면 꼭 필요.
+  env GO111MODULE=on go get github.com/cortesi/modd/cmd/modd  docker compose - docker는 당연히 쓰는 거고, mysql, redis, 하나하나 깔 수도 없고 팀원들한테 설명하기도 힘들다.</description>
+    </item>
+    
+    <item>
+      <title>Golang에서 같은 패키지에 여러 도메인 객체를 넣으면 안 되는 이유</title>
+      <link>https://ezaurum.com/2020/03/Golang%EC%97%90%EC%84%9C-%EA%B0%99%EC%9D%80-%ED%8C%A8%ED%82%A4%EC%A7%80%EC%97%90-%EC%97%AC%EB%9F%AC-%EB%8F%84%EB%A9%94%EC%9D%B8-%EA%B0%9D%EC%B2%B4%EB%A5%BC-%EB%84%A3%EC%9C%BC%EB%A9%B4-%EC%95%88-%EB%90%98%EB%8A%94-%EC%9D%B4%EC%9C%A0/</link>
+      <pubDate>Thu, 26 Mar 2020 01:42:28 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/2020/03/Golang%EC%97%90%EC%84%9C-%EA%B0%99%EC%9D%80-%ED%8C%A8%ED%82%A4%EC%A7%80%EC%97%90-%EC%97%AC%EB%9F%AC-%EB%8F%84%EB%A9%94%EC%9D%B8-%EA%B0%9D%EC%B2%B4%EB%A5%BC-%EB%84%A3%EC%9C%BC%EB%A9%B4-%EC%95%88-%EB%90%98%EB%8A%94-%EC%9D%B4%EC%9C%A0/</guid>
+      <description>Go 는 순환참조에 대해 매우 민감하다. 컴파일조차 되지 않는다.
+그게 불편해서 프로젝트의 도메인을 모두 한 곳에 집어넣는 경우가 있는데, 해 보니 다음과 같은 문제가 있었다.
+  네임스페이스가 겹쳐서 이름 짓기가 이상해진다 - 프로그래밍 레벨에서 이벤트를 쓰고, 행사라는 의미로 이벤트를 쓰면 둘 중 하나는 바꿔야 한다. 핸들러에서 메소드 이름으로 도메인 객체를 구분해야 하므로 매우 길어진다. create면 될 것을 createApplicationEvent 가 되는 식.
+  코드 복붙할 때 문제가 생긴다 - 자동 코드 생성기를 쓰든, 직접 복붙을 하든 1과 관련되어 패키지 이름이 겹치는 경우가 생기고, IDE의 리팩토링 툴을 쓰기도 곤란해진다.</description>
+    </item>
+    
+    <item>
+      <title>CLI로 클라우드 와치 로그 보기</title>
+      <link>https://ezaurum.com/recipe/cli-cloudwatch/</link>
+      <pubDate>Wed, 25 Mar 2020 09:44:59 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/recipe/cli-cloudwatch/</guid>
+      <description>목적 aws cli 로 cloudwatch 로그 보기 방법(윈도에서 awslogs가 안 먹을때)
+ 로그 그룹 이름으로 로그 스트림들을 얻어온다 aws logs describe-log-streams --log-group-name /log/group/name 받아온 JSON에서 logStreamName 을 찾아 필요한 log stream name 을 알아낸다. 찾은 log stream 으로 로그를 얻어온다. aws logs get-log-events --output text --log-group-name /log/group/name --log-stream-name 2019/10/01/[$LATEST]hash  </description>
+    </item>
+    
+    <item>
       <title>칭따오 여행</title>
       <link>https://ezaurum.com/2020/03/%EC%B9%AD%EB%94%B0%EC%98%A4-%EC%97%AC%ED%96%89/</link>
       <pubDate>Sun, 15 Mar 2020 12:42:34 +0900</pubDate>
