@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Tue, 31 Dec 2019 15:53:07 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 02 Apr 2020 19:37:28 +0900</lastBuildDate>
     
 	<atom:link href="https://ezaurum.com/categories/%ED%9A%8C%EA%B3%A0/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2020년 1사분기 회고</title>
+      <link>https://ezaurum.com/retrospective/2020-1st-quater/</link>
+      <pubDate>Thu, 02 Apr 2020 19:37:28 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/retrospective/2020-1st-quater/</guid>
+      <description>한 일  드디어 CI/CD 를 굴렸다 목표였던 콩콩 배포 자동화 완료 테라폼으로 인프라 생성을 코드화했다 사무실 생성 소상공인 대출 주식투자 본격 시작 위급상황의 국제선 비행기 예매 및 구조 파악 Admin 페이지 틀 생성  감상  테라폼 좋다 역시 CI/CD는 편하다  교훈  시간을 들여 천천히 하자 조급해 하지 말자  </description>
+    </item>
     
     <item>
       <title>2019년 전체 회고</title>
