@@ -67,9 +67,9 @@
 <main class="post single">
 <h1>AWS RDS time_zone 셋팅</h1>
 2014-12-24
-<section><p>AWS RDS는 default_time_zone을 바꿀 수 없다. 그래서 각 연결마다 time_zone을 새로 셋팅해 주는 편법을 쓰는데, 모든 연결에 <!-- raw HTML omitted -->SET time_zone = &lsquo;Asia/Seoul&rsquo;;<!-- raw HTML omitted -->을 설정하는 방법으로 같은 효과를 볼 수 있다.
+<section><p>AWS RDS는 default_time_zone을 바꿀 수 없다. 그래서 각 연결마다 time_zone을 새로 셋팅해 주는 편법을 쓰는데, 모든 연결에 <code>SET time_zone = &lsquo;Asia/Seoul&rsquo;;</code>을 설정하는 방법으로 같은 효과를 볼 수 있다.
 그러기 위해서는 init_connect에다가 값을 넣어주면 된다.</p>
-<p><!-- raw HTML omitted -->참고 링크<!-- raw HTML omitted --></p>
+<p><a href="http://blog.suz-lab.com/2011/03/rdsutc.html">참고 링크</a></p>
 </section>
 
 

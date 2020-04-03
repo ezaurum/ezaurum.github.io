@@ -21,32 +21,38 @@
     
 
     <meta itemprop="name" content="종종 헷갈리는 pointer와 배열">
-<meta itemprop="description" content="*(pointer &#43; n) 는 pointer[n] 과 같다. 겹쳐져 있으면 해석은 오른쪽부터.이걸 알면 모두 OK.
+<meta itemprop="description" content="*(pointer &#43; n) 는 pointer[n] 과 같다. 겹쳐져 있으면 해석은 오른쪽부터.
+이걸 알면 모두 OK.
 pointer[x][y][z] 는 *(pointer[x][y]&#43;z) pointer[x][y] 는 *(pointer[x]&#43;y) pointer[x]는 *(pointer&#43;x)
 그러니 pointer[x][y][z]는 ((*(pointer&#43;x)&#43;y)&#43;z)
-추가로 알아둘 사항. void * pp; int a=35; pp = &amp;a; int ppp[5][5] = { 0, };
-printf(&quot;%dn&quot;,sizeof(pp));printf(&quot;%dn&quot;,*(int*)pp);printf(&quot;%dn&quot;,sizeof(ppp));printf(&quot;%dn&quot;,sizeof(ppp[0]));printf(&quot;%dn&quot;,sizeof(ppp[0][0]));printf(&quot;%pn&quot;,ppp);printf(&quot;%pn&quot;,ppp&#43;1);printf(&quot;%pn&quot;,*(ppp&#43;2)&#43;1);printf(&quot;%pn&quot;,ppp[2]&#43;1);printf(&quot;%pn&quot;,&amp;amp;ppp[2][1]);printf(&quot;%pn&quot;,ppp[0][0]&#43;1); pointer &#43;1 은 pointer값 &#43; sizeof(*pointer);혹여나 해서 추가해보는 codepad link">
+추가로 알아둘 사항.  void * pp; int a=35; pp = &amp;a; int ppp[5][5] = { 0, };
+printf(&quot;%dn&quot;,sizeof(pp));printf(&quot;%dn&quot;,*(int*)pp);printf(&quot;%dn&quot;,sizeof(ppp));printf(&quot;%dn&quot;,sizeof(ppp[0]));printf(&quot;%dn&quot;,sizeof(ppp[0][0]));printf(&quot;%pn&quot;,ppp);printf(&quot;%pn&quot;,ppp&#43;1);printf(&quot;%pn&quot;,*(ppp&#43;2)&#43;1);printf(&quot;%pn&quot;,ppp[2]&#43;1);printf(&quot;%pn&quot;,&amp;amp;ppp[2][1]);printf(&quot;%pn&quot;,ppp[0][0]&#43;1); pointer &#43;1 은 pointer값 &#43; sizeof(*pointer);
+혹여나 해서 추가해보는 codepad link">
 <meta itemprop="datePublished" content="2008-11-24T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2008-11-24T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="63">
+<meta itemprop="wordCount" content="65">
 
 
 
 <meta itemprop="keywords" content="c,C/C&#43;&#43;,배열,공부,포인터,pointer," />
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="종종 헷갈리는 pointer와 배열"/>
-<meta name="twitter:description" content="*(pointer &#43; n) 는 pointer[n] 과 같다. 겹쳐져 있으면 해석은 오른쪽부터.이걸 알면 모두 OK.
+<meta name="twitter:description" content="*(pointer &#43; n) 는 pointer[n] 과 같다. 겹쳐져 있으면 해석은 오른쪽부터.
+이걸 알면 모두 OK.
 pointer[x][y][z] 는 *(pointer[x][y]&#43;z) pointer[x][y] 는 *(pointer[x]&#43;y) pointer[x]는 *(pointer&#43;x)
 그러니 pointer[x][y][z]는 ((*(pointer&#43;x)&#43;y)&#43;z)
-추가로 알아둘 사항. void * pp; int a=35; pp = &amp;a; int ppp[5][5] = { 0, };
-printf(&quot;%dn&quot;,sizeof(pp));printf(&quot;%dn&quot;,*(int*)pp);printf(&quot;%dn&quot;,sizeof(ppp));printf(&quot;%dn&quot;,sizeof(ppp[0]));printf(&quot;%dn&quot;,sizeof(ppp[0][0]));printf(&quot;%pn&quot;,ppp);printf(&quot;%pn&quot;,ppp&#43;1);printf(&quot;%pn&quot;,*(ppp&#43;2)&#43;1);printf(&quot;%pn&quot;,ppp[2]&#43;1);printf(&quot;%pn&quot;,&amp;amp;ppp[2][1]);printf(&quot;%pn&quot;,ppp[0][0]&#43;1); pointer &#43;1 은 pointer값 &#43; sizeof(*pointer);혹여나 해서 추가해보는 codepad link"/>
+추가로 알아둘 사항.  void * pp; int a=35; pp = &amp;a; int ppp[5][5] = { 0, };
+printf(&quot;%dn&quot;,sizeof(pp));printf(&quot;%dn&quot;,*(int*)pp);printf(&quot;%dn&quot;,sizeof(ppp));printf(&quot;%dn&quot;,sizeof(ppp[0]));printf(&quot;%dn&quot;,sizeof(ppp[0][0]));printf(&quot;%pn&quot;,ppp);printf(&quot;%pn&quot;,ppp&#43;1);printf(&quot;%pn&quot;,*(ppp&#43;2)&#43;1);printf(&quot;%pn&quot;,ppp[2]&#43;1);printf(&quot;%pn&quot;,&amp;amp;ppp[2][1]);printf(&quot;%pn&quot;,ppp[0][0]&#43;1); pointer &#43;1 은 pointer값 &#43; sizeof(*pointer);
+혹여나 해서 추가해보는 codepad link"/>
 
     <meta property="og:title" content="종종 헷갈리는 pointer와 배열" />
-<meta property="og:description" content="*(pointer &#43; n) 는 pointer[n] 과 같다. 겹쳐져 있으면 해석은 오른쪽부터.이걸 알면 모두 OK.
+<meta property="og:description" content="*(pointer &#43; n) 는 pointer[n] 과 같다. 겹쳐져 있으면 해석은 오른쪽부터.
+이걸 알면 모두 OK.
 pointer[x][y][z] 는 *(pointer[x][y]&#43;z) pointer[x][y] 는 *(pointer[x]&#43;y) pointer[x]는 *(pointer&#43;x)
 그러니 pointer[x][y][z]는 ((*(pointer&#43;x)&#43;y)&#43;z)
-추가로 알아둘 사항. void * pp; int a=35; pp = &amp;a; int ppp[5][5] = { 0, };
-printf(&quot;%dn&quot;,sizeof(pp));printf(&quot;%dn&quot;,*(int*)pp);printf(&quot;%dn&quot;,sizeof(ppp));printf(&quot;%dn&quot;,sizeof(ppp[0]));printf(&quot;%dn&quot;,sizeof(ppp[0][0]));printf(&quot;%pn&quot;,ppp);printf(&quot;%pn&quot;,ppp&#43;1);printf(&quot;%pn&quot;,*(ppp&#43;2)&#43;1);printf(&quot;%pn&quot;,ppp[2]&#43;1);printf(&quot;%pn&quot;,&amp;amp;ppp[2][1]);printf(&quot;%pn&quot;,ppp[0][0]&#43;1); pointer &#43;1 은 pointer값 &#43; sizeof(*pointer);혹여나 해서 추가해보는 codepad link" />
+추가로 알아둘 사항.  void * pp; int a=35; pp = &amp;a; int ppp[5][5] = { 0, };
+printf(&quot;%dn&quot;,sizeof(pp));printf(&quot;%dn&quot;,*(int*)pp);printf(&quot;%dn&quot;,sizeof(ppp));printf(&quot;%dn&quot;,sizeof(ppp[0]));printf(&quot;%dn&quot;,sizeof(ppp[0][0]));printf(&quot;%pn&quot;,ppp);printf(&quot;%pn&quot;,ppp&#43;1);printf(&quot;%pn&quot;,*(ppp&#43;2)&#43;1);printf(&quot;%pn&quot;,ppp[2]&#43;1);printf(&quot;%pn&quot;,&amp;amp;ppp[2][1]);printf(&quot;%pn&quot;,ppp[0][0]&#43;1); pointer &#43;1 은 pointer값 &#43; sizeof(*pointer);
+혹여나 해서 추가해보는 codepad link" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://ezaurum.com/2008/11/%EC%A2%85%EC%A2%85-%ED%97%B7%EA%B0%88%EB%A6%AC%EB%8A%94-pointer%EC%99%80-%EB%B0%B0%EC%97%B4/" />
 <meta property="article:published_time" content="2008-11-24T00:00:00+00:00" />
@@ -76,14 +82,14 @@ printf(&quot;%dn&quot;,sizeof(pp));printf(&quot;%dn&quot;,*(int*)pp);printf(&q
 <main class="post single">
 <h1>종종 헷갈리는 pointer와 배열</h1>
 2008-11-24
-<section><p><!-- raw HTML omitted -->*(pointer + n) 는 pointer[n] 과 같다. 겹쳐져 있으면 해석은 오른쪽부터.<!-- raw HTML omitted --></p>
+<section><p><strong>*(pointer + n) 는 pointer[n] 과 같다. 겹쳐져 있으면 해석은 오른쪽부터.</strong></p>
 <p>이걸 알면 모두 OK.</p>
 <p>pointer[x][y][z] 는 *(pointer[x][y]+z)
 pointer[x][y] 는 *(pointer[x]+y)
 pointer[x]는 *(pointer+x)</p>
 <p>그러니 pointer[x][y][z]는 <em>(</em>(*(pointer+x)+y)+z)</p>
 <p>추가로 알아둘 사항.
-<!-- raw HTML omitted -->
+<code>
 void * pp;
 int a=35;
 pp = &amp;a;
@@ -100,9 +106,9 @@ printf(&quot;%pn&quot;,ppp[2]+1);
 printf(&quot;%pn&quot;,&amp;amp;ppp[2][1]);
 printf(&quot;%pn&quot;,ppp[0][0]+1);
 </code></pre>
-<!-- raw HTML omitted -->
-<p><!-- raw HTML omitted -->pointer +1 은 pointer값 + sizeof(*pointer);<!-- raw HTML omitted --></p>
-<p><!-- raw HTML omitted --><!-- raw HTML omitted -->혹여나 해서 추가해보는 codepad link<!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+</code>
+<p><strong>pointer +1 은 pointer값 + sizeof(*pointer);</strong></p>
+<p><ins datetime="2011-06-20T05:33:06+00:00"><a href="http://codepad.org/lQuxkNuF">혹여나 해서 추가해보는 codepad link</a></ins></p>
 </section>
 
 

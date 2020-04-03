@@ -79,14 +79,14 @@ for 문을 돌려 대상 게시판(1,2,3)의 글을 한 행씩 받아온다.
 이렇게 적고 보니 좀 그런게, 그냥 PK만 받아온 다음 update를 돌려도 되지 않았을까 싶다.
 생각해 보니 그 테이블에 PK가 한 컬럼이 아니라 여러 컬럼 묶음이었나 없었나 그랬던 것 같다. 자세한 건 기억이 안 난다.
 여하튼 아래의 소스는 그렇게 PK를 받아오게 수정&hellip; 한 소스다. 뭔가 좀 틀렸을 수도 있지만, 그건 오라클님이 친절히 틀렸다고 가르쳐 줄 테니 문제없겠지.
-<!-- raw HTML omitted -->
+<code>
 declare V_lower number;</p>
 <p>BEGIN</p>
 <p>select max(seq) into V_lower from board where id=111;</p>
 <p>FOR x in (select seq from board where_) loop V_lower := V_lower +1;
 END LOOP;
 END;
-<!-- raw HTML omitted --></p>
+</code></p>
 </section>
 
 

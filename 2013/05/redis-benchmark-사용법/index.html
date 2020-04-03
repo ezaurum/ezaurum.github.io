@@ -21,22 +21,25 @@
     
 
     <meta itemprop="name" content="redis benchmark 사용법">
-<meta itemprop="description" content="redis 실제 사용할 때 성능 체크를 해 보는 간단한 방법 $ ./redis-benchmark -n 30 -r 32 -d 1024 -c 1000-n 반복 횟수 -r 키 길이(바이트) -d 데이터 길이(바이트) -c 동접 클라이언트 갯수
+<meta itemprop="description" content="redis 실제 사용할 때 성능 체크를 해 보는 간단한 방법 $ ./redis-benchmark -n 30 -r 32 -d 1024 -c 1000
+-n 반복 횟수 -r 키 길이(바이트) -d 데이터 길이(바이트) -c 동접 클라이언트 갯수
 코어2 듀오, 램 2기가 리눅스 민트에서 실험해 본 결과 대충 1666 request/s 고, 17ms안에 모든 응답이 돌아왔다.">
 <meta itemprop="datePublished" content="2013-05-03T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2013-05-03T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="49">
+<meta itemprop="wordCount" content="50">
 
 
 
 <meta itemprop="keywords" content="benchmark,redis," />
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="redis benchmark 사용법"/>
-<meta name="twitter:description" content="redis 실제 사용할 때 성능 체크를 해 보는 간단한 방법 $ ./redis-benchmark -n 30 -r 32 -d 1024 -c 1000-n 반복 횟수 -r 키 길이(바이트) -d 데이터 길이(바이트) -c 동접 클라이언트 갯수
+<meta name="twitter:description" content="redis 실제 사용할 때 성능 체크를 해 보는 간단한 방법 $ ./redis-benchmark -n 30 -r 32 -d 1024 -c 1000
+-n 반복 횟수 -r 키 길이(바이트) -d 데이터 길이(바이트) -c 동접 클라이언트 갯수
 코어2 듀오, 램 2기가 리눅스 민트에서 실험해 본 결과 대충 1666 request/s 고, 17ms안에 모든 응답이 돌아왔다."/>
 
     <meta property="og:title" content="redis benchmark 사용법" />
-<meta property="og:description" content="redis 실제 사용할 때 성능 체크를 해 보는 간단한 방법 $ ./redis-benchmark -n 30 -r 32 -d 1024 -c 1000-n 반복 횟수 -r 키 길이(바이트) -d 데이터 길이(바이트) -c 동접 클라이언트 갯수
+<meta property="og:description" content="redis 실제 사용할 때 성능 체크를 해 보는 간단한 방법 $ ./redis-benchmark -n 30 -r 32 -d 1024 -c 1000
+-n 반복 횟수 -r 키 길이(바이트) -d 데이터 길이(바이트) -c 동접 클라이언트 갯수
 코어2 듀오, 램 2기가 리눅스 민트에서 실험해 본 결과 대충 1666 request/s 고, 17ms안에 모든 응답이 돌아왔다." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://ezaurum.com/2013/05/redis-benchmark-%EC%82%AC%EC%9A%A9%EB%B2%95/" />
@@ -68,7 +71,7 @@
 <h1>redis benchmark 사용법</h1>
 2013-05-03
 <section><p>redis 실제 사용할 때 성능 체크를 해 보는 간단한 방법
-<!-- raw HTML omitted -->$ ./redis-benchmark -n 30 -r 32 -d 1024 -c 1000<!-- raw HTML omitted --></p>
+<code>$ ./redis-benchmark -n 30 -r 32 -d 1024 -c 1000</code></p>
 <p>-n 반복 횟수
 -r 키 길이(바이트)
 -d 데이터 길이(바이트)

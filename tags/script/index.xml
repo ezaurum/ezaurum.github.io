@@ -18,7 +18,7 @@
       <pubDate>Thu, 02 May 2013 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2013/05/bash-%EC%85%80%EC%97%90%EC%84%9C-%EB%B3%80%EC%88%98-%EC%82%AC%EC%9A%A9/</guid>
-      <description></description>
+      <description>#!/bin/sh -eTODAY=`date -u +%Y%m%d`REDIS_HOME=&#34;/usr/redis-2.6.13/src&#34;fileName=&#34;redis-&#34;$TODAY&#34;.log&#34;$REDIS_HOME/redis-server &amp;gt;&amp;gt; $REDIS_HOME/$fileName &amp;amp;보시다시피 그냥 변수이름=값 해주면 쓸 수 있고, $를 붙이면 값을 받아오고, 문자열과는 붙여놓으면 자동으로 달라붙는다.</description>
     </item>
     
     <item>

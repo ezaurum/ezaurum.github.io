@@ -28,7 +28,7 @@
       <pubDate>Mon, 26 Mar 2012 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2012/03/iBatis-TypeHandler/</guid>
-      <description>TypeHandler는 iBatis에서 특정 타입을 매핑할 때 원하는 행동을 지정해주는 클래스다. 이걸 이용하면 DB에는 Y/N으로 저장된 걸 boolean으로 처리한다든가 하는 게 가능해진다. public class StudyTypeHandler extends EnumTypeHandler { public StudyTypeHandler() { super(EnumStudy.class); }
+      <description>TypeHandler는 iBatis에서 특정 타입을 매핑할 때 원하는 행동을 지정해주는 클래스다. 이걸 이용하면 DB에는 Y/N으로 저장된 걸 boolean으로 처리한다든가 하는 게 가능해진다.  public class StudyTypeHandler extends EnumTypeHandler { public StudyTypeHandler() { super(EnumStudy.class); }
 //얘가 결과를 받아서 빈에 매핑하는 애다. @Override public Object getResult(ResultGetter getter) throws SQLException { int result = getter.getInt(); if(getter.wasNull()) { return null; } return EnumStudy.valueOf(result); } //얘는 빈에서 받아다가 DB에 매핑하는 애다. @Override public void setParameter(ParameterSetter setter, Object parameter) throws SQLException { if(parameter == null) { setter.</description>
     </item>
     
@@ -38,8 +38,8 @@
       <pubDate>Mon, 26 Mar 2012 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2012/03/Java-Enum/</guid>
-      <description>public enum EnumStudy { JAVA(1), C(2),RUBY(3); private int value; public int intValue() { return value;} private EnumStudy(int value) { this.value = value; } public static EnumStudy valueOf(int value) { switch (value) { case 1: return JAVA; case 2: return C; case 3: return RUBY; default: throw new IllegalArgumentException(&amp;ldquo;There is no matching for &amp;ldquo;+value); } }
-public static void main(String args[]) { System.out.println(EnumStudy.valueOf(1)); System.out.println(EnumStudy.valueOf(&amp;ldquo;JAVA&amp;rdquo;)); //이건 enum들은 기본적으로 선언되는 메소드. System.out.println(EnumStudy.JAVA); System.out.println(EnumStudy.JAVA.intValue()); } } 이 결과는&amp;hellip;</description>
+      <description>import java.lang.IllegalArgumentException;public enum EnumStudy { JAVA(1), C(2),RUBY(3); private int value; public int intValue() { return value;} private EnumStudy(int value) { this.value = value; } public static EnumStudy valueOf(int value) { switch (value) { case 1: return JAVA; case 2: return C; case 3: return RUBY; default: throw new IllegalArgumentException(&amp;ldquo;There is no matching for &amp;ldquo;+value); } }
+public static void main(String args[]) { System.out.println(EnumStudy.valueOf(1)); System.out.println(EnumStudy.valueOf(&amp;ldquo;JAVA&amp;rdquo;)); //이건 enum들은 기본적으로 선언되는 메소드.</description>
     </item>
     
   </channel>

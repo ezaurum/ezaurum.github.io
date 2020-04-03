@@ -18,8 +18,9 @@
       <pubDate>Fri, 05 Dec 2014 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2014/12/Cross-thread-operation-not-valid-%ED%95%B4%EA%B2%B0/</guid>
-      <description>출처 - 스택오버플로우private void OnAction(string v) { richTextBox1.AppendText(v + Environment.NewLine); richTextBox1.ScrollToCaret(); }
-public void AddText(string value) { richTextBox1.Invoke((Action) OnAction, value); } 기본적으로 invoke를 이용하면 해당 문제를 막을 수 있음.</description>
+      <description>출처 - 스택오버플로우  private void OnAction(string v) { richTextBox1.AppendText(v + Environment.NewLine); richTextBox1.ScrollToCaret(); }
+public void AddText(string value) { richTextBox1.Invoke((Action) OnAction, value); } 
+기본적으로 invoke를 이용하면 해당 문제를 막을 수 있음.</description>
     </item>
     
   </channel>

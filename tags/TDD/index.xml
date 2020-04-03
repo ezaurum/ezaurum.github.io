@@ -18,7 +18,7 @@
       <pubDate>Mon, 30 Sep 2013 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2013/09/C#-TDD/</guid>
-      <description>C# 개발을 시작하면서 일단 두 개를 써 보기로 했다. Moq Quick StartNUnit 2.6.2 quick startResharper를 쓰고 있어서 그런지, NUnit 테스트는 alt+Enter로 실행이 되고, 결과도 따로 창 안 뜨고 옆에 보인다. moq는 람다식 덕에 자바에서 mockito를 쓸 때보다 좀 더 편해보인다.</description>
+      <description>C# 개발을 시작하면서 일단 두 개를 써 보기로 했다. Moq Quick Start NUnit 2.6.2 quick start Resharper를 쓰고 있어서 그런지, NUnit 테스트는 alt+Enter로 실행이 되고, 결과도 따로 창 안 뜨고 옆에 보인다. moq는 람다식 덕에 자바에서 mockito를 쓸 때보다 좀 더 편해보인다.</description>
     </item>
     
     <item>
@@ -27,7 +27,7 @@
       <pubDate>Tue, 05 Feb 2013 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2013/02/%EB%B6%80%EC%A0%95%EA%B8%B0-%EC%A0%95%EB%A6%AC/</guid>
-      <description></description>
+      <description>크롬의 navigator.userAgent 값에는 Safari가 들어가 있다. webkit엔진이라 그런가?톰캣은 jstl라이브러리를 제공하지 않는다. http://stackoverflow.com/tags/jstl/info스프링에서 파라마터로 list를 받아오려면 static class TagList extends ArrayList { } - 내부 클래스로 선언할 경우, static을 붙여줘야 jackson에서 인식을 해 준다.backbone.js은 DOM 구조만 건드린다. knockout.js은 template 포함. 한방에 할 수 있는 솔루션 그런고로 경량 vs 좀 무거움.게임이나 어디든 패킷 기록, 재생기는 필수!어쨌든 독립 웹요청 테스트가 가능해야 함!레거시 코드를 건드릴 때는 최대한 그대로 옮기자.</description>
     </item>
     
     <item>
@@ -36,7 +36,7 @@
       <pubDate>Sun, 27 Jan 2013 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2013/01/%EB%B6%80%EC%A0%95%EA%B8%B0-%EC%A0%95%EB%A6%AC/</guid>
-      <description></description>
+      <description>모든 것에 의미있는 히스토리가 있어야 한다.log, history 들은 AOP로 구현해야 한다.필연적으로 데이터가 많아지므로 async&amp;amp;big data를 고려.사용하는 객체는 UUID 류의 인덱스가 붙어 있는 게 편하다. 그러잖으면 검색이 계속 일어나야 함. hash든 뭐든 즉시 찾을 수 있게 하자.JSON-object 변환시, 상황에 따라 내부 object를 다 변환할지 id만 뽑아올지를 생각해보자.AWS S3에서 파일이 없어도 403이 뜬다. 보안상 당연한가...switch 문에 케이스가 줄줄 붙어 있으면 제거해 보자.요구 사항 명세, 문서와 테스트 케이스가 같으면 좋다.</description>
     </item>
     
     <item>
@@ -45,7 +45,7 @@
       <pubDate>Fri, 24 Aug 2012 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2012/08/8%EC%9B%94-%EB%84%B7%EC%A7%B8-%EC%A3%BC-%EC%A0%95%EB%A6%AC/</guid>
-      <description>&amp;lt;li&amp;gt;테스트 케이스가 없으면 대규모 수정은 손대지 말 것. 늪이 된다.&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;상대는 바보가 아니다. 내가 뭔가 해서 분위기를 띄워야 한다는 생각을 말자. 편안하게 얘기해야 상대도 편안하다.&amp;lt;/li&amp;gt; </description>
+      <description>Test case를 만들자. 힘들어도 일단 하나씩 하고 보자.&amp;lt;li&amp;gt;테스트 케이스가 없으면 대규모 수정은 손대지 말 것. 늪이 된다.&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;상대는 바보가 아니다. 내가 뭔가 해서 분위기를 띄워야 한다는 생각을 말자. 편안하게 얘기해야 상대도 편안하다.&amp;lt;/li&amp;gt; 클래스 패키징이 잘 되었는가를 판별할 때, import가 얼마나 쓰이나를 생각할 것.위와 같은 이유로, 기능과 변경 이유를 생각해 볼 것.어쨌든 생각하고 움직이자.</description>
     </item>
     
     <item>
@@ -82,9 +82,9 @@
       <pubDate>Tue, 10 Aug 2010 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2010/08/Junit-4-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0/</guid>
-      <description>며칠 전에 TDD를 시작 하겠다고한 바, 시작은 하는데, 기왕 하는 거 깔끔하게 정리도 해 보자는 생각에 포스팅도 하기로 했다. 더 자세한 내용은 이 기사를 참고또한 이걸 왜 해야 하는지에 대한 것은 여기를 참고
-일단 새 프로젝트를 하나 만들어 보자. 당연히 Java 프로젝트로 만든다.
-다음은 테스트할 내용을 적는다. 일단 첫 테스트이고, 테스트 내용보다 테스트 방법-정확히는 jUnit4의 사용법-을 익히는 게 중요하므로, 입력이 뭐가 되든 값이 26이 나오는 데 집중한다. 어쨌든 처음 할 일은 결과 값이 26이 나오는지를 검사하는 테스트를 만드는 일이다.</description>
+      <description>며칠 전에 TDD를 시작 하겠다고 한 바, 시작은 하는데, 기왕 하는 거 깔끔하게 정리도 해 보자는 생각에 포스팅도 하기로 했다. 더 자세한 내용은 이 기사를 참고 또한 이걸 왜 해야 하는지에 대한 것은 여기를 참고
+ 일단 새 프로젝트를 하나 만들어 보자. 당연히 Java 프로젝트로 만든다.
+ 다음은 테스트할 내용을 적는다. 일단 첫 테스트이고, 테스트 내용보다 테스트 방법-정확히는 jUnit4의 사용법-을 익히는 게 중요하므로, 입력이 뭐가 되든 값이 26이 나오는 데 집중한다.</description>
     </item>
     
     <item>
@@ -98,7 +98,8 @@ import static org.junit.Assert.assertEquals;
 import org.junit.Test; import org.junit.Before; import org.junit.After;
 public class myTest {	@Test public void testCodes() throws Exception { System.out.println(&amp;ldquo;3&amp;rdquo;); }
 @Beforepublic void testMakeClass1(){System.out.println(&amp;quot;2&amp;quot;);	}	@Beforepublic void testMakeClass(){System.out.println(&amp;quot;1&amp;quot;);	} @After public void afterClass() { System.out.println(&amp;ldquo;4&amp;rdquo;);
-}@Afterpublic void afterClass1(){System.out.println(&amp;quot;5&amp;quot;);}	 } 실행 결과는 적힌 대로 12345가 된다.</description>
+}@Afterpublic void afterClass1(){System.out.println(&amp;quot;5&amp;quot;);}	 } 
+실행 결과는 적힌 대로 12345가 된다.</description>
     </item>
     
     <item>
@@ -108,7 +109,9 @@ public class myTest {	@Test public void testCodes() throws Exception { System.ou
       
       <guid>https://ezaurum.com/2010/08/TDD-%EC%8B%9C%EC%9E%91/</guid>
       <description>TDD란 걸 시작했다. 좋은 튜토리얼을 발견해서 그걸 보고 대충 익혔는데, 여기의 글들과 관련해서 좀 공부를 더 해야 겠다.
-&amp;lt;li&amp;gt;작성한 테스트를 통과할 수 있도록 가장 빠른 방법으로 코드를 작성한다. 이 과정에 중복된 코드를 만들어도 상관 없다. &amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;테스트를 수행한다. &amp;lt;/li&amp;gt;&amp;lt;li&amp;gt; 테스트를 통과하면 작성한 코드에서 중복을 제거한다. 아니면 2번으로 돌아간다. 테스트를 수행한다. &amp;lt;li&amp;gt;테스트를 통과하면 완성. 다음 테스트를 1번부터 시작한다. 실패하면 4로 돌아가서 디버깅한다.&amp;lt;/li&amp;gt;&amp;lt;/ol&amp;gt; </description>
+테스트를 작성한다. &amp;lt;li&amp;gt;작성한 테스트를 통과할 수 있도록 가장 빠른 방법으로 코드를 작성한다. 이 과정에 중복된 코드를 만들어도 상관 없다. &amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;테스트를 수행한다. &amp;lt;/li&amp;gt;&amp;lt;li&amp;gt; 테스트를 통과하면 작성한 코드에서 중복을 제거한다. 아니면 2번으로 돌아간다. 	
+테스트를 수행한다. 
+&amp;lt;li&amp;gt;테스트를 통과하면 완성. 다음 테스트를 1번부터 시작한다. 실패하면 4로 돌아가서 디버깅한다.&amp;lt;/li&amp;gt;&amp;lt;/ol&amp;gt; TDD(TestDrivenDevelopement)이런 식으로 진행되는데, 개발 속도가 엄청나게 빨라진다고 한다.</description>
     </item>
     
   </channel>

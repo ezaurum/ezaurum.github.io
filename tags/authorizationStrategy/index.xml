@@ -18,7 +18,7 @@
       <pubDate>Mon, 20 May 2013 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2013/05/jenkins-%EB%B3%B4%EC%95%88-%EC%84%A4%EC%A0%95-%EC%B4%88%EA%B8%B0%ED%99%94/</guid>
-      <description>출처내 경우는 보안 설정을 하고 유닉스 유저 정보를 가져와서 로그인 하게 했는데, 로그인 암호가 자꾸 틀렸다고 나와서, /var/lib/jenkins/config.xml에서 useSecurity 태그와 authorizationStrategy 태그를 지우고 재시작 하니까 초기화 되었음</description>
+      <description>출처 내 경우는 보안 설정을 하고 유닉스 유저 정보를 가져와서 로그인 하게 했는데, 로그인 암호가 자꾸 틀렸다고 나와서, /var/lib/jenkins/config.xml에서 useSecurity 태그와 authorizationStrategy 태그를 지우고 재시작 하니까 초기화 되었음</description>
     </item>
     
   </channel>

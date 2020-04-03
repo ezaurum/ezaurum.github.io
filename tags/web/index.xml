@@ -48,7 +48,7 @@ git clone https://github.com/golang/go 그 다음 src 에서 all.bash를 실행�
       <pubDate>Mon, 05 Jan 2015 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2015/01/oAuth-%EC%A0%95%EB%A6%AC/</guid>
-      <description>OAuth를 통해 보는 안전한 통신 프로토콜의 조건oAuth와 춤을oAuth 공식 사이트</description>
+      <description>OAuth를 통해 보는 안전한 통신 프로토콜의 조건 oAuth와 춤을 oAuth 공식 사이트</description>
     </item>
     
     <item>
@@ -57,7 +57,7 @@ git clone https://github.com/golang/go 그 다음 src 에서 all.bash를 실행�
       <pubDate>Thu, 25 Jul 2013 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2013/07/Jackson%EC%9D%B4-null-%EC%9D%B8-%ED%94%84%EB%A1%9C%ED%8D%BC%ED%8B%B0%EB%A5%BC-%EB%B9%BC%EA%B3%A0-Serialize%ED%95%98%EA%B2%8C-%ED%95%98%EA%B8%B0/</guid>
-      <description>클래스 선언부에 다음을 추가 @JsonSerialize(include = JsonSerialize.Inclusion.NON_NULL) public class Blabla { &amp;hellip; } 상속도 된다.</description>
+      <description>클래스 선언부에 다음을 추가  @JsonSerialize(include = JsonSerialize.Inclusion.NON_NULL) public class Blabla { &amp;hellip; }  상속도 된다.</description>
     </item>
     
     <item>
@@ -66,7 +66,7 @@ git clone https://github.com/golang/go 그 다음 src 에서 all.bash를 실행�
       <pubDate>Thu, 23 May 2013 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2013/05/gradle%EC%97%90%EC%84%9C-jetty-9-%EC%93%B0%EA%B8%B0/</guid>
-      <description>gradle에 plugin으로 사용되는 jetty는 jetty 9이 아니다.그러므로 WebApplicationInitializer를 써서 만든 앱은 돌아가지 않는다.
+      <description>gradle에 plugin으로 사용되는 jetty는 jetty 9이 아니다. 그러므로 WebApplicationInitializer를 써서 만든 앱은 돌아가지 않는다.
 저 이슈 말미의 커멘트에 나온 방법으로 해결. 이걸로 6시간 넘게 잡아먹었다&amp;hellip;</description>
     </item>
     
@@ -94,7 +94,7 @@ git clone https://github.com/golang/go 그 다음 src 에서 all.bash를 실행�
       <pubDate>Wed, 11 Jul 2012 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2012/07/Spring-multipart-upload%EC%97%90%EC%84%9C-put-%EB%A9%94%EC%86%8C%EB%93%9C-%EC%82%AC%EC%9A%A9/</guid>
-      <description>org.apache.commons.fileupload.FileUploadBase 에서 multipart를 POST만 인식하게 되어 있으므로, 그냥은 안 된다. 자꾸 파라마터가 없다는 에러를 보게 될 것. 해결방법은 당연히 스택오버플로우에&amp;hellip; 이 링크 참조이 방법으로 CommonsMultipartResolver를 상속해서 put 메소드도 인식하게 해 주면, put으로 업로드 해도 정상 작동. 이방법을 쓴 건 3.0이지만, 소스 뜯어보니 아직 3.1도 안 되는 듯 하다. 당분간 이걸 써야지&amp;hellip;</description>
+      <description>org.apache.commons.fileupload.FileUploadBase 에서 multipart를 POST만 인식하게 되어 있으므로, 그냥은 안 된다. 자꾸 파라마터가 없다는 에러를 보게 될 것. 해결방법은 당연히 스택오버플로우에&amp;hellip; 이 링크 참조 이 방법으로 CommonsMultipartResolver를 상속해서 put 메소드도 인식하게 해 주면, put으로 업로드 해도 정상 작동. 이방법을 쓴 건 3.0이지만, 소스 뜯어보니 아직 3.1도 안 되는 듯 하다. 당분간 이걸 써야지&amp;hellip;</description>
     </item>
     
     <item>
@@ -112,7 +112,7 @@ git clone https://github.com/golang/go 그 다음 src 에서 all.bash를 실행�
       <pubDate>Tue, 03 Jul 2012 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2012/07/%EC%9D%B4%ED%81%B4%EB%A6%BD%EC%8A%A4%EC%97%90%EC%84%9C-JSP%EB%A5%BC-%EC%97%B4-%EB%95%8C-JSP-editor%EA%B0%80-%EA%B8%B0%EB%B3%B8%EC%9C%BC%EB%A1%9C-%EC%97%B4%EB%A6%AC%EA%B2%8C-%ED%95%98%EA%B8%B0/</guid>
-      <description>어째선지 가끔 JSP가 디자인 모드(HTML 디자인 편집기 같은 형태) 로 열릴 때가 있다. 그럴 때는 Window-&amp;gt;General-&amp;gt;Editors-&amp;gt;File Associations에서 JSP 파일을 찾고 아래쪽에서 JSP editor를 디폴트로 지정! </description>
+      <description>어째선지 가끔 JSP가 디자인 모드(HTML 디자인 편집기 같은 형태) 로 열릴 때가 있다. 그럴 때는 Window-&amp;gt;General-&amp;gt;Editors-&amp;gt;File Associations에서 JSP 파일을 찾고 아래쪽에서 JSP editor를 디폴트로 지정!</description>
     </item>
     
     <item>
@@ -121,7 +121,7 @@ git clone https://github.com/golang/go 그 다음 src 에서 all.bash를 실행�
       <pubDate>Tue, 03 Jul 2012 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2012/07/%ED%8C%8C%EC%9D%BC-%EC%9D%B4%EB%A6%84%EC%97%90-%ED%95%98%EC%9D%B4%ED%94%88%EC%9D%84-%EC%8D%A8%EC%95%BC-%ED%95%A0%EA%B9%8C-%EC%96%B8%EB%8D%94%EB%9D%BC%EC%9D%B8%EC%9D%84-%EC%8D%A8%EC%95%BC-%ED%95%A0%EA%B9%8C/</guid>
-      <description>새로 JSP 파일 하나를 만들려고 보니 이름 짓는데서 막혔다. 한 단어로 되어 있으면 괜찮은데 세 단어, 줄인다면 두 단어를 써야 할 상황이었다. 카멜표기법은 일단 집어치우고(여러 문제는 집어치우고, java바깥에서는 너무 이상하다. 확실히.) 어쨌건 그러면 표준에 맞추는 게 원칙. convention으로 처음 찾아본 sun의 코딩 컨벤션은 별 도움이 안 되었다&amp;hellip; 왜 파일 이름이라면서 확장자만 말하는건데. 본격 vs 를 이용해 싸움을 시키자 역시나 이미 많은 사람들이 논의를 했었다. 링크 1링크 2링크 3링크 4결론은. 대시(하이픈)을 쓰자.</description>
+      <description>새로 JSP 파일 하나를 만들려고 보니 이름 짓는데서 막혔다. 한 단어로 되어 있으면 괜찮은데 세 단어, 줄인다면 두 단어를 써야 할 상황이었다. 카멜표기법은 일단 집어치우고(여러 문제는 집어치우고, java바깥에서는 너무 이상하다. 확실히.) 어쨌건 그러면 표준에 맞추는 게 원칙. convention으로 처음 찾아본 sun의 코딩 컨벤션은 별 도움이 안 되었다&amp;hellip; 왜 파일 이름이라면서 확장자만 말하는건데. 본격 vs 를 이용해 싸움을 시키자 역시나 이미 많은 사람들이 논의를 했었다. 링크 1 링크 2 링크 3 링크 4</description>
     </item>
     
     <item>
@@ -130,7 +130,8 @@ git clone https://github.com/golang/go 그 다음 src 에서 all.bash를 실행�
       <pubDate>Mon, 04 Jun 2012 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2012/06/Filter%EC%9D%98-%EC%82%AC%EC%9A%A9/</guid>
-      <description>IE 3rd party cookie정책 때문에, 모든 응답 헤더에 특정 구문을 넣을 일이 있어서 filter기능을 이용해 보기로 했다. P3P라든가 기타등등에 대한 설명만든 필터모든 리퀘스트에 대해 필터 적용필터 만드는 법 예제스택 오버플로우 없었으면 어쩔 뻔&amp;hellip;</description>
+      <description>IE 3rd party cookie정책 때문에, 모든 응답 헤더에 특정 구문을 넣을 일이 있어서 filter기능을 이용해 보기로 했다. P3P라든가 기타등등에 대한 설명 만든 필터 모든 리퀘스트에 대해 필터 적용 필터 만드는 법 예제
+스택 오버플로우 없었으면 어쩔 뻔&amp;hellip;</description>
     </item>
     
     <item>
@@ -139,7 +140,7 @@ git clone https://github.com/golang/go 그 다음 src 에서 all.bash를 실행�
       <pubDate>Thu, 24 May 2012 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2012/05/consumes%EA%B3%BC-produces-%EC%A1%B0%EA%B1%B4-RequestMapping%EC%97%90-%EC%93%B0%EA%B8%B0/</guid>
-      <description>spring 3.1에서 @RequestMapping에 새 조건 두 개가 들어갔다.그 이외에도 많은 것들이 바뀌었지만, 일단은 당장 쓸 수 있는 이것부터. 여기서도 볼 수 있는데, 기본적으로 consumes는 header의 Content-Type대체, produces는 Accept 대체가 된다.
+      <description>spring 3.1에서 @RequestMapping에 새 조건 두 개가 들어갔다. 그 이외에도 많은 것들이 바뀌었지만, 일단은 당장 쓸 수 있는 이것부터. 여기서도 볼 수 있는데, 기본적으로 consumes는 header의 Content-Type 대체, produces는 Accept 대체가 된다.
 이렇게 쓰면 된다. @RequestMapping(value=&amp;rdquo;/&amp;quot;, consumes={&amp;ldquo;application/json&amp;rdquo;,&amp;ldquo;multipart/form-data&amp;rdquo;,&amp;ldquo;application/x-www-form-urlencoded&amp;rdquo;})</description>
     </item>
     
@@ -149,7 +150,7 @@ git clone https://github.com/golang/go 그 다음 src 에서 all.bash를 실행�
       <pubDate>Thu, 24 May 2012 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2012/05/Spring-3.1-profile-%EC%9D%B4%ED%81%B4%EB%A6%BD%EC%8A%A4%EC%97%90%EC%84%9C-%EC%82%AC%EC%9A%A9/</guid>
-      <description>스프링 3.1부터 메이븐처럼 profile 설정을 사용할 수 있게 되었다. 그래서 개발과 실서버의 설정을 다르게 만들 수 있음. 상세설명은 영어지만 여기를 참조하시고, 문제는 커맨드라인에서 실행하는 게 아니라 이클립스에서 실행할 때다. 모르는 게 나만이 아니라는 생각에 올려둠. 서버를 더블클릭해서 나오는 저 화면에서 다시 Open launcher configuration을 클릭하고, 나온 화면에서 Enviroment 탭에다가 저런 식으로 추가 해 주면 된다.</description>
+      <description>스프링 3.1부터 메이븐처럼 profile 설정을 사용할 수 있게 되었다. 그래서 개발과 실서버의 설정을 다르게 만들 수 있음. 상세설명은 영어지만 여기를 참조하시고, 문제는 커맨드라인에서 실행하는 게 아니라 이클립스에서 실행할 때다. 모르는 게 나만이 아니라는 생각에 올려둠.  서버를 더블클릭해서 나오는 저 화면에서 다시 Open launcher configuration을 클릭하고, 나온 화면에서 Enviroment 탭에다가 저런 식으로 추가 해 주면 된다.</description>
     </item>
     
     <item>
@@ -176,12 +177,13 @@ git clone https://github.com/golang/go 그 다음 src 에서 all.bash를 실행�
       <pubDate>Sun, 11 Sep 2011 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2011/09/%EC%97%90%EB%A6%AD-%EB%A7%88%EC%9D%B4%EC%96%B4%EC%9D%98-CSS-%EB%85%B8%ED%95%98%EC%9A%B0/</guid>
-      <description>사고 나서 깨달았는데, 최초로 산 CSS책이다. 그동안 안 본 건 아니지만 내돈으로 구매는 안 했으니까&amp;hellip;
-결론적으로는 돈 값 한다.기초를 다시 다지기에도 좋고, 급할 때 펼쳐보는 쿡북 용도로도 좋다.
+      <description>에릭 마이어의 CSS 노하우 - 
+에릭 마이어 지음, 한선용 옮김/인사이트진짜 순전히 저자 보고 샀다.사고 나서 깨달았는데, 최초로 산 CSS책이다. 그동안 안 본 건 아니지만 내돈으로 구매는 안 했으니까&amp;hellip;
+결론적으로는 돈 값 한다.
+기초를 다시 다지기에도 좋고, 급할 때 펼쳐보는 쿡북 용도로도 좋다.
 CSS3에 대해서도 나와 있지만, 그게 주는 아니다.
 CSS3만 필요하면 다른 책을 사는게 나을지도. 내용이 부실하다는 게 아니라 삐까뻔쩍한 CSS3로 채워져 있지는 않다는 얘기다.
-그리고 CSS 초보(CSS가 뭔지 알고, 글자 색 바꿀 수 있는 정도)가 보기도 충분히 좋다.
-책이 얇은데도 색인도 풍부하다. 값도 일단 2만원 아래니까 괜찮은 편.</description>
+그리고 CSS 초보(CSS가 뭔지 알고, 글자 색 바꿀 수 있는 정도)가 보기도 충분히 좋다.</description>
     </item>
     
     <item>
@@ -201,8 +203,9 @@ CSS3만 필요하면 다른 책을 사는게 나을지도. 내용이 부실하�
       
       <guid>https://ezaurum.com/2011/04/input%EC%9D%B4%EB%82%98-textarea%EC%9D%98-%ED%81%AC%EA%B8%B0%EA%B0%80-%EC%9E%98-%EB%A7%9E%EC%A7%80-%EC%95%8A%EC%9D%84-%EB%95%8C/</guid>
       <description>아무리 width를 조정하고 padding, margin, border까지 똑같이 줘도 제대로 사이즈가 맞지 않을 때는,
-box-sizing:border-box; 를 넣어줘 본다. &amp;lt;div style=&amp;quot;box-sizing:border-box;width:100px;border:1px solid gray;height:20px;float:left;display:block;&amp;quot;&amp;gt;test&amp;lt;/div&amp;gt; &amp;lt;input type=&amp;quot;text&amp;rdquo; style=&amp;quot;box-sizing:border-box;width:100px;height:20px;float:left;display:block;&amp;rdquo; value=&amp;quot;test&amp;rdquo;/&amp;gt; &amp;lt;textarea style=&amp;quot;box-sizing:border-box;width:100px;height:20px;float:left;display:block;&amp;quot;&amp;gt;test&amp;lt;/textarea&amp;gt; test
-자세한 것은 다음 링크참조
+box-sizing:border-box; 를 넣어줘 본다.  &amp;lt;div style=&amp;quot;box-sizing:border-box;width:100px;border:1px solid gray;height:20px;float:left;display:block;&amp;quot;&amp;gt;test&amp;lt;/div&amp;gt; &amp;lt;input type=&amp;quot;text&amp;rdquo; style=&amp;quot;box-sizing:border-box;width:100px;height:20px;float:left;display:block;&amp;rdquo; value=&amp;quot;test&amp;rdquo;/&amp;gt; &amp;lt;textarea style=&amp;quot;box-sizing:border-box;width:100px;height:20px;float:left;display:block;&amp;quot;&amp;gt;test&amp;lt;/textarea&amp;gt; 
+testtest
+자세한 것은 다음 링크참조
 chrome같은 경우엔 기본적으로 input[type=&amp;quot;text&amp;rdquo;],input[type=&amp;quot;button&amp;rdquo;]같은 것들이 box-sizing:border-box로 되어 있는 듯 하다.
 css3 속성이므로 ie에서는 제대로 안 된다.</description>
     </item>
@@ -213,8 +216,10 @@ css3 속성이므로 ie에서는 제대로 안 된다.</description>
       <pubDate>Tue, 08 Mar 2011 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2011/03/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EC%97%90%EC%84%9C-%EC%B9%B4%EC%9A%B4%ED%8A%B8%EB%8B%A4%EC%9A%B4-%ED%83%80%EC%9D%B4%EB%A8%B8%EB%A5%BC-%EB%A7%8C%EB%93%A4-%EB%95%8C-%EC%9C%A0%EC%9D%98%EC%A0%90/</guid>
-      <description>영문 - http://ejohn.org/blog/how-javascript-timers-work/한글 - http://okjungsoo.tistory.com/entry/JavaScript-Timer뽀모도로 타이머를 만들던 중, setInterval을 이용하여 코드를 짜니 25분 짜리 타이머에서 한 15초 가량 오차가 나는 것을 발견, 이리저리 뒤지자 이런 것이 나왔다.
-간단한 결론은, 오차가 적어야 하는 상황이면 setTimeout을 쓰라는 것.setTimeout을 쓴다고 해도 그래도 오차가 없어지지는 않음&amp;hellip;.(new Date()).getMillisecond()를 쓰면 시각 자체에 대한 정확성은 그래도 어느 정도까지는 보장할 수 있을테니까 그것으로 타협.타이머 성능 관련 링크</description>
+      <description>영문 - http://ejohn.org/blog/how-javascript-timers-work/ 한글 - http://okjungsoo.tistory.com/entry/JavaScript-Timer
+뽀모도로 타이머를 만들던 중, setInterval을 이용하여 코드를 짜니 25분 짜리 타이머에서 한 15초 가량 오차가 나는 것을 발견, 이리저리 뒤지자 이런 것이 나왔다.
+간단한 결론은, 오차가 적어야 하는 상황이면 setTimeout을 쓰라는 것.setTimeout을 쓴다고 해도 그래도 오차가 없어지지는 않음&amp;hellip;.(new Date()).getMillisecond()를 쓰면 시각 자체에 대한 정확성은 그래도 어느 정도까지는 보장할 수 있을테니까 그것으로 타협.
+타이머 성능 관련 링크</description>
     </item>
     
     <item>
@@ -224,7 +229,8 @@ css3 속성이므로 ie에서는 제대로 안 된다.</description>
       
       <guid>https://ezaurum.com/2010/10/Java-%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88%EC%97%90-Form-%EA%B0%92%EC%9D%98-encoding-%EA%B9%A8%EC%A7%88-%EB%95%8C/</guid>
       <description>점검사항은 아래 세가지.
-포인트는 이것, 원인은 크게 세가지니까 하나씩 제대로 되었는지 시험해볼것.</description>
+폼에서 정확히 인코딩을 지정해서 넘겨주는가?서버에서 정확히 인코딩을 인식하는가?DB에서 정확히 인코딩을 인식하는가?이다.	폼에서 정확히 인코딩을 지정해서 념겨주는가?이 경우는 일단 문서 첫머리에 meta태그가 utf-8으로 지정되어 있고, 폼에 accept-charset 어트리뷰트가 지정되어 있고, 브라우저에서 확인해서 문서가 utf-8으로 읽히는 상황이라면 문제 없다고 보면 된다. UTF-8으로 나와야 하는 페이지가 UTF-8으로 안나오는 경우는 여기서 다룰 게 아니다.
+&amp;lt;meta http-equiv=&#34;Content-Type&#34; content=&#34;text/html; charset=UTF-8&#34; /&amp;gt;&amp;lt;meta charset=&#34;UTF-8&#34; /&amp;gt;&amp;lt;form accept-charset=&#34;</description>
     </item>
     
     <item>
@@ -234,9 +240,7 @@ css3 속성이므로 ie에서는 제대로 안 된다.</description>
       
       <guid>https://ezaurum.com/2010/09/%ED%85%8D%EC%8A%A4%ED%8A%B8%EB%A1%9C-%EB%90%98%EC%96%B4-%EC%9E%88%EB%8A%94-%EC%83%89%EC%83%81-%EB%AA%A9%EB%A1%9D%EC%9D%84-%EC%B9%98%ED%99%98%ED%95%98%EA%B8%B0/</guid>
       <description>다음과 같은 텍스트가 있다.
-기왕 색깔에 대한 설명인 바, 각 색이 바로 보이면 되겠다 싶었다. 하지만 그냥 검색, 치환으로는 불가능. 그런 상황에서 나오는 것이 정규표현식.
-vim을 사용했다.
-%s/^(#.{6})s(.*)/&amp;lt;p style=&amp;quot;background-color:1&amp;rdquo;&amp;gt;1 2&amp;lt;/p&amp;gt;/g이렇게 하면 깔끔. vim 에서는 ( , ) , , {, } 를 이스케이프 해 줘야 메타문자로 동작한다. 수정해 놓고 빼먹고 있었군&amp;hellip;오오 위대해.</description>
+#2f4f4f darkslategray 어두운푸른빛회색#708090 slategray 푸른빛회색#778899 lightslategray 밝은푸른빛회색#696969 dimgray 칙칙한회색#808080 gray 회색#a9a9a9 darkgray 어두운회색#c0c0c0 silver 은색#d3d3d3 lightgrey 밝은회색#dcdcdc gainsboro#ffffff white 백색#fff5ee seashell 바다조가비#fffafa snow 설백#f8f8ff ghostwhite 허깨비백색#fffaf0 floralwhite 꽃의백색#f5f5f5 whitesmoke 백색연기#f0f8ff aliceblue 엷은잿빛바탕에푸른빛#f0ffff azure 하늘색#fdf5e6 oldlace 낡은끈#f5fffa mintcream 박하크림#ffefd5 papayawhip 열대아메리카산과수매질#ffdab9 peachpuff 복숭아빛불기#faf0e6 linen 리넨#eee8aa palegoldenrod 옅은국화과의다년초#ffe4e1 mistyrose 짙은장미빛#ffe4b5 moccasin 사슴가죽의구두#ffdead navajowhite 나바호족백색#d2b48c tan 볕에탄빛깔#f5deb3 wheat 밀#fafad2 lightgoldenrodyellow 밝은국화과다년초노랑#ffffe0 lightyellow 밝은노랑#fff8dc cornsilk 옥수수명주실#faebd7 antiquewhite 옛날의백색#f5f5dc beige 엷은갈색#fffacd lemonchiffon 레몬빛가볍고얇은직물#fffff0 ivory 상앗빛#f0e68c khaki 누른빛에엷은다색이섞인빛깔#e6e6fa lavender 연한자주색#fff0f5 lavenderblush 연한자주빛붉기#ffe4c4 bisque 분홍빛이도는검은빛을띤누른빛#ffebcd blanchedalmond 희어진엷은황갈색#deb887 burlywood 튼튼한목재#cd853f peru 남미서부의공화국#00ced1 darkturquoise 어두운푸른빛녹색#00bfff deepskyblue 짙은하늘파랑#7fffd4 aquamarine 엷은푸른빛녹색#1e90ff dodgerblue옥수수빵파랑#00ffff cyan 푸른정도#f0fff0 honeydew 식물의잎에서나는단물#87cefa lightskyblue 밝은하늘파랑#afeeee paleturquoise 옅은푸른빛녹색#e0ffff lightcyan 밝은푸른정도#add8e6 lightblue 밝은파랑#b0c4de lightsteelblue 밝은철강빛파랑#40e0d0 turquoise 푸른빛녹색#48d1cc mediumturquoise 중간의푸른빛녹색#00ffff aqua 엷은푸른빛녹색#7b68ee mediumslateblue 중푸른빛회색파랑#191970 midnightblue 깜깜한파랑#6495ed cornflowerblue 옥수수꽃파랑#0000cd mediumblue 중간의파랑#6a5acd slateblue 푸른빛회색파랑#4682b4 steelblue 철강빛파랑#0000ff blue 파랑#483d8b darkslateblue 어두운푸른빛회색파랑#5f9ea0 cadetblue 이하의파랑#87ceeb skyblue 하늘파랑#4169e1 royalblue 황실의파랑#b0e0e6 powderblue 가루파랑#000080 navy 짙은검은빛을띤남빛#00008b darkblue 어두운파랑#8a2be2 blueviolet 파란제비꽃색#8b008b darkmagenta 어두운짙은분홍색#9932cc darkorchid 어두운연보라색#9400d3 darkviolet 어두운제비꽃색#ff00ff magenta 짙은분홍색#ff00ff fuchsia 붉은빛깔이나는자줏빛#c71585 mediumvioletred 중제비꽃빨강#ba55d3 mediumorchid 중간의연보라색#9370db mediumpurple 중간의자줏빛#dc143c crimson 짙게붉은색깔#ff1493 deeppink 짙은연분홍색#ffb6c1 lightpink 밝은연분홍색#ff69b4 hotpink 강렬한연분홍색#ffc0cb pink 연분홍색#dda0dd plum 짙은 보라색#800080 purple 자줏빛#ee82ee violet 제비꽃색#d8bfd8 thistle 엉겅퀴#da70d6 orchid 연보라색#4b0082 indigo 남색#a52a2a brown 갈색#e9967a darksalmon 어두운주황색#f08080 lightcoral 밝은산호빛#cd5c5c indianred 인디언빨강#ffa07a lightsalmon 밝은주황색#db7093 palevioletred 옅은제비꽃빨강#f4a460 sandybrown 엷은갈색#fa8072 salmon 주황색#ff6347 tomato 토마토색#ff0000 red 빨강#800000 maroon 붉은빛을띤갈색#8b0000 darkred 어두운빨강#b22222 firebrick 내화#d2691e chocolate 갈색#8b4513 saddlebrown 안장갈색#a0522d sienna 붉은빛을띤갈색#bc8f8f rosybrown 장미빛갈색#ff7f50 coral 산호빛#ff8c00 darkorange 어두운붉은빛을띤누른색#ffa500 orange 붉은빛을띤누른색#b8860b darkgoldenrod 어둔운국화과의다년초#ffd700 gold 금빛#ffff00 yellow 노랑#7fff00 chartreuse 연두색#7cfc00 lawngreen 잔디녹색#00ff00 lime 열대산의레몬비슷한과일#32cd32 limegreen 라임녹색#00ff7f springgreen 봄녹색#3cb371 mediumseagreen 중간의바다녹색#adff2f greenyellow 녹색의노랑#8fbc8f darkseagreen 어두운바다녹색#90ee90 lightgreen 밝은녹색#98fb98 palegreen 옅은녹색#2e8b57 seagreen 바다녹색#00fa9a mediumspringgreen 중봄녹색#20b2aa lightseagreen 밝은바다녹색#66cdaa mediumaquamarine 중엷은청록색#228b22 forestgreen 숲녹색#008b8b darkcyan 어두운푸른정도#008080 teal 암록색을띤청색#006400 darkgreen 어두운녹색#556b2f darkolivegreen 어두운올리브녹색#008000 green 녹색#808000 olive 물푸레나뭇과의상록교목#6b8e23 olivedrab 올리브엷은갈색#bdb76b darkkhaki 어두운누른빛에엷은다색#daa520 goldenrod 국화과의다년초기왕 색깔에 대한 설명인 바, 각 색이 바로 보이면 되겠다 싶었다.</description>
     </item>
     
     <item>
@@ -259,7 +263,7 @@ IE, opera - outline을 나중에 그린다.(다음 엘리먼트에 가려지지 
 FF - 내용이 없는 경우, outline을 나중에 그리고, 내용이 있는 경우, outline을 먼저 그린다. img가 block 이 아니므로 width, height안 먹는다.
 &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;title&amp;gt;&amp;lt;/title&amp;gt; &amp;lt;style&amp;gt; img{ outline:15px solid green; margin:0px; border:20px solid gray; width:150px; height:150px;
 }
-.a1 { border:5px solid red; } .a2 { outline:15px solid yellow; margin:5px; } &amp;lt;/style&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;img src=&amp;quot;aa&amp;rdquo;/&amp;gt;&amp;lt;img src=&amp;quot;aa&amp;rdquo;/&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt;</description>
+.a1 { border:5px solid red; } .</description>
     </item>
     
     <item>
@@ -294,9 +298,7 @@ FF - 내용이 없는 경우, outline을 나중에 그리고, 내용이 있는 �
 #last{ width:140px;
 position:relative; left:-140px; top:20px;
 background:yellow; } &amp;lt;/style&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt;
-방안 2 -div를 4개 쓰는 경우, 즉 부모 엘리먼트를 하나 두는 경우 &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;style&amp;gt; div{ margin:0px; background:gray; }
-#first {height:40px;}
-#second , #last{ height:20px; width:140px; background:green; position:absolute; right:0px; }</description>
+길다란 가변형 문자열고정폭/고정높이고정폭&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;문제점 - 부모 element가 보이는 것보다 좀 더-div#last의 폭이 추가된만큼- 커야 한다.방안 2 -div를 4개 쓰는 경우, 즉 부모 엘리먼트를 하나 두는 경우 &amp;lt;!</description>
     </item>
     
     <item>
@@ -344,7 +346,7 @@ ZPD에 대한 생각을 하게 되었다.
       
       <guid>https://ezaurum.com/2009/09/%EB%8B%A4%EB%A5%B8-%ED%94%84%EB%A0%88%EC%9E%84%EC%9C%BC%EB%A1%9C-%ED%8F%BC-%EA%B0%92-%EC%A0%84%EC%86%A1/</guid>
       <description>자바스크립트 이용
-window.open(&amp;ldquo;title&amp;rdquo;, &amp;ldquo;frameName&amp;rdquo;, &amp;ldquo;width=600, height=400, scrollbars=yes&amp;rdquo;); document.form1.action = &amp;ldquo;action.php&amp;rdquo;; document.form1.target = &amp;ldquo;frameName&amp;rdquo;; document.form1.method = &amp;ldquo;post&amp;rdquo;; document.</description>
+window.open(&amp;ldquo;title&amp;rdquo;, &amp;ldquo;frameName&amp;rdquo;, &amp;ldquo;width=600, height=400, scrollbars=yes&amp;rdquo;); document.form1.action = &amp;ldquo;action.php&amp;rdquo;; document.form1.target = &amp;ldquo;frameName&amp;rdquo;; document.form1.method = &amp;ldquo;post&amp;rdquo;; document.form1.submit();</description>
     </item>
     
     <item>
@@ -353,7 +355,7 @@ window.open(&amp;ldquo;title&amp;rdquo;, &amp;ldquo;frameName&amp;rdquo;, &amp;l
       <pubDate>Mon, 09 Feb 2009 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2009/02/opera-%EB%B0%B1%EC%97%85%ED%95%98%EA%B8%B0/</guid>
-      <description></description>
+      <description>백업할 디렉토리 위치 확인오페라 주소창에서 opera:about 라고 친다.그럼 경로 정보가 나온다. 내 경우(Windows7, Administrator계정 사용)는 아래와 같았음 환경설정C:UsersAdministratorAppDataRoamingOperaOperaprofileopera6.ini저장한 세션C:UsersAdministratorAppDataRoamingOperaOperaprofilesessionsautopera.win북마크C:UsersAdministratorAppDataRoamingOperaOperaprofileopera6.adrOpera 디렉토리C:UsersAdministratorAppDataRoamingOperaOperaprofile캐시C:UsersAdministratorAppDataLocalOperaOperaprofilecache4도움말C:UsersAdministratorAppDataLocalOperaOperaprofileopcache메일 디렉토리C:UsersAdministratorAppDataLocalOperaOperamail플러그인 경로C:Program Files (x86)OperaProgramPluginsUser CSS 디렉토리C:UsersAdministratorAppDataRoamingOperaOperaprofilestylesuser필요한 것들을 복사한다.참고 - RSS feed 메세지는 mail에 저장된다.OS를 새로 설치하거나 뭐, 하려고 했던 걸 한다.새로 깐 오페라 주소창에서 opera:about 라고 친다.</description>
     </item>
     
     <item>
@@ -362,7 +364,7 @@ window.open(&amp;ldquo;title&amp;rdquo;, &amp;ldquo;frameName&amp;rdquo;, &amp;l
       <pubDate>Sat, 29 Nov 2008 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2008/11/Ubuntu-Apache2-%EC%82%AC%EC%9A%A9%EC%9E%90%EB%B3%84-%EC%9B%B9-%EB%94%94%EB%A0%89%ED%86%A0%EB%A6%AC-%EC%84%A4%EC%A0%95/</guid>
-      <description>http://leeted.egloos.com/1489000위 링크 참고 했음.
+      <description>http://leeted.egloos.com/1489000 위 링크 참고 했음.
 콘솔에서 입력.
 cd /etc/apache2/mods-available sudo cp userdir.conf userdir.load /etc/apache2/mods-enabled sudo /etc/init.d/apache2 restart
 이후, 각 유자가 자기 홈 디렉 토리에다 public_html을 만들어주면 된다. 아래와 같은 식? cd ~ mkdir public_html public_html 디렉토리 아래에 index.html 생성</description>
@@ -374,7 +376,12 @@ cd /etc/apache2/mods-available sudo cp userdir.conf userdir.load /etc/apache2/mo
       <pubDate>Tue, 25 Nov 2008 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2008/11/%EC%99%B8%EB%B6%80-%EC%84%9C%EB%B2%84%EC%97%90%EC%84%9C-%ED%94%84%EB%A0%88%EC%9E%84%EC%9C%BC%EB%A1%9C-%EB%AC%B8%EC%84%9C%EB%A5%BC-%EC%9D%BD%EA%B2%8C-%ED%95%98%EA%B3%A0-%EC%8B%B6%EC%A7%80-%EC%95%8A%EC%9D%84-%EB%95%8C/</guid>
-      <description>출저는 여기당연히 &amp;lt;head&amp;gt; 와 &amp;lt;/head&amp;gt; 사이에 넣어준다. type=&amp;quot;text/javascript&amp;quot;&amp;gt;//if(top.frames.length!=0)top.location=self.document.location;//]]&amp;gt;일단 학교 서버에서 모든 외부 서버로 엑세스 할 때는 프레임을 기본적으로 씌워서, ActiveX를 실행시키기 때문에;; 상당히 귀찮다. 내 홈피라도 그런 꼴을 안 보려는 자구책.</description>
+      <description>출저는 여기
+당연히 &amp;lt;head&amp;gt; 와 &amp;lt;/head&amp;gt; 사이에 넣어준다. type=&amp;quot;text/javascript&amp;quot;&amp;gt;
+//
+if (top.frames.length!=0) top.location=self.document.location;
+//]]&amp;gt;
+ 일단 학교 서버에서 모든 외부 서버로 엑세스 할 때는 프레임을 기본적으로 씌워서, ActiveX를 실행시키기 때문에;; 상당히 귀찮다. 내 홈피라도 그런 꼴을 안 보려는 자구책.</description>
     </item>
     
   </channel>

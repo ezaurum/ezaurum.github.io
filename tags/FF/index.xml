@@ -23,7 +23,7 @@ IE, opera - outline을 나중에 그린다.(다음 엘리먼트에 가려지지 
 FF - 내용이 없는 경우, outline을 나중에 그리고, 내용이 있는 경우, outline을 먼저 그린다. img가 block 이 아니므로 width, height안 먹는다.
 &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;title&amp;gt;&amp;lt;/title&amp;gt; &amp;lt;style&amp;gt; img{ outline:15px solid green; margin:0px; border:20px solid gray; width:150px; height:150px;
 }
-.a1 { border:5px solid red; } .a2 { outline:15px solid yellow; margin:5px; } &amp;lt;/style&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;img src=&amp;quot;aa&amp;rdquo;/&amp;gt;&amp;lt;img src=&amp;quot;aa&amp;rdquo;/&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt;</description>
+.a1 { border:5px solid red; } .</description>
     </item>
     
   </channel>

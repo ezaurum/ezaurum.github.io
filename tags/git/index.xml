@@ -18,7 +18,8 @@
       <pubDate>Sun, 24 Nov 2013 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2013/11/.gitconfig-%EC%84%A4%EC%A0%95/</guid>
-      <description>지금 쓰는 설정 백업용</description>
+      <description>지금 쓰는 설정 백업용
+[user]name = 이름email = 메일[color]ui = true[alias]ci = commitundo = resets = statusco = checkouta = add[core]editor = vi[merge]tool = vimdiff[diff]algorithm = patience[push]default = simple색은 칼라로 나오는 게 좋고, alias는 한 자라도 덜 치려면 꼭 해 두는 게 좋다.</description>
     </item>
     
     <item>
@@ -47,7 +48,7 @@
       <pubDate>Sun, 24 Nov 2013 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2013/11/%EC%86%8C%EC%8A%A4%ED%8A%B8%EB%A6%AC-%EC%82%AC%EC%9A%A9%EC%8B%9C-%EC%A0%80%EC%9E%A5%EC%86%8C-%EC%A0%91%EA%B7%BC-%ED%82%A4%EB%A5%BC-%EC%9E%90%EB%8F%99%EC%9C%BC%EB%A1%9C-%EB%A1%9C%EB%93%9C%ED%95%98%EA%B2%8C-%ED%95%98%EA%B8%B0/</guid>
-      <description>http://blog.shvetsov.com/2010/03/making-pageant-automatically-load-keys.html소스트리도 pageant를 이용하므로 이거와 같은 방식으로 하면 된다.</description>
+      <description>http://blog.shvetsov.com/2010/03/making-pageant-automatically-load-keys.html 소스트리도 pageant를 이용하므로 이거와 같은 방식으로 하면 된다.</description>
     </item>
     
     <item>
@@ -74,7 +75,7 @@
       <pubDate>Mon, 20 May 2013 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2013/05/scp%EB%A7%8C%EC%9C%BC%EB%A1%9C-git-%EC%84%9C%EB%B2%84%EC%97%90-key%EC%97%AC%EB%9F%BF-%EC%B6%94%EA%B0%80%ED%95%98%EA%B8%B0/</guid>
-      <description>출처역시 누군가 뭘 해 놨을 줄 알았어.다 필요 없는 짓이었다. ssh-copy-id 라는 명령어가&amp;hellip; OTL&amp;hellip; 역시 무식하면 몸이 고생.scp file_name user@182.213.312.122:path다 하고 나면 보안을 위해 파일 권한이 600으로 되어 있는지 확인할 것그 외 ssh에 대한 참고 링크</description>
+      <description>출처 역시 누군가 뭘 해 놨을 줄 알았어. 다 필요 없는 짓이었다. ssh-copy-id 라는 명령어가&amp;hellip; OTL&amp;hellip; 역시 무식하면 몸이 고생. scp file_name user@182.213.312.122:path 다 하고 나면 보안을 위해 파일 권한이 600으로 되어 있는지 확인할 것 그 외 ssh에 대한 참고 링크</description>
     </item>
     
     <item>
@@ -98,7 +99,7 @@
       <description>나 왜 라즈베리 파이를 놀려두고 있었지.. OTL&amp;hellip;
 &amp;hellip;그래서 오늘 밤은 거기다 다시 셋팅해야&amp;hellip; OTL&amp;hellip;
 일단 할 거 목록을 적으면&amp;hellip;
-자, 이걸 하려면&amp;hellip; 일단 일을 빨리 끝내고 집에 가야지&amp;hellip;</description>
+라즈베리 파이에 필요한 것들을 깐다. - 기본 설정은 되어 있으니 apt-get으로 대충...nexus - 지난 주에 배웠으니 어디...git - github는 public이라.. 거기 돈을 내고 private을 할까 이거 전기세가 쌀까 생각중...jenkins - 음.. 어디 한 번...gradle - 어디 써 보자..ftp - 혹시나.아무거나 빌드해서 올려본다 - 되는가 test 해 봄리셋해도 바뀌지 않도록 각 PC의 내부 IP를 고정한다.</description>
     </item>
     
   </channel>

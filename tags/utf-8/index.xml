@@ -18,7 +18,7 @@
       <pubDate>Tue, 30 Apr 2013 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2013/04/AWS-RDS-%EC%9D%B8%EC%BD%94%EB%94%A9-UTF-8%EC%9C%BC%EB%A1%9C-%EC%84%A4%EC%A0%95/</guid>
-      <description>파라마터를 바꾼 다음, DB인스턴스를 리셋해야 한다. 있던 걸 자동으로 바꿔주는 건 아니다. 이미 있는 데이터는 뺀 다음 다시 넣든지 해야 할 듯. 지금은 데이터가 없는 상태라 새로 만들기만 함. 참고링크일단 파라마터 그룹을 하나 만든다. 변경해야 할 것은 다음과 같다. character_set_client = utf8 character_set_connection = utf8 character_set_database = utf8 character_set_results = utf8 character_set_server = utf8 collation_connection = utf8_general_ci collation_server = utf8_general_ci 파라마터 그룹을 이걸로 바꾸고, 리셋을 해 준다. 그러면 그 다음부터 들어가는 값은 UTF-8으로 들어가게 된다.</description>
+      <description>파라마터를 바꾼 다음, DB인스턴스를 리셋해야 한다. 있던 걸 자동으로 바꿔주는 건 아니다. 이미 있는 데이터는 뺀 다음 다시 넣든지 해야 할 듯. 지금은 데이터가 없는 상태라 새로 만들기만 함. 참고링크 일단 파라마터 그룹을 하나 만든다. 변경해야 할 것은 다음과 같다.  character_set_client = utf8 character_set_connection = utf8 character_set_database = utf8 character_set_results = utf8 character_set_server = utf8 collation_connection = utf8_general_ci collation_server = utf8_general_ci  파라마터 그룹을 이걸로 바꾸고, 리셋을 해 준다. 그러면 그 다음부터 들어가는 값은 UTF-8으로 들어가게 된다.</description>
     </item>
     
     <item>
@@ -28,7 +28,8 @@
       
       <guid>https://ezaurum.com/2010/10/Java-%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88%EC%97%90-Form-%EA%B0%92%EC%9D%98-encoding-%EA%B9%A8%EC%A7%88-%EB%95%8C/</guid>
       <description>점검사항은 아래 세가지.
-포인트는 이것, 원인은 크게 세가지니까 하나씩 제대로 되었는지 시험해볼것.</description>
+폼에서 정확히 인코딩을 지정해서 넘겨주는가?서버에서 정확히 인코딩을 인식하는가?DB에서 정확히 인코딩을 인식하는가?이다.	폼에서 정확히 인코딩을 지정해서 념겨주는가?이 경우는 일단 문서 첫머리에 meta태그가 utf-8으로 지정되어 있고, 폼에 accept-charset 어트리뷰트가 지정되어 있고, 브라우저에서 확인해서 문서가 utf-8으로 읽히는 상황이라면 문제 없다고 보면 된다. UTF-8으로 나와야 하는 페이지가 UTF-8으로 안나오는 경우는 여기서 다룰 게 아니다.
+&amp;lt;meta http-equiv=&#34;Content-Type&#34; content=&#34;text/html; charset=UTF-8&#34; /&amp;gt;&amp;lt;meta charset=&#34;UTF-8&#34; /&amp;gt;&amp;lt;form accept-charset=&#34;</description>
     </item>
     
     <item>
@@ -48,7 +49,8 @@ utf-8을 지원한다더니&amp;hellip; mysql만 그걸 지원하고 아파치�
       <pubDate>Fri, 17 Aug 2007 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2007/08/UTF-8-%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C-%ED%95%9C%EA%B8%80-post-slug-%EB%AC%B8%EC%A0%9C/</guid>
-      <description>지난 번에 워드프레스를 쓰다가 결국 해결하지 못했던 문제가, 한글로 post slug(포스트의 url 을 숫자와 물음표가 범벅이 된 모양이 아니라 그냥 글자로 바꿔주는 기능이라고 생각하면 될 듯)를 쓰면 그 포스트를 찾지 못했던 것인데, 이번에 해결했다.</description>
+      <description>지난 번에 워드프레스를 쓰다가 결국 해결하지 못했던 문제가, 한글로 post slug(포스트의 url 을 숫자와 물음표가 범벅이 된 모양이 아니라 그냥 글자로 바꿔주는 기능이라고 생각하면 될 듯)를 쓰면 그 포스트를 찾지 못했던 것인데, 이번에 해결했다.
+&amp;lt;IfModule mod_url.c&amp;gt;CheckURL Off&amp;lt;/IfModule&amp;gt;문제점 : 옵션에서 퍼머링크를 누르기만 해도, WP가 .htaccess 파일을 자동으로 수정해 버리는 바람에 곤란.문제점 해결 : .htaccess 파일의 권한을 755로 변경. 쓰지 못하게 해버렸음.</description>
     </item>
     
   </channel>
