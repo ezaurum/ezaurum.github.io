@@ -19,7 +19,7 @@
       
       <guid>https://ezaurum.com/recipe/create-mysql-user/</guid>
       <description>목적 mysql 사용자 및 DB 추가
-CREATE DATABASE example; CREATE USER &amp;#39;user_name&amp;#39;@&amp;#39;%&amp;#39; IDENTIFIED BY &amp;#39;pass-word&amp;#39;; GRANT ALL PRIVILEGES ON example.* TO &amp;#39;user_name&amp;#39;@&amp;#39;%&amp;#39;; FLUSH PRIVILEGES ; </description>
+CREATE DATABASE example; CREATE USER &amp;#39;user_name&amp;#39;@&amp;#39;%&amp;#39; IDENTIFIED BY &amp;#39;pass-word&amp;#39;; GRANT ALL PRIVILEGES ON example.* TO &amp;#39;user_name&amp;#39;@&amp;#39;%&amp;#39;; </description>
     </item>
     
     <item>
