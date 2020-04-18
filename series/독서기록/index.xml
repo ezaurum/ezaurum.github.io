@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>독서기록 on Ezaurum&#39;s Blog</title>
+    <link>https://ezaurum.com/series/%EB%8F%85%EC%84%9C%EA%B8%B0%EB%A1%9D/</link>
+    <description>Recent content in 독서기록 on Ezaurum&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <copyright>© Ezaurum 2001-</copyright>
+    <lastBuildDate>Sun, 19 Apr 2020 03:29:25 +0900</lastBuildDate>
+    
+	<atom:link href="https://ezaurum.com/series/%EB%8F%85%EC%84%9C%EA%B8%B0%EB%A1%9D/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>심리 계좌</title>
+      <link>https://ezaurum.com/reading/psychological-account/</link>
+      <pubDate>Sun, 19 Apr 2020 03:29:25 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/reading/psychological-account/</guid>
+      <description>지속가능한 돈 모으기 방법에 대해서 심리적인 원인을 설명하면서 구체적인 방법을 얘기한다.
+책에서 설명하는 것은 대부분 지금 하고 있는 방법들이긴 한데, 내가 지금 하고 있는 방식이 틀리지 않았다고 긍정받은 기분이 든다.</description>
+    </item>
+    
+  </channel>
+</rss>
