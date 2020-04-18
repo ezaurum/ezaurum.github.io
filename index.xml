@@ -2359,22 +2359,22 @@ ln -s /location/to/link2 newlink mv newlink linkname</description>
     </item>
     
     <item>
-      <title>3월 셋째주 정리</title>
-      <link>https://ezaurum.com/2013/03/3%EC%9B%94-%EC%85%8B%EC%A7%B8%EC%A3%BC-%EC%A0%95%EB%A6%AC/</link>
+      <title>2013년 3월 셋째주 정리</title>
+      <link>https://ezaurum.com/retrospective/2013-03/</link>
       <pubDate>Mon, 25 Mar 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2013/03/3%EC%9B%94-%EC%85%8B%EC%A7%B8%EC%A3%BC-%EC%A0%95%EB%A6%AC/</guid>
-      <description>이번 주는 뭘 했는지 모르게 지나가버렸다.사실 3월 전체가 좀 그런 경향이 있었다.좌절감, 열등감, 무력감.경력 기록 정리를 좀 하고, 포트폴리오로 쓸 물건에 손을 댔다.angularJS를 아주 조금 보고, Naver API도 마찬가지.오늘 한 캐비지 롤은 대실패. 밑준비부터 제대로 되지 않았고, 양배추 숨을 제대로 죽이지 않고 싸려고 한 탓에 영 엉망인 물건만 나왔다. 소 양을 제대로 맞추지도 못했다.간단한 요리도 이러니, 살면서 기초가 항상 부족한 것은 어찌보면 당연한 일일지도.타인을 이해하려는 마음이 부족하다는 생각이 들었다.</description>
+      <guid>https://ezaurum.com/retrospective/2013-03/</guid>
+      <description>이번 주는 뭘 했는지 모르게 지나가버렸다. 사실 3월 전체가 좀 그런 경향이 있었다. 좌절감, 열등감, 무력감. 경력 기록 정리를 좀 하고, 포트폴리오로 쓸 물건에 손을 댔다. angularJS를 아주 조금 보고, Naver API도 마찬가지. 오늘 한 캐비지 롤은 대실패. 밑준비부터 제대로 되지 않았고, 양배추 숨을 제대로 죽이지 않고 싸려고 한 탓에 영 엉망인 물건만 나왔다. 소 양을 제대로 맞추지도 못했다. 간단한 요리도 이러니, 살면서 기초가 항상 부족한 것은 어찌보면 당연한 일일지도. 타인을 이해하려는 마음이 부족하다는 생각이 들었다.</description>
     </item>
     
     <item>
       <title>능률적인 프로그래머 - 프로그래머 생산성의 비밀</title>
-      <link>https://ezaurum.com/2013/03/%EB%8A%A5%EB%A5%A0%EC%A0%81%EC%9D%B8-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8-%EC%83%9D%EC%82%B0%EC%84%B1%EC%9D%98-%EB%B9%84%EB%B0%80/</link>
+      <link>https://ezaurum.com/reading/productive-programmer/</link>
       <pubDate>Mon, 25 Mar 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2013/03/%EB%8A%A5%EB%A5%A0%EC%A0%81%EC%9D%B8-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8-%EC%83%9D%EC%82%B0%EC%84%B1%EC%9D%98-%EB%B9%84%EB%B0%80/</guid>
-      <description>딱 제목 그대로의 책.생산성을 높일 수 있는 실질적인 방법을 알려준다.몇 가지는 오래되어 쓸모 없어 보이는 것도 있지만 대부분 팁이 바로 적용가능한 것이고, 전반적인 자동화에 대한 관점만으로도 돈 값을 하는 물건이다.
-Don&#39;t repeat yourself.</description>
+      <guid>https://ezaurum.com/reading/productive-programmer/</guid>
+      <description>딱 제목 그대로의 책. 생산성을 높일 수 있는 실질적인 방법을 알려준다. 몇 가지는 오래되어 쓸모 없어 보이는 것도 있지만 대부분 팁이 바로 적용가능한 것이고, 전반적인 자동화에 대한 관점만으로도 돈 값을 하는 물건이다.
+Don&amp;rsquo;t repeat yourself. </description>
     </item>
     
     <item>
