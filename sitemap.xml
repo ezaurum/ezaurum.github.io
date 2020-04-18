@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>https://ezaurum.com/</loc>
+    <lastmod>2020-04-19T03:29:25+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ezaurum.com/reading/</loc>
     <lastmod>2020-04-19T03:29:25+09:00</lastmod>
   </url>
@@ -9103,16 +9108,6 @@
   </url>
   
   <url>
-    <loc>https://ezaurum.com/about/</loc>
-    <lastmod>2007-08-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ezaurum.com/</loc>
-    <lastmod>2007-08-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://ezaurum.com/tags/POST-SLUG/</loc>
     <lastmod>2007-08-17T00:00:00+00:00</lastmod>
   </url>
@@ -9158,11 +9153,19 @@
   </url>
   
   <url>
+    <loc>https://ezaurum.com/about/</loc>
+  </url>
+  
+  <url>
     <loc>https://ezaurum.com/tags/C/C&#43;&#43;/</loc>
   </url>
   
   <url>
     <loc>https://ezaurum.com/tags/PL/SQL/</loc>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/pragmatic-programmer/</loc>
   </url>
   
 </urlset>

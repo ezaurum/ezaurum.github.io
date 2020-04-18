@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang='ko-kr'>
+<head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-40920966-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-40920966-1');
+</script>
+
+
+    <title>   실용주의 프로그래머 -  Ezaurum&#39;s Blog </title>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+    
+    
+
+    <meta itemprop="name" content="실용주의 프로그래머">
+<meta itemprop="description" content="실용주의 프로그래머 책에서 발췌   자신의 기술에 관심과 애정을 가져라
+  자신의 일에 대해 생각하면서 일하라
+  어설픈 변명을 만들지 말고 대안을 제시하라
+  깨진 창문을 내버려두지 말라
+  변화의 촉매가 되라
+  큰 그림을 기억하라
+  품질을 요구사항으로 만들어라
+  지식 포트폴리오에 주기적으로 투자하라
+  읽고 듣는 것을 비판적으로 분석하라
+  무엇을 말하는가와 어떻게 말하는가 모두 중요하다
+  DRY-반복하지 마라">
+
+<meta itemprop="wordCount" content="353">
+
+
+
+<meta itemprop="keywords" content="" />
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="실용주의 프로그래머"/>
+<meta name="twitter:description" content="실용주의 프로그래머 책에서 발췌   자신의 기술에 관심과 애정을 가져라
+  자신의 일에 대해 생각하면서 일하라
+  어설픈 변명을 만들지 말고 대안을 제시하라
+  깨진 창문을 내버려두지 말라
+  변화의 촉매가 되라
+  큰 그림을 기억하라
+  품질을 요구사항으로 만들어라
+  지식 포트폴리오에 주기적으로 투자하라
+  읽고 듣는 것을 비판적으로 분석하라
+  무엇을 말하는가와 어떻게 말하는가 모두 중요하다
+  DRY-반복하지 마라"/>
+
+    <meta property="og:title" content="실용주의 프로그래머" />
+<meta property="og:description" content="실용주의 프로그래머 책에서 발췌   자신의 기술에 관심과 애정을 가져라
+  자신의 일에 대해 생각하면서 일하라
+  어설픈 변명을 만들지 말고 대안을 제시하라
+  깨진 창문을 내버려두지 말라
+  변화의 촉매가 되라
+  큰 그림을 기억하라
+  품질을 요구사항으로 만들어라
+  지식 포트폴리오에 주기적으로 투자하라
+  읽고 듣는 것을 비판적으로 분석하라
+  무엇을 말하는가와 어떻게 말하는가 모두 중요하다
+  DRY-반복하지 마라" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ezaurum.com/pragmatic-programmer/" />
+
+
+    
+
+</head>
+<body>
+
+    <header>
+    <nav>
+    
+        <a href="https://ezaurum.com/">Ezaurum&#39;s Blog</a>
+    
+        <a href="https://ezaurum.com/about/">About</a>
+    
+        <a href="https://ezaurum.com/pragmatic-programmer/">실용주의 프로그래머</a>
+    
+    <a href="/bug">버그일기</a>
+    <a href="/retrospective">회고</a>
+</nav>
+
+</header>
+
+
+
+
+<main class="post single">
+<h1>실용주의 프로그래머</h1>
+0001-01-01
+<section><h2 id="실용주의-프로그래머-책에서-발췌">실용주의 프로그래머 책에서 발췌</h2>
+<ul>
+<li>
+<p>자신의 기술에 관심과 애정을 가져라</p>
+</li>
+<li>
+<p>자신의 일에 대해 생각하면서 일하라</p>
+</li>
+<li>
+<p>어설픈 변명을 만들지 말고 대안을 제시하라</p>
+</li>
+<li>
+<p>깨진 창문을 내버려두지 말라</p>
+</li>
+<li>
+<p>변화의 촉매가 되라</p>
+</li>
+<li>
+<p>큰 그림을 기억하라</p>
+</li>
+<li>
+<p>품질을 요구사항으로 만들어라</p>
+</li>
+<li>
+<p>지식 포트폴리오에 주기적으로 투자하라</p>
+</li>
+<li>
+<p>읽고 듣는 것을 비판적으로 분석하라</p>
+</li>
+<li>
+<p>무엇을 말하는가와 어떻게 말하는가 모두 중요하다</p>
+</li>
+<li>
+<p>DRY-반복하지 마라</p>
+</li>
+<li>
+<p>재사용하기 쉽게 만들라</p>
+</li>
+<li>
+<p>관련 없는 것들 간에 서로 영향이 없도록 하라</p>
+</li>
+<li>
+<p>최종결정이란 없다</p>
+</li>
+<li>
+<p>목표물을 찾기 위해 예광탄을 써라</p>
+</li>
+<li>
+<p>프로토타입을 통해 학습하라</p>
+</li>
+<li>
+<p>문제 도메인에 가깝게 프로그래밍하라</p>
+</li>
+<li>
+<p>추정을 통해 놀람을 피하라</p>
+</li>
+<li>
+<p>코드와 함께 일정도 반복하며 조정하라</p>
+</li>
+<li>
+<p>지식을 일반 텍스트로 저장하라</p>
+</li>
+<li>
+<p>명령어 셀의 힘을 사용하라</p>
+</li>
+<li>
+<p>하나의 에디터를 잘 사용하라</p>
+</li>
+<li>
+<p>언제나 소스코드 관리 시스템을 사용하라</p>
+</li>
+<li>
+<p>비난 대신 문제를 해결하라</p>
+</li>
+<li>
+<p>디버깅을 할 때 당황하지 마라</p>
+</li>
+<li>
+<p>&lsquo;select'는 망가지지 않았다</p>
+</li>
+<li>
+<p>가정하지 마라, 증명하라</p>
+</li>
+<li>
+<p>텍스트 처리 언어를 하나 익혀라</p>
+</li>
+<li>
+<p>코드를 작성하는 코드를 작성하라</p>
+</li>
+<li>
+<p>완벽한 소프트웨어는 만들 수 없다</p>
+</li>
+<li>
+<p>계약에 따른 설계를 하라</p>
+</li>
+<li>
+<p>일찍 작동을 멈추게 하라</p>
+</li>
+<li>
+<p>단정문을 사용해서 불가능한 상황을 예방하라</p>
+</li>
+<li>
+<p>예외는 예외적인 문제에 사용하라</p>
+</li>
+<li>
+<p>시작한 것은 끝내라</p>
+</li>
+<li>
+<p>모듈간의 결합도를 최소화하라</p>
+</li>
+<li>
+<p>통합하지 말고 설정하라</p>
+</li>
+<li>
+<p>코드에는 추상화를, 메타데이터에는 세부 내용을</p>
+</li>
+<li>
+<p>작업흐름 분석을 통해 동시성을 개선하라</p>
+</li>
+<li>
+<p>서비스를 사용해서 설계하라</p>
+</li>
+<li>
+<p>언제나 동시성을 고려해 설계하라</p>
+</li>
+<li>
+<p>모델에서 뷰를 분리하라</p>
+</li>
+<li>
+<p>칠판을 사용해 작업흐름을 조율하라</p>
+</li>
+<li>
+<p>우연에 맡기는 프로그래밍을 하지 말라</p>
+</li>
+<li>
+<p>여러분의 알고리즘의 차수를 추정하라</p>
+</li>
+<li>
+<p>여러분의 추정을 테스트하라</p>
+</li>
+<li>
+<p>일찍 리팩터링하고, 자주 리팩터링하라</p>
+</li>
+<li>
+<p>테스트를 염두에 두고 설계하라</p>
+</li>
+<li>
+<p>소프트웨어를 테스트하라. 그렇지 않으면 사용자가 테스트하게 될 것이다</p>
+</li>
+<li>
+<p>자신이 이해하지 못하는, 마법사가 만들어준 코드는 사용하지 말라</p>
+</li>
+<li>
+<p>요구사항을 수집하지 말고 채굴하라</p>
+</li>
+<li>
+<p>사용자처럼 생각하기 위해 사용자와 함께 일하라</p>
+</li>
+<li>
+<p>구체적인 것보다 추상적인 것이 더 오래간다</p>
+</li>
+<li>
+<p>프로젝트 용어사전을 사용하라</p>
+</li>
+<li>
+<p>생각의 틀을 벗어나지 말고 틀을 찾아라</p>
+</li>
+<li>
+<p>준비가 되었을 때 시작하라</p>
+</li>
+<li>
+<p>어떤 일들은 설명하기보다 실제로 하는 것이 더 쉽다</p>
+</li>
+<li>
+<p>형식적 방법의 노예가 되지 마라</p>
+</li>
+<li>
+<p>비싼 도구가 더 좋은 설계를 낳지는 않는다</p>
+</li>
+<li>
+<p>팀을 기능 중심으로 조직하라</p>
+</li>
+<li>
+<p>수작업 절차를 사용하지 말라</p>
+</li>
+<li>
+<p>일찍 테스트하고, 자주 테스트하라, 자동으로 테스트하라</p>
+</li>
+<li>
+<p>모든 테스트가 통과하기 전엔 코딩이 다 된 게 아니다</p>
+</li>
+<li>
+<p>파괴자를 써서 테스트를 테스트하라</p>
+</li>
+<li>
+<p>코드 커버리지보다 상태 커버리지를 테스트하라</p>
+</li>
+<li>
+<p>버그는 한 번만 잡아라</p>
+<ul>
+<li>사람이 한 번 버그를 찾았으면, 그 버그를 더 이상 사람이 찾을 일은 없어야 한다. 그 다음부터는 자동화된 테스트로 체크하라.</li>
+</ul>
+</li>
+<li>
+<p>한국어도 하나의 프로그래밍 언어인 것처럼 다루라</p>
+</li>
+<li>
+<p>문서가 애초부터 전체의 일부가 되게하고 나중에 집어넣으려고 하지 말라</p>
+</li>
+<li>
+<p>사용자의 기대를 부드럽게 넘어서라</p>
+</li>
+<li>
+<p>자신의 작품에 서명하라</p>
+<ul>
+<li>예전 장인들은 자기 일에 서명하는 것을 자랑스러워 했다. 당신도 그래야 한다.</li>
+</ul>
+</li>
+</ul>
+</section>
+
+
+
+
+
+
+<a href="https://ezaurum.com/about/"> About</a>
+
+
+
+
+
+
+    <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "ezaurum" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3471055249244195"
+     data-ad-slot="7282877318"
+     data-ad-format="auto"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+</main>
+
+
+
+    <footer>
+© Ezaurum 2001-
+</footer>
+
+
+
+
+
+    <script>
+
+</script>
+
+
+</body>
+</html>

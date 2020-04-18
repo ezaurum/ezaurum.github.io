@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Fri, 17 Aug 2007 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 19 Apr 2020 03:29:25 +0900</lastBuildDate>
     
 	<atom:link href="https://ezaurum.com/index.xml" rel="self" type="application/rss+xml" />
     
@@ -7295,15 +7295,6 @@ H는 그랬다.
     </item>
     
     <item>
-      <title>About</title>
-      <link>https://ezaurum.com/about/</link>
-      <pubDate>Fri, 17 Aug 2007 00:00:00 +0000</pubDate>
-      
-      <guid>https://ezaurum.com/about/</guid>
-      <description>이 블로그는 나 자신을 위주로 한 세계에 대한 摹寫를 목표로 하고 있습니다. 프로그래머라고도 글쟁이라고도 부르기도 부족하지만 그런 것들을 목표로 하고 있는 사람입니다. 20세기와 21세기의 경계선쯤에 태어난 것은 행운이라고 생각하지만, 종종 십년정도 일찍 태어났어도 좋지 않았을까 생각합니다.</description>
-    </item>
-    
-    <item>
       <title>UTF-8 환경에서 한글 post slug 문제</title>
       <link>https://ezaurum.com/2007/08/UTF-8-%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C-%ED%95%9C%EA%B8%80-post-slug-%EB%AC%B8%EC%A0%9C/</link>
       <pubDate>Fri, 17 Aug 2007 00:00:00 +0000</pubDate>
@@ -7378,6 +7369,37 @@ H는 그랬다.
       
       <guid>https://ezaurum.com/2007/02/%EA%B2%B0%EA%B5%AD-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%8B%A4%EC%8B%9C-%EB%A7%8C%EB%93%A4%EB%8B%A4./</guid>
       <description>뭐, 결국 Wordpress 2.1로 왔음. 무료 계정. UTF-8을 지원한다길래 덥석. 근데 포스트 슬러그는 여전히 작동 불가&amp;hellip; 뭐지.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://ezaurum.com/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/about/</guid>
+      <description>이 블로그는 나 자신을 위주로 한 세계에 대한 摹寫를 목표로 하고 있습니다.
+프로그래머이고 좀더 이 일을 잘 하고 싶어하는 사람입니다.
+언젠가는 글을 잘 쓰는 사람이 되고 싶습니다.
+20세기와 21세기의 경계선쯤에 태어난 것은 행운이라고 생각하지만, 종종 십년정도 일찍이나 이십년 정도 나중에 태어났어도 좋지 않았을까 생각합니다.</description>
+    </item>
+    
+    <item>
+      <title>실용주의 프로그래머</title>
+      <link>https://ezaurum.com/pragmatic-programmer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/pragmatic-programmer/</guid>
+      <description>실용주의 프로그래머 책에서 발췌   자신의 기술에 관심과 애정을 가져라
+  자신의 일에 대해 생각하면서 일하라
+  어설픈 변명을 만들지 말고 대안을 제시하라
+  깨진 창문을 내버려두지 말라
+  변화의 촉매가 되라
+  큰 그림을 기억하라
+  품질을 요구사항으로 만들어라
+  지식 포트폴리오에 주기적으로 투자하라
+  읽고 듣는 것을 비판적으로 분석하라
+  무엇을 말하는가와 어떻게 말하는가 모두 중요하다
+  DRY-반복하지 마라</description>
     </item>
     
   </channel>
