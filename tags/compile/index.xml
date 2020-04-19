@@ -14,10 +14,10 @@
     
     <item>
       <title>lombok intelliJ 컴파일 에러시</title>
-      <link>https://ezaurum.com/recipe/2013-07-19-lombok-intellij-%ec%bb%b4%ed%8c%8c%ec%9d%bc-%ec%97%90%eb%9f%ac%ec%8b%9c/</link>
+      <link>https://ezaurum.com/2013/07/lombok-intelliJ-%EC%BB%B4%ED%8C%8C%EC%9D%BC-%EC%97%90%EB%9F%AC%EC%8B%9C/</link>
       <pubDate>Fri, 19 Jul 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/recipe/2013-07-19-lombok-intellij-%ec%bb%b4%ed%8c%8c%ec%9d%bc-%ec%97%90%eb%9f%ac%ec%8b%9c/</guid>
+      <guid>https://ezaurum.com/2013/07/lombok-intelliJ-%EC%BB%B4%ED%8C%8C%EC%9D%BC-%EC%97%90%EB%9F%AC%EC%8B%9C/</guid>
       <description>ᅟSettings-&amp;gt;Compiler-&amp;gt;Annotation Processors 에서 Enable annotation processing 에 체크</description>
     </item>
     

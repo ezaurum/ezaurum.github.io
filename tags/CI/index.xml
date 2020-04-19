@@ -33,10 +33,10 @@ jenkins 설정에서, build 칸에 보면 스크립트 추가할 수 있는 곳�
     
     <item>
       <title>지속적인 통합</title>
-      <link>https://ezaurum.com/reading/2011-08-25-%ec%a7%80%ec%86%8d%ec%a0%81%ec%9d%b8-%ed%86%b5%ed%95%a9/</link>
+      <link>https://ezaurum.com/2011/08/%EC%A7%80%EC%86%8D%EC%A0%81%EC%9D%B8-%ED%86%B5%ED%95%A9/</link>
       <pubDate>Thu, 25 Aug 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2011-08-25-%ec%a7%80%ec%86%8d%ec%a0%81%ec%9d%b8-%ed%86%b5%ed%95%a9/</guid>
+      <guid>https://ezaurum.com/2011/08/%EC%A7%80%EC%86%8D%EC%A0%81%EC%9D%B8-%ED%86%B5%ED%95%A9/</guid>
       <description>꿈결 같은 미래다. 유토피아의 모습을 보여주고 있는 책. 대충 CI가 뭔지부터 시작해서 실제 적용법, 무슨 툴을 써서 어떤 부분을 신경써서 구현해야 하는지를 이야기한다. JAVA, WEB 개발 중심. 근데 어렵다 OTL&amp;hellip; 설명이 어려운 게 아니라, 저걸 언제 다 해&amp;hellip; 난 Ant도 빌드랑 실행이랑 디플로이 밖에&amp;hellip; 어쨌든 조금씩 저런 방향을 도입하면 전체적으로 프로젝트 진행이 좋아질 것 같다&amp;hellip; 저런 거 가르쳐 줄 수 있는 회사로 가야겠군.</description>
     </item>
     

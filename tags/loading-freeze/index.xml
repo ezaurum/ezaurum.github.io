@@ -14,10 +14,10 @@
     
     <item>
       <title>sts가 로딩시 뻗을 때</title>
-      <link>https://ezaurum.com/recipe/2013-05-09-sts%ea%b0%80-%eb%a1%9c%eb%94%a9%ec%8b%9c-%eb%bb%97%ec%9d%84-%eb%95%8c/</link>
+      <link>https://ezaurum.com/2013/05/sts%EA%B0%80-%EB%A1%9C%EB%94%A9%EC%8B%9C-%EB%BB%97%EC%9D%84-%EB%95%8C/</link>
       <pubDate>Thu, 09 May 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/recipe/2013-05-09-sts%ea%b0%80-%eb%a1%9c%eb%94%a9%ec%8b%9c-%eb%bb%97%ec%9d%84-%eb%95%8c/</guid>
+      <guid>https://ezaurum.com/2013/05/sts%EA%B0%80-%EB%A1%9C%EB%94%A9%EC%8B%9C-%EB%BB%97%EC%9D%84-%EB%95%8C/</guid>
       <description>STS나 이클립스가 로딩시 뻗을 때, loading workbench에서 뻗었다. [Workspace Directory]/.metadata/.plugins/org.eclipse.core.resources/.snap 을 지워줄 것.</description>
     </item>
     

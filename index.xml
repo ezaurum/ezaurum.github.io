@@ -14,30 +14,30 @@
     
     <item>
       <title>특정 문자열을 가지고 있는 파일만 골라 이동</title>
-      <link>https://ezaurum.com/recipe/move-files-has-string/</link>
+      <link>https://ezaurum.com/2020/04/%ED%8A%B9%EC%A0%95-%EB%AC%B8%EC%9E%90%EC%97%B4%EC%9D%84-%EA%B0%80%EC%A7%80%EA%B3%A0-%EC%9E%88%EB%8A%94-%ED%8C%8C%EC%9D%BC%EB%A7%8C-%EA%B3%A8%EB%9D%BC-%EC%9D%B4%EB%8F%99/</link>
       <pubDate>Sun, 19 Apr 2020 20:41:52 +0900</pubDate>
       
-      <guid>https://ezaurum.com/recipe/move-files-has-string/</guid>
+      <guid>https://ezaurum.com/2020/04/%ED%8A%B9%EC%A0%95-%EB%AC%B8%EC%9E%90%EC%97%B4%EC%9D%84-%EA%B0%80%EC%A7%80%EA%B3%A0-%EC%9E%88%EB%8A%94-%ED%8C%8C%EC%9D%BC%EB%A7%8C-%EA%B3%A8%EB%9D%BC-%EC%9D%B4%EB%8F%99/</guid>
       <description>목적 특정 문자열을 가진 파일을 골라서 이동 또는 복사
 grep -rwl &amp;#39;original/directory/&amp;#39; -e &amp;#39;target-string&amp;#39; | xargs -I % sh -c &amp;#39;mv % target/directory&amp;#39; </description>
     </item>
     
     <item>
       <title>심리 계좌</title>
-      <link>https://ezaurum.com/reading/psychological-account/</link>
+      <link>https://ezaurum.com/2020/04/%EC%8B%AC%EB%A6%AC-%EA%B3%84%EC%A2%8C/</link>
       <pubDate>Sun, 19 Apr 2020 03:29:25 +0900</pubDate>
       
-      <guid>https://ezaurum.com/reading/psychological-account/</guid>
+      <guid>https://ezaurum.com/2020/04/%EC%8B%AC%EB%A6%AC-%EA%B3%84%EC%A2%8C/</guid>
       <description>지속가능한 돈 모으기 방법에 대해서 심리적인 원인을 설명하면서 구체적인 방법을 얘기한다.
 책에서 설명하는 것은 대부분 지금 하고 있는 방법들이긴 한데, 내가 지금 하고 있는 방식이 틀리지 않았다고 긍정받은 기분이 든다.</description>
     </item>
     
     <item>
       <title>mysql 사용자 추가</title>
-      <link>https://ezaurum.com/recipe/create-mysql-user/</link>
+      <link>https://ezaurum.com/2020/04/mysql-%EC%82%AC%EC%9A%A9%EC%9E%90-%EC%B6%94%EA%B0%80/</link>
       <pubDate>Fri, 03 Apr 2020 19:44:59 +0900</pubDate>
       
-      <guid>https://ezaurum.com/recipe/create-mysql-user/</guid>
+      <guid>https://ezaurum.com/2020/04/mysql-%EC%82%AC%EC%9A%A9%EC%9E%90-%EC%B6%94%EA%B0%80/</guid>
       <description>목적 mysql 사용자 및 DB 추가
 CREATE DATABASE example; CREATE USER &amp;#39;user_name&amp;#39;@&amp;#39;%&amp;#39; IDENTIFIED BY &amp;#39;pass-word&amp;#39;; GRANT ALL PRIVILEGES ON example.* TO &amp;#39;user_name&amp;#39;@&amp;#39;%&amp;#39;; </description>
     </item>
@@ -53,20 +53,20 @@ CREATE DATABASE example; CREATE USER &amp;#39;user_name&amp;#39;@&amp;#39;%&amp;
     
     <item>
       <title>가운데에서 차오르는 효과가 있는 버튼 후버 이펙트</title>
-      <link>https://ezaurum.com/recipe/round-button-fill-effect-css/</link>
+      <link>https://ezaurum.com/2020/03/%EA%B0%80%EC%9A%B4%EB%8D%B0%EC%97%90%EC%84%9C-%EC%B0%A8%EC%98%A4%EB%A5%B4%EB%8A%94-%ED%9A%A8%EA%B3%BC%EA%B0%80-%EC%9E%88%EB%8A%94-%EB%B2%84%ED%8A%BC-%ED%9B%84%EB%B2%84-%EC%9D%B4%ED%8E%99%ED%8A%B8/</link>
       <pubDate>Tue, 31 Mar 2020 22:14:16 +0900</pubDate>
       
-      <guid>https://ezaurum.com/recipe/round-button-fill-effect-css/</guid>
+      <guid>https://ezaurum.com/2020/03/%EA%B0%80%EC%9A%B4%EB%8D%B0%EC%97%90%EC%84%9C-%EC%B0%A8%EC%98%A4%EB%A5%B4%EB%8A%94-%ED%9A%A8%EA%B3%BC%EA%B0%80-%EC%9E%88%EB%8A%94-%EB%B2%84%ED%8A%BC-%ED%9B%84%EB%B2%84-%EC%9D%B4%ED%8E%99%ED%8A%B8/</guid>
       <description>목적 가운데에서 차오르는 효과가 있는 버튼 후버 이펙트
 See the Pen fill from center round button hover effect with css by Cho seokgyu (@ezaurum) on CodePen.  </description>
     </item>
     
     <item>
       <title>Vue에서 form 조건부 validation</title>
-      <link>https://ezaurum.com/recipe/conditional-validation-vue/</link>
+      <link>https://ezaurum.com/2020/03/Vue%EC%97%90%EC%84%9C-form-%EC%A1%B0%EA%B1%B4%EB%B6%80-validation/</link>
       <pubDate>Thu, 26 Mar 2020 02:00:18 +0900</pubDate>
       
-      <guid>https://ezaurum.com/recipe/conditional-validation-vue/</guid>
+      <guid>https://ezaurum.com/2020/03/Vue%EC%97%90%EC%84%9C-form-%EC%A1%B0%EA%B1%B4%EB%B6%80-validation/</guid>
       <description>Vue에서 특정 경우에만 나타나는 항목에 대해 validation을 하려면, v-show말코 v-if를 써서 꺼버리면 validation 이 아예 돌지 않는다.</description>
     </item>
     
@@ -84,10 +84,10 @@ See the Pen fill from center round button hover effect with css by Cho seokgyu (
     
     <item>
       <title>CLI로 클라우드 와치 로그 보기</title>
-      <link>https://ezaurum.com/recipe/cli-cloudwatch/</link>
+      <link>https://ezaurum.com/2020/03/CLI%EB%A1%9C-%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C-%EC%99%80%EC%B9%98-%EB%A1%9C%EA%B7%B8-%EB%B3%B4%EA%B8%B0/</link>
       <pubDate>Wed, 25 Mar 2020 09:44:59 +0900</pubDate>
       
-      <guid>https://ezaurum.com/recipe/cli-cloudwatch/</guid>
+      <guid>https://ezaurum.com/2020/03/CLI%EB%A1%9C-%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C-%EC%99%80%EC%B9%98-%EB%A1%9C%EA%B7%B8-%EB%B3%B4%EA%B8%B0/</guid>
       <description>목적 aws cli 로 cloudwatch 로그 보기 방법(윈도에서 awslogs가 안 먹을때)
  로그 그룹 이름으로 로그 스트림들을 얻어온다 aws logs describe-log-streams --log-group-name /log/group/name 받아온 JSON에서 logStreamName 을 찾아 필요한 log stream name 을 알아낸다. 찾은 log stream 으로 로그를 얻어온다. aws logs get-log-events --output text --log-group-name /log/group/name --log-stream-name 2019/10/01/[$LATEST]hash  </description>
     </item>
@@ -122,10 +122,10 @@ See the Pen fill from center round button hover effect with css by Cho seokgyu (
     
     <item>
       <title>Install Arch Linux - 데스크탑 환경설정</title>
-      <link>https://ezaurum.com/recipe/install-arch-linux-desktop/</link>
+      <link>https://ezaurum.com/2020/01/Install-Arch-Linux-%EB%8D%B0%EC%8A%A4%ED%81%AC%ED%83%91-%ED%99%98%EA%B2%BD%EC%84%A4%EC%A0%95/</link>
       <pubDate>Fri, 10 Jan 2020 16:17:30 +0900</pubDate>
       
-      <guid>https://ezaurum.com/recipe/install-arch-linux-desktop/</guid>
+      <guid>https://ezaurum.com/2020/01/Install-Arch-Linux-%EB%8D%B0%EC%8A%A4%ED%81%AC%ED%83%91-%ED%99%98%EA%B2%BD%EC%84%A4%EC%A0%95/</guid>
       <description>설치를 했으니 실제로 데스크탑으로 쓸 수 있도록 만들어본다. 어째서 아치리눅스를 쓰며 데스크탑환경을 안쓰는지 를 많이 참조했다.
  사용자 추가 root 로 계속 쓸 수 없으니 사용자를 추가한다.  useradd -m 이름 -g wheel passwd 이름 그룹을 wheel 로 설정했으니 wheel 이 sudo를 쓸 수 있게 해 준다.
 /etc/sudoers 를 열고 wheel 이 sudo 를 쓸 수 있게 해 준다.
@@ -152,10 +152,10 @@ See the Pen fill from center round button hover effect with css by Cho seokgyu (
     
     <item>
       <title>Install Arch Linux</title>
-      <link>https://ezaurum.com/recipe/install-arch-linux/</link>
+      <link>https://ezaurum.com/2019/11/Install-Arch-Linux/</link>
       <pubDate>Sun, 10 Nov 2019 16:17:30 +0900</pubDate>
       
-      <guid>https://ezaurum.com/recipe/install-arch-linux/</guid>
+      <guid>https://ezaurum.com/2019/11/Install-Arch-Linux/</guid>
       <description>아치 리눅스는 가볍고 이것저것 변경하기 좋은 리눅스 배포판이다.
 설치 전 준비물  USB, CD 등 부팅할 물건 ISO 이미지 인터넷, 가능하면 유선환경을 추천(WIFI가 안 되는 경우가 있음) 설치 중 문제해결을 위한 추가PC or 스마트폰 아치 리눅스 설치 한국어 가이드  설치 1. 이미지 usb에 굽기 일단 lsblk 로 usb의 경로를 알아낸다.
 NAME MAJ:MIN RM SIZE RO TYPE MOUNTPOINT sda 8:0 1 14.9G 0 disk ├─sda1 8:1 1 609M 0 part /run/media/ezaurum/ARCH_201905 └─sda2 8:2 1 64M 0 part nvme0n1 259:0 0 953.</description>
@@ -194,10 +194,10 @@ NAME MAJ:MIN RM SIZE RO TYPE MOUNTPOINT sda 8:0 1 14.9G 0 disk ├─sda1 8:1 1 
     
     <item>
       <title>클라우드 프론트에 웹사이트 배포</title>
-      <link>https://ezaurum.com/recipe/create-cloud-front-website/</link>
+      <link>https://ezaurum.com/2019/06/%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C-%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%90-%EC%9B%B9%EC%82%AC%EC%9D%B4%ED%8A%B8-%EB%B0%B0%ED%8F%AC/</link>
       <pubDate>Fri, 21 Jun 2019 09:44:59 +0900</pubDate>
       
-      <guid>https://ezaurum.com/recipe/create-cloud-front-website/</guid>
+      <guid>https://ezaurum.com/2019/06/%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C-%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%90-%EC%9B%B9%EC%82%AC%EC%9D%B4%ED%8A%B8-%EB%B0%B0%ED%8F%AC/</guid>
       <description>목적 클라우드 프론트에서 웹사이트 호스팅
  S3 생성 권한 등은 건드릴 필요 없음 클라우드 프론트 생성  만들면서 권한 role, 생성, policy 업데이트 커스텀 도메인을 써야 하면 미리 인증서 생성. 인증서는 미국동부쪽에 생성- 클라우드 프론트에서는 여기서 지정한 것만 쓸 수 있음 CNAME에 커스텀 도메인 이름 써주기 behavior에서 DefaultObject 써주기 index.html으로. 하지 않으면 루트 접근시 403 에러 남. 설정에서 defaultRoot도 index파일 로 써주기 적절하게 404,403 리다이렉트. VUE나 PWA 를 쓸 때    Troubleshoot  클라우드 프론트에서 307이 리턴되고 S3파일로 리다이렉트 될 때 - S3가 us-east-1 이 아닌경우, 이름이 전파되는 데 최대 24시간 걸릴 수 있다.</description>
     </item>
@@ -230,10 +230,10 @@ NAME MAJ:MIN RM SIZE RO TYPE MOUNTPOINT sda 8:0 1 14.9G 0 disk ├─sda1 8:1 1 
     
     <item>
       <title>쿼리 결과를 CSV 파일로 생성</title>
-      <link>https://ezaurum.com/recipe/export-csv-from-sql/</link>
+      <link>https://ezaurum.com/2019/05/%EC%BF%BC%EB%A6%AC-%EA%B2%B0%EA%B3%BC%EB%A5%BC-CSV-%ED%8C%8C%EC%9D%BC%EB%A1%9C-%EC%83%9D%EC%84%B1/</link>
       <pubDate>Sun, 12 May 2019 01:54:01 +0900</pubDate>
       
-      <guid>https://ezaurum.com/recipe/export-csv-from-sql/</guid>
+      <guid>https://ezaurum.com/2019/05/%EC%BF%BC%EB%A6%AC-%EA%B2%B0%EA%B3%BC%EB%A5%BC-CSV-%ED%8C%8C%EC%9D%BC%EB%A1%9C-%EC%83%9D%EC%84%B1/</guid>
       <description>select b.*, a.* from log_table a, somehow_table b where a.id = b.id and check_result=&#39;Success&#39; and a.column=123 INTO OUTFILE &#39;orders.csv&#39; FIELDS TERMINATED BY &#39;,&#39; ENCLOSED BY &#39;&amp;quot;&#39; LINES TERMINATED BY &#39;\n&#39;; </description>
     </item>
     
@@ -262,10 +262,10 @@ NAME MAJ:MIN RM SIZE RO TYPE MOUNTPOINT sda 8:0 1 14.9G 0 disk ├─sda1 8:1 1 
     
     <item>
       <title>엑셀에서 컬럼을 로우로, 로우를 컬럼으로 변환</title>
-      <link>https://ezaurum.com/recipe/convert-row-to-column-vice-versa/</link>
+      <link>https://ezaurum.com/2019/02/%EC%97%91%EC%85%80%EC%97%90%EC%84%9C-%EC%BB%AC%EB%9F%BC%EC%9D%84-%EB%A1%9C%EC%9A%B0%EB%A1%9C-%EB%A1%9C%EC%9A%B0%EB%A5%BC-%EC%BB%AC%EB%9F%BC%EC%9C%BC%EB%A1%9C-%EB%B3%80%ED%99%98/</link>
       <pubDate>Thu, 21 Feb 2019 18:20:40 +0900</pubDate>
       
-      <guid>https://ezaurum.com/recipe/convert-row-to-column-vice-versa/</guid>
+      <guid>https://ezaurum.com/2019/02/%EC%97%91%EC%85%80%EC%97%90%EC%84%9C-%EC%BB%AC%EB%9F%BC%EC%9D%84-%EB%A1%9C%EC%9A%B0%EB%A1%9C-%EB%A1%9C%EC%9A%B0%EB%A5%BC-%EC%BB%AC%EB%9F%BC%EC%9C%BC%EB%A1%9C-%EB%B3%80%ED%99%98/</guid>
       <description>TRANSPOSE(범위) 피봇 테이블 할 것도 없이 이거면 끝</description>
     </item>
     
@@ -1251,10 +1251,10 @@ http://theeye.pe.kr/archives/2014 http://mudchobo.tistory.com/549 http://woniper
     
     <item>
       <title>몽고 DB ISODate객체로 검색</title>
-      <link>https://ezaurum.com/recipe/2015-02-09-mongo-db-find-by-isodate/</link>
+      <link>https://ezaurum.com/2015/02/%EB%AA%BD%EA%B3%A0-DB-ISODate%EA%B0%9D%EC%B2%B4%EB%A1%9C-%EA%B2%80%EC%83%89/</link>
       <pubDate>Mon, 09 Feb 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/recipe/2015-02-09-mongo-db-find-by-isodate/</guid>
+      <guid>https://ezaurum.com/2015/02/%EB%AA%BD%EA%B3%A0-DB-ISODate%EA%B0%9D%EC%B2%B4%EB%A1%9C-%EA%B2%80%EC%83%89/</guid>
       <description>db.logs.find({&amp;ldquo;timestamp&amp;rdquo;: { &amp;ldquo;$gte&amp;rdquo;: new Date(&amp;ldquo;2015-02-05&amp;rdquo;)}, &amp;ldquo;level&amp;rdquo;:&amp;ldquo;ERROR&amp;rdquo;})  $gte, $gt, $lt, $lte를 쓸 수 있고, new Date(&amp;ldquo;2015-02-01T00:00:00.000Z&amp;rdquo;) 형태로 검색한다.</description>
     </item>
     
@@ -1298,10 +1298,10 @@ http://theeye.pe.kr/archives/2014 http://mudchobo.tistory.com/549 http://woniper
     
     <item>
       <title>웹툰 보다 울다</title>
-      <link>https://ezaurum.com/reading/2015-02-07-%ec%9b%b9%ed%88%b0-%eb%b3%b4%eb%8b%a4-%ec%9a%b8%eb%8b%a4/</link>
+      <link>https://ezaurum.com/2015/02/%EC%9B%B9%ED%88%B0-%EB%B3%B4%EB%8B%A4-%EC%9A%B8%EB%8B%A4/</link>
       <pubDate>Sat, 07 Feb 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2015-02-07-%ec%9b%b9%ed%88%b0-%eb%b3%b4%eb%8b%a4-%ec%9a%b8%eb%8b%a4/</guid>
+      <guid>https://ezaurum.com/2015/02/%EC%9B%B9%ED%88%B0-%EB%B3%B4%EB%8B%A4-%EC%9A%B8%EB%8B%A4/</guid>
       <description>내 어린 고양이와 늙은 개를 보다가 울어버렸다. 잃어버릴 것이 분명한 소중한 것. 그 감정이 계속 실감되니까 눈물이 나더라. 옛날엔 안 그랬던 것 같은데, 요즘 힘들어서 그런지, 외로워서 그런지&amp;hellip; 나이 들고서 더 감정이 예민해진것 같다.</description>
     </item>
     
@@ -1368,10 +1368,10 @@ http://theeye.pe.kr/archives/2014 http://mudchobo.tistory.com/549 http://woniper
     
     <item>
       <title>VS 2013에서 갑자기 CPU 사용율이 치솟는 경우</title>
-      <link>https://ezaurum.com/recipe/2014-12-27-fix-vs2013-cpu-consumption/</link>
+      <link>https://ezaurum.com/2014/12/VS-2013%EC%97%90%EC%84%9C-%EA%B0%91%EC%9E%90%EA%B8%B0-CPU-%EC%82%AC%EC%9A%A9%EC%9C%A8%EC%9D%B4-%EC%B9%98%EC%86%9F%EB%8A%94-%EA%B2%BD%EC%9A%B0/</link>
       <pubDate>Sat, 27 Dec 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/recipe/2014-12-27-fix-vs2013-cpu-consumption/</guid>
+      <guid>https://ezaurum.com/2014/12/VS-2013%EC%97%90%EC%84%9C-%EA%B0%91%EC%9E%90%EA%B8%B0-CPU-%EC%82%AC%EC%9A%A9%EC%9C%A8%EC%9D%B4-%EC%B9%98%EC%86%9F%EB%8A%94-%EA%B2%BD%EC%9A%B0/</guid>
       <description>참고 링크 내 경우는 Enable Browser Link를 끄는 것만으로 해결되었다.</description>
     </item>
     
@@ -1396,29 +1396,29 @@ http://theeye.pe.kr/archives/2014 http://mudchobo.tistory.com/549 http://woniper
     
     <item>
       <title>커링</title>
-      <link>https://ezaurum.com/recipe/2014-12-25-%ec%bb%a4%eb%a7%81/</link>
+      <link>https://ezaurum.com/2014/12/%EC%BB%A4%EB%A7%81/</link>
       <pubDate>Thu, 25 Dec 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/recipe/2014-12-25-%ec%bb%a4%eb%a7%81/</guid>
+      <guid>https://ezaurum.com/2014/12/%EC%BB%A4%EB%A7%81/</guid>
       <description>자바스크립트에서 커링은 본래 함수와 인수를 유지하는 클로저로 구현된다. 참고 링크</description>
     </item>
     
     <item>
       <title>AWS RDS time_zone 셋팅</title>
-      <link>https://ezaurum.com/recipe/2014-12-24-aws-rds-time_zone-%ec%85%8b%ed%8c%85/</link>
+      <link>https://ezaurum.com/2014/12/AWS-RDS-time_zone-%EC%85%8B%ED%8C%85/</link>
       <pubDate>Wed, 24 Dec 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/recipe/2014-12-24-aws-rds-time_zone-%ec%85%8b%ed%8c%85/</guid>
+      <guid>https://ezaurum.com/2014/12/AWS-RDS-time_zone-%EC%85%8B%ED%8C%85/</guid>
       <description>AWS RDS는 default_time_zone을 바꿀 수 없다. 그래서 각 연결마다 time_zone을 새로 셋팅해 주는 편법을 쓰는데, 모든 연결에 SET time_zone = &amp;lsquo;Asia/Seoul&amp;rsquo;;을 설정하는 방법으로 같은 효과를 볼 수 있다. 그러기 위해서는 init_connect에다가 값을 넣어주면 된다.
 참고 링크</description>
     </item>
     
     <item>
       <title>Ninject 첫인상</title>
-      <link>https://ezaurum.com/recipe/2014-12-24-ninject-%ec%b2%ab%ec%9d%b8%ec%83%81/</link>
+      <link>https://ezaurum.com/2014/12/Ninject-%EC%B2%AB%EC%9D%B8%EC%83%81/</link>
       <pubDate>Wed, 24 Dec 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/recipe/2014-12-24-ninject-%ec%b2%ab%ec%9d%b8%ec%83%81/</guid>
+      <guid>https://ezaurum.com/2014/12/Ninject-%EC%B2%AB%EC%9D%B8%EC%83%81/</guid>
       <description>DI 를 위해 Ninject를 사용함. NInject는 Web API controller를 생성할 때, 컨트롤러에 해당 의존성 객체가 존재하는 생성자가 없으면, 제대로 DI가 되지 않으므로 주의</description>
     </item>
     
@@ -1454,10 +1454,10 @@ public void AddText(string value) { richTextBox1.Invoke((Action) OnAction, value
     
     <item>
       <title>MSSQL에서 유니코드 텍스트는 nvarchar로</title>
-      <link>https://ezaurum.com/recipe/2014-12-01-use-nvarchar-for-unicode-text-in-mssql/</link>
+      <link>https://ezaurum.com/2014/12/MSSQL%EC%97%90%EC%84%9C-%EC%9C%A0%EB%8B%88%EC%BD%94%EB%93%9C-%ED%85%8D%EC%8A%A4%ED%8A%B8%EB%8A%94-nvarchar%EB%A1%9C/</link>
       <pubDate>Mon, 01 Dec 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/recipe/2014-12-01-use-nvarchar-for-unicode-text-in-mssql/</guid>
+      <guid>https://ezaurum.com/2014/12/MSSQL%EC%97%90%EC%84%9C-%EC%9C%A0%EB%8B%88%EC%BD%94%EB%93%9C-%ED%85%8D%EC%8A%A4%ED%8A%B8%EB%8A%94-nvarchar%EB%A1%9C/</guid>
       <description>mssql에서 유니코드로 된 텍스트를 저장해야 하면 varchar대신 nvarchar를 쓰자.
 그래야 DB 관리툴이라든가 쿼리 등에서 문제가 없다.</description>
     </item>
@@ -1474,10 +1474,10 @@ public void AddText(string value) { richTextBox1.Invoke((Action) OnAction, value
     
     <item>
       <title>pg_hba.conf load fail error</title>
-      <link>https://ezaurum.com/recipe/2014-10-10-pg_hba-conf-load-fail-error/</link>
+      <link>https://ezaurum.com/2014/10/pg_hba.conf-load-fail-error/</link>
       <pubDate>Fri, 10 Oct 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/recipe/2014-10-10-pg_hba-conf-load-fail-error/</guid>
+      <guid>https://ezaurum.com/2014/10/pg_hba.conf-load-fail-error/</guid>
       <description>pg_hba.conf load fail error가 발생. 설정 파일 내부에 항목이 하나도 없으면 로드에 에러 발생 기본 항목 주석 해제로 해결</description>
     </item>
     
@@ -1493,10 +1493,10 @@ public void AddText(string value) { richTextBox1.Invoke((Action) OnAction, value
     
     <item>
       <title>유년기의 끝</title>
-      <link>https://ezaurum.com/reading/2014-08-30-%ec%9c%a0%eb%85%84%ea%b8%b0%ec%9d%98-%eb%81%9d/</link>
+      <link>https://ezaurum.com/2014/08/%EC%9C%A0%EB%85%84%EA%B8%B0%EC%9D%98-%EB%81%9D/</link>
       <pubDate>Sat, 30 Aug 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2014-08-30-%ec%9c%a0%eb%85%84%ea%b8%b0%ec%9d%98-%eb%81%9d/</guid>
+      <guid>https://ezaurum.com/2014/08/%EC%9C%A0%EB%85%84%EA%B8%B0%EC%9D%98-%EB%81%9D/</guid>
       <description>SF의 고전
 첫 챕터를 읽다가 전율이&amp;hellip; ㅜㅜ
 여기저기 후대의 물건들이 가져다 쓴 장면들이 보여서 재밌었다.</description>
@@ -1636,19 +1636,19 @@ CD를 살까 했는데 CD는 진짜 장식이고&amp;hellip; 음원을 어디서
     
     <item>
       <title>인터페이스 타입에 대한 jpa 퍼시서턴트</title>
-      <link>https://ezaurum.com/recipe/2014-08-20-%ec%9d%b8%ed%84%b0%ed%8e%98%ec%9d%b4%ec%8a%a4-%ed%83%80%ec%9e%85%ec%97%90-%eb%8c%80%ed%95%9c-jpa-%ed%8d%bc%ec%8b%9c%ec%84%9c%ed%84%b4%ed%8a%b8/</link>
+      <link>https://ezaurum.com/2014/08/%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4-%ED%83%80%EC%9E%85%EC%97%90-%EB%8C%80%ED%95%9C-jpa-%ED%8D%BC%EC%8B%9C%EC%84%9C%ED%84%B4%ED%8A%B8/</link>
       <pubDate>Wed, 20 Aug 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/recipe/2014-08-20-%ec%9d%b8%ed%84%b0%ed%8e%98%ec%9d%b4%ec%8a%a4-%ed%83%80%ec%9e%85%ec%97%90-%eb%8c%80%ed%95%9c-jpa-%ed%8d%bc%ec%8b%9c%ec%84%9c%ed%84%b4%ed%8a%b8/</guid>
+      <guid>https://ezaurum.com/2014/08/%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4-%ED%83%80%EC%9E%85%EC%97%90-%EB%8C%80%ED%95%9C-jpa-%ED%8D%BC%EC%8B%9C%EC%84%9C%ED%84%B4%ED%8A%B8/</guid>
       <description>일단 mapped super class에 template으로 설정해두고, @Enumulated 로 잡고 쓰면 됨</description>
     </item>
     
     <item>
       <title>최근 한 달간 읽은 미야베 미유키 책들</title>
-      <link>https://ezaurum.com/reading/2014-08-20-%ec%b5%9c%ea%b7%bc-%ed%95%9c-%eb%8b%ac%ea%b0%84-%ec%9d%bd%ec%9d%80-%eb%af%b8%ec%95%bc%eb%b2%a0-%eb%af%b8%ec%9c%a0%ed%82%a4-%ec%b1%85%eb%93%a4/</link>
+      <link>https://ezaurum.com/2014/08/%EC%B5%9C%EA%B7%BC-%ED%95%9C-%EB%8B%AC%EA%B0%84-%EC%9D%BD%EC%9D%80-%EB%AF%B8%EC%95%BC%EB%B2%A0-%EB%AF%B8%EC%9C%A0%ED%82%A4-%EC%B1%85%EB%93%A4/</link>
       <pubDate>Wed, 20 Aug 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2014-08-20-%ec%b5%9c%ea%b7%bc-%ed%95%9c-%eb%8b%ac%ea%b0%84-%ec%9d%bd%ec%9d%80-%eb%af%b8%ec%95%bc%eb%b2%a0-%eb%af%b8%ec%9c%a0%ed%82%a4-%ec%b1%85%eb%93%a4/</guid>
+      <guid>https://ezaurum.com/2014/08/%EC%B5%9C%EA%B7%BC-%ED%95%9C-%EB%8B%AC%EA%B0%84-%EC%9D%BD%EC%9D%80-%EB%AF%B8%EC%95%BC%EB%B2%A0-%EB%AF%B8%EC%9C%A0%ED%82%A4-%EC%B1%85%EB%93%A4/</guid>
       <description>그림자밟기안주흑백말하는 검하루살이얼간이메롱흔들리는 바위 - 영험한 오하쓰의 사건기록부괴이혼조 후카가와의 기이한 이야기외딴집진상미인R.P.G.용은 잠들다크로스파이어오늘 밤은 잠들 수 없어꿈에도 생각할 수 없어이유 - 사회파 미스테리라는 느낌. 모두 각자의 이유가 있었다. 나는 지갑이다 와 비슷한 형태로 표현용은 잠들다 - 히어로물스텝 파더 스텝 - 이 세계관에서 계속 이어 나가도 괘찬았을 것 같다.마술은 속삭인다 - 주인공이 참 착하구나.</description>
     </item>
     
@@ -1709,10 +1709,10 @@ CD를 살까 했는데 CD는 진짜 장식이고&amp;hellip; 음원을 어디서
     
     <item>
       <title>미야베 미유키 괴담</title>
-      <link>https://ezaurum.com/reading/2014-05-25-%eb%af%b8%ec%95%bc%eb%b2%a0-%eb%af%b8%ec%9c%a0%ed%82%a4-%ea%b4%b4%eb%8b%b4/</link>
+      <link>https://ezaurum.com/2014/05/%EB%AF%B8%EC%95%BC%EB%B2%A0-%EB%AF%B8%EC%9C%A0%ED%82%A4-%EA%B4%B4%EB%8B%B4/</link>
       <pubDate>Sun, 25 May 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2014-05-25-%eb%af%b8%ec%95%bc%eb%b2%a0-%eb%af%b8%ec%9c%a0%ed%82%a4-%ea%b4%b4%eb%8b%b4/</guid>
+      <guid>https://ezaurum.com/2014/05/%EB%AF%B8%EC%95%BC%EB%B2%A0-%EB%AF%B8%EC%9C%A0%ED%82%A4-%EA%B4%B4%EB%8B%B4/</guid>
       <description>그림자 밟기, 괴이, 흔들리는 바위
 세 권을 중고서점에서 집어왔다.
 괴담이라지만 사실 무서운 이야기도 없고, 으스스하지도 않다.
@@ -1723,10 +1723,10 @@ CD를 살까 했는데 CD는 진짜 장식이고&amp;hellip; 음원을 어디서
     
     <item>
       <title>세븐 킹덤의 기사</title>
-      <link>https://ezaurum.com/reading/2014-05-25-%ec%84%b8%eb%b8%90-%ed%82%b9%eb%8d%a4%ec%9d%98-%ea%b8%b0%ec%82%ac/</link>
+      <link>https://ezaurum.com/2014/05/%EC%84%B8%EB%B8%90-%ED%82%B9%EB%8D%A4%EC%9D%98-%EA%B8%B0%EC%82%AC/</link>
       <pubDate>Sun, 25 May 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2014-05-25-%ec%84%b8%eb%b8%90-%ed%82%b9%eb%8d%a4%ec%9d%98-%ea%b8%b0%ec%82%ac/</guid>
+      <guid>https://ezaurum.com/2014/05/%EC%84%B8%EB%B8%90-%ED%82%B9%EB%8D%A4%EC%9D%98-%EA%B8%B0%EC%82%AC/</guid>
       <description>얼음과 불의 노래에서 100년 전 이야기.
 외전이라고 하지만 얼불노에서 상상하지 못했던 코믹하고 가벼운 분위기로 진행되는 이야기.
 얼불노라기 보다는 라이트노벨 같은 느낌이다.</description>
@@ -1734,10 +1734,10 @@ CD를 살까 했는데 CD는 진짜 장식이고&amp;hellip; 음원을 어디서
     
     <item>
       <title>엔더의 게임</title>
-      <link>https://ezaurum.com/reading/2014-05-25-%ec%97%94%eb%8d%94%ec%9d%98-%ea%b2%8c%ec%9e%84/</link>
+      <link>https://ezaurum.com/2014/05/%EC%97%94%EB%8D%94%EC%9D%98-%EA%B2%8C%EC%9E%84/</link>
       <pubDate>Sun, 25 May 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2014-05-25-%ec%97%94%eb%8d%94%ec%9d%98-%ea%b2%8c%ec%9e%84/</guid>
+      <guid>https://ezaurum.com/2014/05/%EC%97%94%EB%8D%94%EC%9D%98-%EA%B2%8C%EC%9E%84/</guid>
       <description>영화를 보자마자 사들고 왔다.
 영화보다는 소설이 훨씬 낫구나.
 어린아이의 시선이라는 점에서 이만큼 아이 자신의 시선에 근접한 것도 없어 보인다.</description>
@@ -1745,10 +1745,10 @@ CD를 살까 했는데 CD는 진짜 장식이고&amp;hellip; 음원을 어디서
     
     <item>
       <title>프로그래머가 몰랐던 멀티코어 CPU 이야기</title>
-      <link>https://ezaurum.com/reading/2014-05-25-%ed%94%84%eb%a1%9c%ea%b7%b8%eb%9e%98%eb%a8%b8%ea%b0%80-%eb%aa%b0%eb%9e%90%eb%8d%98-%eb%a9%80%ed%8b%b0%ec%bd%94%ec%96%b4-cpu-%ec%9d%b4%ec%95%bc%ea%b8%b0/</link>
+      <link>https://ezaurum.com/2014/05/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EA%B0%80-%EB%AA%B0%EB%9E%90%EB%8D%98-%EB%A9%80%ED%8B%B0%EC%BD%94%EC%96%B4-CPU-%EC%9D%B4%EC%95%BC%EA%B8%B0/</link>
       <pubDate>Sun, 25 May 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2014-05-25-%ed%94%84%eb%a1%9c%ea%b7%b8%eb%9e%98%eb%a8%b8%ea%b0%80-%eb%aa%b0%eb%9e%90%eb%8d%98-%eb%a9%80%ed%8b%b0%ec%bd%94%ec%96%b4-cpu-%ec%9d%b4%ec%95%bc%ea%b8%b0/</guid>
+      <guid>https://ezaurum.com/2014/05/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EA%B0%80-%EB%AA%B0%EB%9E%90%EB%8D%98-%EB%A9%80%ED%8B%B0%EC%BD%94%EC%96%B4-CPU-%EC%9D%B4%EC%95%BC%EA%B8%B0/</guid>
       <description>가벼운 교양은 아니다 일단. 내 전공이 저 쪽이 아니라 더 그럴지도 모르겠지만.
 학부 전공서적을 좀 읽기 쉽게 만들고 최신 경향을 집어넣었다는 느낌이 드는 책.
 가볍게 한 번 읽고, 필요할 때 생각나면 찾아서 읽어보면 좋을 거 같다.</description>
@@ -1756,10 +1756,10 @@ CD를 살까 했는데 CD는 진짜 장식이고&amp;hellip; 음원을 어디서
     
     <item>
       <title>프로그래밍 유니버스</title>
-      <link>https://ezaurum.com/reading/2014-05-25-%ed%94%84%eb%a1%9c%ea%b7%b8%eb%9e%98%eb%b0%8d-%ec%9c%a0%eb%8b%88%eb%b2%84%ec%8a%a4/</link>
+      <link>https://ezaurum.com/2014/05/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EC%9C%A0%EB%8B%88%EB%B2%84%EC%8A%A4/</link>
       <pubDate>Sun, 25 May 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2014-05-25-%ed%94%84%eb%a1%9c%ea%b7%b8%eb%9e%98%eb%b0%8d-%ec%9c%a0%eb%8b%88%eb%b2%84%ec%8a%a4/</guid>
+      <guid>https://ezaurum.com/2014/05/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EC%9C%A0%EB%8B%88%EB%B2%84%EC%8A%A4/</guid>
       <description>뭔소린지 모르겠다.
 정말로.
 그냥 술술술 넘겼는데, 책을 덮고 며칠 지나니 내용도 생각이 안 나고, 뭔지도 모르겠다.
@@ -1836,19 +1836,19 @@ CD를 살까 했는데 CD는 진짜 장식이고&amp;hellip; 음원을 어디서
     
     <item>
       <title>git 현재 날짜로 번들 만들어서 지정 디렉토리로 이동하는 스크립트</title>
-      <link>https://ezaurum.com/recipe/2013-11-24-move-today-git-bundle-to-backup/</link>
+      <link>https://ezaurum.com/2013/11/git-%ED%98%84%EC%9E%AC-%EB%82%A0%EC%A7%9C%EB%A1%9C-%EB%B2%88%EB%93%A4-%EB%A7%8C%EB%93%A4%EC%96%B4%EC%84%9C-%EC%A7%80%EC%A0%95-%EB%94%94%EB%A0%89%ED%86%A0%EB%A6%AC%EB%A1%9C-%EC%9D%B4%EB%8F%99%ED%95%98%EB%8A%94-%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8/</link>
       <pubDate>Sun, 24 Nov 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/recipe/2013-11-24-move-today-git-bundle-to-backup/</guid>
+      <guid>https://ezaurum.com/2013/11/git-%ED%98%84%EC%9E%AC-%EB%82%A0%EC%A7%9C%EB%A1%9C-%EB%B2%88%EB%93%A4-%EB%A7%8C%EB%93%A4%EC%96%B4%EC%84%9C-%EC%A7%80%EC%A0%95-%EB%94%94%EB%A0%89%ED%86%A0%EB%A6%AC%EB%A1%9C-%EC%9D%B4%EB%8F%99%ED%95%98%EB%8A%94-%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8/</guid>
       <description>date +%Y%m%d | xargs -i{} git bundle create {}.bundle &amp;ndash;all ; mv *.bundle [대상 디렉토리]</description>
     </item>
     
     <item>
       <title>Git에서 특정파일 임시로 커밋내역에서 제외하기</title>
-      <link>https://ezaurum.com/recipe/2013-11-24-git%ec%97%90%ec%84%9c-%ed%8a%b9%ec%a0%95%ed%8c%8c%ec%9d%bc-%ec%9e%84%ec%8b%9c%eb%a1%9c-%ec%bb%a4%eb%b0%8b%eb%82%b4%ec%97%ad%ec%97%90%ec%84%9c-%ec%a0%9c%ec%99%b8%ed%95%98%ea%b8%b0/</link>
+      <link>https://ezaurum.com/2013/11/Git%EC%97%90%EC%84%9C-%ED%8A%B9%EC%A0%95%ED%8C%8C%EC%9D%BC-%EC%9E%84%EC%8B%9C%EB%A1%9C-%EC%BB%A4%EB%B0%8B%EB%82%B4%EC%97%AD%EC%97%90%EC%84%9C-%EC%A0%9C%EC%99%B8%ED%95%98%EA%B8%B0/</link>
       <pubDate>Sun, 24 Nov 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/recipe/2013-11-24-git%ec%97%90%ec%84%9c-%ed%8a%b9%ec%a0%95%ed%8c%8c%ec%9d%bc-%ec%9e%84%ec%8b%9c%eb%a1%9c-%ec%bb%a4%eb%b0%8b%eb%82%b4%ec%97%ad%ec%97%90%ec%84%9c-%ec%a0%9c%ec%99%b8%ed%95%98%ea%b8%b0/</guid>
+      <guid>https://ezaurum.com/2013/11/Git%EC%97%90%EC%84%9C-%ED%8A%B9%EC%A0%95%ED%8C%8C%EC%9D%BC-%EC%9E%84%EC%8B%9C%EB%A1%9C-%EC%BB%A4%EB%B0%8B%EB%82%B4%EC%97%AD%EC%97%90%EC%84%9C-%EC%A0%9C%EC%99%B8%ED%95%98%EA%B8%B0/</guid>
       <description>출처  http://blog.outsider.ne.kr/817 스택오버플로우 FallenGameR&amp;rsquo;s blog  Unity3D로 공동작업을 하다 보면 meta파일이 많이 생기고, 뭐 잠깐 이쪽에서 고쳐보고 싶은데 하던 작업 중에 일부는 또 올려야 할 때가 있고해서 골치 아플 때 유용함. local 에만 적용해야 하는 환경파일 수정할 때도 유용
 리모트 파일이 바뀌어서 pull을 할 때 주의점 기본적으로 컨플릭트가 나고, 해결 방법이 다르다
  assumed-unchanged - stash 가능하지만, stash 하면 데이터 날아감 skip-worktree - stash 불가능, 플래그 꺼 줘야 함  git reset --hard를 하는 경우 주의점 결국 둘 다 파일은 바뀐다.</description>
@@ -1856,10 +1856,10 @@ CD를 살까 했는데 CD는 진짜 장식이고&amp;hellip; 음원을 어디서
     
     <item>
       <title>java에서 arraylist 삭제하는 방법</title>
-      <link>https://ezaurum.com/recipe/2013-11-24-remove-arraylist-in-java/</link>
+      <link>https://ezaurum.com/2013/11/java%EC%97%90%EC%84%9C-arraylist-%EC%82%AD%EC%A0%9C%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/</link>
       <pubDate>Sun, 24 Nov 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/recipe/2013-11-24-remove-arraylist-in-java/</guid>
+      <guid>https://ezaurum.com/2013/11/java%EC%97%90%EC%84%9C-arraylist-%EC%82%AD%EC%A0%9C%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/</guid>
       <description>iterator를 사용한다.
 참고 - removeAlll은 hashset과 arrayList가 구현이 다르게 되어 있다.</description>
     </item>
@@ -1896,10 +1896,10 @@ CD를 살까 했는데 CD는 진짜 장식이고&amp;hellip; 음원을 어디서
     
     <item>
       <title>미래를 바꾼 아홉가지 알고리즘</title>
-      <link>https://ezaurum.com/reading/2013-10-03-%eb%af%b8%eb%9e%98%eb%a5%bc-%eb%b0%94%ea%be%bc-%ec%95%84%ed%99%89%ea%b0%80%ec%a7%80-%ec%95%8c%ea%b3%a0%eb%a6%ac%ec%a6%98/</link>
+      <link>https://ezaurum.com/2013/10/%EB%AF%B8%EB%9E%98%EB%A5%BC-%EB%B0%94%EA%BE%BC-%EC%95%84%ED%99%89%EA%B0%80%EC%A7%80-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/</link>
       <pubDate>Thu, 03 Oct 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2013-10-03-%eb%af%b8%eb%9e%98%eb%a5%bc-%eb%b0%94%ea%be%bc-%ec%95%84%ed%99%89%ea%b0%80%ec%a7%80-%ec%95%8c%ea%b3%a0%eb%a6%ac%ec%a6%98/</guid>
+      <guid>https://ezaurum.com/2013/10/%EB%AF%B8%EB%9E%98%EB%A5%BC-%EB%B0%94%EA%BE%BC-%EC%95%84%ED%99%89%EA%B0%80%EC%A7%80-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/</guid>
       <description>교양서적. 깊이 다루지는 않지만, 관련직종 종사자라도 직군에 따라 한 번도 생각해 보지 않을 부분까지도 친절히 설명해 주고 있다. 비전공자라도 천천히 한 꼭지씩 읽으면 좋을 물건.</description>
     </item>
     
@@ -1923,19 +1923,19 @@ CD를 살까 했는데 CD는 진짜 장식이고&amp;hellip; 음원을 어디서
     
     <item>
       <title>커밋된 xml 파일을 특정 디렉토리로 복사하기</title>
-      <link>https://ezaurum.com/recipe/2013-08-24-%ec%bb%a4%eb%b0%8b%eb%90%9c-xml-%ed%8c%8c%ec%9d%bc%ec%9d%84-%ed%8a%b9%ec%a0%95-%eb%94%94%eb%a0%89%ed%86%a0%eb%a6%ac%eb%a1%9c-%eb%b3%b5%ec%82%ac%ed%95%98%ea%b8%b0/</link>
+      <link>https://ezaurum.com/2013/08/%EC%BB%A4%EB%B0%8B%EB%90%9C-xml-%ED%8C%8C%EC%9D%BC%EC%9D%84-%ED%8A%B9%EC%A0%95-%EB%94%94%EB%A0%89%ED%86%A0%EB%A6%AC%EB%A1%9C-%EB%B3%B5%EC%82%AC%ED%95%98%EA%B8%B0/</link>
       <pubDate>Sat, 24 Aug 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/recipe/2013-08-24-%ec%bb%a4%eb%b0%8b%eb%90%9c-xml-%ed%8c%8c%ec%9d%bc%ec%9d%84-%ed%8a%b9%ec%a0%95-%eb%94%94%eb%a0%89%ed%86%a0%eb%a6%ac%eb%a1%9c-%eb%b3%b5%ec%82%ac%ed%95%98%ea%b8%b0/</guid>
+      <guid>https://ezaurum.com/2013/08/%EC%BB%A4%EB%B0%8B%EB%90%9C-xml-%ED%8C%8C%EC%9D%BC%EC%9D%84-%ED%8A%B9%EC%A0%95-%EB%94%94%EB%A0%89%ED%86%A0%EB%A6%AC%EB%A1%9C-%EB%B3%B5%EC%82%AC%ED%95%98%EA%B8%B0/</guid>
       <description>git log -1 HEAD &amp;ndash;name-only &amp;ndash;oneline | grep .xml$ | xargs -i cp {} ~/changes/xml</description>
     </item>
     
     <item>
       <title>jaxb 로 xsd를 java class로 만들 때</title>
-      <link>https://ezaurum.com/recipe/2013-08-21-jaxb-%eb%a1%9c-xsd%eb%a5%bc-java-class%eb%a1%9c-%eb%a7%8c%eb%93%a4-%eb%95%8c/</link>
+      <link>https://ezaurum.com/2013/08/jaxb-%EB%A1%9C-xsd%EB%A5%BC-java-class%EB%A1%9C-%EB%A7%8C%EB%93%A4-%EB%95%8C/</link>
       <pubDate>Wed, 21 Aug 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/recipe/2013-08-21-jaxb-%eb%a1%9c-xsd%eb%a5%bc-java-class%eb%a1%9c-%eb%a7%8c%eb%93%a4-%eb%95%8c/</guid>
+      <guid>https://ezaurum.com/2013/08/jaxb-%EB%A1%9C-xsd%EB%A5%BC-java-class%EB%A1%9C-%EB%A7%8C%EB%93%A4-%EB%95%8C/</guid>
       <description>상속되는 객체가 제대로 만들어지지 않는다면, mixed=&amp;quot;true&amp;quot;를 없애보라</description>
     </item>
     
@@ -1960,28 +1960,28 @@ CD를 살까 했는데 CD는 진짜 장식이고&amp;hellip; 음원을 어디서
     
     <item>
       <title>Spring mvc에서 로직에 이상이 없는데 406에러가 날 때</title>
-      <link>https://ezaurum.com/recipe/2013-07-22-spring-mvc%ec%97%90%ec%84%9c-%eb%a1%9c%ec%a7%81%ec%97%90-%ec%9d%b4%ec%83%81%ec%9d%b4-%ec%97%86%eb%8a%94%eb%8d%b0-406%ec%97%90%eb%9f%ac%ea%b0%80-%eb%82%a0-%eb%95%8c/</link>
+      <link>https://ezaurum.com/2013/07/Spring-mvc%EC%97%90%EC%84%9C-%EB%A1%9C%EC%A7%81%EC%97%90-%EC%9D%B4%EC%83%81%EC%9D%B4-%EC%97%86%EB%8A%94%EB%8D%B0-406%EC%97%90%EB%9F%AC%EA%B0%80-%EB%82%A0-%EB%95%8C/</link>
       <pubDate>Mon, 22 Jul 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/recipe/2013-07-22-spring-mvc%ec%97%90%ec%84%9c-%eb%a1%9c%ec%a7%81%ec%97%90-%ec%9d%b4%ec%83%81%ec%9d%b4-%ec%97%86%eb%8a%94%eb%8d%b0-406%ec%97%90%eb%9f%ac%ea%b0%80-%eb%82%a0-%eb%95%8c/</guid>
+      <guid>https://ezaurum.com/2013/07/Spring-mvc%EC%97%90%EC%84%9C-%EB%A1%9C%EC%A7%81%EC%97%90-%EC%9D%B4%EC%83%81%EC%9D%B4-%EC%97%86%EB%8A%94%EB%8D%B0-406%EC%97%90%EB%9F%AC%EA%B0%80-%EB%82%A0-%EB%95%8C/</guid>
       <description>JSON변환 중, 필드의 jsonProperty가 서로 겹치면 406이 뜬다.</description>
     </item>
     
     <item>
       <title>lombok intelliJ 컴파일 에러시</title>
-      <link>https://ezaurum.com/recipe/2013-07-19-lombok-intellij-%ec%bb%b4%ed%8c%8c%ec%9d%bc-%ec%97%90%eb%9f%ac%ec%8b%9c/</link>
+      <link>https://ezaurum.com/2013/07/lombok-intelliJ-%EC%BB%B4%ED%8C%8C%EC%9D%BC-%EC%97%90%EB%9F%AC%EC%8B%9C/</link>
       <pubDate>Fri, 19 Jul 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/recipe/2013-07-19-lombok-intellij-%ec%bb%b4%ed%8c%8c%ec%9d%bc-%ec%97%90%eb%9f%ac%ec%8b%9c/</guid>
+      <guid>https://ezaurum.com/2013/07/lombok-intelliJ-%EC%BB%B4%ED%8C%8C%EC%9D%BC-%EC%97%90%EB%9F%AC%EC%8B%9C/</guid>
       <description>ᅟSettings-&amp;gt;Compiler-&amp;gt;Annotation Processors 에서 Enable annotation processing 에 체크</description>
     </item>
     
     <item>
       <title>베아트리스와 버질</title>
-      <link>https://ezaurum.com/reading/2013-07-19-%eb%b2%a0%ec%95%84%ed%8a%b8%eb%a6%ac%ec%8a%a4%ec%99%80-%eb%b2%84%ec%a7%88/</link>
+      <link>https://ezaurum.com/2013/07/%EB%B2%A0%EC%95%84%ED%8A%B8%EB%A6%AC%EC%8A%A4%EC%99%80-%EB%B2%84%EC%A7%88/</link>
       <pubDate>Fri, 19 Jul 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2013-07-19-%eb%b2%a0%ec%95%84%ed%8a%b8%eb%a6%ac%ec%8a%a4%ec%99%80-%eb%b2%84%ec%a7%88/</guid>
+      <guid>https://ezaurum.com/2013/07/%EB%B2%A0%EC%95%84%ED%8A%B8%EB%A6%AC%EC%8A%A4%EC%99%80-%EB%B2%84%EC%A7%88/</guid>
       <description>파이 이야기 작가의 신&amp;hellip; 작이라고 하긴 좀 미묘한 시점이군. 여튼 생활에 녹아든 홀로코스트를 다루고 싶어하는 작가를 그린 이야기. 작중 작가는 무슨 말을 하려 하는지 스스로도 알 수 없다는 묘사가 있다. 그 말 그대로의 이야기다. 작중에서도 뭐 뭔 소린지 모르겠고 안 팔릴것 같다는 느낌의 묘사가 있는데, 읽어본 느낌도 그렇다. 하지만 확실히 잔인함과 폭력이 느껴진다. 분명히 거기 뭔가가 있는데 그 근처만 빙 에둘러 돌아가는 바람에 더 무서운 그 느낌. 작중 작품인 우화와 현실까지를 잇는 잔인함, 폭력 같은게 진득하게 달라붙는 그런 이야기.</description>
     </item>
     
@@ -2006,10 +2006,10 @@ CD를 살까 했는데 CD는 진짜 장식이고&amp;hellip; 음원을 어디서
     
     <item>
       <title>루분투 휴지통 위치</title>
-      <link>https://ezaurum.com/recipe/2013-06-28-%eb%a3%a8%eb%b6%84%ed%88%ac-%ed%9c%b4%ec%a7%80%ed%86%b5-%ec%9c%84%ec%b9%98/</link>
+      <link>https://ezaurum.com/2013/06/%EB%A3%A8%EB%B6%84%ED%88%AC-%ED%9C%B4%EC%A7%80%ED%86%B5-%EC%9C%84%EC%B9%98/</link>
       <pubDate>Fri, 28 Jun 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/recipe/2013-06-28-%eb%a3%a8%eb%b6%84%ed%88%ac-%ed%9c%b4%ec%a7%80%ed%86%b5-%ec%9c%84%ec%b9%98/</guid>
+      <guid>https://ezaurum.com/2013/06/%EB%A3%A8%EB%B6%84%ED%88%AC-%ED%9C%B4%EC%A7%80%ED%86%B5-%EC%9C%84%EC%B9%98/</guid>
       <description>루분투 휴지통은 ~/.local/share/Trash 에 있다.</description>
     </item>
     
@@ -2024,19 +2024,19 @@ CD를 살까 했는데 CD는 진짜 장식이고&amp;hellip; 음원을 어디서
     
     <item>
       <title>controller에서 특정 메소드가 List을 반환할 때</title>
-      <link>https://ezaurum.com/recipe/2013-06-25-controller%ec%97%90%ec%84%9c-%ed%8a%b9%ec%a0%95-%eb%a9%94%ec%86%8c%eb%93%9c%ea%b0%80-list%ec%9d%84-%eb%b0%98%ed%99%98%ed%95%a0-%eb%95%8c/</link>
+      <link>https://ezaurum.com/2013/06/controller%EC%97%90%EC%84%9C-%ED%8A%B9%EC%A0%95-%EB%A9%94%EC%86%8C%EB%93%9C%EA%B0%80-List%EC%9D%84-%EB%B0%98%ED%99%98%ED%95%A0-%EB%95%8C/</link>
       <pubDate>Tue, 25 Jun 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/recipe/2013-06-25-controller%ec%97%90%ec%84%9c-%ed%8a%b9%ec%a0%95-%eb%a9%94%ec%86%8c%eb%93%9c%ea%b0%80-list%ec%9d%84-%eb%b0%98%ed%99%98%ed%95%a0-%eb%95%8c/</guid>
+      <guid>https://ezaurum.com/2013/06/controller%EC%97%90%EC%84%9C-%ED%8A%B9%EC%A0%95-%EB%A9%94%EC%86%8C%EB%93%9C%EA%B0%80-List%EC%9D%84-%EB%B0%98%ED%99%98%ED%95%A0-%EB%95%8C/</guid>
       <description>@ResponseBody를 안 붙여 주면 [&amp;ldquo;bla&amp;rdquo;,&amp;ldquo;bla&amp;rdquo;]꼴이 아니라 {&amp;ldquo;stringList&amp;rdquo;:[&amp;ldquo;bloa&amp;rdquo;,&amp;ldquo;bloa&amp;rdquo;] 꼴로 반환된다.</description>
     </item>
     
     <item>
       <title>현대 과학·종교논쟁</title>
-      <link>https://ezaurum.com/reading/2013-06-10-%ed%98%84%eb%8c%80-%ea%b3%bc%ed%95%99%c2%b7%ec%a2%85%ea%b5%90%eb%85%bc%ec%9f%81/</link>
+      <link>https://ezaurum.com/2013/06/%ED%98%84%EB%8C%80-%EA%B3%BC%ED%95%99%EC%A2%85%EA%B5%90%EB%85%BC%EC%9F%81/</link>
       <pubDate>Mon, 10 Jun 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2013-06-10-%ed%98%84%eb%8c%80-%ea%b3%bc%ed%95%99%c2%b7%ec%a2%85%ea%b5%90%eb%85%bc%ec%9f%81/</guid>
+      <guid>https://ezaurum.com/2013/06/%ED%98%84%EB%8C%80-%EA%B3%BC%ED%95%99%EC%A2%85%EA%B5%90%EB%85%BC%EC%9F%81/</guid>
       <description>짧은 칼럼을 모은 책. 많은 얘기가 있지만, 공통적으로 나오는 얘기는 다음과 같다.
 종교는 나올 만 해서 나온 거다. 특별히 나쁜 거 아님. 그러니 싸우지 말고 연구나 하자.</description>
     </item>
@@ -2112,28 +2112,28 @@ dependencies { def springSecurityVersion = &amp;ldquo;3.1.4.RELEASE&amp;rdquo; c
     
     <item>
       <title>jenkins-git 연동시 주의점</title>
-      <link>https://ezaurum.com/recipe/2013-05-20-jenkins-git-%ec%97%b0%eb%8f%99%ec%8b%9c-%ec%a3%bc%ec%9d%98%ec%a0%90/</link>
+      <link>https://ezaurum.com/2013/05/jenkins-git-%EC%97%B0%EB%8F%99%EC%8B%9C-%EC%A3%BC%EC%9D%98%EC%A0%90/</link>
       <pubDate>Mon, 20 May 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/recipe/2013-05-20-jenkins-git-%ec%97%b0%eb%8f%99%ec%8b%9c-%ec%a3%bc%ec%9d%98%ec%a0%90/</guid>
+      <guid>https://ezaurum.com/2013/05/jenkins-git-%EC%97%B0%EB%8F%99%EC%8B%9C-%EC%A3%BC%EC%9D%98%EC%A0%90/</guid>
       <description>git 서버에 public 키를 추가할 때, jenkins 유저로 들어가서 추가해야 함.</description>
     </item>
     
     <item>
       <title>scp만으로 git 서버에 key여럿 추가하기</title>
-      <link>https://ezaurum.com/recipe/2013-05-20-scp%eb%a7%8c%ec%9c%bc%eb%a1%9c-git-%ec%84%9c%eb%b2%84%ec%97%90-key%ec%97%ac%eb%9f%bf-%ec%b6%94%ea%b0%80%ed%95%98%ea%b8%b0/</link>
+      <link>https://ezaurum.com/2013/05/scp%EB%A7%8C%EC%9C%BC%EB%A1%9C-git-%EC%84%9C%EB%B2%84%EC%97%90-key%EC%97%AC%EB%9F%BF-%EC%B6%94%EA%B0%80%ED%95%98%EA%B8%B0/</link>
       <pubDate>Mon, 20 May 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/recipe/2013-05-20-scp%eb%a7%8c%ec%9c%bc%eb%a1%9c-git-%ec%84%9c%eb%b2%84%ec%97%90-key%ec%97%ac%eb%9f%bf-%ec%b6%94%ea%b0%80%ed%95%98%ea%b8%b0/</guid>
+      <guid>https://ezaurum.com/2013/05/scp%EB%A7%8C%EC%9C%BC%EB%A1%9C-git-%EC%84%9C%EB%B2%84%EC%97%90-key%EC%97%AC%EB%9F%BF-%EC%B6%94%EA%B0%80%ED%95%98%EA%B8%B0/</guid>
       <description>출처 역시 누군가 뭘 해 놨을 줄 알았어. 다 필요 없는 짓이었다. ssh-copy-id 라는 명령어가&amp;hellip; OTL&amp;hellip; 역시 무식하면 몸이 고생. scp file_name user@182.213.312.122:path 다 하고 나면 보안을 위해 파일 권한이 600으로 되어 있는지 확인할 것 그 외 ssh에 대한 참고 링크</description>
     </item>
     
     <item>
       <title>unbuntu(mint)에서 jenkins 실행 포트 바꾸기</title>
-      <link>https://ezaurum.com/recipe/2013-05-20-change-jenkins-port-at-init-script-on-ubuntu/</link>
+      <link>https://ezaurum.com/2013/05/unbuntumint%EC%97%90%EC%84%9C-jenkins-%EC%8B%A4%ED%96%89-%ED%8F%AC%ED%8A%B8-%EB%B0%94%EA%BE%B8%EA%B8%B0/</link>
       <pubDate>Mon, 20 May 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/recipe/2013-05-20-change-jenkins-port-at-init-script-on-ubuntu/</guid>
+      <guid>https://ezaurum.com/2013/05/unbuntumint%EC%97%90%EC%84%9C-jenkins-%EC%8B%A4%ED%96%89-%ED%8F%AC%ED%8A%B8-%EB%B0%94%EA%BE%B8%EA%B8%B0/</guid>
       <description>시작 스크립트는 /etc/init.d/jenkins에 저장된다. 거기 보면 /etc/default/jenkins를 불러오는 부분이 있을 텐데, 그걸 불러오면 port나 기타 필요한 부분을 다 바꿀 수 있다.</description>
     </item>
     
@@ -2148,19 +2148,19 @@ dependencies { def springSecurityVersion = &amp;ldquo;3.1.4.RELEASE&amp;rdquo; c
     
     <item>
       <title>json 요청 보내기</title>
-      <link>https://ezaurum.com/recipe/2013-05-16-send-json-request/</link>
+      <link>https://ezaurum.com/2013/05/json-%EC%9A%94%EC%B2%AD-%EB%B3%B4%EB%82%B4%EA%B8%B0/</link>
       <pubDate>Thu, 16 May 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/recipe/2013-05-16-send-json-request/</guid>
+      <guid>https://ezaurum.com/2013/05/json-%EC%9A%94%EC%B2%AD-%EB%B3%B4%EB%82%B4%EA%B8%B0/</guid>
       <description>curl -v -H &amp;ldquo;Accept: application/json&amp;rdquo; -H &amp;ldquo;Content-type: application/json&amp;rdquo; -X POST -d &amp;lsquo;{&amp;ldquo;email&amp;rdquo;:&amp;ldquo;abesteail@mailcom&amp;rdquo;,&amp;ldquo;password&amp;rdquo;:&amp;ldquo;234234&amp;rdquo;}&amp;rsquo; http://localhost:8080/json</description>
     </item>
     
     <item>
       <title>controller에서 넘긴 viewName은 viewResolver가 보고 처리한다.</title>
-      <link>https://ezaurum.com/recipe/2013-05-09-controller%ec%97%90%ec%84%9c-%eb%84%98%ea%b8%b4-viewname%ec%9d%80-viewresolver%ea%b0%80-%eb%b3%b4%ea%b3%a0-%ec%b2%98%eb%a6%ac%ed%95%9c%eb%8b%a4/</link>
+      <link>https://ezaurum.com/2013/05/controller%EC%97%90%EC%84%9C-%EB%84%98%EA%B8%B4-viewName%EC%9D%80-viewResolver%EA%B0%80-%EB%B3%B4%EA%B3%A0-%EC%B2%98%EB%A6%AC%ED%95%9C%EB%8B%A4./</link>
       <pubDate>Thu, 09 May 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/recipe/2013-05-09-controller%ec%97%90%ec%84%9c-%eb%84%98%ea%b8%b4-viewname%ec%9d%80-viewresolver%ea%b0%80-%eb%b3%b4%ea%b3%a0-%ec%b2%98%eb%a6%ac%ed%95%9c%eb%8b%a4/</guid>
+      <guid>https://ezaurum.com/2013/05/controller%EC%97%90%EC%84%9C-%EB%84%98%EA%B8%B4-viewName%EC%9D%80-viewResolver%EA%B0%80-%EB%B3%B4%EA%B3%A0-%EC%B2%98%EB%A6%AC%ED%95%9C%EB%8B%A4./</guid>
       <description>controller에서 넘긴 viewName은 viewResolver가 보고 처리한다.</description>
     </item>
     
@@ -2175,19 +2175,19 @@ dependencies { def springSecurityVersion = &amp;ldquo;3.1.4.RELEASE&amp;rdquo; c
     
     <item>
       <title>sts가 로딩시 뻗을 때</title>
-      <link>https://ezaurum.com/recipe/2013-05-09-sts%ea%b0%80-%eb%a1%9c%eb%94%a9%ec%8b%9c-%eb%bb%97%ec%9d%84-%eb%95%8c/</link>
+      <link>https://ezaurum.com/2013/05/sts%EA%B0%80-%EB%A1%9C%EB%94%A9%EC%8B%9C-%EB%BB%97%EC%9D%84-%EB%95%8C/</link>
       <pubDate>Thu, 09 May 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/recipe/2013-05-09-sts%ea%b0%80-%eb%a1%9c%eb%94%a9%ec%8b%9c-%eb%bb%97%ec%9d%84-%eb%95%8c/</guid>
+      <guid>https://ezaurum.com/2013/05/sts%EA%B0%80-%EB%A1%9C%EB%94%A9%EC%8B%9C-%EB%BB%97%EC%9D%84-%EB%95%8C/</guid>
       <description>STS나 이클립스가 로딩시 뻗을 때, loading workbench에서 뻗었다. [Workspace Directory]/.metadata/.plugins/org.eclipse.core.resources/.snap 을 지워줄 것.</description>
     </item>
     
     <item>
       <title>웹 프로그래머를 위한 서블릿 컨테이너의 이해</title>
-      <link>https://ezaurum.com/reading/2013-05-09-2078/</link>
+      <link>https://ezaurum.com/2013/05/%EC%9B%B9-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EB%A5%BC-%EC%9C%84%ED%95%9C-%EC%84%9C%EB%B8%94%EB%A6%BF-%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88%EC%9D%98-%EC%9D%B4%ED%95%B4/</link>
       <pubDate>Thu, 09 May 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2013-05-09-2078/</guid>
+      <guid>https://ezaurum.com/2013/05/%EC%9B%B9-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EB%A5%BC-%EC%9C%84%ED%95%9C-%EC%84%9C%EB%B8%94%EB%A6%BF-%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88%EC%9D%98-%EC%9D%B4%ED%95%B4/</guid>
       <description>이 책의 감상문 쓰기 이벤트에 응모해서 쓴 감상. 웹 개발자로서 일을 하면서도 항상 이 서블렛이라는 게 찜찜했다. 얘도 분명히 JVM에서 돌아가는 프로그램일 뿐인데, 어쩐지 콘솔 프로그램과는 전혀 다른 규칙이 적용되는 것 같고, 시원스레 설명된 책도 찾기 힘들었다. 그래서 문제가 생기면 장님 문고리 잡듯 어찌어찌 해결해 왔는데, 하고도 찜찜했다. 마치 콘솔 프로그램과 웹 프로그램 사이에는 깊은 서블릿이라는 강이 펼쳐져 있는데 눈을 감았다 뜨면 건너편으로 건너만 갈 수 있을 뿐, 강은 한 번도 보지 못한 것과 같았다.</description>
     </item>
     
@@ -2318,10 +2318,10 @@ ln -s /location/to/link2 newlink mv newlink linkname</description>
     
     <item>
       <title>멸종</title>
-      <link>https://ezaurum.com/reading/2013-04-05-%eb%a9%b8%ec%a2%85/</link>
+      <link>https://ezaurum.com/2013/04/%EB%A9%B8%EC%A2%85/</link>
       <pubDate>Fri, 05 Apr 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2013-04-05-%eb%a9%b8%ec%a2%85/</guid>
+      <guid>https://ezaurum.com/2013/04/%EB%A9%B8%EC%A2%85/</guid>
       <description>순전히 표지의 티란노사우르스를 보고 고른 책.
 내용은 기대보다 훨씬 나았다. 반전이랄까 하는 건 예측은 가능한 부분이고, 8-90년대 과학 소설에서 자주 나오던 소재(94년에 나온 책이니 나름 신선한 소재였을까)지만 표현이나 전개가 괜찮았다.
 마지막 프로그램 작성 부분에서 좀 디테일이 떨어지는 게 있긴 하지만&amp;hellip; 그건 뭐 어쩔 수 없는 부분이고.</description>
@@ -2329,10 +2329,10 @@ ln -s /location/to/link2 newlink mv newlink linkname</description>
     
     <item>
       <title>바람의 열두 방향</title>
-      <link>https://ezaurum.com/reading/2013-04-05-%eb%b0%94%eb%9e%8c%ec%9d%98-%ec%97%b4%eb%91%90-%eb%b0%a9%ed%96%a5/</link>
+      <link>https://ezaurum.com/2013/04/%EB%B0%94%EB%9E%8C%EC%9D%98-%EC%97%B4%EB%91%90-%EB%B0%A9%ED%96%A5/</link>
       <pubDate>Fri, 05 Apr 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2013-04-05-%eb%b0%94%eb%9e%8c%ec%9d%98-%ec%97%b4%eb%91%90-%eb%b0%a9%ed%96%a5/</guid>
+      <guid>https://ezaurum.com/2013/04/%EB%B0%94%EB%9E%8C%EC%9D%98-%EC%97%B4%EB%91%90-%EB%B0%A9%ED%96%A5/</guid>
       <description>책 제일 뒷 장 홍보 문구에 땅바다 라고 어스시를 번역해서 적은 게 있는데, 어스시보다는 땅바다가 더 맘에 든다.
 실려 있는 단편은 하나하나 아주 좋았는데, 제일 마음에 들었던 건 길의 방향. 발상이 정말 신선했다.
  </description>
@@ -2367,20 +2367,20 @@ ln -s /location/to/link2 newlink mv newlink linkname</description>
     
     <item>
       <title>능률적인 프로그래머 - 프로그래머 생산성의 비밀</title>
-      <link>https://ezaurum.com/reading/productive-programmer/</link>
+      <link>https://ezaurum.com/2013/03/%EB%8A%A5%EB%A5%A0%EC%A0%81%EC%9D%B8-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8-%EC%83%9D%EC%82%B0%EC%84%B1%EC%9D%98-%EB%B9%84%EB%B0%80/</link>
       <pubDate>Mon, 25 Mar 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/productive-programmer/</guid>
+      <guid>https://ezaurum.com/2013/03/%EB%8A%A5%EB%A5%A0%EC%A0%81%EC%9D%B8-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8-%EC%83%9D%EC%82%B0%EC%84%B1%EC%9D%98-%EB%B9%84%EB%B0%80/</guid>
       <description>딱 제목 그대로의 책. 생산성을 높일 수 있는 실질적인 방법을 알려준다. 몇 가지는 오래되어 쓸모 없어 보이는 것도 있지만 대부분 팁이 바로 적용가능한 것이고, 전반적인 자동화에 대한 관점만으로도 돈 값을 하는 물건이다.
 Don&amp;rsquo;t repeat yourself. </description>
     </item>
     
     <item>
       <title>풀 메탈 패닉 어나더</title>
-      <link>https://ezaurum.com/reading/2013-03-25-%ed%92%80-%eb%a9%94%ed%83%88-%ed%8c%a8%eb%8b%89-%ec%96%b4%eb%82%98%eb%8d%94/</link>
+      <link>https://ezaurum.com/2013/03/%ED%92%80-%EB%A9%94%ED%83%88-%ED%8C%A8%EB%8B%89-%EC%96%B4%EB%82%98%EB%8D%94/</link>
       <pubDate>Mon, 25 Mar 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2013-03-25-%ed%92%80-%eb%a9%94%ed%83%88-%ed%8c%a8%eb%8b%89-%ec%96%b4%eb%82%98%eb%8d%94/</guid>
+      <guid>https://ezaurum.com/2013/03/%ED%92%80-%EB%A9%94%ED%83%88-%ED%8C%A8%EB%8B%89-%EC%96%B4%EB%82%98%EB%8D%94/</guid>
       <description>풀 메탈 패닉의 외전격 물건. 작가가 가토우 쇼우지가 아니라 신인이다. 다나카 요시키의 클랜에 한 번 데인 적이 있어서, 감수, 원안 이런 건 잘 믿지 않는 편인데, 이 책의 경우는 동일인이라고 할 만큼 잘 썼다는 평을 들어서 구매. 결과는 그럭저럭 만족. 전체적으로 등장인물들이 모에선을 맞은 건 시대의 흐름이라 어쩔 수 없는 거고, 주인공이 운빨이라든가 각성이라든가 뭐 그런 느낌으로 센 것도 그럭저럭 괜찮다. 분위기 봐서는 AI에 뭔가 더 있는 것 같기도 하고... 어쩐지 소스케가 식료품상을 한다거나 하고 있을 것 같기도 하고.</description>
     </item>
     
@@ -2432,19 +2432,19 @@ Don&amp;rsquo;t repeat yourself. </description>
     
     <item>
       <title>사라고사에서 발견된 원고</title>
-      <link>https://ezaurum.com/reading/2013-02-09-%ec%82%ac%eb%9d%bc%ea%b3%a0%ec%82%ac%ec%97%90%ec%84%9c-%eb%b0%9c%ea%b2%ac%eb%90%9c-%ec%9b%90%ea%b3%a0/</link>
+      <link>https://ezaurum.com/2013/02/%EC%82%AC%EB%9D%BC%EA%B3%A0%EC%82%AC%EC%97%90%EC%84%9C-%EB%B0%9C%EA%B2%AC%EB%90%9C-%EC%9B%90%EA%B3%A0/</link>
       <pubDate>Sat, 09 Feb 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2013-02-09-%ec%82%ac%eb%9d%bc%ea%b3%a0%ec%82%ac%ec%97%90%ec%84%9c-%eb%b0%9c%ea%b2%ac%eb%90%9c-%ec%9b%90%ea%b3%a0/</guid>
+      <guid>https://ezaurum.com/2013/02/%EC%82%AC%EB%9D%BC%EA%B3%A0%EC%82%AC%EC%97%90%EC%84%9C-%EB%B0%9C%EA%B2%AC%EB%90%9C-%EC%9B%90%EA%B3%A0/</guid>
       <description>액자 소설.뭔가 끝도 없이 일이 일어나는데 결말이 없긴 하다.그래도 재밌게 읽을 수 있는 이야기.작은 액자 구조 각각에 대한 공부가 도움이 될 것 같다.</description>
     </item>
     
     <item>
       <title>점과 선</title>
-      <link>https://ezaurum.com/reading/2013-02-09-%ec%a0%90%ea%b3%bc-%ec%84%a0/</link>
+      <link>https://ezaurum.com/2013/02/%EC%A0%90%EA%B3%BC-%EC%84%A0/</link>
       <pubDate>Sat, 09 Feb 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2013-02-09-%ec%a0%90%ea%b3%bc-%ec%84%a0/</guid>
+      <guid>https://ezaurum.com/2013/02/%EC%A0%90%EA%B3%BC-%EC%84%A0/</guid>
       <description>사회파 미스테리라는 게 뭔지 궁금해서 본 책.여전히 뭔지는 잘 모르겠지만, 알리바이도 그렇고, 그걸 탐색하는 사람의 행동도 견실하다고 해야 할지 한 번에 모든 것을 알아내고 옆에 있는 의사에게 잘난척 하며 알려주는 마약쟁이나 안락의자에 앉아서 말만 듣고도 다 해결하는 사람과는 정 반대편에 있다고 할만하다.철도 이야기가 많이 나와서 철덕철덕한 사람이 보면 더 재미있을 것 같기도 하다.사회비판이라든가, 세상을 사는 자세 자체에 대한 이야기도 많았다.알리바이를 추적하는 것이 디버깅과도 흡사한 것이 재미있었다.</description>
     </item>
     
@@ -2727,10 +2727,10 @@ OTL&amp;hellip;. 어차피 ssh로 접속해서만 쓸 건데&amp;hellip; �
     
     <item>
       <title>지난 주 읽은 책 정리</title>
-      <link>https://ezaurum.com/reading/2012-08-19-%ec%a7%80%eb%82%9c-%ec%a3%bc-%ec%9d%bd%ec%9d%80-%ec%b1%85-%ec%a0%95%eb%a6%ac/</link>
+      <link>https://ezaurum.com/2012/08/%EC%A7%80%EB%82%9C-%EC%A3%BC-%EC%9D%BD%EC%9D%80-%EC%B1%85-%EC%A0%95%EB%A6%AC/</link>
       <pubDate>Sun, 19 Aug 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2012-08-19-%ec%a7%80%eb%82%9c-%ec%a3%bc-%ec%9d%bd%ec%9d%80-%ec%b1%85-%ec%a0%95%eb%a6%ac/</guid>
+      <guid>https://ezaurum.com/2012/08/%EC%A7%80%EB%82%9C-%EC%A3%BC-%EC%9D%BD%EC%9D%80-%EC%B1%85-%EC%A0%95%EB%A6%AC/</guid>
       <description>차일드 44 - 으음&amp;hellip; 미묘. 꽤 재밌게 보긴 했는데, 오타인지 오류인지 그런 게 눈에 좀 밟히고, 분명한 오자도 많아서&amp;hellip; 음주가무 연구소 - 아. 그래 주정뱅이는 세계 곳곳에 있구나&amp;hellip; 백성귀족 - 은수저와 비슷한 느낌? 뭐 하가렌이 뜬금없이 액션인 이유를 알겠더라. 이사람 공수도부였구나&amp;hellip; OTL&amp;hellip; 씨엘 20 - 우와 이제 마무리가 되어가는구나. 엉엉엉엉 엑셀 사가 24 - 크악? 기신전기 던브링어 - 으음. 아마 다음 권을 보고 싶지는 않겠군. 말랑말랑 철공소 - 괜찮긴 했는데, 기대했던 물건은 아님.</description>
     </item>
     
@@ -2772,10 +2772,10 @@ OTL&amp;hellip;. 어차피 ssh로 접속해서만 쓸 건데&amp;hellip; �
     
     <item>
       <title>몇 주간 읽은 것들 정리</title>
-      <link>https://ezaurum.com/reading/2012-08-09-%eb%aa%87-%ec%a3%bc%ea%b0%84-%ec%9d%bd%ec%9d%80-%ea%b2%83%eb%93%a4-%ec%a0%95%eb%a6%ac/</link>
+      <link>https://ezaurum.com/2012/08/%EB%AA%87-%EC%A3%BC%EA%B0%84-%EC%9D%BD%EC%9D%80-%EA%B2%83%EB%93%A4-%EC%A0%95%EB%A6%AC/</link>
       <pubDate>Thu, 09 Aug 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2012-08-09-%eb%aa%87-%ec%a3%bc%ea%b0%84-%ec%9d%bd%ec%9d%80-%ea%b2%83%eb%93%a4-%ec%a0%95%eb%a6%ac/</guid>
+      <guid>https://ezaurum.com/2012/08/%EB%AA%87-%EC%A3%BC%EA%B0%84-%EC%9D%BD%EC%9D%80-%EA%B2%83%EB%93%A4-%EC%A0%95%EB%A6%AC/</guid>
       <description>하나하나 정리할 여유는 없을 것 같으니 이 쯤 해서 정리. 1984 - 드디어 읽었다. 라는 느낌이지만&amp;hellip; 84년이 미래인 시점에서 이런 상상을 했단 말인가&amp;hellip; 으음&amp;hellip; 화차 - 영화는 안 봤지만, 여러모로 가슴에 와 닿는다. 그래. 그냥 행복해지고 싶었을 뿐일텐데. 그 많던 싱아는 누가 다 먹었을까 - 기록으로서의 소설. 음. 그렇구나. 그런 의미도 있구나. 은교 - 엉엉엉 그래 시는 재능이 있어야 쓰는 건가&amp;hellip; 백만 광년의 고독 - SF단편집은 이렇게 아이디어가 폭주하는 맛이&amp;hellip;</description>
     </item>
     
@@ -2873,10 +2873,10 @@ OTL&amp;hellip;. 어차피 ssh로 접속해서만 쓸 건데&amp;hellip; �
     
     <item>
       <title>spring에서 enum을 select로 매핑</title>
-      <link>https://ezaurum.com/recipe/2012-07-22-enum-mapping-to-select-by-spring/</link>
+      <link>https://ezaurum.com/2012/07/spring%EC%97%90%EC%84%9C-enum%EC%9D%84-select%EB%A1%9C-%EB%A7%A4%ED%95%91/</link>
       <pubDate>Sun, 22 Jul 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/recipe/2012-07-22-enum-mapping-to-select-by-spring/</guid>
+      <guid>https://ezaurum.com/2012/07/spring%EC%97%90%EC%84%9C-enum%EC%9D%84-select%EB%A1%9C-%EB%A7%A4%ED%95%91/</guid>
       <description>enum안에 desc라는 이름으로 label이 붙어 있는 경우.
 &amp;lt;form:select path=&amp;quot;status&amp;rdquo;&amp;gt; &amp;lt;form:options itemLabel=&amp;quot;desc&amp;rdquo;/&amp;gt; &amp;lt;/form:select&amp;gt;</description>
     </item>
@@ -2976,10 +2976,10 @@ OTL&amp;hellip;. 어차피 ssh로 접속해서만 쓸 건데&amp;hellip; �
     
     <item>
       <title>이클립스에서 jquery validation 에러 해결</title>
-      <link>https://ezaurum.com/recipe/2012-07-10-jquery-validation-error-in-eclipse/</link>
+      <link>https://ezaurum.com/2012/07/%EC%9D%B4%ED%81%B4%EB%A6%BD%EC%8A%A4%EC%97%90%EC%84%9C-jquery-validation-%EC%97%90%EB%9F%AC-%ED%95%B4%EA%B2%B0/</link>
       <pubDate>Tue, 10 Jul 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/recipe/2012-07-10-jquery-validation-error-in-eclipse/</guid>
+      <guid>https://ezaurum.com/2012/07/%EC%9D%B4%ED%81%B4%EB%A6%BD%EC%8A%A4%EC%97%90%EC%84%9C-jquery-validation-%EC%97%90%EB%9F%AC-%ED%95%B4%EA%B2%B0/</guid>
       <description>jquery validation 에러 해결 방법</description>
     </item>
     
@@ -3071,10 +3071,10 @@ POI, google drive api 대충 조사.</description>
     
     <item>
       <title>Opera webGL 활성화</title>
-      <link>https://ezaurum.com/recipe/enable-opera-webgl/</link>
+      <link>https://ezaurum.com/2012/06/Opera-webGL-%ED%99%9C%EC%84%B1%ED%99%94/</link>
       <pubDate>Fri, 15 Jun 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/recipe/enable-opera-webgl/</guid>
+      <guid>https://ezaurum.com/2012/06/Opera-webGL-%ED%99%9C%EC%84%B1%ED%99%94/</guid>
       <description>opera:config#Enable WebGL - 1로 설정 opera:config#Enable Hardware Acceleration - 1로 설정 opera:gpu opera:config#Preferred%20renderer 0 - openGL, 1 - DirectX
 기타 자세한 사항은 여기 참고</description>
     </item>
@@ -3274,47 +3274,47 @@ public static void main(String args[]) { System.out.println(EnumStudy.valueOf(1)
     
     <item>
       <title>디퍼런트</title>
-      <link>https://ezaurum.com/reading/2011-11-13-%eb%94%94%ed%8d%bc%eb%9f%b0%ed%8a%b8/</link>
+      <link>https://ezaurum.com/2011/11/%EB%94%94%ED%8D%BC%EB%9F%B0%ED%8A%B8/</link>
       <pubDate>Sun, 13 Nov 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2011-11-13-%eb%94%94%ed%8d%bc%eb%9f%b0%ed%8a%b8/</guid>
+      <guid>https://ezaurum.com/2011/11/%EB%94%94%ED%8D%BC%EB%9F%B0%ED%8A%B8/</guid>
       <description>부제는넘버원을 넘어 온리원으로 동일함이 지배하는 세상에서 아이디어 브랜드는 어떻게 세상을 경영하는가 주요 내용은 부제와 같다. 실제로 다르다는 것이 어떻게 인식되고 있으며, 성공한 기업들은 어떻게 다르게 만들어서 성공했는지를 말한다. 일관된 관점에서 잘 정리되어 있다. 제대 기념으로 후임이 선물해줬단 건 자랑.</description>
     </item>
     
     <item>
       <title>실용주의 프로그래머</title>
-      <link>https://ezaurum.com/reading/pragmatic-programmer/</link>
+      <link>https://ezaurum.com/2011/11/%EC%8B%A4%EC%9A%A9%EC%A3%BC%EC%9D%98-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8/</link>
       <pubDate>Sun, 13 Nov 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/pragmatic-programmer/</guid>
+      <guid>https://ezaurum.com/2011/11/%EC%8B%A4%EC%9A%A9%EC%A3%BC%EC%9D%98-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8/</guid>
       <description>손 닿는 데 두고, 틈 날 때마다 보자. 아래는 팁 목록, 책 제일 뒤에 달린 종이에는 이 팁 목록과 함께 짤막한 설명도 달려 있다. 당연히 저작권은 저자한테 있고, 별로 침해할 생각은 없음. 일단 기억용&amp;amp;검색 빨리하려고 올려둠.
 실용주의 프로그래머 팁 목록자신의 기술에 관심과 애정을 가져라자신의 일에 대해 생각하면서 일하라어설픈 변명을 만들지 말고 대안을 제시하라깨진 창문을 내버려두지 말라변화의 촉매가 되라큰 그림을 기억하라품질을 요구사항으로 만들어라지식 포트폴리오에 주기적으로 투자하라읽고 듣는 것을 비판적으로 분석하라무엇을 말하는가와 어떻게 말하는가 모두 중요하다DRY-반복하지 마라재사용하기 쉽게 만들라관련 없는 것들 간에 서로 영향이 없도록 하라최종결정이란 없다목표물을 찾기 위해 예광탄을 써라프로토타입을 통해 학습하라문제 도메인에 가깝게 프로그래밍하라추정을 통해 놀람을 피하라코드와 함께 일정도 반복하며 조정하라지식을 일반 텍스트로 저장하라명령어 셀의 힘을 사용하라하나의 에디터를 잘 사용하라언제나 소스코드 관리 시스템을 사용하라비난 대신 문제를 해결하라디버깅을 할 때 당황하지 마라&#39;select&#39;는 망가지지 않았다가정하지 마라, 증명하라텍스트 처리 언어를 하나 익혀라코드를 작성하는 코드를 작성하라완벽한 소프트웨어는 만들 수 없다계약에 따른 설계를 하라일찍 작동을 멈추게 하라단정문을 사용해서 불가능한 상황을 예방하라예외는 예외적인 문제에 사용하라시작한 것은 끝내라모듈간의 결합도를 최소화하라통합하지 말고 설정하라코드에는 추상화를, 메타데이터에는 세부 내용을작업흐름 분석을 통해 동시성을 개선하라서비스를 사용해서 설계하라언제나 동시성을 고려해 설계하라모델에서 뷰를 분리하라칠판을 사용해 작업흐름을 조율하라우연에 맡기는 프로그래밍을 하지 말라여러분의 알고리즘의 차수를 추정하라여러분의 추정을 테스트하라일찍 리팩터링하고, 자주 리팩터링하라테스트를 염두에 두고 설계하라소프트웨어를 테스트하라.</description>
     </item>
     
     <item>
       <title>구글을 지탱하는 기술</title>
-      <link>https://ezaurum.com/reading/2011-11-12-%ea%b5%ac%ea%b8%80%ec%9d%84-%ec%a7%80%ed%83%b1%ed%95%98%eb%8a%94-%ea%b8%b0%ec%88%a0/</link>
+      <link>https://ezaurum.com/2011/11/%EA%B5%AC%EA%B8%80%EC%9D%84-%EC%A7%80%ED%83%B1%ED%95%98%EB%8A%94-%EA%B8%B0%EC%88%A0/</link>
       <pubDate>Sat, 12 Nov 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2011-11-12-%ea%b5%ac%ea%b8%80%ec%9d%84-%ec%a7%80%ed%83%b1%ed%95%98%eb%8a%94-%ea%b8%b0%ec%88%a0/</guid>
+      <guid>https://ezaurum.com/2011/11/%EA%B5%AC%EA%B8%80%EC%9D%84-%EC%A7%80%ED%83%B1%ED%95%98%EB%8A%94-%EA%B8%B0%EC%88%A0/</guid>
       <description>제목대로의 내용. 구글이 돌아가는데 필요한 기술들에 대한 간단한 설명이 나온다. 세세한 구현이 나온&amp;hellip; 다고 해야 하나 나오지 않는다고 해야 하나. 내 수준에서는 저것만 보고 구현할 수는 없겠지. 그래도 전체적인 감을 잡아두면, 비슷한 형태로 된 다른 것들을 봐도 이해할 수 있다고 생각. 일단 신기하니 재밌다. 보면 전체적으로 다차원으로 생각하는 구조가 많은 듯. 저런 것도 한 번 해 보고 싶다.</description>
     </item>
     
     <item>
       <title>생각의 탄생</title>
-      <link>https://ezaurum.com/reading/2011-11-12-%ec%83%9d%ea%b0%81%ec%9d%98-%ed%83%84%ec%83%9d/</link>
+      <link>https://ezaurum.com/2011/11/%EC%83%9D%EA%B0%81%EC%9D%98-%ED%83%84%EC%83%9D/</link>
       <pubDate>Sat, 12 Nov 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2011-11-12-%ec%83%9d%ea%b0%81%ec%9d%98-%ed%83%84%ec%83%9d/</guid>
+      <guid>https://ezaurum.com/2011/11/%EC%83%9D%EA%B0%81%EC%9D%98-%ED%83%84%EC%83%9D/</guid>
       <description>다빈치에서 파인먼까지 창조성을 빛낸 사람들의 13가지 생각도구란 부제가 붙어있다. 도구라는 말 보다는 방법이라는 말이 좀 더 와 닿을것 같다. 각 분야에서 성취를 이룬 사람들의 생각하는(또는 뭔가를 만드는) 과정-프로세스-에 대한 설명이 있고, 예화도 조금 있다. 흔한 이야기라고 볼 수도 있지만, 정리가 꽤 잘 된 편이니 볼 가치가 있음. 두꺼워보이지만, 가볍고, 챕터별 연관성이 적으므로 보기에 무리없음. 아무데서나 펼쳐 읽을 수 있으니 차 안에서 보기에도 괜찮음.</description>
     </item>
     
     <item>
       <title>성공과 실패를 결정하는 1%의 비트 원리</title>
-      <link>https://ezaurum.com/reading/2011-11-12-%ec%84%b1%ea%b3%b5%ea%b3%bc-%ec%8b%a4%ed%8c%a8%eb%a5%bc-%ea%b2%b0%ec%a0%95%ed%95%98%eb%8a%94-1%ec%9d%98-%eb%b9%84%ed%8a%b8-%ec%9b%90%eb%a6%ac/</link>
+      <link>https://ezaurum.com/2011/11/%EC%84%B1%EA%B3%B5%EA%B3%BC-%EC%8B%A4%ED%8C%A8%EB%A5%BC-%EA%B2%B0%EC%A0%95%ED%95%98%EB%8A%94-1%EC%9D%98-%EB%B9%84%ED%8A%B8-%EC%9B%90%EB%A6%AC/</link>
       <pubDate>Sat, 12 Nov 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2011-11-12-%ec%84%b1%ea%b3%b5%ea%b3%bc-%ec%8b%a4%ed%8c%a8%eb%a5%bc-%ea%b2%b0%ec%a0%95%ed%95%98%eb%8a%94-1%ec%9d%98-%eb%b9%84%ed%8a%b8-%ec%9b%90%eb%a6%ac/</guid>
+      <guid>https://ezaurum.com/2011/11/%EC%84%B1%EA%B3%B5%EA%B3%BC-%EC%8B%A4%ED%8C%A8%EB%A5%BC-%EA%B2%B0%EC%A0%95%ED%95%98%EB%8A%94-1%EC%9D%98-%EB%B9%84%ED%8A%B8-%EC%9B%90%EB%A6%AC/</guid>
       <description>가벼운 이야기지만, 1%시리즈가 늘 그렇듯, 읽어서 손해나는 거 없다. 좀 더 옛날에 읽어두면 좋았을 걸. 한 십년쯤 전에. 컴퓨터과학이라고 이름붙은 이론들을 가지고 뭘 할 수 있는지에 대한 책.</description>
     </item>
     
@@ -3330,38 +3330,38 @@ public static void main(String args[]) { System.out.println(EnumStudy.valueOf(1)
     
     <item>
       <title>대머리 예찬</title>
-      <link>https://ezaurum.com/reading/2011-11-11-%eb%8c%80%eb%a8%b8%eb%a6%ac-%ec%98%88%ec%b0%ac/</link>
+      <link>https://ezaurum.com/2011/11/%EB%8C%80%EB%A8%B8%EB%A6%AC-%EC%98%88%EC%B0%AC/</link>
       <pubDate>Fri, 11 Nov 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2011-11-11-%eb%8c%80%eb%a8%b8%eb%a6%ac-%ec%98%88%ec%b0%ac/</guid>
+      <guid>https://ezaurum.com/2011/11/%EB%8C%80%EB%A8%B8%EB%A6%AC-%EC%98%88%EC%B0%AC/</guid>
       <description>대머리는 지상의 별이다.지성이란 열매는 머리에서 불필요한 장식을 하나둘씩 떨어낸 연휴에야 맺을 수 있다.본래 머리털이 없는 대머리는 신성 그 자체다.제목과 발췌한 이 몇 줄이 모든 것을 설명해 주는 글이다. 짧고 가볍고 &amp;hellip;유쾌하긴 한데, 그냥 보다보면 5세기에도 대머리는 여자한테 인기가 없고, 결국 꾸미고 옷 잘 입고 다니는 사람이 인기가 있었구나&amp;hellip; 하는 생각이 든다.
 저자는 히파티아의 문하에 있었다고 하는데, 갑자기 아고라가 생각났다&amp;hellip; 거기서는 배신자였지만, 실제로는 아니었던 모양. &amp;hellip; 그리고 거기서는 머리칼이 있었는데&amp;hellip;.</description>
     </item>
     
     <item>
       <title>별을 쫓는 자</title>
-      <link>https://ezaurum.com/reading/2011-11-11-%eb%b3%84%ec%9d%84-%ec%ab%93%eb%8a%94-%ec%9e%90/</link>
+      <link>https://ezaurum.com/2011/11/%EB%B3%84%EC%9D%84-%EC%AB%93%EB%8A%94-%EC%9E%90/</link>
       <pubDate>Fri, 11 Nov 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2011-11-11-%eb%b3%84%ec%9d%84-%ec%ab%93%eb%8a%94-%ec%9e%90/</guid>
+      <guid>https://ezaurum.com/2011/11/%EB%B3%84%EC%9D%84-%EC%AB%93%EB%8A%94-%EC%9E%90/</guid>
       <description>대가의 사색은 깊이가 있고, 폼이 난다. &amp;hellip;그렇다고. 스토리 위주의 소설은 아니다. 사색과 대화가 중심이다. 신들의 사회 같은 걸 기대하고 보다간 큰일. 따지고 보면 에바에 가까울지도. 주 소재는 나바호 인디언 이라는데, 사실 잘 모르겠지만 여튼 인디언 느낌이다. 여하튼 재밌었다. 생명력 넘치는 원시의 남자가 속을 파들어오는 느낌.</description>
     </item>
     
     <item>
       <title>프로그래밍 심리학</title>
-      <link>https://ezaurum.com/reading/the-psychology-of-computer-programming/</link>
+      <link>https://ezaurum.com/2011/11/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EC%8B%AC%EB%A6%AC%ED%95%99/</link>
       <pubDate>Tue, 08 Nov 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/the-psychology-of-computer-programming/</guid>
+      <guid>https://ezaurum.com/2011/11/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EC%8B%AC%EB%A6%AC%ED%95%99/</guid>
       <description>일단 이게 옛날 책이라는 게 놀랍다. 나온지 몇 년 안 된 책 같아. 그 동안 이 업계가 발전이 없었던 건 아니다. 책에서 나오는 이야기 중에 많은 것들은 오늘날 개선을 위한 노력이 결실을 맺고 있고, 뒤쪽에 추가된 글에도 그 이야기들이 많다. 하지만 결국 이것은 사람에 대한 책이다. 그래서 몇 년이 지나더라도 쓸모가 있을 거라 생각한다. GUI가 아무리 화려해도 뭔가 하려면 결국 커맨드 라인으로 가야 하는 것처럼. 결국 프로그래밍은 사람이 하는 일이다. 그러니 사람을 알아야 한다.</description>
     </item>
     
     <item>
       <title>High Performance Javascript</title>
-      <link>https://ezaurum.com/reading/2011-11-05-high-performance-javascript/</link>
+      <link>https://ezaurum.com/2011/11/High-Performance-Javascript/</link>
       <pubDate>Sat, 05 Nov 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2011-11-05-high-performance-javascript/</guid>
+      <guid>https://ezaurum.com/2011/11/High-Performance-Javascript/</guid>
       <description>쿡북이라고 붙지는 않았는데, 쿡북같다. 필요한 거 바로 찾을 수 있을 만 하게 되어 있고, 설명이 상세하게 되어있는데도, 책이 얇고 작아서 좋다. 꽉 들어찬 느낌이다. 당연히 자바스크립트를 빠르게 만드는 방법에 대해 설명이 되어 있고, 알던 방법은 더 상세히, 체계적으로 알 수 있어서 좋고, 모르던 방법은 모르던 걸 알아서 좋다. 지금 큰 사이트들이 사용하고 있는 방법들의 집대성이랄까. 여튼 만족스럽고, 표지의 부엉이가 똘똘해 보인다.</description>
     </item>
     
@@ -3376,10 +3376,10 @@ public static void main(String args[]) { System.out.println(EnumStudy.valueOf(1)
     
     <item>
       <title>일곱 도시 이야기</title>
-      <link>https://ezaurum.com/reading/2011-11-03-%ec%9d%bc%ea%b3%b1-%eb%8f%84%ec%8b%9c-%ec%9d%b4%ec%95%bc%ea%b8%b0/</link>
+      <link>https://ezaurum.com/2011/11/%EC%9D%BC%EA%B3%B1-%EB%8F%84%EC%8B%9C-%EC%9D%B4%EC%95%BC%EA%B8%B0/</link>
       <pubDate>Thu, 03 Nov 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2011-11-03-%ec%9d%bc%ea%b3%b1-%eb%8f%84%ec%8b%9c-%ec%9d%b4%ec%95%bc%ea%b8%b0/</guid>
+      <guid>https://ezaurum.com/2011/11/%EC%9D%BC%EA%B3%B1-%EB%8F%84%EC%8B%9C-%EC%9D%B4%EC%95%BC%EA%B8%B0/</guid>
       <description>다나카 요시키의 최근&amp;hellip;작은 아니고, 최근에 국내에 들어온 물건. 재밌고, 다나카 스럽다. 여전히 까는 이야기. 역시 이 사람은 주인공이고 뭐고 필요없고 일단 까는 이야기를 해야 된다. 재밌게 봤지만 스토리도 잘 기억 안 나고, 좀 중구난방이고, 주인공도 여럿이라고 할 만한데 솔직히 꽤 많이 겹친다. 그냥 다른 각도에서 봐도 결국 다 똑같은 놈들이란 얘기를 하고 싶었던 걸까.</description>
     </item>
     
@@ -3394,10 +3394,10 @@ public static void main(String args[]) { System.out.println(EnumStudy.valueOf(1)
     
     <item>
       <title>에릭 마이어의 CSS 노하우</title>
-      <link>https://ezaurum.com/reading/2011-09-11-%ec%97%90%eb%a6%ad-%eb%a7%88%ec%9d%b4%ec%96%b4%ec%9d%98-css-%eb%85%b8%ed%95%98%ec%9a%b0/</link>
+      <link>https://ezaurum.com/2011/09/%EC%97%90%EB%A6%AD-%EB%A7%88%EC%9D%B4%EC%96%B4%EC%9D%98-CSS-%EB%85%B8%ED%95%98%EC%9A%B0/</link>
       <pubDate>Sun, 11 Sep 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2011-09-11-%ec%97%90%eb%a6%ad-%eb%a7%88%ec%9d%b4%ec%96%b4%ec%9d%98-css-%eb%85%b8%ed%95%98%ec%9a%b0/</guid>
+      <guid>https://ezaurum.com/2011/09/%EC%97%90%EB%A6%AD-%EB%A7%88%EC%9D%B4%EC%96%B4%EC%9D%98-CSS-%EB%85%B8%ED%95%98%EC%9A%B0/</guid>
       <description>에릭 마이어의 CSS 노하우 - 
 에릭 마이어 지음, 한선용 옮김/인사이트진짜 순전히 저자 보고 샀다.사고 나서 깨달았는데, 최초로 산 CSS책이다. 그동안 안 본 건 아니지만 내돈으로 구매는 안 했으니까&amp;hellip;
 결론적으로는 돈 값 한다.
@@ -3418,10 +3418,10 @@ CSS3만 필요하면 다른 책을 사는게 나을지도. 내용이 부실하�
     
     <item>
       <title>어떤 마술의 금서목록</title>
-      <link>https://ezaurum.com/reading/2011-09-04-%ec%96%b4%eb%96%a4-%eb%a7%88%ec%88%a0%ec%9d%98-%ea%b8%88%ec%84%9c%eb%aa%a9%eb%a1%9d/</link>
+      <link>https://ezaurum.com/2011/09/%EC%96%B4%EB%96%A4-%EB%A7%88%EC%88%A0%EC%9D%98-%EA%B8%88%EC%84%9C%EB%AA%A9%EB%A1%9D/</link>
       <pubDate>Sun, 04 Sep 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2011-09-04-%ec%96%b4%eb%96%a4-%eb%a7%88%ec%88%a0%ec%9d%98-%ea%b8%88%ec%84%9c%eb%aa%a9%eb%a1%9d/</guid>
+      <guid>https://ezaurum.com/2011/09/%EC%96%B4%EB%96%A4-%EB%A7%88%EC%88%A0%EC%9D%98-%EA%B8%88%EC%84%9C%EB%AA%A9%EB%A1%9D/</guid>
       <description>목적이 수단을 정당화하지 않는다. 적당한 플래그(=많은여캐). 패턴은 하나. 악당은 없다. 재미있군. 이야기 만드는 법에 대해 참고가 되었다.
 &amp;hellip;그런데 여캐가 너무 많아서 그런지 별로 끌리는 애는 없는 듯. 주인공에 촛점이 맞춰져서 그런가. 그리고 하마즈라 쪽은 안 나와도 되지 않았을까 싶기도 함. 캐릭터가 겹쳐.. OTL&amp;hellip;</description>
     </item>
@@ -3447,37 +3447,37 @@ CSS3만 필요하면 다른 책을 사는게 나을지도. 내용이 부실하�
     
     <item>
       <title>도련님</title>
-      <link>https://ezaurum.com/reading/2011-08-25-%eb%8f%84%eb%a0%a8%eb%8b%98/</link>
+      <link>https://ezaurum.com/2011/08/%EB%8F%84%EB%A0%A8%EB%8B%98/</link>
       <pubDate>Thu, 25 Aug 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2011-08-25-%eb%8f%84%eb%a0%a8%eb%8b%98/</guid>
+      <guid>https://ezaurum.com/2011/08/%EB%8F%84%EB%A0%A8%EB%8B%98/</guid>
       <description>잘 모르겠다. 번역을 전에 해 보려고 했는데 중간에 때려치기는 했지. 사람들 사이의 관계라든가 그런 걸 묘하게 잘 그려내긴 했음. 어찌 보면 별 거 아닌데도 오묘함. 이런 게 대가인가.</description>
     </item>
     
     <item>
       <title>시간을 달리는 소녀</title>
-      <link>https://ezaurum.com/reading/2011-08-25-%ec%8b%9c%ea%b0%84%ec%9d%84-%eb%8b%ac%eb%a6%ac%eb%8a%94-%ec%86%8c%eb%85%80/</link>
+      <link>https://ezaurum.com/2011/08/%EC%8B%9C%EA%B0%84%EC%9D%84-%EB%8B%AC%EB%A6%AC%EB%8A%94-%EC%86%8C%EB%85%80/</link>
       <pubDate>Thu, 25 Aug 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2011-08-25-%ec%8b%9c%ea%b0%84%ec%9d%84-%eb%8b%ac%eb%a6%ac%eb%8a%94-%ec%86%8c%eb%85%80/</guid>
+      <guid>https://ezaurum.com/2011/08/%EC%8B%9C%EA%B0%84%EC%9D%84-%EB%8B%AC%EB%A6%AC%EB%8A%94-%EC%86%8C%EB%85%80/</guid>
       <description>의외로 옛날 책이고, 짧아서 놀랐다. 애니메이션이랑 만화랑은 확실히 다르구나. 감상은 뭐&amp;hellip; 역시 옛날 책? 확실히 그 시절과 지금의 여성관, 학생관은 많이 다르다. 그러니 단쿠가를 지금 보면 사라가 요조숙녀로 보이지&amp;hellip;. 여튼 그 중심은 변하지 않아. 그러니까 명작은 오래 사는 거겠지.</description>
     </item>
     
     <item>
       <title>지속적인 통합</title>
-      <link>https://ezaurum.com/reading/2011-08-25-%ec%a7%80%ec%86%8d%ec%a0%81%ec%9d%b8-%ed%86%b5%ed%95%a9/</link>
+      <link>https://ezaurum.com/2011/08/%EC%A7%80%EC%86%8D%EC%A0%81%EC%9D%B8-%ED%86%B5%ED%95%A9/</link>
       <pubDate>Thu, 25 Aug 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2011-08-25-%ec%a7%80%ec%86%8d%ec%a0%81%ec%9d%b8-%ed%86%b5%ed%95%a9/</guid>
+      <guid>https://ezaurum.com/2011/08/%EC%A7%80%EC%86%8D%EC%A0%81%EC%9D%B8-%ED%86%B5%ED%95%A9/</guid>
       <description>꿈결 같은 미래다. 유토피아의 모습을 보여주고 있는 책. 대충 CI가 뭔지부터 시작해서 실제 적용법, 무슨 툴을 써서 어떤 부분을 신경써서 구현해야 하는지를 이야기한다. JAVA, WEB 개발 중심. 근데 어렵다 OTL&amp;hellip; 설명이 어려운 게 아니라, 저걸 언제 다 해&amp;hellip; 난 Ant도 빌드랑 실행이랑 디플로이 밖에&amp;hellip; 어쨌든 조금씩 저런 방향을 도입하면 전체적으로 프로젝트 진행이 좋아질 것 같다&amp;hellip; 저런 거 가르쳐 줄 수 있는 회사로 가야겠군.</description>
     </item>
     
     <item>
       <title>서른 살에 꿈꾸면 좋은 것들</title>
-      <link>https://ezaurum.com/reading/2011-08-24-%ec%84%9c%eb%a5%b8-%ec%82%b4%ec%97%90-%ea%bf%88%ea%be%b8%eb%a9%b4-%ec%a2%8b%ec%9d%80-%ea%b2%83%eb%93%a4/</link>
+      <link>https://ezaurum.com/2011/08/%EC%84%9C%EB%A5%B8-%EC%82%B4%EC%97%90-%EA%BF%88%EA%BE%B8%EB%A9%B4-%EC%A2%8B%EC%9D%80-%EA%B2%83%EB%93%A4/</link>
       <pubDate>Wed, 24 Aug 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2011-08-24-%ec%84%9c%eb%a5%b8-%ec%82%b4%ec%97%90-%ea%bf%88%ea%be%b8%eb%a9%b4-%ec%a2%8b%ec%9d%80-%ea%b2%83%eb%93%a4/</guid>
+      <guid>https://ezaurum.com/2011/08/%EC%84%9C%EB%A5%B8-%EC%82%B4%EC%97%90-%EA%BF%88%EA%BE%B8%EB%A9%B4-%EC%A2%8B%EC%9D%80-%EA%B2%83%EB%93%A4/</guid>
       <description>성당에서 같이 주일학교 교사를 하고 있는 스물 아홉살 동생에게 선물받음. 그 친구는 스물아홉부터 쓰는 인생전략노트를 사고&amp;hellip;
 여하튼 최근에 읽은 행복에 목숨 걸지 마라, 아프니까 청춘이다, 멀리 가려면 함께 가라 같이 막연한 불안감과 우울과 기타등등과&amp;hellip; 에 지친 영혼에게 위안을 줄 수 있는 책.
 선물이라 더욱 좋았다.
@@ -3487,10 +3487,10 @@ CSS3만 필요하면 다른 책을 사는게 나을지도. 내용이 부실하�
     
     <item>
       <title>그동안 당신만 몰랐던 스마트한 실수들</title>
-      <link>https://ezaurum.com/reading/2011-08-16-%ea%b7%b8%eb%8f%99%ec%95%88-%eb%8b%b9%ec%8b%a0%eb%a7%8c-%eb%aa%b0%eb%9e%90%eb%8d%98-%ec%8a%a4%eb%a7%88%ed%8a%b8%ed%95%9c-%ec%8b%a4%ec%88%98%eb%93%a4/</link>
+      <link>https://ezaurum.com/2011/08/%EA%B7%B8%EB%8F%99%EC%95%88-%EB%8B%B9%EC%8B%A0%EB%A7%8C-%EB%AA%B0%EB%9E%90%EB%8D%98-%EC%8A%A4%EB%A7%88%ED%8A%B8%ED%95%9C-%EC%8B%A4%EC%88%98%EB%93%A4/</link>
       <pubDate>Tue, 16 Aug 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2011-08-16-%ea%b7%b8%eb%8f%99%ec%95%88-%eb%8b%b9%ec%8b%a0%eb%a7%8c-%eb%aa%b0%eb%9e%90%eb%8d%98-%ec%8a%a4%eb%a7%88%ed%8a%b8%ed%95%9c-%ec%8b%a4%ec%88%98%eb%93%a4/</guid>
+      <guid>https://ezaurum.com/2011/08/%EA%B7%B8%EB%8F%99%EC%95%88-%EB%8B%B9%EC%8B%A0%EB%A7%8C-%EB%AA%B0%EB%9E%90%EB%8D%98-%EC%8A%A4%EB%A7%88%ED%8A%B8%ED%95%9C-%EC%8B%A4%EC%88%98%EB%93%A4/</guid>
       <description>바지를 벗고 신문을 보며 아마 버스를 기다리는 남자가 표지에 있어서, 아마 코믹한 실수를 저지르게 되는 뇌과학적 이야기일거라고 기대하고 봤는데, 행복론에 좀 더 가까운 책이었다.
 어떻게 하면 후회할 거리를 줄일 수 있는가 하는 책.
 “아차! 우산을 놓고 왔네!” 라는 책인줄 알았는데, “아&amp;hellip; 그 여자랑 만난 게 실수였어&amp;hellip; 그 때 그렇게 말하는 게 아니었는데&amp;hellip;” 하는 일을 줄여주마! 라는 느낌?</description>
@@ -3498,10 +3498,10 @@ CSS3만 필요하면 다른 책을 사는게 나을지도. 내용이 부실하�
     
     <item>
       <title>덕혜옹주</title>
-      <link>https://ezaurum.com/reading/2011-08-16-%eb%8d%95%ed%98%9c%ec%98%b9%ec%a3%bc/</link>
+      <link>https://ezaurum.com/2011/08/%EB%8D%95%ED%98%9C%EC%98%B9%EC%A3%BC/</link>
       <pubDate>Tue, 16 Aug 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2011-08-16-%eb%8d%95%ed%98%9c%ec%98%b9%ec%a3%bc/</guid>
+      <guid>https://ezaurum.com/2011/08/%EB%8D%95%ED%98%9C%EC%98%B9%EC%A3%BC/</guid>
       <description>내 취향은 아니었다.
 광복절 특집 다큐멘터리라면 그럭저럭 볼 만 했을지도 모르겠지만&amp;hellip;아니 그래도 나는 보지 않았겠지.
 비극은 싫어.
@@ -3510,10 +3510,10 @@ CSS3만 필요하면 다른 책을 사는게 나을지도. 내용이 부실하�
     
     <item>
       <title>멀리가려면 함께 가라</title>
-      <link>https://ezaurum.com/reading/2011-08-16-%eb%a9%80%eb%a6%ac%ea%b0%80%eb%a0%a4%eb%a9%b4-%ed%95%a8%ea%bb%98-%ea%b0%80%eb%9d%bc/</link>
+      <link>https://ezaurum.com/2011/08/%EB%A9%80%EB%A6%AC%EA%B0%80%EB%A0%A4%EB%A9%B4-%ED%95%A8%EA%BB%98-%EA%B0%80%EB%9D%BC/</link>
       <pubDate>Tue, 16 Aug 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2011-08-16-%eb%a9%80%eb%a6%ac%ea%b0%80%eb%a0%a4%eb%a9%b4-%ed%95%a8%ea%bb%98-%ea%b0%80%eb%9d%bc/</guid>
+      <guid>https://ezaurum.com/2011/08/%EB%A9%80%EB%A6%AC%EA%B0%80%EB%A0%A4%EB%A9%B4-%ED%95%A8%EA%BB%98-%EA%B0%80%EB%9D%BC/</guid>
       <description>회식자리에서 옆자리에 앉은 팀장이나 과장님이 해줄 법한 말.
 어쩐지 어머니 감각이다. 일단 좋은 말이 많고 가볍게 읽을 수 있게 짧은 예화 중심.
 독기도 없고, 자랑질도 없어서 읽기 좋다.</description>
@@ -3521,19 +3521,19 @@ CSS3만 필요하면 다른 책을 사는게 나을지도. 내용이 부실하�
     
     <item>
       <title>양자 컴퓨터</title>
-      <link>https://ezaurum.com/reading/2011-08-16-%ec%96%91%ec%9e%90-%ec%bb%b4%ed%93%a8%ed%84%b0/</link>
+      <link>https://ezaurum.com/2011/08/%EC%96%91%EC%9E%90-%EC%BB%B4%ED%93%A8%ED%84%B0/</link>
       <pubDate>Tue, 16 Aug 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2011-08-16-%ec%96%91%ec%9e%90-%ec%bb%b4%ed%93%a8%ed%84%b0/</guid>
+      <guid>https://ezaurum.com/2011/08/%EC%96%91%EC%9E%90-%EC%BB%B4%ED%93%A8%ED%84%B0/</guid>
       <description>어렵다. 꽤 어렵다. 그래도 읽고 나니 어슴푸레하게나마 어떻게 양자 컴퓨터가 구현되는구나 하는 걸 알게 되어서 좋음. 설명이 꽤 자세하게 되어 있다. 시간이 나면 다시 한 번 읽어봐야지. 암호이론이라든가 컴퓨터의 기초적 구조에 대해서도 살짝 설명되어 있다.</description>
     </item>
     
     <item>
       <title>언싱킹</title>
-      <link>https://ezaurum.com/reading/2011-08-16-%ec%96%b8%ec%8b%b1%ed%82%b9/</link>
+      <link>https://ezaurum.com/2011/08/%EC%96%B8%EC%8B%B1%ED%82%B9/</link>
       <pubDate>Tue, 16 Aug 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2011-08-16-%ec%96%b8%ec%8b%b1%ed%82%b9/</guid>
+      <guid>https://ezaurum.com/2011/08/%EC%96%B8%EC%8B%B1%ED%82%B9/</guid>
       <description>인지과학? 뭐 그런 쪽 책.
 어디서 본 듯한 이야기가 잔뜩 있지만, 여전히 재미있긴 하다.
 이걸 보고 나니 보이지 않는 고릴라 라는 책이 무슨 내용일지도 알 것 같다.</description>
@@ -3541,10 +3541,10 @@ CSS3만 필요하면 다른 책을 사는게 나을지도. 내용이 부실하�
     
     <item>
       <title>피프</title>
-      <link>https://ezaurum.com/reading/2011-08-16-%ed%94%bc%ed%94%84/</link>
+      <link>https://ezaurum.com/2011/08/%ED%94%BC%ED%94%84/</link>
       <pubDate>Tue, 16 Aug 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2011-08-16-%ed%94%bc%ed%94%84/</guid>
+      <guid>https://ezaurum.com/2011/08/%ED%94%BC%ED%94%84/</guid>
       <description>시원시원하니 재미있는 모험활극.
 딱 미드 스타일. 기생충에 대한 설명이 많아서 좋았다. 어디서 설명이 본 듯하다고 했더니 참고도서에 기생충 제국이 있었음.
 드라마 나오려나? 재밌을텐데.</description>
@@ -3552,10 +3552,10 @@ CSS3만 필요하면 다른 책을 사는게 나을지도. 내용이 부실하�
     
     <item>
       <title>행복에 목숨 걸지 마라</title>
-      <link>https://ezaurum.com/reading/2011-08-16-%ed%96%89%eb%b3%b5%ec%97%90-%eb%aa%a9%ec%88%a8-%ea%b1%b8%ec%a7%80-%eb%a7%88%eb%9d%bc/</link>
+      <link>https://ezaurum.com/2011/08/%ED%96%89%EB%B3%B5%EC%97%90-%EB%AA%A9%EC%88%A8-%EA%B1%B8%EC%A7%80-%EB%A7%88%EB%9D%BC/</link>
       <pubDate>Tue, 16 Aug 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2011-08-16-%ed%96%89%eb%b3%b5%ec%97%90-%eb%aa%a9%ec%88%a8-%ea%b1%b8%ec%a7%80-%eb%a7%88%eb%9d%bc/</guid>
+      <guid>https://ezaurum.com/2011/08/%ED%96%89%EB%B3%B5%EC%97%90-%EB%AA%A9%EC%88%A8-%EA%B1%B8%EC%A7%80-%EB%A7%88%EB%9D%BC/</guid>
       <description>제목이 역설적인 표현일거라고 예측가능한 행복론.
 좋은 이야기가 가득하다. 좋은 얘기를 들어서 손해 볼 있은 별로 없겠지.</description>
     </item>
@@ -3576,10 +3576,10 @@ CSS3만 필요하면 다른 책을 사는게 나을지도. 내용이 부실하�
     
     <item>
       <title>아프니까 청춘이다</title>
-      <link>https://ezaurum.com/reading/2011-08-03-%ec%95%84%ed%94%84%eb%8b%88%ea%b9%8c-%ec%b2%ad%ec%b6%98%ec%9d%b4%eb%8b%a4/</link>
+      <link>https://ezaurum.com/2011/08/%EC%95%84%ED%94%84%EB%8B%88%EA%B9%8C-%EC%B2%AD%EC%B6%98%EC%9D%B4%EB%8B%A4/</link>
       <pubDate>Wed, 03 Aug 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2011-08-03-%ec%95%84%ed%94%84%eb%8b%88%ea%b9%8c-%ec%b2%ad%ec%b6%98%ec%9d%b4%eb%8b%a4/</guid>
+      <guid>https://ezaurum.com/2011/08/%EC%95%84%ED%94%84%EB%8B%88%EA%B9%8C-%EC%B2%AD%EC%B6%98%EC%9D%B4%EB%8B%A4/</guid>
       <description>아파서 봤다.
 어디서 본 듯한 내용일수도 있지만, 할 만한 이야기고, 가슴 따뜻한 이야기다.
 자기가 보려고 사기엔 값이 좀 부담될수도 있는 가격이니 힘들어하는 젊은이게게 선물하는 것을 추천.
@@ -3622,20 +3622,20 @@ CSS3만 필요하면 다른 책을 사는게 나을지도. 내용이 부실하�
     
     <item>
       <title>Blink - 첫 2초의 힘</title>
-      <link>https://ezaurum.com/reading/2011-07-26-blink-%ec%b2%ab-2%ec%b4%88%ec%9d%98-%ed%9e%98/</link>
+      <link>https://ezaurum.com/2011/07/Blink-%EC%B2%AB-2%EC%B4%88%EC%9D%98-%ED%9E%98/</link>
       <pubDate>Tue, 26 Jul 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2011-07-26-blink-%ec%b2%ab-2%ec%b4%88%ec%9d%98-%ed%9e%98/</guid>
+      <guid>https://ezaurum.com/2011/07/Blink-%EC%B2%AB-2%EC%B4%88%EC%9D%98-%ED%9E%98/</guid>
       <description>제목	블링크(첫 2초의 힘) 저자	말콤글래드웰 번역자	이무열 발행인	21세기북스, 2005 ISBN	895090800X, 9788950908003 길이	349페이지
 사실 2007년인가 2008년인가 이마트에서 사서 누구 선물했던 책인데, 물론 내가 먼저 읽긴 했었다. 지금 다시 보니 왜 그 때는 이걸 발견하지 못했을까 하는 생각이 들었다. 아마 알았다면 잘 받았냐는 통화를 할 때 헤어지자고 말을 했겠지. 일단 이것은 상황을 조각내서 인지하는 인간 특성을 가지고 얘기한다. 앞과 뒤를 모두 잘라먹고 그 상황에서 직관은 생각보다 많은 것을 알아낼 수 있다.</description>
     </item>
     
     <item>
       <title>은하수를 여행하는 히치하이커를 위한 안내서</title>
-      <link>https://ezaurum.com/reading/2011-07-21-%ec%9d%80%ed%95%98%ec%88%98%eb%a5%bc-%ec%97%ac%ed%96%89%ed%95%98%eb%8a%94-%ed%9e%88%ec%b9%98%ed%95%98%ec%9d%b4%ec%bb%a4%eb%a5%bc-%ec%9c%84%ed%95%9c-%ec%95%88%eb%82%b4%ec%84%9c/</link>
+      <link>https://ezaurum.com/2011/07/%EC%9D%80%ED%95%98%EC%88%98%EB%A5%BC-%EC%97%AC%ED%96%89%ED%95%98%EB%8A%94-%ED%9E%88%EC%B9%98%ED%95%98%EC%9D%B4%EC%BB%A4%EB%A5%BC-%EC%9C%84%ED%95%9C-%EC%95%88%EB%82%B4%EC%84%9C/</link>
       <pubDate>Thu, 21 Jul 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2011-07-21-%ec%9d%80%ed%95%98%ec%88%98%eb%a5%bc-%ec%97%ac%ed%96%89%ed%95%98%eb%8a%94-%ed%9e%88%ec%b9%98%ed%95%98%ec%9d%b4%ec%bb%a4%eb%a5%bc-%ec%9c%84%ed%95%9c-%ec%95%88%eb%82%b4%ec%84%9c/</guid>
+      <guid>https://ezaurum.com/2011/07/%EC%9D%80%ED%95%98%EC%88%98%EB%A5%BC-%EC%97%AC%ED%96%89%ED%95%98%EB%8A%94-%ED%9E%88%EC%B9%98%ED%95%98%EC%9D%B4%EC%BB%A4%EB%A5%BC-%EC%9C%84%ED%95%9C-%EC%95%88%EB%82%B4%EC%84%9C/</guid>
       <description>읽어야지 읽어야지 하다가 이제야 읽었다.
 &amp;hellip;광고처럼 유쾌하기만 한 SF는 아닌데, 내 취향이었다. 마빈 귀여워. 연애도 로맨틱하고. 여하튼 애는 사랑으로 키워야 삐뚤어지지 않는다는 교훈. 그러지 않으면 우주가 끝장날 수 있다&amp;hellip; 그것 때문에 그런 건 아니지만. 알 게 뭐야.
 결론은 42.</description>
@@ -3643,10 +3643,10 @@ CSS3만 필요하면 다른 책을 사는게 나을지도. 내용이 부실하�
     
     <item>
       <title>생각의 지도</title>
-      <link>https://ezaurum.com/reading/2011-07-15-%ec%83%9d%ea%b0%81%ec%9d%98-%ec%a7%80%eb%8f%84/</link>
+      <link>https://ezaurum.com/2011/07/%EC%83%9D%EA%B0%81%EC%9D%98-%EC%A7%80%EB%8F%84/</link>
       <pubDate>Fri, 15 Jul 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2011-07-15-%ec%83%9d%ea%b0%81%ec%9d%98-%ec%a7%80%eb%8f%84/</guid>
+      <guid>https://ezaurum.com/2011/07/%EC%83%9D%EA%B0%81%EC%9D%98-%EC%A7%80%EB%8F%84/</guid>
       <description>동서양의 사람은 각각 사물의 관계와 사물의 속성 중 어느 것에 비중을 두는가 하는 이야기이다.
 책에 나온 표현을 빌리자면, 내 이런 내용일 줄 알았다. :D
 술술술 넘어가고 그리 복잡한 것도 없고, 확 새롭다는 느낌도 안 들지만, 차분히 분석하고 정리해 놓은 책.
@@ -3655,10 +3655,10 @@ CSS3만 필요하면 다른 책을 사는게 나을지도. 내용이 부실하�
     
     <item>
       <title>세계 정복은 가능한가</title>
-      <link>https://ezaurum.com/reading/2011-07-11-%ec%84%b8%ea%b3%84-%ec%a0%95%eb%b3%b5%ec%9d%80-%ea%b0%80%eb%8a%a5%ed%95%9c%ea%b0%80/</link>
+      <link>https://ezaurum.com/2011/07/%EC%84%B8%EA%B3%84-%EC%A0%95%EB%B3%B5%EC%9D%80-%EA%B0%80%EB%8A%A5%ED%95%9C%EA%B0%80/</link>
       <pubDate>Mon, 11 Jul 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2011-07-11-%ec%84%b8%ea%b3%84-%ec%a0%95%eb%b3%b5%ec%9d%80-%ea%b0%80%eb%8a%a5%ed%95%9c%ea%b0%80/</guid>
+      <guid>https://ezaurum.com/2011/07/%EC%84%B8%EA%B3%84-%EC%A0%95%EB%B3%B5%EC%9D%80-%EA%B0%80%EB%8A%A5%ED%95%9C%EA%B0%80/</guid>
       <description>낚였다!
 어찌보면 이 한 마디로 설명가능한 책이다.
 번역서의 마케팅 방향은 가벼운 서브컬쳐인 양 잡혀 있지만, 실제로는 띠지에 나온 것과 비슷한 내용이다. 가벼운 것은 맞고, 서브컬쳐를 중심으로 설명하는 것도 맞지만 그 두 단어의 조합에서 나오는 이미지와는 많이 다르달까.
@@ -3676,57 +3676,57 @@ CSS3만 필요하면 다른 책을 사는게 나을지도. 내용이 부실하�
     
     <item>
       <title>프로그래머의 길 멘토에게 묻다</title>
-      <link>https://ezaurum.com/reading/2011-07-11-%ed%94%84%eb%a1%9c%ea%b7%b8%eb%9e%98%eb%a8%b8%ec%9d%98-%ea%b8%b8-%eb%a9%98%ed%86%a0%ec%97%90%ea%b2%8c-%eb%ac%bb%eb%8b%a4/</link>
+      <link>https://ezaurum.com/2011/07/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%9D%98-%EA%B8%B8-%EB%A9%98%ED%86%A0%EC%97%90%EA%B2%8C-%EB%AC%BB%EB%8B%A4/</link>
       <pubDate>Mon, 11 Jul 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2011-07-11-%ed%94%84%eb%a1%9c%ea%b7%b8%eb%9e%98%eb%a8%b8%ec%9d%98-%ea%b8%b8-%eb%a9%98%ed%86%a0%ec%97%90%ea%b2%8c-%eb%ac%bb%eb%8b%a4/</guid>
+      <guid>https://ezaurum.com/2011/07/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%9D%98-%EA%B8%B8-%EB%A9%98%ED%86%A0%EC%97%90%EA%B2%8C-%EB%AC%BB%EB%8B%A4/</guid>
       <description>제목 그대로, 멘토에게 물어보면 대답할 만한 이야기였다.
 나같은 초보에게 추천. 열심히 해야겠다.</description>
     </item>
     
     <item>
       <title>Head First Software Development</title>
-      <link>https://ezaurum.com/reading/2011-06-22-head-first-software-development/</link>
+      <link>https://ezaurum.com/2011/06/Head-First-Software-Development/</link>
       <pubDate>Wed, 22 Jun 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2011-06-22-head-first-software-development/</guid>
+      <guid>https://ezaurum.com/2011/06/Head-First-Software-Development/</guid>
       <description>Head First 시리즈 답게 쉽게 술술 넘어간다. 그러면서 빠진 것 없이(내가 보기엔) 다 다루고 있다. 테스트 주도 개발 TDD실천법과 도구와 함께 잘 보고 있는 중. 하지만 열심히 안 하고 있는 것 같다&amp;hellip; XP installed랑도 같이 보고 있음&amp;hellip;</description>
     </item>
     
     <item>
       <title>거짓말쟁이 미 군과 고장난 마 짱</title>
-      <link>https://ezaurum.com/reading/2011-06-22-%ea%b1%b0%ec%a7%93%eb%a7%90%ec%9e%a5%ec%9d%b4-%eb%af%b8-%ea%b5%b0%ea%b3%bc-%ea%b3%a0%ec%9e%a5%eb%82%9c-%eb%a7%88-%ec%a7%b1/</link>
+      <link>https://ezaurum.com/2011/06/%EA%B1%B0%EC%A7%93%EB%A7%90%EC%9F%81%EC%9D%B4-%EB%AF%B8-%EA%B5%B0%EA%B3%BC-%EA%B3%A0%EC%9E%A5%EB%82%9C-%EB%A7%88-%EC%A7%B1/</link>
       <pubDate>Wed, 22 Jun 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2011-06-22-%ea%b1%b0%ec%a7%93%eb%a7%90%ec%9e%a5%ec%9d%b4-%eb%af%b8-%ea%b5%b0%ea%b3%bc-%ea%b3%a0%ec%9e%a5%eb%82%9c-%eb%a7%88-%ec%a7%b1/</guid>
+      <guid>https://ezaurum.com/2011/06/%EA%B1%B0%EC%A7%93%EB%A7%90%EC%9F%81%EC%9D%B4-%EB%AF%B8-%EA%B5%B0%EA%B3%BC-%EA%B3%A0%EC%9E%A5%EB%82%9C-%EB%A7%88-%EC%A7%B1/</guid>
       <description>제목대로의 내용. 동네 특산물이 연쇄살인범. &amp;hellip;시골이라면서 있을 건 다 있다&amp;hellip; 여하튼 자극적인 건 다 들이부어서 만든 인스턴트 식품 같은 느낌.</description>
     </item>
     
     <item>
       <title>생각하는 프로그래밍</title>
-      <link>https://ezaurum.com/reading/2011-06-22-%ec%83%9d%ea%b0%81%ed%95%98%eb%8a%94-%ed%94%84%eb%a1%9c%ea%b7%b8%eb%9e%98%eb%b0%8d/</link>
+      <link>https://ezaurum.com/2011/06/%EC%83%9D%EA%B0%81%ED%95%98%EB%8A%94-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/</link>
       <pubDate>Wed, 22 Jun 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2011-06-22-%ec%83%9d%ea%b0%81%ed%95%98%eb%8a%94-%ed%94%84%eb%a1%9c%ea%b7%b8%eb%9e%98%eb%b0%8d/</guid>
+      <guid>https://ezaurum.com/2011/06/%EC%83%9D%EA%B0%81%ED%95%98%EB%8A%94-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/</guid>
       <description>어렵다&amp;hellip; 공부가 부족하구나 하고 느끼게 해 주는 책. 문제와 그 문제에 대한 해결법과 도출과정, 발전형 문제들을 제시해준다. 천천히, 느긋하게 읽기 좋겠다. 누군가는 한 달 동안 즐거울 거라는데, 난 내년이나 되어야 다 읽을 듯.</description>
     </item>
     
     <item>
       <title>손에 잡히는 VIM</title>
-      <link>https://ezaurum.com/reading/2011-06-22-%ec%86%90%ec%97%90-%ec%9e%a1%ed%9e%88%eb%8a%94-vim/</link>
+      <link>https://ezaurum.com/2011/06/%EC%86%90%EC%97%90-%EC%9E%A1%ED%9E%88%EB%8A%94-VIM/</link>
       <pubDate>Wed, 22 Jun 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2011-06-22-%ec%86%90%ec%97%90-%ec%9e%a1%ed%9e%88%eb%8a%94-vim/</guid>
+      <guid>https://ezaurum.com/2011/06/%EC%86%90%EC%97%90-%EC%9E%A1%ED%9E%88%EB%8A%94-VIM/</guid>
       <description>책도 손에 잘 잡히는 사이즈고, 내용도 휘리릭 읽을 만하지만, 역시 한 번 본다고 해서 능통해지는 것은 아니다.
 옆에 두고 필요할 때마다 뒤적뒤적하기 좋은 책.</description>
     </item>
     
     <item>
       <title>연금술 이야기</title>
-      <link>https://ezaurum.com/reading/2011-06-22-%ec%97%b0%ea%b8%88%ec%88%a0-%ec%9d%b4%ec%95%bc%ea%b8%b0/</link>
+      <link>https://ezaurum.com/2011/06/%EC%97%B0%EA%B8%88%EC%88%A0-%EC%9D%B4%EC%95%BC%EA%B8%B0/</link>
       <pubDate>Wed, 22 Jun 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2011-06-22-%ec%97%b0%ea%b8%88%ec%88%a0-%ec%9d%b4%ec%95%bc%ea%b8%b0/</guid>
+      <guid>https://ezaurum.com/2011/06/%EC%97%B0%EA%B8%88%EC%88%A0-%EC%9D%B4%EC%95%BC%EA%B8%B0/</guid>
       <description>동서양의 연금술을 다 다루고 있다. 불로초 등도 다 에릭서로 취급하고, 내단에 대한것, 방중술까지도 나온다. 술술 넘어가고 예화 중심이라 소재로도 좋다.</description>
     </item>
     
@@ -3764,10 +3764,10 @@ JS 소품 하나, Servlet으로 만든 API 두 개, JSP로 대충 게시판 하�
     
     <item>
       <title>왜 도덕인가</title>
-      <link>https://ezaurum.com/reading/2011-04-19-%ec%99%9c-%eb%8f%84%eb%8d%95%ec%9d%b8%ea%b0%80/</link>
+      <link>https://ezaurum.com/2011/04/%EC%99%9C-%EB%8F%84%EB%8D%95%EC%9D%B8%EA%B0%80/</link>
       <pubDate>Tue, 19 Apr 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2011-04-19-%ec%99%9c-%eb%8f%84%eb%8d%95%ec%9d%b8%ea%b0%80/</guid>
+      <guid>https://ezaurum.com/2011/04/%EC%99%9C-%EB%8F%84%EB%8D%95%EC%9D%B8%EA%B0%80/</guid>
       <description>마이클 센델 책인데&amp;hellip; 읽다 포기. 재미가 없다. 번역 문제라고도 하는데&amp;hellip; 일단 내 머리가 지쳐있을 때 읽었던 게 첫 번째 원인인것 같기도 하고&amp;hellip; 결국 비슷한 얘기 계속 하는 것 같기는 한데 일단 뭔 소린지 모르겠다는 것이 원인. 정의란 무엇인가는 가볍게 술술 넘어갔는데&amp;hellip;</description>
     </item>
     
@@ -3796,10 +3796,10 @@ css3 속성이므로 ie에서는 제대로 안 된다.</description>
     
     <item>
       <title>변신</title>
-      <link>https://ezaurum.com/reading/2011-03-14-%eb%b3%80%ec%8b%a0/</link>
+      <link>https://ezaurum.com/2011/03/%EB%B3%80%EC%8B%A0/</link>
       <pubDate>Mon, 14 Mar 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2011-03-14-%eb%b3%80%ec%8b%a0/</guid>
+      <guid>https://ezaurum.com/2011/03/%EB%B3%80%EC%8B%A0/</guid>
       <description>마무리가 약간 용두사미? 그런 느낌이었다. 스릴러라든가 추리라든가 하는 재미 보다는 여기 오고 나서부터 내가 옛날과는 다르게 변했다는 느낌을 많이 받아서 공감하면서 읽을 만 했다. 나도 어디 정신과 진료를 받든지 해야 하나&amp;hellip; 여하튼 제대가 답인가.</description>
     </item>
     
@@ -3814,28 +3814,28 @@ css3 속성이므로 ie에서는 제대로 안 된다.</description>
     
     <item>
       <title>경제학 콘서트</title>
-      <link>https://ezaurum.com/reading/2011-03-08-%ea%b2%bd%ec%a0%9c%ed%95%99-%ec%bd%98%ec%84%9c%ed%8a%b8/</link>
+      <link>https://ezaurum.com/2011/03/%EA%B2%BD%EC%A0%9C%ED%95%99-%EC%BD%98%EC%84%9C%ED%8A%B8/</link>
       <pubDate>Tue, 08 Mar 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2011-03-08-%ea%b2%bd%ec%a0%9c%ed%95%99-%ec%bd%98%ec%84%9c%ed%8a%b8/</guid>
+      <guid>https://ezaurum.com/2011/03/%EA%B2%BD%EC%A0%9C%ED%95%99-%EC%BD%98%EC%84%9C%ED%8A%B8/</guid>
       <description>별로 할 말은 없다. 읽기는 읽었지만서도, 거의 쓸려나가듯 지나가서&amp;hellip; 조금 남아 있는 건 있지만, 교양있는 지성인이 되기는 멀고 멀었다는 생각만 들 뿐&amp;hellip;</description>
     </item>
     
     <item>
       <title>그림으로 읽는 生生 심리학</title>
-      <link>https://ezaurum.com/reading/2011-03-08-%ea%b7%b8%eb%a6%bc%ec%9c%bc%eb%a1%9c-%ec%9d%bd%eb%8a%94-%e7%94%9f%e7%94%9f-%ec%8b%ac%eb%a6%ac%ed%95%99/</link>
+      <link>https://ezaurum.com/2011/03/%EA%B7%B8%EB%A6%BC%EC%9C%BC%EB%A1%9C-%EC%9D%BD%EB%8A%94-%E7%94%9F%E7%94%9F-%EC%8B%AC%EB%A6%AC%ED%95%99/</link>
       <pubDate>Tue, 08 Mar 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2011-03-08-%ea%b7%b8%eb%a6%bc%ec%9c%bc%eb%a1%9c-%ec%9d%bd%eb%8a%94-%e7%94%9f%e7%94%9f-%ec%8b%ac%eb%a6%ac%ed%95%99/</guid>
+      <guid>https://ezaurum.com/2011/03/%EA%B7%B8%EB%A6%BC%EC%9C%BC%EB%A1%9C-%EC%9D%BD%EB%8A%94-%E7%94%9F%E7%94%9F-%EC%8B%AC%EB%A6%AC%ED%95%99/</guid>
       <description>가볍게 읽을 만한 심리학 책. 스키너의 심리 상자 열기 정도의 수준이다. 설명이 쉽고 이상한 얘기도 없어서 기분전환용으로도 좋다.</description>
     </item>
     
     <item>
       <title>나쁜 사마리아인들</title>
-      <link>https://ezaurum.com/reading/2011-03-08-%eb%82%98%ec%81%9c-%ec%82%ac%eb%a7%88%eb%a6%ac%ec%95%84%ec%9d%b8%eb%93%a4/</link>
+      <link>https://ezaurum.com/2011/03/%EB%82%98%EC%81%9C-%EC%82%AC%EB%A7%88%EB%A6%AC%EC%95%84%EC%9D%B8%EB%93%A4/</link>
       <pubDate>Tue, 08 Mar 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2011-03-08-%eb%82%98%ec%81%9c-%ec%82%ac%eb%a7%88%eb%a6%ac%ec%95%84%ec%9d%b8%eb%93%a4/</guid>
+      <guid>https://ezaurum.com/2011/03/%EB%82%98%EC%81%9C-%EC%82%AC%EB%A7%88%EB%A6%AC%EC%95%84%EC%9D%B8%EB%93%A4/</guid>
       <description>고전이나 유명한 책은 좀 그런게, 여기저기 인용도 많이 되고 요약이나 설명본도 많아서 읽지를 않았는데도 읽는 것처럼 생각되서 선뜻 손이 안 가고, 막상 읽을 때도 이거 본 내용이잖아 하는 생각에 또 주의깊게 안 읽게 된다. 이것도 좀 그랬다. 여하튼 경제학 2연타인데, 경제관련 서적은 잘 안 들어오는 것이, 역시 나는 경제적 인간은 아닌가보다.</description>
     </item>
     
@@ -3853,57 +3853,57 @@ css3 속성이므로 ie에서는 제대로 안 된다.</description>
     
     <item>
       <title>당신 인생의 이야기</title>
-      <link>https://ezaurum.com/reading/2011-03-02-%eb%8b%b9%ec%8b%a0-%ec%9d%b8%ec%83%9d%ec%9d%98-%ec%9d%b4%ec%95%bc%ea%b8%b0/</link>
+      <link>https://ezaurum.com/2011/03/%EB%8B%B9%EC%8B%A0-%EC%9D%B8%EC%83%9D%EC%9D%98-%EC%9D%B4%EC%95%BC%EA%B8%B0/</link>
       <pubDate>Wed, 02 Mar 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2011-03-02-%eb%8b%b9%ec%8b%a0-%ec%9d%b8%ec%83%9d%ec%9d%98-%ec%9d%b4%ec%95%bc%ea%b8%b0/</guid>
+      <guid>https://ezaurum.com/2011/03/%EB%8B%B9%EC%8B%A0-%EC%9D%B8%EC%83%9D%EC%9D%98-%EC%9D%B4%EC%95%BC%EA%B8%B0/</guid>
       <description>상을 받을 수 있는 SF소설이라는 표현이 딱 어울릴 듯 하다. 소설적 상상력이라는 것은 엄밀히 말하면 상상력 보다는 표현력이라는 말이 더 어울릴 것이다. 가공의 상황에 대한 치밀한 표현, 그것이 SF라고 생각한다. 얼마나 새로운 것을 만들어내는가가 아니라, 얼마나 치밀하게 표현하는가. 얼마나 놓치지 않고 빈 칸을 파고드는가. 아, 나 또 칼 타령할 뻔 했다. 여하튼 좋다. 나는 언제가 되어야 이런 글을 쓸 수 있을까.</description>
     </item>
     
     <item>
       <title>드리밍 인 코드</title>
-      <link>https://ezaurum.com/reading/2011-03-02-%eb%93%9c%eb%a6%ac%eb%b0%8d-%ec%9d%b8-%ec%bd%94%eb%93%9c/</link>
+      <link>https://ezaurum.com/2011/03/%EB%93%9C%EB%A6%AC%EB%B0%8D-%EC%9D%B8-%EC%BD%94%EB%93%9C/</link>
       <pubDate>Wed, 02 Mar 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2011-03-02-%eb%93%9c%eb%a6%ac%eb%b0%8d-%ec%9d%b8-%ec%bd%94%eb%93%9c/</guid>
+      <guid>https://ezaurum.com/2011/03/%EB%93%9C%EB%A6%AC%EB%B0%8D-%EC%9D%B8-%EC%BD%94%EB%93%9C/</guid>
       <description>기술서로 분류해야 할까 미묘하게 헷갈렸다. 그래서 결론은 이제부터 기술서도 기록해 두자는 것. 완독시점이 애매하다는 것이 주 기피 이유였으나 재독요망으로 올라와 있는 인문서적도 많으니까 결국 별 차이가 없다.
 여하튼 어째서 프로젝트는 망하는가 정도에 대한 이야기지만 사실 뚜렷한 결론은 없다. 한탄에 가까운 느낌이랄까. 여기 등장하는 사람들은 엄청난 사람들이다. 지금 나하고 비교할 수준이 아닐텐데도, 결국 고생하는 점은 비슷한 부분이구나 하는 것에 일말의 안도랄까 앞으로도 이러고 살거라는 데 피학적 기쁨을 느낀달까 하는 심정이다. 이 내용은 책에 시지프스를 인용하여 말하고 있었다.</description>
     </item>
     
     <item>
       <title>여기 와서 읽은 기술 서적 정리</title>
-      <link>https://ezaurum.com/reading/2011-03-02-%ec%97%ac%ea%b8%b0-%ec%99%80%ec%84%9c-%ec%9d%bd%ec%9d%80-%ea%b8%b0%ec%88%a0-%ec%84%9c%ec%a0%81-%ec%a0%95%eb%a6%ac/</link>
+      <link>https://ezaurum.com/2011/03/%EC%97%AC%EA%B8%B0-%EC%99%80%EC%84%9C-%EC%9D%BD%EC%9D%80-%EA%B8%B0%EC%88%A0-%EC%84%9C%EC%A0%81-%EC%A0%95%EB%A6%AC/</link>
       <pubDate>Wed, 02 Mar 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2011-03-02-%ec%97%ac%ea%b8%b0-%ec%99%80%ec%84%9c-%ec%9d%bd%ec%9d%80-%ea%b8%b0%ec%88%a0-%ec%84%9c%ec%a0%81-%ec%a0%95%eb%a6%ac/</guid>
+      <guid>https://ezaurum.com/2011/03/%EC%97%AC%EA%B8%B0-%EC%99%80%EC%84%9C-%EC%9D%BD%EC%9D%80-%EA%B8%B0%EC%88%A0-%EC%84%9C%EC%A0%81-%EC%A0%95%EB%A6%AC/</guid>
       <description>크게 혼자서 보면서 배우는 튜토리얼 계와 아무 때나 펼쳐서 볼 수 있는 레퍼런스. 두가지로 분류.
 성공과 실패를 결정하는 1%의 네트워크 원리 2nd edtion-1%시리즈 답게 간략하고 필요한 부분만 담겨 있다. 재판은 그림이 좀 더 많아지고 두꺼워져서 좋은 듯.+가벼운 레퍼런스&amp;amp;튜토리얼성공과 실패를 결정하는 1%의 프로그래밍 원리-오랜만에 다시 읽으니 안 보이던 부분이 보인다.+가벼운 레퍼런스&amp;amp;튜토리얼성공과 실패를 결정하는 1%의 컴퓨터 원리-후임이 샀길래 살짝 봤는데 괜찮은 듯, 사도 좋을 것 같다.</description>
     </item>
     
     <item>
       <title>10번 교향곡</title>
-      <link>https://ezaurum.com/reading/2011-02-04-10%eb%b2%88-%ea%b5%90%ed%96%a5%ea%b3%a1/</link>
+      <link>https://ezaurum.com/2011/02/10%EB%B2%88-%EA%B5%90%ED%96%A5%EA%B3%A1/</link>
       <pubDate>Fri, 04 Feb 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2011-02-04-10%eb%b2%88-%ea%b5%90%ed%96%a5%ea%b3%a1/</guid>
+      <guid>https://ezaurum.com/2011/02/10%EB%B2%88-%EA%B5%90%ED%96%A5%EA%B3%A1/</guid>
       <description>그럭저럭 괜찮은 스릴러. 보다 보면 10번 교향곡이 듣고 싶어진다. 후반부는 내 집중력이 흐트러졌는지 잘 안 들어오긴 했는데 전반적으로 보긴 괜찮았음. 음표를 이용한 트릭 부분은 내가 모르는 분야라 꽤 신선했다.</description>
     </item>
     
     <item>
       <title>오 해피 데이</title>
-      <link>https://ezaurum.com/reading/2011-02-04-%ec%98%a4-%ed%95%b4%ed%94%bc-%eb%8d%b0%ec%9d%b4/</link>
+      <link>https://ezaurum.com/2011/02/%EC%98%A4-%ED%95%B4%ED%94%BC-%EB%8D%B0%EC%9D%B4/</link>
       <pubDate>Fri, 04 Feb 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2011-02-04-%ec%98%a4-%ed%95%b4%ed%94%bc-%eb%8d%b0%ec%9d%b4/</guid>
+      <guid>https://ezaurum.com/2011/02/%EC%98%A4-%ED%95%B4%ED%94%BC-%EB%8D%B0%EC%9D%B4/</guid>
       <description>좋다! 커플들의 이야기를 그리고 있기는 한데, 꼭 로맨스라고 말하기는 좀 그렇고&amp;hellip; 개그만 있다고 하기 그렇고&amp;hellip; 아&amp;hellip; 이 뭐라 표현할 방법이 없네&amp;hellip; 직접 말을&amp;hellip; 해야 하는구나. 분류를 하자면 가벼운 러브코메디?</description>
     </item>
     
     <item>
       <title>월식도의 마물</title>
-      <link>https://ezaurum.com/reading/2011-02-04-%ec%9b%94%ec%8b%9d%eb%8f%84%ec%9d%98-%eb%a7%88%eb%ac%bc/</link>
+      <link>https://ezaurum.com/2011/02/%EC%9B%94%EC%8B%9D%EB%8F%84%EC%9D%98-%EB%A7%88%EB%AC%BC/</link>
       <pubDate>Fri, 04 Feb 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2011-02-04-%ec%9b%94%ec%8b%9d%eb%8f%84%ec%9d%98-%eb%a7%88%eb%ac%bc/</guid>
+      <guid>https://ezaurum.com/2011/02/%EC%9B%94%EC%8B%9D%EB%8F%84%EC%9D%98-%EB%A7%88%EB%AC%BC/</guid>
       <description>다나카 요시키의 최근.. 작인지 아닌지는 모르겠지만, 여튼 최근에 읽은 물건.
 지금까지처럼 모험활극이긴 한데 캐릭터들이 전체적으로 약한 느낌. 요즘의 너무 강렬한 캐릭터에 길들여져서 그런가.
 이걸로 40권 돌파. 아직 1/3도 못 채웠군.</description>
@@ -3911,10 +3911,10 @@ css3 속성이므로 ie에서는 제대로 안 된다.</description>
     
     <item>
       <title>줄라이켄 사람들</title>
-      <link>https://ezaurum.com/reading/2011-02-04-%ec%a4%84%eb%9d%bc%ec%9d%b4%ec%bc%84-%ec%82%ac%eb%9e%8c%eb%93%a4/</link>
+      <link>https://ezaurum.com/2011/02/%EC%A4%84%EB%9D%BC%EC%9D%B4%EC%BC%84-%EC%82%AC%EB%9E%8C%EB%93%A4/</link>
       <pubDate>Fri, 04 Feb 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2011-02-04-%ec%a4%84%eb%9d%bc%ec%9d%b4%ec%bc%84-%ec%82%ac%eb%9e%8c%eb%93%a4/</guid>
+      <guid>https://ezaurum.com/2011/02/%EC%A4%84%EB%9D%BC%EC%9D%B4%EC%BC%84-%EC%82%AC%EB%9E%8C%EB%93%A4/</guid>
       <description>줄라이켄 사람들 뭐랄까 기승전결이 잘 와 닿지 않는 이야기인데도 슬슬슬 따라가다 보면 재미있다. 그냥 봄이나 가을쯤, 눈부시지도 않는 느즈막한 오후 햇살이 비치는 곳을 멍하니 쳐다보는 그런 이야기랄까.</description>
     </item>
     
@@ -3938,10 +3938,10 @@ css3 속성이므로 ie에서는 제대로 안 된다.</description>
     
     <item>
       <title>철학 영화를 캐스팅하다</title>
-      <link>https://ezaurum.com/reading/2011-02-02-%ec%b2%a0%ed%95%99-%ec%98%81%ed%99%94%eb%a5%bc-%ec%ba%90%ec%8a%a4%ed%8c%85%ed%95%98%eb%8b%a4/</link>
+      <link>https://ezaurum.com/2011/02/%EC%B2%A0%ED%95%99-%EC%98%81%ED%99%94%EB%A5%BC-%EC%BA%90%EC%8A%A4%ED%8C%85%ED%95%98%EB%8B%A4/</link>
       <pubDate>Wed, 02 Feb 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2011-02-02-%ec%b2%a0%ed%95%99-%ec%98%81%ed%99%94%eb%a5%bc-%ec%ba%90%ec%8a%a4%ed%8c%85%ed%95%98%eb%8b%a4/</guid>
+      <guid>https://ezaurum.com/2011/02/%EC%B2%A0%ED%95%99-%EC%98%81%ED%99%94%EB%A5%BC-%EC%BA%90%EC%8A%A4%ED%8C%85%ED%95%98%EB%8B%A4/</guid>
       <description>철학 영화를 캐스팅하다 가볍게 볼 수 있는 교양서. 영화 한 편 마다 주제를 잡고 특정한 철학적 관점에서 이야기를 분석한다. 저자의 생각 흐름을 죽 따라가면서 즐길 수 있는 책. 이런 걸 보고 나면 뭔가 하나 제대로 된 철학서를 공부하고 싶어진다. 그런데 어려워&amp;hellip;</description>
     </item>
     
@@ -3967,19 +3967,19 @@ void insertionSort2(int * array, int size) { int j = 0; for (int i = 1; i 0 &amp
     
     <item>
       <title>괴담갑</title>
-      <link>https://ezaurum.com/reading/2011-01-14-%ea%b4%b4%eb%8b%b4%ea%b0%91/</link>
+      <link>https://ezaurum.com/2011/01/%EA%B4%B4%EB%8B%B4%EA%B0%91/</link>
       <pubDate>Fri, 14 Jan 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2011-01-14-%ea%b4%b4%eb%8b%b4%ea%b0%91/</guid>
+      <guid>https://ezaurum.com/2011/01/%EA%B4%B4%EB%8B%B4%EA%B0%91/</guid>
       <description>8926770087 오트슨 저. 난 무서운 이야기는 싫어한다. 하지마 괴담은 법칙이 있는 것들이 많아서 보다 보면 퍼즐 맞추기나 게임에 가깝다는 느낌도 든다. 발동조건이 있고, 페널티가 있으며, 주 소재는 그 페널티를 먹는 사람들. 읽을 때는 그렇게 무섭지 않았는데 새벽 2시에 불꺼진 산길을 내려가고 있노라니 오싹한 느낌이 들었다. 그러니까 결론은 있을 때 잘하자. 읭?</description>
     </item>
     
     <item>
       <title>정의란 무엇인가</title>
-      <link>https://ezaurum.com/reading/2011-01-14-%ec%a0%95%ec%9d%98%eb%9e%80-%eb%ac%b4%ec%97%87%ec%9d%b8%ea%b0%80/</link>
+      <link>https://ezaurum.com/2011/01/%EC%A0%95%EC%9D%98%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80/</link>
       <pubDate>Fri, 14 Jan 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2011-01-14-%ec%a0%95%ec%9d%98%eb%9e%80-%eb%ac%b4%ec%97%87%ec%9d%b8%ea%b0%80/</guid>
+      <guid>https://ezaurum.com/2011/01/%EC%A0%95%EC%9D%98%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80/</guid>
       <description>마이클 샌델 저
 딱 대학교 1, 2학년이 들을만한 교양수업. 쉽고, 간결하지만 비전공자 입장에선 충분할 만큼 설명이 잘 되어 있다. 그냥 책으로 읽으니까 술술 넘어가긴 하는데 아무래도 부족한 느낌. 과제도 없고 시험도 없으니 역시 남는게 적다. 혼자서도 공부를 잘 할 수 있게 되려면 아직 멀었구나 싶다. 과제가 있었다면 좀 빡세긴 했을테지만 재밌었을 것 같다. 내가 일학년이었을 때 이런 수업을 들었다면 좋았을텐데. 아니 그때는 자고 있었으려나?</description>
     </item>
@@ -4004,10 +4004,10 @@ void insertionSort2(int * array, int size) { int j = 0; for (int i = 1; i 0 &amp
     
     <item>
       <title>이 책을 권한다</title>
-      <link>https://ezaurum.com/reading/2010-12-29-%ec%9d%b4-%ec%b1%85%ec%9d%84-%ea%b6%8c%ed%95%9c%eb%8b%a4-2/</link>
+      <link>https://ezaurum.com/2010/12/%EC%9D%B4-%EC%B1%85%EC%9D%84-%EA%B6%8C%ED%95%9C%EB%8B%A4/</link>
       <pubDate>Wed, 29 Dec 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2010-12-29-%ec%9d%b4-%ec%b1%85%ec%9d%84-%ea%b6%8c%ed%95%9c%eb%8b%a4-2/</guid>
+      <guid>https://ezaurum.com/2010/12/%EC%9D%B4-%EC%B1%85%EC%9D%84-%EA%B6%8C%ED%95%9C%EB%8B%A4/</guid>
       <description>회사에 리눅스 서버를 설치하겠다고 하는 친구 모 군에게 이 책을 권한다. 삽질 열심히 하시기를.
   성공과 실패를 결정하는 1%의 네트워크 원리- 가지고 있어서 문제될 것 없는 책. 1%시리즈는 다 괜찮긴 하지. 서버 구축을 하려면 기본적인 네트워크 원리는 알고 있어야 하니까 꼭 읽어둘 것.
   Unix가 보이는 그림책- 아주 친절한 유닉스/리눅스 입문서. 책장이 숙숙 넘어가서 좋다.
@@ -4017,10 +4017,10 @@ void insertionSort2(int * array, int size) { int j = 0; for (int i = 1; i 0 &amp
     
     <item>
       <title>이 책을 권한다</title>
-      <link>https://ezaurum.com/reading/2010-12-27-%ec%9d%b4-%ec%b1%85%ec%9d%84-%ea%b6%8c%ed%95%9c%eb%8b%a4/</link>
+      <link>https://ezaurum.com/2010/12/%EC%9D%B4-%EC%B1%85%EC%9D%84-%EA%B6%8C%ED%95%9C%EB%8B%A4/</link>
       <pubDate>Mon, 27 Dec 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2010-12-27-%ec%9d%b4-%ec%b1%85%ec%9d%84-%ea%b6%8c%ed%95%9c%eb%8b%a4/</guid>
+      <guid>https://ezaurum.com/2010/12/%EC%9D%B4-%EC%B1%85%EC%9D%84-%EA%B6%8C%ED%95%9C%EB%8B%A4/</guid>
       <description>제멋대로 멍하니 사는 것 같은데 의외로 속 깊은 소리를 곧잘 하는 모 양에게 추천하는 책. 빨리 병이 낫길 바랍니다. 흑흑.
 프로페셔널의 조건 - 자기 계발서라기보다는 피터드러커의 에세이에 가까운 글. 평생 공부하고 사는 사람은 이렇게 생각하고 산다는 점에서 배울 게 많다고 봄. 어설픈 인간이 설교식으로 늘어놓는 소리보다 대가가 자기 살아온 이야기를 해 주는게 훨씬 도움된다고 생각.인간의 마음을 사로잡는 스무가지 플롯 - 실용서에 가까운 물건이라고 생각. 틈날 때마다 읽어주면서 패턴을 파악하려고 하고 있음.</description>
     </item>
@@ -4068,10 +4068,10 @@ void insertionSort2(int * array, int size) { int j = 0; for (int i = 1; i 0 &amp
     
     <item>
       <title>휴가중 읽은 만화책</title>
-      <link>https://ezaurum.com/reading/2010-10-14-%ed%9c%b4%ea%b0%80%ec%a4%91-%ec%9d%bd%ec%9d%80-%eb%a7%8c%ed%99%94%ec%b1%85/</link>
+      <link>https://ezaurum.com/2010/10/%ED%9C%B4%EA%B0%80%EC%A4%91-%EC%9D%BD%EC%9D%80-%EB%A7%8C%ED%99%94%EC%B1%85/</link>
       <pubDate>Thu, 14 Oct 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2010-10-14-%ed%9c%b4%ea%b0%80%ec%a4%91-%ec%9d%bd%ec%9d%80-%eb%a7%8c%ed%99%94%ec%b1%85/</guid>
+      <guid>https://ezaurum.com/2010/10/%ED%9C%B4%EA%B0%80%EC%A4%91-%EC%9D%BD%EC%9D%80-%EB%A7%8C%ED%99%94%EC%B1%85/</guid>
       <description>스콧 필그림 - 병맛쩐다 사가판 어류도감 - 다이지로 모로보시, 설명이 필요한가. 사가판 조류도감 - 다이지로 모로보시 강태공 - 다이지로 모로보시 블루 홀 - 호시노 유키노부, 역시 설명이 필요한가 전파의 성 - 역시 이 작가는 처절하게 잘 그린다. 너에게 닿기를 - 이빨 빠진 부분을 봤음. 보면 볼수록 상큼도가 지나쳐서&amp;hellip; 역시 삼십대 아저씨에게 고딩 감성은 무리인가. 그 이외에도 약 40여권을 봤음. &amp;hellip; 우와&amp;hellip; 적고 보니 무지막지하네.</description>
     </item>
     
@@ -4096,10 +4096,10 @@ void insertionSort2(int * array, int size) { int j = 0; for (int i = 1; i 0 &amp
     
     <item>
       <title>안녕 인공존재</title>
-      <link>https://ezaurum.com/reading/2010-10-05-%ec%95%88%eb%85%95-%ec%9d%b8%ea%b3%b5%ec%a1%b4%ec%9e%ac/</link>
+      <link>https://ezaurum.com/2010/10/%EC%95%88%EB%85%95-%EC%9D%B8%EA%B3%B5%EC%A1%B4%EC%9E%AC/</link>
       <pubDate>Tue, 05 Oct 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2010-10-05-%ec%95%88%eb%85%95-%ec%9d%b8%ea%b3%b5%ec%a1%b4%ec%9e%ac/</guid>
+      <guid>https://ezaurum.com/2010/10/%EC%95%88%EB%85%95-%EC%9D%B8%EA%B3%B5%EC%A1%B4%EC%9E%AC/</guid>
       <description>안녕 인공존재 배명훈 저 북하우스 ISBN : 9788956054605
 39/150
 전작 타워도 괜찮았다. 이런 글을 쓰고 싶었다. 왜 과거형이었냐면, 이제 이런 글을 쓰는 사람이 있는 줄 알아버렸으니까. 쓰지 않으면 원했던 것인지 알 수 없거든. 하지만 안 쓰겠지.</description>
@@ -4254,10 +4254,10 @@ void insertionSort2(int * array, int size) { int j = 0; for (int i = 1; i 0 &amp
     
     <item>
       <title>꿈꾸는 책들의 도시</title>
-      <link>https://ezaurum.com/reading/2010-08-23-%ea%bf%88%ea%be%b8%eb%8a%94-%ec%b1%85%eb%93%a4%ec%9d%98-%eb%8f%84%ec%8b%9c/</link>
+      <link>https://ezaurum.com/2010/08/%EA%BF%88%EA%BE%B8%EB%8A%94-%EC%B1%85%EB%93%A4%EC%9D%98-%EB%8F%84%EC%8B%9C/</link>
       <pubDate>Mon, 23 Aug 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2010-08-23-%ea%bf%88%ea%be%b8%eb%8a%94-%ec%b1%85%eb%93%a4%ec%9d%98-%eb%8f%84%ec%8b%9c/</guid>
+      <guid>https://ezaurum.com/2010/08/%EA%BF%88%EA%BE%B8%EB%8A%94-%EC%B1%85%EB%93%A4%EC%9D%98-%EB%8F%84%EC%8B%9C/</guid>
       <description>제목	꿈꾸는책들의도시: 차모니아출신힐데군스트폰미텐메츠의장편소설 Volume 1/Kkumkkunŭn chʻaekdŭlŭi tŏsĭ, Walter Moers, ISBN 8975274861, 9788975274862 꿈꾸는책들의도시: 차모니아출신힐데군스트폰미텐메츠의장편소설, 두행숙, ISBN 8975274861, 9788975274862 저자	발터뫼르스 번역자	두행숙 발행인	들녘, 2005 ISBN	897527487X, 9788975274879 길이	350페이지
 38/150
 오름이라는 개념이 흥미로왔다. 어쨌든 글쟁이가 주인공이라면 글을 잘 쓰고 싶어하고 좋은 글을 읽고 싶어하는 것이 정상. 여하튼 공룡 쵝오. 다른 책도 보고 싶다. 모모, 끝없는 이야기 정도 포지션을 차지하는 좋은 물건. 여튼 오름이란 거, 나도 좀&amp;hellip;</description>
@@ -4416,20 +4416,20 @@ public class myTest {	@Test public void testCodes() throws Exception { System.ou
     
     <item>
       <title>로스트 심벌</title>
-      <link>https://ezaurum.com/reading/2010-08-09-%eb%a1%9c%ec%8a%a4%ed%8a%b8-%ec%8b%ac%eb%b2%8c/</link>
+      <link>https://ezaurum.com/2010/08/%EB%A1%9C%EC%8A%A4%ED%8A%B8-%EC%8B%AC%EB%B2%8C/</link>
       <pubDate>Mon, 09 Aug 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2010-08-09-%eb%a1%9c%ec%8a%a4%ed%8a%b8-%ec%8b%ac%eb%b2%8c/</guid>
+      <guid>https://ezaurum.com/2010/08/%EB%A1%9C%EC%8A%A4%ED%8A%B8-%EC%8B%AC%EB%B2%8C/</guid>
       <description>ISBN 8983923377, 9788983923370 댄 브라운스러운 소설. 그리 재미있지는 않았지만, 영화로 만들어지면 TV에서 할 때 틀어놓을 정도는 되는 듯. 사실 다빈치 코드가 너무 실망스럽달까 그래서 그 후속작들도 영&amp;hellip; 그래도 나보다는 잘 쓴 것 같다. ORL 워싱턴 관광공사에서 후원을 받은 듯, 관광요지마다 설명을 줄줄 넣어놨다. 관광할 일이 생기면 참고해야지.
 33/150</description>
     </item>
     
     <item>
       <title>이코노믹 씽킹</title>
-      <link>https://ezaurum.com/reading/2010-08-09-%ec%9d%b4%ec%bd%94%eb%85%b8%eb%af%b9-%ec%94%bd%ed%82%b9/</link>
+      <link>https://ezaurum.com/2010/08/%EC%9D%B4%EC%BD%94%EB%85%B8%EB%AF%B9-%EC%94%BD%ED%82%B9/</link>
       <pubDate>Mon, 09 Aug 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2010-08-09-%ec%9d%b4%ec%bd%94%eb%85%b8%eb%af%b9-%ec%94%bd%ed%82%b9/</guid>
+      <guid>https://ezaurum.com/2010/08/%EC%9D%B4%EC%BD%94%EB%85%B8%EB%AF%B9-%EC%94%BD%ED%82%B9/</guid>
       <description>제목	이코노믹 씽킹 저자	로버트프랭크 번역자	안진환 발행인	웅진지식하우스, 2007 ISBN	890107057X, 9788901070575 길이	330페이지
 한 줄로 정리하자면 이 책은 숙제 모음집이다. 하지만 소재의 다양성이 매우 충분하고, 각 현상에 대한 경제학적 접근이 쉽고 재미있게 구성되어 있다. 각 꼭지가 양이 짧아서 술술 넘어간다는 장점도 있다. 이야깃거리가 풍부해진다는 점애서 가치있는 책이다. 저자는 책을 좀 날로 먹은 감이 있지만, 정리하고 수집하는 것도 힘들었겠지. 설마 조교 시켰을라고.
 34/150</description>
@@ -4446,10 +4446,10 @@ public class myTest {	@Test public void testCodes() throws Exception { System.ou
     
     <item>
       <title>코핀 댄서</title>
-      <link>https://ezaurum.com/reading/2010-08-09-%ec%bd%94%ed%95%80-%eb%8c%84%ec%84%9c/</link>
+      <link>https://ezaurum.com/2010/08/%EC%BD%94%ED%95%80-%EB%8C%84%EC%84%9C/</link>
       <pubDate>Mon, 09 Aug 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2010-08-09-%ec%bd%94%ed%95%80-%eb%8c%84%ec%84%9c/</guid>
+      <guid>https://ezaurum.com/2010/08/%EC%BD%94%ED%95%80-%EB%8C%84%EC%84%9C/</guid>
       <description>제목	코핀댄서(전2권) - 암살자의 문신 저자	제프리디버 번역자	유소영 발행인	노블하우스, 2005 ISBN	8991207499, 9788991207493 길이	631페이지
 표지를 보기에도 미드, 읽어봐도 미드다. 반전이 약간 반칙성. 하지만 재미는 있다. 여주인공의 관절염이 약간 안습.
 35/150</description>
@@ -4526,10 +4526,10 @@ public class myTest {	@Test public void testCodes() throws Exception { System.ou
     
     <item>
       <title>69</title>
-      <link>https://ezaurum.com/reading/2010-08-02-69/</link>
+      <link>https://ezaurum.com/2010/08/69/</link>
       <pubDate>Mon, 02 Aug 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2010-08-02-69/</guid>
+      <guid>https://ezaurum.com/2010/08/69/</guid>
       <description>제목	69:sixty nine(69 식스티 나인 ) 저자	무라카미류 번역자	양억관 발행인	작가정신, 2004 ISBN	8972882267, 9788972882268 길이	276페이지
 즐거우면 장땡. 책 전체를 가로지르는 이야기다. 생각해 보면 무라카미 류의 책은 그리 많이 보질 않았다. 하루키는 꽤 취향에 맞았는데 말이지. 그건 그렇고 주인공의 생활은 꽤나 부럽다. 내키는 대로 살면서 혓바닥만 나불대고 있어. 누가 보기엔 나도 그렇게 사는지는 모르겠지만. 내 책은 그렇게 잘 팔리진 않는걸.
 31/150</description>
@@ -4537,10 +4537,10 @@ public class myTest {	@Test public void testCodes() throws Exception { System.ou
     
     <item>
       <title>三人三色 미학 오디세이</title>
-      <link>https://ezaurum.com/reading/2010-08-02-%e4%b8%89%e4%ba%ba%e4%b8%89%e8%89%b2-%eb%af%b8%ed%95%99-%ec%98%a4%eb%94%94%ec%84%b8%ec%9d%b4/</link>
+      <link>https://ezaurum.com/2010/08/%E4%B8%89%E4%BA%BA%E4%B8%89%E8%89%B2-%EB%AF%B8%ED%95%99-%EC%98%A4%EB%94%94%EC%84%B8%EC%9D%B4/</link>
       <pubDate>Mon, 02 Aug 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2010-08-02-%e4%b8%89%e4%ba%ba%e4%b8%89%e8%89%b2-%eb%af%b8%ed%95%99-%ec%98%a4%eb%94%94%ec%84%b8%ec%9d%b4/</guid>
+      <guid>https://ezaurum.com/2010/08/%E4%B8%89%E4%BA%BA%E4%B8%89%E8%89%B2-%EB%AF%B8%ED%95%99-%EC%98%A4%EB%94%94%EC%84%B8%EC%9D%B4/</guid>
       <description>제목	삼인삼색 미학 오디세이 세트(전3권) 저자	김태권 발행인	휴머니스트, 2006 ISBN	8958621060, 9788958621065 디 재밌음. 삼인삼색이라는 말 답게 세 권 모두 색깔이 분명히 다르다. 하나의 시리즈로 접근한다면 좀 곤란할 듯 싶기도 하고. 원작인 진중권의 미학 오디세이를 보고 싶게 만드는 물건이라는 점에서는 공통적이다.
 원작을 읽고 나서 다시 한 번 읽어봐야겠다.
 30/150</description>
@@ -4548,10 +4548,10 @@ public class myTest {	@Test public void testCodes() throws Exception { System.ou
     
     <item>
       <title>놀이와 인간</title>
-      <link>https://ezaurum.com/reading/2010-08-02-%eb%86%80%ec%9d%b4%ec%99%80-%ec%9d%b8%ea%b0%84/</link>
+      <link>https://ezaurum.com/2010/08/%EB%86%80%EC%9D%B4%EC%99%80-%EC%9D%B8%EA%B0%84/</link>
       <pubDate>Mon, 02 Aug 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2010-08-02-%eb%86%80%ec%9d%b4%ec%99%80-%ec%9d%b8%ea%b0%84/</guid>
+      <guid>https://ezaurum.com/2010/08/%EB%86%80%EC%9D%B4%EC%99%80-%EC%9D%B8%EA%B0%84/</guid>
       <description>제목	놀이와 인간 저자	로제카이와 번역자	이상률 발행인	문예출판사, 1994 ISBN	8931002335, 9788931002331 길이	318페이지
 재독 요망. 대충은 이해했는데 그걸로는 부족. 읽다 보니 이야기 소재가 하나 떠올랐다.
 17/150</description>
@@ -4559,10 +4559,10 @@ public class myTest {	@Test public void testCodes() throws Exception { System.ou
     
     <item>
       <title>당신의 뇌를 믿지 마라</title>
-      <link>https://ezaurum.com/reading/2010-08-02-%eb%8b%b9%ec%8b%a0%ec%9d%98-%eb%87%8c%eb%a5%bc-%eb%af%bf%ec%a7%80-%eb%a7%88%eb%9d%bc/</link>
+      <link>https://ezaurum.com/2010/08/%EB%8B%B9%EC%8B%A0%EC%9D%98-%EB%87%8C%EB%A5%BC-%EB%AF%BF%EC%A7%80-%EB%A7%88%EB%9D%BC/</link>
       <pubDate>Mon, 02 Aug 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2010-08-02-%eb%8b%b9%ec%8b%a0%ec%9d%98-%eb%87%8c%eb%a5%bc-%eb%af%bf%ec%a7%80-%eb%a7%88%eb%9d%bc/</guid>
+      <guid>https://ezaurum.com/2010/08/%EB%8B%B9%EC%8B%A0%EC%9D%98-%EB%87%8C%EB%A5%BC-%EB%AF%BF%EC%A7%80-%EB%A7%88%EB%9D%BC/</guid>
       <description>제목	당신의 뇌를 믿지 마라 저자	캐서린제이콥슨라민 번역자	이영미 발행인	흐름출판, 2008 ISBN	8990872472, 9788990872470 길이	328페이지
 건강염려증에 걸린 미국인이 스스로를 시험대에 올려서 건망증이 생기는 원인을 탐구해가는 이야기. 건망증의 원인은 65536가지쯤 있고, 따라서 해결책도 65536가지가 있다. 잠도 잘 자고 약도 먹어보고, 호르몬주사, 비타민, 신선식품, 수은이 없는 생선, 명상, 테트리스, 새로운 도전, 운동&amp;hellip; 해볼만 한 건 다 해 봐라. 하지만 알츠하이머에는 답이 없다.
 32/150</description>
@@ -4570,10 +4570,10 @@ public class myTest {	@Test public void testCodes() throws Exception { System.ou
     
     <item>
       <title>백색의 가면</title>
-      <link>https://ezaurum.com/reading/2010-08-02-%eb%b0%b1%ec%83%89%ec%9d%98-%ea%b0%80%eb%a9%b4/</link>
+      <link>https://ezaurum.com/2010/08/%EB%B0%B1%EC%83%89%EC%9D%98-%EA%B0%80%EB%A9%B4/</link>
       <pubDate>Mon, 02 Aug 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2010-08-02-%eb%b0%b1%ec%83%89%ec%9d%98-%ea%b0%80%eb%a9%b4/</guid>
+      <guid>https://ezaurum.com/2010/08/%EB%B0%B1%EC%83%89%EC%9D%98-%EA%B0%80%EB%A9%B4/</guid>
       <description>제목	백색의 가면 저자	딘 R.쿤츠 번역자	박주동 발행인	고려원, 1993 ISBN	8912111493, 9788912111496 길이	410페이지
 오래된 소설. 특별한 점은 발견되지 않지만 끝까지 읽을 만 했다. 아마 영화가 나왔으면 최소한 B+이상 급은 뽑아주지 않을까 싶은 물건. 마지막 결론은 약간 뜬금없었지만 그건 시대의 차이때문일지도. 이런 게 이쪽 소설이 갖춰야할 미덕일까. 하나 더 성과 비슷한 걸 꼽자면 옛날 번역이라 그런지 내 국어 실력이 모자라서인지 국어사전을 찾아볼 일이 생겼다는 정도일까.
 29/150</description>
@@ -4581,10 +4581,10 @@ public class myTest {	@Test public void testCodes() throws Exception { System.ou
     
     <item>
       <title>성계의 문장</title>
-      <link>https://ezaurum.com/reading/2010-08-02-%ec%84%b1%ea%b3%84%ec%9d%98-%eb%ac%b8%ec%9e%a5/</link>
+      <link>https://ezaurum.com/2010/08/%EC%84%B1%EA%B3%84%EC%9D%98-%EB%AC%B8%EC%9E%A5/</link>
       <pubDate>Mon, 02 Aug 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2010-08-02-%ec%84%b1%ea%b3%84%ec%9d%98-%eb%ac%b8%ec%9e%a5/</guid>
+      <guid>https://ezaurum.com/2010/08/%EC%84%B1%EA%B3%84%EC%9D%98-%EB%AC%B8%EC%9E%A5/</guid>
       <description>제목	성계의 문장. 1: 제국의 왕녀 저자	모리오카히로유키 번역자	김영종 발행인	대원씨아이(주), 2010 ISBN	8925262916, 9788925262918 길이	306페이지
 고교때 은하전기라는 책으로 처음 접했다. 2권부터라는 치명적인 문제가 있기는 했지만 신선한 설정-2차원 함대전을 하고 싶다고 말하는 듯한 평면우주,더듬이가 달린 미남미녀 종족&amp;hellip;-과 생동감 넘치는 캐릭터- 거기다 히로인은 파란머리. 아니 이건 상관없나. 여하튼 밝고 상큼한 모험물인데, 이번에 나온 것의 치명적 문제라면 역시 번역? 2권에서 좀 실망하고 3권에서 그냥 원판살걸 하고 있다.
 19/150</description>
@@ -4626,10 +4626,10 @@ background:yellow; } &amp;lt;/style&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&a
     
     <item>
       <title>알콩달콩 경제학(만화로 읽는)</title>
-      <link>https://ezaurum.com/reading/2010-07-30-%ec%95%8c%ec%bd%a9%eb%8b%ac%ec%bd%a9-%ea%b2%bd%ec%a0%9c%ed%95%99%eb%a7%8c%ed%99%94%eb%a1%9c-%ec%9d%bd%eb%8a%94/</link>
+      <link>https://ezaurum.com/2010/07/%EC%95%8C%EC%BD%A9%EB%8B%AC%EC%BD%A9-%EA%B2%BD%EC%A0%9C%ED%95%99%EB%A7%8C%ED%99%94%EB%A1%9C-%EC%9D%BD%EB%8A%94/</link>
       <pubDate>Fri, 30 Jul 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2010-07-30-%ec%95%8c%ec%bd%a9%eb%8b%ac%ec%bd%a9-%ea%b2%bd%ec%a0%9c%ed%95%99%eb%a7%8c%ed%99%94%eb%a1%9c-%ec%9d%bd%eb%8a%94/</guid>
+      <guid>https://ezaurum.com/2010/07/%EC%95%8C%EC%BD%A9%EB%8B%AC%EC%BD%A9-%EA%B2%BD%EC%A0%9C%ED%95%99%EB%A7%8C%ED%99%94%EB%A1%9C-%EC%9D%BD%EB%8A%94/</guid>
       <description>제목	알콩달콩 경제학(만화로 읽는) 저자	정갑영 발행인	21세기북스, 2009 ISBN	8950921170, 9788950921170 길이	323페이지
 일단 만화로 되어 있어서 술술 넘어간다는 것이 장점. 사실 경제라고 하면 내 지갑안의 돈 밖에는 생각나지 않는 인간이라도 술술 보다보면 경제뉴스를 보면서 어느 정도 감은 잡을 수 있는 정도의 물건.
 여기 나오는 내용들이 교양이 아니라 가까운 현실로 와 닿으면 좋겠다.
@@ -4638,10 +4638,10 @@ background:yellow; } &amp;lt;/style&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&a
     
     <item>
       <title>이기는 습관</title>
-      <link>https://ezaurum.com/reading/2010-07-29-%ec%9d%b4%ea%b8%b0%eb%8a%94-%ec%8a%b5%ea%b4%80/</link>
+      <link>https://ezaurum.com/2010/07/%EC%9D%B4%EA%B8%B0%EB%8A%94-%EC%8A%B5%EA%B4%80/</link>
       <pubDate>Thu, 29 Jul 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2010-07-29-%ec%9d%b4%ea%b8%b0%eb%8a%94-%ec%8a%b5%ea%b4%80/</guid>
+      <guid>https://ezaurum.com/2010/07/%EC%9D%B4%EA%B8%B0%EB%8A%94-%EC%8A%B5%EA%B4%80/</guid>
       <description>제목	이기는습관 저자	전옥표 발행인	쌤앤파커스, 2007 ISBN:8995881607, 9788995881606 길이	293페이지
 자기계발서. 깔끔하고 이대로 하면 뭐든 된다라고 말하는 다른 책과는 달리 약간 사람 냄새가 난다. 사실 거의 제목에 낚여서 본 책. 되는 놈은 계속 되고, 안 되는 놈은 계속 안 되는 것도 어찌 보면 습관이라는 생각이 든다. 그런 의미로 이기는 습관을 좀 들여 보자. 나한테도, 세상한테도.
 27/150</description>
@@ -4660,10 +4660,10 @@ background:yellow; } &amp;lt;/style&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&a
     
     <item>
       <title>뇌 아름다움을 말하다</title>
-      <link>https://ezaurum.com/reading/2010-07-22-%eb%87%8c-%ec%95%84%eb%a6%84%eb%8b%a4%ec%9b%80%ec%9d%84-%eb%a7%90%ed%95%98%eb%8b%a4/</link>
+      <link>https://ezaurum.com/2010/07/%EB%87%8C-%EC%95%84%EB%A6%84%EB%8B%A4%EC%9B%80%EC%9D%84-%EB%A7%90%ED%95%98%EB%8B%A4/</link>
       <pubDate>Thu, 22 Jul 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2010-07-22-%eb%87%8c-%ec%95%84%eb%a6%84%eb%8b%a4%ec%9b%80%ec%9d%84-%eb%a7%90%ed%95%98%eb%8b%a4/</guid>
+      <guid>https://ezaurum.com/2010/07/%EB%87%8C-%EC%95%84%EB%A6%84%EB%8B%A4%EC%9B%80%EC%9D%84-%EB%A7%90%ED%95%98%EB%8B%A4/</guid>
       <description>지상현 해나무 2005 248쪽 ISBN:9788989799443
 아름다움을 느끼는 원리에 대해 과학적으로 접근한 책. 나처럼 감각적으로 잘 못느끼는 사람들에게 도움이 될 것 같다. 요즘 읽는 중인 三人三色미학 오디세이와 함께 보니 더욱 괜찮다.
 26/150</description>
@@ -4699,10 +4699,10 @@ background:yellow; } &amp;lt;/style&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&a
     
     <item>
       <title>국어실력이 밥 먹여 준다</title>
-      <link>https://ezaurum.com/reading/2010-07-15-%ea%b5%ad%ec%96%b4%ec%8b%a4%eb%a0%a5%ec%9d%b4-%eb%b0%a5-%eb%a8%b9%ec%97%ac-%ec%a4%80%eb%8b%a4/</link>
+      <link>https://ezaurum.com/2010/07/%EA%B5%AD%EC%96%B4%EC%8B%A4%EB%A0%A5%EC%9D%B4-%EB%B0%A5-%EB%A8%B9%EC%97%AC-%EC%A4%80%EB%8B%A4/</link>
       <pubDate>Thu, 15 Jul 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2010-07-15-%ea%b5%ad%ec%96%b4%ec%8b%a4%eb%a0%a5%ec%9d%b4-%eb%b0%a5-%eb%a8%b9%ec%97%ac-%ec%a4%80%eb%8b%a4/</guid>
+      <guid>https://ezaurum.com/2010/07/%EA%B5%AD%EC%96%B4%EC%8B%A4%EB%A0%A5%EC%9D%B4-%EB%B0%A5-%EB%A8%B9%EC%97%AC-%EC%A4%80%EB%8B%A4/</guid>
       <description>제목	국어실력이 밥먹여준다 저자	김경원 삽화가	김향희 발행인	유토피아, 2007 ISBN	8991645208, 9788991645202
 내용 한 줄 요약 - 한국어 뉘앙스 해설집.
 결론 - 좋다.
@@ -4720,10 +4720,10 @@ background:yellow; } &amp;lt;/style&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&a
     
     <item>
       <title>단순하게 살아라</title>
-      <link>https://ezaurum.com/reading/2010-07-14-%eb%8b%a8%ec%88%9c%ed%95%98%ea%b2%8c-%ec%82%b4%ec%95%84%eb%9d%bc/</link>
+      <link>https://ezaurum.com/2010/07/%EB%8B%A8%EC%88%9C%ED%95%98%EA%B2%8C-%EC%82%B4%EC%95%84%EB%9D%BC/</link>
       <pubDate>Wed, 14 Jul 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2010-07-14-%eb%8b%a8%ec%88%9c%ed%95%98%ea%b2%8c-%ec%82%b4%ec%95%84%eb%9d%bc/</guid>
+      <guid>https://ezaurum.com/2010/07/%EB%8B%A8%EC%88%9C%ED%95%98%EA%B2%8C-%EC%82%B4%EC%95%84%EB%9D%BC/</guid>
       <description>ISBN8934911360 저자	베르너티키퀴스텐마허 번역자	유혜자
 단순하게 살기 위해서는 복잡한 규칙을 잘 지켜야 한다는 가르침을 주는 책.
 여튼 많은 자기계발서는 선택과 집중에 대해 이야기 하고 있다.
@@ -4733,10 +4733,10 @@ background:yellow; } &amp;lt;/style&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&a
     
     <item>
       <title>마미야 형제</title>
-      <link>https://ezaurum.com/reading/2010-07-08-%eb%a7%88%eb%af%b8%ec%95%bc-%ed%98%95%ec%a0%9c/</link>
+      <link>https://ezaurum.com/2010/07/%EB%A7%88%EB%AF%B8%EC%95%BC-%ED%98%95%EC%A0%9C/</link>
       <pubDate>Thu, 08 Jul 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2010-07-08-%eb%a7%88%eb%af%b8%ec%95%bc-%ed%98%95%ec%a0%9c/</guid>
+      <guid>https://ezaurum.com/2010/07/%EB%A7%88%EB%AF%B8%EC%95%BC-%ED%98%95%EC%A0%9C/</guid>
       <description>에쿠니 가오리 저
 보는 내내 가슴이 짠하고 울렸다. 감정이입이 심하게 되는, 내 미래의 모습 같은 느낌이랄까. 그리 멀지도 않네.
 &amp;hellip;그래 연애 따위 안 해도 재미있는 거야 많지.
@@ -4746,10 +4746,10 @@ background:yellow; } &amp;lt;/style&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&a
     
     <item>
       <title>블루 데이 북</title>
-      <link>https://ezaurum.com/reading/2010-07-08-%eb%b8%94%eb%a3%a8-%eb%8d%b0%ec%9d%b4-%eb%b6%81/</link>
+      <link>https://ezaurum.com/2010/07/%EB%B8%94%EB%A3%A8-%EB%8D%B0%EC%9D%B4-%EB%B6%81/</link>
       <pubDate>Thu, 08 Jul 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2010-07-08-%eb%b8%94%eb%a3%a8-%eb%8d%b0%ec%9d%b4-%eb%b6%81/</guid>
+      <guid>https://ezaurum.com/2010/07/%EB%B8%94%EB%A3%A8-%EB%8D%B0%EC%9D%B4-%EB%B6%81/</guid>
       <description>여기저기 사진들이 떠돌았기 때문에 두번 보는 기분으로 봤다.
 내용은 그리 감동스럽지는 않았지만, 사진과 문구의 절묘한 매치가 좋았다.
 이런 감각을 좀 키우고 싶다는 생각을 들게 해 주는 책.
@@ -4759,10 +4759,10 @@ background:yellow; } &amp;lt;/style&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&a
     
     <item>
       <title>에너지 버스</title>
-      <link>https://ezaurum.com/reading/2010-07-08-%ec%97%90%eb%84%88%ec%a7%80-%eb%b2%84%ec%8a%a4/</link>
+      <link>https://ezaurum.com/2010/07/%EC%97%90%EB%84%88%EC%A7%80-%EB%B2%84%EC%8A%A4/</link>
       <pubDate>Thu, 08 Jul 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2010-07-08-%ec%97%90%eb%84%88%ec%a7%80-%eb%b2%84%ec%8a%a4/</guid>
+      <guid>https://ezaurum.com/2010/07/%EC%97%90%EB%84%88%EC%A7%80-%EB%B2%84%EC%8A%A4/</guid>
       <description>자대 와서 대기기간에 읽음.
 좋은 말이 쓰여져 있다. 그 때 자기계발서 여러권을 한번에 읽어서 솔직히 어느 책이 어떤 얘기를 한 건지는 기억이 잘 안 난다.
 중요한 것은 주도적으로 임할 것. 상황을 긍정적으로 대할 것 정도?
@@ -4772,10 +4772,10 @@ background:yellow; } &amp;lt;/style&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&a
     
     <item>
       <title>오타쿠</title>
-      <link>https://ezaurum.com/reading/2010-07-08-%ec%98%a4%ed%83%80%ec%bf%a0/</link>
+      <link>https://ezaurum.com/2010/07/%EC%98%A4%ED%83%80%EC%BF%A0/</link>
       <pubDate>Thu, 08 Jul 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2010-07-08-%ec%98%a4%ed%83%80%ec%bf%a0/</guid>
+      <guid>https://ezaurum.com/2010/07/%EC%98%A4%ED%83%80%EC%BF%A0/</guid>
       <description>제목 그대로 오타쿠에 대한 책 책 진행도 오타쿠스럽다. 애니메이션-실제로는 영상매체 전반-의 오타쿠스런 감상법에 대한 내용이 글쓰기에도 도움이 될 듯.
 22/150</description>
     </item>
@@ -4791,10 +4791,10 @@ background:yellow; } &amp;lt;/style&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&a
     
     <item>
       <title>바람의 화원</title>
-      <link>https://ezaurum.com/reading/2010-07-05-%eb%b0%94%eb%9e%8c%ec%9d%98-%ed%99%94%ec%9b%90/</link>
+      <link>https://ezaurum.com/2010/07/%EB%B0%94%EB%9E%8C%EC%9D%98-%ED%99%94%EC%9B%90/</link>
       <pubDate>Mon, 05 Jul 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2010-07-05-%eb%b0%94%eb%9e%8c%ec%9d%98-%ed%99%94%ec%9b%90/</guid>
+      <guid>https://ezaurum.com/2010/07/%EB%B0%94%EB%9E%8C%EC%9D%98-%ED%99%94%EC%9B%90/</guid>
       <description>자대 와서 대기기간에 읽었었음.
 문근영이 이뻐서 본 드라마의 원작이라 봄. 그럭저럭 괜찮은 정도? 소재도 신선하고 전체적인 구성도 짜임새 있어 좋았다.
 드라마와는 대동소이 하지만 역시 비쥬얼이 없으니 좀 보기 팍팍하다는 정도.
@@ -4804,10 +4804,10 @@ background:yellow; } &amp;lt;/style&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&a
     
     <item>
       <title>은하영웅전설</title>
-      <link>https://ezaurum.com/reading/2010-07-05-%ec%9d%80%ed%95%98%ec%98%81%ec%9b%85%ec%a0%84%ec%84%a4/</link>
+      <link>https://ezaurum.com/2010/07/%EC%9D%80%ED%95%98%EC%98%81%EC%9B%85%EC%A0%84%EC%84%A4/</link>
       <pubDate>Mon, 05 Jul 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2010-07-05-%ec%9d%80%ed%95%98%ec%98%81%ec%9b%85%ec%a0%84%ec%84%a4/</guid>
+      <guid>https://ezaurum.com/2010/07/%EC%9D%80%ED%95%98%EC%98%81%EC%9B%85%EC%A0%84%EC%84%A4/</guid>
       <description>처음 글을 쓰게 된 계기는, 친구가 퇴마록을 보고 쓰고있던 아틀란티스 뭐시기라는 퇴마 경찰물? 그런 거였다.
 하지만 제대로 글을 쓰게 된 건 역시 은영전을 보고나서가 아닐까.
 아직도 그때 쓰던 글은 마무리는 커녕 한 권 분량도 나오지 않았지만&amp;hellip;
@@ -4885,10 +4885,10 @@ ZPD에 대한 생각을 하게 되었다.
     
     <item>
       <title>2009년 9월 21일 이후 읽은 것들</title>
-      <link>https://ezaurum.com/reading/2010-06-14-2009%eb%85%84-9%ec%9b%94-21%ec%9d%bc-%ec%9d%b4%ed%9b%84-%ec%9d%bd%ec%9d%80-%ea%b2%83%eb%93%a4/</link>
+      <link>https://ezaurum.com/2010/06/2009%EB%85%84-9%EC%9B%94-21%EC%9D%BC-%EC%9D%B4%ED%9B%84-%EC%9D%BD%EC%9D%80-%EA%B2%83%EB%93%A4/</link>
       <pubDate>Mon, 14 Jun 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2010-06-14-2009%eb%85%84-9%ec%9b%94-21%ec%9d%bc-%ec%9d%b4%ed%9b%84-%ec%9d%bd%ec%9d%80-%ea%b2%83%eb%93%a4/</guid>
+      <guid>https://ezaurum.com/2010/06/2009%EB%85%84-9%EC%9B%94-21%EC%9D%BC-%EC%9D%B4%ED%9B%84-%EC%9D%BD%EC%9D%80-%EA%B2%83%EB%93%A4/</guid>
       <description>생각나는 대로 기록.
 &amp;lt;li&amp;gt;세계대전Z&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;당신 인생의 이야기&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;1Q84&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;살육에 이르는 병&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;프로페셔널의 조건&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;불안&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;개를 훔치는 완벽한 방법&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;사랑하기 때문에&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;호모 루덴스&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;노인들의 전쟁&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;용의자 X의 헌신&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;타워&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;흐르는 강물처럼&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;내 영혼이 따뜻했던 날들&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;헬릭스&amp;lt;/li&amp;gt;&amp;lt;/ol&amp;gt; 가장 권수가 많은 만화책은 제외. 한 번에 다 읽는 종류가 아닌 기술서적도 제외. 총 15권. 비소설(에세이 포함)-또는 교양서로 분류할 만한 것은 2권. 좀 더 심정적 분류법으로는 1권. &amp;hellip;.이거 좀 편중되어 있는데&amp;hellip;.
 군 제대 전에 150권 독파를 목표로 하고 가 보겠음.</description>
@@ -4918,10 +4918,10 @@ ZPD에 대한 생각을 하게 되었다.
     
     <item>
       <title>세계대전Z</title>
-      <link>https://ezaurum.com/reading/2010-05-16-%ec%84%b8%ea%b3%84%eb%8c%80%ec%a0%84z/</link>
+      <link>https://ezaurum.com/2010/05/%EC%84%B8%EA%B3%84%EB%8C%80%EC%A0%84Z/</link>
       <pubDate>Sun, 16 May 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2010-05-16-%ec%84%b8%ea%b3%84%eb%8c%80%ec%a0%84z/</guid>
+      <guid>https://ezaurum.com/2010/05/%EC%84%B8%EA%B3%84%EB%8C%80%EC%A0%84Z/</guid>
       <description>상민이한테서 빌려봄. ISBN(13자리) : 9788960171961
 좀비물이라고 되어 있지만, 중요한 것은 좀비가 아니다. 사람이지.
 어떻게 이런 생각을 할 수 있을까 싶을 정도로 참신했다.</description>

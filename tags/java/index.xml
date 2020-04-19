@@ -14,20 +14,20 @@
     
     <item>
       <title>java에서 arraylist 삭제하는 방법</title>
-      <link>https://ezaurum.com/recipe/2013-11-24-remove-arraylist-in-java/</link>
+      <link>https://ezaurum.com/2013/11/java%EC%97%90%EC%84%9C-arraylist-%EC%82%AD%EC%A0%9C%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/</link>
       <pubDate>Sun, 24 Nov 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/recipe/2013-11-24-remove-arraylist-in-java/</guid>
+      <guid>https://ezaurum.com/2013/11/java%EC%97%90%EC%84%9C-arraylist-%EC%82%AD%EC%A0%9C%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/</guid>
       <description>iterator를 사용한다.
 참고 - removeAlll은 hashset과 arrayList가 구현이 다르게 되어 있다.</description>
     </item>
     
     <item>
       <title>jaxb 로 xsd를 java class로 만들 때</title>
-      <link>https://ezaurum.com/recipe/2013-08-21-jaxb-%eb%a1%9c-xsd%eb%a5%bc-java-class%eb%a1%9c-%eb%a7%8c%eb%93%a4-%eb%95%8c/</link>
+      <link>https://ezaurum.com/2013/08/jaxb-%EB%A1%9C-xsd%EB%A5%BC-java-class%EB%A1%9C-%EB%A7%8C%EB%93%A4-%EB%95%8C/</link>
       <pubDate>Wed, 21 Aug 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/recipe/2013-08-21-jaxb-%eb%a1%9c-xsd%eb%a5%bc-java-class%eb%a1%9c-%eb%a7%8c%eb%93%a4-%eb%95%8c/</guid>
+      <guid>https://ezaurum.com/2013/08/jaxb-%EB%A1%9C-xsd%EB%A5%BC-java-class%EB%A1%9C-%EB%A7%8C%EB%93%A4-%EB%95%8C/</guid>
       <description>상속되는 객체가 제대로 만들어지지 않는다면, mixed=&amp;quot;true&amp;quot;를 없애보라</description>
     </item>
     
@@ -73,10 +73,10 @@ dependencies { def springSecurityVersion = &amp;ldquo;3.1.4.RELEASE&amp;rdquo; c
     
     <item>
       <title>웹 프로그래머를 위한 서블릿 컨테이너의 이해</title>
-      <link>https://ezaurum.com/reading/2013-05-09-2078/</link>
+      <link>https://ezaurum.com/2013/05/%EC%9B%B9-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EB%A5%BC-%EC%9C%84%ED%95%9C-%EC%84%9C%EB%B8%94%EB%A6%BF-%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88%EC%9D%98-%EC%9D%B4%ED%95%B4/</link>
       <pubDate>Thu, 09 May 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2013-05-09-2078/</guid>
+      <guid>https://ezaurum.com/2013/05/%EC%9B%B9-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EB%A5%BC-%EC%9C%84%ED%95%9C-%EC%84%9C%EB%B8%94%EB%A6%BF-%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88%EC%9D%98-%EC%9D%B4%ED%95%B4/</guid>
       <description>이 책의 감상문 쓰기 이벤트에 응모해서 쓴 감상. 웹 개발자로서 일을 하면서도 항상 이 서블렛이라는 게 찜찜했다. 얘도 분명히 JVM에서 돌아가는 프로그램일 뿐인데, 어쩐지 콘솔 프로그램과는 전혀 다른 규칙이 적용되는 것 같고, 시원스레 설명된 책도 찾기 힘들었다. 그래서 문제가 생기면 장님 문고리 잡듯 어찌어찌 해결해 왔는데, 하고도 찜찜했다. 마치 콘솔 프로그램과 웹 프로그램 사이에는 깊은 서블릿이라는 강이 펼쳐져 있는데 눈을 감았다 뜨면 건너편으로 건너만 갈 수 있을 뿐, 강은 한 번도 보지 못한 것과 같았다.</description>
     </item>
     

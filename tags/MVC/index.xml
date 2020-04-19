@@ -24,10 +24,10 @@
     
     <item>
       <title>Spring mvc에서 로직에 이상이 없는데 406에러가 날 때</title>
-      <link>https://ezaurum.com/recipe/2013-07-22-spring-mvc%ec%97%90%ec%84%9c-%eb%a1%9c%ec%a7%81%ec%97%90-%ec%9d%b4%ec%83%81%ec%9d%b4-%ec%97%86%eb%8a%94%eb%8d%b0-406%ec%97%90%eb%9f%ac%ea%b0%80-%eb%82%a0-%eb%95%8c/</link>
+      <link>https://ezaurum.com/2013/07/Spring-mvc%EC%97%90%EC%84%9C-%EB%A1%9C%EC%A7%81%EC%97%90-%EC%9D%B4%EC%83%81%EC%9D%B4-%EC%97%86%EB%8A%94%EB%8D%B0-406%EC%97%90%EB%9F%AC%EA%B0%80-%EB%82%A0-%EB%95%8C/</link>
       <pubDate>Mon, 22 Jul 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/recipe/2013-07-22-spring-mvc%ec%97%90%ec%84%9c-%eb%a1%9c%ec%a7%81%ec%97%90-%ec%9d%b4%ec%83%81%ec%9d%b4-%ec%97%86%eb%8a%94%eb%8d%b0-406%ec%97%90%eb%9f%ac%ea%b0%80-%eb%82%a0-%eb%95%8c/</guid>
+      <guid>https://ezaurum.com/2013/07/Spring-mvc%EC%97%90%EC%84%9C-%EB%A1%9C%EC%A7%81%EC%97%90-%EC%9D%B4%EC%83%81%EC%9D%B4-%EC%97%86%EB%8A%94%EB%8D%B0-406%EC%97%90%EB%9F%AC%EA%B0%80-%EB%82%A0-%EB%95%8C/</guid>
       <description>JSON변환 중, 필드의 jsonProperty가 서로 겹치면 406이 뜬다.</description>
     </item>
     
@@ -42,10 +42,10 @@
     
     <item>
       <title>spring에서 enum을 select로 매핑</title>
-      <link>https://ezaurum.com/recipe/2012-07-22-enum-mapping-to-select-by-spring/</link>
+      <link>https://ezaurum.com/2012/07/spring%EC%97%90%EC%84%9C-enum%EC%9D%84-select%EB%A1%9C-%EB%A7%A4%ED%95%91/</link>
       <pubDate>Sun, 22 Jul 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/recipe/2012-07-22-enum-mapping-to-select-by-spring/</guid>
+      <guid>https://ezaurum.com/2012/07/spring%EC%97%90%EC%84%9C-enum%EC%9D%84-select%EB%A1%9C-%EB%A7%A4%ED%95%91/</guid>
       <description>enum안에 desc라는 이름으로 label이 붙어 있는 경우.
 &amp;lt;form:select path=&amp;quot;status&amp;rdquo;&amp;gt; &amp;lt;form:options itemLabel=&amp;quot;desc&amp;rdquo;/&amp;gt; &amp;lt;/form:select&amp;gt;</description>
     </item>

@@ -14,10 +14,10 @@
     
     <item>
       <title>mysql 사용자 추가</title>
-      <link>https://ezaurum.com/recipe/create-mysql-user/</link>
+      <link>https://ezaurum.com/2020/04/mysql-%EC%82%AC%EC%9A%A9%EC%9E%90-%EC%B6%94%EA%B0%80/</link>
       <pubDate>Fri, 03 Apr 2020 19:44:59 +0900</pubDate>
       
-      <guid>https://ezaurum.com/recipe/create-mysql-user/</guid>
+      <guid>https://ezaurum.com/2020/04/mysql-%EC%82%AC%EC%9A%A9%EC%9E%90-%EC%B6%94%EA%B0%80/</guid>
       <description>목적 mysql 사용자 및 DB 추가
 CREATE DATABASE example; CREATE USER &amp;#39;user_name&amp;#39;@&amp;#39;%&amp;#39; IDENTIFIED BY &amp;#39;pass-word&amp;#39;; GRANT ALL PRIVILEGES ON example.* TO &amp;#39;user_name&amp;#39;@&amp;#39;%&amp;#39;; </description>
     </item>

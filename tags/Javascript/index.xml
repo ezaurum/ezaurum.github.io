@@ -14,28 +14,28 @@
     
     <item>
       <title>Vue에서 form 조건부 validation</title>
-      <link>https://ezaurum.com/recipe/conditional-validation-vue/</link>
+      <link>https://ezaurum.com/2020/03/Vue%EC%97%90%EC%84%9C-form-%EC%A1%B0%EA%B1%B4%EB%B6%80-validation/</link>
       <pubDate>Thu, 26 Mar 2020 02:00:18 +0900</pubDate>
       
-      <guid>https://ezaurum.com/recipe/conditional-validation-vue/</guid>
+      <guid>https://ezaurum.com/2020/03/Vue%EC%97%90%EC%84%9C-form-%EC%A1%B0%EA%B1%B4%EB%B6%80-validation/</guid>
       <description>Vue에서 특정 경우에만 나타나는 항목에 대해 validation을 하려면, v-show말코 v-if를 써서 꺼버리면 validation 이 아예 돌지 않는다.</description>
     </item>
     
     <item>
       <title>커링</title>
-      <link>https://ezaurum.com/recipe/2014-12-25-%ec%bb%a4%eb%a7%81/</link>
+      <link>https://ezaurum.com/2014/12/%EC%BB%A4%EB%A7%81/</link>
       <pubDate>Thu, 25 Dec 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/recipe/2014-12-25-%ec%bb%a4%eb%a7%81/</guid>
+      <guid>https://ezaurum.com/2014/12/%EC%BB%A4%EB%A7%81/</guid>
       <description>자바스크립트에서 커링은 본래 함수와 인수를 유지하는 클로저로 구현된다. 참고 링크</description>
     </item>
     
     <item>
       <title>High Performance Javascript</title>
-      <link>https://ezaurum.com/reading/2011-11-05-high-performance-javascript/</link>
+      <link>https://ezaurum.com/2011/11/High-Performance-Javascript/</link>
       <pubDate>Sat, 05 Nov 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2011-11-05-high-performance-javascript/</guid>
+      <guid>https://ezaurum.com/2011/11/High-Performance-Javascript/</guid>
       <description>쿡북이라고 붙지는 않았는데, 쿡북같다. 필요한 거 바로 찾을 수 있을 만 하게 되어 있고, 설명이 상세하게 되어있는데도, 책이 얇고 작아서 좋다. 꽉 들어찬 느낌이다. 당연히 자바스크립트를 빠르게 만드는 방법에 대해 설명이 되어 있고, 알던 방법은 더 상세히, 체계적으로 알 수 있어서 좋고, 모르던 방법은 모르던 걸 알아서 좋다. 지금 큰 사이트들이 사용하고 있는 방법들의 집대성이랄까. 여튼 만족스럽고, 표지의 부엉이가 똘똘해 보인다.</description>
     </item>
     

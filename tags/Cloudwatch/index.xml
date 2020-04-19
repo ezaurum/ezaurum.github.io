@@ -14,10 +14,10 @@
     
     <item>
       <title>CLI로 클라우드 와치 로그 보기</title>
-      <link>https://ezaurum.com/recipe/cli-cloudwatch/</link>
+      <link>https://ezaurum.com/2020/03/CLI%EB%A1%9C-%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C-%EC%99%80%EC%B9%98-%EB%A1%9C%EA%B7%B8-%EB%B3%B4%EA%B8%B0/</link>
       <pubDate>Wed, 25 Mar 2020 09:44:59 +0900</pubDate>
       
-      <guid>https://ezaurum.com/recipe/cli-cloudwatch/</guid>
+      <guid>https://ezaurum.com/2020/03/CLI%EB%A1%9C-%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C-%EC%99%80%EC%B9%98-%EB%A1%9C%EA%B7%B8-%EB%B3%B4%EA%B8%B0/</guid>
       <description>목적 aws cli 로 cloudwatch 로그 보기 방법(윈도에서 awslogs가 안 먹을때)
  로그 그룹 이름으로 로그 스트림들을 얻어온다 aws logs describe-log-streams --log-group-name /log/group/name 받아온 JSON에서 logStreamName 을 찾아 필요한 log stream name 을 알아낸다. 찾은 log stream 으로 로그를 얻어온다. aws logs get-log-events --output text --log-group-name /log/group/name --log-stream-name 2019/10/01/[$LATEST]hash  </description>
     </item>

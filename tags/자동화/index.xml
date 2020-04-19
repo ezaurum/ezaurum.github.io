@@ -14,20 +14,20 @@
     
     <item>
       <title>능률적인 프로그래머 - 프로그래머 생산성의 비밀</title>
-      <link>https://ezaurum.com/reading/productive-programmer/</link>
+      <link>https://ezaurum.com/2013/03/%EB%8A%A5%EB%A5%A0%EC%A0%81%EC%9D%B8-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8-%EC%83%9D%EC%82%B0%EC%84%B1%EC%9D%98-%EB%B9%84%EB%B0%80/</link>
       <pubDate>Mon, 25 Mar 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/productive-programmer/</guid>
+      <guid>https://ezaurum.com/2013/03/%EB%8A%A5%EB%A5%A0%EC%A0%81%EC%9D%B8-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8-%EC%83%9D%EC%82%B0%EC%84%B1%EC%9D%98-%EB%B9%84%EB%B0%80/</guid>
       <description>딱 제목 그대로의 책. 생산성을 높일 수 있는 실질적인 방법을 알려준다. 몇 가지는 오래되어 쓸모 없어 보이는 것도 있지만 대부분 팁이 바로 적용가능한 것이고, 전반적인 자동화에 대한 관점만으로도 돈 값을 하는 물건이다.
 Don&amp;rsquo;t repeat yourself. </description>
     </item>
     
     <item>
       <title>지속적인 통합</title>
-      <link>https://ezaurum.com/reading/2011-08-25-%ec%a7%80%ec%86%8d%ec%a0%81%ec%9d%b8-%ed%86%b5%ed%95%a9/</link>
+      <link>https://ezaurum.com/2011/08/%EC%A7%80%EC%86%8D%EC%A0%81%EC%9D%B8-%ED%86%B5%ED%95%A9/</link>
       <pubDate>Thu, 25 Aug 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/reading/2011-08-25-%ec%a7%80%ec%86%8d%ec%a0%81%ec%9d%b8-%ed%86%b5%ed%95%a9/</guid>
+      <guid>https://ezaurum.com/2011/08/%EC%A7%80%EC%86%8D%EC%A0%81%EC%9D%B8-%ED%86%B5%ED%95%A9/</guid>
       <description>꿈결 같은 미래다. 유토피아의 모습을 보여주고 있는 책. 대충 CI가 뭔지부터 시작해서 실제 적용법, 무슨 툴을 써서 어떤 부분을 신경써서 구현해야 하는지를 이야기한다. JAVA, WEB 개발 중심. 근데 어렵다 OTL&amp;hellip; 설명이 어려운 게 아니라, 저걸 언제 다 해&amp;hellip; 난 Ant도 빌드랑 실행이랑 디플로이 밖에&amp;hellip; 어쨌든 조금씩 저런 방향을 도입하면 전체적으로 프로젝트 진행이 좋아질 것 같다&amp;hellip; 저런 거 가르쳐 줄 수 있는 회사로 가야겠군.</description>
     </item>
     
