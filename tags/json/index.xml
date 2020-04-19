@@ -35,28 +35,28 @@
     
     <item>
       <title>Spring mvc에서 로직에 이상이 없는데 406에러가 날 때</title>
-      <link>https://ezaurum.com/2013/07/Spring-mvc%EC%97%90%EC%84%9C-%EB%A1%9C%EC%A7%81%EC%97%90-%EC%9D%B4%EC%83%81%EC%9D%B4-%EC%97%86%EB%8A%94%EB%8D%B0-406%EC%97%90%EB%9F%AC%EA%B0%80-%EB%82%A0-%EB%95%8C/</link>
+      <link>https://ezaurum.com/recipe/2013-07-22-spring-mvc%ec%97%90%ec%84%9c-%eb%a1%9c%ec%a7%81%ec%97%90-%ec%9d%b4%ec%83%81%ec%9d%b4-%ec%97%86%eb%8a%94%eb%8d%b0-406%ec%97%90%eb%9f%ac%ea%b0%80-%eb%82%a0-%eb%95%8c/</link>
       <pubDate>Mon, 22 Jul 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2013/07/Spring-mvc%EC%97%90%EC%84%9C-%EB%A1%9C%EC%A7%81%EC%97%90-%EC%9D%B4%EC%83%81%EC%9D%B4-%EC%97%86%EB%8A%94%EB%8D%B0-406%EC%97%90%EB%9F%AC%EA%B0%80-%EB%82%A0-%EB%95%8C/</guid>
+      <guid>https://ezaurum.com/recipe/2013-07-22-spring-mvc%ec%97%90%ec%84%9c-%eb%a1%9c%ec%a7%81%ec%97%90-%ec%9d%b4%ec%83%81%ec%9d%b4-%ec%97%86%eb%8a%94%eb%8d%b0-406%ec%97%90%eb%9f%ac%ea%b0%80-%eb%82%a0-%eb%95%8c/</guid>
       <description>JSON변환 중, 필드의 jsonProperty가 서로 겹치면 406이 뜬다.</description>
     </item>
     
     <item>
       <title>controller에서 특정 메소드가 List을 반환할 때</title>
-      <link>https://ezaurum.com/2013/06/controller%EC%97%90%EC%84%9C-%ED%8A%B9%EC%A0%95-%EB%A9%94%EC%86%8C%EB%93%9C%EA%B0%80-List%EC%9D%84-%EB%B0%98%ED%99%98%ED%95%A0-%EB%95%8C/</link>
+      <link>https://ezaurum.com/recipe/2013-06-25-controller%ec%97%90%ec%84%9c-%ed%8a%b9%ec%a0%95-%eb%a9%94%ec%86%8c%eb%93%9c%ea%b0%80-list%ec%9d%84-%eb%b0%98%ed%99%98%ed%95%a0-%eb%95%8c/</link>
       <pubDate>Tue, 25 Jun 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2013/06/controller%EC%97%90%EC%84%9C-%ED%8A%B9%EC%A0%95-%EB%A9%94%EC%86%8C%EB%93%9C%EA%B0%80-List%EC%9D%84-%EB%B0%98%ED%99%98%ED%95%A0-%EB%95%8C/</guid>
+      <guid>https://ezaurum.com/recipe/2013-06-25-controller%ec%97%90%ec%84%9c-%ed%8a%b9%ec%a0%95-%eb%a9%94%ec%86%8c%eb%93%9c%ea%b0%80-list%ec%9d%84-%eb%b0%98%ed%99%98%ed%95%a0-%eb%95%8c/</guid>
       <description>@ResponseBody를 안 붙여 주면 [&amp;ldquo;bla&amp;rdquo;,&amp;ldquo;bla&amp;rdquo;]꼴이 아니라 {&amp;ldquo;stringList&amp;rdquo;:[&amp;ldquo;bloa&amp;rdquo;,&amp;ldquo;bloa&amp;rdquo;] 꼴로 반환된다.</description>
     </item>
     
     <item>
       <title>json 요청 보내기</title>
-      <link>https://ezaurum.com/2013/05/json-%EC%9A%94%EC%B2%AD-%EB%B3%B4%EB%82%B4%EA%B8%B0/</link>
+      <link>https://ezaurum.com/recipe/2013-05-16-send-json-request/</link>
       <pubDate>Thu, 16 May 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2013/05/json-%EC%9A%94%EC%B2%AD-%EB%B3%B4%EB%82%B4%EA%B8%B0/</guid>
+      <guid>https://ezaurum.com/recipe/2013-05-16-send-json-request/</guid>
       <description>curl -v -H &amp;ldquo;Accept: application/json&amp;rdquo; -H &amp;ldquo;Content-type: application/json&amp;rdquo; -X POST -d &amp;lsquo;{&amp;ldquo;email&amp;rdquo;:&amp;ldquo;abesteail@mailcom&amp;rdquo;,&amp;ldquo;password&amp;rdquo;:&amp;ldquo;234234&amp;rdquo;}&amp;rsquo; http://localhost:8080/json</description>
     </item>
     

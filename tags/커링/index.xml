@@ -14,10 +14,10 @@
     
     <item>
       <title>커링</title>
-      <link>https://ezaurum.com/2014/12/%EC%BB%A4%EB%A7%81/</link>
+      <link>https://ezaurum.com/recipe/2014-12-25-%ec%bb%a4%eb%a7%81/</link>
       <pubDate>Thu, 25 Dec 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2014/12/%EC%BB%A4%EB%A7%81/</guid>
+      <guid>https://ezaurum.com/recipe/2014-12-25-%ec%bb%a4%eb%a7%81/</guid>
       <description>자바스크립트에서 커링은 본래 함수와 인수를 유지하는 클로저로 구현된다. 참고 링크</description>
     </item>
     

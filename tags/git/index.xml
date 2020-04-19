@@ -24,19 +24,19 @@
     
     <item>
       <title>git 현재 날짜로 번들 만들어서 지정 디렉토리로 이동하는 스크립트</title>
-      <link>https://ezaurum.com/2013/11/git-%ED%98%84%EC%9E%AC-%EB%82%A0%EC%A7%9C%EB%A1%9C-%EB%B2%88%EB%93%A4-%EB%A7%8C%EB%93%A4%EC%96%B4%EC%84%9C-%EC%A7%80%EC%A0%95-%EB%94%94%EB%A0%89%ED%86%A0%EB%A6%AC%EB%A1%9C-%EC%9D%B4%EB%8F%99%ED%95%98%EB%8A%94-%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8/</link>
+      <link>https://ezaurum.com/recipe/2013-11-24-move-today-git-bundle-to-backup/</link>
       <pubDate>Sun, 24 Nov 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2013/11/git-%ED%98%84%EC%9E%AC-%EB%82%A0%EC%A7%9C%EB%A1%9C-%EB%B2%88%EB%93%A4-%EB%A7%8C%EB%93%A4%EC%96%B4%EC%84%9C-%EC%A7%80%EC%A0%95-%EB%94%94%EB%A0%89%ED%86%A0%EB%A6%AC%EB%A1%9C-%EC%9D%B4%EB%8F%99%ED%95%98%EB%8A%94-%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8/</guid>
+      <guid>https://ezaurum.com/recipe/2013-11-24-move-today-git-bundle-to-backup/</guid>
       <description>date +%Y%m%d | xargs -i{} git bundle create {}.bundle &amp;ndash;all ; mv *.bundle [대상 디렉토리]</description>
     </item>
     
     <item>
       <title>Git에서 특정파일 임시로 커밋내역에서 제외하기</title>
-      <link>https://ezaurum.com/2013/11/Git%EC%97%90%EC%84%9C-%ED%8A%B9%EC%A0%95%ED%8C%8C%EC%9D%BC-%EC%9E%84%EC%8B%9C%EB%A1%9C-%EC%BB%A4%EB%B0%8B%EB%82%B4%EC%97%AD%EC%97%90%EC%84%9C-%EC%A0%9C%EC%99%B8%ED%95%98%EA%B8%B0/</link>
+      <link>https://ezaurum.com/recipe/2013-11-24-git%ec%97%90%ec%84%9c-%ed%8a%b9%ec%a0%95%ed%8c%8c%ec%9d%bc-%ec%9e%84%ec%8b%9c%eb%a1%9c-%ec%bb%a4%eb%b0%8b%eb%82%b4%ec%97%ad%ec%97%90%ec%84%9c-%ec%a0%9c%ec%99%b8%ed%95%98%ea%b8%b0/</link>
       <pubDate>Sun, 24 Nov 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2013/11/Git%EC%97%90%EC%84%9C-%ED%8A%B9%EC%A0%95%ED%8C%8C%EC%9D%BC-%EC%9E%84%EC%8B%9C%EB%A1%9C-%EC%BB%A4%EB%B0%8B%EB%82%B4%EC%97%AD%EC%97%90%EC%84%9C-%EC%A0%9C%EC%99%B8%ED%95%98%EA%B8%B0/</guid>
+      <guid>https://ezaurum.com/recipe/2013-11-24-git%ec%97%90%ec%84%9c-%ed%8a%b9%ec%a0%95%ed%8c%8c%ec%9d%bc-%ec%9e%84%ec%8b%9c%eb%a1%9c-%ec%bb%a4%eb%b0%8b%eb%82%b4%ec%97%ad%ec%97%90%ec%84%9c-%ec%a0%9c%ec%99%b8%ed%95%98%ea%b8%b0/</guid>
       <description>출처  http://blog.outsider.ne.kr/817 스택오버플로우 FallenGameR&amp;rsquo;s blog  Unity3D로 공동작업을 하다 보면 meta파일이 많이 생기고, 뭐 잠깐 이쪽에서 고쳐보고 싶은데 하던 작업 중에 일부는 또 올려야 할 때가 있고해서 골치 아플 때 유용함. local 에만 적용해야 하는 환경파일 수정할 때도 유용
 리모트 파일이 바뀌어서 pull을 할 때 주의점 기본적으로 컨플릭트가 나고, 해결 방법이 다르다
  assumed-unchanged - stash 가능하지만, stash 하면 데이터 날아감 skip-worktree - stash 불가능, 플래그 꺼 줘야 함  git reset --hard를 하는 경우 주의점 결국 둘 다 파일은 바뀐다.</description>
@@ -53,28 +53,28 @@
     
     <item>
       <title>커밋된 xml 파일을 특정 디렉토리로 복사하기</title>
-      <link>https://ezaurum.com/2013/08/%EC%BB%A4%EB%B0%8B%EB%90%9C-xml-%ED%8C%8C%EC%9D%BC%EC%9D%84-%ED%8A%B9%EC%A0%95-%EB%94%94%EB%A0%89%ED%86%A0%EB%A6%AC%EB%A1%9C-%EB%B3%B5%EC%82%AC%ED%95%98%EA%B8%B0/</link>
+      <link>https://ezaurum.com/recipe/2013-08-24-%ec%bb%a4%eb%b0%8b%eb%90%9c-xml-%ed%8c%8c%ec%9d%bc%ec%9d%84-%ed%8a%b9%ec%a0%95-%eb%94%94%eb%a0%89%ed%86%a0%eb%a6%ac%eb%a1%9c-%eb%b3%b5%ec%82%ac%ed%95%98%ea%b8%b0/</link>
       <pubDate>Sat, 24 Aug 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2013/08/%EC%BB%A4%EB%B0%8B%EB%90%9C-xml-%ED%8C%8C%EC%9D%BC%EC%9D%84-%ED%8A%B9%EC%A0%95-%EB%94%94%EB%A0%89%ED%86%A0%EB%A6%AC%EB%A1%9C-%EB%B3%B5%EC%82%AC%ED%95%98%EA%B8%B0/</guid>
+      <guid>https://ezaurum.com/recipe/2013-08-24-%ec%bb%a4%eb%b0%8b%eb%90%9c-xml-%ed%8c%8c%ec%9d%bc%ec%9d%84-%ed%8a%b9%ec%a0%95-%eb%94%94%eb%a0%89%ed%86%a0%eb%a6%ac%eb%a1%9c-%eb%b3%b5%ec%82%ac%ed%95%98%ea%b8%b0/</guid>
       <description>git log -1 HEAD &amp;ndash;name-only &amp;ndash;oneline | grep .xml$ | xargs -i cp {} ~/changes/xml</description>
     </item>
     
     <item>
       <title>jenkins-git 연동시 주의점</title>
-      <link>https://ezaurum.com/2013/05/jenkins-git-%EC%97%B0%EB%8F%99%EC%8B%9C-%EC%A3%BC%EC%9D%98%EC%A0%90/</link>
+      <link>https://ezaurum.com/recipe/2013-05-20-jenkins-git-%ec%97%b0%eb%8f%99%ec%8b%9c-%ec%a3%bc%ec%9d%98%ec%a0%90/</link>
       <pubDate>Mon, 20 May 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2013/05/jenkins-git-%EC%97%B0%EB%8F%99%EC%8B%9C-%EC%A3%BC%EC%9D%98%EC%A0%90/</guid>
+      <guid>https://ezaurum.com/recipe/2013-05-20-jenkins-git-%ec%97%b0%eb%8f%99%ec%8b%9c-%ec%a3%bc%ec%9d%98%ec%a0%90/</guid>
       <description>git 서버에 public 키를 추가할 때, jenkins 유저로 들어가서 추가해야 함.</description>
     </item>
     
     <item>
       <title>scp만으로 git 서버에 key여럿 추가하기</title>
-      <link>https://ezaurum.com/2013/05/scp%EB%A7%8C%EC%9C%BC%EB%A1%9C-git-%EC%84%9C%EB%B2%84%EC%97%90-key%EC%97%AC%EB%9F%BF-%EC%B6%94%EA%B0%80%ED%95%98%EA%B8%B0/</link>
+      <link>https://ezaurum.com/recipe/2013-05-20-scp%eb%a7%8c%ec%9c%bc%eb%a1%9c-git-%ec%84%9c%eb%b2%84%ec%97%90-key%ec%97%ac%eb%9f%bf-%ec%b6%94%ea%b0%80%ed%95%98%ea%b8%b0/</link>
       <pubDate>Mon, 20 May 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2013/05/scp%EB%A7%8C%EC%9C%BC%EB%A1%9C-git-%EC%84%9C%EB%B2%84%EC%97%90-key%EC%97%AC%EB%9F%BF-%EC%B6%94%EA%B0%80%ED%95%98%EA%B8%B0/</guid>
+      <guid>https://ezaurum.com/recipe/2013-05-20-scp%eb%a7%8c%ec%9c%bc%eb%a1%9c-git-%ec%84%9c%eb%b2%84%ec%97%90-key%ec%97%ac%eb%9f%bf-%ec%b6%94%ea%b0%80%ed%95%98%ea%b8%b0/</guid>
       <description>출처 역시 누군가 뭘 해 놨을 줄 알았어. 다 필요 없는 짓이었다. ssh-copy-id 라는 명령어가&amp;hellip; OTL&amp;hellip; 역시 무식하면 몸이 고생. scp file_name user@182.213.312.122:path 다 하고 나면 보안을 위해 파일 권한이 600으로 되어 있는지 확인할 것 그 외 ssh에 대한 참고 링크</description>
     </item>
     

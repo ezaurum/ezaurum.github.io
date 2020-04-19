@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang='ko-kr'>
+<head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-40920966-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-40920966-1');
+</script>
+
+
+    <title>   git 현재 날짜로 번들 만들어서 지정 디렉토리로 이동하는 스크립트 -  Ezaurum&#39;s Blog </title>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+    
+    
+
+    <meta itemprop="name" content="git 현재 날짜로 번들 만들어서 지정 디렉토리로 이동하는 스크립트">
+<meta itemprop="description" content="date &#43;%Y%m%d | xargs -i{} git bundle create {}.bundle &ndash;all ; mv *.bundle [대상 디렉토리]">
+<meta itemprop="datePublished" content="2013-11-24T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2013-11-24T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="15">
+
+
+
+<meta itemprop="keywords" content="Backup,bundle,date,git,한줄정리,xargs," />
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="git 현재 날짜로 번들 만들어서 지정 디렉토리로 이동하는 스크립트"/>
+<meta name="twitter:description" content="date &#43;%Y%m%d | xargs -i{} git bundle create {}.bundle &ndash;all ; mv *.bundle [대상 디렉토리]"/>
+
+    <meta property="og:title" content="git 현재 날짜로 번들 만들어서 지정 디렉토리로 이동하는 스크립트" />
+<meta property="og:description" content="date &#43;%Y%m%d | xargs -i{} git bundle create {}.bundle &ndash;all ; mv *.bundle [대상 디렉토리]" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ezaurum.com/recipe/2013-11-24-move-today-git-bundle-to-backup/" />
+<meta property="article:published_time" content="2013-11-24T00:00:00+00:00" />
+<meta property="article:modified_time" content="2013-11-24T00:00:00+00:00" />
+
+    
+
+</head>
+<body>
+
+    <header>
+    <nav>
+    
+        <a href="https://ezaurum.com/">Ezaurum&#39;s Blog</a>
+    
+        <a href="https://ezaurum.com/about/">About</a>
+    
+        <a href="https://ezaurum.com/tools/">사용하는 툴</a>
+    
+        <a href="https://ezaurum.com/pragmatic-programmer/">실용주의 프로그래머</a>
+    
+    <a href="/bug">버그일기</a>
+    <a href="/retrospective">회고</a>
+</nav>
+
+</header>
+
+
+
+
+<main class="post single">
+<h1>git 현재 날짜로 번들 만들어서 지정 디렉토리로 이동하는 스크립트</h1>
+2013-11-24
+<section><p>date +%Y%m%d | xargs -i{} git bundle create {}.bundle &ndash;all ; mv *.bundle [대상 디렉토리]</p>
+</section>
+
+
+
+
+    <ul class="taxonomy tag">
+        Tag
+        
+        <li><a href="/tags/Backup">Backup</a></li>
+        
+        <li><a href="/tags/bundle">bundle</a></li>
+        
+        <li><a href="/tags/date">date</a></li>
+        
+        <li><a href="/tags/git">git</a></li>
+        
+        <li><a href="/tags/%ED%95%9C%EC%A4%84%EC%A0%95%EB%A6%AC">한줄정리</a></li>
+        
+        <li><a href="/tags/xargs">xargs</a></li>
+        </ul>
+    </ul>
+
+
+
+<a href="https://ezaurum.com/2013/11/C#-Socket.AcceptAsync%EC%97%90%EC%84%9C-invalidOperationException%EC%9D%B4-%EB%82%A0-%EB%95%8C/"> C# Socket.AcceptAsync에서 invalidOperationException이 날 때</a>
+
+
+<a href="https://ezaurum.com/recipe/2013-11-24-git%ec%97%90%ec%84%9c-%ed%8a%b9%ec%a0%95%ed%8c%8c%ec%9d%bc-%ec%9e%84%ec%8b%9c%eb%a1%9c-%ec%bb%a4%eb%b0%8b%eb%82%b4%ec%97%ad%ec%97%90%ec%84%9c-%ec%a0%9c%ec%99%b8%ed%95%98%ea%b8%b0/">Git에서 특정파일 임시로 커밋내역에서 제외하기</a>
+
+
+
+
+
+    <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "ezaurum" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3471055249244195"
+     data-ad-slot="7282877318"
+     data-ad-format="auto"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+</main>
+
+
+
+    <footer>
+© Ezaurum 2001-
+</footer>
+
+
+
+
+
+    <script>
+
+</script>
+
+
+</body>
+</html>

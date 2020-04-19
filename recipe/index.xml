@@ -43,6 +43,15 @@ See the Pen fill from center round button hover effect with css by Cho seokgyu (
     </item>
     
     <item>
+      <title>Vue에서 form 조건부 validation</title>
+      <link>https://ezaurum.com/recipe/conditional-validation-vue/</link>
+      <pubDate>Thu, 26 Mar 2020 02:00:18 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/recipe/conditional-validation-vue/</guid>
+      <description>Vue에서 특정 경우에만 나타나는 항목에 대해 validation을 하려면, v-show말코 v-if를 써서 꺼버리면 validation 이 아예 돌지 않는다.</description>
+    </item>
+    
+    <item>
       <title>CLI로 클라우드 와치 로그 보기</title>
       <link>https://ezaurum.com/recipe/cli-cloudwatch/</link>
       <pubDate>Wed, 25 Mar 2020 09:44:59 +0900</pubDate>
@@ -83,6 +92,265 @@ NAME MAJ:MIN RM SIZE RO TYPE MOUNTPOINT sda 8:0 1 14.9G 0 disk ├─sda1 8:1 1 
       <guid>https://ezaurum.com/recipe/create-cloud-front-website/</guid>
       <description>목적 클라우드 프론트에서 웹사이트 호스팅
  S3 생성 권한 등은 건드릴 필요 없음 클라우드 프론트 생성  만들면서 권한 role, 생성, policy 업데이트 커스텀 도메인을 써야 하면 미리 인증서 생성. 인증서는 미국동부쪽에 생성- 클라우드 프론트에서는 여기서 지정한 것만 쓸 수 있음 CNAME에 커스텀 도메인 이름 써주기 behavior에서 DefaultObject 써주기 index.html으로. 하지 않으면 루트 접근시 403 에러 남. 설정에서 defaultRoot도 index파일 로 써주기 적절하게 404,403 리다이렉트. VUE나 PWA 를 쓸 때    Troubleshoot  클라우드 프론트에서 307이 리턴되고 S3파일로 리다이렉트 될 때 - S3가 us-east-1 이 아닌경우, 이름이 전파되는 데 최대 24시간 걸릴 수 있다.</description>
+    </item>
+    
+    <item>
+      <title>쿼리 결과를 CSV 파일로 생성</title>
+      <link>https://ezaurum.com/recipe/export-csv-from-sql/</link>
+      <pubDate>Sun, 12 May 2019 01:54:01 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/recipe/export-csv-from-sql/</guid>
+      <description>select b.*, a.* from log_table a, somehow_table b where a.id = b.id and check_result=&#39;Success&#39; and a.column=123 INTO OUTFILE &#39;orders.csv&#39; FIELDS TERMINATED BY &#39;,&#39; ENCLOSED BY &#39;&amp;quot;&#39; LINES TERMINATED BY &#39;\n&#39;; </description>
+    </item>
+    
+    <item>
+      <title>엑셀에서 컬럼을 로우로, 로우를 컬럼으로 변환</title>
+      <link>https://ezaurum.com/recipe/convert-row-to-column-vice-versa/</link>
+      <pubDate>Thu, 21 Feb 2019 18:20:40 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/recipe/convert-row-to-column-vice-versa/</guid>
+      <description>TRANSPOSE(범위) 피봇 테이블 할 것도 없이 이거면 끝</description>
+    </item>
+    
+    <item>
+      <title>몽고 DB ISODate객체로 검색</title>
+      <link>https://ezaurum.com/recipe/2015-02-09-mongo-db-find-by-isodate/</link>
+      <pubDate>Mon, 09 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/recipe/2015-02-09-mongo-db-find-by-isodate/</guid>
+      <description>db.logs.find({&amp;ldquo;timestamp&amp;rdquo;: { &amp;ldquo;$gte&amp;rdquo;: new Date(&amp;ldquo;2015-02-05&amp;rdquo;)}, &amp;ldquo;level&amp;rdquo;:&amp;ldquo;ERROR&amp;rdquo;})  $gte, $gt, $lt, $lte를 쓸 수 있고, new Date(&amp;ldquo;2015-02-01T00:00:00.000Z&amp;rdquo;) 형태로 검색한다.</description>
+    </item>
+    
+    <item>
+      <title>VS 2013에서 갑자기 CPU 사용율이 치솟는 경우</title>
+      <link>https://ezaurum.com/recipe/2014-12-27-fix-vs2013-cpu-consumption/</link>
+      <pubDate>Sat, 27 Dec 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/recipe/2014-12-27-fix-vs2013-cpu-consumption/</guid>
+      <description>참고 링크 내 경우는 Enable Browser Link를 끄는 것만으로 해결되었다.</description>
+    </item>
+    
+    <item>
+      <title>커링</title>
+      <link>https://ezaurum.com/recipe/2014-12-25-%ec%bb%a4%eb%a7%81/</link>
+      <pubDate>Thu, 25 Dec 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/recipe/2014-12-25-%ec%bb%a4%eb%a7%81/</guid>
+      <description>자바스크립트에서 커링은 본래 함수와 인수를 유지하는 클로저로 구현된다. 참고 링크</description>
+    </item>
+    
+    <item>
+      <title>AWS RDS time_zone 셋팅</title>
+      <link>https://ezaurum.com/recipe/2014-12-24-aws-rds-time_zone-%ec%85%8b%ed%8c%85/</link>
+      <pubDate>Wed, 24 Dec 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/recipe/2014-12-24-aws-rds-time_zone-%ec%85%8b%ed%8c%85/</guid>
+      <description>AWS RDS는 default_time_zone을 바꿀 수 없다. 그래서 각 연결마다 time_zone을 새로 셋팅해 주는 편법을 쓰는데, 모든 연결에 SET time_zone = &amp;lsquo;Asia/Seoul&amp;rsquo;;을 설정하는 방법으로 같은 효과를 볼 수 있다. 그러기 위해서는 init_connect에다가 값을 넣어주면 된다.
+참고 링크</description>
+    </item>
+    
+    <item>
+      <title>Ninject 첫인상</title>
+      <link>https://ezaurum.com/recipe/2014-12-24-ninject-%ec%b2%ab%ec%9d%b8%ec%83%81/</link>
+      <pubDate>Wed, 24 Dec 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/recipe/2014-12-24-ninject-%ec%b2%ab%ec%9d%b8%ec%83%81/</guid>
+      <description>DI 를 위해 Ninject를 사용함. NInject는 Web API controller를 생성할 때, 컨트롤러에 해당 의존성 객체가 존재하는 생성자가 없으면, 제대로 DI가 되지 않으므로 주의</description>
+    </item>
+    
+    <item>
+      <title>MSSQL에서 유니코드 텍스트는 nvarchar로</title>
+      <link>https://ezaurum.com/recipe/2014-12-01-use-nvarchar-for-unicode-text-in-mssql/</link>
+      <pubDate>Mon, 01 Dec 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/recipe/2014-12-01-use-nvarchar-for-unicode-text-in-mssql/</guid>
+      <description>mssql에서 유니코드로 된 텍스트를 저장해야 하면 varchar대신 nvarchar를 쓰자.
+그래야 DB 관리툴이라든가 쿼리 등에서 문제가 없다.</description>
+    </item>
+    
+    <item>
+      <title>pg_hba.conf load fail error</title>
+      <link>https://ezaurum.com/recipe/2014-10-10-pg_hba-conf-load-fail-error/</link>
+      <pubDate>Fri, 10 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/recipe/2014-10-10-pg_hba-conf-load-fail-error/</guid>
+      <description>pg_hba.conf load fail error가 발생. 설정 파일 내부에 항목이 하나도 없으면 로드에 에러 발생 기본 항목 주석 해제로 해결</description>
+    </item>
+    
+    <item>
+      <title>인터페이스 타입에 대한 jpa 퍼시서턴트</title>
+      <link>https://ezaurum.com/recipe/2014-08-20-%ec%9d%b8%ed%84%b0%ed%8e%98%ec%9d%b4%ec%8a%a4-%ed%83%80%ec%9e%85%ec%97%90-%eb%8c%80%ed%95%9c-jpa-%ed%8d%bc%ec%8b%9c%ec%84%9c%ed%84%b4%ed%8a%b8/</link>
+      <pubDate>Wed, 20 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/recipe/2014-08-20-%ec%9d%b8%ed%84%b0%ed%8e%98%ec%9d%b4%ec%8a%a4-%ed%83%80%ec%9e%85%ec%97%90-%eb%8c%80%ed%95%9c-jpa-%ed%8d%bc%ec%8b%9c%ec%84%9c%ed%84%b4%ed%8a%b8/</guid>
+      <description>일단 mapped super class에 template으로 설정해두고, @Enumulated 로 잡고 쓰면 됨</description>
+    </item>
+    
+    <item>
+      <title>git 현재 날짜로 번들 만들어서 지정 디렉토리로 이동하는 스크립트</title>
+      <link>https://ezaurum.com/recipe/2013-11-24-move-today-git-bundle-to-backup/</link>
+      <pubDate>Sun, 24 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/recipe/2013-11-24-move-today-git-bundle-to-backup/</guid>
+      <description>date +%Y%m%d | xargs -i{} git bundle create {}.bundle &amp;ndash;all ; mv *.bundle [대상 디렉토리]</description>
+    </item>
+    
+    <item>
+      <title>Git에서 특정파일 임시로 커밋내역에서 제외하기</title>
+      <link>https://ezaurum.com/recipe/2013-11-24-git%ec%97%90%ec%84%9c-%ed%8a%b9%ec%a0%95%ed%8c%8c%ec%9d%bc-%ec%9e%84%ec%8b%9c%eb%a1%9c-%ec%bb%a4%eb%b0%8b%eb%82%b4%ec%97%ad%ec%97%90%ec%84%9c-%ec%a0%9c%ec%99%b8%ed%95%98%ea%b8%b0/</link>
+      <pubDate>Sun, 24 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/recipe/2013-11-24-git%ec%97%90%ec%84%9c-%ed%8a%b9%ec%a0%95%ed%8c%8c%ec%9d%bc-%ec%9e%84%ec%8b%9c%eb%a1%9c-%ec%bb%a4%eb%b0%8b%eb%82%b4%ec%97%ad%ec%97%90%ec%84%9c-%ec%a0%9c%ec%99%b8%ed%95%98%ea%b8%b0/</guid>
+      <description>출처  http://blog.outsider.ne.kr/817 스택오버플로우 FallenGameR&amp;rsquo;s blog  Unity3D로 공동작업을 하다 보면 meta파일이 많이 생기고, 뭐 잠깐 이쪽에서 고쳐보고 싶은데 하던 작업 중에 일부는 또 올려야 할 때가 있고해서 골치 아플 때 유용함. local 에만 적용해야 하는 환경파일 수정할 때도 유용
+리모트 파일이 바뀌어서 pull을 할 때 주의점 기본적으로 컨플릭트가 나고, 해결 방법이 다르다
+ assumed-unchanged - stash 가능하지만, stash 하면 데이터 날아감 skip-worktree - stash 불가능, 플래그 꺼 줘야 함  git reset --hard를 하는 경우 주의점 결국 둘 다 파일은 바뀐다.</description>
+    </item>
+    
+    <item>
+      <title>java에서 arraylist 삭제하는 방법</title>
+      <link>https://ezaurum.com/recipe/2013-11-24-remove-arraylist-in-java/</link>
+      <pubDate>Sun, 24 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/recipe/2013-11-24-remove-arraylist-in-java/</guid>
+      <description>iterator를 사용한다.
+참고 - removeAlll은 hashset과 arrayList가 구현이 다르게 되어 있다.</description>
+    </item>
+    
+    <item>
+      <title>커밋된 xml 파일을 특정 디렉토리로 복사하기</title>
+      <link>https://ezaurum.com/recipe/2013-08-24-%ec%bb%a4%eb%b0%8b%eb%90%9c-xml-%ed%8c%8c%ec%9d%bc%ec%9d%84-%ed%8a%b9%ec%a0%95-%eb%94%94%eb%a0%89%ed%86%a0%eb%a6%ac%eb%a1%9c-%eb%b3%b5%ec%82%ac%ed%95%98%ea%b8%b0/</link>
+      <pubDate>Sat, 24 Aug 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/recipe/2013-08-24-%ec%bb%a4%eb%b0%8b%eb%90%9c-xml-%ed%8c%8c%ec%9d%bc%ec%9d%84-%ed%8a%b9%ec%a0%95-%eb%94%94%eb%a0%89%ed%86%a0%eb%a6%ac%eb%a1%9c-%eb%b3%b5%ec%82%ac%ed%95%98%ea%b8%b0/</guid>
+      <description>git log -1 HEAD &amp;ndash;name-only &amp;ndash;oneline | grep .xml$ | xargs -i cp {} ~/changes/xml</description>
+    </item>
+    
+    <item>
+      <title>jaxb 로 xsd를 java class로 만들 때</title>
+      <link>https://ezaurum.com/recipe/2013-08-21-jaxb-%eb%a1%9c-xsd%eb%a5%bc-java-class%eb%a1%9c-%eb%a7%8c%eb%93%a4-%eb%95%8c/</link>
+      <pubDate>Wed, 21 Aug 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/recipe/2013-08-21-jaxb-%eb%a1%9c-xsd%eb%a5%bc-java-class%eb%a1%9c-%eb%a7%8c%eb%93%a4-%eb%95%8c/</guid>
+      <description>상속되는 객체가 제대로 만들어지지 않는다면, mixed=&amp;quot;true&amp;quot;를 없애보라</description>
+    </item>
+    
+    <item>
+      <title>Spring mvc에서 로직에 이상이 없는데 406에러가 날 때</title>
+      <link>https://ezaurum.com/recipe/2013-07-22-spring-mvc%ec%97%90%ec%84%9c-%eb%a1%9c%ec%a7%81%ec%97%90-%ec%9d%b4%ec%83%81%ec%9d%b4-%ec%97%86%eb%8a%94%eb%8d%b0-406%ec%97%90%eb%9f%ac%ea%b0%80-%eb%82%a0-%eb%95%8c/</link>
+      <pubDate>Mon, 22 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/recipe/2013-07-22-spring-mvc%ec%97%90%ec%84%9c-%eb%a1%9c%ec%a7%81%ec%97%90-%ec%9d%b4%ec%83%81%ec%9d%b4-%ec%97%86%eb%8a%94%eb%8d%b0-406%ec%97%90%eb%9f%ac%ea%b0%80-%eb%82%a0-%eb%95%8c/</guid>
+      <description>JSON변환 중, 필드의 jsonProperty가 서로 겹치면 406이 뜬다.</description>
+    </item>
+    
+    <item>
+      <title>lombok intelliJ 컴파일 에러시</title>
+      <link>https://ezaurum.com/recipe/2013-07-19-lombok-intellij-%ec%bb%b4%ed%8c%8c%ec%9d%bc-%ec%97%90%eb%9f%ac%ec%8b%9c/</link>
+      <pubDate>Fri, 19 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/recipe/2013-07-19-lombok-intellij-%ec%bb%b4%ed%8c%8c%ec%9d%bc-%ec%97%90%eb%9f%ac%ec%8b%9c/</guid>
+      <description>ᅟSettings-&amp;gt;Compiler-&amp;gt;Annotation Processors 에서 Enable annotation processing 에 체크</description>
+    </item>
+    
+    <item>
+      <title>루분투 휴지통 위치</title>
+      <link>https://ezaurum.com/recipe/2013-06-28-%eb%a3%a8%eb%b6%84%ed%88%ac-%ed%9c%b4%ec%a7%80%ed%86%b5-%ec%9c%84%ec%b9%98/</link>
+      <pubDate>Fri, 28 Jun 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/recipe/2013-06-28-%eb%a3%a8%eb%b6%84%ed%88%ac-%ed%9c%b4%ec%a7%80%ed%86%b5-%ec%9c%84%ec%b9%98/</guid>
+      <description>루분투 휴지통은 ~/.local/share/Trash 에 있다.</description>
+    </item>
+    
+    <item>
+      <title>controller에서 특정 메소드가 List을 반환할 때</title>
+      <link>https://ezaurum.com/recipe/2013-06-25-controller%ec%97%90%ec%84%9c-%ed%8a%b9%ec%a0%95-%eb%a9%94%ec%86%8c%eb%93%9c%ea%b0%80-list%ec%9d%84-%eb%b0%98%ed%99%98%ed%95%a0-%eb%95%8c/</link>
+      <pubDate>Tue, 25 Jun 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/recipe/2013-06-25-controller%ec%97%90%ec%84%9c-%ed%8a%b9%ec%a0%95-%eb%a9%94%ec%86%8c%eb%93%9c%ea%b0%80-list%ec%9d%84-%eb%b0%98%ed%99%98%ed%95%a0-%eb%95%8c/</guid>
+      <description>@ResponseBody를 안 붙여 주면 [&amp;ldquo;bla&amp;rdquo;,&amp;ldquo;bla&amp;rdquo;]꼴이 아니라 {&amp;ldquo;stringList&amp;rdquo;:[&amp;ldquo;bloa&amp;rdquo;,&amp;ldquo;bloa&amp;rdquo;] 꼴로 반환된다.</description>
+    </item>
+    
+    <item>
+      <title>jenkins-git 연동시 주의점</title>
+      <link>https://ezaurum.com/recipe/2013-05-20-jenkins-git-%ec%97%b0%eb%8f%99%ec%8b%9c-%ec%a3%bc%ec%9d%98%ec%a0%90/</link>
+      <pubDate>Mon, 20 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/recipe/2013-05-20-jenkins-git-%ec%97%b0%eb%8f%99%ec%8b%9c-%ec%a3%bc%ec%9d%98%ec%a0%90/</guid>
+      <description>git 서버에 public 키를 추가할 때, jenkins 유저로 들어가서 추가해야 함.</description>
+    </item>
+    
+    <item>
+      <title>scp만으로 git 서버에 key여럿 추가하기</title>
+      <link>https://ezaurum.com/recipe/2013-05-20-scp%eb%a7%8c%ec%9c%bc%eb%a1%9c-git-%ec%84%9c%eb%b2%84%ec%97%90-key%ec%97%ac%eb%9f%bf-%ec%b6%94%ea%b0%80%ed%95%98%ea%b8%b0/</link>
+      <pubDate>Mon, 20 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/recipe/2013-05-20-scp%eb%a7%8c%ec%9c%bc%eb%a1%9c-git-%ec%84%9c%eb%b2%84%ec%97%90-key%ec%97%ac%eb%9f%bf-%ec%b6%94%ea%b0%80%ed%95%98%ea%b8%b0/</guid>
+      <description>출처 역시 누군가 뭘 해 놨을 줄 알았어. 다 필요 없는 짓이었다. ssh-copy-id 라는 명령어가&amp;hellip; OTL&amp;hellip; 역시 무식하면 몸이 고생. scp file_name user@182.213.312.122:path 다 하고 나면 보안을 위해 파일 권한이 600으로 되어 있는지 확인할 것 그 외 ssh에 대한 참고 링크</description>
+    </item>
+    
+    <item>
+      <title>unbuntu(mint)에서 jenkins 실행 포트 바꾸기</title>
+      <link>https://ezaurum.com/recipe/2013-05-20-change-jenkins-port-at-init-script-on-ubuntu/</link>
+      <pubDate>Mon, 20 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/recipe/2013-05-20-change-jenkins-port-at-init-script-on-ubuntu/</guid>
+      <description>시작 스크립트는 /etc/init.d/jenkins에 저장된다. 거기 보면 /etc/default/jenkins를 불러오는 부분이 있을 텐데, 그걸 불러오면 port나 기타 필요한 부분을 다 바꿀 수 있다.</description>
+    </item>
+    
+    <item>
+      <title>json 요청 보내기</title>
+      <link>https://ezaurum.com/recipe/2013-05-16-send-json-request/</link>
+      <pubDate>Thu, 16 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/recipe/2013-05-16-send-json-request/</guid>
+      <description>curl -v -H &amp;ldquo;Accept: application/json&amp;rdquo; -H &amp;ldquo;Content-type: application/json&amp;rdquo; -X POST -d &amp;lsquo;{&amp;ldquo;email&amp;rdquo;:&amp;ldquo;abesteail@mailcom&amp;rdquo;,&amp;ldquo;password&amp;rdquo;:&amp;ldquo;234234&amp;rdquo;}&amp;rsquo; http://localhost:8080/json</description>
+    </item>
+    
+    <item>
+      <title>controller에서 넘긴 viewName은 viewResolver가 보고 처리한다.</title>
+      <link>https://ezaurum.com/recipe/2013-05-09-controller%ec%97%90%ec%84%9c-%eb%84%98%ea%b8%b4-viewname%ec%9d%80-viewresolver%ea%b0%80-%eb%b3%b4%ea%b3%a0-%ec%b2%98%eb%a6%ac%ed%95%9c%eb%8b%a4/</link>
+      <pubDate>Thu, 09 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/recipe/2013-05-09-controller%ec%97%90%ec%84%9c-%eb%84%98%ea%b8%b4-viewname%ec%9d%80-viewresolver%ea%b0%80-%eb%b3%b4%ea%b3%a0-%ec%b2%98%eb%a6%ac%ed%95%9c%eb%8b%a4/</guid>
+      <description>controller에서 넘긴 viewName은 viewResolver가 보고 처리한다.</description>
+    </item>
+    
+    <item>
+      <title>sts가 로딩시 뻗을 때</title>
+      <link>https://ezaurum.com/recipe/2013-05-09-sts%ea%b0%80-%eb%a1%9c%eb%94%a9%ec%8b%9c-%eb%bb%97%ec%9d%84-%eb%95%8c/</link>
+      <pubDate>Thu, 09 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/recipe/2013-05-09-sts%ea%b0%80-%eb%a1%9c%eb%94%a9%ec%8b%9c-%eb%bb%97%ec%9d%84-%eb%95%8c/</guid>
+      <description>STS나 이클립스가 로딩시 뻗을 때, loading workbench에서 뻗었다. [Workspace Directory]/.metadata/.plugins/org.eclipse.core.resources/.snap 을 지워줄 것.</description>
+    </item>
+    
+    <item>
+      <title>spring에서 enum을 select로 매핑</title>
+      <link>https://ezaurum.com/recipe/2012-07-22-enum-mapping-to-select-by-spring/</link>
+      <pubDate>Sun, 22 Jul 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/recipe/2012-07-22-enum-mapping-to-select-by-spring/</guid>
+      <description>enum안에 desc라는 이름으로 label이 붙어 있는 경우.
+&amp;lt;form:select path=&amp;quot;status&amp;rdquo;&amp;gt; &amp;lt;form:options itemLabel=&amp;quot;desc&amp;rdquo;/&amp;gt; &amp;lt;/form:select&amp;gt;</description>
+    </item>
+    
+    <item>
+      <title>이클립스에서 jquery validation 에러 해결</title>
+      <link>https://ezaurum.com/recipe/2012-07-10-jquery-validation-error-in-eclipse/</link>
+      <pubDate>Tue, 10 Jul 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/recipe/2012-07-10-jquery-validation-error-in-eclipse/</guid>
+      <description>jquery validation 에러 해결 방법</description>
+    </item>
+    
+    <item>
+      <title>Opera webGL 활성화</title>
+      <link>https://ezaurum.com/recipe/enable-opera-webgl/</link>
+      <pubDate>Fri, 15 Jun 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/recipe/enable-opera-webgl/</guid>
+      <description>opera:config#Enable WebGL - 1로 설정 opera:config#Enable Hardware Acceleration - 1로 설정 opera:gpu opera:config#Preferred%20renderer 0 - openGL, 1 - DirectX
+기타 자세한 사항은 여기 참고</description>
     </item>
     
   </channel>

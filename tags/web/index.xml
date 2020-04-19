@@ -99,10 +99,10 @@ git clone https://github.com/golang/go 그 다음 src 에서 all.bash를 실행�
     
     <item>
       <title>이클립스에서 jquery validation 에러 해결</title>
-      <link>https://ezaurum.com/2012/07/%EC%9D%B4%ED%81%B4%EB%A6%BD%EC%8A%A4%EC%97%90%EC%84%9C-jquery-validation-%EC%97%90%EB%9F%AC-%ED%95%B4%EA%B2%B0/</link>
+      <link>https://ezaurum.com/recipe/2012-07-10-jquery-validation-error-in-eclipse/</link>
       <pubDate>Tue, 10 Jul 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2012/07/%EC%9D%B4%ED%81%B4%EB%A6%BD%EC%8A%A4%EC%97%90%EC%84%9C-jquery-validation-%EC%97%90%EB%9F%AC-%ED%95%B4%EA%B2%B0/</guid>
+      <guid>https://ezaurum.com/recipe/2012-07-10-jquery-validation-error-in-eclipse/</guid>
       <description>jquery validation 에러 해결 방법</description>
     </item>
     

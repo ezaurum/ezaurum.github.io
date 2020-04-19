@@ -14,10 +14,10 @@
     
     <item>
       <title>controller에서 특정 메소드가 List을 반환할 때</title>
-      <link>https://ezaurum.com/2013/06/controller%EC%97%90%EC%84%9C-%ED%8A%B9%EC%A0%95-%EB%A9%94%EC%86%8C%EB%93%9C%EA%B0%80-List%EC%9D%84-%EB%B0%98%ED%99%98%ED%95%A0-%EB%95%8C/</link>
+      <link>https://ezaurum.com/recipe/2013-06-25-controller%ec%97%90%ec%84%9c-%ed%8a%b9%ec%a0%95-%eb%a9%94%ec%86%8c%eb%93%9c%ea%b0%80-list%ec%9d%84-%eb%b0%98%ed%99%98%ed%95%a0-%eb%95%8c/</link>
       <pubDate>Tue, 25 Jun 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2013/06/controller%EC%97%90%EC%84%9C-%ED%8A%B9%EC%A0%95-%EB%A9%94%EC%86%8C%EB%93%9C%EA%B0%80-List%EC%9D%84-%EB%B0%98%ED%99%98%ED%95%A0-%EB%95%8C/</guid>
+      <guid>https://ezaurum.com/recipe/2013-06-25-controller%ec%97%90%ec%84%9c-%ed%8a%b9%ec%a0%95-%eb%a9%94%ec%86%8c%eb%93%9c%ea%b0%80-list%ec%9d%84-%eb%b0%98%ed%99%98%ed%95%a0-%eb%95%8c/</guid>
       <description>@ResponseBody를 안 붙여 주면 [&amp;ldquo;bla&amp;rdquo;,&amp;ldquo;bla&amp;rdquo;]꼴이 아니라 {&amp;ldquo;stringList&amp;rdquo;:[&amp;ldquo;bloa&amp;rdquo;,&amp;ldquo;bloa&amp;rdquo;] 꼴로 반환된다.</description>
     </item>
     

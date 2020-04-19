@@ -33,19 +33,19 @@ jenkins 설정에서, build 칸에 보면 스크립트 추가할 수 있는 곳�
     
     <item>
       <title>jenkins-git 연동시 주의점</title>
-      <link>https://ezaurum.com/2013/05/jenkins-git-%EC%97%B0%EB%8F%99%EC%8B%9C-%EC%A3%BC%EC%9D%98%EC%A0%90/</link>
+      <link>https://ezaurum.com/recipe/2013-05-20-jenkins-git-%ec%97%b0%eb%8f%99%ec%8b%9c-%ec%a3%bc%ec%9d%98%ec%a0%90/</link>
       <pubDate>Mon, 20 May 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2013/05/jenkins-git-%EC%97%B0%EB%8F%99%EC%8B%9C-%EC%A3%BC%EC%9D%98%EC%A0%90/</guid>
+      <guid>https://ezaurum.com/recipe/2013-05-20-jenkins-git-%ec%97%b0%eb%8f%99%ec%8b%9c-%ec%a3%bc%ec%9d%98%ec%a0%90/</guid>
       <description>git 서버에 public 키를 추가할 때, jenkins 유저로 들어가서 추가해야 함.</description>
     </item>
     
     <item>
       <title>unbuntu(mint)에서 jenkins 실행 포트 바꾸기</title>
-      <link>https://ezaurum.com/2013/05/unbuntumint%EC%97%90%EC%84%9C-jenkins-%EC%8B%A4%ED%96%89-%ED%8F%AC%ED%8A%B8-%EB%B0%94%EA%BE%B8%EA%B8%B0/</link>
+      <link>https://ezaurum.com/recipe/2013-05-20-change-jenkins-port-at-init-script-on-ubuntu/</link>
       <pubDate>Mon, 20 May 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2013/05/unbuntumint%EC%97%90%EC%84%9C-jenkins-%EC%8B%A4%ED%96%89-%ED%8F%AC%ED%8A%B8-%EB%B0%94%EA%BE%B8%EA%B8%B0/</guid>
+      <guid>https://ezaurum.com/recipe/2013-05-20-change-jenkins-port-at-init-script-on-ubuntu/</guid>
       <description>시작 스크립트는 /etc/init.d/jenkins에 저장된다. 거기 보면 /etc/default/jenkins를 불러오는 부분이 있을 텐데, 그걸 불러오면 port나 기타 필요한 부분을 다 바꿀 수 있다.</description>
     </item>
     
