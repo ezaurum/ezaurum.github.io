@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Fri, 03 Apr 2020 19:44:59 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 19 Apr 2020 20:41:52 +0900</lastBuildDate>
     
 	<atom:link href="https://ezaurum.com/tags/%EB%94%B0%EB%9D%BC%ED%95%98%EA%B8%B0/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>특정 문자열을 가지고 있는 파일만 골라 이동</title>
+      <link>https://ezaurum.com/recipe/move-files-has-string/</link>
+      <pubDate>Sun, 19 Apr 2020 20:41:52 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/recipe/move-files-has-string/</guid>
+      <description>목적 특정 문자열을 가진 파일을 골라서 이동 또는 복사
+grep -rwl &amp;#39;original/directory/&amp;#39; -e &amp;#39;target-string&amp;#39; | xargs -I % sh -c &amp;#39;mv % target/directory&amp;#39; </description>
+    </item>
     
     <item>
       <title>mysql 사용자 추가</title>

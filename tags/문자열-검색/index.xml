@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>문자열 검색 on Ezaurum&#39;s Blog</title>
+    <link>https://ezaurum.com/tags/%EB%AC%B8%EC%9E%90%EC%97%B4-%EA%B2%80%EC%83%89/</link>
+    <description>Recent content in 문자열 검색 on Ezaurum&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <copyright>© Ezaurum 2001-</copyright>
+    <lastBuildDate>Sun, 19 Apr 2020 20:41:52 +0900</lastBuildDate>
+    
+	<atom:link href="https://ezaurum.com/tags/%EB%AC%B8%EC%9E%90%EC%97%B4-%EA%B2%80%EC%83%89/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>특정 문자열을 가지고 있는 파일만 골라 이동</title>
+      <link>https://ezaurum.com/recipe/move-files-has-string/</link>
+      <pubDate>Sun, 19 Apr 2020 20:41:52 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/recipe/move-files-has-string/</guid>
+      <description>목적 특정 문자열을 가진 파일을 골라서 이동 또는 복사
+grep -rwl &amp;#39;original/directory/&amp;#39; -e &amp;#39;target-string&amp;#39; | xargs -I % sh -c &amp;#39;mv % target/directory&amp;#39; </description>
+    </item>
+    
+  </channel>
+</rss>

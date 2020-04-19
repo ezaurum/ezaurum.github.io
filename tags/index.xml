@@ -7,10 +7,64 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Sun, 19 Apr 2020 03:29:25 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 19 Apr 2020 20:41:52 +0900</lastBuildDate>
     
 	<atom:link href="https://ezaurum.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>grep</title>
+      <link>https://ezaurum.com/tags/grep/</link>
+      <pubDate>Sun, 19 Apr 2020 20:41:52 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/tags/grep/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>xargs</title>
+      <link>https://ezaurum.com/tags/xargs/</link>
+      <pubDate>Sun, 19 Apr 2020 20:41:52 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/tags/xargs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>따라하기</title>
+      <link>https://ezaurum.com/tags/%EB%94%B0%EB%9D%BC%ED%95%98%EA%B8%B0/</link>
+      <pubDate>Sun, 19 Apr 2020 20:41:52 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/tags/%EB%94%B0%EB%9D%BC%ED%95%98%EA%B8%B0/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>레시피</title>
+      <link>https://ezaurum.com/tags/%EB%A0%88%EC%8B%9C%ED%94%BC/</link>
+      <pubDate>Sun, 19 Apr 2020 20:41:52 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/tags/%EB%A0%88%EC%8B%9C%ED%94%BC/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>문자열 검색</title>
+      <link>https://ezaurum.com/tags/%EB%AC%B8%EC%9E%90%EC%97%B4-%EA%B2%80%EC%83%89/</link>
+      <pubDate>Sun, 19 Apr 2020 20:41:52 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/tags/%EB%AC%B8%EC%9E%90%EC%97%B4-%EA%B2%80%EC%83%89/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>정리</title>
+      <link>https://ezaurum.com/tags/%EC%A0%95%EB%A6%AC/</link>
+      <pubDate>Sun, 19 Apr 2020 20:41:52 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/tags/%EC%A0%95%EB%A6%AC/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>돈</title>
@@ -54,33 +108,6 @@
       <pubDate>Fri, 03 Apr 2020 19:44:59 +0900</pubDate>
       
       <guid>https://ezaurum.com/tags/mysql/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>따라하기</title>
-      <link>https://ezaurum.com/tags/%EB%94%B0%EB%9D%BC%ED%95%98%EA%B8%B0/</link>
-      <pubDate>Fri, 03 Apr 2020 19:44:59 +0900</pubDate>
-      
-      <guid>https://ezaurum.com/tags/%EB%94%B0%EB%9D%BC%ED%95%98%EA%B8%B0/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>레시피</title>
-      <link>https://ezaurum.com/tags/%EB%A0%88%EC%8B%9C%ED%94%BC/</link>
-      <pubDate>Fri, 03 Apr 2020 19:44:59 +0900</pubDate>
-      
-      <guid>https://ezaurum.com/tags/%EB%A0%88%EC%8B%9C%ED%94%BC/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>정리</title>
-      <link>https://ezaurum.com/tags/%EC%A0%95%EB%A6%AC/</link>
-      <pubDate>Fri, 03 Apr 2020 19:44:59 +0900</pubDate>
-      
-      <guid>https://ezaurum.com/tags/%EC%A0%95%EB%A6%AC/</guid>
       <description></description>
     </item>
     
@@ -2421,15 +2448,6 @@
       <pubDate>Sun, 24 Nov 2013 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/tags/sourcetree/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>xargs</title>
-      <link>https://ezaurum.com/tags/xargs/</link>
-      <pubDate>Sun, 24 Nov 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://ezaurum.com/tags/xargs/</guid>
       <description></description>
     </item>
     
