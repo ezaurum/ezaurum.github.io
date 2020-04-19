@@ -175,24 +175,6 @@
     </item>
     
     <item>
-      <title>tool</title>
-      <link>https://ezaurum.com/tags/tool/</link>
-      <pubDate>Thu, 26 Mar 2020 01:49:15 +0900</pubDate>
-      
-      <guid>https://ezaurum.com/tags/tool/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tools</title>
-      <link>https://ezaurum.com/tags/tools/</link>
-      <pubDate>Thu, 26 Mar 2020 01:49:15 +0900</pubDate>
-      
-      <guid>https://ezaurum.com/tags/tools/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>go</title>
       <link>https://ezaurum.com/tags/go/</link>
       <pubDate>Thu, 26 Mar 2020 01:42:28 +0900</pubDate>
@@ -1179,6 +1161,15 @@
       <pubDate>Fri, 11 Sep 2015 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tool</title>
+      <link>https://ezaurum.com/tags/tool/</link>
+      <pubDate>Fri, 11 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/tags/tool/</guid>
       <description></description>
     </item>
     

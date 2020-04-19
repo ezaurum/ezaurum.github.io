@@ -61,18 +61,6 @@ See the Pen fill from center round button hover effect with css by Cho seokgyu (
     </item>
     
     <item>
-      <title>사용하는 툴</title>
-      <link>https://ezaurum.com/2020/03/%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%ED%88%B4/</link>
-      <pubDate>Thu, 26 Mar 2020 01:49:15 +0900</pubDate>
-      
-      <guid>https://ezaurum.com/2020/03/%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%ED%88%B4/</guid>
-      <description>사용하는 툴 정리, 종종 업데이트
-  Tmuxinator - 작업 시작하려면 docker compose 켜고, 프론트 코드가 있는 디렉토리에 가서 yarn을 실행하고, 서버 디렉토리에서 서버 실행하고, 로그 창 하나 띄우고&amp;hellip; 그러기에는 인생이 너무 짧다. 간단하게 세트를 만들어두고 실행할 수 있다.
-  modd - go로 작업하려면 컴파일을 계속 다시 해 줘야 한다. 귀찮음을 덜으려면 꼭 필요.
-  env GO111MODULE=on go get github.com/cortesi/modd/cmd/modd  docker compose - docker는 당연히 쓰는 거고, mysql, redis, 하나하나 깔 수도 없고 팀원들한테 설명하기도 힘들다.</description>
-    </item>
-    
-    <item>
       <title>Golang에서 같은 패키지에 여러 도메인 객체를 넣으면 안 되는 이유</title>
       <link>https://ezaurum.com/2020/03/Golang%EC%97%90%EC%84%9C-%EA%B0%99%EC%9D%80-%ED%8C%A8%ED%82%A4%EC%A7%80%EC%97%90-%EC%97%AC%EB%9F%AC-%EB%8F%84%EB%A9%94%EC%9D%B8-%EA%B0%9D%EC%B2%B4%EB%A5%BC-%EB%84%A3%EC%9C%BC%EB%A9%B4-%EC%95%88-%EB%90%98%EB%8A%94-%EC%9D%B4%EC%9C%A0/</link>
       <pubDate>Thu, 26 Mar 2020 01:42:28 +0900</pubDate>
@@ -7381,6 +7369,19 @@ H는 그랬다.
 프로그래머이고 좀더 이 일을 잘 하고 싶어하는 사람입니다.
 언젠가는 글을 잘 쓰는 사람이 되고 싶습니다.
 20세기와 21세기의 경계선쯤에 태어난 것은 행운이라고 생각하지만, 종종 십년정도 일찍이나 이십년 정도 나중에 태어났어도 좋지 않았을까 생각합니다.</description>
+    </item>
+    
+    <item>
+      <title>사용하는 툴</title>
+      <link>https://ezaurum.com/tools/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/tools/</guid>
+      <description>사용하는 툴 정리, 종종 업데이트
+  OS - Arch Linux, 마음대로 설정할 수 있고, 자료가 많고 생각보다 편하다.
+  Tmuxinator - 작업 시작하려면 docker compose 켜고, 프론트 코드가 있는 디렉토리에 가서 yarn을 실행하고, 서버 디렉토리에서 서버 실행하고, 로그 창 하나 띄우고&amp;hellip; 그러기에는 인생이 너무 짧다. 간단하게 세트를 만들어두고 실행할 수 있다.
+  modd - go로 작업하려면 컴파일을 계속 다시 해 줘야 한다. 귀찮음을 덜으려면 꼭 필요.
+  env GO111MODULE=on go get github.</description>
     </item>
     
     <item>

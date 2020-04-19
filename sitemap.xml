@@ -198,26 +198,6 @@
   </url>
   
   <url>
-    <loc>https://ezaurum.com/tags/tool/</loc>
-    <lastmod>2020-03-26T01:49:15+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ezaurum.com/tags/tools/</loc>
-    <lastmod>2020-03-26T01:49:15+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ezaurum.com/2020/03/%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%ED%88%B4/</loc>
-    <lastmod>2020-03-26T01:49:15+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ezaurum.com/categories/%EC%A0%95%EB%A6%AC/</loc>
-    <lastmod>2020-03-26T01:49:15+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://ezaurum.com/tags/go/</loc>
     <lastmod>2020-03-26T01:42:28+09:00</lastmod>
   </url>
@@ -234,6 +214,11 @@
   
   <url>
     <loc>https://ezaurum.com/tags/refactoring/</loc>
+    <lastmod>2020-03-26T01:42:28+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/categories/%EC%A0%95%EB%A6%AC/</loc>
     <lastmod>2020-03-26T01:42:28+09:00</lastmod>
   </url>
   
@@ -284,6 +269,11 @@
   
   <url>
     <loc>https://ezaurum.com/tags/arch/</loc>
+    <lastmod>2020-01-10T16:17:30+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/series/Arch-Linux-Setup/</loc>
     <lastmod>2020-01-10T16:17:30+09:00</lastmod>
   </url>
   
@@ -1229,6 +1219,11 @@
   
   <url>
     <loc>https://ezaurum.com/tags/python/</loc>
+    <lastmod>2015-09-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/tags/tool/</loc>
     <lastmod>2015-09-11T00:00:00+00:00</lastmod>
   </url>
   
@@ -9162,6 +9157,10 @@
   
   <url>
     <loc>https://ezaurum.com/tags/PL/SQL/</loc>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/tools/</loc>
   </url>
   
   <url>
