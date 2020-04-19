@@ -92,10 +92,10 @@
     
     <item>
       <title>웹 프로그래머를 위한 서블릿 컨테이너의 이해</title>
-      <link>https://ezaurum.com/2013/05/%EC%9B%B9-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EB%A5%BC-%EC%9C%84%ED%95%9C-%EC%84%9C%EB%B8%94%EB%A6%BF-%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88%EC%9D%98-%EC%9D%B4%ED%95%B4/</link>
+      <link>https://ezaurum.com/reading/2013-05-09-2078/</link>
       <pubDate>Thu, 09 May 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2013/05/%EC%9B%B9-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EB%A5%BC-%EC%9C%84%ED%95%9C-%EC%84%9C%EB%B8%94%EB%A6%BF-%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88%EC%9D%98-%EC%9D%B4%ED%95%B4/</guid>
+      <guid>https://ezaurum.com/reading/2013-05-09-2078/</guid>
       <description>이 책의 감상문 쓰기 이벤트에 응모해서 쓴 감상. 웹 개발자로서 일을 하면서도 항상 이 서블렛이라는 게 찜찜했다. 얘도 분명히 JVM에서 돌아가는 프로그램일 뿐인데, 어쩐지 콘솔 프로그램과는 전혀 다른 규칙이 적용되는 것 같고, 시원스레 설명된 책도 찾기 힘들었다. 그래서 문제가 생기면 장님 문고리 잡듯 어찌어찌 해결해 왔는데, 하고도 찜찜했다. 마치 콘솔 프로그램과 웹 프로그램 사이에는 깊은 서블릿이라는 강이 펼쳐져 있는데 눈을 감았다 뜨면 건너편으로 건너만 갈 수 있을 뿐, 강은 한 번도 보지 못한 것과 같았다.</description>
     </item>
     
@@ -196,19 +196,19 @@ public static void main(String args[]) { System.out.println(EnumStudy.valueOf(1)
     
     <item>
       <title>구글을 지탱하는 기술</title>
-      <link>https://ezaurum.com/2011/11/%EA%B5%AC%EA%B8%80%EC%9D%84-%EC%A7%80%ED%83%B1%ED%95%98%EB%8A%94-%EA%B8%B0%EC%88%A0/</link>
+      <link>https://ezaurum.com/reading/2011-11-12-%ea%b5%ac%ea%b8%80%ec%9d%84-%ec%a7%80%ed%83%b1%ed%95%98%eb%8a%94-%ea%b8%b0%ec%88%a0/</link>
       <pubDate>Sat, 12 Nov 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2011/11/%EA%B5%AC%EA%B8%80%EC%9D%84-%EC%A7%80%ED%83%B1%ED%95%98%EB%8A%94-%EA%B8%B0%EC%88%A0/</guid>
+      <guid>https://ezaurum.com/reading/2011-11-12-%ea%b5%ac%ea%b8%80%ec%9d%84-%ec%a7%80%ed%83%b1%ed%95%98%eb%8a%94-%ea%b8%b0%ec%88%a0/</guid>
       <description>제목대로의 내용. 구글이 돌아가는데 필요한 기술들에 대한 간단한 설명이 나온다. 세세한 구현이 나온&amp;hellip; 다고 해야 하나 나오지 않는다고 해야 하나. 내 수준에서는 저것만 보고 구현할 수는 없겠지. 그래도 전체적인 감을 잡아두면, 비슷한 형태로 된 다른 것들을 봐도 이해할 수 있다고 생각. 일단 신기하니 재밌다. 보면 전체적으로 다차원으로 생각하는 구조가 많은 듯. 저런 것도 한 번 해 보고 싶다.</description>
     </item>
     
     <item>
       <title>성공과 실패를 결정하는 1%의 비트 원리</title>
-      <link>https://ezaurum.com/2011/11/%EC%84%B1%EA%B3%B5%EA%B3%BC-%EC%8B%A4%ED%8C%A8%EB%A5%BC-%EA%B2%B0%EC%A0%95%ED%95%98%EB%8A%94-1%EC%9D%98-%EB%B9%84%ED%8A%B8-%EC%9B%90%EB%A6%AC/</link>
+      <link>https://ezaurum.com/reading/2011-11-12-%ec%84%b1%ea%b3%b5%ea%b3%bc-%ec%8b%a4%ed%8c%a8%eb%a5%bc-%ea%b2%b0%ec%a0%95%ed%95%98%eb%8a%94-1%ec%9d%98-%eb%b9%84%ed%8a%b8-%ec%9b%90%eb%a6%ac/</link>
       <pubDate>Sat, 12 Nov 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2011/11/%EC%84%B1%EA%B3%B5%EA%B3%BC-%EC%8B%A4%ED%8C%A8%EB%A5%BC-%EA%B2%B0%EC%A0%95%ED%95%98%EB%8A%94-1%EC%9D%98-%EB%B9%84%ED%8A%B8-%EC%9B%90%EB%A6%AC/</guid>
+      <guid>https://ezaurum.com/reading/2011-11-12-%ec%84%b1%ea%b3%b5%ea%b3%bc-%ec%8b%a4%ed%8c%a8%eb%a5%bc-%ea%b2%b0%ec%a0%95%ed%95%98%eb%8a%94-1%ec%9d%98-%eb%b9%84%ed%8a%b8-%ec%9b%90%eb%a6%ac/</guid>
       <description>가벼운 이야기지만, 1%시리즈가 늘 그렇듯, 읽어서 손해나는 거 없다. 좀 더 옛날에 읽어두면 좋았을 걸. 한 십년쯤 전에. 컴퓨터과학이라고 이름붙은 이론들을 가지고 뭘 할 수 있는지에 대한 책.</description>
     </item>
     
@@ -233,19 +233,19 @@ public static void main(String args[]) { System.out.println(EnumStudy.valueOf(1)
     
     <item>
       <title>High Performance Javascript</title>
-      <link>https://ezaurum.com/2011/11/High-Performance-Javascript/</link>
+      <link>https://ezaurum.com/reading/2011-11-05-high-performance-javascript/</link>
       <pubDate>Sat, 05 Nov 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2011/11/High-Performance-Javascript/</guid>
+      <guid>https://ezaurum.com/reading/2011-11-05-high-performance-javascript/</guid>
       <description>쿡북이라고 붙지는 않았는데, 쿡북같다. 필요한 거 바로 찾을 수 있을 만 하게 되어 있고, 설명이 상세하게 되어있는데도, 책이 얇고 작아서 좋다. 꽉 들어찬 느낌이다. 당연히 자바스크립트를 빠르게 만드는 방법에 대해 설명이 되어 있고, 알던 방법은 더 상세히, 체계적으로 알 수 있어서 좋고, 모르던 방법은 모르던 걸 알아서 좋다. 지금 큰 사이트들이 사용하고 있는 방법들의 집대성이랄까. 여튼 만족스럽고, 표지의 부엉이가 똘똘해 보인다.</description>
     </item>
     
     <item>
       <title>에릭 마이어의 CSS 노하우</title>
-      <link>https://ezaurum.com/2011/09/%EC%97%90%EB%A6%AD-%EB%A7%88%EC%9D%B4%EC%96%B4%EC%9D%98-CSS-%EB%85%B8%ED%95%98%EC%9A%B0/</link>
+      <link>https://ezaurum.com/reading/2011-09-11-%ec%97%90%eb%a6%ad-%eb%a7%88%ec%9d%b4%ec%96%b4%ec%9d%98-css-%eb%85%b8%ed%95%98%ec%9a%b0/</link>
       <pubDate>Sun, 11 Sep 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2011/09/%EC%97%90%EB%A6%AD-%EB%A7%88%EC%9D%B4%EC%96%B4%EC%9D%98-CSS-%EB%85%B8%ED%95%98%EC%9A%B0/</guid>
+      <guid>https://ezaurum.com/reading/2011-09-11-%ec%97%90%eb%a6%ad-%eb%a7%88%ec%9d%b4%ec%96%b4%ec%9d%98-css-%eb%85%b8%ed%95%98%ec%9a%b0/</guid>
       <description>에릭 마이어의 CSS 노하우 - 
 에릭 마이어 지음, 한선용 옮김/인사이트진짜 순전히 저자 보고 샀다.사고 나서 깨달았는데, 최초로 산 CSS책이다. 그동안 안 본 건 아니지만 내돈으로 구매는 안 했으니까&amp;hellip;
 결론적으로는 돈 값 한다.
@@ -257,38 +257,38 @@ CSS3만 필요하면 다른 책을 사는게 나을지도. 내용이 부실하�
     
     <item>
       <title>프로그래머의 길 멘토에게 묻다</title>
-      <link>https://ezaurum.com/2011/07/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%9D%98-%EA%B8%B8-%EB%A9%98%ED%86%A0%EC%97%90%EA%B2%8C-%EB%AC%BB%EB%8B%A4/</link>
+      <link>https://ezaurum.com/reading/2011-07-11-%ed%94%84%eb%a1%9c%ea%b7%b8%eb%9e%98%eb%a8%b8%ec%9d%98-%ea%b8%b8-%eb%a9%98%ed%86%a0%ec%97%90%ea%b2%8c-%eb%ac%bb%eb%8b%a4/</link>
       <pubDate>Mon, 11 Jul 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2011/07/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%9D%98-%EA%B8%B8-%EB%A9%98%ED%86%A0%EC%97%90%EA%B2%8C-%EB%AC%BB%EB%8B%A4/</guid>
+      <guid>https://ezaurum.com/reading/2011-07-11-%ed%94%84%eb%a1%9c%ea%b7%b8%eb%9e%98%eb%a8%b8%ec%9d%98-%ea%b8%b8-%eb%a9%98%ed%86%a0%ec%97%90%ea%b2%8c-%eb%ac%bb%eb%8b%a4/</guid>
       <description>제목 그대로, 멘토에게 물어보면 대답할 만한 이야기였다.
 나같은 초보에게 추천. 열심히 해야겠다.</description>
     </item>
     
     <item>
       <title>Head First Software Development</title>
-      <link>https://ezaurum.com/2011/06/Head-First-Software-Development/</link>
+      <link>https://ezaurum.com/reading/2011-06-22-head-first-software-development/</link>
       <pubDate>Wed, 22 Jun 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2011/06/Head-First-Software-Development/</guid>
+      <guid>https://ezaurum.com/reading/2011-06-22-head-first-software-development/</guid>
       <description>Head First 시리즈 답게 쉽게 술술 넘어간다. 그러면서 빠진 것 없이(내가 보기엔) 다 다루고 있다. 테스트 주도 개발 TDD실천법과 도구와 함께 잘 보고 있는 중. 하지만 열심히 안 하고 있는 것 같다&amp;hellip; XP installed랑도 같이 보고 있음&amp;hellip;</description>
     </item>
     
     <item>
       <title>생각하는 프로그래밍</title>
-      <link>https://ezaurum.com/2011/06/%EC%83%9D%EA%B0%81%ED%95%98%EB%8A%94-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/</link>
+      <link>https://ezaurum.com/reading/2011-06-22-%ec%83%9d%ea%b0%81%ed%95%98%eb%8a%94-%ed%94%84%eb%a1%9c%ea%b7%b8%eb%9e%98%eb%b0%8d/</link>
       <pubDate>Wed, 22 Jun 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2011/06/%EC%83%9D%EA%B0%81%ED%95%98%EB%8A%94-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/</guid>
+      <guid>https://ezaurum.com/reading/2011-06-22-%ec%83%9d%ea%b0%81%ed%95%98%eb%8a%94-%ed%94%84%eb%a1%9c%ea%b7%b8%eb%9e%98%eb%b0%8d/</guid>
       <description>어렵다&amp;hellip; 공부가 부족하구나 하고 느끼게 해 주는 책. 문제와 그 문제에 대한 해결법과 도출과정, 발전형 문제들을 제시해준다. 천천히, 느긋하게 읽기 좋겠다. 누군가는 한 달 동안 즐거울 거라는데, 난 내년이나 되어야 다 읽을 듯.</description>
     </item>
     
     <item>
       <title>손에 잡히는 VIM</title>
-      <link>https://ezaurum.com/2011/06/%EC%86%90%EC%97%90-%EC%9E%A1%ED%9E%88%EB%8A%94-VIM/</link>
+      <link>https://ezaurum.com/reading/2011-06-22-%ec%86%90%ec%97%90-%ec%9e%a1%ed%9e%88%eb%8a%94-vim/</link>
       <pubDate>Wed, 22 Jun 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2011/06/%EC%86%90%EC%97%90-%EC%9E%A1%ED%9E%88%EB%8A%94-VIM/</guid>
+      <guid>https://ezaurum.com/reading/2011-06-22-%ec%86%90%ec%97%90-%ec%9e%a1%ed%9e%88%eb%8a%94-vim/</guid>
       <description>책도 손에 잘 잡히는 사이즈고, 내용도 휘리릭 읽을 만하지만, 역시 한 번 본다고 해서 능통해지는 것은 아니다.
 옆에 두고 필요할 때마다 뒤적뒤적하기 좋은 책.</description>
     </item>
@@ -304,10 +304,10 @@ CSS3만 필요하면 다른 책을 사는게 나을지도. 내용이 부실하�
     
     <item>
       <title>여기 와서 읽은 기술 서적 정리</title>
-      <link>https://ezaurum.com/2011/03/%EC%97%AC%EA%B8%B0-%EC%99%80%EC%84%9C-%EC%9D%BD%EC%9D%80-%EA%B8%B0%EC%88%A0-%EC%84%9C%EC%A0%81-%EC%A0%95%EB%A6%AC/</link>
+      <link>https://ezaurum.com/reading/2011-03-02-%ec%97%ac%ea%b8%b0-%ec%99%80%ec%84%9c-%ec%9d%bd%ec%9d%80-%ea%b8%b0%ec%88%a0-%ec%84%9c%ec%a0%81-%ec%a0%95%eb%a6%ac/</link>
       <pubDate>Wed, 02 Mar 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2011/03/%EC%97%AC%EA%B8%B0-%EC%99%80%EC%84%9C-%EC%9D%BD%EC%9D%80-%EA%B8%B0%EC%88%A0-%EC%84%9C%EC%A0%81-%EC%A0%95%EB%A6%AC/</guid>
+      <guid>https://ezaurum.com/reading/2011-03-02-%ec%97%ac%ea%b8%b0-%ec%99%80%ec%84%9c-%ec%9d%bd%ec%9d%80-%ea%b8%b0%ec%88%a0-%ec%84%9c%ec%a0%81-%ec%a0%95%eb%a6%ac/</guid>
       <description>크게 혼자서 보면서 배우는 튜토리얼 계와 아무 때나 펼쳐서 볼 수 있는 레퍼런스. 두가지로 분류.
 성공과 실패를 결정하는 1%의 네트워크 원리 2nd edtion-1%시리즈 답게 간략하고 필요한 부분만 담겨 있다. 재판은 그림이 좀 더 많아지고 두꺼워져서 좋은 듯.+가벼운 레퍼런스&amp;amp;튜토리얼성공과 실패를 결정하는 1%의 프로그래밍 원리-오랜만에 다시 읽으니 안 보이던 부분이 보인다.+가벼운 레퍼런스&amp;amp;튜토리얼성공과 실패를 결정하는 1%의 컴퓨터 원리-후임이 샀길래 살짝 봤는데 괜찮은 듯, 사도 좋을 것 같다.</description>
     </item>

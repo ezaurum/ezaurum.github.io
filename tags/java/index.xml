@@ -73,10 +73,10 @@ dependencies { def springSecurityVersion = &amp;ldquo;3.1.4.RELEASE&amp;rdquo; c
     
     <item>
       <title>웹 프로그래머를 위한 서블릿 컨테이너의 이해</title>
-      <link>https://ezaurum.com/2013/05/%EC%9B%B9-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EB%A5%BC-%EC%9C%84%ED%95%9C-%EC%84%9C%EB%B8%94%EB%A6%BF-%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88%EC%9D%98-%EC%9D%B4%ED%95%B4/</link>
+      <link>https://ezaurum.com/reading/2013-05-09-2078/</link>
       <pubDate>Thu, 09 May 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2013/05/%EC%9B%B9-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EB%A5%BC-%EC%9C%84%ED%95%9C-%EC%84%9C%EB%B8%94%EB%A6%BF-%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88%EC%9D%98-%EC%9D%B4%ED%95%B4/</guid>
+      <guid>https://ezaurum.com/reading/2013-05-09-2078/</guid>
       <description>이 책의 감상문 쓰기 이벤트에 응모해서 쓴 감상. 웹 개발자로서 일을 하면서도 항상 이 서블렛이라는 게 찜찜했다. 얘도 분명히 JVM에서 돌아가는 프로그램일 뿐인데, 어쩐지 콘솔 프로그램과는 전혀 다른 규칙이 적용되는 것 같고, 시원스레 설명된 책도 찾기 힘들었다. 그래서 문제가 생기면 장님 문고리 잡듯 어찌어찌 해결해 왔는데, 하고도 찜찜했다. 마치 콘솔 프로그램과 웹 프로그램 사이에는 깊은 서블릿이라는 강이 펼쳐져 있는데 눈을 감았다 뜨면 건너편으로 건너만 갈 수 있을 뿐, 강은 한 번도 보지 못한 것과 같았다.</description>
     </item>
     
