@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Sun, 19 Apr 2020 20:41:52 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 13 May 2020 15:20:35 +0900</lastBuildDate>
     
 	<atom:link href="https://ezaurum.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>클라우드 플레어에서 페이지 리다이렉트</title>
+      <link>https://ezaurum.com/2020/05/%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C-%ED%94%8C%EB%A0%88%EC%96%B4%EC%97%90%EC%84%9C-%ED%8E%98%EC%9D%B4%EC%A7%80-%EB%A6%AC%EB%8B%A4%EC%9D%B4%EB%A0%89%ED%8A%B8/</link>
+      <pubDate>Wed, 13 May 2020 15:20:35 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/2020/05/%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C-%ED%94%8C%EB%A0%88%EC%96%B4%EC%97%90%EC%84%9C-%ED%8E%98%EC%9D%B4%EC%A7%80-%EB%A6%AC%EB%8B%A4%EC%9D%B4%EB%A0%89%ED%8A%B8/</guid>
+      <description>목적 클라우드 플레어에서 특정 도메인을 다른 도메인으로 리다이렉트 한다
+예를 들어 test.test.com 을 gogo.com 으로 리다이렉트 하고 싶다고 하자.
+ DNS 설정에서 CNAME을 추가하고, 서브도메인을 메인 도메인으로 프록시 설정한다. CNAME : test / @ (가장 오른쪽의 proxied를 체크) page rule 설정에서 *test.test.com 을 추가하고 gogo.com으로 연결한다.  서브도메인을 메인 도메인으로 프록시 설정하는 걸 빼먹으면 정상작동하지 않는다.</description>
+    </item>
     
     <item>
       <title>특정 문자열을 가지고 있는 파일만 골라 이동</title>
@@ -728,7 +739,7 @@ func (dbm *Manager) transaction(action TransactionHandlerFunc, targets ...interf
       <guid>https://ezaurum.com/2017/07/%EB%8F%84%EC%BB%A4%EB%A1%9C-elastic-search-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0/</guid>
       <description>참고는 역시 공식 사이트
 일단 docker-compose.yml 로 다음을 지정
-services:elasticsearch1:image: docker.elastic.co/elasticsearch/elasticsearch:5.5.0container_name: elasticsearch1environment:- cluster.name=docker-cluster- bootstrap.memory_lock=true- &amp;#34;ES_JAVA_OPTS=-Xms512m -Xmx512m&amp;#34;ulimits:memlock:soft: -1hard: -1mem_limit: 1gvolumes:- esdata1:/usr/share/elasticsearch/dataports:- 9200:9200networks:- esnetelasticsearch2:image: docker.elastic.co/elasticsearch/elasticsearch:5.5.0container_name: elasticsearch2environment:- cluster.name=docker-cluster- bootstrap.memory_lock=true- &amp;#34;ES_JAVA_OPTS=-Xms512m -Xmx512m&amp;#34;- &amp;#34;discovery.zen.ping.unicast.hosts=elasticsearch1&amp;#34;ulimits:memlock:soft: -1hard: -1mem_limit: 1gvolumes:- esdata2:/usr/share/elasticsearch/datanetworks:- esnetvolumes:esdata1:driver: localesdata2:driver: localnetworks:esnet:그 다음 docker-compose 로 띄운다.</description>
+services: elasticsearch1: image: docker.elastic.co/elasticsearch/elasticsearch:5.5.0 container_name: elasticsearch1 environment: - cluster.name=docker-cluster - bootstrap.memory_lock=true - &amp;#34;ES_JAVA_OPTS=-Xms512m -Xmx512m&amp;#34; ulimits: memlock: soft: -1 hard: -1 mem_limit: 1g volumes: - esdata1:/usr/share/elasticsearch/data ports: - 9200:9200 networks: - esnet elasticsearch2: image: docker.elastic.co/elasticsearch/elasticsearch:5.5.0 container_name: elasticsearch2 environment: - cluster.name=docker-cluster - bootstrap.memory_lock=true - &amp;#34;ES_JAVA_OPTS=-Xms512m -Xmx512m&amp;#34; - &amp;#34;discovery.zen.ping.unicast.hosts=elasticsearch1&amp;#34; ulimits: memlock: soft: -1 hard: -1 mem_limit: 1g volumes: - esdata2:/usr/share/elasticsearch/data networks: - esnet volumes: esdata1: driver: local esdata2: driver: local networks: esnet: 그 다음 docker-compose 로 띄운다.</description>
     </item>
     
     <item>
@@ -741,7 +752,7 @@ services:elasticsearch1:image: docker.elastic.co/elasticsearch/elasticsearch:5
 index는 테이블이라고 생각하면 된다. 예제는 공식홈피 문서에서 가져왔다.
 twitter 인덱스에 tweet 타입으로 도큐먼트를 올리는 방법이다.
 curl -XPUT -u elastic:changeme &#39;localhost:9200/twitter/tweet/1?pretty&#39; -H &#39;Content-Type: application/json&#39; -d&#39;{&amp;quot;user&amp;quot; : &amp;quot;kimchy&amp;quot;,&amp;quot;post_date&amp;quot; : &amp;quot;2009-11-15T14:12:12&amp;quot;,&amp;quot;message&amp;quot; : &amp;quot;trying out Elasticsearch&amp;quot;}&#39;결과
-{&amp;#34;_index&amp;#34; : &amp;#34;twitter&amp;#34;,&amp;#34;_type&amp;#34; : &amp;#34;tweet&amp;#34;,&amp;#34;_id&amp;#34; : &amp;#34;1&amp;#34;,&amp;#34;_version&amp;#34; : 1,&amp;#34;result&amp;#34; : &amp;#34;created&amp;#34;,&amp;#34;_shards&amp;#34; : {&amp;#34;total&amp;#34; : 2,&amp;#34;successful&amp;#34; : 2,&amp;#34;failed&amp;#34; : 0},&amp;#34;created&amp;#34; : true}인덱스에 type 까지 자동으로 만들어졌다.</description>
+{ &amp;#34;_index&amp;#34; : &amp;#34;twitter&amp;#34;, &amp;#34;_type&amp;#34; : &amp;#34;tweet&amp;#34;, &amp;#34;_id&amp;#34; : &amp;#34;1&amp;#34;, &amp;#34;_version&amp;#34; : 1, &amp;#34;result&amp;#34; : &amp;#34;created&amp;#34;, &amp;#34;_shards&amp;#34; : { &amp;#34;total&amp;#34; : 2, &amp;#34;successful&amp;#34; : 2, &amp;#34;failed&amp;#34; : 0 }, &amp;#34;created&amp;#34; : true } 인덱스에 type 까지 자동으로 만들어졌다.</description>
     </item>
     
     <item>
@@ -3999,7 +4010,7 @@ void insertionSort2(int * array, int size) { int j = 0; for (int i = 1; i 0 &amp
       <pubDate>Thu, 13 Jan 2011 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2011/01/Selection-Sort/</guid>
-      <description>void selectSort(int * array, int size){int minPoint = 0;for( int j = 0; j &amp;amp;lt; size -1; j++){minPoint = j;for (int i = j; i &amp;amp;lt; size ; i++){if(array[i] &amp;amp;lt; array[minPoint]){minPoint = i;}}swap(array+j, array+minPoint);}}오랜만에 공부 좀 하니까 머리가 돌아가는 듯.</description>
+      <description>void selectSort(int * array, int size) { int minPoint = 0; for( int j = 0; j &amp;amp;lt; size -1; j++) { minPoint = j; for (int i = j; i &amp;amp;lt; size ; i++) { if(array[i] &amp;amp;lt; array[minPoint]) { minPoint = i; } } swap(array+j, array+minPoint); } } 오랜만에 공부 좀 하니까 머리가 돌아가는 듯.</description>
     </item>
     
     <item>
@@ -6015,7 +6026,7 @@ defun이라고 하는 단어는 예상대로, 함수를 선언하고 있습니�
       
       <guid>https://ezaurum.com/2009/01/%EA%B0%80%EC%9E%A5-%EA%B0%80%EA%B9%8C%EC%9D%B4-%EB%86%93%EC%9D%B8-%EC%B1%85%EC%9D%98-37%EC%AA%BD-6%EB%B2%88%EC%A7%B8-%EC%A4%84%EC%97%90-%EC%9E%88%EB%8A%94-%EB%AC%B8%EC%9E%A5/</guid>
       <description>Blank
-&amp;hellip;..젠장 말 그대로 빈 칸이다. 무슨 책이냐고? 자료구조 주요개념·프로그램 인공지능 기법 요약. 저 페이지에는 해쉬 테이블&#39;만&amp;rsquo; 있었고, 그 6번째 줄은 비어있었다.</description>
+&amp;hellip;..젠장 말 그대로 빈 칸이다. 무슨 책이냐고? 자료구조 주요개념·프로그램 인공지능 기법 요약. 저 페이지에는 해쉬 테이블&amp;rsquo;만&amp;rsquo; 있었고, 그 6번째 줄은 비어있었다.</description>
     </item>
     
     <item>
