@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Wed, 13 May 2020 15:20:35 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 31 May 2020 22:05:28 +0900</lastBuildDate>
     
 	<atom:link href="https://ezaurum.com/series/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>회고</title>
+      <link>https://ezaurum.com/series/%ED%9A%8C%EA%B3%A0/</link>
+      <pubDate>Sun, 31 May 2020 22:05:28 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/series/%ED%9A%8C%EA%B3%A0/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>레시피</title>
@@ -27,15 +36,6 @@
       <pubDate>Sun, 19 Apr 2020 03:29:25 +0900</pubDate>
       
       <guid>https://ezaurum.com/series/%EB%8F%85%EC%84%9C%EA%B8%B0%EB%A1%9D/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>회고</title>
-      <link>https://ezaurum.com/series/%ED%9A%8C%EA%B3%A0/</link>
-      <pubDate>Thu, 02 Apr 2020 19:37:28 +0900</pubDate>
-      
-      <guid>https://ezaurum.com/series/%ED%9A%8C%EA%B3%A0/</guid>
       <description></description>
     </item>
     

@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Thu, 02 Apr 2020 19:37:28 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 31 May 2020 22:05:28 +0900</lastBuildDate>
     
 	<atom:link href="https://ezaurum.com/retrospective/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2020년 2사분기 회고</title>
+      <link>https://ezaurum.com/retrospective/2020-2nd-quater/</link>
+      <pubDate>Sun, 31 May 2020 22:05:28 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/retrospective/2020-2nd-quater/</guid>
+      <description>한 일  지금까지 한 프로젝트들을 바탕으로 이후 작업할 프로젝트 프론트/백엔드 템플릿을 만들었다 주식투자 손해는 안 보고 대충 정리. 죄책감 없이 유튜브 영상을 볼 수 있게 되었다. 몇십억 단위 프로젝트 견적을 짜 봤다.  감상  뭐든지 내 생각보다 시간이 많이 걸린다. 천천히 하자  교훈 규칙적인 생활이 중요하다  </description>
+    </item>
     
     <item>
       <title>2020년 1사분기 회고</title>

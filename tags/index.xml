@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Wed, 13 May 2020 15:20:35 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 31 May 2020 22:05:28 +0900</lastBuildDate>
     
 	<atom:link href="https://ezaurum.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>회고</title>
+      <link>https://ezaurum.com/tags/%ED%9A%8C%EA%B3%A0/</link>
+      <pubDate>Sun, 31 May 2020 22:05:28 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/tags/%ED%9A%8C%EA%B3%A0/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>cloudflare</title>
@@ -126,15 +135,6 @@
       <pubDate>Fri, 03 Apr 2020 19:44:59 +0900</pubDate>
       
       <guid>https://ezaurum.com/tags/mysql/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>회고</title>
-      <link>https://ezaurum.com/tags/%ED%9A%8C%EA%B3%A0/</link>
-      <pubDate>Thu, 02 Apr 2020 19:37:28 +0900</pubDate>
-      
-      <guid>https://ezaurum.com/tags/%ED%9A%8C%EA%B3%A0/</guid>
       <description></description>
     </item>
     
