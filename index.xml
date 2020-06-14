@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Sun, 31 May 2020 22:05:28 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 14 Jun 2020 18:56:25 +0900</lastBuildDate>
     
 	<atom:link href="https://ezaurum.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>아치 리눅스에서 스크린 캡처하기</title>
+      <link>https://ezaurum.com/2020/06/%EC%95%84%EC%B9%98-%EB%A6%AC%EB%88%85%EC%8A%A4%EC%97%90%EC%84%9C-%EC%8A%A4%ED%81%AC%EB%A6%B0-%EC%BA%A1%EC%B2%98%ED%95%98%EA%B8%B0/</link>
+      <pubDate>Sun, 14 Jun 2020 18:56:25 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/2020/06/%EC%95%84%EC%B9%98-%EB%A6%AC%EB%88%85%EC%8A%A4%EC%97%90%EC%84%9C-%EC%8A%A4%ED%81%AC%EB%A6%B0-%EC%BA%A1%EC%B2%98%ED%95%98%EA%B8%B0/</guid>
+      <description>목적 프린트 스크린 키가 없는 키보드에서 스크린 캡처
+$ import -window root ~/Pictures/$(date &#39;+%Y%m%d-%H%M%S&#39;).png 출처 Screen capture</description>
+    </item>
     
     <item>
       <title>2020년 2사분기 회고</title>
@@ -614,7 +624,7 @@ func (dbm *Manager) transaction(action TransactionHandlerFunc, targets ...interf
       
       <guid>https://ezaurum.com/2017/12/Chiangmai-Life-07-%EC%B9%98%EC%95%99%EB%A7%88%EC%9D%B4-%EB%8C%80%ED%95%99-%ED%9B%84%EB%AC%B8-%EC%A3%BC%EB%B3%80/</guid>
       <description>현재 거주하는 곳은 치앙마이 대학 후문 근방이다.
-교통 버스 정류소는 봤지만, 버스가 다니는 걸 본 적은 없다. 편안하게 다니려면 스쿠터가 꼭 필요한 동네다. 인도가 아예 없는 길이 많다. 썽태우나 툭툭을 탈 때는 &amp;ldquo;랑머(후문)&amp;quot;, &amp;ldquo;랑머처(ㅊ후문)&amp;rdquo; 라고 하면 알아듣는다. 치앙마이 대학 첫자만 따서 랑머처라고 하나보다.
+교통 버스 정류소는 봤지만, 버스가 다니는 걸 본 적은 없다. 편안하게 다니려면 스쿠터가 꼭 필요한 동네다. 인도가 아예 없는 길이 많다. 썽태우나 툭툭을 탈 때는 &amp;ldquo;랑머(후문)&amp;rdquo;, &amp;ldquo;랑머처(ㅊ후문)&amp;rdquo; 라고 하면 알아듣는다. 치앙마이 대학 첫자만 따서 랑머처라고 하나보다.
   대충 이 근방.
 특징 모양은 다르지만 전체적인 특징은 우리나라 대학가와 비슷하다. 대학생들이 많고, 싼 밥집이 많고, 양도 많은 편. 다른 점이라면
 술집이 없다.
@@ -1035,7 +1045,7 @@ http://theeye.pe.kr/archives/2014 http://mudchobo.tistory.com/549 http://woniper
       <pubDate>Tue, 05 May 2015 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2015/05/sublime-text-2-%EC%84%A4%EC%A0%95%ED%8C%8C%EC%9D%BC/</guid>
-      <description>// Settings in here override those in &amp;ldquo;Default/Preferences.sublime-settings&amp;rdquo;, and // are overridden in turn by file type specific settings. { &amp;ldquo;font_face&amp;rdquo;: &amp;ldquo;나눔고딕코딩&amp;rdquo;, &amp;ldquo;font_size&amp;rdquo;: 12, &amp;ldquo;rulers&amp;rdquo;: [80, 120], &amp;ldquo;tab_size&amp;rdquo;: 4, &amp;ldquo;translate_tabs_to_spaces&amp;rdquo;: true, &amp;ldquo;highlight_line&amp;rdquo;: true, &amp;ldquo;line_padding_top&amp;rdquo;: 2, &amp;ldquo;line_padding_bottom&amp;rdquo;: 2, &amp;ldquo;default_encoding&amp;rdquo;: &amp;ldquo;UTF-8&amp;rdquo;, &amp;ldquo;fallback_encoding&amp;rdquo;: &amp;ldquo;Korean (CP949)&amp;quot;, &amp;ldquo;highlight_modified_tabs&amp;rdquo; : true }</description>
+      <description>// Settings in here override those in &amp;ldquo;Default/Preferences.sublime-settings&amp;rdquo;, and // are overridden in turn by file type specific settings. { &amp;ldquo;font_face&amp;rdquo;: &amp;ldquo;나눔고딕코딩&amp;rdquo;, &amp;ldquo;font_size&amp;rdquo;: 12, &amp;ldquo;rulers&amp;rdquo;: [80, 120], &amp;ldquo;tab_size&amp;rdquo;: 4, &amp;ldquo;translate_tabs_to_spaces&amp;rdquo;: true, &amp;ldquo;highlight_line&amp;rdquo;: true, &amp;ldquo;line_padding_top&amp;rdquo;: 2, &amp;ldquo;line_padding_bottom&amp;rdquo;: 2, &amp;ldquo;default_encoding&amp;rdquo;: &amp;ldquo;UTF-8&amp;rdquo;, &amp;ldquo;fallback_encoding&amp;rdquo;: &amp;ldquo;Korean (CP949)&amp;rdquo;, &amp;ldquo;highlight_modified_tabs&amp;rdquo; : true }</description>
     </item>
     
     <item>
@@ -3143,7 +3153,7 @@ POI, google drive api 대충 조사.</description>
       
       <guid>https://ezaurum.com/2012/05/consumes%EA%B3%BC-produces-%EC%A1%B0%EA%B1%B4-RequestMapping%EC%97%90-%EC%93%B0%EA%B8%B0/</guid>
       <description>spring 3.1에서 @RequestMapping에 새 조건 두 개가 들어갔다. 그 이외에도 많은 것들이 바뀌었지만, 일단은 당장 쓸 수 있는 이것부터. 여기서도 볼 수 있는데, 기본적으로 consumes는 header의 Content-Type 대체, produces는 Accept 대체가 된다.
-이렇게 쓰면 된다. @RequestMapping(value=&amp;rdquo;/&amp;quot;, consumes={&amp;ldquo;application/json&amp;rdquo;,&amp;ldquo;multipart/form-data&amp;rdquo;,&amp;ldquo;application/x-www-form-urlencoded&amp;rdquo;})</description>
+이렇게 쓰면 된다. @RequestMapping(value=&amp;rdquo;/&amp;rdquo;, consumes={&amp;ldquo;application/json&amp;rdquo;,&amp;ldquo;multipart/form-data&amp;rdquo;,&amp;ldquo;application/x-www-form-urlencoded&amp;rdquo;})</description>
     </item>
     
     <item>
@@ -5464,7 +5474,7 @@ VOICES (MACROSS PLUS OPENING THEME)
       <guid>https://ezaurum.com/2009/05/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-9/</guid>
       <description>게임의 특별한 동작 만들기이제 완성까지 딱 하나만 더 하면 됩니다. 플레이어가 게임을 끝내기 위한 특별한 동작을 좀 더하는 거죠. 첫 번째 명령은 플레이어가 쇠사슬을 다락방에 있던 양동이에 용접하는 게 될 겁니다.
 (setf chain-welded nil)
-(defun weld (subject object) (cond ((and (eq location &amp;lsquo;attic) (eq subject &amp;lsquo;chain) (eq object &amp;lsquo;bucket) (have &amp;lsquo;chain) (have &amp;lsquo;bucket) (not chain-welded)) (setf chain-welded &amp;lsquo;t) &amp;lsquo;(the chain is now securely welded to the bucket.)) (t &amp;lsquo;(you cannot weld like that.</description>
+(defun weld (subject object) (cond ((and (eq location &amp;lsquo;attic) (eq subject &amp;lsquo;chain) (eq object &amp;lsquo;bucket) (have &amp;lsquo;chain) (have &amp;lsquo;bucket) (not chain-welded)) (setf chain-welded &amp;rsquo;t) &amp;lsquo;(the chain is now securely welded to the bucket.)) (t &amp;lsquo;(you cannot weld like that.</description>
     </item>
     
     <item>

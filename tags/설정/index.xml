@@ -18,7 +18,7 @@
       <pubDate>Tue, 05 May 2015 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2015/05/sublime-text-2-%EC%84%A4%EC%A0%95%ED%8C%8C%EC%9D%BC/</guid>
-      <description>// Settings in here override those in &amp;ldquo;Default/Preferences.sublime-settings&amp;rdquo;, and // are overridden in turn by file type specific settings. { &amp;ldquo;font_face&amp;rdquo;: &amp;ldquo;나눔고딕코딩&amp;rdquo;, &amp;ldquo;font_size&amp;rdquo;: 12, &amp;ldquo;rulers&amp;rdquo;: [80, 120], &amp;ldquo;tab_size&amp;rdquo;: 4, &amp;ldquo;translate_tabs_to_spaces&amp;rdquo;: true, &amp;ldquo;highlight_line&amp;rdquo;: true, &amp;ldquo;line_padding_top&amp;rdquo;: 2, &amp;ldquo;line_padding_bottom&amp;rdquo;: 2, &amp;ldquo;default_encoding&amp;rdquo;: &amp;ldquo;UTF-8&amp;rdquo;, &amp;ldquo;fallback_encoding&amp;rdquo;: &amp;ldquo;Korean (CP949)&amp;quot;, &amp;ldquo;highlight_modified_tabs&amp;rdquo; : true }</description>
+      <description>// Settings in here override those in &amp;ldquo;Default/Preferences.sublime-settings&amp;rdquo;, and // are overridden in turn by file type specific settings. { &amp;ldquo;font_face&amp;rdquo;: &amp;ldquo;나눔고딕코딩&amp;rdquo;, &amp;ldquo;font_size&amp;rdquo;: 12, &amp;ldquo;rulers&amp;rdquo;: [80, 120], &amp;ldquo;tab_size&amp;rdquo;: 4, &amp;ldquo;translate_tabs_to_spaces&amp;rdquo;: true, &amp;ldquo;highlight_line&amp;rdquo;: true, &amp;ldquo;line_padding_top&amp;rdquo;: 2, &amp;ldquo;line_padding_bottom&amp;rdquo;: 2, &amp;ldquo;default_encoding&amp;rdquo;: &amp;ldquo;UTF-8&amp;rdquo;, &amp;ldquo;fallback_encoding&amp;rdquo;: &amp;ldquo;Korean (CP949)&amp;rdquo;, &amp;ldquo;highlight_modified_tabs&amp;rdquo; : true }</description>
     </item>
     
     <item>

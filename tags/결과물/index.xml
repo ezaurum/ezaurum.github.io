@@ -98,7 +98,7 @@ VOICES (MACROSS PLUS OPENING THEME)
       <guid>https://ezaurum.com/2009/05/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-9/</guid>
       <description>게임의 특별한 동작 만들기이제 완성까지 딱 하나만 더 하면 됩니다. 플레이어가 게임을 끝내기 위한 특별한 동작을 좀 더하는 거죠. 첫 번째 명령은 플레이어가 쇠사슬을 다락방에 있던 양동이에 용접하는 게 될 겁니다.
 (setf chain-welded nil)
-(defun weld (subject object) (cond ((and (eq location &amp;lsquo;attic) (eq subject &amp;lsquo;chain) (eq object &amp;lsquo;bucket) (have &amp;lsquo;chain) (have &amp;lsquo;bucket) (not chain-welded)) (setf chain-welded &amp;lsquo;t) &amp;lsquo;(the chain is now securely welded to the bucket.)) (t &amp;lsquo;(you cannot weld like that.</description>
+(defun weld (subject object) (cond ((and (eq location &amp;lsquo;attic) (eq subject &amp;lsquo;chain) (eq object &amp;lsquo;bucket) (have &amp;lsquo;chain) (have &amp;lsquo;bucket) (not chain-welded)) (setf chain-welded &amp;rsquo;t) &amp;lsquo;(the chain is now securely welded to the bucket.)) (t &amp;lsquo;(you cannot weld like that.</description>
     </item>
     
     <item>

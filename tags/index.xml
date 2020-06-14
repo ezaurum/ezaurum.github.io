@@ -7,10 +7,64 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Sun, 31 May 2020 22:05:28 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 14 Jun 2020 18:56:25 +0900</lastBuildDate>
     
 	<atom:link href="https://ezaurum.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>arch</title>
+      <link>https://ezaurum.com/tags/arch/</link>
+      <pubDate>Sun, 14 Jun 2020 18:56:25 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/tags/arch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cli</title>
+      <link>https://ezaurum.com/tags/cli/</link>
+      <pubDate>Sun, 14 Jun 2020 18:56:25 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/tags/cli/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>따라하기</title>
+      <link>https://ezaurum.com/tags/%EB%94%B0%EB%9D%BC%ED%95%98%EA%B8%B0/</link>
+      <pubDate>Sun, 14 Jun 2020 18:56:25 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/tags/%EB%94%B0%EB%9D%BC%ED%95%98%EA%B8%B0/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>레시피</title>
+      <link>https://ezaurum.com/tags/%EB%A0%88%EC%8B%9C%ED%94%BC/</link>
+      <pubDate>Sun, 14 Jun 2020 18:56:25 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/tags/%EB%A0%88%EC%8B%9C%ED%94%BC/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>스크린캡처</title>
+      <link>https://ezaurum.com/tags/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%BA%A1%EC%B2%98/</link>
+      <pubDate>Sun, 14 Jun 2020 18:56:25 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/tags/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%BA%A1%EC%B2%98/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>정리</title>
+      <link>https://ezaurum.com/tags/%EC%A0%95%EB%A6%AC/</link>
+      <pubDate>Sun, 14 Jun 2020 18:56:25 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/tags/%EC%A0%95%EB%A6%AC/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>회고</title>
@@ -45,33 +99,6 @@
       <pubDate>Wed, 13 May 2020 15:20:35 +0900</pubDate>
       
       <guid>https://ezaurum.com/tags/pagerule/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>따라하기</title>
-      <link>https://ezaurum.com/tags/%EB%94%B0%EB%9D%BC%ED%95%98%EA%B8%B0/</link>
-      <pubDate>Wed, 13 May 2020 15:20:35 +0900</pubDate>
-      
-      <guid>https://ezaurum.com/tags/%EB%94%B0%EB%9D%BC%ED%95%98%EA%B8%B0/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>레시피</title>
-      <link>https://ezaurum.com/tags/%EB%A0%88%EC%8B%9C%ED%94%BC/</link>
-      <pubDate>Wed, 13 May 2020 15:20:35 +0900</pubDate>
-      
-      <guid>https://ezaurum.com/tags/%EB%A0%88%EC%8B%9C%ED%94%BC/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>정리</title>
-      <link>https://ezaurum.com/tags/%EC%A0%95%EB%A6%AC/</link>
-      <pubDate>Wed, 13 May 2020 15:20:35 +0900</pubDate>
-      
-      <guid>https://ezaurum.com/tags/%EC%A0%95%EB%A6%AC/</guid>
       <description></description>
     </item>
     
@@ -274,15 +301,6 @@
     </item>
     
     <item>
-      <title>arch</title>
-      <link>https://ezaurum.com/tags/arch/</link>
-      <pubDate>Fri, 10 Jan 2020 16:17:30 +0900</pubDate>
-      
-      <guid>https://ezaurum.com/tags/arch/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>i3wm</title>
       <link>https://ezaurum.com/tags/i3wm/</link>
       <pubDate>Fri, 10 Jan 2020 16:17:30 +0900</pubDate>
@@ -414,15 +432,6 @@
       <pubDate>Thu, 20 Jun 2019 22:31:05 +0900</pubDate>
       
       <guid>https://ezaurum.com/tags/AccessDenied/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>cli</title>
-      <link>https://ezaurum.com/tags/cli/</link>
-      <pubDate>Sun, 12 May 2019 01:54:01 +0900</pubDate>
-      
-      <guid>https://ezaurum.com/tags/cli/</guid>
       <description></description>
     </item>
     
