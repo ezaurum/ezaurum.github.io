@@ -3,22 +3,52 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://ezaurum.com/categories/</loc>
+    <lastmod>2020-06-20T02:37:59+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/</loc>
+    <lastmod>2020-06-20T02:37:59+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/post/</loc>
+    <lastmod>2020-06-20T02:37:59+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/tags/</loc>
+    <lastmod>2020-06-20T02:37:59+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/tags/%EA%BF%88/</loc>
+    <lastmod>2020-06-20T02:37:59+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/tags/%EC%86%8C%EB%A0%A8/</loc>
+    <lastmod>2020-06-20T02:37:59+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/2020/06/%EC%96%B4%EB%8A%90-%EB%82%A0-%EB%B3%B4%EB%8B%88-%EC%86%8C%EB%A0%A8%EC%9D%B4-%EB%B6%95%EA%B4%B4%ED%96%88%EB%8B%A4/</loc>
+    <lastmod>2020-06-20T02:37:59+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/categories/%EC%9D%BC%EC%83%81/</loc>
+    <lastmod>2020-06-20T02:37:59+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ezaurum.com/tags/arch/</loc>
     <lastmod>2020-06-14T18:56:25+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ezaurum.com/categories/</loc>
-    <lastmod>2020-06-14T18:56:25+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://ezaurum.com/tags/cli/</loc>
-    <lastmod>2020-06-14T18:56:25+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ezaurum.com/</loc>
     <lastmod>2020-06-14T18:56:25+09:00</lastmod>
   </url>
   
@@ -29,11 +59,6 @@
   
   <url>
     <loc>https://ezaurum.com/series/</loc>
-    <lastmod>2020-06-14T18:56:25+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ezaurum.com/tags/</loc>
     <lastmod>2020-06-14T18:56:25+09:00</lastmod>
   </url>
   
@@ -254,11 +279,6 @@
   
   <url>
     <loc>https://ezaurum.com/tags/package/</loc>
-    <lastmod>2020-03-26T01:42:28+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ezaurum.com/post/</loc>
     <lastmod>2020-03-26T01:42:28+09:00</lastmod>
   </url>
   
@@ -504,11 +524,6 @@
   
   <url>
     <loc>https://ezaurum.com/bug/deploy-bug-not-changed/</loc>
-    <lastmod>2019-04-27T11:38:00+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ezaurum.com/categories/%EC%9D%BC%EC%83%81/</loc>
     <lastmod>2019-04-27T11:38:00+09:00</lastmod>
   </url>
   
@@ -1664,11 +1679,6 @@
   
   <url>
     <loc>https://ezaurum.com/tags/her/</loc>
-    <lastmod>2015-02-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ezaurum.com/tags/%EA%BF%88/</loc>
     <lastmod>2015-02-07T00:00:00+00:00</lastmod>
   </url>
   
