@@ -473,12 +473,47 @@
   </url>
   
   <url>
+    <loc>https://ezaurum.com/tags/bug/</loc>
+    <lastmod>2019-06-20T22:31:05+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ezaurum.com/bug/</loc>
     <lastmod>2019-06-20T22:31:05+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://ezaurum.com/bug/cloud-front-access-denied/</loc>
+    <lastmod>2019-06-20T22:31:05+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/tags/DB/</loc>
+    <lastmod>2019-06-20T22:31:05+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/tags/max_connection/</loc>
+    <lastmod>2019-06-20T22:31:05+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/tags/RDS/</loc>
+    <lastmod>2019-06-20T22:31:05+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/tags/too-many-connection/</loc>
+    <lastmod>2019-06-20T22:31:05+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/bug/too-many-connections/</loc>
+    <lastmod>2019-06-20T22:31:05+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/tags/tx/</loc>
     <lastmod>2019-06-20T22:31:05+09:00</lastmod>
   </url>
   
@@ -639,11 +674,6 @@
   
   <url>
     <loc>https://ezaurum.com/bug/not-modified-json-response/</loc>
-    <lastmod>2018-09-19T11:42:38+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ezaurum.com/tags/bug/</loc>
     <lastmod>2018-09-19T11:42:38+09:00</lastmod>
   </url>
   
@@ -1803,11 +1833,6 @@
   </url>
   
   <url>
-    <loc>https://ezaurum.com/tags/DB/</loc>
-    <lastmod>2014-12-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://ezaurum.com/tags/framework/</loc>
     <lastmod>2014-12-25T00:00:00+00:00</lastmod>
   </url>
@@ -1864,11 +1889,6 @@
   
   <url>
     <loc>https://ezaurum.com/2014/12/nuget-%ED%8C%A8%ED%82%A4%EC%A7%80-%EC%9E%90%EB%8F%99%EC%9C%BC%EB%A1%9C-%EB%A7%8C%EB%93%A4%EA%B8%B0/</loc>
-    <lastmod>2014-12-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ezaurum.com/tags/RDS/</loc>
     <lastmod>2014-12-24T00:00:00+00:00</lastmod>
   </url>
   

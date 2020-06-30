@@ -454,6 +454,60 @@
     </item>
     
     <item>
+      <title>bug</title>
+      <link>https://ezaurum.com/tags/bug/</link>
+      <pubDate>Thu, 20 Jun 2019 22:31:05 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/tags/bug/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DB</title>
+      <link>https://ezaurum.com/tags/DB/</link>
+      <pubDate>Thu, 20 Jun 2019 22:31:05 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/tags/DB/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>max_connection</title>
+      <link>https://ezaurum.com/tags/max_connection/</link>
+      <pubDate>Thu, 20 Jun 2019 22:31:05 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/tags/max_connection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RDS</title>
+      <link>https://ezaurum.com/tags/RDS/</link>
+      <pubDate>Thu, 20 Jun 2019 22:31:05 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/tags/RDS/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>too many connection</title>
+      <link>https://ezaurum.com/tags/too-many-connection/</link>
+      <pubDate>Thu, 20 Jun 2019 22:31:05 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/tags/too-many-connection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tx</title>
+      <link>https://ezaurum.com/tags/tx/</link>
+      <pubDate>Thu, 20 Jun 2019 22:31:05 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/tags/tx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>csv</title>
       <link>https://ezaurum.com/tags/csv/</link>
       <pubDate>Sun, 12 May 2019 01:54:01 +0900</pubDate>
@@ -603,15 +657,6 @@
       <pubDate>Wed, 19 Sep 2018 11:42:38 +0900</pubDate>
       
       <guid>https://ezaurum.com/tags/304/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>bug</title>
-      <link>https://ezaurum.com/tags/bug/</link>
-      <pubDate>Wed, 19 Sep 2018 11:42:38 +0900</pubDate>
-      
-      <guid>https://ezaurum.com/tags/bug/</guid>
       <description></description>
     </item>
     
@@ -1723,15 +1768,6 @@
     </item>
     
     <item>
-      <title>DB</title>
-      <link>https://ezaurum.com/tags/DB/</link>
-      <pubDate>Thu, 25 Dec 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://ezaurum.com/tags/DB/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>framework</title>
       <link>https://ezaurum.com/tags/framework/</link>
       <pubDate>Thu, 25 Dec 2014 00:00:00 +0000</pubDate>
@@ -1791,15 +1827,6 @@
       <pubDate>Wed, 24 Dec 2014 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/tags/Ninject/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>RDS</title>
-      <link>https://ezaurum.com/tags/RDS/</link>
-      <pubDate>Wed, 24 Dec 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://ezaurum.com/tags/RDS/</guid>
       <description></description>
     </item>
     
