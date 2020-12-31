@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Sun, 31 May 2020 22:05:28 +0900</lastBuildDate><atom:link href="https://ezaurum.com/retrospective/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 31 Dec 2020 12:49:28 +0900</lastBuildDate><atom:link href="https://ezaurum.com/retrospective/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2020년 전체 회고</title>
+      <link>https://ezaurum.com/retrospective/2020-full-year/</link>
+      <pubDate>Thu, 31 Dec 2020 12:49:28 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/retrospective/2020-full-year/</guid>
+      <description>한 일  5000커밋 달성 닌텐도 스위치 구매, 열심히 게임중 학자금 융자 모두 상환 집에 가전제품을 많이 샀다 목표로 삼았던 10kg 감량은 실패 목표로 삼았던 게임 출시도 실패 목표로 삼았던 콘크리트 매쓰매틱스도 실패 Go 스터디 모임 하나 진행 Node JS 프로젝트 하나 진행 오랜만에 Java + Spring + MyBatis 프로젝트 진행 손 댄 프로젝트 우상향 중  감상  나쁘지 않다. 어제보다 나은 내일을 기대하고 있다 실력이 좀 늘었다는 느낌 우상향 하는 프로젝트는 참 기분이 좋다  교훈  규칙적인 생활이 중요하다 - 말 뿐만이 아니라 실행이 충분한 수면과 운동이 필요하다  </description>
+    </item>
+    
     <item>
       <title>2020년 2사분기 회고</title>
       <link>https://ezaurum.com/retrospective/2020-2nd-quater/</link>
