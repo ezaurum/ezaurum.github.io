@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Sun, 24 Nov 2013 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://ezaurum.com/tags/authorization/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 24 Nov 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://ezaurum.com/tags/authorization/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>인증과 인가의 차이</title>
       <link>https://ezaurum.com/2013/11/%EC%9D%B8%EC%A6%9D%EA%B3%BC-%EC%9D%B8%EA%B0%80%EC%9D%98-%EC%B0%A8%EC%9D%B4/</link>

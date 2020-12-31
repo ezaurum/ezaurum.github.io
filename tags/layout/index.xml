@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Fri, 30 Jul 2010 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://ezaurum.com/tags/layout/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 30 Jul 2010 00:00:00 +0000</lastBuildDate><atom:link href="https://ezaurum.com/tags/layout/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CSS옆으로 누운 品자형 만들기</title>
       <link>https://ezaurum.com/2010/07/CSS%EC%98%86%EC%9C%BC%EB%A1%9C-%EB%88%84%EC%9A%B4-%E5%93%81%EC%9E%90%ED%98%95-%EB%A7%8C%EB%93%A4%EA%B8%B0/</link>

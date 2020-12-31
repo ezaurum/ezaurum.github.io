@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Sun, 24 Nov 2013 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://ezaurum.com/tags/AcceptAsync/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 24 Nov 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://ezaurum.com/tags/AcceptAsync/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>C# Socket.AcceptAsync에서 invalidOperationException이 날 때</title>
       <link>https://ezaurum.com/2013/11/C#-Socket.AcceptAsync%EC%97%90%EC%84%9C-invalidOperationException%EC%9D%B4-%EB%82%A0-%EB%95%8C/</link>

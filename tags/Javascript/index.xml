@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Thu, 26 Mar 2020 02:00:18 +0900</lastBuildDate>
-    
-	<atom:link href="https://ezaurum.com/tags/Javascript/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 26 Mar 2020 02:00:18 +0900</lastBuildDate><atom:link href="https://ezaurum.com/tags/Javascript/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Vue에서 form 조건부 validation</title>
       <link>https://ezaurum.com/2020/03/Vue%EC%97%90%EC%84%9C-form-%EC%A1%B0%EA%B1%B4%EB%B6%80-validation/</link>
@@ -100,7 +96,7 @@ window.open(&amp;ldquo;title&amp;rdquo;, &amp;ldquo;frameName&amp;rdquo;, &amp;l
       
       <guid>https://ezaurum.com/2008/11/%EC%99%B8%EB%B6%80-%EC%84%9C%EB%B2%84%EC%97%90%EC%84%9C-%ED%94%84%EB%A0%88%EC%9E%84%EC%9C%BC%EB%A1%9C-%EB%AC%B8%EC%84%9C%EB%A5%BC-%EC%9D%BD%EA%B2%8C-%ED%95%98%EA%B3%A0-%EC%8B%B6%EC%A7%80-%EC%95%8A%EC%9D%84-%EB%95%8C/</guid>
       <description>출저는 여기
-당연히 &amp;lt;head&amp;gt; 와 &amp;lt;/head&amp;gt; 사이에 넣어준다. type=&amp;quot;text/javascript&amp;quot;&amp;gt;
+당연히 &amp;lt;head&amp;gt; 와 &amp;lt;/head&amp;gt; 사이에 넣어준다. type=&amp;ldquo;text/javascript&amp;rdquo;&amp;gt;
 //
 if (top.frames.length!=0) top.location=self.document.location;
 //]]&amp;gt;

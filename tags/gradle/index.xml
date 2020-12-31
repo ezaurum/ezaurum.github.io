@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Sun, 01 Apr 2018 13:36:26 +0700</lastBuildDate>
-    
-	<atom:link href="https://ezaurum.com/tags/gradle/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 01 Apr 2018 13:36:26 +0700</lastBuildDate><atom:link href="https://ezaurum.com/tags/gradle/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>그래들은 컴파일이 되는데 인텔리J에서 컴파일이 안 되던 문제</title>
       <link>https://ezaurum.com/bug/intellij-update-faile/</link>

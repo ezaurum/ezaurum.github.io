@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Sun, 08 Feb 2015 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://ezaurum.com/tags/%ED%95%B4%EA%B2%B0%EB%B2%95/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 08 Feb 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://ezaurum.com/tags/%ED%95%B4%EA%B2%B0%EB%B2%95/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Nuget 패키지에 의존성 지정하기</title>
       <link>https://ezaurum.com/2015/02/Nuget-%ED%8C%A8%ED%82%A4%EC%A7%80%EC%97%90-%EC%9D%98%EC%A1%B4%EC%84%B1-%EC%A7%80%EC%A0%95%ED%95%98%EA%B8%B0/</link>
@@ -105,7 +101,7 @@
       <pubDate>Wed, 21 Aug 2013 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2013/08/jaxb-%EB%A1%9C-xsd%EB%A5%BC-java-class%EB%A1%9C-%EB%A7%8C%EB%93%A4-%EB%95%8C/</guid>
-      <description>상속되는 객체가 제대로 만들어지지 않는다면, mixed=&amp;quot;true&amp;quot;를 없애보라</description>
+      <description>상속되는 객체가 제대로 만들어지지 않는다면, mixed=&amp;ldquo;true&amp;quot;를 없애보라</description>
     </item>
     
     <item>
@@ -373,10 +369,10 @@ OTL&amp;hellip;. 어차피 ssh로 접속해서만 쓸 건데&amp;hellip; �
       
       <guid>https://ezaurum.com/2011/04/input%EC%9D%B4%EB%82%98-textarea%EC%9D%98-%ED%81%AC%EA%B8%B0%EA%B0%80-%EC%9E%98-%EB%A7%9E%EC%A7%80-%EC%95%8A%EC%9D%84-%EB%95%8C/</guid>
       <description>아무리 width를 조정하고 padding, margin, border까지 똑같이 줘도 제대로 사이즈가 맞지 않을 때는,
-box-sizing:border-box; 를 넣어줘 본다.  &amp;lt;div style=&amp;quot;box-sizing:border-box;width:100px;border:1px solid gray;height:20px;float:left;display:block;&amp;quot;&amp;gt;test&amp;lt;/div&amp;gt; &amp;lt;input type=&amp;quot;text&amp;rdquo; style=&amp;quot;box-sizing:border-box;width:100px;height:20px;float:left;display:block;&amp;rdquo; value=&amp;quot;test&amp;rdquo;/&amp;gt; &amp;lt;textarea style=&amp;quot;box-sizing:border-box;width:100px;height:20px;float:left;display:block;&amp;quot;&amp;gt;test&amp;lt;/textarea&amp;gt; 
+box-sizing:border-box; 를 넣어줘 본다.  &amp;lt;div style=&amp;ldquo;box-sizing:border-box;width:100px;border:1px solid gray;height:20px;float:left;display:block;&amp;quot;&amp;gt;test&amp;lt;/div&amp;gt; &amp;lt;input type=&amp;ldquo;text&amp;rdquo; style=&amp;ldquo;box-sizing:border-box;width:100px;height:20px;float:left;display:block;&amp;rdquo; value=&amp;ldquo;test&amp;rdquo;/&amp;gt; &amp;lt;textarea style=&amp;ldquo;box-sizing:border-box;width:100px;height:20px;float:left;display:block;&amp;quot;&amp;gt;test&amp;lt;/textarea&amp;gt; 
 testtest
 자세한 것은 다음 링크참조
-chrome같은 경우엔 기본적으로 input[type=&amp;quot;text&amp;rdquo;],input[type=&amp;quot;button&amp;rdquo;]같은 것들이 box-sizing:border-box로 되어 있는 듯 하다.
+chrome같은 경우엔 기본적으로 input[type=&amp;ldquo;text&amp;rdquo;],input[type=&amp;ldquo;button&amp;rdquo;]같은 것들이 box-sizing:border-box로 되어 있는 듯 하다.
 css3 속성이므로 ie에서는 제대로 안 된다.</description>
     </item>
     
@@ -419,7 +415,7 @@ css3 속성이므로 ie에서는 제대로 안 된다.</description>
       <pubDate>Thu, 19 Aug 2010 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2010/08/css-img-%EC%97%AC%EB%B0%B1/</guid>
-      <description>img는 inline 글자랑 같다. &amp;lt;img src=&amp;quot;xx&amp;rdquo; /&amp;gt; &amp;lt;img src=&amp;quot;xx&amp;rdquo; /&amp;gt; &amp;lt;img src=&amp;quot;xx&amp;rdquo; /&amp;gt; 이렇게 하면 여백이 생긴다. html이므로, 빈줄은 빈칸으로 취급. &amp;lt;img src=&amp;quot;xx&amp;rdquo; /&amp;gt;&amp;lt;img src=&amp;quot;xx&amp;rdquo; /&amp;gt;&amp;lt;img src=&amp;quot;xx&amp;rdquo; /&amp;gt; 이렇게 하면 안 생긴다.</description>
+      <description>img는 inline 글자랑 같다. &amp;lt;img src=&amp;ldquo;xx&amp;rdquo; /&amp;gt; &amp;lt;img src=&amp;ldquo;xx&amp;rdquo; /&amp;gt; &amp;lt;img src=&amp;ldquo;xx&amp;rdquo; /&amp;gt; 이렇게 하면 여백이 생긴다. html이므로, 빈줄은 빈칸으로 취급. &amp;lt;img src=&amp;ldquo;xx&amp;rdquo; /&amp;gt;&amp;lt;img src=&amp;ldquo;xx&amp;rdquo; /&amp;gt;&amp;lt;img src=&amp;ldquo;xx&amp;rdquo; /&amp;gt; 이렇게 하면 안 생긴다.</description>
     </item>
     
     <item>
@@ -512,7 +508,7 @@ utf-8을 지원한다더니&amp;hellip; mysql만 그걸 지원하고 아파치�
       
       <guid>https://ezaurum.com/2008/12/%EC%86%8C%EC%BC%93-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EC%9D%84-%ED%95%A0-%EB%95%8C-read%EA%B0%80-%EC%83%9D%EA%B0%81%EB%8C%80%EB%A1%9C-%EC%9E%91%EB%8F%99%ED%95%98%EC%A7%80-%EC%95%8A%EB%8A%94-%EA%B2%BD%EC%9A%B0/</guid>
       <description>기말고사용으로 채팅 프로그램을 만들던 중, close를 하지 않고, 연결을 유지한 채로 write함수로 EOF값 만을 보내서 대화 내용의 종결을 알리려고 했으나, 잘 작동하지 않았다.
-read는 socket 이 close되지 않으면 EOF를 읽더라도 1을 반환한다. 따라서 연결을 유지하고 read/write를 하려면 읽은 값이 EOF인지를 체크해준다! 이거 알아내려고 이틀 밤 샜다. 젠장. 나만 병신인가.  while (temp) { read(sockfd, &amp;amp;s, 1); if ( s == EOF) break; printf(&amp;quot;%c&amp;rdquo;,s); } 
+read는 socket 이 close되지 않으면 EOF를 읽더라도 1을 반환한다. 따라서 연결을 유지하고 read/write를 하려면 읽은 값이 EOF인지를 체크해준다! 이거 알아내려고 이틀 밤 샜다. 젠장. 나만 병신인가.  while (temp) { read(sockfd, &amp;amp;s, 1); if ( s == EOF) break; printf(&amp;quot;%c&amp;quot;,s); } 
 read 의 리턴값 - 기본적으로 실제로 읽은 바이트 수 만큼.</description>
     </item>
     
@@ -562,7 +558,7 @@ http://kldp.org/node/1377
       
       <guid>https://ezaurum.com/2008/11/%EC%99%B8%EB%B6%80-%EC%84%9C%EB%B2%84%EC%97%90%EC%84%9C-%ED%94%84%EB%A0%88%EC%9E%84%EC%9C%BC%EB%A1%9C-%EB%AC%B8%EC%84%9C%EB%A5%BC-%EC%9D%BD%EA%B2%8C-%ED%95%98%EA%B3%A0-%EC%8B%B6%EC%A7%80-%EC%95%8A%EC%9D%84-%EB%95%8C/</guid>
       <description>출저는 여기
-당연히 &amp;lt;head&amp;gt; 와 &amp;lt;/head&amp;gt; 사이에 넣어준다. type=&amp;quot;text/javascript&amp;quot;&amp;gt;
+당연히 &amp;lt;head&amp;gt; 와 &amp;lt;/head&amp;gt; 사이에 넣어준다. type=&amp;ldquo;text/javascript&amp;rdquo;&amp;gt;
 //
 if (top.frames.length!=0) top.location=self.document.location;
 //]]&amp;gt;
@@ -576,7 +572,7 @@ if (top.frames.length!=0) top.location=self.document.location;
       
       <guid>https://ezaurum.com/2008/11/SmartFTP%EC%97%90%EC%84%9C-%EB%94%94%EB%A0%89%ED%86%A0%EB%A6%AC-%EB%AA%A9%EB%A1%9D-%EC%95%88-%EB%B3%B4%EC%9D%B4%EB%8A%94-%EB%AC%B8%EC%A0%9C/</guid>
       <description>http://kldp.org/node/34348 파일질라와 같은 문제인 듯. XP로 ALftp로 윈도우 환경에서 서버를 돌리고 있는데, 다른 컴에서 smartftp로 접속하면 디렉토리 목록이 보이지 않는다. raw목록을 보면 제대로 받아오고 있긴 한데, 한글 주소는 아예 접근이 안되고, 해서 여러가지 알아본 바.
-http://www.smartftp.com/support/kb/no-files-folders-are-being-being-displayed-f48.html 일단 이건 소용없었고. 그 아래, MLSD란 걸 사용 안 함으로 해 줘야 한다. [caption id=&amp;quot;attachment_212&amp;rdquo; align=&amp;quot;alignnone&amp;rdquo; width=&amp;quot;300&amp;rdquo; caption=&amp;quot;디렉토리 목록이 나오지 않는 서버의 링크-즐겨찾기에 있을 거다-에서 오른쪽 버튼을 누르고, 속성으로 들어간다. 누르면 크게 볼 수 있음.</description>
+http://www.smartftp.com/support/kb/no-files-folders-are-being-being-displayed-f48.html 일단 이건 소용없었고. 그 아래, MLSD란 걸 사용 안 함으로 해 줘야 한다. [caption id=&amp;ldquo;attachment_212&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;300&amp;rdquo; caption=&amp;ldquo;디렉토리 목록이 나오지 않는 서버의 링크-즐겨찾기에 있을 거다-에서 오른쪽 버튼을 누르고, 속성으로 들어간다. 누르면 크게 볼 수 있음.</description>
     </item>
     
     <item>

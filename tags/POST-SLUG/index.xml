@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Fri, 17 Aug 2007 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://ezaurum.com/tags/POST-SLUG/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 17 Aug 2007 00:00:00 +0000</lastBuildDate><atom:link href="https://ezaurum.com/tags/POST-SLUG/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>UTF-8 환경에서 한글 post slug 문제</title>
       <link>https://ezaurum.com/2007/08/UTF-8-%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C-%ED%95%9C%EA%B8%80-post-slug-%EB%AC%B8%EC%A0%9C/</link>

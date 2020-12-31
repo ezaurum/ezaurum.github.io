@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Thu, 20 Nov 2008 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://ezaurum.com/tags/fdd/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 20 Nov 2008 00:00:00 +0000</lastBuildDate><atom:link href="https://ezaurum.com/tags/fdd/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>XP용 Intel AHCI driver</title>
       <link>https://ezaurum.com/2008/11/XP%EC%9A%A9-Intel-AHCI-driver/</link>

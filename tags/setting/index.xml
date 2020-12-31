@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Thu, 21 Aug 2014 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://ezaurum.com/tags/setting/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 21 Aug 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://ezaurum.com/tags/setting/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Sublime Text 필요 설정</title>
       <link>https://ezaurum.com/2014/08/Sublime-Text-%ED%95%84%EC%9A%94-%EC%84%A4%EC%A0%95/</link>

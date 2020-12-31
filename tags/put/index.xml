@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Mon, 18 Aug 2014 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://ezaurum.com/tags/put/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 18 Aug 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://ezaurum.com/tags/put/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CRUD에 대응하는 Http Method</title>
       <link>https://ezaurum.com/2014/08/CRUD%EC%97%90-%EB%8C%80%EC%9D%91%ED%95%98%EB%8A%94-Http-Method/</link>

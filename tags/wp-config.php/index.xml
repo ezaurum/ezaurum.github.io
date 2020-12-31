@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Sat, 12 Sep 2009 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://ezaurum.com/tags/wp-config.php/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 12 Sep 2009 00:00:00 +0000</lastBuildDate><atom:link href="https://ezaurum.com/tags/wp-config.php/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>워드프레스에서 UTF-8이 euc-kr로 나오는 경우</title>
       <link>https://ezaurum.com/2009/09/%EC%9B%8C%EB%93%9C%ED%94%84%EB%A0%88%EC%8A%A4%EC%97%90%EC%84%9C-UTF-8%EC%9D%B4-euc-kr%EB%A1%9C-%EB%82%98%EC%98%A4%EB%8A%94-%EA%B2%BD%EC%9A%B0/</link>

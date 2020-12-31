@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Mon, 17 Jan 2011 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://ezaurum.com/tags/%ED%80%B5-%EC%A0%95%EB%A0%AC/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 17 Jan 2011 00:00:00 +0000</lastBuildDate><atom:link href="https://ezaurum.com/tags/%ED%80%B5-%EC%A0%95%EB%A0%AC/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Quick Sort</title>
       <link>https://ezaurum.com/2011/01/Quick-Sort/</link>

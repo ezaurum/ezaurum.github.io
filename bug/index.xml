@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Thu, 20 Jun 2019 22:31:05 +0900</lastBuildDate>
-    
-	<atom:link href="https://ezaurum.com/bug/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 20 Jun 2019 22:31:05 +0900</lastBuildDate><atom:link href="https://ezaurum.com/bug/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CloudFront에서 웹사이트 연동을 위해 S3의 파일을 불러올 때 Access Denied가 날 때</title>
       <link>https://ezaurum.com/bug/cloud-front-access-denied/</link>

@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Sat, 16 Dec 2017 18:01:25 +0700</lastBuildDate>
-    
-	<atom:link href="https://ezaurum.com/categories/%EA%B0%95%EC%9D%98/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 16 Dec 2017 18:01:25 +0700</lastBuildDate><atom:link href="https://ezaurum.com/categories/%EA%B0%95%EC%9D%98/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Go Web Server</title>
       <link>https://ezaurum.com/2017/12/Go-Web-Server/</link>

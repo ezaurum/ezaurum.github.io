@@ -6,11 +6,7 @@
     <description>Recent content in PL/SQL on Ezaurum&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    
-	<atom:link href="https://ezaurum.com/tags/PL/SQL/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>© Ezaurum 2001-</copyright><atom:link href="https://ezaurum.com/tags/PL/SQL/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>PL/SQL for 문</title>
       <link>https://ezaurum.com/2011/11/PL/SQL-for-%EB%AC%B8/</link>

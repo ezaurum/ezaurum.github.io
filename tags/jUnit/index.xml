@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Tue, 10 Aug 2010 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://ezaurum.com/tags/jUnit/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 10 Aug 2010 00:00:00 +0000</lastBuildDate><atom:link href="https://ezaurum.com/tags/jUnit/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Junit 4 시작하기</title>
       <link>https://ezaurum.com/2010/08/Junit-4-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0/</link>

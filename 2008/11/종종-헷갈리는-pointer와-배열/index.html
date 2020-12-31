@@ -28,13 +28,14 @@ pointer[x][y][z] 는 *(pointer[x][y]&#43;z) pointer[x][y] 는 *(pointer[x]&#43;y
 추가로 알아둘 사항.  void * pp; int a=35; pp = &amp;a; int ppp[5][5] = { 0, };
 printf(&quot;%dn&quot;,sizeof(pp));printf(&quot;%dn&quot;,*(int*)pp);printf(&quot;%dn&quot;,sizeof(ppp));printf(&quot;%dn&quot;,sizeof(ppp[0]));printf(&quot;%dn&quot;,sizeof(ppp[0][0]));printf(&quot;%pn&quot;,ppp);printf(&quot;%pn&quot;,ppp&#43;1);printf(&quot;%pn&quot;,*(ppp&#43;2)&#43;1);printf(&quot;%pn&quot;,ppp[2]&#43;1);printf(&quot;%pn&quot;,&amp;amp;ppp[2][1]);printf(&quot;%pn&quot;,ppp[0][0]&#43;1); pointer &#43;1 은 pointer값 &#43; sizeof(*pointer);
 혹여나 해서 추가해보는 codepad link">
-<meta itemprop="datePublished" content="2008-11-24T00:00:00&#43;00:00" />
-<meta itemprop="dateModified" content="2008-11-24T00:00:00&#43;00:00" />
+<meta itemprop="datePublished" content="2008-11-24T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2008-11-24T00:00:00+00:00" />
 <meta itemprop="wordCount" content="65">
 
 
 
 <meta itemprop="keywords" content="c,C/C&#43;&#43;,배열,공부,포인터,pointer," />
+
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="종종 헷갈리는 pointer와 배열"/>
 <meta name="twitter:description" content="*(pointer &#43; n) 는 pointer[n] 과 같다. 겹쳐져 있으면 해석은 오른쪽부터.

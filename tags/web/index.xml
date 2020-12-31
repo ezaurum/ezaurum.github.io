@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Wed, 04 Mar 2020 16:04:22 +0900</lastBuildDate>
-    
-	<atom:link href="https://ezaurum.com/tags/web/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 04 Mar 2020 16:04:22 +0900</lastBuildDate><atom:link href="https://ezaurum.com/tags/web/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>쿠키에 대한 정리</title>
       <link>https://ezaurum.com/2020/03/%EC%BF%A0%ED%82%A4%EC%97%90-%EB%8C%80%ED%95%9C-%EC%A0%95%EB%A6%AC/</link>
@@ -141,7 +137,7 @@ git clone https://github.com/golang/go 그 다음 src 에서 all.bash를 실행�
       
       <guid>https://ezaurum.com/2012/05/consumes%EA%B3%BC-produces-%EC%A1%B0%EA%B1%B4-RequestMapping%EC%97%90-%EC%93%B0%EA%B8%B0/</guid>
       <description>spring 3.1에서 @RequestMapping에 새 조건 두 개가 들어갔다. 그 이외에도 많은 것들이 바뀌었지만, 일단은 당장 쓸 수 있는 이것부터. 여기서도 볼 수 있는데, 기본적으로 consumes는 header의 Content-Type 대체, produces는 Accept 대체가 된다.
-이렇게 쓰면 된다. @RequestMapping(value=&amp;rdquo;/&amp;rdquo;, consumes={&amp;ldquo;application/json&amp;rdquo;,&amp;ldquo;multipart/form-data&amp;rdquo;,&amp;ldquo;application/x-www-form-urlencoded&amp;rdquo;})</description>
+이렇게 쓰면 된다. @RequestMapping(value=&amp;quot;/&amp;quot;, consumes={&amp;ldquo;application/json&amp;rdquo;,&amp;ldquo;multipart/form-data&amp;rdquo;,&amp;ldquo;application/x-www-form-urlencoded&amp;rdquo;})</description>
     </item>
     
     <item>
@@ -203,10 +199,10 @@ CSS3만 필요하면 다른 책을 사는게 나을지도. 내용이 부실하�
       
       <guid>https://ezaurum.com/2011/04/input%EC%9D%B4%EB%82%98-textarea%EC%9D%98-%ED%81%AC%EA%B8%B0%EA%B0%80-%EC%9E%98-%EB%A7%9E%EC%A7%80-%EC%95%8A%EC%9D%84-%EB%95%8C/</guid>
       <description>아무리 width를 조정하고 padding, margin, border까지 똑같이 줘도 제대로 사이즈가 맞지 않을 때는,
-box-sizing:border-box; 를 넣어줘 본다.  &amp;lt;div style=&amp;quot;box-sizing:border-box;width:100px;border:1px solid gray;height:20px;float:left;display:block;&amp;quot;&amp;gt;test&amp;lt;/div&amp;gt; &amp;lt;input type=&amp;quot;text&amp;rdquo; style=&amp;quot;box-sizing:border-box;width:100px;height:20px;float:left;display:block;&amp;rdquo; value=&amp;quot;test&amp;rdquo;/&amp;gt; &amp;lt;textarea style=&amp;quot;box-sizing:border-box;width:100px;height:20px;float:left;display:block;&amp;quot;&amp;gt;test&amp;lt;/textarea&amp;gt; 
+box-sizing:border-box; 를 넣어줘 본다.  &amp;lt;div style=&amp;ldquo;box-sizing:border-box;width:100px;border:1px solid gray;height:20px;float:left;display:block;&amp;quot;&amp;gt;test&amp;lt;/div&amp;gt; &amp;lt;input type=&amp;ldquo;text&amp;rdquo; style=&amp;ldquo;box-sizing:border-box;width:100px;height:20px;float:left;display:block;&amp;rdquo; value=&amp;ldquo;test&amp;rdquo;/&amp;gt; &amp;lt;textarea style=&amp;ldquo;box-sizing:border-box;width:100px;height:20px;float:left;display:block;&amp;quot;&amp;gt;test&amp;lt;/textarea&amp;gt; 
 testtest
 자세한 것은 다음 링크참조
-chrome같은 경우엔 기본적으로 input[type=&amp;quot;text&amp;rdquo;],input[type=&amp;quot;button&amp;rdquo;]같은 것들이 box-sizing:border-box로 되어 있는 듯 하다.
+chrome같은 경우엔 기본적으로 input[type=&amp;ldquo;text&amp;rdquo;],input[type=&amp;ldquo;button&amp;rdquo;]같은 것들이 box-sizing:border-box로 되어 있는 듯 하다.
 css3 속성이므로 ie에서는 제대로 안 된다.</description>
     </item>
     
@@ -249,7 +245,7 @@ css3 속성이므로 ie에서는 제대로 안 된다.</description>
       <pubDate>Thu, 19 Aug 2010 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2010/08/css-img-%EC%97%AC%EB%B0%B1/</guid>
-      <description>img는 inline 글자랑 같다. &amp;lt;img src=&amp;quot;xx&amp;rdquo; /&amp;gt; &amp;lt;img src=&amp;quot;xx&amp;rdquo; /&amp;gt; &amp;lt;img src=&amp;quot;xx&amp;rdquo; /&amp;gt; 이렇게 하면 여백이 생긴다. html이므로, 빈줄은 빈칸으로 취급. &amp;lt;img src=&amp;quot;xx&amp;rdquo; /&amp;gt;&amp;lt;img src=&amp;quot;xx&amp;rdquo; /&amp;gt;&amp;lt;img src=&amp;quot;xx&amp;rdquo; /&amp;gt; 이렇게 하면 안 생긴다.</description>
+      <description>img는 inline 글자랑 같다. &amp;lt;img src=&amp;ldquo;xx&amp;rdquo; /&amp;gt; &amp;lt;img src=&amp;ldquo;xx&amp;rdquo; /&amp;gt; &amp;lt;img src=&amp;ldquo;xx&amp;rdquo; /&amp;gt; 이렇게 하면 여백이 생긴다. html이므로, 빈줄은 빈칸으로 취급. &amp;lt;img src=&amp;ldquo;xx&amp;rdquo; /&amp;gt;&amp;lt;img src=&amp;ldquo;xx&amp;rdquo; /&amp;gt;&amp;lt;img src=&amp;ldquo;xx&amp;rdquo; /&amp;gt; 이렇게 하면 안 생긴다.</description>
     </item>
     
     <item>
@@ -377,7 +373,7 @@ cd /etc/apache2/mods-available sudo cp userdir.conf userdir.load /etc/apache2/mo
       
       <guid>https://ezaurum.com/2008/11/%EC%99%B8%EB%B6%80-%EC%84%9C%EB%B2%84%EC%97%90%EC%84%9C-%ED%94%84%EB%A0%88%EC%9E%84%EC%9C%BC%EB%A1%9C-%EB%AC%B8%EC%84%9C%EB%A5%BC-%EC%9D%BD%EA%B2%8C-%ED%95%98%EA%B3%A0-%EC%8B%B6%EC%A7%80-%EC%95%8A%EC%9D%84-%EB%95%8C/</guid>
       <description>출저는 여기
-당연히 &amp;lt;head&amp;gt; 와 &amp;lt;/head&amp;gt; 사이에 넣어준다. type=&amp;quot;text/javascript&amp;quot;&amp;gt;
+당연히 &amp;lt;head&amp;gt; 와 &amp;lt;/head&amp;gt; 사이에 넣어준다. type=&amp;ldquo;text/javascript&amp;rdquo;&amp;gt;
 //
 if (top.frames.length!=0) top.location=self.document.location;
 //]]&amp;gt;

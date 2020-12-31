@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Wed, 27 Jun 2018 14:46:48 +0900</lastBuildDate>
-    
-	<atom:link href="https://ezaurum.com/tags/wasm/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 27 Jun 2018 14:46:48 +0900</lastBuildDate><atom:link href="https://ezaurum.com/tags/wasm/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Go 로 WASM 해보기</title>
       <link>https://ezaurum.com/2018/06/Go-%EB%A1%9C-WASM-%ED%95%B4%EB%B3%B4%EA%B8%B0/</link>

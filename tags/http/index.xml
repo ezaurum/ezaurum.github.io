@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Sat, 04 Aug 2012 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://ezaurum.com/tags/http/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 04 Aug 2012 00:00:00 +0000</lastBuildDate><atom:link href="https://ezaurum.com/tags/http/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Designing a Beautiful REST&#43;JSON API</title>
       <link>https://ezaurum.com/2012/08/Designing-a-Beautiful-REST-JSON-API/</link>

@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Fri, 05 Apr 2019 18:51:59 +0900</lastBuildDate>
-    
-	<atom:link href="https://ezaurum.com/tags/%EB%B2%84%EA%B7%B8/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 05 Apr 2019 18:51:59 +0900</lastBuildDate><atom:link href="https://ezaurum.com/tags/%EB%B2%84%EA%B7%B8/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>그래들 래퍼 버전을 잘못 입력 했을 때</title>
       <link>https://ezaurum.com/bug/gradle-wrapper-version-mismatch/</link>

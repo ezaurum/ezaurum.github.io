@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Sat, 20 Jun 2020 02:37:59 +0900</lastBuildDate>
-    
-	<atom:link href="https://ezaurum.com/post/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 20 Jun 2020 02:37:59 +0900</lastBuildDate><atom:link href="https://ezaurum.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>어느 날 보니 소련이 붕괴했다</title>
       <link>https://ezaurum.com/2020/06/%EC%96%B4%EB%8A%90-%EB%82%A0-%EB%B3%B4%EB%8B%88-%EC%86%8C%EB%A0%A8%EC%9D%B4-%EB%B6%95%EA%B4%B4%ED%96%88%EB%8B%A4/</link>
@@ -1396,7 +1392,7 @@ CD를 살까 했는데 CD는 진짜 장식이고&amp;hellip; 음원을 어디서
       <pubDate>Tue, 24 Sep 2013 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2013/09/Visual-studio-2013-%EC%97%90%EC%84%9C-Resharper8%EC%9D%98-%EB%8B%A8%EC%B6%95%EA%B8%B0%EA%B0%80-%EC%95%88-%EB%A8%B9%EC%9D%84-%EB%95%8C/</guid>
-      <description>딴 건 모르겠고, 일단 제일 많이 쓰는 Alt+Enter가 안 되서 한참 삽질했다. 검색해서 나온 새로 설정 뭐 이런 거 다 해도 안 되는 경우, 도구-옵션-환경-키보드로 간다. [caption id=&amp;quot;attachment_2208&amp;rdquo; align=&amp;quot;alignnone&amp;rdquo; width=&amp;quot;300&amp;rdquo;] 비쥬얼 스튜디오 키보드 매핑 바꾸기[/caption] 가서 Alt로 검색하면 ReSharper_AltEnter가 있는데, 얘의 바로가기가 XAML UI던가로 되어 있었다. 새 바로 가기를 만드는데, 전역이나 텍스트 편집기를 이용해서 만들어준다. 만들고서 알트 엔터를 누르면 ReSharper단축키랑 딴 거랑 겹친다면서 에러 메세지가 뜨는데, 앞으로 ReSharper 단축키를 쓰겠다고 해 주고, 확인 누르면 됨.</description>
+      <description>딴 건 모르겠고, 일단 제일 많이 쓰는 Alt+Enter가 안 되서 한참 삽질했다. 검색해서 나온 새로 설정 뭐 이런 거 다 해도 안 되는 경우, 도구-옵션-환경-키보드로 간다. [caption id=&amp;ldquo;attachment_2208&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;300&amp;rdquo;] 비쥬얼 스튜디오 키보드 매핑 바꾸기[/caption] 가서 Alt로 검색하면 ReSharper_AltEnter가 있는데, 얘의 바로가기가 XAML UI던가로 되어 있었다. 새 바로 가기를 만드는데, 전역이나 텍스트 편집기를 이용해서 만들어준다. 만들고서 알트 엔터를 누르면 ReSharper단축키랑 딴 거랑 겹친다면서 에러 메세지가 뜨는데, 앞으로 ReSharper 단축키를 쓰겠다고 해 주고, 확인 누르면 됨.</description>
     </item>
     
     <item>
@@ -2350,7 +2346,7 @@ POI, google drive api 대충 조사.</description>
       
       <guid>https://ezaurum.com/2012/05/consumes%EA%B3%BC-produces-%EC%A1%B0%EA%B1%B4-RequestMapping%EC%97%90-%EC%93%B0%EA%B8%B0/</guid>
       <description>spring 3.1에서 @RequestMapping에 새 조건 두 개가 들어갔다. 그 이외에도 많은 것들이 바뀌었지만, 일단은 당장 쓸 수 있는 이것부터. 여기서도 볼 수 있는데, 기본적으로 consumes는 header의 Content-Type 대체, produces는 Accept 대체가 된다.
-이렇게 쓰면 된다. @RequestMapping(value=&amp;rdquo;/&amp;rdquo;, consumes={&amp;ldquo;application/json&amp;rdquo;,&amp;ldquo;multipart/form-data&amp;rdquo;,&amp;ldquo;application/x-www-form-urlencoded&amp;rdquo;})</description>
+이렇게 쓰면 된다. @RequestMapping(value=&amp;quot;/&amp;quot;, consumes={&amp;ldquo;application/json&amp;rdquo;,&amp;ldquo;multipart/form-data&amp;rdquo;,&amp;ldquo;application/x-www-form-urlencoded&amp;rdquo;})</description>
     </item>
     
     <item>
@@ -2651,10 +2647,10 @@ JS 소품 하나, Servlet으로 만든 API 두 개, JSP로 대충 게시판 하�
       
       <guid>https://ezaurum.com/2011/04/input%EC%9D%B4%EB%82%98-textarea%EC%9D%98-%ED%81%AC%EA%B8%B0%EA%B0%80-%EC%9E%98-%EB%A7%9E%EC%A7%80-%EC%95%8A%EC%9D%84-%EB%95%8C/</guid>
       <description>아무리 width를 조정하고 padding, margin, border까지 똑같이 줘도 제대로 사이즈가 맞지 않을 때는,
-box-sizing:border-box; 를 넣어줘 본다.  &amp;lt;div style=&amp;quot;box-sizing:border-box;width:100px;border:1px solid gray;height:20px;float:left;display:block;&amp;quot;&amp;gt;test&amp;lt;/div&amp;gt; &amp;lt;input type=&amp;quot;text&amp;rdquo; style=&amp;quot;box-sizing:border-box;width:100px;height:20px;float:left;display:block;&amp;rdquo; value=&amp;quot;test&amp;rdquo;/&amp;gt; &amp;lt;textarea style=&amp;quot;box-sizing:border-box;width:100px;height:20px;float:left;display:block;&amp;quot;&amp;gt;test&amp;lt;/textarea&amp;gt; 
+box-sizing:border-box; 를 넣어줘 본다.  &amp;lt;div style=&amp;ldquo;box-sizing:border-box;width:100px;border:1px solid gray;height:20px;float:left;display:block;&amp;quot;&amp;gt;test&amp;lt;/div&amp;gt; &amp;lt;input type=&amp;ldquo;text&amp;rdquo; style=&amp;ldquo;box-sizing:border-box;width:100px;height:20px;float:left;display:block;&amp;rdquo; value=&amp;ldquo;test&amp;rdquo;/&amp;gt; &amp;lt;textarea style=&amp;ldquo;box-sizing:border-box;width:100px;height:20px;float:left;display:block;&amp;quot;&amp;gt;test&amp;lt;/textarea&amp;gt; 
 testtest
 자세한 것은 다음 링크참조
-chrome같은 경우엔 기본적으로 input[type=&amp;quot;text&amp;rdquo;],input[type=&amp;quot;button&amp;rdquo;]같은 것들이 box-sizing:border-box로 되어 있는 듯 하다.
+chrome같은 경우엔 기본적으로 input[type=&amp;ldquo;text&amp;rdquo;],input[type=&amp;ldquo;button&amp;rdquo;]같은 것들이 box-sizing:border-box로 되어 있는 듯 하다.
 css3 속성이므로 ie에서는 제대로 안 된다.</description>
     </item>
     
@@ -2991,7 +2987,7 @@ void insertionSort2(int * array, int size) { int j = 0; for (int i = 1; i 0 &amp
       <pubDate>Thu, 19 Aug 2010 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2010/08/css-img-%EC%97%AC%EB%B0%B1/</guid>
-      <description>img는 inline 글자랑 같다. &amp;lt;img src=&amp;quot;xx&amp;rdquo; /&amp;gt; &amp;lt;img src=&amp;quot;xx&amp;rdquo; /&amp;gt; &amp;lt;img src=&amp;quot;xx&amp;rdquo; /&amp;gt; 이렇게 하면 여백이 생긴다. html이므로, 빈줄은 빈칸으로 취급. &amp;lt;img src=&amp;quot;xx&amp;rdquo; /&amp;gt;&amp;lt;img src=&amp;quot;xx&amp;rdquo; /&amp;gt;&amp;lt;img src=&amp;quot;xx&amp;rdquo; /&amp;gt; 이렇게 하면 안 생긴다.</description>
+      <description>img는 inline 글자랑 같다. &amp;lt;img src=&amp;ldquo;xx&amp;rdquo; /&amp;gt; &amp;lt;img src=&amp;ldquo;xx&amp;rdquo; /&amp;gt; &amp;lt;img src=&amp;ldquo;xx&amp;rdquo; /&amp;gt; 이렇게 하면 여백이 생긴다. html이므로, 빈줄은 빈칸으로 취급. &amp;lt;img src=&amp;ldquo;xx&amp;rdquo; /&amp;gt;&amp;lt;img src=&amp;ldquo;xx&amp;rdquo; /&amp;gt;&amp;lt;img src=&amp;ldquo;xx&amp;rdquo; /&amp;gt; 이렇게 하면 안 생긴다.</description>
     </item>
     
     <item>
@@ -3259,7 +3255,7 @@ background:yellow; } &amp;lt;/style&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&a
       <pubDate>Thu, 15 Jul 2010 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2010/07/%EC%9A%94%EC%84%B8%ED%94%84-%ED%94%84%EB%9E%91%ED%81%AC/</guid>
-      <description>구글을 열었더니 화사한 이미지가 보였다. 예쁘다. [caption id=&amp;quot;attachment_940&amp;rdquo; align=&amp;quot;alignnone&amp;rdquo; width=&amp;quot;384&amp;rdquo; caption=&amp;quot;요세프 프랑크 풍의 구글로고&amp;rdquo;][/caption] 이것저것 보니 디자이너라는 듯. 어쩐지 일본 풍 같기도 하고 화사한 색감이 칙칙한 군대에서도 좀 기분을 밝게 해 주는 것 같다. 뜬금없지만 이래서 구글이 좋다. 사소하게 사람을 기분좋게 해 준다.</description>
+      <description>구글을 열었더니 화사한 이미지가 보였다. 예쁘다. [caption id=&amp;ldquo;attachment_940&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;384&amp;rdquo; caption=&amp;ldquo;요세프 프랑크 풍의 구글로고&amp;rdquo;][/caption] 이것저것 보니 디자이너라는 듯. 어쩐지 일본 풍 같기도 하고 화사한 색감이 칙칙한 군대에서도 좀 기분을 밝게 해 주는 것 같다. 뜬금없지만 이래서 구글이 좋다. 사소하게 사람을 기분좋게 해 준다.</description>
     </item>
     
     <item>
@@ -3717,7 +3713,7 @@ utf-8을 지원한다더니&amp;hellip; mysql만 그걸 지원하고 아파치�
       <pubDate>Fri, 04 Sep 2009 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2009/09/%EA%B3%A0%EC%96%91%EC%9D%B4/</guid>
-      <description>고양이는 귀엽다. [gallery columns=&amp;quot;2&amp;rdquo;] 발꾹꾹 하면서 놀고 싶어. 특별히 네코미미미소녀를 원한다는 얘기는 아니다.</description>
+      <description>고양이는 귀엽다. [gallery columns=&amp;ldquo;2&amp;rdquo;] 발꾹꾹 하면서 놀고 싶어. 특별히 네코미미미소녀를 원한다는 얘기는 아니다.</description>
     </item>
     
     <item>
@@ -4098,7 +4094,7 @@ VOICES (MACROSS PLUS OPENING THEME)
       <guid>https://ezaurum.com/2009/02/Promise-Her-the-Moon-Mr.-Big/</guid>
       <description>[youtube https://www.youtube.com/watch?v=uQfjo0RdsAE&amp;amp;hl=ko&amp;amp;fs=1]
 Promise Her the Moon - Mr. Big
-Hey, yeah yeah You don&amp;rsquo;t know what you&amp;rsquo;ve got Till the love is almost gone This time, yeah she&amp;rsquo;s given up Still in a state of shock I should&amp;rsquo;ve seen it coming on It&amp;rsquo;s too late for waking up Her mind&amp;rsquo;s made up I know the dream is over But my heart just can&amp;rsquo;t let go She&amp;rsquo;s too good to be forgotten Too good to be true Before my world is torn apart I&amp;rsquo;ll promise her the moon I&amp;rsquo;ll promise her the moon I was too blind to notice her Wrapped up in myself Workin&amp;rsquo; hard overtime, night and day I thought we were so secure Can&amp;rsquo; imagine someone else Could come between us And take her away Her mind&amp;rsquo;s made up I know the dream is over But my heart just can&amp;rsquo;t let go She&amp;rsquo;s too good to be forgotten Too good to be true Before my world is torn apart I&amp;rsquo;ll promise her the moon I&amp;rsquo;ll promise her the moon And all the time she stood by me I never said &amp;ldquo;I love you&amp;rdquo; Yeah, I kept it deep down in my soul And all the while I&amp;rsquo;ve been a fool yeah, yeah yeah.</description>
+Hey, yeah yeah You don&amp;rsquo;t know what you&amp;rsquo;ve got Till the love is almost gone This time, yeah she&amp;rsquo;s given up Still in a state of shock I should&amp;rsquo;ve seen it coming on It&amp;rsquo;s too late for waking up Her mind&amp;rsquo;s made up I know the dream is over But my heart just can&amp;rsquo;t let go She&amp;rsquo;s too good to be forgotten Too good to be true Before my world is torn apart I&amp;rsquo;ll promise her the moon I&amp;rsquo;ll promise her the moon I was too blind to notice her Wrapped up in myself Workin&#39; hard overtime, night and day I thought we were so secure Can&#39; imagine someone else Could come between us And take her away Her mind&amp;rsquo;s made up I know the dream is over But my heart just can&amp;rsquo;t let go She&amp;rsquo;s too good to be forgotten Too good to be true Before my world is torn apart I&amp;rsquo;ll promise her the moon I&amp;rsquo;ll promise her the moon And all the time she stood by me I never said &amp;ldquo;I love you&amp;rdquo; Yeah, I kept it deep down in my soul And all the while I&amp;rsquo;ve been a fool yeah, yeah yeah.</description>
     </item>
     
     <item>
@@ -4230,7 +4226,7 @@ So tell me are you ready, really, really ready 그러니 말해줘요. 준비 �
       <pubDate>Fri, 06 Feb 2009 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2009/02/%EC%9D%B4%EB%A6%84%EC%9D%84-%EC%96%BC%EA%B5%B4%EB%A1%9C-%EB%B0%94%EA%BF%94%EB%B3%B4%EC%9E%90/</guid>
-      <description>여기를 누르면 해 볼 수 있다. 내 결과 [gallery columns=&amp;quot;2&amp;rdquo;] 괴이쩍은 모습이 나오긴 했지만&amp;hellip; 뭐 꽤 웃긴 듯</description>
+      <description>여기를 누르면 해 볼 수 있다. 내 결과 [gallery columns=&amp;ldquo;2&amp;rdquo;] 괴이쩍은 모습이 나오긴 했지만&amp;hellip; 뭐 꽤 웃긴 듯</description>
     </item>
     
     <item>
@@ -4323,7 +4319,7 @@ http://파란미르.com/
       
       <guid>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-3/</guid>
       <description>라이센스 - The GNU Free Documentation License 원저자 - Conrad Barski, M.D. 원본 출처 - http://lisperati.com/casting.html
-엄청나게 좋은 Lisp컴파일러가 많이 있지만, 이 강좌를 들으며 쓰기 가장 쉬운 것은 Franz의 Allegro Common Lisp, 매우 강력한 상업용 Lisp입니다. Franz, Inc. 는 친절하게도 텔넷환경을 통해서 사용할 수 있도록 해 주었지요. 여기에 있으니까 컴퓨터에 아무 것도 깔 필요는 없어요. 그냥 이 링크를 클릭하면 원하는 모든 것을 제공해주는 텔넷 화면이 뜰 겁니다! [caption id=&amp;quot;attachment_382&amp;rdquo; align=&amp;quot;alignnone&amp;rdquo; width=&amp;quot;400&amp;rdquo; caption=&amp;quot;telnet화면&amp;rdquo;][/caption] (내가 정말 쓰려고 했던 다른 Lisp는 오픈소스인 CLISP인데, 만일 Lisp랑 더 많은 시간을 보내게 될 걸 안다면 다운받고 싶어질 겁니다.</description>
+엄청나게 좋은 Lisp컴파일러가 많이 있지만, 이 강좌를 들으며 쓰기 가장 쉬운 것은 Franz의 Allegro Common Lisp, 매우 강력한 상업용 Lisp입니다. Franz, Inc. 는 친절하게도 텔넷환경을 통해서 사용할 수 있도록 해 주었지요. 여기에 있으니까 컴퓨터에 아무 것도 깔 필요는 없어요. 그냥 이 링크를 클릭하면 원하는 모든 것을 제공해주는 텔넷 화면이 뜰 겁니다! [caption id=&amp;ldquo;attachment_382&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;400&amp;rdquo; caption=&amp;ldquo;telnet화면&amp;rdquo;][/caption] (내가 정말 쓰려고 했던 다른 Lisp는 오픈소스인 CLISP인데, 만일 Lisp랑 더 많은 시간을 보내게 될 걸 안다면 다운받고 싶어질 겁니다.</description>
     </item>
     
     <item>
@@ -4394,7 +4390,7 @@ defun이라고 하는 단어는 예상대로, 함수를 선언하고 있습니�
       <pubDate>Thu, 29 Jan 2009 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2009/01/%EB%82%A8%EC%9E%90%EA%B0%80-%EC%97%AC%EC%9E%90%EC%97%90%EA%B2%8C-%EC%98%B7%EC%9D%84-%EC%84%A0%EB%AC%BC%ED%95%98%EB%8A%94-%EC%9D%B4%EC%9C%A0/</guid>
-      <description>[caption id=&amp;quot;attachment_347&amp;rdquo; align=&amp;quot;alignnone&amp;rdquo; width=&amp;quot;352&amp;rdquo; caption=&amp;quot;남자가 여자에게 옷을 설물하는 이유&amp;rdquo;][/caption]
+      <description>[caption id=&amp;ldquo;attachment_347&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;352&amp;rdquo; caption=&amp;ldquo;남자가 여자에게 옷을 설물하는 이유&amp;rdquo;][/caption]
 네. 그렇습니다. 누가 내 옷 선물 좀 받아주&amp;hellip; 출처는 나쯔키 타카야의 별은 노래한다 1권 57p</description>
     </item>
     
@@ -4431,7 +4427,7 @@ defun이라고 하는 단어는 예상대로, 함수를 선언하고 있습니�
       <pubDate>Wed, 21 Jan 2009 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2009/01/%EB%A7%88%EB%B9%84%EB%85%B8%EA%B8%B0/</guid>
-      <description>[gallery orderby=&amp;quot;post_name&amp;rdquo;]
+      <description>[gallery orderby=&amp;ldquo;post_name&amp;rdquo;]
 많이들 한다는 자캐 모음집 - 인간캐는 거의 버림받다시피&amp;hellip;
 메칸데린-엘프 가 본캐 누렙 260쯤인 장녀다. 태생부터 프리미엄 카드인, 귀족.
 프레이넌-엘프 는 창고로 쓰이고 있는 차녀. 어시스턴트 카드.
@@ -4448,7 +4444,7 @@ defun이라고 하는 단어는 예상대로, 함수를 선언하고 있습니�
       
       <guid>https://ezaurum.com/2009/01/%EA%B0%80%EC%9E%A5-%EA%B0%80%EA%B9%8C%EC%9D%B4-%EB%86%93%EC%9D%B8-%EC%B1%85%EC%9D%98-37%EC%AA%BD-6%EB%B2%88%EC%A7%B8-%EC%A4%84%EC%97%90-%EC%9E%88%EB%8A%94-%EB%AC%B8%EC%9E%A5/</guid>
       <description>Blank
-&amp;hellip;..젠장 말 그대로 빈 칸이다. 무슨 책이냐고? 자료구조 주요개념·프로그램 인공지능 기법 요약. 저 페이지에는 해쉬 테이블&amp;rsquo;만&amp;rsquo; 있었고, 그 6번째 줄은 비어있었다.</description>
+&amp;hellip;..젠장 말 그대로 빈 칸이다. 무슨 책이냐고? 자료구조 주요개념·프로그램 인공지능 기법 요약. 저 페이지에는 해쉬 테이블&amp;rsquo;만&#39; 있었고, 그 6번째 줄은 비어있었다.</description>
     </item>
     
     <item>
@@ -4585,7 +4581,7 @@ defun이라고 하는 단어는 예상대로, 함수를 선언하고 있습니�
       <pubDate>Mon, 08 Dec 2008 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2008/12/%EC%97%AD%EC%A7%80%EC%82%AC%EC%A7%80/</guid>
-      <description>감정적 대립 이라는 건, 상대방의 입장에서 생각하지 않아서 생긴다고 본다. 주제와 상관있을지 없을지는 고려하지 않고 그냥 골라본 만화를 보고 시작해보자. 저작권도 크게 신경은 쓰지 않았다. 문제 되면 삭제한다. [caption id=&amp;quot;attachment_263&amp;rdquo; align=&amp;quot;alignnone&amp;rdquo; width=&amp;quot;300&amp;rdquo; caption=&amp;quot;BC 만화&amp;rdquo;][/caption] 제이크, 어떻게 꽃 한 송도 안 주는 거죠? 튤립 한 송이 받으려고 6주를 기다렸다구요! 어디가요? 당신이 원하는 꽃 찾으러요. 음, 이제 그건 필요없어요. 왜요? 내가 그걸 해 달라고 말했으니까요. 그게 대체 어느 동네 논리지요? 난 실제로 당신이 나한테 배려를 보여주기를 바라는 거예요!</description>
+      <description>감정적 대립 이라는 건, 상대방의 입장에서 생각하지 않아서 생긴다고 본다. 주제와 상관있을지 없을지는 고려하지 않고 그냥 골라본 만화를 보고 시작해보자. 저작권도 크게 신경은 쓰지 않았다. 문제 되면 삭제한다. [caption id=&amp;ldquo;attachment_263&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;300&amp;rdquo; caption=&amp;ldquo;BC 만화&amp;rdquo;][/caption] 제이크, 어떻게 꽃 한 송도 안 주는 거죠? 튤립 한 송이 받으려고 6주를 기다렸다구요! 어디가요? 당신이 원하는 꽃 찾으러요. 음, 이제 그건 필요없어요. 왜요? 내가 그걸 해 달라고 말했으니까요. 그게 대체 어느 동네 논리지요? 난 실제로 당신이 나한테 배려를 보여주기를 바라는 거예요!</description>
     </item>
     
     <item>
@@ -4615,7 +4611,7 @@ defun이라고 하는 단어는 예상대로, 함수를 선언하고 있습니�
       
       <guid>https://ezaurum.com/2008/12/%EC%86%8C%EC%BC%93-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EC%9D%84-%ED%95%A0-%EB%95%8C-read%EA%B0%80-%EC%83%9D%EA%B0%81%EB%8C%80%EB%A1%9C-%EC%9E%91%EB%8F%99%ED%95%98%EC%A7%80-%EC%95%8A%EB%8A%94-%EA%B2%BD%EC%9A%B0/</guid>
       <description>기말고사용으로 채팅 프로그램을 만들던 중, close를 하지 않고, 연결을 유지한 채로 write함수로 EOF값 만을 보내서 대화 내용의 종결을 알리려고 했으나, 잘 작동하지 않았다.
-read는 socket 이 close되지 않으면 EOF를 읽더라도 1을 반환한다. 따라서 연결을 유지하고 read/write를 하려면 읽은 값이 EOF인지를 체크해준다! 이거 알아내려고 이틀 밤 샜다. 젠장. 나만 병신인가.  while (temp) { read(sockfd, &amp;amp;s, 1); if ( s == EOF) break; printf(&amp;quot;%c&amp;rdquo;,s); } 
+read는 socket 이 close되지 않으면 EOF를 읽더라도 1을 반환한다. 따라서 연결을 유지하고 read/write를 하려면 읽은 값이 EOF인지를 체크해준다! 이거 알아내려고 이틀 밤 샜다. 젠장. 나만 병신인가.  while (temp) { read(sockfd, &amp;amp;s, 1); if ( s == EOF) break; printf(&amp;quot;%c&amp;quot;,s); } 
 read 의 리턴값 - 기본적으로 실제로 읽은 바이트 수 만큼.</description>
     </item>
     
@@ -4695,7 +4691,7 @@ http://kldp.org/node/1377
       
       <guid>https://ezaurum.com/2008/11/%EC%99%B8%EB%B6%80-%EC%84%9C%EB%B2%84%EC%97%90%EC%84%9C-%ED%94%84%EB%A0%88%EC%9E%84%EC%9C%BC%EB%A1%9C-%EB%AC%B8%EC%84%9C%EB%A5%BC-%EC%9D%BD%EA%B2%8C-%ED%95%98%EA%B3%A0-%EC%8B%B6%EC%A7%80-%EC%95%8A%EC%9D%84-%EB%95%8C/</guid>
       <description>출저는 여기
-당연히 &amp;lt;head&amp;gt; 와 &amp;lt;/head&amp;gt; 사이에 넣어준다. type=&amp;quot;text/javascript&amp;quot;&amp;gt;
+당연히 &amp;lt;head&amp;gt; 와 &amp;lt;/head&amp;gt; 사이에 넣어준다. type=&amp;ldquo;text/javascript&amp;rdquo;&amp;gt;
 //
 if (top.frames.length!=0) top.location=self.document.location;
 //]]&amp;gt;
@@ -4718,7 +4714,7 @@ if (top.frames.length!=0) top.location=self.document.location;
       
       <guid>https://ezaurum.com/2008/11/SmartFTP%EC%97%90%EC%84%9C-%EB%94%94%EB%A0%89%ED%86%A0%EB%A6%AC-%EB%AA%A9%EB%A1%9D-%EC%95%88-%EB%B3%B4%EC%9D%B4%EB%8A%94-%EB%AC%B8%EC%A0%9C/</guid>
       <description>http://kldp.org/node/34348 파일질라와 같은 문제인 듯. XP로 ALftp로 윈도우 환경에서 서버를 돌리고 있는데, 다른 컴에서 smartftp로 접속하면 디렉토리 목록이 보이지 않는다. raw목록을 보면 제대로 받아오고 있긴 한데, 한글 주소는 아예 접근이 안되고, 해서 여러가지 알아본 바.
-http://www.smartftp.com/support/kb/no-files-folders-are-being-being-displayed-f48.html 일단 이건 소용없었고. 그 아래, MLSD란 걸 사용 안 함으로 해 줘야 한다. [caption id=&amp;quot;attachment_212&amp;rdquo; align=&amp;quot;alignnone&amp;rdquo; width=&amp;quot;300&amp;rdquo; caption=&amp;quot;디렉토리 목록이 나오지 않는 서버의 링크-즐겨찾기에 있을 거다-에서 오른쪽 버튼을 누르고, 속성으로 들어간다. 누르면 크게 볼 수 있음.</description>
+http://www.smartftp.com/support/kb/no-files-folders-are-being-being-displayed-f48.html 일단 이건 소용없었고. 그 아래, MLSD란 걸 사용 안 함으로 해 줘야 한다. [caption id=&amp;ldquo;attachment_212&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;300&amp;rdquo; caption=&amp;ldquo;디렉토리 목록이 나오지 않는 서버의 링크-즐겨찾기에 있을 거다-에서 오른쪽 버튼을 누르고, 속성으로 들어간다. 누르면 크게 볼 수 있음.</description>
     </item>
     
     <item>
@@ -5800,6 +5796,20 @@ H는 그랬다.
       
       <guid>https://ezaurum.com/2007/02/%EA%B2%B0%EA%B5%AD-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%8B%A4%EC%8B%9C-%EB%A7%8C%EB%93%A4%EB%8B%A4./</guid>
       <description>뭐, 결국 Wordpress 2.1로 왔음. 무료 계정. UTF-8을 지원한다길래 덥석. 근데 포스트 슬러그는 여전히 작동 불가&amp;hellip; 뭐지.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://ezaurum.com/1/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/1/01/</guid>
+      <description>xml로 Thymeleaf 설정
+${...} : 변수 *{...} : 선택 - 이전에 object등으로 선택된 객체에만 적용 #{...} : i18n 메세지, 스프링 messagesource를 따라감 @{...} : 링크 ~{...} : Fragment  &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;org.thymeleaf&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;thymeleaf-spring5&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;3.0.11.RELEASE&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt; &amp;lt;beans:bean class=&amp;ldquo;org.springframework.web.servlet.view.InternalResourceViewResolver&amp;rdquo;&amp;gt;
+&amp;lt;beans:property name=&amp;quot;prefix&amp;quot; value=&amp;quot;/WEB-INF/views/&amp;quot; /&amp;gt; &amp;lt;beans:property name=&amp;quot;suffix&amp;quot; value=&amp;quot;.jsp&amp;quot; /&amp;gt; &amp;lt;beans:property name=&amp;quot;viewNames&amp;quot; value=&amp;quot;jsp/*&amp;quot; /&amp;gt;  &amp;lt;/beans:bean&amp;gt;
+템플릿 리졸버
+&amp;lt;beans:bean id=&amp;ldquo;templateResolver&amp;rdquo;
+ class=&amp;quot;org.thymeleaf.templateresolver.ServletContextTemplateResolver&amp;quot;&amp;gt; &amp;lt;beans:property name=&amp;quot;prefix&amp;quot; value=&amp;quot;/WEB-INF/templates/&amp;quot; /&amp;gt; &amp;lt;beans:property name=&amp;quot;suffix&amp;quot; value=&amp;quot;.html&amp;quot; /&amp;gt; &amp;lt;beans:property name=&amp;quot;templateMode&amp;quot; value=&amp;quot;HTML5&amp;quot; /&amp;gt;  &amp;lt;/beans:bean&amp;gt;</description>
     </item>
     
   </channel>

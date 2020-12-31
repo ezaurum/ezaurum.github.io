@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Tue, 28 May 2013 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://ezaurum.com/tags/spring-security/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 28 May 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://ezaurum.com/tags/spring-security/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>java code base spring security setting with gradle</title>
       <link>https://ezaurum.com/2013/05/java-code-base-spring-security-setting-with-gradle/</link>

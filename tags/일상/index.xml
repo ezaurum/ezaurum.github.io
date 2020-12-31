@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Tue, 02 Jan 2018 00:12:13 +0700</lastBuildDate>
-    
-	<atom:link href="https://ezaurum.com/tags/%EC%9D%BC%EC%83%81/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 02 Jan 2018 00:12:13 +0700</lastBuildDate><atom:link href="https://ezaurum.com/tags/%EC%9D%BC%EC%83%81/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>일용품 소모율</title>
       <link>https://ezaurum.com/2018/01/%EC%9D%BC%EC%9A%A9%ED%92%88-%EC%86%8C%EB%AA%A8%EC%9C%A8/</link>
@@ -338,7 +334,7 @@
       
       <guid>https://ezaurum.com/2012/07/spring%EC%97%90%EC%84%9C-enum%EC%9D%84-select%EB%A1%9C-%EB%A7%A4%ED%95%91/</guid>
       <description>enum안에 desc라는 이름으로 label이 붙어 있는 경우.
-&amp;lt;form:select path=&amp;quot;status&amp;rdquo;&amp;gt; &amp;lt;form:options itemLabel=&amp;quot;desc&amp;rdquo;/&amp;gt; &amp;lt;/form:select&amp;gt;</description>
+&amp;lt;form:select path=&amp;ldquo;status&amp;rdquo;&amp;gt; &amp;lt;form:options itemLabel=&amp;ldquo;desc&amp;rdquo;/&amp;gt; &amp;lt;/form:select&amp;gt;</description>
     </item>
     
     <item>
@@ -528,7 +524,7 @@ POI, google drive api 대충 조사.</description>
       
       <guid>https://ezaurum.com/2012/05/consumes%EA%B3%BC-produces-%EC%A1%B0%EA%B1%B4-RequestMapping%EC%97%90-%EC%93%B0%EA%B8%B0/</guid>
       <description>spring 3.1에서 @RequestMapping에 새 조건 두 개가 들어갔다. 그 이외에도 많은 것들이 바뀌었지만, 일단은 당장 쓸 수 있는 이것부터. 여기서도 볼 수 있는데, 기본적으로 consumes는 header의 Content-Type 대체, produces는 Accept 대체가 된다.
-이렇게 쓰면 된다. @RequestMapping(value=&amp;rdquo;/&amp;rdquo;, consumes={&amp;ldquo;application/json&amp;rdquo;,&amp;ldquo;multipart/form-data&amp;rdquo;,&amp;ldquo;application/x-www-form-urlencoded&amp;rdquo;})</description>
+이렇게 쓰면 된다. @RequestMapping(value=&amp;quot;/&amp;quot;, consumes={&amp;ldquo;application/json&amp;rdquo;,&amp;ldquo;multipart/form-data&amp;rdquo;,&amp;ldquo;application/x-www-form-urlencoded&amp;rdquo;})</description>
     </item>
     
     <item>
@@ -1086,7 +1082,7 @@ JS 소품 하나, Servlet으로 만든 API 두 개, JSP로 대충 게시판 하�
       <pubDate>Thu, 19 Aug 2010 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2010/08/css-img-%EC%97%AC%EB%B0%B1/</guid>
-      <description>img는 inline 글자랑 같다. &amp;lt;img src=&amp;quot;xx&amp;rdquo; /&amp;gt; &amp;lt;img src=&amp;quot;xx&amp;rdquo; /&amp;gt; &amp;lt;img src=&amp;quot;xx&amp;rdquo; /&amp;gt; 이렇게 하면 여백이 생긴다. html이므로, 빈줄은 빈칸으로 취급. &amp;lt;img src=&amp;quot;xx&amp;rdquo; /&amp;gt;&amp;lt;img src=&amp;quot;xx&amp;rdquo; /&amp;gt;&amp;lt;img src=&amp;quot;xx&amp;rdquo; /&amp;gt; 이렇게 하면 안 생긴다.</description>
+      <description>img는 inline 글자랑 같다. &amp;lt;img src=&amp;ldquo;xx&amp;rdquo; /&amp;gt; &amp;lt;img src=&amp;ldquo;xx&amp;rdquo; /&amp;gt; &amp;lt;img src=&amp;ldquo;xx&amp;rdquo; /&amp;gt; 이렇게 하면 여백이 생긴다. html이므로, 빈줄은 빈칸으로 취급. &amp;lt;img src=&amp;ldquo;xx&amp;rdquo; /&amp;gt;&amp;lt;img src=&amp;ldquo;xx&amp;rdquo; /&amp;gt;&amp;lt;img src=&amp;ldquo;xx&amp;rdquo; /&amp;gt; 이렇게 하면 안 생긴다.</description>
     </item>
     
     <item>
@@ -1378,7 +1374,7 @@ public class myTest {	@Test public void testCodes() throws Exception { System.ou
       <pubDate>Thu, 15 Jul 2010 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2010/07/%EC%9A%94%EC%84%B8%ED%94%84-%ED%94%84%EB%9E%91%ED%81%AC/</guid>
-      <description>구글을 열었더니 화사한 이미지가 보였다. 예쁘다. [caption id=&amp;quot;attachment_940&amp;rdquo; align=&amp;quot;alignnone&amp;rdquo; width=&amp;quot;384&amp;rdquo; caption=&amp;quot;요세프 프랑크 풍의 구글로고&amp;rdquo;][/caption] 이것저것 보니 디자이너라는 듯. 어쩐지 일본 풍 같기도 하고 화사한 색감이 칙칙한 군대에서도 좀 기분을 밝게 해 주는 것 같다. 뜬금없지만 이래서 구글이 좋다. 사소하게 사람을 기분좋게 해 준다.</description>
+      <description>구글을 열었더니 화사한 이미지가 보였다. 예쁘다. [caption id=&amp;ldquo;attachment_940&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;384&amp;rdquo; caption=&amp;ldquo;요세프 프랑크 풍의 구글로고&amp;rdquo;][/caption] 이것저것 보니 디자이너라는 듯. 어쩐지 일본 풍 같기도 하고 화사한 색감이 칙칙한 군대에서도 좀 기분을 밝게 해 주는 것 같다. 뜬금없지만 이래서 구글이 좋다. 사소하게 사람을 기분좋게 해 준다.</description>
     </item>
     
     <item>
@@ -1805,7 +1801,7 @@ window.open(&amp;ldquo;title&amp;rdquo;, &amp;ldquo;frameName&amp;rdquo;, &amp;l
       <pubDate>Fri, 04 Sep 2009 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2009/09/%EA%B3%A0%EC%96%91%EC%9D%B4/</guid>
-      <description>고양이는 귀엽다. [gallery columns=&amp;quot;2&amp;rdquo;] 발꾹꾹 하면서 놀고 싶어. 특별히 네코미미미소녀를 원한다는 얘기는 아니다.</description>
+      <description>고양이는 귀엽다. [gallery columns=&amp;ldquo;2&amp;rdquo;] 발꾹꾹 하면서 놀고 싶어. 특별히 네코미미미소녀를 원한다는 얘기는 아니다.</description>
     </item>
     
     <item>
@@ -2111,7 +2107,7 @@ window.open(&amp;ldquo;title&amp;rdquo;, &amp;ldquo;frameName&amp;rdquo;, &amp;l
       <pubDate>Fri, 06 Feb 2009 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2009/02/%EC%9D%B4%EB%A6%84%EC%9D%84-%EC%96%BC%EA%B5%B4%EB%A1%9C-%EB%B0%94%EA%BF%94%EB%B3%B4%EC%9E%90/</guid>
-      <description>여기를 누르면 해 볼 수 있다. 내 결과 [gallery columns=&amp;quot;2&amp;rdquo;] 괴이쩍은 모습이 나오긴 했지만&amp;hellip; 뭐 꽤 웃긴 듯</description>
+      <description>여기를 누르면 해 볼 수 있다. 내 결과 [gallery columns=&amp;ldquo;2&amp;rdquo;] 괴이쩍은 모습이 나오긴 했지만&amp;hellip; 뭐 꽤 웃긴 듯</description>
     </item>
     
     <item>
@@ -2166,7 +2162,7 @@ window.open(&amp;ldquo;title&amp;rdquo;, &amp;ldquo;frameName&amp;rdquo;, &amp;l
       <pubDate>Thu, 29 Jan 2009 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2009/01/%EB%82%A8%EC%9E%90%EA%B0%80-%EC%97%AC%EC%9E%90%EC%97%90%EA%B2%8C-%EC%98%B7%EC%9D%84-%EC%84%A0%EB%AC%BC%ED%95%98%EB%8A%94-%EC%9D%B4%EC%9C%A0/</guid>
-      <description>[caption id=&amp;quot;attachment_347&amp;rdquo; align=&amp;quot;alignnone&amp;rdquo; width=&amp;quot;352&amp;rdquo; caption=&amp;quot;남자가 여자에게 옷을 설물하는 이유&amp;rdquo;][/caption]
+      <description>[caption id=&amp;ldquo;attachment_347&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;352&amp;rdquo; caption=&amp;ldquo;남자가 여자에게 옷을 설물하는 이유&amp;rdquo;][/caption]
 네. 그렇습니다. 누가 내 옷 선물 좀 받아주&amp;hellip; 출처는 나쯔키 타카야의 별은 노래한다 1권 57p</description>
     </item>
     
@@ -2203,7 +2199,7 @@ window.open(&amp;ldquo;title&amp;rdquo;, &amp;ldquo;frameName&amp;rdquo;, &amp;l
       <pubDate>Wed, 21 Jan 2009 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2009/01/%EB%A7%88%EB%B9%84%EB%85%B8%EA%B8%B0/</guid>
-      <description>[gallery orderby=&amp;quot;post_name&amp;rdquo;]
+      <description>[gallery orderby=&amp;ldquo;post_name&amp;rdquo;]
 많이들 한다는 자캐 모음집 - 인간캐는 거의 버림받다시피&amp;hellip;
 메칸데린-엘프 가 본캐 누렙 260쯤인 장녀다. 태생부터 프리미엄 카드인, 귀족.
 프레이넌-엘프 는 창고로 쓰이고 있는 차녀. 어시스턴트 카드.
@@ -2220,7 +2216,7 @@ window.open(&amp;ldquo;title&amp;rdquo;, &amp;ldquo;frameName&amp;rdquo;, &amp;l
       
       <guid>https://ezaurum.com/2009/01/%EA%B0%80%EC%9E%A5-%EA%B0%80%EA%B9%8C%EC%9D%B4-%EB%86%93%EC%9D%B8-%EC%B1%85%EC%9D%98-37%EC%AA%BD-6%EB%B2%88%EC%A7%B8-%EC%A4%84%EC%97%90-%EC%9E%88%EB%8A%94-%EB%AC%B8%EC%9E%A5/</guid>
       <description>Blank
-&amp;hellip;..젠장 말 그대로 빈 칸이다. 무슨 책이냐고? 자료구조 주요개념·프로그램 인공지능 기법 요약. 저 페이지에는 해쉬 테이블&amp;rsquo;만&amp;rsquo; 있었고, 그 6번째 줄은 비어있었다.</description>
+&amp;hellip;..젠장 말 그대로 빈 칸이다. 무슨 책이냐고? 자료구조 주요개념·프로그램 인공지능 기법 요약. 저 페이지에는 해쉬 테이블&amp;rsquo;만&#39; 있었고, 그 6번째 줄은 비어있었다.</description>
     </item>
     
     <item>
@@ -2312,7 +2308,7 @@ window.open(&amp;ldquo;title&amp;rdquo;, &amp;ldquo;frameName&amp;rdquo;, &amp;l
       <pubDate>Mon, 08 Dec 2008 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2008/12/%EC%97%AD%EC%A7%80%EC%82%AC%EC%A7%80/</guid>
-      <description>감정적 대립 이라는 건, 상대방의 입장에서 생각하지 않아서 생긴다고 본다. 주제와 상관있을지 없을지는 고려하지 않고 그냥 골라본 만화를 보고 시작해보자. 저작권도 크게 신경은 쓰지 않았다. 문제 되면 삭제한다. [caption id=&amp;quot;attachment_263&amp;rdquo; align=&amp;quot;alignnone&amp;rdquo; width=&amp;quot;300&amp;rdquo; caption=&amp;quot;BC 만화&amp;rdquo;][/caption] 제이크, 어떻게 꽃 한 송도 안 주는 거죠? 튤립 한 송이 받으려고 6주를 기다렸다구요! 어디가요? 당신이 원하는 꽃 찾으러요. 음, 이제 그건 필요없어요. 왜요? 내가 그걸 해 달라고 말했으니까요. 그게 대체 어느 동네 논리지요? 난 실제로 당신이 나한테 배려를 보여주기를 바라는 거예요!</description>
+      <description>감정적 대립 이라는 건, 상대방의 입장에서 생각하지 않아서 생긴다고 본다. 주제와 상관있을지 없을지는 고려하지 않고 그냥 골라본 만화를 보고 시작해보자. 저작권도 크게 신경은 쓰지 않았다. 문제 되면 삭제한다. [caption id=&amp;ldquo;attachment_263&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;300&amp;rdquo; caption=&amp;ldquo;BC 만화&amp;rdquo;][/caption] 제이크, 어떻게 꽃 한 송도 안 주는 거죠? 튤립 한 송이 받으려고 6주를 기다렸다구요! 어디가요? 당신이 원하는 꽃 찾으러요. 음, 이제 그건 필요없어요. 왜요? 내가 그걸 해 달라고 말했으니까요. 그게 대체 어느 동네 논리지요? 난 실제로 당신이 나한테 배려를 보여주기를 바라는 거예요!</description>
     </item>
     
     <item>

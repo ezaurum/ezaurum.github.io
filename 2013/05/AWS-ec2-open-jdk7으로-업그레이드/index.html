@@ -23,13 +23,14 @@
     <meta itemprop="name" content="AWS ec2 open-jdk7으로 업그레이드">
 <meta itemprop="description" content="일단 open jdk 7 을 설치한다. sudo yum install java-1.7.0-openjdk  그 다음 java에 걸려 있는 심볼릭 링크를 바꿔줘야 하는데, /usr/bin/java -&gt; /etc/alternatives/java -&gt; -&gt; /usr/lib/jvm/(현재 jre)/bin/java 이렇게 되어 있으므로,  sudo ln -s /usr/lib/jvm/jre-1.7.0-openjdk.x86_64/bin/java /etc/alternatives/java7 sudo mv /etc/alternatives/java7 /etc/alternatives/java  을 실행해서 심볼릭 링크를 바꿔준다. 지우고 다시 걸어도 되지만, 일단 지우고 거는 사이에 전 링크가 끊어지므로 가능한 영향을 적게 하기 위해서&hellip;
 ln -s /location/to/link2 newlink mv newlink linkname">
-<meta itemprop="datePublished" content="2013-05-08T00:00:00&#43;00:00" />
-<meta itemprop="dateModified" content="2013-05-08T00:00:00&#43;00:00" />
+<meta itemprop="datePublished" content="2013-05-08T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2013-05-08T00:00:00+00:00" />
 <meta itemprop="wordCount" content="66">
 
 
 
 <meta itemprop="keywords" content="aws,EC2,해결법,java,openjdk,upgrade," />
+
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="AWS ec2 open-jdk7으로 업그레이드"/>
 <meta name="twitter:description" content="일단 open jdk 7 을 설치한다. sudo yum install java-1.7.0-openjdk  그 다음 java에 걸려 있는 심볼릭 링크를 바꿔줘야 하는데, /usr/bin/java -&gt; /etc/alternatives/java -&gt; -&gt; /usr/lib/jvm/(현재 jre)/bin/java 이렇게 되어 있으므로,  sudo ln -s /usr/lib/jvm/jre-1.7.0-openjdk.x86_64/bin/java /etc/alternatives/java7 sudo mv /etc/alternatives/java7 /etc/alternatives/java  을 실행해서 심볼릭 링크를 바꿔준다. 지우고 다시 걸어도 되지만, 일단 지우고 거는 사이에 전 링크가 끊어지므로 가능한 영향을 적게 하기 위해서&hellip;

@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Sun, 25 Nov 2012 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://ezaurum.com/tags/%EC%82%BD%EC%A7%88/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 25 Nov 2012 00:00:00 +0000</lastBuildDate><atom:link href="https://ezaurum.com/tags/%EC%82%BD%EC%A7%88/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>리눅스 콘솔에서 한글이 안 될 때</title>
       <link>https://ezaurum.com/2012/11/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%BD%98%EC%86%94%EC%97%90%EC%84%9C-%ED%95%9C%EA%B8%80%EC%9D%B4-%EC%95%88-%EB%90%A0-%EB%95%8C/</link>

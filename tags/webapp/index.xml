@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Thu, 23 May 2013 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://ezaurum.com/tags/webapp/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 23 May 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://ezaurum.com/tags/webapp/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>gradle에서 jetty 9 쓰기</title>
       <link>https://ezaurum.com/2013/05/gradle%EC%97%90%EC%84%9C-jetty-9-%EC%93%B0%EA%B8%B0/</link>

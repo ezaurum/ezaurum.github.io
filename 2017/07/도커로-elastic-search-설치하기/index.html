@@ -24,13 +24,14 @@
 <meta itemprop="description" content="참고는 역시 공식 사이트
 일단 docker-compose.yml 로 다음을 지정
 services: elasticsearch1: image: docker.elastic.co/elasticsearch/elasticsearch:5.5.0 container_name: elasticsearch1 environment: - cluster.name=docker-cluster - bootstrap.memory_lock=true - &#34;ES_JAVA_OPTS=-Xms512m -Xmx512m&#34; ulimits: memlock: soft: -1 hard: -1 mem_limit: 1g volumes: - esdata1:/usr/share/elasticsearch/data ports: - 9200:9200 networks: - esnet elasticsearch2: image: docker.elastic.co/elasticsearch/elasticsearch:5.5.0 container_name: elasticsearch2 environment: - cluster.name=docker-cluster - bootstrap.memory_lock=true - &#34;ES_JAVA_OPTS=-Xms512m -Xmx512m&#34; - &#34;discovery.zen.ping.unicast.hosts=elasticsearch1&#34; ulimits: memlock: soft: -1 hard: -1 mem_limit: 1g volumes: - esdata2:/usr/share/elasticsearch/data networks: - esnet volumes: esdata1: driver: local esdata2: driver: local networks: esnet: 그 다음 docker-compose 로 띄운다.">
-<meta itemprop="datePublished" content="2017-07-25T00:00:00&#43;00:00" />
-<meta itemprop="dateModified" content="2017-07-25T00:00:00&#43;00:00" />
+<meta itemprop="datePublished" content="2017-07-25T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2017-07-25T00:00:00+00:00" />
 <meta itemprop="wordCount" content="129">
 
 
 
 <meta itemprop="keywords" content="" />
+
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="도커로 elastic search 설치하기"/>
 <meta name="twitter:description" content="참고는 역시 공식 사이트
@@ -76,50 +77,50 @@ services: elasticsearch1: image: docker.elastic.co/elasticsearch/elasticsearch:5
 2017-07-25
 <section><p><a href="https://www.elastic.co/guide/en/elasticsearch/reference/current/docker.html#docker-prod-cluster-composefile" title="공식 사이트 docker 설치 방법">참고는 역시 공식 사이트</a></p>
 <p>일단 docker-compose.yml 로 다음을 지정</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yml" data-lang="yml"><span style="color:#66d9ef">services</span>:
-  <span style="color:#66d9ef">elasticsearch1</span>:
-    <span style="color:#66d9ef">image</span>: docker.elastic.co/elasticsearch/elasticsearch:<span style="color:#ae81ff">5.5.0</span>
-    <span style="color:#66d9ef">container_name</span>: elasticsearch1
-    <span style="color:#66d9ef">environment</span>:
-      - cluster.name=docker-cluster
-      - bootstrap.memory_lock=<span style="color:#66d9ef">true</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yml" data-lang="yml"><span style="color:#f92672">services</span>:
+  <span style="color:#f92672">elasticsearch1</span>:
+    <span style="color:#f92672">image</span>: <span style="color:#ae81ff">docker.elastic.co/elasticsearch/elasticsearch:5.5.0</span>
+    <span style="color:#f92672">container_name</span>: <span style="color:#ae81ff">elasticsearch1</span>
+    <span style="color:#f92672">environment</span>:
+      - <span style="color:#ae81ff">cluster.name=docker-cluster</span>
+      - <span style="color:#ae81ff">bootstrap.memory_lock=true</span>
       - <span style="color:#e6db74">&#34;ES_JAVA_OPTS=-Xms512m -Xmx512m&#34;</span>
-    <span style="color:#66d9ef">ulimits</span>:
-      <span style="color:#66d9ef">memlock</span>:
-        <span style="color:#66d9ef">soft</span>: -<span style="color:#ae81ff">1</span>
-        <span style="color:#66d9ef">hard</span>: -<span style="color:#ae81ff">1</span>
-    <span style="color:#66d9ef">mem_limit</span>: 1g
-    <span style="color:#66d9ef">volumes</span>:
-      - esdata1:/usr/share/elasticsearch/data
-    <span style="color:#66d9ef">ports</span>:
+    <span style="color:#f92672">ulimits</span>:
+      <span style="color:#f92672">memlock</span>:
+        <span style="color:#f92672">soft</span>: -<span style="color:#ae81ff">1</span>
+        <span style="color:#f92672">hard</span>: -<span style="color:#ae81ff">1</span>
+    <span style="color:#f92672">mem_limit</span>: <span style="color:#ae81ff">1g</span>
+    <span style="color:#f92672">volumes</span>:
+      - <span style="color:#ae81ff">esdata1:/usr/share/elasticsearch/data</span>
+    <span style="color:#f92672">ports</span>:
       - <span style="color:#ae81ff">9200</span>:<span style="color:#ae81ff">9200</span>
-    <span style="color:#66d9ef">networks</span>:
-      - esnet
+    <span style="color:#f92672">networks</span>:
+      - <span style="color:#ae81ff">esnet</span>
 
-  <span style="color:#66d9ef">elasticsearch2</span>:
-    <span style="color:#66d9ef">image</span>: docker.elastic.co/elasticsearch/elasticsearch:<span style="color:#ae81ff">5.5.0</span>
-    <span style="color:#66d9ef">container_name</span>: elasticsearch2
-    <span style="color:#66d9ef">environment</span>:
-      - cluster.name=docker-cluster
-      - bootstrap.memory_lock=<span style="color:#66d9ef">true</span>
+  <span style="color:#f92672">elasticsearch2</span>:
+    <span style="color:#f92672">image</span>: <span style="color:#ae81ff">docker.elastic.co/elasticsearch/elasticsearch:5.5.0</span>
+    <span style="color:#f92672">container_name</span>: <span style="color:#ae81ff">elasticsearch2</span>
+    <span style="color:#f92672">environment</span>:
+      - <span style="color:#ae81ff">cluster.name=docker-cluster</span>
+      - <span style="color:#ae81ff">bootstrap.memory_lock=true</span>
       - <span style="color:#e6db74">&#34;ES_JAVA_OPTS=-Xms512m -Xmx512m&#34;</span>
       - <span style="color:#e6db74">&#34;discovery.zen.ping.unicast.hosts=elasticsearch1&#34;</span>
-    <span style="color:#66d9ef">ulimits</span>:
-      <span style="color:#66d9ef">memlock</span>:
-        <span style="color:#66d9ef">soft</span>: -<span style="color:#ae81ff">1</span>
-        <span style="color:#66d9ef">hard</span>: -<span style="color:#ae81ff">1</span>
-    <span style="color:#66d9ef">mem_limit</span>: 1g
-    <span style="color:#66d9ef">volumes</span>:
-      - esdata2:/usr/share/elasticsearch/data
-    <span style="color:#66d9ef">networks</span>:
-      - esnet
-<span style="color:#66d9ef">volumes</span>:
-  <span style="color:#66d9ef">esdata1</span>:
-    <span style="color:#66d9ef">driver</span>: local
-  <span style="color:#66d9ef">esdata2</span>:
-    <span style="color:#66d9ef">driver</span>: local
-<span style="color:#66d9ef">networks</span>:
-  <span style="color:#66d9ef">esnet</span>:
+    <span style="color:#f92672">ulimits</span>:
+      <span style="color:#f92672">memlock</span>:
+        <span style="color:#f92672">soft</span>: -<span style="color:#ae81ff">1</span>
+        <span style="color:#f92672">hard</span>: -<span style="color:#ae81ff">1</span>
+    <span style="color:#f92672">mem_limit</span>: <span style="color:#ae81ff">1g</span>
+    <span style="color:#f92672">volumes</span>:
+      - <span style="color:#ae81ff">esdata2:/usr/share/elasticsearch/data</span>
+    <span style="color:#f92672">networks</span>:
+      - <span style="color:#ae81ff">esnet</span>
+<span style="color:#f92672">volumes</span>:
+  <span style="color:#f92672">esdata1</span>:
+    <span style="color:#f92672">driver</span>: <span style="color:#ae81ff">local</span>
+  <span style="color:#f92672">esdata2</span>:
+    <span style="color:#f92672">driver</span>: <span style="color:#ae81ff">local</span>
+<span style="color:#f92672">networks</span>:
+  <span style="color:#f92672">esnet</span>:
 </code></pre></div><p>그 다음 docker-compose 로 띄운다.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">docker-compose up
 </code></pre></div><p>이제 제대로 떴는지 확인을 할 텐데, 기본 비번은 changeme, user id는 elastic 이고 http basic authentication으로 접속한다.</p>

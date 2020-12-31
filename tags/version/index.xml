@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Thu, 24 May 2012 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://ezaurum.com/tags/version/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 24 May 2012 00:00:00 +0000</lastBuildDate><atom:link href="https://ezaurum.com/tags/version/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Spring application context schema version 지정</title>
       <link>https://ezaurum.com/2012/05/Spring-application-context-schema-version-%EC%A7%80%EC%A0%95/</link>

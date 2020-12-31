@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Tue, 05 May 2015 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://ezaurum.com/tags/sublimetext/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 05 May 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://ezaurum.com/tags/sublimetext/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>sublime text 2 설정파일</title>
       <link>https://ezaurum.com/2015/05/sublime-text-2-%EC%84%A4%EC%A0%95%ED%8C%8C%EC%9D%BC/</link>

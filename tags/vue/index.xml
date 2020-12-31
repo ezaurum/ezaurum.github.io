@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Thu, 26 Mar 2020 02:00:18 +0900</lastBuildDate>
-    
-	<atom:link href="https://ezaurum.com/tags/vue/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 26 Mar 2020 02:00:18 +0900</lastBuildDate><atom:link href="https://ezaurum.com/tags/vue/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Vue에서 form 조건부 validation</title>
       <link>https://ezaurum.com/2020/03/Vue%EC%97%90%EC%84%9C-form-%EC%A1%B0%EA%B1%B4%EB%B6%80-validation/</link>

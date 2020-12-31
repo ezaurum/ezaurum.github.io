@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Mon, 20 May 2013 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://ezaurum.com/tags/authorizationStrategy/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 20 May 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://ezaurum.com/tags/authorizationStrategy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>jenkins 보안 설정 초기화</title>
       <link>https://ezaurum.com/2013/05/jenkins-%EB%B3%B4%EC%95%88-%EC%84%A4%EC%A0%95-%EC%B4%88%EA%B8%B0%ED%99%94/</link>

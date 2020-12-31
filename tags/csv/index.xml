@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Sun, 12 May 2019 01:54:01 +0900</lastBuildDate>
-    
-	<atom:link href="https://ezaurum.com/tags/csv/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 12 May 2019 01:54:01 +0900</lastBuildDate><atom:link href="https://ezaurum.com/tags/csv/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>쿼리 결과를 CSV 파일로 생성</title>
       <link>https://ezaurum.com/2019/05/%EC%BF%BC%EB%A6%AC-%EA%B2%B0%EA%B3%BC%EB%A5%BC-CSV-%ED%8C%8C%EC%9D%BC%EB%A1%9C-%EC%83%9D%EC%84%B1/</link>

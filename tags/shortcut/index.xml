@@ -7,18 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Tue, 24 Sep 2013 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://ezaurum.com/tags/shortcut/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 24 Sep 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://ezaurum.com/tags/shortcut/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Visual studio 2013 에서 Resharper8의 단축기가 안 먹을 때</title>
       <link>https://ezaurum.com/2013/09/Visual-studio-2013-%EC%97%90%EC%84%9C-Resharper8%EC%9D%98-%EB%8B%A8%EC%B6%95%EA%B8%B0%EA%B0%80-%EC%95%88-%EB%A8%B9%EC%9D%84-%EB%95%8C/</link>
       <pubDate>Tue, 24 Sep 2013 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2013/09/Visual-studio-2013-%EC%97%90%EC%84%9C-Resharper8%EC%9D%98-%EB%8B%A8%EC%B6%95%EA%B8%B0%EA%B0%80-%EC%95%88-%EB%A8%B9%EC%9D%84-%EB%95%8C/</guid>
-      <description>딴 건 모르겠고, 일단 제일 많이 쓰는 Alt+Enter가 안 되서 한참 삽질했다. 검색해서 나온 새로 설정 뭐 이런 거 다 해도 안 되는 경우, 도구-옵션-환경-키보드로 간다. [caption id=&amp;quot;attachment_2208&amp;rdquo; align=&amp;quot;alignnone&amp;rdquo; width=&amp;quot;300&amp;rdquo;] 비쥬얼 스튜디오 키보드 매핑 바꾸기[/caption] 가서 Alt로 검색하면 ReSharper_AltEnter가 있는데, 얘의 바로가기가 XAML UI던가로 되어 있었다. 새 바로 가기를 만드는데, 전역이나 텍스트 편집기를 이용해서 만들어준다. 만들고서 알트 엔터를 누르면 ReSharper단축키랑 딴 거랑 겹친다면서 에러 메세지가 뜨는데, 앞으로 ReSharper 단축키를 쓰겠다고 해 주고, 확인 누르면 됨.</description>
+      <description>딴 건 모르겠고, 일단 제일 많이 쓰는 Alt+Enter가 안 되서 한참 삽질했다. 검색해서 나온 새로 설정 뭐 이런 거 다 해도 안 되는 경우, 도구-옵션-환경-키보드로 간다. [caption id=&amp;ldquo;attachment_2208&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;300&amp;rdquo;] 비쥬얼 스튜디오 키보드 매핑 바꾸기[/caption] 가서 Alt로 검색하면 ReSharper_AltEnter가 있는데, 얘의 바로가기가 XAML UI던가로 되어 있었다. 새 바로 가기를 만드는데, 전역이나 텍스트 편집기를 이용해서 만들어준다. 만들고서 알트 엔터를 누르면 ReSharper단축키랑 딴 거랑 겹친다면서 에러 메세지가 뜨는데, 앞으로 ReSharper 단축키를 쓰겠다고 해 주고, 확인 누르면 됨.</description>
     </item>
     
   </channel>

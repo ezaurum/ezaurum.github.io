@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Tue, 23 Apr 2013 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://ezaurum.com/tags/%EA%B0%9C%EC%9D%B8%ED%82%A4/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 23 Apr 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://ezaurum.com/tags/%EA%B0%9C%EC%9D%B8%ED%82%A4/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Sourcetree 에서 access right 에러</title>
       <link>https://ezaurum.com/2013/04/Sourcetree-%EC%97%90%EC%84%9C-access-right-%EC%97%90%EB%9F%AC/</link>
