@@ -5812,5 +5812,15 @@ ${...} : 변수 *{...} : 선택 - 이전에 object등으로 선택된 객체에�
  class=&amp;quot;org.thymeleaf.templateresolver.ServletContextTemplateResolver&amp;quot;&amp;gt; &amp;lt;beans:property name=&amp;quot;prefix&amp;quot; value=&amp;quot;/WEB-INF/templates/&amp;quot; /&amp;gt; &amp;lt;beans:property name=&amp;quot;suffix&amp;quot; value=&amp;quot;.html&amp;quot; /&amp;gt; &amp;lt;beans:property name=&amp;quot;templateMode&amp;quot; value=&amp;quot;HTML5&amp;quot; /&amp;gt;  &amp;lt;/beans:bean&amp;gt;</description>
     </item>
     
+    <item>
+      <title></title>
+      <link>https://ezaurum.com/1/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/1/01/</guid>
+      <description>ios 에서는 scroll-margin-top 이 안 먹는다
+메뉴 움직임이 복잡해지는 경우 그냥 js가 편할 수 있다.</description>
+    </item>
+    
   </channel>
 </rss>

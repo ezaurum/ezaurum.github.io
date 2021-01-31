@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Sun, 14 Jun 2020 18:56:25 +0900</lastBuildDate><atom:link href="https://ezaurum.com/tags/%EC%A0%95%EB%A6%AC/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 31 Jan 2021 13:11:01 +0900</lastBuildDate><atom:link href="https://ezaurum.com/tags/%EC%A0%95%EB%A6%AC/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>테이블 생성 시 Foreign key constraint is incorrectly formed 에러 발생</title>
+      <link>https://ezaurum.com/bug/create-table-faield/</link>
+      <pubDate>Sun, 31 Jan 2021 13:11:01 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/bug/create-table-faield/</guid>
+      <description>문제상황 - 틀린 게 없는데 테이블 생성 시 Foreign key constraint is incorrectly formed 가 계속 나올 원인 - A 테이블에서 B 테이블의 a 에 대해서 FK를 만들었을 때, B테이블을 새로 생성하려면 A테이블의 이전 FK에 지정된 컬럼값과 새로 만들 값이 동일해야 한다. B 테이블을 지우고 나도 A 테이블에 있는 a에 대한 FK는 유지됨 해결방안 - A테이블의 FK를 삭제 후 재생성 재발 방지를 위해 - 테이블을 삭제할 때는 참조하는 FK를 모두 지우고 해 볼것</description>
+    </item>
+    
     <item>
       <title>아치 리눅스에서 스크린 캡처하기</title>
       <link>https://ezaurum.com/2020/06/%EC%95%84%EC%B9%98-%EB%A6%AC%EB%88%85%EC%8A%A4%EC%97%90%EC%84%9C-%EC%8A%A4%ED%81%AC%EB%A6%B0-%EC%BA%A1%EC%B2%98%ED%95%98%EA%B8%B0/</link>

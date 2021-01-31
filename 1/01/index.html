@@ -21,14 +21,10 @@
     
 
     <meta itemprop="name" content="">
-<meta itemprop="description" content="xml로 Thymeleaf 설정
-${...} : 변수 *{...} : 선택 - 이전에 object등으로 선택된 객체에만 적용 #{...} : i18n 메세지, 스프링 messagesource를 따라감 @{...} : 링크 ~{...} : Fragment  &lt;dependency&gt; &lt;groupId&gt;org.thymeleaf&lt;/groupId&gt; &lt;artifactId&gt;thymeleaf-spring5&lt;/artifactId&gt; &lt;version&gt;3.0.11.RELEASE&lt;/version&gt; &lt;/dependency&gt; &lt;beans:bean class=&ldquo;org.springframework.web.servlet.view.InternalResourceViewResolver&rdquo;&gt;
-&lt;beans:property name=&quot;prefix&quot; value=&quot;/WEB-INF/views/&quot; /&gt; &lt;beans:property name=&quot;suffix&quot; value=&quot;.jsp&quot; /&gt; &lt;beans:property name=&quot;viewNames&quot; value=&quot;jsp/*&quot; /&gt;  &lt;/beans:bean&gt;
-템플릿 리졸버
-&lt;beans:bean id=&ldquo;templateResolver&rdquo;
- class=&quot;org.thymeleaf.templateresolver.ServletContextTemplateResolver&quot;&gt; &lt;beans:property name=&quot;prefix&quot; value=&quot;/WEB-INF/templates/&quot; /&gt; &lt;beans:property name=&quot;suffix&quot; value=&quot;.html&quot; /&gt; &lt;beans:property name=&quot;templateMode&quot; value=&quot;HTML5&quot; /&gt;  &lt;/beans:bean&gt;">
+<meta itemprop="description" content="ios 에서는 scroll-margin-top 이 안 먹는다
+메뉴 움직임이 복잡해지는 경우 그냥 js가 편할 수 있다.">
 
-<meta itemprop="wordCount" content="89">
+<meta itemprop="wordCount" content="15">
 
 
 
@@ -36,20 +32,12 @@ ${...} : 변수 *{...} : 선택 - 이전에 object등으로 선택된 객체에�
 
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content=""/>
-<meta name="twitter:description" content="xml로 Thymeleaf 설정
-${...} : 변수 *{...} : 선택 - 이전에 object등으로 선택된 객체에만 적용 #{...} : i18n 메세지, 스프링 messagesource를 따라감 @{...} : 링크 ~{...} : Fragment  &lt;dependency&gt; &lt;groupId&gt;org.thymeleaf&lt;/groupId&gt; &lt;artifactId&gt;thymeleaf-spring5&lt;/artifactId&gt; &lt;version&gt;3.0.11.RELEASE&lt;/version&gt; &lt;/dependency&gt; &lt;beans:bean class=&ldquo;org.springframework.web.servlet.view.InternalResourceViewResolver&rdquo;&gt;
-&lt;beans:property name=&quot;prefix&quot; value=&quot;/WEB-INF/views/&quot; /&gt; &lt;beans:property name=&quot;suffix&quot; value=&quot;.jsp&quot; /&gt; &lt;beans:property name=&quot;viewNames&quot; value=&quot;jsp/*&quot; /&gt;  &lt;/beans:bean&gt;
-템플릿 리졸버
-&lt;beans:bean id=&ldquo;templateResolver&rdquo;
- class=&quot;org.thymeleaf.templateresolver.ServletContextTemplateResolver&quot;&gt; &lt;beans:property name=&quot;prefix&quot; value=&quot;/WEB-INF/templates/&quot; /&gt; &lt;beans:property name=&quot;suffix&quot; value=&quot;.html&quot; /&gt; &lt;beans:property name=&quot;templateMode&quot; value=&quot;HTML5&quot; /&gt;  &lt;/beans:bean&gt;"/>
+<meta name="twitter:description" content="ios 에서는 scroll-margin-top 이 안 먹는다
+메뉴 움직임이 복잡해지는 경우 그냥 js가 편할 수 있다."/>
 
     <meta property="og:title" content="" />
-<meta property="og:description" content="xml로 Thymeleaf 설정
-${...} : 변수 *{...} : 선택 - 이전에 object등으로 선택된 객체에만 적용 #{...} : i18n 메세지, 스프링 messagesource를 따라감 @{...} : 링크 ~{...} : Fragment  &lt;dependency&gt; &lt;groupId&gt;org.thymeleaf&lt;/groupId&gt; &lt;artifactId&gt;thymeleaf-spring5&lt;/artifactId&gt; &lt;version&gt;3.0.11.RELEASE&lt;/version&gt; &lt;/dependency&gt; &lt;beans:bean class=&ldquo;org.springframework.web.servlet.view.InternalResourceViewResolver&rdquo;&gt;
-&lt;beans:property name=&quot;prefix&quot; value=&quot;/WEB-INF/views/&quot; /&gt; &lt;beans:property name=&quot;suffix&quot; value=&quot;.jsp&quot; /&gt; &lt;beans:property name=&quot;viewNames&quot; value=&quot;jsp/*&quot; /&gt;  &lt;/beans:bean&gt;
-템플릿 리졸버
-&lt;beans:bean id=&ldquo;templateResolver&rdquo;
- class=&quot;org.thymeleaf.templateresolver.ServletContextTemplateResolver&quot;&gt; &lt;beans:property name=&quot;prefix&quot; value=&quot;/WEB-INF/templates/&quot; /&gt; &lt;beans:property name=&quot;suffix&quot; value=&quot;.html&quot; /&gt; &lt;beans:property name=&quot;templateMode&quot; value=&quot;HTML5&quot; /&gt;  &lt;/beans:bean&gt;" />
+<meta property="og:description" content="ios 에서는 scroll-margin-top 이 안 먹는다
+메뉴 움직임이 복잡해지는 경우 그냥 js가 편할 수 있다." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://ezaurum.com/1/01/" />
 
@@ -82,57 +70,8 @@ ${...} : 변수 *{...} : 선택 - 이전에 object등으로 선택된 객체에�
 <main class="post single">
 <h1></h1>
 0001-01-01
-<section><p>xml로 Thymeleaf 설정</p>
-<pre><code>${...} : 변수
-*{...} : 선택 - 이전에 object등으로 선택된 객체에만 적용
-#{...} : i18n 메세지, 스프링 messagesource를 따라감
-@{...} : 링크
-~{...} : Fragment
-</code></pre>
-<pre><code>&lt;dependency&gt;
-
-    &lt;groupId&gt;org.thymeleaf&lt;/groupId&gt;
-
-    &lt;artifactId&gt;thymeleaf-spring5&lt;/artifactId&gt;
-
-    &lt;version&gt;3.0.11.RELEASE&lt;/version&gt;
-
-&lt;/dependency&gt;
-
-</code></pre><!-- jps 뷰 리졸버 설정 -->
-<p>&lt;beans:bean class=&ldquo;org.springframework.web.servlet.view.InternalResourceViewResolver&rdquo;&gt;</p>
-<pre><code>&lt;beans:property name=&quot;prefix&quot; value=&quot;/WEB-INF/views/&quot; /&gt;
-
-&lt;beans:property name=&quot;suffix&quot; value=&quot;.jsp&quot; /&gt;
-
-&lt;beans:property name=&quot;viewNames&quot; value=&quot;jsp/*&quot; /&gt;
-</code></pre>
-<p>&lt;/beans:bean&gt;</p>
-<p>템플릿 리졸버</p>
-<p>&lt;beans:bean id=&ldquo;templateResolver&rdquo;</p>
-<pre><code>        class=&quot;org.thymeleaf.templateresolver.ServletContextTemplateResolver&quot;&gt;
-
-&lt;beans:property name=&quot;prefix&quot; value=&quot;/WEB-INF/templates/&quot; /&gt;
-
-&lt;beans:property name=&quot;suffix&quot; value=&quot;.html&quot; /&gt;
-
-&lt;beans:property name=&quot;templateMode&quot; value=&quot;HTML5&quot; /&gt;
-</code></pre>
-<p>&lt;/beans:bean&gt;</p>
-<p>템플릿 엔진</p>
-<p>&lt;beans:bean id=&ldquo;templateEngine&rdquo;</p>
-<pre><code>        class=&quot;org.thymeleaf.spring5.SpringTemplateEngine&quot;&gt;
-
-&lt;beans:property name=&quot;templateResolver&quot; ref=&quot;templateResolver&quot; /&gt;
-</code></pre>
-<p>&lt;/beans:bean&gt;</p>
-<p>// 뷰 리졸버</p>
-<p>&lt;beans:bean class=&ldquo;org.thymeleaf.spring5.view.ThymeleafViewResolver&rdquo;&gt;</p>
-<pre><code>&lt;beans:property name=&quot;templateEngine&quot; ref=&quot;templateEngine&quot; /&gt;
-</code></pre>
-<p>&lt;/beans:bean&gt;</p>
-<html lang="ko" xmlns:th="http://www.thymeleaf.org">
-를 적어줄 것
+<section><p>ios 에서는 scroll-margin-top 이 안 먹는다</p>
+<p>메뉴 움직임이 복잡해지는 경우 그냥 js가 편할 수 있다.</p>
 </section>
 
 
@@ -140,7 +79,7 @@ ${...} : 변수 *{...} : 선택 - 이전에 object등으로 선택된 객체에�
 
 
 
-<a href="https://ezaurum.com/2007/02/%EA%B2%B0%EA%B5%AD-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%8B%A4%EC%8B%9C-%EB%A7%8C%EB%93%A4%EB%8B%A4./"> 결국 블로그 다시 만들다.</a>
+<a href="https://ezaurum.com/1/01/"> </a>
 
 
 <a href="https://ezaurum.com/about/">About</a>

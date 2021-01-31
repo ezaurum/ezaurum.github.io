@@ -7,11 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Thu, 31 Dec 2020 12:49:28 +0900</lastBuildDate><atom:link href="https://ezaurum.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 31 Jan 2021 13:11:01 +0900</lastBuildDate><atom:link href="https://ezaurum.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>테이블 생성 시 Foreign key constraint is incorrectly formed 에러 발생</title>
+      <link>https://ezaurum.com/bug/create-table-faield/</link>
+      <pubDate>Sun, 31 Jan 2021 13:11:01 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/bug/create-table-faield/</guid>
+      <description>문제상황 - 틀린 게 없는데 테이블 생성 시 Foreign key constraint is incorrectly formed 가 계속 나올 원인 - A 테이블에서 B 테이블의 a 에 대해서 FK를 만들었을 때, B테이블을 새로 생성하려면 A테이블의 이전 FK에 지정된 컬럼값과 새로 만들 값이 동일해야 한다. B 테이블을 지우고 나도 A 테이블에 있는 a에 대한 FK는 유지됨 해결방안 - A테이블의 FK를 삭제 후 재생성 재발 방지를 위해 - 테이블을 삭제할 때는 참조하는 FK를 모두 지우고 해 볼것</description>
+    </item>
+    
     <item>
       <title>2020년 전체 회고</title>
       <link>https://ezaurum.com/retrospective/2020-full-year/</link>
-      <pubDate>Thu, 31 Dec 2020 12:49:28 +0900</pubDate>
+      <pubDate>Thu, 31 Dec 2020 13:05:28 +0900</pubDate>
       
       <guid>https://ezaurum.com/retrospective/2020-full-year/</guid>
       <description>한 일  5000커밋 달성 닌텐도 스위치 구매, 열심히 게임중 학자금 융자 모두 상환 집에 가전제품을 많이 샀다 목표로 삼았던 10kg 감량은 실패 목표로 삼았던 게임 출시도 실패 목표로 삼았던 콘크리트 매쓰매틱스도 실패 Go 스터디 모임 하나 진행 Node JS 프로젝트 하나 진행 오랜만에 Java + Spring + MyBatis 프로젝트 진행 손 댄 프로젝트 우상향 중  감상  나쁘지 않다. 어제보다 나은 내일을 기대하고 있다 실력이 좀 늘었다는 느낌 우상향 하는 프로젝트는 참 기분이 좋다  교훈  규칙적인 생활이 중요하다 - 말 뿐만이 아니라 실행이 충분한 수면과 운동이 필요하다  </description>
@@ -7439,6 +7448,16 @@ ${...} : 변수 *{...} : 선택 - 이전에 object등으로 선택된 객체에�
 템플릿 리졸버
 &amp;lt;beans:bean id=&amp;ldquo;templateResolver&amp;rdquo;
  class=&amp;quot;org.thymeleaf.templateresolver.ServletContextTemplateResolver&amp;quot;&amp;gt; &amp;lt;beans:property name=&amp;quot;prefix&amp;quot; value=&amp;quot;/WEB-INF/templates/&amp;quot; /&amp;gt; &amp;lt;beans:property name=&amp;quot;suffix&amp;quot; value=&amp;quot;.html&amp;quot; /&amp;gt; &amp;lt;beans:property name=&amp;quot;templateMode&amp;quot; value=&amp;quot;HTML5&amp;quot; /&amp;gt;  &amp;lt;/beans:bean&amp;gt;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://ezaurum.com/1/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/1/01/</guid>
+      <description>ios 에서는 scroll-margin-top 이 안 먹는다
+메뉴 움직임이 복잡해지는 경우 그냥 js가 편할 수 있다.</description>
     </item>
     
     <item>
