@@ -3,17 +3,57 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://ezaurum.com/bug/</loc>
-    <lastmod>2021-01-31T13:11:01+09:00</lastmod>
+    <loc>https://ezaurum.com/2021/02/2021%EB%85%84-%EB%AA%A9%ED%91%9C/</loc>
+    <lastmod>2021-02-13T20:17:22+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://ezaurum.com/categories/</loc>
-    <lastmod>2021-01-31T13:11:01+09:00</lastmod>
+    <lastmod>2021-02-13T20:17:22+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://ezaurum.com/</loc>
+    <lastmod>2021-02-13T20:17:22+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/post/</loc>
+    <lastmod>2021-02-13T20:17:22+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/series/</loc>
+    <lastmod>2021-02-13T20:17:22+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/tags/</loc>
+    <lastmod>2021-02-13T20:17:22+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/series/%EB%AA%A9%ED%91%9C/</loc>
+    <lastmod>2021-02-13T20:17:22+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/categories/%EB%AA%A9%ED%91%9C/</loc>
+    <lastmod>2021-02-13T20:17:22+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/tags/%EC%9A%B8%ED%8A%B8%EB%9D%BC%EB%9F%AC%EB%8B%9D/</loc>
+    <lastmod>2021-02-13T20:17:22+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/categories/%EC%9D%BC%EC%83%81/</loc>
+    <lastmod>2021-02-13T20:17:22+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/bug/</loc>
     <lastmod>2021-01-31T13:11:01+09:00</lastmod>
   </url>
   
@@ -23,17 +63,7 @@
   </url>
   
   <url>
-    <loc>https://ezaurum.com/series/</loc>
-    <lastmod>2021-01-31T13:11:01+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://ezaurum.com/tags/sql/</loc>
-    <lastmod>2021-01-31T13:11:01+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ezaurum.com/tags/</loc>
     <lastmod>2021-01-31T13:11:01+09:00</lastmod>
   </url>
   
@@ -83,11 +113,6 @@
   </url>
   
   <url>
-    <loc>https://ezaurum.com/post/</loc>
-    <lastmod>2020-06-20T02:37:59+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://ezaurum.com/tags/%EA%BF%88/</loc>
     <lastmod>2020-06-20T02:37:59+09:00</lastmod>
   </url>
@@ -99,11 +124,6 @@
   
   <url>
     <loc>https://ezaurum.com/2020/06/%EC%96%B4%EB%8A%90-%EB%82%A0-%EB%B3%B4%EB%8B%88-%EC%86%8C%EB%A0%A8%EC%9D%B4-%EB%B6%95%EA%B4%B4%ED%96%88%EB%8B%A4/</loc>
-    <lastmod>2020-06-20T02:37:59+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ezaurum.com/categories/%EC%9D%BC%EC%83%81/</loc>
     <lastmod>2020-06-20T02:37:59+09:00</lastmod>
   </url>
   
@@ -404,16 +424,6 @@
   
   <url>
     <loc>https://ezaurum.com/tags/%EB%AA%A9%ED%91%9C/</loc>
-    <lastmod>2020-01-01T21:30:07+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ezaurum.com/series/%EB%AA%A9%ED%91%9C/</loc>
-    <lastmod>2020-01-01T21:30:07+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ezaurum.com/categories/%EB%AA%A9%ED%91%9C/</loc>
     <lastmod>2020-01-01T21:30:07+09:00</lastmod>
   </url>
   
