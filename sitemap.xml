@@ -3,6 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://ezaurum.com/development-log/</loc>
+    <lastmod>2021-02-27T18:34:33+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/</loc>
+    <lastmod>2021-02-27T18:34:33+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/tags/</loc>
+    <lastmod>2021-02-27T18:34:33+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/tags/%EA%B3%B5%EC%97%85%EC%9E%85%EA%B5%AD/</loc>
+    <lastmod>2021-02-27T18:34:33+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ezaurum.com/development-log/2021-02-27/</loc>
+    <lastmod>2021-02-27T18:34:33+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ezaurum.com/2021/02/2021%EB%85%84-%EB%AA%A9%ED%91%9C/</loc>
     <lastmod>2021-02-13T20:17:22+09:00</lastmod>
   </url>
@@ -13,22 +38,12 @@
   </url>
   
   <url>
-    <loc>https://ezaurum.com/</loc>
-    <lastmod>2021-02-13T20:17:22+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://ezaurum.com/post/</loc>
     <lastmod>2021-02-13T20:17:22+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://ezaurum.com/series/</loc>
-    <lastmod>2021-02-13T20:17:22+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ezaurum.com/tags/</loc>
     <lastmod>2021-02-13T20:17:22+09:00</lastmod>
   </url>
   

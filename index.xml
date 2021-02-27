@@ -7,7 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Sat, 13 Feb 2021 20:17:22 +0900</lastBuildDate><atom:link href="https://ezaurum.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 27 Feb 2021 18:34:33 +0900</lastBuildDate><atom:link href="https://ezaurum.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>캐릭터 스테이터스 설정</title>
+      <link>https://ezaurum.com/development-log/2021-02-27/</link>
+      <pubDate>Sat, 27 Feb 2021 18:34:33 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/development-log/2021-02-27/</guid>
+      <description>게임 상태 머신 추가 기본적으로 title -&amp;gt; main 으로 가도록 FSM을 추가했다. 이후에 상태 자체를 클래스로 빼 둘 예정
+  글로벌 이벤트 버스 추가 mitt 를 써서 글로벌 이벤트 버스를 사용하기로 결정. 메인 메뉴를 클릭하면 글로벌 이벤트가 발생된다
+  메뉴 항목의 데이터 구조 정의 각 메뉴 항목마다 데이터 구조를 정의함
+  기본 캐릭터 스테이터스 정의 기본 캐릭터 능력치들을 결정함. 이미 전에 결정된 건데, 클래스 만들고 정리함.</description>
+    </item>
+    
     <item>
       <title>2021년 목표</title>
       <link>https://ezaurum.com/2021/02/2021%EB%85%84-%EB%AA%A9%ED%91%9C/</link>
