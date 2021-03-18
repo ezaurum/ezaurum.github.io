@@ -25,15 +25,10 @@
 DB, API 서버의 cpu/mem 부하는 20% 전후인 상태
 리셋 등으로 해결이 안 되고, 도커 컨테이너 늘려서도 해결이 안 됨
 지속되는 경우 리퀘스트도 쌓이고 file open max 값이 넘어가서 사용 불가
-원인  DB 처리량보다 부하 심함  IO 부분이 보틀넥으로 보임 도커 인스턴스가 값싼 거고 DB도 값싼 인스턴스   커넥션이 늘어남 실제 DB 커넥션이 45개 전후  RDS에서 가장 작은 인스턴스를 사용했는데 전체 DB 메모리 양과 CPU 사용량을 가지고 연결수 계산   도커 컨테이너의 Max Connection은 50  이전 네이버에서 직접 배포 때 잡은 설정 그대로 RDS 인스턴스가 여러 개 일 때는 괜찮았음 제일 작은 걸로 바꾸고 인스턴스도 줄여둔 상태   이미 늘어난 컨넥션은 없어지지 않고 CPU 사용량은 그리 많지 않음  재현 봇을 만들어서 로그인, 화면 리프레시를 하게 하니 100명 전후가 몰려서 접근시 문제 발생">
-<meta itemprop="datePublished" content="2019-06-20T22:31:05+09:00" />
-<meta itemprop="dateModified" content="2019-06-20T22:31:05+09:00" />
+원인  DB 처리량보다 부하 심함  IO 부분이 보틀넥으로 보임 도커 인스턴스가 값싼 거고 DB도 값싼 인스턴스   커넥션이 늘어남 실제 DB 커넥션이 45개 전후  RDS에서 가장 작은 인스턴스를 사용했는데 전체 DB 메모리 양과 CPU 사용량을 가지고 연결수 계산   도커 컨테이너의 Max Connection은 50  이전 네이버에서 직접 배포 때 잡은 설정 그대로 RDS 인스턴스가 여러 개 일 때는 괜찮았음 제일 작은 걸로 바꾸고 인스턴스도 줄여둔 상태   이미 늘어난 컨넥션은 없어지지 않고 CPU 사용량은 그리 많지 않음  재현 봇을 만들어서 로그인, 화면 리프레시를 하게 하니 100명 전후가 몰려서 접근시 문제 발생"><meta itemprop="datePublished" content="2019-06-20T22:31:05&#43;09:00" />
+<meta itemprop="dateModified" content="2019-06-20T22:31:05&#43;09:00" />
 <meta itemprop="wordCount" content="207">
-
-
-
 <meta itemprop="keywords" content="aws,RDS,DB,go,tx,too many connection,bug,max_connection," />
-
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="too many connection"/>
 <meta name="twitter:description" content="현상 일정 시간마다 ajax로 내용을 리프레시 해 주는 게시판에서 사용자 200여명이 넘어가자 DB엑세스 시 too many connection이 발생하고 연결을 하지 못하는 현상 발생
@@ -49,9 +44,10 @@ DB, API 서버의 cpu/mem 부하는 20% 전후인 상태
 지속되는 경우 리퀘스트도 쌓이고 file open max 값이 넘어가서 사용 불가
 원인  DB 처리량보다 부하 심함  IO 부분이 보틀넥으로 보임 도커 인스턴스가 값싼 거고 DB도 값싼 인스턴스   커넥션이 늘어남 실제 DB 커넥션이 45개 전후  RDS에서 가장 작은 인스턴스를 사용했는데 전체 DB 메모리 양과 CPU 사용량을 가지고 연결수 계산   도커 컨테이너의 Max Connection은 50  이전 네이버에서 직접 배포 때 잡은 설정 그대로 RDS 인스턴스가 여러 개 일 때는 괜찮았음 제일 작은 걸로 바꾸고 인스턴스도 줄여둔 상태   이미 늘어난 컨넥션은 없어지지 않고 CPU 사용량은 그리 많지 않음  재현 봇을 만들어서 로그인, 화면 리프레시를 하게 하니 100명 전후가 몰려서 접근시 문제 발생" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://ezaurum.com/bug/too-many-connections/" />
-<meta property="article:published_time" content="2019-06-20T22:31:05+09:00" />
-<meta property="article:modified_time" content="2019-06-20T22:31:05+09:00" />
+<meta property="og:url" content="https://ezaurum.com/bug/too-many-connections/" /><meta property="article:section" content="bug" />
+<meta property="article:published_time" content="2019-06-20T22:31:05&#43;09:00" />
+<meta property="article:modified_time" content="2019-06-20T22:31:05&#43;09:00" />
+
 
 
     
@@ -179,6 +175,8 @@ DB, API 서버의 cpu/mem 부하는 20% 전후인 상태
     
         
 
+        
+            
         
             
         
@@ -720,6 +718,8 @@ DB, API 서버의 cpu/mem 부하는 20% 전후인 상태
         
             
         <li><a href="https://ezaurum.com/bug/gorm-related-bug/">GORM에서 Many To Many 값을 제대로 가져오지 못하는 문제</a></li>
+            
+        
             
         
             
@@ -3183,6 +3183,8 @@ DB, API 서버의 cpu/mem 부하는 20% 전후인 상태
             
         
             
+        
+            
         <li><a href="https://ezaurum.com/bug/console-writeline/">유니코드 문자를 Console.WriteLine으로 출력시 에러</a></li>
             
         
@@ -3302,6 +3304,8 @@ DB, API 서버의 cpu/mem 부하는 20% 전후인 상태
         
             
         <li><a href="https://ezaurum.com/bug/2017-12-29-bug-diary/">인수 전달이 잘못된 문제</a></li>
+            
+        
             
         
             

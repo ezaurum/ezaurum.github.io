@@ -23,15 +23,10 @@
     <meta itemprop="name" content="내가 프로그래밍을 해서 먹고 살 수 있을까">
 <meta itemprop="description" content="이걸 짜는데 이틀 걸렸다면 믿으시겠습니까? 젠장
 private String a(int initial, int max, String leftValue) { String returnValue = &ldquo;&quot;;
- if (initial &amp;lt; max) {if (initial != -1) {if (leftValue != null) {leftValue &#43;= &amp;quot; &amp;quot;;leftValue &#43;= initial;} else {leftValue = String.valueOf(initial);}}for (int i = initial &#43; 1; i &amp;lt;= max; i&#43;&#43;) {returnValue &#43;= a(i, max, leftValue);}return returnValue;} else {if (leftValue !">
-<meta itemprop="datePublished" content="2010-08-19T00:00:00+00:00" />
-<meta itemprop="dateModified" content="2010-08-19T00:00:00+00:00" />
+ if (initial &amp;lt; max) {if (initial != -1) {if (leftValue != null) {leftValue &#43;= &amp;quot; &amp;quot;;leftValue &#43;= initial;} else {leftValue = String.valueOf(initial);}}for (int i = initial &#43; 1; i &amp;lt;= max; i&#43;&#43;) {returnValue &#43;= a(i, max, leftValue);}return returnValue;} else {if (leftValue !"><meta itemprop="datePublished" content="2010-08-19T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2010-08-19T00:00:00&#43;00:00" />
 <meta itemprop="wordCount" content="87">
-
-
-
 <meta itemprop="keywords" content="공부,프로그래밍,알고리즘,일상,찌질대기,java," />
-
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="내가 프로그래밍을 해서 먹고 살 수 있을까"/>
 <meta name="twitter:description" content="이걸 짜는데 이틀 걸렸다면 믿으시겠습니까? 젠장
@@ -43,9 +38,10 @@ private String a(int initial, int max, String leftValue) { String returnValue = 
 private String a(int initial, int max, String leftValue) { String returnValue = &ldquo;&quot;;
  if (initial &amp;lt; max) {if (initial != -1) {if (leftValue != null) {leftValue &#43;= &amp;quot; &amp;quot;;leftValue &#43;= initial;} else {leftValue = String.valueOf(initial);}}for (int i = initial &#43; 1; i &amp;lt;= max; i&#43;&#43;) {returnValue &#43;= a(i, max, leftValue);}return returnValue;} else {if (leftValue !" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://ezaurum.com/2010/08/%EB%82%B4%EA%B0%80-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EC%9D%84-%ED%95%B4%EC%84%9C-%EB%A8%B9%EA%B3%A0-%EC%82%B4-%EC%88%98-%EC%9E%88%EC%9D%84%EA%B9%8C/" />
-<meta property="article:published_time" content="2010-08-19T00:00:00+00:00" />
-<meta property="article:modified_time" content="2010-08-19T00:00:00+00:00" />
+<meta property="og:url" content="https://ezaurum.com/2010/08/%EB%82%B4%EA%B0%80-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EC%9D%84-%ED%95%B4%EC%84%9C-%EB%A8%B9%EA%B3%A0-%EC%82%B4-%EC%88%98-%EC%9E%88%EC%9D%84%EA%B9%8C/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2010-08-19T00:00:00&#43;00:00" />
+<meta property="article:modified_time" content="2010-08-19T00:00:00&#43;00:00" />
+
 
     
 
@@ -97,13 +93,13 @@ String returnValue = &ldquo;&quot;;</p>
         }
 
         return returnValue;
-    } else {
+	} else {
         if (leftValue != null)
             leftValue += &amp;quot;n&amp;quot;;
         else
             leftValue = &amp;quot;&amp;quot;;
         return leftValue;
-    }
+	}
 
 }
 </code></pre>
