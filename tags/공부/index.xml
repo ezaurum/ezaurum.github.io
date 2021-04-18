@@ -7,7 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Thu, 18 Mar 2021 13:49:20 +0900</lastBuildDate><atom:link href="https://ezaurum.com/tags/%EA%B3%B5%EB%B6%80/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 08 Apr 2021 22:34:33 +0900</lastBuildDate><atom:link href="https://ezaurum.com/tags/%EA%B3%B5%EB%B6%80/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Async/Sync vs Block/Non-Block</title>
+      <link>https://ezaurum.com/2021/04/Async/Sync-vs-Block/Non-Block/</link>
+      <pubDate>Thu, 08 Apr 2021 22:34:33 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/2021/04/Async/Sync-vs-Block/Non-Block/</guid>
+      <description>옛날에 어느 N사 면접에서 나온 질문인데 대답이 명확하게 나오지 않아서 나중에 알아봐야지 하다가 말았던 것.
+결론은 결국 영어 공부였다. Async/Sync - Block/Non-Block 의 의미를 이해하면 될 문제였던 것.
+ Block/Non-Block Block/Non-Block 은 프로시저의 실행이 멈추는가를 표현하는 용어다.
+실행 중인 프로시저A가 다른 프로시저B를 호출 할 때, 호출된 프로시저B가 자기가 끝날 때까지 A 를 멈추면(Block) Block이고 안 멈추면(Non-Block) Non-Block이다.
+실제 구현된 프로그램 함수로 생각한다면 호출된 함수가 모든 작업이 끝난 다음에 return 하냐 작업이 끝나기 전에 return 하냐 하는 것을 생각하면 되겠다.</description>
+    </item>
+    
     <item>
       <title>2018 카카오 블라인드 테스트 추석 트래픽 풀이</title>
       <link>https://ezaurum.com/2021/03/2018-%EC%B9%B4%EC%B9%B4%EC%98%A4-%EB%B8%94%EB%9D%BC%EC%9D%B8%EB%93%9C-%ED%85%8C%EC%8A%A4%ED%8A%B8-%EC%B6%94%EC%84%9D-%ED%8A%B8%EB%9E%98%ED%94%BD-%ED%92%80%EC%9D%B4/</link>
