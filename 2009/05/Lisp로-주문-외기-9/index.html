@@ -17,14 +17,12 @@
     <title>   Lisp로 주문 외기 - 9 - -  Ezaurum&#39;s Blog </title>
     <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/style.css">
-    
-    
 
     <meta itemprop="name" content="Lisp로 주문 외기 - 9 -">
 <meta itemprop="description" content="게임의 특별한 동작 만들기이제 완성까지 딱 하나만 더 하면 됩니다. 플레이어가 게임을 끝내기 위한 특별한 동작을 좀 더하는 거죠. 첫 번째 명령은 플레이어가 쇠사슬을 다락방에 있던 양동이에 용접하는 게 될 겁니다.
 (setf chain-welded nil)
-(defun weld (subject object) (cond ((and (eq location &lsquo;attic) (eq subject &lsquo;chain) (eq object &lsquo;bucket) (have &lsquo;chain) (have &lsquo;bucket) (not chain-welded)) (setf chain-welded &rsquo;t) &lsquo;(the chain is now securely welded to the bucket.)) (t &lsquo;(you cannot weld like that."><meta itemprop="datePublished" content="2009-05-25T00:00:00&#43;00:00" />
-<meta itemprop="dateModified" content="2009-05-25T00:00:00&#43;00:00" />
+(defun weld (subject object) (cond ((and (eq location &lsquo;attic) (eq subject &lsquo;chain) (eq object &lsquo;bucket) (have &lsquo;chain) (have &lsquo;bucket) (not chain-welded)) (setf chain-welded &rsquo;t) &lsquo;(the chain is now securely welded to the bucket.)) (t &lsquo;(you cannot weld like that."><meta itemprop="datePublished" content="2009-05-25T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2009-05-25T00:00:00+00:00" />
 <meta itemprop="wordCount" content="634">
 <meta itemprop="keywords" content="casting-spels,번역,결과물,공부,LISP," />
     <meta name="twitter:card" content="summary"/>
@@ -39,8 +37,8 @@
 (defun weld (subject object) (cond ((and (eq location &lsquo;attic) (eq subject &lsquo;chain) (eq object &lsquo;bucket) (have &lsquo;chain) (have &lsquo;bucket) (not chain-welded)) (setf chain-welded &rsquo;t) &lsquo;(the chain is now securely welded to the bucket.)) (t &lsquo;(you cannot weld like that." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://ezaurum.com/2009/05/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-9/" /><meta property="article:section" content="post" />
-<meta property="article:published_time" content="2009-05-25T00:00:00&#43;00:00" />
-<meta property="article:modified_time" content="2009-05-25T00:00:00&#43;00:00" />
+<meta property="article:published_time" content="2009-05-25T00:00:00+00:00" />
+<meta property="article:modified_time" content="2009-05-25T00:00:00+00:00" />
 
 
     
@@ -115,7 +113,7 @@
             (t '(i cant ,',command like that.)))))
 </code>
 <p>이 주문 (SPEL)이 얼마나 흥미로운 복합체인가 보세요. 무지 많은 이상한 따옴표, 역 따옴표, 콤마, 다른 이상한 기호들이 있지요. 이건 보통 주문이 아니라 실제로 다른 주문(SPEL)을 외는 주문이에요! 숙련된 Lisp 프로그래머라도 이런 괴물 같은 걸 만들어내려면 좀 생각을 해야 합니다. (그리고 사실 이런 주문(SPEL)은 고상하지 못한 걸로 생각하고, 좀 더 난해한 단계들을 더 거쳐서 더 잘 돌아가는 걸 만들테지만, 여기서 신경쓸 일은 아니죠&hellip;)</p>
-<p><img src="/wordpress/wp-content/uploads/2009/05/game_action.jpg" alt="game_action" title="game_action" width="500" height="335" class="alignnone size-full wp-image-621" /></p>
+<img src="/wordpress/wp-content/uploads/2009/05/game_action.jpg" alt="game_action" title="game_action" width="500" height="335" class="alignnone size-full wp-image-621" />
 <p>이 주문(SPEL)의 요점은 여러분이 이런 주문들을 다룰 수 있다면, 얼마나 교육받았고 똑똑한지 알려줄 수 있다는 겁니다.  거기다, 이걸 단 한번만 쓰고서, 더 큰 어드벤처 게임을 위한 몇 백개의 명령을 한 번에 만들 수 있다면, 모양새 나쁜 건 문제가 아니죠.</p>
 <p>자, 그럼 새 주문(SPEL)으로 전에 만든 볼품없는 weld명령을 대체해 볼까요.</p>
 <code>
@@ -130,13 +128,13 @@
 </code>
 <strong>==&gt; (YOU DO NOT HAVE THE CHAIN.)</strong>
 ...아직도 용접하기엔 적합한 상황이 아니군요, 하지만 명령은 제대로 돌아가고 있어요.
-<p><img src="/wordpress/wp-content/uploads/2009/05/dunk.jpg" alt="dunk" title="dunk" width="500" height="298" class="alignnone size-full wp-image-620" /></p>
+<img src="/wordpress/wp-content/uploads/2009/05/dunk.jpg" alt="dunk" title="dunk" width="500" height="298" class="alignnone size-full wp-image-620" />
 <p>다음엔 dunk 명령을 새로 짜 봅시다.</p>
 <p><code>(game-action dunk bucket well garden
 (cond (<em>chain-welded</em> (setf <em>bucket-filled</em> &rsquo;t) &lsquo;(the bucket is now full of water))
 (t &lsquo;(the water level is too low to reach.))))</code></p>
 <p>용접(weld)명령이 어떻게 용접할 물체를 가지고 있는지 검사했는지에 주목하세요, 하지만 dunk 명령은 이 단계를 건너뜁니다. - 새 game-action 주문(SPEL)이 코드를 더 쉽게 쓰고 이해하도록 만들어줬습니다.</p>
-<p><img src="/wordpress/wp-content/uploads/2009/05/splash.jpg" alt="splash" title="splash" width="500" height="397" class="alignnone size-full wp-image-622" /></p>
+<img src="/wordpress/wp-content/uploads/2009/05/splash.jpg" alt="splash" title="splash" width="500" height="397" class="alignnone size-full wp-image-622" />
 <p>이제 마법사에게 물을 쏟아붇는 마지막 코드입니다. 
 <code>
 (game-action splash bucket wizard living-room
@@ -146,8 +144,8 @@ he is so upset he banishes you to the
 netherworlds- you lose! the end.))
 (t &lsquo;(the wizard awakens from his slumber and greets you warmly. 
 he hands you the magic low-carb donut- you win! the end.))))</code></p>
-<p><img src="/wordpress/wp-content/uploads/2009/05/donut.jpg" alt="donut" title="donut" width="500" height="447" class="alignnone size-full wp-image-619" />
-<strong>텍스트 어드벤처 게임을 완전히 다 만들었습니다!!</strong></p>
+<img src="/wordpress/wp-content/uploads/2009/05/donut.jpg" alt="donut" title="donut" width="500" height="447" class="alignnone size-full wp-image-619" />
+<strong>텍스트 어드벤처 게임을 완전히 다 만들었습니다!!</strong>
 <p>게임의 전체 진행을 보려면 <a href="http://lisperati.com/cheat.html">여기</a>를 클릭
 Lisp프롬프트에 한 번 Copy&amp;Paste 로 끝날 수 있는 소스코드를 보려면 <a href="http://lisperati.com/code.html">여기</a>를 클릭</p>
 <p>이 연습서를 가능한 간단히 만들기 위해, Lisp가 어떻게 작동하는가 하는 많은 세부 사항은 주석 처리되거나 별도 페이지로 넘어갔습니다. 그러니 그 세부 사항이 어떤지 봅시다&hellip;.</p>

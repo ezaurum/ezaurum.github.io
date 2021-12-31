@@ -17,14 +17,12 @@
     <title>   Vue에서 외부 모듈의 스타일을 적용했는데 적용되지 않을 때 -  Ezaurum&#39;s Blog </title>
     <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/style.css">
-    
-    
 
     <meta itemprop="name" content="Vue에서 외부 모듈의 스타일을 적용했는데 적용되지 않을 때">
 <meta itemprop="description" content="문제 상황 Vue 프로그래밍 중 외부 모듈을 사용했는데, 해당 모듈의 기본 css를 덮어씌우려고 불러오는 vue 페이지의 style을 변경했다. 클래스 이름을 분명히 지정했고, !important도 먹히지 않았음
 문제 원인 알고 보니 style 태그에 scoped가 지정되어 있어서 자동으로 한정자가 붙어버린다. 그러니 단순히 클래스만 지정해서는 해당 모듈에 반영되지 않았다.
-재발 방지를 위해  외부 모듈의 경우는 style태그를 따로 하나 더 만들어서 처리한다. CSS를 해당 외부 모듈을 감싸는 부모 태그를 포함해서 선언 한다.  "><meta itemprop="datePublished" content="2018-08-31T22:31:05&#43;09:00" />
-<meta itemprop="dateModified" content="2018-08-31T22:31:05&#43;09:00" />
+재발 방지를 위해  외부 모듈의 경우는 style태그를 따로 하나 더 만들어서 처리한다. CSS를 해당 외부 모듈을 감싸는 부모 태그를 포함해서 선언 한다.  "><meta itemprop="datePublished" content="2018-08-31T22:31:05+09:00" />
+<meta itemprop="dateModified" content="2018-08-31T22:31:05+09:00" />
 <meta itemprop="wordCount" content="67">
 <meta itemprop="keywords" content="vue," />
     <meta name="twitter:card" content="summary"/>
@@ -39,8 +37,8 @@
 재발 방지를 위해  외부 모듈의 경우는 style태그를 따로 하나 더 만들어서 처리한다. CSS를 해당 외부 모듈을 감싸는 부모 태그를 포함해서 선언 한다.  " />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://ezaurum.com/bug/vue-style-scoped/" /><meta property="article:section" content="bug" />
-<meta property="article:published_time" content="2018-08-31T22:31:05&#43;09:00" />
-<meta property="article:modified_time" content="2018-08-31T22:31:05&#43;09:00" />
+<meta property="article:published_time" content="2018-08-31T22:31:05+09:00" />
+<meta property="article:modified_time" content="2018-08-31T22:31:05+09:00" />
 
 
 
@@ -114,6 +112,8 @@
     
         
 
+        
+            
         
             
         
@@ -447,6 +447,12 @@
         
             
         <li><a href="https://ezaurum.com/bug/cloud-front-access-denied/">CloudFront에서 웹사이트 연동을 위해 S3의 파일을 불러올 때 Access Denied가 날 때</a></li>
+            
+        
+            
+        
+            
+        
             
         
             
@@ -1290,6 +1296,14 @@
             
         
             
+        
+            
+        
+            
+        
+            
+        
+            
         <li><a href="https://ezaurum.com/bug/too-many-connections/">too many connection</a></li>
             
         
@@ -1397,6 +1411,10 @@
         
             
         <li><a href="https://ezaurum.com/bug/vue-style-scoped/">Vue에서 외부 모듈의 스타일을 적용했는데 적용되지 않을 때</a></li>
+            
+        
+            
+        
             
         
             

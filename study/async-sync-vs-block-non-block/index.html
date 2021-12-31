@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang='ko-kr'>
+<head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-40920966-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-40920966-1');
+</script>
+
+
+    <title>   Async/Sync vs Block/Non-Block -  Ezaurum&#39;s Blog </title>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+
+    <meta itemprop="name" content="Async/Sync vs Block/Non-Block">
+<meta itemprop="description" content="옛날에 어느 N사 면접에서 나온 질문인데 대답이 명확하게 나오지 않아서 나중에 알아봐야지 하다가 말았던 것.
+결론은 결국 영어 공부였다. Async/Sync - Block/Non-Block 의 의미를 이해하면 될 문제였던 것.
+ Block/Non-Block Block/Non-Block 은 프로시저의 실행이 멈추는가를 표현하는 용어다.
+실행 중인 프로시저A가 다른 프로시저B를 호출 할 때, 호출된 프로시저B가 자기가 끝날 때까지 A 를 멈추면(Block) Block이고 안 멈추면(Non-Block) Non-Block이다.
+실제 구현된 프로그램 함수로 생각한다면 호출된 함수가 모든 작업이 끝난 다음에 return 하냐 작업이 끝나기 전에 return 하냐 하는 것을 생각하면 되겠다."><meta itemprop="datePublished" content="2021-04-08T22:34:33+09:00" />
+<meta itemprop="dateModified" content="2021-04-08T22:34:33+09:00" />
+<meta itemprop="wordCount" content="128">
+<meta itemprop="keywords" content="공부,Programming,비동기,멀티쓰레드,Blocking," />
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Async/Sync vs Block/Non-Block"/>
+<meta name="twitter:description" content="옛날에 어느 N사 면접에서 나온 질문인데 대답이 명확하게 나오지 않아서 나중에 알아봐야지 하다가 말았던 것.
+결론은 결국 영어 공부였다. Async/Sync - Block/Non-Block 의 의미를 이해하면 될 문제였던 것.
+ Block/Non-Block Block/Non-Block 은 프로시저의 실행이 멈추는가를 표현하는 용어다.
+실행 중인 프로시저A가 다른 프로시저B를 호출 할 때, 호출된 프로시저B가 자기가 끝날 때까지 A 를 멈추면(Block) Block이고 안 멈추면(Non-Block) Non-Block이다.
+실제 구현된 프로그램 함수로 생각한다면 호출된 함수가 모든 작업이 끝난 다음에 return 하냐 작업이 끝나기 전에 return 하냐 하는 것을 생각하면 되겠다."/>
+
+    <meta property="og:title" content="Async/Sync vs Block/Non-Block" />
+<meta property="og:description" content="옛날에 어느 N사 면접에서 나온 질문인데 대답이 명확하게 나오지 않아서 나중에 알아봐야지 하다가 말았던 것.
+결론은 결국 영어 공부였다. Async/Sync - Block/Non-Block 의 의미를 이해하면 될 문제였던 것.
+ Block/Non-Block Block/Non-Block 은 프로시저의 실행이 멈추는가를 표현하는 용어다.
+실행 중인 프로시저A가 다른 프로시저B를 호출 할 때, 호출된 프로시저B가 자기가 끝날 때까지 A 를 멈추면(Block) Block이고 안 멈추면(Non-Block) Non-Block이다.
+실제 구현된 프로그램 함수로 생각한다면 호출된 함수가 모든 작업이 끝난 다음에 return 하냐 작업이 끝나기 전에 return 하냐 하는 것을 생각하면 되겠다." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ezaurum.com/study/async-sync-vs-block-non-block/" /><meta property="article:section" content="study" />
+<meta property="article:published_time" content="2021-04-08T22:34:33+09:00" />
+<meta property="article:modified_time" content="2021-04-08T22:34:33+09:00" />
+
+
+    
+
+</head>
+<body>
+
+    <header>
+    <nav>
+    
+        <a href="https://ezaurum.com/">Ezaurum&#39;s Blog</a>
+    
+        <a href="https://ezaurum.com/about/">About</a>
+    
+        <a href="https://ezaurum.com/tools/">사용하는 툴</a>
+    
+        <a href="https://ezaurum.com/pragmatic-programmer/">실용주의 프로그래머</a>
+    
+    <a href="/bug">버그일기</a>
+    <a href="/retrospective">회고</a>
+</nav>
+
+</header>
+
+
+
+
+<main class="post single">
+<h1>Async/Sync vs Block/Non-Block</h1>
+2021-04-08
+<section><p>옛날에 어느 N사 면접에서 나온 질문인데 대답이 명확하게 나오지 않아서 나중에 알아봐야지 하다가 말았던 것.</p>
+<p>결론은 결국 영어 공부였다. Async/Sync - Block/Non-Block 의 의미를 이해하면 될 문제였던 것.</p>
+<hr>
+<h2 id="blocknon-block">Block/Non-Block</h2>
+<p>Block/Non-Block 은 프로시저의 실행이 멈추는가를 표현하는 용어다.</p>
+<p>실행 중인 프로시저A가 다른 프로시저B를 호출 할 때, 호출된 프로시저B가 자기가 끝날 때까지 A 를 멈추면(Block) Block이고 안 멈추면(Non-Block) Non-Block이다.</p>
+<p>실제 구현된 프로그램 함수로 생각한다면 호출된 함수가 모든 작업이 끝난 다음에 return 하냐 작업이 끝나기 전에 return 하냐 하는 것을 생각하면 되겠다.</p>
+<h2 id="asyncsync">Async/Sync</h2>
+<p>Async/Sync 는 여러 프로시저가 서로 흐름을 맞추느냐 하는 문제다.</p>
+<p>하나가 끝나는 데 맞추어(Sync) 다른 게 실행된다면 Sync 이고 그게 아니면 Async이다.</p>
+<p>함수 두 개를 연이어 실행하는데 하나가 끝나기 전에 다음 함수가 실행된다면 두 함수는 비동기적으로 실행되는 것이다.</p>
+<hr>
+<h2 id="참조">참조</h2>
+<ul>
+<li>
+<p><a href="https://velog.io/@wonhee010/%EB%8F%99%EA%B8%B0vs%EB%B9%84%EB%8F%99%EA%B8%B0-feat.-blocking-vs-non-blocking">동기 vs 비동기 (feat. blocking vs non-blocking)</a></p>
+</li>
+<li>
+<p><a href="https://brunch.co.kr/@myner/28">동기? 비동기? 블로킹? 논블로킹?</a></p>
+</li>
+</ul>
+</section>
+
+
+<ul class="taxonomy category">
+    Category
+    
+    <li><a href="/categories/%EA%B3%B5%EB%B6%80">공부</a></li>
+    </ul>
+</ul>
+
+
+
+    <ul class="taxonomy tag">
+        Tag
+        
+        <li><a href="/tags/%EA%B3%B5%EB%B6%80">공부</a></li>
+        
+        <li><a href="/tags/Programming">Programming</a></li>
+        
+        <li><a href="/tags/%EB%B9%84%EB%8F%99%EA%B8%B0">비동기</a></li>
+        
+        <li><a href="/tags/%EB%A9%80%ED%8B%B0%EC%93%B0%EB%A0%88%EB%93%9C">멀티쓰레드</a></li>
+        
+        <li><a href="/tags/Blocking">Blocking</a></li>
+        </ul>
+    </ul>
+
+
+
+<a href="https://ezaurum.com/2021/05/%EA%B0%9C%EB%B0%9C%EC%9D%84-%EC%9C%84%ED%95%9C-Local-Reverse-Proxy/"> 개발을 위한 Local Reverse Proxy</a>
+
+
+<a href="https://ezaurum.com/development-log/2021-04-08/">캐릭터 카드에 스타일 입힘</a>
+
+
+
+
+
+    <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "ezaurum" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3471055249244195"
+     data-ad-slot="7282877318"
+     data-ad-format="auto"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+</main>
+
+
+
+    <footer>
+© Ezaurum 2001-
+</footer>
+
+
+
+
+
+    <script>
+
+</script>
+
+
+</body>
+</html>

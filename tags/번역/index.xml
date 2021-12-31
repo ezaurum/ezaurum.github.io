@@ -161,7 +161,7 @@ So tell me are you ready, really, really ready 그러니 말해줘요. 준비 �
       <description>라이센스 - The GNU Free Documentation License 원저자 - Conrad Barski, M.D. 원본 출처 - http://lisperati.com/casting.html
 어떻게 해서 Lisp가 그렇게 강력한지 궁금해 해 봤나요?
 이제 그 이유를 알 수 있습니다.
-그리고 그러기 위해 컴퓨터에 뭘 깔아둬야 할 필요는 없어요! Lisp로 주문(spel) 외기! 저자 : Conrad Barski, M.D.
+그리고 그러기 위해 컴퓨터에 뭘 깔아둬야 할 필요는 없어요!Lisp로 주문(spel) 외기!저자 : Conrad Barski, M.D.
 http://LISPERATI.COM/
 번역자 : 파란미르
 http://파란미르.com/
@@ -176,7 +176,7 @@ http://파란미르.com/
       <guid>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-2/</guid>
       <description>라이센스 - The GNU Free Documentation License 원저자 - Conrad Barski, M.D. 원본 출처 - http://lisperati.com/casting.html
 누구든 Lisp로 프로그램을 짜는 걸 배워본 사람이 있다면, 다른 프로그래밍 언어와 매우 다르다고 말할 겁니다. 그건 정말 신기할 정도로 달라요. 이 만화책이 Lisp의 독특한 디자인이 그걸 그렇게 강력하게 만든다는 것을 알게 해 줄겁니 다.
-이 강좌에서 쓰이는 매우 작은 Lisp 코드들은 이런 글꼴과 색입니다. 간단히 이 부분들을 Lisp컴파일러의 명령줄에 복사해 넣으세요. 그럼 강좌가 끝나는 그 순간 텍스트 어드벤처 게임이 완성될 겁니다!</description>
+이 강좌에서 쓰이는 매우 작은 Lisp 코드들은 이런 글꼴과 색입니다.간단히 이 부분들을 Lisp컴파일러의 명령줄에 복사해 넣으세요.그럼 강좌가 끝나는 그 순간 텍스트 어드벤처 게임이 완성될 겁니다!</description>
     </item>
     
     <item>

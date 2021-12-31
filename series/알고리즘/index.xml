@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>알고리즘 on Ezaurum&#39;s Blog</title>
+    <link>https://ezaurum.com/series/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/</link>
+    <description>Recent content in 알고리즘 on Ezaurum&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <copyright>© Ezaurum 2001-</copyright>
+    <lastBuildDate>Thu, 18 Mar 2021 13:49:20 +0900</lastBuildDate><atom:link href="https://ezaurum.com/series/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2018 카카오 블라인드 테스트 추석 트래픽 풀이</title>
+      <link>https://ezaurum.com/study/sweep-algorithm/</link>
+      <pubDate>Thu, 18 Mar 2021 13:49:20 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/study/sweep-algorithm/</guid>
+      <description>알고리즘 스터디를 하다 6시간 이상 낑낑대며 풀어서 아까워서 정리 언젠가는 쉽게 풀 수 있겠지.
+문제 2018카카오 블라인드 테스트
+신경써야 하는 부분 정렬된 기준점에서 시작해야 함 Sweeping Algorithm 참조
+일반 풀이   Sweep a line across problem plane. 문제를 평면에 놓고 줄을 긋는다
+  As the line sweeps across the plane, events of interest occur, keep track of these events. 줄이 평면에 그어지면서 뭔가 사건이 생기면 그걸 추적한다.
+  Deal with events that occur at the line leaving a solved problem behind.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Sun, 31 Jan 2021 13:11:01 +0900</lastBuildDate><atom:link href="https://ezaurum.com/categories/%ED%9A%8C%EA%B3%A0/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 31 Dec 2021 12:05:28 +0900</lastBuildDate><atom:link href="https://ezaurum.com/categories/%ED%9A%8C%EA%B3%A0/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021년 전체 회고</title>
+      <link>https://ezaurum.com/retrospective/2021-full-year/</link>
+      <pubDate>Fri, 31 Dec 2021 12:05:28 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/retrospective/2021-full-year/</guid>
+      <description>한 일  4000커밋 달성 연애 시작 리바이벌 랩스 우상향 중 양압기 도입 운전 시작  감상  나쁘지 않다. 어제보다 나은 내일을 기대하고 있다 실력이 좀 늘었다는 느낌 우상향 하는 프로젝트는 참 기분이 좋다 어떻게 운전을 할 수 는 있겠다.  교훈  규칙적인 생활이 중요하다 - 말 뿐만이 아니라 실행이 충분한 수면과 운동이 필요하다  </description>
+    </item>
+    
     <item>
       <title>테이블 생성 시 Foreign key constraint is incorrectly formed 에러 발생</title>
       <link>https://ezaurum.com/bug/create-table-faield/</link>

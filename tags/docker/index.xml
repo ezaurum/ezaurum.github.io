@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Sat, 27 Apr 2019 11:38:00 +0900</lastBuildDate><atom:link href="https://ezaurum.com/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 02 May 2021 18:53:24 +0900</lastBuildDate><atom:link href="https://ezaurum.com/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>개발을 위한 Local Reverse Proxy</title>
+      <link>https://ezaurum.com/2021/05/%EA%B0%9C%EB%B0%9C%EC%9D%84-%EC%9C%84%ED%95%9C-Local-Reverse-Proxy/</link>
+      <pubDate>Sun, 02 May 2021 18:53:24 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/2021/05/%EA%B0%9C%EB%B0%9C%EC%9D%84-%EC%9C%84%ED%95%9C-Local-Reverse-Proxy/</guid>
+      <description>목적  https 를 지원하기 위해 외부 서비스에서 Callback 을 받기 위해 여러 서버에 독립된 도메인을 지정하기 위해서  구현 방법  도메인을 로컬 서버의 IP에 연결한다(DDNS 이용) Let&amp;rsquo;s Encrypt를 이용해서 인증서 설치 docker-compose를 이용해서 nginx 및 mysql 등 개발에 필요한 서버를 준비한다 nginx에 reverse proxy 설정을 해서 필요한 도메인과 특정 포트를 연결한다  사전 준비  Docker및 Docker Compose설치 방화벽 등으로 443, 80 포트가 막혀있지 않은지 확인  수행   DDNS 등으로 도메인을 로컬 IP에 연결한다.</description>
+    </item>
+    
     <item>
       <title>배포 이후 변경이 안 되는 문제</title>
       <link>https://ezaurum.com/bug/deploy-bug-not-changed/</link>

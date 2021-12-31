@@ -1093,7 +1093,7 @@ JS 소품 하나, Servlet으로 만든 API 두 개, JSP로 대충 게시판 하�
       <guid>https://ezaurum.com/2010/08/%EB%82%B4%EA%B0%80-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EC%9D%84-%ED%95%B4%EC%84%9C-%EB%A8%B9%EA%B3%A0-%EC%82%B4-%EC%88%98-%EC%9E%88%EC%9D%84%EA%B9%8C/</guid>
       <description>이걸 짜는데 이틀 걸렸다면 믿으시겠습니까? 젠장
 private String a(int initial, int max, String leftValue) { String returnValue = &amp;ldquo;&amp;quot;;
- if (initial &amp;amp;lt; max) {if (initial != -1) {if (leftValue != null) {leftValue += &amp;amp;quot; &amp;amp;quot;;leftValue += initial;} else {leftValue = String.valueOf(initial);}}for (int i = initial + 1; i &amp;amp;lt;= max; i++) {returnValue += a(i, max, leftValue);}return returnValue;} else {if (leftValue !</description>
+	if (initial &amp;amp;lt; max) {if (initial != -1) {if (leftValue != null) {leftValue += &amp;amp;quot; &amp;amp;quot;;leftValue += initial;} else {leftValue = String.valueOf(initial);}}for (int i = initial + 1; i &amp;amp;lt;= max; i++) {returnValue += a(i, max, leftValue);}return returnValue;} else {if (leftValue !</description>
     </item>
     
     <item>
@@ -1458,8 +1458,22 @@ public class myTest {	@Test public void testCodes() throws Exception { System.ou
       
       <guid>https://ezaurum.com/2010/06/2009%EB%85%84-9%EC%9B%94-21%EC%9D%BC-%EC%9D%B4%ED%9B%84-%EC%9D%BD%EC%9D%80-%EA%B2%83%EB%93%A4/</guid>
       <description>생각나는 대로 기록.
-&amp;lt;li&amp;gt;세계대전Z&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;당신 인생의 이야기&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;1Q84&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;살육에 이르는 병&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;프로페셔널의 조건&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;불안&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;개를 훔치는 완벽한 방법&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;사랑하기 때문에&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;호모 루덴스&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;노인들의 전쟁&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;용의자 X의 헌신&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;타워&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;흐르는 강물처럼&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;내 영혼이 따뜻했던 날들&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;헬릭스&amp;lt;/li&amp;gt;&amp;lt;/ol&amp;gt; 가장 권수가 많은 만화책은 제외. 한 번에 다 읽는 종류가 아닌 기술서적도 제외. 총 15권. 비소설(에세이 포함)-또는 교양서로 분류할 만한 것은 2권. 좀 더 심정적 분류법으로는 1권. &amp;hellip;.이거 좀 편중되어 있는데&amp;hellip;.
-군 제대 전에 150권 독파를 목표로 하고 가 보겠음.</description>
+  세계대전Z
+  당신 인생의 이야기
+  1Q84
+  살육에 이르는 병
+  프로페셔널의 조건
+  불안
+  개를 훔치는 완벽한 방법
+  사랑하기 때문에
+  호모 루덴스
+  노인들의 전쟁
+  용의자 X의 헌신
+  타워
+  흐르는 강물처럼
+  내 영혼이 따뜻했던 날들
+  헬릭스
+  가장 권수가 많은 만화책은 제외.</description>
     </item>
     
     <item>
@@ -2181,7 +2195,7 @@ window.open(&amp;ldquo;title&amp;rdquo;, &amp;ldquo;frameName&amp;rdquo;, &amp;l
       <pubDate>Thu, 29 Jan 2009 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2009/01/%EC%A7%A4%EB%B0%A9-2%EA%B0%9C/</guid>
-      <description>넵 전 이과</description>
+      <description>넵 전 이과</description>
     </item>
     
     <item>

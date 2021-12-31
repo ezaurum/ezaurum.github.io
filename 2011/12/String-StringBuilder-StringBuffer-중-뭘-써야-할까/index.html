@@ -17,13 +17,11 @@
     <title>   String, StringBuilder, StringBuffer 중 뭘 써야 할까? -  Ezaurum&#39;s Blog </title>
     <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/style.css">
-    
-    
 
     <meta itemprop="name" content="String, StringBuilder, StringBuffer 중 뭘 써야 할까?">
 <meta itemprop="description" content="출처 -http://www.a2ztechguide.com/2011/12/difference-between-string-stringbuffer.html
-값이 변하지 않으면 불변객체 StringString은 immutable 이다. 한 번 만들어두고 걍 읽어만 올 거면 대부분의 경우 String을 쓰면 되는 모양.자주 변하는 경우, 그때마다 새로 만들어줘야 하므로 비추천.equals가 오버라이드 되어 있다.싱글 스레드라면 StringBuildermutable함. 데이터가 막 바뀌는 경우 사용.나온지 얼마 안 된 신삥. StringBuffer랑 synchronization 빼고 동일.출처 포스트에는 StringBuffer보다 빠르다고 한다.equals오버라이드 안 되어 있음.멀티스레드라면 StringBufferequals오버라이드 안 되어 있음.StringBuilder랑 synchronization 빼고는 동일"><meta itemprop="datePublished" content="2011-12-10T00:00:00&#43;00:00" />
-<meta itemprop="dateModified" content="2011-12-10T00:00:00&#43;00:00" />
+값이 변하지 않으면 불변객체 StringString은 immutable 이다. 한 번 만들어두고 걍 읽어만 올 거면 대부분의 경우 String을 쓰면 되는 모양.자주 변하는 경우, 그때마다 새로 만들어줘야 하므로 비추천.equals가 오버라이드 되어 있다.싱글 스레드라면 StringBuildermutable함. 데이터가 막 바뀌는 경우 사용.나온지 얼마 안 된 신삥. StringBuffer랑 synchronization 빼고 동일.출처 포스트에는 StringBuffer보다 빠르다고 한다.equals오버라이드 안 되어 있음.멀티스레드라면 StringBufferequals오버라이드 안 되어 있음.StringBuilder랑 synchronization 빼고는 동일"><meta itemprop="datePublished" content="2011-12-10T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2011-12-10T00:00:00+00:00" />
 <meta itemprop="wordCount" content="72">
 <meta itemprop="keywords" content="공부,java,programming,String,StringBuffer,StringBuilder,synchronization," />
     <meta name="twitter:card" content="summary"/>
@@ -36,8 +34,8 @@
 값이 변하지 않으면 불변객체 StringString은 immutable 이다. 한 번 만들어두고 걍 읽어만 올 거면 대부분의 경우 String을 쓰면 되는 모양.자주 변하는 경우, 그때마다 새로 만들어줘야 하므로 비추천.equals가 오버라이드 되어 있다.싱글 스레드라면 StringBuildermutable함. 데이터가 막 바뀌는 경우 사용.나온지 얼마 안 된 신삥. StringBuffer랑 synchronization 빼고 동일.출처 포스트에는 StringBuffer보다 빠르다고 한다.equals오버라이드 안 되어 있음.멀티스레드라면 StringBufferequals오버라이드 안 되어 있음.StringBuilder랑 synchronization 빼고는 동일" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://ezaurum.com/2011/12/String-StringBuilder-StringBuffer-%EC%A4%91-%EB%AD%98-%EC%8D%A8%EC%95%BC-%ED%95%A0%EA%B9%8C/" /><meta property="article:section" content="post" />
-<meta property="article:published_time" content="2011-12-10T00:00:00&#43;00:00" />
-<meta property="article:modified_time" content="2011-12-10T00:00:00&#43;00:00" />
+<meta property="article:published_time" content="2011-12-10T00:00:00+00:00" />
+<meta property="article:modified_time" content="2011-12-10T00:00:00+00:00" />
 
 
     

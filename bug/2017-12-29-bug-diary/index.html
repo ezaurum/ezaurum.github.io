@@ -17,15 +17,13 @@
     <title>   인수 전달이 잘못된 문제 -  Ezaurum&#39;s Blog </title>
     <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/style.css">
-    
-    
 
     <meta itemprop="name" content="인수 전달이 잘못된 문제">
 <meta itemprop="description" content="문제 상황 - 에러가 없는데 DB에 자료가 기록되지 않았다.
 문제 원인 -
 func (dbm *Manager) transaction(action TransactionHandlerFunc, targets ...interface{}) 를 tranaction(action) 형태로 호출하고는 왜 안되는지를 못 찾아서 2시간 허비.
-재발 방지를 위해 - 인수를 먼저 확인하자."><meta itemprop="datePublished" content="2017-12-29T19:36:26&#43;07:00" />
-<meta itemprop="dateModified" content="2017-12-29T19:36:26&#43;07:00" />
+재발 방지를 위해 - 인수를 먼저 확인하자."><meta itemprop="datePublished" content="2017-12-29T19:36:26+07:00" />
+<meta itemprop="dateModified" content="2017-12-29T19:36:26+07:00" />
 <meta itemprop="wordCount" content="36">
 <meta itemprop="keywords" content="bug,go,parameter," />
     <meta name="twitter:card" content="summary"/>
@@ -42,8 +40,8 @@ func (dbm *Manager) transaction(action TransactionHandlerFunc, targets ...interf
 재발 방지를 위해 - 인수를 먼저 확인하자." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://ezaurum.com/bug/2017-12-29-bug-diary/" /><meta property="article:section" content="bug" />
-<meta property="article:published_time" content="2017-12-29T19:36:26&#43;07:00" />
-<meta property="article:modified_time" content="2017-12-29T19:36:26&#43;07:00" />
+<meta property="article:published_time" content="2017-12-29T19:36:26+07:00" />
+<meta property="article:modified_time" content="2017-12-29T19:36:26+07:00" />
 
 
 
@@ -77,7 +75,7 @@ func (dbm *Manager) transaction(action TransactionHandlerFunc, targets ...interf
 2017-12-29
 <section><p>문제 상황 - 에러가 없는데 DB에 자료가 기록되지 않았다.</p>
 <p>문제 원인 -</p>
-<pre><code>func (dbm *Manager) transaction(action TransactionHandlerFunc, targets ...interface{})
+<pre tabindex="0"><code>func (dbm *Manager) transaction(action TransactionHandlerFunc, targets ...interface{})
 </code></pre><p>를 <code>tranaction(action)</code> 형태로 호출하고는 왜 안되는지를 못 찾아서 2시간 허비.</p>
 <p>재발 방지를 위해 - 인수를 먼저 확인하자.</p>
 </section>
@@ -118,6 +116,8 @@ func (dbm *Manager) transaction(action TransactionHandlerFunc, targets ...interf
     
         
 
+        
+            
         
             
         
@@ -451,6 +451,12 @@ func (dbm *Manager) transaction(action TransactionHandlerFunc, targets ...interf
         
             
         <li><a href="https://ezaurum.com/bug/cloud-front-access-denied/">CloudFront에서 웹사이트 연동을 위해 S3의 파일을 불러올 때 Access Denied가 날 때</a></li>
+            
+        
+            
+        
+            
+        
             
         
             
@@ -1294,6 +1300,14 @@ func (dbm *Manager) transaction(action TransactionHandlerFunc, targets ...interf
             
         
             
+        
+            
+        
+            
+        
+            
+        
+            
         <li><a href="https://ezaurum.com/bug/too-many-connections/">too many connection</a></li>
             
         
@@ -1401,6 +1415,10 @@ func (dbm *Manager) transaction(action TransactionHandlerFunc, targets ...interf
         
             
         <li><a href="https://ezaurum.com/bug/vue-style-scoped/">Vue에서 외부 모듈의 스타일을 적용했는데 적용되지 않을 때</a></li>
+            
+        
+            
+        
             
         
             

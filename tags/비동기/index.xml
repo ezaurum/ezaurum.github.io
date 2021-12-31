@@ -10,10 +10,10 @@
     <lastBuildDate>Thu, 08 Apr 2021 22:34:33 +0900</lastBuildDate><atom:link href="https://ezaurum.com/tags/%EB%B9%84%EB%8F%99%EA%B8%B0/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Async/Sync vs Block/Non-Block</title>
-      <link>https://ezaurum.com/2021/04/Async/Sync-vs-Block/Non-Block/</link>
+      <link>https://ezaurum.com/study/async-sync-vs-block-non-block/</link>
       <pubDate>Thu, 08 Apr 2021 22:34:33 +0900</pubDate>
       
-      <guid>https://ezaurum.com/2021/04/Async/Sync-vs-Block/Non-Block/</guid>
+      <guid>https://ezaurum.com/study/async-sync-vs-block-non-block/</guid>
       <description>옛날에 어느 N사 면접에서 나온 질문인데 대답이 명확하게 나오지 않아서 나중에 알아봐야지 하다가 말았던 것.
 결론은 결국 영어 공부였다. Async/Sync - Block/Non-Block 의 의미를 이해하면 될 문제였던 것.
  Block/Non-Block Block/Non-Block 은 프로시저의 실행이 멈추는가를 표현하는 용어다.

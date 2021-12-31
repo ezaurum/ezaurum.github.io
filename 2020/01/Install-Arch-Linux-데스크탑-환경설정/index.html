@@ -17,15 +17,13 @@
     <title>   Install Arch Linux - 데스크탑 환경설정 -  Ezaurum&#39;s Blog </title>
     <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/style.css">
-    
-    
 
     <meta itemprop="name" content="Install Arch Linux - 데스크탑 환경설정">
 <meta itemprop="description" content="설치를 했으니 실제로 데스크탑으로 쓸 수 있도록 만들어본다. 어째서 아치리눅스를 쓰며 데스크탑환경을 안쓰는지 를 많이 참조했다.
  사용자 추가 root 로 계속 쓸 수 없으니 사용자를 추가한다.  useradd -m 이름 -g wheel passwd 이름 그룹을 wheel 로 설정했으니 wheel 이 sudo를 쓸 수 있게 해 준다.
 /etc/sudoers 를 열고 wheel 이 sudo 를 쓸 수 있게 해 준다.
-%wheel ALL=(ALL) ALL zsh 로 변경 bash는 불편한 점이 많으니, Oh My Zsh 로 쉘을 변경한다."><meta itemprop="datePublished" content="2020-01-10T16:17:30&#43;09:00" />
-<meta itemprop="dateModified" content="2020-01-10T16:17:30&#43;09:00" />
+%wheel ALL=(ALL) ALL zsh 로 변경 bash는 불편한 점이 많으니, Oh My Zsh 로 쉘을 변경한다."><meta itemprop="datePublished" content="2020-01-10T16:17:30+09:00" />
+<meta itemprop="dateModified" content="2020-01-10T16:17:30+09:00" />
 <meta itemprop="wordCount" content="255">
 <meta itemprop="keywords" content="arch,linux,i3wm,linux-desktop," />
     <meta name="twitter:card" content="summary"/>
@@ -42,8 +40,8 @@
 %wheel ALL=(ALL) ALL zsh 로 변경 bash는 불편한 점이 많으니, Oh My Zsh 로 쉘을 변경한다." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://ezaurum.com/2020/01/Install-Arch-Linux-%EB%8D%B0%EC%8A%A4%ED%81%AC%ED%83%91-%ED%99%98%EA%B2%BD%EC%84%A4%EC%A0%95/" /><meta property="article:section" content="recipe" />
-<meta property="article:published_time" content="2020-01-10T16:17:30&#43;09:00" />
-<meta property="article:modified_time" content="2020-01-10T16:17:30&#43;09:00" />
+<meta property="article:published_time" content="2020-01-10T16:17:30+09:00" />
+<meta property="article:modified_time" content="2020-01-10T16:17:30+09:00" />
 <meta property="og:see_also" content="https://ezaurum.com/2019/11/Install-Arch-Linux/" />
 
 
@@ -81,17 +79,17 @@
 <li>사용자 추가
 root 로 계속 쓸 수 없으니 사용자를 추가한다.</li>
 </ol>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">useradd -m 이름 -g wheel
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">useradd -m 이름 -g wheel
 passwd 이름
 </code></pre></div><p>그룹을 wheel 로 설정했으니 wheel 이 sudo를 쓸 수 있게 해 준다.</p>
 <p>/etc/sudoers 를 열고 wheel 이 sudo 를 쓸 수 있게 해 준다.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">%wheel ALL<span style="color:#f92672">=(</span>ALL<span style="color:#f92672">)</span> ALL
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">%wheel ALL<span style="color:#f92672">=(</span>ALL<span style="color:#f92672">)</span> ALL
 </code></pre></div><ol start="2">
 <li>zsh 로 변경
 bash는 불편한 점이 많으니, <a href="https://ohmyz.sh/">Oh My Zsh</a> 로 쉘을 변경한다.
 zsh 에 이런저런 플러그인을 깔아서 쉽게 쓸 수 있게 해 준다. git이 있어야 설치가 가능.</li>
 </ol>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo pacman -S git zsh
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo pacman -S git zsh
 sh -c <span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">$(</span>curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh<span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34;</span>
 </code></pre></div><ol start="3">
 <li>i3설치.
@@ -100,12 +98,12 @@ gnome은 취향이 아니라 <a href="https://i3wm.org/">i3</a>를 설치한다.
 picom은 compton 이 이름이 바뀐 것. 창을 투명하게 한다든가, 그림자를 넣어준다든가 하는 걸 해 준다.
 드라이버는 자기 사양에 맞춰서 설치.</li>
 </ol>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo pacman -S xorg xorg-xinit i3 xterm dmenu picom 
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo pacman -S xorg xorg-xinit i3 xterm dmenu picom 
 </code></pre></div><p>.xinitrc 에 i3 를 실행하도록 설정해 준다</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">exec i3
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">exec i3
 </code></pre></div><p>.zshrc 마지막에 startx 를 추가한다.
 아무때나 실행되는 걸 막기 위해서 XDG_VTNR 이 1인지 보고 수행되게 한다.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#66d9ef">if</span> <span style="color:#f92672">[[</span> -z $DISPLAY <span style="color:#f92672">&amp;&amp;</span> $XDG_VTNR -eq <span style="color:#ae81ff">1</span> <span style="color:#f92672">]]</span>; <span style="color:#66d9ef">then</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#66d9ef">if</span> <span style="color:#f92672">[[</span> -z $DISPLAY <span style="color:#f92672">&amp;&amp;</span> $XDG_VTNR -eq <span style="color:#ae81ff">1</span> <span style="color:#f92672">]]</span>; <span style="color:#66d9ef">then</span>
         exec startx
 <span style="color:#66d9ef">fi</span>
 </code></pre></div><p>아래쪽 스테이터스 바는 i3status로 설치되는데, ko_KR 인코딩이 추가되어 있으면 안 되는 경우가 있다.</p>
@@ -122,14 +120,14 @@ xclip를 사용한다.</li>
 <li>한글
 한글 입력기는 uim-byeru 를 사용한다.</li>
 </ol>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo pacman -S uim
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo pacman -S uim
 </code></pre></div><p>.xinitrc 에 다음 내용 추가</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">export GTK_IM_MODULE<span style="color:#f92672">=</span>uim
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">export GTK_IM_MODULE<span style="color:#f92672">=</span>uim
 export QT_IM_MODULE<span style="color:#f92672">=</span>uim
 uim-xim &amp;
 export XMODIFIERS<span style="color:#f92672">=</span>@im<span style="color:#f92672">=</span>uim
 </code></pre></div><p>GUI 툴을 실행해서 기본 uim 을 byeru로 바꿔준다.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">uim-pref-gtk3
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">uim-pref-gtk3
 </code></pre></div></section>
 
 
@@ -796,11 +794,31 @@ export XMODIFIERS<span style="color:#f92672">=</span>@im<span style="color:#f926
             
         
             
+        
+            
+        
+            
+        
+            
+        
+            
         <li><a href="https://ezaurum.com/2019/11/Install-Arch-Linux/">Install Arch Linux</a></li>
             
         
             
         <li><a href="https://ezaurum.com/2020/01/Install-Arch-Linux-%EB%8D%B0%EC%8A%A4%ED%81%AC%ED%83%91-%ED%99%98%EA%B2%BD%EC%84%A4%EC%A0%95/">Install Arch Linux - 데스크탑 환경설정</a></li>
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
             
         
             
