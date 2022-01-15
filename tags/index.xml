@@ -18,69 +18,6 @@
     </item>
     
     <item>
-      <title>development</title>
-      <link>https://ezaurum.com/tags/development/</link>
-      <pubDate>Sun, 02 May 2021 18:53:24 +0900</pubDate>
-      
-      <guid>https://ezaurum.com/tags/development/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>DevOps</title>
-      <link>https://ezaurum.com/tags/DevOps/</link>
-      <pubDate>Sun, 02 May 2021 18:53:24 +0900</pubDate>
-      
-      <guid>https://ezaurum.com/tags/DevOps/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>docker</title>
-      <link>https://ezaurum.com/tags/docker/</link>
-      <pubDate>Sun, 02 May 2021 18:53:24 +0900</pubDate>
-      
-      <guid>https://ezaurum.com/tags/docker/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>docker-compose</title>
-      <link>https://ezaurum.com/tags/docker-compose/</link>
-      <pubDate>Sun, 02 May 2021 18:53:24 +0900</pubDate>
-      
-      <guid>https://ezaurum.com/tags/docker-compose/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>nginx</title>
-      <link>https://ezaurum.com/tags/nginx/</link>
-      <pubDate>Sun, 02 May 2021 18:53:24 +0900</pubDate>
-      
-      <guid>https://ezaurum.com/tags/nginx/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>reverse-proxy</title>
-      <link>https://ezaurum.com/tags/reverse-proxy/</link>
-      <pubDate>Sun, 02 May 2021 18:53:24 +0900</pubDate>
-      
-      <guid>https://ezaurum.com/tags/reverse-proxy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>SSL</title>
-      <link>https://ezaurum.com/tags/SSL/</link>
-      <pubDate>Sun, 02 May 2021 18:53:24 +0900</pubDate>
-      
-      <guid>https://ezaurum.com/tags/SSL/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Blocking</title>
       <link>https://ezaurum.com/tags/Blocking/</link>
       <pubDate>Thu, 08 Apr 2021 22:34:33 +0900</pubDate>
@@ -707,6 +644,15 @@
       <pubDate>Sat, 27 Apr 2019 11:38:00 +0900</pubDate>
       
       <guid>https://ezaurum.com/tags/deploy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>docker</title>
+      <link>https://ezaurum.com/tags/docker/</link>
+      <pubDate>Sat, 27 Apr 2019 11:38:00 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/tags/docker/</guid>
       <description></description>
     </item>
     

@@ -29,36 +29,6 @@
     <loc>https://ezaurum.com/categories/%ED%9A%8C%EA%B3%A0/</loc>
     <lastmod>2021-12-31T12:05:28+09:00</lastmod>
   </url><url>
-    <loc>https://ezaurum.com/tags/development/</loc>
-    <lastmod>2021-05-02T18:53:24+09:00</lastmod>
-  </url><url>
-    <loc>https://ezaurum.com/tags/DevOps/</loc>
-    <lastmod>2021-05-02T18:53:24+09:00</lastmod>
-  </url><url>
-    <loc>https://ezaurum.com/tags/docker/</loc>
-    <lastmod>2021-05-02T18:53:24+09:00</lastmod>
-  </url><url>
-    <loc>https://ezaurum.com/tags/docker-compose/</loc>
-    <lastmod>2021-05-02T18:53:24+09:00</lastmod>
-  </url><url>
-    <loc>https://ezaurum.com/tags/nginx/</loc>
-    <lastmod>2021-05-02T18:53:24+09:00</lastmod>
-  </url><url>
-    <loc>https://ezaurum.com/recipe/</loc>
-    <lastmod>2021-05-02T18:53:24+09:00</lastmod>
-  </url><url>
-    <loc>https://ezaurum.com/tags/reverse-proxy/</loc>
-    <lastmod>2021-05-02T18:53:24+09:00</lastmod>
-  </url><url>
-    <loc>https://ezaurum.com/tags/SSL/</loc>
-    <lastmod>2021-05-02T18:53:24+09:00</lastmod>
-  </url><url>
-    <loc>https://ezaurum.com/series/%EA%B0%9C%EB%B0%9C-%ED%99%98%EA%B2%BD/</loc>
-    <lastmod>2021-05-02T18:53:24+09:00</lastmod>
-  </url><url>
-    <loc>https://ezaurum.com/2021/05/%EA%B0%9C%EB%B0%9C%EC%9D%84-%EC%9C%84%ED%95%9C-Local-Reverse-Proxy/</loc>
-    <lastmod>2021-05-02T18:53:24+09:00</lastmod>
-  </url><url>
     <loc>https://ezaurum.com/study/async-sync-vs-block-non-block/</loc>
     <lastmod>2021-04-08T22:34:33+09:00</lastmod>
   </url><url>
@@ -168,6 +138,9 @@
     <lastmod>2020-06-14T18:56:25+09:00</lastmod>
   </url><url>
     <loc>https://ezaurum.com/tags/cli/</loc>
+    <lastmod>2020-06-14T18:56:25+09:00</lastmod>
+  </url><url>
+    <loc>https://ezaurum.com/recipe/</loc>
     <lastmod>2020-06-14T18:56:25+09:00</lastmod>
   </url><url>
     <loc>https://ezaurum.com/tags/%EB%94%B0%EB%9D%BC%ED%95%98%EA%B8%B0/</loc>
@@ -429,6 +402,9 @@
     <lastmod>2019-05-12T01:54:01+09:00</lastmod>
   </url><url>
     <loc>https://ezaurum.com/tags/deploy/</loc>
+    <lastmod>2019-04-27T11:38:00+09:00</lastmod>
+  </url><url>
+    <loc>https://ezaurum.com/tags/docker/</loc>
     <lastmod>2019-04-27T11:38:00+09:00</lastmod>
   </url><url>
     <loc>https://ezaurum.com/tags/ecs/</loc>
