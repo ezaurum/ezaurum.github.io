@@ -15,7 +15,7 @@
       
       <guid>https://ezaurum.com/2013/11/.gitconfig-%EC%84%A4%EC%A0%95/</guid>
       <description>지금 쓰는 설정 백업용
-[user]name = 이름email = 메일[color]ui = true[alias]ci = commitundo = resets = statusco = checkouta = add[core]editor = vi[merge]tool = vimdiff[diff]algorithm = patience[push]default = simple색은 칼라로 나오는 게 좋고, alias는 한 자라도 덜 치려면 꼭 해 두는 게 좋다.</description>
+[user]name = 이름email = 메일[color]ui = true[alias]ci = commitundo = resets = statusco = checkouta = add[core]editor = vi[merge]tool = vimdiff[diff]algorithm = patience[push]default = simple색은 칼라로 나오는 게 좋고, alias는 한 자라도 덜 치려면 꼭 해 두는 게 좋다.</description>
     </item>
     
   </channel>

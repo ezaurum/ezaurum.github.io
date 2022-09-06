@@ -18,7 +18,7 @@
 DB, API 서버의 cpu/mem 부하는 20% 전후인 상태
 리셋 등으로 해결이 안 되고, 도커 컨테이너 늘려서도 해결이 안 됨
 지속되는 경우 리퀘스트도 쌓이고 file open max 값이 넘어가서 사용 불가
-원인  DB 처리량보다 부하 심함  IO 부분이 보틀넥으로 보임 도커 인스턴스가 값싼 거고 DB도 값싼 인스턴스   커넥션이 늘어남 실제 DB 커넥션이 45개 전후  RDS에서 가장 작은 인스턴스를 사용했는데 전체 DB 메모리 양과 CPU 사용량을 가지고 연결수 계산   도커 컨테이너의 Max Connection은 50  이전 네이버에서 직접 배포 때 잡은 설정 그대로 RDS 인스턴스가 여러 개 일 때는 괜찮았음 제일 작은 걸로 바꾸고 인스턴스도 줄여둔 상태   이미 늘어난 컨넥션은 없어지지 않고 CPU 사용량은 그리 많지 않음  재현 봇을 만들어서 로그인, 화면 리프레시를 하게 하니 100명 전후가 몰려서 접근시 문제 발생</description>
+원인 DB 처리량보다 부하 심함 IO 부분이 보틀넥으로 보임 도커 인스턴스가 값싼 거고 DB도 값싼 인스턴스 커넥션이 늘어남 실제 DB 커넥션이 45개 전후 RDS에서 가장 작은 인스턴스를 사용했는데 전체 DB 메모리 양과 CPU 사용량을 가지고 연결수 계산 도커 컨테이너의 Max Connection은 50 이전 네이버에서 직접 배포 때 잡은 설정 그대로 RDS 인스턴스가 여러 개 일 때는 괜찮았음 제일 작은 걸로 바꾸고 인스턴스도 줄여둔 상태 이미 늘어난 컨넥션은 없어지지 않고 CPU 사용량은 그리 많지 않음 재현 봇을 만들어서 로그인, 화면 리프레시를 하게 하니 100명 전후가 몰려서 접근시 문제 발생</description>
     </item>
     
     <item>
@@ -37,7 +37,7 @@ DB, API 서버의 cpu/mem 부하는 20% 전후인 상태
       <pubDate>Tue, 30 Apr 2013 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2013/04/AWS-RDS-%EC%9D%B8%EC%BD%94%EB%94%A9-UTF-8%EC%9C%BC%EB%A1%9C-%EC%84%A4%EC%A0%95/</guid>
-      <description>파라마터를 바꾼 다음, DB인스턴스를 리셋해야 한다. 있던 걸 자동으로 바꿔주는 건 아니다. 이미 있는 데이터는 뺀 다음 다시 넣든지 해야 할 듯. 지금은 데이터가 없는 상태라 새로 만들기만 함. 참고링크 일단 파라마터 그룹을 하나 만든다. 변경해야 할 것은 다음과 같다.  character_set_client = utf8 character_set_connection = utf8 character_set_database = utf8 character_set_results = utf8 character_set_server = utf8 collation_connection = utf8_general_ci collation_server = utf8_general_ci  파라마터 그룹을 이걸로 바꾸고, 리셋을 해 준다. 그러면 그 다음부터 들어가는 값은 UTF-8으로 들어가게 된다.</description>
+      <description>파라마터를 바꾼 다음, DB인스턴스를 리셋해야 한다. 있던 걸 자동으로 바꿔주는 건 아니다. 이미 있는 데이터는 뺀 다음 다시 넣든지 해야 할 듯. 지금은 데이터가 없는 상태라 새로 만들기만 함. 참고링크 일단 파라마터 그룹을 하나 만든다. 변경해야 할 것은 다음과 같다. character_set_client = utf8 character_set_connection = utf8 character_set_database = utf8 character_set_results = utf8 character_set_server = utf8 collation_connection = utf8_general_ci collation_server = utf8_general_ci 파라마터 그룹을 이걸로 바꾸고, 리셋을 해 준다. 그러면 그 다음부터 들어가는 값은 UTF-8으로 들어가게 된다.</description>
     </item>
     
   </channel>

@@ -33,7 +33,7 @@
       <pubDate>Thu, 25 Jul 2013 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2013/07/Jackson%EC%9D%B4-null-%EC%9D%B8-%ED%94%84%EB%A1%9C%ED%8D%BC%ED%8B%B0%EB%A5%BC-%EB%B9%BC%EA%B3%A0-Serialize%ED%95%98%EA%B2%8C-%ED%95%98%EA%B8%B0/</guid>
-      <description>클래스 선언부에 다음을 추가  @JsonSerialize(include = JsonSerialize.Inclusion.NON_NULL) public class Blabla { &amp;hellip; }  상속도 된다.</description>
+      <description>클래스 선언부에 다음을 추가 @JsonSerialize(include = JsonSerialize.Inclusion.NON_NULL) public class Blabla { &amp;hellip; } 상속도 된다.</description>
     </item>
     
     <item>
@@ -52,9 +52,8 @@
       <pubDate>Tue, 28 May 2013 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2013/05/java-code-base-spring-security-setting-with-gradle/</guid>
-      <description>java code base spring security setting github 리파지토리 build.gradle에 다음을 추가  repositories { mavenCentral() maven { url &amp;ldquo;http://repo.springsource.org/snapshot&amp;quot; } }
-dependencies { def springSecurityVersion = &amp;ldquo;3.1.4.RELEASE&amp;rdquo; compile &amp;ldquo;org.springframework.security:spring-security-core:$springSecurityVersion&amp;rdquo; compile &amp;ldquo;org.springframework.security:spring-security-web:$springSecurityVersion&amp;rdquo; compile &amp;ldquo;org.springframework.security:spring-security-config:$springSecurityVersion&amp;rdquo; compile &amp;ldquo;org.springframework.security:spring-security-javaconfig:1.0.0.CI-SNAPSHOT&amp;rdquo; }
-</description>
+      <description>java code base spring security setting github 리파지토리 build.gradle에 다음을 추가 repositories { mavenCentral() maven { url &amp;ldquo;http://repo.springsource.org/snapshot&amp;quot; } }
+dependencies { def springSecurityVersion = &amp;ldquo;3.1.4.RELEASE&amp;rdquo; compile &amp;ldquo;org.springframework.security:spring-security-core:$springSecurityVersion&amp;rdquo; compile &amp;ldquo;org.springframework.security:spring-security-web:$springSecurityVersion&amp;rdquo; compile &amp;ldquo;org.springframework.security:spring-security-config:$springSecurityVersion&amp;rdquo; compile &amp;ldquo;org.springframework.security:spring-security-javaconfig:1.0.0.CI-SNAPSHOT&amp;rdquo; }</description>
     </item>
     
     <item>
@@ -82,7 +81,7 @@ dependencies { def springSecurityVersion = &amp;ldquo;3.1.4.RELEASE&amp;rdquo; c
       <pubDate>Wed, 08 May 2013 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2013/05/AWS-ec2-open-jdk7%EC%9C%BC%EB%A1%9C-%EC%97%85%EA%B7%B8%EB%A0%88%EC%9D%B4%EB%93%9C/</guid>
-      <description>일단 open jdk 7 을 설치한다. sudo yum install java-1.7.0-openjdk  그 다음 java에 걸려 있는 심볼릭 링크를 바꿔줘야 하는데, /usr/bin/java -&amp;gt; /etc/alternatives/java -&amp;gt; -&amp;gt; /usr/lib/jvm/(현재 jre)/bin/java 이렇게 되어 있으므로,  sudo ln -s /usr/lib/jvm/jre-1.7.0-openjdk.x86_64/bin/java /etc/alternatives/java7 sudo mv /etc/alternatives/java7 /etc/alternatives/java  을 실행해서 심볼릭 링크를 바꿔준다. 지우고 다시 걸어도 되지만, 일단 지우고 거는 사이에 전 링크가 끊어지므로 가능한 영향을 적게 하기 위해서&amp;hellip;
+      <description>일단 open jdk 7 을 설치한다. sudo yum install java-1.7.0-openjdk 그 다음 java에 걸려 있는 심볼릭 링크를 바꿔줘야 하는데, /usr/bin/java -&amp;gt; /etc/alternatives/java -&amp;gt; -&amp;gt; /usr/lib/jvm/(현재 jre)/bin/java 이렇게 되어 있으므로, sudo ln -s /usr/lib/jvm/jre-1.7.0-openjdk.x86_64/bin/java /etc/alternatives/java7 sudo mv /etc/alternatives/java7 /etc/alternatives/java 을 실행해서 심볼릭 링크를 바꿔준다. 지우고 다시 걸어도 되지만, 일단 지우고 거는 사이에 전 링크가 끊어지므로 가능한 영향을 적게 하기 위해서&amp;hellip;
 ln -s /location/to/link2 newlink mv newlink linkname</description>
     </item>
     
@@ -103,7 +102,7 @@ ln -s /location/to/link2 newlink mv newlink linkname</description>
       <pubDate>Mon, 16 Jul 2012 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2012/07/%EC%9E%90%EB%B0%94%EB%A1%9C-%ED%95%A8%EA%BB%98-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A5%BC-%EC%8B%9C%EC%9E%91%ED%95%A0-%EB%95%8C-%EC%9C%A0%EC%9D%98%EC%A0%90/</guid>
-      <description>프레임워크 명명규칙 - 코딩 컨벤션?패키지 구조 -이래서 인터페이스가 중요한가? 일단 누가 어디서 뭘 호출할지가 정해져 있어야 서로 곤란하지 않다.이슈 관리 툴 - 기능 추가 관리 툴버전 관리 툴 - 무조건 머큐리얼이나 git. SVN 은 ...난 못 쓰겠다.일할 시간 - 여러 명이서 일한다면 서로 정기적인 커뮤니케이션 할 시간 정도가 필요DB 구조 - 프레임워크나 패키지 구조 정도에 좀 겹치질 수도 있다. ORM이면 클래스먼저, ERD먼저는 내 취향은 아님.</description>
+      <description>프레임워크 명명규칙 - 코딩 컨벤션?패키지 구조 -이래서 인터페이스가 중요한가? 일단 누가 어디서 뭘 호출할지가 정해져 있어야 서로 곤란하지 않다.이슈 관리 툴 - 기능 추가 관리 툴버전 관리 툴 - 무조건 머큐리얼이나 git. SVN 은 ...난 못 쓰겠다.일할 시간 - 여러 명이서 일한다면 서로 정기적인 커뮤니케이션 할 시간 정도가 필요DB 구조 - 프레임워크나 패키지 구조 정도에 좀 겹치질 수도 있다. ORM이면 클래스먼저, ERD먼저는 내 취향은 아님.</description>
     </item>
     
     <item>
@@ -131,7 +130,7 @@ ln -s /location/to/link2 newlink mv newlink linkname</description>
       <pubDate>Thu, 24 May 2012 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2012/05/Spring-3.1-profile-%EC%9D%B4%ED%81%B4%EB%A6%BD%EC%8A%A4%EC%97%90%EC%84%9C-%EC%82%AC%EC%9A%A9/</guid>
-      <description>스프링 3.1부터 메이븐처럼 profile 설정을 사용할 수 있게 되었다. 그래서 개발과 실서버의 설정을 다르게 만들 수 있음. 상세설명은 영어지만 여기를 참조하시고, 문제는 커맨드라인에서 실행하는 게 아니라 이클립스에서 실행할 때다. 모르는 게 나만이 아니라는 생각에 올려둠.  서버를 더블클릭해서 나오는 저 화면에서 다시 Open launcher configuration을 클릭하고, 나온 화면에서 Enviroment 탭에다가 저런 식으로 추가 해 주면 된다.</description>
+      <description>스프링 3.1부터 메이븐처럼 profile 설정을 사용할 수 있게 되었다. 그래서 개발과 실서버의 설정을 다르게 만들 수 있음. 상세설명은 영어지만 여기를 참조하시고, 문제는 커맨드라인에서 실행하는 게 아니라 이클립스에서 실행할 때다. 모르는 게 나만이 아니라는 생각에 올려둠. 서버를 더블클릭해서 나오는 저 화면에서 다시 Open launcher configuration을 클릭하고, 나온 화면에서 Enviroment 탭에다가 저런 식으로 추가 해 주면 된다.</description>
     </item>
     
     <item>
@@ -140,7 +139,7 @@ ln -s /location/to/link2 newlink mv newlink linkname</description>
       <pubDate>Mon, 26 Mar 2012 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2012/03/iBatis-TypeHandler/</guid>
-      <description>TypeHandler는 iBatis에서 특정 타입을 매핑할 때 원하는 행동을 지정해주는 클래스다. 이걸 이용하면 DB에는 Y/N으로 저장된 걸 boolean으로 처리한다든가 하는 게 가능해진다.  public class StudyTypeHandler extends EnumTypeHandler { public StudyTypeHandler() { super(EnumStudy.class); }
+      <description>TypeHandler는 iBatis에서 특정 타입을 매핑할 때 원하는 행동을 지정해주는 클래스다. 이걸 이용하면 DB에는 Y/N으로 저장된 걸 boolean으로 처리한다든가 하는 게 가능해진다. public class StudyTypeHandler extends EnumTypeHandler { public StudyTypeHandler() { super(EnumStudy.class); }
 //얘가 결과를 받아서 빈에 매핑하는 애다. @Override public Object getResult(ResultGetter getter) throws SQLException { int result = getter.getInt(); if(getter.wasNull()) { return null; } return EnumStudy.valueOf(result); } //얘는 빈에서 받아다가 DB에 매핑하는 애다. @Override public void setParameter(ParameterSetter setter, Object parameter) throws SQLException { if(parameter == null) { setter.</description>
     </item>
     
@@ -161,7 +160,7 @@ public static void main(String args[]) { System.out.println(EnumStudy.valueOf(1)
       
       <guid>https://ezaurum.com/2011/12/String-StringBuilder-StringBuffer-%EC%A4%91-%EB%AD%98-%EC%8D%A8%EC%95%BC-%ED%95%A0%EA%B9%8C/</guid>
       <description>출처 -http://www.a2ztechguide.com/2011/12/difference-between-string-stringbuffer.html
-값이 변하지 않으면 불변객체 StringString은 immutable 이다. 한 번 만들어두고 걍 읽어만 올 거면 대부분의 경우 String을 쓰면 되는 모양.자주 변하는 경우, 그때마다 새로 만들어줘야 하므로 비추천.equals가 오버라이드 되어 있다.싱글 스레드라면 StringBuildermutable함. 데이터가 막 바뀌는 경우 사용.나온지 얼마 안 된 신삥. StringBuffer랑 synchronization 빼고 동일.출처 포스트에는 StringBuffer보다 빠르다고 한다.equals오버라이드 안 되어 있음.멀티스레드라면 StringBufferequals오버라이드 안 되어 있음.StringBuilder랑 synchronization 빼고는 동일</description>
+값이 변하지 않으면 불변객체 StringString은 immutable 이다. 한 번 만들어두고 걍 읽어만 올 거면 대부분의 경우 String을 쓰면 되는 모양.자주 변하는 경우, 그때마다 새로 만들어줘야 하므로 비추천.equals가 오버라이드 되어 있다.싱글 스레드라면 StringBuildermutable함. 데이터가 막 바뀌는 경우 사용.나온지 얼마 안 된 신삥. StringBuffer랑 synchronization 빼고 동일.출처 포스트에는 StringBuffer보다 빠르다고 한다.equals오버라이드 안 되어 있음.멀티스레드라면 StringBufferequals오버라이드 안 되어 있음.StringBuilder랑 synchronization 빼고는 동일</description>
     </item>
     
     <item>
@@ -171,8 +170,8 @@ public static void main(String args[]) { System.out.println(EnumStudy.valueOf(1)
       
       <guid>https://ezaurum.com/2010/10/Java-%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88%EC%97%90-Form-%EA%B0%92%EC%9D%98-encoding-%EA%B9%A8%EC%A7%88-%EB%95%8C/</guid>
       <description>점검사항은 아래 세가지.
-폼에서 정확히 인코딩을 지정해서 넘겨주는가?서버에서 정확히 인코딩을 인식하는가?DB에서 정확히 인코딩을 인식하는가?이다.	폼에서 정확히 인코딩을 지정해서 념겨주는가?이 경우는 일단 문서 첫머리에 meta태그가 utf-8으로 지정되어 있고, 폼에 accept-charset 어트리뷰트가 지정되어 있고, 브라우저에서 확인해서 문서가 utf-8으로 읽히는 상황이라면 문제 없다고 보면 된다. UTF-8으로 나와야 하는 페이지가 UTF-8으로 안나오는 경우는 여기서 다룰 게 아니다.
-&amp;lt;meta http-equiv=&#34;Content-Type&#34; content=&#34;text/html; charset=UTF-8&#34; /&amp;gt;&amp;lt;meta charset=&#34;UTF-8&#34; /&amp;gt;&amp;lt;form accept-charset=&#34;</description>
+폼에서 정확히 인코딩을 지정해서 넘겨주는가?서버에서 정확히 인코딩을 인식하는가?DB에서 정확히 인코딩을 인식하는가?이다.폼에서 정확히 인코딩을 지정해서 념겨주는가?이 경우는 일단 문서 첫머리에 meta태그가 utf-8으로 지정되어 있고, 폼에 accept-charset 어트리뷰트가 지정되어 있고, 브라우저에서 확인해서 문서가 utf-8으로 읽히는 상황이라면 문제 없다고 보면 된다. UTF-8으로 나와야 하는 페이지가 UTF-8으로 안나오는 경우는 여기서 다룰 게 아니다.
+&amp;lt;meta http-equiv=&#34;Content-Type&#34; content=&#34;text/html; charset=UTF-8&#34; /&amp;gt;&amp;lt;meta charset=&#34;UTF-8&#34; /&amp;gt;&amp;lt;form accept-charset=&#34;UTF-8&#34; &amp;gt;서버에서 인코딩을 제대로 인식하는가?</description>
     </item>
     
     <item>
@@ -182,8 +181,8 @@ public static void main(String args[]) { System.out.println(EnumStudy.valueOf(1)
       
       <guid>https://ezaurum.com/2010/08/%EB%82%B4%EA%B0%80-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EC%9D%84-%ED%95%B4%EC%84%9C-%EB%A8%B9%EA%B3%A0-%EC%82%B4-%EC%88%98-%EC%9E%88%EC%9D%84%EA%B9%8C/</guid>
       <description>이걸 짜는데 이틀 걸렸다면 믿으시겠습니까? 젠장
-private String a(int initial, int max, String leftValue) { String returnValue = &amp;ldquo;&amp;quot;;
-	if (initial &amp;amp;lt; max) {if (initial != -1) {if (leftValue != null) {leftValue += &amp;amp;quot; &amp;amp;quot;;leftValue += initial;} else {leftValue = String.valueOf(initial);}}for (int i = initial + 1; i &amp;amp;lt;= max; i++) {returnValue += a(i, max, leftValue);}return returnValue;} else {if (leftValue !</description>
+private String a(int initial, int max, String leftValue) { String returnValue = &amp;ldquo;&amp;rdquo;;
+if (initial &amp;amp;lt; max) {if (initial != -1) {if (leftValue != null) {leftValue += &amp;amp;quot; &amp;amp;quot;;leftValue += initial;} else {leftValue = String.valueOf(initial);}}for (int i = initial + 1; i &amp;amp;lt;= max; i++) {returnValue += a(i, max, leftValue);}return returnValue;} else {if (leftValue !</description>
     </item>
     
     <item>
@@ -193,8 +192,8 @@ private String a(int initial, int max, String leftValue) { String returnValue = 
       
       <guid>https://ezaurum.com/2010/08/Junit-4-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0/</guid>
       <description>며칠 전에 TDD를 시작 하겠다고 한 바, 시작은 하는데, 기왕 하는 거 깔끔하게 정리도 해 보자는 생각에 포스팅도 하기로 했다. 더 자세한 내용은 이 기사를 참고 또한 이걸 왜 해야 하는지에 대한 것은 여기를 참고
- 일단 새 프로젝트를 하나 만들어 보자. 당연히 Java 프로젝트로 만든다.
- 다음은 테스트할 내용을 적는다. 일단 첫 테스트이고, 테스트 내용보다 테스트 방법-정확히는 jUnit4의 사용법-을 익히는 게 중요하므로, 입력이 뭐가 되든 값이 26이 나오는 데 집중한다.</description>
+일단 새 프로젝트를 하나 만들어 보자. 당연히 Java 프로젝트로 만든다.
+다음은 테스트할 내용을 적는다. 일단 첫 테스트이고, 테스트 내용보다 테스트 방법-정확히는 jUnit4의 사용법-을 익히는 게 중요하므로, 입력이 뭐가 되든 값이 26이 나오는 데 집중한다. 어쨌든 처음 할 일은 결과 값이 26이 나오는지를 검사하는 테스트를 만드는 일이다.</description>
     </item>
     
     <item>
@@ -207,9 +206,8 @@ private String a(int initial, int max, String leftValue) { String returnValue = 
 import static org.junit.Assert.assertEquals;
 import org.junit.Test; import org.junit.Before; import org.junit.After;
 public class myTest {	@Test public void testCodes() throws Exception { System.out.println(&amp;ldquo;3&amp;rdquo;); }
-@Beforepublic void testMakeClass1(){System.out.println(&amp;quot;2&amp;quot;);	}	@Beforepublic void testMakeClass(){System.out.println(&amp;quot;1&amp;quot;);	} @After public void afterClass() { System.out.println(&amp;ldquo;4&amp;rdquo;);
-}@Afterpublic void afterClass1(){System.out.println(&amp;quot;5&amp;quot;);}	 } 
-실행 결과는 적힌 대로 12345가 된다.</description>
+@Beforepublic void testMakeClass1(){System.out.println(&amp;quot;2&amp;quot;);	}	@Beforepublic void testMakeClass(){System.out.println(&amp;quot;1&amp;quot;);	}@After public void afterClass() { System.out.println(&amp;ldquo;4&amp;rdquo;);
+}@Afterpublic void afterClass1(){System.out.println(&amp;quot;5&amp;quot;);}	} 실행 결과는 적힌 대로 12345가 된다.</description>
     </item>
     
     <item>
@@ -219,9 +217,7 @@ public class myTest {	@Test public void testCodes() throws Exception { System.ou
       
       <guid>https://ezaurum.com/2010/08/TDD-%EC%8B%9C%EC%9E%91/</guid>
       <description>TDD란 걸 시작했다. 좋은 튜토리얼을 발견해서 그걸 보고 대충 익혔는데, 여기의 글들과 관련해서 좀 공부를 더 해야 겠다.
-테스트를 작성한다. &amp;lt;li&amp;gt;작성한 테스트를 통과할 수 있도록 가장 빠른 방법으로 코드를 작성한다. 이 과정에 중복된 코드를 만들어도 상관 없다. &amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;테스트를 수행한다. &amp;lt;/li&amp;gt;&amp;lt;li&amp;gt; 테스트를 통과하면 작성한 코드에서 중복을 제거한다. 아니면 2번으로 돌아간다. 	
-테스트를 수행한다. 
-&amp;lt;li&amp;gt;테스트를 통과하면 완성. 다음 테스트를 1번부터 시작한다. 실패하면 4로 돌아가서 디버깅한다.&amp;lt;/li&amp;gt;&amp;lt;/ol&amp;gt; TDD(TestDrivenDevelopement)이런 식으로 진행되는데, 개발 속도가 엄청나게 빨라진다고 한다.</description>
+테스트를 작성한다. &amp;lt;li&amp;gt;작성한 테스트를 통과할 수 있도록 가장 빠른 방법으로 코드를 작성한다. 이 과정에 중복된 코드를 만들어도 상관 없다. &amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;테스트를 수행한다. &amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;테스트를 통과하면 작성한 코드에서 중복을 제거한다. 아니면 2번으로 돌아간다. 테스트를 수행한다. &amp;lt;li&amp;gt;테스트를 통과하면 완성. 다음 테스트를 1번부터 시작한다. 실패하면 4로 돌아가서 디버깅한다.&amp;lt;/li&amp;gt;&amp;lt;/ol&amp;gt;TDD(TestDrivenDevelopement)이런 식으로 진행되는데, 개발 속도가 엄청나게 빨라진다고 한다.</description>
     </item>
     
     <item>
@@ -231,7 +227,7 @@ public class myTest {	@Test public void testCodes() throws Exception { System.ou
       
       <guid>https://ezaurum.com/2010/08/%EC%83%81%EC%9E%90-4%EA%B0%9C/</guid>
       <description>문제 출처 - http://xper.org/wiki/seminar/FourBoxes
-4개의 직사각형이 평면에 있는데 밑변이 모두 가로축에 평행하다. 이 직사각형들이 차지하는 면적을 구하는 프로그램을 작성하시오. 이 네 개의 직사각형들은 서로 떨어져 있을 수도 있고 겹쳐 있을 수도 있다. 또한 하나가 다른 하나를 포함할 수도 있으며, 변이나 꼭지점이 겹쳐질 수도 있다. 실행 파일의 이름은 RECT.EXE로 하시오. 입력형식
+4개의 직사각형이 평면에 있는데 밑변이 모두 가로축에 평행하다. 이 직사각형들이 차지하는 면적을 구하는 프로그램을 작성하시오. 이 네 개의 직사각형들은 서로 떨어져 있을 수도 있고 겹쳐 있을 수도 있다. 또한 하나가 다른 하나를 포함할 수도 있으며, 변이나 꼭지점이 겹쳐질 수도 있다. 실행 파일의 이름은 RECT.EXE로 하시오. 입력형식
 하나의 직사각형은 왼쪽 아래의 꼭지점과 오른쪽 위의 꼭지점의 좌표로 주어진다. 입력은 네 줄이며, 각 줄은 네 개의 정수로 하나의 직사각형을 나타낸다.</description>
     </item>
     

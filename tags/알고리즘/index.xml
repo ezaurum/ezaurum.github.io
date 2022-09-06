@@ -17,9 +17,9 @@
       <description>알고리즘 스터디를 하다 6시간 이상 낑낑대며 풀어서 아까워서 정리 언젠가는 쉽게 풀 수 있겠지.
 문제 2018카카오 블라인드 테스트
 신경써야 하는 부분 정렬된 기준점에서 시작해야 함 Sweeping Algorithm 참조
-일반 풀이   Sweep a line across problem plane. 문제를 평면에 놓고 줄을 긋는다
-  As the line sweeps across the plane, events of interest occur, keep track of these events. 줄이 평면에 그어지면서 뭔가 사건이 생기면 그걸 추적한다.
-  Deal with events that occur at the line leaving a solved problem behind.</description>
+일반 풀이 Sweep a line across problem plane. 문제를 평면에 놓고 줄을 긋는다
+As the line sweeps across the plane, events of interest occur, keep track of these events. 줄이 평면에 그어지면서 뭔가 사건이 생기면 그걸 추적한다.
+Deal with events that occur at the line leaving a solved problem behind.</description>
     </item>
     
     <item>
@@ -67,8 +67,8 @@ void insertionSort2(int * array, int size) { int j = 0; for (int i = 1; i 0 &amp
       
       <guid>https://ezaurum.com/2010/08/%EB%82%B4%EA%B0%80-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EC%9D%84-%ED%95%B4%EC%84%9C-%EB%A8%B9%EA%B3%A0-%EC%82%B4-%EC%88%98-%EC%9E%88%EC%9D%84%EA%B9%8C/</guid>
       <description>이걸 짜는데 이틀 걸렸다면 믿으시겠습니까? 젠장
-private String a(int initial, int max, String leftValue) { String returnValue = &amp;ldquo;&amp;quot;;
-	if (initial &amp;amp;lt; max) {if (initial != -1) {if (leftValue != null) {leftValue += &amp;amp;quot; &amp;amp;quot;;leftValue += initial;} else {leftValue = String.valueOf(initial);}}for (int i = initial + 1; i &amp;amp;lt;= max; i++) {returnValue += a(i, max, leftValue);}return returnValue;} else {if (leftValue !</description>
+private String a(int initial, int max, String leftValue) { String returnValue = &amp;ldquo;&amp;rdquo;;
+if (initial &amp;amp;lt; max) {if (initial != -1) {if (leftValue != null) {leftValue += &amp;amp;quot; &amp;amp;quot;;leftValue += initial;} else {leftValue = String.valueOf(initial);}}for (int i = initial + 1; i &amp;amp;lt;= max; i++) {returnValue += a(i, max, leftValue);}return returnValue;} else {if (leftValue !</description>
     </item>
     
     <item>
@@ -78,7 +78,7 @@ private String a(int initial, int max, String leftValue) { String returnValue = 
       
       <guid>https://ezaurum.com/2010/08/%EC%83%81%EC%9E%90-4%EA%B0%9C/</guid>
       <description>문제 출처 - http://xper.org/wiki/seminar/FourBoxes
-4개의 직사각형이 평면에 있는데 밑변이 모두 가로축에 평행하다. 이 직사각형들이 차지하는 면적을 구하는 프로그램을 작성하시오. 이 네 개의 직사각형들은 서로 떨어져 있을 수도 있고 겹쳐 있을 수도 있다. 또한 하나가 다른 하나를 포함할 수도 있으며, 변이나 꼭지점이 겹쳐질 수도 있다. 실행 파일의 이름은 RECT.EXE로 하시오. 입력형식
+4개의 직사각형이 평면에 있는데 밑변이 모두 가로축에 평행하다. 이 직사각형들이 차지하는 면적을 구하는 프로그램을 작성하시오. 이 네 개의 직사각형들은 서로 떨어져 있을 수도 있고 겹쳐 있을 수도 있다. 또한 하나가 다른 하나를 포함할 수도 있으며, 변이나 꼭지점이 겹쳐질 수도 있다. 실행 파일의 이름은 RECT.EXE로 하시오. 입력형식
 하나의 직사각형은 왼쪽 아래의 꼭지점과 오른쪽 위의 꼭지점의 좌표로 주어진다. 입력은 네 줄이며, 각 줄은 네 개의 정수로 하나의 직사각형을 나타낸다.</description>
     </item>
     

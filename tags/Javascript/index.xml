@@ -100,7 +100,7 @@ window.open(&amp;ldquo;title&amp;rdquo;, &amp;ldquo;frameName&amp;rdquo;, &amp;l
 //
 if (top.frames.length!=0) top.location=self.document.location;
 //]]&amp;gt;
- 일단 학교 서버에서 모든 외부 서버로 엑세스 할 때는 프레임을 기본적으로 씌워서, ActiveX를 실행시키기 때문에;; 상당히 귀찮다. 내 홈피라도 그런 꼴을 안 보려는 자구책.</description>
+일단 학교 서버에서 모든 외부 서버로 엑세스 할 때는 프레임을 기본적으로 씌워서, ActiveX를 실행시키기 때문에;; 상당히 귀찮다. 내 홈피라도 그런 꼴을 안 보려는 자구책.</description>
     </item>
     
   </channel>

@@ -16,7 +16,7 @@
       <guid>https://ezaurum.com/study/async-sync-vs-block-non-block/</guid>
       <description>옛날에 어느 N사 면접에서 나온 질문인데 대답이 명확하게 나오지 않아서 나중에 알아봐야지 하다가 말았던 것.
 결론은 결국 영어 공부였다. Async/Sync - Block/Non-Block 의 의미를 이해하면 될 문제였던 것.
- Block/Non-Block Block/Non-Block 은 프로시저의 실행이 멈추는가를 표현하는 용어다.
+Block/Non-Block Block/Non-Block 은 프로시저의 실행이 멈추는가를 표현하는 용어다.
 실행 중인 프로시저A가 다른 프로시저B를 호출 할 때, 호출된 프로시저B가 자기가 끝날 때까지 A 를 멈추면(Block) Block이고 안 멈추면(Non-Block) Non-Block이다.
 실제 구현된 프로그램 함수로 생각한다면 호출된 함수가 모든 작업이 끝난 다음에 return 하냐 작업이 끝나기 전에 return 하냐 하는 것을 생각하면 되겠다.</description>
     </item>
@@ -30,9 +30,9 @@
       <description>알고리즘 스터디를 하다 6시간 이상 낑낑대며 풀어서 아까워서 정리 언젠가는 쉽게 풀 수 있겠지.
 문제 2018카카오 블라인드 테스트
 신경써야 하는 부분 정렬된 기준점에서 시작해야 함 Sweeping Algorithm 참조
-일반 풀이   Sweep a line across problem plane. 문제를 평면에 놓고 줄을 긋는다
-  As the line sweeps across the plane, events of interest occur, keep track of these events. 줄이 평면에 그어지면서 뭔가 사건이 생기면 그걸 추적한다.
-  Deal with events that occur at the line leaving a solved problem behind.</description>
+일반 풀이 Sweep a line across problem plane. 문제를 평면에 놓고 줄을 긋는다
+As the line sweeps across the plane, events of interest occur, keep track of these events. 줄이 평면에 그어지면서 뭔가 사건이 생기면 그걸 추적한다.
+Deal with events that occur at the line leaving a solved problem behind.</description>
     </item>
     
     <item>
@@ -41,8 +41,7 @@
       <pubDate>Sun, 08 Feb 2015 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2015/02/Nuget-%ED%8C%A8%ED%82%A4%EC%A7%80%EC%97%90-%EC%9D%98%EC%A1%B4%EC%84%B1-%EC%A7%80%EC%A0%95%ED%95%98%EA%B8%B0/</guid>
-      <description>출처 - Nuget 매뉴얼 Nuget 패키지를 만들 때 의존성을 지정하려면, .nuspec 파일 안의 metadata 태그의 자식으로 
-&amp;lt;/code&amp;gt; 이렇게 지정해 주면 된다.</description>
+      <description>출처 - Nuget 매뉴얼 Nuget 패키지를 만들 때 의존성을 지정하려면, .nuspec 파일 안의 metadata 태그의 자식으로 &amp;lt;/code&amp;gt;이렇게 지정해 주면 된다.</description>
     </item>
     
     <item>
@@ -61,7 +60,7 @@
       
       <guid>https://ezaurum.com/2014/12/C#-DB-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-%EB%B9%84%EA%B5%90/</guid>
       <description>별로 구체적으로 비교를 해 본 것은 아니지만, 지난 두 달간 이런저런 삽질을 한 결과를 정리한다.
-Linq To SQL - MS스러운 DB라이브러리장점 - IDE에 통합된 사용환경, VS에서 DB에 연결 후, 테이블을 끌어오는 것만으로도 바로 도메인 객체가 생성된다. 속도가 빠르다. 복잡한 쿼리에 신경 안 써도 된다. 러닝커브 작음.단점 - 자동생성되는 도메인 객체가 복잡하다. 로직이 들어가야 하는 경우 매우 곤란해진다. POCO객체는 불가능. 추가 수정도 귀찮다.적절한 사용처 - 이미 DB가 존재하고, 거기에 간단한 CRUD연산을 해야 하는 웹 툴 정도를 붙이는 경우.</description>
+Linq To SQL - MS스러운 DB라이브러리장점 - IDE에 통합된 사용환경, VS에서 DB에 연결 후, 테이블을 끌어오는 것만으로도 바로 도메인 객체가 생성된다. 속도가 빠르다. 복잡한 쿼리에 신경 안 써도 된다. 러닝커브 작음.단점 - 자동생성되는 도메인 객체가 복잡하다. 로직이 들어가야 하는 경우 매우 곤란해진다. POCO객체는 불가능. 추가 수정도 귀찮다.적절한 사용처 - 이미 DB가 존재하고, 거기에 간단한 CRUD연산을 해야 하는 웹 툴 정도를 붙이는 경우.</description>
     </item>
     
     <item>
@@ -79,7 +78,7 @@
       <pubDate>Wed, 24 Dec 2014 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2014/12/nuget-%ED%8C%A8%ED%82%A4%EC%A7%80-%EC%9E%90%EB%8F%99%EC%9C%BC%EB%A1%9C-%EB%A7%8C%EB%93%A4%EA%B8%B0/</guid>
-      <description>msbuild를 사용해서 만들기</description>
+      <description>msbuild를 사용해서 만들기 </description>
     </item>
     
     <item>
@@ -88,9 +87,8 @@
       <pubDate>Fri, 05 Dec 2014 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2014/12/Cross-thread-operation-not-valid-%ED%95%B4%EA%B2%B0/</guid>
-      <description>출처 - 스택오버플로우  private void OnAction(string v) { richTextBox1.AppendText(v + Environment.NewLine); richTextBox1.ScrollToCaret(); }
-public void AddText(string value) { richTextBox1.Invoke((Action) OnAction, value); } 
-기본적으로 invoke를 이용하면 해당 문제를 막을 수 있음.</description>
+      <description>출처 - 스택오버플로우 private void OnAction(string v) { richTextBox1.AppendText(v + Environment.NewLine); richTextBox1.ScrollToCaret(); }
+public void AddText(string value) { richTextBox1.Invoke((Action) OnAction, value); } 기본적으로 invoke를 이용하면 해당 문제를 막을 수 있음.</description>
     </item>
     
     <item>
@@ -127,9 +125,9 @@ public void AddText(string value) { richTextBox1.Invoke((Action) OnAction, value
       <pubDate>Sun, 24 Nov 2013 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2013/11/Git%EC%97%90%EC%84%9C-%ED%8A%B9%EC%A0%95%ED%8C%8C%EC%9D%BC-%EC%9E%84%EC%8B%9C%EB%A1%9C-%EC%BB%A4%EB%B0%8B%EB%82%B4%EC%97%AD%EC%97%90%EC%84%9C-%EC%A0%9C%EC%99%B8%ED%95%98%EA%B8%B0/</guid>
-      <description>출처  http://blog.outsider.ne.kr/817 스택오버플로우 FallenGameR&amp;rsquo;s blog  Unity3D로 공동작업을 하다 보면 meta파일이 많이 생기고, 뭐 잠깐 이쪽에서 고쳐보고 싶은데 하던 작업 중에 일부는 또 올려야 할 때가 있고해서 골치 아플 때 유용함. local 에만 적용해야 하는 환경파일 수정할 때도 유용
+      <description>출처 http://blog.outsider.ne.kr/817 스택오버플로우 FallenGameR&amp;rsquo;s blog Unity3D로 공동작업을 하다 보면 meta파일이 많이 생기고, 뭐 잠깐 이쪽에서 고쳐보고 싶은데 하던 작업 중에 일부는 또 올려야 할 때가 있고해서 골치 아플 때 유용함. local 에만 적용해야 하는 환경파일 수정할 때도 유용
 리모트 파일이 바뀌어서 pull을 할 때 주의점 기본적으로 컨플릭트가 나고, 해결 방법이 다르다
- assumed-unchanged - stash 가능하지만, stash 하면 데이터 날아감 skip-worktree - stash 불가능, 플래그 꺼 줘야 함  git reset --hard를 하는 경우 주의점 결국 둘 다 파일은 바뀐다.</description>
+assumed-unchanged - stash 가능하지만, stash 하면 데이터 날아감 skip-worktree - stash 불가능, 플래그 꺼 줘야 함 git reset --hard를 하는 경우 주의점 결국 둘 다 파일은 바뀐다.</description>
     </item>
     
     <item>
@@ -148,7 +146,7 @@ public void AddText(string value) { richTextBox1.Invoke((Action) OnAction, value
       <pubDate>Sun, 24 Nov 2013 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2013/11/%EC%9D%B8%EC%A6%9D%EA%B3%BC-%EC%9D%B8%EA%B0%80%EC%9D%98-%EC%B0%A8%EC%9D%B4/</guid>
-      <description>인증(Authorization,認證)은 본인 인증인가(Authentication,認可)는 사용 인가인증은 누가 &amp;ldquo;내가 장동건인데~&amp;rdquo; 라고 했을 때, 말하는 사람이 장동건인지 아닌지 확인하는 과정. 인가는 누가 타인에게 뭘 요구할 때, 그걸 요구할 권한이 있는지 확인하는 과정.</description>
+      <description>인증(Authorization,認證)은 본인 인증인가(Authentication,認可)는 사용 인가인증은 누가 &amp;ldquo;내가 장동건인데~&amp;rdquo; 라고 했을 때, 말하는 사람이 장동건인지 아닌지 확인하는 과정. 인가는 누가 타인에게 뭘 요구할 때, 그걸 요구할 권한이 있는지 확인하는 과정.</description>
     </item>
     
     <item>
@@ -212,7 +210,7 @@ public void AddText(string value) { richTextBox1.Invoke((Action) OnAction, value
       <pubDate>Tue, 03 Jul 2012 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2012/07/%EC%9D%B4%ED%81%B4%EB%A6%BD%EC%8A%A4%EC%97%90%EC%84%9C-JSP%EB%A5%BC-%EC%97%B4-%EB%95%8C-JSP-editor%EA%B0%80-%EA%B8%B0%EB%B3%B8%EC%9C%BC%EB%A1%9C-%EC%97%B4%EB%A6%AC%EA%B2%8C-%ED%95%98%EA%B8%B0/</guid>
-      <description>어째선지 가끔 JSP가 디자인 모드(HTML 디자인 편집기 같은 형태) 로 열릴 때가 있다. 그럴 때는 Window-&amp;gt;General-&amp;gt;Editors-&amp;gt;File Associations에서 JSP 파일을 찾고 아래쪽에서 JSP editor를 디폴트로 지정!</description>
+      <description>어째선지 가끔 JSP가 디자인 모드(HTML 디자인 편집기 같은 형태) 로 열릴 때가 있다. 그럴 때는 Window-&amp;gt;General-&amp;gt;Editors-&amp;gt;File Associations에서 JSP 파일을 찾고 아래쪽에서 JSP editor를 디폴트로 지정! </description>
     </item>
     
     <item>
@@ -241,7 +239,7 @@ public static void main(String args[]) { System.out.println(EnumStudy.valueOf(1)
       
       <guid>https://ezaurum.com/2011/12/String-StringBuilder-StringBuffer-%EC%A4%91-%EB%AD%98-%EC%8D%A8%EC%95%BC-%ED%95%A0%EA%B9%8C/</guid>
       <description>출처 -http://www.a2ztechguide.com/2011/12/difference-between-string-stringbuffer.html
-값이 변하지 않으면 불변객체 StringString은 immutable 이다. 한 번 만들어두고 걍 읽어만 올 거면 대부분의 경우 String을 쓰면 되는 모양.자주 변하는 경우, 그때마다 새로 만들어줘야 하므로 비추천.equals가 오버라이드 되어 있다.싱글 스레드라면 StringBuildermutable함. 데이터가 막 바뀌는 경우 사용.나온지 얼마 안 된 신삥. StringBuffer랑 synchronization 빼고 동일.출처 포스트에는 StringBuffer보다 빠르다고 한다.equals오버라이드 안 되어 있음.멀티스레드라면 StringBufferequals오버라이드 안 되어 있음.StringBuilder랑 synchronization 빼고는 동일</description>
+값이 변하지 않으면 불변객체 StringString은 immutable 이다. 한 번 만들어두고 걍 읽어만 올 거면 대부분의 경우 String을 쓰면 되는 모양.자주 변하는 경우, 그때마다 새로 만들어줘야 하므로 비추천.equals가 오버라이드 되어 있다.싱글 스레드라면 StringBuildermutable함. 데이터가 막 바뀌는 경우 사용.나온지 얼마 안 된 신삥. StringBuffer랑 synchronization 빼고 동일.출처 포스트에는 StringBuffer보다 빠르다고 한다.equals오버라이드 안 되어 있음.멀티스레드라면 StringBufferequals오버라이드 안 되어 있음.StringBuilder랑 synchronization 빼고는 동일</description>
     </item>
     
     <item>
@@ -251,8 +249,8 @@ public static void main(String args[]) { System.out.println(EnumStudy.valueOf(1)
       
       <guid>https://ezaurum.com/2010/10/Java-%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88%EC%97%90-Form-%EA%B0%92%EC%9D%98-encoding-%EA%B9%A8%EC%A7%88-%EB%95%8C/</guid>
       <description>점검사항은 아래 세가지.
-폼에서 정확히 인코딩을 지정해서 넘겨주는가?서버에서 정확히 인코딩을 인식하는가?DB에서 정확히 인코딩을 인식하는가?이다.	폼에서 정확히 인코딩을 지정해서 념겨주는가?이 경우는 일단 문서 첫머리에 meta태그가 utf-8으로 지정되어 있고, 폼에 accept-charset 어트리뷰트가 지정되어 있고, 브라우저에서 확인해서 문서가 utf-8으로 읽히는 상황이라면 문제 없다고 보면 된다. UTF-8으로 나와야 하는 페이지가 UTF-8으로 안나오는 경우는 여기서 다룰 게 아니다.
-&amp;lt;meta http-equiv=&#34;Content-Type&#34; content=&#34;text/html; charset=UTF-8&#34; /&amp;gt;&amp;lt;meta charset=&#34;UTF-8&#34; /&amp;gt;&amp;lt;form accept-charset=&#34;</description>
+폼에서 정확히 인코딩을 지정해서 넘겨주는가?서버에서 정확히 인코딩을 인식하는가?DB에서 정확히 인코딩을 인식하는가?이다.폼에서 정확히 인코딩을 지정해서 념겨주는가?이 경우는 일단 문서 첫머리에 meta태그가 utf-8으로 지정되어 있고, 폼에 accept-charset 어트리뷰트가 지정되어 있고, 브라우저에서 확인해서 문서가 utf-8으로 읽히는 상황이라면 문제 없다고 보면 된다. UTF-8으로 나와야 하는 페이지가 UTF-8으로 안나오는 경우는 여기서 다룰 게 아니다.
+&amp;lt;meta http-equiv=&#34;Content-Type&#34; content=&#34;text/html; charset=UTF-8&#34; /&amp;gt;&amp;lt;meta charset=&#34;UTF-8&#34; /&amp;gt;&amp;lt;form accept-charset=&#34;UTF-8&#34; &amp;gt;서버에서 인코딩을 제대로 인식하는가?</description>
     </item>
     
     <item>
@@ -284,16 +282,15 @@ public static void main(String args[]) { System.out.println(EnumStudy.valueOf(1)
       
       <guid>https://ezaurum.com/2008/12/%EC%86%8C%EC%BC%93-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EC%9D%84-%ED%95%A0-%EB%95%8C-read%EA%B0%80-%EC%83%9D%EA%B0%81%EB%8C%80%EB%A1%9C-%EC%9E%91%EB%8F%99%ED%95%98%EC%A7%80-%EC%95%8A%EB%8A%94-%EA%B2%BD%EC%9A%B0/</guid>
       <description>기말고사용으로 채팅 프로그램을 만들던 중, close를 하지 않고, 연결을 유지한 채로 write함수로 EOF값 만을 보내서 대화 내용의 종결을 알리려고 했으나, 잘 작동하지 않았다.
-read는 socket 이 close되지 않으면 EOF를 읽더라도 1을 반환한다. 따라서 연결을 유지하고 read/write를 하려면 읽은 값이 EOF인지를 체크해준다! 이거 알아내려고 이틀 밤 샜다. 젠장. 나만 병신인가.  while (temp) { read(sockfd, &amp;amp;s, 1); if ( s == EOF) break; printf(&amp;quot;%c&amp;quot;,s); } 
-read 의 리턴값 - 기본적으로 실제로 읽은 바이트 수 만큼.</description>
+read는 socket 이 close되지 않으면 EOF를 읽더라도 1을 반환한다. 따라서 연결을 유지하고 read/write를 하려면 읽은 값이 EOF인지를 체크해준다! 이거 알아내려고 이틀 밤 샜다. 젠장. 나만 병신인가. while (temp) { read(sockfd, &amp;amp;s, 1); if ( s == EOF) break; printf(&amp;quot;%c&amp;quot;,s); } read 의 리턴값 - 기본적으로 실제로 읽은 바이트 수 만큼.</description>
     </item>
     
     <item>
       <title>-lsocket 옵션에서 에러가 날 때</title>
-      <link>https://ezaurum.com/2008/11/lsocket-%EC%98%B5%EC%85%98%EC%97%90%EC%84%9C-%EC%97%90%EB%9F%AC%EA%B0%80-%EB%82%A0-%EB%95%8C/</link>
+      <link>https://ezaurum.com/2008/11/-lsocket-%EC%98%B5%EC%85%98%EC%97%90%EC%84%9C-%EC%97%90%EB%9F%AC%EA%B0%80-%EB%82%A0-%EB%95%8C/</link>
       <pubDate>Fri, 28 Nov 2008 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2008/11/lsocket-%EC%98%B5%EC%85%98%EC%97%90%EC%84%9C-%EC%97%90%EB%9F%AC%EA%B0%80-%EB%82%A0-%EB%95%8C/</guid>
+      <guid>https://ezaurum.com/2008/11/-lsocket-%EC%98%B5%EC%85%98%EC%97%90%EC%84%9C-%EC%97%90%EB%9F%AC%EA%B0%80-%EB%82%A0-%EB%95%8C/</guid>
       <description>소켓 프로그래밍을 하는데 프린트물에 있는 대로 -lsocket 옵션을 주니 계속 cc 가 에러를 뱉었다.
 http://kldp.org/node/1377
 결론은 Sun 계열 유닉스에서 작업하는 게 아니면, -lnsl -lsocket 옵션을 주지 말고 컴파일하라는 것.

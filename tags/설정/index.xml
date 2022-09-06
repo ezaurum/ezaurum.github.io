@@ -23,7 +23,7 @@
       <pubDate>Sun, 25 Nov 2012 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2012/11/Raspberry-pi%EC%97%90-%EA%B0%9C%EB%B0%9C%EC%84%9C%EB%B2%84-%EC%85%8B%ED%8C%85/</guid>
-      <description>일단 라스베리 파이 파티션을 sd카드를 다 채우게 확장하기. 이걸 안 하면 깔다가 용량부족하다고 에러를 뱉는다.[youtube https://www.youtube.com/watch?v=R4VovMDnsIE&amp;w=560&amp;h=315]동영상에서는 fdisk -uc 라고 했는데, 나는 fdisk -u -c 로 해야 되었다.파티션이 3개가 아니라 처음부터 2개고, 첫번째 파티션이 0부터 시작하질 않아서 새로 파티션을 만들 때 이상한 위치가 잡혀서 숫자를 입력해 줘야 했다.sd카드를 빠른 걸 샀더니 의외로 금방 끝났다. 동영상은 4mb/s인데 내 껀 29.9mb/s...타이핑이 힘든 경우 여기에서 복사.초기 셋팅 참고 링크 이거 따라서 다 했다.</description>
+      <description>일단 라스베리 파이 파티션을 sd카드를 다 채우게 확장하기. 이걸 안 하면 깔다가 용량부족하다고 에러를 뱉는다.[youtube https://www.youtube.com/watch?v=R4VovMDnsIE&amp;w=560&amp;h=315]동영상에서는 fdisk -uc 라고 했는데, 나는 fdisk -u -c 로 해야 되었다.파티션이 3개가 아니라 처음부터 2개고, 첫번째 파티션이 0부터 시작하질 않아서 새로 파티션을 만들 때 이상한 위치가 잡혀서 숫자를 입력해 줘야 했다.sd카드를 빠른 걸 샀더니 의외로 금방 끝났다. 동영상은 4mb/s인데 내 껀 29.9mb/s...타이핑이 힘든 경우 여기에서 복사.초기 셋팅 참고 링크 이거 따라서 다 했다.</description>
     </item>
     
   </channel>

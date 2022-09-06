@@ -14,7 +14,7 @@
       <pubDate>Tue, 03 Jul 2012 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2012/07/%EC%9D%B4%ED%81%B4%EB%A6%BD%EC%8A%A4%EC%97%90%EC%84%9C-JSP%EB%A5%BC-%EC%97%B4-%EB%95%8C-JSP-editor%EA%B0%80-%EA%B8%B0%EB%B3%B8%EC%9C%BC%EB%A1%9C-%EC%97%B4%EB%A6%AC%EA%B2%8C-%ED%95%98%EA%B8%B0/</guid>
-      <description>어째선지 가끔 JSP가 디자인 모드(HTML 디자인 편집기 같은 형태) 로 열릴 때가 있다. 그럴 때는 Window-&amp;gt;General-&amp;gt;Editors-&amp;gt;File Associations에서 JSP 파일을 찾고 아래쪽에서 JSP editor를 디폴트로 지정!</description>
+      <description>어째선지 가끔 JSP가 디자인 모드(HTML 디자인 편집기 같은 형태) 로 열릴 때가 있다. 그럴 때는 Window-&amp;gt;General-&amp;gt;Editors-&amp;gt;File Associations에서 JSP 파일을 찾고 아래쪽에서 JSP editor를 디폴트로 지정! </description>
     </item>
     
     <item>
@@ -24,8 +24,8 @@
       
       <guid>https://ezaurum.com/2010/10/Java-%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88%EC%97%90-Form-%EA%B0%92%EC%9D%98-encoding-%EA%B9%A8%EC%A7%88-%EB%95%8C/</guid>
       <description>점검사항은 아래 세가지.
-폼에서 정확히 인코딩을 지정해서 넘겨주는가?서버에서 정확히 인코딩을 인식하는가?DB에서 정확히 인코딩을 인식하는가?이다.	폼에서 정확히 인코딩을 지정해서 념겨주는가?이 경우는 일단 문서 첫머리에 meta태그가 utf-8으로 지정되어 있고, 폼에 accept-charset 어트리뷰트가 지정되어 있고, 브라우저에서 확인해서 문서가 utf-8으로 읽히는 상황이라면 문제 없다고 보면 된다. UTF-8으로 나와야 하는 페이지가 UTF-8으로 안나오는 경우는 여기서 다룰 게 아니다.
-&amp;lt;meta http-equiv=&#34;Content-Type&#34; content=&#34;text/html; charset=UTF-8&#34; /&amp;gt;&amp;lt;meta charset=&#34;UTF-8&#34; /&amp;gt;&amp;lt;form accept-charset=&#34;</description>
+폼에서 정확히 인코딩을 지정해서 넘겨주는가?서버에서 정확히 인코딩을 인식하는가?DB에서 정확히 인코딩을 인식하는가?이다.폼에서 정확히 인코딩을 지정해서 념겨주는가?이 경우는 일단 문서 첫머리에 meta태그가 utf-8으로 지정되어 있고, 폼에 accept-charset 어트리뷰트가 지정되어 있고, 브라우저에서 확인해서 문서가 utf-8으로 읽히는 상황이라면 문제 없다고 보면 된다. UTF-8으로 나와야 하는 페이지가 UTF-8으로 안나오는 경우는 여기서 다룰 게 아니다.
+&amp;lt;meta http-equiv=&#34;Content-Type&#34; content=&#34;text/html; charset=UTF-8&#34; /&amp;gt;&amp;lt;meta charset=&#34;UTF-8&#34; /&amp;gt;&amp;lt;form accept-charset=&#34;UTF-8&#34; &amp;gt;서버에서 인코딩을 제대로 인식하는가?</description>
     </item>
     
     <item>

@@ -15,7 +15,7 @@
       
       <guid>https://ezaurum.com/2020/01/Install-Arch-Linux-%EB%8D%B0%EC%8A%A4%ED%81%AC%ED%83%91-%ED%99%98%EA%B2%BD%EC%84%A4%EC%A0%95/</guid>
       <description>설치를 했으니 실제로 데스크탑으로 쓸 수 있도록 만들어본다. 어째서 아치리눅스를 쓰며 데스크탑환경을 안쓰는지 를 많이 참조했다.
- 사용자 추가 root 로 계속 쓸 수 없으니 사용자를 추가한다.  useradd -m 이름 -g wheel passwd 이름 그룹을 wheel 로 설정했으니 wheel 이 sudo를 쓸 수 있게 해 준다.
+사용자 추가 root 로 계속 쓸 수 없으니 사용자를 추가한다. useradd -m 이름 -g wheel passwd 이름 그룹을 wheel 로 설정했으니 wheel 이 sudo를 쓸 수 있게 해 준다.
 /etc/sudoers 를 열고 wheel 이 sudo 를 쓸 수 있게 해 준다.
 %wheel ALL=(ALL) ALL zsh 로 변경 bash는 불편한 점이 많으니, Oh My Zsh 로 쉘을 변경한다.</description>
     </item>
@@ -27,7 +27,7 @@
       
       <guid>https://ezaurum.com/2019/11/Install-Arch-Linux/</guid>
       <description>아치 리눅스는 가볍고 이것저것 변경하기 좋은 리눅스 배포판이다.
-설치 전 준비물  USB, CD 등 부팅할 물건 ISO 이미지 인터넷, 가능하면 유선환경을 추천(WIFI가 안 되는 경우가 있음) 설치 중 문제해결을 위한 추가PC or 스마트폰 아치 리눅스 설치 한국어 가이드  설치 1. 이미지 usb에 굽기 일단 lsblk 로 usb의 경로를 알아낸다.
+설치 전 준비물 USB, CD 등 부팅할 물건 ISO 이미지 인터넷, 가능하면 유선환경을 추천(WIFI가 안 되는 경우가 있음) 설치 중 문제해결을 위한 추가PC or 스마트폰 아치 리눅스 설치 한국어 가이드 설치 1. 이미지 usb에 굽기 일단 lsblk 로 usb의 경로를 알아낸다.
 NAME MAJ:MIN RM SIZE RO TYPE MOUNTPOINT sda 8:0 1 14.9G 0 disk ├─sda1 8:1 1 609M 0 part /run/media/ezaurum/ARCH_201905 └─sda2 8:2 1 64M 0 part nvme0n1 259:0 0 953.</description>
     </item>
     
@@ -47,7 +47,7 @@ NAME MAJ:MIN RM SIZE RO TYPE MOUNTPOINT sda 8:0 1 14.9G 0 disk ├─sda1 8:1 1 
       
       <guid>https://ezaurum.com/2013/06/jetty9-jenkins-%EC%85%80-%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EB%A7%8C%EC%9C%BC%EB%A1%9C-%EC%9E%90%EB%8F%99-%EB%B0%B0%ED%8F%AC/</guid>
       <description>미리 말해두면, 이건 좋지 못한 방법이다. 참고링크 jetty9은 gradle이 지원을 안 한다. cargo로 하려 그래도 containerId를 jetty9x로 지정하면 에러나 뜨고&amp;hellip; 앤트 스크립트도 지금 모르겠고, 그루비도 골치아프다면 그냥 편안하게 셀 스크립트로 하는 방법이 있다. jetty9 설치 방법을 참고했으면, jetty가 서비스로 돌고 있을 테니, 참고 링크보다 좀 더 쉽게 할 수 있다.
-jenkins 설정에서, build 칸에 보면 스크립트 추가할 수 있는 곳이 있다.  sudo service jetty stop sudo cp war파일.war 제티/webapp/파일이름.war sudo service jetty start  이게 sudo를 칠 때마다 비번을 물어보면 안 되니까 jenkins에 sudo 권한을 주고 비번을 안 묻게 하자.</description>
+jenkins 설정에서, build 칸에 보면 스크립트 추가할 수 있는 곳이 있다. sudo service jetty stop sudo cp war파일.war 제티/webapp/파일이름.war sudo service jetty start 이게 sudo를 칠 때마다 비번을 물어보면 안 되니까 jenkins에 sudo 권한을 주고 비번을 안 묻게 하자.</description>
     </item>
     
     <item>
@@ -58,7 +58,7 @@ jenkins 설정에서, build 칸에 보면 스크립트 추가할 수 있는 곳�
       <guid>https://ezaurum.com/2013/06/mint-%EC%97%90-jetty9-%EC%84%A4%EC%B9%98/</guid>
       <description>참고링크1 참고링크2
 일단 자바는 설치되었다고 가정한다. java 라고 쳐 보고 설치되었는지 확인. 별 문제 없다면 기본으로 설치되어 있을 터다. 설치 되었다면 /usr/local/ 로 이동해서 최신버전을 받아본다. 다음에 압축풀고 적당한 디렉토리로 옮긴다.
-cd /usr/local/ sudo wget &amp;ldquo;http://eclipse.org/downloads/download.php?file=/jetty/stable-9/dist/jetty-distribution-9.0.3.v20130506.tar.gz&amp;amp;amp;r=1&amp;quot; sudo tar -xvf jetty-distribution-9.0.3.v20130506.tar.gz sudo mv jetty-distribution-9.0.3.v20130506 jetty  이제는 서비스로 실행을 시켜보자. 시작 스크립트는 제티 설치 디렉토리/bin/jetty.sh 다. jetty라는 유저를 만들어서 그걸로 실행하도록 한다.  sudo useradd jetty -U -s /bin/false sudo chown -R jetty:jetty /usr/local/jetty sudo cp /usr/local/jetty/bin/jetty.</description>
+cd /usr/local/ sudo wget &amp;ldquo;http://eclipse.org/downloads/download.php?file=/jetty/stable-9/dist/jetty-distribution-9.0.3.v20130506.tar.gz&amp;amp;amp;r=1&amp;quot; sudo tar -xvf jetty-distribution-9.0.3.v20130506.tar.gz sudo mv jetty-distribution-9.0.3.v20130506 jetty 이제는 서비스로 실행을 시켜보자. 시작 스크립트는 제티 설치 디렉토리/bin/jetty.sh 다. jetty라는 유저를 만들어서 그걸로 실행하도록 한다. sudo useradd jetty -U -s /bin/false sudo chown -R jetty:jetty /usr/local/jetty sudo cp /usr/local/jetty/bin/jetty.</description>
     </item>
     
     <item>
@@ -112,7 +112,7 @@ cd /usr/local/ sudo wget &amp;ldquo;http://eclipse.org/downloads/download.php?fi
       <pubDate>Thu, 02 May 2013 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2013/05/bash-%EC%85%80%EC%97%90%EC%84%9C-%EB%B3%80%EC%88%98-%EC%82%AC%EC%9A%A9/</guid>
-      <description>#!/bin/sh -eTODAY=`date -u +%Y%m%d`REDIS_HOME=&#34;/usr/redis-2.6.13/src&#34;fileName=&#34;redis-&#34;$TODAY&#34;.log&#34;$REDIS_HOME/redis-server &amp;gt;&amp;gt; $REDIS_HOME/$fileName &amp;amp;보시다시피 그냥 변수이름=값 해주면 쓸 수 있고, $를 붙이면 값을 받아오고, 문자열과는 붙여놓으면 자동으로 달라붙는다.</description>
+      <description>#!/bin/sh -eTODAY=`date -u +%Y%m%d`REDIS_HOME=&#34;/usr/redis-2.6.13/src&#34;fileName=&#34;redis-&#34;$TODAY&#34;.log&#34;$REDIS_HOME/redis-server &amp;gt;&amp;gt; $REDIS_HOME/$fileName &amp;amp;보시다시피 그냥 변수이름=값 해주면 쓸 수 있고, $를 붙이면 값을 받아오고, 문자열과는 붙여놓으면 자동으로 달라붙는다.</description>
     </item>
     
     <item>
@@ -121,7 +121,7 @@ cd /usr/local/ sudo wget &amp;ldquo;http://eclipse.org/downloads/download.php?fi
       <pubDate>Sun, 25 Nov 2012 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2012/11/Raspberry-pi%EC%97%90-%EA%B0%9C%EB%B0%9C%EC%84%9C%EB%B2%84-%EC%85%8B%ED%8C%85/</guid>
-      <description>일단 라스베리 파이 파티션을 sd카드를 다 채우게 확장하기. 이걸 안 하면 깔다가 용량부족하다고 에러를 뱉는다.[youtube https://www.youtube.com/watch?v=R4VovMDnsIE&amp;w=560&amp;h=315]동영상에서는 fdisk -uc 라고 했는데, 나는 fdisk -u -c 로 해야 되었다.파티션이 3개가 아니라 처음부터 2개고, 첫번째 파티션이 0부터 시작하질 않아서 새로 파티션을 만들 때 이상한 위치가 잡혀서 숫자를 입력해 줘야 했다.sd카드를 빠른 걸 샀더니 의외로 금방 끝났다. 동영상은 4mb/s인데 내 껀 29.9mb/s...타이핑이 힘든 경우 여기에서 복사.초기 셋팅 참고 링크 이거 따라서 다 했다.</description>
+      <description>일단 라스베리 파이 파티션을 sd카드를 다 채우게 확장하기. 이걸 안 하면 깔다가 용량부족하다고 에러를 뱉는다.[youtube https://www.youtube.com/watch?v=R4VovMDnsIE&amp;w=560&amp;h=315]동영상에서는 fdisk -uc 라고 했는데, 나는 fdisk -u -c 로 해야 되었다.파티션이 3개가 아니라 처음부터 2개고, 첫번째 파티션이 0부터 시작하질 않아서 새로 파티션을 만들 때 이상한 위치가 잡혀서 숫자를 입력해 줘야 했다.sd카드를 빠른 걸 샀더니 의외로 금방 끝났다. 동영상은 4mb/s인데 내 껀 29.9mb/s...타이핑이 힘든 경우 여기에서 복사.초기 셋팅 참고 링크 이거 따라서 다 했다.</description>
     </item>
     
     <item>
@@ -133,7 +133,7 @@ cd /usr/local/ sudo wget &amp;ldquo;http://eclipse.org/downloads/download.php?fi
       <description>나 왜 라즈베리 파이를 놀려두고 있었지.. OTL&amp;hellip;
 &amp;hellip;그래서 오늘 밤은 거기다 다시 셋팅해야&amp;hellip; OTL&amp;hellip;
 일단 할 거 목록을 적으면&amp;hellip;
-라즈베리 파이에 필요한 것들을 깐다. - 기본 설정은 되어 있으니 apt-get으로 대충...nexus - 지난 주에 배웠으니 어디...git - github는 public이라.. 거기 돈을 내고 private을 할까 이거 전기세가 쌀까 생각중...jenkins - 음.. 어디 한 번...gradle - 어디 써 보자..ftp - 혹시나.아무거나 빌드해서 올려본다 - 되는가 test 해 봄리셋해도 바뀌지 않도록 각 PC의 내부 IP를 고정한다.</description>
+라즈베리 파이에 필요한 것들을 깐다. - 기본 설정은 되어 있으니 apt-get으로 대충...nexus - 지난 주에 배웠으니 어디...git - github는 public이라.. 거기 돈을 내고 private을 할까 이거 전기세가 쌀까 생각중...jenkins - 음.. 어디 한 번...gradle - 어디 써 보자..ftp - 혹시나.아무거나 빌드해서 올려본다 - 되는가 test 해 봄리셋해도 바뀌지 않도록 각 PC의 내부 IP를 고정한다.</description>
     </item>
     
     <item>
@@ -143,8 +143,7 @@ cd /usr/local/ sudo wget &amp;ldquo;http://eclipse.org/downloads/download.php?fi
       
       <guid>https://ezaurum.com/2012/11/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%BD%98%EC%86%94%EC%97%90%EC%84%9C-%ED%95%9C%EA%B8%80%EC%9D%B4-%EC%95%88-%EB%90%A0-%EB%95%8C/</guid>
       <description>locale 값이 다 정상인데 화면에 한글이 다 깨져서 나온다면, 한글이 확실히 되는 OS에서 ssh 등으로 접속해 보라.
-OTL&amp;hellip;. 어차피 ssh로 접속해서만 쓸 건데&amp;hellip; 몇 시간 소모한 거지.
- </description>
+OTL&amp;hellip;. 어차피 ssh로 접속해서만 쓸 건데&amp;hellip; 몇 시간 소모한 거지.</description>
     </item>
     
     <item>
@@ -196,10 +195,10 @@ cd /etc/apache2/mods-available sudo cp userdir.conf userdir.load /etc/apache2/mo
     
     <item>
       <title>-lsocket 옵션에서 에러가 날 때</title>
-      <link>https://ezaurum.com/2008/11/lsocket-%EC%98%B5%EC%85%98%EC%97%90%EC%84%9C-%EC%97%90%EB%9F%AC%EA%B0%80-%EB%82%A0-%EB%95%8C/</link>
+      <link>https://ezaurum.com/2008/11/-lsocket-%EC%98%B5%EC%85%98%EC%97%90%EC%84%9C-%EC%97%90%EB%9F%AC%EA%B0%80-%EB%82%A0-%EB%95%8C/</link>
       <pubDate>Fri, 28 Nov 2008 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2008/11/lsocket-%EC%98%B5%EC%85%98%EC%97%90%EC%84%9C-%EC%97%90%EB%9F%AC%EA%B0%80-%EB%82%A0-%EB%95%8C/</guid>
+      <guid>https://ezaurum.com/2008/11/-lsocket-%EC%98%B5%EC%85%98%EC%97%90%EC%84%9C-%EC%97%90%EB%9F%AC%EA%B0%80-%EB%82%A0-%EB%95%8C/</guid>
       <description>소켓 프로그래밍을 하는데 프린트물에 있는 대로 -lsocket 옵션을 주니 계속 cc 가 에러를 뱉었다.
 http://kldp.org/node/1377
 결론은 Sun 계열 유닉스에서 작업하는 게 아니면, -lnsl -lsocket 옵션을 주지 말고 컴파일하라는 것.
@@ -208,10 +207,10 @@ http://kldp.org/node/1377
     
     <item>
       <title>리눅스 삽질기 - 3 -</title>
-      <link>https://ezaurum.com/2008/11/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%82%BD%EC%A7%88%EA%B8%B0-3/</link>
+      <link>https://ezaurum.com/2008/11/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%82%BD%EC%A7%88%EA%B8%B0-3-/</link>
       <pubDate>Mon, 17 Nov 2008 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2008/11/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%82%BD%EC%A7%88%EA%B8%B0-3/</guid>
+      <guid>https://ezaurum.com/2008/11/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%82%BD%EC%A7%88%EA%B8%B0-3-/</guid>
       <description>일단 gcc를 써 보자. 라고 생각해서 간단히 짜고 컴파일을 해보는데, 계속 에러. 구글링을 통해 해법을 찾았다. http://dantes.kr/blog/320 이 설명에서는 CD를 요구한다는데. 일단 8.10에서는 필요 없는듯?
 일단 이러고 나서, gcc 파일이름 이렇게 치면, 컴파일은 되는데, 실행이 안된다.
 왜?
@@ -221,10 +220,10 @@ http://kldp.org/node/1377
     
     <item>
       <title>리눅스 삽질기 - 2 -</title>
-      <link>https://ezaurum.com/2008/11/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%82%BD%EC%A7%88%EA%B8%B0-2/</link>
+      <link>https://ezaurum.com/2008/11/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%82%BD%EC%A7%88%EA%B8%B0-2-/</link>
       <pubDate>Sun, 16 Nov 2008 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2008/11/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%82%BD%EC%A7%88%EA%B8%B0-2/</guid>
+      <guid>https://ezaurum.com/2008/11/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%82%BD%EC%A7%88%EA%B8%B0-2-/</guid>
       <description>지난 번에 리눅스를 깔아놓기만 한 PC가 팔려나가 버려서, 다른 PC에 깔게 되었다. 이번에는 버전업 된 우분투 8.10을 설치. 32비트 버전이다.
 일단 텔넷을 깔아야 하므로 아래의 참고 링크. 설치법 - http://eloid.tistory.com/21 텔넷 포트 바꾸기 - http://rustymind.egloos.com/3310669
 오늘은 여기까지</description>
@@ -232,10 +231,10 @@ http://kldp.org/node/1377
     
     <item>
       <title>리눅스 삽질기 - 1 -</title>
-      <link>https://ezaurum.com/2008/10/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%82%BD%EC%A7%88%EA%B8%B0-1/</link>
+      <link>https://ezaurum.com/2008/10/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%82%BD%EC%A7%88%EA%B8%B0-1-/</link>
       <pubDate>Fri, 17 Oct 2008 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2008/10/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%82%BD%EC%A7%88%EA%B8%B0-1/</guid>
+      <guid>https://ezaurum.com/2008/10/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%82%BD%EC%A7%88%EA%B8%B0-1-/</guid>
       <description>리눅스를 깔기로 결정했다. 몇 번이나 깔았다 지웠다를 반복한 지금, 결국 Vista 64 SP1을 기본으로 하고, Virtual PC를 이용해서, 사용하기로 함. virtual pc 2007 sp1은 여기서 받으면 됨. 다운로드 링크 정도는 알아서 찾자. 아래쪽에 64비트와 32비트 용으로 두 개가 있음.
 프로그램을 실행하고 MS사 물건답게, Next를 적당히 눌러주면 가상머신이 실행된다.
 여기까지 하다가, 만들어 보니 64비트 OS가 깔리지 않는다. 가상화는 무조건 32비트. 어째서일까. 혹시나 해서 Virtual BOX를 써 봤는데 기본 셋팅으로는 안 되고, 설정창에서 VT-X/AMD-V 설정을 켜 줘야 가능.</description>

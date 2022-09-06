@@ -14,9 +14,8 @@
       <pubDate>Tue, 28 May 2013 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2013/05/java-code-base-spring-security-setting-with-gradle/</guid>
-      <description>java code base spring security setting github 리파지토리 build.gradle에 다음을 추가  repositories { mavenCentral() maven { url &amp;ldquo;http://repo.springsource.org/snapshot&amp;quot; } }
-dependencies { def springSecurityVersion = &amp;ldquo;3.1.4.RELEASE&amp;rdquo; compile &amp;ldquo;org.springframework.security:spring-security-core:$springSecurityVersion&amp;rdquo; compile &amp;ldquo;org.springframework.security:spring-security-web:$springSecurityVersion&amp;rdquo; compile &amp;ldquo;org.springframework.security:spring-security-config:$springSecurityVersion&amp;rdquo; compile &amp;ldquo;org.springframework.security:spring-security-javaconfig:1.0.0.CI-SNAPSHOT&amp;rdquo; }
-</description>
+      <description>java code base spring security setting github 리파지토리 build.gradle에 다음을 추가 repositories { mavenCentral() maven { url &amp;ldquo;http://repo.springsource.org/snapshot&amp;quot; } }
+dependencies { def springSecurityVersion = &amp;ldquo;3.1.4.RELEASE&amp;rdquo; compile &amp;ldquo;org.springframework.security:spring-security-core:$springSecurityVersion&amp;rdquo; compile &amp;ldquo;org.springframework.security:spring-security-web:$springSecurityVersion&amp;rdquo; compile &amp;ldquo;org.springframework.security:spring-security-config:$springSecurityVersion&amp;rdquo; compile &amp;ldquo;org.springframework.security:spring-security-javaconfig:1.0.0.CI-SNAPSHOT&amp;rdquo; }</description>
     </item>
     
   </channel>

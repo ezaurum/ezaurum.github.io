@@ -17,9 +17,9 @@
       <description>WASM은 WebAssembly의 약어로, 용어자체에서 보둣, 웹에서 ASM을 돌려보자는 프로젝트이다. 여러 장점이 있다고 하는데, 일단 가장 크게 느껴지는 건 익숙한 언어로 웹프로그래밍을 할 수 있을거라는 기대감이다.
 이미 대부분의 브라우저에서 지원 해 주고 있고, Go에서도 1.10버전부터 정식 지원한다고 한다.
 일단 검색해보니 참고 포스트가 하나 나와서 따라 해 봤다.
- 새 버전 go를 받아서 컴파일한다.   11버전부터니, Go 저장소에서 clone한다.
+새 버전 go를 받아서 컴파일한다. 11버전부터니, Go 저장소에서 clone한다.
 git clone https://github.com/golang/go 그 다음 src 에서 all.bash를 실행한다.
-./all.bash 그럼 컴파일이 되고, .</description>
+./all.bash 그럼 컴파일이 되고, ../bin에 go 가 생겨 있을 것이다.</description>
     </item>
     
   </channel>

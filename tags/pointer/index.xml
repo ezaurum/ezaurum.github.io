@@ -18,8 +18,8 @@
 이걸 알면 모두 OK.
 pointer[x][y][z] 는 *(pointer[x][y]+z) pointer[x][y] 는 *(pointer[x]+y) pointer[x]는 *(pointer+x)
 그러니 pointer[x][y][z]는 ((*(pointer+x)+y)+z)
-추가로 알아둘 사항.  void * pp; int a=35; pp = &amp;amp;a; int ppp[5][5] = { 0, };
-printf(&amp;quot;%dn&amp;quot;,sizeof(pp));printf(&amp;quot;%dn&amp;quot;,*(int*)pp);printf(&amp;quot;%dn&amp;quot;,sizeof(ppp));printf(&amp;quot;%dn&amp;quot;,sizeof(ppp[0]));printf(&amp;quot;%dn&amp;quot;,sizeof(ppp[0][0]));printf(&amp;quot;%pn&amp;quot;,ppp);printf(&amp;quot;%pn&amp;quot;,ppp+1);printf(&amp;quot;%pn&amp;quot;,*(ppp+2)+1);printf(&amp;quot;%pn&amp;quot;,ppp[2]+1);printf(&amp;quot;%pn&amp;quot;,&amp;amp;amp;ppp[2][1]);printf(&amp;quot;%pn&amp;quot;,ppp[0][0]+1); pointer +1 은 pointer값 + sizeof(*pointer);
+추가로 알아둘 사항. void * pp; int a=35; pp = &amp;amp;a; int ppp[5][5] = { 0, };
+printf(&amp;quot;%dn&amp;quot;,sizeof(pp));printf(&amp;quot;%dn&amp;quot;,*(int*)pp);printf(&amp;quot;%dn&amp;quot;,sizeof(ppp));printf(&amp;quot;%dn&amp;quot;,sizeof(ppp[0]));printf(&amp;quot;%dn&amp;quot;,sizeof(ppp[0][0]));printf(&amp;quot;%pn&amp;quot;,ppp);printf(&amp;quot;%pn&amp;quot;,ppp+1);printf(&amp;quot;%pn&amp;quot;,*(ppp+2)+1);printf(&amp;quot;%pn&amp;quot;,ppp[2]+1);printf(&amp;quot;%pn&amp;quot;,&amp;amp;amp;ppp[2][1]);printf(&amp;quot;%pn&amp;quot;,ppp[0][0]+1);pointer +1 은 pointer값 + sizeof(*pointer);
 혹여나 해서 추가해보는 codepad link</description>
     </item>
     

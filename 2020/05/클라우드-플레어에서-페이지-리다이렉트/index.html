@@ -21,7 +21,7 @@
     <meta itemprop="name" content="클라우드 플레어에서 페이지 리다이렉트">
 <meta itemprop="description" content="목적 클라우드 플레어에서 특정 도메인을 다른 도메인으로 리다이렉트 한다
 예를 들어 test.test.com 을 gogo.com 으로 리다이렉트 하고 싶다고 하자.
- DNS 설정에서 CNAME을 추가하고, 서브도메인을 메인 도메인으로 프록시 설정한다. CNAME : test / @ (가장 오른쪽의 proxied를 체크) page rule 설정에서 *test.test.com 을 추가하고 gogo.com으로 연결한다.  서브도메인을 메인 도메인으로 프록시 설정하는 걸 빼먹으면 정상작동하지 않는다."><meta itemprop="datePublished" content="2020-05-13T15:20:35+09:00" />
+DNS 설정에서 CNAME을 추가하고, 서브도메인을 메인 도메인으로 프록시 설정한다. CNAME : test / @ (가장 오른쪽의 proxied를 체크) page rule 설정에서 *test.test.com 을 추가하고 gogo.com으로 연결한다. 서브도메인을 메인 도메인으로 프록시 설정하는 걸 빼먹으면 정상작동하지 않는다."><meta itemprop="datePublished" content="2020-05-13T15:20:35+09:00" />
 <meta itemprop="dateModified" content="2020-05-13T15:20:35+09:00" />
 <meta itemprop="wordCount" content="54">
 <meta itemprop="keywords" content="레시피,따라하기,정리,cloudflare,forwarding,pagerule," />
@@ -29,12 +29,12 @@
 <meta name="twitter:title" content="클라우드 플레어에서 페이지 리다이렉트"/>
 <meta name="twitter:description" content="목적 클라우드 플레어에서 특정 도메인을 다른 도메인으로 리다이렉트 한다
 예를 들어 test.test.com 을 gogo.com 으로 리다이렉트 하고 싶다고 하자.
- DNS 설정에서 CNAME을 추가하고, 서브도메인을 메인 도메인으로 프록시 설정한다. CNAME : test / @ (가장 오른쪽의 proxied를 체크) page rule 설정에서 *test.test.com 을 추가하고 gogo.com으로 연결한다.  서브도메인을 메인 도메인으로 프록시 설정하는 걸 빼먹으면 정상작동하지 않는다."/>
+DNS 설정에서 CNAME을 추가하고, 서브도메인을 메인 도메인으로 프록시 설정한다. CNAME : test / @ (가장 오른쪽의 proxied를 체크) page rule 설정에서 *test.test.com 을 추가하고 gogo.com으로 연결한다. 서브도메인을 메인 도메인으로 프록시 설정하는 걸 빼먹으면 정상작동하지 않는다."/>
 
     <meta property="og:title" content="클라우드 플레어에서 페이지 리다이렉트" />
 <meta property="og:description" content="목적 클라우드 플레어에서 특정 도메인을 다른 도메인으로 리다이렉트 한다
 예를 들어 test.test.com 을 gogo.com 으로 리다이렉트 하고 싶다고 하자.
- DNS 설정에서 CNAME을 추가하고, 서브도메인을 메인 도메인으로 프록시 설정한다. CNAME : test / @ (가장 오른쪽의 proxied를 체크) page rule 설정에서 *test.test.com 을 추가하고 gogo.com으로 연결한다.  서브도메인을 메인 도메인으로 프록시 설정하는 걸 빼먹으면 정상작동하지 않는다." />
+DNS 설정에서 CNAME을 추가하고, 서브도메인을 메인 도메인으로 프록시 설정한다. CNAME : test / @ (가장 오른쪽의 proxied를 체크) page rule 설정에서 *test.test.com 을 추가하고 gogo.com으로 연결한다. 서브도메인을 메인 도메인으로 프록시 설정하는 걸 빼먹으면 정상작동하지 않는다." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://ezaurum.com/2020/05/%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C-%ED%94%8C%EB%A0%88%EC%96%B4%EC%97%90%EC%84%9C-%ED%8E%98%EC%9D%B4%EC%A7%80-%EB%A6%AC%EB%8B%A4%EC%9D%B4%EB%A0%89%ED%8A%B8/" /><meta property="article:section" content="recipe" />
 <meta property="article:published_time" content="2020-05-13T15:20:35+09:00" />
@@ -121,6 +121,8 @@ CNAME : test / @ (가장 오른쪽의 proxied를 체크)</li>
     
         
 
+        
+            
         
             
         
@@ -563,6 +565,10 @@ CNAME : test / @ (가장 오른쪽의 proxied를 체크)</li>
             
         
             
+        <li><a href="https://ezaurum.com/2022/09/EC2-ssh-%ED%82%A4%EA%B0%80-%EC%97%86%EC%96%B4%EC%A1%8C%EC%9D%84-%EB%95%8C/">EC2 ssh 키가 없어졌을 때</a></li>
+            
+        
+            
         
             
         
@@ -948,42 +954,6 @@ CNAME : test / @ (가장 오른쪽의 proxied를 체크)</li>
         
             
         <li><a href="https://ezaurum.com/2020/04/mysql-%EC%82%AC%EC%9A%A9%EC%9E%90-%EC%B6%94%EA%B0%80/">mysql 사용자 추가</a></li>
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
             
         
             
@@ -3878,6 +3848,40 @@ CNAME : test / @ (가장 오른쪽의 proxied를 체크)</li>
         
             
         
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
 
     
     </ul>
@@ -3886,7 +3890,7 @@ CNAME : test / @ (가장 오른쪽의 proxied를 체크)</li>
 
     <div id="disqus_thread"></div>
 <script type="application/javascript">
-    var disqus_config = function () {
+    window.disqus_config = function () {
     
     
     

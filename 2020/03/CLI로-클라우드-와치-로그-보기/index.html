@@ -20,18 +20,18 @@
 
     <meta itemprop="name" content="CLI로 클라우드 와치 로그 보기">
 <meta itemprop="description" content="목적 aws cli 로 cloudwatch 로그 보기 방법(윈도에서 awslogs가 안 먹을때)
- 로그 그룹 이름으로 로그 스트림들을 얻어온다 aws logs describe-log-streams --log-group-name /log/group/name 받아온 JSON에서 logStreamName 을 찾아 필요한 log stream name 을 알아낸다. 찾은 log stream 으로 로그를 얻어온다. aws logs get-log-events --output text --log-group-name /log/group/name --log-stream-name 2019/10/01/[$LATEST]hash  "><meta itemprop="datePublished" content="2020-03-25T09:44:59+09:00" />
+로그 그룹 이름으로 로그 스트림들을 얻어온다 aws logs describe-log-streams --log-group-name /log/group/name 받아온 JSON에서 logStreamName 을 찾아 필요한 log stream name 을 알아낸다. 찾은 log stream 으로 로그를 얻어온다. aws logs get-log-events --output text --log-group-name /log/group/name --log-stream-name 2019/10/01/[$LATEST]hash "><meta itemprop="datePublished" content="2020-03-25T09:44:59+09:00" />
 <meta itemprop="dateModified" content="2020-03-25T09:44:59+09:00" />
 <meta itemprop="wordCount" content="48">
 <meta itemprop="keywords" content="레시피,따라하기,정리,aws,Cloudwatch," />
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="CLI로 클라우드 와치 로그 보기"/>
 <meta name="twitter:description" content="목적 aws cli 로 cloudwatch 로그 보기 방법(윈도에서 awslogs가 안 먹을때)
- 로그 그룹 이름으로 로그 스트림들을 얻어온다 aws logs describe-log-streams --log-group-name /log/group/name 받아온 JSON에서 logStreamName 을 찾아 필요한 log stream name 을 알아낸다. 찾은 log stream 으로 로그를 얻어온다. aws logs get-log-events --output text --log-group-name /log/group/name --log-stream-name 2019/10/01/[$LATEST]hash  "/>
+로그 그룹 이름으로 로그 스트림들을 얻어온다 aws logs describe-log-streams --log-group-name /log/group/name 받아온 JSON에서 logStreamName 을 찾아 필요한 log stream name 을 알아낸다. 찾은 log stream 으로 로그를 얻어온다. aws logs get-log-events --output text --log-group-name /log/group/name --log-stream-name 2019/10/01/[$LATEST]hash "/>
 
     <meta property="og:title" content="CLI로 클라우드 와치 로그 보기" />
 <meta property="og:description" content="목적 aws cli 로 cloudwatch 로그 보기 방법(윈도에서 awslogs가 안 먹을때)
- 로그 그룹 이름으로 로그 스트림들을 얻어온다 aws logs describe-log-streams --log-group-name /log/group/name 받아온 JSON에서 logStreamName 을 찾아 필요한 log stream name 을 알아낸다. 찾은 log stream 으로 로그를 얻어온다. aws logs get-log-events --output text --log-group-name /log/group/name --log-stream-name 2019/10/01/[$LATEST]hash  " />
+로그 그룹 이름으로 로그 스트림들을 얻어온다 aws logs describe-log-streams --log-group-name /log/group/name 받아온 JSON에서 logStreamName 을 찾아 필요한 log stream name 을 알아낸다. 찾은 log stream 으로 로그를 얻어온다. aws logs get-log-events --output text --log-group-name /log/group/name --log-stream-name 2019/10/01/[$LATEST]hash " />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://ezaurum.com/2020/03/CLI%EB%A1%9C-%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C-%EC%99%80%EC%B9%98-%EB%A1%9C%EA%B7%B8-%EB%B3%B4%EA%B8%B0/" /><meta property="article:section" content="recipe" />
 <meta property="article:published_time" content="2020-03-25T09:44:59+09:00" />
@@ -114,6 +114,8 @@
     
         
 
+        
+            
         
             
         
@@ -556,6 +558,10 @@
             
         
             
+        <li><a href="https://ezaurum.com/2022/09/EC2-ssh-%ED%82%A4%EA%B0%80-%EC%97%86%EC%96%B4%EC%A1%8C%EC%9D%84-%EB%95%8C/">EC2 ssh 키가 없어졌을 때</a></li>
+            
+        
+            
         
             
         
@@ -941,42 +947,6 @@
         
             
         <li><a href="https://ezaurum.com/2020/04/mysql-%EC%82%AC%EC%9A%A9%EC%9E%90-%EC%B6%94%EA%B0%80/">mysql 사용자 추가</a></li>
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
             
         
             
@@ -3871,6 +3841,40 @@
         
             
         
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
 
     
     </ul>
@@ -3879,7 +3883,7 @@
 
     <div id="disqus_thread"></div>
 <script type="application/javascript">
-    var disqus_config = function () {
+    window.disqus_config = function () {
     
     
     

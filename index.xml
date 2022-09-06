@@ -7,14 +7,27 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Fri, 31 Dec 2021 12:05:28 +0900</lastBuildDate><atom:link href="https://ezaurum.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 06 Sep 2022 13:16:42 +0900</lastBuildDate><atom:link href="https://ezaurum.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>EC2 ssh 키가 없어졌을 때</title>
+      <link>https://ezaurum.com/2022/09/EC2-ssh-%ED%82%A4%EA%B0%80-%EC%97%86%EC%96%B4%EC%A1%8C%EC%9D%84-%EB%95%8C/</link>
+      <pubDate>Tue, 06 Sep 2022 13:16:42 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/2022/09/EC2-ssh-%ED%82%A4%EA%B0%80-%EC%97%86%EC%96%B4%EC%A1%8C%EC%9D%84-%EB%95%8C/</guid>
+      <description>SSH 키를 복구 홈 디렉토리에서 rm -rf . 따위를 해서 .ssh 디렉토리가 날아갔거나, 키가 pem 파일로만 존재하는데 삭제 한 경우, 이후에 접근이 불가능하다.
+연결을 끊기 전에 알았다면 ~/.ssh/authorized_keys에 다시 공개키를 추가한다거나 하면 문제는 없지만 그러지 못한 경우는 다음 설명을 따라간다.
+아마존 설명
+일단 키를 확보한다. 그냥 단순히 .ssh를 날린 거라면 이 단계는 패스한다. 생성한 키에서 공개키를 만든다. ssh-keygen -y -f /path_to_key_pair/my-key-pair.pem 공개키 생성 방법
+인스턴스를 끈다- terminate가 아니다- Actions, Instance settings, Edit user data.</description>
+    </item>
+    
     <item>
       <title>2021년 전체 회고</title>
       <link>https://ezaurum.com/retrospective/2021-full-year/</link>
       <pubDate>Fri, 31 Dec 2021 12:05:28 +0900</pubDate>
       
       <guid>https://ezaurum.com/retrospective/2021-full-year/</guid>
-      <description>한 일  4000커밋 달성 연애 시작 리바이벌 랩스 우상향 중 양압기 도입 운전 시작  감상  나쁘지 않다. 어제보다 나은 내일을 기대하고 있다 실력이 좀 늘었다는 느낌 우상향 하는 프로젝트는 참 기분이 좋다 어떻게 운전을 할 수 는 있겠다.  교훈  규칙적인 생활이 중요하다 - 말 뿐만이 아니라 실행이 충분한 수면과 운동이 필요하다  </description>
+      <description>한 일 4000커밋 달성 연애 시작 리바이벌 랩스 우상향 중 양압기 도입 운전 시작 감상 나쁘지 않다. 어제보다 나은 내일을 기대하고 있다 실력이 좀 늘었다는 느낌 우상향 하는 프로젝트는 참 기분이 좋다 어떻게 운전을 할 수 는 있겠다. 교훈 규칙적인 생활이 중요하다 - 말 뿐만이 아니라 실행이 충분한 수면과 운동이 필요하다 </description>
     </item>
     
     <item>
@@ -25,7 +38,7 @@
       <guid>https://ezaurum.com/study/async-sync-vs-block-non-block/</guid>
       <description>옛날에 어느 N사 면접에서 나온 질문인데 대답이 명확하게 나오지 않아서 나중에 알아봐야지 하다가 말았던 것.
 결론은 결국 영어 공부였다. Async/Sync - Block/Non-Block 의 의미를 이해하면 될 문제였던 것.
- Block/Non-Block Block/Non-Block 은 프로시저의 실행이 멈추는가를 표현하는 용어다.
+Block/Non-Block Block/Non-Block 은 프로시저의 실행이 멈추는가를 표현하는 용어다.
 실행 중인 프로시저A가 다른 프로시저B를 호출 할 때, 호출된 프로시저B가 자기가 끝날 때까지 A 를 멈추면(Block) Block이고 안 멈추면(Non-Block) Non-Block이다.
 실제 구현된 프로그램 함수로 생각한다면 호출된 함수가 모든 작업이 끝난 다음에 return 하냐 작업이 끝나기 전에 return 하냐 하는 것을 생각하면 되겠다.</description>
     </item>
@@ -36,9 +49,8 @@
       <pubDate>Thu, 08 Apr 2021 18:34:33 +0900</pubDate>
       
       <guid>https://ezaurum.com/development-log/2021-04-08/</guid>
-      <description>  라이브러리 버전 업데이트 일단 오랜만이라 라이브러리를 업데이트 했다.
-  캐릭터 카드에 스타일 지정 캐릭터 카드에 스타일을 입혀서 일단 카드로는 보이게 했다. 스테이터스 이름 같은 건 따로 JSON에서 가져와서 보이도록 함
-  </description>
+      <description>라이브러리 버전 업데이트 일단 오랜만이라 라이브러리를 업데이트 했다.
+캐릭터 카드에 스타일 지정 캐릭터 카드에 스타일을 입혀서 일단 카드로는 보이게 했다. 스테이터스 이름 같은 건 따로 JSON에서 가져와서 보이도록 함</description>
     </item>
     
     <item>
@@ -50,9 +62,9 @@
       <description>알고리즘 스터디를 하다 6시간 이상 낑낑대며 풀어서 아까워서 정리 언젠가는 쉽게 풀 수 있겠지.
 문제 2018카카오 블라인드 테스트
 신경써야 하는 부분 정렬된 기준점에서 시작해야 함 Sweeping Algorithm 참조
-일반 풀이   Sweep a line across problem plane. 문제를 평면에 놓고 줄을 긋는다
-  As the line sweeps across the plane, events of interest occur, keep track of these events. 줄이 평면에 그어지면서 뭔가 사건이 생기면 그걸 추적한다.
-  Deal with events that occur at the line leaving a solved problem behind.</description>
+일반 풀이 Sweep a line across problem plane. 문제를 평면에 놓고 줄을 긋는다
+As the line sweeps across the plane, events of interest occur, keep track of these events. 줄이 평면에 그어지면서 뭔가 사건이 생기면 그걸 추적한다.
+Deal with events that occur at the line leaving a solved problem behind.</description>
     </item>
     
     <item>
@@ -62,9 +74,9 @@
       
       <guid>https://ezaurum.com/development-log/2021-02-27/</guid>
       <description>게임 상태 머신 추가 기본적으로 title -&amp;gt; main 으로 가도록 FSM을 추가했다. 이후에 상태 자체를 클래스로 빼 둘 예정
-  글로벌 이벤트 버스 추가 mitt 를 써서 글로벌 이벤트 버스를 사용하기로 결정. 메인 메뉴를 클릭하면 글로벌 이벤트가 발생된다
-  메뉴 항목의 데이터 구조 정의 각 메뉴 항목마다 데이터 구조를 정의함
-  기본 캐릭터 스테이터스 정의 기본 캐릭터 능력치들을 결정함. 이미 전에 결정된 건데, 클래스 만들고 정리함.</description>
+글로벌 이벤트 버스 추가 mitt 를 써서 글로벌 이벤트 버스를 사용하기로 결정. 메인 메뉴를 클릭하면 글로벌 이벤트가 발생된다
+메뉴 항목의 데이터 구조 정의 각 메뉴 항목마다 데이터 구조를 정의함
+기본 캐릭터 스테이터스 정의 기본 캐릭터 능력치들을 결정함. 이미 전에 결정된 건데, 클래스 만들고 정리함. 다중지능 이론에서 지능을 설정</description>
     </item>
     
     <item>
@@ -74,7 +86,7 @@
       
       <guid>https://ezaurum.com/2021/02/2021%EB%85%84-%EB%AA%A9%ED%91%9C/</guid>
       <description>목표 올해 만들 게임 그래픽 리소스를 내가 만들기
-방법  매주 일요일 오전 4시간 할당 - 08-12 피드백은 근처 전문가에게(미술교사 친누나)  </description>
+방법 매주 일요일 오전 4시간 할당 - 08-12 피드백은 근처 전문가에게(미술교사 친누나) </description>
     </item>
     
     <item>
@@ -92,7 +104,7 @@
       <pubDate>Thu, 31 Dec 2020 13:05:28 +0900</pubDate>
       
       <guid>https://ezaurum.com/retrospective/2020-full-year/</guid>
-      <description>한 일  5000커밋 달성 닌텐도 스위치 구매, 열심히 게임중 학자금 융자 모두 상환 집에 가전제품을 많이 샀다 목표로 삼았던 10kg 감량은 실패 목표로 삼았던 게임 출시도 실패 목표로 삼았던 콘크리트 매쓰매틱스도 실패 Go 스터디 모임 하나 진행 Node JS 프로젝트 하나 진행 오랜만에 Java + Spring + MyBatis 프로젝트 진행 손 댄 프로젝트 우상향 중  감상  나쁘지 않다. 어제보다 나은 내일을 기대하고 있다 실력이 좀 늘었다는 느낌 우상향 하는 프로젝트는 참 기분이 좋다  교훈  규칙적인 생활이 중요하다 - 말 뿐만이 아니라 실행이 충분한 수면과 운동이 필요하다  </description>
+      <description>한 일 5000커밋 달성 닌텐도 스위치 구매, 열심히 게임중 학자금 융자 모두 상환 집에 가전제품을 많이 샀다 목표로 삼았던 10kg 감량은 실패 목표로 삼았던 게임 출시도 실패 목표로 삼았던 콘크리트 매쓰매틱스도 실패 Go 스터디 모임 하나 진행 Node JS 프로젝트 하나 진행 오랜만에 Java + Spring + MyBatis 프로젝트 진행 손 댄 프로젝트 우상향 중 감상 나쁘지 않다. 어제보다 나은 내일을 기대하고 있다 실력이 좀 늘었다는 느낌 우상향 하는 프로젝트는 참 기분이 좋다 교훈 규칙적인 생활이 중요하다 - 말 뿐만이 아니라 실행이 충분한 수면과 운동이 필요하다 </description>
     </item>
     
     <item>
@@ -112,7 +124,7 @@
       
       <guid>https://ezaurum.com/2020/06/%EC%95%84%EC%B9%98-%EB%A6%AC%EB%88%85%EC%8A%A4%EC%97%90%EC%84%9C-%EC%8A%A4%ED%81%AC%EB%A6%B0-%EC%BA%A1%EC%B2%98%ED%95%98%EA%B8%B0/</guid>
       <description>목적 프린트 스크린 키가 없는 키보드에서 스크린 캡처
-$ import -window root ~/Pictures/$(date &#39;+%Y%m%d-%H%M%S&#39;).png 출처 Screen capture</description>
+$ import -window root ~/Pictures/$(date &amp;#39;+%Y%m%d-%H%M%S&amp;#39;).png 출처 Screen capture</description>
     </item>
     
     <item>
@@ -121,7 +133,7 @@ $ import -window root ~/Pictures/$(date &#39;+%Y%m%d-%H%M%S&#39;).png 출처 Scr
       <pubDate>Sun, 31 May 2020 22:05:28 +0900</pubDate>
       
       <guid>https://ezaurum.com/retrospective/2020-2nd-quater/</guid>
-      <description>한 일  지금까지 한 프로젝트들을 바탕으로 이후 작업할 프로젝트 프론트/백엔드 템플릿을 만들었다 주식투자 손해는 안 보고 대충 정리. 죄책감 없이 유튜브 영상을 볼 수 있게 되었다. 몇십억 단위 프로젝트 견적을 짜 봤다.  감상  뭐든지 내 생각보다 시간이 많이 걸린다. 천천히 하자  교훈  규칙적인 생활이 중요하다  </description>
+      <description>한 일 지금까지 한 프로젝트들을 바탕으로 이후 작업할 프로젝트 프론트/백엔드 템플릿을 만들었다 주식투자 손해는 안 보고 대충 정리. 죄책감 없이 유튜브 영상을 볼 수 있게 되었다. 몇십억 단위 프로젝트 견적을 짜 봤다. 감상 뭐든지 내 생각보다 시간이 많이 걸린다. 천천히 하자 교훈 규칙적인 생활이 중요하다 </description>
     </item>
     
     <item>
@@ -132,7 +144,7 @@ $ import -window root ~/Pictures/$(date &#39;+%Y%m%d-%H%M%S&#39;).png 출처 Scr
       <guid>https://ezaurum.com/2020/05/%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C-%ED%94%8C%EB%A0%88%EC%96%B4%EC%97%90%EC%84%9C-%ED%8E%98%EC%9D%B4%EC%A7%80-%EB%A6%AC%EB%8B%A4%EC%9D%B4%EB%A0%89%ED%8A%B8/</guid>
       <description>목적 클라우드 플레어에서 특정 도메인을 다른 도메인으로 리다이렉트 한다
 예를 들어 test.test.com 을 gogo.com 으로 리다이렉트 하고 싶다고 하자.
- DNS 설정에서 CNAME을 추가하고, 서브도메인을 메인 도메인으로 프록시 설정한다. CNAME : test / @ (가장 오른쪽의 proxied를 체크) page rule 설정에서 *test.test.com 을 추가하고 gogo.com으로 연결한다.  서브도메인을 메인 도메인으로 프록시 설정하는 걸 빼먹으면 정상작동하지 않는다.</description>
+DNS 설정에서 CNAME을 추가하고, 서브도메인을 메인 도메인으로 프록시 설정한다. CNAME : test / @ (가장 오른쪽의 proxied를 체크) page rule 설정에서 *test.test.com 을 추가하고 gogo.com으로 연결한다. 서브도메인을 메인 도메인으로 프록시 설정하는 걸 빼먹으면 정상작동하지 않는다.</description>
     </item>
     
     <item>
@@ -171,7 +183,7 @@ CREATE DATABASE example; CREATE USER &amp;#39;user_name&amp;#39;@&amp;#39;%&amp;
       <pubDate>Thu, 02 Apr 2020 19:37:28 +0900</pubDate>
       
       <guid>https://ezaurum.com/retrospective/2020-1st-quater/</guid>
-      <description>한 일  드디어 CI/CD 를 굴렸다 목표였던 콩콩 배포 자동화 완료 테라폼으로 인프라 생성을 코드화했다 사무실 생성 소상공인 대출 주식투자 본격 시작 위급상황의 국제선 비행기 예매 및 구조 파악 Admin 페이지 틀 생성  감상  테라폼 좋다 역시 CI/CD는 편하다  교훈  시간을 들여 천천히 하자 조급해 하지 말자  </description>
+      <description>한 일 드디어 CI/CD 를 굴렸다 목표였던 콩콩 배포 자동화 완료 테라폼으로 인프라 생성을 코드화했다 사무실 생성 소상공인 대출 주식투자 본격 시작 위급상황의 국제선 비행기 예매 및 구조 파악 Admin 페이지 틀 생성 감상 테라폼 좋다 역시 CI/CD는 편하다 교훈 시간을 들여 천천히 하자 조급해 하지 말자 </description>
     </item>
     
     <item>
@@ -181,7 +193,7 @@ CREATE DATABASE example; CREATE USER &amp;#39;user_name&amp;#39;@&amp;#39;%&amp;
       
       <guid>https://ezaurum.com/2020/03/%EA%B0%80%EC%9A%B4%EB%8D%B0%EC%97%90%EC%84%9C-%EC%B0%A8%EC%98%A4%EB%A5%B4%EB%8A%94-%ED%9A%A8%EA%B3%BC%EA%B0%80-%EC%9E%88%EB%8A%94-%EB%B2%84%ED%8A%BC-%ED%9B%84%EB%B2%84-%EC%9D%B4%ED%8E%99%ED%8A%B8/</guid>
       <description>목적 가운데에서 차오르는 효과가 있는 버튼 후버 이펙트
-See the Pen fill from center round button hover effect with css by Cho seokgyu (@ezaurum) on CodePen.  </description>
+See the Pen fill from center round button hover effect with css by Cho seokgyu (@ezaurum) on CodePen. </description>
     </item>
     
     <item>
@@ -201,8 +213,8 @@ See the Pen fill from center round button hover effect with css by Cho seokgyu (
       <guid>https://ezaurum.com/2020/03/Golang%EC%97%90%EC%84%9C-%EA%B0%99%EC%9D%80-%ED%8C%A8%ED%82%A4%EC%A7%80%EC%97%90-%EC%97%AC%EB%9F%AC-%EB%8F%84%EB%A9%94%EC%9D%B8-%EA%B0%9D%EC%B2%B4%EB%A5%BC-%EB%84%A3%EC%9C%BC%EB%A9%B4-%EC%95%88-%EB%90%98%EB%8A%94-%EC%9D%B4%EC%9C%A0/</guid>
       <description>Go 는 순환참조에 대해 매우 민감하다. 컴파일조차 되지 않는다.
 그게 불편해서 프로젝트의 도메인을 모두 한 곳에 집어넣는 경우가 있는데, 해 보니 다음과 같은 문제가 있었다.
-  네임스페이스가 겹쳐서 이름 짓기가 이상해진다 - 프로그래밍 레벨에서 이벤트를 쓰고, 행사라는 의미로 이벤트를 쓰면 둘 중 하나는 바꿔야 한다. 핸들러에서 메소드 이름으로 도메인 객체를 구분해야 하므로 매우 길어진다. create면 될 것을 createApplicationEvent 가 되는 식.
-  코드 복붙할 때 문제가 생긴다 - 자동 코드 생성기를 쓰든, 직접 복붙을 하든 1과 관련되어 패키지 이름이 겹치는 경우가 생기고, IDE의 리팩토링 툴을 쓰기도 곤란해진다.</description>
+네임스페이스가 겹쳐서 이름 짓기가 이상해진다 - 프로그래밍 레벨에서 이벤트를 쓰고, 행사라는 의미로 이벤트를 쓰면 둘 중 하나는 바꿔야 한다. 핸들러에서 메소드 이름으로 도메인 객체를 구분해야 하므로 매우 길어진다. create면 될 것을 createApplicationEvent 가 되는 식.
+코드 복붙할 때 문제가 생긴다 - 자동 코드 생성기를 쓰든, 직접 복붙을 하든 1과 관련되어 패키지 이름이 겹치는 경우가 생기고, IDE의 리팩토링 툴을 쓰기도 곤란해진다.</description>
     </item>
     
     <item>
@@ -212,7 +224,7 @@ See the Pen fill from center round button hover effect with css by Cho seokgyu (
       
       <guid>https://ezaurum.com/2020/03/CLI%EB%A1%9C-%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C-%EC%99%80%EC%B9%98-%EB%A1%9C%EA%B7%B8-%EB%B3%B4%EA%B8%B0/</guid>
       <description>목적 aws cli 로 cloudwatch 로그 보기 방법(윈도에서 awslogs가 안 먹을때)
- 로그 그룹 이름으로 로그 스트림들을 얻어온다 aws logs describe-log-streams --log-group-name /log/group/name 받아온 JSON에서 logStreamName 을 찾아 필요한 log stream name 을 알아낸다. 찾은 log stream 으로 로그를 얻어온다. aws logs get-log-events --output text --log-group-name /log/group/name --log-stream-name 2019/10/01/[$LATEST]hash  </description>
+로그 그룹 이름으로 로그 스트림들을 얻어온다 aws logs describe-log-streams --log-group-name /log/group/name 받아온 JSON에서 logStreamName 을 찾아 필요한 log stream name 을 알아낸다. 찾은 log stream 으로 로그를 얻어온다. aws logs get-log-events --output text --log-group-name /log/group/name --log-stream-name 2019/10/01/[$LATEST]hash </description>
     </item>
     
     <item>
@@ -234,13 +246,13 @@ See the Pen fill from center round button hover effect with css by Cho seokgyu (
       
       <guid>https://ezaurum.com/2020/03/%EC%BF%A0%ED%82%A4%EC%97%90-%EB%8C%80%ED%95%9C-%EC%A0%95%EB%A6%AC/</guid>
       <description>MDN 문서
-  Max-Age가 있으면 퍼시스턴스 쿠키(지정 시간까지 유효), 없으면 세션 쿠키(브라우저 닫힐 때 없어짐). 값이 0이나 음수면 쿠키가 삭제됨.
-  HttpOnly를 true로 두면 클라이언트에서 읽을 수 없음
-  Expires는 구버전(IE등)을 위한 것, Max-Age를 쓰자 쿠키에서 Max-Age와 Expires의 차이
-  메인 도메인을 지정하면 서브도메인도 매칭된다.
-  Secure는 HTTPS를 강제한다
-  Path 는 /를 쓰면 하위 매칭
-  도메인당 쿠키는 50개 이하, 최대 4KiB(실제로는 4000byte 라고 생각하는 게 편함) 으로 두는게 구형 브라우저에서도 문제가 없다.</description>
+Max-Age가 있으면 퍼시스턴스 쿠키(지정 시간까지 유효), 없으면 세션 쿠키(브라우저 닫힐 때 없어짐). 값이 0이나 음수면 쿠키가 삭제됨.
+HttpOnly를 true로 두면 클라이언트에서 읽을 수 없음
+Expires는 구버전(IE등)을 위한 것, Max-Age를 쓰자 쿠키에서 Max-Age와 Expires의 차이
+메인 도메인을 지정하면 서브도메인도 매칭된다.
+Secure는 HTTPS를 강제한다
+Path 는 /를 쓰면 하위 매칭
+도메인당 쿠키는 50개 이하, 최대 4KiB(실제로는 4000byte 라고 생각하는 게 편함) 으로 두는게 구형 브라우저에서도 문제가 없다. 실제론 이것보다 더 쓸 수 있다.</description>
     </item>
     
     <item>
@@ -250,7 +262,7 @@ See the Pen fill from center round button hover effect with css by Cho seokgyu (
       
       <guid>https://ezaurum.com/2020/01/Install-Arch-Linux-%EB%8D%B0%EC%8A%A4%ED%81%AC%ED%83%91-%ED%99%98%EA%B2%BD%EC%84%A4%EC%A0%95/</guid>
       <description>설치를 했으니 실제로 데스크탑으로 쓸 수 있도록 만들어본다. 어째서 아치리눅스를 쓰며 데스크탑환경을 안쓰는지 를 많이 참조했다.
- 사용자 추가 root 로 계속 쓸 수 없으니 사용자를 추가한다.  useradd -m 이름 -g wheel passwd 이름 그룹을 wheel 로 설정했으니 wheel 이 sudo를 쓸 수 있게 해 준다.
+사용자 추가 root 로 계속 쓸 수 없으니 사용자를 추가한다. useradd -m 이름 -g wheel passwd 이름 그룹을 wheel 로 설정했으니 wheel 이 sudo를 쓸 수 있게 해 준다.
 /etc/sudoers 를 열고 wheel 이 sudo 를 쓸 수 있게 해 준다.
 %wheel ALL=(ALL) ALL zsh 로 변경 bash는 불편한 점이 많으니, Oh My Zsh 로 쉘을 변경한다.</description>
     </item>
@@ -261,7 +273,7 @@ See the Pen fill from center round button hover effect with css by Cho seokgyu (
       <pubDate>Wed, 01 Jan 2020 21:30:07 +0900</pubDate>
       
       <guid>https://ezaurum.com/2020/01/2020%EB%85%84-%EB%AA%A9%ED%91%9C/</guid>
-      <description> 건강 - 10kg 감량 업무 - 게임 2개 오픈, 콩콩 배포 및 운영 자동화 공부 - 콘크리트 매쓰매틱스 다 보기  </description>
+      <description> 건강 - 10kg 감량 업무 - 게임 2개 오픈, 콩콩 배포 및 운영 자동화 공부 - 콘크리트 매쓰매틱스 다 보기 </description>
     </item>
     
     <item>
@@ -280,7 +292,7 @@ See the Pen fill from center round button hover effect with css by Cho seokgyu (
       
       <guid>https://ezaurum.com/2019/11/Install-Arch-Linux/</guid>
       <description>아치 리눅스는 가볍고 이것저것 변경하기 좋은 리눅스 배포판이다.
-설치 전 준비물  USB, CD 등 부팅할 물건 ISO 이미지 인터넷, 가능하면 유선환경을 추천(WIFI가 안 되는 경우가 있음) 설치 중 문제해결을 위한 추가PC or 스마트폰 아치 리눅스 설치 한국어 가이드  설치 1. 이미지 usb에 굽기 일단 lsblk 로 usb의 경로를 알아낸다.
+설치 전 준비물 USB, CD 등 부팅할 물건 ISO 이미지 인터넷, 가능하면 유선환경을 추천(WIFI가 안 되는 경우가 있음) 설치 중 문제해결을 위한 추가PC or 스마트폰 아치 리눅스 설치 한국어 가이드 설치 1. 이미지 usb에 굽기 일단 lsblk 로 usb의 경로를 알아낸다.
 NAME MAJ:MIN RM SIZE RO TYPE MOUNTPOINT sda 8:0 1 14.9G 0 disk ├─sda1 8:1 1 609M 0 part /run/media/ezaurum/ARCH_201905 └─sda2 8:2 1 64M 0 part nvme0n1 259:0 0 953.</description>
     </item>
     
@@ -290,7 +302,7 @@ NAME MAJ:MIN RM SIZE RO TYPE MOUNTPOINT sda 8:0 1 14.9G 0 disk ├─sda1 8:1 1 
       <pubDate>Sat, 14 Sep 2019 18:03:45 +0900</pubDate>
       
       <guid>https://ezaurum.com/2019/09/%EC%A0%80%EC%8A%A4%ED%8B%B0%EC%8A%A4-%EB%A6%AC%EA%B7%B8%EC%97%90%EC%84%9C-%EC%A2%8B%EC%95%98%EB%8D%98-%EB%B6%80%EB%B6%84/</guid>
-      <description>오프닝의 Everybody know 노래 및 슈퍼맨이 없어진 세계 원더우먼 가죽바지 처음 빅터 등장 신 플래시가 처음 전투에 참여하려고 하는 장면 - 배트맨의 멘토링 원더우먼 등장 씬 - 이후 유물 복구까지  저 부분만 살리고 어떻게 안 되려나&amp;hellip;</description>
+      <description>오프닝의 Everybody know 노래 및 슈퍼맨이 없어진 세계 원더우먼 가죽바지 처음 빅터 등장 신 플래시가 처음 전투에 참여하려고 하는 장면 - 배트맨의 멘토링 원더우먼 등장 씬 - 이후 유물 복구까지 저 부분만 살리고 어떻게 안 되려나&amp;hellip;</description>
     </item>
     
     <item>
@@ -301,7 +313,7 @@ NAME MAJ:MIN RM SIZE RO TYPE MOUNTPOINT sda 8:0 1 14.9G 0 disk ├─sda1 8:1 1 
       <guid>https://ezaurum.com/2019/09/%ED%99%8D%EC%BD%A9-%EC%97%AC%ED%96%89/</guid>
       <description>2018년 2월에 치앙마이에서 한국으로 돌아올 때 홍콩-마카오 코스를 거쳤다. 입국장 통과하는데 한시간 반 걸렸다. 첨에 줄 서고 30분 기다려서 도착했는데 서류 하나 안 적어서 다시 30분 반복. 한밤중에 도착해서 택시를 탔다. 차는 낡았는데 꽤 차가 크다는 인상이었다. 치앙마이에서 일본 차를 타고 다녀서 그럴지도.
 홍콩은 정말 건물이 높았다. 첫인상은
- 크다 마천루 공기 나빠  가로등이 버섯같이 서 있는 걸 보니 정말 공가 나쁘다는게 실감되었다.
+크다 마천루 공기 나빠 가로등이 버섯같이 서 있는 걸 보니 정말 공가 나쁘다는게 실감되었다.
 시가 나오는 풍경이었어.
 하늘을 끌어내리고 별을 손 쥐어 땅에 뿌린다.</description>
     </item>
@@ -312,7 +324,7 @@ NAME MAJ:MIN RM SIZE RO TYPE MOUNTPOINT sda 8:0 1 14.9G 0 disk ├─sda1 8:1 1 
       <pubDate>Mon, 01 Jul 2019 15:53:07 +0900</pubDate>
       
       <guid>https://ezaurum.com/retrospective/2019-2nd-quater/</guid>
-      <description>한 일  첫 일본여행 - 후쿠오카 4박5 컴 업글 - AMD로 돌아감 운동시작 - 6.10 부터 유니티 앱 개발 - 시작만 함 AR전화 서비스 구조개선 네이버에서 AWS로 운영서버 이전 도커로 빌드, 배포 오래 묵은 DB 트랙잭션 중 예외처리 중 rollback 처리가 되지 않은 버그 수정. 코오롱 리뷰 - 크레마API 연동 스택 드라이버 세팅 공부 웹에서 이어올리기 기능 구현 람다를 해 봄 여러 CI/CD 서비스 조사 고시원 생활 시작 - 3개 회사 일이라 출퇴근 시간을 줄이기 위해 회사 정기 소모비용 발생 - 서버/고시원 비용 대출금 1건 변제 완료 빠찡꼬 해봄 목표 연수입 달성  감상  큰 통신사도 역시 구리다.</description>
+      <description>한 일 첫 일본여행 - 후쿠오카 4박5 컴 업글 - AMD로 돌아감 운동시작 - 6.10 부터 유니티 앱 개발 - 시작만 함 AR전화 서비스 구조개선 네이버에서 AWS로 운영서버 이전 도커로 빌드, 배포 오래 묵은 DB 트랙잭션 중 예외처리 중 rollback 처리가 되지 않은 버그 수정. 코오롱 리뷰 - 크레마API 연동 스택 드라이버 세팅 공부 웹에서 이어올리기 기능 구현 람다를 해 봄 여러 CI/CD 서비스 조사 고시원 생활 시작 - 3개 회사 일이라 출퇴근 시간을 줄이기 위해 회사 정기 소모비용 발생 - 서버/고시원 비용 대출금 1건 변제 완료 빠찡꼬 해봄 목표 연수입 달성 감상 큰 통신사도 역시 구리다.</description>
     </item>
     
     <item>
@@ -322,7 +334,7 @@ NAME MAJ:MIN RM SIZE RO TYPE MOUNTPOINT sda 8:0 1 14.9G 0 disk ├─sda1 8:1 1 
       
       <guid>https://ezaurum.com/2019/06/%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C-%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%90-%EC%9B%B9%EC%82%AC%EC%9D%B4%ED%8A%B8-%EB%B0%B0%ED%8F%AC/</guid>
       <description>목적 클라우드 프론트에서 웹사이트 호스팅
- S3 생성 권한 등은 건드릴 필요 없음 클라우드 프론트 생성  만들면서 권한 role, 생성, policy 업데이트 커스텀 도메인을 써야 하면 미리 인증서 생성. 인증서는 미국동부쪽에 생성- 클라우드 프론트에서는 여기서 지정한 것만 쓸 수 있음 CNAME에 커스텀 도메인 이름 써주기 behavior에서 DefaultObject 써주기 index.html으로. 하지 않으면 루트 접근시 403 에러 남. 설정에서 defaultRoot도 index파일 로 써주기 적절하게 404,403 리다이렉트. VUE나 PWA 를 쓸 때    Troubleshoot  클라우드 프론트에서 307이 리턴되고 S3파일로 리다이렉트 될 때 - S3가 us-east-1 이 아닌경우, 이름이 전파되는 데 최대 24시간 걸릴 수 있다.</description>
+S3 생성 권한 등은 건드릴 필요 없음 클라우드 프론트 생성 만들면서 권한 role, 생성, policy 업데이트 커스텀 도메인을 써야 하면 미리 인증서 생성. 인증서는 미국동부쪽에 생성- 클라우드 프론트에서는 여기서 지정한 것만 쓸 수 있음 CNAME에 커스텀 도메인 이름 써주기 behavior에서 DefaultObject 써주기 index.html으로. 하지 않으면 루트 접근시 403 에러 남. 설정에서 defaultRoot도 index파일 로 써주기 적절하게 404,403 리다이렉트. VUE나 PWA 를 쓸 때 Troubleshoot 클라우드 프론트에서 307이 리턴되고 S3파일로 리다이렉트 될 때 - S3가 us-east-1 이 아닌경우, 이름이 전파되는 데 최대 24시간 걸릴 수 있다.</description>
     </item>
     
     <item>
@@ -333,7 +345,7 @@ NAME MAJ:MIN RM SIZE RO TYPE MOUNTPOINT sda 8:0 1 14.9G 0 disk ├─sda1 8:1 1 
       <guid>https://ezaurum.com/bug/cloud-front-access-denied/</guid>
       <description>문제 상황 CloudFront 를 웹사이트로 쓰기로 하고 S3의 파일을 연동했는데 메인 화면에서 AccessDenied가 뜸 읽기 권한은 있는 상태
 문제 원인 CloudFront의 ᅟDefaultObject가 지정되지 않았다. 목록을 읽어오는 권한은 없으니 AccessDenied가 뜬 것
-재발 방지를 위해  가끔 하는 작업은 진행 순서표 등을 이용해서 보고 따라한다. 작업을 하면 진행 순서표를 만든다.  </description>
+재발 방지를 위해 가끔 하는 작업은 진행 순서표 등을 이용해서 보고 따라한다. 작업을 하면 진행 순서표를 만든다. </description>
     </item>
     
     <item>
@@ -346,7 +358,7 @@ NAME MAJ:MIN RM SIZE RO TYPE MOUNTPOINT sda 8:0 1 14.9G 0 disk ├─sda1 8:1 1 
 DB, API 서버의 cpu/mem 부하는 20% 전후인 상태
 리셋 등으로 해결이 안 되고, 도커 컨테이너 늘려서도 해결이 안 됨
 지속되는 경우 리퀘스트도 쌓이고 file open max 값이 넘어가서 사용 불가
-원인  DB 처리량보다 부하 심함  IO 부분이 보틀넥으로 보임 도커 인스턴스가 값싼 거고 DB도 값싼 인스턴스   커넥션이 늘어남 실제 DB 커넥션이 45개 전후  RDS에서 가장 작은 인스턴스를 사용했는데 전체 DB 메모리 양과 CPU 사용량을 가지고 연결수 계산   도커 컨테이너의 Max Connection은 50  이전 네이버에서 직접 배포 때 잡은 설정 그대로 RDS 인스턴스가 여러 개 일 때는 괜찮았음 제일 작은 걸로 바꾸고 인스턴스도 줄여둔 상태   이미 늘어난 컨넥션은 없어지지 않고 CPU 사용량은 그리 많지 않음  재현 봇을 만들어서 로그인, 화면 리프레시를 하게 하니 100명 전후가 몰려서 접근시 문제 발생</description>
+원인 DB 처리량보다 부하 심함 IO 부분이 보틀넥으로 보임 도커 인스턴스가 값싼 거고 DB도 값싼 인스턴스 커넥션이 늘어남 실제 DB 커넥션이 45개 전후 RDS에서 가장 작은 인스턴스를 사용했는데 전체 DB 메모리 양과 CPU 사용량을 가지고 연결수 계산 도커 컨테이너의 Max Connection은 50 이전 네이버에서 직접 배포 때 잡은 설정 그대로 RDS 인스턴스가 여러 개 일 때는 괜찮았음 제일 작은 걸로 바꾸고 인스턴스도 줄여둔 상태 이미 늘어난 컨넥션은 없어지지 않고 CPU 사용량은 그리 많지 않음 재현 봇을 만들어서 로그인, 화면 리프레시를 하게 하니 100명 전후가 몰려서 접근시 문제 발생</description>
     </item>
     
     <item>
@@ -355,13 +367,14 @@ DB, API 서버의 cpu/mem 부하는 20% 전후인 상태
       <pubDate>Sun, 12 May 2019 21:37:28 +0900</pubDate>
       
       <guid>https://ezaurum.com/retrospective/2019-1st-quater/</guid>
-      <description>한 일   1월에서 2월까지는 큰 회사에서 내부 레거시 시스템을 정리하는 팀 외주가 들어와서 팀 구성을 위해 돌아다님
- 별로 성과 없었음    2월부터 출퇴근을 하기 시작함
- 외부 API 연동 R&amp;amp;D 이것저것 - micronaut, CI/CD    뽑기를 만들면서 순열을 이해했다.
-  CodeJam 도전
-  리디셀렉트를 쓰면서 좀 책을 더 보게 되었다
-  출퇴근을 하니까 규칙적인 생활을 했다
-  드디어 도커로 배포를 시작했다.</description>
+      <description>한 일 1월에서 2월까지는 큰 회사에서 내부 레거시 시스템을 정리하는 팀 외주가 들어와서 팀 구성을 위해 돌아다님
+별로 성과 없었음 2월부터 출퇴근을 하기 시작함
+외부 API 연동 R&amp;amp;D 이것저것 - micronaut, CI/CD 뽑기를 만들면서 순열을 이해했다.
+CodeJam 도전
+리디셀렉트를 쓰면서 좀 책을 더 보게 되었다
+출퇴근을 하니까 규칙적인 생활을 했다
+드디어 도커로 배포를 시작했다.
+감상 소설을 다시 써 보기로 했다. 카지노 게임 만들 때 순열이 이해가 되었으면 좋았을 텐데 CodeJam 은 더 어려워졌다.</description>
     </item>
     
     <item>
@@ -370,7 +383,7 @@ DB, API 서버의 cpu/mem 부하는 20% 전후인 상태
       <pubDate>Sun, 12 May 2019 01:54:01 +0900</pubDate>
       
       <guid>https://ezaurum.com/2019/05/%EC%BF%BC%EB%A6%AC-%EA%B2%B0%EA%B3%BC%EB%A5%BC-CSV-%ED%8C%8C%EC%9D%BC%EB%A1%9C-%EC%83%9D%EC%84%B1/</guid>
-      <description>select b.*, a.* from log_table a, somehow_table b where a.id = b.id and check_result=&#39;Success&#39; and a.column=123 INTO OUTFILE &#39;orders.csv&#39; FIELDS TERMINATED BY &#39;,&#39; ENCLOSED BY &#39;&amp;quot;&#39; LINES TERMINATED BY &#39;\n&#39;; </description>
+      <description>select b.*, a.* from log_table a, somehow_table b where a.id = b.id and check_result=&amp;#39;Success&amp;#39; and a.column=123 INTO OUTFILE &amp;#39;orders.csv&amp;#39; FIELDS TERMINATED BY &amp;#39;,&amp;#39; ENCLOSED BY &amp;#39;&amp;#34;&amp;#39; LINES TERMINATED BY &amp;#39;\n&amp;#39;; </description>
     </item>
     
     <item>
@@ -423,7 +436,7 @@ DB, API 서버의 cpu/mem 부하는 20% 전후인 상태
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/study/marketing-taxonomy/</guid>
-      <description>사용자  ARPDAU 일간 활성 사용자 평균 수입, 일간 수입 / 일간 활성 사용자, 서버비 계산할 때 쓰면 되려나 ARPU 사용자당 평균 수입, 총수입/총 유저수, 광고비 집행할 때 고려 ARPPU 과금 사용자당 평균 수입, 광고비 집행할 때 고려, 낮은 가격의 한 번만 살 수 있는 상품 판촉할 때 고려 DAU 일 평균 사용자, 하루 얼마나 오는지 MAU 월간 평균 사용자, 한 달에 얼마나 오는지 LTV사용자가 수입을 얼마나 가져오나 하는 것 F2P게임 하는 건 공짜, 부분유료화 모델  광고  CAC 사용자를 획득하는 데 드는 비용, 광고비 및 기타등등, 이게 ARPU 보다 낮으면 무조건 이득 CPC 클릭당 비용, 광고를 클릭했을 때 내는 광고 비용 CPD 다운로드당 비용, 사용자가 다운로드 했을 때 광고 비용, 게임 다운만 받아도 200원씩 주는 그런 거 CPI 설치당 지불하는 광고 비용, 실제 설치했다는 증명이 된다 IAA 앱 내 광고 IAP 앱 내 구매  </description>
+      <description>사용자 ARPDAU 일간 활성 사용자 평균 수입, 일간 수입 / 일간 활성 사용자, 서버비 계산할 때 쓰면 되려나 ARPU 사용자당 평균 수입, 총수입/총 유저수, 광고비 집행할 때 고려 ARPPU 과금 사용자당 평균 수입, 광고비 집행할 때 고려, 낮은 가격의 한 번만 살 수 있는 상품 판촉할 때 고려 DAU 일 평균 사용자, 하루 얼마나 오는지 MAU 월간 평균 사용자, 한 달에 얼마나 오는지 LTV사용자가 수입을 얼마나 가져오나 하는 것 F2P게임 하는 건 공짜, 부분유료화 모델 광고 CAC 사용자를 획득하는 데 드는 비용, 광고비 및 기타등등, 이게 ARPU 보다 낮으면 무조건 이득 CPC 클릭당 비용, 광고를 클릭했을 때 내는 광고 비용 CPD 다운로드당 비용, 사용자가 다운로드 했을 때 광고 비용, 게임 다운만 받아도 200원씩 주는 그런 거 CPI 설치당 지불하는 광고 비용, 실제 설치했다는 증명이 된다 IAA 앱 내 광고 IAP 앱 내 구매 </description>
     </item>
     
     <item>
@@ -442,7 +455,7 @@ DB, API 서버의 cpu/mem 부하는 20% 전후인 상태
       <pubDate>Thu, 10 Jan 2019 22:14:27 +0900</pubDate>
       
       <guid>https://ezaurum.com/2019/01/2019%EB%85%84-%EB%AA%A9%ED%91%9C/</guid>
-      <description>건강  체중 5kg 감량 자전거 출퇴근  재무  채무 완전 변제  </description>
+      <description>건강 체중 5kg 감량 자전거 출퇴근 재무 채무 완전 변제 </description>
     </item>
     
     <item>
@@ -451,7 +464,7 @@ DB, API 서버의 cpu/mem 부하는 20% 전후인 상태
       <pubDate>Thu, 10 Jan 2019 21:37:28 +0900</pubDate>
       
       <guid>https://ezaurum.com/retrospective/2018-fullyear/</guid>
-      <description>한 일  5kg 감량, 10개월 후 두 달 만에 다시 원복 간이 ERP 개발(백/프론트) CMS 개발(SPA) 강의 및 기타 컨설턴트 서비스 유지보수 및 기능 6개 개발, 개중 3개는 날짜 못 맞춤 PHP 레거시 서비스 마이그레이션 통상 웹페이지를 SPA구조로 변경 강의 영상 하나 완성(하나는 찍기만 함) 대충 4천커밋(매일 커밋은 실패) 요가 시작, 첫 달은 1/2 정도 출석, 둘째 달은 1/3정도, 마지막 달은 거의 안 감. 만화/소설/전산기술서적 제외하고 읽은 책은 1권 django 배포, docker사용  감상  생각보다 많이 일했다.</description>
+      <description>한 일 5kg 감량, 10개월 후 두 달 만에 다시 원복 간이 ERP 개발(백/프론트) CMS 개발(SPA) 강의 및 기타 컨설턴트 서비스 유지보수 및 기능 6개 개발, 개중 3개는 날짜 못 맞춤 PHP 레거시 서비스 마이그레이션 통상 웹페이지를 SPA구조로 변경 강의 영상 하나 완성(하나는 찍기만 함) 대충 4천커밋(매일 커밋은 실패) 요가 시작, 첫 달은 1/2 정도 출석, 둘째 달은 1/3정도, 마지막 달은 거의 안 감. 만화/소설/전산기술서적 제외하고 읽은 책은 1권 django 배포, docker사용 감상 생각보다 많이 일했다.</description>
     </item>
     
     <item>
@@ -496,7 +509,7 @@ DB, API 서버의 cpu/mem 부하는 20% 전후인 상태
       <guid>https://ezaurum.com/bug/vue-style-scoped/</guid>
       <description>문제 상황 Vue 프로그래밍 중 외부 모듈을 사용했는데, 해당 모듈의 기본 css를 덮어씌우려고 불러오는 vue 페이지의 style을 변경했다. 클래스 이름을 분명히 지정했고, !important도 먹히지 않았음
 문제 원인 알고 보니 style 태그에 scoped가 지정되어 있어서 자동으로 한정자가 붙어버린다. 그러니 단순히 클래스만 지정해서는 해당 모듈에 반영되지 않았다.
-재발 방지를 위해  외부 모듈의 경우는 style태그를 따로 하나 더 만들어서 처리한다. CSS를 해당 외부 모듈을 감싸는 부모 태그를 포함해서 선언 한다.  </description>
+재발 방지를 위해 외부 모듈의 경우는 style태그를 따로 하나 더 만들어서 처리한다. CSS를 해당 외부 모듈을 감싸는 부모 태그를 포함해서 선언 한다. </description>
     </item>
     
     <item>
@@ -521,9 +534,9 @@ Host other.github.com HostName github.com PreferredAuthentications publickey Ide
       <description>WASM은 WebAssembly의 약어로, 용어자체에서 보둣, 웹에서 ASM을 돌려보자는 프로젝트이다. 여러 장점이 있다고 하는데, 일단 가장 크게 느껴지는 건 익숙한 언어로 웹프로그래밍을 할 수 있을거라는 기대감이다.
 이미 대부분의 브라우저에서 지원 해 주고 있고, Go에서도 1.10버전부터 정식 지원한다고 한다.
 일단 검색해보니 참고 포스트가 하나 나와서 따라 해 봤다.
- 새 버전 go를 받아서 컴파일한다.   11버전부터니, Go 저장소에서 clone한다.
+새 버전 go를 받아서 컴파일한다. 11버전부터니, Go 저장소에서 clone한다.
 git clone https://github.com/golang/go 그 다음 src 에서 all.bash를 실행한다.
-./all.bash 그럼 컴파일이 되고, .</description>
+./all.bash 그럼 컴파일이 되고, ../bin에 go 가 생겨 있을 것이다.</description>
     </item>
     
     <item>
@@ -534,7 +547,7 @@ git clone https://github.com/golang/go 그 다음 src 에서 all.bash를 실행�
       <guid>https://ezaurum.com/retrospective/work-study/</guid>
       <description>2009년에 중앙전산소를 들어가면서 본격적으로 회사원으로서의 프로그래머가 되었다.
 그 이후 나름 다종다양한 일을 하면서 배운 것과 느낀 점을 키워드 중심으로 기록해 두고자 한다.
-중앙전산소 - 2009.1-2010.10  스프링 - 토비의 스프링을 정독했다. aop가 뭔지 DI가 뭔지 모르는 상태라도 하루 두 시간씩 하니까 한 달만에 되더라. 혼자 헤딩 - 여기저기 헤딩하면서 혼자 작업했다. 뭐 가르쳐줄 사람도 없었고, 나이도 많고 해서 어쩔 수 없이 야근을 달고 살았다. 책의 중요성 - 본격적으로 공부를 하려니 역시 책으로 보는 게 제일이었다.</description>
+중앙전산소 - 2009.1-2010.10 스프링 - 토비의 스프링을 정독했다. aop가 뭔지 DI가 뭔지 모르는 상태라도 하루 두 시간씩 하니까 한 달만에 되더라. 혼자 헤딩 - 여기저기 헤딩하면서 혼자 작업했다. 뭐 가르쳐줄 사람도 없었고, 나이도 많고 해서 어쩔 수 없이 야근을 달고 살았다. 책의 중요성 - 본격적으로 공부를 하려니 역시 책으로 보는 게 제일이었다.</description>
     </item>
     
     <item>
@@ -585,9 +598,9 @@ let reserveRow = `&amp;lt;li&amp;gt;${row.reserveName} - ${row.reservePhone}&amp
       <pubDate>Thu, 08 Feb 2018 15:01:52 +0700</pubDate>
       
       <guid>https://ezaurum.com/2018/02/Chiangmai-Life-15-%EC%A0%95%EB%A6%AC/</guid>
-      <description>경비  총 소모 경비 250만원(83만/월, 비행기 제외)  식비 - 5500B/M 생활비 - 2000B/M 교통비 - 1000B/M 여가 - 6000B/M, 근교 여행 1주일 포함 방세 - 9000B/M   근교 1주일 여행 4인팟 - 6500밧  카드를 쓸 수 없으니 예산을 세우고 예산 내에서 집행하는 연습이 강제로 되었다.
+      <description>경비 총 소모 경비 250만원(83만/월, 비행기 제외) 식비 - 5500B/M 생활비 - 2000B/M 교통비 - 1000B/M 여가 - 6000B/M, 근교 여행 1주일 포함 방세 - 9000B/M 근교 1주일 여행 4인팟 - 6500밧 카드를 쓸 수 없으니 예산을 세우고 예산 내에서 집행하는 연습이 강제로 되었다.
 절약 가능해 보이는 포인트는
- 식비 - -1000B/M, 조리법이 간단한 고기요리나 쌀국수 종류는 집에서 해먹는게 나을듯 하다. 방세 - -3000B/M, 너무 방이 컸다.</description>
+식비 - -1000B/M, 조리법이 간단한 고기요리나 쌀국수 종류는 집에서 해먹는게 나을듯 하다. 방세 - -3000B/M, 너무 방이 컸다. 두 명이 올 수 있으면 괜찮을 듯.</description>
     </item>
     
     <item>
@@ -597,8 +610,8 @@ let reserveRow = `&amp;lt;li&amp;gt;${row.reserveName} - ${row.reservePhone}&amp
       
       <guid>https://ezaurum.com/2018/02/Chiangmai-Life-14-%ED%91%B8%EC%B9%98%ED%8C%8C/</guid>
       <description>푸치파(phuchifa)
- 교통비 : 150밧(편도)  라오스와 태국 경계에 있는 산   만족스럽다! 일단 교통편은 치앙라이에서 미니밴을 타고 4시간 정도 걸린다. 편도 150 왕복 300. 표 예약 따위 안 되니 아침에 터미널에 일찍 와서 표를 사 두는 걸 추천. 푸치파로 가는 건 한시 출발 오는 건 9시 출발&amp;hellip; 인데 치앙라이에서 한시간 가까이 연착되었다. 자주 있는 일인 듯. 짐은 미니밴 2층에 올린다.
-가는 길은 빠이처럼 험하지 않고, 풍경도 볼만하다. 마을은 아주 작다.</description>
+교통비 : 150밧(편도) 라오스와 태국 경계에 있는 산 만족스럽다! 일단 교통편은 치앙라이에서 미니밴을 타고 4시간 정도 걸린다. 편도 150 왕복 300. 표 예약 따위 안 되니 아침에 터미널에 일찍 와서 표를 사 두는 걸 추천. 푸치파로 가는 건 한시 출발 오는 건 9시 출발&amp;hellip; 인데 치앙라이에서 한시간 가까이 연착되었다. 자주 있는 일인 듯. 짐은 미니밴 2층에 올린다.
+가는 길은 빠이처럼 험하지 않고, 풍경도 볼만하다. 마을은 아주 작다. 술을 파는 슈퍼는 한 군데 뿐.</description>
     </item>
     
     <item>
@@ -607,8 +620,8 @@ let reserveRow = `&amp;lt;li&amp;gt;${row.reserveName} - ${row.reservePhone}&amp
       <pubDate>Wed, 07 Feb 2018 17:01:52 +0700</pubDate>
       
       <guid>https://ezaurum.com/2018/02/Chiangmai-Life-13-%EC%B9%98%EC%95%99%EB%9D%BC%EC%9D%B4/</guid>
-      <description>교통비 : 166밧  치앙마이 근처의 소도시. 치앙마이 아케이드에서 버스를 타고 가면 된다. 많이 있으니 교통편은 걱정할 필요가 없다. 표 살 때 여권을 요구한다. 그린버스가 제일 유명한데, 166밧이고 이동시간은 세시간 반. 물 한통 준다. 화장실 없고 중간에 휴게소 들르고, 자잘하게 작은 정류소에서 내려준다.
-한국에서 직행 비행기도 없고 어차피 치앙마이에서 가야 한다면 나한테는 특별히 메리트는 없었다. 치앙마이행을 고려할 때 후보군에 있었던 곳이긴 한데, 실제 와 보니 인프라가 확실히 너무 부족하다는 느낌이다.</description>
+      <description>교통비 : 166밧 치앙마이 근처의 소도시. 치앙마이 아케이드에서 버스를 타고 가면 된다. 많이 있으니 교통편은 걱정할 필요가 없다. 표 살 때 여권을 요구한다. 그린버스가 제일 유명한데, 166밧이고 이동시간은 세시간 반. 물 한통 준다. 화장실 없고 중간에 휴게소 들르고, 자잘하게 작은 정류소에서 내려준다.
+한국에서 직행 비행기도 없고 어차피 치앙마이에서 가야 한다면 나한테는 특별히 메리트는 없었다. 치앙마이행을 고려할 때 후보군에 있었던 곳이긴 한데, 실제 와 보니 인프라가 확실히 너무 부족하다는 느낌이다. 숙소가 더 쌀까 하는 생각은 들지만&amp;hellip; 터미널 주변도 낡은 것을 보아하니 시설이 만족스럽지는 않을 듯 하다.</description>
     </item>
     
     <item>
@@ -617,7 +630,7 @@ let reserveRow = `&amp;lt;li&amp;gt;${row.reserveName} - ${row.reservePhone}&amp
       <pubDate>Wed, 07 Feb 2018 16:26:52 +0700</pubDate>
       
       <guid>https://ezaurum.com/2018/02/Chiangmai-Life-12-%EB%8F%84%EC%9D%B4%EC%88%98%ED%85%9D/</guid>
-      <description>도이수텝 (수텝 산)  교통비 : 40밧(편도) 시간 : 30분 정도 입장료 : 40인가&amp;hellip;  치앙마이의 구경거리. 왓 프라탓 이라는 사원이 있다.
+      <description>도이수텝 (수텝 산) 교통비 : 40밧(편도) 시간 : 30분 정도 입장료 : 40인가&amp;hellip; 치앙마이의 구경거리. 왓 프라탓 이라는 사원이 있다.
 치앙마이 대학 정문(나머)에서 썽태우들이 대기하고 있다가 태워간다. 도이수텝까지 인당 편도 40밧. 4명쯤 되면 사실 Grab 같은 걸 이용하는 것도 나쁘지 않을 듯 하다. 우린 도이뿌이까지 가는 장거리 코스라 안 했지만.
 우리 일행(4명)은 천 밧에 도이뿌이-도이수텝 코스로 갔다. 도이뿌이를 먼저 가는 게 안된다고 해서 열심히 설득했다.
 야경이 유명하니 일몰 시간을 맞춰서 해질 때쯤 도착하게 가면 좋을 것 같다.</description>
@@ -630,7 +643,7 @@ let reserveRow = `&amp;lt;li&amp;gt;${row.reserveName} - ${row.reservePhone}&amp
       
       <guid>https://ezaurum.com/2018/02/Chiangmai-Life-11-%EB%B9%A0%EC%9D%B4/</guid>
       <description>배낭여행자의 천국이라고 하는 빠이에 가 보았다. 왜 천국인지는 잘 모르겠고, 일단 비행기 추천 다시 간다면 무조건 비행기를 탈 테다.
-  여기 아야 서비스에서 편도 200밧 주고 차를 타면 된다.
+여기 아야 서비스에서 편도 200밧 주고 차를 타면 된다.
 그렇긴 한데, 길이 진짜 힘들다. 꼬불꼬불한 산길을 4시간 정도 가게 되는데, 높은 확률로 멀미를 하고, 일단 여기저지 부딪혀서 힘들다.
 도착하면 스쿠터를 렌트하는 게 좋다. 차가 많지는 않아서 다니기 편하다. 아야 서비스에서 렌트도 해 주는데, 24시간 기준 낡은 스쿠터가 140밧이고, 보험 75밧 이어었나&amp;hellip; 여권을 맡기던가, 아니면 디파짓 2000밧이 필요하다.</description>
     </item>
@@ -675,7 +688,7 @@ let reserveRow = `&amp;lt;li&amp;gt;${row.reserveName} - ${row.reservePhone}&amp
       <pubDate>Tue, 02 Jan 2018 00:12:13 +0700</pubDate>
       
       <guid>https://ezaurum.com/2018/01/%EC%9D%BC%EC%9A%A9%ED%92%88-%EC%86%8C%EB%AA%A8%EC%9C%A8/</guid>
-      <description> 샴푸 - 135ml/M 알로에겔 - 300g/M 주방세제 - 125ml/M 액체세제 - 450ml/M 두루마리 휴지 - 2개/M  </description>
+      <description> 샴푸 - 135ml/M 알로에겔 - 300g/M 주방세제 - 125ml/M 액체세제 - 450ml/M 두루마리 휴지 - 2개/M </description>
     </item>
     
     <item>
@@ -684,7 +697,7 @@ let reserveRow = `&amp;lt;li&amp;gt;${row.reserveName} - ${row.reservePhone}&amp
       <pubDate>Mon, 01 Jan 2018 22:01:09 +0700</pubDate>
       
       <guid>https://ezaurum.com/2018/01/2018%EB%85%84-%EB%AA%A9%ED%91%9C/</guid>
-      <description>마음자세  어디서 무얼 하더라도 내게 필요한 것, 내가 원하는 것을 한다. 내게 필요없는 것을 욕심내지 않는다. 그러기 위해서 항상 생각할 여유가 있도록 한다.  건강  북한강 종주 라이딩 - 여의치 않으면 일단 다른 뭔가로&amp;hellip; 체중 5kg 감량  사이드 프로젝트  택틱스 게임 완성 게시판 프로젝트 완성  </description>
+      <description>마음자세 어디서 무얼 하더라도 내게 필요한 것, 내가 원하는 것을 한다. 내게 필요없는 것을 욕심내지 않는다. 그러기 위해서 항상 생각할 여유가 있도록 한다. 건강 북한강 종주 라이딩 - 여의치 않으면 일단 다른 뭔가로&amp;hellip; 체중 5kg 감량 사이드 프로젝트 택틱스 게임 완성 게시판 프로젝트 완성 </description>
     </item>
     
     <item>
@@ -694,9 +707,9 @@ let reserveRow = `&amp;lt;li&amp;gt;${row.reserveName} - ${row.reservePhone}&amp
       
       <guid>https://ezaurum.com/retrospective/2017-retrorespective/</guid>
       <description>실패 덕에 성공할 수 있었던 한 해였다.
- 인간은 변하지 않고, 꿈은 이루어지지 않는다. 그러니 적당한 환경과 좋은 도구가 필요하다.  남의 회사에서의 일 작년부터 올해까지는 살면서 처음으로 이른바 관리, 일 배분 그런 거에 신경 써 본 해였다. 대부분 실패했다. 남의 회사라는 걸 항상 마음에 두고 있지 않아서였다.
+인간은 변하지 않고, 꿈은 이루어지지 않는다. 그러니 적당한 환경과 좋은 도구가 필요하다. 남의 회사에서의 일 작년부터 올해까지는 살면서 처음으로 이른바 관리, 일 배분 그런 거에 신경 써 본 해였다. 대부분 실패했다. 남의 회사라는 걸 항상 마음에 두고 있지 않아서였다.
 돈 벌기 대박을 노린 것들은 지금까지 처럼 역시 안 되었다.
-원인  여전히 남에게 기대했다. 남의 부족한 부분을 채워주면 그사람이 성공으로 가는 길을 열어줄 거라 생각했다.</description>
+원인 여전히 남에게 기대했다. 남의 부족한 부분을 채워주면 그사람이 성공으로 가는 길을 열어줄 거라 생각했다.</description>
     </item>
     
     <item>
@@ -718,9 +731,10 @@ func (dbm *Manager) transaction(action TransactionHandlerFunc, targets ...interf
       
       <guid>https://ezaurum.com/2017/12/2017%EB%85%84-%EC%A7%80%EB%A6%84-%EA%B2%B0%EC%82%B0/</guid>
       <description>다이슨 청소기 사긴 했는데 아직 직접 못 봤다. 한국 돌아가면 써 볼 예정
-  샤오미 트롤리 음.. 그럭저럭? 싸니까 의미가 있는 물건 정도.
-  기능성 티셔츠 홈웨어를 모두 이걸로 바꿨다. 땀이 많이 나는 체질상 매우 필요하다. 자전거 때문에 구매하기도 했고.
-   빨리 마른다. 땀냄새가 덜 난다. 싼거는 확실히 좀 성능이 나쁘다는 느낌인데, (원단부말고 바느질 마감이나 그런게) 홈웨어로는 쓸만하다.   미밴드 있으니까 조금이라도 더 돌아다니게 된다.</description>
+샤오미 트롤리 음.. 그럭저럭? 싸니까 의미가 있는 물건 정도.
+기능성 티셔츠 홈웨어를 모두 이걸로 바꿨다. 땀이 많이 나는 체질상 매우 필요하다. 자전거 때문에 구매하기도 했고.
+빨리 마른다. 땀냄새가 덜 난다. 싼거는 확실히 좀 성능이 나쁘다는 느낌인데, (원단부말고 바느질 마감이나 그런게) 홈웨어로는 쓸만하다. 미밴드 있으니까 조금이라도 더 돌아다니게 된다.
+등산바지 아재티 난다고 하지만, 아재인데 뭐. 자전거 때문에 처음 구매했다.</description>
     </item>
     
     <item>
@@ -731,7 +745,7 @@ func (dbm *Manager) transaction(action TransactionHandlerFunc, targets ...interf
       <guid>https://ezaurum.com/2017/12/Chiangmai-Life-07-%EC%B9%98%EC%95%99%EB%A7%88%EC%9D%B4-%EB%8C%80%ED%95%99-%ED%9B%84%EB%AC%B8-%EC%A3%BC%EB%B3%80/</guid>
       <description>현재 거주하는 곳은 치앙마이 대학 후문 근방이다.
 교통 버스 정류소는 봤지만, 버스가 다니는 걸 본 적은 없다. 편안하게 다니려면 스쿠터가 꼭 필요한 동네다. 인도가 아예 없는 길이 많다. 썽태우나 툭툭을 탈 때는 &amp;ldquo;랑머(후문)&amp;rdquo;, &amp;ldquo;랑머처(ㅊ후문)&amp;rdquo; 라고 하면 알아듣는다. 치앙마이 대학 첫자만 따서 랑머처라고 하나보다.
-  대충 이 근방.
+대충 이 근방.
 특징 모양은 다르지만 전체적인 특징은 우리나라 대학가와 비슷하다. 대학생들이 많고, 싼 밥집이 많고, 양도 많은 편. 다른 점이라면
 술집이 없다.
 술을 가게에서 마시려면 님만해민까지는 가야 한다.</description>
@@ -746,9 +760,8 @@ func (dbm *Manager) transaction(action TransactionHandlerFunc, targets ...interf
       <description>Go는 기본적으로 web서버를 쉽게 만들 수 있게 되어 있다.
 그래도 막상 하려고 하면 자잘하게 할 게 많아서 추가 라이브러리나 프레임워크가 필요하게 된다.
 개중 쓸 만한 것이 gin이라, 소개 겸, 헬로 월드를 찍어봤다.
- Github 저장소에도 하나씩 올릴 예정.
-하는 김에 동영상도 찍어봤다
- </description>
+Github 저장소에도 하나씩 올릴 예정.
+하는 김에 동영상도 찍어봤다</description>
     </item>
     
     <item>
@@ -757,7 +770,7 @@ func (dbm *Manager) transaction(action TransactionHandlerFunc, targets ...interf
       <pubDate>Fri, 15 Dec 2017 19:14:31 +0700</pubDate>
       
       <guid>https://ezaurum.com/2017/12/Chiangmai-Life-06-%EC%83%9D%ED%99%9C%EB%B9%84/</guid>
-      <description>항목 금액 일간 사용량     교통비 638 21.27   생필품 1381 46.00   식비 5040 168.00   여가 5538 184.60   업무 225 7.50   생활비 9897 329.90   합계 22719 757.30   [2017-11-14~2017-11-15 사용금액]      교통비 많이 돌아다닌다면 스쿠터가 나을 수 있다. 2000~3000밧 정도면 한 달 대여가 가능하고, 기름값은 얼마나 돌아다니느냐에 따라 다르겠지만 몇백 바트 수준이라고들 한다.</description>
+      <description>항목 금액 일간 사용량 교통비 638 21.27 생필품 1381 46.00 식비 5040 168.00 여가 5538 184.60 업무 225 7.50 생활비 9897 329.90 합계 22719 757.30 [2017-11-14~2017-11-15 사용금액] 교통비 많이 돌아다닌다면 스쿠터가 나을 수 있다. 2000~3000밧 정도면 한 달 대여가 가능하고, 기름값은 얼마나 돌아다니느냐에 따라 다르겠지만 몇백 바트 수준이라고들 한다. 내 경우는 3키로 정도는 보통 걸었다. 운동을 겸할 목적이기도 했다. 시내에 놀러나가면 특별히 운동을 안 해도 만 보씩은 채웠고, 방을 구할 때는 3만보 정도 걸었다.</description>
     </item>
     
     <item>
@@ -781,7 +794,7 @@ func (dbm *Manager) transaction(action TransactionHandlerFunc, targets ...interf
       <guid>https://ezaurum.com/2017/12/Chiangmai-Life-04-%EA%B0%80%EA%B8%B0-%EC%A0%84-%EC%A4%80%EB%B9%84/</guid>
       <description>가기 전에 준비가 이래저래 필요했다.
 장비 태국은 220V 이고, 대부분 건물에 LAN이 깔려있지 않고, WIFI 를 지원한다. 그러니 전기 부분은 걱정하지 않아도 된다.
- 노트북 - 가볍고 싼 걸로 샀다. 노트북 받침대 - 접었을때 부피가 작은 걸로. 까페이서 가끔 일하려면 눈높이가 맞아야 한다. 키보드 - 화면 높이를 맞추려면 꼭 필요하다. 빨콩이 필요해서 레노버 울트라나브로 샀다. 핸드폰 - 마침 바꿀 때가 되어서 샤오미 A1을 샀다. 듀얼심이라 한국/태국 유심을 동시에 사용할 수 있고, 배터리가 오래가서 좋았다.</description>
+노트북 - 가볍고 싼 걸로 샀다. 노트북 받침대 - 접었을때 부피가 작은 걸로. 까페이서 가끔 일하려면 눈높이가 맞아야 한다. 키보드 - 화면 높이를 맞추려면 꼭 필요하다. 빨콩이 필요해서 레노버 울트라나브로 샀다. 핸드폰 - 마침 바꿀 때가 되어서 샤오미 A1을 샀다. 듀얼심이라 한국/태국 유심을 동시에 사용할 수 있고, 배터리가 오래가서 좋았다.</description>
     </item>
     
     <item>
@@ -790,8 +803,8 @@ func (dbm *Manager) transaction(action TransactionHandlerFunc, targets ...interf
       <pubDate>Tue, 28 Nov 2017 22:43:34 +0700</pubDate>
       
       <guid>https://ezaurum.com/2017/11/Chiangmai-Life-03-%EB%B0%A9-%EA%B5%AC%ED%95%98%EA%B8%B0/</guid>
-      <description>TLDR; 방은 직접 발품을 파는게 좋다. 꼭 스쿠터를 렌트할 것 방 구할 때 체크 포인트  보증금(디파짓) 전기 - 보통 7/Unit 전후 물 - 정액이면 200바트 전후 청소 - 200-300 / 한 번 시트, 타올 교체 - 200-300 / 한 번 짐/수영장 - 있는 곳은 대부분 무료였다 인터넷 - 대부분 무료 WIFI  치앙마이는 방을 구하기 쉽다 치앙마이에서 방을 구하기 위해서는 아래 단계를 거치면 된다.
- 맘에 드는 방을 찾는다. 여권이랑 보증금을 준다.</description>
+      <description>TLDR; 방은 직접 발품을 파는게 좋다. 꼭 스쿠터를 렌트할 것 방 구할 때 체크 포인트 보증금(디파짓) 전기 - 보통 7/Unit 전후 물 - 정액이면 200바트 전후 청소 - 200-300 / 한 번 시트, 타올 교체 - 200-300 / 한 번 짐/수영장 - 있는 곳은 대부분 무료였다 인터넷 - 대부분 무료 WIFI 치앙마이는 방을 구하기 쉽다 치앙마이에서 방을 구하기 위해서는 아래 단계를 거치면 된다.
+맘에 드는 방을 찾는다. 여권이랑 보증금을 준다. (아마도)태국어로 된 계약서와 영수증을 받는다.</description>
     </item>
     
     <item>
@@ -801,9 +814,9 @@ func (dbm *Manager) transaction(action TransactionHandlerFunc, targets ...interf
       
       <guid>https://ezaurum.com/2017/11/Chiangmai-Life-02-%EC%B9%98%EC%95%99%EB%A7%88%EC%9D%B4-%EA%B0%80%EB%8A%94-%EB%B0%A9%EB%B2%95/</guid>
       <description>치앙마이로 가는 비행기는 크게 잡자면 두 가지 코스가 있다.
- 국적기를 타고 직항 - 비싸지만 편안함 저가항공을 타고 경유 - 싸지만 비행시간이 길고 비행기가 불편  첫 번째의 경우는 연휴기간이 아닌데도 70만원 이상(2017년 말 기준) 하는 금액 때문에 처음부터 고려 대상이 아니었다.
+국적기를 타고 직항 - 비싸지만 편안함 저가항공을 타고 경유 - 싸지만 비행시간이 길고 비행기가 불편 첫 번째의 경우는 연휴기간이 아닌데도 70만원 이상(2017년 말 기준) 하는 금액 때문에 처음부터 고려 대상이 아니었다.
 그렇다면 두 번째인데, 그것도 몇 가지 코스가 있다. 고려한 것은 다음 세 가지다.
- 태국 외 국가(홍콩/마카오/쿠알라룸푸르)를 경유 - 가장 저렴, 시간 많이 걸림, 추가 비용 발생 방콕에서 버스 이용 - 두 번째로 저렴, 시간 많이 걸림 방콕(돈므앙)에서 태국 국내선으로 환승 - 세 번째로 저렴, 시간 가장 짧음  일단 비행기 표 가격만으로는 1 이 제일 저렴했다.</description>
+태국 외 국가(홍콩/마카오/쿠알라룸푸르)를 경유 - 가장 저렴, 시간 많이 걸림, 추가 비용 발생 방콕에서 버스 이용 - 두 번째로 저렴, 시간 많이 걸림 방콕(돈므앙)에서 태국 국내선으로 환승 - 세 번째로 저렴, 시간 가장 짧음 일단 비행기 표 가격만으로는 1 이 제일 저렴했다.</description>
     </item>
     
     <item>
@@ -853,7 +866,7 @@ func (dbm *Manager) transaction(action TransactionHandlerFunc, targets ...interf
       
       <guid>https://ezaurum.com/2017/07/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EB%A1%9C-%EC%82%AC%EB%8A%94-%EB%B2%95/</guid>
       <description>사 놓고서 거의 1년만에 읽은 책이다. 600페이지나 되는 충실한 볼륨, 충실한 내용이다. 진짜 살아가는 법에 대해 온갖 이야기가 많이 들어가 있다. 생각나는 순서대로 인상깊은 걸 정리해본다. 책에 있는 내용도 있고, 그냥 읽고서 생각나는 것도 있다.
- 고객에게 고해성사를 하지 말자. 행복을 좆아라. 호프스태터의 법칙:시간은 항상 예상보다 오래 걸린다. 호프스태터의 법칙을 미리 감안해도 마찬가지다.  범위 변경 문제 인력 수준의 문제 지연된 프로젝트에 사람을 더 붙이면 오히려 더 느려지는 문제 개발팀의 목표가 불분명한 문제 의존성 관리: 기능별 예상치를 그냥 더해서 생기는 문제 잘못된 추정치 문제(비율 주의)  1/3은 명세서 작성과 설계, 1/6은 코딩, 1/4는 기능 및 통합 테스트, 1/4는 시스템 테스트   공격적인 추정치 문제 난 임계 경로에 들어가 있지 않아 라고 생각하는 문제 소프트웨어 엔지니어링 개념을 말어먹는 문제 해야 하는 다른 일을 고려하지 않는 문제 바람의 변화   희망하는 상태부터 거꾸로 따져보기 목표 중심적인 프로젝트 관리 권위 있는 사람이 되어라  쓰다보니 책 전체를 다 베껴적을 것 같다.</description>
+고객에게 고해성사를 하지 말자. 행복을 좆아라. 호프스태터의 법칙:시간은 항상 예상보다 오래 걸린다. 호프스태터의 법칙을 미리 감안해도 마찬가지다. 범위 변경 문제 인력 수준의 문제 지연된 프로젝트에 사람을 더 붙이면 오히려 더 느려지는 문제 개발팀의 목표가 불분명한 문제 의존성 관리: 기능별 예상치를 그냥 더해서 생기는 문제 잘못된 추정치 문제(비율 주의) 1/3은 명세서 작성과 설계, 1/6은 코딩, 1/4는 기능 및 통합 테스트, 1/4는 시스템 테스트 공격적인 추정치 문제 난 임계 경로에 들어가 있지 않아 라고 생각하는 문제 소프트웨어 엔지니어링 개념을 말어먹는 문제 해야 하는 다른 일을 고려하지 않는 문제 바람의 변화 희망하는 상태부터 거꾸로 따져보기 목표 중심적인 프로젝트 관리 권위 있는 사람이 되어라 쓰다보니 책 전체를 다 베껴적을 것 같다.</description>
     </item>
     
     <item>
@@ -876,7 +889,7 @@ services: elasticsearch1: image: docker.elastic.co/elasticsearch/elasticsearch:5
       <description>이전 글에 이어서 index를 만들어 보자.
 index는 테이블이라고 생각하면 된다. 예제는 공식홈피 문서에서 가져왔다.
 twitter 인덱스에 tweet 타입으로 도큐먼트를 올리는 방법이다.
-curl -XPUT -u elastic:changeme &#39;localhost:9200/twitter/tweet/1?pretty&#39; -H &#39;Content-Type: application/json&#39; -d&#39;{&amp;quot;user&amp;quot; : &amp;quot;kimchy&amp;quot;,&amp;quot;post_date&amp;quot; : &amp;quot;2009-11-15T14:12:12&amp;quot;,&amp;quot;message&amp;quot; : &amp;quot;trying out Elasticsearch&amp;quot;}&#39;결과
+curl -XPUT -u elastic:changeme &amp;#39;localhost:9200/twitter/tweet/1?pretty&amp;#39; -H &amp;#39;Content-Type: application/json&amp;#39; -d&amp;#39;{&amp;#34;user&amp;#34; : &amp;#34;kimchy&amp;#34;,&amp;#34;post_date&amp;#34; : &amp;#34;2009-11-15T14:12:12&amp;#34;,&amp;#34;message&amp;#34; : &amp;#34;trying out Elasticsearch&amp;#34;}&amp;#39; 결과
 { &amp;#34;_index&amp;#34; : &amp;#34;twitter&amp;#34;, &amp;#34;_type&amp;#34; : &amp;#34;tweet&amp;#34;, &amp;#34;_id&amp;#34; : &amp;#34;1&amp;#34;, &amp;#34;_version&amp;#34; : 1, &amp;#34;result&amp;#34; : &amp;#34;created&amp;#34;, &amp;#34;_shards&amp;#34; : { &amp;#34;total&amp;#34; : 2, &amp;#34;successful&amp;#34; : 2, &amp;#34;failed&amp;#34; : 0 }, &amp;#34;created&amp;#34; : true } 인덱스에 type 까지 자동으로 만들어졌다.</description>
     </item>
     
@@ -887,8 +900,8 @@ curl -XPUT -u elastic:changeme &#39;localhost:9200/twitter/tweet/1?pretty&#39; -
       
       <guid>https://ezaurum.com/2017/07/%EC%97%98%EB%9D%BC%EC%8A%A4%ED%8B%B1-%EC%84%9C%EC%B9%98-%EA%B8%B0%EB%B3%B8-%EA%B0%9C%EB%85%90/</guid>
       <description>공식 홈피의 문서를 대충 맘대로 옮겼다.
-  Near Realtime (NRT) 엘라스틱 서치는 거의 실시간 플랫폼이다. 이 말은 검색할 수 있도록 인덱스를 만드는 데 1초쯤은 걸릴 수 있다는 거다.
-  클러스터, Cluster 클러스터는 데이터 전체를 함께 가지고서 검색하고 색인하고 있는 한개 이상의 노드(서버) 집합이다. 클러스터는 이름으로 구분되는데, 기본값은 &amp;ldquo;elasticsearch&amp;quot;이다. 한 번 이름을 지정하면 거기에만 속해 있는다. 다른 환영이라도 같은 클러스터 네임을 재사용하지 않도록 한다. 안 그러면 노드가 엉뚱한 데 붙을 수 있다.</description>
+Near Realtime (NRT) 엘라스틱 서치는 거의 실시간 플랫폼이다. 이 말은 검색할 수 있도록 인덱스를 만드는 데 1초쯤은 걸릴 수 있다는 거다.
+클러스터, Cluster 클러스터는 데이터 전체를 함께 가지고서 검색하고 색인하고 있는 한개 이상의 노드(서버) 집합이다. 클러스터는 이름으로 구분되는데, 기본값은 &amp;ldquo;elasticsearch&amp;quot;이다. 한 번 이름을 지정하면 거기에만 속해 있는다. 다른 환영이라도 같은 클러스터 네임을 재사용하지 않도록 한다. 안 그러면 노드가 엉뚱한 데 붙을 수 있다. logging-stage, logging-product 이렇게하도록.</description>
     </item>
     
     <item>
@@ -1039,9 +1052,8 @@ http://theeye.pe.kr/archives/2014 http://mudchobo.tistory.com/549 http://woniper
       <pubDate>Mon, 28 Sep 2015 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2015/09/9%EC%9B%94-%EB%84%B7%EC%A7%B8%EC%A3%BC%EC%A0%95%EB%A6%AC/</guid>
-      <description>  한 번 밀린 스케쥴은 뭘 해도 다시 밀린다. 스케쥴이 밀리는 가장 큰 요인은 요구사항 분석 미흡이라는 결론을 내렸다. 종료 시점/목표에 대해 공통된 인식이 없고 명문화된 규정이 없으면 종료라고 하는 시점이 애매해지고, 그러면 결국 일은 일대로 하고 결론이 제대로 나지 않는다.
-  GTD라는 것을 해 보았다. 생각보다 더 괜찮은 방식이라 자주 쓰기로 했다. 구글 inbox와 조합해서 시도중.
-  </description>
+      <description>한 번 밀린 스케쥴은 뭘 해도 다시 밀린다. 스케쥴이 밀리는 가장 큰 요인은 요구사항 분석 미흡이라는 결론을 내렸다. 종료 시점/목표에 대해 공통된 인식이 없고 명문화된 규정이 없으면 종료라고 하는 시점이 애매해지고, 그러면 결국 일은 일대로 하고 결론이 제대로 나지 않는다.
+GTD라는 것을 해 보았다. 생각보다 더 괜찮은 방식이라 자주 쓰기로 했다. 구글 inbox와 조합해서 시도중.</description>
     </item>
     
     <item>
@@ -1059,7 +1071,7 @@ http://theeye.pe.kr/archives/2014 http://mudchobo.tistory.com/549 http://woniper
       <pubDate>Sun, 20 Sep 2015 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2015/09/9%EC%9B%94-%EC%85%8B%EC%A7%B8%EC%A3%BC-%EC%A0%95%EB%A6%AC/</guid>
-      <description>문제가 생길 수 있는 것은 무조건 잘못된다. 찝찝한 건 바로 고쳐두자. 아니면 최소한 꼬리표라도. 야근은 하면 할 수록 문제가 생긴다. 최대한 피하자.기능 추가를 위해 이틀 야근을 했는데, 그 와중에 무언가가 꼬였다. 처음에 버그가 있을 것 같은 부분을 프로토 타입이니까 하고 방치했다가 꼬이고 꼬여서 더 이상 손을 댈 수 없는 상태가 되어버린 것. 복구를 위해 이틀 야근을 하니 더 문제가 생겼다. 결국 하루 야근하면서 터진 문제를 복구하기 위해 하루 밤샘이 필요했고, 그 다음 처음에 꼬였다가 손을 안 댄 부분을 고치기 위해 주말 이틀이 필요했다.</description>
+      <description>문제가 생길 수 있는 것은 무조건 잘못된다.찝찝한 건 바로 고쳐두자. 아니면 최소한 꼬리표라도.야근은 하면 할 수록 문제가 생긴다. 최대한 피하자.기능 추가를 위해 이틀 야근을 했는데, 그 와중에 무언가가 꼬였다. 처음에 버그가 있을 것 같은 부분을 프로토 타입이니까 하고 방치했다가 꼬이고 꼬여서 더 이상 손을 댈 수 없는 상태가 되어버린 것. 복구를 위해 이틀 야근을 하니 더 문제가 생겼다. 결국 하루 야근하면서 터진 문제를 복구하기 위해 하루 밤샘이 필요했고, 그 다음 처음에 꼬였다가 손을 안 댄 부분을 고치기 위해 주말 이틀이 필요했다.</description>
     </item>
     
     <item>
@@ -1077,7 +1089,7 @@ http://theeye.pe.kr/archives/2014 http://mudchobo.tistory.com/549 http://woniper
       <pubDate>Wed, 09 Sep 2015 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2015/09/9%EC%9B%94-%EC%B2%AB%EC%A7%B8%EC%A3%BC-%EC%A0%95%EB%A6%AC/</guid>
-      <description>에러와 익셉션 처리에 대해 생각해 봤다.에러는 예상/처리 불가능한 상황, 익셉션은 예상/처리 가능하지만 비정상 상황여러 모듈이 복합적으로 돌아서 다양한 종류의 오류(에러, 익셉션 모두)가 발생할 수 있는 코드라면, 해당 상황을 예측하여 복잡한 에러 코드를 만드는 것보다, 또는 다른 모듈끼리 서로 에러코드를 공유하게 하려 하거나하는 것보다 커스텀 익셉션을 써서 최외곽 코드에서 한 번에 처리하는 것이 편하다.로그 관리/수집기가 필요하다.로그 관리는 프로젝트 초반에 만들어지면 좋고, 프로젝트 후반에는 꼭 있어야 한다.</description>
+      <description>에러와 익셉션 처리에 대해 생각해 봤다.에러는 예상/처리 불가능한 상황, 익셉션은 예상/처리 가능하지만 비정상 상황여러 모듈이 복합적으로 돌아서 다양한 종류의 오류(에러, 익셉션 모두)가 발생할 수 있는 코드라면, 해당 상황을 예측하여 복잡한 에러 코드를 만드는 것보다, 또는 다른 모듈끼리 서로 에러코드를 공유하게 하려 하거나하는 것보다 커스텀 익셉션을 써서 최외곽 코드에서 한 번에 처리하는 것이 편하다.로그 관리/수집기가 필요하다.로그 관리는 프로젝트 초반에 만들어지면 좋고, 프로젝트 후반에는 꼭 있어야 한다.로그 수집기는 프로젝트 시작부터 만들어야 한다.</description>
     </item>
     
     <item>
@@ -1086,7 +1098,7 @@ http://theeye.pe.kr/archives/2014 http://mudchobo.tistory.com/549 http://woniper
       <pubDate>Sun, 16 Aug 2015 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2015/08/8%EC%9B%94-%EB%91%98%EC%A7%B8%EC%A3%BC-%EC%A0%95%EB%A6%AC/</guid>
-      <description>static 메소드/인스턴스에 대한 이해를 높였다. 쓰레드/프로세스가 여럿 돌아가는 상황에서 static 선언으로 싱글턴을 쓰려고 하는 건 자살행위.코드가 잘 되어가니 자신감이 돌아왔다. 무슨 일이든 여유를 가져야 한다.이슈는 11개 처리. 크게 밀리거나 빨리 되거나 하지 않는다.프로젝트 끝날 때까지 야근/주말 출근을 시작했다. 그리 마음에 들지는 않지만, 6일 정도면 체력도 버틸 만 하고, 사람들 불안감도 문제라 일단은 하는 걸로.&amp;nbsp; </description>
+      <description>static 메소드/인스턴스에 대한 이해를 높였다. 쓰레드/프로세스가 여럿 돌아가는 상황에서 static 선언으로 싱글턴을 쓰려고 하는 건 자살행위.코드가 잘 되어가니 자신감이 돌아왔다. 무슨 일이든 여유를 가져야 한다.이슈는 11개 처리. 크게 밀리거나 빨리 되거나 하지 않는다.프로젝트 끝날 때까지 야근/주말 출근을 시작했다. 그리 마음에 들지는 않지만, 6일 정도면 체력도 버틸 만 하고, 사람들 불안감도 문제라 일단은 하는 걸로.&amp;nbsp;</description>
     </item>
     
     <item>
@@ -1097,7 +1109,7 @@ http://theeye.pe.kr/archives/2014 http://mudchobo.tistory.com/549 http://woniper
       <guid>https://ezaurum.com/2015/08/%EA%B2%8C%EC%9E%84-%EC%BB%A8%EC%85%89-%EC%B4%88%EC%95%88-%EB%AA%87-%EA%B0%9C/</guid>
       <description>해 볼까 하다가 통과가 안 된 초안 게임 시나리오 컨셉 몇 개
 초안 1
-컨셉 - 그리스 로마 신화, 영웅, 싸움을 통한 해결배경 설정 - 신들은 인간의 타락에 지쳐서 인간을 없애려는 결정을 내렸다. 하지만 그 결정에 반대한 한 신이 인간의 용사를 선택해 다른 신에 맞선다.시놉시스 - 주인공은 신탁을 받고 악신의 부하를 물리치고 신의 힘이 담긴 항아리를 얻는다. 그 힘으로 악신들과 싸우며 계속해서 신의 힘이 담긴 물건을 얻어 악신을 쓰러트리고 세계를 파멸에서 구한다.</description>
+컨셉 - 그리스 로마 신화, 영웅, 싸움을 통한 해결배경 설정 - 신들은 인간의 타락에 지쳐서 인간을 없애려는 결정을 내렸다. 하지만 그 결정에 반대한 한 신이 인간의 용사를 선택해 다른 신에 맞선다.시놉시스 - 주인공은 신탁을 받고 악신의 부하를 물리치고 신의 힘이 담긴 항아리를 얻는다. 그 힘으로 악신들과 싸우며 계속해서 신의 힘이 담긴 물건을 얻어 악신을 쓰러트리고 세계를 파멸에서 구한다.</description>
     </item>
     
     <item>
@@ -1106,7 +1118,7 @@ http://theeye.pe.kr/archives/2014 http://mudchobo.tistory.com/549 http://woniper
       <pubDate>Fri, 17 Jul 2015 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/retrospective/2015-1st-half/</guid>
-      <description> 포기하는 법을 배웠다. 마음을 비우고, 나 자신에게 기대를 덜 하고 주변에도 배를 째는 방식을 배웠다. 그게 나에게도 모두에게도 낫더라. 일정을 짤 때는 정말 생각보다 2-3배는 잡을 것. 항상 생각하던 거지만, 설천해 본 결과는 놀라웠다. 여행의 힘을 배웠다. 여행은 좋더라. 힐링이라는 말의 의미를 체험했다.  </description>
+      <description> 포기하는 법을 배웠다. 마음을 비우고, 나 자신에게 기대를 덜 하고 주변에도 배를 째는 방식을 배웠다. 그게 나에게도 모두에게도 낫더라. 일정을 짤 때는 정말 생각보다 2-3배는 잡을 것. 항상 생각하던 거지만, 설천해 본 결과는 놀라웠다. 여행의 힘을 배웠다. 여행은 좋더라. 힐링이라는 말의 의미를 체험했다. </description>
     </item>
     
     <item>
@@ -1208,7 +1220,7 @@ http://theeye.pe.kr/archives/2014 http://mudchobo.tistory.com/549 http://woniper
       
       <guid>https://ezaurum.com/2015/04/bitbucket%EC%9C%BC%EB%A1%9C-%EC%A0%95%EC%A0%81-%ED%8E%98%EC%9D%B4%EC%A7%80-%ED%98%B8%EC%8A%A4%ED%8C%85%ED%95%98%EA%B8%B0/</guid>
       <description>github에서 쉽게 사용할 수 있는 기능(참고 페이지)인데, bitbucket에서도 쓸 수 있다. 호스팅만 할 건데 따로 뭐 서비스 신청하기 뭣하고 해서&amp;hellip; 일단 공식 설명서가 있는데 필요한 부분만 발췌해서 간단히 한다.
-일단 Bitbucket에 사용자이름.bitbucket.org 라는 이름으로 리포지토리를 만든다. 이 규칙을 꼭 지켜줘야 한다.만든 페이지의 remote 저장소를 bitbucket으로 연결해준다. git remote add origin git@bitbucket:유저이름/유저이름.bitbucket.org.git푸시하고 유저이름.bitbucket.org 으로 가서 확인Bitbucket에서는 커스텀 도메인을 쓸 수 없다. 그냥 github를 쓰자.</description>
+일단 Bitbucket에 사용자이름.bitbucket.org 라는 이름으로 리포지토리를 만든다. 이 규칙을 꼭 지켜줘야 한다.만든 페이지의 remote 저장소를 bitbucket으로 연결해준다. git remote add origin git@bitbucket:유저이름/유저이름.bitbucket.org.git푸시하고 유저이름.bitbucket.org 으로 가서 확인Bitbucket에서는 커스텀 도메인을 쓸 수 없다. 그냥 github를 쓰자.</description>
     </item>
     
     <item>
@@ -1236,7 +1248,7 @@ http://theeye.pe.kr/archives/2014 http://mudchobo.tistory.com/549 http://woniper
       
       <guid>https://ezaurum.com/2015/04/%EC%9D%B4%EB%AF%B8-%EC%9E%88%EB%8A%94-%EB%8F%84%EB%A9%94%EC%9D%B8%EC%97%90-bitbucket-%EC%A0%95%EC%A0%81-%ED%8E%98%EC%9D%B4%EC%A7%80-%EC%97%B0%EA%B2%B0%ED%95%98%EA%B8%B0/</guid>
       <description>이것도 github에서도 되는 기능이지만, 나는 bitbucket을 쓰고 있어서&amp;hellip; 공식 설명서
-일단 DNS 서비스에서 해당 도메인의 CNAME을 사용자이름.bitbucket.org로 설정해준다.bitbucket에서 오른쪽 위 모서리의 사용자 아바타를 클릭하면 계정관리 메뉴로 갈 수 있는데, 거기서 커스텀 도메인에 지정한 주소를 입력한다.</description>
+일단 DNS 서비스에서 해당 도메인의 CNAME을 사용자이름.bitbucket.org로 설정해준다.bitbucket에서 오른쪽 위 모서리의 사용자 아바타를 클릭하면 계정관리 메뉴로 갈 수 있는데, 거기서 커스텀 도메인에 지정한 주소를 입력한다.</description>
     </item>
     
     <item>
@@ -1373,7 +1385,7 @@ http://theeye.pe.kr/archives/2014 http://mudchobo.tistory.com/549 http://woniper
       <guid>https://ezaurum.com/2015/02/Task%EC%9D%98-%EC%8B%A4%ED%96%89-%EC%8B%9C%EC%A0%90/</guid>
       <description>Stackexchange redis에서 트랜잭션 진행이 멈춤이라는 질문과 답변을 보다가 Execute가 실제 명령어들보다 앞에서 await로 되어 있는 것을 보고 좀 이상하다는 느낌을 받았다. 그래서 열심히 검색하고 테스트 코드를 짜 보았다. https://gist.github.com/ezaurum/746ea24220b52b27b56c.js
 결론은, Task는 await로 되는 시점에 실행되는 것이 아니다. 단지 Task는 실행되고 있는 쓰레드(정확히 대응하는 것은 아니지만&amp;hellip;)에 대한 핸들러를 주는 것이고, await는 그게 종료 되었는지 확인 될 때까지 해당 프로시저를 멈추는 역할을 할 뿐이다. 그러니, 저 코드는 실제로는 다음과 같을 것이다.
-트랜잭션 만든다.</description>
+트랜잭션 만든다.</description>
     </item>
     
     <item>
@@ -1391,7 +1403,7 @@ http://theeye.pe.kr/archives/2014 http://mudchobo.tistory.com/549 http://woniper
       <pubDate>Mon, 09 Feb 2015 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2015/02/%EB%AA%BD%EA%B3%A0-DB-ISODate%EA%B0%9D%EC%B2%B4%EB%A1%9C-%EA%B2%80%EC%83%89/</guid>
-      <description>db.logs.find({&amp;ldquo;timestamp&amp;rdquo;: { &amp;ldquo;$gte&amp;rdquo;: new Date(&amp;ldquo;2015-02-05&amp;rdquo;)}, &amp;ldquo;level&amp;rdquo;:&amp;ldquo;ERROR&amp;rdquo;})  $gte, $gt, $lt, $lte를 쓸 수 있고, new Date(&amp;ldquo;2015-02-01T00:00:00.000Z&amp;rdquo;) 형태로 검색한다.</description>
+      <description>db.logs.find({&amp;ldquo;timestamp&amp;rdquo;: { &amp;ldquo;$gte&amp;rdquo;: new Date(&amp;ldquo;2015-02-05&amp;rdquo;)}, &amp;ldquo;level&amp;rdquo;:&amp;ldquo;ERROR&amp;rdquo;}) $gte, $gt, $lt, $lte를 쓸 수 있고, new Date(&amp;ldquo;2015-02-01T00:00:00.000Z&amp;rdquo;) 형태로 검색한다.</description>
     </item>
     
     <item>
@@ -1400,8 +1412,7 @@ http://theeye.pe.kr/archives/2014 http://mudchobo.tistory.com/549 http://woniper
       <pubDate>Sun, 08 Feb 2015 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2015/02/Nuget-%ED%8C%A8%ED%82%A4%EC%A7%80%EC%97%90-%EC%9D%98%EC%A1%B4%EC%84%B1-%EC%A7%80%EC%A0%95%ED%95%98%EA%B8%B0/</guid>
-      <description>출처 - Nuget 매뉴얼 Nuget 패키지를 만들 때 의존성을 지정하려면, .nuspec 파일 안의 metadata 태그의 자식으로 
-&amp;lt;/code&amp;gt; 이렇게 지정해 주면 된다.</description>
+      <description>출처 - Nuget 매뉴얼 Nuget 패키지를 만들 때 의존성을 지정하려면, .nuspec 파일 안의 metadata 태그의 자식으로 &amp;lt;/code&amp;gt;이렇게 지정해 주면 된다.</description>
     </item>
     
     <item>
@@ -1420,7 +1431,7 @@ http://theeye.pe.kr/archives/2014 http://mudchobo.tistory.com/549 http://woniper
       
       <guid>https://ezaurum.com/2015/02/Her/</guid>
       <description>imdb 링크 5초 스킵으로 봤지만 여러모로 생각이 많아지는 영화. 결국 인간을 초월한 존재가 되어버린 그/그녀들을 보니,
-이루어질 수 없는 사랑에 대한 적절한 결말이구나자신을 초월하는 존재를 만든 사람들은 참 대단하구나이런 생각이 들었다.생각해 보면, 어릴 때는 거대로봇을 만들고 싶었고, AI도 만들고 싶었다. 게임은 물론 만들고 싶었고, OS라든가도 흥미가 있었지. 지금의 꿈이라면 &amp;hellip; 똑같군. :D 인간과 AI의 경계에 대해 생각하고 인간성에 대해 돌이켜 보기 보단, 꿈을 되살리게 해준 영화였다.</description>
+이루어질 수 없는 사랑에 대한 적절한 결말이구나자신을 초월하는 존재를 만든 사람들은 참 대단하구나이런 생각이 들었다.생각해 보면, 어릴 때는 거대로봇을 만들고 싶었고, AI도 만들고 싶었다. 게임은 물론 만들고 싶었고, OS라든가도 흥미가 있었지. 지금의 꿈이라면 &amp;hellip; 똑같군. :D 인간과 AI의 경계에 대해 생각하고 인간성에 대해 돌이켜 보기 보단, 꿈을 되살리게 해준 영화였다. 지금의 나는 인간과 고도로-아주 적당하고 무책임한 단어-발달한 AI 와 큰 차이는 없다고 생각한다.</description>
     </item>
     
     <item>
@@ -1472,7 +1483,7 @@ http://theeye.pe.kr/archives/2014 http://mudchobo.tistory.com/549 http://woniper
       <pubDate>Mon, 12 Jan 2015 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2015/01/2015%EB%85%84-%EB%AA%A9%ED%91%9C/</guid>
-      <description>수영 100m책 매주 1권 - 몰아서 읽는 소설류 비중이 높다글 최소 12편 - 의미있는 양질의 포스트로!영어회화 공부 - 자막없이 영어를 볼 수 있는 수준까지새해니까 다짐해 보자</description>
+      <description>수영 100m책 매주 1권 - 몰아서 읽는 소설류 비중이 높다글 최소 12편 - 의미있는 양질의 포스트로!영어회화 공부 - 자막없이 영어를 볼 수 있는 수준까지새해니까 다짐해 보자</description>
     </item>
     
     <item>
@@ -1518,7 +1529,7 @@ http://theeye.pe.kr/archives/2014 http://mudchobo.tistory.com/549 http://woniper
       
       <guid>https://ezaurum.com/2014/12/C#-DB-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-%EB%B9%84%EA%B5%90/</guid>
       <description>별로 구체적으로 비교를 해 본 것은 아니지만, 지난 두 달간 이런저런 삽질을 한 결과를 정리한다.
-Linq To SQL - MS스러운 DB라이브러리장점 - IDE에 통합된 사용환경, VS에서 DB에 연결 후, 테이블을 끌어오는 것만으로도 바로 도메인 객체가 생성된다. 속도가 빠르다. 복잡한 쿼리에 신경 안 써도 된다. 러닝커브 작음.단점 - 자동생성되는 도메인 객체가 복잡하다. 로직이 들어가야 하는 경우 매우 곤란해진다. POCO객체는 불가능. 추가 수정도 귀찮다.적절한 사용처 - 이미 DB가 존재하고, 거기에 간단한 CRUD연산을 해야 하는 웹 툴 정도를 붙이는 경우.</description>
+Linq To SQL - MS스러운 DB라이브러리장점 - IDE에 통합된 사용환경, VS에서 DB에 연결 후, 테이블을 끌어오는 것만으로도 바로 도메인 객체가 생성된다. 속도가 빠르다. 복잡한 쿼리에 신경 안 써도 된다. 러닝커브 작음.단점 - 자동생성되는 도메인 객체가 복잡하다. 로직이 들어가야 하는 경우 매우 곤란해진다. POCO객체는 불가능. 추가 수정도 귀찮다.적절한 사용처 - 이미 DB가 존재하고, 거기에 간단한 CRUD연산을 해야 하는 웹 툴 정도를 붙이는 경우.</description>
     </item>
     
     <item>
@@ -1564,7 +1575,7 @@ http://theeye.pe.kr/archives/2014 http://mudchobo.tistory.com/549 http://woniper
       <pubDate>Wed, 24 Dec 2014 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2014/12/nuget-%ED%8C%A8%ED%82%A4%EC%A7%80-%EC%9E%90%EB%8F%99%EC%9C%BC%EB%A1%9C-%EB%A7%8C%EB%93%A4%EA%B8%B0/</guid>
-      <description>msbuild를 사용해서 만들기</description>
+      <description>msbuild를 사용해서 만들기 </description>
     </item>
     
     <item>
@@ -1583,9 +1594,8 @@ http://theeye.pe.kr/archives/2014 http://mudchobo.tistory.com/549 http://woniper
       <pubDate>Fri, 05 Dec 2014 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2014/12/Cross-thread-operation-not-valid-%ED%95%B4%EA%B2%B0/</guid>
-      <description>출처 - 스택오버플로우  private void OnAction(string v) { richTextBox1.AppendText(v + Environment.NewLine); richTextBox1.ScrollToCaret(); }
-public void AddText(string value) { richTextBox1.Invoke((Action) OnAction, value); } 
-기본적으로 invoke를 이용하면 해당 문제를 막을 수 있음.</description>
+      <description>출처 - 스택오버플로우 private void OnAction(string v) { richTextBox1.AppendText(v + Environment.NewLine); richTextBox1.ScrollToCaret(); }
+public void AddText(string value) { richTextBox1.Invoke((Action) OnAction, value); } 기본적으로 invoke를 이용하면 해당 문제를 막을 수 있음.</description>
     </item>
     
     <item>
@@ -1605,7 +1615,7 @@ public void AddText(string value) { richTextBox1.Invoke((Action) OnAction, value
       
       <guid>https://ezaurum.com/2014/10/ASP-.NET%EC%97%90%EC%84%9C-%EC%93%B0%EB%8A%94-%EC%9A%A9%EC%96%B4/</guid>
       <description>출처 - Getting Started with ASP.NET MVC 6
-컨트롤러(controller)는 HTTP 요청을 받아서 어플리케이션 로직을 실행한다.액션(Action)은 컨트롤러에 있는 메소드를 말하는데, HTTP 요청을 처리하기 위해서 실행된다. 액션의 반환값은 HTTP 응답을 만들기 위해서 사용된다.라우팅(Routing)은 특정 HTTP 요청에 어떤 액션을 실행해야 할지를 선택하는 메커니즘이다. 주로 URL과 HTTP 행동에 의해 결정된다.뷰(view)는 HTML을 만들어내는 부품이다. 컨트롤러는 HTTP 응답이 HTML을 포함하는 경우 사용할 수 있다.모델(model)은 어플리케이션에서 사용하는 도메인 데이터이다. 보통 JSON등으로 직렬화하거나 HTML으로 만든다.</description>
+컨트롤러(controller)는 HTTP 요청을 받아서 어플리케이션 로직을 실행한다.액션(Action)은 컨트롤러에 있는 메소드를 말하는데, HTTP 요청을 처리하기 위해서 실행된다. 액션의 반환값은 HTTP 응답을 만들기 위해서 사용된다.라우팅(Routing)은 특정 HTTP 요청에 어떤 액션을 실행해야 할지를 선택하는 메커니즘이다. 주로 URL과 HTTP 행동에 의해 결정된다.뷰(view)는 HTML을 만들어내는 부품이다. 컨트롤러는 HTTP 응답이 HTML을 포함하는 경우 사용할 수 있다.모델(model)은 어플리케이션에서 사용하는 도메인 데이터이다. 보통 JSON등으로 직렬화하거나 HTML으로 만든다.</description>
     </item>
     
     <item>
@@ -1686,7 +1696,7 @@ CD를 살까 했는데 CD는 진짜 장식이고&amp;hellip; 음원을 어디서
       <description>&amp;ldquo;검은 폭풍 듀라한을 아는가?&amp;rdquo;
 &amp;ldquo;누가 그를 모른단 말인가. 피를 갈구하는 검은 마검에 홀려 수천의 인간을 죽이고, 아무도 침입할 수 없는 성을 어딘가에 세운, 한때 인간이었던 악마를.&amp;rdquo;
 -산 다유(San 茶喩)의 현자 쿤타킨테와 타리온의 소유자 리카마에론의 대화집 중 일부-
- 숨이 찬다. 얼마나 뛰었을까. 이마에서 흘러내리는 땀에 검붉은색 무언가가 섞여 있는 것이 보이진 않지만, 흘러내리는 기분이 끈적인다. 이마에서 곧바로 내려오던 것은 눈두덩에서 진로를 바꾸더니 잠시멈췄다가 다시 옆으로 흐른다. 끈적이는 기분이 상당히 불쾌하다. 잠깐 주위를 둘러본다.</description>
+숨이 찬다. 얼마나 뛰었을까. 이마에서 흘러내리는 땀에 검붉은색 무언가가 섞여 있는 것이 보이진 않지만, 흘러내리는 기분이 끈적인다. 이마에서 곧바로 내려오던 것은 눈두덩에서 진로를 바꾸더니 잠시멈췄다가 다시 옆으로 흐른다. 끈적이는 기분이 상당히 불쾌하다. 잠깐 주위를 둘러본다.</description>
     </item>
     
     <item>
@@ -1697,7 +1707,7 @@ CD를 살까 했는데 CD는 진짜 장식이고&amp;hellip; 음원을 어디서
       <guid>https://ezaurum.com/2014/08/%EB%98%90-%EB%B0%9C%EA%B5%B4%ED%92%88-%EC%A0%9C%EB%AA%A9%EC%9D%B4-%EA%B8%B0%EC%96%B5%EB%82%98%EC%A7%80-%EC%95%8A%EC%95%84/</guid>
       <description>미래가 없는 것을 안다 해도 눈물은 나오지 않아. 나른한 저녁에 술에 취해 눈 앞에 도달한 종말을 바라보고 인사를 하자
 “여. 오랜만인가?”
- 땅은 하늘에 빛나는 것을 바라서 항상 손을 뻗고, 그 손끝은 나무에 갈갈이 찢기어 녹색 피를 흘린다.
+땅은 하늘에 빛나는 것을 바라서 항상 손을 뻗고, 그 손끝은 나무에 갈갈이 찢기어 녹색 피를 흘린다.
 땅의 아이는 그 빛나는 것을 바라서 땅에다 빛나는 것을 박아넣고, 날개도 없이 하늘을 찢는다.
 그 빛나는 것으로 만든 국자는 너무 뜨거워서 내 영혼을 담을 수 없고, 나는 차가운 바람 아래 땅을 디디고 서 있다.</description>
     </item>
@@ -1713,7 +1723,7 @@ CD를 살까 했는데 CD는 진짜 장식이고&amp;hellip; 음원을 어디서
 일단 기록 삼아서&amp;hellip;
 있지도 않았을 희망일랑 찾지도 말고
 하루하루 숨을 이어가자 언젠가 좋은 날이 오리라는 꿈 같은 건 결국 나를 찌르는 칼날 의미없이 웃으며 살다 보면 조용히 눈 감는 날이 오겠지 그것만은 바라고 살아도 되는 거겠지?
- 세상은 꿈과 희망으로 가득차 있어서, 살아가는 순간이 매양 행복하기만 한데.
+세상은 꿈과 희망으로 가득차 있어서, 살아가는 순간이 매양 행복하기만 한데.
 내 이미 희망을 버리고 오명과 금전을 좆기로 한 바.
 오늘은 서슬퍼런 만월이라.</description>
     </item>
@@ -1767,7 +1777,7 @@ CD를 살까 했는데 CD는 진짜 장식이고&amp;hellip; 음원을 어디서
       <guid>https://ezaurum.com/2014/08/%EC%9C%88%EB%8F%84%EC%9A%B0-%EC%84%A4%EC%B9%98%EC%8B%9C-%EC%84%A4%EC%B9%98%ED%95%98%EB%8A%94-%EA%B2%83%EB%93%A4/</guid>
       <description>하드가 맛이 간 덕에 상당히 오랜만에 윈도우 재설치를 했다.
 그 김에 필수 프로그램들 정리.
-오페라 - 웹브라우저. 아는 사람만 아는지도 모르지만, 옛날 듀론 800Mhz CPU를 쓸 적부터 애용하던 브라우저. 요즘은 크롬 짭이 된 느낌이라 살짝 아쉽긴 함.날개셋 한글입력기 - 윈도우용 IME. 세벌식을 쓰는 나에게는 꼭 필요한 물건. - 요즘은 안 쓰고 있다. VS환경에서 충돌이 있어서 제멋대로 한영이 변환되는 현상이 있음.7zip - 압축 프로그램. 다른 건 뭐가 있는지 모르겠다.</description>
+오페라 - 웹브라우저. 아는 사람만 아는지도 모르지만, 옛날 듀론 800Mhz CPU를 쓸 적부터 애용하던 브라우저. 요즘은 크롬 짭이 된 느낌이라 살짝 아쉽긴 함.날개셋 한글입력기 - 윈도우용 IME. 세벌식을 쓰는 나에게는 꼭 필요한 물건. - 요즘은 안 쓰고 있다. VS환경에서 충돌이 있어서 제멋대로 한영이 변환되는 현상이 있음.7zip - 압축 프로그램. 다른 건 뭐가 있는지 모르겠다. :DDropbox - 이거 덕에 데이터 백업은 안 해도 된다나눔 고딕 코딩 - 폰트는 아주아주 중요한 물건.</description>
     </item>
     
     <item>
@@ -1804,7 +1814,7 @@ CD를 살까 했는데 CD는 진짜 장식이고&amp;hellip; 음원을 어디서
       <pubDate>Sun, 03 Aug 2014 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2014/08/%EC%95%84%EC%B9%98%EB%B0%94-%EC%8B%AC%EB%AF%B8%EC%95%88-27%EC%9D%B8%EC%B9%98-%EC%BB%A4%EC%8A%A4%ED%85%80-%ED%95%B4%EC%83%81%EB%8F%84/</guid>
-      <description>어째선지 윈도우 8.1에서 HDMI로 연결한 심미안 27인치의 2560*1440 해상도가 인식이 되질 않아서 찾아보니, (그 동안 안 되서 케이블을 몇 개를 바꿨는지&amp;hellip;)  이렇게 커스텀 해상도를 설정해 주면 되는 거였다&amp;hellip; 백업용으로 글 씀</description>
+      <description>어째선지 윈도우 8.1에서 HDMI로 연결한 심미안 27인치의 2560*1440 해상도가 인식이 되질 않아서 찾아보니, (그 동안 안 되서 케이블을 몇 개를 바꿨는지&amp;hellip;) 이렇게 커스텀 해상도를 설정해 주면 되는 거였다&amp;hellip; 백업용으로 글 씀</description>
     </item>
     
     <item>
@@ -1840,7 +1850,7 @@ CD를 살까 했는데 CD는 진짜 장식이고&amp;hellip; 음원을 어디서
       
       <guid>https://ezaurum.com/2014/05/5%EC%9B%94-%EB%84%B7%EC%A7%B8%EC%A3%BC-%EC%A0%95%EB%A6%AC/</guid>
       <description>두 달 만에 정리할 여유가 났다.
-일정, 또는 업무 문제가 있으면 배를 쨀 것. 그게 서로를 위해서 더 좋다. 노력해 봐야 남은 안 알아준다. 나도 남이 노력한 걸 제대로 알아주지는 않는다.문제가 있으면 공유할 것. 상대를 믿을 수 없을수록 더욱 더.믿을 수 없는 사람과는 일하지 말고, 일했으면 믿어라. 그런데 두 번째는 힘드니까, 처음을 가능하면 더 지키자.하고 싶은 일을 하자.같이 일할 사람을 고를 때는, 마음 맞는 사람으로. 3번과 미묘하게 겹치지만, 여튼.</description>
+일정, 또는 업무 문제가 있으면 배를 쨀 것. 그게 서로를 위해서 더 좋다. 노력해 봐야 남은 안 알아준다. 나도 남이 노력한 걸 제대로 알아주지는 않는다.문제가 있으면 공유할 것. 상대를 믿을 수 없을수록 더욱 더.믿을 수 없는 사람과는 일하지 말고, 일했으면 믿어라. 그런데 두 번째는 힘드니까, 처음을 가능하면 더 지키자.하고 싶은 일을 하자.같이 일할 사람을 고를 때는, 마음 맞는 사람으로. 3번과 미묘하게 겹치지만, 여튼.</description>
     </item>
     
     <item>
@@ -1910,7 +1920,7 @@ CD를 살까 했는데 CD는 진짜 장식이고&amp;hellip; 음원을 어디서
       <pubDate>Sat, 15 Mar 2014 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2014/03/3%EC%9B%94-%EB%91%98%EC%A7%B8%EC%A3%BC-%EC%A0%95%EB%A6%AC/</guid>
-      <description>시간 산정할 때, 해 본 일은 1.5배 안 해 본 일은 3배partial은 interface 기준으로 나누자코드가 복잡해지고 길어지면 뭔가 잘못된 거다</description>
+      <description>시간 산정할 때, 해 본 일은 1.5배 안 해 본 일은 3배partial은 interface 기준으로 나누자코드가 복잡해지고 길어지면 뭔가 잘못된 거다</description>
     </item>
     
     <item>
@@ -1938,7 +1948,7 @@ CD를 살까 했는데 CD는 진짜 장식이고&amp;hellip; 음원을 어디서
       
       <guid>https://ezaurum.com/2013/12/%EA%B8%B0%EC%88%A0-%EC%8A%B5%EB%93%9D-%ED%8C%A8%ED%84%B4/</guid>
       <description>요즘 내 기술 습득 패턴을 보니, 대충 다음과 같다.
-기술적 개요와 전체 흐름을 본다제일 간단하게 되어있는 Get start라든가, 튜토리얼을 찾아 좀 따라한다.약간 감이 온다 싶으면 만들려고 했던 걸 만든다.벽에 부딪힌다.1번으로 다시이걸 두 번쯤 하면 좀 이해가 되더라. 크게 문제가 있어 보이진 않지만, 한 번에 되면 좋겠다. 새로 뭔가를 배워서 적용하고 결과물을 만들어내는데 시간이 많이 걸린다.
+기술적 개요와 전체 흐름을 본다제일 간단하게 되어있는 Get start라든가, 튜토리얼을 찾아 좀 따라한다.약간 감이 온다 싶으면 만들려고 했던 걸 만든다.벽에 부딪힌다.1번으로 다시이걸 두 번쯤 하면 좀 이해가 되더라. 크게 문제가 있어 보이진 않지만, 한 번에 되면 좋겠다. 새로 뭔가를 배워서 적용하고 결과물을 만들어내는데 시간이 많이 걸린다.
 어디였더라, 교육학 중에서 반복학습으로 몸에 습득하는 거랑 이론으로 습득하는 거랑 뭐가 다르다고 했던 이야기가 있었던듯 한데, 내 경우는 어쨌든 반복학습을 하고 몸에 익힌 다음 이론 습득이 나은 것 같다.</description>
     </item>
     
@@ -1958,7 +1968,7 @@ CD를 살까 했는데 CD는 진짜 장식이고&amp;hellip; 음원을 어디서
       
       <guid>https://ezaurum.com/2013/11/.gitconfig-%EC%84%A4%EC%A0%95/</guid>
       <description>지금 쓰는 설정 백업용
-[user]name = 이름email = 메일[color]ui = true[alias]ci = commitundo = resets = statusco = checkouta = add[core]editor = vi[merge]tool = vimdiff[diff]algorithm = patience[push]default = simple색은 칼라로 나오는 게 좋고, alias는 한 자라도 덜 치려면 꼭 해 두는 게 좋다.</description>
+[user]name = 이름email = 메일[color]ui = true[alias]ci = commitundo = resets = statusco = checkouta = add[core]editor = vi[merge]tool = vimdiff[diff]algorithm = patience[push]default = simple색은 칼라로 나오는 게 좋고, alias는 한 자라도 덜 치려면 꼭 해 두는 게 좋다.</description>
     </item>
     
     <item>
@@ -1985,9 +1995,9 @@ CD를 살까 했는데 CD는 진짜 장식이고&amp;hellip; 음원을 어디서
       <pubDate>Sun, 24 Nov 2013 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2013/11/Git%EC%97%90%EC%84%9C-%ED%8A%B9%EC%A0%95%ED%8C%8C%EC%9D%BC-%EC%9E%84%EC%8B%9C%EB%A1%9C-%EC%BB%A4%EB%B0%8B%EB%82%B4%EC%97%AD%EC%97%90%EC%84%9C-%EC%A0%9C%EC%99%B8%ED%95%98%EA%B8%B0/</guid>
-      <description>출처  http://blog.outsider.ne.kr/817 스택오버플로우 FallenGameR&amp;rsquo;s blog  Unity3D로 공동작업을 하다 보면 meta파일이 많이 생기고, 뭐 잠깐 이쪽에서 고쳐보고 싶은데 하던 작업 중에 일부는 또 올려야 할 때가 있고해서 골치 아플 때 유용함. local 에만 적용해야 하는 환경파일 수정할 때도 유용
+      <description>출처 http://blog.outsider.ne.kr/817 스택오버플로우 FallenGameR&amp;rsquo;s blog Unity3D로 공동작업을 하다 보면 meta파일이 많이 생기고, 뭐 잠깐 이쪽에서 고쳐보고 싶은데 하던 작업 중에 일부는 또 올려야 할 때가 있고해서 골치 아플 때 유용함. local 에만 적용해야 하는 환경파일 수정할 때도 유용
 리모트 파일이 바뀌어서 pull을 할 때 주의점 기본적으로 컨플릭트가 나고, 해결 방법이 다르다
- assumed-unchanged - stash 가능하지만, stash 하면 데이터 날아감 skip-worktree - stash 불가능, 플래그 꺼 줘야 함  git reset --hard를 하는 경우 주의점 결국 둘 다 파일은 바뀐다.</description>
+assumed-unchanged - stash 가능하지만, stash 하면 데이터 날아감 skip-worktree - stash 불가능, 플래그 꺼 줘야 함 git reset --hard를 하는 경우 주의점 결국 둘 다 파일은 바뀐다.</description>
     </item>
     
     <item>
@@ -2015,7 +2025,7 @@ CD를 살까 했는데 CD는 진짜 장식이고&amp;hellip; 음원을 어디서
       <pubDate>Sun, 24 Nov 2013 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2013/11/%EC%9D%B8%EC%A6%9D%EA%B3%BC-%EC%9D%B8%EA%B0%80%EC%9D%98-%EC%B0%A8%EC%9D%B4/</guid>
-      <description>인증(Authorization,認證)은 본인 인증인가(Authentication,認可)는 사용 인가인증은 누가 &amp;ldquo;내가 장동건인데~&amp;rdquo; 라고 했을 때, 말하는 사람이 장동건인지 아닌지 확인하는 과정. 인가는 누가 타인에게 뭘 요구할 때, 그걸 요구할 권한이 있는지 확인하는 과정.</description>
+      <description>인증(Authorization,認證)은 본인 인증인가(Authentication,認可)는 사용 인가인증은 누가 &amp;ldquo;내가 장동건인데~&amp;rdquo; 라고 했을 때, 말하는 사람이 장동건인지 아닌지 확인하는 과정. 인가는 누가 타인에게 뭘 요구할 때, 그걸 요구할 권한이 있는지 확인하는 과정.</description>
     </item>
     
     <item>
@@ -2081,7 +2091,7 @@ CD를 살까 했는데 CD는 진짜 장식이고&amp;hellip; 음원을 어디서
       <pubDate>Wed, 07 Aug 2013 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2013/08/unity3d-%EC%8B%9C%EC%9E%91-%EC%97%90%EB%9F%AC/</guid>
-      <description>참고 윈도우 7에서 unity3d를 실행하다가 Automatic import for &amp;lsquo;Assets/Standard Assets/Terrain Assets/Terrain Textures/Cliff (Layered Rock).psd&amp;rsquo; was disabled because the asset importer crashed on it last time. You can use &amp;lsquo;Assets -&amp;gt; Reimport&amp;rsquo; to enable automatic importing again. 처럼 psd 파일 불러오는 에러가 로그에 찍히면서 사용이 중지되면, dx11 모드로 강제로 실행시키면 해결될 수 있다. 실행시  -force-d3d11 옵션을 주고 실행하면 dx11모드로 실행된다. 문제가 일어난 환경은 i5, Intel HD4600, 윈7
+      <description>참고 윈도우 7에서 unity3d를 실행하다가 Automatic import for &amp;lsquo;Assets/Standard Assets/Terrain Assets/Terrain Textures/Cliff (Layered Rock).psd&amp;rsquo; was disabled because the asset importer crashed on it last time. You can use &amp;lsquo;Assets -&amp;gt; Reimport&amp;rsquo; to enable automatic importing again. 처럼 psd 파일 불러오는 에러가 로그에 찍히면서 사용이 중지되면, dx11 모드로 강제로 실행시키면 해결될 수 있다. 실행시 -force-d3d11 옵션을 주고 실행하면 dx11모드로 실행된다. 문제가 일어난 환경은 i5, Intel HD4600, 윈7
 더블 클릭해서 열 때도 dx11모드로 실행하게 하려면 레지스트리에서 다음 키를 찾아서 옵션을 추가함 HKEY_CLASSES_ROOTcom.</description>
     </item>
     
@@ -2091,7 +2101,7 @@ CD를 살까 했는데 CD는 진짜 장식이고&amp;hellip; 음원을 어디서
       <pubDate>Thu, 25 Jul 2013 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2013/07/Jackson%EC%9D%B4-null-%EC%9D%B8-%ED%94%84%EB%A1%9C%ED%8D%BC%ED%8B%B0%EB%A5%BC-%EB%B9%BC%EA%B3%A0-Serialize%ED%95%98%EA%B2%8C-%ED%95%98%EA%B8%B0/</guid>
-      <description>클래스 선언부에 다음을 추가  @JsonSerialize(include = JsonSerialize.Inclusion.NON_NULL) public class Blabla { &amp;hellip; }  상속도 된다.</description>
+      <description>클래스 선언부에 다음을 추가 @JsonSerialize(include = JsonSerialize.Inclusion.NON_NULL) public class Blabla { &amp;hellip; } 상속도 된다.</description>
     </item>
     
     <item>
@@ -2184,7 +2194,7 @@ CD를 살까 했는데 CD는 진짜 장식이고&amp;hellip; 음원을 어디서
       
       <guid>https://ezaurum.com/2013/06/jetty9-jenkins-%EC%85%80-%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EB%A7%8C%EC%9C%BC%EB%A1%9C-%EC%9E%90%EB%8F%99-%EB%B0%B0%ED%8F%AC/</guid>
       <description>미리 말해두면, 이건 좋지 못한 방법이다. 참고링크 jetty9은 gradle이 지원을 안 한다. cargo로 하려 그래도 containerId를 jetty9x로 지정하면 에러나 뜨고&amp;hellip; 앤트 스크립트도 지금 모르겠고, 그루비도 골치아프다면 그냥 편안하게 셀 스크립트로 하는 방법이 있다. jetty9 설치 방법을 참고했으면, jetty가 서비스로 돌고 있을 테니, 참고 링크보다 좀 더 쉽게 할 수 있다.
-jenkins 설정에서, build 칸에 보면 스크립트 추가할 수 있는 곳이 있다.  sudo service jetty stop sudo cp war파일.war 제티/webapp/파일이름.war sudo service jetty start  이게 sudo를 칠 때마다 비번을 물어보면 안 되니까 jenkins에 sudo 권한을 주고 비번을 안 묻게 하자.</description>
+jenkins 설정에서, build 칸에 보면 스크립트 추가할 수 있는 곳이 있다. sudo service jetty stop sudo cp war파일.war 제티/webapp/파일이름.war sudo service jetty start 이게 sudo를 칠 때마다 비번을 물어보면 안 되니까 jenkins에 sudo 권한을 주고 비번을 안 묻게 하자.</description>
     </item>
     
     <item>
@@ -2195,7 +2205,7 @@ jenkins 설정에서, build 칸에 보면 스크립트 추가할 수 있는 곳�
       <guid>https://ezaurum.com/2013/06/mint-%EC%97%90-jetty9-%EC%84%A4%EC%B9%98/</guid>
       <description>참고링크1 참고링크2
 일단 자바는 설치되었다고 가정한다. java 라고 쳐 보고 설치되었는지 확인. 별 문제 없다면 기본으로 설치되어 있을 터다. 설치 되었다면 /usr/local/ 로 이동해서 최신버전을 받아본다. 다음에 압축풀고 적당한 디렉토리로 옮긴다.
-cd /usr/local/ sudo wget &amp;ldquo;http://eclipse.org/downloads/download.php?file=/jetty/stable-9/dist/jetty-distribution-9.0.3.v20130506.tar.gz&amp;amp;amp;r=1&amp;quot; sudo tar -xvf jetty-distribution-9.0.3.v20130506.tar.gz sudo mv jetty-distribution-9.0.3.v20130506 jetty  이제는 서비스로 실행을 시켜보자. 시작 스크립트는 제티 설치 디렉토리/bin/jetty.sh 다. jetty라는 유저를 만들어서 그걸로 실행하도록 한다.  sudo useradd jetty -U -s /bin/false sudo chown -R jetty:jetty /usr/local/jetty sudo cp /usr/local/jetty/bin/jetty.</description>
+cd /usr/local/ sudo wget &amp;ldquo;http://eclipse.org/downloads/download.php?file=/jetty/stable-9/dist/jetty-distribution-9.0.3.v20130506.tar.gz&amp;amp;amp;r=1&amp;quot; sudo tar -xvf jetty-distribution-9.0.3.v20130506.tar.gz sudo mv jetty-distribution-9.0.3.v20130506 jetty 이제는 서비스로 실행을 시켜보자. 시작 스크립트는 제티 설치 디렉토리/bin/jetty.sh 다. jetty라는 유저를 만들어서 그걸로 실행하도록 한다. sudo useradd jetty -U -s /bin/false sudo chown -R jetty:jetty /usr/local/jetty sudo cp /usr/local/jetty/bin/jetty.</description>
     </item>
     
     <item>
@@ -2222,9 +2232,8 @@ cd /usr/local/ sudo wget &amp;ldquo;http://eclipse.org/downloads/download.php?fi
       <pubDate>Tue, 28 May 2013 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2013/05/java-code-base-spring-security-setting-with-gradle/</guid>
-      <description>java code base spring security setting github 리파지토리 build.gradle에 다음을 추가  repositories { mavenCentral() maven { url &amp;ldquo;http://repo.springsource.org/snapshot&amp;quot; } }
-dependencies { def springSecurityVersion = &amp;ldquo;3.1.4.RELEASE&amp;rdquo; compile &amp;ldquo;org.springframework.security:spring-security-core:$springSecurityVersion&amp;rdquo; compile &amp;ldquo;org.springframework.security:spring-security-web:$springSecurityVersion&amp;rdquo; compile &amp;ldquo;org.springframework.security:spring-security-config:$springSecurityVersion&amp;rdquo; compile &amp;ldquo;org.springframework.security:spring-security-javaconfig:1.0.0.CI-SNAPSHOT&amp;rdquo; }
-</description>
+      <description>java code base spring security setting github 리파지토리 build.gradle에 다음을 추가 repositories { mavenCentral() maven { url &amp;ldquo;http://repo.springsource.org/snapshot&amp;quot; } }
+dependencies { def springSecurityVersion = &amp;ldquo;3.1.4.RELEASE&amp;rdquo; compile &amp;ldquo;org.springframework.security:spring-security-core:$springSecurityVersion&amp;rdquo; compile &amp;ldquo;org.springframework.security:spring-security-web:$springSecurityVersion&amp;rdquo; compile &amp;ldquo;org.springframework.security:spring-security-config:$springSecurityVersion&amp;rdquo; compile &amp;ldquo;org.springframework.security:spring-security-javaconfig:1.0.0.CI-SNAPSHOT&amp;rdquo; }</description>
     </item>
     
     <item>
@@ -2306,7 +2315,7 @@ dependencies { def springSecurityVersion = &amp;ldquo;3.1.4.RELEASE&amp;rdquo; c
       <pubDate>Thu, 09 May 2013 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2013/05/spring-RequestMapping-%EC%9A%B0%EC%84%A0%EC%88%9C%EC%9C%84/</guid>
-      <description>/*html pages*///매핑시 같은 URL에 produce 우선순위를 이용해 다른 메소드로 연결하고자 하면, URL value에 같은 값을 설정해 주어야 한다.// /*로 설정된 것은 /{variaBLE} 보다 나중에 검색된다.@RequestMapping(value={&#34;/&#34;,&#34;&#34;,&#34;/{questId}&#34;},method=RequestMethod.GET, produces=&#34;text/html&#34; )public String getQuestIndex() {return &#34;quest&#34;;}/*json requests*/@RequestMapping(value=&#34;/{questId}&#34;,method=RequestMethod.GET, produces = &#34;application/json&#34;)public @ResponseBody Quest getQuestDetail(@PathVariable(&#34;questId&#34;) long questId) {return questService.find(questId);}@RequestMapping(value={&#34;/&#34;,&#34;&#34;}, method = RequestMethod.GET, produces = &#34;application/json&#34;)public @ResponseBody Collection&amp;lt;Quest&amp;gt; updateQuestDetail() {return questService.findAll();}</description>
+      <description>/*html pages*///매핑시 같은 URL에 produce 우선순위를 이용해 다른 메소드로 연결하고자 하면, URL value에 같은 값을 설정해 주어야 한다.// /*로 설정된 것은 /{variaBLE} 보다 나중에 검색된다.@RequestMapping(value={&#34;/&#34;,&#34;&#34;,&#34;/{questId}&#34;},method=RequestMethod.GET, produces=&#34;text/html&#34; )public String getQuestIndex() {return &#34;quest&#34;;}/*json requests*/@RequestMapping(value=&#34;/{questId}&#34;,method=RequestMethod.GET, produces = &#34;application/json&#34;)public @ResponseBody Quest getQuestDetail(@PathVariable(&#34;questId&#34;) long questId) {return questService.find(questId);}@RequestMapping(value={&#34;/&#34;,&#34;&#34;}, method = RequestMethod.GET, produces = &#34;application/json&#34;)public @ResponseBody Collection&amp;lt;Quest&amp;gt; updateQuestDetail() {return questService.findAll();}</description>
     </item>
     
     <item>
@@ -2333,7 +2342,7 @@ dependencies { def springSecurityVersion = &amp;ldquo;3.1.4.RELEASE&amp;rdquo; c
       <pubDate>Wed, 08 May 2013 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2013/05/AWS-ec2-open-jdk7%EC%9C%BC%EB%A1%9C-%EC%97%85%EA%B7%B8%EB%A0%88%EC%9D%B4%EB%93%9C/</guid>
-      <description>일단 open jdk 7 을 설치한다. sudo yum install java-1.7.0-openjdk  그 다음 java에 걸려 있는 심볼릭 링크를 바꿔줘야 하는데, /usr/bin/java -&amp;gt; /etc/alternatives/java -&amp;gt; -&amp;gt; /usr/lib/jvm/(현재 jre)/bin/java 이렇게 되어 있으므로,  sudo ln -s /usr/lib/jvm/jre-1.7.0-openjdk.x86_64/bin/java /etc/alternatives/java7 sudo mv /etc/alternatives/java7 /etc/alternatives/java  을 실행해서 심볼릭 링크를 바꿔준다. 지우고 다시 걸어도 되지만, 일단 지우고 거는 사이에 전 링크가 끊어지므로 가능한 영향을 적게 하기 위해서&amp;hellip;
+      <description>일단 open jdk 7 을 설치한다. sudo yum install java-1.7.0-openjdk 그 다음 java에 걸려 있는 심볼릭 링크를 바꿔줘야 하는데, /usr/bin/java -&amp;gt; /etc/alternatives/java -&amp;gt; -&amp;gt; /usr/lib/jvm/(현재 jre)/bin/java 이렇게 되어 있으므로, sudo ln -s /usr/lib/jvm/jre-1.7.0-openjdk.x86_64/bin/java /etc/alternatives/java7 sudo mv /etc/alternatives/java7 /etc/alternatives/java 을 실행해서 심볼릭 링크를 바꿔준다. 지우고 다시 걸어도 되지만, 일단 지우고 거는 사이에 전 링크가 끊어지므로 가능한 영향을 적게 하기 위해서&amp;hellip;
 ln -s /location/to/link2 newlink mv newlink linkname</description>
     </item>
     
@@ -2343,7 +2352,7 @@ ln -s /location/to/link2 newlink mv newlink linkname</description>
       <pubDate>Wed, 08 May 2013 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2013/05/mySQL-%EC%A0%84%EC%97%AD-%EC%84%A4%EC%A0%95-%EB%B3%80%EA%B2%BD/</guid>
-      <description>이상하게 utf8으로 바꾸는데 안 바뀌어서, session과 global 양 쪽을 다 바꾸었다.  SET GLOBAL character_set_client = &amp;ldquo;utf8&amp;rdquo;, character_set_connection = &amp;ldquo;utf8&amp;rdquo;, character_set_database = &amp;ldquo;utf8&amp;rdquo;, character_set_results = &amp;ldquo;utf8&amp;rdquo; , character_set_server = &amp;ldquo;utf8&amp;rdquo;, collation_connection = &amp;ldquo;utf8_general_ci&amp;rdquo;, collation_server = &amp;ldquo;utf8_general_ci&amp;rdquo;; SET SESSION character_set_client = &amp;ldquo;utf8&amp;rdquo;, character_set_connection = &amp;ldquo;utf8&amp;rdquo;, character_set_database = &amp;ldquo;utf8&amp;rdquo;, character_set_results = &amp;ldquo;utf8&amp;rdquo; , character_set_server = &amp;ldquo;utf8&amp;rdquo;, collation_connection = &amp;ldquo;utf8_general_ci&amp;rdquo;, collation_server = &amp;ldquo;utf8_general_ci&amp;rdquo;;  이유를 모르니 찜찜하지만&amp;hellip; 여튼 해결. 그런데 콘솔에서 접근하면 collation_connection은 여전히 latin1_swedish_ci 으로 뜬다&amp;hellip; 뭐지&amp;hellip;</description>
+      <description>이상하게 utf8으로 바꾸는데 안 바뀌어서, session과 global 양 쪽을 다 바꾸었다. SET GLOBAL character_set_client = &amp;ldquo;utf8&amp;rdquo;, character_set_connection = &amp;ldquo;utf8&amp;rdquo;, character_set_database = &amp;ldquo;utf8&amp;rdquo;, character_set_results = &amp;ldquo;utf8&amp;rdquo; , character_set_server = &amp;ldquo;utf8&amp;rdquo;, collation_connection = &amp;ldquo;utf8_general_ci&amp;rdquo;, collation_server = &amp;ldquo;utf8_general_ci&amp;rdquo;; SET SESSION character_set_client = &amp;ldquo;utf8&amp;rdquo;, character_set_connection = &amp;ldquo;utf8&amp;rdquo;, character_set_database = &amp;ldquo;utf8&amp;rdquo;, character_set_results = &amp;ldquo;utf8&amp;rdquo; , character_set_server = &amp;ldquo;utf8&amp;rdquo;, collation_connection = &amp;ldquo;utf8_general_ci&amp;rdquo;, collation_server = &amp;ldquo;utf8_general_ci&amp;rdquo;; 이유를 모르니 찜찜하지만&amp;hellip; 여튼 해결. 그런데 콘솔에서 접근하면 collation_connection은 여전히 latin1_swedish_ci 으로 뜬다&amp;hellip; 뭐지&amp;hellip;</description>
     </item>
     
     <item>
@@ -2372,7 +2381,7 @@ ln -s /location/to/link2 newlink mv newlink linkname</description>
       <pubDate>Thu, 02 May 2013 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2013/05/bash-%EC%85%80%EC%97%90%EC%84%9C-%EB%B3%80%EC%88%98-%EC%82%AC%EC%9A%A9/</guid>
-      <description>#!/bin/sh -eTODAY=`date -u +%Y%m%d`REDIS_HOME=&#34;/usr/redis-2.6.13/src&#34;fileName=&#34;redis-&#34;$TODAY&#34;.log&#34;$REDIS_HOME/redis-server &amp;gt;&amp;gt; $REDIS_HOME/$fileName &amp;amp;보시다시피 그냥 변수이름=값 해주면 쓸 수 있고, $를 붙이면 값을 받아오고, 문자열과는 붙여놓으면 자동으로 달라붙는다.</description>
+      <description>#!/bin/sh -eTODAY=`date -u +%Y%m%d`REDIS_HOME=&#34;/usr/redis-2.6.13/src&#34;fileName=&#34;redis-&#34;$TODAY&#34;.log&#34;$REDIS_HOME/redis-server &amp;gt;&amp;gt; $REDIS_HOME/$fileName &amp;amp;보시다시피 그냥 변수이름=값 해주면 쓸 수 있고, $를 붙이면 값을 받아오고, 문자열과는 붙여놓으면 자동으로 달라붙는다.</description>
     </item>
     
     <item>
@@ -2390,7 +2399,7 @@ ln -s /location/to/link2 newlink mv newlink linkname</description>
       <pubDate>Tue, 30 Apr 2013 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2013/04/AWS-RDS-%EC%9D%B8%EC%BD%94%EB%94%A9-UTF-8%EC%9C%BC%EB%A1%9C-%EC%84%A4%EC%A0%95/</guid>
-      <description>파라마터를 바꾼 다음, DB인스턴스를 리셋해야 한다. 있던 걸 자동으로 바꿔주는 건 아니다. 이미 있는 데이터는 뺀 다음 다시 넣든지 해야 할 듯. 지금은 데이터가 없는 상태라 새로 만들기만 함. 참고링크 일단 파라마터 그룹을 하나 만든다. 변경해야 할 것은 다음과 같다.  character_set_client = utf8 character_set_connection = utf8 character_set_database = utf8 character_set_results = utf8 character_set_server = utf8 collation_connection = utf8_general_ci collation_server = utf8_general_ci  파라마터 그룹을 이걸로 바꾸고, 리셋을 해 준다. 그러면 그 다음부터 들어가는 값은 UTF-8으로 들어가게 된다.</description>
+      <description>파라마터를 바꾼 다음, DB인스턴스를 리셋해야 한다. 있던 걸 자동으로 바꿔주는 건 아니다. 이미 있는 데이터는 뺀 다음 다시 넣든지 해야 할 듯. 지금은 데이터가 없는 상태라 새로 만들기만 함. 참고링크 일단 파라마터 그룹을 하나 만든다. 변경해야 할 것은 다음과 같다. character_set_client = utf8 character_set_connection = utf8 character_set_database = utf8 character_set_results = utf8 character_set_server = utf8 collation_connection = utf8_general_ci collation_server = utf8_general_ci 파라마터 그룹을 이걸로 바꾸고, 리셋을 해 준다. 그러면 그 다음부터 들어가는 값은 UTF-8으로 들어가게 된다.</description>
     </item>
     
     <item>
@@ -2470,8 +2479,7 @@ ln -s /location/to/link2 newlink mv newlink linkname</description>
       
       <guid>https://ezaurum.com/2013/04/%EB%B0%94%EB%9E%8C%EC%9D%98-%EC%97%B4%EB%91%90-%EB%B0%A9%ED%96%A5/</guid>
       <description>책 제일 뒷 장 홍보 문구에 땅바다 라고 어스시를 번역해서 적은 게 있는데, 어스시보다는 땅바다가 더 맘에 든다.
-실려 있는 단편은 하나하나 아주 좋았는데, 제일 마음에 들었던 건 길의 방향. 발상이 정말 신선했다.
- </description>
+실려 있는 단편은 하나하나 아주 좋았는데, 제일 마음에 들었던 건 길의 방향. 발상이 정말 신선했다.</description>
     </item>
     
     <item>
@@ -2526,7 +2534,7 @@ Don&amp;rsquo;t repeat yourself. </description>
       <pubDate>Sun, 17 Mar 2013 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2013/03/%EB%82%A8%EC%9D%80-%EC%B9%98%ED%82%A8%EC%9C%BC%EB%A1%9C-%EB%A7%8C%EB%93%9C%EB%8A%94-%EC%98%A4%EC%95%BC%EC%BD%94%EB%8F%99/</guid>
-      <description>일단 남은 치킨의 뼈와 살을 분리한다.뼈는 물에 넣어 팔팔 끓인다. 이 국물은 다른 요리에도 많이 쓸 수 있으니까, 남겨둔다.2인분이라면 세 국자 정도를 퍼 놓는다. 간장을 한 스푼 정도 넣는다. 고기가 간이 되어 있고, 겉에 양념이 묻어 있으므로 다른 건 필요가 없다.적당히 양파를 채썰어 넣고 끓이다가 고기를 넣고, 마지막에 계란을 풀어 넣는다. 2인분이라면 3-4개 정도. 계란이 완전히 익기 전에 불을 끈다.</description>
+      <description>일단 남은 치킨의 뼈와 살을 분리한다.뼈는 물에 넣어 팔팔 끓인다. 이 국물은 다른 요리에도 많이 쓸 수 있으니까, 남겨둔다.2인분이라면 세 국자 정도를 퍼 놓는다. 간장을 한 스푼 정도 넣는다. 고기가 간이 되어 있고, 겉에 양념이 묻어 있으므로 다른 건 필요가 없다.적당히 양파를 채썰어 넣고 끓이다가 고기를 넣고, 마지막에 계란을 풀어 넣는다. 2인분이라면 3-4개 정도. 계란이 완전히 익기 전에 불을 끈다.밥에 통째로 얹으면 끝. 남은 국물은 냉동시켜뒀다가 다른 요리에 쓴다.</description>
     </item>
     
     <item>
@@ -2609,7 +2617,6 @@ Don&amp;rsquo;t repeat yourself. </description>
       
       <guid>https://ezaurum.com/2013/01/%EC%9D%B4%EC%88%98%EC%97%AD-%EA%B7%BC%EC%B2%98-%EC%A7%84%EB%B6%80-%EC%8A%A4%EC%8B%9C/</guid>
       <description>이제 밥 먹으러 간 곳에서 괜찮았던 곳은 기록하기로 함. 참고 링크
-
 막 녹아내리고 저절로 박수가 나오는 건 아니었지만, 만족스러운 맛이었음. 현금쓰면 10% DC에 백원단위 에누리해줌. 기다리는 게 좀 그렇고 가게가 작긴 하지만(바 형태로 된 곳에 여섯명? 정도에 네 명 짜리 테이블 서너개 정도) 여튼 괜찮음. 남2+여1 셋이서 가서 현금 딱 오만원 쓰고 배부르게 먹음. 여자애가 많이 안 먹어서 그럴지도 모르지만... 55100원 나왔는데 10%디씨에 백원 절삭.
 위치는 이수역 4호선 13번 출구와 14번 출구 사이 다이소가 있는 골목으로 들어가 쭉 가다 보면 첫번째 던킨 도넛이 있는 사거리 지나 10미터 정도만 더 가다 보면 진행방향 오른쪽에 있음.</description>
     </item>
@@ -2639,9 +2646,8 @@ Don&amp;rsquo;t repeat yourself. </description>
       
       <guid>https://ezaurum.com/2013/01/WP-Markdown-%EC%84%A4%EC%B9%98/</guid>
       <description>마크다운플러그인 설치함 시험용 포스팅
-일단 써 보고어케 되는지 봐야지가 리스트군흠...
-printf(&#34;h&#34;);
-</description>
+일단 써 보고어케 되는지 봐야지가 리스트군흠...
+printf(&#34;h&#34;);</description>
     </item>
     
     <item>
@@ -2668,7 +2674,7 @@ printf(&#34;h&#34;);
       <pubDate>Mon, 31 Dec 2012 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2012/12/2012%EB%85%84-%EA%B2%B0%EC%82%B0/</guid>
-      <description>책(60+ 직지 프로젝트로 본 SF 소설에, 만화책이나 라노베까지 넣었더니 제대로 못 세겠음. 장르문학 뺀 걸로는 열 권 안 쪽, 기술서적은 처음부터 끝까지 읽은 게 아님)살아있는 화성인싸우는 미래인심해의 우주괴물우주 스테이션타이거 타이거사마르칸트의 마법목걸이은하계방위군도망친 로봇행성에서 온 소년우주 전쟁우주방랑도시스카이라아크호시간 초특급아서왕을 만난 사람태양계 요새추락한 달로봇 머신 X초인 부대우주 함대의 최후지구의 마지막 날로봇 스파이 전쟁암흑성운북극성의 증언공룡 세계의 탐험절대 0도의 수수께끼지저탐험타임 머신하늘의 공포우주괴인 자이로 박사불사판매 주식회사비글호의 모험강철 도시백설의 공포화성의 존카아트장인 - 현대문명이 잃어버린 생각하는 손그 많던 싱아는 다 누가 먹었을까점과 선백만 광년의 고독사라고사에서 발견된 원고화차은교1984차일드44영화 속 오컬트 X파일백성귀족나만의 천사그래도 죄인은 용과 춤춘다성계의 단장테르마이 로마에코럴커피 한 잔 더고양이는 비밀 장소에 있다생각정리 기술시간단축 기술최강업무 기술피터 드러커가 직장 생활을 한다면?</description>
+      <description>책(60+ 직지 프로젝트로 본 SF 소설에, 만화책이나 라노베까지 넣었더니 제대로 못 세겠음. 장르문학 뺀 걸로는 열 권 안 쪽, 기술서적은 처음부터 끝까지 읽은 게 아님)살아있는 화성인싸우는 미래인심해의 우주괴물우주 스테이션타이거 타이거사마르칸트의 마법목걸이은하계방위군도망친 로봇행성에서 온 소년우주 전쟁우주방랑도시스카이라아크호시간 초특급아서왕을 만난 사람태양계 요새추락한 달로봇 머신 X초인 부대우주 함대의 최후지구의 마지막 날로봇 스파이 전쟁암흑성운북극성의 증언공룡 세계의 탐험절대 0도의 수수께끼지저탐험타임 머신하늘의 공포우주괴인 자이로 박사불사판매 주식회사비글호의 모험강철 도시백설의 공포화성의 존카아트장인 - 현대문명이 잃어버린 생각하는 손그 많던 싱아는 다 누가 먹었을까점과 선백만 광년의 고독사라고사에서 발견된 원고화차은교1984차일드44영화 속 오컬트 X파일백성귀족나만의 천사그래도 죄인은 용과 춤춘다성계의 단장테르마이 로마에코럴커피 한 잔 더고양이는 비밀 장소에 있다생각정리 기술시간단축 기술최강업무 기술피터 드러커가 직장 생활을 한다면?</description>
     </item>
     
     <item>
@@ -2719,7 +2725,7 @@ printf(&#34;h&#34;);
       <pubDate>Wed, 28 Nov 2012 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2012/11/%EC%98%A4%EB%9E%9C%EB%A7%8C%EC%97%90-%EC%B2%A0%EC%95%BC-%ED%95%98%EA%B3%A0-%EB%8A%90%EB%82%80-%EC%A0%90/</guid>
-      <description>잠을 안 자면 정말 머리가 안 돌아간다.하루 7시간은 자자.추가 근무는 3시간을 넘기지 않도록. 저녁 식사 시간도 포함해서.뭐가 잘 안 되면 파고들지 말고 물러서자.테스트 코드를 만들자.</description>
+      <description>잠을 안 자면 정말 머리가 안 돌아간다.하루 7시간은 자자.추가 근무는 3시간을 넘기지 않도록. 저녁 식사 시간도 포함해서.뭐가 잘 안 되면 파고들지 말고 물러서자.테스트 코드를 만들자.</description>
     </item>
     
     <item>
@@ -2728,7 +2734,7 @@ printf(&#34;h&#34;);
       <pubDate>Sun, 25 Nov 2012 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2012/11/Raspberry-pi%EC%97%90-%EA%B0%9C%EB%B0%9C%EC%84%9C%EB%B2%84-%EC%85%8B%ED%8C%85/</guid>
-      <description>일단 라스베리 파이 파티션을 sd카드를 다 채우게 확장하기. 이걸 안 하면 깔다가 용량부족하다고 에러를 뱉는다.[youtube https://www.youtube.com/watch?v=R4VovMDnsIE&amp;w=560&amp;h=315]동영상에서는 fdisk -uc 라고 했는데, 나는 fdisk -u -c 로 해야 되었다.파티션이 3개가 아니라 처음부터 2개고, 첫번째 파티션이 0부터 시작하질 않아서 새로 파티션을 만들 때 이상한 위치가 잡혀서 숫자를 입력해 줘야 했다.sd카드를 빠른 걸 샀더니 의외로 금방 끝났다. 동영상은 4mb/s인데 내 껀 29.9mb/s...타이핑이 힘든 경우 여기에서 복사.초기 셋팅 참고 링크 이거 따라서 다 했다.</description>
+      <description>일단 라스베리 파이 파티션을 sd카드를 다 채우게 확장하기. 이걸 안 하면 깔다가 용량부족하다고 에러를 뱉는다.[youtube https://www.youtube.com/watch?v=R4VovMDnsIE&amp;w=560&amp;h=315]동영상에서는 fdisk -uc 라고 했는데, 나는 fdisk -u -c 로 해야 되었다.파티션이 3개가 아니라 처음부터 2개고, 첫번째 파티션이 0부터 시작하질 않아서 새로 파티션을 만들 때 이상한 위치가 잡혀서 숫자를 입력해 줘야 했다.sd카드를 빠른 걸 샀더니 의외로 금방 끝났다. 동영상은 4mb/s인데 내 껀 29.9mb/s...타이핑이 힘든 경우 여기에서 복사.초기 셋팅 참고 링크 이거 따라서 다 했다.</description>
     </item>
     
     <item>
@@ -2750,7 +2756,7 @@ VBoxManage.exe startvm &amp;ldquo;가상머신 이름&amp;rdquo; -type vrdp</des
       <description>나 왜 라즈베리 파이를 놀려두고 있었지.. OTL&amp;hellip;
 &amp;hellip;그래서 오늘 밤은 거기다 다시 셋팅해야&amp;hellip; OTL&amp;hellip;
 일단 할 거 목록을 적으면&amp;hellip;
-라즈베리 파이에 필요한 것들을 깐다. - 기본 설정은 되어 있으니 apt-get으로 대충...nexus - 지난 주에 배웠으니 어디...git - github는 public이라.. 거기 돈을 내고 private을 할까 이거 전기세가 쌀까 생각중...jenkins - 음.. 어디 한 번...gradle - 어디 써 보자..ftp - 혹시나.아무거나 빌드해서 올려본다 - 되는가 test 해 봄리셋해도 바뀌지 않도록 각 PC의 내부 IP를 고정한다.</description>
+라즈베리 파이에 필요한 것들을 깐다. - 기본 설정은 되어 있으니 apt-get으로 대충...nexus - 지난 주에 배웠으니 어디...git - github는 public이라.. 거기 돈을 내고 private을 할까 이거 전기세가 쌀까 생각중...jenkins - 음.. 어디 한 번...gradle - 어디 써 보자..ftp - 혹시나.아무거나 빌드해서 올려본다 - 되는가 test 해 봄리셋해도 바뀌지 않도록 각 PC의 내부 IP를 고정한다.</description>
     </item>
     
     <item>
@@ -2760,8 +2766,7 @@ VBoxManage.exe startvm &amp;ldquo;가상머신 이름&amp;rdquo; -type vrdp</des
       
       <guid>https://ezaurum.com/2012/11/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%BD%98%EC%86%94%EC%97%90%EC%84%9C-%ED%95%9C%EA%B8%80%EC%9D%B4-%EC%95%88-%EB%90%A0-%EB%95%8C/</guid>
       <description>locale 값이 다 정상인데 화면에 한글이 다 깨져서 나온다면, 한글이 확실히 되는 OS에서 ssh 등으로 접속해 보라.
-OTL&amp;hellip;. 어차피 ssh로 접속해서만 쓸 건데&amp;hellip; 몇 시간 소모한 거지.
- </description>
+OTL&amp;hellip;. 어차피 ssh로 접속해서만 쓸 건데&amp;hellip; 몇 시간 소모한 거지.</description>
     </item>
     
     <item>
@@ -2770,8 +2775,7 @@ OTL&amp;hellip;. 어차피 ssh로 접속해서만 쓸 건데&amp;hellip; �
       <pubDate>Sat, 24 Nov 2012 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2012/11/%EC%95%84%EB%A7%88%EC%A1%B4%EC%97%90%EC%84%9C-%EB%8B%A4%EC%8B%9C-ncity%ED%98%B8%EC%8A%A4%ED%8C%85%EC%9C%BC%EB%A1%9C-%EC%9D%B4%EC%A0%84/</guid>
-      <description>내년에 다시 옮길 거 생각해서도 좀 그렇고, 왜 그런지 자꾸 DB랑 연결이 끊어지는 현상도 발견되고 해서 그냥 php 호스팅 하나 받아서 쓰기로 결정. 마침 ncity에서 평생 계정 서비스가 있길래 그걸로 덥석.
- </description>
+      <description>내년에 다시 옮길 거 생각해서도 좀 그렇고, 왜 그런지 자꾸 DB랑 연결이 끊어지는 현상도 발견되고 해서 그냥 php 호스팅 하나 받아서 쓰기로 결정. 마침 ncity에서 평생 계정 서비스가 있길래 그걸로 덥석.</description>
     </item>
     
     <item>
@@ -2794,8 +2798,7 @@ OTL&amp;hellip;. 어차피 ssh로 접속해서만 쓸 건데&amp;hellip; �
       <guid>https://ezaurum.com/2012/09/%ED%98%B8%EC%8A%A4%ED%8C%85-%EC%95%84%EB%A7%88%EC%A1%B4%EC%9C%BC%EB%A1%9C-%EC%9D%B4%EC%A0%84/</guid>
       <description>내년에는 돈을 내야 하니까 또 옮겨갈지는 모르겠지만&amp;hellip;.
 여튼 일단은 여기로 왔음. 암 것도 안 했는데 뭔가 많이 바뀐 느낌인데 이상하게&amp;hellip;.
-자꾸 404가 떠서 고생했는데 이 링크 에서 mod_rewite를 켜는 방법을 보고 해결&amp;hellip; OTL&amp;hellip; 한글 문제인줄 알고 계속 삽질.
-  </description>
+자꾸 404가 떠서 고생했는데 이 링크 에서 mod_rewite를 켜는 방법을 보고 해결&amp;hellip; OTL&amp;hellip; 한글 문제인줄 알고 계속 삽질.</description>
     </item>
     
     <item>
@@ -2849,7 +2852,7 @@ OTL&amp;hellip;. 어차피 ssh로 접속해서만 쓸 건데&amp;hellip; �
       <pubDate>Fri, 24 Aug 2012 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2012/08/8%EC%9B%94-%EB%84%B7%EC%A7%B8-%EC%A3%BC-%EC%A0%95%EB%A6%AC/</guid>
-      <description>Test case를 만들자. 힘들어도 일단 하나씩 하고 보자.&amp;lt;li&amp;gt;테스트 케이스가 없으면 대규모 수정은 손대지 말 것. 늪이 된다.&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;상대는 바보가 아니다. 내가 뭔가 해서 분위기를 띄워야 한다는 생각을 말자. 편안하게 얘기해야 상대도 편안하다.&amp;lt;/li&amp;gt; 클래스 패키징이 잘 되었는가를 판별할 때, import가 얼마나 쓰이나를 생각할 것.위와 같은 이유로, 기능과 변경 이유를 생각해 볼 것.어쨌든 생각하고 움직이자.</description>
+      <description>Test case를 만들자. 힘들어도 일단 하나씩 하고 보자.&amp;lt;li&amp;gt;테스트 케이스가 없으면 대규모 수정은 손대지 말 것. 늪이 된다.&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;상대는 바보가 아니다. 내가 뭔가 해서 분위기를 띄워야 한다는 생각을 말자. 편안하게 얘기해야 상대도 편안하다.&amp;lt;/li&amp;gt;클래스 패키징이 잘 되었는가를 판별할 때, import가 얼마나 쓰이나를 생각할 것.위와 같은 이유로, 기능과 변경 이유를 생각해 볼 것.어쨌든 생각하고 움직이자.</description>
     </item>
     
     <item>
@@ -3004,7 +3007,7 @@ OTL&amp;hellip;. 어차피 ssh로 접속해서만 쓸 건데&amp;hellip; �
       <guid>https://ezaurum.com/2012/07/7%EC%9B%94-%EC%85%8B%EC%A7%B8-%EC%A3%BC-%EC%A0%95%EB%A6%AC/</guid>
       <description>정리하니까 뭔가 나아지는 기분이 든다. 체중이 줄고 있다.
 이 주의 시도
-다이어트 - 점심을 제끼니까 효과가 있다. 일단 도시락을 안 싸니까 아침이 조금 더 여유로워졌고, 아무래도 돈도 안 나간다. 식단일기를 쓰는 게 많은 도움이 된다. 운동도 꼬박꼬박은 아니라도 좀 더 자주 나가고 있다.&amp;lt;li&amp;gt;코딩 - 생각만큼 잘 되는 않지만, 그래도 발전했다는 느낌은 든다. 여전히 속도가 무리.&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;backbone.js - 쳐다도 못 봤다.&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;node.js - 마찬가지 쳐다도 못 봤다.&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;hibernate - 좀 보고 공부했지만, 단편적 지식일 뿐.</description>
+다이어트 - 점심을 제끼니까 효과가 있다. 일단 도시락을 안 싸니까 아침이 조금 더 여유로워졌고, 아무래도 돈도 안 나간다. 식단일기를 쓰는 게 많은 도움이 된다. 운동도 꼬박꼬박은 아니라도 좀 더 자주 나가고 있다.&amp;lt;li&amp;gt;코딩 - 생각만큼 잘 되는 않지만, 그래도 발전했다는 느낌은 든다. 여전히 속도가 무리.&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;backbone.js - 쳐다도 못 봤다.&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;node.js - 마찬가지 쳐다도 못 봤다.&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;hibernate - 좀 보고 공부했지만, 단편적 지식일 뿐.</description>
     </item>
     
     <item>
@@ -3041,7 +3044,7 @@ OTL&amp;hellip;. 어차피 ssh로 접속해서만 쓸 건데&amp;hellip; �
       <pubDate>Mon, 16 Jul 2012 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2012/07/%EC%9E%90%EB%B0%94%EB%A1%9C-%ED%95%A8%EA%BB%98-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A5%BC-%EC%8B%9C%EC%9E%91%ED%95%A0-%EB%95%8C-%EC%9C%A0%EC%9D%98%EC%A0%90/</guid>
-      <description>프레임워크 명명규칙 - 코딩 컨벤션?패키지 구조 -이래서 인터페이스가 중요한가? 일단 누가 어디서 뭘 호출할지가 정해져 있어야 서로 곤란하지 않다.이슈 관리 툴 - 기능 추가 관리 툴버전 관리 툴 - 무조건 머큐리얼이나 git. SVN 은 ...난 못 쓰겠다.일할 시간 - 여러 명이서 일한다면 서로 정기적인 커뮤니케이션 할 시간 정도가 필요DB 구조 - 프레임워크나 패키지 구조 정도에 좀 겹치질 수도 있다. ORM이면 클래스먼저, ERD먼저는 내 취향은 아님.</description>
+      <description>프레임워크 명명규칙 - 코딩 컨벤션?패키지 구조 -이래서 인터페이스가 중요한가? 일단 누가 어디서 뭘 호출할지가 정해져 있어야 서로 곤란하지 않다.이슈 관리 툴 - 기능 추가 관리 툴버전 관리 툴 - 무조건 머큐리얼이나 git. SVN 은 ...난 못 쓰겠다.일할 시간 - 여러 명이서 일한다면 서로 정기적인 커뮤니케이션 할 시간 정도가 필요DB 구조 - 프레임워크나 패키지 구조 정도에 좀 겹치질 수도 있다. ORM이면 클래스먼저, ERD먼저는 내 취향은 아님.</description>
     </item>
     
     <item>
@@ -3136,7 +3139,7 @@ OTL&amp;hellip;. 어차피 ssh로 접속해서만 쓸 건데&amp;hellip; �
       <pubDate>Tue, 03 Jul 2012 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2012/07/%EC%9D%B4%ED%81%B4%EB%A6%BD%EC%8A%A4%EC%97%90%EC%84%9C-JSP%EB%A5%BC-%EC%97%B4-%EB%95%8C-JSP-editor%EA%B0%80-%EA%B8%B0%EB%B3%B8%EC%9C%BC%EB%A1%9C-%EC%97%B4%EB%A6%AC%EA%B2%8C-%ED%95%98%EA%B8%B0/</guid>
-      <description>어째선지 가끔 JSP가 디자인 모드(HTML 디자인 편집기 같은 형태) 로 열릴 때가 있다. 그럴 때는 Window-&amp;gt;General-&amp;gt;Editors-&amp;gt;File Associations에서 JSP 파일을 찾고 아래쪽에서 JSP editor를 디폴트로 지정!</description>
+      <description>어째선지 가끔 JSP가 디자인 모드(HTML 디자인 편집기 같은 형태) 로 열릴 때가 있다. 그럴 때는 Window-&amp;gt;General-&amp;gt;Editors-&amp;gt;File Associations에서 JSP 파일을 찾고 아래쪽에서 JSP editor를 디폴트로 지정! </description>
     </item>
     
     <item>
@@ -3174,8 +3177,7 @@ POI, google drive api 대충 조사.</description>
       <pubDate>Sun, 01 Jul 2012 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2012/07/%ED%95%9C%EC%A4%84-%EC%A0%95%EB%A6%AC/</guid>
-      <description>jQuery.prevAll은, 시작점부터 역순으로 리스트를 만든다. 
-&amp;lt;ul&amp;gt;&amp;lt;li&amp;gt;4&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;3&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;2&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;1&amp;lt;/li&amp;gt;&amp;lt;li id=&#34;target&#34;&amp;gt;0&amp;lt;/li&amp;gt;&amp;lt;/ul&amp;gt;이 경우, $(&#34;#target&#34;).prevAll(&#34;li&#34;)는 2, 3, 4가 된다. 당연한가? 쓰고 보니 한 줄도 아니군.</description>
+      <description>jQuery.prevAll은, 시작점부터 역순으로 리스트를 만든다. &amp;lt;ul&amp;gt;&amp;lt;li&amp;gt;4&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;3&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;2&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;1&amp;lt;/li&amp;gt;&amp;lt;li id=&#34;target&#34;&amp;gt;0&amp;lt;/li&amp;gt;&amp;lt;/ul&amp;gt;이 경우, $(&#34;#target&#34;).prevAll(&#34;li&#34;)는 2, 3, 4가 된다. 당연한가? 쓰고 보니 한 줄도 아니군.</description>
     </item>
     
     <item>
@@ -3184,7 +3186,7 @@ POI, google drive api 대충 조사.</description>
       <pubDate>Tue, 26 Jun 2012 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2012/06/%EC%98%A4%EB%8A%98%EC%9D%98-%EA%B7%80%EA%B0%80%EA%B8%B8/</guid>
-      <description>일단 가뿐하게 퇴근길. 간식을 많이 먹어서 배가 부른 나머지 한 정거장만 더 걷자라고 생각, 걸어갔다.  지하철을 타고 가고&amp;hellip;  도착 후, 갑자기 영화가 보고 싶어졌다. &amp;hellip;.그래서 가장 가까운 영화관까지 걸었다. &amp;hellip;갔더니 시간이 안 맞아. 그래서 돌아왔다&amp;hellip; 오는 길에 헬스장 들러서 2km 뛰다 걷다 하고 기타등등 좀 더 하고 옴. &amp;hellip;뭐지 나 뭐한걸까.</description>
+      <description>일단 가뿐하게 퇴근길. 간식을 많이 먹어서 배가 부른 나머지 한 정거장만 더 걷자라고 생각, 걸어갔다. 지하철을 타고 가고&amp;hellip; 도착 후, 갑자기 영화가 보고 싶어졌다. &amp;hellip;.그래서 가장 가까운 영화관까지 걸었다. &amp;hellip;갔더니 시간이 안 맞아. 그래서 돌아왔다&amp;hellip; 오는 길에 헬스장 들러서 2km 뛰다 걷다 하고 기타등등 좀 더 하고 옴. &amp;hellip;뭐지 나 뭐한걸까.</description>
     </item>
     
     <item>
@@ -3278,7 +3280,7 @@ POI, google drive api 대충 조사.</description>
       <pubDate>Thu, 24 May 2012 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2012/05/Spring-3.1-profile-%EC%9D%B4%ED%81%B4%EB%A6%BD%EC%8A%A4%EC%97%90%EC%84%9C-%EC%82%AC%EC%9A%A9/</guid>
-      <description>스프링 3.1부터 메이븐처럼 profile 설정을 사용할 수 있게 되었다. 그래서 개발과 실서버의 설정을 다르게 만들 수 있음. 상세설명은 영어지만 여기를 참조하시고, 문제는 커맨드라인에서 실행하는 게 아니라 이클립스에서 실행할 때다. 모르는 게 나만이 아니라는 생각에 올려둠.  서버를 더블클릭해서 나오는 저 화면에서 다시 Open launcher configuration을 클릭하고, 나온 화면에서 Enviroment 탭에다가 저런 식으로 추가 해 주면 된다.</description>
+      <description>스프링 3.1부터 메이븐처럼 profile 설정을 사용할 수 있게 되었다. 그래서 개발과 실서버의 설정을 다르게 만들 수 있음. 상세설명은 영어지만 여기를 참조하시고, 문제는 커맨드라인에서 실행하는 게 아니라 이클립스에서 실행할 때다. 모르는 게 나만이 아니라는 생각에 올려둠. 서버를 더블클릭해서 나오는 저 화면에서 다시 Open launcher configuration을 클릭하고, 나온 화면에서 Enviroment 탭에다가 저런 식으로 추가 해 주면 된다.</description>
     </item>
     
     <item>
@@ -3375,7 +3377,7 @@ POI, google drive api 대충 조사.</description>
       <pubDate>Mon, 26 Mar 2012 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2012/03/iBatis-TypeHandler/</guid>
-      <description>TypeHandler는 iBatis에서 특정 타입을 매핑할 때 원하는 행동을 지정해주는 클래스다. 이걸 이용하면 DB에는 Y/N으로 저장된 걸 boolean으로 처리한다든가 하는 게 가능해진다.  public class StudyTypeHandler extends EnumTypeHandler { public StudyTypeHandler() { super(EnumStudy.class); }
+      <description>TypeHandler는 iBatis에서 특정 타입을 매핑할 때 원하는 행동을 지정해주는 클래스다. 이걸 이용하면 DB에는 Y/N으로 저장된 걸 boolean으로 처리한다든가 하는 게 가능해진다. public class StudyTypeHandler extends EnumTypeHandler { public StudyTypeHandler() { super(EnumStudy.class); }
 //얘가 결과를 받아서 빈에 매핑하는 애다. @Override public Object getResult(ResultGetter getter) throws SQLException { int result = getter.getInt(); if(getter.wasNull()) { return null; } return EnumStudy.valueOf(result); } //얘는 빈에서 받아다가 DB에 매핑하는 애다. @Override public void setParameter(ParameterSetter setter, Object parameter) throws SQLException { if(parameter == null) { setter.</description>
     </item>
     
@@ -3405,7 +3407,7 @@ public static void main(String args[]) { System.out.println(EnumStudy.valueOf(1)
       
       <guid>https://ezaurum.com/2011/12/String-StringBuilder-StringBuffer-%EC%A4%91-%EB%AD%98-%EC%8D%A8%EC%95%BC-%ED%95%A0%EA%B9%8C/</guid>
       <description>출처 -http://www.a2ztechguide.com/2011/12/difference-between-string-stringbuffer.html
-값이 변하지 않으면 불변객체 StringString은 immutable 이다. 한 번 만들어두고 걍 읽어만 올 거면 대부분의 경우 String을 쓰면 되는 모양.자주 변하는 경우, 그때마다 새로 만들어줘야 하므로 비추천.equals가 오버라이드 되어 있다.싱글 스레드라면 StringBuildermutable함. 데이터가 막 바뀌는 경우 사용.나온지 얼마 안 된 신삥. StringBuffer랑 synchronization 빼고 동일.출처 포스트에는 StringBuffer보다 빠르다고 한다.equals오버라이드 안 되어 있음.멀티스레드라면 StringBufferequals오버라이드 안 되어 있음.StringBuilder랑 synchronization 빼고는 동일</description>
+값이 변하지 않으면 불변객체 StringString은 immutable 이다. 한 번 만들어두고 걍 읽어만 올 거면 대부분의 경우 String을 쓰면 되는 모양.자주 변하는 경우, 그때마다 새로 만들어줘야 하므로 비추천.equals가 오버라이드 되어 있다.싱글 스레드라면 StringBuildermutable함. 데이터가 막 바뀌는 경우 사용.나온지 얼마 안 된 신삥. StringBuffer랑 synchronization 빼고 동일.출처 포스트에는 StringBuffer보다 빠르다고 한다.equals오버라이드 안 되어 있음.멀티스레드라면 StringBufferequals오버라이드 안 되어 있음.StringBuilder랑 synchronization 빼고는 동일</description>
     </item>
     
     <item>
@@ -3424,7 +3426,7 @@ public static void main(String args[]) { System.out.println(EnumStudy.valueOf(1)
       
       <guid>https://ezaurum.com/2011/11/%EC%8B%A4%EC%9A%A9%EC%A3%BC%EC%9D%98-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8/</guid>
       <description>손 닿는 데 두고, 틈 날 때마다 보자. 아래는 팁 목록, 책 제일 뒤에 달린 종이에는 이 팁 목록과 함께 짤막한 설명도 달려 있다. 당연히 저작권은 저자한테 있고, 별로 침해할 생각은 없음. 일단 기억용&amp;amp;검색 빨리하려고 올려둠.
-실용주의 프로그래머 팁 목록자신의 기술에 관심과 애정을 가져라자신의 일에 대해 생각하면서 일하라어설픈 변명을 만들지 말고 대안을 제시하라깨진 창문을 내버려두지 말라변화의 촉매가 되라큰 그림을 기억하라품질을 요구사항으로 만들어라지식 포트폴리오에 주기적으로 투자하라읽고 듣는 것을 비판적으로 분석하라무엇을 말하는가와 어떻게 말하는가 모두 중요하다DRY-반복하지 마라재사용하기 쉽게 만들라관련 없는 것들 간에 서로 영향이 없도록 하라최종결정이란 없다목표물을 찾기 위해 예광탄을 써라프로토타입을 통해 학습하라문제 도메인에 가깝게 프로그래밍하라추정을 통해 놀람을 피하라코드와 함께 일정도 반복하며 조정하라지식을 일반 텍스트로 저장하라명령어 셀의 힘을 사용하라하나의 에디터를 잘 사용하라언제나 소스코드 관리 시스템을 사용하라비난 대신 문제를 해결하라디버깅을 할 때 당황하지 마라&#39;select&#39;는 망가지지 않았다가정하지 마라, 증명하라텍스트 처리 언어를 하나 익혀라코드를 작성하는 코드를 작성하라완벽한 소프트웨어는 만들 수 없다계약에 따른 설계를 하라일찍 작동을 멈추게 하라단정문을 사용해서 불가능한 상황을 예방하라예외는 예외적인 문제에 사용하라시작한 것은 끝내라모듈간의 결합도를 최소화하라통합하지 말고 설정하라코드에는 추상화를, 메타데이터에는 세부 내용을작업흐름 분석을 통해 동시성을 개선하라서비스를 사용해서 설계하라언제나 동시성을 고려해 설계하라모델에서 뷰를 분리하라칠판을 사용해 작업흐름을 조율하라우연에 맡기는 프로그래밍을 하지 말라여러분의 알고리즘의 차수를 추정하라여러분의 추정을 테스트하라일찍 리팩터링하고, 자주 리팩터링하라테스트를 염두에 두고 설계하라소프트웨어를 테스트하라.</description>
+실용주의 프로그래머 팁 목록자신의 기술에 관심과 애정을 가져라자신의 일에 대해 생각하면서 일하라어설픈 변명을 만들지 말고 대안을 제시하라깨진 창문을 내버려두지 말라변화의 촉매가 되라큰 그림을 기억하라품질을 요구사항으로 만들어라지식 포트폴리오에 주기적으로 투자하라읽고 듣는 것을 비판적으로 분석하라무엇을 말하는가와 어떻게 말하는가 모두 중요하다DRY-반복하지 마라재사용하기 쉽게 만들라관련 없는 것들 간에 서로 영향이 없도록 하라최종결정이란 없다목표물을 찾기 위해 예광탄을 써라프로토타입을 통해 학습하라문제 도메인에 가깝게 프로그래밍하라추정을 통해 놀람을 피하라코드와 함께 일정도 반복하며 조정하라지식을 일반 텍스트로 저장하라명령어 셀의 힘을 사용하라하나의 에디터를 잘 사용하라언제나 소스코드 관리 시스템을 사용하라비난 대신 문제를 해결하라디버깅을 할 때 당황하지 마라&#39;select&#39;는 망가지지 않았다가정하지 마라, 증명하라텍스트 처리 언어를 하나 익혀라코드를 작성하는 코드를 작성하라완벽한 소프트웨어는 만들 수 없다계약에 따른 설계를 하라일찍 작동을 멈추게 하라단정문을 사용해서 불가능한 상황을 예방하라예외는 예외적인 문제에 사용하라시작한 것은 끝내라모듈간의 결합도를 최소화하라통합하지 말고 설정하라코드에는 추상화를, 메타데이터에는 세부 내용을작업흐름 분석을 통해 동시성을 개선하라서비스를 사용해서 설계하라언제나 동시성을 고려해 설계하라모델에서 뷰를 분리하라칠판을 사용해 작업흐름을 조율하라우연에 맡기는 프로그래밍을 하지 말라여러분의 알고리즘의 차수를 추정하라여러분의 추정을 테스트하라일찍 리팩터링하고, 자주 리팩터링하라테스트를 염두에 두고 설계하라소프트웨어를 테스트하라.</description>
     </item>
     
     <item>
@@ -3534,8 +3536,7 @@ public static void main(String args[]) { System.out.println(EnumStudy.valueOf(1)
       <pubDate>Sun, 11 Sep 2011 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2011/09/%EC%97%90%EB%A6%AD-%EB%A7%88%EC%9D%B4%EC%96%B4%EC%9D%98-CSS-%EB%85%B8%ED%95%98%EC%9A%B0/</guid>
-      <description>에릭 마이어의 CSS 노하우 - 
-에릭 마이어 지음, 한선용 옮김/인사이트진짜 순전히 저자 보고 샀다.사고 나서 깨달았는데, 최초로 산 CSS책이다. 그동안 안 본 건 아니지만 내돈으로 구매는 안 했으니까&amp;hellip;
+      <description>에릭 마이어의 CSS 노하우 - 에릭 마이어 지음, 한선용 옮김/인사이트진짜 순전히 저자 보고 샀다.사고 나서 깨달았는데, 최초로 산 CSS책이다. 그동안 안 본 건 아니지만 내돈으로 구매는 안 했으니까&amp;hellip;
 결론적으로는 돈 값 한다.
 기초를 다시 다지기에도 좋고, 급할 때 펼쳐보는 쿡북 용도로도 좋다.
 CSS3에 대해서도 나와 있지만, 그게 주는 아니다.
@@ -3549,7 +3550,7 @@ CSS3만 필요하면 다른 책을 사는게 나을지도. 내용이 부실하�
       <pubDate>Sun, 04 Sep 2011 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2011/09/JLPT-N1-%ED%95%A9%EA%B2%A9/</guid>
-      <description>언어지식독해청해총점31 / 6054 / 60 37 / 60 122 / 180역시 독해로 대충 밀어붙였군. 일본어에 능숙해졌다기 보다는 문제풀이에 특화되었다는 느낌이지만&amp;hellip; 시간도 아주 간당간당해서 좀 그렇기도 했고&amp;hellip; 뭐, 일단은 통과니까 되었나. 또 떨어지면 다시 칠 생각이 당분간 안 들었을텐데. 여하튼 목표 하나 달성했으니 기쁘다!</description>
+      <description>언어지식독해청해총점31 / 6054 / 60 37 / 60 122 / 180역시 독해로 대충 밀어붙였군. 일본어에 능숙해졌다기 보다는 문제풀이에 특화되었다는 느낌이지만&amp;hellip; 시간도 아주 간당간당해서 좀 그렇기도 했고&amp;hellip; 뭐, 일단은 통과니까 되었나. 또 떨어지면 다시 칠 생각이 당분간 안 들었을텐데. 여하튼 목표 하나 달성했으니 기쁘다!</description>
     </item>
     
     <item>
@@ -3703,11 +3704,11 @@ CSS3만 필요하면 다른 책을 사는게 나을지도. 내용이 부실하�
       
       <guid>https://ezaurum.com/2011/08/%EA%B8%80%EC%93%B0%EA%B8%B0-%EB%B0%94%ED%86%A4/</guid>
       <description>해망재님의 한밤중 티타임에서 업어온 바톤. 바톤 좋아라하는 성격이라 가져왔음.
- 글을 쓰고 계십니까? 네&amp;hellip; 라지만 요새 안 썼구나.
-  글을 쓸 때, 먼저 정하고 쓰는 것은? 보통 사건? 중요한 장면 하나를 잡아서 쓰는 편.
-  글을 쓸 때의 버릇이 있습니까? 큰 종이에 얼개를 그리거나 하는 편.
-  글을 쓸 때, 주로 사용하는 도구는? 스케치북, vi, 메모장, 인형
-  글의 분량은 대충? 짧은 편, A4 2-3장? 사실 그러고 나면 집중력 떨어짐.</description>
+글을 쓰고 계십니까? 네&amp;hellip; 라지만 요새 안 썼구나.
+글을 쓸 때, 먼저 정하고 쓰는 것은? 보통 사건? 중요한 장면 하나를 잡아서 쓰는 편.
+글을 쓸 때의 버릇이 있습니까? 큰 종이에 얼개를 그리거나 하는 편.
+글을 쓸 때, 주로 사용하는 도구는? 스케치북, vi, 메모장, 인형
+글의 분량은 대충? 짧은 편, A4 2-3장? 사실 그러고 나면 집중력 떨어짐. 아, 이거 한 번에 쓰는 거 말고 그냥 이야기?</description>
     </item>
     
     <item>
@@ -3798,7 +3799,7 @@ CSS3만 필요하면 다른 책을 사는게 나을지도. 내용이 부실하�
       <description>낚였다!
 어찌보면 이 한 마디로 설명가능한 책이다.
 번역서의 마케팅 방향은 가벼운 서브컬쳐인 양 잡혀 있지만, 실제로는 띠지에 나온 것과 비슷한 내용이다. 가벼운 것은 맞고, 서브컬쳐를 중심으로 설명하는 것도 맞지만 그 두 단어의 조합에서 나오는 이미지와는 많이 다르달까.
-현대사회의 근본적인 문제를 짚어낸 책뭐가 근본이고 뭐가 문제인지는 책을 보면 알 터, 사회를 보는 눈을 좀 더 넓혀주는 좋은 물건이다.</description>
+현대사회의 근본적인 문제를 짚어낸 책뭐가 근본이고 뭐가 문제인지는 책을 보면 알 터, 사회를 보는 눈을 좀 더 넓혀주는 좋은 물건이다.</description>
     </item>
     
     <item>
@@ -3874,7 +3875,7 @@ CSS3만 필요하면 다른 책을 사는게 나을지도. 내용이 부실하�
       <guid>https://ezaurum.com/2011/06/%EC%A0%84%EC%97%AD%EC%A0%84-%EB%AA%A9%ED%91%9C-%EB%B3%80%EA%B2%BD/</guid>
       <description>꽤나 많은 것을 목표로 하였으나, 제대 100일 정도를 남겨둔 시점에서 실제로 달성한 것은 하나 뿐&amp;hellip; ORL
 그러므로 선택과 집중의 원칙에 의거, 정리를 하겠음. 마감이 다가오면 더 일이 제대로 안 되는 성격이라&amp;hellip;
-	체중 -5kg(72→67)취업용 포트폴리오 제작(1/2 진행중)하나만 하기로 하고 완료화이팅해보자!</description>
+체중 -5kg(72→67)취업용 포트폴리오 제작(1/2 진행중)하나만 하기로 하고 완료화이팅해보자!</description>
     </item>
     
     <item>
@@ -3914,9 +3915,8 @@ JS 소품 하나, Servlet으로 만든 API 두 개, JSP로 대충 게시판 하�
       
       <guid>https://ezaurum.com/2011/04/input%EC%9D%B4%EB%82%98-textarea%EC%9D%98-%ED%81%AC%EA%B8%B0%EA%B0%80-%EC%9E%98-%EB%A7%9E%EC%A7%80-%EC%95%8A%EC%9D%84-%EB%95%8C/</guid>
       <description>아무리 width를 조정하고 padding, margin, border까지 똑같이 줘도 제대로 사이즈가 맞지 않을 때는,
-box-sizing:border-box; 를 넣어줘 본다.  &amp;lt;div style=&amp;ldquo;box-sizing:border-box;width:100px;border:1px solid gray;height:20px;float:left;display:block;&amp;quot;&amp;gt;test&amp;lt;/div&amp;gt; &amp;lt;input type=&amp;ldquo;text&amp;rdquo; style=&amp;ldquo;box-sizing:border-box;width:100px;height:20px;float:left;display:block;&amp;rdquo; value=&amp;ldquo;test&amp;rdquo;/&amp;gt; &amp;lt;textarea style=&amp;ldquo;box-sizing:border-box;width:100px;height:20px;float:left;display:block;&amp;quot;&amp;gt;test&amp;lt;/textarea&amp;gt; 
-testtest
-자세한 것은 다음 링크참조
+box-sizing:border-box; 를 넣어줘 본다. &amp;lt;div style=&amp;ldquo;box-sizing:border-box;width:100px;border:1px solid gray;height:20px;float:left;display:block;&amp;quot;&amp;gt;test&amp;lt;/div&amp;gt; &amp;lt;input type=&amp;ldquo;text&amp;rdquo; style=&amp;ldquo;box-sizing:border-box;width:100px;height:20px;float:left;display:block;&amp;rdquo; value=&amp;ldquo;test&amp;rdquo;/&amp;gt; &amp;lt;textarea style=&amp;ldquo;box-sizing:border-box;width:100px;height:20px;float:left;display:block;&amp;quot;&amp;gt;test&amp;lt;/textarea&amp;gt; testtest
+자세한 것은 다음 링크참조
 chrome같은 경우엔 기본적으로 input[type=&amp;ldquo;text&amp;rdquo;],input[type=&amp;ldquo;button&amp;rdquo;]같은 것들이 box-sizing:border-box로 되어 있는 듯 하다.
 css3 속성이므로 ie에서는 제대로 안 된다.</description>
     </item>
@@ -3937,15 +3937,6 @@ css3 속성이므로 ie에서는 제대로 안 된다.</description>
       
       <guid>https://ezaurum.com/2011/03/%EB%B3%80%EC%8B%A0/</guid>
       <description>마무리가 약간 용두사미? 그런 느낌이었다. 스릴러라든가 추리라든가 하는 재미 보다는 여기 오고 나서부터 내가 옛날과는 다르게 변했다는 느낌을 많이 받아서 공감하면서 읽을 만 했다. 나도 어디 정신과 진료를 받든지 해야 하나&amp;hellip; 여하튼 제대가 답인가.</description>
-    </item>
-    
-    <item>
-      <title>坊っちゃん 번역 중단</title>
-      <link>https://ezaurum.com/2011/03/%E5%9D%8A%E3%81%A3%E3%81%A1%E3%82%83%E3%82%93-%EB%B2%88%EC%97%AD-%EC%A4%91%EB%8B%A8/</link>
-      <pubDate>Tue, 08 Mar 2011 00:00:00 +0000</pubDate>
-      
-      <guid>https://ezaurum.com/2011/03/%E5%9D%8A%E3%81%A3%E3%81%A1%E3%82%83%E3%82%93-%EB%B2%88%EC%97%AD-%EC%A4%91%EB%8B%A8/</guid>
-      <description>하다보니 재미가 없기도 하고, 다른 공부할 것도 많다. 처음엔 그냥 두면 되겠다고 생각했으나, 그냥 이렇게 둔 게 한둘이 아니라 확실하게 맺어두는 것이 좋다고 판단했다. 앞으로는 좀 정리를 주기적으로 하고 살아야겠다는 결심을 드러내는 의미로 기록해둔다.</description>
     </item>
     
     <item>
@@ -3988,13 +3979,22 @@ css3 속성이므로 ie에서는 제대로 안 된다.</description>
     </item>
     
     <item>
+      <title>坊っちゃん 번역 중단</title>
+      <link>https://ezaurum.com/2011/03/%E5%9D%8A%E3%81%A3%E3%81%A1%E3%82%83%E3%82%93-%EB%B2%88%EC%97%AD-%EC%A4%91%EB%8B%A8/</link>
+      <pubDate>Tue, 08 Mar 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2011/03/%E5%9D%8A%E3%81%A3%E3%81%A1%E3%82%83%E3%82%93-%EB%B2%88%EC%97%AD-%EC%A4%91%EB%8B%A8/</guid>
+      <description>하다보니 재미가 없기도 하고, 다른 공부할 것도 많다. 처음엔 그냥 두면 되겠다고 생각했으나, 그냥 이렇게 둔 게 한둘이 아니라 확실하게 맺어두는 것이 좋다고 판단했다. 앞으로는 좀 정리를 주기적으로 하고 살아야겠다는 결심을 드러내는 의미로 기록해둔다.</description>
+    </item>
+    
+    <item>
       <title>군 복무 중 읽은 기술 서적 정리</title>
       <link>https://ezaurum.com/2011/03/%EA%B5%B0-%EB%B3%B5%EB%AC%B4-%EC%A4%91-%EC%9D%BD%EC%9D%80-%EA%B8%B0%EC%88%A0-%EC%84%9C%EC%A0%81-%EC%A0%95%EB%A6%AC/</link>
       <pubDate>Wed, 02 Mar 2011 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2011/03/%EA%B5%B0-%EB%B3%B5%EB%AC%B4-%EC%A4%91-%EC%9D%BD%EC%9D%80-%EA%B8%B0%EC%88%A0-%EC%84%9C%EC%A0%81-%EC%A0%95%EB%A6%AC/</guid>
       <description>크게 혼자서 보면서 배우는 튜토리얼 계와 아무 때나 펼쳐서 볼 수 있는 레퍼런스. 두가지로 분류.
-성공과 실패를 결정하는 1%의 네트워크 원리 2nd edtion-1%시리즈 답게 간략하고 필요한 부분만 담겨 있다. 재판은 그림이 좀 더 많아지고 두꺼워져서 좋은 듯.+가벼운 레퍼런스&amp;amp;튜토리얼성공과 실패를 결정하는 1%의 프로그래밍 원리-오랜만에 다시 읽으니 안 보이던 부분이 보인다.+가벼운 레퍼런스&amp;amp;튜토리얼성공과 실패를 결정하는 1%의 컴퓨터 원리-후임이 샀길래 살짝 봤는데 괜찮은 듯, 사도 좋을 것 같다.</description>
+성공과 실패를 결정하는 1%의 네트워크 원리 2nd edtion-1%시리즈 답게 간략하고 필요한 부분만 담겨 있다. 재판은 그림이 좀 더 많아지고 두꺼워져서 좋은 듯.+가벼운 레퍼런스&amp;amp;튜토리얼성공과 실패를 결정하는 1%의 프로그래밍 원리-오랜만에 다시 읽으니 안 보이던 부분이 보인다.+가벼운 레퍼런스&amp;amp;튜토리얼성공과 실패를 결정하는 1%의 컴퓨터 원리-후임이 샀길래 살짝 봤는데 괜찮은 듯, 사도 좋을 것 같다.</description>
     </item>
     
     <item>
@@ -4145,10 +4145,10 @@ void insertionSort2(int * array, int size) { int j = 0; for (int i = 1; i 0 &amp
       
       <guid>https://ezaurum.com/2010/12/%EC%9D%B4-%EC%B1%85%EC%9D%84-%EA%B6%8C%ED%95%9C%EB%8B%A4/</guid>
       <description>회사에 리눅스 서버를 설치하겠다고 하는 친구 모 군에게 이 책을 권한다. 삽질 열심히 하시기를.
-  성공과 실패를 결정하는 1%의 네트워크 원리- 가지고 있어서 문제될 것 없는 책. 1%시리즈는 다 괜찮긴 하지. 서버 구축을 하려면 기본적인 네트워크 원리는 알고 있어야 하니까 꼭 읽어둘 것.
-  Unix가 보이는 그림책- 아주 친절한 유닉스/리눅스 입문서. 책장이 숙숙 넘어가서 좋다.
-  유닉스 리눅스 명령어 사전 - 이건 안 읽어봤다. 평이 좋더라고.
-  실제 구현하는 것은 인터넷 쪽에 자료가 더 많을 듯.</description>
+성공과 실패를 결정하는 1%의 네트워크 원리- 가지고 있어서 문제될 것 없는 책. 1%시리즈는 다 괜찮긴 하지. 서버 구축을 하려면 기본적인 네트워크 원리는 알고 있어야 하니까 꼭 읽어둘 것.
+Unix가 보이는 그림책- 아주 친절한 유닉스/리눅스 입문서. 책장이 숙숙 넘어가서 좋다.
+유닉스 리눅스 명령어 사전 - 이건 안 읽어봤다. 평이 좋더라고.
+실제 구현하는 것은 인터넷 쪽에 자료가 더 많을 듯.</description>
     </item>
     
     <item>
@@ -4158,7 +4158,7 @@ void insertionSort2(int * array, int size) { int j = 0; for (int i = 1; i 0 &amp
       
       <guid>https://ezaurum.com/2010/12/%EC%9D%B4-%EC%B1%85%EC%9D%84-%EA%B6%8C%ED%95%9C%EB%8B%A4/</guid>
       <description>제멋대로 멍하니 사는 것 같은데 의외로 속 깊은 소리를 곧잘 하는 모 양에게 추천하는 책. 빨리 병이 낫길 바랍니다. 흑흑.
-프로페셔널의 조건 - 자기 계발서라기보다는 피터드러커의 에세이에 가까운 글. 평생 공부하고 사는 사람은 이렇게 생각하고 산다는 점에서 배울 게 많다고 봄. 어설픈 인간이 설교식으로 늘어놓는 소리보다 대가가 자기 살아온 이야기를 해 주는게 훨씬 도움된다고 생각.인간의 마음을 사로잡는 스무가지 플롯 - 실용서에 가까운 물건이라고 생각. 틈날 때마다 읽어주면서 패턴을 파악하려고 하고 있음.</description>
+프로페셔널의 조건 - 자기 계발서라기보다는 피터드러커의 에세이에 가까운 글. 평생 공부하고 사는 사람은 이렇게 생각하고 산다는 점에서 배울 게 많다고 봄. 어설픈 인간이 설교식으로 늘어놓는 소리보다 대가가 자기 살아온 이야기를 해 주는게 훨씬 도움된다고 생각.인간의 마음을 사로잡는 스무가지 플롯 - 실용서에 가까운 물건이라고 생각. 틈날 때마다 읽어주면서 패턴을 파악하려고 하고 있음.</description>
     </item>
     
     <item>
@@ -4168,8 +4168,8 @@ void insertionSort2(int * array, int size) { int j = 0; for (int i = 1; i 0 &amp
       
       <guid>https://ezaurum.com/2010/10/Java-%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88%EC%97%90-Form-%EA%B0%92%EC%9D%98-encoding-%EA%B9%A8%EC%A7%88-%EB%95%8C/</guid>
       <description>점검사항은 아래 세가지.
-폼에서 정확히 인코딩을 지정해서 넘겨주는가?서버에서 정확히 인코딩을 인식하는가?DB에서 정확히 인코딩을 인식하는가?이다.	폼에서 정확히 인코딩을 지정해서 념겨주는가?이 경우는 일단 문서 첫머리에 meta태그가 utf-8으로 지정되어 있고, 폼에 accept-charset 어트리뷰트가 지정되어 있고, 브라우저에서 확인해서 문서가 utf-8으로 읽히는 상황이라면 문제 없다고 보면 된다. UTF-8으로 나와야 하는 페이지가 UTF-8으로 안나오는 경우는 여기서 다룰 게 아니다.
-&amp;lt;meta http-equiv=&#34;Content-Type&#34; content=&#34;text/html; charset=UTF-8&#34; /&amp;gt;&amp;lt;meta charset=&#34;UTF-8&#34; /&amp;gt;&amp;lt;form accept-charset=&#34;</description>
+폼에서 정확히 인코딩을 지정해서 넘겨주는가?서버에서 정확히 인코딩을 인식하는가?DB에서 정확히 인코딩을 인식하는가?이다.폼에서 정확히 인코딩을 지정해서 념겨주는가?이 경우는 일단 문서 첫머리에 meta태그가 utf-8으로 지정되어 있고, 폼에 accept-charset 어트리뷰트가 지정되어 있고, 브라우저에서 확인해서 문서가 utf-8으로 읽히는 상황이라면 문제 없다고 보면 된다. UTF-8으로 나와야 하는 페이지가 UTF-8으로 안나오는 경우는 여기서 다룰 게 아니다.
+&amp;lt;meta http-equiv=&#34;Content-Type&#34; content=&#34;text/html; charset=UTF-8&#34; /&amp;gt;&amp;lt;meta charset=&#34;UTF-8&#34; /&amp;gt;&amp;lt;form accept-charset=&#34;UTF-8&#34; &amp;gt;서버에서 인코딩을 제대로 인식하는가?</description>
     </item>
     
     <item>
@@ -4181,7 +4181,7 @@ void insertionSort2(int * array, int size) { int j = 0; for (int i = 1; i 0 &amp
       <description>Esports 경기 분석 시스템
 소스의 대격변이 있었던 중반부터는 거의 내 손을 떠나버려서 내용에 대해서는 할 말이 없음.
 성과라면
-	퍼블리셔, 프로그래머, 프로젝트 매니저는 분리되는 게 좋다.프레임워크는 정말 좋은 물건이구나.퍼블리셔 테크는 안 찍는게 좋겠다.역시 잘 하는 사람이랑 같이 해야 느는구나.사용목적을 명확히 해야 한다.문서 정리는 정말 중요하다.SVN 짱IE6를 고려하지 않으면 세상이 쾌적해진다.그때그때 메모하지 않으면 기억하지 못한다.iBatis사용법을 좀 익혔다.</description>
+퍼블리셔, 프로그래머, 프로젝트 매니저는 분리되는 게 좋다.프레임워크는 정말 좋은 물건이구나.퍼블리셔 테크는 안 찍는게 좋겠다.역시 잘 하는 사람이랑 같이 해야 느는구나.사용목적을 명확히 해야 한다.문서 정리는 정말 중요하다.SVN 짱IE6를 고려하지 않으면 세상이 쾌적해진다.그때그때 메모하지 않으면 기억하지 못한다.iBatis사용법을 좀 익혔다.</description>
     </item>
     
     <item>
@@ -4413,13 +4413,13 @@ void insertionSort2(int * array, int size) { int j = 0; for (int i = 1; i 0 &amp
     
     <item>
       <title>坊っちゃん – 3 -</title>
-      <link>https://ezaurum.com/2010/08/%E5%9D%8A%E3%81%A3%E3%81%A1%E3%82%83%E3%82%93-3/</link>
+      <link>https://ezaurum.com/2010/08/%E5%9D%8A%E3%81%A3%E3%81%A1%E3%82%83%E3%82%93-3-/</link>
       <pubDate>Sun, 22 Aug 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2010/08/%E5%9D%8A%E3%81%A3%E3%81%A1%E3%82%83%E3%82%93-3/</guid>
+      <guid>https://ezaurum.com/2010/08/%E5%9D%8A%E3%81%A3%E3%81%A1%E3%82%83%E3%82%93-3-/</guid>
       <description>痛かったから勘太郎を垣根へ押しつけておいて、足搦（あしがら）をかけて向うへ倒（たお）してやった。山城屋の地面は菜園より六尺がた低い。勘太郎は四つ目垣を半分崩（くず）して、自分の領分へ真逆様（まっさかさま）に落ちて、ぐうと云った。勘太郎が落ちるときに、おれの袷の片袖がもげて、急に手が自由になった。その晩母が山城屋に詫（わ）びに行ったついでに袷の片袖も取り返して来た。
 아파서 칸타로를 울타리에 밀어붙이고, 다리걸기로 저쪽에 쓰러트려 버렸다. 야마시로야의 지면은 채소밭보다 육척정도 낮았다. 칸타로는 사각대울타리를 절반쯤 수수고 자기네 땅에 거꾸로 떨어져서 꿍 소리를 냈다. 칸타로가 떨어질 때 내 겹옷 한쪽 소매가 뜯겨나가서, 갑자기 손이 자유로워졌다. 그날 밤, 어머니가 야마시로야에 사과하러 갔다가 돌아오시며 찾아오셨다.
- 별로 진도가 빨리 나가질 않는군.</description>
+별로 진도가 빨리 나가질 않는군.</description>
     </item>
     
     <item>
@@ -4449,8 +4449,8 @@ void insertionSort2(int * array, int size) { int j = 0; for (int i = 1; i 0 &amp
       
       <guid>https://ezaurum.com/2010/08/%EB%82%B4%EA%B0%80-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EC%9D%84-%ED%95%B4%EC%84%9C-%EB%A8%B9%EA%B3%A0-%EC%82%B4-%EC%88%98-%EC%9E%88%EC%9D%84%EA%B9%8C/</guid>
       <description>이걸 짜는데 이틀 걸렸다면 믿으시겠습니까? 젠장
-private String a(int initial, int max, String leftValue) { String returnValue = &amp;ldquo;&amp;quot;;
-	if (initial &amp;amp;lt; max) {if (initial != -1) {if (leftValue != null) {leftValue += &amp;amp;quot; &amp;amp;quot;;leftValue += initial;} else {leftValue = String.valueOf(initial);}}for (int i = initial + 1; i &amp;amp;lt;= max; i++) {returnValue += a(i, max, leftValue);}return returnValue;} else {if (leftValue !</description>
+private String a(int initial, int max, String leftValue) { String returnValue = &amp;ldquo;&amp;rdquo;;
+if (initial &amp;amp;lt; max) {if (initial != -1) {if (leftValue != null) {leftValue += &amp;amp;quot; &amp;amp;quot;;leftValue += initial;} else {leftValue = String.valueOf(initial);}}for (int i = initial + 1; i &amp;amp;lt;= max; i++) {returnValue += a(i, max, leftValue);}return returnValue;} else {if (leftValue !</description>
     </item>
     
     <item>
@@ -4502,8 +4502,8 @@ FF - 내용이 없는 경우, outline을 나중에 그리고, 내용이 있는 �
       
       <guid>https://ezaurum.com/2010/08/Junit-4-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0/</guid>
       <description>며칠 전에 TDD를 시작 하겠다고 한 바, 시작은 하는데, 기왕 하는 거 깔끔하게 정리도 해 보자는 생각에 포스팅도 하기로 했다. 더 자세한 내용은 이 기사를 참고 또한 이걸 왜 해야 하는지에 대한 것은 여기를 참고
- 일단 새 프로젝트를 하나 만들어 보자. 당연히 Java 프로젝트로 만든다.
- 다음은 테스트할 내용을 적는다. 일단 첫 테스트이고, 테스트 내용보다 테스트 방법-정확히는 jUnit4의 사용법-을 익히는 게 중요하므로, 입력이 뭐가 되든 값이 26이 나오는 데 집중한다.</description>
+일단 새 프로젝트를 하나 만들어 보자. 당연히 Java 프로젝트로 만든다.
+다음은 테스트할 내용을 적는다. 일단 첫 테스트이고, 테스트 내용보다 테스트 방법-정확히는 jUnit4의 사용법-을 익히는 게 중요하므로, 입력이 뭐가 되든 값이 26이 나오는 데 집중한다. 어쨌든 처음 할 일은 결과 값이 26이 나오는지를 검사하는 테스트를 만드는 일이다.</description>
     </item>
     
     <item>
@@ -4516,9 +4516,8 @@ FF - 내용이 없는 경우, outline을 나중에 그리고, 내용이 있는 �
 import static org.junit.Assert.assertEquals;
 import org.junit.Test; import org.junit.Before; import org.junit.After;
 public class myTest {	@Test public void testCodes() throws Exception { System.out.println(&amp;ldquo;3&amp;rdquo;); }
-@Beforepublic void testMakeClass1(){System.out.println(&amp;quot;2&amp;quot;);	}	@Beforepublic void testMakeClass(){System.out.println(&amp;quot;1&amp;quot;);	} @After public void afterClass() { System.out.println(&amp;ldquo;4&amp;rdquo;);
-}@Afterpublic void afterClass1(){System.out.println(&amp;quot;5&amp;quot;);}	 } 
-실행 결과는 적힌 대로 12345가 된다.</description>
+@Beforepublic void testMakeClass1(){System.out.println(&amp;quot;2&amp;quot;);	}	@Beforepublic void testMakeClass(){System.out.println(&amp;quot;1&amp;quot;);	}@After public void afterClass() { System.out.println(&amp;ldquo;4&amp;rdquo;);
+}@Afterpublic void afterClass1(){System.out.println(&amp;quot;5&amp;quot;);}	} 실행 결과는 적힌 대로 12345가 된다.</description>
     </item>
     
     <item>
@@ -4539,15 +4538,6 @@ public class myTest {	@Test public void testCodes() throws Exception { System.ou
       <description>무슨 할 말이 필요하리오.
 돈 많이 벌자.
 에효.</description>
-    </item>
-    
-    <item>
-      <title>坊っちゃん – 2 -</title>
-      <link>https://ezaurum.com/2010/08/%E5%9D%8A%E3%81%A3%E3%81%A1%E3%82%83%E3%82%93-2/</link>
-      <pubDate>Mon, 09 Aug 2010 00:00:00 +0000</pubDate>
-      
-      <guid>https://ezaurum.com/2010/08/%E5%9D%8A%E3%81%A3%E3%81%A1%E3%82%83%E3%82%93-2/</guid>
-      <description>정원을 동쪽으로 20걸음 만 가면, 남쪽이 좊고 작은 채소밭이 있는데 한가운데 밤나무 한 그루가 있다. 이것은 목숨보다 소중한 밤나무다. 열매가 익는 시기에는 일어나자마자 뒷문을 나서서는 떨어진 것을 주워와서, 학교에서 먹는다. 채소밭 서쪽은 야마시로야라는 전탕포 정원과 이어져 있는데 이 전당포에 칸타로라는 열서너살 아들놈이 있었다. 칸타로는 물론 겁쟁이였다. 겁쟁이 주제에 각진대울타리를 넘어 밤을 훔치러 왔다. 어느날 저녁 접이문 그림자에 숨어서 드디어 칸타로를 붙잡으려 했다. 그 때 칸타로는 도망칠 길이 없어 필사적으로 달려들었다. 저쪽은 두 살 정도 연상이었다.</description>
     </item>
     
     <item>
@@ -4592,15 +4582,22 @@ public class myTest {	@Test public void testCodes() throws Exception { System.ou
     </item>
     
     <item>
+      <title>坊っちゃん – 2 -</title>
+      <link>https://ezaurum.com/2010/08/%E5%9D%8A%E3%81%A3%E3%81%A1%E3%82%83%E3%82%93-2-/</link>
+      <pubDate>Mon, 09 Aug 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2010/08/%E5%9D%8A%E3%81%A3%E3%81%A1%E3%82%83%E3%82%93-2-/</guid>
+      <description>정원을 동쪽으로 20걸음 만 가면, 남쪽이 좊고 작은 채소밭이 있는데 한가운데 밤나무 한 그루가 있다. 이것은 목숨보다 소중한 밤나무다. 열매가 익는 시기에는 일어나자마자 뒷문을 나서서는 떨어진 것을 주워와서, 학교에서 먹는다. 채소밭 서쪽은 야마시로야라는 전탕포 정원과 이어져 있는데 이 전당포에 칸타로라는 열서너살 아들놈이 있었다. 칸타로는 물론 겁쟁이였다. 겁쟁이 주제에 각진대울타리를 넘어 밤을 훔치러 왔다. 어느날 저녁 접이문 그림자에 숨어서 드디어 칸타로를 붙잡으려 했다. 그 때 칸타로는 도망칠 길이 없어 필사적으로 달려들었다. 저쪽은 두 살 정도 연상이었다.</description>
+    </item>
+    
+    <item>
       <title>TDD 시작</title>
       <link>https://ezaurum.com/2010/08/TDD-%EC%8B%9C%EC%9E%91/</link>
       <pubDate>Fri, 06 Aug 2010 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2010/08/TDD-%EC%8B%9C%EC%9E%91/</guid>
       <description>TDD란 걸 시작했다. 좋은 튜토리얼을 발견해서 그걸 보고 대충 익혔는데, 여기의 글들과 관련해서 좀 공부를 더 해야 겠다.
-테스트를 작성한다. &amp;lt;li&amp;gt;작성한 테스트를 통과할 수 있도록 가장 빠른 방법으로 코드를 작성한다. 이 과정에 중복된 코드를 만들어도 상관 없다. &amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;테스트를 수행한다. &amp;lt;/li&amp;gt;&amp;lt;li&amp;gt; 테스트를 통과하면 작성한 코드에서 중복을 제거한다. 아니면 2번으로 돌아간다. 	
-테스트를 수행한다. 
-&amp;lt;li&amp;gt;테스트를 통과하면 완성. 다음 테스트를 1번부터 시작한다. 실패하면 4로 돌아가서 디버깅한다.&amp;lt;/li&amp;gt;&amp;lt;/ol&amp;gt; TDD(TestDrivenDevelopement)이런 식으로 진행되는데, 개발 속도가 엄청나게 빨라진다고 한다.</description>
+테스트를 작성한다. &amp;lt;li&amp;gt;작성한 테스트를 통과할 수 있도록 가장 빠른 방법으로 코드를 작성한다. 이 과정에 중복된 코드를 만들어도 상관 없다. &amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;테스트를 수행한다. &amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;테스트를 통과하면 작성한 코드에서 중복을 제거한다. 아니면 2번으로 돌아간다. 테스트를 수행한다. &amp;lt;li&amp;gt;테스트를 통과하면 완성. 다음 테스트를 1번부터 시작한다. 실패하면 4로 돌아가서 디버깅한다.&amp;lt;/li&amp;gt;&amp;lt;/ol&amp;gt;TDD(TestDrivenDevelopement)이런 식으로 진행되는데, 개발 속도가 엄청나게 빨라진다고 한다.</description>
     </item>
     
     <item>
@@ -4619,16 +4616,16 @@ public class myTest {	@Test public void testCodes() throws Exception { System.ou
       
       <guid>https://ezaurum.com/2010/08/%EC%83%81%EC%9E%90-4%EA%B0%9C/</guid>
       <description>문제 출처 - http://xper.org/wiki/seminar/FourBoxes
-4개의 직사각형이 평면에 있는데 밑변이 모두 가로축에 평행하다. 이 직사각형들이 차지하는 면적을 구하는 프로그램을 작성하시오. 이 네 개의 직사각형들은 서로 떨어져 있을 수도 있고 겹쳐 있을 수도 있다. 또한 하나가 다른 하나를 포함할 수도 있으며, 변이나 꼭지점이 겹쳐질 수도 있다. 실행 파일의 이름은 RECT.EXE로 하시오. 입력형식
+4개의 직사각형이 평면에 있는데 밑변이 모두 가로축에 평행하다. 이 직사각형들이 차지하는 면적을 구하는 프로그램을 작성하시오. 이 네 개의 직사각형들은 서로 떨어져 있을 수도 있고 겹쳐 있을 수도 있다. 또한 하나가 다른 하나를 포함할 수도 있으며, 변이나 꼭지점이 겹쳐질 수도 있다. 실행 파일의 이름은 RECT.EXE로 하시오. 입력형식
 하나의 직사각형은 왼쪽 아래의 꼭지점과 오른쪽 위의 꼭지점의 좌표로 주어진다. 입력은 네 줄이며, 각 줄은 네 개의 정수로 하나의 직사각형을 나타낸다.</description>
     </item>
     
     <item>
       <title>坊っちゃん - 1 -</title>
-      <link>https://ezaurum.com/2010/08/%E5%9D%8A%E3%81%A3%E3%81%A1%E3%82%83%E3%82%93-1/</link>
+      <link>https://ezaurum.com/2010/08/%E5%9D%8A%E3%81%A3%E3%81%A1%E3%82%83%E3%82%93-1-/</link>
       <pubDate>Thu, 05 Aug 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2010/08/%E5%9D%8A%E3%81%A3%E3%81%A1%E3%82%83%E3%82%93-1/</guid>
+      <guid>https://ezaurum.com/2010/08/%E5%9D%8A%E3%81%A3%E3%81%A1%E3%82%83%E3%82%93-1-/</guid>
       <description>물려받은 무대포성격 때무에 어릴때부터 깨지는 일 투성이었다. 소학교에 다니던 때 학교 2층에서 뛰어 내려서 일 주일 정도 허리가 빠졌던 일이 있다. 어째서 그런 터무니 없는 짓을 했냐고 묻는 사람이 있을지도 모른다. 별로 깊은 의미도 아니다. 신관 2층에서 목을 쭉 빼고 있으려니, 동급생 중 하나가 농담으로 아무리 뻐겨대도 거기서 뛰어내리지도 못하면서. 겁쟁이래도. 라고 놀려대서다. 사환에게 업혀 돌아왔을 때, 아버지가 눈을 크게 뜨고서 이 층 정도에서 뛰어내렸다고 허리가 빠지는 녀석이 있네. 라고 말해서 이 다음에는 안 빠지게 뛰어보이겠습니다.</description>
     </item>
     
@@ -4669,17 +4666,6 @@ public class myTest {	@Test public void testCodes() throws Exception { System.ou
       <description>제목	69:sixty nine(69 식스티 나인 ) 저자	무라카미류 번역자	양억관 발행인	작가정신, 2004 ISBN	8972882267, 9788972882268 길이	276페이지
 즐거우면 장땡. 책 전체를 가로지르는 이야기다. 생각해 보면 무라카미 류의 책은 그리 많이 보질 않았다. 하루키는 꽤 취향에 맞았는데 말이지. 그건 그렇고 주인공의 생활은 꽤나 부럽다. 내키는 대로 살면서 혓바닥만 나불대고 있어. 누가 보기엔 나도 그렇게 사는지는 모르겠지만. 내 책은 그렇게 잘 팔리진 않는걸.
 31/150</description>
-    </item>
-    
-    <item>
-      <title>三人三色 미학 오디세이</title>
-      <link>https://ezaurum.com/2010/08/%E4%B8%89%E4%BA%BA%E4%B8%89%E8%89%B2-%EB%AF%B8%ED%95%99-%EC%98%A4%EB%94%94%EC%84%B8%EC%9D%B4/</link>
-      <pubDate>Mon, 02 Aug 2010 00:00:00 +0000</pubDate>
-      
-      <guid>https://ezaurum.com/2010/08/%E4%B8%89%E4%BA%BA%E4%B8%89%E8%89%B2-%EB%AF%B8%ED%95%99-%EC%98%A4%EB%94%94%EC%84%B8%EC%9D%B4/</guid>
-      <description>제목	삼인삼색 미학 오디세이 세트(전3권) 저자	김태권 발행인	휴머니스트, 2006 ISBN	8958621060, 9788958621065 디 재밌음. 삼인삼색이라는 말 답게 세 권 모두 색깔이 분명히 다르다. 하나의 시리즈로 접근한다면 좀 곤란할 듯 싶기도 하고. 원작인 진중권의 미학 오디세이를 보고 싶게 만드는 물건이라는 점에서는 공통적이다.
-원작을 읽고 나서 다시 한 번 읽어봐야겠다.
-30/150</description>
     </item>
     
     <item>
@@ -4727,6 +4713,17 @@ public class myTest {	@Test public void testCodes() throws Exception { System.ou
     </item>
     
     <item>
+      <title>三人三色 미학 오디세이</title>
+      <link>https://ezaurum.com/2010/08/%E4%B8%89%E4%BA%BA%E4%B8%89%E8%89%B2-%EB%AF%B8%ED%95%99-%EC%98%A4%EB%94%94%EC%84%B8%EC%9D%B4/</link>
+      <pubDate>Mon, 02 Aug 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2010/08/%E4%B8%89%E4%BA%BA%E4%B8%89%E8%89%B2-%EB%AF%B8%ED%95%99-%EC%98%A4%EB%94%94%EC%84%B8%EC%9D%B4/</guid>
+      <description>제목	삼인삼색 미학 오디세이 세트(전3권) 저자	김태권 발행인	휴머니스트, 2006 ISBN	8958621060, 9788958621065 디 재밌음. 삼인삼색이라는 말 답게 세 권 모두 색깔이 분명히 다르다. 하나의 시리즈로 접근한다면 좀 곤란할 듯 싶기도 하고. 원작인 진중권의 미학 오디세이를 보고 싶게 만드는 물건이라는 점에서는 공통적이다.
+원작을 읽고 나서 다시 한 번 읽어봐야겠다.
+30/150</description>
+    </item>
+    
+    <item>
       <title>CSS옆으로 누운 品자형 만들기</title>
       <link>https://ezaurum.com/2010/07/CSS%EC%98%86%EC%9C%BC%EB%A1%9C-%EB%88%84%EC%9A%B4-%E5%93%81%EC%9E%90%ED%98%95-%EB%A7%8C%EB%93%A4%EA%B8%B0/</link>
       <pubDate>Fri, 30 Jul 2010 00:00:00 +0000</pubDate>
@@ -4739,7 +4736,7 @@ public class myTest {	@Test public void testCodes() throws Exception { System.ou
 #last{ width:140px;
 position:relative; left:-140px; top:20px;
 background:yellow; } &amp;lt;/style&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt;
-길다란 가변형 문자열고정폭/고정높이고정폭&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;문제점 - 부모 element가 보이는 것보다 좀 더-div#last의 폭이 추가된만큼- 커야 한다.방안 2 -div를 4개 쓰는 경우, 즉 부모 엘리먼트를 하나 두는 경우 &amp;lt;!</description>
+길다란 가변형 문자열고정폭/고정높이고정폭&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;문제점 - 부모 element가 보이는 것보다 좀 더-div#last의 폭이 추가된만큼- 커야 한다.방안 2 -div를 4개 쓰는 경우, 즉 부모 엘리먼트를 하나 두는 경우 &amp;lt;!</description>
     </item>
     
     <item>
@@ -5005,8 +5002,8 @@ ZPD에 대한 생각을 하게 되었다.
       
       <guid>https://ezaurum.com/2010/06/%EC%A0%84%EC%97%AD%EC%A0%84-%EB%AA%A9%ED%91%9C/</guid>
       <description>외부면
-시간제한 없이 윗몸 일으키기 100회 (현재 30여 회)달성시간제한 없이 팔굽혀 펴기 100회 (현재 40여 회)3km 달리기 13분 대(현재 14-15분)내부면
-책 150권 읽기-(현재 104/150)일본어 능력시험 1급달성한자 자격증 1급토익 900점대 (마지막 시험은 700대)SICP와 Introduction to Algorithm 독파 - 인강 포함달마다 하나씩 성과물 올릴 것달마다 하나씩 글 올릴 것소리내어 말해 버렸으니 돌이킬 수 없나? 힘내보자. 앞으로 1년 4개월.</description>
+시간제한 없이 윗몸 일으키기 100회 (현재 30여 회)달성시간제한 없이 팔굽혀 펴기 100회 (현재 40여 회)3km 달리기 13분 대(현재 14-15분)내부면
+책 150권 읽기-(현재 104/150)일본어 능력시험 1급달성한자 자격증 1급토익 900점대 (마지막 시험은 700대)SICP와 Introduction to Algorithm 독파 - 인강 포함달마다 하나씩 성과물 올릴 것달마다 하나씩 글 올릴 것소리내어 말해 버렸으니 돌이킬 수 없나? 힘내보자. 앞으로 1년 4개월.</description>
     </item>
     
     <item>
@@ -5026,22 +5023,23 @@ ZPD에 대한 생각을 하게 되었다.
       
       <guid>https://ezaurum.com/2010/06/2009%EB%85%84-9%EC%9B%94-21%EC%9D%BC-%EC%9D%B4%ED%9B%84-%EC%9D%BD%EC%9D%80-%EA%B2%83%EB%93%A4/</guid>
       <description>생각나는 대로 기록.
-  세계대전Z
-  당신 인생의 이야기
-  1Q84
-  살육에 이르는 병
-  프로페셔널의 조건
-  불안
-  개를 훔치는 완벽한 방법
-  사랑하기 때문에
-  호모 루덴스
-  노인들의 전쟁
-  용의자 X의 헌신
-  타워
-  흐르는 강물처럼
-  내 영혼이 따뜻했던 날들
-  헬릭스
-  가장 권수가 많은 만화책은 제외.</description>
+세계대전Z
+당신 인생의 이야기
+1Q84
+살육에 이르는 병
+프로페셔널의 조건
+불안
+개를 훔치는 완벽한 방법
+사랑하기 때문에
+호모 루덴스
+노인들의 전쟁
+용의자 X의 헌신
+타워
+흐르는 강물처럼
+내 영혼이 따뜻했던 날들
+헬릭스
+가장 권수가 많은 만화책은 제외. 한 번에 다 읽는 종류가 아닌 기술서적도 제외. 총 15권. 비소설(에세이 포함)-또는 교양서로 분류할 만한 것은 2권. 좀 더 심정적 분류법으로는 1권. &amp;hellip;.이거 좀 편중되어 있는데&amp;hellip;.
+군 제대 전에 150권 독파를 목표로 하고 가 보겠음.</description>
     </item>
     
     <item>
@@ -5051,11 +5049,22 @@ ZPD에 대한 생각을 하게 되었다.
       
       <guid>https://ezaurum.com/2010/05/%EC%84%B1%EA%B3%BC%EB%AC%BC-2010%EB%85%84-5%EC%9B%94-%EB%A7%90/</guid>
       <description>이미 있는 홈페이지의 예약 화면 변경.
-  id를 입력하면 ajax를 이용하여 사용자 이름과 나이를 알아내고-개인정보 유출이겠지만 몰라-나이가 많은 경우, 시력이 안 좋은 사람을 위한 특대크기 폰트 적용.
-  이유는 잘 알 수 없지만 화상 키보드도 구현. jQuery와 css 를 활용. 하지만 이미지로 덕지덕지해서 접근성 나쁨.
+id를 입력하면 ajax를 이용하여 사용자 이름과 나이를 알아내고-개인정보 유출이겠지만 몰라-나이가 많은 경우, 시력이 안 좋은 사람을 위한 특대크기 폰트 적용.
+이유는 잘 알 수 없지만 화상 키보드도 구현. jQuery와 css 를 활용. 하지만 이미지로 덕지덕지해서 접근성 나쁨.
 소요시간은 거의 3주. 대부분은 쓸데없는 디자인 태클.
 로직에 대한 소요시간 총 사흘 정도. 한글 인코딩 문제 때문에 하루 잡아먹음.
-  소득 jQuery에 대한 연습이 되었음.</description>
+소득 jQuery에 대한 연습이 되었음. 특히 ajax. xml과 데이터 직렬화에 대한 이해.</description>
+    </item>
+    
+    <item>
+      <title>세계대전Z</title>
+      <link>https://ezaurum.com/2010/05/%EC%84%B8%EA%B3%84%EB%8C%80%EC%A0%84Z/</link>
+      <pubDate>Sun, 16 May 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2010/05/%EC%84%B8%EA%B3%84%EB%8C%80%EC%A0%84Z/</guid>
+      <description>상민이한테서 빌려봄. ISBN(13자리) : 9788960171961
+좀비물이라고 되어 있지만, 중요한 것은 좀비가 아니다. 사람이지.
+어떻게 이런 생각을 할 수 있을까 싶을 정도로 참신했다.</description>
     </item>
     
     <item>
@@ -5068,17 +5077,6 @@ ZPD에 대한 생각을 하게 되었다.
 주 메뉴인 삼계탕은 그럭저럭이랄까 그렇고.
 밑반찬이 맛있다.
 다시 가 보고 싶음.</description>
-    </item>
-    
-    <item>
-      <title>세계대전Z</title>
-      <link>https://ezaurum.com/2010/05/%EC%84%B8%EA%B3%84%EB%8C%80%EC%A0%84Z/</link>
-      <pubDate>Sun, 16 May 2010 00:00:00 +0000</pubDate>
-      
-      <guid>https://ezaurum.com/2010/05/%EC%84%B8%EA%B3%84%EB%8C%80%EC%A0%84Z/</guid>
-      <description>상민이한테서 빌려봄. ISBN(13자리) : 9788960171961
-좀비물이라고 되어 있지만, 중요한 것은 좀비가 아니다. 사람이지.
-어떻게 이런 생각을 할 수 있을까 싶을 정도로 참신했다.</description>
     </item>
     
     <item>
@@ -5187,7 +5185,7 @@ function 야식() { 몸+=살; }
       <pubDate>Mon, 08 Feb 2010 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2010/02/%EA%B5%B0%EB%8C%80-%EA%B0%80%EC%84%9C-%EB%B3%80%ED%95%9C-%EA%B2%83/</guid>
-      <description>	체중이 줄었다. - 거의 10킬로 가까이 빠졌고, 지금도 빠지는 중. 목표체중까지 앞으로 10킬로인가...운동도 좀 해야 할 듯.살 때문에 못 입던 옷을 입게 되니까 기분은 좋다.민감해졌다. - 감정에 날이 선 기분. 좋은 쪽이든, 나쁜 쪽이든.자신감이 생겼다. - 스스로 이게 아무 근거 없는 거라고 생각하고 있는건 문제일까 아닐까쇼프로를 보게 되었다. - 조권&amp;amp;가인 커플은 귀엽더라.이 정도일까.전역까지 1년 9개월...길구나.</description>
+      <description>	체중이 줄었다. - 거의 10킬로 가까이 빠졌고, 지금도 빠지는 중. 목표체중까지 앞으로 10킬로인가...운동도 좀 해야 할 듯.살 때문에 못 입던 옷을 입게 되니까 기분은 좋다.민감해졌다. - 감정에 날이 선 기분. 좋은 쪽이든, 나쁜 쪽이든.자신감이 생겼다. - 스스로 이게 아무 근거 없는 거라고 생각하고 있는건 문제일까 아닐까쇼프로를 보게 되었다. - 조권&amp;amp;가인 커플은 귀엽더라.이 정도일까.전역까지 1년 9개월...길구나.</description>
     </item>
     
     <item>
@@ -5484,7 +5482,7 @@ utf-8을 지원한다더니&amp;hellip; mysql만 그걸 지원하고 아파치�
       <guid>https://ezaurum.com/2009/08/%EC%82%AC%EA%B3%A0-%EC%B9%98%EB%8B%A4/</guid>
       <description>우리 학교에는 게시판이 하나 있다. 사실 거의 유일한 게시판인데, 이게 익명이라 사고가 많이 난다. 확실한 익명이라, 글을 한번 싸지르고 나면, 수정도 불가능하다. 미리 비번을 입력해 놓으면 수정이나 삭제도 가능하다.
 &amp;hellip;.그런데 이 게시판에 나에 대한 악담(이라고 내가 생각하는)이 올라왔다. 그래서 댓글을 썼는데(비번 설정도 안 했다), 생각해 보니 문제점이&amp;hellip;
-이거, 나한테 한 말이 아닐 수도 있잖아?나한테 한 말이라도 내가 이런 반응을 보일 필요가 있나?하지만 이미 벌어진 일, 수습하려면 내일 게시판 관리자에게 지워달라는 수 밖에&amp;hellip; 아 창피해.</description>
+이거, 나한테 한 말이 아닐 수도 있잖아?나한테 한 말이라도 내가 이런 반응을 보일 필요가 있나?하지만 이미 벌어진 일, 수습하려면 내일 게시판 관리자에게 지워달라는 수 밖에&amp;hellip; 아 창피해.</description>
     </item>
     
     <item>
@@ -5530,7 +5528,7 @@ utf-8을 지원한다더니&amp;hellip; mysql만 그걸 지원하고 아파치�
       <pubDate>Tue, 16 Jun 2009 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2009/06/%EB%82%B4%EA%B0%80-%EC%9B%90%ED%95%98%EB%8A%94-OS%EC%9D%98-%EC%A1%B0%EA%B1%B4/</guid>
-      <description>입력 형식의 레이아웃을 바꿀 수 있는 워드프로세서 기능이 있을 것 - 현재는 XP+날개셋(세벌식 개조)Opera 또는 Safari가 문제없이 기동할 것 - 인터넷이 안 되면 곤란최소 2개 이상의 프로그램이 동시에 작동 가능할 것 - 음악 들으면서 글을 쓸 수 있어야지정도일까.추가하자면, 마비노기, 네이트온, 한글이 작동하면 좋겠어.HWP 포맷이 공개가 되면 더 좋고.&amp;hellip;.이런 거 없나. 돈 주고 안 사도 되는 걸로.</description>
+      <description>입력 형식의 레이아웃을 바꿀 수 있는 워드프로세서 기능이 있을 것 - 현재는 XP+날개셋(세벌식 개조)Opera 또는 Safari가 문제없이 기동할 것 - 인터넷이 안 되면 곤란최소 2개 이상의 프로그램이 동시에 작동 가능할 것 - 음악 들으면서 글을 쓸 수 있어야지정도일까.추가하자면, 마비노기, 네이트온, 한글이 작동하면 좋겠어.HWP 포맷이 공개가 되면 더 좋고.&amp;hellip;.이런 거 없나. 돈 주고 안 사도 되는 걸로.</description>
     </item>
     
     <item>
@@ -5540,7 +5538,7 @@ utf-8을 지원한다더니&amp;hellip; mysql만 그걸 지원하고 아파치�
       
       <guid>https://ezaurum.com/2009/06/Ubuntu-%EC%97%90%EC%84%9C-%EB%98%90-%EC%9C%88%EB%8F%84%EB%A1%9C.../</guid>
       <description>복귀 결정
-네이트온이 제대로 기능하지 않음한글을 WINE으로 돌리면 꽤 느림이유를 알 수 없는(아마도 하드 에러나 토런트가 원인?) 프리징어차피 인터넷 쇼핑을 하려면 버츄어 머신으로 윈도가 깔려 있어야 함그냥 윈도 7 깔고 버츄어 머신으로 우분투 커맨드라인 모드를 돌리기로 했음. 하아&amp;hellip; 하지만 DVD롬이 없으니 내일 사무실 가서 하나 빌려와야&amp;hellip;
+네이트온이 제대로 기능하지 않음한글을 WINE으로 돌리면 꽤 느림이유를 알 수 없는(아마도 하드 에러나 토런트가 원인?) 프리징어차피 인터넷 쇼핑을 하려면 버츄어 머신으로 윈도가 깔려 있어야 함그냥 윈도 7 깔고 버츄어 머신으로 우분투 커맨드라인 모드를 돌리기로 했음. 하아&amp;hellip; 하지만 DVD롬이 없으니 내일 사무실 가서 하나 빌려와야&amp;hellip;
 사실 이거저거 상세하게 수정할 수 있는 우분투쪽이 더 맘에 들긴 하는데, 일단 내가 지금 그런 걸 할 심적 여유가 없고, 일단 돌아 가야 뭘 하지&amp;hellip;</description>
     </item>
     
@@ -5592,10 +5590,10 @@ VOICES (MACROSS PLUS OPENING THEME)
     
     <item>
       <title>Lisp로 주문 외기 - 9 -</title>
-      <link>https://ezaurum.com/2009/05/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-9/</link>
+      <link>https://ezaurum.com/2009/05/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-9-/</link>
       <pubDate>Mon, 25 May 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2009/05/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-9/</guid>
+      <guid>https://ezaurum.com/2009/05/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-9-/</guid>
       <description>게임의 특별한 동작 만들기이제 완성까지 딱 하나만 더 하면 됩니다. 플레이어가 게임을 끝내기 위한 특별한 동작을 좀 더하는 거죠. 첫 번째 명령은 플레이어가 쇠사슬을 다락방에 있던 양동이에 용접하는 게 될 겁니다.
 (setf chain-welded nil)
 (defun weld (subject object) (cond ((and (eq location &amp;lsquo;attic) (eq subject &amp;lsquo;chain) (eq object &amp;lsquo;bucket) (have &amp;lsquo;chain) (have &amp;lsquo;bucket) (not chain-welded)) (setf chain-welded &amp;rsquo;t) &amp;lsquo;(the chain is now securely welded to the bucket.)) (t &amp;lsquo;(you cannot weld like that.</description>
@@ -5612,10 +5610,10 @@ VOICES (MACROSS PLUS OPENING THEME)
     
     <item>
       <title>Lisp로 주문 외기 - 8 -</title>
-      <link>https://ezaurum.com/2009/05/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-8/</link>
+      <link>https://ezaurum.com/2009/05/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-8-/</link>
       <pubDate>Tue, 12 May 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2009/05/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-8/</guid>
+      <guid>https://ezaurum.com/2009/05/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-8-/</guid>
       <description>라이센스 - The GNU Free Documentation License 원저자 - Conrad Barski, M.D. 원본 출처 - http://lisperati.com/casting.html
 주문(SPEL) 외기이제 Lisp의 믿을 수 없을 만큼 강력한 기능을 배워 볼 겁니다. 바로 SPEL(주문)만들기지요! SPEL 은 &amp;ldquo;Semantic Program Enhancement Logic&amp;quot;의 줄임말이고 컴퓨터 코드의 세계 안에서 Lisp언어를 우리 필요에 따라 개조하기 위해 가장 기초적인 수준까지 바꾸는 행동을 만드는 걸 가능케 해 줍니다. - 이게 Lisp에서 가장 마술처럼 보이는 부분이지요. SPEL을 가능하게 하기 위해, 일단 Lisp 컴파일러에서 SPEL을 활성화 할 필요가 있습니다.</description>
     </item>
@@ -5736,12 +5734,12 @@ VOICES (MACROSS PLUS OPENING THEME)
       
       <guid>https://ezaurum.com/2009/03/%EC%86%94%EB%A1%9C%EC%9A%A9-%EC%97%B0%EC%95%A0%EB%AC%B8%EB%8B%B5/</guid>
       <description>여기서 업어옴
- 연애를 하고 싶으신가요?  &amp;hellip;.일단 하고 싶은 거랄까. 응. 그래 그렇겠지.
-하고 싶다면 왜 하고 싶으신가요? 하기 싫다면 왜 하기 싫으신가요?  씨X 연애하는 데 이유가 어딨어! 그냥 하는 거지!
-연애를 하게 되면 특별히 무엇을 하고 싶으신가요?  음. 아침을 얻어먹고 싶어.
-사귀게 되면 결혼까지 생각하는 타입인가요?  그렇심.
-(남녀관계없이)더치페이만을 고집하는 사람은 어떻게 생각하시나요?  뭐, 얻어먹기만 하는 사람보다는 낫겠지만서도&amp;hellip;
-(데이트를 해 봤다면) 데이트장소로는 주로 어디를 가셨나요?  &amp;hellip;.</description>
+연애를 하고 싶으신가요? &amp;hellip;.일단 하고 싶은 거랄까. 응. 그래 그렇겠지.
+하고 싶다면 왜 하고 싶으신가요? 하기 싫다면 왜 하기 싫으신가요? 씨X 연애하는 데 이유가 어딨어! 그냥 하는 거지!
+연애를 하게 되면 특별히 무엇을 하고 싶으신가요? 음. 아침을 얻어먹고 싶어.
+사귀게 되면 결혼까지 생각하는 타입인가요? 그렇심.
+(남녀관계없이)더치페이만을 고집하는 사람은 어떻게 생각하시나요? 뭐, 얻어먹기만 하는 사람보다는 낫겠지만서도&amp;hellip;
+(데이트를 해 봤다면) 데이트장소로는 주로 어디를 가셨나요? &amp;hellip;.헤? 하하하하&amp;hellip; 미술관, 공원, 온실, 바닷가, 까페, 맛집&amp;hellip; 정도?</description>
     </item>
     
     <item>
@@ -5772,6 +5770,15 @@ VOICES (MACROSS PLUS OPENING THEME)
     </item>
     
     <item>
+      <title>윈도XP 시스템 파일 복구법</title>
+      <link>https://ezaurum.com/2009/02/%EC%9C%88%EB%8F%84XP-%EC%8B%9C%EC%8A%A4%ED%85%9C-%ED%8C%8C%EC%9D%BC-%EB%B3%B5%EA%B5%AC%EB%B2%95/</link>
+      <pubDate>Thu, 12 Feb 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2009/02/%EC%9C%88%EB%8F%84XP-%EC%8B%9C%EC%8A%A4%ED%85%9C-%ED%8C%8C%EC%9D%BC-%EB%B3%B5%EA%B5%AC%EB%B2%95/</guid>
+      <description>적용대상winlogon.exe, userinit.exe, lsass.exe등의 파일이 없거나, 손상되어 정상적인 부팅이 불가능할 때뭔지는 모르겠지만, 일단 윈도우 시작은 됐는데, 사용자 이름을 눌러도 로그인이 안되거나, 바탕화면이 뜨지 않거나 할 때.기타 이유로 파일 복구가 필요할 때winlogon.exe, userinit.exe, lsass.exe등의 파일이 없거나, 손상되어 정상적인 부팅이 불가능할 때준비물1, 2 중 하나만 있으면 됨.깔려있는 것과 동일한 버전의 XP 정품 씨디깔린 게 SP2면 SP2, SP3면 SP3여야 하는 게 원칙이나, 될 수도 있음. 자동설치 CD는 복구 콘솔이 뜨질 않아서 안 됨.</description>
+    </item>
+    
+    <item>
       <title>才悩人応援歌(재뇌인응원가) - BUMP OF CHICKEN</title>
       <link>https://ezaurum.com/2009/02/%E6%89%8D%E6%82%A9%E4%BA%BA%E5%BF%9C%E6%8F%B4%E6%AD%8C%EC%9E%AC%EB%87%8C%EC%9D%B8%EC%9D%91%EC%9B%90%EA%B0%80-BUMP-OF-CHICKEN/</link>
       <pubDate>Thu, 12 Feb 2009 00:00:00 +0000</pubDate>
@@ -5782,15 +5789,6 @@ VOICES (MACROSS PLUS OPENING THEME)
 得意な事があった事 今じゃもう忘れてるのは 토쿠이나코토가앗-타코토 이마쟈모-와스레테루노와 재주를 갖고 있던 사실을 이제는 잊어버린 건 それを自分より 得意な誰かが居たから 소레오지분-요리 토쿠이나다레카가이타카라 그것을 나보다 잘하는 누군가가 있기에
 ずっと前から解ってた 自分のための世界じゃない 즛-토마에카라와캇-테타 지분-노타메노세카이쟈나이 훨씬 전부터 알고 있었죠 나를 위한 세상이 아니라는 걸 問題無いでしょう 一人くらい 寝てたって 몬-다이나이데쇼- 히토리쿠라이 네테탓-테 아무 문제 없잖아요 한사람정도 자고 있었다해도
 生活は平凡です 平凡でも困難です 세-카츠와헤-본-데스 헤-본-데모콘-난-데스 생활은 평범합니다 평범하지만 곤란해요 星の隅で 継続中です 호시노스미데 케-조쿠츄-데스 별의 구석에서 계속되고 있죠 声援なんて皆無です 脚光なんて尚更です 세-엔-난테카이무데스 캿-코-난-테나오사라데스 성원따윈 전혀 없어요 각광이라면 더더욱 없죠 期待される様な 命じゃない 키타이사레루요-나 이노치쟈나이 기대 받을만한 사람은 아니에요</description>
-    </item>
-    
-    <item>
-      <title>윈도XP 시스템 파일 복구법</title>
-      <link>https://ezaurum.com/2009/02/%EC%9C%88%EB%8F%84XP-%EC%8B%9C%EC%8A%A4%ED%85%9C-%ED%8C%8C%EC%9D%BC-%EB%B3%B5%EA%B5%AC%EB%B2%95/</link>
-      <pubDate>Thu, 12 Feb 2009 00:00:00 +0000</pubDate>
-      
-      <guid>https://ezaurum.com/2009/02/%EC%9C%88%EB%8F%84XP-%EC%8B%9C%EC%8A%A4%ED%85%9C-%ED%8C%8C%EC%9D%BC-%EB%B3%B5%EA%B5%AC%EB%B2%95/</guid>
-      <description>적용대상winlogon.exe, userinit.exe, lsass.exe등의 파일이 없거나, 손상되어 정상적인 부팅이 불가능할 때뭔지는 모르겠지만, 일단 윈도우 시작은 됐는데, 사용자 이름을 눌러도 로그인이 안되거나, 바탕화면이 뜨지 않거나 할 때.기타 이유로 파일 복구가 필요할 때winlogon.exe, userinit.exe, lsass.exe등의 파일이 없거나, 손상되어 정상적인 부팅이 불가능할 때준비물1, 2 중 하나만 있으면 됨.깔려있는 것과 동일한 버전의 XP 정품 씨디깔린 게 SP2면 SP2, SP3면 SP3여야 하는 게 원칙이나, 될 수도 있음.</description>
     </item>
     
     <item>
@@ -5819,21 +5817,7 @@ VOICES (MACROSS PLUS OPENING THEME)
       <guid>https://ezaurum.com/2009/02/Promise-Her-the-Moon-Mr.-Big/</guid>
       <description>[youtube https://www.youtube.com/watch?v=uQfjo0RdsAE&amp;amp;hl=ko&amp;amp;fs=1]
 Promise Her the Moon - Mr. Big
-Hey, yeah yeah You don&amp;rsquo;t know what you&amp;rsquo;ve got Till the love is almost gone This time, yeah she&amp;rsquo;s given up Still in a state of shock I should&amp;rsquo;ve seen it coming on It&amp;rsquo;s too late for waking up Her mind&amp;rsquo;s made up I know the dream is over But my heart just can&amp;rsquo;t let go She&amp;rsquo;s too good to be forgotten Too good to be true Before my world is torn apart I&amp;rsquo;ll promise her the moon I&amp;rsquo;ll promise her the moon I was too blind to notice her Wrapped up in myself Workin&#39; hard overtime, night and day I thought we were so secure Can&#39; imagine someone else Could come between us And take her away Her mind&amp;rsquo;s made up I know the dream is over But my heart just can&amp;rsquo;t let go She&amp;rsquo;s too good to be forgotten Too good to be true Before my world is torn apart I&amp;rsquo;ll promise her the moon I&amp;rsquo;ll promise her the moon And all the time she stood by me I never said &amp;ldquo;I love you&amp;rdquo; Yeah, I kept it deep down in my soul And all the while I&amp;rsquo;ve been a fool yeah, yeah yeah.</description>
-    </item>
-    
-    <item>
-      <title>ハルジオン(하루지온)</title>
-      <link>https://ezaurum.com/2009/02/%E3%83%8F%E3%83%AB%E3%82%B8%E3%82%AA%E3%83%B3%ED%95%98%EB%A3%A8%EC%A7%80%EC%98%A8/</link>
-      <pubDate>Tue, 10 Feb 2009 00:00:00 +0000</pubDate>
-      
-      <guid>https://ezaurum.com/2009/02/%E3%83%8F%E3%83%AB%E3%82%B8%E3%82%AA%E3%83%B3%ED%95%98%EB%A3%A8%EC%A7%80%EC%98%A8/</guid>
-      <description>[youtube https://www.youtube.com/watch?v=9flKIoHdMnM&amp;amp;hl=ko&amp;amp;fs=1] 개망초꽃
-虹を 作ってた　手を 伸ばしたら　消えてった 니지오 츠쿳테타 테오 노바시타라 키에텟타 무지개를 만들고 있었다 손을 뻗으면 사라져갔었다
-ブリキの ジョウロをぶらさげて　立ち 盡くした　晝下がり 브리키노 죠우로오 부라사게테 타치츠쿠시타 히루사가리 양철 물뿌리개를 매달고 내내 서있었던 이른 오후
-名前があったなぁ　白くて　背の 高い 花 나마에가 앗타나아 시로쿠테 세-노 다카이 하나 이름이 있었지? 하얗고 키가 큰 꽃
-視界の 外れで　忘れられた 樣に さいてた 시카이노 하즈레데 와스레라레타 요오니 사이테타 시선 밖에서 잊혀진듯이 피어있었다
-色褪せて　霞んでいく　記憶の 中　ただひとつ 이로아세테 카슨데이쿠 기오쿠노 나까 타다히토츠 퇴색해서 희미해져 가는 기억 속에서 단 하나</description>
+Hey, yeah yeah You don&amp;rsquo;t know what you&amp;rsquo;ve got Till the love is almost gone This time, yeah she&amp;rsquo;s given up Still in a state of shock I should&amp;rsquo;ve seen it coming on It&amp;rsquo;s too late for waking up Her mind&amp;rsquo;s made up I know the dream is over But my heart just can&amp;rsquo;t let go She&amp;rsquo;s too good to be forgotten Too good to be true Before my world is torn apart I&amp;rsquo;ll promise her the moon I&amp;rsquo;ll promise her the moon I was too blind to notice her Wrapped up in myself Workin&amp;rsquo; hard overtime, night and day I thought we were so secure Can&amp;rsquo; imagine someone else Could come between us And take her away Her mind&amp;rsquo;s made up I know the dream is over But my heart just can&amp;rsquo;t let go She&amp;rsquo;s too good to be forgotten Too good to be true Before my world is torn apart I&amp;rsquo;ll promise her the moon I&amp;rsquo;ll promise her the moon And all the time she stood by me I never said &amp;ldquo;I love you&amp;rdquo; Yeah, I kept it deep down in my soul And all the while I&amp;rsquo;ve been a fool yeah, yeah yeah.</description>
     </item>
     
     <item>
@@ -5864,12 +5848,26 @@ Hey, yeah yeah You don&amp;rsquo;t know what you&amp;rsquo;ve got Till the love 
     </item>
     
     <item>
+      <title>ハルジオン(하루지온)</title>
+      <link>https://ezaurum.com/2009/02/%E3%83%8F%E3%83%AB%E3%82%B8%E3%82%AA%E3%83%B3%ED%95%98%EB%A3%A8%EC%A7%80%EC%98%A8/</link>
+      <pubDate>Tue, 10 Feb 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezaurum.com/2009/02/%E3%83%8F%E3%83%AB%E3%82%B8%E3%82%AA%E3%83%B3%ED%95%98%EB%A3%A8%EC%A7%80%EC%98%A8/</guid>
+      <description>[youtube https://www.youtube.com/watch?v=9flKIoHdMnM&amp;amp;hl=ko&amp;amp;fs=1] 개망초꽃
+虹を 作ってた　手を 伸ばしたら　消えてった 니지오 츠쿳테타 테오 노바시타라 키에텟타 무지개를 만들고 있었다 손을 뻗으면 사라져갔었다
+ブリキの ジョウロをぶらさげて　立ち 盡くした　晝下がり 브리키노 죠우로오 부라사게테 타치츠쿠시타 히루사가리 양철 물뿌리개를 매달고 내내 서있었던 이른 오후
+名前があったなぁ　白くて　背の 高い 花 나마에가 앗타나아 시로쿠테 세-노 다카이 하나 이름이 있었지? 하얗고 키가 큰 꽃
+視界の 外れで　忘れられた 樣に さいてた 시카이노 하즈레데 와스레라레타 요오니 사이테타 시선 밖에서 잊혀진듯이 피어있었다
+色褪せて　霞んでいく　記憶の 中　ただひとつ 이로아세테 카슨데이쿠 기오쿠노 나까 타다히토츠 퇴색해서 희미해져 가는 기억 속에서 단 하나</description>
+    </item>
+    
+    <item>
       <title>opera 백업하기</title>
       <link>https://ezaurum.com/2009/02/opera-%EB%B0%B1%EC%97%85%ED%95%98%EA%B8%B0/</link>
       <pubDate>Mon, 09 Feb 2009 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2009/02/opera-%EB%B0%B1%EC%97%85%ED%95%98%EA%B8%B0/</guid>
-      <description>백업할 디렉토리 위치 확인오페라 주소창에서 opera:about 라고 친다.그럼 경로 정보가 나온다. 내 경우(Windows7, Administrator계정 사용)는 아래와 같았음 환경설정C:UsersAdministratorAppDataRoamingOperaOperaprofileopera6.ini저장한 세션C:UsersAdministratorAppDataRoamingOperaOperaprofilesessionsautopera.win북마크C:UsersAdministratorAppDataRoamingOperaOperaprofileopera6.adrOpera 디렉토리C:UsersAdministratorAppDataRoamingOperaOperaprofile캐시C:UsersAdministratorAppDataLocalOperaOperaprofilecache4도움말C:UsersAdministratorAppDataLocalOperaOperaprofileopcache메일 디렉토리C:UsersAdministratorAppDataLocalOperaOperamail플러그인 경로C:Program Files (x86)OperaProgramPluginsUser CSS 디렉토리C:UsersAdministratorAppDataRoamingOperaOperaprofilestylesuser필요한 것들을 복사한다.참고 - RSS feed 메세지는 mail에 저장된다.OS를 새로 설치하거나 뭐, 하려고 했던 걸 한다.새로 깐 오페라 주소창에서 opera:about 라고 친다.</description>
+      <description>백업할 디렉토리 위치 확인오페라 주소창에서 opera:about 라고 친다.그럼 경로 정보가 나온다. 내 경우(Windows7, Administrator계정 사용)는 아래와 같았음 환경설정C:UsersAdministratorAppDataRoamingOperaOperaprofileopera6.ini저장한 세션C:UsersAdministratorAppDataRoamingOperaOperaprofilesessionsautopera.win북마크C:UsersAdministratorAppDataRoamingOperaOperaprofileopera6.adrOpera 디렉토리C:UsersAdministratorAppDataRoamingOperaOperaprofile캐시C:UsersAdministratorAppDataLocalOperaOperaprofilecache4도움말C:UsersAdministratorAppDataLocalOperaOperaprofileopcache메일 디렉토리C:UsersAdministratorAppDataLocalOperaOperamail플러그인 경로C:Program Files (x86)OperaProgramPluginsUser CSS 디렉토리C:UsersAdministratorAppDataRoamingOperaOperaprofilestylesuser필요한 것들을 복사한다.참고 - RSS feed 메세지는 mail에 저장된다.OS를 새로 설치하거나 뭐, 하려고 했던 걸 한다.새로 깐 오페라 주소창에서 opera:about 라고 친다.</description>
     </item>
     
     <item>
@@ -5984,10 +5982,10 @@ So tell me are you ready, really, really ready 그러니 말해줘요. 준비 �
     
     <item>
       <title>Lisp로 주문 외기 - 7 -</title>
-      <link>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-7/</link>
+      <link>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-7-/</link>
       <pubDate>Wed, 04 Feb 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-7/</guid>
+      <guid>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-7-/</guid>
       <description>라이센스 - The GNU Free Documentation License 원저자 - Conrad Barski, M.D. 원본 출처 - http://lisperati.com/casting.html
 게임 세계를 돌아다녀 보기좋아요, 이제 세계를 볼 수 있습니다. 그러니 돌아다닐 수 있도록 해 줄 코드를 짜 볼까요. walk-direction(함수식 스타일은 아니지만) 함수가 방향을 잡고 거기로 갈 수 있도록 해 줄겁니다. (defun walk-direction (direction)(let ((next (assoc direction (cddr (assoc *location* *map*)))))(cond (next (setf *location* (third next)) (look))(t &#39;(you cant go that way.</description>
     </item>
@@ -6012,10 +6010,10 @@ So tell me are you ready, really, really ready 그러니 말해줘요. 준비 �
     
     <item>
       <title>Lisp로 주문 외기 - 1 -</title>
-      <link>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-1/</link>
+      <link>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-1-/</link>
       <pubDate>Tue, 03 Feb 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-1/</guid>
+      <guid>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-1-/</guid>
       <description>라이센스 - The GNU Free Documentation License 원저자 - Conrad Barski, M.D. 원본 출처 - http://lisperati.com/casting.html
 어떻게 해서 Lisp가 그렇게 강력한지 궁금해 해 봤나요?
 이제 그 이유를 알 수 있습니다.
@@ -6028,10 +6026,10 @@ http://파란미르.com/
     
     <item>
       <title>Lisp로 주문 외기 - 2 -</title>
-      <link>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-2/</link>
+      <link>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-2-/</link>
       <pubDate>Tue, 03 Feb 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-2/</guid>
+      <guid>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-2-/</guid>
       <description>라이센스 - The GNU Free Documentation License 원저자 - Conrad Barski, M.D. 원본 출처 - http://lisperati.com/casting.html
 누구든 Lisp로 프로그램을 짜는 걸 배워본 사람이 있다면, 다른 프로그래밍 언어와 매우 다르다고 말할 겁니다. 그건 정말 신기할 정도로 달라요. 이 만화책이 Lisp의 독특한 디자인이 그걸 그렇게 강력하게 만든다는 것을 알게 해 줄겁니 다.
 이 강좌에서 쓰이는 매우 작은 Lisp 코드들은 이런 글꼴과 색입니다.간단히 이 부분들을 Lisp컴파일러의 명령줄에 복사해 넣으세요.그럼 강좌가 끝나는 그 순간 텍스트 어드벤처 게임이 완성될 겁니다!</description>
@@ -6039,30 +6037,30 @@ http://파란미르.com/
     
     <item>
       <title>Lisp로 주문 외기 - 3 -</title>
-      <link>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-3/</link>
+      <link>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-3-/</link>
       <pubDate>Tue, 03 Feb 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-3/</guid>
+      <guid>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-3-/</guid>
       <description>라이센스 - The GNU Free Documentation License 원저자 - Conrad Barski, M.D. 원본 출처 - http://lisperati.com/casting.html
 엄청나게 좋은 Lisp컴파일러가 많이 있지만, 이 강좌를 들으며 쓰기 가장 쉬운 것은 Franz의 Allegro Common Lisp, 매우 강력한 상업용 Lisp입니다. Franz, Inc. 는 친절하게도 텔넷환경을 통해서 사용할 수 있도록 해 주었지요. 여기에 있으니까 컴퓨터에 아무 것도 깔 필요는 없어요. 그냥 이 링크를 클릭하면 원하는 모든 것을 제공해주는 텔넷 화면이 뜰 겁니다! [caption id=&amp;ldquo;attachment_382&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;400&amp;rdquo; caption=&amp;ldquo;telnet화면&amp;rdquo;][/caption] (내가 정말 쓰려고 했던 다른 Lisp는 오픈소스인 CLISP인데, 만일 Lisp랑 더 많은 시간을 보내게 될 걸 안다면 다운받고 싶어질 겁니다.</description>
     </item>
     
     <item>
       <title>Lisp로 주문 외기 - 4 -</title>
-      <link>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-4/</link>
+      <link>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-4-/</link>
       <pubDate>Tue, 03 Feb 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-4/</guid>
+      <guid>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-4-/</guid>
       <description>라이센스 - The GNU Free Documentation License 원저자 - Conrad Barski, M.D. 원본 출처 - http://lisperati.com/casting.html
 문법과 의미모든 컴퓨터 언어는 문법(syntax)과 의미(semantics)로 구성된 코드가 있습니다. 컴퓨터 언어의 문법(syntax)이란 건, 컴파일러가 프로그램에 쓰여있는 게 뭐가 뭔지 알 수 있도록 프로그램을 짤 때 따라야 하는 기본적인 뼈대에요. 그러니까 그게 뭐가 함수고, 뭐가 변수고, 뭐가 뭐고 하는 걸 알 수 있도록 해 주는 거죠. 프로그램에서의 의미(semantics)란 건 아무거나라고 말하는 게 좋겠네요. 가능한 여러가지 서로 다른 명령이라든가, 프로그램의 어디서든 볼 수 있도록 허락한 변수들이라든가 뭐 그런 거.</description>
     </item>
     
     <item>
       <title>Lisp로 주문 외기 - 5 -</title>
-      <link>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-5/</link>
+      <link>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-5-/</link>
       <pubDate>Tue, 03 Feb 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-5/</guid>
+      <guid>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-5-/</guid>
       <description>라이센스 - The GNU Free Documentation License 원저자 - Conrad Barski, M.D. 원본 출처 - http://lisperati.com/casting.html
 게임 세계를 위한 데이터 정의형식(Form)에 대해 조금 더 배우기 위해, 게임 세계의 데이터를 만드는 형식을 좀 만들어봅시다. 일단은, 게임에는 플레이어가 집어들어 사용할 수 있는 특정 물체들이 있을 겁니다. 이걸 정의해 봅시다.
 (setf objects &amp;lsquo;(whiskey-bottle bucket frog chain))
@@ -6071,13 +6069,13 @@ http://파란미르.com/
     
     <item>
       <title>Lisp로 주문 외기 - 6 -</title>
-      <link>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-6/</link>
+      <link>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-6-/</link>
       <pubDate>Tue, 03 Feb 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-6/</guid>
+      <guid>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-6-/</guid>
       <description>라이센스 - The GNU Free Documentation License 원저자 - Conrad Barski, M.D. 원본 출처 - http://lisperati.com/casting.html
 게임 세계를 살펴 보기만들어볼 첫 명령은 지금 서 있는 장소에 대해 말해줄 명령입니다. 그러니 함수가 그 장소에 대해 묘사하기 위해 필요한 게 뭘까요?
-에, 묘사할 장소에 대해 알아야 하고, 지도에서 그게 어디에 있는지를 찾을 수 있어야겠죠. 여기 함수가 있고요, 그건 바로 그렇게 동작합니다.  (defun describe-location (location map) (second (assoc location map)))
+에, 묘사할 장소에 대해 알아야 하고, 지도에서 그게 어디에 있는지를 찾을 수 있어야겠죠. 여기 함수가 있고요, 그건 바로 그렇게 동작합니다. (defun describe-location (location map) (second (assoc location map)))
 defun이라고 하는 단어는 예상대로, 함수를 선언하고 있습니다.</description>
     </item>
     
@@ -6134,7 +6132,7 @@ defun이라고 하는 단어는 예상대로, 함수를 선언하고 있습니�
       <pubDate>Thu, 29 Jan 2009 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2009/01/%EC%A7%A4%EB%B0%A9-2%EA%B0%9C/</guid>
-      <description>넵 전 이과</description>
+      <description>넵 전 이과</description>
     </item>
     
     <item>
@@ -6159,7 +6157,7 @@ defun이라고 하는 단어는 예상대로, 함수를 선언하고 있습니�
 기마대절-자이언트 또한 창고로 쓰이고 있는 막내. 어시스턴트 카드.
 마비노기를 플레이한지도 오픈 베타때부터니까&amp;hellip; 꽤나 되었지만, 누렙이 높은 캐릭터도 없고, 돈이 많이 모인 것도 아니다. 진득하지 못한 성격이 여기서도 드러나는 듯.
 내가 마비를 하면서 깨달은 점이라면&amp;hellip;
-왜 여자들이 옷장에 옷을 가득 쌓아두고서 &#39;(입을)옷이 없어&#39;라고 하는지 알겠다.</description>
+왜 여자들이 옷장에 옷을 가득 쌓아두고서 &#39;(입을)옷이 없어&#39;라고 하는지 알겠다.</description>
     </item>
     
     <item>
@@ -6169,7 +6167,7 @@ defun이라고 하는 단어는 예상대로, 함수를 선언하고 있습니�
       
       <guid>https://ezaurum.com/2009/01/%EA%B0%80%EC%9E%A5-%EA%B0%80%EA%B9%8C%EC%9D%B4-%EB%86%93%EC%9D%B8-%EC%B1%85%EC%9D%98-37%EC%AA%BD-6%EB%B2%88%EC%A7%B8-%EC%A4%84%EC%97%90-%EC%9E%88%EB%8A%94-%EB%AC%B8%EC%9E%A5/</guid>
       <description>Blank
-&amp;hellip;..젠장 말 그대로 빈 칸이다. 무슨 책이냐고? 자료구조 주요개념·프로그램 인공지능 기법 요약. 저 페이지에는 해쉬 테이블&amp;rsquo;만&#39; 있었고, 그 6번째 줄은 비어있었다.</description>
+&amp;hellip;..젠장 말 그대로 빈 칸이다. 무슨 책이냐고? 자료구조 주요개념·프로그램 인공지능 기법 요약. 저 페이지에는 해쉬 테이블&amp;rsquo;만&amp;rsquo; 있었고, 그 6번째 줄은 비어있었다.</description>
     </item>
     
     <item>
@@ -6251,7 +6249,7 @@ defun이라고 하는 단어는 예상대로, 함수를 선언하고 있습니�
       <pubDate>Sun, 04 Jan 2009 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2009/01/%ED%99%9C%EC%9E%90-%EC%A4%91%EB%8F%85-%ED%85%8C%EC%8A%A4%ED%8A%B8/</guid>
-      <description>화장실에 갈 때는 아무리 급해도 신문이나 잡지나 책을 꼭 챙긴다.Y - 하지만 정말 급하면 못 챙긴다. 부산 집에는 화장실 앞이 책꽂이라 별 문제는 없지만...피치 못해 화장실에 읽을거리를 챙겨가지 못했을 때는, 볼 일을 보면서 주변에 보이는 활자들을 꼼꼼이 읽는다.Y - 보이면 그렇게 함. 보통 공중 화장실에서 보이는 건 이반맛사지라든가, 장기밀매 전번이라든가...친척들이 사는 시골에 내려갔을 때 마땅히 읽을 게 없어 &#34;축산신문&#34; 이나 농약 사용설명서를 20분 이상 읽어본 적이 있다.</description>
+      <description>화장실에 갈 때는 아무리 급해도 신문이나 잡지나 책을 꼭 챙긴다.Y - 하지만 정말 급하면 못 챙긴다. 부산 집에는 화장실 앞이 책꽂이라 별 문제는 없지만...피치 못해 화장실에 읽을거리를 챙겨가지 못했을 때는, 볼 일을 보면서 주변에 보이는 활자들을 꼼꼼이 읽는다.Y - 보이면 그렇게 함. 보통 공중 화장실에서 보이는 건 이반맛사지라든가, 장기밀매 전번이라든가...친척들이 사는 시골에 내려갔을 때 마땅히 읽을 게 없어 &#34;축산신문&#34; 이나 농약 사용설명서를 20분 이상 읽어본 적이 있다.</description>
     </item>
     
     <item>
@@ -6336,8 +6334,7 @@ defun이라고 하는 단어는 예상대로, 함수를 선언하고 있습니�
       
       <guid>https://ezaurum.com/2008/12/%EC%86%8C%EC%BC%93-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EC%9D%84-%ED%95%A0-%EB%95%8C-read%EA%B0%80-%EC%83%9D%EA%B0%81%EB%8C%80%EB%A1%9C-%EC%9E%91%EB%8F%99%ED%95%98%EC%A7%80-%EC%95%8A%EB%8A%94-%EA%B2%BD%EC%9A%B0/</guid>
       <description>기말고사용으로 채팅 프로그램을 만들던 중, close를 하지 않고, 연결을 유지한 채로 write함수로 EOF값 만을 보내서 대화 내용의 종결을 알리려고 했으나, 잘 작동하지 않았다.
-read는 socket 이 close되지 않으면 EOF를 읽더라도 1을 반환한다. 따라서 연결을 유지하고 read/write를 하려면 읽은 값이 EOF인지를 체크해준다! 이거 알아내려고 이틀 밤 샜다. 젠장. 나만 병신인가.  while (temp) { read(sockfd, &amp;amp;s, 1); if ( s == EOF) break; printf(&amp;quot;%c&amp;quot;,s); } 
-read 의 리턴값 - 기본적으로 실제로 읽은 바이트 수 만큼.</description>
+read는 socket 이 close되지 않으면 EOF를 읽더라도 1을 반환한다. 따라서 연결을 유지하고 read/write를 하려면 읽은 값이 EOF인지를 체크해준다! 이거 알아내려고 이틀 밤 샜다. 젠장. 나만 병신인가. while (temp) { read(sockfd, &amp;amp;s, 1); if ( s == EOF) break; printf(&amp;quot;%c&amp;quot;,s); } read 의 리턴값 - 기본적으로 실제로 읽은 바이트 수 만큼.</description>
     </item>
     
     <item>
@@ -6374,7 +6371,7 @@ cd /etc/apache2/mods-available sudo cp userdir.conf userdir.load /etc/apache2/mo
       
       <guid>https://ezaurum.com/2008/11/%EA%B2%B8%EC%86%90%ED%95%B4%EC%A7%80%EC%9E%90/</guid>
       <description>지난 금요일, 선배와 술을 마시며 실습 갔다 와서 느낀 점이라든가 하는 것에 대해 이야기를 나눌 기회가 있었다. 나는
-	교사의 무기력함을 보고 미래의 내 모습을 겹쳐 보았다.수업 내용이 쓸모 없어 보였다.쓸모 없는 것을 가르치면서 무기력하게 되기는 싫다. 그래서 좀 혼란스럽다.라고 말했고.선배는	교사는 아이들만을 보아야 한다.필요한지 안한지는 배운 아이가 결정할 일이고, 그것도 지금 당장 결정되는 것이 아니다.네가 지금 결론을 내리는 것은 오만이다.라고 말했다.</description>
+교사의 무기력함을 보고 미래의 내 모습을 겹쳐 보았다.수업 내용이 쓸모 없어 보였다.쓸모 없는 것을 가르치면서 무기력하게 되기는 싫다. 그래서 좀 혼란스럽다.라고 말했고.선배는교사는 아이들만을 보아야 한다.필요한지 안한지는 배운 아이가 결정할 일이고, 그것도 지금 당장 결정되는 것이 아니다.네가 지금 결론을 내리는 것은 오만이다.라고 말했다.선배의 말이 맞는 것 같았다.</description>
     </item>
     
     <item>
@@ -6390,10 +6387,10 @@ cd /etc/apache2/mods-available sudo cp userdir.conf userdir.load /etc/apache2/mo
     
     <item>
       <title>-lsocket 옵션에서 에러가 날 때</title>
-      <link>https://ezaurum.com/2008/11/lsocket-%EC%98%B5%EC%85%98%EC%97%90%EC%84%9C-%EC%97%90%EB%9F%AC%EA%B0%80-%EB%82%A0-%EB%95%8C/</link>
+      <link>https://ezaurum.com/2008/11/-lsocket-%EC%98%B5%EC%85%98%EC%97%90%EC%84%9C-%EC%97%90%EB%9F%AC%EA%B0%80-%EB%82%A0-%EB%95%8C/</link>
       <pubDate>Fri, 28 Nov 2008 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2008/11/lsocket-%EC%98%B5%EC%85%98%EC%97%90%EC%84%9C-%EC%97%90%EB%9F%AC%EA%B0%80-%EB%82%A0-%EB%95%8C/</guid>
+      <guid>https://ezaurum.com/2008/11/-lsocket-%EC%98%B5%EC%85%98%EC%97%90%EC%84%9C-%EC%97%90%EB%9F%AC%EA%B0%80-%EB%82%A0-%EB%95%8C/</guid>
       <description>소켓 프로그래밍을 하는데 프린트물에 있는 대로 -lsocket 옵션을 주니 계속 cc 가 에러를 뱉었다.
 http://kldp.org/node/1377
 결론은 Sun 계열 유닉스에서 작업하는 게 아니면, -lnsl -lsocket 옵션을 주지 말고 컴파일하라는 것.
@@ -6420,7 +6417,7 @@ http://kldp.org/node/1377
 //
 if (top.frames.length!=0) top.location=self.document.location;
 //]]&amp;gt;
- 일단 학교 서버에서 모든 외부 서버로 엑세스 할 때는 프레임을 기본적으로 씌워서, ActiveX를 실행시키기 때문에;; 상당히 귀찮다. 내 홈피라도 그런 꼴을 안 보려는 자구책.</description>
+일단 학교 서버에서 모든 외부 서버로 엑세스 할 때는 프레임을 기본적으로 씌워서, ActiveX를 실행시키기 때문에;; 상당히 귀찮다. 내 홈피라도 그런 꼴을 안 보려는 자구책.</description>
     </item>
     
     <item>
@@ -6452,8 +6449,8 @@ http://www.smartftp.com/support/kb/no-files-folders-are-being-being-displayed-f4
 이걸 알면 모두 OK.
 pointer[x][y][z] 는 *(pointer[x][y]+z) pointer[x][y] 는 *(pointer[x]+y) pointer[x]는 *(pointer+x)
 그러니 pointer[x][y][z]는 ((*(pointer+x)+y)+z)
-추가로 알아둘 사항.  void * pp; int a=35; pp = &amp;amp;a; int ppp[5][5] = { 0, };
-printf(&amp;quot;%dn&amp;quot;,sizeof(pp));printf(&amp;quot;%dn&amp;quot;,*(int*)pp);printf(&amp;quot;%dn&amp;quot;,sizeof(ppp));printf(&amp;quot;%dn&amp;quot;,sizeof(ppp[0]));printf(&amp;quot;%dn&amp;quot;,sizeof(ppp[0][0]));printf(&amp;quot;%pn&amp;quot;,ppp);printf(&amp;quot;%pn&amp;quot;,ppp+1);printf(&amp;quot;%pn&amp;quot;,*(ppp+2)+1);printf(&amp;quot;%pn&amp;quot;,ppp[2]+1);printf(&amp;quot;%pn&amp;quot;,&amp;amp;amp;ppp[2][1]);printf(&amp;quot;%pn&amp;quot;,ppp[0][0]+1); pointer +1 은 pointer값 + sizeof(*pointer);
+추가로 알아둘 사항. void * pp; int a=35; pp = &amp;amp;a; int ppp[5][5] = { 0, };
+printf(&amp;quot;%dn&amp;quot;,sizeof(pp));printf(&amp;quot;%dn&amp;quot;,*(int*)pp);printf(&amp;quot;%dn&amp;quot;,sizeof(ppp));printf(&amp;quot;%dn&amp;quot;,sizeof(ppp[0]));printf(&amp;quot;%dn&amp;quot;,sizeof(ppp[0][0]));printf(&amp;quot;%pn&amp;quot;,ppp);printf(&amp;quot;%pn&amp;quot;,ppp+1);printf(&amp;quot;%pn&amp;quot;,*(ppp+2)+1);printf(&amp;quot;%pn&amp;quot;,ppp[2]+1);printf(&amp;quot;%pn&amp;quot;,&amp;amp;amp;ppp[2][1]);printf(&amp;quot;%pn&amp;quot;,ppp[0][0]+1);pointer +1 은 pointer값 + sizeof(*pointer);
 혹여나 해서 추가해보는 codepad link</description>
     </item>
     
@@ -6463,7 +6460,7 @@ printf(&amp;quot;%dn&amp;quot;,sizeof(pp));printf(&amp;quot;%dn&amp;quot;,*(int
       <pubDate>Fri, 21 Nov 2008 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2008/11/Windows-XP-%EC%82%AC%EC%9A%A9%EC%9E%90-%EA%B3%84%EC%A0%95-%EB%B9%84%EB%B0%80%EB%B2%88%ED%98%B8%EB%A5%BC-%EC%9E%8A%EC%97%88%EC%9D%84-%EB%95%8C/</guid>
-      <description>관리자 -Administrator 계정의 비번을 알 경우관리자 계정 로그인-제어판-사용자 계정-비번을 잊은 계정 선택-비밀번호 변경관리자 계정이 보통 때 뜨지 않는 경우는, 부팅 시, F8을 눌러서 안전모드로 들어간다.관리자 계정 비번을 모를 경우F8을 눌러서 안전모드 명령 프롬프트 사용 을 선택해서, net user 필요한아이디 *ENTER를 입력. 그럼 비번 재설정 가능.둘 다 여의치 않을 경우안전모드든, hiren&#39;s CD를 이용하든 윈도우즈 폴더의 system32config 폴더 안에 있는 SAM파일을 지우고 재부팅 - 이 방법은 위험하다고 함.</description>
+      <description>관리자 -Administrator 계정의 비번을 알 경우관리자 계정 로그인-제어판-사용자 계정-비번을 잊은 계정 선택-비밀번호 변경관리자 계정이 보통 때 뜨지 않는 경우는, 부팅 시, F8을 눌러서 안전모드로 들어간다.관리자 계정 비번을 모를 경우F8을 눌러서 안전모드 명령 프롬프트 사용 을 선택해서, net user 필요한아이디 *ENTER를 입력. 그럼 비번 재설정 가능.둘 다 여의치 않을 경우안전모드든, hiren&#39;s CD를 이용하든 윈도우즈 폴더의 system32config 폴더 안에 있는 SAM파일을 지우고 재부팅 - 이 방법은 위험하다고 함.</description>
     </item>
     
     <item>
@@ -6477,10 +6474,10 @@ printf(&amp;quot;%dn&amp;quot;,sizeof(pp));printf(&amp;quot;%dn&amp;quot;,*(int
     
     <item>
       <title>리눅스 삽질기 - 3 -</title>
-      <link>https://ezaurum.com/2008/11/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%82%BD%EC%A7%88%EA%B8%B0-3/</link>
+      <link>https://ezaurum.com/2008/11/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%82%BD%EC%A7%88%EA%B8%B0-3-/</link>
       <pubDate>Mon, 17 Nov 2008 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2008/11/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%82%BD%EC%A7%88%EA%B8%B0-3/</guid>
+      <guid>https://ezaurum.com/2008/11/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%82%BD%EC%A7%88%EA%B8%B0-3-/</guid>
       <description>일단 gcc를 써 보자. 라고 생각해서 간단히 짜고 컴파일을 해보는데, 계속 에러. 구글링을 통해 해법을 찾았다. http://dantes.kr/blog/320 이 설명에서는 CD를 요구한다는데. 일단 8.10에서는 필요 없는듯?
 일단 이러고 나서, gcc 파일이름 이렇게 치면, 컴파일은 되는데, 실행이 안된다.
 왜?
@@ -6490,10 +6487,10 @@ printf(&amp;quot;%dn&amp;quot;,sizeof(pp));printf(&amp;quot;%dn&amp;quot;,*(int
     
     <item>
       <title>리눅스 삽질기 - 2 -</title>
-      <link>https://ezaurum.com/2008/11/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%82%BD%EC%A7%88%EA%B8%B0-2/</link>
+      <link>https://ezaurum.com/2008/11/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%82%BD%EC%A7%88%EA%B8%B0-2-/</link>
       <pubDate>Sun, 16 Nov 2008 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2008/11/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%82%BD%EC%A7%88%EA%B8%B0-2/</guid>
+      <guid>https://ezaurum.com/2008/11/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%82%BD%EC%A7%88%EA%B8%B0-2-/</guid>
       <description>지난 번에 리눅스를 깔아놓기만 한 PC가 팔려나가 버려서, 다른 PC에 깔게 되었다. 이번에는 버전업 된 우분투 8.10을 설치. 32비트 버전이다.
 일단 텔넷을 깔아야 하므로 아래의 참고 링크. 설치법 - http://eloid.tistory.com/21 텔넷 포트 바꾸기 - http://rustymind.egloos.com/3310669
 오늘은 여기까지</description>
@@ -6634,7 +6631,7 @@ printf(&amp;quot;%dn&amp;quot;,sizeof(pp));printf(&amp;quot;%dn&amp;quot;,*(int
 아래는 결과, 어쩐지 뭐라고 더 적어줘야 할 것 같은 느낌이라&amp;hellip; 강조된 부분은 코멘트 em 태그로 둘러쌌음
 당신의 동물점은페가수스 입니다. (구속을 싫어하는 감성이 풍부한 천재(아놔;;;;). 신비스러운 면이 매력적이에요.)
 기본성격
-  속박당하는 것! Oh, No! 속박이나 구속을 싫어합니다. 호탕하고 자유롭게 살고 싶어하죠. 일일이 지시 받기를 거부합니다. 따라서 페가수스에게는 요점만 간단하게 전하는 것이 효과적이죠.</description>
+속박당하는 것! Oh, No! 속박이나 구속을 싫어합니다. 호탕하고 자유롭게 살고 싶어하죠. 일일이 지시 받기를 거부합니다. 따라서 페가수스에게는 요점만 간단하게 전하는 것이 효과적이죠.</description>
     </item>
     
     <item>
@@ -6713,15 +6710,15 @@ A : 너 어제 누구랑 있었어! 왜 전화를 안 받아! 다른 남자가 �
       
       <guid>https://ezaurum.com/2008/10/%EB%93%9C%EB%94%94%EC%96%B4-%EB%8F%84%EC%A0%84-100%EB%AC%B8-100%EB%8B%B5/</guid>
       <description>여기서 업어옴
- 이름 : 마비노기에서 카운터를 맞으면 옷을 벗는 몹을 부르는 별명 성별 : 남 생년월일 : 82년 5월 17일 &amp;hellip; 생일은 음력으로 치지만. 별명 : 뭐 많아서&amp;hellip; 혈액형 : O 키·몸무게 : 169-170cm, 73kg? 발 싸이즈 : 250-260mm. (신발 사이즈로 추정) 연락처 : 이게 필요한 사람은 이미 알고 있을 듯 좋아하는 음식 : 고기, 버섯, 회, 조개류, 과일, 기타 몸에 안 좋은 것 10.싫어하는 음식 : 게맛살, 잔뼈가 많은 생선, 다시마를 튀겨 설탕을 바른 것, 보기에 혐오감이 드는 음식 잘하는 음식 : 볶음밥?</description>
+이름 : 마비노기에서 카운터를 맞으면 옷을 벗는 몹을 부르는 별명 성별 : 남 생년월일 : 82년 5월 17일 &amp;hellip; 생일은 음력으로 치지만. 별명 : 뭐 많아서&amp;hellip; 혈액형 : O 키·몸무게 : 169-170cm, 73kg? 발 싸이즈 : 250-260mm. (신발 사이즈로 추정) 연락처 : 이게 필요한 사람은 이미 알고 있을 듯 좋아하는 음식 : 고기, 버섯, 회, 조개류, 과일, 기타 몸에 안 좋은 것 10.싫어하는 음식 : 게맛살, 잔뼈가 많은 생선, 다시마를 튀겨 설탕을 바른 것, 보기에 혐오감이 드는 음식 잘하는 음식 : 볶음밥?</description>
     </item>
     
     <item>
       <title>리눅스 삽질기 - 1 -</title>
-      <link>https://ezaurum.com/2008/10/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%82%BD%EC%A7%88%EA%B8%B0-1/</link>
+      <link>https://ezaurum.com/2008/10/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%82%BD%EC%A7%88%EA%B8%B0-1-/</link>
       <pubDate>Fri, 17 Oct 2008 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2008/10/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%82%BD%EC%A7%88%EA%B8%B0-1/</guid>
+      <guid>https://ezaurum.com/2008/10/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%82%BD%EC%A7%88%EA%B8%B0-1-/</guid>
       <description>리눅스를 깔기로 결정했다. 몇 번이나 깔았다 지웠다를 반복한 지금, 결국 Vista 64 SP1을 기본으로 하고, Virtual PC를 이용해서, 사용하기로 함. virtual pc 2007 sp1은 여기서 받으면 됨. 다운로드 링크 정도는 알아서 찾자. 아래쪽에 64비트와 32비트 용으로 두 개가 있음.
 프로그램을 실행하고 MS사 물건답게, Next를 적당히 눌러주면 가상머신이 실행된다.
 여기까지 하다가, 만들어 보니 64비트 OS가 깔리지 않는다. 가상화는 무조건 32비트. 어째서일까. 혹시나 해서 Virtual BOX를 써 봤는데 기본 셋팅으로는 안 되고, 설정창에서 VT-X/AMD-V 설정을 켜 줘야 가능.</description>
@@ -6745,11 +6742,13 @@ A : 너 어제 누구랑 있었어! 왜 전화를 안 받아! 다른 남자가 �
       
       <guid>https://ezaurum.com/2008/10/%EC%8B%9D%EC%84%B1%EB%AC%B8%EB%8B%B5-50%EB%AC%B8/</guid>
       <description>바톤을 씹어먹었다는 모 처자네 얼음집에서
-  절대로 못먹는 것은? 돌? 음, 일단 이로 씹을 수 없을 정도로 딱딱하거나, &amp;hellip; 에&amp;hellip;.
-  특히 좋아하는 요리의 원조 나라는? 음. 요즘이라면 중국? 남자는 불꽃의 중화요리!
-  닭 돼지 소 개 토끼 오리고기 중 못 먹는 것은? 고기를 왜?
-  면류 중에 가장 좋아하는 것은? 칼국수
-  인스턴트 라면 중 가장 애호하는 것은? 인스턴트 위에 인스턴트 없고 인스턴트 아래 인스턴트 없다!</description>
+절대로 못먹는 것은? 돌? 음, 일단 이로 씹을 수 없을 정도로 딱딱하거나, &amp;hellip; 에&amp;hellip;.
+특히 좋아하는 요리의 원조 나라는? 음. 요즘이라면 중국? 남자는 불꽃의 중화요리!
+닭 돼지 소 개 토끼 오리고기 중 못 먹는 것은? 고기를 왜?
+면류 중에 가장 좋아하는 것은? 칼국수
+인스턴트 라면 중 가장 애호하는 것은? 인스턴트 위에 인스턴트 없고 인스턴트 아래 인스턴트 없다!
+육식과 초식 중 어디? 무조건 고기!
+우유 중 좋아하는 맛은?</description>
     </item>
     
     <item>
@@ -7006,10 +7005,10 @@ A : 너 어제 누구랑 있었어! 왜 전화를 안 받아! 다른 남자가 �
     
     <item>
       <title>워드프레스 테마 만들기 - 1 -</title>
-      <link>https://ezaurum.com/2008/05/%EC%9B%8C%EB%93%9C%ED%94%84%EB%A0%88%EC%8A%A4-%ED%85%8C%EB%A7%88-%EB%A7%8C%EB%93%A4%EA%B8%B0-1/</link>
+      <link>https://ezaurum.com/2008/05/%EC%9B%8C%EB%93%9C%ED%94%84%EB%A0%88%EC%8A%A4-%ED%85%8C%EB%A7%88-%EB%A7%8C%EB%93%A4%EA%B8%B0-1-/</link>
       <pubDate>Mon, 19 May 2008 00:00:00 +0000</pubDate>
       
-      <guid>https://ezaurum.com/2008/05/%EC%9B%8C%EB%93%9C%ED%94%84%EB%A0%88%EC%8A%A4-%ED%85%8C%EB%A7%88-%EB%A7%8C%EB%93%A4%EA%B8%B0-1/</guid>
+      <guid>https://ezaurum.com/2008/05/%EC%9B%8C%EB%93%9C%ED%94%84%EB%A0%88%EC%8A%A4-%ED%85%8C%EB%A7%88-%EB%A7%8C%EB%93%A4%EA%B8%B0-1-/</guid>
       <description>내가 만든게 짱이야~ 라는 식은 아니지만, 아무래도 남이 만든 건 아무리 예뻐도 마음에 안 드는 부분이 있기 마련이다. 그러니 자, 시작해 보자. 워드프레스 테마 만들기!
 일단 스텝 1. 블로그의 구조를 결정하자.
 기본적으로 상단에는 블로그 제목, 가벼운 설명이나, 현재 위치한 페이지 정도가 들어간다. 하단에는 광고나, 블로그의 기술적 정보 정도가 들어가게 되겠다. 사이드 바라고 불리는 부분, 왼쪽이나 오른쪽의 실제 내용과 조금 동떨어진 부분에는 카테고리 구조나, 검색창, 태그 클라우드, 뭐 기타 등등이 들어갈 예정이다.</description>
@@ -7258,7 +7257,7 @@ DDR 램 4개는 램디스크를 위한 것. 다나와에서는 램디스크 모�
       <pubDate>Thu, 18 Oct 2007 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2007/10/%EC%84%B8%EC%83%81%EC%9D%80-%EA%B0%9C%EA%B7%B8%EB%A1%9C-%EA%B0%80%EB%93%9D-%EC%B0%A8-%EC%9E%88%EC%96%B4/</guid>
-      <description>http://plznoname.springnote.com/pages/536924 http://docs.google.com/View?docid=dff9cdbg_1dv882c  대단하다. 대한민국.</description>
+      <description>http://plznoname.springnote.com/pages/536924 http://docs.google.com/View?docid=dff9cdbg_1dv882c 대단하다. 대한민국.</description>
     </item>
     
     <item>
@@ -7308,7 +7307,7 @@ DDR 램 4개는 램디스크를 위한 것. 다나와에서는 램디스크 모�
       <pubDate>Fri, 05 Oct 2007 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2007/10/%ED%98%84%EC%9E%AC-%EC%83%81%ED%83%9C/</guid>
-      <description></description>
+      <description></description>
     </item>
     
     <item>
@@ -7329,11 +7328,7 @@ DDR 램 4개는 램디스크를 위한 것. 다나와에서는 램디스크 모�
       
       <guid>https://ezaurum.com/2007/08/Simpsonizeme/</guid>
       <description>장안에 화제가 되고 있는 Simpsonize me!
-해 보는곳 
-그냥 사진으로 했을 때 나오는 것 
-안경을 씌운 것 
-개인적으로 목표로 했던 수염 
-많이 닮은 것 같기도?</description>
+해 보는곳 그냥 사진으로 했을 때 나오는 것 안경을 씌운 것 개인적으로 목표로 했던 수염 많이 닮은 것 같기도?</description>
     </item>
     
     <item>
@@ -7378,7 +7373,7 @@ http://dory.mncast.com/mncHMovie.swf?movieID=10050784920070820122347&amp;amp;#03
       
       <guid>https://ezaurum.com/2007/08/%EB%8D%94%EC%9B%8C/</guid>
       <description>덥다. D-war를 보러 간 날이 더웠는지 어쨌는지는 모르겠다. 벌써 삼 주가 가까워 오니까. 여튼 그걸 보고 나서 간 술집은 그럭저럭 시원했고, 돌아오는 길도 그럭저럭 시원했다. 일단 D-war에는 두 가지 문제점이 있었다.
-이야기연출거기다 하나를 더 꼽자면 CG정도가 있겠다. 이걸 빼면 뭐-이런 장르에서 배우의 연기는 크게 필요 없더라 -, 그럭저럭 볼 만한 영화라고 할 수 있겠다. 이걸 빼고도 영화라고 부르는 굉장한 용자분들이 계시다면 별로 말릴 생각은 없다. 세상에는 60억이 넘는 인간도 있고, 나도 살고 있는 판국이니까.</description>
+이야기연출거기다 하나를 더 꼽자면 CG정도가 있겠다. 이걸 빼면 뭐-이런 장르에서 배우의 연기는 크게 필요 없더라 -, 그럭저럭 볼 만한 영화라고 할 수 있겠다. 이걸 빼고도 영화라고 부르는 굉장한 용자분들이 계시다면 별로 말릴 생각은 없다. 세상에는 60억이 넘는 인간도 있고, 나도 살고 있는 판국이니까.</description>
     </item>
     
     <item>
@@ -7453,7 +7448,7 @@ H는 그랬다.
       
       <guid>https://ezaurum.com/2007/08/UTF-8-%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C-%ED%95%9C%EA%B8%80-post-slug-%EB%AC%B8%EC%A0%9C/</guid>
       <description>지난 번에 워드프레스를 쓰다가 결국 해결하지 못했던 문제가, 한글로 post slug(포스트의 url 을 숫자와 물음표가 범벅이 된 모양이 아니라 그냥 글자로 바꿔주는 기능이라고 생각하면 될 듯)를 쓰면 그 포스트를 찾지 못했던 것인데, 이번에 해결했다.
-&amp;lt;IfModule mod_url.c&amp;gt;CheckURL Off&amp;lt;/IfModule&amp;gt;문제점 : 옵션에서 퍼머링크를 누르기만 해도, WP가 .htaccess 파일을 자동으로 수정해 버리는 바람에 곤란.문제점 해결 : .htaccess 파일의 권한을 755로 변경. 쓰지 못하게 해버렸음.</description>
+&amp;lt;IfModule mod_url.c&amp;gt;CheckURL Off&amp;lt;/IfModule&amp;gt;문제점 : 옵션에서 퍼머링크를 누르기만 해도, WP가 .htaccess 파일을 자동으로 수정해 버리는 바람에 곤란.문제점 해결 : .htaccess 파일의 권한을 755로 변경. 쓰지 못하게 해버렸음.</description>
     </item>
     
     <item>
@@ -7530,11 +7525,13 @@ H는 그랬다.
       
       <guid>https://ezaurum.com/1/01/</guid>
       <description>xml로 Thymeleaf 설정
-${...} : 변수 *{...} : 선택 - 이전에 object등으로 선택된 객체에만 적용 #{...} : i18n 메세지, 스프링 messagesource를 따라감 @{...} : 링크 ~{...} : Fragment  &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;org.thymeleaf&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;thymeleaf-spring5&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;3.0.11.RELEASE&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt; &amp;lt;beans:bean class=&amp;ldquo;org.springframework.web.servlet.view.InternalResourceViewResolver&amp;rdquo;&amp;gt;
-&amp;lt;beans:property name=&amp;quot;prefix&amp;quot; value=&amp;quot;/WEB-INF/views/&amp;quot; /&amp;gt; &amp;lt;beans:property name=&amp;quot;suffix&amp;quot; value=&amp;quot;.jsp&amp;quot; /&amp;gt; &amp;lt;beans:property name=&amp;quot;viewNames&amp;quot; value=&amp;quot;jsp/*&amp;quot; /&amp;gt;  &amp;lt;/beans:bean&amp;gt;
+${...} : 변수 *{...} : 선택 - 이전에 object등으로 선택된 객체에만 적용 #{...} : i18n 메세지, 스프링 messagesource를 따라감 @{...} : 링크 ~{...} : Fragment &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;org.thymeleaf&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;thymeleaf-spring5&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;3.0.11.RELEASE&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt; &amp;lt;beans:bean class=&amp;ldquo;org.springframework.web.servlet.view.InternalResourceViewResolver&amp;rdquo;&amp;gt;
+&amp;lt;beans:property name=&amp;quot;prefix&amp;quot; value=&amp;quot;/WEB-INF/views/&amp;quot; /&amp;gt; &amp;lt;beans:property name=&amp;quot;suffix&amp;quot; value=&amp;quot;.jsp&amp;quot; /&amp;gt; &amp;lt;beans:property name=&amp;quot;viewNames&amp;quot; value=&amp;quot;jsp/*&amp;quot; /&amp;gt; &amp;lt;/beans:bean&amp;gt;
 템플릿 리졸버
 &amp;lt;beans:bean id=&amp;ldquo;templateResolver&amp;rdquo;
- class=&amp;quot;org.thymeleaf.templateresolver.ServletContextTemplateResolver&amp;quot;&amp;gt; &amp;lt;beans:property name=&amp;quot;prefix&amp;quot; value=&amp;quot;/WEB-INF/templates/&amp;quot; /&amp;gt; &amp;lt;beans:property name=&amp;quot;suffix&amp;quot; value=&amp;quot;.html&amp;quot; /&amp;gt; &amp;lt;beans:property name=&amp;quot;templateMode&amp;quot; value=&amp;quot;HTML5&amp;quot; /&amp;gt;  &amp;lt;/beans:bean&amp;gt;</description>
+class=&amp;quot;org.thymeleaf.templateresolver.ServletContextTemplateResolver&amp;quot;&amp;gt; &amp;lt;beans:property name=&amp;quot;prefix&amp;quot; value=&amp;quot;/WEB-INF/templates/&amp;quot; /&amp;gt; &amp;lt;beans:property name=&amp;quot;suffix&amp;quot; value=&amp;quot;.html&amp;quot; /&amp;gt; &amp;lt;beans:property name=&amp;quot;templateMode&amp;quot; value=&amp;quot;HTML5&amp;quot; /&amp;gt; &amp;lt;/beans:bean&amp;gt;
+템플릿 엔진
+&amp;lt;beans:bean id=&amp;ldquo;templateEngine&amp;rdquo;</description>
     </item>
     
     <item>
@@ -7566,10 +7563,10 @@ ${...} : 변수 *{...} : 선택 - 이전에 object등으로 선택된 객체에�
       
       <guid>https://ezaurum.com/tools/</guid>
       <description>사용하는 툴 정리, 종종 업데이트
-  OS - Arch Linux, 마음대로 설정할 수 있고, 자료가 많고 생각보다 편하다.
-  Tmuxinator - 작업 시작하려면 docker compose 켜고, 프론트 코드가 있는 디렉토리에 가서 yarn을 실행하고, 서버 디렉토리에서 서버 실행하고, 로그 창 하나 띄우고&amp;hellip; 그러기에는 인생이 너무 짧다. 간단하게 세트를 만들어두고 실행할 수 있다.
-  arelo - go로 작업하려면 컴파일을 계속 다시 해 줘야 한다. 귀찮음을 덜으려면 꼭 필요.
-  go install github.</description>
+OS - Arch Linux, 마음대로 설정할 수 있고, 자료가 많고 생각보다 편하다.
+Tmuxinator - 작업 시작하려면 docker compose 켜고, 프론트 코드가 있는 디렉토리에 가서 yarn을 실행하고, 서버 디렉토리에서 서버 실행하고, 로그 창 하나 띄우고&amp;hellip; 그러기에는 인생이 너무 짧다. 간단하게 세트를 만들어두고 실행할 수 있다.
+arelo - go로 작업하려면 컴파일을 계속 다시 해 줘야 한다. 귀찮음을 덜으려면 꼭 필요.
+go install github.com/makiuchi-d/arelo@latest docker compose - docker는 당연히 쓰는 거고, mysql, redis, 하나하나 깔 수도 없고 팀원들한테 설명하기도 힘들다.</description>
     </item>
     
     <item>
@@ -7578,17 +7575,22 @@ ${...} : 변수 *{...} : 선택 - 이전에 object등으로 선택된 객체에�
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/pragmatic-programmer/</guid>
-      <description>실용주의 프로그래머 책에서 발췌   자신의 기술에 관심과 애정을 가져라
-  자신의 일에 대해 생각하면서 일하라
-  어설픈 변명을 만들지 말고 대안을 제시하라
-  깨진 창문을 내버려두지 말라
-  변화의 촉매가 되라
-  큰 그림을 기억하라
-  품질을 요구사항으로 만들어라
-  지식 포트폴리오에 주기적으로 투자하라
-  읽고 듣는 것을 비판적으로 분석하라
-  무엇을 말하는가와 어떻게 말하는가 모두 중요하다
-  DRY-반복하지 마라</description>
+      <description>실용주의 프로그래머 책에서 발췌 자신의 기술에 관심과 애정을 가져라
+자신의 일에 대해 생각하면서 일하라
+어설픈 변명을 만들지 말고 대안을 제시하라
+깨진 창문을 내버려두지 말라
+변화의 촉매가 되라
+큰 그림을 기억하라
+품질을 요구사항으로 만들어라
+지식 포트폴리오에 주기적으로 투자하라
+읽고 듣는 것을 비판적으로 분석하라
+무엇을 말하는가와 어떻게 말하는가 모두 중요하다
+DRY-반복하지 마라
+재사용하기 쉽게 만들라
+관련 없는 것들 간에 서로 영향이 없도록 하라
+최종결정이란 없다
+목표물을 찾기 위해 예광탄을 써라
+프로토타입을 통해 학습하라</description>
     </item>
     
   </channel>

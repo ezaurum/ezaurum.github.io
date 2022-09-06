@@ -14,8 +14,7 @@
       <pubDate>Sun, 08 Feb 2015 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2015/02/Nuget-%ED%8C%A8%ED%82%A4%EC%A7%80%EC%97%90-%EC%9D%98%EC%A1%B4%EC%84%B1-%EC%A7%80%EC%A0%95%ED%95%98%EA%B8%B0/</guid>
-      <description>출처 - Nuget 매뉴얼 Nuget 패키지를 만들 때 의존성을 지정하려면, .nuspec 파일 안의 metadata 태그의 자식으로 
-&amp;lt;/code&amp;gt; 이렇게 지정해 주면 된다.</description>
+      <description>출처 - Nuget 매뉴얼 Nuget 패키지를 만들 때 의존성을 지정하려면, .nuspec 파일 안의 metadata 태그의 자식으로 &amp;lt;/code&amp;gt;이렇게 지정해 주면 된다.</description>
     </item>
     
     <item>
@@ -24,7 +23,7 @@
       <pubDate>Wed, 24 Dec 2014 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2014/12/nuget-%ED%8C%A8%ED%82%A4%EC%A7%80-%EC%9E%90%EB%8F%99%EC%9C%BC%EB%A1%9C-%EB%A7%8C%EB%93%A4%EA%B8%B0/</guid>
-      <description>msbuild를 사용해서 만들기</description>
+      <description>msbuild를 사용해서 만들기 </description>
     </item>
     
   </channel>

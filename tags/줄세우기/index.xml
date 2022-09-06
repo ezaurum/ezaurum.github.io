@@ -17,9 +17,9 @@
       <description>알고리즘 스터디를 하다 6시간 이상 낑낑대며 풀어서 아까워서 정리 언젠가는 쉽게 풀 수 있겠지.
 문제 2018카카오 블라인드 테스트
 신경써야 하는 부분 정렬된 기준점에서 시작해야 함 Sweeping Algorithm 참조
-일반 풀이   Sweep a line across problem plane. 문제를 평면에 놓고 줄을 긋는다
-  As the line sweeps across the plane, events of interest occur, keep track of these events. 줄이 평면에 그어지면서 뭔가 사건이 생기면 그걸 추적한다.
-  Deal with events that occur at the line leaving a solved problem behind.</description>
+일반 풀이 Sweep a line across problem plane. 문제를 평면에 놓고 줄을 긋는다
+As the line sweeps across the plane, events of interest occur, keep track of these events. 줄이 평면에 그어지면서 뭔가 사건이 생기면 그걸 추적한다.
+Deal with events that occur at the line leaving a solved problem behind.</description>
     </item>
     
   </channel>

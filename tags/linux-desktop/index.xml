@@ -15,7 +15,7 @@
       
       <guid>https://ezaurum.com/2020/01/Install-Arch-Linux-%EB%8D%B0%EC%8A%A4%ED%81%AC%ED%83%91-%ED%99%98%EA%B2%BD%EC%84%A4%EC%A0%95/</guid>
       <description>설치를 했으니 실제로 데스크탑으로 쓸 수 있도록 만들어본다. 어째서 아치리눅스를 쓰며 데스크탑환경을 안쓰는지 를 많이 참조했다.
- 사용자 추가 root 로 계속 쓸 수 없으니 사용자를 추가한다.  useradd -m 이름 -g wheel passwd 이름 그룹을 wheel 로 설정했으니 wheel 이 sudo를 쓸 수 있게 해 준다.
+사용자 추가 root 로 계속 쓸 수 없으니 사용자를 추가한다. useradd -m 이름 -g wheel passwd 이름 그룹을 wheel 로 설정했으니 wheel 이 sudo를 쓸 수 있게 해 준다.
 /etc/sudoers 를 열고 wheel 이 sudo 를 쓸 수 있게 해 준다.
 %wheel ALL=(ALL) ALL zsh 로 변경 bash는 불편한 점이 많으니, Oh My Zsh 로 쉘을 변경한다.</description>
     </item>

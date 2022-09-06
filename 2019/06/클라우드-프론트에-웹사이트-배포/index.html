@@ -20,18 +20,18 @@
 
     <meta itemprop="name" content="클라우드 프론트에 웹사이트 배포">
 <meta itemprop="description" content="목적 클라우드 프론트에서 웹사이트 호스팅
- S3 생성 권한 등은 건드릴 필요 없음 클라우드 프론트 생성  만들면서 권한 role, 생성, policy 업데이트 커스텀 도메인을 써야 하면 미리 인증서 생성. 인증서는 미국동부쪽에 생성- 클라우드 프론트에서는 여기서 지정한 것만 쓸 수 있음 CNAME에 커스텀 도메인 이름 써주기 behavior에서 DefaultObject 써주기 index.html으로. 하지 않으면 루트 접근시 403 에러 남. 설정에서 defaultRoot도 index파일 로 써주기 적절하게 404,403 리다이렉트. VUE나 PWA 를 쓸 때    Troubleshoot  클라우드 프론트에서 307이 리턴되고 S3파일로 리다이렉트 될 때 - S3가 us-east-1 이 아닌경우, 이름이 전파되는 데 최대 24시간 걸릴 수 있다."><meta itemprop="datePublished" content="2019-06-21T09:44:59+09:00" />
+S3 생성 권한 등은 건드릴 필요 없음 클라우드 프론트 생성 만들면서 권한 role, 생성, policy 업데이트 커스텀 도메인을 써야 하면 미리 인증서 생성. 인증서는 미국동부쪽에 생성- 클라우드 프론트에서는 여기서 지정한 것만 쓸 수 있음 CNAME에 커스텀 도메인 이름 써주기 behavior에서 DefaultObject 써주기 index.html으로. 하지 않으면 루트 접근시 403 에러 남. 설정에서 defaultRoot도 index파일 로 써주기 적절하게 404,403 리다이렉트. VUE나 PWA 를 쓸 때 Troubleshoot 클라우드 프론트에서 307이 리턴되고 S3파일로 리다이렉트 될 때 - S3가 us-east-1 이 아닌경우, 이름이 전파되는 데 최대 24시간 걸릴 수 있다."><meta itemprop="datePublished" content="2019-06-21T09:44:59+09:00" />
 <meta itemprop="dateModified" content="2019-06-21T09:44:59+09:00" />
 <meta itemprop="wordCount" content="99">
 <meta itemprop="keywords" content="레시피,따라하기,정리,aws,CloudFront,S3,Website,PWA," />
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="클라우드 프론트에 웹사이트 배포"/>
 <meta name="twitter:description" content="목적 클라우드 프론트에서 웹사이트 호스팅
- S3 생성 권한 등은 건드릴 필요 없음 클라우드 프론트 생성  만들면서 권한 role, 생성, policy 업데이트 커스텀 도메인을 써야 하면 미리 인증서 생성. 인증서는 미국동부쪽에 생성- 클라우드 프론트에서는 여기서 지정한 것만 쓸 수 있음 CNAME에 커스텀 도메인 이름 써주기 behavior에서 DefaultObject 써주기 index.html으로. 하지 않으면 루트 접근시 403 에러 남. 설정에서 defaultRoot도 index파일 로 써주기 적절하게 404,403 리다이렉트. VUE나 PWA 를 쓸 때    Troubleshoot  클라우드 프론트에서 307이 리턴되고 S3파일로 리다이렉트 될 때 - S3가 us-east-1 이 아닌경우, 이름이 전파되는 데 최대 24시간 걸릴 수 있다."/>
+S3 생성 권한 등은 건드릴 필요 없음 클라우드 프론트 생성 만들면서 권한 role, 생성, policy 업데이트 커스텀 도메인을 써야 하면 미리 인증서 생성. 인증서는 미국동부쪽에 생성- 클라우드 프론트에서는 여기서 지정한 것만 쓸 수 있음 CNAME에 커스텀 도메인 이름 써주기 behavior에서 DefaultObject 써주기 index.html으로. 하지 않으면 루트 접근시 403 에러 남. 설정에서 defaultRoot도 index파일 로 써주기 적절하게 404,403 리다이렉트. VUE나 PWA 를 쓸 때 Troubleshoot 클라우드 프론트에서 307이 리턴되고 S3파일로 리다이렉트 될 때 - S3가 us-east-1 이 아닌경우, 이름이 전파되는 데 최대 24시간 걸릴 수 있다."/>
 
     <meta property="og:title" content="클라우드 프론트에 웹사이트 배포" />
 <meta property="og:description" content="목적 클라우드 프론트에서 웹사이트 호스팅
- S3 생성 권한 등은 건드릴 필요 없음 클라우드 프론트 생성  만들면서 권한 role, 생성, policy 업데이트 커스텀 도메인을 써야 하면 미리 인증서 생성. 인증서는 미국동부쪽에 생성- 클라우드 프론트에서는 여기서 지정한 것만 쓸 수 있음 CNAME에 커스텀 도메인 이름 써주기 behavior에서 DefaultObject 써주기 index.html으로. 하지 않으면 루트 접근시 403 에러 남. 설정에서 defaultRoot도 index파일 로 써주기 적절하게 404,403 리다이렉트. VUE나 PWA 를 쓸 때    Troubleshoot  클라우드 프론트에서 307이 리턴되고 S3파일로 리다이렉트 될 때 - S3가 us-east-1 이 아닌경우, 이름이 전파되는 데 최대 24시간 걸릴 수 있다." />
+S3 생성 권한 등은 건드릴 필요 없음 클라우드 프론트 생성 만들면서 권한 role, 생성, policy 업데이트 커스텀 도메인을 써야 하면 미리 인증서 생성. 인증서는 미국동부쪽에 생성- 클라우드 프론트에서는 여기서 지정한 것만 쓸 수 있음 CNAME에 커스텀 도메인 이름 써주기 behavior에서 DefaultObject 써주기 index.html으로. 하지 않으면 루트 접근시 403 에러 남. 설정에서 defaultRoot도 index파일 로 써주기 적절하게 404,403 리다이렉트. VUE나 PWA 를 쓸 때 Troubleshoot 클라우드 프론트에서 307이 리턴되고 S3파일로 리다이렉트 될 때 - S3가 us-east-1 이 아닌경우, 이름이 전파되는 데 최대 24시간 걸릴 수 있다." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://ezaurum.com/2019/06/%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C-%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%90-%EC%9B%B9%EC%82%AC%EC%9D%B4%ED%8A%B8-%EB%B0%B0%ED%8F%AC/" /><meta property="article:section" content="recipe" />
 <meta property="article:published_time" content="2019-06-21T09:44:59+09:00" />
@@ -135,6 +135,8 @@
     
         
 
+        
+            
         
             
         
@@ -577,6 +579,10 @@
             
         
             
+        <li><a href="https://ezaurum.com/2022/09/EC2-ssh-%ED%82%A4%EA%B0%80-%EC%97%86%EC%96%B4%EC%A1%8C%EC%9D%84-%EB%95%8C/">EC2 ssh 키가 없어졌을 때</a></li>
+            
+        
+            
         
             
         
@@ -962,42 +968,6 @@
         
             
         <li><a href="https://ezaurum.com/2020/04/mysql-%EC%82%AC%EC%9A%A9%EC%9E%90-%EC%B6%94%EA%B0%80/">mysql 사용자 추가</a></li>
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
             
         
             
@@ -3892,6 +3862,40 @@
         
             
         
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
 
     
     </ul>
@@ -3900,7 +3904,7 @@
 
     <div id="disqus_thread"></div>
 <script type="application/javascript">
-    var disqus_config = function () {
+    window.disqus_config = function () {
     
     
     

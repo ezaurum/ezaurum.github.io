@@ -24,7 +24,7 @@
       
       <guid>https://ezaurum.com/2014/05/5%EC%9B%94-%EB%84%B7%EC%A7%B8%EC%A3%BC-%EC%A0%95%EB%A6%AC/</guid>
       <description>두 달 만에 정리할 여유가 났다.
-일정, 또는 업무 문제가 있으면 배를 쨀 것. 그게 서로를 위해서 더 좋다. 노력해 봐야 남은 안 알아준다. 나도 남이 노력한 걸 제대로 알아주지는 않는다.문제가 있으면 공유할 것. 상대를 믿을 수 없을수록 더욱 더.믿을 수 없는 사람과는 일하지 말고, 일했으면 믿어라. 그런데 두 번째는 힘드니까, 처음을 가능하면 더 지키자.하고 싶은 일을 하자.같이 일할 사람을 고를 때는, 마음 맞는 사람으로. 3번과 미묘하게 겹치지만, 여튼.</description>
+일정, 또는 업무 문제가 있으면 배를 쨀 것. 그게 서로를 위해서 더 좋다. 노력해 봐야 남은 안 알아준다. 나도 남이 노력한 걸 제대로 알아주지는 않는다.문제가 있으면 공유할 것. 상대를 믿을 수 없을수록 더욱 더.믿을 수 없는 사람과는 일하지 말고, 일했으면 믿어라. 그런데 두 번째는 힘드니까, 처음을 가능하면 더 지키자.하고 싶은 일을 하자.같이 일할 사람을 고를 때는, 마음 맞는 사람으로. 3번과 미묘하게 겹치지만, 여튼.</description>
     </item>
     
     <item>
@@ -61,8 +61,8 @@
       
       <guid>https://ezaurum.com/2010/08/%EB%82%B4%EA%B0%80-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EC%9D%84-%ED%95%B4%EC%84%9C-%EB%A8%B9%EA%B3%A0-%EC%82%B4-%EC%88%98-%EC%9E%88%EC%9D%84%EA%B9%8C/</guid>
       <description>이걸 짜는데 이틀 걸렸다면 믿으시겠습니까? 젠장
-private String a(int initial, int max, String leftValue) { String returnValue = &amp;ldquo;&amp;quot;;
-	if (initial &amp;amp;lt; max) {if (initial != -1) {if (leftValue != null) {leftValue += &amp;amp;quot; &amp;amp;quot;;leftValue += initial;} else {leftValue = String.valueOf(initial);}}for (int i = initial + 1; i &amp;amp;lt;= max; i++) {returnValue += a(i, max, leftValue);}return returnValue;} else {if (leftValue !</description>
+private String a(int initial, int max, String leftValue) { String returnValue = &amp;ldquo;&amp;rdquo;;
+if (initial &amp;amp;lt; max) {if (initial != -1) {if (leftValue != null) {leftValue += &amp;amp;quot; &amp;amp;quot;;leftValue += initial;} else {leftValue = String.valueOf(initial);}}for (int i = initial + 1; i &amp;amp;lt;= max; i++) {returnValue += a(i, max, leftValue);}return returnValue;} else {if (leftValue !</description>
     </item>
     
     <item>
@@ -257,7 +257,7 @@ function 야식() { 몸+=살; }
       <guid>https://ezaurum.com/2009/08/%EC%82%AC%EA%B3%A0-%EC%B9%98%EB%8B%A4/</guid>
       <description>우리 학교에는 게시판이 하나 있다. 사실 거의 유일한 게시판인데, 이게 익명이라 사고가 많이 난다. 확실한 익명이라, 글을 한번 싸지르고 나면, 수정도 불가능하다. 미리 비번을 입력해 놓으면 수정이나 삭제도 가능하다.
 &amp;hellip;.그런데 이 게시판에 나에 대한 악담(이라고 내가 생각하는)이 올라왔다. 그래서 댓글을 썼는데(비번 설정도 안 했다), 생각해 보니 문제점이&amp;hellip;
-이거, 나한테 한 말이 아닐 수도 있잖아?나한테 한 말이라도 내가 이런 반응을 보일 필요가 있나?하지만 이미 벌어진 일, 수습하려면 내일 게시판 관리자에게 지워달라는 수 밖에&amp;hellip; 아 창피해.</description>
+이거, 나한테 한 말이 아닐 수도 있잖아?나한테 한 말이라도 내가 이런 반응을 보일 필요가 있나?하지만 이미 벌어진 일, 수습하려면 내일 게시판 관리자에게 지워달라는 수 밖에&amp;hellip; 아 창피해.</description>
     </item>
     
     <item>
@@ -475,7 +475,7 @@ function 야식() { 몸+=살; }
       <pubDate>Fri, 05 Oct 2007 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2007/10/%ED%98%84%EC%9E%AC-%EC%83%81%ED%83%9C/</guid>
-      <description></description>
+      <description></description>
     </item>
     
     <item>

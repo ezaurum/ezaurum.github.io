@@ -22,9 +22,9 @@
 <meta itemprop="description" content="알고리즘 스터디를 하다 6시간 이상 낑낑대며 풀어서 아까워서 정리 언젠가는 쉽게 풀 수 있겠지.
 문제 2018카카오 블라인드 테스트
 신경써야 하는 부분 정렬된 기준점에서 시작해야 함 Sweeping Algorithm 참조
-일반 풀이   Sweep a line across problem plane. 문제를 평면에 놓고 줄을 긋는다
-  As the line sweeps across the plane, events of interest occur, keep track of these events. 줄이 평면에 그어지면서 뭔가 사건이 생기면 그걸 추적한다.
-  Deal with events that occur at the line leaving a solved problem behind."><meta itemprop="datePublished" content="2021-03-18T13:49:20+09:00" />
+일반 풀이 Sweep a line across problem plane. 문제를 평면에 놓고 줄을 긋는다
+As the line sweeps across the plane, events of interest occur, keep track of these events. 줄이 평면에 그어지면서 뭔가 사건이 생기면 그걸 추적한다.
+Deal with events that occur at the line leaving a solved problem behind."><meta itemprop="datePublished" content="2021-03-18T13:49:20+09:00" />
 <meta itemprop="dateModified" content="2021-03-18T13:49:20+09:00" />
 <meta itemprop="wordCount" content="460">
 <meta itemprop="keywords" content="Sweep,줄세우기,알고리즘,공부,프로그래밍,programming," />
@@ -33,17 +33,17 @@
 <meta name="twitter:description" content="알고리즘 스터디를 하다 6시간 이상 낑낑대며 풀어서 아까워서 정리 언젠가는 쉽게 풀 수 있겠지.
 문제 2018카카오 블라인드 테스트
 신경써야 하는 부분 정렬된 기준점에서 시작해야 함 Sweeping Algorithm 참조
-일반 풀이   Sweep a line across problem plane. 문제를 평면에 놓고 줄을 긋는다
-  As the line sweeps across the plane, events of interest occur, keep track of these events. 줄이 평면에 그어지면서 뭔가 사건이 생기면 그걸 추적한다.
-  Deal with events that occur at the line leaving a solved problem behind."/>
+일반 풀이 Sweep a line across problem plane. 문제를 평면에 놓고 줄을 긋는다
+As the line sweeps across the plane, events of interest occur, keep track of these events. 줄이 평면에 그어지면서 뭔가 사건이 생기면 그걸 추적한다.
+Deal with events that occur at the line leaving a solved problem behind."/>
 
     <meta property="og:title" content="2018 카카오 블라인드 테스트 추석 트래픽 풀이" />
 <meta property="og:description" content="알고리즘 스터디를 하다 6시간 이상 낑낑대며 풀어서 아까워서 정리 언젠가는 쉽게 풀 수 있겠지.
 문제 2018카카오 블라인드 테스트
 신경써야 하는 부분 정렬된 기준점에서 시작해야 함 Sweeping Algorithm 참조
-일반 풀이   Sweep a line across problem plane. 문제를 평면에 놓고 줄을 긋는다
-  As the line sweeps across the plane, events of interest occur, keep track of these events. 줄이 평면에 그어지면서 뭔가 사건이 생기면 그걸 추적한다.
-  Deal with events that occur at the line leaving a solved problem behind." />
+일반 풀이 Sweep a line across problem plane. 문제를 평면에 놓고 줄을 긋는다
+As the line sweeps across the plane, events of interest occur, keep track of these events. 줄이 평면에 그어지면서 뭔가 사건이 생기면 그걸 추적한다.
+Deal with events that occur at the line leaving a solved problem behind." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://ezaurum.com/study/sweep-algorithm/" /><meta property="article:section" content="study" />
 <meta property="article:published_time" content="2021-03-18T13:49:20+09:00" />
@@ -120,61 +120,61 @@
 <li>오른쪽 끝을 비교하지 않는 이유는 왼쪽끝 점을 기준으로 정렬되어 있으므로 그 점을 벗어나는 선분은 존재하지 않기 때문이다.
 그래서 정렬된 데이터를 가지고 작업해야 한다.</li>
 </ol>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">solution</span>(<span style="color:#a6e22e">lines</span>) {
-    <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">maxCount</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>
-    <span style="color:#66d9ef">if</span> (<span style="color:#f92672">!</span><span style="color:#a6e22e">lines</span>) {
-        <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>
-    }
-    <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">lines</span>.<span style="color:#a6e22e">length</span> <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">2</span>) {
-        <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">1</span>
-    }
-    
-    <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">upperLines</span> <span style="color:#f92672">=</span> []
-    
-    <span style="color:#75715e">// 180도 뒤집어서 생각하므로 일단 뒤집어서 내림차순으로 배열한다
-</span><span style="color:#75715e"></span>    <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">let</span> <span style="color:#a6e22e">i</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">lines</span>.<span style="color:#a6e22e">length</span> <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>; <span style="color:#a6e22e">i</span> <span style="color:#f92672">&gt;=</span> <span style="color:#ae81ff">0</span>; <span style="color:#a6e22e">i</span><span style="color:#f92672">--</span>) {
-        <span style="color:#75715e">// 시작, 종료시간을 얻어온다
-</span><span style="color:#75715e"></span>        <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">row</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">parseTime</span>(<span style="color:#a6e22e">lines</span>[<span style="color:#a6e22e">i</span>])
-        <span style="color:#66d9ef">const</span> { <span style="color:#a6e22e">from</span>, <span style="color:#a6e22e">to</span> } <span style="color:#f92672">=</span> <span style="color:#a6e22e">row</span>
-        
-        <span style="color:#75715e">// 이전 라인을 기록한다
-</span><span style="color:#75715e"></span>        <span style="color:#a6e22e">upperLines</span>.<span style="color:#a6e22e">push</span>(<span style="color:#a6e22e">row</span>)
-        
-        <span style="color:#75715e">// 떨어지지 않은 것만 체크
-</span><span style="color:#75715e"></span>        <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">v</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">upperLines</span>.<span style="color:#a6e22e">filter</span>(<span style="color:#a6e22e">r</span>=&gt; <span style="color:#f92672">!</span>(<span style="color:#a6e22e">r</span>.<span style="color:#a6e22e">from</span> <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">999</span> <span style="color:#f92672">+</span> <span style="color:#a6e22e">to</span>)).<span style="color:#a6e22e">length</span>
-        <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">v</span> <span style="color:#f92672">&gt;</span> <span style="color:#a6e22e">maxCount</span>) {
-            <span style="color:#a6e22e">maxCount</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">v</span>
-        }        
-    }
-    
-    <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">maxCount</span>
-}
-
-<span style="color:#75715e">// 시간 파싱 - 내부 함수로 해도 된다. float의 해상도가 신경쓰여서 직접 구현함
-</span><span style="color:#75715e"></span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">parseTime</span>(<span style="color:#a6e22e">el</span>) {
-    <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">a</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">el</span>.<span style="color:#a6e22e">split</span>(<span style="color:#e6db74">&#34; &#34;</span>)
-    <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">time</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">a</span>[<span style="color:#ae81ff">1</span>]
-    <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">hour</span> <span style="color:#f92672">=</span> parseInt(<span style="color:#a6e22e">time</span>.<span style="color:#a6e22e">slice</span>(<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">2</span>))
-    <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">minute</span> <span style="color:#f92672">=</span> parseInt(<span style="color:#a6e22e">time</span>.<span style="color:#a6e22e">slice</span>(<span style="color:#ae81ff">3</span>, <span style="color:#ae81ff">5</span>))
-    <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">second</span> <span style="color:#f92672">=</span> parseInt(<span style="color:#a6e22e">time</span>.<span style="color:#a6e22e">slice</span>(<span style="color:#ae81ff">6</span>, <span style="color:#ae81ff">8</span>))
-    <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">mil</span> <span style="color:#f92672">=</span> parseInt(<span style="color:#a6e22e">time</span>.<span style="color:#a6e22e">slice</span>(<span style="color:#ae81ff">9</span>, <span style="color:#ae81ff">12</span>))
-        
-    <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">f</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">a</span>[<span style="color:#ae81ff">2</span>].<span style="color:#a6e22e">replace</span>(<span style="color:#e6db74">&#34;s&#34;</span>, <span style="color:#e6db74">&#34;&#34;</span>).<span style="color:#a6e22e">split</span>(<span style="color:#e6db74">&#34;.&#34;</span>)
-        
-    <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">duration</span> <span style="color:#f92672">=</span> parseInt(<span style="color:#a6e22e">f</span>[<span style="color:#ae81ff">0</span>]) <span style="color:#f92672">*</span> <span style="color:#ae81ff">1000</span>
-                
-    <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">f</span>.<span style="color:#a6e22e">length</span> <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">1</span>) {
-        <span style="color:#a6e22e">duration</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">duration</span> <span style="color:#f92672">+</span> parseInt(<span style="color:#a6e22e">f</span>[<span style="color:#ae81ff">1</span>])
-    }
-        
-    <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">completeTime</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">hour</span> <span style="color:#f92672">*</span> <span style="color:#ae81ff">3600</span> <span style="color:#f92672">*</span> <span style="color:#ae81ff">1000</span> <span style="color:#f92672">+</span> <span style="color:#a6e22e">minute</span> <span style="color:#f92672">*</span> <span style="color:#ae81ff">60</span> <span style="color:#f92672">*</span> <span style="color:#ae81ff">1000</span> <span style="color:#f92672">+</span> <span style="color:#a6e22e">second</span> <span style="color:#f92672">*</span> <span style="color:#ae81ff">1000</span> <span style="color:#f92672">+</span> <span style="color:#a6e22e">mil</span>
-    <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">startTime</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">completeTime</span> <span style="color:#f92672">-</span> <span style="color:#a6e22e">duration</span> <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>
-    <span style="color:#66d9ef">return</span> {
-        <span style="color:#a6e22e">from</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">startTime</span>,
-        <span style="color:#a6e22e">to</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">completeTime</span>
-    }
-}
-</code></pre></div><h2 id="헤멘-부분">헤멘 부분</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">solution</span>(<span style="color:#a6e22e">lines</span>) {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">maxCount</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> (<span style="color:#f92672">!</span><span style="color:#a6e22e">lines</span>) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">lines</span>.<span style="color:#a6e22e">length</span> <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">2</span>) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">upperLines</span> <span style="color:#f92672">=</span> []
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// 180도 뒤집어서 생각하므로 일단 뒤집어서 내림차순으로 배열한다
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">let</span> <span style="color:#a6e22e">i</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">lines</span>.<span style="color:#a6e22e">length</span> <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>; <span style="color:#a6e22e">i</span> <span style="color:#f92672">&gt;=</span> <span style="color:#ae81ff">0</span>; <span style="color:#a6e22e">i</span><span style="color:#f92672">--</span>) {
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// 시작, 종료시간을 얻어온다
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">row</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">parseTime</span>(<span style="color:#a6e22e">lines</span>[<span style="color:#a6e22e">i</span>])
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">const</span> { <span style="color:#a6e22e">from</span>, <span style="color:#a6e22e">to</span> } <span style="color:#f92672">=</span> <span style="color:#a6e22e">row</span>
+</span></span><span style="display:flex;"><span>        
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// 이전 라인을 기록한다
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#a6e22e">upperLines</span>.<span style="color:#a6e22e">push</span>(<span style="color:#a6e22e">row</span>)
+</span></span><span style="display:flex;"><span>        
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// 떨어지지 않은 것만 체크
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">v</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">upperLines</span>.<span style="color:#a6e22e">filter</span>(<span style="color:#a6e22e">r</span>=&gt; <span style="color:#f92672">!</span>(<span style="color:#a6e22e">r</span>.<span style="color:#a6e22e">from</span> <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">999</span> <span style="color:#f92672">+</span> <span style="color:#a6e22e">to</span>)).<span style="color:#a6e22e">length</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">v</span> <span style="color:#f92672">&gt;</span> <span style="color:#a6e22e">maxCount</span>) {
+</span></span><span style="display:flex;"><span>            <span style="color:#a6e22e">maxCount</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">v</span>
+</span></span><span style="display:flex;"><span>        }        
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">maxCount</span>
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// 시간 파싱 - 내부 함수로 해도 된다. float의 해상도가 신경쓰여서 직접 구현함
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">parseTime</span>(<span style="color:#a6e22e">el</span>) {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">a</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">el</span>.<span style="color:#a6e22e">split</span>(<span style="color:#e6db74">&#34; &#34;</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">time</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">a</span>[<span style="color:#ae81ff">1</span>]
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">hour</span> <span style="color:#f92672">=</span> parseInt(<span style="color:#a6e22e">time</span>.<span style="color:#a6e22e">slice</span>(<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">2</span>))
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">minute</span> <span style="color:#f92672">=</span> parseInt(<span style="color:#a6e22e">time</span>.<span style="color:#a6e22e">slice</span>(<span style="color:#ae81ff">3</span>, <span style="color:#ae81ff">5</span>))
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">second</span> <span style="color:#f92672">=</span> parseInt(<span style="color:#a6e22e">time</span>.<span style="color:#a6e22e">slice</span>(<span style="color:#ae81ff">6</span>, <span style="color:#ae81ff">8</span>))
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">mil</span> <span style="color:#f92672">=</span> parseInt(<span style="color:#a6e22e">time</span>.<span style="color:#a6e22e">slice</span>(<span style="color:#ae81ff">9</span>, <span style="color:#ae81ff">12</span>))
+</span></span><span style="display:flex;"><span>        
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">f</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">a</span>[<span style="color:#ae81ff">2</span>].<span style="color:#a6e22e">replace</span>(<span style="color:#e6db74">&#34;s&#34;</span>, <span style="color:#e6db74">&#34;&#34;</span>).<span style="color:#a6e22e">split</span>(<span style="color:#e6db74">&#34;.&#34;</span>)
+</span></span><span style="display:flex;"><span>        
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">duration</span> <span style="color:#f92672">=</span> parseInt(<span style="color:#a6e22e">f</span>[<span style="color:#ae81ff">0</span>]) <span style="color:#f92672">*</span> <span style="color:#ae81ff">1000</span>
+</span></span><span style="display:flex;"><span>                
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">f</span>.<span style="color:#a6e22e">length</span> <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">1</span>) {
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">duration</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">duration</span> <span style="color:#f92672">+</span> parseInt(<span style="color:#a6e22e">f</span>[<span style="color:#ae81ff">1</span>])
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>        
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">completeTime</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">hour</span> <span style="color:#f92672">*</span> <span style="color:#ae81ff">3600</span> <span style="color:#f92672">*</span> <span style="color:#ae81ff">1000</span> <span style="color:#f92672">+</span> <span style="color:#a6e22e">minute</span> <span style="color:#f92672">*</span> <span style="color:#ae81ff">60</span> <span style="color:#f92672">*</span> <span style="color:#ae81ff">1000</span> <span style="color:#f92672">+</span> <span style="color:#a6e22e">second</span> <span style="color:#f92672">*</span> <span style="color:#ae81ff">1000</span> <span style="color:#f92672">+</span> <span style="color:#a6e22e">mil</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">startTime</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">completeTime</span> <span style="color:#f92672">-</span> <span style="color:#a6e22e">duration</span> <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> {
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">from</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">startTime</span>,
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">to</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">completeTime</span>
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h2 id="헤멘-부분">헤멘 부분</h2>
 <ol>
 <li>처음에 로그고 2000개 정도니까 실제로 시계의 각 초에 대응한다고 생각해서 타임스탬프를 키로 잡아 map에 담고 갯수를 세려고 했다.</li>
 <li>문제에서 원하는 1초간이 0~1초가 아니라 0~0.999 초라는 걸 고려하지 않았다.</li>
@@ -223,6 +223,8 @@
     
         
 
+        
+            
         
             
         
@@ -3976,7 +3978,7 @@
 
     <div id="disqus_thread"></div>
 <script type="application/javascript">
-    var disqus_config = function () {
+    window.disqus_config = function () {
     
     
     

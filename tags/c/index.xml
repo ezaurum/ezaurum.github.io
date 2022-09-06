@@ -36,7 +36,7 @@ https://gist.github.com/ezaurum/80c7b509fe5d6458e831.js</description>
       <guid>https://ezaurum.com/2015/02/Task%EC%9D%98-%EC%8B%A4%ED%96%89-%EC%8B%9C%EC%A0%90/</guid>
       <description>Stackexchange redis에서 트랜잭션 진행이 멈춤이라는 질문과 답변을 보다가 Execute가 실제 명령어들보다 앞에서 await로 되어 있는 것을 보고 좀 이상하다는 느낌을 받았다. 그래서 열심히 검색하고 테스트 코드를 짜 보았다. https://gist.github.com/ezaurum/746ea24220b52b27b56c.js
 결론은, Task는 await로 되는 시점에 실행되는 것이 아니다. 단지 Task는 실행되고 있는 쓰레드(정확히 대응하는 것은 아니지만&amp;hellip;)에 대한 핸들러를 주는 것이고, await는 그게 종료 되었는지 확인 될 때까지 해당 프로시저를 멈추는 역할을 할 뿐이다. 그러니, 저 코드는 실제로는 다음과 같을 것이다.
-트랜잭션 만든다.</description>
+트랜잭션 만든다.</description>
     </item>
     
     <item>
@@ -45,8 +45,7 @@ https://gist.github.com/ezaurum/80c7b509fe5d6458e831.js</description>
       <pubDate>Sun, 08 Feb 2015 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2015/02/Nuget-%ED%8C%A8%ED%82%A4%EC%A7%80%EC%97%90-%EC%9D%98%EC%A1%B4%EC%84%B1-%EC%A7%80%EC%A0%95%ED%95%98%EA%B8%B0/</guid>
-      <description>출처 - Nuget 매뉴얼 Nuget 패키지를 만들 때 의존성을 지정하려면, .nuspec 파일 안의 metadata 태그의 자식으로 
-&amp;lt;/code&amp;gt; 이렇게 지정해 주면 된다.</description>
+      <description>출처 - Nuget 매뉴얼 Nuget 패키지를 만들 때 의존성을 지정하려면, .nuspec 파일 안의 metadata 태그의 자식으로 &amp;lt;/code&amp;gt;이렇게 지정해 주면 된다.</description>
     </item>
     
     <item>
@@ -168,8 +167,7 @@ void insertionSort2(int * array, int size) { int j = 0; for (int i = 1; i 0 &amp
       
       <guid>https://ezaurum.com/2008/12/%EC%86%8C%EC%BC%93-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EC%9D%84-%ED%95%A0-%EB%95%8C-read%EA%B0%80-%EC%83%9D%EA%B0%81%EB%8C%80%EB%A1%9C-%EC%9E%91%EB%8F%99%ED%95%98%EC%A7%80-%EC%95%8A%EB%8A%94-%EA%B2%BD%EC%9A%B0/</guid>
       <description>기말고사용으로 채팅 프로그램을 만들던 중, close를 하지 않고, 연결을 유지한 채로 write함수로 EOF값 만을 보내서 대화 내용의 종결을 알리려고 했으나, 잘 작동하지 않았다.
-read는 socket 이 close되지 않으면 EOF를 읽더라도 1을 반환한다. 따라서 연결을 유지하고 read/write를 하려면 읽은 값이 EOF인지를 체크해준다! 이거 알아내려고 이틀 밤 샜다. 젠장. 나만 병신인가.  while (temp) { read(sockfd, &amp;amp;s, 1); if ( s == EOF) break; printf(&amp;quot;%c&amp;quot;,s); } 
-read 의 리턴값 - 기본적으로 실제로 읽은 바이트 수 만큼.</description>
+read는 socket 이 close되지 않으면 EOF를 읽더라도 1을 반환한다. 따라서 연결을 유지하고 read/write를 하려면 읽은 값이 EOF인지를 체크해준다! 이거 알아내려고 이틀 밤 샜다. 젠장. 나만 병신인가. while (temp) { read(sockfd, &amp;amp;s, 1); if ( s == EOF) break; printf(&amp;quot;%c&amp;quot;,s); } read 의 리턴값 - 기본적으로 실제로 읽은 바이트 수 만큼.</description>
     </item>
     
     <item>
@@ -179,8 +177,7 @@ read 의 리턴값 - 기본적으로 실제로 읽은 바이트 수 만큼.</des
       
       <guid>https://ezaurum.com/2008/12/%EC%86%8C%EC%BC%93-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EC%9D%84-%ED%95%A0-%EB%95%8C-read%EA%B0%80-%EC%83%9D%EA%B0%81%EB%8C%80%EB%A1%9C-%EC%9E%91%EB%8F%99%ED%95%98%EC%A7%80-%EC%95%8A%EB%8A%94-%EA%B2%BD%EC%9A%B0/</guid>
       <description>기말고사용으로 채팅 프로그램을 만들던 중, close를 하지 않고, 연결을 유지한 채로 write함수로 EOF값 만을 보내서 대화 내용의 종결을 알리려고 했으나, 잘 작동하지 않았다.
-read는 socket 이 close되지 않으면 EOF를 읽더라도 1을 반환한다. 따라서 연결을 유지하고 read/write를 하려면 읽은 값이 EOF인지를 체크해준다! 이거 알아내려고 이틀 밤 샜다. 젠장. 나만 병신인가.  while (temp) { read(sockfd, &amp;amp;s, 1); if ( s == EOF) break; printf(&amp;quot;%c&amp;quot;,s); } 
-read 의 리턴값 - 기본적으로 실제로 읽은 바이트 수 만큼.</description>
+read는 socket 이 close되지 않으면 EOF를 읽더라도 1을 반환한다. 따라서 연결을 유지하고 read/write를 하려면 읽은 값이 EOF인지를 체크해준다! 이거 알아내려고 이틀 밤 샜다. 젠장. 나만 병신인가. while (temp) { read(sockfd, &amp;amp;s, 1); if ( s == EOF) break; printf(&amp;quot;%c&amp;quot;,s); } read 의 리턴값 - 기본적으로 실제로 읽은 바이트 수 만큼.</description>
     </item>
     
     <item>
@@ -193,8 +190,8 @@ read 의 리턴값 - 기본적으로 실제로 읽은 바이트 수 만큼.</des
 이걸 알면 모두 OK.
 pointer[x][y][z] 는 *(pointer[x][y]+z) pointer[x][y] 는 *(pointer[x]+y) pointer[x]는 *(pointer+x)
 그러니 pointer[x][y][z]는 ((*(pointer+x)+y)+z)
-추가로 알아둘 사항.  void * pp; int a=35; pp = &amp;amp;a; int ppp[5][5] = { 0, };
-printf(&amp;quot;%dn&amp;quot;,sizeof(pp));printf(&amp;quot;%dn&amp;quot;,*(int*)pp);printf(&amp;quot;%dn&amp;quot;,sizeof(ppp));printf(&amp;quot;%dn&amp;quot;,sizeof(ppp[0]));printf(&amp;quot;%dn&amp;quot;,sizeof(ppp[0][0]));printf(&amp;quot;%pn&amp;quot;,ppp);printf(&amp;quot;%pn&amp;quot;,ppp+1);printf(&amp;quot;%pn&amp;quot;,*(ppp+2)+1);printf(&amp;quot;%pn&amp;quot;,ppp[2]+1);printf(&amp;quot;%pn&amp;quot;,&amp;amp;amp;ppp[2][1]);printf(&amp;quot;%pn&amp;quot;,ppp[0][0]+1); pointer +1 은 pointer값 + sizeof(*pointer);
+추가로 알아둘 사항. void * pp; int a=35; pp = &amp;amp;a; int ppp[5][5] = { 0, };
+printf(&amp;quot;%dn&amp;quot;,sizeof(pp));printf(&amp;quot;%dn&amp;quot;,*(int*)pp);printf(&amp;quot;%dn&amp;quot;,sizeof(ppp));printf(&amp;quot;%dn&amp;quot;,sizeof(ppp[0]));printf(&amp;quot;%dn&amp;quot;,sizeof(ppp[0][0]));printf(&amp;quot;%pn&amp;quot;,ppp);printf(&amp;quot;%pn&amp;quot;,ppp+1);printf(&amp;quot;%pn&amp;quot;,*(ppp+2)+1);printf(&amp;quot;%pn&amp;quot;,ppp[2]+1);printf(&amp;quot;%pn&amp;quot;,&amp;amp;amp;ppp[2][1]);printf(&amp;quot;%pn&amp;quot;,ppp[0][0]+1);pointer +1 은 pointer값 + sizeof(*pointer);
 혹여나 해서 추가해보는 codepad link</description>
     </item>
     
@@ -208,8 +205,8 @@ printf(&amp;quot;%dn&amp;quot;,sizeof(pp));printf(&amp;quot;%dn&amp;quot;,*(int
 이걸 알면 모두 OK.
 pointer[x][y][z] 는 *(pointer[x][y]+z) pointer[x][y] 는 *(pointer[x]+y) pointer[x]는 *(pointer+x)
 그러니 pointer[x][y][z]는 ((*(pointer+x)+y)+z)
-추가로 알아둘 사항.  void * pp; int a=35; pp = &amp;amp;a; int ppp[5][5] = { 0, };
-printf(&amp;quot;%dn&amp;quot;,sizeof(pp));printf(&amp;quot;%dn&amp;quot;,*(int*)pp);printf(&amp;quot;%dn&amp;quot;,sizeof(ppp));printf(&amp;quot;%dn&amp;quot;,sizeof(ppp[0]));printf(&amp;quot;%dn&amp;quot;,sizeof(ppp[0][0]));printf(&amp;quot;%pn&amp;quot;,ppp);printf(&amp;quot;%pn&amp;quot;,ppp+1);printf(&amp;quot;%pn&amp;quot;,*(ppp+2)+1);printf(&amp;quot;%pn&amp;quot;,ppp[2]+1);printf(&amp;quot;%pn&amp;quot;,&amp;amp;amp;ppp[2][1]);printf(&amp;quot;%pn&amp;quot;,ppp[0][0]+1); pointer +1 은 pointer값 + sizeof(*pointer);
+추가로 알아둘 사항. void * pp; int a=35; pp = &amp;amp;a; int ppp[5][5] = { 0, };
+printf(&amp;quot;%dn&amp;quot;,sizeof(pp));printf(&amp;quot;%dn&amp;quot;,*(int*)pp);printf(&amp;quot;%dn&amp;quot;,sizeof(ppp));printf(&amp;quot;%dn&amp;quot;,sizeof(ppp[0]));printf(&amp;quot;%dn&amp;quot;,sizeof(ppp[0][0]));printf(&amp;quot;%pn&amp;quot;,ppp);printf(&amp;quot;%pn&amp;quot;,ppp+1);printf(&amp;quot;%pn&amp;quot;,*(ppp+2)+1);printf(&amp;quot;%pn&amp;quot;,ppp[2]+1);printf(&amp;quot;%pn&amp;quot;,&amp;amp;amp;ppp[2][1]);printf(&amp;quot;%pn&amp;quot;,ppp[0][0]+1);pointer +1 은 pointer값 + sizeof(*pointer);
 혹여나 해서 추가해보는 codepad link</description>
     </item>
     

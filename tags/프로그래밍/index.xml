@@ -17,9 +17,9 @@
       <description>알고리즘 스터디를 하다 6시간 이상 낑낑대며 풀어서 아까워서 정리 언젠가는 쉽게 풀 수 있겠지.
 문제 2018카카오 블라인드 테스트
 신경써야 하는 부분 정렬된 기준점에서 시작해야 함 Sweeping Algorithm 참조
-일반 풀이   Sweep a line across problem plane. 문제를 평면에 놓고 줄을 긋는다
-  As the line sweeps across the plane, events of interest occur, keep track of these events. 줄이 평면에 그어지면서 뭔가 사건이 생기면 그걸 추적한다.
-  Deal with events that occur at the line leaving a solved problem behind.</description>
+일반 풀이 Sweep a line across problem plane. 문제를 평면에 놓고 줄을 긋는다
+As the line sweeps across the plane, events of interest occur, keep track of these events. 줄이 평면에 그어지면서 뭔가 사건이 생기면 그걸 추적한다.
+Deal with events that occur at the line leaving a solved problem behind.</description>
     </item>
     
     <item>
@@ -59,7 +59,7 @@
       
       <guid>https://ezaurum.com/2011/03/%EA%B5%B0-%EB%B3%B5%EB%AC%B4-%EC%A4%91-%EC%9D%BD%EC%9D%80-%EA%B8%B0%EC%88%A0-%EC%84%9C%EC%A0%81-%EC%A0%95%EB%A6%AC/</guid>
       <description>크게 혼자서 보면서 배우는 튜토리얼 계와 아무 때나 펼쳐서 볼 수 있는 레퍼런스. 두가지로 분류.
-성공과 실패를 결정하는 1%의 네트워크 원리 2nd edtion-1%시리즈 답게 간략하고 필요한 부분만 담겨 있다. 재판은 그림이 좀 더 많아지고 두꺼워져서 좋은 듯.+가벼운 레퍼런스&amp;amp;튜토리얼성공과 실패를 결정하는 1%의 프로그래밍 원리-오랜만에 다시 읽으니 안 보이던 부분이 보인다.+가벼운 레퍼런스&amp;amp;튜토리얼성공과 실패를 결정하는 1%의 컴퓨터 원리-후임이 샀길래 살짝 봤는데 괜찮은 듯, 사도 좋을 것 같다.</description>
+성공과 실패를 결정하는 1%의 네트워크 원리 2nd edtion-1%시리즈 답게 간략하고 필요한 부분만 담겨 있다. 재판은 그림이 좀 더 많아지고 두꺼워져서 좋은 듯.+가벼운 레퍼런스&amp;amp;튜토리얼성공과 실패를 결정하는 1%의 프로그래밍 원리-오랜만에 다시 읽으니 안 보이던 부분이 보인다.+가벼운 레퍼런스&amp;amp;튜토리얼성공과 실패를 결정하는 1%의 컴퓨터 원리-후임이 샀길래 살짝 봤는데 괜찮은 듯, 사도 좋을 것 같다.</description>
     </item>
     
     <item>
@@ -107,8 +107,8 @@ void insertionSort2(int * array, int size) { int j = 0; for (int i = 1; i 0 &amp
       
       <guid>https://ezaurum.com/2010/08/%EB%82%B4%EA%B0%80-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EC%9D%84-%ED%95%B4%EC%84%9C-%EB%A8%B9%EA%B3%A0-%EC%82%B4-%EC%88%98-%EC%9E%88%EC%9D%84%EA%B9%8C/</guid>
       <description>이걸 짜는데 이틀 걸렸다면 믿으시겠습니까? 젠장
-private String a(int initial, int max, String leftValue) { String returnValue = &amp;ldquo;&amp;quot;;
-	if (initial &amp;amp;lt; max) {if (initial != -1) {if (leftValue != null) {leftValue += &amp;amp;quot; &amp;amp;quot;;leftValue += initial;} else {leftValue = String.valueOf(initial);}}for (int i = initial + 1; i &amp;amp;lt;= max; i++) {returnValue += a(i, max, leftValue);}return returnValue;} else {if (leftValue !</description>
+private String a(int initial, int max, String leftValue) { String returnValue = &amp;ldquo;&amp;rdquo;;
+if (initial &amp;amp;lt; max) {if (initial != -1) {if (leftValue != null) {leftValue += &amp;amp;quot; &amp;amp;quot;;leftValue += initial;} else {leftValue = String.valueOf(initial);}}for (int i = initial + 1; i &amp;amp;lt;= max; i++) {returnValue += a(i, max, leftValue);}return returnValue;} else {if (leftValue !</description>
     </item>
     
     <item>
@@ -121,9 +121,8 @@ private String a(int initial, int max, String leftValue) { String returnValue = 
 import static org.junit.Assert.assertEquals;
 import org.junit.Test; import org.junit.Before; import org.junit.After;
 public class myTest {	@Test public void testCodes() throws Exception { System.out.println(&amp;ldquo;3&amp;rdquo;); }
-@Beforepublic void testMakeClass1(){System.out.println(&amp;quot;2&amp;quot;);	}	@Beforepublic void testMakeClass(){System.out.println(&amp;quot;1&amp;quot;);	} @After public void afterClass() { System.out.println(&amp;ldquo;4&amp;rdquo;);
-}@Afterpublic void afterClass1(){System.out.println(&amp;quot;5&amp;quot;);}	 } 
-실행 결과는 적힌 대로 12345가 된다.</description>
+@Beforepublic void testMakeClass1(){System.out.println(&amp;quot;2&amp;quot;);	}	@Beforepublic void testMakeClass(){System.out.println(&amp;quot;1&amp;quot;);	}@After public void afterClass() { System.out.println(&amp;ldquo;4&amp;rdquo;);
+}@Afterpublic void afterClass1(){System.out.println(&amp;quot;5&amp;quot;);}	} 실행 결과는 적힌 대로 12345가 된다.</description>
     </item>
     
     <item>
@@ -133,9 +132,7 @@ public class myTest {	@Test public void testCodes() throws Exception { System.ou
       
       <guid>https://ezaurum.com/2010/08/TDD-%EC%8B%9C%EC%9E%91/</guid>
       <description>TDD란 걸 시작했다. 좋은 튜토리얼을 발견해서 그걸 보고 대충 익혔는데, 여기의 글들과 관련해서 좀 공부를 더 해야 겠다.
-테스트를 작성한다. &amp;lt;li&amp;gt;작성한 테스트를 통과할 수 있도록 가장 빠른 방법으로 코드를 작성한다. 이 과정에 중복된 코드를 만들어도 상관 없다. &amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;테스트를 수행한다. &amp;lt;/li&amp;gt;&amp;lt;li&amp;gt; 테스트를 통과하면 작성한 코드에서 중복을 제거한다. 아니면 2번으로 돌아간다. 	
-테스트를 수행한다. 
-&amp;lt;li&amp;gt;테스트를 통과하면 완성. 다음 테스트를 1번부터 시작한다. 실패하면 4로 돌아가서 디버깅한다.&amp;lt;/li&amp;gt;&amp;lt;/ol&amp;gt; TDD(TestDrivenDevelopement)이런 식으로 진행되는데, 개발 속도가 엄청나게 빨라진다고 한다.</description>
+테스트를 작성한다. &amp;lt;li&amp;gt;작성한 테스트를 통과할 수 있도록 가장 빠른 방법으로 코드를 작성한다. 이 과정에 중복된 코드를 만들어도 상관 없다. &amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;테스트를 수행한다. &amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;테스트를 통과하면 작성한 코드에서 중복을 제거한다. 아니면 2번으로 돌아간다. 테스트를 수행한다. &amp;lt;li&amp;gt;테스트를 통과하면 완성. 다음 테스트를 1번부터 시작한다. 실패하면 4로 돌아가서 디버깅한다.&amp;lt;/li&amp;gt;&amp;lt;/ol&amp;gt;TDD(TestDrivenDevelopement)이런 식으로 진행되는데, 개발 속도가 엄청나게 빨라진다고 한다.</description>
     </item>
     
     <item>
@@ -145,7 +142,7 @@ public class myTest {	@Test public void testCodes() throws Exception { System.ou
       
       <guid>https://ezaurum.com/2010/08/%EC%83%81%EC%9E%90-4%EA%B0%9C/</guid>
       <description>문제 출처 - http://xper.org/wiki/seminar/FourBoxes
-4개의 직사각형이 평면에 있는데 밑변이 모두 가로축에 평행하다. 이 직사각형들이 차지하는 면적을 구하는 프로그램을 작성하시오. 이 네 개의 직사각형들은 서로 떨어져 있을 수도 있고 겹쳐 있을 수도 있다. 또한 하나가 다른 하나를 포함할 수도 있으며, 변이나 꼭지점이 겹쳐질 수도 있다. 실행 파일의 이름은 RECT.EXE로 하시오. 입력형식
+4개의 직사각형이 평면에 있는데 밑변이 모두 가로축에 평행하다. 이 직사각형들이 차지하는 면적을 구하는 프로그램을 작성하시오. 이 네 개의 직사각형들은 서로 떨어져 있을 수도 있고 겹쳐 있을 수도 있다. 또한 하나가 다른 하나를 포함할 수도 있으며, 변이나 꼭지점이 겹쳐질 수도 있다. 실행 파일의 이름은 RECT.EXE로 하시오. 입력형식
 하나의 직사각형은 왼쪽 아래의 꼭지점과 오른쪽 위의 꼭지점의 좌표로 주어진다. 입력은 네 줄이며, 각 줄은 네 개의 정수로 하나의 직사각형을 나타낸다.</description>
     </item>
     

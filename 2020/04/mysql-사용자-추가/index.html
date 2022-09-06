@@ -69,10 +69,10 @@ CREATE DATABASE example; CREATE USER &#39;user_name&#39;@&#39;%&#39; IDENTIFIED 
 2020-04-03
 <section><h3 id="목적">목적</h3>
 <p>mysql 사용자 및 DB 추가</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-mysql" data-lang="mysql"><span style="color:#66d9ef">CREATE</span> <span style="color:#66d9ef">DATABASE</span> example;
-<span style="color:#66d9ef">CREATE</span> <span style="color:#66d9ef">USER</span> <span style="color:#e6db74">&#39;user_name&#39;</span><span style="color:#f92672">@</span><span style="color:#e6db74">&#39;%&#39;</span> <span style="color:#66d9ef">IDENTIFIED</span> <span style="color:#66d9ef">BY</span> <span style="color:#e6db74">&#39;pass-word&#39;</span>;
-<span style="color:#66d9ef">GRANT</span> <span style="color:#66d9ef">ALL</span> <span style="color:#66d9ef">PRIVILEGES</span>  <span style="color:#66d9ef">ON</span> example.<span style="color:#f92672">*</span> <span style="color:#66d9ef">TO</span> <span style="color:#e6db74">&#39;user_name&#39;</span><span style="color:#f92672">@</span><span style="color:#e6db74">&#39;%&#39;</span>;
-</code></pre></div></section>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-mysql" data-lang="mysql"><span style="display:flex;"><span><span style="color:#66d9ef">CREATE</span> <span style="color:#66d9ef">DATABASE</span> example;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">CREATE</span> <span style="color:#66d9ef">USER</span> <span style="color:#e6db74">&#39;user_name&#39;</span><span style="color:#f92672">@</span><span style="color:#e6db74">&#39;%&#39;</span> <span style="color:#66d9ef">IDENTIFIED</span> <span style="color:#66d9ef">BY</span> <span style="color:#e6db74">&#39;pass-word&#39;</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">GRANT</span> <span style="color:#66d9ef">ALL</span> <span style="color:#66d9ef">PRIVILEGES</span>  <span style="color:#66d9ef">ON</span> example.<span style="color:#f92672">*</span> <span style="color:#66d9ef">TO</span> <span style="color:#e6db74">&#39;user_name&#39;</span><span style="color:#f92672">@</span><span style="color:#e6db74">&#39;%&#39;</span>;
+</span></span></code></pre></div></section>
 
 
 <ul class="taxonomy category">
@@ -110,6 +110,8 @@ CREATE DATABASE example; CREATE USER &#39;user_name&#39;@&#39;%&#39; IDENTIFIED 
     
         
 
+        
+            
         
             
         
@@ -552,6 +554,10 @@ CREATE DATABASE example; CREATE USER &#39;user_name&#39;@&#39;%&#39; IDENTIFIED 
             
         
             
+        <li><a href="https://ezaurum.com/2022/09/EC2-ssh-%ED%82%A4%EA%B0%80-%EC%97%86%EC%96%B4%EC%A1%8C%EC%9D%84-%EB%95%8C/">EC2 ssh 키가 없어졌을 때</a></li>
+            
+        
+            
         
             
         
@@ -937,42 +943,6 @@ CREATE DATABASE example; CREATE USER &#39;user_name&#39;@&#39;%&#39; IDENTIFIED 
         
             
         <li><a href="https://ezaurum.com/2020/04/mysql-%EC%82%AC%EC%9A%A9%EC%9E%90-%EC%B6%94%EA%B0%80/">mysql 사용자 추가</a></li>
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
             
         
             
@@ -3867,6 +3837,40 @@ CREATE DATABASE example; CREATE USER &#39;user_name&#39;@&#39;%&#39; IDENTIFIED 
         
             
         
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
 
     
     </ul>
@@ -3875,7 +3879,7 @@ CREATE DATABASE example; CREATE USER &#39;user_name&#39;@&#39;%&#39; IDENTIFIED 
 
     <div id="disqus_thread"></div>
 <script type="application/javascript">
-    var disqus_config = function () {
+    window.disqus_config = function () {
     
     
     

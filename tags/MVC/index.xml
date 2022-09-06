@@ -15,7 +15,7 @@
       
       <guid>https://ezaurum.com/2014/10/ASP-.NET%EC%97%90%EC%84%9C-%EC%93%B0%EB%8A%94-%EC%9A%A9%EC%96%B4/</guid>
       <description>출처 - Getting Started with ASP.NET MVC 6
-컨트롤러(controller)는 HTTP 요청을 받아서 어플리케이션 로직을 실행한다.액션(Action)은 컨트롤러에 있는 메소드를 말하는데, HTTP 요청을 처리하기 위해서 실행된다. 액션의 반환값은 HTTP 응답을 만들기 위해서 사용된다.라우팅(Routing)은 특정 HTTP 요청에 어떤 액션을 실행해야 할지를 선택하는 메커니즘이다. 주로 URL과 HTTP 행동에 의해 결정된다.뷰(view)는 HTML을 만들어내는 부품이다. 컨트롤러는 HTTP 응답이 HTML을 포함하는 경우 사용할 수 있다.모델(model)은 어플리케이션에서 사용하는 도메인 데이터이다. 보통 JSON등으로 직렬화하거나 HTML으로 만든다.</description>
+컨트롤러(controller)는 HTTP 요청을 받아서 어플리케이션 로직을 실행한다.액션(Action)은 컨트롤러에 있는 메소드를 말하는데, HTTP 요청을 처리하기 위해서 실행된다. 액션의 반환값은 HTTP 응답을 만들기 위해서 사용된다.라우팅(Routing)은 특정 HTTP 요청에 어떤 액션을 실행해야 할지를 선택하는 메커니즘이다. 주로 URL과 HTTP 행동에 의해 결정된다.뷰(view)는 HTML을 만들어내는 부품이다. 컨트롤러는 HTTP 응답이 HTML을 포함하는 경우 사용할 수 있다.모델(model)은 어플리케이션에서 사용하는 도메인 데이터이다. 보통 JSON등으로 직렬화하거나 HTML으로 만든다.</description>
     </item>
     
     <item>
@@ -33,7 +33,7 @@
       <pubDate>Thu, 09 May 2013 00:00:00 +0000</pubDate>
       
       <guid>https://ezaurum.com/2013/05/spring-RequestMapping-%EC%9A%B0%EC%84%A0%EC%88%9C%EC%9C%84/</guid>
-      <description>/*html pages*///매핑시 같은 URL에 produce 우선순위를 이용해 다른 메소드로 연결하고자 하면, URL value에 같은 값을 설정해 주어야 한다.// /*로 설정된 것은 /{variaBLE} 보다 나중에 검색된다.@RequestMapping(value={&#34;/&#34;,&#34;&#34;,&#34;/{questId}&#34;},method=RequestMethod.GET, produces=&#34;text/html&#34; )public String getQuestIndex() {return &#34;quest&#34;;}/*json requests*/@RequestMapping(value=&#34;/{questId}&#34;,method=RequestMethod.GET, produces = &#34;application/json&#34;)public @ResponseBody Quest getQuestDetail(@PathVariable(&#34;questId&#34;) long questId) {return questService.find(questId);}@RequestMapping(value={&#34;/&#34;,&#34;&#34;}, method = RequestMethod.GET, produces = &#34;application/json&#34;)public @ResponseBody Collection&amp;lt;Quest&amp;gt; updateQuestDetail() {return questService.findAll();}</description>
+      <description>/*html pages*///매핑시 같은 URL에 produce 우선순위를 이용해 다른 메소드로 연결하고자 하면, URL value에 같은 값을 설정해 주어야 한다.// /*로 설정된 것은 /{variaBLE} 보다 나중에 검색된다.@RequestMapping(value={&#34;/&#34;,&#34;&#34;,&#34;/{questId}&#34;},method=RequestMethod.GET, produces=&#34;text/html&#34; )public String getQuestIndex() {return &#34;quest&#34;;}/*json requests*/@RequestMapping(value=&#34;/{questId}&#34;,method=RequestMethod.GET, produces = &#34;application/json&#34;)public @ResponseBody Quest getQuestDetail(@PathVariable(&#34;questId&#34;) long questId) {return questService.find(questId);}@RequestMapping(value={&#34;/&#34;,&#34;&#34;}, method = RequestMethod.GET, produces = &#34;application/json&#34;)public @ResponseBody Collection&amp;lt;Quest&amp;gt; updateQuestDetail() {return questService.findAll();}</description>
     </item>
     
     <item>
