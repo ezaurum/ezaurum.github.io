@@ -7,22 +7,22 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Tue, 06 Sep 2022 13:16:42 +0900</lastBuildDate><atom:link href="https://ezaurum.com/series/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 23 Dec 2022 14:35:28 +0900</lastBuildDate><atom:link href="https://ezaurum.com/series/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>회고</title>
+      <link>https://ezaurum.com/series/%ED%9A%8C%EA%B3%A0/</link>
+      <pubDate>Fri, 23 Dec 2022 14:35:28 +0900</pubDate>
+      
+      <guid>https://ezaurum.com/series/%ED%9A%8C%EA%B3%A0/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>레시피</title>
       <link>https://ezaurum.com/series/%EB%A0%88%EC%8B%9C%ED%94%BC/</link>
       <pubDate>Tue, 06 Sep 2022 13:16:42 +0900</pubDate>
       
       <guid>https://ezaurum.com/series/%EB%A0%88%EC%8B%9C%ED%94%BC/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>회고</title>
-      <link>https://ezaurum.com/series/%ED%9A%8C%EA%B3%A0/</link>
-      <pubDate>Fri, 31 Dec 2021 12:05:28 +0900</pubDate>
-      
-      <guid>https://ezaurum.com/series/%ED%9A%8C%EA%B3%A0/</guid>
       <description></description>
     </item>
     

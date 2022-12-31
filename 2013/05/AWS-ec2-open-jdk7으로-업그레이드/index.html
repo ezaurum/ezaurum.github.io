@@ -69,9 +69,9 @@ ln -s /location/to/link2 newlink mv newlink linkname" />
 <section><p>일단 open jdk 7 을 설치한다.
 <code>sudo yum install java-1.7.0-openjdk
 </code>
-그 다음 java에 걸려 있는 심볼릭 링크를 바꿔줘야 하는데, 
+그 다음 java에 걸려 있는 심볼릭 링크를 바꿔줘야 하는데,
 /usr/bin/java -&gt; /etc/alternatives/java -&gt;  -&gt; /usr/lib/jvm/(현재 jre)/bin/java
-이렇게 되어 있으므로, 
+이렇게 되어 있으므로,
 <code>
 sudo ln -s /usr/lib/jvm/jre-1.7.0-openjdk.x86_64/bin/java /etc/alternatives/java7
 sudo mv /etc/alternatives/java7 /etc/alternatives/java

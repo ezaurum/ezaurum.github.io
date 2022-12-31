@@ -78,7 +78,7 @@ copy syslinux.cfg %drive%:
 copy vesamenu.c32 %drive%:
 copy makeboot.bat %drive%:
 %drive%:
-copy isolinux*.* 
+copy isolinux*.*
 rd isolinux /s/q
 del isolinux.bin
 call %drive%:makeboot.bat</p>

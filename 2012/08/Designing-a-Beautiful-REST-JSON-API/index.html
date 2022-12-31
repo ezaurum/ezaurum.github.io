@@ -73,10 +73,10 @@ ID는 순차를 피하고 숨길 것. UUID 같은 걸 쓰라.
 가능하면 세션 사용을 피할 것.
 기본적으로 객체가 콜렉션이나 하위 객체를 포함하면, 그걸 다 뿌려주지 말고, 하위객체나 콜렉션에 대한 링크를 제공
 파라마터를 이용해서 객체를 다 뿌릴지 말지를 결정. GET /object?expand=true
-파라마터를 이용해서 필터링과 페이지구분. offset, limit사용. 
+파라마터를 이용해서 필터링과 페이지구분. offset, limit사용.
 페이지 제공하는 경우 next, prev 링크 제공
 다대다 관계의 경우, 조인된 한 행을 하나의 객체로 보고 필요에 따라 필터링
-MEDIA TYPE 
+MEDIA TYPE
 포맷+파싱룰
 request - Accept header
 respons - content-type header
