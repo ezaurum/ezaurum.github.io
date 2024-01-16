@@ -7,21 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Mon, 24 Nov 2008 00:00:00 +0000</lastBuildDate><atom:link href="https://ezaurum.com/tags/%ED%8F%AC%EC%9D%B8%ED%84%B0/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 24 Nov 2008 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ezaurum.com/tags/%ED%8F%AC%EC%9D%B8%ED%84%B0/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>종종 헷갈리는 pointer와 배열</title>
       <link>https://ezaurum.com/2008/11/%EC%A2%85%EC%A2%85-%ED%97%B7%EA%B0%88%EB%A6%AC%EB%8A%94-pointer%EC%99%80-%EB%B0%B0%EC%97%B4/</link>
       <pubDate>Mon, 24 Nov 2008 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2008/11/%EC%A2%85%EC%A2%85-%ED%97%B7%EA%B0%88%EB%A6%AC%EB%8A%94-pointer%EC%99%80-%EB%B0%B0%EC%97%B4/</guid>
-      <description>*(pointer + n) 는 pointer[n] 과 같다. 겹쳐져 있으면 해석은 오른쪽부터.
-이걸 알면 모두 OK.
-pointer[x][y][z] 는 *(pointer[x][y]+z) pointer[x][y] 는 *(pointer[x]+y) pointer[x]는 *(pointer+x)
-그러니 pointer[x][y][z]는 ((*(pointer+x)+y)+z)
-추가로 알아둘 사항. void * pp; int a=35; pp = &amp;amp;a; int ppp[5][5] = { 0, };
-printf(&amp;quot;%dn&amp;quot;,sizeof(pp));printf(&amp;quot;%dn&amp;quot;,*(int*)pp);printf(&amp;quot;%dn&amp;quot;,sizeof(ppp));printf(&amp;quot;%dn&amp;quot;,sizeof(ppp[0]));printf(&amp;quot;%dn&amp;quot;,sizeof(ppp[0][0]));printf(&amp;quot;%pn&amp;quot;,ppp);printf(&amp;quot;%pn&amp;quot;,ppp+1);printf(&amp;quot;%pn&amp;quot;,*(ppp+2)+1);printf(&amp;quot;%pn&amp;quot;,ppp[2]+1);printf(&amp;quot;%pn&amp;quot;,&amp;amp;amp;ppp[2][1]);printf(&amp;quot;%pn&amp;quot;,ppp[0][0]+1);pointer +1 은 pointer값 + sizeof(*pointer);
-혹여나 해서 추가해보는 codepad link</description>
+      <description>*(pointer + n) 는 pointer[n] 과 같다. 겹쳐져 있으면 해석은 오른쪽부터.&#xA;이걸 알면 모두 OK.&#xA;pointer[x][y][z] 는 *(pointer[x][y]+z) pointer[x][y] 는 *(pointer[x]+y) pointer[x]는 *(pointer+x)&#xA;그러니 pointer[x][y][z]는 ((*(pointer+x)+y)+z)&#xA;추가로 알아둘 사항. void * pp; int a=35; pp = &amp;amp;a; int ppp[5][5] = { 0, };&#xA;printf(&amp;quot;%dn&amp;quot;,sizeof(pp));&#xD;printf(&amp;quot;%dn&amp;quot;,*(int*)pp);&#xD;printf(&amp;quot;%dn&amp;quot;,sizeof(ppp));&#xD;printf(&amp;quot;%dn&amp;quot;,sizeof(ppp[0]));&#xD;printf(&amp;quot;%dn&amp;quot;,sizeof(ppp[0][0]));&#xD;printf(&amp;quot;%pn&amp;quot;,ppp);&#xD;printf(&amp;quot;%pn&amp;quot;,ppp+1);&#xD;printf(&amp;quot;%pn&amp;quot;,*(ppp+2)+1);&#xD;printf(&amp;quot;%pn&amp;quot;,ppp[2]+1);&#xD;printf(&amp;quot;%pn&amp;quot;,&amp;amp;amp;ppp[2][1]);&#xD;printf(&amp;quot;%pn&amp;quot;,ppp[0][0]+1);&#xD;pointer +1 은 pointer값 + sizeof(*pointer);&#xA;혹여나 해서 추가해보는 codepad link</description>
     </item>
-    
   </channel>
 </rss>

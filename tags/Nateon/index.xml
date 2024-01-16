@@ -7,15 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Sat, 19 Jul 2008 00:00:00 +0000</lastBuildDate><atom:link href="https://ezaurum.com/tags/Nateon/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 19 Jul 2008 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ezaurum.com/tags/Nateon/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>네이트 온 설치 성공!</title>
       <link>https://ezaurum.com/2008/07/%EB%84%A4%EC%9D%B4%ED%8A%B8-%EC%98%A8-%EC%84%A4%EC%B9%98-%EC%84%B1%EA%B3%B5/</link>
       <pubDate>Sat, 19 Jul 2008 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2008/07/%EB%84%A4%EC%9D%B4%ED%8A%B8-%EC%98%A8-%EC%84%A4%EC%B9%98-%EC%84%B1%EA%B3%B5/</guid>
       <description>일단 리눅스에서 네이트온 설치까지 성공했다. 좀 불안정하긴 하지만, 돌아는 가니까 됐어. 근데 메일이 안 읽어진다. 우분투8.04 를 위한 64비트 버전이 없어서 그냥 대충 7.01 버전으로 깔았음.</description>
     </item>
-    
   </channel>
 </rss>

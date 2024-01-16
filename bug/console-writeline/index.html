@@ -18,36 +18,7 @@
     <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/style.css">
 
-    <meta itemprop="name" content="유니코드 문자를 Console.WriteLine으로 출력시 에러">
-<meta itemprop="description" content="문제상황 - Console.WriteLine 으로 스트링 출력시 에러
-원인 - 기본 출력 인코딩이 ASCII라서 출력시 에러남.
-해결방안 - Console.OutputEncoding = System.Text.Encoding.UTF8; 참고
-재발 방지를 위해 - 미리 세팅해 두자"><meta itemprop="datePublished" content="2019-02-05T19:15:02+09:00" />
-<meta itemprop="dateModified" content="2019-02-05T19:15:02+09:00" />
-<meta itemprop="wordCount" content="28">
-<meta itemprop="keywords" content="버그,회고,정리,c-sharp," />
-    <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="유니코드 문자를 Console.WriteLine으로 출력시 에러"/>
-<meta name="twitter:description" content="문제상황 - Console.WriteLine 으로 스트링 출력시 에러
-원인 - 기본 출력 인코딩이 ASCII라서 출력시 에러남.
-해결방안 - Console.OutputEncoding = System.Text.Encoding.UTF8; 참고
-재발 방지를 위해 - 미리 세팅해 두자"/>
-
-    <meta property="og:title" content="유니코드 문자를 Console.WriteLine으로 출력시 에러" />
-<meta property="og:description" content="문제상황 - Console.WriteLine 으로 스트링 출력시 에러
-원인 - 기본 출력 인코딩이 ASCII라서 출력시 에러남.
-해결방안 - Console.OutputEncoding = System.Text.Encoding.UTF8; 참고
-재발 방지를 위해 - 미리 세팅해 두자" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://ezaurum.com/bug/console-writeline/" /><meta property="article:section" content="bug" />
-<meta property="article:published_time" content="2019-02-05T19:15:02+09:00" />
-<meta property="article:modified_time" content="2019-02-05T19:15:02+09:00" />
-
-
-
-    
-
-</head>
+    </head>
 <body>
 
     <header>
@@ -279,11 +250,15 @@
             
         
             
+        
+            
         <li><a href="https://ezaurum.com/bug/ajax-response-is-invalid-but-valid/">AJAX 요청응답이 왔는데 JSON parse에러가 났는데 정상 작동</a></li>
             
         
             
         <li><a href="https://ezaurum.com/bug/not-modified-json-response/">AJAX 요청이 간헐적으로 실패하는 문제</a></li>
+            
+        
             
         
             
@@ -669,7 +644,15 @@
             
         
             
+        
+            
         <li><a href="https://ezaurum.com/bug/gorm-related-bug/">GORM에서 Many To Many 값을 제대로 가져오지 못하는 문제</a></li>
+            
+        
+            
+        
+            
+        
             
         
             
@@ -1687,6 +1670,12 @@
             
         
             
+        
+            
+        
+            
+        
+            
         <li><a href="https://ezaurum.com/bug/gradle-wrapper-version-mismatch/">그래들 래퍼 버전을 잘못 입력 했을 때</a></li>
             
         
@@ -2215,7 +2204,11 @@
             
         
             
+        
+            
         <li><a href="https://ezaurum.com/bug/deploy-bug-not-changed/">배포 이후 변경이 안 되는 문제</a></li>
+            
+        
             
         
             
@@ -3897,7 +3890,7 @@
 
 
     <div id="disqus_thread"></div>
-<script type="application/javascript">
+<script>
     window.disqus_config = function () {
     
     

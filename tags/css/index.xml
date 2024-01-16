@@ -7,155 +7,98 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Tue, 31 Mar 2020 22:14:16 +0900</lastBuildDate><atom:link href="https://ezaurum.com/tags/css/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 31 Mar 2020 22:14:16 +0900</lastBuildDate>
+    <atom:link href="https://ezaurum.com/tags/css/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>가운데에서 차오르는 효과가 있는 버튼 후버 이펙트</title>
       <link>https://ezaurum.com/2020/03/%EA%B0%80%EC%9A%B4%EB%8D%B0%EC%97%90%EC%84%9C-%EC%B0%A8%EC%98%A4%EB%A5%B4%EB%8A%94-%ED%9A%A8%EA%B3%BC%EA%B0%80-%EC%9E%88%EB%8A%94-%EB%B2%84%ED%8A%BC-%ED%9B%84%EB%B2%84-%EC%9D%B4%ED%8E%99%ED%8A%B8/</link>
       <pubDate>Tue, 31 Mar 2020 22:14:16 +0900</pubDate>
-      
       <guid>https://ezaurum.com/2020/03/%EA%B0%80%EC%9A%B4%EB%8D%B0%EC%97%90%EC%84%9C-%EC%B0%A8%EC%98%A4%EB%A5%B4%EB%8A%94-%ED%9A%A8%EA%B3%BC%EA%B0%80-%EC%9E%88%EB%8A%94-%EB%B2%84%ED%8A%BC-%ED%9B%84%EB%B2%84-%EC%9D%B4%ED%8E%99%ED%8A%B8/</guid>
-      <description>목적 가운데에서 차오르는 효과가 있는 버튼 후버 이펙트
-See the Pen fill from center round button hover effect with css by Cho seokgyu (@ezaurum) on CodePen. </description>
+      <description>목적 가운데에서 차오르는 효과가 있는 버튼 후버 이펙트&#xA;See the Pen fill from center round button hover effect with css by Cho seokgyu (@ezaurum) on CodePen. </description>
     </item>
-    
     <item>
       <title>Font Awesome이 적용되지 않았던 문제</title>
       <link>https://ezaurum.com/bug/font-awesome-not-apply/</link>
       <pubDate>Tue, 02 Oct 2018 13:23:21 +0900</pubDate>
-      
       <guid>https://ezaurum.com/bug/font-awesome-not-apply/</guid>
-      <description>문제상황 - font awesome을 버전업 했는데, 아무리 해도 적용이 안 되었다. 되는 곳에서 복사해 온 거였는데.
-원인 - 복사하면서 이전 버전의 font awsome data hash 값을 안 지우고, 새 것에 합쳐져 버렸다. hash값이 안 맞아서 다운로드가 안 되었던 것.
-해결방안 - 지우고 새로 붙여넣었다.
-재발 방지를 위해 - 완전히 지우고 새로 붙여넣자.</description>
+      <description>문제상황 - font awesome을 버전업 했는데, 아무리 해도 적용이 안 되었다. 되는 곳에서 복사해 온 거였는데.&#xA;원인 - 복사하면서 이전 버전의 font awsome data hash 값을 안 지우고, 새 것에 합쳐져 버렸다. hash값이 안 맞아서 다운로드가 안 되었던 것.&#xA;해결방안 - 지우고 새로 붙여넣었다.&#xA;재발 방지를 위해 - 완전히 지우고 새로 붙여넣자.</description>
     </item>
-    
     <item>
       <title>에릭 마이어의 CSS 노하우</title>
       <link>https://ezaurum.com/2011/09/%EC%97%90%EB%A6%AD-%EB%A7%88%EC%9D%B4%EC%96%B4%EC%9D%98-CSS-%EB%85%B8%ED%95%98%EC%9A%B0/</link>
       <pubDate>Sun, 11 Sep 2011 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2011/09/%EC%97%90%EB%A6%AD-%EB%A7%88%EC%9D%B4%EC%96%B4%EC%9D%98-CSS-%EB%85%B8%ED%95%98%EC%9A%B0/</guid>
-      <description>에릭 마이어의 CSS 노하우 - 에릭 마이어 지음, 한선용 옮김/인사이트진짜 순전히 저자 보고 샀다.사고 나서 깨달았는데, 최초로 산 CSS책이다. 그동안 안 본 건 아니지만 내돈으로 구매는 안 했으니까&amp;hellip;
-결론적으로는 돈 값 한다.
-기초를 다시 다지기에도 좋고, 급할 때 펼쳐보는 쿡북 용도로도 좋다.
-CSS3에 대해서도 나와 있지만, 그게 주는 아니다.
-CSS3만 필요하면 다른 책을 사는게 나을지도. 내용이 부실하다는 게 아니라 삐까뻔쩍한 CSS3로 채워져 있지는 않다는 얘기다.
-그리고 CSS 초보(CSS가 뭔지 알고, 글자 색 바꿀 수 있는 정도)가 보기도 충분히 좋다.</description>
+      <description>에릭 마이어의 CSS 노하우 - 에릭 마이어 지음, 한선용 옮김/인사이트&#xD;진짜 순전히 저자 보고 샀다.&#xD;사고 나서 깨달았는데, 최초로 산 CSS책이다. 그동안 안 본 건 아니지만 내돈으로 구매는 안 했으니까&amp;hellip;&#xA;결론적으로는 돈 값 한다.&#xA;기초를 다시 다지기에도 좋고, 급할 때 펼쳐보는 쿡북 용도로도 좋다.&#xA;CSS3에 대해서도 나와 있지만, 그게 주는 아니다.&#xA;CSS3만 필요하면 다른 책을 사는게 나을지도. 내용이 부실하다는 게 아니라 삐까뻔쩍한 CSS3로 채워져 있지는 않다는 얘기다.&#xA;그리고 CSS 초보(CSS가 뭔지 알고, 글자 색 바꿀 수 있는 정도)가 보기도 충분히 좋다.</description>
     </item>
-    
     <item>
       <title>input이나 textarea의 크기가 잘 맞지 않을 때</title>
       <link>https://ezaurum.com/2011/04/input%EC%9D%B4%EB%82%98-textarea%EC%9D%98-%ED%81%AC%EA%B8%B0%EA%B0%80-%EC%9E%98-%EB%A7%9E%EC%A7%80-%EC%95%8A%EC%9D%84-%EB%95%8C/</link>
       <pubDate>Tue, 12 Apr 2011 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2011/04/input%EC%9D%B4%EB%82%98-textarea%EC%9D%98-%ED%81%AC%EA%B8%B0%EA%B0%80-%EC%9E%98-%EB%A7%9E%EC%A7%80-%EC%95%8A%EC%9D%84-%EB%95%8C/</guid>
-      <description>아무리 width를 조정하고 padding, margin, border까지 똑같이 줘도 제대로 사이즈가 맞지 않을 때는,
-box-sizing:border-box; 를 넣어줘 본다. &amp;lt;div style=&amp;ldquo;box-sizing:border-box;width:100px;border:1px solid gray;height:20px;float:left;display:block;&amp;quot;&amp;gt;test&amp;lt;/div&amp;gt; &amp;lt;input type=&amp;ldquo;text&amp;rdquo; style=&amp;ldquo;box-sizing:border-box;width:100px;height:20px;float:left;display:block;&amp;rdquo; value=&amp;ldquo;test&amp;rdquo;/&amp;gt; &amp;lt;textarea style=&amp;ldquo;box-sizing:border-box;width:100px;height:20px;float:left;display:block;&amp;quot;&amp;gt;test&amp;lt;/textarea&amp;gt; testtest
-자세한 것은 다음 링크참조
-chrome같은 경우엔 기본적으로 input[type=&amp;ldquo;text&amp;rdquo;],input[type=&amp;ldquo;button&amp;rdquo;]같은 것들이 box-sizing:border-box로 되어 있는 듯 하다.
-css3 속성이므로 ie에서는 제대로 안 된다.</description>
+      <description>아무리 width를 조정하고 padding, margin, border까지 똑같이 줘도 제대로 사이즈가 맞지 않을 때는,&#xA;box-sizing:border-box; 를 넣어줘 본다. &amp;lt;div style=&amp;ldquo;box-sizing:border-box;width:100px;border:1px solid gray;height:20px;float:left;display:block;&amp;quot;&amp;gt;test&amp;lt;/div&amp;gt; &amp;lt;input type=&amp;ldquo;text&amp;rdquo; style=&amp;ldquo;box-sizing:border-box;width:100px;height:20px;float:left;display:block;&amp;rdquo; value=&amp;ldquo;test&amp;rdquo;/&amp;gt; &amp;lt;textarea style=&amp;ldquo;box-sizing:border-box;width:100px;height:20px;float:left;display:block;&amp;quot;&amp;gt;test&amp;lt;/textarea&amp;gt; test&#xD;test&#xA;자세한 것은 다음 링크참조&#xA;chrome같은 경우엔 기본적으로 input[type=&amp;ldquo;text&amp;rdquo;],input[type=&amp;ldquo;button&amp;rdquo;]같은 것들이 box-sizing:border-box로 되어 있는 듯 하다.&#xA;css3 속성이므로 ie에서는 제대로 안 된다.</description>
     </item>
-    
     <item>
       <title>텍스트로 되어 있는 색상 목록을 치환하기</title>
       <link>https://ezaurum.com/2010/09/%ED%85%8D%EC%8A%A4%ED%8A%B8%EB%A1%9C-%EB%90%98%EC%96%B4-%EC%9E%88%EB%8A%94-%EC%83%89%EC%83%81-%EB%AA%A9%EB%A1%9D%EC%9D%84-%EC%B9%98%ED%99%98%ED%95%98%EA%B8%B0/</link>
       <pubDate>Mon, 20 Sep 2010 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2010/09/%ED%85%8D%EC%8A%A4%ED%8A%B8%EB%A1%9C-%EB%90%98%EC%96%B4-%EC%9E%88%EB%8A%94-%EC%83%89%EC%83%81-%EB%AA%A9%EB%A1%9D%EC%9D%84-%EC%B9%98%ED%99%98%ED%95%98%EA%B8%B0/</guid>
-      <description>다음과 같은 텍스트가 있다.
-#2f4f4f darkslategray 어두운푸른빛회색#708090 slategray 푸른빛회색#778899 lightslategray 밝은푸른빛회색#696969 dimgray 칙칙한회색#808080 gray 회색#a9a9a9 darkgray 어두운회색#c0c0c0 silver 은색#d3d3d3 lightgrey 밝은회색#dcdcdc gainsboro#ffffff white 백색#fff5ee seashell 바다조가비#fffafa snow 설백#f8f8ff ghostwhite 허깨비백색#fffaf0 floralwhite 꽃의백색#f5f5f5 whitesmoke 백색연기#f0f8ff aliceblue 엷은잿빛바탕에푸른빛#f0ffff azure 하늘색#fdf5e6 oldlace 낡은끈#f5fffa mintcream 박하크림#ffefd5 papayawhip 열대아메리카산과수매질#ffdab9 peachpuff 복숭아빛불기#faf0e6 linen 리넨#eee8aa palegoldenrod 옅은국화과의다년초#ffe4e1 mistyrose 짙은장미빛#ffe4b5 moccasin 사슴가죽의구두#ffdead navajowhite 나바호족백색#d2b48c tan 볕에탄빛깔#f5deb3 wheat 밀#fafad2 lightgoldenrodyellow 밝은국화과다년초노랑#ffffe0 lightyellow 밝은노랑#fff8dc cornsilk 옥수수명주실#faebd7 antiquewhite 옛날의백색#f5f5dc beige 엷은갈색#fffacd lemonchiffon 레몬빛가볍고얇은직물#fffff0 ivory 상앗빛#f0e68c khaki 누른빛에엷은다색이섞인빛깔#e6e6fa lavender 연한자주색#fff0f5 lavenderblush 연한자주빛붉기#ffe4c4 bisque 분홍빛이도는검은빛을띤누른빛#ffebcd blanchedalmond 희어진엷은황갈색#deb887 burlywood 튼튼한목재#cd853f peru 남미서부의공화국#00ced1 darkturquoise 어두운푸른빛녹색#00bfff deepskyblue 짙은하늘파랑#7fffd4 aquamarine 엷은푸른빛녹색#1e90ff dodgerblue옥수수빵파랑#00ffff cyan 푸른정도#f0fff0 honeydew 식물의잎에서나는단물#87cefa lightskyblue 밝은하늘파랑#afeeee paleturquoise 옅은푸른빛녹색#e0ffff lightcyan 밝은푸른정도#add8e6 lightblue 밝은파랑#b0c4de lightsteelblue 밝은철강빛파랑#40e0d0 turquoise 푸른빛녹색#48d1cc mediumturquoise 중간의푸른빛녹색#00ffff aqua 엷은푸른빛녹색#7b68ee mediumslateblue 중푸른빛회색파랑#191970 midnightblue 깜깜한파랑#6495ed cornflowerblue 옥수수꽃파랑#0000cd mediumblue 중간의파랑#6a5acd slateblue 푸른빛회색파랑#4682b4 steelblue 철강빛파랑#0000ff blue 파랑#483d8b darkslateblue 어두운푸른빛회색파랑#5f9ea0 cadetblue 이하의파랑#87ceeb skyblue 하늘파랑#4169e1 royalblue 황실의파랑#b0e0e6 powderblue 가루파랑#000080 navy 짙은검은빛을띤남빛#00008b darkblue 어두운파랑#8a2be2 blueviolet 파란제비꽃색#8b008b darkmagenta 어두운짙은분홍색#9932cc darkorchid 어두운연보라색#9400d3 darkviolet 어두운제비꽃색#ff00ff magenta 짙은분홍색#ff00ff fuchsia 붉은빛깔이나는자줏빛#c71585 mediumvioletred 중제비꽃빨강#ba55d3 mediumorchid 중간의연보라색#9370db mediumpurple 중간의자줏빛#dc143c crimson 짙게붉은색깔#ff1493 deeppink 짙은연분홍색#ffb6c1 lightpink 밝은연분홍색#ff69b4 hotpink 강렬한연분홍색#ffc0cb pink 연분홍색#dda0dd plum 짙은 보라색#800080 purple 자줏빛#ee82ee violet 제비꽃색#d8bfd8 thistle 엉겅퀴#da70d6 orchid 연보라색#4b0082 indigo 남색#a52a2a brown 갈색#e9967a darksalmon 어두운주황색#f08080 lightcoral 밝은산호빛#cd5c5c indianred 인디언빨강#ffa07a lightsalmon 밝은주황색#db7093 palevioletred 옅은제비꽃빨강#f4a460 sandybrown 엷은갈색#fa8072 salmon 주황색#ff6347 tomato 토마토색#ff0000 red 빨강#800000 maroon 붉은빛을띤갈색#8b0000 darkred 어두운빨강#b22222 firebrick 내화#d2691e chocolate 갈색#8b4513 saddlebrown 안장갈색#a0522d sienna 붉은빛을띤갈색#bc8f8f rosybrown 장미빛갈색#ff7f50 coral 산호빛#ff8c00 darkorange 어두운붉은빛을띤누른색#ffa500 orange 붉은빛을띤누른색#b8860b darkgoldenrod 어둔운국화과의다년초#ffd700 gold 금빛#ffff00 yellow 노랑#7fff00 chartreuse 연두색#7cfc00 lawngreen 잔디녹색#00ff00 lime 열대산의레몬비슷한과일#32cd32 limegreen 라임녹색#00ff7f springgreen 봄녹색#3cb371 mediumseagreen 중간의바다녹색#adff2f greenyellow 녹색의노랑#8fbc8f darkseagreen 어두운바다녹색#90ee90 lightgreen 밝은녹색#98fb98 palegreen 옅은녹색#2e8b57 seagreen 바다녹색#00fa9a mediumspringgreen 중봄녹색#20b2aa lightseagreen 밝은바다녹색#66cdaa mediumaquamarine 중엷은청록색#228b22 forestgreen 숲녹색#008b8b darkcyan 어두운푸른정도#008080 teal 암록색을띤청색#006400 darkgreen 어두운녹색#556b2f darkolivegreen 어두운올리브녹색#008000 green 녹색#808000 olive 물푸레나뭇과의상록교목#6b8e23 olivedrab 올리브엷은갈색#bdb76b darkkhaki 어두운누른빛에엷은다색#daa520 goldenrod 국화과의다년초기왕 색깔에 대한 설명인 바, 각 색이 바로 보이면 되겠다 싶었다.</description>
+      <description>다음과 같은 텍스트가 있다.&#xA;#2f4f4f darkslategray 어두운푸른빛회색&#xD;#708090 slategray 푸른빛회색&#xD;#778899 lightslategray 밝은푸른빛회색&#xD;#696969 dimgray 칙칙한회색&#xD;#808080 gray 회색&#xD;#a9a9a9 darkgray 어두운회색&#xD;#c0c0c0 silver 은색&#xD;#d3d3d3 lightgrey 밝은회색&#xD;#dcdcdc gainsboro&#xD;#ffffff white 백색&#xD;#fff5ee seashell 바다조가비&#xD;#fffafa snow 설백&#xD;#f8f8ff ghostwhite 허깨비백색&#xD;#fffaf0 floralwhite 꽃의백색&#xD;#f5f5f5 whitesmoke 백색연기&#xD;#f0f8ff aliceblue 엷은잿빛바탕에푸른빛&#xD;#f0ffff azure 하늘색&#xD;#fdf5e6 oldlace 낡은끈&#xD;#f5fffa mintcream 박하크림&#xD;#ffefd5 papayawhip 열대아메리카산과수매질&#xD;#ffdab9 peachpuff 복숭아빛불기&#xD;#faf0e6 linen 리넨&#xD;#eee8aa palegoldenrod 옅은국화과의다년초&#xD;#ffe4e1 mistyrose 짙은장미빛&#xD;#ffe4b5 moccasin 사슴가죽의구두&#xD;#ffdead navajowhite 나바호족백색&#xD;#d2b48c tan 볕에탄빛깔&#xD;#f5deb3 wheat 밀&#xD;#fafad2 lightgoldenrodyellow 밝은국화과다년초노랑&#xD;#ffffe0 lightyellow 밝은노랑&#xD;#fff8dc cornsilk 옥수수명주실&#xD;#faebd7 antiquewhite 옛날의백색&#xD;#f5f5dc beige 엷은갈색&#xD;#fffacd lemonchiffon 레몬빛가볍고얇은직물&#xD;#fffff0 ivory 상앗빛&#xD;#f0e68c khaki 누른빛에엷은다색이섞인빛깔&#xD;#e6e6fa lavender 연한자주색&#xD;#fff0f5 lavenderblush 연한자주빛붉기&#xD;#ffe4c4 bisque 분홍빛이도는검은빛을띤누른빛&#xD;#ffebcd blanchedalmond 희어진엷은황갈색&#xD;#deb887 burlywood 튼튼한목재&#xD;#cd853f peru 남미서부의공화국&#xD;#00ced1 darkturquoise 어두운푸른빛녹색&#xD;#00bfff deepskyblue 짙은하늘파랑&#xD;#7fffd4 aquamarine 엷은푸른빛녹색&#xD;#1e90ff dodgerblue옥수수빵파랑&#xD;#00ffff cyan 푸른정도&#xD;#f0fff0 honeydew 식물의잎에서나는단물&#xD;#87cefa lightskyblue 밝은하늘파랑&#xD;#afeeee paleturquoise 옅은푸른빛녹색&#xD;#e0ffff lightcyan 밝은푸른정도&#xD;#add8e6 lightblue 밝은파랑&#xD;#b0c4de lightsteelblue 밝은철강빛파랑&#xD;#40e0d0 turquoise 푸른빛녹색&#xD;#48d1cc mediumturquoise 중간의푸른빛녹색&#xD;#00ffff aqua 엷은푸른빛녹색&#xD;#7b68ee mediumslateblue 중푸른빛회색파랑&#xD;#191970 midnightblue 깜깜한파랑&#xD;#6495ed cornflowerblue 옥수수꽃파랑&#xD;#0000cd mediumblue 중간의파랑&#xD;#6a5acd slateblue 푸른빛회색파랑&#xD;#4682b4 steelblue 철강빛파랑&#xD;#0000ff blue 파랑&#xD;#483d8b darkslateblue 어두운푸른빛회색파랑&#xD;#5f9ea0 cadetblue 이하의파랑&#xD;#87ceeb skyblue 하늘파랑&#xD;#4169e1 royalblue 황실의파랑&#xD;#b0e0e6 powderblue 가루파랑&#xD;#000080 navy 짙은검은빛을띤남빛&#xD;#00008b darkblue 어두운파랑&#xD;#8a2be2 blueviolet 파란제비꽃색&#xD;#8b008b darkmagenta 어두운짙은분홍색&#xD;#9932cc darkorchid 어두운연보라색&#xD;#9400d3 darkviolet 어두운제비꽃색&#xD;#ff00ff magenta 짙은분홍색&#xD;#ff00ff fuchsia 붉은빛깔이나는자줏빛&#xD;#c71585 mediumvioletred 중제비꽃빨강&#xD;#ba55d3 mediumorchid 중간의연보라색&#xD;#9370db mediumpurple 중간의자줏빛&#xD;#dc143c crimson 짙게붉은색깔&#xD;#ff1493 deeppink 짙은연분홍색&#xD;#ffb6c1 lightpink 밝은연분홍색&#xD;#ff69b4 hotpink 강렬한연분홍색&#xD;#ffc0cb pink 연분홍색&#xD;#dda0dd plum 짙은 보라색&#xD;#800080 purple 자줏빛&#xD;#ee82ee violet 제비꽃색&#xD;#d8bfd8 thistle 엉겅퀴&#xD;#da70d6 orchid 연보라색&#xD;#4b0082 indigo 남색&#xD;#a52a2a brown 갈색&#xD;#e9967a darksalmon 어두운주황색&#xD;#f08080 lightcoral 밝은산호빛&#xD;#cd5c5c indianred 인디언빨강&#xD;#ffa07a lightsalmon 밝은주황색&#xD;#db7093 palevioletred 옅은제비꽃빨강&#xD;#f4a460 sandybrown 엷은갈색&#xD;#fa8072 salmon 주황색&#xD;#ff6347 tomato 토마토색&#xD;#ff0000 red 빨강&#xD;#800000 maroon 붉은빛을띤갈색&#xD;#8b0000 darkred 어두운빨강&#xD;#b22222 firebrick 내화&#xD;#d2691e chocolate 갈색&#xD;#8b4513 saddlebrown 안장갈색&#xD;#a0522d sienna 붉은빛을띤갈색&#xD;#bc8f8f rosybrown 장미빛갈색&#xD;#ff7f50 coral 산호빛&#xD;#ff8c00 darkorange 어두운붉은빛을띤누른색&#xD;#ffa500 orange 붉은빛을띤누른색&#xD;#b8860b darkgoldenrod 어둔운국화과의다년초&#xD;#ffd700 gold 금빛&#xD;#ffff00 yellow 노랑&#xD;#7fff00 chartreuse 연두색&#xD;#7cfc00 lawngreen 잔디녹색&#xD;#00ff00 lime 열대산의레몬비슷한과일&#xD;#32cd32 limegreen 라임녹색&#xD;#00ff7f springgreen 봄녹색&#xD;#3cb371 mediumseagreen 중간의바다녹색&#xD;#adff2f greenyellow 녹색의노랑&#xD;#8fbc8f darkseagreen 어두운바다녹색&#xD;#90ee90 lightgreen 밝은녹색&#xD;#98fb98 palegreen 옅은녹색&#xD;#2e8b57 seagreen 바다녹색&#xD;#00fa9a mediumspringgreen 중봄녹색&#xD;#20b2aa lightseagreen 밝은바다녹색&#xD;#66cdaa mediumaquamarine 중엷은청록색&#xD;#228b22 forestgreen 숲녹색&#xD;#008b8b darkcyan 어두운푸른정도&#xD;#008080 teal 암록색을띤청색&#xD;#006400 darkgreen 어두운녹색&#xD;#556b2f darkolivegreen 어두운올리브녹색&#xD;#008000 green 녹색&#xD;#808000 olive 물푸레나뭇과의상록교목&#xD;#6b8e23 olivedrab 올리브엷은갈색&#xD;#bdb76b darkkhaki 어두운누른빛에엷은다색&#xD;#daa520 goldenrod 국화과의다년초&#xD;기왕 색깔에 대한 설명인 바, 각 색이 바로 보이면 되겠다 싶었다.</description>
     </item>
-    
     <item>
       <title>css img 여백</title>
       <link>https://ezaurum.com/2010/08/css-img-%EC%97%AC%EB%B0%B1/</link>
       <pubDate>Thu, 19 Aug 2010 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2010/08/css-img-%EC%97%AC%EB%B0%B1/</guid>
       <description>img는 inline 글자랑 같다. &amp;lt;img src=&amp;ldquo;xx&amp;rdquo; /&amp;gt; &amp;lt;img src=&amp;ldquo;xx&amp;rdquo; /&amp;gt; &amp;lt;img src=&amp;ldquo;xx&amp;rdquo; /&amp;gt; 이렇게 하면 여백이 생긴다. html이므로, 빈줄은 빈칸으로 취급. &amp;lt;img src=&amp;ldquo;xx&amp;rdquo; /&amp;gt;&amp;lt;img src=&amp;ldquo;xx&amp;rdquo; /&amp;gt;&amp;lt;img src=&amp;ldquo;xx&amp;rdquo; /&amp;gt; 이렇게 하면 안 생긴다.</description>
     </item>
-    
     <item>
       <title>Outline의 처리에 있어 4개 브라우저의 차이</title>
       <link>https://ezaurum.com/2010/08/Outline%EC%9D%98-%EC%B2%98%EB%A6%AC%EC%97%90-%EC%9E%88%EC%96%B4-4%EA%B0%9C-%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%EC%9D%98-%EC%B0%A8%EC%9D%B4/</link>
       <pubDate>Mon, 16 Aug 2010 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2010/08/Outline%EC%9D%98-%EC%B2%98%EB%A6%AC%EC%97%90-%EC%9E%88%EC%96%B4-4%EA%B0%9C-%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%EC%9D%98-%EC%B0%A8%EC%9D%B4/</guid>
-      <description>Chrome - outline을 element와 같이 그린다.(다음 엘리먼트에 가려진다.) outline이 많이 두꺼우면 모서리에 대각선이 보인다.
-IE, opera - outline을 나중에 그린다.(다음 엘리먼트에 가려지지 않는다.) 대각선 없다.
-FF - 내용이 없는 경우, outline을 나중에 그리고, 내용이 있는 경우, outline을 먼저 그린다. img가 block 이 아니므로 width, height안 먹는다.
-&amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;title&amp;gt;&amp;lt;/title&amp;gt; &amp;lt;style&amp;gt; img{ outline:15px solid green; margin:0px; border:20px solid gray; width:150px; height:150px;
-}
-.a1 { border:5px solid red; } .</description>
+      <description>Chrome - outline을 element와 같이 그린다.(다음 엘리먼트에 가려진다.) outline이 많이 두꺼우면 모서리에 대각선이 보인다.&#xA;IE, opera - outline을 나중에 그린다.(다음 엘리먼트에 가려지지 않는다.) 대각선 없다.&#xA;FF - 내용이 없는 경우, outline을 나중에 그리고, 내용이 있는 경우, outline을 먼저 그린다. img가 block 이 아니므로 width, height안 먹는다.&#xA;&amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;title&amp;gt;&amp;lt;/title&amp;gt; &amp;lt;style&amp;gt; img{ outline:15px solid green; margin:0px; border:20px solid gray; width:150px; height:150px;&#xA;}&#xA;.a1 { border:5px solid red; } .</description>
     </item>
-    
     <item>
       <title>CSS옆으로 누운 品자형 만들기</title>
       <link>https://ezaurum.com/2010/07/CSS%EC%98%86%EC%9C%BC%EB%A1%9C-%EB%88%84%EC%9A%B4-%E5%93%81%EC%9E%90%ED%98%95-%EB%A7%8C%EB%93%A4%EA%B8%B0/</link>
       <pubDate>Fri, 30 Jul 2010 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2010/07/CSS%EC%98%86%EC%9C%BC%EB%A1%9C-%EB%88%84%EC%9A%B4-%E5%93%81%EC%9E%90%ED%98%95-%EB%A7%8C%EB%93%A4%EA%B8%B0/</guid>
-      <description>옆으로 누운 品자형 만들기 이런 걸 만들려고 한다.
-방안 1 -div를 3개만 쓰는 경우 &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;style&amp;gt; div{ margin:0px; float:left; background:gray; height:20px; }
-#first {height:40px;}
-#second{ width:140px; background:green; }
-#last{ width:140px;
-position:relative; left:-140px; top:20px;
-background:yellow; } &amp;lt;/style&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt;
-길다란 가변형 문자열고정폭/고정높이고정폭&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;문제점 - 부모 element가 보이는 것보다 좀 더-div#last의 폭이 추가된만큼- 커야 한다.방안 2 -div를 4개 쓰는 경우, 즉 부모 엘리먼트를 하나 두는 경우 &amp;lt;!</description>
+      <description>옆으로 누운 品자형 만들기 이런 걸 만들려고 한다.&#xA;방안 1 -div를 3개만 쓰는 경우 &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;style&amp;gt; div{ margin:0px; float:left; background:gray; height:20px; }&#xA;#first {height:40px;}&#xA;#second{ width:140px; background:green; }&#xA;#last{ width:140px;&#xA;position:relative; left:-140px; top:20px;&#xA;background:yellow; } &amp;lt;/style&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt;&#xA;길다란 가변형 문자열&#xD;고정폭/고정높이&#xD;고정폭&#xD;&amp;lt;/body&amp;gt;&#xD;&amp;lt;/html&amp;gt;&#xD;문제점 - 부모 element가 보이는 것보다 좀 더-div#last의 폭이 추가된만큼- 커야 한다.&#xD;방안 2 -div를 4개 쓰는 경우, 즉 부모 엘리먼트를 하나 두는 경우 &amp;lt;!</description>
     </item>
-    
     <item>
       <title>성과물 2010년 5월 말</title>
       <link>https://ezaurum.com/2010/05/%EC%84%B1%EA%B3%BC%EB%AC%BC-2010%EB%85%84-5%EC%9B%94-%EB%A7%90/</link>
       <pubDate>Sun, 30 May 2010 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2010/05/%EC%84%B1%EA%B3%BC%EB%AC%BC-2010%EB%85%84-5%EC%9B%94-%EB%A7%90/</guid>
-      <description>이미 있는 홈페이지의 예약 화면 변경.
-id를 입력하면 ajax를 이용하여 사용자 이름과 나이를 알아내고-개인정보 유출이겠지만 몰라-나이가 많은 경우, 시력이 안 좋은 사람을 위한 특대크기 폰트 적용.
-이유는 잘 알 수 없지만 화상 키보드도 구현. jQuery와 css 를 활용. 하지만 이미지로 덕지덕지해서 접근성 나쁨.
-소요시간은 거의 3주. 대부분은 쓸데없는 디자인 태클.
-로직에 대한 소요시간 총 사흘 정도. 한글 인코딩 문제 때문에 하루 잡아먹음.
-소득 jQuery에 대한 연습이 되었음. 특히 ajax. xml과 데이터 직렬화에 대한 이해.</description>
+      <description>이미 있는 홈페이지의 예약 화면 변경.&#xA;id를 입력하면 ajax를 이용하여 사용자 이름과 나이를 알아내고-개인정보 유출이겠지만 몰라-나이가 많은 경우, 시력이 안 좋은 사람을 위한 특대크기 폰트 적용.&#xA;이유는 잘 알 수 없지만 화상 키보드도 구현. jQuery와 css 를 활용. 하지만 이미지로 덕지덕지해서 접근성 나쁨.&#xA;소요시간은 거의 3주. 대부분은 쓸데없는 디자인 태클.&#xA;로직에 대한 소요시간 총 사흘 정도. 한글 인코딩 문제 때문에 하루 잡아먹음.&#xA;소득 jQuery에 대한 연습이 되었음. 특히 ajax. xml과 데이터 직렬화에 대한 이해.</description>
     </item>
-    
     <item>
       <title>성과물 2010년 4월 초</title>
       <link>https://ezaurum.com/2010/05/%EC%84%B1%EA%B3%BC%EB%AC%BC-2010%EB%85%84-4%EC%9B%94-%EC%B4%88/</link>
       <pubDate>Wed, 05 May 2010 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2010/05/%EC%84%B1%EA%B3%BC%EB%AC%BC-2010%EB%85%84-4%EC%9B%94-%EC%B4%88/</guid>
-      <description>전시용 홈페이지 제작 JSP로 막 발랐음. 실 제작기간 - 한나절. 4-5시간 가량. 게시판류는 있는 것을 모두 iframe으로 가져다 씀. 만든 것은 메뉴를 class로 만들어서 추가, 삭제가 용의하게 한 부분 뿐. 실 작업시간의 대부분은 CSS노가다. 메인 네비게이션은 다른쪽에서 flash로 만들어 줌. 디자인도 거기서 해 줬음.
-소득 JSP 내부에서 클래스를 생성하면 그 안의 어트리뷰트들은 모두 public이다. css도 framework나 그 비슷한 틀 짜는 사이트 등을 활용하는 게 좋겠다. struts2를 좀 연습해 뒀으면 더 빨리 했을텐데.</description>
+      <description>전시용 홈페이지 제작 JSP로 막 발랐음. 실 제작기간 - 한나절. 4-5시간 가량. 게시판류는 있는 것을 모두 iframe으로 가져다 씀. 만든 것은 메뉴를 class로 만들어서 추가, 삭제가 용의하게 한 부분 뿐. 실 작업시간의 대부분은 CSS노가다. 메인 네비게이션은 다른쪽에서 flash로 만들어 줌. 디자인도 거기서 해 줬음.&#xA;소득 JSP 내부에서 클래스를 생성하면 그 안의 어트리뷰트들은 모두 public이다. css도 framework나 그 비슷한 틀 짜는 사이트 등을 활용하는 게 좋겠다. struts2를 좀 연습해 뒀으면 더 빨리 했을텐데.</description>
     </item>
-    
     <item>
       <title>CSS의 힘</title>
       <link>https://ezaurum.com/2009/02/CSS%EC%9D%98-%ED%9E%98/</link>
       <pubDate>Wed, 11 Feb 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2009/02/CSS%EC%9D%98-%ED%9E%98/</guid>
       <description>어디서 찾았는지 기억이 안 나지만, CSS의 위력을 보여주는 gif </description>
     </item>
-    
     <item>
       <title>이것이 공부다</title>
       <link>https://ezaurum.com/2009/02/%EC%9D%B4%EA%B2%83%EC%9D%B4-%EA%B3%B5%EB%B6%80%EB%8B%A4/</link>
       <pubDate>Thu, 05 Feb 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2009/02/%EC%9D%B4%EA%B2%83%EC%9D%B4-%EA%B3%B5%EB%B6%80%EB%8B%A4/</guid>
       <description>Sexy CSS tips 주의집중을 매우 효율적으로 이끌어내는 물건 내용에도 충실하다.</description>
     </item>
-    
     <item>
       <title>세상엔 좋은 사람들이 참 많다.</title>
       <link>https://ezaurum.com/2008/03/%EC%84%B8%EC%83%81%EC%97%94-%EC%A2%8B%EC%9D%80-%EC%82%AC%EB%9E%8C%EB%93%A4%EC%9D%B4-%EC%B0%B8-%EB%A7%8E%EB%8B%A4./</link>
       <pubDate>Fri, 07 Mar 2008 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2008/03/%EC%84%B8%EC%83%81%EC%97%94-%EC%A2%8B%EC%9D%80-%EC%82%AC%EB%9E%8C%EB%93%A4%EC%9D%B4-%EC%B0%B8-%EB%A7%8E%EB%8B%A4./</guid>
       <description>무료 웹사이트 템플릿 사이트를 모아놓은 곳 나 같은 디자인盲 에게는 그저 감사할 따름</description>
     </item>
-    
   </channel>
 </rss>

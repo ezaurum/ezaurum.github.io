@@ -7,96 +7,70 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Sun, 24 Nov 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://ezaurum.com/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 24 Nov 2013 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ezaurum.com/tags/git/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>.gitconfig 설정</title>
       <link>https://ezaurum.com/2013/11/.gitconfig-%EC%84%A4%EC%A0%95/</link>
       <pubDate>Sun, 24 Nov 2013 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2013/11/.gitconfig-%EC%84%A4%EC%A0%95/</guid>
-      <description>지금 쓰는 설정 백업용
-[user]name = 이름email = 메일[color]ui = true[alias]ci = commitundo = resets = statusco = checkouta = add[core]editor = vi[merge]tool = vimdiff[diff]algorithm = patience[push]default = simple색은 칼라로 나오는 게 좋고, alias는 한 자라도 덜 치려면 꼭 해 두는 게 좋다.</description>
+      <description>지금 쓰는 설정 백업용&#xA;[user]&#xD;name = 이름&#xD;email = 메일&#xD;[color]&#xD;ui = true&#xD;[alias]&#xD;ci = commit&#xD;undo = reset&#xD;s = status&#xD;co = checkout&#xD;a = add&#xD;[core]&#xD;editor = vi&#xD;[merge]&#xD;tool = vimdiff&#xD;[diff]&#xD;algorithm = patience&#xD;[push]&#xD;default = simple&#xD;색은 칼라로 나오는 게 좋고, alias는 한 자라도 덜 치려면 꼭 해 두는 게 좋다.&#xD;</description>
     </item>
-    
     <item>
       <title>git 현재 날짜로 번들 만들어서 지정 디렉토리로 이동하는 스크립트</title>
       <link>https://ezaurum.com/2013/11/git-%ED%98%84%EC%9E%AC-%EB%82%A0%EC%A7%9C%EB%A1%9C-%EB%B2%88%EB%93%A4-%EB%A7%8C%EB%93%A4%EC%96%B4%EC%84%9C-%EC%A7%80%EC%A0%95-%EB%94%94%EB%A0%89%ED%86%A0%EB%A6%AC%EB%A1%9C-%EC%9D%B4%EB%8F%99%ED%95%98%EB%8A%94-%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8/</link>
       <pubDate>Sun, 24 Nov 2013 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2013/11/git-%ED%98%84%EC%9E%AC-%EB%82%A0%EC%A7%9C%EB%A1%9C-%EB%B2%88%EB%93%A4-%EB%A7%8C%EB%93%A4%EC%96%B4%EC%84%9C-%EC%A7%80%EC%A0%95-%EB%94%94%EB%A0%89%ED%86%A0%EB%A6%AC%EB%A1%9C-%EC%9D%B4%EB%8F%99%ED%95%98%EB%8A%94-%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8/</guid>
       <description>date +%Y%m%d | xargs -i{} git bundle create {}.bundle &amp;ndash;all ; mv *.bundle [대상 디렉토리]</description>
     </item>
-    
     <item>
       <title>Git에서 특정파일 임시로 커밋내역에서 제외하기</title>
       <link>https://ezaurum.com/2013/11/Git%EC%97%90%EC%84%9C-%ED%8A%B9%EC%A0%95%ED%8C%8C%EC%9D%BC-%EC%9E%84%EC%8B%9C%EB%A1%9C-%EC%BB%A4%EB%B0%8B%EB%82%B4%EC%97%AD%EC%97%90%EC%84%9C-%EC%A0%9C%EC%99%B8%ED%95%98%EA%B8%B0/</link>
       <pubDate>Sun, 24 Nov 2013 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2013/11/Git%EC%97%90%EC%84%9C-%ED%8A%B9%EC%A0%95%ED%8C%8C%EC%9D%BC-%EC%9E%84%EC%8B%9C%EB%A1%9C-%EC%BB%A4%EB%B0%8B%EB%82%B4%EC%97%AD%EC%97%90%EC%84%9C-%EC%A0%9C%EC%99%B8%ED%95%98%EA%B8%B0/</guid>
-      <description>출처 http://blog.outsider.ne.kr/817 스택오버플로우 FallenGameR&amp;rsquo;s blog Unity3D로 공동작업을 하다 보면 meta파일이 많이 생기고, 뭐 잠깐 이쪽에서 고쳐보고 싶은데 하던 작업 중에 일부는 또 올려야 할 때가 있고해서 골치 아플 때 유용함. local 에만 적용해야 하는 환경파일 수정할 때도 유용
-리모트 파일이 바뀌어서 pull을 할 때 주의점 기본적으로 컨플릭트가 나고, 해결 방법이 다르다
-assumed-unchanged - stash 가능하지만, stash 하면 데이터 날아감 skip-worktree - stash 불가능, 플래그 꺼 줘야 함 git reset --hard를 하는 경우 주의점 결국 둘 다 파일은 바뀐다.</description>
+      <description>출처 http://blog.outsider.ne.kr/817 스택오버플로우 FallenGameR&amp;rsquo;s blog Unity3D로 공동작업을 하다 보면 meta파일이 많이 생기고, 뭐 잠깐 이쪽에서 고쳐보고 싶은데 하던 작업 중에 일부는 또 올려야 할 때가 있고해서 골치 아플 때 유용함. local 에만 적용해야 하는 환경파일 수정할 때도 유용&#xA;리모트 파일이 바뀌어서 pull을 할 때 주의점 기본적으로 컨플릭트가 나고, 해결 방법이 다르다&#xA;assumed-unchanged - stash 가능하지만, stash 하면 데이터 날아감 skip-worktree - stash 불가능, 플래그 꺼 줘야 함 git reset --hard를 하는 경우 주의점 결국 둘 다 파일은 바뀐다.</description>
     </item>
-    
     <item>
       <title>소스트리 사용시 저장소 접근 키를 자동으로 로드하게 하기</title>
       <link>https://ezaurum.com/2013/11/%EC%86%8C%EC%8A%A4%ED%8A%B8%EB%A6%AC-%EC%82%AC%EC%9A%A9%EC%8B%9C-%EC%A0%80%EC%9E%A5%EC%86%8C-%EC%A0%91%EA%B7%BC-%ED%82%A4%EB%A5%BC-%EC%9E%90%EB%8F%99%EC%9C%BC%EB%A1%9C-%EB%A1%9C%EB%93%9C%ED%95%98%EA%B2%8C-%ED%95%98%EA%B8%B0/</link>
       <pubDate>Sun, 24 Nov 2013 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2013/11/%EC%86%8C%EC%8A%A4%ED%8A%B8%EB%A6%AC-%EC%82%AC%EC%9A%A9%EC%8B%9C-%EC%A0%80%EC%9E%A5%EC%86%8C-%EC%A0%91%EA%B7%BC-%ED%82%A4%EB%A5%BC-%EC%9E%90%EB%8F%99%EC%9C%BC%EB%A1%9C-%EB%A1%9C%EB%93%9C%ED%95%98%EA%B2%8C-%ED%95%98%EA%B8%B0/</guid>
       <description>http://blog.shvetsov.com/2010/03/making-pageant-automatically-load-keys.html 소스트리도 pageant를 이용하므로 이거와 같은 방식으로 하면 된다.</description>
     </item>
-    
     <item>
       <title>커밋된 xml 파일을 특정 디렉토리로 복사하기</title>
       <link>https://ezaurum.com/2013/08/%EC%BB%A4%EB%B0%8B%EB%90%9C-xml-%ED%8C%8C%EC%9D%BC%EC%9D%84-%ED%8A%B9%EC%A0%95-%EB%94%94%EB%A0%89%ED%86%A0%EB%A6%AC%EB%A1%9C-%EB%B3%B5%EC%82%AC%ED%95%98%EA%B8%B0/</link>
       <pubDate>Sat, 24 Aug 2013 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2013/08/%EC%BB%A4%EB%B0%8B%EB%90%9C-xml-%ED%8C%8C%EC%9D%BC%EC%9D%84-%ED%8A%B9%EC%A0%95-%EB%94%94%EB%A0%89%ED%86%A0%EB%A6%AC%EB%A1%9C-%EB%B3%B5%EC%82%AC%ED%95%98%EA%B8%B0/</guid>
       <description>git log -1 HEAD &amp;ndash;name-only &amp;ndash;oneline | grep .xml$ | xargs -i cp {} ~/changes/xml</description>
     </item>
-    
     <item>
       <title>jenkins-git 연동시 주의점</title>
       <link>https://ezaurum.com/2013/05/jenkins-git-%EC%97%B0%EB%8F%99%EC%8B%9C-%EC%A3%BC%EC%9D%98%EC%A0%90/</link>
       <pubDate>Mon, 20 May 2013 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2013/05/jenkins-git-%EC%97%B0%EB%8F%99%EC%8B%9C-%EC%A3%BC%EC%9D%98%EC%A0%90/</guid>
       <description>git 서버에 public 키를 추가할 때, jenkins 유저로 들어가서 추가해야 함.</description>
     </item>
-    
     <item>
       <title>scp만으로 git 서버에 key여럿 추가하기</title>
       <link>https://ezaurum.com/2013/05/scp%EB%A7%8C%EC%9C%BC%EB%A1%9C-git-%EC%84%9C%EB%B2%84%EC%97%90-key%EC%97%AC%EB%9F%BF-%EC%B6%94%EA%B0%80%ED%95%98%EA%B8%B0/</link>
       <pubDate>Mon, 20 May 2013 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2013/05/scp%EB%A7%8C%EC%9C%BC%EB%A1%9C-git-%EC%84%9C%EB%B2%84%EC%97%90-key%EC%97%AC%EB%9F%BF-%EC%B6%94%EA%B0%80%ED%95%98%EA%B8%B0/</guid>
       <description>출처 역시 누군가 뭘 해 놨을 줄 알았어. 다 필요 없는 짓이었다. ssh-copy-id 라는 명령어가&amp;hellip; OTL&amp;hellip; 역시 무식하면 몸이 고생. scp file_name user@182.213.312.122:path 다 하고 나면 보안을 위해 파일 권한이 600으로 되어 있는지 확인할 것 그 외 ssh에 대한 참고 링크</description>
     </item>
-    
     <item>
       <title>Sourcetree 에서 access right 에러</title>
       <link>https://ezaurum.com/2013/04/Sourcetree-%EC%97%90%EC%84%9C-access-right-%EC%97%90%EB%9F%AC/</link>
       <pubDate>Tue, 23 Apr 2013 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2013/04/Sourcetree-%EC%97%90%EC%84%9C-access-right-%EC%97%90%EB%9F%AC/</guid>
-      <description>windows용 sourcetree는 개인키를 ppk파일로 지정해 줘야 한다. 그러니 git이 잘 돌아가고 있더라도 그대로는 저장소에 접근도 안 된다.
-그러니 tool 메뉴에서 Create or import SSH keys를 선택하면 putty 키 생성기가 뜨는데, 거기서 Conversions 메뉴의 Import key를 선택한다. git이 사용하는 개인키를 선택해서 불러오고, save private keyy를 이용해서 ppk파일을 저장해준다.
-다시 tool 메뉴에서 Launch SSH Agent를 클릭하면 ppk 파일을 지정하게 되고 그러면 문제는 모두 해결.
-참고 링크</description>
+      <description>windows용 sourcetree는 개인키를 ppk파일로 지정해 줘야 한다. 그러니 git이 잘 돌아가고 있더라도 그대로는 저장소에 접근도 안 된다.&#xA;그러니 tool 메뉴에서 Create or import SSH keys를 선택하면 putty 키 생성기가 뜨는데, 거기서 Conversions 메뉴의 Import key를 선택한다. git이 사용하는 개인키를 선택해서 불러오고, save private keyy를 이용해서 ppk파일을 저장해준다.&#xA;다시 tool 메뉴에서 Launch SSH Agent를 클릭하면 ppk 파일을 지정하게 되고 그러면 문제는 모두 해결.&#xA;참고 링크</description>
     </item>
-    
     <item>
       <title>가상머신에 서버 셋팅 하고 나니까 깨달았는데...</title>
       <link>https://ezaurum.com/2012/11/%EA%B0%80%EC%83%81%EB%A8%B8%EC%8B%A0%EC%97%90-%EC%84%9C%EB%B2%84-%EC%85%8B%ED%8C%85-%ED%95%98%EA%B3%A0-%EB%82%98%EB%8B%88%EA%B9%8C-%EA%B9%A8%EB%8B%AC%EC%95%98%EB%8A%94%EB%8D%B0.../</link>
       <pubDate>Sun, 25 Nov 2012 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2012/11/%EA%B0%80%EC%83%81%EB%A8%B8%EC%8B%A0%EC%97%90-%EC%84%9C%EB%B2%84-%EC%85%8B%ED%8C%85-%ED%95%98%EA%B3%A0-%EB%82%98%EB%8B%88%EA%B9%8C-%EA%B9%A8%EB%8B%AC%EC%95%98%EB%8A%94%EB%8D%B0.../</guid>
-      <description>나 왜 라즈베리 파이를 놀려두고 있었지.. OTL&amp;hellip;
-&amp;hellip;그래서 오늘 밤은 거기다 다시 셋팅해야&amp;hellip; OTL&amp;hellip;
-일단 할 거 목록을 적으면&amp;hellip;
-라즈베리 파이에 필요한 것들을 깐다. - 기본 설정은 되어 있으니 apt-get으로 대충...nexus - 지난 주에 배웠으니 어디...git - github는 public이라.. 거기 돈을 내고 private을 할까 이거 전기세가 쌀까 생각중...jenkins - 음.. 어디 한 번...gradle - 어디 써 보자..ftp - 혹시나.아무거나 빌드해서 올려본다 - 되는가 test 해 봄리셋해도 바뀌지 않도록 각 PC의 내부 IP를 고정한다.</description>
+      <description>나 왜 라즈베리 파이를 놀려두고 있었지.. OTL&amp;hellip;&#xA;&amp;hellip;그래서 오늘 밤은 거기다 다시 셋팅해야&amp;hellip; OTL&amp;hellip;&#xA;일단 할 거 목록을 적으면&amp;hellip;&#xA;라즈베리 파이에 필요한 것들을 깐다. - 기본 설정은 되어 있으니 apt-get으로 대충...&#xD;nexus - 지난 주에 배웠으니 어디...&#xD;git - github는 public이라.. 거기 돈을 내고 private을 할까 이거 전기세가 쌀까 생각중...&#xD;jenkins - 음.. 어디 한 번...&#xD;gradle - 어디 써 보자..&#xD;ftp - 혹시나.&#xD;아무거나 빌드해서 올려본다 - 되는가 test 해 봄&#xD;리셋해도 바뀌지 않도록 각 PC의 내부 IP를 고정한다.</description>
     </item>
-    
   </channel>
 </rss>

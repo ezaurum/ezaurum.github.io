@@ -7,44 +7,35 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Wed, 05 Sep 2012 00:00:00 +0000</lastBuildDate><atom:link href="https://ezaurum.com/tags/%EB%B8%94%EB%A1%9C%EA%B7%B8/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 05 Sep 2012 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ezaurum.com/tags/%EB%B8%94%EB%A1%9C%EA%B7%B8/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>호스팅 만료가 일 주일 남았다</title>
       <link>https://ezaurum.com/2012/09/%ED%98%B8%EC%8A%A4%ED%8C%85-%EB%A7%8C%EB%A3%8C%EA%B0%80-%EC%9D%BC-%EC%A3%BC%EC%9D%BC-%EB%82%A8%EC%95%98%EB%8B%A4/</link>
       <pubDate>Wed, 05 Sep 2012 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2012/09/%ED%98%B8%EC%8A%A4%ED%8C%85-%EB%A7%8C%EB%A3%8C%EA%B0%80-%EC%9D%BC-%EC%A3%BC%EC%9D%BC-%EB%82%A8%EC%95%98%EB%8B%A4/</guid>
       <description>블로그를 아마존으로 옮기고 java로 새로 짜버릴까 하는 생각을 잠깐 했다. 50%이상의 확률로 짜다가 귀찮아져서 던지고 한 일년 정도는 방치되지 않을까 싶지만, 도전을 해 볼까 싶기도 하고&amp;hellip; 아직 확신은 없다. 아마존으로 옮겨도 php는 될 테니 그냥 워드프레스로 옮길 수도 있을 거고&amp;hellip; 하지만 옮기는 것도 만만찮을 것 같기는 한데, 으으으으음&amp;hellip;. 모르겠다. 일단 질러볼까. 주말쯤&amp;hellip;아 주말에 여행가기로 했지. 여튼 해 봐야겠다. 일 주일 뒤에 과연 내가 포스팅을 하고 있을까 ㅋㅋㅋㅋ</description>
     </item>
-    
     <item>
       <title>일하는 곳의 이름을 구글에 문의했다.</title>
       <link>https://ezaurum.com/2010/08/%EC%9D%BC%ED%95%98%EB%8A%94-%EA%B3%B3%EC%9D%98-%EC%9D%B4%EB%A6%84%EC%9D%84-%EA%B5%AC%EA%B8%80%EC%97%90-%EB%AC%B8%EC%9D%98%ED%96%88%EB%8B%A4./</link>
       <pubDate>Mon, 09 Aug 2010 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2010/08/%EC%9D%BC%ED%95%98%EB%8A%94-%EA%B3%B3%EC%9D%98-%EC%9D%B4%EB%A6%84%EC%9D%84-%EA%B5%AC%EA%B8%80%EC%97%90-%EB%AC%B8%EC%9D%98%ED%96%88%EB%8B%A4./</guid>
       <description>어이쿠 선임의 블로그가&amp;hellip; 조심해야겠다.</description>
     </item>
-    
     <item>
       <title>블로그에 손님이 없다</title>
       <link>https://ezaurum.com/2010/04/%EB%B8%94%EB%A1%9C%EA%B7%B8%EC%97%90-%EC%86%90%EB%8B%98%EC%9D%B4-%EC%97%86%EB%8B%A4/</link>
       <pubDate>Tue, 06 Apr 2010 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2010/04/%EB%B8%94%EB%A1%9C%EA%B7%B8%EC%97%90-%EC%86%90%EB%8B%98%EC%9D%B4-%EC%97%86%EB%8B%A4/</guid>
       <description>블로깅이 뜸해지긴 했지만, 있던 글도 있고 하니 유입량이 없을 것 같진 않은데&amp;hellip; 아마도 한글 주소라 그런 모양. 시간이 나면 좀 알아봐야겠다. 정확히는 마음에 여유가 나면이겠지. 벌써 입대한 7개월이다. 다섯달 더 지나면 일 년. 한 번 더 지나면 이 년. 그러면 전역. 시간은 항상 빠르다.</description>
     </item>
-    
     <item>
       <title>리퍼러 플러그인을 설치했다</title>
       <link>https://ezaurum.com/2008/11/%EB%A6%AC%ED%8D%BC%EB%9F%AC-%ED%94%8C%EB%9F%AC%EA%B7%B8%EC%9D%B8%EC%9D%84-%EC%84%A4%EC%B9%98%ED%96%88%EB%8B%A4/</link>
       <pubDate>Sat, 29 Nov 2008 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2008/11/%EB%A6%AC%ED%8D%BC%EB%9F%AC-%ED%94%8C%EB%9F%AC%EA%B7%B8%EC%9D%B8%EC%9D%84-%EC%84%A4%EC%B9%98%ED%96%88%EB%8B%A4/</guid>
-      <description>WassUp 이란 녀석인데, 통계를 분석해 본 결과-통계랄 것도 없이 한 열명 오는 거지만;
-내 블로그의 최고 인기 글은 XP 사용자 계정 비밀번호를 잊었을 때인 것으로 결론.
-음. 올리길 잘 했군. 일단 XP 메인터넌스라든지, 응급 복구 방법이라든지를 조금씩 올려봐야겠다.</description>
+      <description>WassUp 이란 녀석인데, 통계를 분석해 본 결과-통계랄 것도 없이 한 열명 오는 거지만;&#xA;내 블로그의 최고 인기 글은 XP 사용자 계정 비밀번호를 잊었을 때인 것으로 결론.&#xA;음. 올리길 잘 했군. 일단 XP 메인터넌스라든지, 응급 복구 방법이라든지를 조금씩 올려봐야겠다.</description>
     </item>
-    
   </channel>
 </rss>

@@ -7,20 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Mon, 16 Aug 2010 00:00:00 +0000</lastBuildDate><atom:link href="https://ezaurum.com/tags/FF/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 16 Aug 2010 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ezaurum.com/tags/FF/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Outline의 처리에 있어 4개 브라우저의 차이</title>
       <link>https://ezaurum.com/2010/08/Outline%EC%9D%98-%EC%B2%98%EB%A6%AC%EC%97%90-%EC%9E%88%EC%96%B4-4%EA%B0%9C-%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%EC%9D%98-%EC%B0%A8%EC%9D%B4/</link>
       <pubDate>Mon, 16 Aug 2010 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2010/08/Outline%EC%9D%98-%EC%B2%98%EB%A6%AC%EC%97%90-%EC%9E%88%EC%96%B4-4%EA%B0%9C-%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%EC%9D%98-%EC%B0%A8%EC%9D%B4/</guid>
-      <description>Chrome - outline을 element와 같이 그린다.(다음 엘리먼트에 가려진다.) outline이 많이 두꺼우면 모서리에 대각선이 보인다.
-IE, opera - outline을 나중에 그린다.(다음 엘리먼트에 가려지지 않는다.) 대각선 없다.
-FF - 내용이 없는 경우, outline을 나중에 그리고, 내용이 있는 경우, outline을 먼저 그린다. img가 block 이 아니므로 width, height안 먹는다.
-&amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;title&amp;gt;&amp;lt;/title&amp;gt; &amp;lt;style&amp;gt; img{ outline:15px solid green; margin:0px; border:20px solid gray; width:150px; height:150px;
-}
-.a1 { border:5px solid red; } .</description>
+      <description>Chrome - outline을 element와 같이 그린다.(다음 엘리먼트에 가려진다.) outline이 많이 두꺼우면 모서리에 대각선이 보인다.&#xA;IE, opera - outline을 나중에 그린다.(다음 엘리먼트에 가려지지 않는다.) 대각선 없다.&#xA;FF - 내용이 없는 경우, outline을 나중에 그리고, 내용이 있는 경우, outline을 먼저 그린다. img가 block 이 아니므로 width, height안 먹는다.&#xA;&amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;title&amp;gt;&amp;lt;/title&amp;gt; &amp;lt;style&amp;gt; img{ outline:15px solid green; margin:0px; border:20px solid gray; width:150px; height:150px;&#xA;}&#xA;.a1 { border:5px solid red; } .</description>
     </item>
-    
   </channel>
 </rss>

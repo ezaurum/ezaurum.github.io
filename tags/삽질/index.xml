@@ -7,45 +7,35 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Sun, 25 Nov 2012 00:00:00 +0000</lastBuildDate><atom:link href="https://ezaurum.com/tags/%EC%82%BD%EC%A7%88/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 25 Nov 2012 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ezaurum.com/tags/%EC%82%BD%EC%A7%88/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>리눅스 콘솔에서 한글이 안 될 때</title>
       <link>https://ezaurum.com/2012/11/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%BD%98%EC%86%94%EC%97%90%EC%84%9C-%ED%95%9C%EA%B8%80%EC%9D%B4-%EC%95%88-%EB%90%A0-%EB%95%8C/</link>
       <pubDate>Sun, 25 Nov 2012 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2012/11/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%BD%98%EC%86%94%EC%97%90%EC%84%9C-%ED%95%9C%EA%B8%80%EC%9D%B4-%EC%95%88-%EB%90%A0-%EB%95%8C/</guid>
-      <description>locale 값이 다 정상인데 화면에 한글이 다 깨져서 나온다면, 한글이 확실히 되는 OS에서 ssh 등으로 접속해 보라.
-OTL&amp;hellip;. 어차피 ssh로 접속해서만 쓸 건데&amp;hellip; 몇 시간 소모한 거지.</description>
+      <description>locale 값이 다 정상인데 화면에 한글이 다 깨져서 나온다면, 한글이 확실히 되는 OS에서 ssh 등으로 접속해 보라.&#xA;OTL&amp;hellip;. 어차피 ssh로 접속해서만 쓸 건데&amp;hellip; 몇 시간 소모한 거지.</description>
     </item>
-    
     <item>
       <title>삭제될 부분</title>
       <link>https://ezaurum.com/2009/02/%EC%82%AD%EC%A0%9C%EB%90%A0-%EB%B6%80%EB%B6%84/</link>
       <pubDate>Wed, 25 Feb 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2009/02/%EC%82%AD%EC%A0%9C%EB%90%A0-%EB%B6%80%EB%B6%84/</guid>
       <description>“왜 내가 이 생각을 처음부터 못했을까.” 클라우드는 호수를 바라보며 감탄하고 있었다. 건너편에 진지에는 그리폰과 사자가 마주보는 군기가 펄럭였다. 아마 그 진지를 마주하고 술탄의 군대가 포진하고 있을 것이다. “그건 댁이 바보라서 그렇죠. 멍청한 천사님.” 안나는 이 근방의 무희들이 하는 얇은 얼굴 가리개를 하고 있었다. 그는 영화에서 봤던 것처럼 배꼽을 드러내는 짧은 웃옷과 풍성하고 비치는 바지를 입으라고 권했지만 돌아온 것은 싸늘한 시선뿐이었고, 결국 지금은 평범한 바지와 짧은 튜닉 차림이었다. 물론 평범한 바지라고 해도 이 시대의 바지는 그의 기준에서는 타이츠에 가까운 것이라 그녀의 다리를 감상하는 데는 별 문제가 없었다.</description>
     </item>
-    
     <item>
       <title>리눅스 삽질기 - 2 -</title>
       <link>https://ezaurum.com/2008/11/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%82%BD%EC%A7%88%EA%B8%B0-2-/</link>
       <pubDate>Sun, 16 Nov 2008 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2008/11/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%82%BD%EC%A7%88%EA%B8%B0-2-/</guid>
-      <description>지난 번에 리눅스를 깔아놓기만 한 PC가 팔려나가 버려서, 다른 PC에 깔게 되었다. 이번에는 버전업 된 우분투 8.10을 설치. 32비트 버전이다.
-일단 텔넷을 깔아야 하므로 아래의 참고 링크. 설치법 - http://eloid.tistory.com/21 텔넷 포트 바꾸기 - http://rustymind.egloos.com/3310669
-오늘은 여기까지</description>
+      <description>지난 번에 리눅스를 깔아놓기만 한 PC가 팔려나가 버려서, 다른 PC에 깔게 되었다. 이번에는 버전업 된 우분투 8.10을 설치. 32비트 버전이다.&#xA;일단 텔넷을 깔아야 하므로 아래의 참고 링크. 설치법 - http://eloid.tistory.com/21 텔넷 포트 바꾸기 - http://rustymind.egloos.com/3310669&#xA;오늘은 여기까지</description>
     </item>
-    
     <item>
       <title>나라가 미쳐돌아간다</title>
       <link>https://ezaurum.com/2008/08/%EB%82%98%EB%9D%BC%EA%B0%80-%EB%AF%B8%EC%B3%90%EB%8F%8C%EC%95%84%EA%B0%84%EB%8B%A4/</link>
       <pubDate>Tue, 05 Aug 2008 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2008/08/%EB%82%98%EB%9D%BC%EA%B0%80-%EB%AF%B8%EC%B3%90%EB%8F%8C%EC%95%84%EA%B0%84%EB%8B%A4/</guid>
       <description>기사링크 여튼 결론은 나라 꼴 잘 돌아간다. 이걸로 고소라도 들어오려나? 죄목은 뭐지? 각하 모독죄? 아주 지랄을 해요.</description>
     </item>
-    
   </channel>
 </rss>

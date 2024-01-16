@@ -7,15 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Fri, 27 Feb 2009 00:00:00 +0000</lastBuildDate><atom:link href="https://ezaurum.com/tags/%EA%B4%80%EA%B3%84%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 27 Feb 2009 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ezaurum.com/tags/%EA%B4%80%EA%B3%84%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>관계 데이터 베이스의 정규화</title>
       <link>https://ezaurum.com/2009/02/%EA%B4%80%EA%B3%84-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%B2%A0%EC%9D%B4%EC%8A%A4%EC%9D%98-%EC%A0%95%EA%B7%9C%ED%99%94/</link>
       <pubDate>Fri, 27 Feb 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2009/02/%EA%B4%80%EA%B3%84-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%B2%A0%EC%9D%B4%EC%8A%A4%EC%9D%98-%EC%A0%95%EA%B7%9C%ED%99%94/</guid>
       <description>관계 데이터 베이스는 개체-관계 데이터 모델을 기초로 하여 만든 데이터 베이스이다. 나라고 하는 개체(Entity)는 이름, 키, 체중 등의 속성(Attribute)을 가지며, 그것이 나를 구성-표현-정의 한다. 좀 일반화 해 보면, 인간이라는 개체(Entity)는 이름, 키, 체중 등의 속성(Attribute)을 가지며, 그것이 인간을 구성-표현-정의 한다. 인간은 옷과 착용 이라는 관계(relation)로 이어져 있다. 그런데 옷 또한 하나의 개체로 색, 재질, 값 등의 속성을 가지고 있다. 한 옷은 하나의 인간과 착용이라는 관계를 맺지만, 한 인간은 다양한 옷과 관계를 맺을 수 있다.</description>
     </item>
-    
   </channel>
 </rss>

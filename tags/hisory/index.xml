@@ -7,15 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Sat, 19 Jan 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://ezaurum.com/tags/hisory/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 19 Jan 2013 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ezaurum.com/tags/hisory/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CodeColorer 설치</title>
       <link>https://ezaurum.com/2013/01/CodeColorer-%EC%84%A4%EC%B9%98/</link>
       <pubDate>Sat, 19 Jan 2013 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2013/01/CodeColorer-%EC%84%A4%EC%B9%98/</guid>
-      <description>var a;a +=1; alert(a);</description>
+      <description>var a;&#xD;a +=1; alert(a);</description>
     </item>
-    
   </channel>
 </rss>

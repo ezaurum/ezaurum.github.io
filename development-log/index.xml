@@ -1,34 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Development-logs on Ezaurum&#39;s Blog</title>
+    <title>Development-Logs on Ezaurum&#39;s Blog</title>
     <link>https://ezaurum.com/development-log/</link>
-    <description>Recent content in Development-logs on Ezaurum&#39;s Blog</description>
+    <description>Recent content in Development-Logs on Ezaurum&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Thu, 08 Apr 2021 18:34:33 +0900</lastBuildDate><atom:link href="https://ezaurum.com/development-log/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 08 Apr 2021 18:34:33 +0900</lastBuildDate>
+    <atom:link href="https://ezaurum.com/development-log/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>캐릭터 카드에 스타일 입힘</title>
       <link>https://ezaurum.com/development-log/2021-04-08/</link>
       <pubDate>Thu, 08 Apr 2021 18:34:33 +0900</pubDate>
-      
       <guid>https://ezaurum.com/development-log/2021-04-08/</guid>
-      <description>라이브러리 버전 업데이트 일단 오랜만이라 라이브러리를 업데이트 했다.
-캐릭터 카드에 스타일 지정 캐릭터 카드에 스타일을 입혀서 일단 카드로는 보이게 했다. 스테이터스 이름 같은 건 따로 JSON에서 가져와서 보이도록 함</description>
+      <description>라이브러리 버전 업데이트 일단 오랜만이라 라이브러리를 업데이트 했다.&#xA;캐릭터 카드에 스타일 지정 캐릭터 카드에 스타일을 입혀서 일단 카드로는 보이게 했다. 스테이터스 이름 같은 건 따로 JSON에서 가져와서 보이도록 함</description>
     </item>
-    
     <item>
       <title>캐릭터 스테이터스 설정</title>
       <link>https://ezaurum.com/development-log/2021-02-27/</link>
       <pubDate>Sat, 27 Feb 2021 18:34:33 +0900</pubDate>
-      
       <guid>https://ezaurum.com/development-log/2021-02-27/</guid>
-      <description>게임 상태 머신 추가 기본적으로 title -&amp;gt; main 으로 가도록 FSM을 추가했다. 이후에 상태 자체를 클래스로 빼 둘 예정
-글로벌 이벤트 버스 추가 mitt 를 써서 글로벌 이벤트 버스를 사용하기로 결정. 메인 메뉴를 클릭하면 글로벌 이벤트가 발생된다
-메뉴 항목의 데이터 구조 정의 각 메뉴 항목마다 데이터 구조를 정의함
-기본 캐릭터 스테이터스 정의 기본 캐릭터 능력치들을 결정함. 이미 전에 결정된 건데, 클래스 만들고 정리함. 다중지능 이론에서 지능을 설정</description>
+      <description>게임 상태 머신 추가 기본적으로 title -&amp;gt; main 으로 가도록 FSM을 추가했다. 이후에 상태 자체를 클래스로 빼 둘 예정&#xA;글로벌 이벤트 버스 추가 mitt 를 써서 글로벌 이벤트 버스를 사용하기로 결정. 메인 메뉴를 클릭하면 글로벌 이벤트가 발생된다&#xA;메뉴 항목의 데이터 구조 정의 각 메뉴 항목마다 데이터 구조를 정의함&#xA;기본 캐릭터 스테이터스 정의 기본 캐릭터 능력치들을 결정함. 이미 전에 결정된 건데, 클래스 만들고 정리함. 다중지능 이론에서 지능을 설정</description>
     </item>
-    
   </channel>
 </rss>

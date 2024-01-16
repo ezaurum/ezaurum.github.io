@@ -7,25 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Sun, 24 Nov 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://ezaurum.com/tags/network/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 24 Nov 2013 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ezaurum.com/tags/network/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>C# Socket.AcceptAsync에서 invalidOperationException이 날 때</title>
       <link>https://ezaurum.com/2013/11/C#-Socket.AcceptAsync%EC%97%90%EC%84%9C-invalidOperationException%EC%9D%B4-%EB%82%A0-%EB%95%8C/</link>
       <pubDate>Sun, 24 Nov 2013 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2013/11/C#-Socket.AcceptAsync%EC%97%90%EC%84%9C-invalidOperationException%EC%9D%B4-%EB%82%A0-%EB%95%8C/</guid>
       <description>C#에서 소켓 프로그래밍을 할 때, Socket.AcceptAsync로 연결하는데 다음과 같은 예외가 발생했다. System.InvalidOperationException이(가) 처리되지 않았습니다. Message=AcceptSocket: 소켓을 바인딩하거나 연결하면 안 됩니다. 원인은 AcceptAsync이후에 같은 SocketAsyncEventArgs객체를 이용해 계속 Accept를 받으려고 했는데, SocketAsyncEventArgs.AcceptSocket 프로퍼티를 null로 초기화하지 않았기 때문이다. 재사용하려면 AcceptSocket = null;을 넣어줄 것.</description>
     </item>
-    
     <item>
       <title>IP network 주소</title>
       <link>https://ezaurum.com/2010/08/IP-network-%EC%A3%BC%EC%86%8C/</link>
       <pubDate>Tue, 03 Aug 2010 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2010/08/IP-network-%EC%A3%BC%EC%86%8C/</guid>
-      <description>0### ####.xxxx xxxx.xxxx xxxx.xxxx xxxx A class(0-127) 네트워크 2^7 -2개, 각 네트워크마다 호스트 2^24-2개 10## ####.#### ####.xxxx xxxx.xxxx xxxx B class(128-191) 네트워크 2^14-2개, 각 네트워크마다 호스트 2^16-2개 110# ####.#### ####.#### ####.xxxx xxxx C class(192-223) 네트워크 2^21-2개, 각 네트워크마다 호스트 2^8-2개
-각 위치마다 빠지는 두 개는 네트워크부(#로 표시된 것)와 호스트부(x로 표시된 것)0과 1로 채운 2가지. 네트워크부를 모두 0으로 채운 것은 이 네트워크 그 자체를 의미한다고 한다. RFC 791참조 네트워크부를 1로 채운 것은 브로드 캐스트 주소로 쓰인다.</description>
+      <description>0### ####.xxxx xxxx.xxxx xxxx.xxxx xxxx A class(0-127) 네트워크 2^7 -2개, 각 네트워크마다 호스트 2^24-2개 10## ####.#### ####.xxxx xxxx.xxxx xxxx B class(128-191) 네트워크 2^14-2개, 각 네트워크마다 호스트 2^16-2개 110# ####.#### ####.#### ####.xxxx xxxx C class(192-223) 네트워크 2^21-2개, 각 네트워크마다 호스트 2^8-2개&#xA;각 위치마다 빠지는 두 개는 네트워크부(#로 표시된 것)와 호스트부(x로 표시된 것)0과 1로 채운 2가지. 네트워크부를 모두 0으로 채운 것은 이 네트워크 그 자체를 의미한다고 한다. RFC 791참조 네트워크부를 1로 채운 것은 브로드 캐스트 주소로 쓰인다.</description>
     </item>
-    
   </channel>
 </rss>

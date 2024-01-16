@@ -7,29 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Wed, 29 Dec 2010 00:00:00 +0000</lastBuildDate><atom:link href="https://ezaurum.com/tags/%EC%B6%94%EC%B2%9C/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 29 Dec 2010 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ezaurum.com/tags/%EC%B6%94%EC%B2%9C/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>이 책을 권한다</title>
       <link>https://ezaurum.com/2010/12/%EC%9D%B4-%EC%B1%85%EC%9D%84-%EA%B6%8C%ED%95%9C%EB%8B%A4/</link>
       <pubDate>Wed, 29 Dec 2010 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2010/12/%EC%9D%B4-%EC%B1%85%EC%9D%84-%EA%B6%8C%ED%95%9C%EB%8B%A4/</guid>
-      <description>회사에 리눅스 서버를 설치하겠다고 하는 친구 모 군에게 이 책을 권한다. 삽질 열심히 하시기를.
-성공과 실패를 결정하는 1%의 네트워크 원리- 가지고 있어서 문제될 것 없는 책. 1%시리즈는 다 괜찮긴 하지. 서버 구축을 하려면 기본적인 네트워크 원리는 알고 있어야 하니까 꼭 읽어둘 것.
-Unix가 보이는 그림책- 아주 친절한 유닉스/리눅스 입문서. 책장이 숙숙 넘어가서 좋다.
-유닉스 리눅스 명령어 사전 - 이건 안 읽어봤다. 평이 좋더라고.
-실제 구현하는 것은 인터넷 쪽에 자료가 더 많을 듯.</description>
+      <description>회사에 리눅스 서버를 설치하겠다고 하는 친구 모 군에게 이 책을 권한다. 삽질 열심히 하시기를.&#xA;성공과 실패를 결정하는 1%의 네트워크 원리- 가지고 있어서 문제될 것 없는 책. 1%시리즈는 다 괜찮긴 하지. 서버 구축을 하려면 기본적인 네트워크 원리는 알고 있어야 하니까 꼭 읽어둘 것.&#xA;Unix가 보이는 그림책- 아주 친절한 유닉스/리눅스 입문서. 책장이 숙숙 넘어가서 좋다.&#xA;유닉스 리눅스 명령어 사전 - 이건 안 읽어봤다. 평이 좋더라고.&#xA;실제 구현하는 것은 인터넷 쪽에 자료가 더 많을 듯.</description>
     </item>
-    
     <item>
       <title>이 책을 권한다</title>
       <link>https://ezaurum.com/2010/12/%EC%9D%B4-%EC%B1%85%EC%9D%84-%EA%B6%8C%ED%95%9C%EB%8B%A4/</link>
       <pubDate>Mon, 27 Dec 2010 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2010/12/%EC%9D%B4-%EC%B1%85%EC%9D%84-%EA%B6%8C%ED%95%9C%EB%8B%A4/</guid>
-      <description>제멋대로 멍하니 사는 것 같은데 의외로 속 깊은 소리를 곧잘 하는 모 양에게 추천하는 책. 빨리 병이 낫길 바랍니다. 흑흑.
-프로페셔널의 조건 - 자기 계발서라기보다는 피터드러커의 에세이에 가까운 글. 평생 공부하고 사는 사람은 이렇게 생각하고 산다는 점에서 배울 게 많다고 봄. 어설픈 인간이 설교식으로 늘어놓는 소리보다 대가가 자기 살아온 이야기를 해 주는게 훨씬 도움된다고 생각.인간의 마음을 사로잡는 스무가지 플롯 - 실용서에 가까운 물건이라고 생각. 틈날 때마다 읽어주면서 패턴을 파악하려고 하고 있음.</description>
+      <description>제멋대로 멍하니 사는 것 같은데 의외로 속 깊은 소리를 곧잘 하는 모 양에게 추천하는 책. 빨리 병이 낫길 바랍니다. 흑흑.&#xA;프로페셔널의 조건 - 자기 계발서라기보다는 피터드러커의 에세이에 가까운 글. 평생 공부하고 사는 사람은 이렇게 생각하고 산다는 점에서 배울 게 많다고 봄. 어설픈 인간이 설교식으로 늘어놓는 소리보다 대가가 자기 살아온 이야기를 해 주는게 훨씬 도움된다고 생각.&#xD;인간의 마음을 사로잡는 스무가지 플롯 - 실용서에 가까운 물건이라고 생각. 틈날 때마다 읽어주면서 패턴을 파악하려고 하고 있음.</description>
     </item>
-    
   </channel>
 </rss>

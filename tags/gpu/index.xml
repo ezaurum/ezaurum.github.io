@@ -7,16 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Fri, 15 Jun 2012 00:00:00 +0000</lastBuildDate><atom:link href="https://ezaurum.com/tags/gpu/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Jun 2012 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ezaurum.com/tags/gpu/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Opera webGL 활성화</title>
       <link>https://ezaurum.com/2012/06/Opera-webGL-%ED%99%9C%EC%84%B1%ED%99%94/</link>
       <pubDate>Fri, 15 Jun 2012 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2012/06/Opera-webGL-%ED%99%9C%EC%84%B1%ED%99%94/</guid>
-      <description>opera:config#Enable WebGL - 1로 설정 opera:config#Enable Hardware Acceleration - 1로 설정 opera:gpu opera:config#Preferred%20renderer 0 - openGL, 1 - DirectX
-기타 자세한 사항은 여기 참고</description>
+      <description>opera:config#Enable WebGL - 1로 설정 opera:config#Enable Hardware Acceleration - 1로 설정 opera:gpu opera:config#Preferred%20renderer 0 - openGL, 1 - DirectX&#xA;기타 자세한 사항은 여기 참고</description>
     </item>
-    
   </channel>
 </rss>

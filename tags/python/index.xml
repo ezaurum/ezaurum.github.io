@@ -7,15 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Fri, 11 Sep 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://ezaurum.com/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 11 Sep 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ezaurum.com/tags/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>파이썬 DB 입력툴</title>
       <link>https://ezaurum.com/2015/09/%ED%8C%8C%EC%9D%B4%EC%8D%AC-DB-%EC%9E%85%EB%A0%A5%ED%88%B4/</link>
       <pubDate>Fri, 11 Sep 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2015/09/%ED%8C%8C%EC%9D%B4%EC%8D%AC-DB-%EC%9E%85%EB%A0%A5%ED%88%B4/</guid>
       <description>xml 파일 파싱해서 DB에 넣는 간단한 툴. 인터넷 검색에 한시간쯤 걸리고 코딩에 30분은 걸린듯&amp;hellip; 파이썬은 할 때마다 인터넷을 찾아봐야 하는 문제가 있긴 하지만 언제나 결과물이 만족스럽다. https://gist.github.com/ezaurum/61d748130f185c964960.js</description>
     </item>
-    
   </channel>
 </rss>

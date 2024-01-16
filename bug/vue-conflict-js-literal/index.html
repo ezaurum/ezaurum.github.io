@@ -18,33 +18,7 @@
     <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/style.css">
 
-    <meta itemprop="name" content="VueJS 에서 템플릿을 리터럴로 선언 했을 때, 바인딩이 안됨">
-<meta itemprop="description" content="문제상황 - VueJS를 시작하면서, go와 template이 겹쳐서 ${ }로 구분자를 변경해서 작업중이었는데, 이상하게도 한 컴포넌트에서 계속 row 가 undefined라는 에러가 떴음.
-let reserveRow = `&lt;li&gt;${row.reserveName} - ${row.reservePhone}&lt;/li&gt;` 문제 원인 - ${ } 가 ES2016의 템플릿 리터럴에서 사용하는 구분자었다. 그래서 VueJS가 번역하기 전에 JS가 번역해버려서 에러가 났던 것.
-해결방안 - 문서를 꼼꼼히, 그리고 실제로 go template과 겹치는 부분에서만 구분자를 변경하자."><meta itemprop="datePublished" content="2018-05-08T00:16:20+09:00" />
-<meta itemprop="dateModified" content="2018-05-08T00:16:20+09:00" />
-<meta itemprop="wordCount" content="59">
-<meta itemprop="keywords" content="VueJS,JS," />
-    <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="VueJS 에서 템플릿을 리터럴로 선언 했을 때, 바인딩이 안됨"/>
-<meta name="twitter:description" content="문제상황 - VueJS를 시작하면서, go와 template이 겹쳐서 ${ }로 구분자를 변경해서 작업중이었는데, 이상하게도 한 컴포넌트에서 계속 row 가 undefined라는 에러가 떴음.
-let reserveRow = `&lt;li&gt;${row.reserveName} - ${row.reservePhone}&lt;/li&gt;` 문제 원인 - ${ } 가 ES2016의 템플릿 리터럴에서 사용하는 구분자었다. 그래서 VueJS가 번역하기 전에 JS가 번역해버려서 에러가 났던 것.
-해결방안 - 문서를 꼼꼼히, 그리고 실제로 go template과 겹치는 부분에서만 구분자를 변경하자."/>
-
-    <meta property="og:title" content="VueJS 에서 템플릿을 리터럴로 선언 했을 때, 바인딩이 안됨" />
-<meta property="og:description" content="문제상황 - VueJS를 시작하면서, go와 template이 겹쳐서 ${ }로 구분자를 변경해서 작업중이었는데, 이상하게도 한 컴포넌트에서 계속 row 가 undefined라는 에러가 떴음.
-let reserveRow = `&lt;li&gt;${row.reserveName} - ${row.reservePhone}&lt;/li&gt;` 문제 원인 - ${ } 가 ES2016의 템플릿 리터럴에서 사용하는 구분자었다. 그래서 VueJS가 번역하기 전에 JS가 번역해버려서 에러가 났던 것.
-해결방안 - 문서를 꼼꼼히, 그리고 실제로 go template과 겹치는 부분에서만 구분자를 변경하자." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://ezaurum.com/bug/vue-conflict-js-literal/" /><meta property="article:section" content="bug" />
-<meta property="article:published_time" content="2018-05-08T00:16:20+09:00" />
-<meta property="article:modified_time" content="2018-05-08T00:16:20+09:00" />
-
-
-
-    
-
-</head>
+    </head>
 <body>
 
     <header>
@@ -274,11 +248,15 @@ let reserveRow = `&lt;li&gt;${row.reserveName} - ${row.reservePhone}&lt;/li&gt;`
             
         
             
+        
+            
         <li><a href="https://ezaurum.com/bug/ajax-response-is-invalid-but-valid/">AJAX 요청응답이 왔는데 JSON parse에러가 났는데 정상 작동</a></li>
             
         
             
         <li><a href="https://ezaurum.com/bug/not-modified-json-response/">AJAX 요청이 간헐적으로 실패하는 문제</a></li>
+            
+        
             
         
             
@@ -664,7 +642,15 @@ let reserveRow = `&lt;li&gt;${row.reserveName} - ${row.reservePhone}&lt;/li&gt;`
             
         
             
+        
+            
         <li><a href="https://ezaurum.com/bug/gorm-related-bug/">GORM에서 Many To Many 값을 제대로 가져오지 못하는 문제</a></li>
+            
+        
+            
+        
+            
+        
             
         
             
@@ -1682,6 +1668,12 @@ let reserveRow = `&lt;li&gt;${row.reserveName} - ${row.reservePhone}&lt;/li&gt;`
             
         
             
+        
+            
+        
+            
+        
+            
         <li><a href="https://ezaurum.com/bug/gradle-wrapper-version-mismatch/">그래들 래퍼 버전을 잘못 입력 했을 때</a></li>
             
         
@@ -2210,7 +2202,11 @@ let reserveRow = `&lt;li&gt;${row.reserveName} - ${row.reservePhone}&lt;/li&gt;`
             
         
             
+        
+            
         <li><a href="https://ezaurum.com/bug/deploy-bug-not-changed/">배포 이후 변경이 안 되는 문제</a></li>
+            
+        
             
         
             
@@ -3892,7 +3888,7 @@ let reserveRow = `&lt;li&gt;${row.reserveName} - ${row.reservePhone}&lt;/li&gt;`
 
 
     <div id="disqus_thread"></div>
-<script type="application/javascript">
+<script>
     window.disqus_config = function () {
     
     

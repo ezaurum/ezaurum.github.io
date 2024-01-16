@@ -7,15 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Tue, 05 Feb 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://ezaurum.com/tags/spring3/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 05 Feb 2013 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ezaurum.com/tags/spring3/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>부정기 정리</title>
       <link>https://ezaurum.com/2013/02/%EB%B6%80%EC%A0%95%EA%B8%B0-%EC%A0%95%EB%A6%AC/</link>
       <pubDate>Tue, 05 Feb 2013 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2013/02/%EB%B6%80%EC%A0%95%EA%B8%B0-%EC%A0%95%EB%A6%AC/</guid>
-      <description>크롬의 navigator.userAgent 값에는 Safari가 들어가 있다. webkit엔진이라 그런가?톰캣은 jstl라이브러리를 제공하지 않는다. http://stackoverflow.com/tags/jstl/info스프링에서 파라마터로 list를 받아오려면 static class TagList extends ArrayList { } - 내부 클래스로 선언할 경우, static을 붙여줘야 jackson에서 인식을 해 준다.backbone.js은 DOM 구조만 건드린다. knockout.js은 template 포함. 한방에 할 수 있는 솔루션 그런고로 경량 vs 좀 무거움.게임이나 어디든 패킷 기록, 재생기는 필수!어쨌든 독립 웹요청 테스트가 가능해야 함!레거시 코드를 건드릴 때는 최대한 그대로 옮기자.</description>
+      <description>크롬의 navigator.userAgent 값에는 Safari가 들어가 있다. webkit엔진이라 그런가?&#xD;톰캣은 jstl라이브러리를 제공하지 않는다. http://stackoverflow.com/tags/jstl/info&#xD;스프링에서 파라마터로 list를 받아오려면 static class TagList extends ArrayList { } - 내부 클래스로 선언할 경우, static을 붙여줘야 jackson에서 인식을 해 준다.&#xD;backbone.js은 DOM 구조만 건드린다. knockout.js은 template 포함. 한방에 할 수 있는 솔루션 그런고로 경량 vs 좀 무거움.&#xD;게임이나 어디든 패킷 기록, 재생기는 필수!&#xD;어쨌든 독립 웹요청 테스트가 가능해야 함!&#xD;레거시 코드를 건드릴 때는 최대한 그대로 옮기자.</description>
     </item>
-    
   </channel>
 </rss>

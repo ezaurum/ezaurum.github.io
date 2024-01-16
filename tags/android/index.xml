@@ -7,15 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Tue, 25 Dec 2012 00:00:00 +0000</lastBuildDate><atom:link href="https://ezaurum.com/tags/android/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 25 Dec 2012 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ezaurum.com/tags/android/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>안드로이드 AVD config 관련 에러 처리</title>
       <link>https://ezaurum.com/2012/12/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C-AVD-config-%EA%B4%80%EB%A0%A8-%EC%97%90%EB%9F%AC-%EC%B2%98%EB%A6%AC/</link>
       <pubDate>Tue, 25 Dec 2012 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2012/12/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C-AVD-config-%EA%B4%80%EB%A0%A8-%EC%97%90%EB%9F%AC-%EC%B2%98%EB%A6%AC/</guid>
       <description>PANIC: Could not open AVD config file: homedirectory.androidavdMyAvd0.avdconfig.ini 메세지의 경우, avdMyAvd.ini 를 열어서 ansi로 그냥 저장하면 된다. 왜 그런지는 모르겠음. 참고 링크</description>
     </item>
-    
   </channel>
 </rss>

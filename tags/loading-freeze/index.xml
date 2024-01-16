@@ -7,15 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Thu, 09 May 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://ezaurum.com/tags/loading-freeze/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 09 May 2013 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ezaurum.com/tags/loading-freeze/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>sts가 로딩시 뻗을 때</title>
       <link>https://ezaurum.com/2013/05/sts%EA%B0%80-%EB%A1%9C%EB%94%A9%EC%8B%9C-%EB%BB%97%EC%9D%84-%EB%95%8C/</link>
       <pubDate>Thu, 09 May 2013 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2013/05/sts%EA%B0%80-%EB%A1%9C%EB%94%A9%EC%8B%9C-%EB%BB%97%EC%9D%84-%EB%95%8C/</guid>
       <description>STS나 이클립스가 로딩시 뻗을 때, loading workbench에서 뻗었다. [Workspace Directory]/.metadata/.plugins/org.eclipse.core.resources/.snap 을 지워줄 것.</description>
     </item>
-    
   </channel>
 </rss>

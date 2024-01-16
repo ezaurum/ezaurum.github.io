@@ -7,16 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Sat, 04 Apr 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://ezaurum.com/tags/hosting/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 04 Apr 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ezaurum.com/tags/hosting/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>bitbucket으로 정적 페이지 호스팅하기</title>
       <link>https://ezaurum.com/2015/04/bitbucket%EC%9C%BC%EB%A1%9C-%EC%A0%95%EC%A0%81-%ED%8E%98%EC%9D%B4%EC%A7%80-%ED%98%B8%EC%8A%A4%ED%8C%85%ED%95%98%EA%B8%B0/</link>
       <pubDate>Sat, 04 Apr 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2015/04/bitbucket%EC%9C%BC%EB%A1%9C-%EC%A0%95%EC%A0%81-%ED%8E%98%EC%9D%B4%EC%A7%80-%ED%98%B8%EC%8A%A4%ED%8C%85%ED%95%98%EA%B8%B0/</guid>
-      <description>github에서 쉽게 사용할 수 있는 기능(참고 페이지)인데, bitbucket에서도 쓸 수 있다. 호스팅만 할 건데 따로 뭐 서비스 신청하기 뭣하고 해서&amp;hellip; 일단 공식 설명서가 있는데 필요한 부분만 발췌해서 간단히 한다.
-일단 Bitbucket에 사용자이름.bitbucket.org 라는 이름으로 리포지토리를 만든다. 이 규칙을 꼭 지켜줘야 한다.만든 페이지의 remote 저장소를 bitbucket으로 연결해준다. git remote add origin git@bitbucket:유저이름/유저이름.bitbucket.org.git푸시하고 유저이름.bitbucket.org 으로 가서 확인Bitbucket에서는 커스텀 도메인을 쓸 수 없다. 그냥 github를 쓰자.</description>
+      <description>github에서 쉽게 사용할 수 있는 기능(참고 페이지)인데, bitbucket에서도 쓸 수 있다. 호스팅만 할 건데 따로 뭐 서비스 신청하기 뭣하고 해서&amp;hellip; 일단 공식 설명서가 있는데 필요한 부분만 발췌해서 간단히 한다.&#xA;일단 Bitbucket에 사용자이름.bitbucket.org 라는 이름으로 리포지토리를 만든다. 이 규칙을 꼭 지켜줘야 한다.&#xD;만든 페이지의 remote 저장소를 bitbucket으로 연결해준다. git remote add origin git@bitbucket:유저이름/유저이름.bitbucket.org.git&#xD;푸시하고 유저이름.bitbucket.org 으로 가서 확인&#xD;Bitbucket에서는 커스텀 도메인을 쓸 수 없다. 그냥 github를 쓰자.</description>
     </item>
-    
   </channel>
 </rss>

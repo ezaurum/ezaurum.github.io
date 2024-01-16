@@ -7,17 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Sat, 19 Sep 2009 00:00:00 +0000</lastBuildDate><atom:link href="https://ezaurum.com/tags/%ED%85%8C%EC%8A%A4%ED%8A%B8/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 19 Sep 2009 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ezaurum.com/tags/%ED%85%8C%EC%8A%A4%ED%8A%B8/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>전에 알바로 만들었던 홈피가 있는데</title>
       <link>https://ezaurum.com/2009/09/%EC%A0%84%EC%97%90-%EC%95%8C%EB%B0%94%EB%A1%9C-%EB%A7%8C%EB%93%A4%EC%97%88%EB%8D%98-%ED%99%88%ED%94%BC%EA%B0%80-%EC%9E%88%EB%8A%94%EB%8D%B0/</link>
       <pubDate>Sat, 19 Sep 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2009/09/%EC%A0%84%EC%97%90-%EC%95%8C%EB%B0%94%EB%A1%9C-%EB%A7%8C%EB%93%A4%EC%97%88%EB%8D%98-%ED%99%88%ED%94%BC%EA%B0%80-%EC%9E%88%EB%8A%94%EB%8D%B0/</guid>
-      <description>오랜만에 가 보니, 버그가 있었다. &amp;hellip;게시판 항목을 세는데 1을 더한다는 게 특정루트에서는 안 더해지고 넘어가는 것이다. 들인 노력에 비해 돈도 얼마 안 받았던 거지만, 일단 발견했으니 고쳤다. 그거 말고도 버그가 자잘하게 있었는데-의뢰자는 몰랐다.-, 일은 애저녁에 끝났지만, 간간이 고쳐놓은 적이 있다.
-내 일이라고 하는 게 어디부터 어디까지 인 걸까. 이미 일은 끝났다고 서로 합의했고, 돈도 다 받았는데 괜히 가서 테스트를 해 보는 것은 내가 스스로 떳떳하지 못하기 때문이다.
-결국 그 때 꼼꼼히 신경쓰지 않은 것이 지금도 발목을 잡는 것이다.</description>
+      <description>오랜만에 가 보니, 버그가 있었다. &amp;hellip;게시판 항목을 세는데 1을 더한다는 게 특정루트에서는 안 더해지고 넘어가는 것이다. 들인 노력에 비해 돈도 얼마 안 받았던 거지만, 일단 발견했으니 고쳤다. 그거 말고도 버그가 자잘하게 있었는데-의뢰자는 몰랐다.-, 일은 애저녁에 끝났지만, 간간이 고쳐놓은 적이 있다.&#xA;내 일이라고 하는 게 어디부터 어디까지 인 걸까. 이미 일은 끝났다고 서로 합의했고, 돈도 다 받았는데 괜히 가서 테스트를 해 보는 것은 내가 스스로 떳떳하지 못하기 때문이다.&#xA;결국 그 때 꼼꼼히 신경쓰지 않은 것이 지금도 발목을 잡는 것이다.</description>
     </item>
-    
   </channel>
 </rss>

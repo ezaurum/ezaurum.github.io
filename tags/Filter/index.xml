@@ -7,16 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Mon, 04 Jun 2012 00:00:00 +0000</lastBuildDate><atom:link href="https://ezaurum.com/tags/Filter/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 Jun 2012 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ezaurum.com/tags/Filter/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Filter의 사용</title>
       <link>https://ezaurum.com/2012/06/Filter%EC%9D%98-%EC%82%AC%EC%9A%A9/</link>
       <pubDate>Mon, 04 Jun 2012 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2012/06/Filter%EC%9D%98-%EC%82%AC%EC%9A%A9/</guid>
-      <description>IE 3rd party cookie정책 때문에, 모든 응답 헤더에 특정 구문을 넣을 일이 있어서 filter기능을 이용해 보기로 했다. P3P라든가 기타등등에 대한 설명 만든 필터 모든 리퀘스트에 대해 필터 적용 필터 만드는 법 예제
-스택 오버플로우 없었으면 어쩔 뻔&amp;hellip;</description>
+      <description>IE 3rd party cookie정책 때문에, 모든 응답 헤더에 특정 구문을 넣을 일이 있어서 filter기능을 이용해 보기로 했다. P3P라든가 기타등등에 대한 설명 만든 필터 모든 리퀘스트에 대해 필터 적용 필터 만드는 법 예제&#xA;스택 오버플로우 없었으면 어쩔 뻔&amp;hellip;</description>
     </item>
-    
   </channel>
 </rss>

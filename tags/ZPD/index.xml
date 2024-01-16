@@ -7,30 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Wed, 30 Jun 2010 00:00:00 +0000</lastBuildDate><atom:link href="https://ezaurum.com/tags/ZPD/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 30 Jun 2010 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ezaurum.com/tags/ZPD/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>성과물 2010년 6월 말</title>
       <link>https://ezaurum.com/2010/06/%EC%84%B1%EA%B3%BC%EB%AC%BC-2010%EB%85%84-6%EC%9B%94-%EB%A7%90/</link>
       <pubDate>Wed, 30 Jun 2010 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2010/06/%EC%84%B1%EA%B3%BC%EB%AC%BC-2010%EB%85%84-6%EC%9B%94-%EB%A7%90/</guid>
-      <description>이미 있는 홈페이지에서 팝업으로 폼을 입력받아 그 결과 처리
-실 소요시간 16시간 정도.
-간단한 작업 이지만, 프레임워크에 대한 이해가 없어서 꽤 오래 걸렸다.
-소득 - iBatis, Struts에 대한 이해가 조금 늘었다.
-역시 프로젝트를 하면서 이해하는 쪽이 빠르다. - 또한 가르쳐줄 사람이 있는 쪽이 훨씬 빠르다.
-ZPD에 대한 생각을 하게 되었다.
-그것과 관련해서 인강이 쓸모없지는 않구나 하는 생각을 하였다. - 그래서 PMP에 대한 구매욕구가 생겼다.</description>
+      <description>이미 있는 홈페이지에서 팝업으로 폼을 입력받아 그 결과 처리&#xA;실 소요시간 16시간 정도.&#xA;간단한 작업 이지만, 프레임워크에 대한 이해가 없어서 꽤 오래 걸렸다.&#xA;소득 - iBatis, Struts에 대한 이해가 조금 늘었다.&#xA;역시 프로젝트를 하면서 이해하는 쪽이 빠르다. - 또한 가르쳐줄 사람이 있는 쪽이 훨씬 빠르다.&#xA;ZPD에 대한 생각을 하게 되었다.&#xA;그것과 관련해서 인강이 쓸모없지는 않구나 하는 생각을 하였다. - 그래서 PMP에 대한 구매욕구가 생겼다.</description>
     </item>
-    
     <item>
       <title>ZPD</title>
       <link>https://ezaurum.com/2007/12/ZPD/</link>
       <pubDate>Tue, 11 Dec 2007 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2007/12/ZPD/</guid>
       <description>ZPD - 근접발달 영역 이라는 게 있다. 비고츠키란 아저씨가 주장한 건데, 간단히 얘기하면, 혼자서는 못 푸는 문젠데, 옆에서 힌트 조금만 주면 풀 수 있는 문제들의 영역 이라는 거다. 이게 꽤 중요한게, 생각해 보면, 나고 중고교 때 무언가 꽉 막혀 있는데 옆에서 살짝 도와주면 쉽게 문제를 풀 수 있는 경우가 있었고, 대부분 이런 문제는 어느 정도 도전의식을 자극하는 부분이 있다는 거다. 조금의 도움이라는 게 상황에 따라 많은 차이가 있을테지만, 일단은 가장 학습자에게 이상적인 의미의 조금의 도움이라고 한다면, 아주 풀고싶어서 힘들 지경일 때, 가뭄에 단비처럼 도움이 내려오는 거다.</description>
     </item>
-    
   </channel>
 </rss>

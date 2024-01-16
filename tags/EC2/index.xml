@@ -7,27 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Wed, 08 May 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://ezaurum.com/tags/EC2/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 08 May 2013 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ezaurum.com/tags/EC2/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AWS ec2 open-jdk7으로 업그레이드</title>
       <link>https://ezaurum.com/2013/05/AWS-ec2-open-jdk7%EC%9C%BC%EB%A1%9C-%EC%97%85%EA%B7%B8%EB%A0%88%EC%9D%B4%EB%93%9C/</link>
       <pubDate>Wed, 08 May 2013 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2013/05/AWS-ec2-open-jdk7%EC%9C%BC%EB%A1%9C-%EC%97%85%EA%B7%B8%EB%A0%88%EC%9D%B4%EB%93%9C/</guid>
-      <description>일단 open jdk 7 을 설치한다. sudo yum install java-1.7.0-openjdk 그 다음 java에 걸려 있는 심볼릭 링크를 바꿔줘야 하는데, /usr/bin/java -&amp;gt; /etc/alternatives/java -&amp;gt; -&amp;gt; /usr/lib/jvm/(현재 jre)/bin/java 이렇게 되어 있으므로, sudo ln -s /usr/lib/jvm/jre-1.7.0-openjdk.x86_64/bin/java /etc/alternatives/java7 sudo mv /etc/alternatives/java7 /etc/alternatives/java 을 실행해서 심볼릭 링크를 바꿔준다. 지우고 다시 걸어도 되지만, 일단 지우고 거는 사이에 전 링크가 끊어지므로 가능한 영향을 적게 하기 위해서&amp;hellip;
-ln -s /location/to/link2 newlink mv newlink linkname</description>
+      <description>일단 open jdk 7 을 설치한다. sudo yum install java-1.7.0-openjdk 그 다음 java에 걸려 있는 심볼릭 링크를 바꿔줘야 하는데, /usr/bin/java -&amp;gt; /etc/alternatives/java -&amp;gt; -&amp;gt; /usr/lib/jvm/(현재 jre)/bin/java 이렇게 되어 있으므로, sudo ln -s /usr/lib/jvm/jre-1.7.0-openjdk.x86_64/bin/java /etc/alternatives/java7 sudo mv /etc/alternatives/java7 /etc/alternatives/java 을 실행해서 심볼릭 링크를 바꿔준다. 지우고 다시 걸어도 되지만, 일단 지우고 거는 사이에 전 링크가 끊어지므로 가능한 영향을 적게 하기 위해서&amp;hellip;&#xA;ln -s /location/to/link2 newlink mv newlink linkname</description>
     </item>
-    
     <item>
       <title>호스팅 아마존으로 이전</title>
       <link>https://ezaurum.com/2012/09/%ED%98%B8%EC%8A%A4%ED%8C%85-%EC%95%84%EB%A7%88%EC%A1%B4%EC%9C%BC%EB%A1%9C-%EC%9D%B4%EC%A0%84/</link>
       <pubDate>Sat, 08 Sep 2012 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2012/09/%ED%98%B8%EC%8A%A4%ED%8C%85-%EC%95%84%EB%A7%88%EC%A1%B4%EC%9C%BC%EB%A1%9C-%EC%9D%B4%EC%A0%84/</guid>
-      <description>내년에는 돈을 내야 하니까 또 옮겨갈지는 모르겠지만&amp;hellip;.
-여튼 일단은 여기로 왔음. 암 것도 안 했는데 뭔가 많이 바뀐 느낌인데 이상하게&amp;hellip;.
-자꾸 404가 떠서 고생했는데 이 링크 에서 mod_rewite를 켜는 방법을 보고 해결&amp;hellip; OTL&amp;hellip; 한글 문제인줄 알고 계속 삽질.</description>
+      <description>내년에는 돈을 내야 하니까 또 옮겨갈지는 모르겠지만&amp;hellip;.&#xA;여튼 일단은 여기로 왔음. 암 것도 안 했는데 뭔가 많이 바뀐 느낌인데 이상하게&amp;hellip;.&#xA;자꾸 404가 떠서 고생했는데 이 링크 에서 mod_rewite를 켜는 방법을 보고 해결&amp;hellip; OTL&amp;hellip; 한글 문제인줄 알고 계속 삽질.</description>
     </item>
-    
   </channel>
 </rss>

@@ -7,42 +7,35 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Thu, 09 May 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://ezaurum.com/tags/eclipse/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 09 May 2013 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ezaurum.com/tags/eclipse/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>sts가 로딩시 뻗을 때</title>
       <link>https://ezaurum.com/2013/05/sts%EA%B0%80-%EB%A1%9C%EB%94%A9%EC%8B%9C-%EB%BB%97%EC%9D%84-%EB%95%8C/</link>
       <pubDate>Thu, 09 May 2013 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2013/05/sts%EA%B0%80-%EB%A1%9C%EB%94%A9%EC%8B%9C-%EB%BB%97%EC%9D%84-%EB%95%8C/</guid>
       <description>STS나 이클립스가 로딩시 뻗을 때, loading workbench에서 뻗었다. [Workspace Directory]/.metadata/.plugins/org.eclipse.core.resources/.snap 을 지워줄 것.</description>
     </item>
-    
     <item>
       <title>이클립스에서 jquery validation 에러 해결</title>
       <link>https://ezaurum.com/2012/07/%EC%9D%B4%ED%81%B4%EB%A6%BD%EC%8A%A4%EC%97%90%EC%84%9C-jquery-validation-%EC%97%90%EB%9F%AC-%ED%95%B4%EA%B2%B0/</link>
       <pubDate>Tue, 10 Jul 2012 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2012/07/%EC%9D%B4%ED%81%B4%EB%A6%BD%EC%8A%A4%EC%97%90%EC%84%9C-jquery-validation-%EC%97%90%EB%9F%AC-%ED%95%B4%EA%B2%B0/</guid>
       <description>jquery validation 에러 해결 방법</description>
     </item>
-    
     <item>
       <title>이클립스에서 JSP를 열 때 JSP editor가 기본으로 열리게 하기</title>
       <link>https://ezaurum.com/2012/07/%EC%9D%B4%ED%81%B4%EB%A6%BD%EC%8A%A4%EC%97%90%EC%84%9C-JSP%EB%A5%BC-%EC%97%B4-%EB%95%8C-JSP-editor%EA%B0%80-%EA%B8%B0%EB%B3%B8%EC%9C%BC%EB%A1%9C-%EC%97%B4%EB%A6%AC%EA%B2%8C-%ED%95%98%EA%B8%B0/</link>
       <pubDate>Tue, 03 Jul 2012 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2012/07/%EC%9D%B4%ED%81%B4%EB%A6%BD%EC%8A%A4%EC%97%90%EC%84%9C-JSP%EB%A5%BC-%EC%97%B4-%EB%95%8C-JSP-editor%EA%B0%80-%EA%B8%B0%EB%B3%B8%EC%9C%BC%EB%A1%9C-%EC%97%B4%EB%A6%AC%EA%B2%8C-%ED%95%98%EA%B8%B0/</guid>
       <description>어째선지 가끔 JSP가 디자인 모드(HTML 디자인 편집기 같은 형태) 로 열릴 때가 있다. 그럴 때는 Window-&amp;gt;General-&amp;gt;Editors-&amp;gt;File Associations에서 JSP 파일을 찾고 아래쪽에서 JSP editor를 디폴트로 지정! </description>
     </item>
-    
     <item>
       <title>Spring 3.1 profile 이클립스에서 사용</title>
       <link>https://ezaurum.com/2012/05/Spring-3.1-profile-%EC%9D%B4%ED%81%B4%EB%A6%BD%EC%8A%A4%EC%97%90%EC%84%9C-%EC%82%AC%EC%9A%A9/</link>
       <pubDate>Thu, 24 May 2012 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2012/05/Spring-3.1-profile-%EC%9D%B4%ED%81%B4%EB%A6%BD%EC%8A%A4%EC%97%90%EC%84%9C-%EC%82%AC%EC%9A%A9/</guid>
       <description>스프링 3.1부터 메이븐처럼 profile 설정을 사용할 수 있게 되었다. 그래서 개발과 실서버의 설정을 다르게 만들 수 있음. 상세설명은 영어지만 여기를 참조하시고, 문제는 커맨드라인에서 실행하는 게 아니라 이클립스에서 실행할 때다. 모르는 게 나만이 아니라는 생각에 올려둠. 서버를 더블클릭해서 나오는 저 화면에서 다시 Open launcher configuration을 클릭하고, 나온 화면에서 Enviroment 탭에다가 저런 식으로 추가 해 주면 된다.</description>
     </item>
-    
   </channel>
 </rss>

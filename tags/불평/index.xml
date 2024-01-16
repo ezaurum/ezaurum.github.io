@@ -7,114 +7,84 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Mon, 03 May 2010 00:00:00 +0000</lastBuildDate><atom:link href="https://ezaurum.com/tags/%EB%B6%88%ED%8F%89/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 03 May 2010 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ezaurum.com/tags/%EB%B6%88%ED%8F%89/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>살이 찌고 있다</title>
       <link>https://ezaurum.com/2010/05/%EC%82%B4%EC%9D%B4-%EC%B0%8C%EA%B3%A0-%EC%9E%88%EB%8B%A4/</link>
       <pubDate>Mon, 03 May 2010 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2010/05/%EC%82%B4%EC%9D%B4-%EC%B0%8C%EA%B3%A0-%EC%9E%88%EB%8B%A4/</guid>
-      <description>while( is_복무() ) { if (야근()) { 야식(); } 잠(); }
-function 야근() { return true; }
-function 야식() { 몸+=살; }
-이 프로세스를 죽여야 하는데&amp;hellip; 죽여도 죽여도 되살아나&amp;hellip;</description>
+      <description>while( is_복무() ) { if (야근()) { 야식(); } 잠(); }&#xA;function 야근() { return true; }&#xA;function 야식() { 몸+=살; }&#xA;이 프로세스를 죽여야 하는데&amp;hellip; 죽여도 죽여도 되살아나&amp;hellip;</description>
     </item>
-    
     <item>
       <title>주 5일제</title>
       <link>https://ezaurum.com/2010/03/%EC%A3%BC-5%EC%9D%BC%EC%A0%9C/</link>
       <pubDate>Fri, 26 Mar 2010 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2010/03/%EC%A3%BC-5%EC%9D%BC%EC%A0%9C/</guid>
       <description>로 일하고 있다. 일단은 국가 기관이니까. 하지만 내 달력에는 월화수목금금금 뿐&amp;hellip;. 시계도 6시 이후에는 4시간 동안 가질 않아&amp;hellip; 야근 수당을 달라~</description>
     </item>
-    
     <item>
       <title>꿈과 희망, 사랑이 가득한 21세기</title>
       <link>https://ezaurum.com/2009/08/%EA%BF%88%EA%B3%BC-%ED%9D%AC%EB%A7%9D-%EC%82%AC%EB%9E%91%EC%9D%B4-%EA%B0%80%EB%93%9D%ED%95%9C-21%EC%84%B8%EA%B8%B0/</link>
       <pubDate>Thu, 06 Aug 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2009/08/%EA%BF%88%EA%B3%BC-%ED%9D%AC%EB%A7%9D-%EC%82%AC%EB%9E%91%EC%9D%B4-%EA%B0%80%EB%93%9D%ED%95%9C-21%EC%84%B8%EA%B8%B0/</guid>
       <description>http://www.hanitv.com/haninews/sub_index.php?movie_idx=555&amp;amp;amp;depth1_idx=7&amp;amp;amp;info_idx=74&amp;amp;amp;pagesize=10&amp;amp;amp;gotopage=1</description>
     </item>
-    
     <item>
       <title>난 명복 못 빌겠다.</title>
       <link>https://ezaurum.com/2009/05/%EB%82%9C-%EB%AA%85%EB%B3%B5-%EB%AA%BB-%EB%B9%8C%EA%B2%A0%EB%8B%A4./</link>
       <pubDate>Sun, 24 May 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2009/05/%EB%82%9C-%EB%AA%85%EB%B3%B5-%EB%AA%BB-%EB%B9%8C%EA%B2%A0%EB%8B%A4./</guid>
       <description>자살이라고 믿고 싶지도 않고, 자살이래도 나 잡아갈까봐 차마 이름도 대지 못할 사람들도 살아있는데 왜 죽었나 싶고. 아주 그냥 미래가 없어. 이게 21세기야?</description>
     </item>
-    
     <item>
       <title>사람이 많이 안 오는 블로그라 다행이라 해야 하나</title>
       <link>https://ezaurum.com/2008/09/%EC%82%AC%EB%9E%8C%EC%9D%B4-%EB%A7%8E%EC%9D%B4-%EC%95%88-%EC%98%A4%EB%8A%94-%EB%B8%94%EB%A1%9C%EA%B7%B8%EB%9D%BC-%EB%8B%A4%ED%96%89%EC%9D%B4%EB%9D%BC-%ED%95%B4%EC%95%BC-%ED%95%98%EB%82%98/</link>
       <pubDate>Thu, 04 Sep 2008 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2008/09/%EC%82%AC%EB%9E%8C%EC%9D%B4-%EB%A7%8E%EC%9D%B4-%EC%95%88-%EC%98%A4%EB%8A%94-%EB%B8%94%EB%A1%9C%EA%B7%B8%EB%9D%BC-%EB%8B%A4%ED%96%89%EC%9D%B4%EB%9D%BC-%ED%95%B4%EC%95%BC-%ED%95%98%EB%82%98/</guid>
-      <description>문제가 된 레진님의 블로그
-뭐, 음란이라고 하는 단어 자체가 여러 모로 논란의 소지가 있고, 어느 말이 맞고 틀리고는 별 관심도 없지만. 전세가 아무리 좋아도 내집만큼 하지는 못하다는 걸 여실히 보여주는 사건. 남의 원칙없는 규제에 글이 난도질 당한다는 건 참 슬퍼보인다.
-여러모로 재미있는 곳이었는데, 가능하면 없어지지 말고 외국계 계정으로 옮겨가 계속 세상에 즐거움을 주었으면 한다.
-내가 이 글로 사람들이 여기 와서 광고 수입을 늘리려는 게 아니라고 하기는 여러모로 곤란한 감이 없잖아 있지만, 그런 것보다 곤란한 것은, 그냥 블로그에 여자-성적 대상으로서의-사진 좀 올렸다고 계정 제공해 주고 있던 자가 난리치고 결국 게시자가 짤렸다는 사실이 아니라, 이런 무원칙-뭐가 어쩐 건지는 위에 링크된 원문 참조-이 허용되었다는 사실이다.</description>
+      <description>문제가 된 레진님의 블로그&#xA;뭐, 음란이라고 하는 단어 자체가 여러 모로 논란의 소지가 있고, 어느 말이 맞고 틀리고는 별 관심도 없지만. 전세가 아무리 좋아도 내집만큼 하지는 못하다는 걸 여실히 보여주는 사건. 남의 원칙없는 규제에 글이 난도질 당한다는 건 참 슬퍼보인다.&#xA;여러모로 재미있는 곳이었는데, 가능하면 없어지지 말고 외국계 계정으로 옮겨가 계속 세상에 즐거움을 주었으면 한다.&#xA;내가 이 글로 사람들이 여기 와서 광고 수입을 늘리려는 게 아니라고 하기는 여러모로 곤란한 감이 없잖아 있지만, 그런 것보다 곤란한 것은, 그냥 블로그에 여자-성적 대상으로서의-사진 좀 올렸다고 계정 제공해 주고 있던 자가 난리치고 결국 게시자가 짤렸다는 사실이 아니라, 이런 무원칙-뭐가 어쩐 건지는 위에 링크된 원문 참조-이 허용되었다는 사실이다.</description>
     </item>
-    
     <item>
       <title>나라가 미쳐돌아간다</title>
       <link>https://ezaurum.com/2008/08/%EB%82%98%EB%9D%BC%EA%B0%80-%EB%AF%B8%EC%B3%90%EB%8F%8C%EC%95%84%EA%B0%84%EB%8B%A4/</link>
       <pubDate>Tue, 05 Aug 2008 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2008/08/%EB%82%98%EB%9D%BC%EA%B0%80-%EB%AF%B8%EC%B3%90%EB%8F%8C%EC%95%84%EA%B0%84%EB%8B%A4/</guid>
       <description>기사링크 여튼 결론은 나라 꼴 잘 돌아간다. 이걸로 고소라도 들어오려나? 죄목은 뭐지? 각하 모독죄? 아주 지랄을 해요.</description>
     </item>
-    
     <item>
       <title>자전거 페달이 부서졌다</title>
       <link>https://ezaurum.com/2008/07/%EC%9E%90%EC%A0%84%EA%B1%B0-%ED%8E%98%EB%8B%AC%EC%9D%B4-%EB%B6%80%EC%84%9C%EC%A1%8C%EB%8B%A4/</link>
       <pubDate>Sat, 26 Jul 2008 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2008/07/%EC%9E%90%EC%A0%84%EA%B1%B0-%ED%8E%98%EB%8B%AC%EC%9D%B4-%EB%B6%80%EC%84%9C%EC%A1%8C%EB%8B%A4/</guid>
-      <description>모 쇼핑몰에서 6만 5천원을 주고 산 자전거 페달이 오늘, 산지 두 달도 안 되서 망가졌다.
-&amp;hellip; 역시 싼 게 비지떡인가.</description>
+      <description>모 쇼핑몰에서 6만 5천원을 주고 산 자전거 페달이 오늘, 산지 두 달도 안 되서 망가졌다.&#xA;&amp;hellip; 역시 싼 게 비지떡인가.</description>
     </item>
-    
     <item>
       <title>열대야인가</title>
       <link>https://ezaurum.com/2008/07/%EC%97%B4%EB%8C%80%EC%95%BC%EC%9D%B8%EA%B0%80/</link>
       <pubDate>Thu, 03 Jul 2008 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2008/07/%EC%97%B4%EB%8C%80%EC%95%BC%EC%9D%B8%EA%B0%80/</guid>
-      <description>날은 덥고, 기분은 우울하다.
-하루이틀도 아니지만 :D</description>
+      <description>날은 덥고, 기분은 우울하다.&#xA;하루이틀도 아니지만 :D</description>
     </item>
-    
     <item>
       <title>어쩐지 키보드 상태가 좋질 않다.</title>
       <link>https://ezaurum.com/2008/01/%EC%96%B4%EC%A9%90%EC%A7%80-%ED%82%A4%EB%B3%B4%EB%93%9C-%EC%83%81%ED%83%9C%EA%B0%80-%EC%A2%8B%EC%A7%88-%EC%95%8A%EB%8B%A4./</link>
       <pubDate>Wed, 30 Jan 2008 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2008/01/%EC%96%B4%EC%A9%90%EC%A7%80-%ED%82%A4%EB%B3%B4%EB%93%9C-%EC%83%81%ED%83%9C%EA%B0%80-%EC%A2%8B%EC%A7%88-%EC%95%8A%EB%8B%A4./</guid>
       <description>변명같지만 그래서 두드리기가 귀찮다. 좀 뻑뻑해졌달까. 그런 느낌. 눌러도 잘 안 눌러지거나 하는 일이 잦다. 요새 팬터그래프 타입 키보드가 싸다던데 교체를 해 볼까 생각중..</description>
     </item>
-    
     <item>
       <title>세상은 개그로 가득 차 있어</title>
       <link>https://ezaurum.com/2007/10/%EC%84%B8%EC%83%81%EC%9D%80-%EA%B0%9C%EA%B7%B8%EB%A1%9C-%EA%B0%80%EB%93%9D-%EC%B0%A8-%EC%9E%88%EC%96%B4/</link>
       <pubDate>Thu, 18 Oct 2007 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2007/10/%EC%84%B8%EC%83%81%EC%9D%80-%EA%B0%9C%EA%B7%B8%EB%A1%9C-%EA%B0%80%EB%93%9D-%EC%B0%A8-%EC%9E%88%EC%96%B4/</guid>
       <description>http://plznoname.springnote.com/pages/536924 http://docs.google.com/View?docid=dff9cdbg_1dv882c 대단하다. 대한민국.</description>
     </item>
-    
     <item>
       <title>인생은 한방. 근데 진짜 운하 파야 해?</title>
       <link>https://ezaurum.com/2007/10/%EC%9D%B8%EC%83%9D%EC%9D%80-%ED%95%9C%EB%B0%A9.-%EA%B7%BC%EB%8D%B0-%EC%A7%84%EC%A7%9C-%EC%9A%B4%ED%95%98-%ED%8C%8C%EC%95%BC-%ED%95%B4/</link>
       <pubDate>Fri, 05 Oct 2007 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2007/10/%EC%9D%B8%EC%83%9D%EC%9D%80-%ED%95%9C%EB%B0%A9.-%EA%B7%BC%EB%8D%B0-%EC%A7%84%EC%A7%9C-%EC%9A%B4%ED%95%98-%ED%8C%8C%EC%95%BC-%ED%95%B4/</guid>
-      <description>배수진 via 모기불 통신 개인적으로 노무현을 찍은 걸 후회해 본 적이 없기는 하다.
-&amp;hellip;&amp;hellip;. 근데 진짜 운하 파야 해? 나 사대 때려치고 건설과나 다시 들어갈까?</description>
+      <description>배수진 via 모기불 통신 개인적으로 노무현을 찍은 걸 후회해 본 적이 없기는 하다.&#xA;&amp;hellip;&amp;hellip;. 근데 진짜 운하 파야 해? 나 사대 때려치고 건설과나 다시 들어갈까?</description>
     </item>
-    
   </channel>
 </rss>

@@ -7,20 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Tue, 25 Nov 2008 00:00:00 +0000</lastBuildDate><atom:link href="https://ezaurum.com/tags/frame/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 25 Nov 2008 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ezaurum.com/tags/frame/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>외부 서버에서 프레임으로 문서를 읽게 하고 싶지 않을 때</title>
       <link>https://ezaurum.com/2008/11/%EC%99%B8%EB%B6%80-%EC%84%9C%EB%B2%84%EC%97%90%EC%84%9C-%ED%94%84%EB%A0%88%EC%9E%84%EC%9C%BC%EB%A1%9C-%EB%AC%B8%EC%84%9C%EB%A5%BC-%EC%9D%BD%EA%B2%8C-%ED%95%98%EA%B3%A0-%EC%8B%B6%EC%A7%80-%EC%95%8A%EC%9D%84-%EB%95%8C/</link>
       <pubDate>Tue, 25 Nov 2008 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2008/11/%EC%99%B8%EB%B6%80-%EC%84%9C%EB%B2%84%EC%97%90%EC%84%9C-%ED%94%84%EB%A0%88%EC%9E%84%EC%9C%BC%EB%A1%9C-%EB%AC%B8%EC%84%9C%EB%A5%BC-%EC%9D%BD%EA%B2%8C-%ED%95%98%EA%B3%A0-%EC%8B%B6%EC%A7%80-%EC%95%8A%EC%9D%84-%EB%95%8C/</guid>
-      <description>출저는 여기
-당연히 &amp;lt;head&amp;gt; 와 &amp;lt;/head&amp;gt; 사이에 넣어준다. type=&amp;ldquo;text/javascript&amp;rdquo;&amp;gt;
-//
-if (top.frames.length!=0) top.location=self.document.location;
-//]]&amp;gt;
-일단 학교 서버에서 모든 외부 서버로 엑세스 할 때는 프레임을 기본적으로 씌워서, ActiveX를 실행시키기 때문에;; 상당히 귀찮다. 내 홈피라도 그런 꼴을 안 보려는 자구책.</description>
+      <description>출저는 여기&#xA;당연히 &amp;lt;head&amp;gt; 와 &amp;lt;/head&amp;gt; 사이에 넣어준다. type=&amp;ldquo;text/javascript&amp;rdquo;&amp;gt;&#xA;//&#xA;if (top.frames.length!=0) top.location=self.document.location;&#xA;//]]&amp;gt;&#xA;일단 학교 서버에서 모든 외부 서버로 엑세스 할 때는 프레임을 기본적으로 씌워서, ActiveX를 실행시키기 때문에;; 상당히 귀찮다. 내 홈피라도 그런 꼴을 안 보려는 자구책.</description>
     </item>
-    
   </channel>
 </rss>

@@ -7,15 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Thu, 13 Jan 2011 00:00:00 +0000</lastBuildDate><atom:link href="https://ezaurum.com/tags/Bubble-Sort/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 13 Jan 2011 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ezaurum.com/tags/Bubble-Sort/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bubble Sort</title>
       <link>https://ezaurum.com/2011/01/Bubble-Sort/</link>
       <pubDate>Thu, 13 Jan 2011 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2011/01/Bubble-Sort/</guid>
-      <description>void bubbleSort(int * array, int size){int temp = 0;int j=0;bool swapped = true;while(swapped){j++;swapped = false;for( int i = 0; i &amp;lt; size -1 -j ; i++){if ( array[i] &amp;gt; array[i+1] ){temp = array[i];array[i] = array[i+1];array[i+1] = temp;swapped = true;}}j++;}}void swap(int * a, int * b){int temp = 0;temp = *a;*a = *b;*b = temp;}bool swapif(int * a, int * b){if ( *a &amp;gt; *b){swap(a,b);return true;}else{return false;}}void bubbleSort2(int * array, int size) { int j=0; bool swapped = true; while(swapped) { swapped=false; for( int i = 0; i &amp;lt; size -j -1 ; i++) { swapped = swapif(array+i,array+i+1) ?</description>
+      <description>void bubbleSort(int * array, int size)&#xD;{&#xD;int temp = 0;&#xD;int j=0;&#xD;bool swapped = true;&#xD;while(swapped)&#xD;{&#xD;j++;&#xD;swapped = false;&#xD;for( int i = 0; i &amp;lt; size -1 -j ; i++)&#xD;{&#xD;if ( array[i] &amp;gt; array[i+1] )&#xD;{&#xD;temp = array[i];&#xD;array[i] = array[i+1];&#xD;array[i+1] = temp;&#xD;swapped = true;&#xD;}&#xD;}&#xD;j++;&#xD;}&#xD;}&#xD;void swap(int * a, int * b)&#xD;{&#xD;int temp = 0;&#xD;temp = *a;&#xD;*a = *b;&#xD;*b = temp;&#xD;}&#xD;bool swapif(int * a, int * b)&#xD;{&#xD;if ( *a &amp;gt; *b)&#xD;{&#xD;swap(a,b);&#xD;return true;&#xD;}&#xD;else&#xD;{&#xD;return false;&#xD;}&#xD;}&#xD;void bubbleSort2(int * array, int size) { int j=0; bool swapped = true; while(swapped) { swapped=false; for( int i = 0; i &amp;lt; size -j -1 ; i++) { swapped = swapif(array+i,array+i+1) ?</description>
     </item>
-    
   </channel>
 </rss>

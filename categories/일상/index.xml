@@ -7,116 +7,91 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Sat, 13 Feb 2021 20:17:22 +0900</lastBuildDate><atom:link href="https://ezaurum.com/categories/%EC%9D%BC%EC%83%81/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 Jan 2024 13:17:22 +0900</lastBuildDate>
+    <atom:link href="https://ezaurum.com/categories/%EC%9D%BC%EC%83%81/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2024년 목표</title>
+      <link>https://ezaurum.com/2024/01/2024%EB%85%84-%EB%AA%A9%ED%91%9C/</link>
+      <pubDate>Tue, 02 Jan 2024 13:17:22 +0900</pubDate>
+      <guid>https://ezaurum.com/2024/01/2024%EB%85%84-%EB%AA%A9%ED%91%9C/</guid>
+      <description>목표 게임 출시 - 슬롯&#xA;방법 매주 토요일 저녁 8시간 할당 - 18:00-26:00 일단 기능/부하 모두 빼고 기본적인 UI/UX만 구현, 값 변경도 나중에 무조건 1월 안에 기본적인 UI/UX 구현 2월말까지는 출시 </description>
+    </item>
     <item>
       <title>2021년 목표</title>
       <link>https://ezaurum.com/2021/02/2021%EB%85%84-%EB%AA%A9%ED%91%9C/</link>
       <pubDate>Sat, 13 Feb 2021 20:17:22 +0900</pubDate>
-      
       <guid>https://ezaurum.com/2021/02/2021%EB%85%84-%EB%AA%A9%ED%91%9C/</guid>
-      <description>목표 올해 만들 게임 그래픽 리소스를 내가 만들기
-방법 매주 일요일 오전 4시간 할당 - 08-12 피드백은 근처 전문가에게(미술교사 친누나) </description>
+      <description>목표 올해 만들 게임 그래픽 리소스를 내가 만들기&#xA;방법 매주 일요일 오전 4시간 할당 - 08-12 피드백은 근처 전문가에게(미술교사 친누나) </description>
     </item>
-    
     <item>
       <title>어느 날 보니 소련이 붕괴했다</title>
       <link>https://ezaurum.com/2020/06/%EC%96%B4%EB%8A%90-%EB%82%A0-%EB%B3%B4%EB%8B%88-%EC%86%8C%EB%A0%A8%EC%9D%B4-%EB%B6%95%EA%B4%B4%ED%96%88%EB%8B%A4/</link>
       <pubDate>Sat, 20 Jun 2020 02:37:59 +0900</pubDate>
-      
       <guid>https://ezaurum.com/2020/06/%EC%96%B4%EB%8A%90-%EB%82%A0-%EB%B3%B4%EB%8B%88-%EC%86%8C%EB%A0%A8%EC%9D%B4-%EB%B6%95%EA%B4%B4%ED%96%88%EB%8B%A4/</guid>
-      <description>어느날 보니 소련이 붕괴했다. 그 정도에 지구공동설, 렙탈리언, 라엘리안, CIA 세뇌 병사, 꼬리를 끄는 공룡, 인간과 공룡 동시 생존설, 영국에 흔한 유령, 미국과 소련의 우주 전쟁, 튜브트레인, 백두산 소풍, 손목시계 전화, 그 전화를 받고 오는 자동차, 화성 콜로니, 숙제 해 주는 로봇이 소년의 꿈에서 사라졌다.
-지금 그걸 얘기하고 있는 건 이미 죽은 미국 사람이랑 가끔 사기꾼으로 불리는 미국 사람, 예고편만 보고 지쳐서 떨어지게 만드는 미국 스트리밍 서비스에서 돈 대줘서 만든 드라마 정도다.</description>
+      <description>어느날 보니 소련이 붕괴했다. 그 정도에 지구공동설, 렙탈리언, 라엘리안, CIA 세뇌 병사, 꼬리를 끄는 공룡, 인간과 공룡 동시 생존설, 영국에 흔한 유령, 미국과 소련의 우주 전쟁, 튜브트레인, 백두산 소풍, 손목시계 전화, 그 전화를 받고 오는 자동차, 화성 콜로니, 숙제 해 주는 로봇이 소년의 꿈에서 사라졌다.&#xA;지금 그걸 얘기하고 있는 건 이미 죽은 미국 사람이랑 가끔 사기꾼으로 불리는 미국 사람, 예고편만 보고 지쳐서 떨어지게 만드는 미국 스트리밍 서비스에서 돈 대줘서 만든 드라마 정도다.</description>
     </item>
-    
     <item>
       <title>배포 이후 변경이 안 되는 문제</title>
       <link>https://ezaurum.com/bug/deploy-bug-not-changed/</link>
       <pubDate>Sat, 27 Apr 2019 11:38:00 +0900</pubDate>
-      
       <guid>https://ezaurum.com/bug/deploy-bug-not-changed/</guid>
-      <description>문제 상황 - 버그를 고치고 배포했는데 고쳐지지 않았다
-문제 원인 - ECS에서 배포하면서 Task에서 docker 버전을 지정하고 안 바꿨다
-재발 방지를 위해 - 한 번 해서 안 되면 한 단계 더 들어가서 원인을 찾자</description>
+      <description>문제 상황 - 버그를 고치고 배포했는데 고쳐지지 않았다&#xA;문제 원인 - ECS에서 배포하면서 Task에서 docker 버전을 지정하고 안 바꿨다&#xA;재발 방지를 위해 - 한 번 해서 안 되면 한 단계 더 들어가서 원인을 찾자</description>
     </item>
-    
     <item>
       <title>2019년 목표</title>
       <link>https://ezaurum.com/2019/01/2019%EB%85%84-%EB%AA%A9%ED%91%9C/</link>
       <pubDate>Thu, 10 Jan 2019 22:14:27 +0900</pubDate>
-      
       <guid>https://ezaurum.com/2019/01/2019%EB%85%84-%EB%AA%A9%ED%91%9C/</guid>
       <description>건강 체중 5kg 감량 자전거 출퇴근 재무 채무 완전 변제 </description>
     </item>
-    
     <item>
       <title>2009 하반기 - 2018 상반기 일/공부 회고</title>
       <link>https://ezaurum.com/retrospective/work-study/</link>
       <pubDate>Fri, 22 Jun 2018 23:31:58 +0900</pubDate>
-      
       <guid>https://ezaurum.com/retrospective/work-study/</guid>
-      <description>2009년에 중앙전산소를 들어가면서 본격적으로 회사원으로서의 프로그래머가 되었다.
-그 이후 나름 다종다양한 일을 하면서 배운 것과 느낀 점을 키워드 중심으로 기록해 두고자 한다.
-중앙전산소 - 2009.1-2010.10 스프링 - 토비의 스프링을 정독했다. aop가 뭔지 DI가 뭔지 모르는 상태라도 하루 두 시간씩 하니까 한 달만에 되더라. 혼자 헤딩 - 여기저기 헤딩하면서 혼자 작업했다. 뭐 가르쳐줄 사람도 없었고, 나이도 많고 해서 어쩔 수 없이 야근을 달고 살았다. 책의 중요성 - 본격적으로 공부를 하려니 역시 책으로 보는 게 제일이었다.</description>
+      <description>2009년에 중앙전산소를 들어가면서 본격적으로 회사원으로서의 프로그래머가 되었다.&#xA;그 이후 나름 다종다양한 일을 하면서 배운 것과 느낀 점을 키워드 중심으로 기록해 두고자 한다.&#xA;중앙전산소 - 2009.1-2010.10 스프링 - 토비의 스프링을 정독했다. aop가 뭔지 DI가 뭔지 모르는 상태라도 하루 두 시간씩 하니까 한 달만에 되더라. 혼자 헤딩 - 여기저기 헤딩하면서 혼자 작업했다. 뭐 가르쳐줄 사람도 없었고, 나이도 많고 해서 어쩔 수 없이 야근을 달고 살았다. 책의 중요성 - 본격적으로 공부를 하려니 역시 책으로 보는 게 제일이었다.</description>
     </item>
-    
     <item>
       <title>요가를 시작했다</title>
       <link>https://ezaurum.com/2018/05/%EC%9A%94%EA%B0%80%EB%A5%BC-%EC%8B%9C%EC%9E%91%ED%96%88%EB%8B%A4/</link>
       <pubDate>Tue, 15 May 2018 23:01:57 +0900</pubDate>
-      
       <guid>https://ezaurum.com/2018/05/%EC%9A%94%EA%B0%80%EB%A5%BC-%EC%8B%9C%EC%9E%91%ED%96%88%EB%8B%A4/</guid>
       <description>발바닥에 염증이 생겨서 한 동안 운동을 안 했더니, 더 몸이 안 좋아지는 것 같아서 요가를 시작했다. 문제는 생각보다 더 힘이 들어서 과연 계속할 수 있을런지 의문이지만, 일단 시작해봤다.</description>
     </item>
-    
     <item>
       <title>VueJS 에서 템플릿을 리터럴로 선언 했을 때, 바인딩이 안됨</title>
       <link>https://ezaurum.com/bug/vue-conflict-js-literal/</link>
       <pubDate>Tue, 08 May 2018 00:16:20 +0900</pubDate>
-      
       <guid>https://ezaurum.com/bug/vue-conflict-js-literal/</guid>
-      <description>문제상황 - VueJS를 시작하면서, go와 template이 겹쳐서 ${ }로 구분자를 변경해서 작업중이었는데, 이상하게도 한 컴포넌트에서 계속 row 가 undefined라는 에러가 떴음.
-let reserveRow = `&amp;lt;li&amp;gt;${row.reserveName} - ${row.reservePhone}&amp;lt;/li&amp;gt;` 문제 원인 - ${ } 가 ES2016의 템플릿 리터럴에서 사용하는 구분자었다. 그래서 VueJS가 번역하기 전에 JS가 번역해버려서 에러가 났던 것.
-해결방안 - 문서를 꼼꼼히, 그리고 실제로 go template과 겹치는 부분에서만 구분자를 변경하자.</description>
+      <description>문제상황 - VueJS를 시작하면서, go와 template이 겹쳐서 ${ }로 구분자를 변경해서 작업중이었는데, 이상하게도 한 컴포넌트에서 계속 row 가 undefined라는 에러가 떴음.&#xA;let reserveRow = `&amp;lt;li&amp;gt;${row.reserveName} - ${row.reservePhone}&amp;lt;/li&amp;gt;` 문제 원인 - ${ } 가 ES2016의 템플릿 리터럴에서 사용하는 구분자었다. 그래서 VueJS가 번역하기 전에 JS가 번역해버려서 에러가 났던 것.&#xA;해결방안 - 문서를 꼼꼼히, 그리고 실제로 go template과 겹치는 부분에서만 구분자를 변경하자.</description>
     </item>
-    
     <item>
       <title>일용품 소모율</title>
       <link>https://ezaurum.com/2018/01/%EC%9D%BC%EC%9A%A9%ED%92%88-%EC%86%8C%EB%AA%A8%EC%9C%A8/</link>
       <pubDate>Tue, 02 Jan 2018 00:12:13 +0700</pubDate>
-      
       <guid>https://ezaurum.com/2018/01/%EC%9D%BC%EC%9A%A9%ED%92%88-%EC%86%8C%EB%AA%A8%EC%9C%A8/</guid>
       <description> 샴푸 - 135ml/M 알로에겔 - 300g/M 주방세제 - 125ml/M 액체세제 - 450ml/M 두루마리 휴지 - 2개/M </description>
     </item>
-    
     <item>
       <title>2018년 목표</title>
       <link>https://ezaurum.com/2018/01/2018%EB%85%84-%EB%AA%A9%ED%91%9C/</link>
       <pubDate>Mon, 01 Jan 2018 22:01:09 +0700</pubDate>
-      
       <guid>https://ezaurum.com/2018/01/2018%EB%85%84-%EB%AA%A9%ED%91%9C/</guid>
       <description>마음자세 어디서 무얼 하더라도 내게 필요한 것, 내가 원하는 것을 한다. 내게 필요없는 것을 욕심내지 않는다. 그러기 위해서 항상 생각할 여유가 있도록 한다. 건강 북한강 종주 라이딩 - 여의치 않으면 일단 다른 뭔가로&amp;hellip; 체중 5kg 감량 사이드 프로젝트 택틱스 게임 완성 게시판 프로젝트 완성 </description>
     </item>
-    
     <item>
       <title>인수 전달이 잘못된 문제</title>
       <link>https://ezaurum.com/bug/2017-12-29-bug-diary/</link>
       <pubDate>Fri, 29 Dec 2017 19:36:26 +0700</pubDate>
-      
       <guid>https://ezaurum.com/bug/2017-12-29-bug-diary/</guid>
-      <description>문제 상황 - 에러가 없는데 DB에 자료가 기록되지 않았다.
-문제 원인 -
-func (dbm *Manager) transaction(action TransactionHandlerFunc, targets ...interface{}) 를 tranaction(action) 형태로 호출하고는 왜 안되는지를 못 찾아서 2시간 허비.
-재발 방지를 위해 - 인수를 먼저 확인하자.</description>
+      <description>문제 상황 - 에러가 없는데 DB에 자료가 기록되지 않았다.&#xA;문제 원인 -&#xA;func (dbm *Manager) transaction(action TransactionHandlerFunc, targets ...interface{}) 를 tranaction(action) 형태로 호출하고는 왜 안되는지를 못 찾아서 2시간 허비.&#xA;재발 방지를 위해 - 인수를 먼저 확인하자.</description>
     </item>
-    
     <item>
       <title>Move to Hugo</title>
       <link>https://ezaurum.com/2017/11/Move-to-Hugo/</link>
       <pubDate>Fri, 24 Nov 2017 20:26:53 +0700</pubDate>
-      
       <guid>https://ezaurum.com/2017/11/Move-to-Hugo/</guid>
       <description>휴고로 옮겼다. 지킬이 뭐 나쁜 건 아니었&amp;hellip;지만 어째선지 테마 바꾸니까 제대로 돌지도 않고 익숙지 않은 루비 코드 보기도 좀 뭣하고 github에 올리는 것도 어쩐지 애매모호 하달까 해서 그냥 go 기반으로 옮겨왔다.</description>
     </item>
-    
   </channel>
 </rss>

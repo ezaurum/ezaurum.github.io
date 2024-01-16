@@ -7,48 +7,35 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Thu, 20 Jun 2019 22:31:05 +0900</lastBuildDate><atom:link href="https://ezaurum.com/tags/DB/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 20 Jun 2019 22:31:05 +0900</lastBuildDate>
+    <atom:link href="https://ezaurum.com/tags/DB/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>too many connection</title>
       <link>https://ezaurum.com/bug/too-many-connections/</link>
       <pubDate>Thu, 20 Jun 2019 22:31:05 +0900</pubDate>
-      
       <guid>https://ezaurum.com/bug/too-many-connections/</guid>
-      <description>현상 일정 시간마다 ajax로 내용을 리프레시 해 주는 게시판에서 사용자 200여명이 넘어가자 DB엑세스 시 too many connection이 발생하고 연결을 하지 못하는 현상 발생
-DB, API 서버의 cpu/mem 부하는 20% 전후인 상태
-리셋 등으로 해결이 안 되고, 도커 컨테이너 늘려서도 해결이 안 됨
-지속되는 경우 리퀘스트도 쌓이고 file open max 값이 넘어가서 사용 불가
-원인 DB 처리량보다 부하 심함 IO 부분이 보틀넥으로 보임 도커 인스턴스가 값싼 거고 DB도 값싼 인스턴스 커넥션이 늘어남 실제 DB 커넥션이 45개 전후 RDS에서 가장 작은 인스턴스를 사용했는데 전체 DB 메모리 양과 CPU 사용량을 가지고 연결수 계산 도커 컨테이너의 Max Connection은 50 이전 네이버에서 직접 배포 때 잡은 설정 그대로 RDS 인스턴스가 여러 개 일 때는 괜찮았음 제일 작은 걸로 바꾸고 인스턴스도 줄여둔 상태 이미 늘어난 컨넥션은 없어지지 않고 CPU 사용량은 그리 많지 않음 재현 봇을 만들어서 로그인, 화면 리프레시를 하게 하니 100명 전후가 몰려서 접근시 문제 발생</description>
+      <description>현상 일정 시간마다 ajax로 내용을 리프레시 해 주는 게시판에서 사용자 200여명이 넘어가자 DB엑세스 시 too many connection이 발생하고 연결을 하지 못하는 현상 발생&#xA;DB, API 서버의 cpu/mem 부하는 20% 전후인 상태&#xA;리셋 등으로 해결이 안 되고, 도커 컨테이너 늘려서도 해결이 안 됨&#xA;지속되는 경우 리퀘스트도 쌓이고 file open max 값이 넘어가서 사용 불가&#xA;원인 DB 처리량보다 부하 심함 IO 부분이 보틀넥으로 보임 도커 인스턴스가 값싼 거고 DB도 값싼 인스턴스 커넥션이 늘어남 실제 DB 커넥션이 45개 전후 RDS에서 가장 작은 인스턴스를 사용했는데 전체 DB 메모리 양과 CPU 사용량을 가지고 연결수 계산 도커 컨테이너의 Max Connection은 50 이전 네이버에서 직접 배포 때 잡은 설정 그대로 RDS 인스턴스가 여러 개 일 때는 괜찮았음 제일 작은 걸로 바꾸고 인스턴스도 줄여둔 상태 이미 늘어난 컨넥션은 없어지지 않고 CPU 사용량은 그리 많지 않음 재현 봇을 만들어서 로그인, 화면 리프레시를 하게 하니 100명 전후가 몰려서 접근시 문제 발생</description>
     </item>
-    
     <item>
       <title>C# DB 라이브러리 비교</title>
       <link>https://ezaurum.com/2014/12/C#-DB-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-%EB%B9%84%EA%B5%90/</link>
       <pubDate>Thu, 25 Dec 2014 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2014/12/C#-DB-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-%EB%B9%84%EA%B5%90/</guid>
-      <description>별로 구체적으로 비교를 해 본 것은 아니지만, 지난 두 달간 이런저런 삽질을 한 결과를 정리한다.
-Linq To SQL - MS스러운 DB라이브러리장점 - IDE에 통합된 사용환경, VS에서 DB에 연결 후, 테이블을 끌어오는 것만으로도 바로 도메인 객체가 생성된다. 속도가 빠르다. 복잡한 쿼리에 신경 안 써도 된다. 러닝커브 작음.단점 - 자동생성되는 도메인 객체가 복잡하다. 로직이 들어가야 하는 경우 매우 곤란해진다. POCO객체는 불가능. 추가 수정도 귀찮다.적절한 사용처 - 이미 DB가 존재하고, 거기에 간단한 CRUD연산을 해야 하는 웹 툴 정도를 붙이는 경우.</description>
+      <description>별로 구체적으로 비교를 해 본 것은 아니지만, 지난 두 달간 이런저런 삽질을 한 결과를 정리한다.&#xA;Linq To SQL - MS스러운 DB라이브러리&#xD;장점 - IDE에 통합된 사용환경, VS에서 DB에 연결 후, 테이블을 끌어오는 것만으로도 바로 도메인 객체가 생성된다. 속도가 빠르다. 복잡한 쿼리에 신경 안 써도 된다. 러닝커브 작음.&#xD;단점 - 자동생성되는 도메인 객체가 복잡하다. 로직이 들어가야 하는 경우 매우 곤란해진다. POCO객체는 불가능. 추가 수정도 귀찮다.&#xD;적절한 사용처 - 이미 DB가 존재하고, 거기에 간단한 CRUD연산을 해야 하는 웹 툴 정도를 붙이는 경우.</description>
     </item>
-    
     <item>
       <title>pg_hba.conf load fail error</title>
       <link>https://ezaurum.com/2014/10/pg_hba.conf-load-fail-error/</link>
       <pubDate>Fri, 10 Oct 2014 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2014/10/pg_hba.conf-load-fail-error/</guid>
       <description>pg_hba.conf load fail error가 발생. 설정 파일 내부에 항목이 하나도 없으면 로드에 에러 발생 기본 항목 주석 해제로 해결</description>
     </item>
-    
     <item>
       <title>PL/SQL for 문</title>
       <link>https://ezaurum.com/2011/11/PL/SQL-for-%EB%AC%B8/</link>
       <pubDate>Fri, 11 Nov 2011 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2011/11/PL/SQL-for-%EB%AC%B8/</guid>
-      <description>기억을 위한 메모용이라고 되어 있는 글을 복구.
-상황 몇 개 게시판의 글 내용을 모두 하나의 게시판(id=111)으로 옮겨야 했다. 게시판은 글 제목과 글 번호가 있는 board게시판이 하나, 글내용과 글 번호, 내용 순서 번호가 들어있는 contents게시판이 하나 있는 상황이었다. 게시판이 이 상황이 된 이유는, 언제적인지 모르지만, 한 컬럼에 들어가는 용량제한이 있었던 모양이고, 그 용량제한을 회피하고자 이렇게 짠 모양인데&amp;hellip; 문제는 소스가 잘못되서 제한보다 훨씬 적은 용량으로 글을 잘랐&amp;hellip; 일단 그래서 간단히 PL/SQL을 짜 봤다.</description>
+      <description>기억을 위한 메모용이라고 되어 있는 글을 복구.&#xA;상황 몇 개 게시판의 글 내용을 모두 하나의 게시판(id=111)으로 옮겨야 했다. 게시판은 글 제목과 글 번호가 있는 board게시판이 하나, 글내용과 글 번호, 내용 순서 번호가 들어있는 contents게시판이 하나 있는 상황이었다. 게시판이 이 상황이 된 이유는, 언제적인지 모르지만, 한 컬럼에 들어가는 용량제한이 있었던 모양이고, 그 용량제한을 회피하고자 이렇게 짠 모양인데&amp;hellip; 문제는 소스가 잘못되서 제한보다 훨씬 적은 용량으로 글을 잘랐&amp;hellip; 일단 그래서 간단히 PL/SQL을 짜 봤다.</description>
     </item>
-    
   </channel>
 </rss>

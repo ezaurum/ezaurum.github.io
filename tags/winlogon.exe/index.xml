@@ -7,15 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Thu, 12 Feb 2009 00:00:00 +0000</lastBuildDate><atom:link href="https://ezaurum.com/tags/winlogon.exe/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 12 Feb 2009 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ezaurum.com/tags/winlogon.exe/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>윈도XP 시스템 파일 복구법</title>
       <link>https://ezaurum.com/2009/02/%EC%9C%88%EB%8F%84XP-%EC%8B%9C%EC%8A%A4%ED%85%9C-%ED%8C%8C%EC%9D%BC-%EB%B3%B5%EA%B5%AC%EB%B2%95/</link>
       <pubDate>Thu, 12 Feb 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2009/02/%EC%9C%88%EB%8F%84XP-%EC%8B%9C%EC%8A%A4%ED%85%9C-%ED%8C%8C%EC%9D%BC-%EB%B3%B5%EA%B5%AC%EB%B2%95/</guid>
-      <description>적용대상winlogon.exe, userinit.exe, lsass.exe등의 파일이 없거나, 손상되어 정상적인 부팅이 불가능할 때뭔지는 모르겠지만, 일단 윈도우 시작은 됐는데, 사용자 이름을 눌러도 로그인이 안되거나, 바탕화면이 뜨지 않거나 할 때.기타 이유로 파일 복구가 필요할 때winlogon.exe, userinit.exe, lsass.exe등의 파일이 없거나, 손상되어 정상적인 부팅이 불가능할 때준비물1, 2 중 하나만 있으면 됨.깔려있는 것과 동일한 버전의 XP 정품 씨디깔린 게 SP2면 SP2, SP3면 SP3여야 하는 게 원칙이나, 될 수도 있음. 자동설치 CD는 복구 콘솔이 뜨질 않아서 안 됨.</description>
+      <description>적용대상&#xD;winlogon.exe, userinit.exe, lsass.exe등의 파일이 없거나, 손상되어 정상적인 부팅이 불가능할 때&#xD;뭔지는 모르겠지만, 일단 윈도우 시작은 됐는데, 사용자 이름을 눌러도 로그인이 안되거나, 바탕화면이 뜨지 않거나 할 때.&#xD;기타 이유로 파일 복구가 필요할 때winlogon.exe, userinit.exe, lsass.exe등의 파일이 없거나, 손상되어 정상적인 부팅이 불가능할 때&#xD;준비물&#xD;1, 2 중 하나만 있으면 됨.&#xD;깔려있는 것과 동일한 버전의 XP 정품 씨디&#xD;깔린 게 SP2면 SP2, SP3면 SP3여야 하는 게 원칙이나, 될 수도 있음. 자동설치 CD는 복구 콘솔이 뜨질 않아서 안 됨.</description>
     </item>
-    
   </channel>
 </rss>

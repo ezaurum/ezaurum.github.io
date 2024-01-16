@@ -7,276 +7,196 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Fri, 10 Jan 2020 16:17:30 +0900</lastBuildDate><atom:link href="https://ezaurum.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 10 Jan 2020 16:17:30 +0900</lastBuildDate>
+    <atom:link href="https://ezaurum.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Install Arch Linux - 데스크탑 환경설정</title>
       <link>https://ezaurum.com/2020/01/Install-Arch-Linux-%EB%8D%B0%EC%8A%A4%ED%81%AC%ED%83%91-%ED%99%98%EA%B2%BD%EC%84%A4%EC%A0%95/</link>
       <pubDate>Fri, 10 Jan 2020 16:17:30 +0900</pubDate>
-      
       <guid>https://ezaurum.com/2020/01/Install-Arch-Linux-%EB%8D%B0%EC%8A%A4%ED%81%AC%ED%83%91-%ED%99%98%EA%B2%BD%EC%84%A4%EC%A0%95/</guid>
-      <description>설치를 했으니 실제로 데스크탑으로 쓸 수 있도록 만들어본다. 어째서 아치리눅스를 쓰며 데스크탑환경을 안쓰는지 를 많이 참조했다.
-사용자 추가 root 로 계속 쓸 수 없으니 사용자를 추가한다. useradd -m 이름 -g wheel passwd 이름 그룹을 wheel 로 설정했으니 wheel 이 sudo를 쓸 수 있게 해 준다.
-/etc/sudoers 를 열고 wheel 이 sudo 를 쓸 수 있게 해 준다.
-%wheel ALL=(ALL) ALL zsh 로 변경 bash는 불편한 점이 많으니, Oh My Zsh 로 쉘을 변경한다.</description>
+      <description>설치를 했으니 실제로 데스크탑으로 쓸 수 있도록 만들어본다. 어째서 아치리눅스를 쓰며 데스크탑환경을 안쓰는지 를 많이 참조했다.&#xA;사용자 추가 root 로 계속 쓸 수 없으니 사용자를 추가한다. useradd -m 이름 -g wheel passwd 이름 그룹을 wheel 로 설정했으니 wheel 이 sudo를 쓸 수 있게 해 준다.&#xA;/etc/sudoers 를 열고 wheel 이 sudo 를 쓸 수 있게 해 준다.&#xA;%wheel ALL=(ALL) ALL zsh 로 변경 bash는 불편한 점이 많으니, Oh My Zsh 로 쉘을 변경한다.</description>
     </item>
-    
     <item>
       <title>Install Arch Linux</title>
       <link>https://ezaurum.com/2019/11/Install-Arch-Linux/</link>
       <pubDate>Sun, 10 Nov 2019 16:17:30 +0900</pubDate>
-      
       <guid>https://ezaurum.com/2019/11/Install-Arch-Linux/</guid>
-      <description>아치 리눅스는 가볍고 이것저것 변경하기 좋은 리눅스 배포판이다.
-설치 전 준비물 USB, CD 등 부팅할 물건 ISO 이미지 인터넷, 가능하면 유선환경을 추천(WIFI가 안 되는 경우가 있음) 설치 중 문제해결을 위한 추가PC or 스마트폰 아치 리눅스 설치 한국어 가이드 설치 1. 이미지 usb에 굽기 일단 lsblk 로 usb의 경로를 알아낸다.
-NAME MAJ:MIN RM SIZE RO TYPE MOUNTPOINT sda 8:0 1 14.9G 0 disk ├─sda1 8:1 1 609M 0 part /run/media/ezaurum/ARCH_201905 └─sda2 8:2 1 64M 0 part nvme0n1 259:0 0 953.</description>
+      <description>아치 리눅스는 가볍고 이것저것 변경하기 좋은 리눅스 배포판이다.&#xA;설치 전 준비물 USB, CD 등 부팅할 물건 ISO 이미지 인터넷, 가능하면 유선환경을 추천(WIFI가 안 되는 경우가 있음) 설치 중 문제해결을 위한 추가PC or 스마트폰 아치 리눅스 설치 한국어 가이드 설치 1. 이미지 usb에 굽기 일단 lsblk 로 usb의 경로를 알아낸다.&#xA;NAME MAJ:MIN RM SIZE RO TYPE MOUNTPOINT sda 8:0 1 14.9G 0 disk ├─sda1 8:1 1 609M 0 part /run/media/ezaurum/ARCH_201905 └─sda2 8:2 1 64M 0 part nvme0n1 259:0 0 953.</description>
     </item>
-    
     <item>
       <title>루분투 휴지통 위치</title>
       <link>https://ezaurum.com/2013/06/%EB%A3%A8%EB%B6%84%ED%88%AC-%ED%9C%B4%EC%A7%80%ED%86%B5-%EC%9C%84%EC%B9%98/</link>
       <pubDate>Fri, 28 Jun 2013 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2013/06/%EB%A3%A8%EB%B6%84%ED%88%AC-%ED%9C%B4%EC%A7%80%ED%86%B5-%EC%9C%84%EC%B9%98/</guid>
       <description>루분투 휴지통은 ~/.local/share/Trash 에 있다.</description>
     </item>
-    
     <item>
       <title>jetty9 jenkins 셀 스크립트만으로 자동 배포</title>
       <link>https://ezaurum.com/2013/06/jetty9-jenkins-%EC%85%80-%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EB%A7%8C%EC%9C%BC%EB%A1%9C-%EC%9E%90%EB%8F%99-%EB%B0%B0%ED%8F%AC/</link>
       <pubDate>Thu, 06 Jun 2013 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2013/06/jetty9-jenkins-%EC%85%80-%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EB%A7%8C%EC%9C%BC%EB%A1%9C-%EC%9E%90%EB%8F%99-%EB%B0%B0%ED%8F%AC/</guid>
-      <description>미리 말해두면, 이건 좋지 못한 방법이다. 참고링크 jetty9은 gradle이 지원을 안 한다. cargo로 하려 그래도 containerId를 jetty9x로 지정하면 에러나 뜨고&amp;hellip; 앤트 스크립트도 지금 모르겠고, 그루비도 골치아프다면 그냥 편안하게 셀 스크립트로 하는 방법이 있다. jetty9 설치 방법을 참고했으면, jetty가 서비스로 돌고 있을 테니, 참고 링크보다 좀 더 쉽게 할 수 있다.
-jenkins 설정에서, build 칸에 보면 스크립트 추가할 수 있는 곳이 있다. sudo service jetty stop sudo cp war파일.war 제티/webapp/파일이름.war sudo service jetty start 이게 sudo를 칠 때마다 비번을 물어보면 안 되니까 jenkins에 sudo 권한을 주고 비번을 안 묻게 하자.</description>
+      <description>미리 말해두면, 이건 좋지 못한 방법이다. 참고링크 jetty9은 gradle이 지원을 안 한다. cargo로 하려 그래도 containerId를 jetty9x로 지정하면 에러나 뜨고&amp;hellip; 앤트 스크립트도 지금 모르겠고, 그루비도 골치아프다면 그냥 편안하게 셀 스크립트로 하는 방법이 있다. jetty9 설치 방법을 참고했으면, jetty가 서비스로 돌고 있을 테니, 참고 링크보다 좀 더 쉽게 할 수 있다.&#xA;jenkins 설정에서, build 칸에 보면 스크립트 추가할 수 있는 곳이 있다. sudo service jetty stop sudo cp war파일.war 제티/webapp/파일이름.war sudo service jetty start 이게 sudo를 칠 때마다 비번을 물어보면 안 되니까 jenkins에 sudo 권한을 주고 비번을 안 묻게 하자.</description>
     </item>
-    
     <item>
       <title>mint 에 jetty9 설치</title>
       <link>https://ezaurum.com/2013/06/mint-%EC%97%90-jetty9-%EC%84%A4%EC%B9%98/</link>
       <pubDate>Thu, 06 Jun 2013 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2013/06/mint-%EC%97%90-jetty9-%EC%84%A4%EC%B9%98/</guid>
-      <description>참고링크1 참고링크2
-일단 자바는 설치되었다고 가정한다. java 라고 쳐 보고 설치되었는지 확인. 별 문제 없다면 기본으로 설치되어 있을 터다. 설치 되었다면 /usr/local/ 로 이동해서 최신버전을 받아본다. 다음에 압축풀고 적당한 디렉토리로 옮긴다.
-cd /usr/local/ sudo wget &amp;ldquo;http://eclipse.org/downloads/download.php?file=/jetty/stable-9/dist/jetty-distribution-9.0.3.v20130506.tar.gz&amp;amp;amp;r=1&amp;quot; sudo tar -xvf jetty-distribution-9.0.3.v20130506.tar.gz sudo mv jetty-distribution-9.0.3.v20130506 jetty 이제는 서비스로 실행을 시켜보자. 시작 스크립트는 제티 설치 디렉토리/bin/jetty.sh 다. jetty라는 유저를 만들어서 그걸로 실행하도록 한다. sudo useradd jetty -U -s /bin/false sudo chown -R jetty:jetty /usr/local/jetty sudo cp /usr/local/jetty/bin/jetty.</description>
+      <description>참고링크1 참고링크2&#xA;일단 자바는 설치되었다고 가정한다. java 라고 쳐 보고 설치되었는지 확인. 별 문제 없다면 기본으로 설치되어 있을 터다. 설치 되었다면 /usr/local/ 로 이동해서 최신버전을 받아본다. 다음에 압축풀고 적당한 디렉토리로 옮긴다.&#xA;cd /usr/local/ sudo wget &amp;ldquo;http://eclipse.org/downloads/download.php?file=/jetty/stable-9/dist/jetty-distribution-9.0.3.v20130506.tar.gz&amp;amp;amp;r=1&amp;quot; sudo tar -xvf jetty-distribution-9.0.3.v20130506.tar.gz sudo mv jetty-distribution-9.0.3.v20130506 jetty 이제는 서비스로 실행을 시켜보자. 시작 스크립트는 제티 설치 디렉토리/bin/jetty.sh 다. jetty라는 유저를 만들어서 그걸로 실행하도록 한다. sudo useradd jetty -U -s /bin/false sudo chown -R jetty:jetty /usr/local/jetty sudo cp /usr/local/jetty/bin/jetty.</description>
     </item>
-    
     <item>
       <title>jenkins 보안 설정 초기화</title>
       <link>https://ezaurum.com/2013/05/jenkins-%EB%B3%B4%EC%95%88-%EC%84%A4%EC%A0%95-%EC%B4%88%EA%B8%B0%ED%99%94/</link>
       <pubDate>Mon, 20 May 2013 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2013/05/jenkins-%EB%B3%B4%EC%95%88-%EC%84%A4%EC%A0%95-%EC%B4%88%EA%B8%B0%ED%99%94/</guid>
       <description>출처 내 경우는 보안 설정을 하고 유닉스 유저 정보를 가져와서 로그인 하게 했는데, 로그인 암호가 자꾸 틀렸다고 나와서, /var/lib/jenkins/config.xml에서 useSecurity 태그와 authorizationStrategy 태그를 지우고 재시작 하니까 초기화 되었음</description>
     </item>
-    
     <item>
       <title>jenkins-git 연동시 주의점</title>
       <link>https://ezaurum.com/2013/05/jenkins-git-%EC%97%B0%EB%8F%99%EC%8B%9C-%EC%A3%BC%EC%9D%98%EC%A0%90/</link>
       <pubDate>Mon, 20 May 2013 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2013/05/jenkins-git-%EC%97%B0%EB%8F%99%EC%8B%9C-%EC%A3%BC%EC%9D%98%EC%A0%90/</guid>
       <description>git 서버에 public 키를 추가할 때, jenkins 유저로 들어가서 추가해야 함.</description>
     </item>
-    
     <item>
       <title>scp만으로 git 서버에 key여럿 추가하기</title>
       <link>https://ezaurum.com/2013/05/scp%EB%A7%8C%EC%9C%BC%EB%A1%9C-git-%EC%84%9C%EB%B2%84%EC%97%90-key%EC%97%AC%EB%9F%BF-%EC%B6%94%EA%B0%80%ED%95%98%EA%B8%B0/</link>
       <pubDate>Mon, 20 May 2013 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2013/05/scp%EB%A7%8C%EC%9C%BC%EB%A1%9C-git-%EC%84%9C%EB%B2%84%EC%97%90-key%EC%97%AC%EB%9F%BF-%EC%B6%94%EA%B0%80%ED%95%98%EA%B8%B0/</guid>
       <description>출처 역시 누군가 뭘 해 놨을 줄 알았어. 다 필요 없는 짓이었다. ssh-copy-id 라는 명령어가&amp;hellip; OTL&amp;hellip; 역시 무식하면 몸이 고생. scp file_name user@182.213.312.122:path 다 하고 나면 보안을 위해 파일 권한이 600으로 되어 있는지 확인할 것 그 외 ssh에 대한 참고 링크</description>
     </item>
-    
     <item>
       <title>unbuntu(mint)에서 jenkins 실행 포트 바꾸기</title>
       <link>https://ezaurum.com/2013/05/unbuntumint%EC%97%90%EC%84%9C-jenkins-%EC%8B%A4%ED%96%89-%ED%8F%AC%ED%8A%B8-%EB%B0%94%EA%BE%B8%EA%B8%B0/</link>
       <pubDate>Mon, 20 May 2013 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2013/05/unbuntumint%EC%97%90%EC%84%9C-jenkins-%EC%8B%A4%ED%96%89-%ED%8F%AC%ED%8A%B8-%EB%B0%94%EA%BE%B8%EA%B8%B0/</guid>
       <description>시작 스크립트는 /etc/init.d/jenkins에 저장된다. 거기 보면 /etc/default/jenkins를 불러오는 부분이 있을 텐데, 그걸 불러오면 port나 기타 필요한 부분을 다 바꿀 수 있다.</description>
     </item>
-    
     <item>
       <title>json 요청 보내기</title>
       <link>https://ezaurum.com/2013/05/json-%EC%9A%94%EC%B2%AD-%EB%B3%B4%EB%82%B4%EA%B8%B0/</link>
       <pubDate>Thu, 16 May 2013 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2013/05/json-%EC%9A%94%EC%B2%AD-%EB%B3%B4%EB%82%B4%EA%B8%B0/</guid>
       <description>curl -v -H &amp;ldquo;Accept: application/json&amp;rdquo; -H &amp;ldquo;Content-type: application/json&amp;rdquo; -X POST -d &amp;lsquo;{&amp;ldquo;email&amp;rdquo;:&amp;ldquo;abesteail@mailcom&amp;rdquo;,&amp;ldquo;password&amp;rdquo;:&amp;ldquo;234234&amp;rdquo;}&amp;rsquo; http://localhost:8080/json</description>
     </item>
-    
     <item>
       <title>bash 셀에서 변수 사용</title>
       <link>https://ezaurum.com/2013/05/bash-%EC%85%80%EC%97%90%EC%84%9C-%EB%B3%80%EC%88%98-%EC%82%AC%EC%9A%A9/</link>
       <pubDate>Thu, 02 May 2013 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2013/05/bash-%EC%85%80%EC%97%90%EC%84%9C-%EB%B3%80%EC%88%98-%EC%82%AC%EC%9A%A9/</guid>
-      <description>#!/bin/sh -eTODAY=`date -u +%Y%m%d`REDIS_HOME=&#34;/usr/redis-2.6.13/src&#34;fileName=&#34;redis-&#34;$TODAY&#34;.log&#34;$REDIS_HOME/redis-server &amp;gt;&amp;gt; $REDIS_HOME/$fileName &amp;amp;보시다시피 그냥 변수이름=값 해주면 쓸 수 있고, $를 붙이면 값을 받아오고, 문자열과는 붙여놓으면 자동으로 달라붙는다.</description>
+      <description>&#xD;#!/bin/sh -e&#xD;TODAY=`date -u +%Y%m%d`&#xD;REDIS_HOME=&#34;/usr/redis-2.6.13/src&#34;&#xD;fileName=&#34;redis-&#34;$TODAY&#34;.log&#34;&#xD;$REDIS_HOME/redis-server &amp;gt;&amp;gt; $REDIS_HOME/$fileName &amp;amp;&#xD;보시다시피 그냥 변수이름=값 해주면 쓸 수 있고, $를 붙이면 값을 받아오고, 문자열과는 붙여놓으면 자동으로 달라붙는다.&#xD;</description>
     </item>
-    
     <item>
       <title>Raspberry pi에 개발서버 셋팅</title>
       <link>https://ezaurum.com/2012/11/Raspberry-pi%EC%97%90-%EA%B0%9C%EB%B0%9C%EC%84%9C%EB%B2%84-%EC%85%8B%ED%8C%85/</link>
       <pubDate>Sun, 25 Nov 2012 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2012/11/Raspberry-pi%EC%97%90-%EA%B0%9C%EB%B0%9C%EC%84%9C%EB%B2%84-%EC%85%8B%ED%8C%85/</guid>
-      <description>일단 라스베리 파이 파티션을 sd카드를 다 채우게 확장하기. 이걸 안 하면 깔다가 용량부족하다고 에러를 뱉는다.[youtube https://www.youtube.com/watch?v=R4VovMDnsIE&amp;w=560&amp;h=315]동영상에서는 fdisk -uc 라고 했는데, 나는 fdisk -u -c 로 해야 되었다.파티션이 3개가 아니라 처음부터 2개고, 첫번째 파티션이 0부터 시작하질 않아서 새로 파티션을 만들 때 이상한 위치가 잡혀서 숫자를 입력해 줘야 했다.sd카드를 빠른 걸 샀더니 의외로 금방 끝났다. 동영상은 4mb/s인데 내 껀 29.9mb/s...타이핑이 힘든 경우 여기에서 복사.초기 셋팅 참고 링크 이거 따라서 다 했다.</description>
+      <description>일단 라스베리 파이 파티션을 sd카드를 다 채우게 확장하기. 이걸 안 하면 깔다가 용량부족하다고 에러를 뱉는다.&#xD;[youtube https://www.youtube.com/watch?v=R4VovMDnsIE&amp;w=560&amp;h=315]&#xD;동영상에서는 fdisk -uc 라고 했는데, 나는 fdisk -u -c 로 해야 되었다.&#xD;파티션이 3개가 아니라 처음부터 2개고, 첫번째 파티션이 0부터 시작하질 않아서 새로 파티션을 만들 때 이상한 위치가 잡혀서 숫자를 입력해 줘야 했다.&#xD;sd카드를 빠른 걸 샀더니 의외로 금방 끝났다. 동영상은 4mb/s인데 내 껀 29.9mb/s...&#xD;타이핑이 힘든 경우 여기에서 복사.&#xD;초기 셋팅 참고 링크 이거 따라서 다 했다.</description>
     </item>
-    
     <item>
       <title>가상머신에 서버 셋팅 하고 나니까 깨달았는데...</title>
       <link>https://ezaurum.com/2012/11/%EA%B0%80%EC%83%81%EB%A8%B8%EC%8B%A0%EC%97%90-%EC%84%9C%EB%B2%84-%EC%85%8B%ED%8C%85-%ED%95%98%EA%B3%A0-%EB%82%98%EB%8B%88%EA%B9%8C-%EA%B9%A8%EB%8B%AC%EC%95%98%EB%8A%94%EB%8D%B0.../</link>
       <pubDate>Sun, 25 Nov 2012 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2012/11/%EA%B0%80%EC%83%81%EB%A8%B8%EC%8B%A0%EC%97%90-%EC%84%9C%EB%B2%84-%EC%85%8B%ED%8C%85-%ED%95%98%EA%B3%A0-%EB%82%98%EB%8B%88%EA%B9%8C-%EA%B9%A8%EB%8B%AC%EC%95%98%EB%8A%94%EB%8D%B0.../</guid>
-      <description>나 왜 라즈베리 파이를 놀려두고 있었지.. OTL&amp;hellip;
-&amp;hellip;그래서 오늘 밤은 거기다 다시 셋팅해야&amp;hellip; OTL&amp;hellip;
-일단 할 거 목록을 적으면&amp;hellip;
-라즈베리 파이에 필요한 것들을 깐다. - 기본 설정은 되어 있으니 apt-get으로 대충...nexus - 지난 주에 배웠으니 어디...git - github는 public이라.. 거기 돈을 내고 private을 할까 이거 전기세가 쌀까 생각중...jenkins - 음.. 어디 한 번...gradle - 어디 써 보자..ftp - 혹시나.아무거나 빌드해서 올려본다 - 되는가 test 해 봄리셋해도 바뀌지 않도록 각 PC의 내부 IP를 고정한다.</description>
+      <description>나 왜 라즈베리 파이를 놀려두고 있었지.. OTL&amp;hellip;&#xA;&amp;hellip;그래서 오늘 밤은 거기다 다시 셋팅해야&amp;hellip; OTL&amp;hellip;&#xA;일단 할 거 목록을 적으면&amp;hellip;&#xA;라즈베리 파이에 필요한 것들을 깐다. - 기본 설정은 되어 있으니 apt-get으로 대충...&#xD;nexus - 지난 주에 배웠으니 어디...&#xD;git - github는 public이라.. 거기 돈을 내고 private을 할까 이거 전기세가 쌀까 생각중...&#xD;jenkins - 음.. 어디 한 번...&#xD;gradle - 어디 써 보자..&#xD;ftp - 혹시나.&#xD;아무거나 빌드해서 올려본다 - 되는가 test 해 봄&#xD;리셋해도 바뀌지 않도록 각 PC의 내부 IP를 고정한다.</description>
     </item>
-    
     <item>
       <title>리눅스 콘솔에서 한글이 안 될 때</title>
       <link>https://ezaurum.com/2012/11/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%BD%98%EC%86%94%EC%97%90%EC%84%9C-%ED%95%9C%EA%B8%80%EC%9D%B4-%EC%95%88-%EB%90%A0-%EB%95%8C/</link>
       <pubDate>Sun, 25 Nov 2012 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2012/11/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%BD%98%EC%86%94%EC%97%90%EC%84%9C-%ED%95%9C%EA%B8%80%EC%9D%B4-%EC%95%88-%EB%90%A0-%EB%95%8C/</guid>
-      <description>locale 값이 다 정상인데 화면에 한글이 다 깨져서 나온다면, 한글이 확실히 되는 OS에서 ssh 등으로 접속해 보라.
-OTL&amp;hellip;. 어차피 ssh로 접속해서만 쓸 건데&amp;hellip; 몇 시간 소모한 거지.</description>
+      <description>locale 값이 다 정상인데 화면에 한글이 다 깨져서 나온다면, 한글이 확실히 되는 OS에서 ssh 등으로 접속해 보라.&#xA;OTL&amp;hellip;. 어차피 ssh로 접속해서만 쓸 건데&amp;hellip; 몇 시간 소모한 거지.</description>
     </item>
-    
     <item>
       <title>윈도에서 USB 메모리에 우분투 설치 씨디 담기</title>
       <link>https://ezaurum.com/2009/05/%EC%9C%88%EB%8F%84%EC%97%90%EC%84%9C-USB-%EB%A9%94%EB%AA%A8%EB%A6%AC%EC%97%90-%EC%9A%B0%EB%B6%84%ED%88%AC-%EC%84%A4%EC%B9%98-%EC%94%A8%EB%94%94-%EB%8B%B4%EA%B8%B0/</link>
       <pubDate>Tue, 26 May 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2009/05/%EC%9C%88%EB%8F%84%EC%97%90%EC%84%9C-USB-%EB%A9%94%EB%AA%A8%EB%A6%AC%EC%97%90-%EC%9A%B0%EB%B6%84%ED%88%AC-%EC%84%A4%EC%B9%98-%EC%94%A8%EB%94%94-%EB%8B%B4%EA%B8%B0/</guid>
-      <description>이 사이트의 내용 참고.
-준비물 - 7zip %drive% &amp;ndash; drive 문자 format %drive%: /FS:fat32 /V:Ubuntu8 /Q 7z x .iso -x!bin -x!programs -x!isolinuxisolinux.txt -x![BOOT] -o%drive%: mkdir %drive%:syslinuxwin32 copy syslinuxwin32.* %drive%:syslinuxwin32 copy backg.png %drive%: copy syslinux.cfg %drive%: copy vesamenu.c32 %drive%: copy makeboot.bat %drive%: %drive%: copy isolinux*.* rd isolinux /s/q del isolinux.bin call %drive%:makeboot.bat</description>
+      <description>이 사이트의 내용 참고.&#xA;준비물 - 7zip %drive% &amp;ndash; drive 문자 format %drive%: /FS:fat32 /V:Ubuntu8 /Q 7z x .iso -x!bin -x!programs -x!isolinuxisolinux.txt -x![BOOT] -o%drive%: mkdir %drive%:syslinuxwin32 copy syslinuxwin32.* %drive%:syslinuxwin32 copy backg.png %drive%: copy syslinux.cfg %drive%: copy vesamenu.c32 %drive%: copy makeboot.bat %drive%: %drive%: copy isolinux*.* rd isolinux /s/q del isolinux.bin call %drive%:makeboot.bat</description>
     </item>
-    
     <item>
       <title>Edit plus sftp 문제</title>
       <link>https://ezaurum.com/2008/12/Edit-plus-sftp-%EB%AC%B8%EC%A0%9C/</link>
       <pubDate>Mon, 08 Dec 2008 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2008/12/Edit-plus-sftp-%EB%AC%B8%EC%A0%9C/</guid>
-      <description>http://quiin.com/13
-이 설명은 데비안이지만, 당연히 우분투에서도 그대로 된다.</description>
+      <description>http://quiin.com/13&#xA;이 설명은 데비안이지만, 당연히 우분투에서도 그대로 된다.</description>
     </item>
-    
     <item>
       <title>우분투 외부 접속 문제</title>
       <link>https://ezaurum.com/2008/12/%EC%9A%B0%EB%B6%84%ED%88%AC-%EC%99%B8%EB%B6%80-%EC%A0%91%EC%86%8D-%EB%AC%B8%EC%A0%9C/</link>
       <pubDate>Mon, 01 Dec 2008 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2008/12/%EC%9A%B0%EB%B6%84%ED%88%AC-%EC%99%B8%EB%B6%80-%EC%A0%91%EC%86%8D-%EB%AC%B8%EC%A0%9C/</guid>
-      <description>텔넷이고 SSH고 ftp고 간에 하나도 외부에서는 접속이 되지 않는 것을 발견, 원인을 애타게 찾다가 다음 링크에서 대충의 힌트를 발견. http://kldp.org/node/19990
-IPTABLE 에 대한 설명 http://www.i-swear.com/148
-sudo iptables-save
-&amp;hellip;&amp;hellip;&amp;hellip;..하지만 다 소용 없었다.
-그냥 sudo reboot 몇 번 하니 해결.
-&amp;hellip;&amp;hellip;.. 뭐지 대체 뭐지.
-찝찝해!</description>
+      <description>텔넷이고 SSH고 ftp고 간에 하나도 외부에서는 접속이 되지 않는 것을 발견, 원인을 애타게 찾다가 다음 링크에서 대충의 힌트를 발견. http://kldp.org/node/19990&#xA;IPTABLE 에 대한 설명 http://www.i-swear.com/148&#xA;sudo iptables-save&#xA;&amp;hellip;&amp;hellip;&amp;hellip;..하지만 다 소용 없었다.&#xA;그냥 sudo reboot 몇 번 하니 해결.&#xA;&amp;hellip;&amp;hellip;.. 뭐지 대체 뭐지.&#xA;찝찝해!</description>
     </item>
-    
     <item>
       <title>Ubuntu Apache2 사용자별 웹 디렉토리 설정</title>
       <link>https://ezaurum.com/2008/11/Ubuntu-Apache2-%EC%82%AC%EC%9A%A9%EC%9E%90%EB%B3%84-%EC%9B%B9-%EB%94%94%EB%A0%89%ED%86%A0%EB%A6%AC-%EC%84%A4%EC%A0%95/</link>
       <pubDate>Sat, 29 Nov 2008 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2008/11/Ubuntu-Apache2-%EC%82%AC%EC%9A%A9%EC%9E%90%EB%B3%84-%EC%9B%B9-%EB%94%94%EB%A0%89%ED%86%A0%EB%A6%AC-%EC%84%A4%EC%A0%95/</guid>
-      <description>http://leeted.egloos.com/1489000 위 링크 참고 했음.
-콘솔에서 입력.
-cd /etc/apache2/mods-available sudo cp userdir.conf userdir.load /etc/apache2/mods-enabled sudo /etc/init.d/apache2 restart
-이후, 각 유자가 자기 홈 디렉 토리에다 public_html을 만들어주면 된다. 아래와 같은 식? cd ~ mkdir public_html public_html 디렉토리 아래에 index.html 생성</description>
+      <description>http://leeted.egloos.com/1489000 위 링크 참고 했음.&#xA;콘솔에서 입력.&#xA;cd /etc/apache2/mods-available sudo cp userdir.conf userdir.load /etc/apache2/mods-enabled sudo /etc/init.d/apache2 restart&#xA;이후, 각 유자가 자기 홈 디렉 토리에다 public_html을 만들어주면 된다. 아래와 같은 식? cd ~ mkdir public_html public_html 디렉토리 아래에 index.html 생성</description>
     </item>
-    
     <item>
       <title>-lsocket 옵션에서 에러가 날 때</title>
       <link>https://ezaurum.com/2008/11/-lsocket-%EC%98%B5%EC%85%98%EC%97%90%EC%84%9C-%EC%97%90%EB%9F%AC%EA%B0%80-%EB%82%A0-%EB%95%8C/</link>
       <pubDate>Fri, 28 Nov 2008 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2008/11/-lsocket-%EC%98%B5%EC%85%98%EC%97%90%EC%84%9C-%EC%97%90%EB%9F%AC%EA%B0%80-%EB%82%A0-%EB%95%8C/</guid>
-      <description>소켓 프로그래밍을 하는데 프린트물에 있는 대로 -lsocket 옵션을 주니 계속 cc 가 에러를 뱉었다.
-http://kldp.org/node/1377
-결론은 Sun 계열 유닉스에서 작업하는 게 아니면, -lnsl -lsocket 옵션을 주지 말고 컴파일하라는 것.
-한참 헤매다가 답 발견. 학교 서버가 sun 계열이라 그런 듯.</description>
+      <description>소켓 프로그래밍을 하는데 프린트물에 있는 대로 -lsocket 옵션을 주니 계속 cc 가 에러를 뱉었다.&#xA;http://kldp.org/node/1377&#xA;결론은 Sun 계열 유닉스에서 작업하는 게 아니면, -lnsl -lsocket 옵션을 주지 말고 컴파일하라는 것.&#xA;한참 헤매다가 답 발견. 학교 서버가 sun 계열이라 그런 듯.</description>
     </item>
-    
     <item>
       <title>리눅스 삽질기 - 3 -</title>
       <link>https://ezaurum.com/2008/11/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%82%BD%EC%A7%88%EA%B8%B0-3-/</link>
       <pubDate>Mon, 17 Nov 2008 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2008/11/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%82%BD%EC%A7%88%EA%B8%B0-3-/</guid>
-      <description>일단 gcc를 써 보자. 라고 생각해서 간단히 짜고 컴파일을 해보는데, 계속 에러. 구글링을 통해 해법을 찾았다. http://dantes.kr/blog/320 이 설명에서는 CD를 요구한다는데. 일단 8.10에서는 필요 없는듯?
-일단 이러고 나서, gcc 파일이름 이렇게 치면, 컴파일은 되는데, 실행이 안된다.
-왜?
-참고글 - http://wiki.kldp.org/KoreanDoc/html/gcc_and_make/gcc_and_make.html#toc2
-리눅스는 $ ./a.out 라는 식으로 실행해야 함.</description>
+      <description>일단 gcc를 써 보자. 라고 생각해서 간단히 짜고 컴파일을 해보는데, 계속 에러. 구글링을 통해 해법을 찾았다. http://dantes.kr/blog/320 이 설명에서는 CD를 요구한다는데. 일단 8.10에서는 필요 없는듯?&#xA;일단 이러고 나서, gcc 파일이름 이렇게 치면, 컴파일은 되는데, 실행이 안된다.&#xA;왜?&#xA;참고글 - http://wiki.kldp.org/KoreanDoc/html/gcc_and_make/gcc_and_make.html#toc2&#xA;리눅스는 $ ./a.out 라는 식으로 실행해야 함.</description>
     </item>
-    
     <item>
       <title>리눅스 삽질기 - 2 -</title>
       <link>https://ezaurum.com/2008/11/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%82%BD%EC%A7%88%EA%B8%B0-2-/</link>
       <pubDate>Sun, 16 Nov 2008 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2008/11/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%82%BD%EC%A7%88%EA%B8%B0-2-/</guid>
-      <description>지난 번에 리눅스를 깔아놓기만 한 PC가 팔려나가 버려서, 다른 PC에 깔게 되었다. 이번에는 버전업 된 우분투 8.10을 설치. 32비트 버전이다.
-일단 텔넷을 깔아야 하므로 아래의 참고 링크. 설치법 - http://eloid.tistory.com/21 텔넷 포트 바꾸기 - http://rustymind.egloos.com/3310669
-오늘은 여기까지</description>
+      <description>지난 번에 리눅스를 깔아놓기만 한 PC가 팔려나가 버려서, 다른 PC에 깔게 되었다. 이번에는 버전업 된 우분투 8.10을 설치. 32비트 버전이다.&#xA;일단 텔넷을 깔아야 하므로 아래의 참고 링크. 설치법 - http://eloid.tistory.com/21 텔넷 포트 바꾸기 - http://rustymind.egloos.com/3310669&#xA;오늘은 여기까지</description>
     </item>
-    
     <item>
       <title>리눅스 삽질기 - 1 -</title>
       <link>https://ezaurum.com/2008/10/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%82%BD%EC%A7%88%EA%B8%B0-1-/</link>
       <pubDate>Fri, 17 Oct 2008 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2008/10/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%82%BD%EC%A7%88%EA%B8%B0-1-/</guid>
-      <description>리눅스를 깔기로 결정했다. 몇 번이나 깔았다 지웠다를 반복한 지금, 결국 Vista 64 SP1을 기본으로 하고, Virtual PC를 이용해서, 사용하기로 함. virtual pc 2007 sp1은 여기서 받으면 됨. 다운로드 링크 정도는 알아서 찾자. 아래쪽에 64비트와 32비트 용으로 두 개가 있음.
-프로그램을 실행하고 MS사 물건답게, Next를 적당히 눌러주면 가상머신이 실행된다.
-여기까지 하다가, 만들어 보니 64비트 OS가 깔리지 않는다. 가상화는 무조건 32비트. 어째서일까. 혹시나 해서 Virtual BOX를 써 봤는데 기본 셋팅으로는 안 되고, 설정창에서 VT-X/AMD-V 설정을 켜 줘야 가능.</description>
+      <description>리눅스를 깔기로 결정했다. 몇 번이나 깔았다 지웠다를 반복한 지금, 결국 Vista 64 SP1을 기본으로 하고, Virtual PC를 이용해서, 사용하기로 함. virtual pc 2007 sp1은 여기서 받으면 됨. 다운로드 링크 정도는 알아서 찾자. 아래쪽에 64비트와 32비트 용으로 두 개가 있음.&#xA;프로그램을 실행하고 MS사 물건답게, Next를 적당히 눌러주면 가상머신이 실행된다.&#xA;여기까지 하다가, 만들어 보니 64비트 OS가 깔리지 않는다. 가상화는 무조건 32비트. 어째서일까. 혹시나 해서 Virtual BOX를 써 봤는데 기본 셋팅으로는 안 되고, 설정창에서 VT-X/AMD-V 설정을 켜 줘야 가능.</description>
     </item>
-    
     <item>
       <title>Ubuntu를 설치했다.</title>
       <link>https://ezaurum.com/2008/07/Ubuntu%EB%A5%BC-%EC%84%A4%EC%B9%98%ED%96%88%EB%8B%A4./</link>
       <pubDate>Sat, 19 Jul 2008 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2008/07/Ubuntu%EB%A5%BC-%EC%84%A4%EC%B9%98%ED%96%88%EB%8B%A4./</guid>
-      <description>지금까지 설치해 본 리눅스 중에 가장 성공적. Opera를 깔았고, 지금 포스팅도 할 수 있고, 음악도 들을 수 있다. 음악 들으면서 글을 쓸 수 있으면 이제 절반은 된 것, 동영상도 봐 진다!
-어째서 가장 쉬운 리눅스인가가 확실히 알 수 있다는 느낌.
-앞으로의 목표는 듀얼 모니터 설정과&amp;hellip; 그래픽 드라이버 설치-어째선지 그래픽 드라이버를 설치하면 X윈도우가 먹통이 되어버린다.</description>
+      <description>지금까지 설치해 본 리눅스 중에 가장 성공적. Opera를 깔았고, 지금 포스팅도 할 수 있고, 음악도 들을 수 있다. 음악 들으면서 글을 쓸 수 있으면 이제 절반은 된 것, 동영상도 봐 진다!&#xA;어째서 가장 쉬운 리눅스인가가 확실히 알 수 있다는 느낌.&#xA;앞으로의 목표는 듀얼 모니터 설정과&amp;hellip; 그래픽 드라이버 설치-어째선지 그래픽 드라이버를 설치하면 X윈도우가 먹통이 되어버린다.</description>
     </item>
-    
     <item>
       <title>Virtual Box</title>
       <link>https://ezaurum.com/2008/07/Virtual-Box/</link>
       <pubDate>Sat, 19 Jul 2008 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2008/07/Virtual-Box/</guid>
       <description>http://feryjunaedi.wordpress.com/2008/05/15/installing-virtualbox/</description>
     </item>
-    
     <item>
       <title>네이트 온 설치 성공!</title>
       <link>https://ezaurum.com/2008/07/%EB%84%A4%EC%9D%B4%ED%8A%B8-%EC%98%A8-%EC%84%A4%EC%B9%98-%EC%84%B1%EA%B3%B5/</link>
       <pubDate>Sat, 19 Jul 2008 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2008/07/%EB%84%A4%EC%9D%B4%ED%8A%B8-%EC%98%A8-%EC%84%A4%EC%B9%98-%EC%84%B1%EA%B3%B5/</guid>
       <description>일단 리눅스에서 네이트온 설치까지 성공했다. 좀 불안정하긴 하지만, 돌아는 가니까 됐어. 근데 메일이 안 읽어진다. 우분투8.04 를 위한 64비트 버전이 없어서 그냥 대충 7.01 버전으로 깔았음.</description>
     </item>
-    
     <item>
       <title>리눅스 쓰려 하다가 또 실패</title>
       <link>https://ezaurum.com/2007/12/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%93%B0%EB%A0%A4-%ED%95%98%EB%8B%A4%EA%B0%80-%EB%98%90-%EC%8B%A4%ED%8C%A8/</link>
       <pubDate>Sun, 02 Dec 2007 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2007/12/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%93%B0%EB%A0%A4-%ED%95%98%EB%8B%A4%EA%B0%80-%EB%98%90-%EC%8B%A4%ED%8C%A8/</guid>
       <description>Fedora core 8을 깔았다가 만 12시간쯤 만에 결국 XP로 복귀;; 현재 virtual box를 깔고 있음. 이걸로 리눅스에 대해 공부를 좀 한 다음에&amp;hellip; 일단 프로그램이 있다고 해도 설치를 못하는 상황이라 아무 것도 못했음;</description>
     </item>
-    
+    <item>
+      <title>Arch linux i3 환경에서 워크 스페이스 설정</title>
+      <link>https://ezaurum.com/1/01/Arch-linux-i3-%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C-%EC%9B%8C%ED%81%AC-%EC%8A%A4%ED%8E%98%EC%9D%B4%EC%8A%A4-%EC%84%A4%EC%A0%95/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ezaurum.com/1/01/Arch-linux-i3-%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C-%EC%9B%8C%ED%81%AC-%EC%8A%A4%ED%8E%98%EC%9D%B4%EC%8A%A4-%EC%84%A4%EC%A0%95/</guid>
+      <description>모니터가 여럿인 경우, 원하는 프로그램을 원하는 위치에 띄워두고 싶을 때가 있다. 이런 경우를 위해 i3 config 파일에 다음과 같은 설정을 추가한다.&#xA;# ~/.config/i3/config bindsym $mod+Shift+1 ~/prepare-workspace.sh 이렇게 하면 $mod+Shift+1을 누르면 ~/prepare-workspace.sh가 실행된다. 이 스크립트는 다음과 같이 작성한다.&#xA;# ~/prepare-workspace.sh # 워크스페이스 1번에 firefox를 띄우고, 2번에 IntelliJ, 3번에 터미널을 띄운다. i3-msg &amp;#39;workspace 1; exec firefox -new-window https://www.google.com&amp;#39; # 실행이 빨리 되지 않으면 다음과 같이 sleep을 준다. 그러지 않으면 workspace가 다시 바뀌어 버린다.</description>
+    </item>
   </channel>
 </rss>

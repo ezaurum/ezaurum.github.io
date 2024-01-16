@@ -7,25 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Mon, 04 Feb 2019 21:13:18 +0900</lastBuildDate><atom:link href="https://ezaurum.com/tags/import/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 Feb 2019 21:13:18 +0900</lastBuildDate>
+    <atom:link href="https://ezaurum.com/tags/import/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Vue 프로젝트에서 import에서 @가 인식되지 않는 경우</title>
-      <link>https://ezaurum.com/2019/02/Vue-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EC%97%90%EC%84%9C-import%EC%97%90%EC%84%9C-%EA%B0%80-%EC%9D%B8%EC%8B%9D%EB%90%98%EC%A7%80-%EC%95%8A%EB%8A%94-%EA%B2%BD%EC%9A%B0/</link>
+      <link>https://ezaurum.com/2019/02/Vue-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EC%97%90%EC%84%9C-import%EC%97%90%EC%84%9C-@%EA%B0%80-%EC%9D%B8%EC%8B%9D%EB%90%98%EC%A7%80-%EC%95%8A%EB%8A%94-%EA%B2%BD%EC%9A%B0/</link>
       <pubDate>Mon, 04 Feb 2019 21:13:18 +0900</pubDate>
-      
-      <guid>https://ezaurum.com/2019/02/Vue-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EC%97%90%EC%84%9C-import%EC%97%90%EC%84%9C-%EA%B0%80-%EC%9D%B8%EC%8B%9D%EB%90%98%EC%A7%80-%EC%95%8A%EB%8A%94-%EA%B2%BD%EC%9A%B0/</guid>
-      <description>Settings-&amp;gt;Javascript-&amp;gt;Webpack 에서 node_modules/@vue/cli-service/webpack.config.js 를 설정해 주면 된다.
-참고</description>
+      <guid>https://ezaurum.com/2019/02/Vue-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EC%97%90%EC%84%9C-import%EC%97%90%EC%84%9C-@%EA%B0%80-%EC%9D%B8%EC%8B%9D%EB%90%98%EC%A7%80-%EC%95%8A%EB%8A%94-%EA%B2%BD%EC%9A%B0/</guid>
+      <description>Settings-&amp;gt;Javascript-&amp;gt;Webpack 에서 node_modules/@vue/cli-service/webpack.config.js 를 설정해 주면 된다.&#xA;참고</description>
     </item>
-    
     <item>
       <title>intelliJ에서 gradle 프로젝트 import 시 JAVA_HOME is different 에러가 날때</title>
       <link>https://ezaurum.com/2013/02/intelliJ%EC%97%90%EC%84%9C-gradle-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-import-%EC%8B%9C-JAVA_HOME-is-different-%EC%97%90%EB%9F%AC%EA%B0%80-%EB%82%A0%EB%95%8C/</link>
       <pubDate>Sun, 17 Feb 2013 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2013/02/intelliJ%EC%97%90%EC%84%9C-gradle-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-import-%EC%8B%9C-JAVA_HOME-is-different-%EC%97%90%EB%9F%AC%EA%B0%80-%EB%82%A0%EB%95%8C/</guid>
-      <description>윈도우 환경에서, intelliJ로 gradle 빌드 파일을 import하려고 하니 JAVA_HOME is different라는 에러가 난다.메세지를 보니 다 똑같은데, intelliJ가 expect라고 하는 건 디렉토리가 다 소문자, 실제로 있는 건 대문자가 섞여 있다.보통 JDK는 C:Program FilesJava 아래에 깔리게 되는데, 그냥 c:jdk로 옮겨주고, 시스템 설정에서 JAVA_HOME도 바꿔줬다.그걸로 해결.</description>
+      <description>윈도우 환경에서, intelliJ로 gradle 빌드 파일을 import하려고 하니 JAVA_HOME is different라는 에러가 난다.&#xD;메세지를 보니 다 똑같은데, intelliJ가 expect라고 하는 건 디렉토리가 다 소문자, 실제로 있는 건 대문자가 섞여 있다.&#xD;보통 JDK는 C:Program FilesJava 아래에 깔리게 되는데, 그냥 c:jdk로 옮겨주고, 시스템 설정에서 JAVA_HOME도 바꿔줬다.&#xD;그걸로 해결.</description>
     </item>
-    
   </channel>
 </rss>

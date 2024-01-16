@@ -7,17 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Wed, 13 May 2020 15:20:35 +0900</lastBuildDate><atom:link href="https://ezaurum.com/tags/cloudflare/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 13 May 2020 15:20:35 +0900</lastBuildDate>
+    <atom:link href="https://ezaurum.com/tags/cloudflare/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>클라우드 플레어에서 페이지 리다이렉트</title>
       <link>https://ezaurum.com/2020/05/%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C-%ED%94%8C%EB%A0%88%EC%96%B4%EC%97%90%EC%84%9C-%ED%8E%98%EC%9D%B4%EC%A7%80-%EB%A6%AC%EB%8B%A4%EC%9D%B4%EB%A0%89%ED%8A%B8/</link>
       <pubDate>Wed, 13 May 2020 15:20:35 +0900</pubDate>
-      
       <guid>https://ezaurum.com/2020/05/%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C-%ED%94%8C%EB%A0%88%EC%96%B4%EC%97%90%EC%84%9C-%ED%8E%98%EC%9D%B4%EC%A7%80-%EB%A6%AC%EB%8B%A4%EC%9D%B4%EB%A0%89%ED%8A%B8/</guid>
-      <description>목적 클라우드 플레어에서 특정 도메인을 다른 도메인으로 리다이렉트 한다
-예를 들어 test.test.com 을 gogo.com 으로 리다이렉트 하고 싶다고 하자.
-DNS 설정에서 CNAME을 추가하고, 서브도메인을 메인 도메인으로 프록시 설정한다. CNAME : test / @ (가장 오른쪽의 proxied를 체크) page rule 설정에서 *test.test.com 을 추가하고 gogo.com으로 연결한다. 서브도메인을 메인 도메인으로 프록시 설정하는 걸 빼먹으면 정상작동하지 않는다.</description>
+      <description>목적 클라우드 플레어에서 특정 도메인을 다른 도메인으로 리다이렉트 한다&#xA;예를 들어 test.test.com 을 gogo.com 으로 리다이렉트 하고 싶다고 하자.&#xA;DNS 설정에서 CNAME을 추가하고, 서브도메인을 메인 도메인으로 프록시 설정한다. CNAME : test / @ (가장 오른쪽의 proxied를 체크) page rule 설정에서 *test.test.com 을 추가하고 gogo.com으로 연결한다. 서브도메인을 메인 도메인으로 프록시 설정하는 걸 빼먹으면 정상작동하지 않는다.</description>
     </item>
-    
   </channel>
 </rss>

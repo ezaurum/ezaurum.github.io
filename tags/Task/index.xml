@@ -7,17 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Mon, 16 Feb 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://ezaurum.com/tags/Task/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 16 Feb 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ezaurum.com/tags/Task/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Task의 실행 시점</title>
       <link>https://ezaurum.com/2015/02/Task%EC%9D%98-%EC%8B%A4%ED%96%89-%EC%8B%9C%EC%A0%90/</link>
       <pubDate>Mon, 16 Feb 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2015/02/Task%EC%9D%98-%EC%8B%A4%ED%96%89-%EC%8B%9C%EC%A0%90/</guid>
-      <description>Stackexchange redis에서 트랜잭션 진행이 멈춤이라는 질문과 답변을 보다가 Execute가 실제 명령어들보다 앞에서 await로 되어 있는 것을 보고 좀 이상하다는 느낌을 받았다. 그래서 열심히 검색하고 테스트 코드를 짜 보았다. https://gist.github.com/ezaurum/746ea24220b52b27b56c.js
-결론은, Task는 await로 되는 시점에 실행되는 것이 아니다. 단지 Task는 실행되고 있는 쓰레드(정확히 대응하는 것은 아니지만&amp;hellip;)에 대한 핸들러를 주는 것이고, await는 그게 종료 되었는지 확인 될 때까지 해당 프로시저를 멈추는 역할을 할 뿐이다. 그러니, 저 코드는 실제로는 다음과 같을 것이다.
-트랜잭션 만든다.</description>
+      <description>Stackexchange redis에서 트랜잭션 진행이 멈춤이라는 질문과 답변을 보다가 Execute가 실제 명령어들보다 앞에서 await로 되어 있는 것을 보고 좀 이상하다는 느낌을 받았다. 그래서 열심히 검색하고 테스트 코드를 짜 보았다. https://gist.github.com/ezaurum/746ea24220b52b27b56c.js&#xA;결론은, Task는 await로 되는 시점에 실행되는 것이 아니다. 단지 Task는 실행되고 있는 쓰레드(정확히 대응하는 것은 아니지만&amp;hellip;)에 대한 핸들러를 주는 것이고, await는 그게 종료 되었는지 확인 될 때까지 해당 프로시저를 멈추는 역할을 할 뿐이다. 그러니, 저 코드는 실제로는 다음과 같을 것이다.&#xA;트랜잭션 만든다.</description>
     </item>
-    
   </channel>
 </rss>

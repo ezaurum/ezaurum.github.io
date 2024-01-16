@@ -7,18 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Sun, 11 Oct 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://ezaurum.com/tags/spring-boot/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 11 Oct 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ezaurum.com/tags/spring-boot/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Spring boot 감상</title>
       <link>https://ezaurum.com/2015/10/Spring-boot-%EA%B0%90%EC%83%81/</link>
       <pubDate>Sun, 11 Oct 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2015/10/Spring-boot-%EA%B0%90%EC%83%81/</guid>
-      <description>스프링을 쓸 일이 오랜만에 생겨서 기왕 하는 거 신기술! 이라는 평소의 마음가짐으로 스프링 부트를 골라봤다.
-참고 문서는 아주아주 널려 있어서 간단하게 해결할 수 있었다.
-http://theeye.pe.kr/archives/2014 http://mudchobo.tistory.com/549 http://woniperstory.tistory.com/230 http://bcho.tistory.com/979
-참고 문서를 읽는 것보다 간편하게 처리할 수 있었다. 3.0 때의 xml 삽질을 생각하면 아&amp;hellip;.</description>
+      <description>스프링을 쓸 일이 오랜만에 생겨서 기왕 하는 거 신기술! 이라는 평소의 마음가짐으로 스프링 부트를 골라봤다.&#xA;참고 문서는 아주아주 널려 있어서 간단하게 해결할 수 있었다.&#xA;http://theeye.pe.kr/archives/2014 http://mudchobo.tistory.com/549 http://woniperstory.tistory.com/230 http://bcho.tistory.com/979&#xA;참고 문서를 읽는 것보다 간편하게 처리할 수 있었다. 3.0 때의 xml 삽질을 생각하면 아&amp;hellip;.</description>
     </item>
-    
   </channel>
 </rss>

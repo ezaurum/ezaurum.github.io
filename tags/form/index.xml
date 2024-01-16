@@ -7,27 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Fri, 22 Oct 2010 00:00:00 +0000</lastBuildDate><atom:link href="https://ezaurum.com/tags/form/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 22 Oct 2010 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ezaurum.com/tags/form/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Java 컨테이너에 Form 값의 encoding 깨질 때</title>
       <link>https://ezaurum.com/2010/10/Java-%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88%EC%97%90-Form-%EA%B0%92%EC%9D%98-encoding-%EA%B9%A8%EC%A7%88-%EB%95%8C/</link>
       <pubDate>Fri, 22 Oct 2010 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2010/10/Java-%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88%EC%97%90-Form-%EA%B0%92%EC%9D%98-encoding-%EA%B9%A8%EC%A7%88-%EB%95%8C/</guid>
-      <description>점검사항은 아래 세가지.
-폼에서 정확히 인코딩을 지정해서 넘겨주는가?서버에서 정확히 인코딩을 인식하는가?DB에서 정확히 인코딩을 인식하는가?이다.폼에서 정확히 인코딩을 지정해서 념겨주는가?이 경우는 일단 문서 첫머리에 meta태그가 utf-8으로 지정되어 있고, 폼에 accept-charset 어트리뷰트가 지정되어 있고, 브라우저에서 확인해서 문서가 utf-8으로 읽히는 상황이라면 문제 없다고 보면 된다. UTF-8으로 나와야 하는 페이지가 UTF-8으로 안나오는 경우는 여기서 다룰 게 아니다.
-&amp;lt;meta http-equiv=&#34;Content-Type&#34; content=&#34;text/html; charset=UTF-8&#34; /&amp;gt;&amp;lt;meta charset=&#34;UTF-8&#34; /&amp;gt;&amp;lt;form accept-charset=&#34;UTF-8&#34; &amp;gt;서버에서 인코딩을 제대로 인식하는가?</description>
+      <description>점검사항은 아래 세가지.&#xA;폼에서 정확히 인코딩을 지정해서 넘겨주는가?&#xD;서버에서 정확히 인코딩을 인식하는가?&#xD;DB에서 정확히 인코딩을 인식하는가?&#xD;이다.&#xD;폼에서 정확히 인코딩을 지정해서 념겨주는가?&#xD;이 경우는 일단 문서 첫머리에 meta태그가 utf-8으로 지정되어 있고, 폼에 accept-charset 어트리뷰트가 지정되어 있고, 브라우저에서 확인해서 문서가 utf-8으로 읽히는 상황이라면 문제 없다고 보면 된다. UTF-8으로 나와야 하는 페이지가 UTF-8으로 안나오는 경우는 여기서 다룰 게 아니다.&#xA;&amp;lt;meta http-equiv=&#34;Content-Type&#34; content=&#34;text/html; charset=UTF-8&#34; /&amp;gt;&#xD;&amp;lt;meta charset=&#34;UTF-8&#34; /&amp;gt;&#xD;&amp;lt;form accept-charset=&#34;UTF-8&#34; &amp;gt;&#xD;서버에서 인코딩을 제대로 인식하는가?</description>
     </item>
-    
     <item>
       <title>다른 프레임으로 폼 값 전송</title>
       <link>https://ezaurum.com/2009/09/%EB%8B%A4%EB%A5%B8-%ED%94%84%EB%A0%88%EC%9E%84%EC%9C%BC%EB%A1%9C-%ED%8F%BC-%EA%B0%92-%EC%A0%84%EC%86%A1/</link>
       <pubDate>Sat, 19 Sep 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2009/09/%EB%8B%A4%EB%A5%B8-%ED%94%84%EB%A0%88%EC%9E%84%EC%9C%BC%EB%A1%9C-%ED%8F%BC-%EA%B0%92-%EC%A0%84%EC%86%A1/</guid>
-      <description>자바스크립트 이용
-window.open(&amp;ldquo;title&amp;rdquo;, &amp;ldquo;frameName&amp;rdquo;, &amp;ldquo;width=600, height=400, scrollbars=yes&amp;rdquo;); document.form1.action = &amp;ldquo;action.php&amp;rdquo;; document.form1.target = &amp;ldquo;frameName&amp;rdquo;; document.form1.method = &amp;ldquo;post&amp;rdquo;; document.form1.submit();</description>
+      <description>자바스크립트 이용&#xA;window.open(&amp;ldquo;title&amp;rdquo;, &amp;ldquo;frameName&amp;rdquo;, &amp;ldquo;width=600, height=400, scrollbars=yes&amp;rdquo;); document.form1.action = &amp;ldquo;action.php&amp;rdquo;; document.form1.target = &amp;ldquo;frameName&amp;rdquo;; document.form1.method = &amp;ldquo;post&amp;rdquo;; document.form1.submit();</description>
     </item>
-    
   </channel>
 </rss>

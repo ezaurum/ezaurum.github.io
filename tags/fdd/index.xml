@@ -7,15 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Thu, 20 Nov 2008 00:00:00 +0000</lastBuildDate><atom:link href="https://ezaurum.com/tags/fdd/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 20 Nov 2008 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ezaurum.com/tags/fdd/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>XP용 Intel AHCI driver</title>
       <link>https://ezaurum.com/2008/11/XP%EC%9A%A9-Intel-AHCI-driver/</link>
       <pubDate>Thu, 20 Nov 2008 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2008/11/XP%EC%9A%A9-Intel-AHCI-driver/</guid>
       <description>XP란 게 SATA2를 제대로 지원하지는 못한다. AHCI를 쓰려고 많은 삽질을 했는데, 일하다가 AHCI 모드로 XP가 깔린 놋북을 복구해야 할 일이 생겼다. 요즘 학교에 또 만연하는 로그온 실패를 유발하는 바이러스다. 그런데 문제가, 일반 XP씨디를 이용해서 손상된 userinit.exe라든가, lsass.exe라든가 winlogon.exe를 복구하려고 하면, 이놈이 AHCI 모드인 하드를 인식하지를 못한다. 요즘 놋북에 FDD가 있을리 만무. 그래서 USB FDD를 어렵사리 찾아서, 그걸 이용해서 드라이버를 깔려고 하는데, 이런 망할 놈들이 윈도용 드라이버-설치된 후 사용하는-는 흔한데, 설치할 때 쓰는 드라이버는 안 보이는 거다!</description>
     </item>
-    
   </channel>
 </rss>

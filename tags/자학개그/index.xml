@@ -7,18 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Mon, 03 May 2010 00:00:00 +0000</lastBuildDate><atom:link href="https://ezaurum.com/tags/%EC%9E%90%ED%95%99%EA%B0%9C%EA%B7%B8/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 03 May 2010 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ezaurum.com/tags/%EC%9E%90%ED%95%99%EA%B0%9C%EA%B7%B8/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>살이 찌고 있다</title>
       <link>https://ezaurum.com/2010/05/%EC%82%B4%EC%9D%B4-%EC%B0%8C%EA%B3%A0-%EC%9E%88%EB%8B%A4/</link>
       <pubDate>Mon, 03 May 2010 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2010/05/%EC%82%B4%EC%9D%B4-%EC%B0%8C%EA%B3%A0-%EC%9E%88%EB%8B%A4/</guid>
-      <description>while( is_복무() ) { if (야근()) { 야식(); } 잠(); }
-function 야근() { return true; }
-function 야식() { 몸+=살; }
-이 프로세스를 죽여야 하는데&amp;hellip; 죽여도 죽여도 되살아나&amp;hellip;</description>
+      <description>while( is_복무() ) { if (야근()) { 야식(); } 잠(); }&#xA;function 야근() { return true; }&#xA;function 야식() { 몸+=살; }&#xA;이 프로세스를 죽여야 하는데&amp;hellip; 죽여도 죽여도 되살아나&amp;hellip;</description>
     </item>
-    
   </channel>
 </rss>

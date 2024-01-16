@@ -7,15 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Thu, 16 May 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://ezaurum.com/tags/json-request/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 16 May 2013 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ezaurum.com/tags/json-request/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>json 요청 보내기</title>
       <link>https://ezaurum.com/2013/05/json-%EC%9A%94%EC%B2%AD-%EB%B3%B4%EB%82%B4%EA%B8%B0/</link>
       <pubDate>Thu, 16 May 2013 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2013/05/json-%EC%9A%94%EC%B2%AD-%EB%B3%B4%EB%82%B4%EA%B8%B0/</guid>
       <description>curl -v -H &amp;ldquo;Accept: application/json&amp;rdquo; -H &amp;ldquo;Content-type: application/json&amp;rdquo; -X POST -d &amp;lsquo;{&amp;ldquo;email&amp;rdquo;:&amp;ldquo;abesteail@mailcom&amp;rdquo;,&amp;ldquo;password&amp;rdquo;:&amp;ldquo;234234&amp;rdquo;}&amp;rsquo; http://localhost:8080/json</description>
     </item>
-    
   </channel>
 </rss>

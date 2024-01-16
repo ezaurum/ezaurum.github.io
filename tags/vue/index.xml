@@ -7,36 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Thu, 26 Mar 2020 02:00:18 +0900</lastBuildDate><atom:link href="https://ezaurum.com/tags/vue/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 26 Mar 2020 02:00:18 +0900</lastBuildDate>
+    <atom:link href="https://ezaurum.com/tags/vue/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Vue에서 form 조건부 validation</title>
       <link>https://ezaurum.com/2020/03/Vue%EC%97%90%EC%84%9C-form-%EC%A1%B0%EA%B1%B4%EB%B6%80-validation/</link>
       <pubDate>Thu, 26 Mar 2020 02:00:18 +0900</pubDate>
-      
       <guid>https://ezaurum.com/2020/03/Vue%EC%97%90%EC%84%9C-form-%EC%A1%B0%EA%B1%B4%EB%B6%80-validation/</guid>
       <description>Vue에서 특정 경우에만 나타나는 항목에 대해 validation을 하려면, v-show말코 v-if를 써서 꺼버리면 validation 이 아예 돌지 않는다.</description>
     </item>
-    
     <item>
       <title>Vue 프로젝트에서 import에서 @가 인식되지 않는 경우</title>
-      <link>https://ezaurum.com/2019/02/Vue-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EC%97%90%EC%84%9C-import%EC%97%90%EC%84%9C-%EA%B0%80-%EC%9D%B8%EC%8B%9D%EB%90%98%EC%A7%80-%EC%95%8A%EB%8A%94-%EA%B2%BD%EC%9A%B0/</link>
+      <link>https://ezaurum.com/2019/02/Vue-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EC%97%90%EC%84%9C-import%EC%97%90%EC%84%9C-@%EA%B0%80-%EC%9D%B8%EC%8B%9D%EB%90%98%EC%A7%80-%EC%95%8A%EB%8A%94-%EA%B2%BD%EC%9A%B0/</link>
       <pubDate>Mon, 04 Feb 2019 21:13:18 +0900</pubDate>
-      
-      <guid>https://ezaurum.com/2019/02/Vue-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EC%97%90%EC%84%9C-import%EC%97%90%EC%84%9C-%EA%B0%80-%EC%9D%B8%EC%8B%9D%EB%90%98%EC%A7%80-%EC%95%8A%EB%8A%94-%EA%B2%BD%EC%9A%B0/</guid>
-      <description>Settings-&amp;gt;Javascript-&amp;gt;Webpack 에서 node_modules/@vue/cli-service/webpack.config.js 를 설정해 주면 된다.
-참고</description>
+      <guid>https://ezaurum.com/2019/02/Vue-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EC%97%90%EC%84%9C-import%EC%97%90%EC%84%9C-@%EA%B0%80-%EC%9D%B8%EC%8B%9D%EB%90%98%EC%A7%80-%EC%95%8A%EB%8A%94-%EA%B2%BD%EC%9A%B0/</guid>
+      <description>Settings-&amp;gt;Javascript-&amp;gt;Webpack 에서 node_modules/@vue/cli-service/webpack.config.js 를 설정해 주면 된다.&#xA;참고</description>
     </item>
-    
     <item>
       <title>Vue에서 외부 모듈의 스타일을 적용했는데 적용되지 않을 때</title>
       <link>https://ezaurum.com/bug/vue-style-scoped/</link>
       <pubDate>Fri, 31 Aug 2018 22:31:05 +0900</pubDate>
-      
       <guid>https://ezaurum.com/bug/vue-style-scoped/</guid>
-      <description>문제 상황 Vue 프로그래밍 중 외부 모듈을 사용했는데, 해당 모듈의 기본 css를 덮어씌우려고 불러오는 vue 페이지의 style을 변경했다. 클래스 이름을 분명히 지정했고, !important도 먹히지 않았음
-문제 원인 알고 보니 style 태그에 scoped가 지정되어 있어서 자동으로 한정자가 붙어버린다. 그러니 단순히 클래스만 지정해서는 해당 모듈에 반영되지 않았다.
-재발 방지를 위해 외부 모듈의 경우는 style태그를 따로 하나 더 만들어서 처리한다. CSS를 해당 외부 모듈을 감싸는 부모 태그를 포함해서 선언 한다. </description>
+      <description>문제 상황 Vue 프로그래밍 중 외부 모듈을 사용했는데, 해당 모듈의 기본 css를 덮어씌우려고 불러오는 vue 페이지의 style을 변경했다. 클래스 이름을 분명히 지정했고, !important도 먹히지 않았음&#xA;문제 원인 알고 보니 style 태그에 scoped가 지정되어 있어서 자동으로 한정자가 붙어버린다. 그러니 단순히 클래스만 지정해서는 해당 모듈에 반영되지 않았다.&#xA;재발 방지를 위해 외부 모듈의 경우는 style태그를 따로 하나 더 만들어서 처리한다. CSS를 해당 외부 모듈을 감싸는 부모 태그를 포함해서 선언 한다. </description>
     </item>
-    
   </channel>
 </rss>

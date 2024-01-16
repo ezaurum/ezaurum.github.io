@@ -7,631 +7,434 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Thu, 08 Apr 2021 22:34:33 +0900</lastBuildDate><atom:link href="https://ezaurum.com/tags/%EA%B3%B5%EB%B6%80/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 08 Apr 2021 22:34:33 +0900</lastBuildDate>
+    <atom:link href="https://ezaurum.com/tags/%EA%B3%B5%EB%B6%80/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Async/Sync vs Block/Non-Block</title>
       <link>https://ezaurum.com/study/async-sync-vs-block-non-block/</link>
       <pubDate>Thu, 08 Apr 2021 22:34:33 +0900</pubDate>
-      
       <guid>https://ezaurum.com/study/async-sync-vs-block-non-block/</guid>
-      <description>옛날에 어느 N사 면접에서 나온 질문인데 대답이 명확하게 나오지 않아서 나중에 알아봐야지 하다가 말았던 것.
-결론은 결국 영어 공부였다. Async/Sync - Block/Non-Block 의 의미를 이해하면 될 문제였던 것.
-Block/Non-Block Block/Non-Block 은 프로시저의 실행이 멈추는가를 표현하는 용어다.
-실행 중인 프로시저A가 다른 프로시저B를 호출 할 때, 호출된 프로시저B가 자기가 끝날 때까지 A 를 멈추면(Block) Block이고 안 멈추면(Non-Block) Non-Block이다.
-실제 구현된 프로그램 함수로 생각한다면 호출된 함수가 모든 작업이 끝난 다음에 return 하냐 작업이 끝나기 전에 return 하냐 하는 것을 생각하면 되겠다.</description>
+      <description>옛날에 어느 N사 면접에서 나온 질문인데 대답이 명확하게 나오지 않아서 나중에 알아봐야지 하다가 말았던 것.&#xA;결론은 결국 영어 공부였다. Async/Sync - Block/Non-Block 의 의미를 이해하면 될 문제였던 것.&#xA;Block/Non-Block Block/Non-Block 은 프로시저의 실행이 멈추는가를 표현하는 용어다.&#xA;실행 중인 프로시저A가 다른 프로시저B를 호출 할 때, 호출된 프로시저B가 자기가 끝날 때까지 A 를 멈추면(Block) Block이고 안 멈추면(Non-Block) Non-Block이다.&#xA;실제 구현된 프로그램 함수로 생각한다면 호출된 함수가 모든 작업이 끝난 다음에 return 하냐 작업이 끝나기 전에 return 하냐 하는 것을 생각하면 되겠다.</description>
     </item>
-    
     <item>
       <title>2018 카카오 블라인드 테스트 추석 트래픽 풀이</title>
       <link>https://ezaurum.com/study/sweep-algorithm/</link>
       <pubDate>Thu, 18 Mar 2021 13:49:20 +0900</pubDate>
-      
       <guid>https://ezaurum.com/study/sweep-algorithm/</guid>
-      <description>알고리즘 스터디를 하다 6시간 이상 낑낑대며 풀어서 아까워서 정리 언젠가는 쉽게 풀 수 있겠지.
-문제 2018카카오 블라인드 테스트
-신경써야 하는 부분 정렬된 기준점에서 시작해야 함 Sweeping Algorithm 참조
-일반 풀이 Sweep a line across problem plane. 문제를 평면에 놓고 줄을 긋는다
-As the line sweeps across the plane, events of interest occur, keep track of these events. 줄이 평면에 그어지면서 뭔가 사건이 생기면 그걸 추적한다.
-Deal with events that occur at the line leaving a solved problem behind.</description>
+      <description>알고리즘 스터디를 하다 6시간 이상 낑낑대며 풀어서 아까워서 정리 언젠가는 쉽게 풀 수 있겠지.&#xA;문제 2018카카오 블라인드 테스트&#xA;신경써야 하는 부분 정렬된 기준점에서 시작해야 함 Sweeping Algorithm 참조&#xA;일반 풀이 Sweep a line across problem plane. 문제를 평면에 놓고 줄을 긋는다&#xA;As the line sweeps across the plane, events of interest occur, keep track of these events. 줄이 평면에 그어지면서 뭔가 사건이 생기면 그걸 추적한다.&#xA;Deal with events that occur at the line leaving a solved problem behind.</description>
     </item>
-    
     <item>
       <title>엑셀에서 컬럼을 로우로, 로우를 컬럼으로 변환</title>
       <link>https://ezaurum.com/2019/02/%EC%97%91%EC%85%80%EC%97%90%EC%84%9C-%EC%BB%AC%EB%9F%BC%EC%9D%84-%EB%A1%9C%EC%9A%B0%EB%A1%9C-%EB%A1%9C%EC%9A%B0%EB%A5%BC-%EC%BB%AC%EB%9F%BC%EC%9C%BC%EB%A1%9C-%EB%B3%80%ED%99%98/</link>
       <pubDate>Thu, 21 Feb 2019 18:20:40 +0900</pubDate>
-      
       <guid>https://ezaurum.com/2019/02/%EC%97%91%EC%85%80%EC%97%90%EC%84%9C-%EC%BB%AC%EB%9F%BC%EC%9D%84-%EB%A1%9C%EC%9A%B0%EB%A1%9C-%EB%A1%9C%EC%9A%B0%EB%A5%BC-%EC%BB%AC%EB%9F%BC%EC%9C%BC%EB%A1%9C-%EB%B3%80%ED%99%98/</guid>
       <description>TRANSPOSE(범위) 피봇 테이블 할 것도 없이 이거면 끝</description>
     </item>
-    
     <item>
       <title>게임 마케팅 용어</title>
       <link>https://ezaurum.com/study/marketing-taxonomy/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/study/marketing-taxonomy/</guid>
       <description>사용자 ARPDAU 일간 활성 사용자 평균 수입, 일간 수입 / 일간 활성 사용자, 서버비 계산할 때 쓰면 되려나 ARPU 사용자당 평균 수입, 총수입/총 유저수, 광고비 집행할 때 고려 ARPPU 과금 사용자당 평균 수입, 광고비 집행할 때 고려, 낮은 가격의 한 번만 살 수 있는 상품 판촉할 때 고려 DAU 일 평균 사용자, 하루 얼마나 오는지 MAU 월간 평균 사용자, 한 달에 얼마나 오는지 LTV사용자가 수입을 얼마나 가져오나 하는 것 F2P게임 하는 건 공짜, 부분유료화 모델 광고 CAC 사용자를 획득하는 데 드는 비용, 광고비 및 기타등등, 이게 ARPU 보다 낮으면 무조건 이득 CPC 클릭당 비용, 광고를 클릭했을 때 내는 광고 비용 CPD 다운로드당 비용, 사용자가 다운로드 했을 때 광고 비용, 게임 다운만 받아도 200원씩 주는 그런 거 CPI 설치당 지불하는 광고 비용, 실제 설치했다는 증명이 된다 IAA 앱 내 광고 IAP 앱 내 구매 </description>
     </item>
-    
     <item>
       <title>Task의 실행 시점</title>
       <link>https://ezaurum.com/2015/02/Task%EC%9D%98-%EC%8B%A4%ED%96%89-%EC%8B%9C%EC%A0%90/</link>
       <pubDate>Mon, 16 Feb 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2015/02/Task%EC%9D%98-%EC%8B%A4%ED%96%89-%EC%8B%9C%EC%A0%90/</guid>
-      <description>Stackexchange redis에서 트랜잭션 진행이 멈춤이라는 질문과 답변을 보다가 Execute가 실제 명령어들보다 앞에서 await로 되어 있는 것을 보고 좀 이상하다는 느낌을 받았다. 그래서 열심히 검색하고 테스트 코드를 짜 보았다. https://gist.github.com/ezaurum/746ea24220b52b27b56c.js
-결론은, Task는 await로 되는 시점에 실행되는 것이 아니다. 단지 Task는 실행되고 있는 쓰레드(정확히 대응하는 것은 아니지만&amp;hellip;)에 대한 핸들러를 주는 것이고, await는 그게 종료 되었는지 확인 될 때까지 해당 프로시저를 멈추는 역할을 할 뿐이다. 그러니, 저 코드는 실제로는 다음과 같을 것이다.
-트랜잭션 만든다.</description>
+      <description>Stackexchange redis에서 트랜잭션 진행이 멈춤이라는 질문과 답변을 보다가 Execute가 실제 명령어들보다 앞에서 await로 되어 있는 것을 보고 좀 이상하다는 느낌을 받았다. 그래서 열심히 검색하고 테스트 코드를 짜 보았다. https://gist.github.com/ezaurum/746ea24220b52b27b56c.js&#xA;결론은, Task는 await로 되는 시점에 실행되는 것이 아니다. 단지 Task는 실행되고 있는 쓰레드(정확히 대응하는 것은 아니지만&amp;hellip;)에 대한 핸들러를 주는 것이고, await는 그게 종료 되었는지 확인 될 때까지 해당 프로시저를 멈추는 역할을 할 뿐이다. 그러니, 저 코드는 실제로는 다음과 같을 것이다.&#xA;트랜잭션 만든다.</description>
     </item>
-    
     <item>
       <title>Nuget 패키지에 의존성 지정하기</title>
       <link>https://ezaurum.com/2015/02/Nuget-%ED%8C%A8%ED%82%A4%EC%A7%80%EC%97%90-%EC%9D%98%EC%A1%B4%EC%84%B1-%EC%A7%80%EC%A0%95%ED%95%98%EA%B8%B0/</link>
       <pubDate>Sun, 08 Feb 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2015/02/Nuget-%ED%8C%A8%ED%82%A4%EC%A7%80%EC%97%90-%EC%9D%98%EC%A1%B4%EC%84%B1-%EC%A7%80%EC%A0%95%ED%95%98%EA%B8%B0/</guid>
-      <description>출처 - Nuget 매뉴얼 Nuget 패키지를 만들 때 의존성을 지정하려면, .nuspec 파일 안의 metadata 태그의 자식으로 &amp;lt;/code&amp;gt;이렇게 지정해 주면 된다.</description>
+      <description>출처 - Nuget 매뉴얼 Nuget 패키지를 만들 때 의존성을 지정하려면, .nuspec 파일 안의 metadata 태그의 자식으로 &amp;lt;/code&amp;gt;&#xD;이렇게 지정해 주면 된다.</description>
     </item>
-    
     <item>
       <title>커링</title>
       <link>https://ezaurum.com/study/curring/</link>
       <pubDate>Thu, 25 Dec 2014 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/study/curring/</guid>
       <description>자바스크립트에서 커링은 본래 함수와 인수를 유지하는 클로저로 구현된다. 참고 링크</description>
     </item>
-    
     <item>
       <title>CRUD에 대응하는 Http Method</title>
       <link>https://ezaurum.com/2014/08/CRUD%EC%97%90-%EB%8C%80%EC%9D%91%ED%95%98%EB%8A%94-Http-Method/</link>
       <pubDate>Mon, 18 Aug 2014 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2014/08/CRUD%EC%97%90-%EB%8C%80%EC%9D%91%ED%95%98%EB%8A%94-Http-Method/</guid>
-      <description>Create = Add ≒ AddOrUpdate = Put Read = Get Update = Post Delete
-순전히 Put/Post 구분을 위해</description>
+      <description>Create = Add ≒ AddOrUpdate = Put Read = Get Update = Post Delete&#xA;순전히 Put/Post 구분을 위해</description>
     </item>
-    
     <item>
       <title>기술 습득 패턴</title>
       <link>https://ezaurum.com/2013/12/%EA%B8%B0%EC%88%A0-%EC%8A%B5%EB%93%9D-%ED%8C%A8%ED%84%B4/</link>
       <pubDate>Sun, 01 Dec 2013 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2013/12/%EA%B8%B0%EC%88%A0-%EC%8A%B5%EB%93%9D-%ED%8C%A8%ED%84%B4/</guid>
-      <description>요즘 내 기술 습득 패턴을 보니, 대충 다음과 같다.
-기술적 개요와 전체 흐름을 본다제일 간단하게 되어있는 Get start라든가, 튜토리얼을 찾아 좀 따라한다.약간 감이 온다 싶으면 만들려고 했던 걸 만든다.벽에 부딪힌다.1번으로 다시이걸 두 번쯤 하면 좀 이해가 되더라. 크게 문제가 있어 보이진 않지만, 한 번에 되면 좋겠다. 새로 뭔가를 배워서 적용하고 결과물을 만들어내는데 시간이 많이 걸린다.
-어디였더라, 교육학 중에서 반복학습으로 몸에 습득하는 거랑 이론으로 습득하는 거랑 뭐가 다르다고 했던 이야기가 있었던듯 한데, 내 경우는 어쨌든 반복학습을 하고 몸에 익힌 다음 이론 습득이 나은 것 같다.</description>
+      <description>요즘 내 기술 습득 패턴을 보니, 대충 다음과 같다.&#xA;기술적 개요와 전체 흐름을 본다&#xD;제일 간단하게 되어있는 Get start라든가, 튜토리얼을 찾아 좀 따라한다.&#xD;약간 감이 온다 싶으면 만들려고 했던 걸 만든다.&#xD;벽에 부딪힌다.&#xD;1번으로 다시&#xD;이걸 두 번쯤 하면 좀 이해가 되더라. 크게 문제가 있어 보이진 않지만, 한 번에 되면 좋겠다. 새로 뭔가를 배워서 적용하고 결과물을 만들어내는데 시간이 많이 걸린다.&#xA;어디였더라, 교육학 중에서 반복학습으로 몸에 습득하는 거랑 이론으로 습득하는 거랑 뭐가 다르다고 했던 이야기가 있었던듯 한데, 내 경우는 어쨌든 반복학습을 하고 몸에 익힌 다음 이론 습득이 나은 것 같다.</description>
     </item>
-    
     <item>
       <title>C# TDD</title>
       <link>https://ezaurum.com/2013/09/C#-TDD/</link>
       <pubDate>Mon, 30 Sep 2013 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2013/09/C#-TDD/</guid>
       <description>C# 개발을 시작하면서 일단 두 개를 써 보기로 했다. Moq Quick Start NUnit 2.6.2 quick start Resharper를 쓰고 있어서 그런지, NUnit 테스트는 alt+Enter로 실행이 되고, 결과도 따로 창 안 뜨고 옆에 보인다. moq는 람다식 덕에 자바에서 mockito를 쓸 때보다 좀 더 편해보인다.</description>
     </item>
-    
     <item>
       <title>웹 프로그래머를 위한 서블릿 컨테이너의 이해</title>
       <link>https://ezaurum.com/2013/05/%EC%9B%B9-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EB%A5%BC-%EC%9C%84%ED%95%9C-%EC%84%9C%EB%B8%94%EB%A6%BF-%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88%EC%9D%98-%EC%9D%B4%ED%95%B4/</link>
       <pubDate>Thu, 09 May 2013 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2013/05/%EC%9B%B9-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EB%A5%BC-%EC%9C%84%ED%95%9C-%EC%84%9C%EB%B8%94%EB%A6%BF-%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88%EC%9D%98-%EC%9D%B4%ED%95%B4/</guid>
       <description>이 책의 감상문 쓰기 이벤트에 응모해서 쓴 감상. 웹 개발자로서 일을 하면서도 항상 이 서블렛이라는 게 찜찜했다. 얘도 분명히 JVM에서 돌아가는 프로그램일 뿐인데, 어쩐지 콘솔 프로그램과는 전혀 다른 규칙이 적용되는 것 같고, 시원스레 설명된 책도 찾기 힘들었다. 그래서 문제가 생기면 장님 문고리 잡듯 어찌어찌 해결해 왔는데, 하고도 찜찜했다. 마치 콘솔 프로그램과 웹 프로그램 사이에는 깊은 서블릿이라는 강이 펼쳐져 있는데 눈을 감았다 뜨면 건너편으로 건너만 갈 수 있을 뿐, 강은 한 번도 보지 못한 것과 같았다.</description>
     </item>
-    
     <item>
       <title>팜빌2의 소비 경향 만들기</title>
       <link>https://ezaurum.com/2013/01/%ED%8C%9C%EB%B9%8C2%EC%9D%98-%EC%86%8C%EB%B9%84-%EA%B2%BD%ED%96%A5-%EB%A7%8C%EB%93%A4%EA%B8%B0/</link>
       <pubDate>Sun, 20 Jan 2013 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2013/01/%ED%8C%9C%EB%B9%8C2%EC%9D%98-%EC%86%8C%EB%B9%84-%EA%B2%BD%ED%96%A5-%EB%A7%8C%EB%93%A4%EA%B8%B0/</guid>
       <description>팜빌 2의 경우, 명품 동물은 기본 소비재를 특정 구간에서만 얻을 수 있게 하여 인프라가 고정적으로 생산되는 것을 막는 동시에, 사용자에게 소모된다는 감각을 느끼지 않게 한다. 명품-일반의 선택지가 생긴다. 명품은 구하기 힘든 것을 생산하지만, 일반 동물은 계속 필요하다. 명품 동물은 시장에서 금전적 가치가 없다. 밥도 소모하지 않는다. 일반 동물을 만들기 위해서는 친구에게 지속적으로 요청을 해야 한다. 이렇게 소비의 흐름이 생긴다. 제자리에 있기 위해서도 지속적인 투자가 필요해진다.</description>
     </item>
-    
     <item>
       <title>2012년 결산</title>
       <link>https://ezaurum.com/2012/12/2012%EB%85%84-%EA%B2%B0%EC%82%B0/</link>
       <pubDate>Mon, 31 Dec 2012 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2012/12/2012%EB%85%84-%EA%B2%B0%EC%82%B0/</guid>
-      <description>책(60+ 직지 프로젝트로 본 SF 소설에, 만화책이나 라노베까지 넣었더니 제대로 못 세겠음. 장르문학 뺀 걸로는 열 권 안 쪽, 기술서적은 처음부터 끝까지 읽은 게 아님)살아있는 화성인싸우는 미래인심해의 우주괴물우주 스테이션타이거 타이거사마르칸트의 마법목걸이은하계방위군도망친 로봇행성에서 온 소년우주 전쟁우주방랑도시스카이라아크호시간 초특급아서왕을 만난 사람태양계 요새추락한 달로봇 머신 X초인 부대우주 함대의 최후지구의 마지막 날로봇 스파이 전쟁암흑성운북극성의 증언공룡 세계의 탐험절대 0도의 수수께끼지저탐험타임 머신하늘의 공포우주괴인 자이로 박사불사판매 주식회사비글호의 모험강철 도시백설의 공포화성의 존카아트장인 - 현대문명이 잃어버린 생각하는 손그 많던 싱아는 다 누가 먹었을까점과 선백만 광년의 고독사라고사에서 발견된 원고화차은교1984차일드44영화 속 오컬트 X파일백성귀족나만의 천사그래도 죄인은 용과 춤춘다성계의 단장테르마이 로마에코럴커피 한 잔 더고양이는 비밀 장소에 있다생각정리 기술시간단축 기술최강업무 기술피터 드러커가 직장 생활을 한다면?</description>
+      <description>책(60+ 직지 프로젝트로 본 SF 소설에, 만화책이나 라노베까지 넣었더니 제대로 못 세겠음. 장르문학 뺀 걸로는 열 권 안 쪽, 기술서적은 처음부터 끝까지 읽은 게 아님)&#xD;살아있는 화성인&#xD;싸우는 미래인&#xD;심해의 우주괴물&#xD;우주 스테이션&#xD;타이거 타이거&#xD;사마르칸트의 마법목걸이&#xD;은하계방위군&#xD;도망친 로봇&#xD;행성에서 온 소년&#xD;우주 전쟁&#xD;우주방랑도시&#xD;스카이라아크호&#xD;시간 초특급&#xD;아서왕을 만난 사람&#xD;태양계 요새&#xD;추락한 달&#xD;로봇 머신 X&#xD;초인 부대&#xD;우주 함대의 최후&#xD;지구의 마지막 날&#xD;로봇 스파이 전쟁&#xD;암흑성운&#xD;북극성의 증언&#xD;공룡 세계의 탐험&#xD;절대 0도의 수수께끼&#xD;지저탐험&#xD;타임 머신&#xD;하늘의 공포&#xD;우주괴인 자이로 박사&#xD;불사판매 주식회사&#xD;비글호의 모험&#xD;강철 도시&#xD;백설의 공포&#xD;화성의 존카아트&#xD;장인 - 현대문명이 잃어버린 생각하는 손&#xD;그 많던 싱아는 다 누가 먹었을까&#xD;점과 선&#xD;백만 광년의 고독&#xD;사라고사에서 발견된 원고&#xD;화차&#xD;은교&#xD;1984&#xD;차일드44&#xD;영화 속 오컬트 X파일&#xD;백성귀족&#xD;나만의 천사&#xD;그래도 죄인은 용과 춤춘다&#xD;성계의 단장&#xD;테르마이 로마에&#xD;코럴&#xD;커피 한 잔 더&#xD;고양이는 비밀 장소에 있다&#xD;생각정리 기술&#xD;시간단축 기술&#xD;최강업무 기술&#xD;피터 드러커가 직장 생활을 한다면?</description>
     </item>
-    
     <item>
       <title>졸업</title>
       <link>https://ezaurum.com/2012/08/%EC%A1%B8%EC%97%85/</link>
       <pubDate>Sat, 04 Aug 2012 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2012/08/%EC%A1%B8%EC%97%85/</guid>
       <description>졸업이 가능해졌다. 어쩌다보니 11.5년을 대학생으로 있었는데, 이제는 그냥 아저씨가 될 수 있게 되었어. 인생 최악의 실수&amp;hellip;라고 하면 너무 많아서 꼽을 수가 없을 정도지만, 역시 가장 큰 실수라면 첫 번째 대학을 거기로 정한 것? &amp;hellip;남의 말에 신경도 안 쓰고 살던 인간이 결국 남의 말을 듣고 진로&amp;hellip;가 아니라 간판을 결정한 게 패착. 간판이라고는 해도 그 간판을 따려면 여러가지를 해야 했고, 나는 그런 걸 제대로 완수할 만큼 성실한 인간은 아니었다. 그리고 그 때까지 &amp;ldquo;공부&amp;quot;란 걸 해 본적이 없어서 나 스스로 목표를 세우고 그걸 완수하는 습관이 없었다.</description>
     </item>
-    
     <item>
       <title>파일 이름에 하이픈을 써야 할까 언더라인을 써야 할까</title>
       <link>https://ezaurum.com/2012/07/%ED%8C%8C%EC%9D%BC-%EC%9D%B4%EB%A6%84%EC%97%90-%ED%95%98%EC%9D%B4%ED%94%88%EC%9D%84-%EC%8D%A8%EC%95%BC-%ED%95%A0%EA%B9%8C-%EC%96%B8%EB%8D%94%EB%9D%BC%EC%9D%B8%EC%9D%84-%EC%8D%A8%EC%95%BC-%ED%95%A0%EA%B9%8C/</link>
       <pubDate>Tue, 03 Jul 2012 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2012/07/%ED%8C%8C%EC%9D%BC-%EC%9D%B4%EB%A6%84%EC%97%90-%ED%95%98%EC%9D%B4%ED%94%88%EC%9D%84-%EC%8D%A8%EC%95%BC-%ED%95%A0%EA%B9%8C-%EC%96%B8%EB%8D%94%EB%9D%BC%EC%9D%B8%EC%9D%84-%EC%8D%A8%EC%95%BC-%ED%95%A0%EA%B9%8C/</guid>
       <description>새로 JSP 파일 하나를 만들려고 보니 이름 짓는데서 막혔다. 한 단어로 되어 있으면 괜찮은데 세 단어, 줄인다면 두 단어를 써야 할 상황이었다. 카멜표기법은 일단 집어치우고(여러 문제는 집어치우고, java바깥에서는 너무 이상하다. 확실히.) 어쨌건 그러면 표준에 맞추는 게 원칙. convention으로 처음 찾아본 sun의 코딩 컨벤션은 별 도움이 안 되었다&amp;hellip; 왜 파일 이름이라면서 확장자만 말하는건데. 본격 vs 를 이용해 싸움을 시키자 역시나 이미 많은 사람들이 논의를 했었다. 링크 1 링크 2 링크 3 링크 4</description>
     </item>
-    
     <item>
       <title>Maven Dependency Management</title>
       <link>https://ezaurum.com/2012/05/Maven-Dependency-Management/</link>
       <pubDate>Thu, 24 May 2012 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2012/05/Maven-Dependency-Management/</guid>
-      <description>상위 프로젝트에서 dependencyManagement를 선언해 두고, 하위 프로젝트의 pom들에서 그걸 그냥 받아다 쓰면 된다는 것. 그러면 버전 관리도 한 곳에서 할 수 있다. eclipse에서 pom.xml 파일 열어보면 dependency 탭 오른쪽에 manage한 것들만 따로 보여준다.
-참고 - http://stackoverflow.com/questions/2619598/differences-between-dependencymanagement-and-dependencies-of-maven http://stackoverflow.com/questions/6281422/clean-up-maven-dependency-management http://maven.apache.org/guides/introduction/introduction-to-dependency-mechanism.html#Dependency_Management</description>
+      <description>상위 프로젝트에서 dependencyManagement를 선언해 두고, 하위 프로젝트의 pom들에서 그걸 그냥 받아다 쓰면 된다는 것. 그러면 버전 관리도 한 곳에서 할 수 있다. eclipse에서 pom.xml 파일 열어보면 dependency 탭 오른쪽에 manage한 것들만 따로 보여준다.&#xA;참고 - http://stackoverflow.com/questions/2619598/differences-between-dependencymanagement-and-dependencies-of-maven http://stackoverflow.com/questions/6281422/clean-up-maven-dependency-management http://maven.apache.org/guides/introduction/introduction-to-dependency-mechanism.html#Dependency_Management</description>
     </item>
-    
     <item>
       <title>Spring 3.1 profile 이클립스에서 사용</title>
       <link>https://ezaurum.com/2012/05/Spring-3.1-profile-%EC%9D%B4%ED%81%B4%EB%A6%BD%EC%8A%A4%EC%97%90%EC%84%9C-%EC%82%AC%EC%9A%A9/</link>
       <pubDate>Thu, 24 May 2012 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2012/05/Spring-3.1-profile-%EC%9D%B4%ED%81%B4%EB%A6%BD%EC%8A%A4%EC%97%90%EC%84%9C-%EC%82%AC%EC%9A%A9/</guid>
       <description>스프링 3.1부터 메이븐처럼 profile 설정을 사용할 수 있게 되었다. 그래서 개발과 실서버의 설정을 다르게 만들 수 있음. 상세설명은 영어지만 여기를 참조하시고, 문제는 커맨드라인에서 실행하는 게 아니라 이클립스에서 실행할 때다. 모르는 게 나만이 아니라는 생각에 올려둠. 서버를 더블클릭해서 나오는 저 화면에서 다시 Open launcher configuration을 클릭하고, 나온 화면에서 Enviroment 탭에다가 저런 식으로 추가 해 주면 된다.</description>
     </item>
-    
     <item>
       <title>iBatis TypeHandler</title>
       <link>https://ezaurum.com/2012/03/iBatis-TypeHandler/</link>
       <pubDate>Mon, 26 Mar 2012 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2012/03/iBatis-TypeHandler/</guid>
-      <description>TypeHandler는 iBatis에서 특정 타입을 매핑할 때 원하는 행동을 지정해주는 클래스다. 이걸 이용하면 DB에는 Y/N으로 저장된 걸 boolean으로 처리한다든가 하는 게 가능해진다. public class StudyTypeHandler extends EnumTypeHandler { public StudyTypeHandler() { super(EnumStudy.class); }
-//얘가 결과를 받아서 빈에 매핑하는 애다. @Override public Object getResult(ResultGetter getter) throws SQLException { int result = getter.getInt(); if(getter.wasNull()) { return null; } return EnumStudy.valueOf(result); } //얘는 빈에서 받아다가 DB에 매핑하는 애다. @Override public void setParameter(ParameterSetter setter, Object parameter) throws SQLException { if(parameter == null) { setter.</description>
+      <description>TypeHandler는 iBatis에서 특정 타입을 매핑할 때 원하는 행동을 지정해주는 클래스다. 이걸 이용하면 DB에는 Y/N으로 저장된 걸 boolean으로 처리한다든가 하는 게 가능해진다. public class StudyTypeHandler extends EnumTypeHandler { public StudyTypeHandler() { super(EnumStudy.class); }&#xA;//얘가 결과를 받아서 빈에 매핑하는 애다. @Override public Object getResult(ResultGetter getter) throws SQLException { int result = getter.getInt(); if(getter.wasNull()) { return null; } return EnumStudy.valueOf(result); } //얘는 빈에서 받아다가 DB에 매핑하는 애다. @Override public void setParameter(ParameterSetter setter, Object parameter) throws SQLException { if(parameter == null) { setter.</description>
     </item>
-    
     <item>
       <title>Java Enum</title>
       <link>https://ezaurum.com/2012/03/Java-Enum/</link>
       <pubDate>Mon, 26 Mar 2012 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2012/03/Java-Enum/</guid>
-      <description>import java.lang.IllegalArgumentException;public enum EnumStudy { JAVA(1), C(2),RUBY(3); private int value; public int intValue() { return value;} private EnumStudy(int value) { this.value = value; } public static EnumStudy valueOf(int value) { switch (value) { case 1: return JAVA; case 2: return C; case 3: return RUBY; default: throw new IllegalArgumentException(&amp;ldquo;There is no matching for &amp;ldquo;+value); } }
-public static void main(String args[]) { System.out.println(EnumStudy.valueOf(1)); System.out.println(EnumStudy.valueOf(&amp;ldquo;JAVA&amp;rdquo;)); //이건 enum들은 기본적으로 선언되는 메소드.</description>
+      <description>import java.lang.IllegalArgumentException;&#xD;public enum EnumStudy { JAVA(1), C(2),RUBY(3); private int value; public int intValue() { return value;} private EnumStudy(int value) { this.value = value; } public static EnumStudy valueOf(int value) { switch (value) { case 1: return JAVA; case 2: return C; case 3: return RUBY; default: throw new IllegalArgumentException(&amp;ldquo;There is no matching for &amp;ldquo;+value); } }&#xA;public static void main(String args[]) { System.out.println(EnumStudy.valueOf(1)); System.out.println(EnumStudy.valueOf(&amp;ldquo;JAVA&amp;rdquo;)); //이건 enum들은 기본적으로 선언되는 메소드.</description>
     </item>
-    
     <item>
       <title>String, StringBuilder, StringBuffer 중 뭘 써야 할까?</title>
       <link>https://ezaurum.com/2011/12/String-StringBuilder-StringBuffer-%EC%A4%91-%EB%AD%98-%EC%8D%A8%EC%95%BC-%ED%95%A0%EA%B9%8C/</link>
       <pubDate>Sat, 10 Dec 2011 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2011/12/String-StringBuilder-StringBuffer-%EC%A4%91-%EB%AD%98-%EC%8D%A8%EC%95%BC-%ED%95%A0%EA%B9%8C/</guid>
-      <description>출처 -http://www.a2ztechguide.com/2011/12/difference-between-string-stringbuffer.html
-값이 변하지 않으면 불변객체 StringString은 immutable 이다. 한 번 만들어두고 걍 읽어만 올 거면 대부분의 경우 String을 쓰면 되는 모양.자주 변하는 경우, 그때마다 새로 만들어줘야 하므로 비추천.equals가 오버라이드 되어 있다.싱글 스레드라면 StringBuildermutable함. 데이터가 막 바뀌는 경우 사용.나온지 얼마 안 된 신삥. StringBuffer랑 synchronization 빼고 동일.출처 포스트에는 StringBuffer보다 빠르다고 한다.equals오버라이드 안 되어 있음.멀티스레드라면 StringBufferequals오버라이드 안 되어 있음.StringBuilder랑 synchronization 빼고는 동일</description>
+      <description>출처 -http://www.a2ztechguide.com/2011/12/difference-between-string-stringbuffer.html&#xA;값이 변하지 않으면 불변객체 String&#xD;String은 immutable 이다. 한 번 만들어두고 걍 읽어만 올 거면 대부분의 경우 String을 쓰면 되는 모양.&#xD;자주 변하는 경우, 그때마다 새로 만들어줘야 하므로 비추천.&#xD;equals가 오버라이드 되어 있다.&#xD;싱글 스레드라면 StringBuilder&#xD;mutable함. 데이터가 막 바뀌는 경우 사용.&#xD;나온지 얼마 안 된 신삥. StringBuffer랑 synchronization 빼고 동일.&#xD;출처 포스트에는 StringBuffer보다 빠르다고 한다.&#xD;equals오버라이드 안 되어 있음.&#xD;멀티스레드라면 StringBuffer&#xD;equals오버라이드 안 되어 있음.&#xD;StringBuilder랑 synchronization 빼고는 동일&#xD;</description>
     </item>
-    
     <item>
       <title>실용주의 프로그래머</title>
       <link>https://ezaurum.com/2011/11/%EC%8B%A4%EC%9A%A9%EC%A3%BC%EC%9D%98-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8/</link>
       <pubDate>Sun, 13 Nov 2011 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2011/11/%EC%8B%A4%EC%9A%A9%EC%A3%BC%EC%9D%98-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8/</guid>
-      <description>손 닿는 데 두고, 틈 날 때마다 보자. 아래는 팁 목록, 책 제일 뒤에 달린 종이에는 이 팁 목록과 함께 짤막한 설명도 달려 있다. 당연히 저작권은 저자한테 있고, 별로 침해할 생각은 없음. 일단 기억용&amp;amp;검색 빨리하려고 올려둠.
-실용주의 프로그래머 팁 목록자신의 기술에 관심과 애정을 가져라자신의 일에 대해 생각하면서 일하라어설픈 변명을 만들지 말고 대안을 제시하라깨진 창문을 내버려두지 말라변화의 촉매가 되라큰 그림을 기억하라품질을 요구사항으로 만들어라지식 포트폴리오에 주기적으로 투자하라읽고 듣는 것을 비판적으로 분석하라무엇을 말하는가와 어떻게 말하는가 모두 중요하다DRY-반복하지 마라재사용하기 쉽게 만들라관련 없는 것들 간에 서로 영향이 없도록 하라최종결정이란 없다목표물을 찾기 위해 예광탄을 써라프로토타입을 통해 학습하라문제 도메인에 가깝게 프로그래밍하라추정을 통해 놀람을 피하라코드와 함께 일정도 반복하며 조정하라지식을 일반 텍스트로 저장하라명령어 셀의 힘을 사용하라하나의 에디터를 잘 사용하라언제나 소스코드 관리 시스템을 사용하라비난 대신 문제를 해결하라디버깅을 할 때 당황하지 마라&#39;select&#39;는 망가지지 않았다가정하지 마라, 증명하라텍스트 처리 언어를 하나 익혀라코드를 작성하는 코드를 작성하라완벽한 소프트웨어는 만들 수 없다계약에 따른 설계를 하라일찍 작동을 멈추게 하라단정문을 사용해서 불가능한 상황을 예방하라예외는 예외적인 문제에 사용하라시작한 것은 끝내라모듈간의 결합도를 최소화하라통합하지 말고 설정하라코드에는 추상화를, 메타데이터에는 세부 내용을작업흐름 분석을 통해 동시성을 개선하라서비스를 사용해서 설계하라언제나 동시성을 고려해 설계하라모델에서 뷰를 분리하라칠판을 사용해 작업흐름을 조율하라우연에 맡기는 프로그래밍을 하지 말라여러분의 알고리즘의 차수를 추정하라여러분의 추정을 테스트하라일찍 리팩터링하고, 자주 리팩터링하라테스트를 염두에 두고 설계하라소프트웨어를 테스트하라.</description>
+      <description>손 닿는 데 두고, 틈 날 때마다 보자. 아래는 팁 목록, 책 제일 뒤에 달린 종이에는 이 팁 목록과 함께 짤막한 설명도 달려 있다. 당연히 저작권은 저자한테 있고, 별로 침해할 생각은 없음. 일단 기억용&amp;amp;검색 빨리하려고 올려둠.&#xA;실용주의 프로그래머 팁 목록&#xD;자신의 기술에 관심과 애정을 가져라&#xD;자신의 일에 대해 생각하면서 일하라&#xD;어설픈 변명을 만들지 말고 대안을 제시하라&#xD;깨진 창문을 내버려두지 말라&#xD;변화의 촉매가 되라&#xD;큰 그림을 기억하라&#xD;품질을 요구사항으로 만들어라&#xD;지식 포트폴리오에 주기적으로 투자하라&#xD;읽고 듣는 것을 비판적으로 분석하라&#xD;무엇을 말하는가와 어떻게 말하는가 모두 중요하다&#xD;DRY-반복하지 마라&#xD;재사용하기 쉽게 만들라&#xD;관련 없는 것들 간에 서로 영향이 없도록 하라&#xD;최종결정이란 없다&#xD;목표물을 찾기 위해 예광탄을 써라&#xD;프로토타입을 통해 학습하라&#xD;문제 도메인에 가깝게 프로그래밍하라&#xD;추정을 통해 놀람을 피하라&#xD;코드와 함께 일정도 반복하며 조정하라&#xD;지식을 일반 텍스트로 저장하라&#xD;명령어 셀의 힘을 사용하라&#xD;하나의 에디터를 잘 사용하라&#xD;언제나 소스코드 관리 시스템을 사용하라&#xD;비난 대신 문제를 해결하라&#xD;디버깅을 할 때 당황하지 마라&#xD;&#39;select&#39;는 망가지지 않았다&#xD;가정하지 마라, 증명하라&#xD;텍스트 처리 언어를 하나 익혀라&#xD;코드를 작성하는 코드를 작성하라&#xD;완벽한 소프트웨어는 만들 수 없다&#xD;계약에 따른 설계를 하라&#xD;일찍 작동을 멈추게 하라&#xD;단정문을 사용해서 불가능한 상황을 예방하라&#xD;예외는 예외적인 문제에 사용하라&#xD;시작한 것은 끝내라&#xD;모듈간의 결합도를 최소화하라&#xD;통합하지 말고 설정하라&#xD;코드에는 추상화를, 메타데이터에는 세부 내용을&#xD;작업흐름 분석을 통해 동시성을 개선하라&#xD;서비스를 사용해서 설계하라&#xD;언제나 동시성을 고려해 설계하라&#xD;모델에서 뷰를 분리하라&#xD;칠판을 사용해 작업흐름을 조율하라&#xD;우연에 맡기는 프로그래밍을 하지 말라&#xD;여러분의 알고리즘의 차수를 추정하라&#xD;여러분의 추정을 테스트하라&#xD;일찍 리팩터링하고, 자주 리팩터링하라&#xD;테스트를 염두에 두고 설계하라&#xD;소프트웨어를 테스트하라.</description>
     </item>
-    
     <item>
       <title>구글을 지탱하는 기술</title>
       <link>https://ezaurum.com/2011/11/%EA%B5%AC%EA%B8%80%EC%9D%84-%EC%A7%80%ED%83%B1%ED%95%98%EB%8A%94-%EA%B8%B0%EC%88%A0/</link>
       <pubDate>Sat, 12 Nov 2011 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2011/11/%EA%B5%AC%EA%B8%80%EC%9D%84-%EC%A7%80%ED%83%B1%ED%95%98%EB%8A%94-%EA%B8%B0%EC%88%A0/</guid>
       <description>제목대로의 내용. 구글이 돌아가는데 필요한 기술들에 대한 간단한 설명이 나온다. 세세한 구현이 나온&amp;hellip; 다고 해야 하나 나오지 않는다고 해야 하나. 내 수준에서는 저것만 보고 구현할 수는 없겠지. 그래도 전체적인 감을 잡아두면, 비슷한 형태로 된 다른 것들을 봐도 이해할 수 있다고 생각. 일단 신기하니 재밌다. 보면 전체적으로 다차원으로 생각하는 구조가 많은 듯. 저런 것도 한 번 해 보고 싶다.</description>
     </item>
-    
     <item>
       <title>성공과 실패를 결정하는 1%의 비트 원리</title>
       <link>https://ezaurum.com/2011/11/%EC%84%B1%EA%B3%B5%EA%B3%BC-%EC%8B%A4%ED%8C%A8%EB%A5%BC-%EA%B2%B0%EC%A0%95%ED%95%98%EB%8A%94-1%EC%9D%98-%EB%B9%84%ED%8A%B8-%EC%9B%90%EB%A6%AC/</link>
       <pubDate>Sat, 12 Nov 2011 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2011/11/%EC%84%B1%EA%B3%B5%EA%B3%BC-%EC%8B%A4%ED%8C%A8%EB%A5%BC-%EA%B2%B0%EC%A0%95%ED%95%98%EB%8A%94-1%EC%9D%98-%EB%B9%84%ED%8A%B8-%EC%9B%90%EB%A6%AC/</guid>
       <description>가벼운 이야기지만, 1%시리즈가 늘 그렇듯, 읽어서 손해나는 거 없다. 좀 더 옛날에 읽어두면 좋았을 걸. 한 십년쯤 전에. 컴퓨터과학이라고 이름붙은 이론들을 가지고 뭘 할 수 있는지에 대한 책.</description>
     </item>
-    
     <item>
       <title>PL/SQL for 문</title>
       <link>https://ezaurum.com/2011/11/PL/SQL-for-%EB%AC%B8/</link>
       <pubDate>Fri, 11 Nov 2011 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2011/11/PL/SQL-for-%EB%AC%B8/</guid>
-      <description>기억을 위한 메모용이라고 되어 있는 글을 복구.
-상황 몇 개 게시판의 글 내용을 모두 하나의 게시판(id=111)으로 옮겨야 했다. 게시판은 글 제목과 글 번호가 있는 board게시판이 하나, 글내용과 글 번호, 내용 순서 번호가 들어있는 contents게시판이 하나 있는 상황이었다. 게시판이 이 상황이 된 이유는, 언제적인지 모르지만, 한 컬럼에 들어가는 용량제한이 있었던 모양이고, 그 용량제한을 회피하고자 이렇게 짠 모양인데&amp;hellip; 문제는 소스가 잘못되서 제한보다 훨씬 적은 용량으로 글을 잘랐&amp;hellip; 일단 그래서 간단히 PL/SQL을 짜 봤다.</description>
+      <description>기억을 위한 메모용이라고 되어 있는 글을 복구.&#xA;상황 몇 개 게시판의 글 내용을 모두 하나의 게시판(id=111)으로 옮겨야 했다. 게시판은 글 제목과 글 번호가 있는 board게시판이 하나, 글내용과 글 번호, 내용 순서 번호가 들어있는 contents게시판이 하나 있는 상황이었다. 게시판이 이 상황이 된 이유는, 언제적인지 모르지만, 한 컬럼에 들어가는 용량제한이 있었던 모양이고, 그 용량제한을 회피하고자 이렇게 짠 모양인데&amp;hellip; 문제는 소스가 잘못되서 제한보다 훨씬 적은 용량으로 글을 잘랐&amp;hellip; 일단 그래서 간단히 PL/SQL을 짜 봤다.</description>
     </item>
-    
     <item>
       <title>프로그래밍 심리학</title>
       <link>https://ezaurum.com/2011/11/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EC%8B%AC%EB%A6%AC%ED%95%99/</link>
       <pubDate>Tue, 08 Nov 2011 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2011/11/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EC%8B%AC%EB%A6%AC%ED%95%99/</guid>
       <description>일단 이게 옛날 책이라는 게 놀랍다. 나온지 몇 년 안 된 책 같아. 그 동안 이 업계가 발전이 없었던 건 아니다. 책에서 나오는 이야기 중에 많은 것들은 오늘날 개선을 위한 노력이 결실을 맺고 있고, 뒤쪽에 추가된 글에도 그 이야기들이 많다. 하지만 결국 이것은 사람에 대한 책이다. 그래서 몇 년이 지나더라도 쓸모가 있을 거라 생각한다. GUI가 아무리 화려해도 뭔가 하려면 결국 커맨드 라인으로 가야 하는 것처럼. 결국 프로그래밍은 사람이 하는 일이다. 그러니 사람을 알아야 한다.</description>
     </item>
-    
     <item>
       <title>High Performance Javascript</title>
       <link>https://ezaurum.com/2011/11/High-Performance-Javascript/</link>
       <pubDate>Sat, 05 Nov 2011 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2011/11/High-Performance-Javascript/</guid>
       <description>쿡북이라고 붙지는 않았는데, 쿡북같다. 필요한 거 바로 찾을 수 있을 만 하게 되어 있고, 설명이 상세하게 되어있는데도, 책이 얇고 작아서 좋다. 꽉 들어찬 느낌이다. 당연히 자바스크립트를 빠르게 만드는 방법에 대해 설명이 되어 있고, 알던 방법은 더 상세히, 체계적으로 알 수 있어서 좋고, 모르던 방법은 모르던 걸 알아서 좋다. 지금 큰 사이트들이 사용하고 있는 방법들의 집대성이랄까. 여튼 만족스럽고, 표지의 부엉이가 똘똘해 보인다.</description>
     </item>
-    
     <item>
       <title>에릭 마이어의 CSS 노하우</title>
       <link>https://ezaurum.com/2011/09/%EC%97%90%EB%A6%AD-%EB%A7%88%EC%9D%B4%EC%96%B4%EC%9D%98-CSS-%EB%85%B8%ED%95%98%EC%9A%B0/</link>
       <pubDate>Sun, 11 Sep 2011 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2011/09/%EC%97%90%EB%A6%AD-%EB%A7%88%EC%9D%B4%EC%96%B4%EC%9D%98-CSS-%EB%85%B8%ED%95%98%EC%9A%B0/</guid>
-      <description>에릭 마이어의 CSS 노하우 - 에릭 마이어 지음, 한선용 옮김/인사이트진짜 순전히 저자 보고 샀다.사고 나서 깨달았는데, 최초로 산 CSS책이다. 그동안 안 본 건 아니지만 내돈으로 구매는 안 했으니까&amp;hellip;
-결론적으로는 돈 값 한다.
-기초를 다시 다지기에도 좋고, 급할 때 펼쳐보는 쿡북 용도로도 좋다.
-CSS3에 대해서도 나와 있지만, 그게 주는 아니다.
-CSS3만 필요하면 다른 책을 사는게 나을지도. 내용이 부실하다는 게 아니라 삐까뻔쩍한 CSS3로 채워져 있지는 않다는 얘기다.
-그리고 CSS 초보(CSS가 뭔지 알고, 글자 색 바꿀 수 있는 정도)가 보기도 충분히 좋다.</description>
+      <description>에릭 마이어의 CSS 노하우 - 에릭 마이어 지음, 한선용 옮김/인사이트&#xD;진짜 순전히 저자 보고 샀다.&#xD;사고 나서 깨달았는데, 최초로 산 CSS책이다. 그동안 안 본 건 아니지만 내돈으로 구매는 안 했으니까&amp;hellip;&#xA;결론적으로는 돈 값 한다.&#xA;기초를 다시 다지기에도 좋고, 급할 때 펼쳐보는 쿡북 용도로도 좋다.&#xA;CSS3에 대해서도 나와 있지만, 그게 주는 아니다.&#xA;CSS3만 필요하면 다른 책을 사는게 나을지도. 내용이 부실하다는 게 아니라 삐까뻔쩍한 CSS3로 채워져 있지는 않다는 얘기다.&#xA;그리고 CSS 초보(CSS가 뭔지 알고, 글자 색 바꿀 수 있는 정도)가 보기도 충분히 좋다.</description>
     </item>
-    
     <item>
       <title>프로그래머의 길 멘토에게 묻다</title>
       <link>https://ezaurum.com/2011/07/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%9D%98-%EA%B8%B8-%EB%A9%98%ED%86%A0%EC%97%90%EA%B2%8C-%EB%AC%BB%EB%8B%A4/</link>
       <pubDate>Mon, 11 Jul 2011 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2011/07/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%9D%98-%EA%B8%B8-%EB%A9%98%ED%86%A0%EC%97%90%EA%B2%8C-%EB%AC%BB%EB%8B%A4/</guid>
-      <description>제목 그대로, 멘토에게 물어보면 대답할 만한 이야기였다.
-나같은 초보에게 추천. 열심히 해야겠다.</description>
+      <description>제목 그대로, 멘토에게 물어보면 대답할 만한 이야기였다.&#xA;나같은 초보에게 추천. 열심히 해야겠다.</description>
     </item>
-    
     <item>
       <title>Head First Software Development</title>
       <link>https://ezaurum.com/2011/06/Head-First-Software-Development/</link>
       <pubDate>Wed, 22 Jun 2011 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2011/06/Head-First-Software-Development/</guid>
       <description>Head First 시리즈 답게 쉽게 술술 넘어간다. 그러면서 빠진 것 없이(내가 보기엔) 다 다루고 있다. 테스트 주도 개발 TDD실천법과 도구와 함께 잘 보고 있는 중. 하지만 열심히 안 하고 있는 것 같다&amp;hellip; XP installed랑도 같이 보고 있음&amp;hellip;</description>
     </item>
-    
     <item>
       <title>생각하는 프로그래밍</title>
       <link>https://ezaurum.com/2011/06/%EC%83%9D%EA%B0%81%ED%95%98%EB%8A%94-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/</link>
       <pubDate>Wed, 22 Jun 2011 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2011/06/%EC%83%9D%EA%B0%81%ED%95%98%EB%8A%94-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/</guid>
       <description>어렵다&amp;hellip; 공부가 부족하구나 하고 느끼게 해 주는 책. 문제와 그 문제에 대한 해결법과 도출과정, 발전형 문제들을 제시해준다. 천천히, 느긋하게 읽기 좋겠다. 누군가는 한 달 동안 즐거울 거라는데, 난 내년이나 되어야 다 읽을 듯.</description>
     </item>
-    
     <item>
       <title>손에 잡히는 VIM</title>
       <link>https://ezaurum.com/2011/06/%EC%86%90%EC%97%90-%EC%9E%A1%ED%9E%88%EB%8A%94-VIM/</link>
       <pubDate>Wed, 22 Jun 2011 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2011/06/%EC%86%90%EC%97%90-%EC%9E%A1%ED%9E%88%EB%8A%94-VIM/</guid>
-      <description>책도 손에 잘 잡히는 사이즈고, 내용도 휘리릭 읽을 만하지만, 역시 한 번 본다고 해서 능통해지는 것은 아니다.
-옆에 두고 필요할 때마다 뒤적뒤적하기 좋은 책.</description>
+      <description>책도 손에 잘 잡히는 사이즈고, 내용도 휘리릭 읽을 만하지만, 역시 한 번 본다고 해서 능통해지는 것은 아니다.&#xA;옆에 두고 필요할 때마다 뒤적뒤적하기 좋은 책.</description>
     </item>
-    
     <item>
       <title>48÷2(9&#43;3)</title>
       <link>https://ezaurum.com/2011/04/4829-3/</link>
       <pubDate>Mon, 11 Apr 2011 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2011/04/4829-3/</guid>
       <description>시류를 타서 유입량을 늘려볼까 하는 포스팅 자세한 설명은 아래 두 링크를 참조 http://kldp.org/node/122519 http://seomindang.com/900 논쟁의 끝은 키배로 정해진 것은 아니지만, 여기저기서 키배가 벌어지고 있다. 시끄러워서 싫다는 분들도 많지만, 개인적으로-그리 바람직한 취향은 아니겠지만- 키배 구경은 즐기는 편이고, 논쟁과는 상관없이 여하튼 꽤 바람직한 결과물을 얻었다. 일단 러셀 공리라는 걸 들어는 보게 되었고, 이것저것 단어 의미도 좀 명확히 이해하게 되었고, 누군가 설득하려고 애쓰는 사람들이 내세우는 다양한 논리는 뇌에 자극을 준다. 좋다. 노이즈가 많이 끼어서 걸러 봐야 하긴 하지만&amp;hellip; 그건 평소에도 그렇지 않나.</description>
     </item>
-    
     <item>
       <title>군 복무 중 읽은 기술 서적 정리</title>
       <link>https://ezaurum.com/2011/03/%EA%B5%B0-%EB%B3%B5%EB%AC%B4-%EC%A4%91-%EC%9D%BD%EC%9D%80-%EA%B8%B0%EC%88%A0-%EC%84%9C%EC%A0%81-%EC%A0%95%EB%A6%AC/</link>
       <pubDate>Wed, 02 Mar 2011 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2011/03/%EA%B5%B0-%EB%B3%B5%EB%AC%B4-%EC%A4%91-%EC%9D%BD%EC%9D%80-%EA%B8%B0%EC%88%A0-%EC%84%9C%EC%A0%81-%EC%A0%95%EB%A6%AC/</guid>
-      <description>크게 혼자서 보면서 배우는 튜토리얼 계와 아무 때나 펼쳐서 볼 수 있는 레퍼런스. 두가지로 분류.
-성공과 실패를 결정하는 1%의 네트워크 원리 2nd edtion-1%시리즈 답게 간략하고 필요한 부분만 담겨 있다. 재판은 그림이 좀 더 많아지고 두꺼워져서 좋은 듯.+가벼운 레퍼런스&amp;amp;튜토리얼성공과 실패를 결정하는 1%의 프로그래밍 원리-오랜만에 다시 읽으니 안 보이던 부분이 보인다.+가벼운 레퍼런스&amp;amp;튜토리얼성공과 실패를 결정하는 1%의 컴퓨터 원리-후임이 샀길래 살짝 봤는데 괜찮은 듯, 사도 좋을 것 같다.</description>
+      <description>크게 혼자서 보면서 배우는 튜토리얼 계와 아무 때나 펼쳐서 볼 수 있는 레퍼런스. 두가지로 분류.&#xA;성공과 실패를 결정하는 1%의 네트워크 원리 2nd edtion&#xD;-1%시리즈 답게 간략하고 필요한 부분만 담겨 있다. 재판은 그림이 좀 더 많아지고 두꺼워져서 좋은 듯.&#xD;+가벼운 레퍼런스&amp;amp;튜토리얼&#xD;성공과 실패를 결정하는 1%의 프로그래밍 원리&#xD;-오랜만에 다시 읽으니 안 보이던 부분이 보인다.&#xD;+가벼운 레퍼런스&amp;amp;튜토리얼&#xD;성공과 실패를 결정하는 1%의 컴퓨터 원리&#xD;-후임이 샀길래 살짝 봤는데 괜찮은 듯, 사도 좋을 것 같다.</description>
     </item>
-    
     <item>
       <title>Quick Sort</title>
       <link>https://ezaurum.com/2011/01/Quick-Sort/</link>
       <pubDate>Mon, 17 Jan 2011 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2011/01/Quick-Sort/</guid>
-      <description>int partition(int * array, int leftIndex, int lastIndex, int pivotIndex) { int pivotValue = array[pivotIndex]; swap(&amp;amp;array[pivotIndex], &amp;amp;array[lastIndex]); int storeIndex = leftIndex; for(int i = leftIndex; i &amp;lt; lastIndex; i++) { if(array[i] leftIndex) { int newPivotIndex = partition(array,leftIndex,lastIndex,lastIndex); quickSort(array, leftIndex,newPivotIndex-1); quickSort(array, newPivotIndex+1,lastIndex); } }
-오늘은 정렬의 왕도, 퀵정렬. 사실 하다 꼬여서 이 소스는 위키에서 퍼온 의사코드를 그대로 옮긴 것. 아놔. 내 뇌의 숫자개념에는 뭔가 문제가 있는 게 확실해. 지금와서 어떻게 할 수도 없고, 힘내서 외운 걸로 커버하자.</description>
+      <description>int partition(int * array, int leftIndex, int lastIndex, int pivotIndex) { int pivotValue = array[pivotIndex]; swap(&amp;amp;array[pivotIndex], &amp;amp;array[lastIndex]); int storeIndex = leftIndex; for(int i = leftIndex; i &amp;lt; lastIndex; i++) { if(array[i] leftIndex) { int newPivotIndex = partition(array,leftIndex,lastIndex,lastIndex); quickSort(array, leftIndex,newPivotIndex-1); quickSort(array, newPivotIndex+1,lastIndex); } }&#xA;오늘은 정렬의 왕도, 퀵정렬. 사실 하다 꼬여서 이 소스는 위키에서 퍼온 의사코드를 그대로 옮긴 것. 아놔. 내 뇌의 숫자개념에는 뭔가 문제가 있는 게 확실해. 지금와서 어떻게 할 수도 없고, 힘내서 외운 걸로 커버하자.</description>
     </item>
-    
     <item>
       <title>Insertion Sort</title>
       <link>https://ezaurum.com/2011/01/Insertion-Sort/</link>
       <pubDate>Fri, 14 Jan 2011 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2011/01/Insertion-Sort/</guid>
-      <description>void insertionSort(int * array, int size) { int j = 0; int temp = 0; for (int i = 1; i &amp;lt; size ; i++)	{ j = 0; while(j array[j]) { j++; } else { temp = array[i]; for ( int k = i; k &amp;gt; j; k&amp;ndash;) { array[k] = array[k-1]; } array[j] = temp; j = i; } } } }
-void insertionSort2(int * array, int size) { int j = 0; for (int i = 1; i 0 &amp;amp;&amp;amp; array[j-1] &amp;gt; array[j] ) { swap(array[j-1],array[j]); j&amp;ndash;; } } }</description>
+      <description>void insertionSort(int * array, int size) { int j = 0; int temp = 0; for (int i = 1; i &amp;lt; size ; i++)&#x9;{ j = 0; while(j array[j]) { j++; } else { temp = array[i]; for ( int k = i; k &amp;gt; j; k&amp;ndash;) { array[k] = array[k-1]; } array[j] = temp; j = i; } } } }&#xA;void insertionSort2(int * array, int size) { int j = 0; for (int i = 1; i 0 &amp;amp;&amp;amp; array[j-1] &amp;gt; array[j] ) { swap(array[j-1],array[j]); j&amp;ndash;; } } }</description>
     </item>
-    
     <item>
       <title>Bubble Sort</title>
       <link>https://ezaurum.com/2011/01/Bubble-Sort/</link>
       <pubDate>Thu, 13 Jan 2011 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2011/01/Bubble-Sort/</guid>
-      <description>void bubbleSort(int * array, int size){int temp = 0;int j=0;bool swapped = true;while(swapped){j++;swapped = false;for( int i = 0; i &amp;lt; size -1 -j ; i++){if ( array[i] &amp;gt; array[i+1] ){temp = array[i];array[i] = array[i+1];array[i+1] = temp;swapped = true;}}j++;}}void swap(int * a, int * b){int temp = 0;temp = *a;*a = *b;*b = temp;}bool swapif(int * a, int * b){if ( *a &amp;gt; *b){swap(a,b);return true;}else{return false;}}void bubbleSort2(int * array, int size) { int j=0; bool swapped = true; while(swapped) { swapped=false; for( int i = 0; i &amp;lt; size -j -1 ; i++) { swapped = swapif(array+i,array+i+1) ?</description>
+      <description>void bubbleSort(int * array, int size)&#xD;{&#xD;int temp = 0;&#xD;int j=0;&#xD;bool swapped = true;&#xD;while(swapped)&#xD;{&#xD;j++;&#xD;swapped = false;&#xD;for( int i = 0; i &amp;lt; size -1 -j ; i++)&#xD;{&#xD;if ( array[i] &amp;gt; array[i+1] )&#xD;{&#xD;temp = array[i];&#xD;array[i] = array[i+1];&#xD;array[i+1] = temp;&#xD;swapped = true;&#xD;}&#xD;}&#xD;j++;&#xD;}&#xD;}&#xD;void swap(int * a, int * b)&#xD;{&#xD;int temp = 0;&#xD;temp = *a;&#xD;*a = *b;&#xD;*b = temp;&#xD;}&#xD;bool swapif(int * a, int * b)&#xD;{&#xD;if ( *a &amp;gt; *b)&#xD;{&#xD;swap(a,b);&#xD;return true;&#xD;}&#xD;else&#xD;{&#xD;return false;&#xD;}&#xD;}&#xD;void bubbleSort2(int * array, int size) { int j=0; bool swapped = true; while(swapped) { swapped=false; for( int i = 0; i &amp;lt; size -j -1 ; i++) { swapped = swapif(array+i,array+i+1) ?</description>
     </item>
-    
     <item>
       <title>Selection Sort</title>
       <link>https://ezaurum.com/2011/01/Selection-Sort/</link>
       <pubDate>Thu, 13 Jan 2011 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2011/01/Selection-Sort/</guid>
       <description>void selectSort(int * array, int size) { int minPoint = 0; for( int j = 0; j &amp;amp;lt; size -1; j++) { minPoint = j; for (int i = j; i &amp;amp;lt; size ; i++) { if(array[i] &amp;amp;lt; array[minPoint]) { minPoint = i; } } swap(array+j, array+minPoint); } } 오랜만에 공부 좀 하니까 머리가 돌아가는 듯.</description>
     </item>
-    
     <item>
       <title>坊っちゃん – 3 -</title>
       <link>https://ezaurum.com/2010/08/%E5%9D%8A%E3%81%A3%E3%81%A1%E3%82%83%E3%82%93-3-/</link>
       <pubDate>Sun, 22 Aug 2010 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2010/08/%E5%9D%8A%E3%81%A3%E3%81%A1%E3%82%83%E3%82%93-3-/</guid>
-      <description>痛かったから勘太郎を垣根へ押しつけておいて、足搦（あしがら）をかけて向うへ倒（たお）してやった。山城屋の地面は菜園より六尺がた低い。勘太郎は四つ目垣を半分崩（くず）して、自分の領分へ真逆様（まっさかさま）に落ちて、ぐうと云った。勘太郎が落ちるときに、おれの袷の片袖がもげて、急に手が自由になった。その晩母が山城屋に詫（わ）びに行ったついでに袷の片袖も取り返して来た。
-아파서 칸타로를 울타리에 밀어붙이고, 다리걸기로 저쪽에 쓰러트려 버렸다. 야마시로야의 지면은 채소밭보다 육척정도 낮았다. 칸타로는 사각대울타리를 절반쯤 수수고 자기네 땅에 거꾸로 떨어져서 꿍 소리를 냈다. 칸타로가 떨어질 때 내 겹옷 한쪽 소매가 뜯겨나가서, 갑자기 손이 자유로워졌다. 그날 밤, 어머니가 야마시로야에 사과하러 갔다가 돌아오시며 찾아오셨다.
-별로 진도가 빨리 나가질 않는군.</description>
+      <description>痛かったから勘太郎を垣根へ押しつけておいて、足搦（あしがら）をかけて向うへ倒（たお）してやった。山城屋の地面は菜園より六尺がた低い。勘太郎は四つ目垣を半分崩（くず）して、自分の領分へ真逆様（まっさかさま）に落ちて、ぐうと云った。勘太郎が落ちるときに、おれの袷の片袖がもげて、急に手が自由になった。その晩母が山城屋に詫（わ）びに行ったついでに袷の片袖も取り返して来た。&#xA;아파서 칸타로를 울타리에 밀어붙이고, 다리걸기로 저쪽에 쓰러트려 버렸다. 야마시로야의 지면은 채소밭보다 육척정도 낮았다. 칸타로는 사각대울타리를 절반쯤 수수고 자기네 땅에 거꾸로 떨어져서 꿍 소리를 냈다. 칸타로가 떨어질 때 내 겹옷 한쪽 소매가 뜯겨나가서, 갑자기 손이 자유로워졌다. 그날 밤, 어머니가 야마시로야에 사과하러 갔다가 돌아오시며 찾아오셨다.&#xA;별로 진도가 빨리 나가질 않는군.</description>
     </item>
-    
     <item>
       <title>내가 프로그래밍을 해서 먹고 살 수 있을까</title>
       <link>https://ezaurum.com/2010/08/%EB%82%B4%EA%B0%80-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EC%9D%84-%ED%95%B4%EC%84%9C-%EB%A8%B9%EA%B3%A0-%EC%82%B4-%EC%88%98-%EC%9E%88%EC%9D%84%EA%B9%8C/</link>
       <pubDate>Thu, 19 Aug 2010 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2010/08/%EB%82%B4%EA%B0%80-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EC%9D%84-%ED%95%B4%EC%84%9C-%EB%A8%B9%EA%B3%A0-%EC%82%B4-%EC%88%98-%EC%9E%88%EC%9D%84%EA%B9%8C/</guid>
-      <description>이걸 짜는데 이틀 걸렸다면 믿으시겠습니까? 젠장
-private String a(int initial, int max, String leftValue) { String returnValue = &amp;ldquo;&amp;rdquo;;
-if (initial &amp;amp;lt; max) {if (initial != -1) {if (leftValue != null) {leftValue += &amp;amp;quot; &amp;amp;quot;;leftValue += initial;} else {leftValue = String.valueOf(initial);}}for (int i = initial + 1; i &amp;amp;lt;= max; i++) {returnValue += a(i, max, leftValue);}return returnValue;} else {if (leftValue !</description>
+      <description>이걸 짜는데 이틀 걸렸다면 믿으시겠습니까? 젠장&#xA;private String a(int initial, int max, String leftValue) { String returnValue = &amp;ldquo;&amp;rdquo;;&#xA;if (initial &amp;amp;lt; max) {&#xD;if (initial != -1) {&#xD;if (leftValue != null) {&#xD;leftValue += &amp;amp;quot; &amp;amp;quot;;&#xD;leftValue += initial;&#xD;} else {&#xD;leftValue = String.valueOf(initial);&#xD;}&#xD;}&#xD;for (int i = initial + 1; i &amp;amp;lt;= max; i++) {&#xD;returnValue += a(i, max, leftValue);&#xD;}&#xD;return returnValue;&#xD;} else {&#xD;if (leftValue !</description>
     </item>
-    
     <item>
       <title>Junit 4 시작하기</title>
       <link>https://ezaurum.com/2010/08/Junit-4-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0/</link>
       <pubDate>Tue, 10 Aug 2010 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2010/08/Junit-4-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0/</guid>
-      <description>며칠 전에 TDD를 시작 하겠다고 한 바, 시작은 하는데, 기왕 하는 거 깔끔하게 정리도 해 보자는 생각에 포스팅도 하기로 했다. 더 자세한 내용은 이 기사를 참고 또한 이걸 왜 해야 하는지에 대한 것은 여기를 참고
-일단 새 프로젝트를 하나 만들어 보자. 당연히 Java 프로젝트로 만든다.
-다음은 테스트할 내용을 적는다. 일단 첫 테스트이고, 테스트 내용보다 테스트 방법-정확히는 jUnit4의 사용법-을 익히는 게 중요하므로, 입력이 뭐가 되든 값이 26이 나오는 데 집중한다. 어쨌든 처음 할 일은 결과 값이 26이 나오는지를 검사하는 테스트를 만드는 일이다.</description>
+      <description>며칠 전에 TDD를 시작 하겠다고 한 바, 시작은 하는데, 기왕 하는 거 깔끔하게 정리도 해 보자는 생각에 포스팅도 하기로 했다. 더 자세한 내용은 이 기사를 참고 또한 이걸 왜 해야 하는지에 대한 것은 여기를 참고&#xA;일단 새 프로젝트를 하나 만들어 보자. 당연히 Java 프로젝트로 만든다.&#xA;다음은 테스트할 내용을 적는다. 일단 첫 테스트이고, 테스트 내용보다 테스트 방법-정확히는 jUnit4의 사용법-을 익히는 게 중요하므로, 입력이 뭐가 되든 값이 26이 나오는 데 집중한다. 어쨌든 처음 할 일은 결과 값이 26이 나오는지를 검사하는 테스트를 만드는 일이다.</description>
     </item>
-    
     <item>
       <title>jUnit4 annotations</title>
       <link>https://ezaurum.com/2010/08/jUnit4-annotations/</link>
       <pubDate>Tue, 10 Aug 2010 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2010/08/jUnit4-annotations/</guid>
-      <description>package testCases;
-import static org.junit.Assert.assertEquals;
-import org.junit.Test; import org.junit.Before; import org.junit.After;
-public class myTest { @Test public void testCodes() throws Exception { System.out.println(&amp;ldquo;3&amp;rdquo;); }
-@Beforepublic void testMakeClass1(){System.out.println(&amp;quot;2&amp;quot;);	}	@Beforepublic void testMakeClass(){System.out.println(&amp;quot;1&amp;quot;);	}@After public void afterClass() { System.out.println(&amp;ldquo;4&amp;rdquo;);
-}@Afterpublic void afterClass1(){System.out.println(&amp;quot;5&amp;quot;);}	} 실행 결과는 적힌 대로 12345가 된다.</description>
+      <description>package testCases;&#xA;import static org.junit.Assert.assertEquals;&#xA;import org.junit.Test; import org.junit.Before; import org.junit.After;&#xA;public class myTest { @Test public void testCodes() throws Exception { System.out.println(&amp;ldquo;3&amp;rdquo;); }&#xA;@Before&#xD;public void testMakeClass1()&#xD;{&#xD;System.out.println(&amp;quot;2&amp;quot;);&#x9;}&#x9;@Before&#xD;public void testMakeClass()&#xD;{&#xD;System.out.println(&amp;quot;1&amp;quot;);&#x9;}&#xD;@After public void afterClass() { System.out.println(&amp;ldquo;4&amp;rdquo;);&#xA;}&#xD;@After&#xD;public void afterClass1()&#xD;{&#xD;System.out.println(&amp;quot;5&amp;quot;);&#xD;}&#x9;} 실행 결과는 적힌 대로 12345가 된다.</description>
     </item>
-    
     <item>
       <title>坊っちゃん – 2 -</title>
       <link>https://ezaurum.com/2010/08/%E5%9D%8A%E3%81%A3%E3%81%A1%E3%82%83%E3%82%93-2-/</link>
       <pubDate>Mon, 09 Aug 2010 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2010/08/%E5%9D%8A%E3%81%A3%E3%81%A1%E3%82%83%E3%82%93-2-/</guid>
       <description>정원을 동쪽으로 20걸음 만 가면, 남쪽이 좊고 작은 채소밭이 있는데 한가운데 밤나무 한 그루가 있다. 이것은 목숨보다 소중한 밤나무다. 열매가 익는 시기에는 일어나자마자 뒷문을 나서서는 떨어진 것을 주워와서, 학교에서 먹는다. 채소밭 서쪽은 야마시로야라는 전탕포 정원과 이어져 있는데 이 전당포에 칸타로라는 열서너살 아들놈이 있었다. 칸타로는 물론 겁쟁이였다. 겁쟁이 주제에 각진대울타리를 넘어 밤을 훔치러 왔다. 어느날 저녁 접이문 그림자에 숨어서 드디어 칸타로를 붙잡으려 했다. 그 때 칸타로는 도망칠 길이 없어 필사적으로 달려들었다. 저쪽은 두 살 정도 연상이었다.</description>
     </item>
-    
     <item>
       <title>TDD 시작</title>
       <link>https://ezaurum.com/2010/08/TDD-%EC%8B%9C%EC%9E%91/</link>
       <pubDate>Fri, 06 Aug 2010 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2010/08/TDD-%EC%8B%9C%EC%9E%91/</guid>
-      <description>TDD란 걸 시작했다. 좋은 튜토리얼을 발견해서 그걸 보고 대충 익혔는데, 여기의 글들과 관련해서 좀 공부를 더 해야 겠다.
-테스트를 작성한다. &amp;lt;li&amp;gt;작성한 테스트를 통과할 수 있도록 가장 빠른 방법으로 코드를 작성한다. 이 과정에 중복된 코드를 만들어도 상관 없다. &amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;테스트를 수행한다. &amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;테스트를 통과하면 작성한 코드에서 중복을 제거한다. 아니면 2번으로 돌아간다. 테스트를 수행한다. &amp;lt;li&amp;gt;테스트를 통과하면 완성. 다음 테스트를 1번부터 시작한다. 실패하면 4로 돌아가서 디버깅한다.&amp;lt;/li&amp;gt;&amp;lt;/ol&amp;gt;TDD(TestDrivenDevelopement)이런 식으로 진행되는데, 개발 속도가 엄청나게 빨라진다고 한다.</description>
+      <description>TDD란 걸 시작했다. 좋은 튜토리얼을 발견해서 그걸 보고 대충 익혔는데, 여기의 글들과 관련해서 좀 공부를 더 해야 겠다.&#xA;테스트를 작성한다. &amp;lt;li&amp;gt;작성한 테스트를 통과할 수 있도록 가장 빠른 방법으로 코드를 작성한다. 이 과정에 중복된 코드를 만들어도 상관 없다. &amp;lt;/li&amp;gt;&#xD;&amp;lt;li&amp;gt;테스트를 수행한다. &amp;lt;/li&amp;gt;&#xD;&amp;lt;li&amp;gt;&#xD;테스트를 통과하면 작성한 코드에서 중복을 제거한다. 아니면 2번으로 돌아간다. 테스트를 수행한다. &amp;lt;li&amp;gt;테스트를 통과하면 완성. 다음 테스트를 1번부터 시작한다. 실패하면 4로 돌아가서 디버깅한다.&amp;lt;/li&amp;gt;&amp;lt;/ol&amp;gt;&#xD;TDD(TestDrivenDevelopement)이런 식으로 진행되는데, 개발 속도가 엄청나게 빨라진다고 한다.</description>
     </item>
-    
     <item>
       <title>상자 4개</title>
       <link>https://ezaurum.com/2010/08/%EC%83%81%EC%9E%90-4%EA%B0%9C/</link>
       <pubDate>Fri, 06 Aug 2010 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2010/08/%EC%83%81%EC%9E%90-4%EA%B0%9C/</guid>
-      <description>문제 출처 - http://xper.org/wiki/seminar/FourBoxes
-4개의 직사각형이 평면에 있는데 밑변이 모두 가로축에 평행하다. 이 직사각형들이 차지하는 면적을 구하는 프로그램을 작성하시오. 이 네 개의 직사각형들은 서로 떨어져 있을 수도 있고 겹쳐 있을 수도 있다. 또한 하나가 다른 하나를 포함할 수도 있으며, 변이나 꼭지점이 겹쳐질 수도 있다. 실행 파일의 이름은 RECT.EXE로 하시오. 입력형식
-하나의 직사각형은 왼쪽 아래의 꼭지점과 오른쪽 위의 꼭지점의 좌표로 주어진다. 입력은 네 줄이며, 각 줄은 네 개의 정수로 하나의 직사각형을 나타낸다.</description>
+      <description>문제 출처 - http://xper.org/wiki/seminar/FourBoxes&#xA;4개의 직사각형이 평면에 있는데 밑변이 모두 가로축에 평행하다. 이 직사각형들이 차지하는 면적을 구하는 프로그램을 작성하시오. 이 네 개의 직사각형들은 서로 떨어져 있을 수도 있고 겹쳐 있을 수도 있다. 또한 하나가 다른 하나를 포함할 수도 있으며, 변이나 꼭지점이 겹쳐질 수도 있다. 실행 파일의 이름은 RECT.EXE로 하시오. 입력형식&#xA;하나의 직사각형은 왼쪽 아래의 꼭지점과 오른쪽 위의 꼭지점의 좌표로 주어진다. 입력은 네 줄이며, 각 줄은 네 개의 정수로 하나의 직사각형을 나타낸다.</description>
     </item>
-    
     <item>
       <title>坊っちゃん - 1 -</title>
       <link>https://ezaurum.com/2010/08/%E5%9D%8A%E3%81%A3%E3%81%A1%E3%82%83%E3%82%93-1-/</link>
       <pubDate>Thu, 05 Aug 2010 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2010/08/%E5%9D%8A%E3%81%A3%E3%81%A1%E3%82%83%E3%82%93-1-/</guid>
       <description>물려받은 무대포성격 때무에 어릴때부터 깨지는 일 투성이었다. 소학교에 다니던 때 학교 2층에서 뛰어 내려서 일 주일 정도 허리가 빠졌던 일이 있다. 어째서 그런 터무니 없는 짓을 했냐고 묻는 사람이 있을지도 모른다. 별로 깊은 의미도 아니다. 신관 2층에서 목을 쭉 빼고 있으려니, 동급생 중 하나가 농담으로 아무리 뻐겨대도 거기서 뛰어내리지도 못하면서. 겁쟁이래도. 라고 놀려대서다. 사환에게 업혀 돌아왔을 때, 아버지가 눈을 크게 뜨고서 이 층 정도에서 뛰어내렸다고 허리가 빠지는 녀석이 있네. 라고 말해서 이 다음에는 안 빠지게 뛰어보이겠습니다.</description>
     </item>
-    
     <item>
       <title>IP network 주소</title>
       <link>https://ezaurum.com/2010/08/IP-network-%EC%A3%BC%EC%86%8C/</link>
       <pubDate>Tue, 03 Aug 2010 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2010/08/IP-network-%EC%A3%BC%EC%86%8C/</guid>
-      <description>0### ####.xxxx xxxx.xxxx xxxx.xxxx xxxx A class(0-127) 네트워크 2^7 -2개, 각 네트워크마다 호스트 2^24-2개 10## ####.#### ####.xxxx xxxx.xxxx xxxx B class(128-191) 네트워크 2^14-2개, 각 네트워크마다 호스트 2^16-2개 110# ####.#### ####.#### ####.xxxx xxxx C class(192-223) 네트워크 2^21-2개, 각 네트워크마다 호스트 2^8-2개
-각 위치마다 빠지는 두 개는 네트워크부(#로 표시된 것)와 호스트부(x로 표시된 것)0과 1로 채운 2가지. 네트워크부를 모두 0으로 채운 것은 이 네트워크 그 자체를 의미한다고 한다. RFC 791참조 네트워크부를 1로 채운 것은 브로드 캐스트 주소로 쓰인다.</description>
+      <description>0### ####.xxxx xxxx.xxxx xxxx.xxxx xxxx A class(0-127) 네트워크 2^7 -2개, 각 네트워크마다 호스트 2^24-2개 10## ####.#### ####.xxxx xxxx.xxxx xxxx B class(128-191) 네트워크 2^14-2개, 각 네트워크마다 호스트 2^16-2개 110# ####.#### ####.#### ####.xxxx xxxx C class(192-223) 네트워크 2^21-2개, 각 네트워크마다 호스트 2^8-2개&#xA;각 위치마다 빠지는 두 개는 네트워크부(#로 표시된 것)와 호스트부(x로 표시된 것)0과 1로 채운 2가지. 네트워크부를 모두 0으로 채운 것은 이 네트워크 그 자체를 의미한다고 한다. RFC 791참조 네트워크부를 1로 채운 것은 브로드 캐스트 주소로 쓰인다.</description>
     </item>
-    
     <item>
       <title>Lisp로 주문 외기 - 10 - 추가</title>
       <link>https://ezaurum.com/2009/05/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-10-%EC%B6%94%EA%B0%80/</link>
       <pubDate>Tue, 26 May 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2009/05/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-10-%EC%B6%94%EA%B0%80/</guid>
-      <description>추가좋아요. 이제 이 설명서에서 대충 얼버무리고 지나간 것들에 대해 얘기해 봅시다&amp;hellip;
-무엇보다, Lisp 코드는 컴파일 되기도 하고 종종 실행시간에 번역(interpreted) 되기도 합니다. 같은 프로그램 안에서도 말이죠. 이 때문에, Lisp 환경은 컴파일러라고 불리지 않고, 구현(implementations)이라 불리고 있습니다. (비록 실행시간에 번역되는 Lisp코드가 보통은 일단 바이트코드로 컴파일되긴 하지만, 그건 일단 다른 얘기고&amp;hellip;)
-추가로, 언급할 만한 가치가 있는 다른 굉장한 Lisp 구현이 있습니다. Rainer Joswig 와 Bill Clementson가 함께 만든 자세한 목록(링크 깨짐)이 사용 가능하지요.</description>
+      <description>추가&#xD;좋아요. 이제 이 설명서에서 대충 얼버무리고 지나간 것들에 대해 얘기해 봅시다&amp;hellip;&#xA;무엇보다, Lisp 코드는 컴파일 되기도 하고 종종 실행시간에 번역(interpreted) 되기도 합니다. 같은 프로그램 안에서도 말이죠. 이 때문에, Lisp 환경은 컴파일러라고 불리지 않고, 구현(implementations)이라 불리고 있습니다. (비록 실행시간에 번역되는 Lisp코드가 보통은 일단 바이트코드로 컴파일되긴 하지만, 그건 일단 다른 얘기고&amp;hellip;)&#xA;추가로, 언급할 만한 가치가 있는 다른 굉장한 Lisp 구현이 있습니다. Rainer Joswig 와 Bill Clementson가 함께 만든 자세한 목록(링크 깨짐)이 사용 가능하지요.</description>
     </item>
-    
     <item>
       <title>Lisp로 주문 외기 - 9 -</title>
       <link>https://ezaurum.com/2009/05/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-9-/</link>
       <pubDate>Mon, 25 May 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2009/05/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-9-/</guid>
-      <description>게임의 특별한 동작 만들기이제 완성까지 딱 하나만 더 하면 됩니다. 플레이어가 게임을 끝내기 위한 특별한 동작을 좀 더하는 거죠. 첫 번째 명령은 플레이어가 쇠사슬을 다락방에 있던 양동이에 용접하는 게 될 겁니다.
-(setf chain-welded nil)
-(defun weld (subject object) (cond ((and (eq location &amp;lsquo;attic) (eq subject &amp;lsquo;chain) (eq object &amp;lsquo;bucket) (have &amp;lsquo;chain) (have &amp;lsquo;bucket) (not chain-welded)) (setf chain-welded &amp;rsquo;t) &amp;lsquo;(the chain is now securely welded to the bucket.)) (t &amp;lsquo;(you cannot weld like that.</description>
+      <description>게임의 특별한 동작 만들기&#xD;이제 완성까지 딱 하나만 더 하면 됩니다. 플레이어가 게임을 끝내기 위한 특별한 동작을 좀 더하는 거죠. 첫 번째 명령은 플레이어가 쇠사슬을 다락방에 있던 양동이에 용접하는 게 될 겁니다.&#xA;(setf chain-welded nil)&#xA;(defun weld (subject object) (cond ((and (eq location &amp;lsquo;attic) (eq subject &amp;lsquo;chain) (eq object &amp;lsquo;bucket) (have &amp;lsquo;chain) (have &amp;lsquo;bucket) (not chain-welded)) (setf chain-welded &amp;rsquo;t) &amp;lsquo;(the chain is now securely welded to the bucket.)) (t &amp;lsquo;(you cannot weld like that.</description>
     </item>
-    
     <item>
       <title>Lisp로 주문 외기 - 8 -</title>
       <link>https://ezaurum.com/2009/05/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-8-/</link>
       <pubDate>Tue, 12 May 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2009/05/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-8-/</guid>
-      <description>라이센스 - The GNU Free Documentation License 원저자 - Conrad Barski, M.D. 원본 출처 - http://lisperati.com/casting.html
-주문(SPEL) 외기이제 Lisp의 믿을 수 없을 만큼 강력한 기능을 배워 볼 겁니다. 바로 SPEL(주문)만들기지요! SPEL 은 &amp;ldquo;Semantic Program Enhancement Logic&amp;quot;의 줄임말이고 컴퓨터 코드의 세계 안에서 Lisp언어를 우리 필요에 따라 개조하기 위해 가장 기초적인 수준까지 바꾸는 행동을 만드는 걸 가능케 해 줍니다. - 이게 Lisp에서 가장 마술처럼 보이는 부분이지요. SPEL을 가능하게 하기 위해, 일단 Lisp 컴파일러에서 SPEL을 활성화 할 필요가 있습니다.</description>
+      <description>라이센스 - The GNU Free Documentation License 원저자 - Conrad Barski, M.D. 원본 출처 - http://lisperati.com/casting.html&#xA;주문(SPEL) 외기&#xD;이제 Lisp의 믿을 수 없을 만큼 강력한 기능을 배워 볼 겁니다. 바로 SPEL(주문)만들기지요! SPEL 은 &amp;ldquo;Semantic Program Enhancement Logic&amp;quot;의 줄임말이고 컴퓨터 코드의 세계 안에서 Lisp언어를 우리 필요에 따라 개조하기 위해 가장 기초적인 수준까지 바꾸는 행동을 만드는 걸 가능케 해 줍니다. - 이게 Lisp에서 가장 마술처럼 보이는 부분이지요. SPEL을 가능하게 하기 위해, 일단 Lisp 컴파일러에서 SPEL을 활성화 할 필요가 있습니다.</description>
     </item>
-    
     <item>
       <title>관계 데이터 베이스의 정규화</title>
       <link>https://ezaurum.com/2009/02/%EA%B4%80%EA%B3%84-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%B2%A0%EC%9D%B4%EC%8A%A4%EC%9D%98-%EC%A0%95%EA%B7%9C%ED%99%94/</link>
       <pubDate>Fri, 27 Feb 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2009/02/%EA%B4%80%EA%B3%84-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%B2%A0%EC%9D%B4%EC%8A%A4%EC%9D%98-%EC%A0%95%EA%B7%9C%ED%99%94/</guid>
       <description>관계 데이터 베이스는 개체-관계 데이터 모델을 기초로 하여 만든 데이터 베이스이다. 나라고 하는 개체(Entity)는 이름, 키, 체중 등의 속성(Attribute)을 가지며, 그것이 나를 구성-표현-정의 한다. 좀 일반화 해 보면, 인간이라는 개체(Entity)는 이름, 키, 체중 등의 속성(Attribute)을 가지며, 그것이 인간을 구성-표현-정의 한다. 인간은 옷과 착용 이라는 관계(relation)로 이어져 있다. 그런데 옷 또한 하나의 개체로 색, 재질, 값 등의 속성을 가지고 있다. 한 옷은 하나의 인간과 착용이라는 관계를 맺지만, 한 인간은 다양한 옷과 관계를 맺을 수 있다.</description>
     </item>
-    
     <item>
       <title>한국어의 시제·상·양태</title>
       <link>https://ezaurum.com/2009/02/%ED%95%9C%EA%B5%AD%EC%96%B4%EC%9D%98-%EC%8B%9C%EC%A0%9C%EC%83%81%EC%96%91%ED%83%9C/</link>
       <pubDate>Fri, 06 Feb 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2009/02/%ED%95%9C%EA%B5%AD%EC%96%B4%EC%9D%98-%EC%8B%9C%EC%A0%9C%EC%83%81%EC%96%91%ED%83%9C/</guid>
-      <description>http://www.docin.com/DocinViewer-122584-144.swf
-첨부된 문서를 찾은 곳은 DOC in 이란 서비스. 일본이나 중국 계열 같은데, 쓸만 할까나. 지금은 좀 불안한 듯 보인다. flash, AJAX, 등등&amp;hellip; 요즘은 완전히 새로운 플랫폼이나 기술보다는 이미 있는 것의 수정·보완·새로운 활용 등이 대세인 듯. 나는 나를 재활용할 수 있을까.</description>
+      <description>http://www.docin.com/DocinViewer-122584-144.swf&#xA;첨부된 문서를 찾은 곳은 DOC in 이란 서비스. 일본이나 중국 계열 같은데, 쓸만 할까나. 지금은 좀 불안한 듯 보인다. flash, AJAX, 등등&amp;hellip; 요즘은 완전히 새로운 플랫폼이나 기술보다는 이미 있는 것의 수정·보완·새로운 활용 등이 대세인 듯. 나는 나를 재활용할 수 있을까.</description>
     </item>
-    
     <item>
       <title>Lisp로 주문 외기 - 7 -</title>
       <link>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-7-/</link>
       <pubDate>Wed, 04 Feb 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-7-/</guid>
-      <description>라이센스 - The GNU Free Documentation License 원저자 - Conrad Barski, M.D. 원본 출처 - http://lisperati.com/casting.html
-게임 세계를 돌아다녀 보기좋아요, 이제 세계를 볼 수 있습니다. 그러니 돌아다닐 수 있도록 해 줄 코드를 짜 볼까요. walk-direction(함수식 스타일은 아니지만) 함수가 방향을 잡고 거기로 갈 수 있도록 해 줄겁니다. (defun walk-direction (direction)(let ((next (assoc direction (cddr (assoc *location* *map*)))))(cond (next (setf *location* (third next)) (look))(t &#39;(you cant go that way.</description>
+      <description>라이센스 - The GNU Free Documentation License 원저자 - Conrad Barski, M.D. 원본 출처 - http://lisperati.com/casting.html&#xA;게임 세계를 돌아다녀 보기&#xD;좋아요, 이제 세계를 볼 수 있습니다. 그러니 돌아다닐 수 있도록 해 줄 코드를 짜 볼까요. walk-direction(함수식 스타일은 아니지만) 함수가 방향을 잡고 거기로 갈 수 있도록 해 줄겁니다. (defun walk-direction (direction)&#xD;(let ((next (assoc direction (cddr (assoc *location* *map*)))))&#xD;(cond (next (setf *location* (third next)) (look))&#xD;(t &#39;(you cant go that way.</description>
     </item>
-    
     <item>
       <title>Lisp로 주문 외기 - 1 -</title>
       <link>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-1-/</link>
       <pubDate>Tue, 03 Feb 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-1-/</guid>
-      <description>라이센스 - The GNU Free Documentation License 원저자 - Conrad Barski, M.D. 원본 출처 - http://lisperati.com/casting.html
-어떻게 해서 Lisp가 그렇게 강력한지 궁금해 해 봤나요?
-이제 그 이유를 알 수 있습니다.
-그리고 그러기 위해 컴퓨터에 뭘 깔아둬야 할 필요는 없어요!Lisp로 주문(spel) 외기!저자 : Conrad Barski, M.D.
-http://LISPERATI.COM/
-번역자 : 파란미르
-http://파란미르.com/
-오탈자, 번역 오류 지적 등은 항상 환영합니다.</description>
+      <description>라이센스 - The GNU Free Documentation License 원저자 - Conrad Barski, M.D. 원본 출처 - http://lisperati.com/casting.html&#xA;어떻게 해서 Lisp가 그렇게 강력한지 궁금해 해 봤나요?&#xA;이제 그 이유를 알 수 있습니다.&#xA;그리고 그러기 위해 컴퓨터에 뭘 깔아둬야 할 필요는 없어요!&#xD;Lisp로 주문(spel) 외기!&#xD;저자 : Conrad Barski, M.D.&#xA;http://LISPERATI.COM/&#xA;번역자 : 파란미르&#xA;http://파란미르.com/&#xA;오탈자, 번역 오류 지적 등은 항상 환영합니다.</description>
     </item>
-    
     <item>
       <title>Lisp로 주문 외기 - 2 -</title>
       <link>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-2-/</link>
       <pubDate>Tue, 03 Feb 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-2-/</guid>
-      <description>라이센스 - The GNU Free Documentation License 원저자 - Conrad Barski, M.D. 원본 출처 - http://lisperati.com/casting.html
-누구든 Lisp로 프로그램을 짜는 걸 배워본 사람이 있다면, 다른 프로그래밍 언어와 매우 다르다고 말할 겁니다. 그건 정말 신기할 정도로 달라요. 이 만화책이 Lisp의 독특한 디자인이 그걸 그렇게 강력하게 만든다는 것을 알게 해 줄겁니 다.
-이 강좌에서 쓰이는 매우 작은 Lisp 코드들은 이런 글꼴과 색입니다.간단히 이 부분들을 Lisp컴파일러의 명령줄에 복사해 넣으세요.그럼 강좌가 끝나는 그 순간 텍스트 어드벤처 게임이 완성될 겁니다!</description>
+      <description>라이센스 - The GNU Free Documentation License 원저자 - Conrad Barski, M.D. 원본 출처 - http://lisperati.com/casting.html&#xA;누구든 Lisp로 프로그램을 짜는 걸 배워본 사람이 있다면, 다른 프로그래밍 언어와 매우 다르다고 말할 겁니다. 그건 정말 신기할 정도로 달라요. 이 만화책이 Lisp의 독특한 디자인이 그걸 그렇게 강력하게 만든다는 것을 알게 해 줄겁니 다.&#xA;이 강좌에서 쓰이는 매우 작은 Lisp 코드들은 이런 글꼴과 색입니다.&#xD;간단히 이 부분들을 Lisp컴파일러의 명령줄에 복사해 넣으세요.&#xD;그럼 강좌가 끝나는 그 순간 텍스트 어드벤처 게임이 완성될 겁니다!</description>
     </item>
-    
     <item>
       <title>Lisp로 주문 외기 - 3 -</title>
       <link>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-3-/</link>
       <pubDate>Tue, 03 Feb 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-3-/</guid>
-      <description>라이센스 - The GNU Free Documentation License 원저자 - Conrad Barski, M.D. 원본 출처 - http://lisperati.com/casting.html
-엄청나게 좋은 Lisp컴파일러가 많이 있지만, 이 강좌를 들으며 쓰기 가장 쉬운 것은 Franz의 Allegro Common Lisp, 매우 강력한 상업용 Lisp입니다. Franz, Inc. 는 친절하게도 텔넷환경을 통해서 사용할 수 있도록 해 주었지요. 여기에 있으니까 컴퓨터에 아무 것도 깔 필요는 없어요. 그냥 이 링크를 클릭하면 원하는 모든 것을 제공해주는 텔넷 화면이 뜰 겁니다! [caption id=&amp;ldquo;attachment_382&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;400&amp;rdquo; caption=&amp;ldquo;telnet화면&amp;rdquo;][/caption] (내가 정말 쓰려고 했던 다른 Lisp는 오픈소스인 CLISP인데, 만일 Lisp랑 더 많은 시간을 보내게 될 걸 안다면 다운받고 싶어질 겁니다.</description>
+      <description>라이센스 - The GNU Free Documentation License 원저자 - Conrad Barski, M.D. 원본 출처 - http://lisperati.com/casting.html&#xA;엄청나게 좋은 Lisp컴파일러가 많이 있지만, 이 강좌를 들으며 쓰기 가장 쉬운 것은 Franz의 Allegro Common Lisp, 매우 강력한 상업용 Lisp입니다. Franz, Inc. 는 친절하게도 텔넷환경을 통해서 사용할 수 있도록 해 주었지요. 여기에 있으니까 컴퓨터에 아무 것도 깔 필요는 없어요. 그냥 이 링크를 클릭하면 원하는 모든 것을 제공해주는 텔넷 화면이 뜰 겁니다! [caption id=&amp;ldquo;attachment_382&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;400&amp;rdquo; caption=&amp;ldquo;telnet화면&amp;rdquo;][/caption] (내가 정말 쓰려고 했던 다른 Lisp는 오픈소스인 CLISP인데, 만일 Lisp랑 더 많은 시간을 보내게 될 걸 안다면 다운받고 싶어질 겁니다.</description>
     </item>
-    
     <item>
       <title>Lisp로 주문 외기 - 4 -</title>
       <link>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-4-/</link>
       <pubDate>Tue, 03 Feb 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-4-/</guid>
-      <description>라이센스 - The GNU Free Documentation License 원저자 - Conrad Barski, M.D. 원본 출처 - http://lisperati.com/casting.html
-문법과 의미모든 컴퓨터 언어는 문법(syntax)과 의미(semantics)로 구성된 코드가 있습니다. 컴퓨터 언어의 문법(syntax)이란 건, 컴파일러가 프로그램에 쓰여있는 게 뭐가 뭔지 알 수 있도록 프로그램을 짤 때 따라야 하는 기본적인 뼈대에요. 그러니까 그게 뭐가 함수고, 뭐가 변수고, 뭐가 뭐고 하는 걸 알 수 있도록 해 주는 거죠. 프로그램에서의 의미(semantics)란 건 아무거나라고 말하는 게 좋겠네요. 가능한 여러가지 서로 다른 명령이라든가, 프로그램의 어디서든 볼 수 있도록 허락한 변수들이라든가 뭐 그런 거.</description>
+      <description>라이센스 - The GNU Free Documentation License 원저자 - Conrad Barski, M.D. 원본 출처 - http://lisperati.com/casting.html&#xA;문법과 의미&#xD;모든 컴퓨터 언어는 문법(syntax)과 의미(semantics)로 구성된 코드가 있습니다. 컴퓨터 언어의 문법(syntax)이란 건, 컴파일러가 프로그램에 쓰여있는 게 뭐가 뭔지 알 수 있도록 프로그램을 짤 때 따라야 하는 기본적인 뼈대에요. 그러니까 그게 뭐가 함수고, 뭐가 변수고, 뭐가 뭐고 하는 걸 알 수 있도록 해 주는 거죠. 프로그램에서의 의미(semantics)란 건 아무거나라고 말하는 게 좋겠네요. 가능한 여러가지 서로 다른 명령이라든가, 프로그램의 어디서든 볼 수 있도록 허락한 변수들이라든가 뭐 그런 거.</description>
     </item>
-    
     <item>
       <title>Lisp로 주문 외기 - 5 -</title>
       <link>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-5-/</link>
       <pubDate>Tue, 03 Feb 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-5-/</guid>
-      <description>라이센스 - The GNU Free Documentation License 원저자 - Conrad Barski, M.D. 원본 출처 - http://lisperati.com/casting.html
-게임 세계를 위한 데이터 정의형식(Form)에 대해 조금 더 배우기 위해, 게임 세계의 데이터를 만드는 형식을 좀 만들어봅시다. 일단은, 게임에는 플레이어가 집어들어 사용할 수 있는 특정 물체들이 있을 겁니다. 이걸 정의해 봅시다.
-(setf objects &amp;lsquo;(whiskey-bottle bucket frog chain))
-좋아요. 이제 이 줄이 뭘 의미하는지 해부해 봅시다. Lisp 컴파일러는 항상 코드 모드로 읽기 시작하고 형식을 기대하기 때문에, 첫번째 기호-setf-는 명령어가 되어야 합니다.</description>
+      <description>라이센스 - The GNU Free Documentation License 원저자 - Conrad Barski, M.D. 원본 출처 - http://lisperati.com/casting.html&#xA;게임 세계를 위한 데이터 정의&#xD;형식(Form)에 대해 조금 더 배우기 위해, 게임 세계의 데이터를 만드는 형식을 좀 만들어봅시다. 일단은, 게임에는 플레이어가 집어들어 사용할 수 있는 특정 물체들이 있을 겁니다. 이걸 정의해 봅시다.&#xA;(setf objects &amp;lsquo;(whiskey-bottle bucket frog chain))&#xA;좋아요. 이제 이 줄이 뭘 의미하는지 해부해 봅시다. Lisp 컴파일러는 항상 코드 모드로 읽기 시작하고 형식을 기대하기 때문에, 첫번째 기호-setf-는 명령어가 되어야 합니다.</description>
     </item>
-    
     <item>
       <title>Lisp로 주문 외기 - 6 -</title>
       <link>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-6-/</link>
       <pubDate>Tue, 03 Feb 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-6-/</guid>
-      <description>라이센스 - The GNU Free Documentation License 원저자 - Conrad Barski, M.D. 원본 출처 - http://lisperati.com/casting.html
-게임 세계를 살펴 보기만들어볼 첫 명령은 지금 서 있는 장소에 대해 말해줄 명령입니다. 그러니 함수가 그 장소에 대해 묘사하기 위해 필요한 게 뭘까요?
-에, 묘사할 장소에 대해 알아야 하고, 지도에서 그게 어디에 있는지를 찾을 수 있어야겠죠. 여기 함수가 있고요, 그건 바로 그렇게 동작합니다. (defun describe-location (location map) (second (assoc location map)))
-defun이라고 하는 단어는 예상대로, 함수를 선언하고 있습니다.</description>
+      <description>라이센스 - The GNU Free Documentation License 원저자 - Conrad Barski, M.D. 원본 출처 - http://lisperati.com/casting.html&#xA;게임 세계를 살펴 보기&#xD;만들어볼 첫 명령은 지금 서 있는 장소에 대해 말해줄 명령입니다. 그러니 함수가 그 장소에 대해 묘사하기 위해 필요한 게 뭘까요?&#xA;에, 묘사할 장소에 대해 알아야 하고, 지도에서 그게 어디에 있는지를 찾을 수 있어야겠죠. 여기 함수가 있고요, 그건 바로 그렇게 동작합니다. (defun describe-location (location map) (second (assoc location map)))&#xA;defun이라고 하는 단어는 예상대로, 함수를 선언하고 있습니다.</description>
     </item>
-    
     <item>
       <title></title>
       <link>https://ezaurum.com/2008/12/</link>
       <pubDate>Mon, 08 Dec 2008 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2008/12/</guid>
       <description>아마도 원인은 이 아래 링크 http://kldp.org/node/92618 따라서, extern 키워드를 활용하도록 한다!</description>
     </item>
-    
     <item>
       <title>소켓 프로그래밍을 할 때 read가 생각대로 작동하지 않는 경우</title>
       <link>https://ezaurum.com/2008/12/%EC%86%8C%EC%BC%93-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EC%9D%84-%ED%95%A0-%EB%95%8C-read%EA%B0%80-%EC%83%9D%EA%B0%81%EB%8C%80%EB%A1%9C-%EC%9E%91%EB%8F%99%ED%95%98%EC%A7%80-%EC%95%8A%EB%8A%94-%EA%B2%BD%EC%9A%B0/</link>
       <pubDate>Thu, 04 Dec 2008 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2008/12/%EC%86%8C%EC%BC%93-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EC%9D%84-%ED%95%A0-%EB%95%8C-read%EA%B0%80-%EC%83%9D%EA%B0%81%EB%8C%80%EB%A1%9C-%EC%9E%91%EB%8F%99%ED%95%98%EC%A7%80-%EC%95%8A%EB%8A%94-%EA%B2%BD%EC%9A%B0/</guid>
-      <description>기말고사용으로 채팅 프로그램을 만들던 중, close를 하지 않고, 연결을 유지한 채로 write함수로 EOF값 만을 보내서 대화 내용의 종결을 알리려고 했으나, 잘 작동하지 않았다.
-read는 socket 이 close되지 않으면 EOF를 읽더라도 1을 반환한다. 따라서 연결을 유지하고 read/write를 하려면 읽은 값이 EOF인지를 체크해준다! 이거 알아내려고 이틀 밤 샜다. 젠장. 나만 병신인가. while (temp) { read(sockfd, &amp;amp;s, 1); if ( s == EOF) break; printf(&amp;quot;%c&amp;quot;,s); } read 의 리턴값 - 기본적으로 실제로 읽은 바이트 수 만큼.</description>
+      <description>기말고사용으로 채팅 프로그램을 만들던 중, close를 하지 않고, 연결을 유지한 채로 write함수로 EOF값 만을 보내서 대화 내용의 종결을 알리려고 했으나, 잘 작동하지 않았다.&#xA;read는 socket 이 close되지 않으면 EOF를 읽더라도 1을 반환한다. 따라서 연결을 유지하고 read/write를 하려면 읽은 값이 EOF인지를 체크해준다! 이거 알아내려고 이틀 밤 샜다. 젠장. 나만 병신인가. while (temp) { read(sockfd, &amp;amp;s, 1); if ( s == EOF) break; printf(&amp;quot;%c&amp;quot;,s); } read 의 리턴값 - 기본적으로 실제로 읽은 바이트 수 만큼.</description>
     </item>
-    
     <item>
       <title>종종 헷갈리는 pointer와 배열</title>
       <link>https://ezaurum.com/2008/11/%EC%A2%85%EC%A2%85-%ED%97%B7%EA%B0%88%EB%A6%AC%EB%8A%94-pointer%EC%99%80-%EB%B0%B0%EC%97%B4/</link>
       <pubDate>Mon, 24 Nov 2008 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2008/11/%EC%A2%85%EC%A2%85-%ED%97%B7%EA%B0%88%EB%A6%AC%EB%8A%94-pointer%EC%99%80-%EB%B0%B0%EC%97%B4/</guid>
-      <description>*(pointer + n) 는 pointer[n] 과 같다. 겹쳐져 있으면 해석은 오른쪽부터.
-이걸 알면 모두 OK.
-pointer[x][y][z] 는 *(pointer[x][y]+z) pointer[x][y] 는 *(pointer[x]+y) pointer[x]는 *(pointer+x)
-그러니 pointer[x][y][z]는 ((*(pointer+x)+y)+z)
-추가로 알아둘 사항. void * pp; int a=35; pp = &amp;amp;a; int ppp[5][5] = { 0, };
-printf(&amp;quot;%dn&amp;quot;,sizeof(pp));printf(&amp;quot;%dn&amp;quot;,*(int*)pp);printf(&amp;quot;%dn&amp;quot;,sizeof(ppp));printf(&amp;quot;%dn&amp;quot;,sizeof(ppp[0]));printf(&amp;quot;%dn&amp;quot;,sizeof(ppp[0][0]));printf(&amp;quot;%pn&amp;quot;,ppp);printf(&amp;quot;%pn&amp;quot;,ppp+1);printf(&amp;quot;%pn&amp;quot;,*(ppp+2)+1);printf(&amp;quot;%pn&amp;quot;,ppp[2]+1);printf(&amp;quot;%pn&amp;quot;,&amp;amp;amp;ppp[2][1]);printf(&amp;quot;%pn&amp;quot;,ppp[0][0]+1);pointer +1 은 pointer값 + sizeof(*pointer);
-혹여나 해서 추가해보는 codepad link</description>
+      <description>*(pointer + n) 는 pointer[n] 과 같다. 겹쳐져 있으면 해석은 오른쪽부터.&#xA;이걸 알면 모두 OK.&#xA;pointer[x][y][z] 는 *(pointer[x][y]+z) pointer[x][y] 는 *(pointer[x]+y) pointer[x]는 *(pointer+x)&#xA;그러니 pointer[x][y][z]는 ((*(pointer+x)+y)+z)&#xA;추가로 알아둘 사항. void * pp; int a=35; pp = &amp;amp;a; int ppp[5][5] = { 0, };&#xA;printf(&amp;quot;%dn&amp;quot;,sizeof(pp));&#xD;printf(&amp;quot;%dn&amp;quot;,*(int*)pp);&#xD;printf(&amp;quot;%dn&amp;quot;,sizeof(ppp));&#xD;printf(&amp;quot;%dn&amp;quot;,sizeof(ppp[0]));&#xD;printf(&amp;quot;%dn&amp;quot;,sizeof(ppp[0][0]));&#xD;printf(&amp;quot;%pn&amp;quot;,ppp);&#xD;printf(&amp;quot;%pn&amp;quot;,ppp+1);&#xD;printf(&amp;quot;%pn&amp;quot;,*(ppp+2)+1);&#xD;printf(&amp;quot;%pn&amp;quot;,ppp[2]+1);&#xD;printf(&amp;quot;%pn&amp;quot;,&amp;amp;amp;ppp[2][1]);&#xD;printf(&amp;quot;%pn&amp;quot;,ppp[0][0]+1);&#xD;pointer +1 은 pointer값 + sizeof(*pointer);&#xA;혹여나 해서 추가해보는 codepad link</description>
     </item>
-    
   </channel>
 </rss>

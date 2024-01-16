@@ -7,24 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Sun, 17 Feb 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://ezaurum.com/tags/Windows7/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 17 Feb 2013 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ezaurum.com/tags/Windows7/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>intelliJ에서 gradle 프로젝트 import 시 JAVA_HOME is different 에러가 날때</title>
       <link>https://ezaurum.com/2013/02/intelliJ%EC%97%90%EC%84%9C-gradle-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-import-%EC%8B%9C-JAVA_HOME-is-different-%EC%97%90%EB%9F%AC%EA%B0%80-%EB%82%A0%EB%95%8C/</link>
       <pubDate>Sun, 17 Feb 2013 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2013/02/intelliJ%EC%97%90%EC%84%9C-gradle-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-import-%EC%8B%9C-JAVA_HOME-is-different-%EC%97%90%EB%9F%AC%EA%B0%80-%EB%82%A0%EB%95%8C/</guid>
-      <description>윈도우 환경에서, intelliJ로 gradle 빌드 파일을 import하려고 하니 JAVA_HOME is different라는 에러가 난다.메세지를 보니 다 똑같은데, intelliJ가 expect라고 하는 건 디렉토리가 다 소문자, 실제로 있는 건 대문자가 섞여 있다.보통 JDK는 C:Program FilesJava 아래에 깔리게 되는데, 그냥 c:jdk로 옮겨주고, 시스템 설정에서 JAVA_HOME도 바꿔줬다.그걸로 해결.</description>
+      <description>윈도우 환경에서, intelliJ로 gradle 빌드 파일을 import하려고 하니 JAVA_HOME is different라는 에러가 난다.&#xD;메세지를 보니 다 똑같은데, intelliJ가 expect라고 하는 건 디렉토리가 다 소문자, 실제로 있는 건 대문자가 섞여 있다.&#xD;보통 JDK는 C:Program FilesJava 아래에 깔리게 되는데, 그냥 c:jdk로 옮겨주고, 시스템 설정에서 JAVA_HOME도 바꿔줬다.&#xD;그걸로 해결.</description>
     </item>
-    
     <item>
       <title>Window7 64bit BETA</title>
       <link>https://ezaurum.com/2009/01/Window7-64bit-BETA/</link>
       <pubDate>Sun, 11 Jan 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2009/01/Window7-64bit-BETA/</guid>
       <description>설치한 감상으로는&amp;hellip; 역시 슈퍼바! 비스타보다 좀 빠른 것 같기도 하고 아닌 것 같기도 하고&amp;hellip; 여튼 별 문제 없다. 아직은. 문제 발생 농협 인터넷 뱅킹에서 로그인은 되었는데, 이체시 보안 카드의 비번을 입력하면 전혀 엉뚱한 수가 입력된다. nProtect와 충돌이 있는 모양. 쳇.</description>
     </item>
-    
   </channel>
 </rss>

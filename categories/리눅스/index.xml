@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>리눅스 on Ezaurum&#39;s Blog</title>
+    <link>https://ezaurum.com/categories/%EB%A6%AC%EB%88%85%EC%8A%A4/</link>
+    <description>Recent content in 리눅스 on Ezaurum&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <copyright>© Ezaurum 2001-</copyright>
+    <atom:link href="https://ezaurum.com/categories/%EB%A6%AC%EB%88%85%EC%8A%A4/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Arch linux i3 환경에서 워크 스페이스 설정</title>
+      <link>https://ezaurum.com/1/01/Arch-linux-i3-%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C-%EC%9B%8C%ED%81%AC-%EC%8A%A4%ED%8E%98%EC%9D%B4%EC%8A%A4-%EC%84%A4%EC%A0%95/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ezaurum.com/1/01/Arch-linux-i3-%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C-%EC%9B%8C%ED%81%AC-%EC%8A%A4%ED%8E%98%EC%9D%B4%EC%8A%A4-%EC%84%A4%EC%A0%95/</guid>
+      <description>모니터가 여럿인 경우, 원하는 프로그램을 원하는 위치에 띄워두고 싶을 때가 있다. 이런 경우를 위해 i3 config 파일에 다음과 같은 설정을 추가한다.&#xA;# ~/.config/i3/config bindsym $mod+Shift+1 ~/prepare-workspace.sh 이렇게 하면 $mod+Shift+1을 누르면 ~/prepare-workspace.sh가 실행된다. 이 스크립트는 다음과 같이 작성한다.&#xA;# ~/prepare-workspace.sh # 워크스페이스 1번에 firefox를 띄우고, 2번에 IntelliJ, 3번에 터미널을 띄운다. i3-msg &amp;#39;workspace 1; exec firefox -new-window https://www.google.com&amp;#39; # 실행이 빨리 되지 않으면 다음과 같이 sleep을 준다. 그러지 않으면 workspace가 다시 바뀌어 버린다.</description>
+    </item>
+  </channel>
+</rss>

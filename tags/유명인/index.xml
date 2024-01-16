@@ -7,15 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Thu, 10 Sep 2009 00:00:00 +0000</lastBuildDate><atom:link href="https://ezaurum.com/tags/%EC%9C%A0%EB%AA%85%EC%9D%B8/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 10 Sep 2009 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ezaurum.com/tags/%EC%9C%A0%EB%AA%85%EC%9D%B8/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>한글 도메인</title>
       <link>https://ezaurum.com/2009/09/%ED%95%9C%EA%B8%80-%EB%8F%84%EB%A9%94%EC%9D%B8/</link>
       <pubDate>Thu, 10 Sep 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2009/09/%ED%95%9C%EA%B8%80-%EB%8F%84%EB%A9%94%EC%9D%B8/</guid>
       <description>한가인, 한채영, 이영애 .com 이 모두 같은 곳으로 연결되어 있다&amp;hellip; 유명인 이름은 이미 다 선점되어 있는 듯.</description>
     </item>
-    
   </channel>
 </rss>

@@ -7,15 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Thu, 26 Feb 2009 00:00:00 +0000</lastBuildDate><atom:link href="https://ezaurum.com/tags/%EB%B6%80%EC%A0%95%EC%A0%81%EB%B6%84/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 26 Feb 2009 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ezaurum.com/tags/%EB%B6%80%EC%A0%95%EC%A0%81%EB%B6%84/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>부정적분계산</title>
       <link>https://ezaurum.com/2009/02/%EB%B6%80%EC%A0%95%EC%A0%81%EB%B6%84%EA%B3%84%EC%82%B0/</link>
       <pubDate>Thu, 26 Feb 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://ezaurum.com/2009/02/%EB%B6%80%EC%A0%95%EC%A0%81%EB%B6%84%EA%B3%84%EC%82%B0/</guid>
       <description>부정 적분 수식을 그리고, 계산도 해 주는 사이트 부정적분만 된다.</description>
     </item>
-    
   </channel>
 </rss>
