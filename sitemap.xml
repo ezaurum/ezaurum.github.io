@@ -8,6 +8,9 @@
     <loc>https://ezaurum.com/2024/01/Arch-linux-i3-%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C-%EC%9B%8C%ED%81%AC-%EC%8A%A4%ED%8E%98%EC%9D%B4%EC%8A%A4-%EC%84%A4%EC%A0%95/</loc>
     <lastmod>2024-01-17T00:00:00+09:00</lastmod>
   </url><url>
+    <loc>https://ezaurum.com/series/Arch-Linux-Setup/</loc>
+    <lastmod>2024-01-17T00:00:00+09:00</lastmod>
+  </url><url>
     <loc>https://ezaurum.com/categories/</loc>
     <lastmod>2024-01-17T00:00:00+09:00</lastmod>
   </url><url>
@@ -23,9 +26,6 @@
     <loc>https://ezaurum.com/post/</loc>
     <lastmod>2024-01-17T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>https://ezaurum.com/categories/recipe/</loc>
-    <lastmod>2024-01-17T00:00:00+09:00</lastmod>
-  </url><url>
     <loc>https://ezaurum.com/series/</loc>
     <lastmod>2024-01-17T00:00:00+09:00</lastmod>
   </url><url>
@@ -38,13 +38,10 @@
     <loc>https://ezaurum.com/tags/workspace/</loc>
     <lastmod>2024-01-17T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>https://ezaurum.com/series/workspace/</loc>
-    <lastmod>2024-01-17T00:00:00+09:00</lastmod>
-  </url><url>
     <loc>https://ezaurum.com/categories/%EA%B0%9C%EB%B0%9C%ED%99%98%EA%B2%BD/</loc>
     <lastmod>2024-01-17T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>https://ezaurum.com/categories/%EB%A6%AC%EB%88%85%EC%8A%A4/</loc>
+    <loc>https://ezaurum.com/categories/%EB%A0%88%EC%8B%9C%ED%94%BC/</loc>
     <lastmod>2024-01-17T00:00:00+09:00</lastmod>
   </url><url>
     <loc>https://ezaurum.com/categories/%EC%A0%95%EB%A6%AC/</loc>
@@ -99,9 +96,6 @@
     <lastmod>2022-09-06T13:16:42+09:00</lastmod>
   </url><url>
     <loc>https://ezaurum.com/series/%EB%A0%88%EC%8B%9C%ED%94%BC/</loc>
-    <lastmod>2022-09-06T13:16:42+09:00</lastmod>
-  </url><url>
-    <loc>https://ezaurum.com/categories/%EB%A0%88%EC%8B%9C%ED%94%BC/</loc>
     <lastmod>2022-09-06T13:16:42+09:00</lastmod>
   </url><url>
     <loc>https://ezaurum.com/tags/%EC%A0%95%EB%A6%AC/</loc>
@@ -337,9 +331,6 @@
   </url><url>
     <loc>https://ezaurum.com/2020/03/%EC%BF%A0%ED%82%A4%EC%97%90-%EB%8C%80%ED%95%9C-%EC%A0%95%EB%A6%AC/</loc>
     <lastmod>2020-03-04T16:04:22+09:00</lastmod>
-  </url><url>
-    <loc>https://ezaurum.com/series/Arch-Linux-Setup/</loc>
-    <lastmod>2020-01-10T16:17:30+09:00</lastmod>
   </url><url>
     <loc>https://ezaurum.com/tags/i3wm/</loc>
     <lastmod>2020-01-10T16:17:30+09:00</lastmod>
