@@ -7,8 +7,43 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Tue, 02 Jan 2024 13:17:22 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 17 Jan 2024 00:00:00 +0900</lastBuildDate>
     <atom:link href="https://ezaurum.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>arch</title>
+      <link>https://ezaurum.com/tags/arch/</link>
+      <pubDate>Wed, 17 Jan 2024 00:00:00 +0900</pubDate>
+      <guid>https://ezaurum.com/tags/arch/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>i3</title>
+      <link>https://ezaurum.com/tags/i3/</link>
+      <pubDate>Wed, 17 Jan 2024 00:00:00 +0900</pubDate>
+      <guid>https://ezaurum.com/tags/i3/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>linux</title>
+      <link>https://ezaurum.com/tags/linux/</link>
+      <pubDate>Wed, 17 Jan 2024 00:00:00 +0900</pubDate>
+      <guid>https://ezaurum.com/tags/linux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>tmux</title>
+      <link>https://ezaurum.com/tags/tmux/</link>
+      <pubDate>Wed, 17 Jan 2024 00:00:00 +0900</pubDate>
+      <guid>https://ezaurum.com/tags/tmux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>workspace</title>
+      <link>https://ezaurum.com/tags/workspace/</link>
+      <pubDate>Wed, 17 Jan 2024 00:00:00 +0900</pubDate>
+      <guid>https://ezaurum.com/tags/workspace/</guid>
+      <description></description>
+    </item>
     <item>
       <title>새해목표</title>
       <link>https://ezaurum.com/tags/%EC%83%88%ED%95%B4%EB%AA%A9%ED%91%9C/</link>
@@ -161,13 +196,6 @@
       <link>https://ezaurum.com/tags/%EC%86%8C%EB%A0%A8/</link>
       <pubDate>Sat, 20 Jun 2020 02:37:59 +0900</pubDate>
       <guid>https://ezaurum.com/tags/%EC%86%8C%EB%A0%A8/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>arch</title>
-      <link>https://ezaurum.com/tags/arch/</link>
-      <pubDate>Sun, 14 Jun 2020 18:56:25 +0900</pubDate>
-      <guid>https://ezaurum.com/tags/arch/</guid>
       <description></description>
     </item>
     <item>
@@ -357,13 +385,6 @@
       <link>https://ezaurum.com/tags/i3wm/</link>
       <pubDate>Fri, 10 Jan 2020 16:17:30 +0900</pubDate>
       <guid>https://ezaurum.com/tags/i3wm/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>linux</title>
-      <link>https://ezaurum.com/tags/linux/</link>
-      <pubDate>Fri, 10 Jan 2020 16:17:30 +0900</pubDate>
-      <guid>https://ezaurum.com/tags/linux/</guid>
       <description></description>
     </item>
     <item>
@@ -7682,31 +7703,10 @@
       <description></description>
     </item>
     <item>
-      <title>i3</title>
-      <link>https://ezaurum.com/tags/i3/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/tags/i3/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>PL/SQL</title>
       <link>https://ezaurum.com/tags/PL/SQL/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ezaurum.com/tags/PL/SQL/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>tmux</title>
-      <link>https://ezaurum.com/tags/tmux/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/tags/tmux/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>workspace</title>
-      <link>https://ezaurum.com/tags/workspace/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/tags/workspace/</guid>
       <description></description>
     </item>
   </channel>

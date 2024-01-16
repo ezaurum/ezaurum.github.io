@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Tue, 02 Jan 2024 13:17:22 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 17 Jan 2024 00:00:00 +0900</lastBuildDate>
     <atom:link href="https://ezaurum.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Arch linux i3 환경에서 워크 스페이스 설정</title>
+      <link>https://ezaurum.com/2024/01/Arch-linux-i3-%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C-%EC%9B%8C%ED%81%AC-%EC%8A%A4%ED%8E%98%EC%9D%B4%EC%8A%A4-%EC%84%A4%EC%A0%95/</link>
+      <pubDate>Wed, 17 Jan 2024 00:00:00 +0900</pubDate>
+      <guid>https://ezaurum.com/2024/01/Arch-linux-i3-%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C-%EC%9B%8C%ED%81%AC-%EC%8A%A4%ED%8E%98%EC%9D%B4%EC%8A%A4-%EC%84%A4%EC%A0%95/</guid>
+      <description>모니터가 여럿인 경우, 원하는 프로그램을 원하는 위치에 띄워두고 싶을 때가 있다. 이런 경우를 위해 i3 config 파일에 다음과 같은 설정을 추가한다.&#xA;# ~/.config/i3/config bindsym $mod+Shift+1 ~/prepare-workspace.sh 이렇게 하면 $mod+Shift+1을 누르면 ~/prepare-workspace.sh가 실행된다. 이 스크립트는 다음과 같이 작성한다.&#xA;# ~/prepare-workspace.sh # 워크스페이스 1번에 firefox를 띄우고, 2번에 IntelliJ, 3번에 터미널을 띄운다. i3-msg &amp;#39;workspace 1; exec firefox -new-window https://www.google.com&amp;#39; # 실행이 빨리 되지 않으면 다음과 같이 sleep을 준다. 그러지 않으면 workspace가 다시 바뀌어 버린다.</description>
+    </item>
     <item>
       <title>2024년 목표</title>
       <link>https://ezaurum.com/2024/01/2024%EB%85%84-%EB%AA%A9%ED%91%9C/</link>
@@ -4005,13 +4012,6 @@
       <pubDate>Wed, 14 Feb 2007 00:00:00 +0000</pubDate>
       <guid>https://ezaurum.com/2007/02/%EA%B2%B0%EA%B5%AD-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%8B%A4%EC%8B%9C-%EB%A7%8C%EB%93%A4%EB%8B%A4./</guid>
       <description>뭐, 결국 Wordpress 2.1로 왔음. 무료 계정. UTF-8을 지원한다길래 덥석. 근데 포스트 슬러그는 여전히 작동 불가&amp;hellip; 뭐지.</description>
-    </item>
-    <item>
-      <title>Arch linux i3 환경에서 워크 스페이스 설정</title>
-      <link>https://ezaurum.com/1/01/Arch-linux-i3-%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C-%EC%9B%8C%ED%81%AC-%EC%8A%A4%ED%8E%98%EC%9D%B4%EC%8A%A4-%EC%84%A4%EC%A0%95/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/1/01/Arch-linux-i3-%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C-%EC%9B%8C%ED%81%AC-%EC%8A%A4%ED%8E%98%EC%9D%B4%EC%8A%A4-%EC%84%A4%EC%A0%95/</guid>
-      <description>모니터가 여럿인 경우, 원하는 프로그램을 원하는 위치에 띄워두고 싶을 때가 있다. 이런 경우를 위해 i3 config 파일에 다음과 같은 설정을 추가한다.&#xA;# ~/.config/i3/config bindsym $mod+Shift+1 ~/prepare-workspace.sh 이렇게 하면 $mod+Shift+1을 누르면 ~/prepare-workspace.sh가 실행된다. 이 스크립트는 다음과 같이 작성한다.&#xA;# ~/prepare-workspace.sh # 워크스페이스 1번에 firefox를 띄우고, 2번에 IntelliJ, 3번에 터미널을 띄운다. i3-msg &amp;#39;workspace 1; exec firefox -new-window https://www.google.com&amp;#39; # 실행이 빨리 되지 않으면 다음과 같이 sleep을 준다. 그러지 않으면 workspace가 다시 바뀌어 버린다.</description>
     </item>
   </channel>
 </rss>
