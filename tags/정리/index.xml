@@ -4,7 +4,7 @@
     <title>정리 on Ezaurum&#39;s Blog</title>
     <link>https://ezaurum.com/tags/%EC%A0%95%EB%A6%AC/</link>
     <description>Recent content in 정리 on Ezaurum&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
     <lastBuildDate>Tue, 06 Sep 2022 13:16:42 +0900</lastBuildDate>
@@ -28,7 +28,7 @@
       <link>https://ezaurum.com/bug/create-table-faield/</link>
       <pubDate>Sun, 31 Jan 2021 13:11:01 +0900</pubDate>
       <guid>https://ezaurum.com/bug/create-table-faield/</guid>
-      <description>문제상황 - 틀린 게 없는데 테이블 생성 시 Foreign key constraint is incorrectly formed 가 계속 나올 원인 - A 테이블에서 B 테이블의 a 에 대해서 FK를 만들었을 때, B테이블을 새로 생성하려면 A테이블의 이전 FK에 지정된 컬럼값과 새로 만들 값이 동일해야 한다. B 테이블을 지우고 나도 A 테이블에 있는 a에 대한 FK는 유지됨 해결방안 - A테이블의 FK를 삭제 후 재생성 재발 방지를 위해 - 테이블을 삭제할 때는 참조하는 FK를 모두 지우고 해 볼것</description>
+      <description>문제상황 - 틀린 게 없는데 테이블 생성 시 Foreign key constraint is incorrectly formed 가 계속 나올 때&#xA;원인 - A 테이블에서 B 테이블의 a 에 대해서 FK를 만들었을 때, B테이블을 새로 생성하려면 A테이블의 이전 FK에 지정된 컬럼값과 새로 만들 값이 동일해야 한다. B 테이블을 지우고 나도 A 테이블에 있는 a에 대한 FK는 유지됨&#xA;해결방안 - A테이블의 FK를 삭제 후 재생성 재발 방지를 위해 - 테이블을 삭제할 때는 참조하는 FK를 모두 지우고 해 볼것</description>
     </item>
     <item>
       <title>아치 리눅스에서 스크린 캡처하기</title>
@@ -179,9 +179,9 @@
     </item>
     <item>
       <title>C# 에서 Dispose, Close, Stop의 차이</title>
-      <link>https://ezaurum.com/2015/02/C#-%EC%97%90%EC%84%9C-Dispose-Close-Stop%EC%9D%98-%EC%B0%A8%EC%9D%B4/</link>
+      <link>https://ezaurum.com/2015/02/C%23-%EC%97%90%EC%84%9C-Dispose-Close-Stop%EC%9D%98-%EC%B0%A8%EC%9D%B4/</link>
       <pubDate>Fri, 20 Feb 2015 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2015/02/C#-%EC%97%90%EC%84%9C-Dispose-Close-Stop%EC%9D%98-%EC%B0%A8%EC%9D%B4/</guid>
+      <guid>https://ezaurum.com/2015/02/C%23-%EC%97%90%EC%84%9C-Dispose-Close-Stop%EC%9D%98-%EC%B0%A8%EC%9D%B4/</guid>
       <description>내가 정리를 할 필요가 있어서&amp;hellip; Dispose - 더 이상 이 오브젝트를 쓰지 않음. 관련 리소스를 정리함. 자동으로 Null로 만들지는 않음. 여러 번 호출해도 괜찮음. Close, Stop - Dispose의 하위집합이거나 기능상 동일할 수 있음. 보통 Close/Open, Start/Stop 이며, 하위집합인 경우, Close이후 재 Open이 가능. Stop이후 Start가 가능.</description>
     </item>
     <item>

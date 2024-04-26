@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>plugin on Ezaurum&#39;s Blog</title>
+    <title>Plugin on Ezaurum&#39;s Blog</title>
     <link>https://ezaurum.com/tags/plugin/</link>
-    <description>Recent content in plugin on Ezaurum&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Plugin on Ezaurum&#39;s Blog</description>
+    <generator>Hugo</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
     <lastBuildDate>Tue, 05 Feb 2013 00:00:00 +0000</lastBuildDate>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>sql on Ezaurum&#39;s Blog</title>
+    <title>Sql on Ezaurum&#39;s Blog</title>
     <link>https://ezaurum.com/tags/sql/</link>
-    <description>Recent content in sql on Ezaurum&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Sql on Ezaurum&#39;s Blog</description>
+    <generator>Hugo</generator>
     <language>ko-kr</language>
     <copyright>© Ezaurum 2001-</copyright>
     <lastBuildDate>Sun, 31 Jan 2021 13:11:01 +0900</lastBuildDate>
@@ -14,7 +14,7 @@
       <link>https://ezaurum.com/bug/create-table-faield/</link>
       <pubDate>Sun, 31 Jan 2021 13:11:01 +0900</pubDate>
       <guid>https://ezaurum.com/bug/create-table-faield/</guid>
-      <description>문제상황 - 틀린 게 없는데 테이블 생성 시 Foreign key constraint is incorrectly formed 가 계속 나올 원인 - A 테이블에서 B 테이블의 a 에 대해서 FK를 만들었을 때, B테이블을 새로 생성하려면 A테이블의 이전 FK에 지정된 컬럼값과 새로 만들 값이 동일해야 한다. B 테이블을 지우고 나도 A 테이블에 있는 a에 대한 FK는 유지됨 해결방안 - A테이블의 FK를 삭제 후 재생성 재발 방지를 위해 - 테이블을 삭제할 때는 참조하는 FK를 모두 지우고 해 볼것</description>
+      <description>문제상황 - 틀린 게 없는데 테이블 생성 시 Foreign key constraint is incorrectly formed 가 계속 나올 때&#xA;원인 - A 테이블에서 B 테이블의 a 에 대해서 FK를 만들었을 때, B테이블을 새로 생성하려면 A테이블의 이전 FK에 지정된 컬럼값과 새로 만들 값이 동일해야 한다. B 테이블을 지우고 나도 A 테이블에 있는 a에 대한 FK는 유지됨&#xA;해결방안 - A테이블의 FK를 삭제 후 재생성 재발 방지를 위해 - 테이블을 삭제할 때는 참조하는 FK를 모두 지우고 해 볼것</description>
     </item>
     <item>
       <title>쿼리 결과를 CSV 파일로 생성</title>
