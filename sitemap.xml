@@ -2,6 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://ezaurum.com/categories/</loc>
+    <lastmod>2024-05-15T16:45:16+09:00</lastmod>
+  </url><url>
+    <loc>https://ezaurum.com/</loc>
+    <lastmod>2024-05-15T16:45:16+09:00</lastmod>
+  </url><url>
+    <loc>https://ezaurum.com/retrospective/</loc>
+    <lastmod>2024-05-15T16:45:16+09:00</lastmod>
+  </url><url>
+    <loc>https://ezaurum.com/series/</loc>
+    <lastmod>2024-05-15T16:45:16+09:00</lastmod>
+  </url><url>
+    <loc>https://ezaurum.com/tags/</loc>
+    <lastmod>2024-05-15T16:45:16+09:00</lastmod>
+  </url><url>
+    <loc>https://ezaurum.com/retrospective/stop-freelancing/</loc>
+    <lastmod>2024-05-15T16:45:16+09:00</lastmod>
+  </url><url>
+    <loc>https://ezaurum.com/tags/%ED%9A%8C%EA%B3%A0/</loc>
+    <lastmod>2024-05-15T16:45:16+09:00</lastmod>
+  </url><url>
+    <loc>https://ezaurum.com/series/%ED%9A%8C%EA%B3%A0/</loc>
+    <lastmod>2024-05-15T16:45:16+09:00</lastmod>
+  </url><url>
+    <loc>https://ezaurum.com/categories/%ED%9A%8C%EA%B3%A0/</loc>
+    <lastmod>2024-05-15T16:45:16+09:00</lastmod>
+  </url><url>
     <loc>https://ezaurum.com/tags/arch/</loc>
     <lastmod>2024-01-17T00:00:00+09:00</lastmod>
   </url><url>
@@ -11,12 +38,6 @@
     <loc>https://ezaurum.com/series/Arch-Linux-Setup/</loc>
     <lastmod>2024-01-17T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>https://ezaurum.com/categories/</loc>
-    <lastmod>2024-01-17T00:00:00+09:00</lastmod>
-  </url><url>
-    <loc>https://ezaurum.com/</loc>
-    <lastmod>2024-01-17T00:00:00+09:00</lastmod>
-  </url><url>
     <loc>https://ezaurum.com/tags/i3/</loc>
     <lastmod>2024-01-17T00:00:00+09:00</lastmod>
   </url><url>
@@ -24,12 +45,6 @@
     <lastmod>2024-01-17T00:00:00+09:00</lastmod>
   </url><url>
     <loc>https://ezaurum.com/post/</loc>
-    <lastmod>2024-01-17T00:00:00+09:00</lastmod>
-  </url><url>
-    <loc>https://ezaurum.com/series/</loc>
-    <lastmod>2024-01-17T00:00:00+09:00</lastmod>
-  </url><url>
-    <loc>https://ezaurum.com/tags/</loc>
     <lastmod>2024-01-17T00:00:00+09:00</lastmod>
   </url><url>
     <loc>https://ezaurum.com/tags/tmux/</loc>
@@ -63,18 +78,6 @@
     <lastmod>2024-01-02T13:17:22+09:00</lastmod>
   </url><url>
     <loc>https://ezaurum.com/retrospective/2023-full-year/</loc>
-    <lastmod>2024-01-02T12:15:28+09:00</lastmod>
-  </url><url>
-    <loc>https://ezaurum.com/retrospective/</loc>
-    <lastmod>2024-01-02T12:15:28+09:00</lastmod>
-  </url><url>
-    <loc>https://ezaurum.com/tags/%ED%9A%8C%EA%B3%A0/</loc>
-    <lastmod>2024-01-02T12:15:28+09:00</lastmod>
-  </url><url>
-    <loc>https://ezaurum.com/series/%ED%9A%8C%EA%B3%A0/</loc>
-    <lastmod>2024-01-02T12:15:28+09:00</lastmod>
-  </url><url>
-    <loc>https://ezaurum.com/categories/%ED%9A%8C%EA%B3%A0/</loc>
     <lastmod>2024-01-02T12:15:28+09:00</lastmod>
   </url><url>
     <loc>https://ezaurum.com/retrospective/2022-full-year/</loc>
