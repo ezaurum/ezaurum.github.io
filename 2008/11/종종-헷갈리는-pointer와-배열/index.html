@@ -84,17 +84,17 @@ pointer[x]는 *(pointer+x)</p>
 	pp = &amp;a;
 	int ppp[5][5] = { 0, };
 
-	printf("%dn",sizeof(pp));
-	printf("%dn",*(int*)pp);
-	printf("%dn",sizeof(ppp));
-	printf("%dn",sizeof(ppp[0]));
-	printf("%dn",sizeof(ppp[0][0]));
-	printf("%pn",ppp);
-	printf("%pn",ppp+1);
-	printf("%pn",*(ppp+2)+1);
-	printf("%pn",ppp[2]+1);
-	printf("%pn",&amp;ppp[2][1]);
-	printf("%pn",ppp[0][0]+1);</code></pre>
+	printf("%d\n",sizeof(pp));
+	printf("%d\n",*(int*)pp);
+	printf("%d\n",sizeof(ppp));
+	printf("%d\n",sizeof(ppp[0]));
+	printf("%d\n",sizeof(ppp[0][0]));
+	printf("%p\n",ppp);
+	printf("%p\n",ppp+1);
+	printf("%p\n",*(ppp+2)+1);
+	printf("%p\n",ppp[2]+1);
+	printf("%p\n",&amp;ppp[2][1]);
+	printf("%p\n",ppp[0][0]+1);</code></pre>
 <p><strong>pointer +1 은 pointer값 + sizeof(*pointer);</strong></p>
 <p><ins datetime="2011-06-20T05:33:06+00:00"><a href="http://codepad.org/lQuxkNuF">혹여나 해서 추가해보는 codepad link</a></ins></p>
 </div>
