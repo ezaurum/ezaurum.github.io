@@ -73,11 +73,10 @@
 </header>
 
 <div class="post-body"><p>지난 번에 워드프레스를 쓰다가 결국 해결하지 못했던 문제가, 한글로 post slug(포스트의 url 을 숫자와 물음표가 범벅이 된 모양이 아니라 그냥 글자로 바꿔주는 기능이라고 생각하면 될 듯)를 쓰면 그 포스트를 찾지 못했던 것인데, 이번에 해결했다.</p>
-<blockquote title="http://www.soondesign.co.kr/709에서 찾은 post slug 문제 해결법"><code>
-&lt;IfModule mod_url.c&gt;
+<blockquote title="http://www.soondesign.co.kr/709에서 찾은 post slug 문제 해결법">
+<pre><code>&lt;IfModule mod_url.c&gt;
 CheckURL Off
-&lt;/IfModule&gt;
-</code>
+&lt;/IfModule&gt;</code></pre>
 </blockquote>
 <ins>
 문제점 : 옵션에서 퍼머링크를 누르기만 해도, WP가 .htaccess 파일을 자동으로 수정해 버리는 바람에 곤란.

@@ -72,18 +72,17 @@
     </div>
 </header>
 
-<div class="post-body"><p><a href="http://stackoverflow.com/questions/8738767/backgroundworker-cross-thread-operation-not-valid">출처 - 스택오버플로우</a><br>
-<code><br>
-private void OnAction(string v)<br>
-{<br>
-richTextBox1.AppendText(v + Environment.NewLine);<br>
-richTextBox1.ScrollToCaret();<br>
-}</p>
-<p>public void AddText(string value)<br>
-{<br>
-richTextBox1.Invoke((Action) OnAction, value);<br>
-}<br>
-</code></p>
+<div class="post-body"><p><a href="http://stackoverflow.com/questions/8738767/backgroundworker-cross-thread-operation-not-valid">출처 - 스택오버플로우</a></p>
+<pre><code>private void OnAction(string v)
+{
+richTextBox1.AppendText(v + Environment.NewLine);
+richTextBox1.ScrollToCaret();
+}
+
+public void AddText(string value)
+{
+    richTextBox1.Invoke((Action) OnAction, value);
+}</code></pre>
 <p>기본적으로 invoke를 이용하면 해당 문제를 막을 수 있음.</p>
 </div>
 
@@ -91,7 +90,7 @@ richTextBox1.Invoke((Action) OnAction, value);<br>
     
     
     <div class="post-terms"><span>태그</span>
-        <ul class="chips"><li><a href="/tags/c-sharp/">c-sharp</a></li><li><a href="/tags/cross-thread/">cross-thread</a></li><li><a href="/tags/%EC%A0%95%EB%A6%AC/">정리</a></li><li><a href="/tags/programming/">programming</a></li><li><a href="/tags/richbox/">richbox</a></li><li><a href="/tags/windows-programming/">windows programming</a></li></ul>
+        <ul class="chips"><li><a href="/tags/c-sharp/">c-sharp</a></li><li><a href="/tags/cross-thread/">cross-thread</a></li><li><a href="/tags/%EC%A0%95%EB%A6%AC/">정리</a></li><li><a href="/tags/Programming/">Programming</a></li><li><a href="/tags/richbox/">richbox</a></li><li><a href="/tags/windows-programming/">windows programming</a></li></ul>
     </div>
     
 

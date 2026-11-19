@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>programming on Ezaurum&#39;s Blog</title>
-		<link>https://ezaurum.com/tags/programming/</link>
-		<description>Recent content in programming on Ezaurum&#39;s Blog</description>
+		<title>Programming on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/Programming/</link>
+		<description>Recent content in Programming on Ezaurum&#39;s Blog</description>
 		<generator>Hugo</generator>
 		<language>ko-kr</language>
 		
@@ -14,7 +14,7 @@
 		
 			<lastBuildDate>Thu, 08 Apr 2021 22:34:33 +0900</lastBuildDate>
 		
-			<atom:link href="https://ezaurum.com/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://ezaurum.com/tags/Programming/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Async/Sync vs Block/Non-Block</title>
 				<link>https://ezaurum.com/study/async-sync-vs-block-non-block/</link>
@@ -34,7 +34,7 @@
 				<link>https://ezaurum.com/2015/02/Nuget-%ED%8C%A8%ED%82%A4%EC%A7%80%EC%97%90-%EC%9D%98%EC%A1%B4%EC%84%B1-%EC%A7%80%EC%A0%95%ED%95%98%EA%B8%B0/</link>
 				<pubDate>Sun, 08 Feb 2015 00:00:00 +0000</pubDate>
 				<guid>https://ezaurum.com/2015/02/Nuget-%ED%8C%A8%ED%82%A4%EC%A7%80%EC%97%90-%EC%9D%98%EC%A1%B4%EC%84%B1-%EC%A7%80%EC%A0%95%ED%95%98%EA%B8%B0/</guid>
-				<description>&lt;p&gt;&lt;a href=&#34;http://docs.nuget.org/create/nuspec-reference#specifying-dependencies&#34;&gt;출처 - Nuget 매뉴얼&lt;/a&gt;&lt;br&gt;&#xA;Nuget 패키지를 만들 때 의존성을 지정하려면, .nuspec 파일 안의 metadata 태그의 자식으로&lt;br&gt;&#xA;&lt;code&gt;&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;&amp;lt;/code&amp;gt;&#xD;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;이렇게 지정해 주면 된다.&lt;/p&gt;</description>
+				<description>&lt;p&gt;&lt;a href=&#34;http://docs.nuget.org/create/nuspec-reference#specifying-dependencies&#34;&gt;출처 - Nuget 매뉴얼&lt;/a&gt;&lt;br&gt;&#xA;Nuget 패키지를 만들 때 의존성을 지정하려면, .nuspec 파일 안의 metadata 태그의 자식으로&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;      &#xD;&#xA;  &#x9;&lt;/code&gt;&lt;/pre&gt;&#xD;&#xA;&lt;p&gt;이렇게 지정해 주면 된다.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>oAuth 정리</title>
@@ -69,7 +69,7 @@
 				<link>https://ezaurum.com/2014/12/Cross-thread-operation-not-valid-%ED%95%B4%EA%B2%B0/</link>
 				<pubDate>Fri, 05 Dec 2014 00:00:00 +0000</pubDate>
 				<guid>https://ezaurum.com/2014/12/Cross-thread-operation-not-valid-%ED%95%B4%EA%B2%B0/</guid>
-				<description>&lt;p&gt;&lt;a href=&#34;http://stackoverflow.com/questions/8738767/backgroundworker-cross-thread-operation-not-valid&#34;&gt;출처 - 스택오버플로우&lt;/a&gt;&lt;br&gt;&#xA;&lt;code&gt;&lt;br&gt;&#xA;private void OnAction(string v)&lt;br&gt;&#xA;{&lt;br&gt;&#xA;richTextBox1.AppendText(v + Environment.NewLine);&lt;br&gt;&#xA;richTextBox1.ScrollToCaret();&lt;br&gt;&#xA;}&lt;/p&gt;&#xA;&lt;p&gt;public void AddText(string value)&lt;br&gt;&#xA;{&lt;br&gt;&#xA;richTextBox1.Invoke((Action) OnAction, value);&lt;br&gt;&#xA;}&lt;br&gt;&#xA;&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;기본적으로 invoke를 이용하면 해당 문제를 막을 수 있음.&lt;/p&gt;</description>
+				<description>&lt;p&gt;&lt;a href=&#34;http://stackoverflow.com/questions/8738767/backgroundworker-cross-thread-operation-not-valid&#34;&gt;출처 - 스택오버플로우&lt;/a&gt;&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;private void OnAction(string v)&#xD;&#xA;{&#xD;&#xA;richTextBox1.AppendText(v + Environment.NewLine);&#xD;&#xA;richTextBox1.ScrollToCaret();&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;public void AddText(string value)&#xD;&#xA;{&#xD;&#xA;    richTextBox1.Invoke((Action) OnAction, value);&#xD;&#xA;}&lt;/code&gt;&lt;/pre&gt;&#xD;&#xA;&lt;p&gt;기본적으로 invoke를 이용하면 해당 문제를 막을 수 있음.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>MSSQL에서 유니코드 텍스트는 nvarchar로</title>
@@ -90,7 +90,7 @@
 				<link>https://ezaurum.com/2013/11/C%23-Socket.AcceptAsync%EC%97%90%EC%84%9C-invalidOperationException%EC%9D%B4-%EB%82%A0-%EB%95%8C/</link>
 				<pubDate>Sun, 24 Nov 2013 00:00:00 +0000</pubDate>
 				<guid>https://ezaurum.com/2013/11/C%23-Socket.AcceptAsync%EC%97%90%EC%84%9C-invalidOperationException%EC%9D%B4-%EB%82%A0-%EB%95%8C/</guid>
-				<description>&lt;p&gt;C#에서 소켓 프로그래밍을 할 때, Socket.AcceptAsync로 연결하는데 다음과 같은 예외가 발생했다.&lt;br&gt;&#xA;&lt;code&gt;System.InvalidOperationException이(가) 처리되지 않았습니다.&lt;br&gt;&#xA;Message=AcceptSocket: 소켓을 바인딩하거나 연결하면 안 됩니다.&lt;/code&gt;&lt;br&gt;&#xA;원인은 AcceptAsync이후에 같은 SocketAsyncEventArgs객체를 이용해 계속 Accept를 받으려고 했는데, SocketAsyncEventArgs.AcceptSocket 프로퍼티를 null로 초기화하지 않았기 때문이다.&lt;br&gt;&#xA;재사용하려면 AcceptSocket = null;을 넣어줄 것.&lt;/p&gt;</description>
+				<description>&lt;p&gt;C#에서 소켓 프로그래밍을 할 때, Socket.AcceptAsync로 연결하는데 다음과 같은 예외가 발생했다.&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;System.InvalidOperationException이(가) 처리되지 않았습니다.&#xD;&#xA;Message=AcceptSocket: 소켓을 바인딩하거나 연결하면 안 됩니다.&lt;/code&gt;&lt;/pre&gt;&#xD;&#xA;&lt;p&gt;원인은 AcceptAsync이후에 같은 SocketAsyncEventArgs객체를 이용해 계속 Accept를 받으려고 했는데, SocketAsyncEventArgs.AcceptSocket 프로퍼티를 null로 초기화하지 않았기 때문이다.&lt;br&gt;&#xA;재사용하려면 AcceptSocket = null;을 넣어줄 것.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Git에서 특정파일 임시로 커밋내역에서 제외하기</title>
@@ -174,7 +174,7 @@
 				<link>https://ezaurum.com/2012/03/Java-Enum/</link>
 				<pubDate>Mon, 26 Mar 2012 00:00:00 +0000</pubDate>
 				<guid>https://ezaurum.com/2012/03/Java-Enum/</guid>
-				<description>&lt;code&gt;&#xD;&#xA;import java.lang.IllegalArgumentException;&#xD;&#xA;&lt;p&gt;public enum EnumStudy {&lt;br&gt;&#xA;JAVA(1), C(2),RUBY(3);&lt;br&gt;&#xA;private int value;&lt;br&gt;&#xA;public int intValue() {&lt;br&gt;&#xA;return value;}&lt;br&gt;&#xA;private EnumStudy(int value) {&lt;br&gt;&#xA;this.value = value;&lt;br&gt;&#xA;}&lt;br&gt;&#xA;public static EnumStudy valueOf(int value) {&lt;br&gt;&#xA;switch (value) {&lt;br&gt;&#xA;case 1: return JAVA;&lt;br&gt;&#xA;case 2: return C;&lt;br&gt;&#xA;case 3: return RUBY;&lt;br&gt;&#xA;default: throw new IllegalArgumentException(&amp;ldquo;There is no matching for &amp;ldquo;+value);&lt;br&gt;&#xA;}&lt;br&gt;&#xA;}&lt;/p&gt;&#xA;&lt;p&gt;public static void main(String args[]) {&lt;br&gt;&#xA;System.out.println(EnumStudy.valueOf(1));&lt;br&gt;&#xA;System.out.println(EnumStudy.valueOf(&amp;ldquo;JAVA&amp;rdquo;)); //이건 enum들은 기본적으로 선언되는 메소드.&lt;br&gt;&#xA;System.out.println(EnumStudy.JAVA);&lt;br&gt;&#xA;System.out.println(EnumStudy.JAVA.intValue());&lt;br&gt;&#xA;}&lt;br&gt;&#xA;}&lt;br&gt;&#xA;&lt;/code&gt;&lt;/p&gt;</description>
+				<description>&lt;pre&gt;&lt;code&gt;import java.lang.IllegalArgumentException;&#xD;&#xA;&#xD;&#xA;public enum EnumStudy {&#xD;&#xA;        JAVA(1), C(2),RUBY(3);&#xD;&#xA;private int value;&#xD;&#xA;public int intValue() {&#xD;&#xA;return value;}&#xD;&#xA;private EnumStudy(int value) {&#xD;&#xA;this.value = value;&#xD;&#xA;}&#xD;&#xA;public static EnumStudy valueOf(int value) {&#xD;&#xA;switch (value) {&#xD;&#xA;case 1: return JAVA;&#xD;&#xA;case 2: return C;&#xD;&#xA;case 3: return RUBY;&#xD;&#xA;default: throw new IllegalArgumentException(&#34;There is no matching for &#34;+value);&#xD;&#xA;}&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;public static void main(String args[]) {&#xD;&#xA;        System.out.println(EnumStudy.valueOf(1));&#xD;&#xA;System.out.println(EnumStudy.valueOf(&#34;JAVA&#34;)); //이건 enum들은 기본적으로 선언되는 메소드.&#xD;&#xA;System.out.println(EnumStudy.JAVA);&#xD;&#xA;System.out.println(EnumStudy.JAVA.intValue());&#xD;&#xA;}&#xD;&#xA;}&lt;/code&gt;&lt;/pre&gt;&#xD;&#xA;&lt;p&gt;이 결과는&amp;hellip;&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>String, StringBuilder, StringBuffer 중 뭘 써야 할까?</title>
@@ -188,7 +188,7 @@
 				<link>https://ezaurum.com/2010/10/Java-%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88%EC%97%90-Form-%EA%B0%92%EC%9D%98-encoding-%EA%B9%A8%EC%A7%88-%EB%95%8C/</link>
 				<pubDate>Fri, 22 Oct 2010 00:00:00 +0000</pubDate>
 				<guid>https://ezaurum.com/2010/10/Java-%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88%EC%97%90-Form-%EA%B0%92%EC%9D%98-encoding-%EA%B9%A8%EC%A7%88-%EB%95%8C/</guid>
-				<description>&lt;p&gt;점검사항은 아래 세가지.&lt;/p&gt;&#xA;&lt;ol&gt;&#xD;&#xA;&#x9;&lt;li&gt;폼에서 정확히 인코딩을 지정해서 넘겨주는가?&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;서버에서 정확히 인코딩을 인식하는가?&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;DB에서 정확히 인코딩을 인식하는가?&lt;/li&gt;&#xD;&#xA;&lt;/ol&gt;&#xD;&#xA;이다.&#xD;&#xA;&lt;ol&gt;&#x9;&lt;li&gt;폼에서 정확히 인코딩을 지정해서 념겨주는가?&#xD;&#xA;&lt;p&gt;이 경우는 일단 문서 첫머리에 meta태그가 utf-8으로 지정되어 있고, 폼에 accept-charset 어트리뷰트가 지정되어 있고, 브라우저에서 확인해서 문서가 utf-8으로 읽히는 상황이라면 문제 없다고 보면 된다. UTF-8으로 나와야 하는 페이지가 UTF-8으로 안나오는 경우는 여기서 다룰 게 아니다.&lt;/p&gt;&#xD;&#xA;&lt;code&gt;&#xD;&#xA;&amp;lt;meta http-equiv=&#34;Content-Type&#34; content=&#34;text/html; charset=UTF-8&#34; /&amp;gt;&#xD;&#xA;&amp;lt;meta charset=&#34;UTF-8&#34; /&amp;gt;&#xD;&#xA;&amp;lt;form accept-charset=&#34;UTF-8&#34; &amp;gt;&#xD;&#xA;&lt;/code&gt;&#xD;&#xA;&lt;/li&gt;&#x9;&lt;li&gt;서버에서 인코딩을 제대로 인식하는가?&#xD;&#xA;&lt;p&gt;경험상 대부분 문제는 여기서 발생한다. 특히 서버 관리자와 프로그래머가 독립적으로 있고, 서로 업무 연계가 힘든 상황이라면 더욱 문제다. 가능하면 인코딩을 서버 설정에 맞추자.&#xD;&#xA;java라면 아래와 같이 해결.&#xD;&#xA;&lt;code&gt;request.setCharacterSet(&#34;utf-8&#34;); &lt;/code&gt;&#xD;&#xA;php도 비슷한 게 있을 터다. 하지만 여기서는 문제를 못 봤으니까 빼고. 일단 대부분의 문제는 저걸로 해결될 거다.&#xD;&#xA;&lt;/p&gt;</description>
+				<description>&lt;p&gt;점검사항은 아래 세가지.&lt;/p&gt;&#xA;&lt;ol&gt;&#xD;&#xA;&#x9;&lt;li&gt;폼에서 정확히 인코딩을 지정해서 넘겨주는가?&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;서버에서 정확히 인코딩을 인식하는가?&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;DB에서 정확히 인코딩을 인식하는가?&lt;/li&gt;&#xD;&#xA;&lt;/ol&gt;&#xD;&#xA;이다.&#xD;&#xA;&lt;ol&gt;&#x9;&lt;li&gt;폼에서 정확히 인코딩을 지정해서 념겨주는가?&#xD;&#xA;&lt;p&gt;이 경우는 일단 문서 첫머리에 meta태그가 utf-8으로 지정되어 있고, 폼에 accept-charset 어트리뷰트가 지정되어 있고, 브라우저에서 확인해서 문서가 utf-8으로 읽히는 상황이라면 문제 없다고 보면 된다. UTF-8으로 나와야 하는 페이지가 UTF-8으로 안나오는 경우는 여기서 다룰 게 아니다.&lt;/p&gt;&#xD;&#xA;&lt;pre&gt;&lt;code&gt;&amp;lt;meta http-equiv=&#34;Content-Type&#34; content=&#34;text/html; charset=UTF-8&#34; /&amp;gt;&#xD;&#xA;&amp;lt;meta charset=&#34;UTF-8&#34; /&amp;gt;&#xD;&#xA;&amp;lt;form accept-charset=&#34;UTF-8&#34; &amp;gt;&lt;/code&gt;&lt;/pre&gt;&#xD;&#xA;&lt;/li&gt;&#x9;&lt;li&gt;서버에서 인코딩을 제대로 인식하는가?&#xD;&#xA;&lt;p&gt;경험상 대부분 문제는 여기서 발생한다. 특히 서버 관리자와 프로그래머가 독립적으로 있고, 서로 업무 연계가 힘든 상황이라면 더욱 문제다. 가능하면 인코딩을 서버 설정에 맞추자.&#xD;&#xA;java라면 아래와 같이 해결.&#xD;&#xA;&lt;code&gt;request.setCharacterSet(&#34;utf-8&#34;); &lt;/code&gt;&#xD;&#xA;php도 비슷한 게 있을 터다. 하지만 여기서는 문제를 못 봤으니까 빼고. 일단 대부분의 문제는 저걸로 해결될 거다.&#xD;&#xA;&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>오늘의 교훈</title>
@@ -209,7 +209,7 @@
 				<link>https://ezaurum.com/2008/12/%EC%86%8C%EC%BC%93-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EC%9D%84-%ED%95%A0-%EB%95%8C-read%EA%B0%80-%EC%83%9D%EA%B0%81%EB%8C%80%EB%A1%9C-%EC%9E%91%EB%8F%99%ED%95%98%EC%A7%80-%EC%95%8A%EB%8A%94-%EA%B2%BD%EC%9A%B0/</link>
 				<pubDate>Thu, 04 Dec 2008 00:00:00 +0000</pubDate>
 				<guid>https://ezaurum.com/2008/12/%EC%86%8C%EC%BC%93-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EC%9D%84-%ED%95%A0-%EB%95%8C-read%EA%B0%80-%EC%83%9D%EA%B0%81%EB%8C%80%EB%A1%9C-%EC%9E%91%EB%8F%99%ED%95%98%EC%A7%80-%EC%95%8A%EB%8A%94-%EA%B2%BD%EC%9A%B0/</guid>
-				<description>&lt;p&gt;&lt;ins datetime=&#34;2009-02-19T18:16:26+00:00&#34;&gt;기말고사용으로 채팅 프로그램을 만들던 중, close를 하지 않고, 연결을 유지한 채로 write함수로 EOF값 만을 보내서 대화 내용의 종결을 알리려고 했으나, 잘 작동하지 않았다.&lt;/ins&gt;&lt;/p&gt;&#xA;&lt;p&gt;read는 socket 이 close되지 않으면 EOF를 읽더라도 1을 반환한다. 따라서 연결을 유지하고 read/write를 하려면 읽은 값이 EOF인지를 체크해준다!&lt;br&gt;&#xA;이거 알아내려고 이틀 밤 샜다. 젠장. 나만 병신인가.&lt;br&gt;&#xA;&lt;code&gt;&lt;br&gt;&#xA;while (temp)&lt;br&gt;&#xA;{&lt;br&gt;&#xA;read(sockfd, &amp;amp;s, 1);&lt;br&gt;&#xA;if ( s == EOF) break;&lt;br&gt;&#xA;printf(&amp;quot;%c&amp;quot;,s);&lt;br&gt;&#xA;}&lt;br&gt;&#xA;&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;read 의 리턴값 - 기본적으로 실제로 읽은 바이트 수 만큼. 만일 파일 기술자가 socket 일 경우, 연결이 종료되어야 파일이 끝난 것으로 인식. 0을 리턴한&amp;hellip;&lt;br&gt;&#xA;이거 쓰고 보니 쪽팔리는데 당연한 거잖아.&lt;br&gt;&#xA;socket 형식의 파일일 경우는, &lt;strong&gt;연결 종료 = 파일 끝&lt;/strong&gt;인데&amp;hellip;&lt;/p&gt;</description>
+				<description>&lt;p&gt;&lt;ins datetime=&#34;2009-02-19T18:16:26+00:00&#34;&gt;기말고사용으로 채팅 프로그램을 만들던 중, close를 하지 않고, 연결을 유지한 채로 write함수로 EOF값 만을 보내서 대화 내용의 종결을 알리려고 했으나, 잘 작동하지 않았다.&lt;/ins&gt;&lt;/p&gt;&#xA;&lt;p&gt;read는 socket 이 close되지 않으면 EOF를 읽더라도 1을 반환한다. 따라서 연결을 유지하고 read/write를 하려면 읽은 값이 EOF인지를 체크해준다!&lt;br&gt;&#xA;이거 알아내려고 이틀 밤 샜다. 젠장. 나만 병신인가.&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;while (temp)&#xD;&#xA;{&#xD;&#xA;read(sockfd, &amp;amp;s, 1);&#xD;&#xA;if ( s == EOF) break;&#xD;&#xA;printf(&#34;%c&#34;,s);&#xD;&#xA;}&lt;/code&gt;&lt;/pre&gt;&#xD;&#xA;&lt;p&gt;read 의 리턴값 - 기본적으로 실제로 읽은 바이트 수 만큼. 만일 파일 기술자가 socket 일 경우, 연결이 종료되어야 파일이 끝난 것으로 인식. 0을 리턴한&amp;hellip;&lt;br&gt;&#xA;이거 쓰고 보니 쪽팔리는데 당연한 거잖아.&lt;br&gt;&#xA;socket 형식의 파일일 경우는, &lt;strong&gt;연결 종료 = 파일 끝&lt;/strong&gt;인데&amp;hellip;&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>-lsocket 옵션에서 에러가 날 때</title>

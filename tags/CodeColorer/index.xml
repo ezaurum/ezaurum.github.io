@@ -20,7 +20,7 @@
 				<link>https://ezaurum.com/2013/01/CodeColorer-%EC%84%A4%EC%B9%98/</link>
 				<pubDate>Sat, 19 Jan 2013 00:00:00 +0000</pubDate>
 				<guid>https://ezaurum.com/2013/01/CodeColorer-%EC%84%A4%EC%B9%98/</guid>
-				<description>&lt;p&gt;&lt;code&gt;var a;&#xD;&#xA;a +=1; &#xD;&#xA;alert(a);&lt;/code&gt;&lt;/p&gt;</description>
+				<description>&lt;p&gt;&#xD;&#xA;&lt;pre&gt;&lt;code&gt;var a;&#xD;&#xA;a +=1; &#xD;&#xA;alert(a);&lt;/code&gt;&lt;/pre&gt;&#xD;&#xA;&lt;/p&gt;</description>
 			</item>
 	</channel>
 </rss>

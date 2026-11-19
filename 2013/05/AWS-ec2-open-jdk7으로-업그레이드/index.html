@@ -72,17 +72,14 @@
     </div>
 </header>
 
-<div class="post-body"><p>일단 open jdk 7 을 설치한다.<br>
-<code>sudo yum install java-1.7.0-openjdk<br>
-</code><br>
-그 다음 java에 걸려 있는 심볼릭 링크를 바꿔줘야 하는데,<br>
+<div class="post-body"><p>일단 open jdk 7 을 설치한다.</p>
+<pre><code>sudo yum install java-1.7.0-openjdk</code></pre>
+<p>그 다음 java에 걸려 있는 심볼릭 링크를 바꿔줘야 하는데,<br>
 /usr/bin/java -&gt; /etc/alternatives/java -&gt;  -&gt; /usr/lib/jvm/(현재 jre)/bin/java<br>
-이렇게 되어 있으므로,<br>
-<code><br>
-sudo ln -s /usr/lib/jvm/jre-1.7.0-openjdk.x86_64/bin/java /etc/alternatives/java7<br>
-sudo mv /etc/alternatives/java7 /etc/alternatives/java<br>
-</code><br>
-을 실행해서 심볼릭 링크를 바꿔준다. 지우고 다시 걸어도 되지만, 일단 지우고 거는 사이에 전 링크가 끊어지므로 가능한 영향을 적게 하기 위해서&hellip;</p>
+이렇게 되어 있으므로,</p>
+<pre><code>sudo ln -s /usr/lib/jvm/jre-1.7.0-openjdk.x86_64/bin/java /etc/alternatives/java7
+sudo mv /etc/alternatives/java7 /etc/alternatives/java</code></pre>
+<p>을 실행해서 심볼릭 링크를 바꿔준다. 지우고 다시 걸어도 되지만, 일단 지우고 거는 사이에 전 링크가 끊어지므로 가능한 영향을 적게 하기 위해서&hellip;</p>
 <p>ln -s /location/to/link2 newlink<br>
 mv newlink linkname</p>
 </div>

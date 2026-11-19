@@ -82,13 +82,15 @@
 <p>일단 워드프레스 테마는 <a href="http://codex.wordpress.org/The_Loop">The Loop</a> 라는 구조를 가진댄다. 이게 뭐냐면 뺑뺑 돌면서 원하는 정보를 뽑아내서 보여주는 구조란다. 블로그에서 반복되는 부분을 가리키는 거다.<br>
 예를 들면, 지금 보고 있는 포스트 부분은 내용이 있고, 날짜가 나오고, 제목이 나오고, 저자가 나오고, 관련 태그가 나온다. 그 아래 트랙백과 답글이 달려 있고. 이건 내용 자체는 달라지지만 구조는 똑같이 반복된다. 바로 여기가 테마의 핵심 index.php가 된다. 자세한 설명은 <a href="http://wordpress.co.kr/forum/viewtopic.php?t=25">여기</a>참조.</p>
 <p>여튼 그래서 일단 만들어진 index.php는 아래와 같다.</p>
-<code>
-<p>&lt;?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?&gt;</p>
-<p>&lt;!&ndash;  여기 포스트가 없을 때까지 반복됩니다. &ndash;&gt;</p>
-<p>&lt;?php endwhile; else: ?&gt;</p>
-<p>&lt;!&ndash;  여기엔 포스트가 없을 때 글이 보입니다. &ndash;&gt;</p>
-<p>&lt;?php endif; ?&gt;</p>
-</code>
+<pre><code>&lt;?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?&gt;
+
+&lt;!--  여기 포스트가 없을 때까지 반복됩니다. --&gt;
+
+&lt;?php endwhile; else: ?&gt;
+
+&lt;!--  여기엔 포스트가 없을 때 글이 보입니다. --&gt;
+
+&lt;?php endif; ?&gt;</code></pre>
 <p>그럼 여기 살을 좀 붙여 보기로 하겠다.</p>
 <p>기본적으로, 각 포스트는</p>
  <ol>
@@ -97,23 +99,31 @@
 	<li>제목은 퍼머링크를 겸하고,</li>
 	<li>포스트 하단부에는 저자 정보, 태그, 카테고리, CCL, 날짜, 등의 메타정보가 들어간다.</li>
 </ol>
-<p>이하의 내용을 바탕으로 하면,<br>
-<code></p>
-<p>&lt;?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?&gt;</p>
-<p>&lt;!&ndash;  여기 포스트가 없을 때까지 반복됩니다. &ndash;&gt;</p>
+<p>이하의 내용을 바탕으로 하면,</p>
+<pre><code>&lt;?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?&gt;
+
+&lt;!--  여기 포스트가 없을 때까지 반복됩니다. --&gt;
 <div class="post"></a>"&gt;
+
 <h2><a href="http://codex.wordpress.org/Template_Tags/permalink_anchor"></a> <a href="http://codex.wordpress.org/Template_Tags/the_title"></a> </h2>
+
 <div class="contents"> <a href="http://codex.wordpress.org/Template_Tags/the_content"></a> </div>
+
 <div>Post_Meta_Data_Section</a>"&gt;
-<p><a href="http://codex.wordpress.org/Template_Tags/the_time"> </a><br>
-<a href="http://codex.wordpress.org/Template_Tags/the_category"></a><br>
-<a href="http://codex.wordpress.org/Template_Tags/comments_rss_link"></a></p>
+
+<a href="http://codex.wordpress.org/Template_Tags/the_time"> </a>
+<a href="http://codex.wordpress.org/Template_Tags/the_category"></a>
+<a href="http://codex.wordpress.org/Template_Tags/comments_rss_link"></a>
 </div>
-<p>&lt;/div&gt;</p>
-<p>&lt;?php endwhile; else: ?&gt;</p>
-<p>&lt;!&ndash;  여기엔 포스트가 없을 때 글이 보입니다. &ndash;&gt;</p>
-<p>&lt;?php endif; ?&gt;</p>
-</code>
+
+
+&lt;/div&gt;
+
+&lt;?php endwhile; else: ?&gt;
+
+&lt;!--  여기엔 포스트가 없을 때 글이 보입니다. --&gt;
+
+&lt;?php endif; ?&gt;</code></pre>
 <p>이렇게 하면 이제 일단 글이 보이긴 한다.</p>
 </div>
 

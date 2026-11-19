@@ -74,15 +74,13 @@
 
 <div class="post-body"><p><ins datetime="2009-02-19T18:16:26+00:00">기말고사용으로 채팅 프로그램을 만들던 중, close를 하지 않고, 연결을 유지한 채로 write함수로 EOF값 만을 보내서 대화 내용의 종결을 알리려고 했으나, 잘 작동하지 않았다.</ins></p>
 <p>read는 socket 이 close되지 않으면 EOF를 읽더라도 1을 반환한다. 따라서 연결을 유지하고 read/write를 하려면 읽은 값이 EOF인지를 체크해준다!<br>
-이거 알아내려고 이틀 밤 샜다. 젠장. 나만 병신인가.<br>
-<code><br>
-while (temp)<br>
-{<br>
-read(sockfd, &amp;s, 1);<br>
-if ( s == EOF) break;<br>
-printf(&quot;%c&quot;,s);<br>
-}<br>
-</code></p>
+이거 알아내려고 이틀 밤 샜다. 젠장. 나만 병신인가.</p>
+<pre><code>while (temp)
+{
+read(sockfd, &amp;s, 1);
+if ( s == EOF) break;
+printf("%c",s);
+}</code></pre>
 <p>read 의 리턴값 - 기본적으로 실제로 읽은 바이트 수 만큼. 만일 파일 기술자가 socket 일 경우, 연결이 종료되어야 파일이 끝난 것으로 인식. 0을 리턴한&hellip;<br>
 이거 쓰고 보니 쪽팔리는데 당연한 거잖아.<br>
 socket 형식의 파일일 경우는, <strong>연결 종료 = 파일 끝</strong>인데&hellip;</p>
@@ -93,7 +91,7 @@ socket 형식의 파일일 경우는, <strong>연결 종료 = 파일 끝</strong
     
     
     <div class="post-terms"><span>태그</span>
-        <ul class="chips"><li><a href="/tags/c/">c</a></li><li><a href="/tags/C&#43;&#43;/">C&#43;&#43;</a></li><li><a href="/tags/%EA%B3%B5%EB%B6%80/">공부</a></li><li><a href="/tags/%EA%B8%B0%EB%B3%B8%EC%9D%80-%EC%A4%91%EC%9A%94%ED%95%98%EB%8B%A4/">기본은 중요하다</a></li><li><a href="/tags/%ED%95%B4%EA%B2%B0%EB%B2%95/">해결법</a></li><li><a href="/tags/programming/">programming</a></li><li><a href="/tags/read/">read</a></li><li><a href="/tags/socket/">socket</a></li></ul>
+        <ul class="chips"><li><a href="/tags/c/">c</a></li><li><a href="/tags/C&#43;&#43;/">C&#43;&#43;</a></li><li><a href="/tags/%EA%B3%B5%EB%B6%80/">공부</a></li><li><a href="/tags/%EA%B8%B0%EB%B3%B8%EC%9D%80-%EC%A4%91%EC%9A%94%ED%95%98%EB%8B%A4/">기본은 중요하다</a></li><li><a href="/tags/%ED%95%B4%EA%B2%B0%EB%B2%95/">해결법</a></li><li><a href="/tags/Programming/">Programming</a></li><li><a href="/tags/read/">read</a></li><li><a href="/tags/socket/">socket</a></li></ul>
     </div>
     
 

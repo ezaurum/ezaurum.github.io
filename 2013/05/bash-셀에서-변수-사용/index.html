@@ -72,14 +72,12 @@
     </div>
 </header>
 
-<div class="post-body"><code>
-#!/bin/sh -e
+<div class="post-body"><pre><code>#!/bin/sh -e
 TODAY=`date -u +%Y%m%d`
 REDIS_HOME="/usr/redis-2.6.13/src"
 fileName="redis-"$TODAY".log"
-$REDIS_HOME/redis-server &gt;&gt; $REDIS_HOME/$fileName &amp;
-</code>
-보시다시피 그냥 변수이름=값 해주면 쓸 수 있고, $를 붙이면 값을 받아오고, 문자열과는 붙여놓으면 자동으로 달라붙는다.
+$REDIS_HOME/redis-server &gt;&gt; $REDIS_HOME/$fileName &amp;</code></pre>
+<p>보시다시피 그냥 변수이름=값 해주면 쓸 수 있고, $를 붙이면 값을 받아오고, 문자열과는 붙여놓으면 자동으로 달라붙는다.</p>
 </div>
 
 <footer class="post-footer">

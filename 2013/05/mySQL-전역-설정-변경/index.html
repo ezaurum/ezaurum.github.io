@@ -72,12 +72,10 @@
     </div>
 </header>
 
-<div class="post-body"><p>이상하게 utf8으로 바꾸는데 안 바뀌어서, session과 global 양 쪽을 다 바꾸었다.<br>
-<code><br>
-SET GLOBAL character_set_client = &ldquo;utf8&rdquo;, character_set_connection = &ldquo;utf8&rdquo;, character_set_database = &ldquo;utf8&rdquo;, character_set_results = &ldquo;utf8&rdquo; , character_set_server = &ldquo;utf8&rdquo;, collation_connection = &ldquo;utf8_general_ci&rdquo;, collation_server = &ldquo;utf8_general_ci&rdquo;;<br>
-SET SESSION character_set_client = &ldquo;utf8&rdquo;, character_set_connection = &ldquo;utf8&rdquo;, character_set_database = &ldquo;utf8&rdquo;, character_set_results = &ldquo;utf8&rdquo; , character_set_server = &ldquo;utf8&rdquo;, collation_connection = &ldquo;utf8_general_ci&rdquo;, collation_server = &ldquo;utf8_general_ci&rdquo;;<br>
-</code><br>
-이유를 모르니 찜찜하지만&hellip; 여튼 해결. 그런데 콘솔에서 접근하면 collation_connection은 여전히  latin1_swedish_ci 으로 뜬다&hellip; 뭐지&hellip;</p>
+<div class="post-body"><p>이상하게 utf8으로 바꾸는데 안 바뀌어서, session과 global 양 쪽을 다 바꾸었다.</p>
+<pre><code>SET GLOBAL character_set_client = "utf8", character_set_connection = "utf8", character_set_database = "utf8", character_set_results = "utf8" , character_set_server = "utf8", collation_connection = "utf8_general_ci", collation_server = "utf8_general_ci";
+SET SESSION character_set_client = "utf8", character_set_connection = "utf8", character_set_database = "utf8", character_set_results = "utf8" , character_set_server = "utf8", collation_connection = "utf8_general_ci", collation_server = "utf8_general_ci";</code></pre>
+<p>이유를 모르니 찜찜하지만&hellip; 여튼 해결. 그런데 콘솔에서 접근하면 collation_connection은 여전히  latin1_swedish_ci 으로 뜬다&hellip; 뭐지&hellip;</p>
 </div>
 
 <footer class="post-footer">

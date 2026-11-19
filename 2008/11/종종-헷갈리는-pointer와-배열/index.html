@@ -78,25 +78,23 @@
 pointer[x][y] 는 *(pointer[x]+y)<br>
 pointer[x]는 *(pointer+x)</p>
 <p>그러니 pointer[x][y][z]는 <em>(</em>(*(pointer+x)+y)+z)</p>
-<p>추가로 알아둘 사항.<br>
-<code><br>
-void * pp;<br>
-int a=35;<br>
-pp = &amp;a;<br>
-int ppp[5][5] = { 0, };</p>
-<pre><code>printf(&quot;%dn&quot;,sizeof(pp));
-printf(&quot;%dn&quot;,*(int*)pp);
-printf(&quot;%dn&quot;,sizeof(ppp));
-printf(&quot;%dn&quot;,sizeof(ppp[0]));
-printf(&quot;%dn&quot;,sizeof(ppp[0][0]));
-printf(&quot;%pn&quot;,ppp);
-printf(&quot;%pn&quot;,ppp+1);
-printf(&quot;%pn&quot;,*(ppp+2)+1);
-printf(&quot;%pn&quot;,ppp[2]+1);
-printf(&quot;%pn&quot;,&amp;amp;ppp[2][1]);
-printf(&quot;%pn&quot;,ppp[0][0]+1);
-</code></pre>
-</code>
+<p>추가로 알아둘 사항.</p>
+<pre><code>	void * pp;
+	int a=35;
+	pp = &amp;a;
+	int ppp[5][5] = { 0, };
+
+	printf("%dn",sizeof(pp));
+	printf("%dn",*(int*)pp);
+	printf("%dn",sizeof(ppp));
+	printf("%dn",sizeof(ppp[0]));
+	printf("%dn",sizeof(ppp[0][0]));
+	printf("%pn",ppp);
+	printf("%pn",ppp+1);
+	printf("%pn",*(ppp+2)+1);
+	printf("%pn",ppp[2]+1);
+	printf("%pn",&amp;ppp[2][1]);
+	printf("%pn",ppp[0][0]+1);</code></pre>
 <p><strong>pointer +1 은 pointer값 + sizeof(*pointer);</strong></p>
 <p><ins datetime="2011-06-20T05:33:06+00:00"><a href="http://codepad.org/lQuxkNuF">혹여나 해서 추가해보는 codepad link</a></ins></p>
 </div>

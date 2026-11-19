@@ -88,240 +88,241 @@
 <p>26</p>
 </blockquote>
 <p><a href="#" id="myJavaCodeAboutFourBox20100806more">창피한 소스 보기</a><br>
-<a href="#" id="myJavaCodeAboutFourBox20100806less" style="display:none;">창피한 소스는 접어두자</a><br>
-<code id="myJavaCodeAboutFourBox20100806" style="display:none;"><br>
-package boxes;</p>
-<p>import java.util.ArrayList;</p>
-<p>public class Box {</p>
-<pre><code>static public int[] getFourPoints(String line)
-{		
-	int points[] = {0,0,0,0};
-	
-	String tempPoints[] = line.split(&quot; &quot;);
-	
-	points[0] = Integer.parseInt(tempPoints[0]);
-	points[1] = Integer.parseInt(tempPoints[1]);
-	points[2] = Integer.parseInt(tempPoints[2]);
-	points[3] = Integer.parseInt(tempPoints[3]);
-	return points;
-}
+<a href="#" id="myJavaCodeAboutFourBox20100806less" style="display:none;">창피한 소스는 접어두자</a></p>
+<pre><code id="myJavaCodeAboutFourBox20100806" style="display:none;">package boxes;
 
-static public int[] getCrossedArea(int[][] points)
-{
-	int[] crossedArea = {0,0,0,0};		
-	
-	for (int i = 0; i  points[i][2])
-		{
-			int temp0 =points[i][0];
-			points[i][0] = points[i][2];
-			points[i][2] = temp0;
-			
-			int temp1 =points[i][1];
-			points[i][1] = points[i][3];
-			points[i][3] = temp1;
-		}		
-	}
-	
-	/*겹치는 것은 다음 네가지. y축에도 같이 적용.*/
-	/*x1 &amp;lt; x3 &amp;lt; x2 &amp;lt; x4*/		
-	if ( points[0][0] &amp;lt;= points[1][0] &amp;amp;&amp;amp;
-			points[1][0] &amp;lt;= points[0][2] &amp;amp;&amp;amp;
-			points[0][2] &amp;lt;= points[1][2] )
-	{
-		crossedArea[0] = points[1][0];
-		crossedArea[2] = points[0][2];
-	}		
-	/*x3 &amp;lt; x1 &amp;lt; x4 &amp;lt; x2*/		
-	else if ( points[1][0] &amp;lt;= points[0][0] &amp;amp;&amp;amp;
-			points[0][0] &amp;lt;= points[1][2] &amp;amp;&amp;amp;
-			points[1][2] &amp;lt;= points[0][2] )
-	{
-		crossedArea[0] = points[0][0];
-		crossedArea[2] = points[1][2];
-	}		
-	/*x1 &amp;lt; x3 &amp;lt; x4 &amp;lt; x2*/
-	else if ( points[0][0] &amp;lt;= points[1][0] &amp;amp;&amp;amp;
-			points[1][0] &amp;lt;= points[1][2] &amp;amp;&amp;amp;
-			points[1][2] &amp;lt;= points[0][2] )
-	{
-		crossedArea[0] = points[1][0];
-		crossedArea[2] = points[1][2];
-	}
-	/*x3 &amp;lt; x1 &amp;lt; x2 &amp;lt; x4*/
-	else if ( points[1][0] &amp;lt;= points[0][0] &amp;amp;&amp;amp;
-			points[0][0] &amp;lt;= points[0][2] &amp;amp;&amp;amp;
-			points[0][2] &amp;lt;= points[1][2] )
-	{
-		crossedArea[0] = points[0][0];
-		crossedArea[2] = points[0][2];
-	}
-	
-	
-	/*겹치는 것은 다음 네가지. y축*/
-	/*y1 &amp;lt; y3 &amp;lt; y2 &amp;lt; y4*/		
-	if ( points[0][1] &amp;lt;= points[1][1] &amp;amp;&amp;amp;
-			points[1][1] &amp;lt;= points[0][3] &amp;amp;&amp;amp;
-			points[0][3] &amp;lt;= points[1][3] )
-	{
-		crossedArea[1] = points[1][1];
-		crossedArea[3] = points[0][3];
-	}		
-	/*y3 &amp;lt; y1 &amp;lt; y4 &amp;lt; y2*/		
-	else if ( points[1][1] &amp;lt;= points[0][1] &amp;amp;&amp;amp;
-			points[0][1] &amp;lt;= points[1][3] &amp;amp;&amp;amp;
-			points[1][3] &amp;lt;= points[0][3] )
-	{
-		crossedArea[1] = points[0][1];
-		crossedArea[3] = points[1][3];
-	}		
-	/*y1 &amp;lt; y3 &amp;lt; y4 &amp;lt; y2*/
-	else if ( points[0][1] &amp;lt;= points[1][1] &amp;amp;&amp;amp;
-			points[1][1] &amp;lt;= points[1][3] &amp;amp;&amp;amp;
-			points[1][3] &amp;lt;= points[0][3] )
-	{
-		crossedArea[1] = points[1][1];
-		crossedArea[3] = points[1][3];
-	}
-	/*y3 &amp;lt; y1 &amp;lt; y2 &amp;lt; y4*/
-	else if ( points[1][1] &amp;lt;= points[0][1] &amp;amp;&amp;amp;
-			points[0][1] &amp;lt;= points[0][3] &amp;amp;&amp;amp;
-			points[0][3] &amp;lt;= points[1][3] )
-	{
-		crossedArea[1] = points[0][1];
-		crossedArea[3] = points[0][3];
-	} 
-</code></pre>
-<p>/*		for(int i=0; i&lt;4; i++)<br>
-System.out.println(i+&quot; &quot; + crossedArea[i]);*/</p>
-<pre><code>	return crossedArea;
-	
-}
+import java.util.ArrayList;
 
-static public int getArea(int[] points)
-{	 		
-	return Math.abs( (points[0] - points[2]) * (points[1] - points[3]) );
-}
-
-static public int getArea(String line)
-{	
-	return getArea(getFourPoints(line));
-}
-
-static public ArrayList convertBoxes(String boxLines)
-{
-	ArrayList points = new ArrayList();
+public class Box {
 	
-	String[] crossedBoxes = boxLines.split(&quot;n&quot;);
-	
-	int length = crossedBoxes.length;
-	
-	int x = 0;
-	
-	while(length &amp;gt; 0)
-	{
-		points.add( getFourPoints(crossedBoxes[x]) );
-		x++;		
-		length--;			
-	}
-	return points;	
-}
-
-static public int getAllArea(String line)
-{
-	int sumArea = 0;
-	ArrayList boxList = convertBoxes(line);
-	
-	int[][] temp={ boxList.get(0),boxList.get(1) };	
-	
-	/*맨 처음 한개씩*/
-	
-	/*+*/
-	/*A, B, C, D*/
-	
-	for(int i = 0; i &amp;lt; 4; i++)
-		sumArea += getArea(boxList.get(i));
-	
-	/*get*/
-	
-	int tempArea= 0;
-	
-	/*-*/
-	/*AB, AC, AD, BC, BD, CD*/
-	/*12, 13, 14, 23, 24, 34*/
-	temp[0]= boxList.get(0);
-	temp[1]= boxList.get(1) ;
-	tempArea += getArea( getCrossedArea(temp) );		
-	
-	temp[1]= boxList.get(2) ;
-	tempArea += getArea( getCrossedArea(temp) );
-	
-	temp[1]= boxList.get(3) ;
-	tempArea += getArea( getCrossedArea(temp) );
-	
-	temp[0]= boxList.get(1);
-	temp[1]= boxList.get(2) ;
-	tempArea += getArea( getCrossedArea(temp) );		
-	
-	temp[1]= boxList.get(3) ;
-	tempArea += getArea( getCrossedArea(temp) );
-	
-	temp[0]= boxList.get(2);
-	temp[1]= boxList.get(3) ;
-	tempArea += getArea( getCrossedArea(temp) );
-			
-	sumArea -=tempArea;
-	
-	/*+*/
-	/*ABC, BCD, BDA, CDA*/
-	/*123, 124, 134 ,234*/
-	
-	tempArea = 0;		
-	
-	/*AB*/
-	temp[0]= boxList.get(0);
-	temp[1]= boxList.get(1);
-	int[] tempAB=  getCrossedArea(temp);
-	
-	/*CD*/
-	temp[0]= boxList.get(2);
-	temp[1]= boxList.get(3);		
-	int[] tempCD = getCrossedArea(temp);
-	
-	/*ABC*/
-	temp[0] = tempAB;
-	temp[1] = boxList.get(2);
-	tempArea += getArea( getCrossedArea(temp) );		
-	
-	/*ABD*/
-	temp[1]= boxList.get(3) ;
-	tempArea += getArea( getCrossedArea(temp) );
-	
-	/*ACD*/
-	temp[0]= tempCD;
-	temp[1]= boxList.get(0) ;
-	tempArea += getArea( getCrossedArea(temp) );
-	
-	/*BCD*/
-	temp[1]= boxList.get(1);
-	tempArea += getArea( getCrossedArea(temp) );		
-			
-	sumArea +=tempArea;
-	
-	/*-*/
-	/*ABCD*/
-	
-	tempArea = 0;
-	
-	temp[1] = tempAB;
-	tempArea += getArea( getCrossedArea(temp) );
-	
-	sumArea -= tempArea;
+	static public int[] getFourPoints(String line)
+	{		
+		int points[] = {0,0,0,0};
 		
-	return sumArea;
-}
-</code></pre>
-<p>}<br>
-</code></p>
+		String tempPoints[] = line.split(" ");
+		
+		points[0] = Integer.parseInt(tempPoints[0]);
+		points[1] = Integer.parseInt(tempPoints[1]);
+		points[2] = Integer.parseInt(tempPoints[2]);
+		points[3] = Integer.parseInt(tempPoints[3]);
+		return points;
+	}
+	
+	static public int[] getCrossedArea(int[][] points)
+	{
+		int[] crossedArea = {0,0,0,0};		
+		
+		for (int i = 0; i  points[i][2])
+			{
+				int temp0 =points[i][0];
+				points[i][0] = points[i][2];
+				points[i][2] = temp0;
+				
+				int temp1 =points[i][1];
+				points[i][1] = points[i][3];
+				points[i][3] = temp1;
+			}		
+		}
+		
+		/*겹치는 것은 다음 네가지. y축에도 같이 적용.*/
+		/*x1 &lt; x3 &lt; x2 &lt; x4*/		
+		if ( points[0][0] &lt;= points[1][0] &amp;&amp;
+				points[1][0] &lt;= points[0][2] &amp;&amp;
+				points[0][2] &lt;= points[1][2] )
+		{
+			crossedArea[0] = points[1][0];
+			crossedArea[2] = points[0][2];
+		}		
+		/*x3 &lt; x1 &lt; x4 &lt; x2*/		
+		else if ( points[1][0] &lt;= points[0][0] &amp;&amp;
+				points[0][0] &lt;= points[1][2] &amp;&amp;
+				points[1][2] &lt;= points[0][2] )
+		{
+			crossedArea[0] = points[0][0];
+			crossedArea[2] = points[1][2];
+		}		
+		/*x1 &lt; x3 &lt; x4 &lt; x2*/
+		else if ( points[0][0] &lt;= points[1][0] &amp;&amp;
+				points[1][0] &lt;= points[1][2] &amp;&amp;
+				points[1][2] &lt;= points[0][2] )
+		{
+			crossedArea[0] = points[1][0];
+			crossedArea[2] = points[1][2];
+		}
+		/*x3 &lt; x1 &lt; x2 &lt; x4*/
+		else if ( points[1][0] &lt;= points[0][0] &amp;&amp;
+				points[0][0] &lt;= points[0][2] &amp;&amp;
+				points[0][2] &lt;= points[1][2] )
+		{
+			crossedArea[0] = points[0][0];
+			crossedArea[2] = points[0][2];
+		}
+		
+		
+		/*겹치는 것은 다음 네가지. y축*/
+		/*y1 &lt; y3 &lt; y2 &lt; y4*/		
+		if ( points[0][1] &lt;= points[1][1] &amp;&amp;
+				points[1][1] &lt;= points[0][3] &amp;&amp;
+				points[0][3] &lt;= points[1][3] )
+		{
+			crossedArea[1] = points[1][1];
+			crossedArea[3] = points[0][3];
+		}		
+		/*y3 &lt; y1 &lt; y4 &lt; y2*/		
+		else if ( points[1][1] &lt;= points[0][1] &amp;&amp;
+				points[0][1] &lt;= points[1][3] &amp;&amp;
+				points[1][3] &lt;= points[0][3] )
+		{
+			crossedArea[1] = points[0][1];
+			crossedArea[3] = points[1][3];
+		}		
+		/*y1 &lt; y3 &lt; y4 &lt; y2*/
+		else if ( points[0][1] &lt;= points[1][1] &amp;&amp;
+				points[1][1] &lt;= points[1][3] &amp;&amp;
+				points[1][3] &lt;= points[0][3] )
+		{
+			crossedArea[1] = points[1][1];
+			crossedArea[3] = points[1][3];
+		}
+		/*y3 &lt; y1 &lt; y2 &lt; y4*/
+		else if ( points[1][1] &lt;= points[0][1] &amp;&amp;
+				points[0][1] &lt;= points[0][3] &amp;&amp;
+				points[0][3] &lt;= points[1][3] )
+		{
+			crossedArea[1] = points[0][1];
+			crossedArea[3] = points[0][3];
+		} 
+		
+/*		for(int i=0; i&lt;4; i++)
+			System.out.println(i+&quot; &quot; + crossedArea[i]);*/
+		
+		return crossedArea;
+		
+	}
+	
+	static public int getArea(int[] points)
+	{	 		
+		return Math.abs( (points[0] - points[2]) * (points[1] - points[3]) );
+	}
+	
+	static public int getArea(String line)
+	{	
+		return getArea(getFourPoints(line));
+	}
+	
+	static public ArrayList convertBoxes(String boxLines)
+	{
+		ArrayList points = new ArrayList();
+		
+		String[] crossedBoxes = boxLines.split("n");
+		
+		int length = crossedBoxes.length;
+		
+		int x = 0;
+		
+		while(length &gt; 0)
+		{
+			points.add( getFourPoints(crossedBoxes[x]) );
+			x++;		
+			length--;			
+		}
+		return points;	
+	}
+	
+	static public int getAllArea(String line)
+	{
+		int sumArea = 0;
+		ArrayList boxList = convertBoxes(line);
+		
+		int[][] temp={ boxList.get(0),boxList.get(1) };	
+		
+		/*맨 처음 한개씩*/
+		
+		/*+*/
+		/*A, B, C, D*/
+		
+		for(int i = 0; i &lt; 4; i++)
+			sumArea += getArea(boxList.get(i));
+		
+		/*get*/
+		
+		int tempArea= 0;
+		
+		/*-*/
+		/*AB, AC, AD, BC, BD, CD*/
+		/*12, 13, 14, 23, 24, 34*/
+		temp[0]= boxList.get(0);
+		temp[1]= boxList.get(1) ;
+		tempArea += getArea( getCrossedArea(temp) );		
+		
+		temp[1]= boxList.get(2) ;
+		tempArea += getArea( getCrossedArea(temp) );
+		
+		temp[1]= boxList.get(3) ;
+		tempArea += getArea( getCrossedArea(temp) );
+		
+		temp[0]= boxList.get(1);
+		temp[1]= boxList.get(2) ;
+		tempArea += getArea( getCrossedArea(temp) );		
+		
+		temp[1]= boxList.get(3) ;
+		tempArea += getArea( getCrossedArea(temp) );
+		
+		temp[0]= boxList.get(2);
+		temp[1]= boxList.get(3) ;
+		tempArea += getArea( getCrossedArea(temp) );
+				
+		sumArea -=tempArea;
+		
+		/*+*/
+		/*ABC, BCD, BDA, CDA*/
+		/*123, 124, 134 ,234*/
+		
+		tempArea = 0;		
+		
+		/*AB*/
+		temp[0]= boxList.get(0);
+		temp[1]= boxList.get(1);
+		int[] tempAB=  getCrossedArea(temp);
+		
+		/*CD*/
+		temp[0]= boxList.get(2);
+		temp[1]= boxList.get(3);		
+		int[] tempCD = getCrossedArea(temp);
+		
+		/*ABC*/
+		temp[0] = tempAB;
+		temp[1] = boxList.get(2);
+		tempArea += getArea( getCrossedArea(temp) );		
+		
+		/*ABD*/
+		temp[1]= boxList.get(3) ;
+		tempArea += getArea( getCrossedArea(temp) );
+		
+		/*ACD*/
+		temp[0]= tempCD;
+		temp[1]= boxList.get(0) ;
+		tempArea += getArea( getCrossedArea(temp) );
+		
+		/*BCD*/
+		temp[1]= boxList.get(1);
+		tempArea += getArea( getCrossedArea(temp) );		
+				
+		sumArea +=tempArea;
+		
+		/*-*/
+		/*ABCD*/
+		
+		tempArea = 0;
+		
+		temp[1] = tempAB;
+		tempArea += getArea( getCrossedArea(temp) );
+		
+		sumArea -= tempArea;
+			
+		return sumArea;
+	}
+}</code></pre>
 <p>풀이에 걸린 시간 - 0.5 + 0.5 + 1.5 + 1 + 0.5 = 총 4 시간. 아 창피해. 그래도 좀 창피해 하고 나면 다음번엔 더 빨리 하겠지.</p>
 <ol>
 	<li>최초의 0.5 둘은 대충 기본적인 구조를 파악하고 어떻게 하면 되겠다. 라는 식의 구도를 잡는데 사용.</li>

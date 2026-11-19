@@ -73,22 +73,21 @@
 </header>
 
 <div class="post-body"><p><a href="https://github.com/SpringSource/spring-security-javaconfig/" title="Spring security javacode base">java code base spring security setting github 리파지토리</a><br>
-build.gradle에 다음을 추가<br>
-<code><br>
-repositories {<br>
-mavenCentral()<br>
-maven {<br>
-url &ldquo;<a href="http://repo.springsource.org/snapshot%22">http://repo.springsource.org/snapshot&quot;</a><br>
-}<br>
-}</p>
-<p>dependencies {<br>
-def springSecurityVersion = &ldquo;3.1.4.RELEASE&rdquo;<br>
-compile &ldquo;org.springframework.security:spring-security-core:$springSecurityVersion&rdquo;<br>
-compile &ldquo;org.springframework.security:spring-security-web:$springSecurityVersion&rdquo;<br>
-compile &ldquo;org.springframework.security:spring-security-config:$springSecurityVersion&rdquo;<br>
-compile &ldquo;org.springframework.security:spring-security-javaconfig:1.0.0.CI-SNAPSHOT&rdquo;<br>
-}</p>
-</code>
+build.gradle에 다음을 추가</p>
+<pre><code>repositories {
+    mavenCentral()
+    maven {
+        url "http://repo.springsource.org/snapshot"
+    }
+}
+
+dependencies {
+def springSecurityVersion = "3.1.4.RELEASE"
+compile "org.springframework.security:spring-security-core:$springSecurityVersion"
+    compile "org.springframework.security:spring-security-web:$springSecurityVersion"
+    compile "org.springframework.security:spring-security-config:$springSecurityVersion"
+compile "org.springframework.security:spring-security-javaconfig:1.0.0.CI-SNAPSHOT"
+}</code></pre>
 </div>
 
 <footer class="post-footer">

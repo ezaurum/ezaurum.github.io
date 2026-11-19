@@ -72,42 +72,45 @@
     </div>
 </header>
 
-<div class="post-body"><p><code>package testCases;</p>
-<p>import static org.junit.Assert.assertEquals;</p>
-<p>import org.junit.Test;<br>
-import org.junit.Before;<br>
-import org.junit.After;</p>
-<p>public class myTest {<br>
-@Test<br>
-public void testCodes() throws Exception<br>
-{<br>
-System.out.println(&ldquo;3&rdquo;);<br>
-}</p>
-<pre><code>@Before
-public void testMakeClass1()
-{
-	System.out.println(&quot;2&quot;);		
-}	
-@Before
-public void testMakeClass()
-{
-	System.out.println(&quot;1&quot;);		
-}
-</code></pre>
-<p>@After<br>
-public void afterClass()<br>
-{<br>
-System.out.println(&ldquo;4&rdquo;);</p>
-<pre><code>}
-@After
-public void afterClass1()
-{
-	System.out.println(&quot;5&quot;);
+<div class="post-body"><pre><code>package testCases;
+
+import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
+import org.junit.Before;
+import org.junit.After;
+
+
+public class myTest {	
+	@Test
+	public void testCodes() throws Exception
+	{
+		System.out.println("3");
+	}
 	
-}	
-</code></pre>
-<p>}<br>
-</code></p>
+	@Before
+	public void testMakeClass1()
+	{
+		System.out.println("2");		
+	}	
+	@Before
+	public void testMakeClass()
+	{
+		System.out.println("1");		
+	}
+@After
+	public void afterClass()
+	{
+		System.out.println("4");
+		
+	}
+	@After
+	public void afterClass1()
+	{
+		System.out.println("5");
+		
+	}	
+}</code></pre>
 <p>실행 결과는 적힌 대로 12345가 된다.</p>
 </div>
 

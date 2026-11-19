@@ -87,25 +87,25 @@
 <p><strong>==&gt; (YOU ARE IN THE LIVING ROOM OF A WIZARD&rsquo;S HOUSE.THERE IS A WIZARD SNORING LOUDLY ON THE COUCH.THERE IS A DOOR GOING WEST FROM HERE.THERE IS A STAIRWAY GOING UPSTAIRS FROM HERE.YOU SEE A WHISKEY-BOTTLE ON THE FLOOR.YOU SEE A BUCKET ON THE FLOOR)</strong></p>
 <p>훨씬 낫군요!</p>
 <p>이제 물건을 집어드는 명령을 만들 겁니다.</p>
-<p><code>(defun pickup-object (object)<br>
-(cond ((is-at object <em>location</em> <em>object-locations</em>) (push (list object &lsquo;body) <em>object-locations</em>)<br>
-`(you are now carrying the ,object))<br>
-(t &lsquo;(you cannot get that.))))</code></p>
+<pre><code>(defun pickup-object (object)
+  (cond ((is-at object *location* *object-locations*) (push (list object 'body) *object-locations*)
+                                                      `(you are now carrying the ,object))
+	(t '(you cannot get that.))))</code></pre>
 <p>이 함수는 현재 위치의 바닥에 물건이 있는지 검사하고- 만일 있다면 새로운 위치(플레이어의 몸)에다 목록을 밀어(push)놓습니다.(민다(push)는 것은 assoc 명령이 새 항목을 발견한다면 목록에 항목을 더하고 나서 지난 위치를 숨긴다는 겁니다.) 그리고 나서 성공했는지  알려주는 문장을 돌려줍니다.<br>
 이제 명령을 좀 더 사용하기 쉽게 만드는 다른 주문(SPEL)을 외어 봅시다.</p>
-<p><code>(defspel pickup (object)<br>
-`(pickup-object &lsquo;,object))</code></p>
+<pre><code>(defspel pickup (object)
+  `(pickup-object ',object))</code></pre>
 <p>이제 새 주문(SPEL)을 써 봅시다!</p>
 <p><code>(pickup whiskey-bottle)</code></p>
 <p><strong>==&gt; (YOU ARE NOW CARRYING THE WHISKEY-BOTTLE)</strong></p>
 <p>이제 몇 가지 유용한 명령을 추가해 봅시다. 일단, 지금 들고다니고 있는 물건들을 보는 명령부터.</p>
-<p><code>(defun inventory ()<br>
-(remove-if-not (lambda (x)<br>
-(is-at x &lsquo;body <em>object-locations</em>))<br>
-<em>objects</em>))</code></p>
+<pre><code>(defun inventory ()
+  (remove-if-not (lambda (x)
+		   (is-at x 'body *object-locations*))
+		 *objects*))</code></pre>
 <p>이제 어떤 물건을 얻었다면 알려주는 함수.</p>
-<p><code>(defun have (object)<br>
-(member object (inventory)))</code></p>
+<pre><code>(defun have (object)
+  (member object (inventory)))</code></pre>
 </div>
 
 <footer class="post-footer">

@@ -72,32 +72,32 @@
     </div>
 </header>
 
-<div class="post-body"><code>
-import java.lang.IllegalArgumentException;
-<p>public enum EnumStudy {<br>
-JAVA(1), C(2),RUBY(3);<br>
-private int value;<br>
-public int intValue() {<br>
-return value;}<br>
-private EnumStudy(int value) {<br>
-this.value = value;<br>
-}<br>
-public static EnumStudy valueOf(int value) {<br>
-switch (value) {<br>
-case 1: return JAVA;<br>
-case 2: return C;<br>
-case 3: return RUBY;<br>
-default: throw new IllegalArgumentException(&ldquo;There is no matching for &ldquo;+value);<br>
-}<br>
-}</p>
-<p>public static void main(String args[]) {<br>
-System.out.println(EnumStudy.valueOf(1));<br>
-System.out.println(EnumStudy.valueOf(&ldquo;JAVA&rdquo;)); //이건 enum들은 기본적으로 선언되는 메소드.<br>
-System.out.println(EnumStudy.JAVA);<br>
-System.out.println(EnumStudy.JAVA.intValue());<br>
-}<br>
-}<br>
-</code></p>
+<div class="post-body"><pre><code>import java.lang.IllegalArgumentException;
+
+public enum EnumStudy {
+        JAVA(1), C(2),RUBY(3);
+private int value;
+public int intValue() {
+return value;}
+private EnumStudy(int value) {
+this.value = value;
+}
+public static EnumStudy valueOf(int value) {
+switch (value) {
+case 1: return JAVA;
+case 2: return C;
+case 3: return RUBY;
+default: throw new IllegalArgumentException("There is no matching for "+value);
+}
+}
+
+public static void main(String args[]) {
+        System.out.println(EnumStudy.valueOf(1));
+System.out.println(EnumStudy.valueOf("JAVA")); //이건 enum들은 기본적으로 선언되는 메소드.
+System.out.println(EnumStudy.JAVA);
+System.out.println(EnumStudy.JAVA.intValue());
+}
+}</code></pre>
 <p>이 결과는&hellip;</p>
 <p>JAVA<br>
 JAVA<br>
@@ -110,7 +110,7 @@ JAVA<br>
     
     
     <div class="post-terms"><span>태그</span>
-        <ul class="chips"><li><a href="/tags/enum/">enum</a></li><li><a href="/tags/%EA%B3%B5%EB%B6%80/">공부</a></li><li><a href="/tags/java/">java</a></li><li><a href="/tags/programming/">programming</a></li></ul>
+        <ul class="chips"><li><a href="/tags/enum/">enum</a></li><li><a href="/tags/%EA%B3%B5%EB%B6%80/">공부</a></li><li><a href="/tags/java/">java</a></li><li><a href="/tags/Programming/">Programming</a></li></ul>
     </div>
     
 

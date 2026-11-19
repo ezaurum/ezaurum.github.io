@@ -73,12 +73,10 @@
 </header>
 
 <div class="post-body"><p>아무리 width를 조정하고 padding, margin, border까지 똑같이 줘도 제대로 사이즈가 맞지 않을 때는,</p>
-<p>box-sizing:border-box; 를 넣어줘 본다.<br>
-<code><br>
-&lt;div style=&ldquo;box-sizing:border-box;width:100px;border:1px solid gray;height:20px;float:left;display:block;&quot;&gt;test&lt;/div&gt;<br>
-&lt;input type=&ldquo;text&rdquo; style=&ldquo;box-sizing:border-box;width:100px;height:20px;float:left;display:block;&rdquo; value=&ldquo;test&rdquo;/&gt;<br>
-&lt;textarea style=&ldquo;box-sizing:border-box;width:100px;height:20px;float:left;display:block;&quot;&gt;test&lt;/textarea&gt;<br>
-</code></p>
+<p>box-sizing:border-box; 를 넣어줘 본다.</p>
+<pre><code>&lt;div style="box-sizing:border-box;width:100px;border:1px solid gray;height:20px;float:left;display:block;"&gt;test&lt;/div&gt;
+&lt;input type="text" style="box-sizing:border-box;width:100px;height:20px;float:left;display:block;" value="test"/&gt;
+&lt;textarea style="box-sizing:border-box;width:100px;height:20px;float:left;display:block;"&gt;test&lt;/textarea&gt;</code></pre>
 <section>
 <div style="box-sizing:border-box;width:100px;border:1px solid gray;height:20px;float:left;display:block;">test</div>
 <p>test</p>

@@ -20,7 +20,7 @@
 				<link>https://ezaurum.com/2013/05/bash-%EC%85%80%EC%97%90%EC%84%9C-%EB%B3%80%EC%88%98-%EC%82%AC%EC%9A%A9/</link>
 				<pubDate>Thu, 02 May 2013 00:00:00 +0000</pubDate>
 				<guid>https://ezaurum.com/2013/05/bash-%EC%85%80%EC%97%90%EC%84%9C-%EB%B3%80%EC%88%98-%EC%82%AC%EC%9A%A9/</guid>
-				<description>&lt;code&gt;&#xD;&#xA;#!/bin/sh -e&#xD;&#xA;TODAY=`date -u +%Y%m%d`&#xD;&#xA;REDIS_HOME=&#34;/usr/redis-2.6.13/src&#34;&#xD;&#xA;fileName=&#34;redis-&#34;$TODAY&#34;.log&#34;&#xD;&#xA;$REDIS_HOME/redis-server &amp;gt;&amp;gt; $REDIS_HOME/$fileName &amp;amp;&#xD;&#xA;&lt;/code&gt;&#xD;&#xA;보시다시피 그냥 변수이름=값 해주면 쓸 수 있고, $를 붙이면 값을 받아오고, 문자열과는 붙여놓으면 자동으로 달라붙는다.</description>
+				<description>&lt;pre&gt;&lt;code&gt;#!/bin/sh -e&#xD;&#xA;TODAY=`date -u +%Y%m%d`&#xD;&#xA;REDIS_HOME=&#34;/usr/redis-2.6.13/src&#34;&#xD;&#xA;fileName=&#34;redis-&#34;$TODAY&#34;.log&#34;&#xD;&#xA;$REDIS_HOME/redis-server &amp;gt;&amp;gt; $REDIS_HOME/$fileName &amp;amp;&lt;/code&gt;&lt;/pre&gt;&#xD;&#xA;&lt;p&gt;보시다시피 그냥 변수이름=값 해주면 쓸 수 있고, $를 붙이면 값을 받아오고, 문자열과는 붙여놓으면 자동으로 달라붙는다.&lt;/p&gt;</description>
 			</item>
 	</channel>
 </rss>

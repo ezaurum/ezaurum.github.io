@@ -77,10 +77,10 @@
 원본 출처 - <a href="http://lisperati.com/casting.html"><a href="http://lisperati.com/casting.html">http://lisperati.com/casting.html</a></a></p>
 <h3>게임 세계를 돌아다녀 보기</h3>
 좋아요, 이제 세계를 볼 수 있습니다. 그러니 돌아다닐 수 있도록 해 줄 코드를 짜 볼까요. walk-direction(함수식 스타일은 아니지만) 함수가 방향을 잡고 거기로 갈 수 있도록 해 줄겁니다. 
-<code>(defun walk-direction (direction)
+<pre><code>(defun walk-direction (direction)
   (let ((next (assoc direction (cddr (assoc *location* *map*)))))
     (cond (next (setf *location* (third next)) (look))
-	  (t '(you cant go that way.)))))</code>
+	  (t '(you cant go that way.)))))</code></pre>
 <p>let이라는 특별한 명령이 플레이어가 가기를 원하는 방향을 경로 묘사 함수에 전달하게 할 지역변수 next을 허가합니다. cdr은 목록에서 첫 번째 항목을 그냥 잘라냅니다. 만일 사용자가 부적합한 방향을 입력했다면, next 변수는 nil이 됩니다. cond 명령은 Lisp에서 if-then 명령의 연쇄와 비슷합니다. 각 줄에는 cond가 검사할 값과 할 행동이 있습니다. 이 경우, next location이 nil이 아니라면, setf명령으로 플레이어의 위치는 새 방향을 묘사하고 있는 기호 목록의 목록의 세 번째 항목이 됩니다. 그 다음 사용자에게 새 장소를 보여줍니다. next location 이 nil이라면, 다음줄로 떨어져 내려서, 사용자에게 경고합니다. 해 봅시다.<br>
 <code>(walk-direction &lsquo;west)</code><br>
 <strong>==&gt; (YOU ARE IN A BEAUTIFUL GARDEN.<br>

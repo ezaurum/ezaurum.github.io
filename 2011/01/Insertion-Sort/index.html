@@ -72,36 +72,36 @@
     </div>
 </header>
 
-<div class="post-body"><p><code>void  insertionSort(int * array, int size)<br>
-{<br>
-int j = 0;<br>
-int temp = 0;<br>
-for (int i = 1; i &lt; size ; i++)	{<br>
-j = 0;<br>
-while(j<i> array[j]) {<br>
-j++;<br>
-}<br>
-else {<br>
-temp = array[i];<br>
-for ( int k = i; k &gt; j; k&ndash;) {<br>
-array[k] = array[k-1];<br>
-}<br>
-array[j] = temp;<br>
-j = i;<br>
-}<br>
-}<br>
-}<br>
-}</p>
-<p><ins datetime="2011-01-14T04:31:01+00:00">void  insertionSort2(int * array, int size)<br>
-{<br>
-int j = 0;<br>
-for (int i = 1; i  0 &amp;&amp; array[j-1] &gt; array[j] ) {<br>
-swap(array[j-1],array[j]);<br>
-j&ndash;;<br>
-}<br>
-}<br>
-}</ins></p>
-</code>
+<div class="post-body"><pre><code>void  insertionSort(int * array, int size)
+{
+	int j = 0;
+	int temp = 0;
+	for (int i = 1; i &lt; size ; i++)	{
+		j = 0;
+		while(j<i> array[j]) {
+				j++;
+			}
+			else {
+				temp = array[i];
+				for ( int k = i; k &gt; j; k--) {
+					array[k] = array[k-1];
+				}
+				array[j] = temp;
+				j = i;
+			}
+		}
+	}
+}
+
+<ins datetime="2011-01-14T04:31:01+00:00">void  insertionSort2(int * array, int size)
+{
+	int j = 0;
+	for (int i = 1; i  0 &amp;&amp; array[j-1] &gt; array[j] ) {
+			swap(array[j-1],array[j]);
+			j--;
+		}
+	}
+}</ins></code></pre>
 <p>위키 등에 올라온 최적화 코드와는 거리가 멀지만&hellip; 일단은 별 문제없이 가볍게 짤 수 있는 수준. 리팩토링 필요. 당연하지만.<br>
 <ins datetime="2011-01-14T04:31:01+00:00">대충 최적화&hellip;는 아니고 좀 for문을 줄여봤음. swap은 <a href="/2011/01/13/bubble-sort/">Bubble Sort</a>에서 구현했던 void swap(int <em>a, int</em> b);</ins></p>
 </div>

@@ -72,10 +72,10 @@
     </div>
 </header>
 
-<div class="post-body"><p>C#에서 소켓 프로그래밍을 할 때, Socket.AcceptAsync로 연결하는데 다음과 같은 예외가 발생했다.<br>
-<code>System.InvalidOperationException이(가) 처리되지 않았습니다.<br>
-Message=AcceptSocket: 소켓을 바인딩하거나 연결하면 안 됩니다.</code><br>
-원인은 AcceptAsync이후에 같은 SocketAsyncEventArgs객체를 이용해 계속 Accept를 받으려고 했는데, SocketAsyncEventArgs.AcceptSocket 프로퍼티를 null로 초기화하지 않았기 때문이다.<br>
+<div class="post-body"><p>C#에서 소켓 프로그래밍을 할 때, Socket.AcceptAsync로 연결하는데 다음과 같은 예외가 발생했다.</p>
+<pre><code>System.InvalidOperationException이(가) 처리되지 않았습니다.
+Message=AcceptSocket: 소켓을 바인딩하거나 연결하면 안 됩니다.</code></pre>
+<p>원인은 AcceptAsync이후에 같은 SocketAsyncEventArgs객체를 이용해 계속 Accept를 받으려고 했는데, SocketAsyncEventArgs.AcceptSocket 프로퍼티를 null로 초기화하지 않았기 때문이다.<br>
 재사용하려면 AcceptSocket = null;을 넣어줄 것.</p>
 </div>
 
@@ -83,7 +83,7 @@ Message=AcceptSocket: 소켓을 바인딩하거나 연결하면 안 됩니다.</
     
     
     <div class="post-terms"><span>태그</span>
-        <ul class="chips"><li><a href="/tags/AcceptAsync/">AcceptAsync</a></li><li><a href="/tags/c/">c</a></li><li><a href="/tags/InvalidOperationException/">InvalidOperationException</a></li><li><a href="/tags/%ED%95%B4%EA%B2%B0%EB%B2%95/">해결법</a></li><li><a href="/tags/network/">network</a></li><li><a href="/tags/programming/">programming</a></li><li><a href="/tags/socket/">socket</a></li><li><a href="/tags/SocketAsyncEventArgs/">SocketAsyncEventArgs</a></li></ul>
+        <ul class="chips"><li><a href="/tags/AcceptAsync/">AcceptAsync</a></li><li><a href="/tags/c/">c</a></li><li><a href="/tags/InvalidOperationException/">InvalidOperationException</a></li><li><a href="/tags/%ED%95%B4%EA%B2%B0%EB%B2%95/">해결법</a></li><li><a href="/tags/network/">network</a></li><li><a href="/tags/Programming/">Programming</a></li><li><a href="/tags/socket/">socket</a></li><li><a href="/tags/SocketAsyncEventArgs/">SocketAsyncEventArgs</a></li></ul>
     </div>
     
 

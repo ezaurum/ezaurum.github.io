@@ -27,7 +27,7 @@
 				<link>https://ezaurum.com/2012/07/%ED%95%9C%EC%A4%84-%EC%A0%95%EB%A6%AC/</link>
 				<pubDate>Sun, 01 Jul 2012 00:00:00 +0000</pubDate>
 				<guid>https://ezaurum.com/2012/07/%ED%95%9C%EC%A4%84-%EC%A0%95%EB%A6%AC/</guid>
-				<description>&lt;p&gt;&lt;a href=&#34;http://api.jquery.com/prevAll/&#34;&gt;jQuery.prevAll&lt;/a&gt;은, 시작점부터 역순으로 리스트를 만든다.&lt;br&gt;&#xA;&lt;code&gt;&lt;/p&gt;&#xA;&lt;pre&gt;&#xD;&#xA;&amp;lt;ul&amp;gt;&#xD;&#xA;&amp;lt;li&amp;gt;4&amp;lt;/li&amp;gt;&#xD;&#xA;&amp;lt;li&amp;gt;3&amp;lt;/li&amp;gt;&#xD;&#xA;&amp;lt;li&amp;gt;2&amp;lt;/li&amp;gt;&#xD;&#xA;&amp;lt;li&amp;gt;1&amp;lt;/li&amp;gt;&#xD;&#xA;&amp;lt;li id=&#34;target&#34;&amp;gt;0&amp;lt;/li&amp;gt;&#xD;&#xA;&amp;lt;/ul&amp;gt;&#xD;&#xA;&lt;/pre&gt;&#xD;&#xA;&lt;/code&gt;&#xD;&#xA;이 경우, $(&#34;#target&#34;).prevAll(&#34;li&#34;)는 2, 3, 4가 된다. 당연한가? 쓰고 보니 한 줄도 아니군.</description>
+				<description>&lt;p&gt;&lt;a href=&#34;http://api.jquery.com/prevAll/&#34;&gt;jQuery.prevAll&lt;/a&gt;은, 시작점부터 역순으로 리스트를 만든다.&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;&lt;pre&gt;&#xD;&#xA;&amp;lt;ul&amp;gt;&#xD;&#xA;&amp;lt;li&amp;gt;4&amp;lt;/li&amp;gt;&#xD;&#xA;&amp;lt;li&amp;gt;3&amp;lt;/li&amp;gt;&#xD;&#xA;&amp;lt;li&amp;gt;2&amp;lt;/li&amp;gt;&#xD;&#xA;&amp;lt;li&amp;gt;1&amp;lt;/li&amp;gt;&#xD;&#xA;&amp;lt;li id=&#34;target&#34;&amp;gt;0&amp;lt;/li&amp;gt;&#xD;&#xA;&amp;lt;/ul&amp;gt;&#xD;&#xA;&lt;/pre&gt;&lt;/code&gt;&lt;/pre&gt;&#xD;&#xA;&lt;p&gt;이 경우, $(&amp;quot;#target&amp;quot;).prevAll(&amp;ldquo;li&amp;rdquo;)는 2, 3, 4가 된다. 당연한가? 쓰고 보니 한 줄도 아니군.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>성과물 2010년 5월 말</title>

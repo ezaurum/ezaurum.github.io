@@ -86,20 +86,20 @@ setf 명령은, 예를 들면, 이 강좌에서는 건드려볼 기회도 없을
 <p>이제 우리는 몇 개의 물체를 정의했습니다. 그걸 한 발자국 더 끌어올려 봅시다. 그리고 실제 세계 자체의 지도를 정의해 봅시다. 여기에 우리 세계가 어떻게 생겼는지 알려주는 그림이 있습니다.</p>
 <img src="/wordpress/wp-content/uploads/2009/02/world.jpg" alt="world" title="world" width="500" height="381" class="alignnone size-full wp-image-398" />
 <p>이 간단한 게임에서, 장소는 세 군데 밖에 없습니다. 거실과 다락이 있는 집에는 마당이 딸려 있습니다. 이 작은 세계를 묘사하는 <em>map</em> 이라고 하는 새 변수를 정의해 봅시다.</p>
-<p><code>(setf <em>map</em> &lsquo;((living-room (you are in the living-room of a wizards house. there is a wizard snoring loudly on the couch.)<br>
-(west door garden)<br>
-(upstairs stairway attic))<br>
-(garden (you are in a beautiful garden. there is a well in front of you.)<br>
-(east door living-room))<br>
-(attic (you are in the attic of the wizards house. there is a giant welding torch in the corner.)<br>
-(downstairs stairway living-room))))</code></p>
+<pre><code>(setf *map* '((living-room (you are in the living-room of a wizards house. there is a wizard snoring loudly on the couch.)
+                           (west door garden)  
+                           (upstairs stairway attic))
+              (garden (you are in a beautiful garden. there is a well in front of you.)
+                      (east door living-room))
+              (attic (you are in the attic of the wizards house. there is a giant welding torch in the corner.)
+                     (downstairs stairway living-room))))</code></pre>
 <p>이 지도는 세 지역에 대해 알기 원하는 중요한 것들을 모두 포함하고 있습니다. 장소에 대한 독특한 이름, (즉, <em>living-room</em>, <em>garden</em>, <em>attic</em>) 거기서 볼 수 있는 것들에 대한 짧은 설명 (더 큰 목록 안에 포함된 자기의 목록에 저장되어 있다.), 거기에 더해 각 길이 그 장소로 <em>어디로 어떻게</em> 오가는가 하는 것도.<br>
 이 하나의 변수가 얼마나 정보가 풍부한지, 그리고 어떻게 우리가 알아야 할 필요가 있는 것에 대해 딱 필요한 만큼만 충분히 묘사하고 있는 주목하세요. Lisp를 쓰는 사람들은 작고, 간결한, 기름을 완전히 빼고 그냥 보는것만으로도 이해가 가능한 코드를 만드는 것을 종아한답니다.</p>
 <p>이제 지도와 물체 다발이 생겼습니다. 그건 이 물체들이 지도 어디에 있는지 알려주는 다른 변수들을 만들 수 있는 감각을 키워줬을 겁니다.</p>
-<p><code>(setf <em>object-locations</em> &lsquo;((whiskey-bottle living-room)<br>
-(bucket living-room)<br>
-(chain garden)<br>
-(frog garden)))</code></p>
+<pre><code>(setf *object-locations* '((whiskey-bottle living-room)
+                           (bucket living-room)
+                           (chain garden)
+                           (frog garden)))</code></pre>
 <p>각각의 물체는 한 장소와 연관되었습니다. Lisp에서 이 같은 목록들을 놀랄 것도 없이, <strong>연관 목록</strong>이라고 합니다. 연관목록은 목록들을 적어놓은 간단한 목록 하나입니다. 각 목록 안에 있는 첫 번째 항목 위치가 다른 데이터 다발과 연관된 <strong>열쇠</strong> 기호 입니다. <em>map</em> 변수 또한 연관 목록이었습니다. 그 경우 세 개의 열쇠는 <em>living-room</em>, <em>garden</em>, <em>attic</em> 입니다.</p>
 <p>이제 이 세계를 정의했으니, 남은 것은 게임을 즐기는 플레이어의 위치를 정해주는 겁니다.</p>
 <p><code>(setf <em>location</em> &rsquo;living-room)</code></p>

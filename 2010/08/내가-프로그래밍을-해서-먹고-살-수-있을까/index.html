@@ -74,37 +74,36 @@
 
 <div class="post-body"><p>이걸 짜는데 이틀 걸렸다면 믿으시겠습니까?<br>
 젠장</p>
-<p><code>private String a(int initial, int max, String leftValue) {<br>
-String returnValue = &ldquo;&rdquo;;</p>
-<pre><code>	if (initial &amp;lt; max) {
+<pre><code>private String a(int initial, int max, String leftValue) {
+		String returnValue = "";
 
-		if (initial != -1) {
+		if (initial &lt; max) {
 
-			if (leftValue != null) {
-				leftValue += &amp;quot; &amp;quot;;
-				leftValue += initial;
+			if (initial != -1) {
 
-			} else {
-				leftValue = String.valueOf(initial);
+				if (leftValue != null) {
+					leftValue += &quot; &quot;;
+					leftValue += initial;
+
+				} else {
+					leftValue = String.valueOf(initial);
+				}
 			}
+
+			for (int i = initial + 1; i &lt;= max; i++) {
+				returnValue += a(i, max, leftValue);
+			}
+
+			return returnValue;
+		} else {
+			if (leftValue != null)
+				leftValue += &quot;n&quot;;
+			else
+				leftValue = &quot;&quot;;
+			return leftValue;
 		}
 
-		for (int i = initial + 1; i &amp;lt;= max; i++) {
-			returnValue += a(i, max, leftValue);
-		}
-
-		return returnValue;
-	} else {
-		if (leftValue != null)
-			leftValue += &amp;quot;n&amp;quot;;
-		else
-			leftValue = &amp;quot;&amp;quot;;
-		return leftValue;
-	}
-
-}
-</code></pre>
-</code>
+	}</code></pre>
 </div>
 
 <footer class="post-footer">

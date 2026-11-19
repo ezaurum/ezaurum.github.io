@@ -20,7 +20,7 @@
 				<link>https://ezaurum.com/2014/12/Cross-thread-operation-not-valid-%ED%95%B4%EA%B2%B0/</link>
 				<pubDate>Fri, 05 Dec 2014 00:00:00 +0000</pubDate>
 				<guid>https://ezaurum.com/2014/12/Cross-thread-operation-not-valid-%ED%95%B4%EA%B2%B0/</guid>
-				<description>&lt;p&gt;&lt;a href=&#34;http://stackoverflow.com/questions/8738767/backgroundworker-cross-thread-operation-not-valid&#34;&gt;출처 - 스택오버플로우&lt;/a&gt;&lt;br&gt;&#xA;&lt;code&gt;&lt;br&gt;&#xA;private void OnAction(string v)&lt;br&gt;&#xA;{&lt;br&gt;&#xA;richTextBox1.AppendText(v + Environment.NewLine);&lt;br&gt;&#xA;richTextBox1.ScrollToCaret();&lt;br&gt;&#xA;}&lt;/p&gt;&#xA;&lt;p&gt;public void AddText(string value)&lt;br&gt;&#xA;{&lt;br&gt;&#xA;richTextBox1.Invoke((Action) OnAction, value);&lt;br&gt;&#xA;}&lt;br&gt;&#xA;&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;기본적으로 invoke를 이용하면 해당 문제를 막을 수 있음.&lt;/p&gt;</description>
+				<description>&lt;p&gt;&lt;a href=&#34;http://stackoverflow.com/questions/8738767/backgroundworker-cross-thread-operation-not-valid&#34;&gt;출처 - 스택오버플로우&lt;/a&gt;&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;private void OnAction(string v)&#xD;&#xA;{&#xD;&#xA;richTextBox1.AppendText(v + Environment.NewLine);&#xD;&#xA;richTextBox1.ScrollToCaret();&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;public void AddText(string value)&#xD;&#xA;{&#xD;&#xA;    richTextBox1.Invoke((Action) OnAction, value);&#xD;&#xA;}&lt;/code&gt;&lt;/pre&gt;&#xD;&#xA;&lt;p&gt;기본적으로 invoke를 이용하면 해당 문제를 막을 수 있음.&lt;/p&gt;</description>
 			</item>
 	</channel>
 </rss>
