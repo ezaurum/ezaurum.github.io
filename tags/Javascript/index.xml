@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Javascript on Ezaurum&#39;s Blog</title>
-		<link>https://ezaurum.com/tags/Javascript/</link>
+		<link>https://ezaurum.com/tags/javascript/</link>
 		<description>Recent content in Javascript on Ezaurum&#39;s Blog</description>
 		<generator>Hugo</generator>
 		<language>ko-kr</language>
@@ -14,7 +14,7 @@
 		
 			<lastBuildDate>Thu, 26 Mar 2020 02:00:18 +0900</lastBuildDate>
 		
-			<atom:link href="https://ezaurum.com/tags/Javascript/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://ezaurum.com/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Vue에서 form 조건부 validation</title>
 				<link>https://ezaurum.com/2020/03/Vue%EC%97%90%EC%84%9C-form-%EC%A1%B0%EA%B1%B4%EB%B6%80-validation/</link>
