@@ -20,14 +20,14 @@
 				<link>https://ezaurum.com/2015/05/sublime-text-2-%EC%84%A4%EC%A0%95%ED%8C%8C%EC%9D%BC/</link>
 				<pubDate>Tue, 05 May 2015 00:00:00 +0000</pubDate>
 				<guid>https://ezaurum.com/2015/05/sublime-text-2-%EC%84%A4%EC%A0%95%ED%8C%8C%EC%9D%BC/</guid>
-				<description>&lt;p&gt;// Settings in here override those in &amp;ldquo;Default/Preferences.sublime-settings&amp;rdquo;, and&#xA;// are overridden in turn by file type specific settings.&#xA;{&#xA;&amp;ldquo;font_face&amp;rdquo;: &amp;ldquo;나눔고딕코딩&amp;rdquo;,&#xA;&amp;ldquo;font_size&amp;rdquo;: 12,&#xA;&amp;ldquo;rulers&amp;rdquo;: [80, 120],&#xA;&amp;ldquo;tab_size&amp;rdquo;: 4,&#xA;&amp;ldquo;translate_tabs_to_spaces&amp;rdquo;: true,&#xA;&amp;ldquo;highlight_line&amp;rdquo;: true,&#xA;&amp;ldquo;line_padding_top&amp;rdquo;: 2,&#xA;&amp;ldquo;line_padding_bottom&amp;rdquo;: 2,&#xA;&amp;ldquo;default_encoding&amp;rdquo;: &amp;ldquo;UTF-8&amp;rdquo;,&#xA;&amp;ldquo;fallback_encoding&amp;rdquo;: &amp;ldquo;Korean (CP949)&amp;rdquo;,&#xA;&amp;ldquo;highlight_modified_tabs&amp;rdquo; : true&#xA;}&lt;/p&gt;</description>
+				<description>&lt;p&gt;// Settings in here override those in &amp;ldquo;Default/Preferences.sublime-settings&amp;rdquo;, and&lt;br&gt;&#xA;// are overridden in turn by file type specific settings.&lt;br&gt;&#xA;{&lt;br&gt;&#xA;&amp;ldquo;font_face&amp;rdquo;: &amp;ldquo;나눔고딕코딩&amp;rdquo;,&lt;br&gt;&#xA;&amp;ldquo;font_size&amp;rdquo;: 12,&lt;br&gt;&#xA;&amp;ldquo;rulers&amp;rdquo;: [80, 120],&lt;br&gt;&#xA;&amp;ldquo;tab_size&amp;rdquo;: 4,&lt;br&gt;&#xA;&amp;ldquo;translate_tabs_to_spaces&amp;rdquo;: true,&lt;br&gt;&#xA;&amp;ldquo;highlight_line&amp;rdquo;: true,&lt;br&gt;&#xA;&amp;ldquo;line_padding_top&amp;rdquo;: 2,&lt;br&gt;&#xA;&amp;ldquo;line_padding_bottom&amp;rdquo;: 2,&lt;br&gt;&#xA;&amp;ldquo;default_encoding&amp;rdquo;: &amp;ldquo;UTF-8&amp;rdquo;,&lt;br&gt;&#xA;&amp;ldquo;fallback_encoding&amp;rdquo;: &amp;ldquo;Korean (CP949)&amp;rdquo;,&lt;br&gt;&#xA;&amp;ldquo;highlight_modified_tabs&amp;rdquo; : true&lt;br&gt;&#xA;}&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Sublime Text 필요 설정</title>
 				<link>https://ezaurum.com/2014/08/Sublime-Text-%ED%95%84%EC%9A%94-%EC%84%A4%EC%A0%95/</link>
 				<pubDate>Thu, 21 Aug 2014 00:00:00 +0000</pubDate>
 				<guid>https://ezaurum.com/2014/08/Sublime-Text-%ED%95%84%EC%9A%94-%EC%84%A4%EC%A0%95/</guid>
-				<description>&lt;p&gt;나눔 고딕 코딩으로 폰트 설정하고, 사이즈는 14, 위아래 4px씩 패딩을 준다&lt;/p&gt;&#xA;&lt;p&gt;{&#xA;&amp;ldquo;font_face&amp;rdquo;: &amp;ldquo;나눔고딕코딩&amp;rdquo;,&#xA;&amp;ldquo;font_size&amp;rdquo;: 14,&#xA;&amp;ldquo;line_padding_top&amp;rdquo;: 4,&#xA;&amp;ldquo;line_padding_bottom&amp;rdquo;: 4&#xA;}&lt;/p&gt;</description>
+				<description>&lt;p&gt;나눔 고딕 코딩으로 폰트 설정하고, 사이즈는 14, 위아래 4px씩 패딩을 준다&lt;/p&gt;&#xA;&lt;p&gt;{&lt;br&gt;&#xA;&amp;ldquo;font_face&amp;rdquo;: &amp;ldquo;나눔고딕코딩&amp;rdquo;,&lt;br&gt;&#xA;&amp;ldquo;font_size&amp;rdquo;: 14,&lt;br&gt;&#xA;&amp;ldquo;line_padding_top&amp;rdquo;: 4,&lt;br&gt;&#xA;&amp;ldquo;line_padding_bottom&amp;rdquo;: 4&lt;br&gt;&#xA;}&lt;/p&gt;</description>
 			</item>
 	</channel>
 </rss>

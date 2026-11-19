@@ -116,26 +116,26 @@ bool swapif(int * a, int * b)
 		return false;
 	}
 }</ins>
-<p><ins datetime="2011-01-13T08:07:57+00:00">void bubbleSort2(int * array, int size)
-{
-int j=0;
-bool swapped = true;
-while(swapped)
-{
-swapped=false;
-for( int i = 0; i &lt; size -j -1 ; i++)
-{
-swapped = swapif(array+i,array+i+1) ? true : swapped;
-}
-j++;
-}
-}
+<p><ins datetime="2011-01-13T08:07:57+00:00">void bubbleSort2(int * array, int size)<br>
+{<br>
+int j=0;<br>
+bool swapped = true;<br>
+while(swapped)<br>
+{<br>
+swapped=false;<br>
+for( int i = 0; i &lt; size -j -1 ; i++)<br>
+{<br>
+swapped = swapif(array+i,array+i+1) ? true : swapped;<br>
+}<br>
+j++;<br>
+}<br>
+}<br>
 </ins></p>
 </code>
-<p>정렬되는 것이 방울이 올라가는 것처럼 보인다고 해서 버블 정렬. 버블~ 버블~
-기초중의 기초. 거의 외워서 쓰고 있음.
-<ins datetime="2011-01-13T07:13:28+00:00">빼먹은 게 있었다. -j 추가.</ins>
-<ins datetime="2011-01-13T07:13:28+00:00">또 빼먹었다. j++;  의 위치를 아래로 옮김. 그대로는 마지막 항목이 정렬되지 않음.</ins>
+<p>정렬되는 것이 방울이 올라가는 것처럼 보인다고 해서 버블 정렬. 버블~ 버블~<br>
+기초중의 기초. 거의 외워서 쓰고 있음.<br>
+<ins datetime="2011-01-13T07:13:28+00:00">빼먹은 게 있었다. -j 추가.</ins><br>
+<ins datetime="2011-01-13T07:13:28+00:00">또 빼먹었다. j++;  의 위치를 아래로 옮김. 그대로는 마지막 항목이 정렬되지 않음.</ins><br>
 <ins datetime="2011-01-13T08:05:15+00:00">개량형 추가. 성능상 차이 없음.</ins></p>
 </div>
 
@@ -154,9 +154,8 @@ j++;
     
     
     
-    
     <nav class="post-nav" aria-label="이전/다음 글">
-        
+        <a class="prev" href="/2011/01/Selection-Sort/"><small>← 이전 글</small>Selection Sort</a>
         <a class="next" href="/2011/01/Insertion-Sort/"><small>다음 글 →</small>Insertion Sort</a>
     </nav>
     

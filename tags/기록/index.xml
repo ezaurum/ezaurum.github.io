@@ -20,7 +20,7 @@
 				<link>https://ezaurum.com/2014/08/Sublime-Text-%ED%95%84%EC%9A%94-%EC%84%A4%EC%A0%95/</link>
 				<pubDate>Thu, 21 Aug 2014 00:00:00 +0000</pubDate>
 				<guid>https://ezaurum.com/2014/08/Sublime-Text-%ED%95%84%EC%9A%94-%EC%84%A4%EC%A0%95/</guid>
-				<description>&lt;p&gt;나눔 고딕 코딩으로 폰트 설정하고, 사이즈는 14, 위아래 4px씩 패딩을 준다&lt;/p&gt;&#xA;&lt;p&gt;{&#xA;&amp;ldquo;font_face&amp;rdquo;: &amp;ldquo;나눔고딕코딩&amp;rdquo;,&#xA;&amp;ldquo;font_size&amp;rdquo;: 14,&#xA;&amp;ldquo;line_padding_top&amp;rdquo;: 4,&#xA;&amp;ldquo;line_padding_bottom&amp;rdquo;: 4&#xA;}&lt;/p&gt;</description>
+				<description>&lt;p&gt;나눔 고딕 코딩으로 폰트 설정하고, 사이즈는 14, 위아래 4px씩 패딩을 준다&lt;/p&gt;&#xA;&lt;p&gt;{&lt;br&gt;&#xA;&amp;ldquo;font_face&amp;rdquo;: &amp;ldquo;나눔고딕코딩&amp;rdquo;,&lt;br&gt;&#xA;&amp;ldquo;font_size&amp;rdquo;: 14,&lt;br&gt;&#xA;&amp;ldquo;line_padding_top&amp;rdquo;: 4,&lt;br&gt;&#xA;&amp;ldquo;line_padding_bottom&amp;rdquo;: 4&lt;br&gt;&#xA;}&lt;/p&gt;</description>
 			</item>
 	</channel>
 </rss>

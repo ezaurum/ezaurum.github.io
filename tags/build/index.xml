@@ -20,7 +20,7 @@
 				<link>https://ezaurum.com/2014/12/nuget-%ED%8C%A8%ED%82%A4%EC%A7%80-%EC%9E%90%EB%8F%99%EC%9C%BC%EB%A1%9C-%EB%A7%8C%EB%93%A4%EA%B8%B0/</link>
 				<pubDate>Wed, 24 Dec 2014 00:00:00 +0000</pubDate>
 				<guid>https://ezaurum.com/2014/12/nuget-%ED%8C%A8%ED%82%A4%EC%A7%80-%EC%9E%90%EB%8F%99%EC%9C%BC%EB%A1%9C-%EB%A7%8C%EB%93%A4%EA%B8%B0/</guid>
-				<description>&lt;p&gt;&lt;a href=&#34;http://ihadthisideaonce.com/2012/02/21/creating-packages-with-nuget-the-msbuild-way/&#34;&gt;msbuild를 사용해서 만들기&lt;/a&gt;&#xA;&lt;a href=&#34;http://www.hanselman.com/blog/NuGetForTheEnterpriseNuGetInAContinuousIntegrationAutomatedBuildSystem.aspx&#34; title=&#34;빌드 서버를 이용해서 만들기&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
+				<description>&lt;p&gt;&lt;a href=&#34;http://ihadthisideaonce.com/2012/02/21/creating-packages-with-nuget-the-msbuild-way/&#34;&gt;msbuild를 사용해서 만들기&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;http://www.hanselman.com/blog/NuGetForTheEnterpriseNuGetInAContinuousIntegrationAutomatedBuildSystem.aspx&#34; title=&#34;빌드 서버를 이용해서 만들기&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
 			</item>
 	</channel>
 </rss>

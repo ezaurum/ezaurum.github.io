@@ -20,7 +20,7 @@
 				<link>https://ezaurum.com/2012/07/spring%EC%97%90%EC%84%9C-enum%EC%9D%84-select%EB%A1%9C-%EB%A7%A4%ED%95%91/</link>
 				<pubDate>Sun, 22 Jul 2012 00:00:00 +0000</pubDate>
 				<guid>https://ezaurum.com/2012/07/spring%EC%97%90%EC%84%9C-enum%EC%9D%84-select%EB%A1%9C-%EB%A7%A4%ED%95%91/</guid>
-				<description>&lt;p&gt;enum안에 desc라는 이름으로 label이 붙어 있는 경우.&lt;/p&gt;&#xA;&lt;p&gt;&amp;lt;form:select path=&amp;ldquo;status&amp;rdquo;&amp;gt;&#xA;&amp;lt;form:options itemLabel=&amp;ldquo;desc&amp;rdquo;/&amp;gt;&#xA;&amp;lt;/form:select&amp;gt;&lt;/p&gt;</description>
+				<description>&lt;p&gt;enum안에 desc라는 이름으로 label이 붙어 있는 경우.&lt;/p&gt;&#xA;&lt;p&gt;&amp;lt;form:select path=&amp;ldquo;status&amp;rdquo;&amp;gt;&lt;br&gt;&#xA;&amp;lt;form:options itemLabel=&amp;ldquo;desc&amp;rdquo;/&amp;gt;&lt;br&gt;&#xA;&amp;lt;/form:select&amp;gt;&lt;/p&gt;</description>
 			</item>
 	</channel>
 </rss>

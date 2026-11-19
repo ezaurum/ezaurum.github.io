@@ -20,35 +20,35 @@
 				<link>https://ezaurum.com/2008/11/Ubuntu-Apache2-%EC%82%AC%EC%9A%A9%EC%9E%90%EB%B3%84-%EC%9B%B9-%EB%94%94%EB%A0%89%ED%86%A0%EB%A6%AC-%EC%84%A4%EC%A0%95/</link>
 				<pubDate>Sat, 29 Nov 2008 00:00:00 +0000</pubDate>
 				<guid>https://ezaurum.com/2008/11/Ubuntu-Apache2-%EC%82%AC%EC%9A%A9%EC%9E%90%EB%B3%84-%EC%9B%B9-%EB%94%94%EB%A0%89%ED%86%A0%EB%A6%AC-%EC%84%A4%EC%A0%95/</guid>
-				<description>&lt;p&gt;&lt;a href=&#34;http://leeted.egloos.com/1489000&#34;&gt;&lt;a href=&#34;http://leeted.egloos.com/1489000&#34;&gt;http://leeted.egloos.com/1489000&lt;/a&gt;&lt;/a&gt;&#xA;위 링크 참고 했음.&lt;/p&gt;&#xA;&lt;p&gt;콘솔에서 입력.&lt;/p&gt;&#xA;&lt;p&gt;cd /etc/apache2/mods-available&#xA;sudo cp userdir.conf userdir.load /etc/apache2/mods-enabled&#xA;sudo /etc/init.d/apache2 restart&lt;/p&gt;&#xA;&lt;p&gt;이후, 각 유자가 자기 홈 디렉 토리에다 public_html을 만들어주면 된다. 아래와 같은 식?&#xA;cd ~&#xA;mkdir public_html&#xA;public_html 디렉토리 아래에 index.html 생성&lt;/p&gt;</description>
+				<description>&lt;p&gt;&lt;a href=&#34;http://leeted.egloos.com/1489000&#34;&gt;&lt;a href=&#34;http://leeted.egloos.com/1489000&#34;&gt;http://leeted.egloos.com/1489000&lt;/a&gt;&lt;/a&gt;&lt;br&gt;&#xA;위 링크 참고 했음.&lt;/p&gt;&#xA;&lt;p&gt;콘솔에서 입력.&lt;/p&gt;&#xA;&lt;p&gt;cd /etc/apache2/mods-available&lt;br&gt;&#xA;sudo cp userdir.conf userdir.load /etc/apache2/mods-enabled&lt;br&gt;&#xA;sudo /etc/init.d/apache2 restart&lt;/p&gt;&#xA;&lt;p&gt;이후, 각 유자가 자기 홈 디렉 토리에다 public_html을 만들어주면 된다. 아래와 같은 식?&lt;br&gt;&#xA;cd ~&lt;br&gt;&#xA;mkdir public_html&lt;br&gt;&#xA;public_html 디렉토리 아래에 index.html 생성&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>리눅스 삽질기 - 3 -</title>
 				<link>https://ezaurum.com/2008/11/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%82%BD%EC%A7%88%EA%B8%B0-3-/</link>
 				<pubDate>Mon, 17 Nov 2008 00:00:00 +0000</pubDate>
 				<guid>https://ezaurum.com/2008/11/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%82%BD%EC%A7%88%EA%B8%B0-3-/</guid>
-				<description>&lt;p&gt;일단 gcc를 써 보자. 라고 생각해서 간단히 짜고 컴파일을 해보는데, 계속 에러.&#xA;구글링을 통해 해법을 찾았다.&#xA;&lt;a href=&#34;http://dantes.kr/blog/320&#34;&gt;&lt;a href=&#34;http://dantes.kr/blog/320&#34;&gt;http://dantes.kr/blog/320&lt;/a&gt;&lt;/a&gt;&#xA;이 설명에서는 CD를 요구한다는데. 일단 8.10에서는 필요 없는듯?&lt;/p&gt;&#xA;&lt;p&gt;일단 이러고 나서, gcc 파일이름 이렇게 치면, 컴파일은 되는데, 실행이 안된다.&lt;/p&gt;&#xA;&lt;p&gt;왜?&lt;/p&gt;&#xA;&lt;p&gt;참고글 -&#xA;&lt;a href=&#34;http://wiki.kldp.org/KoreanDoc/html/gcc_and_make/gcc_and_make.html#toc2&#34;&gt;&lt;a href=&#34;http://wiki.kldp.org/KoreanDoc/html/gcc_and_make/gcc_and_make.html#toc2&#34;&gt;http://wiki.kldp.org/KoreanDoc/html/gcc_and_make/gcc_and_make.html#toc2&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;리눅스는  $ ./a.out 라는 식으로 실행해야 함.&lt;/p&gt;</description>
+				<description>&lt;p&gt;일단 gcc를 써 보자. 라고 생각해서 간단히 짜고 컴파일을 해보는데, 계속 에러.&lt;br&gt;&#xA;구글링을 통해 해법을 찾았다.&lt;br&gt;&#xA;&lt;a href=&#34;http://dantes.kr/blog/320&#34;&gt;&lt;a href=&#34;http://dantes.kr/blog/320&#34;&gt;http://dantes.kr/blog/320&lt;/a&gt;&lt;/a&gt;&lt;br&gt;&#xA;이 설명에서는 CD를 요구한다는데. 일단 8.10에서는 필요 없는듯?&lt;/p&gt;&#xA;&lt;p&gt;일단 이러고 나서, gcc 파일이름 이렇게 치면, 컴파일은 되는데, 실행이 안된다.&lt;/p&gt;&#xA;&lt;p&gt;왜?&lt;/p&gt;&#xA;&lt;p&gt;참고글 -&lt;br&gt;&#xA;&lt;a href=&#34;http://wiki.kldp.org/KoreanDoc/html/gcc_and_make/gcc_and_make.html#toc2&#34;&gt;&lt;a href=&#34;http://wiki.kldp.org/KoreanDoc/html/gcc_and_make/gcc_and_make.html#toc2&#34;&gt;http://wiki.kldp.org/KoreanDoc/html/gcc_and_make/gcc_and_make.html#toc2&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;리눅스는  $ ./a.out 라는 식으로 실행해야 함.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>리눅스 삽질기 - 2 -</title>
 				<link>https://ezaurum.com/2008/11/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%82%BD%EC%A7%88%EA%B8%B0-2-/</link>
 				<pubDate>Sun, 16 Nov 2008 00:00:00 +0000</pubDate>
 				<guid>https://ezaurum.com/2008/11/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%82%BD%EC%A7%88%EA%B8%B0-2-/</guid>
-				<description>&lt;p&gt;&lt;a href=&#34;http://gateopener.mireene.com/wordpress/2008/10/17/리눅스-삽질기-1/&#34;&gt;지난 번&lt;/a&gt;에 리눅스를 깔아놓기만 한 PC가 팔려나가 버려서, 다른 PC에 깔게 되었다. 이번에는 버전업 된 우분투 8.10을 설치. 32비트 버전이다.&lt;/p&gt;&#xA;&lt;p&gt;일단 텔넷을 깔아야 하므로 아래의 참고 링크.&#xA;설치법 - &lt;a href=&#34;http://eloid.tistory.com/21&#34;&gt;&lt;a href=&#34;http://eloid.tistory.com/21&#34;&gt;http://eloid.tistory.com/21&lt;/a&gt;&lt;/a&gt;&#xA;텔넷 포트 바꾸기 - &lt;a href=&#34;http://rustymind.egloos.com/3310669&#34;&gt;&lt;a href=&#34;http://rustymind.egloos.com/3310669&#34;&gt;http://rustymind.egloos.com/3310669&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;오늘은 여기까지&lt;/p&gt;</description>
+				<description>&lt;p&gt;&lt;a href=&#34;http://gateopener.mireene.com/wordpress/2008/10/17/리눅스-삽질기-1/&#34;&gt;지난 번&lt;/a&gt;에 리눅스를 깔아놓기만 한 PC가 팔려나가 버려서, 다른 PC에 깔게 되었다. 이번에는 버전업 된 우분투 8.10을 설치. 32비트 버전이다.&lt;/p&gt;&#xA;&lt;p&gt;일단 텔넷을 깔아야 하므로 아래의 참고 링크.&lt;br&gt;&#xA;설치법 - &lt;a href=&#34;http://eloid.tistory.com/21&#34;&gt;&lt;a href=&#34;http://eloid.tistory.com/21&#34;&gt;http://eloid.tistory.com/21&lt;/a&gt;&lt;/a&gt;&lt;br&gt;&#xA;텔넷 포트 바꾸기 - &lt;a href=&#34;http://rustymind.egloos.com/3310669&#34;&gt;&lt;a href=&#34;http://rustymind.egloos.com/3310669&#34;&gt;http://rustymind.egloos.com/3310669&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;오늘은 여기까지&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>리눅스 삽질기 - 1 -</title>
 				<link>https://ezaurum.com/2008/10/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%82%BD%EC%A7%88%EA%B8%B0-1-/</link>
 				<pubDate>Fri, 17 Oct 2008 00:00:00 +0000</pubDate>
 				<guid>https://ezaurum.com/2008/10/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%82%BD%EC%A7%88%EA%B8%B0-1-/</guid>
-				<description>&lt;p&gt;리눅스를 깔기로 결정했다. 몇 번이나 깔았다 지웠다를 반복한 지금, 결국 Vista 64 SP1을 기본으로 하고, Virtual PC를 이용해서, 사용하기로 함.&#xA;virtual pc 2007 sp1은 &lt;a href=&#34;http://www.microsoft.com/downloads/details.aspx?FamilyId=28C97D22-6EB8-4A09-A7F7-F6C7A1F000B5&amp;amp;displaylang=en&#34;&gt;여기서&lt;/a&gt; 받으면 됨. 다운로드 링크 정도는 알아서 찾자. 아래쪽에 64비트와 32비트 용으로 두 개가 있음.&lt;/p&gt;&#xA;&lt;p&gt;프로그램을 실행하고 MS사 물건답게, Next를 적당히 눌러주면 가상머신이 실행된다.&lt;/p&gt;&#xA;&lt;p&gt;여기까지 하다가, 만들어 보니 64비트 OS가 깔리지 않는다. 가상화는 무조건 32비트. 어째서일까. 혹시나 해서 Virtual BOX를 써 봤는데 기본 셋팅으로는 안 되고, 설정창에서 VT-X/AMD-V 설정을 켜 줘야 가능.&#xA;여튼 깔리긴 함.&lt;/p&gt;</description>
+				<description>&lt;p&gt;리눅스를 깔기로 결정했다. 몇 번이나 깔았다 지웠다를 반복한 지금, 결국 Vista 64 SP1을 기본으로 하고, Virtual PC를 이용해서, 사용하기로 함.&lt;br&gt;&#xA;virtual pc 2007 sp1은 &lt;a href=&#34;http://www.microsoft.com/downloads/details.aspx?FamilyId=28C97D22-6EB8-4A09-A7F7-F6C7A1F000B5&amp;amp;displaylang=en&#34;&gt;여기서&lt;/a&gt; 받으면 됨. 다운로드 링크 정도는 알아서 찾자. 아래쪽에 64비트와 32비트 용으로 두 개가 있음.&lt;/p&gt;&#xA;&lt;p&gt;프로그램을 실행하고 MS사 물건답게, Next를 적당히 눌러주면 가상머신이 실행된다.&lt;/p&gt;&#xA;&lt;p&gt;여기까지 하다가, 만들어 보니 64비트 OS가 깔리지 않는다. 가상화는 무조건 32비트. 어째서일까. 혹시나 해서 Virtual BOX를 써 봤는데 기본 셋팅으로는 안 되고, 설정창에서 VT-X/AMD-V 설정을 켜 줘야 가능.&lt;br&gt;&#xA;여튼 깔리긴 함.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>리눅스 쓰려 하다가 또 실패</title>
 				<link>https://ezaurum.com/2007/12/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%93%B0%EB%A0%A4-%ED%95%98%EB%8B%A4%EA%B0%80-%EB%98%90-%EC%8B%A4%ED%8C%A8/</link>
 				<pubDate>Sun, 02 Dec 2007 00:00:00 +0000</pubDate>
 				<guid>https://ezaurum.com/2007/12/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%93%B0%EB%A0%A4-%ED%95%98%EB%8B%A4%EA%B0%80-%EB%98%90-%EC%8B%A4%ED%8C%A8/</guid>
-				<description>&lt;p&gt;Fedora core 8을 깔았다가 만 12시간쯤 만에 결국 XP로 복귀;;&#xA;현재 virtual box를 깔고 있음. 이걸로 리눅스에 대해 공부를 좀 한 다음에&amp;hellip;&#xA;일단 프로그램이 있다고 해도 설치를 못하는 상황이라 아무 것도 못했음;&lt;/p&gt;</description>
+				<description>&lt;p&gt;Fedora core 8을 깔았다가 만 12시간쯤 만에 결국 XP로 복귀;;&lt;br&gt;&#xA;현재 virtual box를 깔고 있음. 이걸로 리눅스에 대해 공부를 좀 한 다음에&amp;hellip;&lt;br&gt;&#xA;일단 프로그램이 있다고 해도 설치를 못하는 상황이라 아무 것도 못했음;&lt;/p&gt;</description>
 			</item>
 	</channel>
 </rss>

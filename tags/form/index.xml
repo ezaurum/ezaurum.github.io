@@ -27,7 +27,7 @@
 				<link>https://ezaurum.com/2009/09/%EB%8B%A4%EB%A5%B8-%ED%94%84%EB%A0%88%EC%9E%84%EC%9C%BC%EB%A1%9C-%ED%8F%BC-%EA%B0%92-%EC%A0%84%EC%86%A1/</link>
 				<pubDate>Sat, 19 Sep 2009 00:00:00 +0000</pubDate>
 				<guid>https://ezaurum.com/2009/09/%EB%8B%A4%EB%A5%B8-%ED%94%84%EB%A0%88%EC%9E%84%EC%9C%BC%EB%A1%9C-%ED%8F%BC-%EA%B0%92-%EC%A0%84%EC%86%A1/</guid>
-				<description>&lt;p&gt;자바스크립트 이용&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;window.open(&amp;ldquo;title&amp;rdquo;, &amp;ldquo;frameName&amp;rdquo;, &amp;ldquo;width=600, height=400, scrollbars=yes&amp;rdquo;);&#xA;document.form1.action = &amp;ldquo;action.php&amp;rdquo;;&#xA;document.form1.target = &amp;ldquo;frameName&amp;rdquo;;&#xA;document.form1.method = &amp;ldquo;post&amp;rdquo;;&#xA;document.form1.submit();&lt;/code&gt;&lt;/p&gt;</description>
+				<description>&lt;p&gt;자바스크립트 이용&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;window.open(&amp;ldquo;title&amp;rdquo;, &amp;ldquo;frameName&amp;rdquo;, &amp;ldquo;width=600, height=400, scrollbars=yes&amp;rdquo;);&lt;br&gt;&#xA;document.form1.action = &amp;ldquo;action.php&amp;rdquo;;&lt;br&gt;&#xA;document.form1.target = &amp;ldquo;frameName&amp;rdquo;;&lt;br&gt;&#xA;document.form1.method = &amp;ldquo;post&amp;rdquo;;&lt;br&gt;&#xA;document.form1.submit();&lt;/code&gt;&lt;/p&gt;</description>
 			</item>
 	</channel>
 </rss>

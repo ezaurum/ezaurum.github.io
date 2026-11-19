@@ -74,35 +74,35 @@
 
 <div class="post-body"><code>
 import java.lang.IllegalArgumentException;
-<p>public enum EnumStudy {
-JAVA(1), C(2),RUBY(3);
-private int value;
-public int intValue() {
-return value;}
-private EnumStudy(int value) {
-this.value = value;
-}
-public static EnumStudy valueOf(int value) {
-switch (value) {
-case 1: return JAVA;
-case 2: return C;
-case 3: return RUBY;
-default: throw new IllegalArgumentException(&ldquo;There is no matching for &ldquo;+value);
-}
+<p>public enum EnumStudy {<br>
+JAVA(1), C(2),RUBY(3);<br>
+private int value;<br>
+public int intValue() {<br>
+return value;}<br>
+private EnumStudy(int value) {<br>
+this.value = value;<br>
+}<br>
+public static EnumStudy valueOf(int value) {<br>
+switch (value) {<br>
+case 1: return JAVA;<br>
+case 2: return C;<br>
+case 3: return RUBY;<br>
+default: throw new IllegalArgumentException(&ldquo;There is no matching for &ldquo;+value);<br>
+}<br>
 }</p>
-<p>public static void main(String args[]) {
-System.out.println(EnumStudy.valueOf(1));
-System.out.println(EnumStudy.valueOf(&ldquo;JAVA&rdquo;)); //이건 enum들은 기본적으로 선언되는 메소드.
-System.out.println(EnumStudy.JAVA);
-System.out.println(EnumStudy.JAVA.intValue());
-}
-}
+<p>public static void main(String args[]) {<br>
+System.out.println(EnumStudy.valueOf(1));<br>
+System.out.println(EnumStudy.valueOf(&ldquo;JAVA&rdquo;)); //이건 enum들은 기본적으로 선언되는 메소드.<br>
+System.out.println(EnumStudy.JAVA);<br>
+System.out.println(EnumStudy.JAVA.intValue());<br>
+}<br>
+}<br>
 </code></p>
 <p>이 결과는&hellip;</p>
-<p>JAVA
-JAVA
-JAVA
-1
+<p>JAVA<br>
+JAVA<br>
+JAVA<br>
+1<br>
 다.</p>
 </div>
 
@@ -121,9 +121,8 @@ JAVA
     
     
     
-    
     <nav class="post-nav" aria-label="이전/다음 글">
-        
+        <a class="prev" href="/2012/03/%EC%9E%90%EC%A3%BC-%ED%8F%AC%EC%8A%A4%ED%8C%85-%ED%95%98%EC%9E%90/"><small>← 이전 글</small>자주 포스팅  하자</a>
         <a class="next" href="/2012/03/iBatis-TypeHandler/"><small>다음 글 →</small>iBatis TypeHandler</a>
     </nav>
     

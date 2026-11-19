@@ -20,7 +20,7 @@
 				<link>https://ezaurum.com/2015/02/C%23-%EC%97%90%EC%84%9C-Dispose-Close-Stop%EC%9D%98-%EC%B0%A8%EC%9D%B4/</link>
 				<pubDate>Fri, 20 Feb 2015 00:00:00 +0000</pubDate>
 				<guid>https://ezaurum.com/2015/02/C%23-%EC%97%90%EC%84%9C-Dispose-Close-Stop%EC%9D%98-%EC%B0%A8%EC%9D%B4/</guid>
-				<description>&lt;p&gt;내가 정리를 할 필요가 있어서&amp;hellip;&#xA;Dispose - 더 이상 이 오브젝트를 쓰지 않음. 관련 리소스를 정리함. 자동으로 Null로 만들지는 않음. 여러 번 호출해도 괜찮음.&#xA;Close, Stop - Dispose의 하위집합이거나 기능상 동일할 수 있음. 보통 Close/Open, Start/Stop 이며, 하위집합인 경우, Close이후 재 Open이 가능. Stop이후 Start가 가능.&lt;/p&gt;</description>
+				<description>&lt;p&gt;내가 정리를 할 필요가 있어서&amp;hellip;&lt;br&gt;&#xA;Dispose - 더 이상 이 오브젝트를 쓰지 않음. 관련 리소스를 정리함. 자동으로 Null로 만들지는 않음. 여러 번 호출해도 괜찮음.&lt;br&gt;&#xA;Close, Stop - Dispose의 하위집합이거나 기능상 동일할 수 있음. 보통 Close/Open, Start/Stop 이며, 하위집합인 경우, Close이후 재 Open이 가능. Stop이후 Start가 가능.&lt;/p&gt;</description>
 			</item>
 	</channel>
 </rss>

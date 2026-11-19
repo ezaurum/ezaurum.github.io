@@ -20,7 +20,7 @@
 				<link>https://ezaurum.com/2012/12/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C-AVD-config-%EA%B4%80%EB%A0%A8-%EC%97%90%EB%9F%AC-%EC%B2%98%EB%A6%AC/</link>
 				<pubDate>Tue, 25 Dec 2012 00:00:00 +0000</pubDate>
 				<guid>https://ezaurum.com/2012/12/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C-AVD-config-%EA%B4%80%EB%A0%A8-%EC%97%90%EB%9F%AC-%EC%B2%98%EB%A6%AC/</guid>
-				<description>&lt;p&gt;PANIC: Could not open AVD config file: homedirectory.androidavdMyAvd0.avdconfig.ini&#xA;메세지의 경우, avdMyAvd.ini 를 열어서 ansi로 그냥 저장하면 된다.&#xA;왜 그런지는 모르겠음. &lt;a title=&#34;참고 링크&#34; href=&#34;http://www.google.co.kr/url?sa=t&amp;amp;rct=j&amp;amp;q=&amp;amp;esrc=s&amp;amp;source=web&amp;amp;cd=1&amp;amp;ved=0CC4QFjAA&amp;amp;url=http%3A%2F%2Fcode.google.com%2Fp%2Fandroid%2Fissues%2Fdetail%3Fid%3D37670&amp;amp;ei=m8vZUIXPIKqYiAeBioCIBg&amp;amp;usg=AFQjCNEs6kVK49-0Acq1-8idhe4oKAJc2w&amp;amp;sig2=chQw_FdJnQWgloJzCriQXQ&amp;amp;cad=rja&#34;&gt;참고 링크&lt;/a&gt;&lt;/p&gt;</description>
+				<description>&lt;p&gt;PANIC: Could not open AVD config file: homedirectory.androidavdMyAvd0.avdconfig.ini&lt;br&gt;&#xA;메세지의 경우, avdMyAvd.ini 를 열어서 ansi로 그냥 저장하면 된다.&lt;br&gt;&#xA;왜 그런지는 모르겠음. &lt;a title=&#34;참고 링크&#34; href=&#34;http://www.google.co.kr/url?sa=t&amp;amp;rct=j&amp;amp;q=&amp;amp;esrc=s&amp;amp;source=web&amp;amp;cd=1&amp;amp;ved=0CC4QFjAA&amp;amp;url=http%3A%2F%2Fcode.google.com%2Fp%2Fandroid%2Fissues%2Fdetail%3Fid%3D37670&amp;amp;ei=m8vZUIXPIKqYiAeBioCIBg&amp;amp;usg=AFQjCNEs6kVK49-0Acq1-8idhe4oKAJc2w&amp;amp;sig2=chQw_FdJnQWgloJzCriQXQ&amp;amp;cad=rja&#34;&gt;참고 링크&lt;/a&gt;&lt;/p&gt;</description>
 			</item>
 	</channel>
 </rss>

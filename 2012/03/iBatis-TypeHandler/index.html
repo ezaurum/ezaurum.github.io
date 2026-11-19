@@ -72,40 +72,40 @@
     </div>
 </header>
 
-<div class="post-body"><p>TypeHandler는 iBatis에서 특정 타입을 매핑할 때 원하는 행동을 지정해주는 클래스다.
-이걸 이용하면 DB에는 Y/N으로 저장된 걸 boolean으로 처리한다든가 하는 게 가능해진다.
-<code>
-public class StudyTypeHandler extends EnumTypeHandler
-{
-public StudyTypeHandler()
-{
-super(EnumStudy.class);
+<div class="post-body"><p>TypeHandler는 iBatis에서 특정 타입을 매핑할 때 원하는 행동을 지정해주는 클래스다.<br>
+이걸 이용하면 DB에는 Y/N으로 저장된 걸 boolean으로 처리한다든가 하는 게 가능해진다.<br>
+<code><br>
+public class StudyTypeHandler extends EnumTypeHandler<br>
+{<br>
+public StudyTypeHandler()<br>
+{<br>
+super(EnumStudy.class);<br>
 }</p>
-<p>//얘가 결과를 받아서 빈에 매핑하는 애다.
-@Override
-public Object getResult(ResultGetter getter) throws SQLException
-{
-int result = getter.getInt();
-if(getter.wasNull())
-{
-return null;
-}
-return EnumStudy.valueOf(result);
-}
-//얘는 빈에서 받아다가 DB에 매핑하는 애다.
-@Override
-public void setParameter(ParameterSetter setter, Object parameter) throws SQLException
-{
-if(parameter == null)
-{
-setter.setNull(Types.NULL);
-}
-else
-{
-setter.setInt(((EnumStudy)parameter).getValue());
-}
+<p>//얘가 결과를 받아서 빈에 매핑하는 애다.<br>
+@Override<br>
+public Object getResult(ResultGetter getter) throws SQLException<br>
+{<br>
+int result = getter.getInt();<br>
+if(getter.wasNull())<br>
+{<br>
+return null;<br>
+}<br>
+return EnumStudy.valueOf(result);<br>
+}<br>
+//얘는 빈에서 받아다가 DB에 매핑하는 애다.<br>
+@Override<br>
+public void setParameter(ParameterSetter setter, Object parameter) throws SQLException<br>
+{<br>
+if(parameter == null)<br>
+{<br>
+setter.setNull(Types.NULL);<br>
+}<br>
+else<br>
+{<br>
+setter.setInt(((EnumStudy)parameter).getValue());<br>
+}<br>
 }</p>
-<p>}
+<p>}<br>
 </code></p>
 </div>
 
@@ -124,9 +124,8 @@ setter.setInt(((EnumStudy)parameter).getValue());
     
     
     
-    
     <nav class="post-nav" aria-label="이전/다음 글">
-        
+        <a class="prev" href="/2012/03/Java-Enum/"><small>← 이전 글</small>Java Enum</a>
         <a class="next" href="/2012/05/%EC%9A%B4%EB%8F%99%EC%9D%BC%EA%B8%B0/"><small>다음 글 →</small>운동일기</a>
     </nav>
     

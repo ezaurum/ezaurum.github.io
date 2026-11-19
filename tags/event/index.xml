@@ -20,7 +20,7 @@
 				<link>https://ezaurum.com/2010/05/%EC%98%A4%EB%8A%98%EC%9D%98-%EA%B5%90%ED%9B%88/</link>
 				<pubDate>Fri, 14 May 2010 00:00:00 +0000</pubDate>
 				<guid>https://ezaurum.com/2010/05/%EC%98%A4%EB%8A%98%EC%9D%98-%EA%B5%90%ED%9B%88/</guid>
-				<description>&lt;p&gt;잠을 자자&#xA;충분히&#xA;푹&lt;/p&gt;&#xA;&lt;p&gt;오 분만에 해결책이 안 보이면 좀 걷자.&lt;/p&gt;&#xA;&lt;p&gt;&amp;hellip;.이름만 적어야 하는데 괄호까지 같이 적어서 콜을 해 버렸어&amp;hellip;&#xA;&amp;hellip;그게 왜 안 되는지 세시간을 찾았다&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;&amp;hellip;. 덕분에 jQuery에 대해 좀 더 알았음.&lt;/p&gt;&#xA;&lt;p&gt;.ready - DOM 객체가 메모리에 만들어졌을 때 - 이미지나 동영상 등은 로드되는 중일 수 있음.&#xA;.load - 페이지가 render된 이후 - 정말 로드가 다 끝났을 때.&lt;/p&gt;</description>
+				<description>&lt;p&gt;잠을 자자&lt;br&gt;&#xA;충분히&lt;br&gt;&#xA;푹&lt;/p&gt;&#xA;&lt;p&gt;오 분만에 해결책이 안 보이면 좀 걷자.&lt;/p&gt;&#xA;&lt;p&gt;&amp;hellip;.이름만 적어야 하는데 괄호까지 같이 적어서 콜을 해 버렸어&amp;hellip;&lt;br&gt;&#xA;&amp;hellip;그게 왜 안 되는지 세시간을 찾았다&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;&amp;hellip;. 덕분에 jQuery에 대해 좀 더 알았음.&lt;/p&gt;&#xA;&lt;p&gt;.ready - DOM 객체가 메모리에 만들어졌을 때 - 이미지나 동영상 등은 로드되는 중일 수 있음.&lt;br&gt;&#xA;.load - 페이지가 render된 이후 - 정말 로드가 다 끝났을 때.&lt;/p&gt;</description>
 			</item>
 	</channel>
 </rss>

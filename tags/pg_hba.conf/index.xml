@@ -20,7 +20,7 @@
 				<link>https://ezaurum.com/2014/10/pg_hba.conf-load-fail-error/</link>
 				<pubDate>Fri, 10 Oct 2014 00:00:00 +0000</pubDate>
 				<guid>https://ezaurum.com/2014/10/pg_hba.conf-load-fail-error/</guid>
-				<description>&lt;p&gt;pg_hba.conf load fail error가 발생.&#xA;설정 파일 내부에 항목이 하나도 없으면 로드에 에러 발생&#xA;기본 항목 주석 해제로 해결&lt;/p&gt;</description>
+				<description>&lt;p&gt;pg_hba.conf load fail error가 발생.&lt;br&gt;&#xA;설정 파일 내부에 항목이 하나도 없으면 로드에 에러 발생&lt;br&gt;&#xA;기본 항목 주석 해제로 해결&lt;/p&gt;</description>
 			</item>
 	</channel>
 </rss>

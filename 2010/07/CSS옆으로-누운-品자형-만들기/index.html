@@ -72,34 +72,34 @@
     </div>
 </header>
 
-<div class="post-body"><p>옆으로 누운 品자형 만들기
-<img class="alignnone size-full wp-image-976" title="옆으로 누운 品자형 레이아웃" src="http://gateopener.ncity.net/wordpress/wp-content/uploads/2010/07/Untitled-11.png" alt="" width="296" height="42" />
+<div class="post-body"><p>옆으로 누운 品자형 만들기<br>
+<img class="alignnone size-full wp-image-976" title="옆으로 누운 品자형 레이아웃" src="http://gateopener.ncity.net/wordpress/wp-content/uploads/2010/07/Untitled-11.png" alt="" width="296" height="42" /><br>
 이런 걸 만들려고 한다.</p>
-<p>방안 1 -div를 3개만 쓰는 경우
-&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-&lt;head&gt;
-&lt;style&gt;
-div{
-margin:0px;
-float:left;
-background:gray;
-height:20px;
+<p>방안 1 -div를 3개만 쓰는 경우<br>
+&lt;!DOCTYPE html&gt;<br>
+&lt;html&gt;<br>
+&lt;head&gt;<br>
+&lt;style&gt;<br>
+div{<br>
+margin:0px;<br>
+float:left;<br>
+background:gray;<br>
+height:20px;<br>
 }</p>
 <p>#first {height:40px;}</p>
-<p>#second{
-width:140px;
-background:green;
+<p>#second{<br>
+width:140px;<br>
+background:green;<br>
 }</p>
-<p>#last{
+<p>#last{<br>
 width:140px;</p>
-<p>position:relative;
-left:-140px;
+<p>position:relative;<br>
+left:-140px;<br>
 top:20px;</p>
-<p>background:yellow;
-}
-&lt;/style&gt;
-&lt;/head&gt;
+<p>background:yellow;<br>
+}<br>
+&lt;/style&gt;<br>
+&lt;/head&gt;<br>
 &lt;body&gt;</p>
 <div id="first">길다란 가변형 문자열
 </div>
@@ -110,35 +110,35 @@ top:20px;</p>
 &lt;/body&gt;
 &lt;/html&gt;
 문제점 - 부모 element가 보이는 것보다 좀 더-div#last의 폭이 추가된만큼- 커야 한다.
-<p>방안 2 -div를 4개 쓰는 경우, 즉 부모 엘리먼트를 하나 두는 경우
-&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-&lt;head&gt;
-&lt;style&gt;
-div{
-margin:0px;
-background:gray;
+<p>방안 2 -div를 4개 쓰는 경우, 즉 부모 엘리먼트를 하나 두는 경우<br>
+&lt;!DOCTYPE html&gt;<br>
+&lt;html&gt;<br>
+&lt;head&gt;<br>
+&lt;style&gt;<br>
+div{<br>
+margin:0px;<br>
+background:gray;<br>
 }</p>
 <p>#first {height:40px;}</p>
-<p>#second , #last{
-height:20px;
-width:140px;
-background:green;
-position:absolute;
-right:0px;
+<p>#second , #last{<br>
+height:20px;<br>
+width:140px;<br>
+background:green;<br>
+position:absolute;<br>
+right:0px;<br>
 }</p>
-<p>#second {
-top:0px;
+<p>#second {<br>
+top:0px;<br>
 }</p>
-<p>#last{
-background:yellow;
-bottom:0px;
+<p>#last{<br>
+background:yellow;<br>
+bottom:0px;<br>
 }</p>
-<p>#parent {
-position:relative;
+<p>#parent {<br>
+position:relative;<br>
 }</p>
-<p>&lt;/style&gt;
-&lt;/head&gt;
+<p>&lt;/style&gt;<br>
+&lt;/head&gt;<br>
 &lt;body&gt;</p>
 <div id="parent">
 <div id="first">길다란 가변형 문자열
@@ -151,36 +151,36 @@ position:relative;
 &lt;/body&gt;
 &lt;/html&gt;
 <p>단점 - 폭이 좁아질 경우, div#first가 가리게 된다. div#parent에 min-width 를 주는 것으로 해결</p>
-<p>방안 3 - div를 3개 쓰되, 두 개를 하나 안에 넣는 경우
-&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-&lt;head&gt;
-&lt;style&gt;
-div{
-margin:0px;
-background:gray;
-position:absolute;
+<p>방안 3 - div를 3개 쓰되, 두 개를 하나 안에 넣는 경우<br>
+&lt;!DOCTYPE html&gt;<br>
+&lt;html&gt;<br>
+&lt;head&gt;<br>
+&lt;style&gt;<br>
+div{<br>
+margin:0px;<br>
+background:gray;<br>
+position:absolute;<br>
 }</p>
-<p>#second , #last{
-height:20px;
-width:140px;
-background:green;
-position:absolute;
-right:0px;
+<p>#second , #last{<br>
+height:20px;<br>
+width:140px;<br>
+background:green;<br>
+position:absolute;<br>
+right:0px;<br>
 }</p>
-<p>#second {
-top:0px;
+<p>#second {<br>
+top:0px;<br>
 }</p>
-<p>#last{
-background:yellow;
-bottom:0px;
+<p>#last{<br>
+background:yellow;<br>
+bottom:0px;<br>
 }</p>
-<p>#parent {
-height:40px;
-min-width:220px;
+<p>#parent {<br>
+height:40px;<br>
+min-width:220px;<br>
 }</p>
-<p>&lt;/style&gt;
-&lt;/head&gt;
+<p>&lt;/style&gt;<br>
+&lt;/head&gt;<br>
 &lt;body&gt;</p>
 <div id="parent">
 길다란 가변형 문자열
@@ -210,9 +210,8 @@ min-width:220px;
     
     
     
-    
     <nav class="post-nav" aria-label="이전/다음 글">
-        
+        <a class="prev" href="/2010/07/%EB%82%98%EB%9E%80-%EC%9D%B8%EA%B0%84%EC%9D%80-%EB%B0%9C%EC%A0%84%EC%9D%B4-%EC%97%86%EB%8A%94-%EA%B1%B4%EA%B0%80/"><small>← 이전 글</small>나란 인간은 발전이 없는 건가</a>
         <a class="next" href="/2010/08/%EA%B3%A0%EC%96%91%EC%9D%B4%EB%8B%98-%EB%91%90-%EB%B6%84/"><small>다음 글 →</small>고양이님 두 분</a>
     </nav>
     

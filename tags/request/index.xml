@@ -27,7 +27,7 @@
 				<link>https://ezaurum.com/2012/07/Request-%EA%B0%9D%EC%B2%B4%EB%A5%BC-%ED%8C%8C%EB%9D%BC%EB%A7%88%ED%84%B0%EB%A1%9C-%EB%B0%9B%EC%95%84%EC%98%A4%EC%A7%80-%EC%95%8A%EA%B3%A0-%EC%B0%B8%EC%A1%B0%ED%95%98%EA%B8%B0/</link>
 				<pubDate>Fri, 13 Jul 2012 00:00:00 +0000</pubDate>
 				<guid>https://ezaurum.com/2012/07/Request-%EA%B0%9D%EC%B2%B4%EB%A5%BC-%ED%8C%8C%EB%9D%BC%EB%A7%88%ED%84%B0%EB%A1%9C-%EB%B0%9B%EC%95%84%EC%98%A4%EC%A7%80-%EC%95%8A%EA%B3%A0-%EC%B0%B8%EC%A1%B0%ED%95%98%EA%B8%B0/</guid>
-				<description>&lt;p&gt;&lt;a href=&#34;http://static.springsource.org/spring/docs/2.0.x/api/org/springframework/web/context/request/RequestContextHolder.html&#34;&gt;RequestContextHolder&lt;/a&gt;를 쓰면 됨.&#xA;쓰레드에다가 필요 정보가 다 저장되므로 같은 쓰레드에서 돌아가는 애들은 정보 공유가 됨. &amp;hellip;그럼 한 쓰레드에서 두 개 이상이 돌아가는&amp;hellip; 건 없나? 모르겠네.&#xA;깔끔해 지긴 하지만 직관적이진 않은 방법같다. 그래도 서비스단에 request가 주렁주렁 달려서 내려가거나 컨트롤러에서 체크를 하느니 이걸 하겠어.&lt;/p&gt;</description>
+				<description>&lt;p&gt;&lt;a href=&#34;http://static.springsource.org/spring/docs/2.0.x/api/org/springframework/web/context/request/RequestContextHolder.html&#34;&gt;RequestContextHolder&lt;/a&gt;를 쓰면 됨.&lt;br&gt;&#xA;쓰레드에다가 필요 정보가 다 저장되므로 같은 쓰레드에서 돌아가는 애들은 정보 공유가 됨. &amp;hellip;그럼 한 쓰레드에서 두 개 이상이 돌아가는&amp;hellip; 건 없나? 모르겠네.&lt;br&gt;&#xA;깔끔해 지긴 하지만 직관적이진 않은 방법같다. 그래도 서비스단에 request가 주렁주렁 달려서 내려가거나 컨트롤러에서 체크를 하느니 이걸 하겠어.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Java 컨테이너에 Form 값의 encoding 깨질 때</title>

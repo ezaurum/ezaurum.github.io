@@ -72,8 +72,8 @@
     </div>
 </header>
 
-<div class="post-body"><p>라이센스 - <a href="http://www.gnu.org/licenses/licenses.html#FDL">The GNU Free Documentation License</a>
-원저자 - <a href="mailto:lisperati@gmail.com">Conrad Barski, M.D.</a>
+<div class="post-body"><p>라이센스 - <a href="http://www.gnu.org/licenses/licenses.html#FDL">The GNU Free Documentation License</a><br>
+원저자 - <a href="mailto:lisperati@gmail.com">Conrad Barski, M.D.</a><br>
 원본 출처 - <a href="http://lisperati.com/casting.html"><a href="http://lisperati.com/casting.html">http://lisperati.com/casting.html</a></a></p>
 <h3>게임 세계를 돌아다녀 보기</h3>
 좋아요, 이제 세계를 볼 수 있습니다. 그러니 돌아다닐 수 있도록 해 줄 코드를 짜 볼까요. walk-direction(함수식 스타일은 아니지만) 함수가 방향을 잡고 거기로 갈 수 있도록 해 줄겁니다. 
@@ -81,14 +81,14 @@
   (let ((next (assoc direction (cddr (assoc *location* *map*)))))
     (cond (next (setf *location* (third next)) (look))
 	  (t '(you cant go that way.)))))</code>
-<p>let이라는 특별한 명령이 플레이어가 가기를 원하는 방향을 경로 묘사 함수에 전달하게 할 지역변수 next을 허가합니다. cdr은 목록에서 첫 번째 항목을 그냥 잘라냅니다. 만일 사용자가 부적합한 방향을 입력했다면, next 변수는 nil이 됩니다. cond 명령은 Lisp에서 if-then 명령의 연쇄와 비슷합니다. 각 줄에는 cond가 검사할 값과 할 행동이 있습니다. 이 경우, next location이 nil이 아니라면, setf명령으로 플레이어의 위치는 새 방향을 묘사하고 있는 기호 목록의 목록의 세 번째 항목이 됩니다. 그 다음 사용자에게 새 장소를 보여줍니다. next location 이 nil이라면, 다음줄로 떨어져 내려서, 사용자에게 경고합니다. 해 봅시다.
-<code>(walk-direction &lsquo;west)</code>
-<strong>==&gt; (YOU ARE IN A BEAUTIFUL GARDEN.
-THERE IS A WELL IN FRONT OF YOU.
-THERE IS A DOOR GOING EAST FROM HERE.
-YOU SEE A CHAIN ON THE FLOOR.
-YOU SEE A FROG ON THE FLOOR.)
-</strong>
+<p>let이라는 특별한 명령이 플레이어가 가기를 원하는 방향을 경로 묘사 함수에 전달하게 할 지역변수 next을 허가합니다. cdr은 목록에서 첫 번째 항목을 그냥 잘라냅니다. 만일 사용자가 부적합한 방향을 입력했다면, next 변수는 nil이 됩니다. cond 명령은 Lisp에서 if-then 명령의 연쇄와 비슷합니다. 각 줄에는 cond가 검사할 값과 할 행동이 있습니다. 이 경우, next location이 nil이 아니라면, setf명령으로 플레이어의 위치는 새 방향을 묘사하고 있는 기호 목록의 목록의 세 번째 항목이 됩니다. 그 다음 사용자에게 새 장소를 보여줍니다. next location 이 nil이라면, 다음줄로 떨어져 내려서, 사용자에게 경고합니다. 해 봅시다.<br>
+<code>(walk-direction &lsquo;west)</code><br>
+<strong>==&gt; (YOU ARE IN A BEAUTIFUL GARDEN.<br>
+THERE IS A WELL IN FRONT OF YOU.<br>
+THERE IS A DOOR GOING EAST FROM HERE.<br>
+YOU SEE A CHAIN ON THE FLOOR.<br>
+YOU SEE A FROG ON THE FLOOR.)<br>
+</strong><br>
 이제, 플레이어가 치기 편한 look 명령어를 만들어서 묘사 함수를 간략화 할 수 있게 되었습니다. 비슷하게, walk-direction명령도 좀 조정하면 좋을 겁니다. 그럼 플레이어가 따옴표를 치느라 고생할 필요가 없겠죠. 하지만, 배운 대로, 컴파일러가 코드 모드로 형식을 읽기 때문에, 코드 모드에서는 작은 따옴표로 그러지 말라고 하지 않으면 전부 다 인수로 읽힐 겁니다. 컴파일러에게 작은 따옴표 없이도 west 는 그냥 데이터 조각이라고 말해줄 수 있는 방법이 있을까요?</p>
 </div>
 
@@ -107,9 +107,8 @@ YOU SEE A FROG ON THE FLOOR.)
     
     
     
-    
     <nav class="post-nav" aria-label="이전/다음 글">
-        
+        <a class="prev" href="/2009/02/%E7%9C%9F%E3%81%A3%E8%B5%A4%E3%81%AA%E7%A9%BA%E3%82%92%E8%A6%8B%E3%81%9F%E3%81%A0%E3%82%8D%E3%81%86%E3%81%8B-BUMP-OF-CHICKEN/"><small>← 이전 글</small>真っ赤な空を見ただろうか - BUMP OF CHICKEN</a>
         <a class="next" href="/2009/02/%EC%9D%B4%EA%B2%83%EC%9D%B4-%EA%B3%B5%EB%B6%80%EB%8B%A4/"><small>다음 글 →</small>이것이 공부다</a>
     </nav>
     

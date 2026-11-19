@@ -72,7 +72,7 @@
     </div>
 </header>
 
-<div class="post-body"><p>AWS RDS는 default_time_zone을 바꿀 수 없다. 그래서 각 연결마다 time_zone을 새로 셋팅해 주는 편법을 쓰는데, 모든 연결에 <code>SET time_zone = &lsquo;Asia/Seoul&rsquo;;</code>을 설정하는 방법으로 같은 효과를 볼 수 있다.
+<div class="post-body"><p>AWS RDS는 default_time_zone을 바꿀 수 없다. 그래서 각 연결마다 time_zone을 새로 셋팅해 주는 편법을 쓰는데, 모든 연결에 <code>SET time_zone = &lsquo;Asia/Seoul&rsquo;;</code>을 설정하는 방법으로 같은 효과를 볼 수 있다.<br>
 그러기 위해서는 init_connect에다가 값을 넣어주면 된다.</p>
 <p><a href="http://blog.suz-lab.com/2011/03/rdsutc.html">참고 링크</a></p>
 </div>
@@ -92,9 +92,8 @@
     
     
     
-    
     <nav class="post-nav" aria-label="이전/다음 글">
-        
+        <a class="prev" href="/2014/12/Ninject-%EC%B2%AB%EC%9D%B8%EC%83%81/"><small>← 이전 글</small>Ninject 첫인상</a>
         <a class="next" href="/2014/12/VS-2013%EC%97%90%EC%84%9C-%EA%B0%91%EC%9E%90%EA%B8%B0-CPU-%EC%82%AC%EC%9A%A9%EC%9C%A8%EC%9D%B4-%EC%B9%98%EC%86%9F%EB%8A%94-%EA%B2%BD%EC%9A%B0/"><small>다음 글 →</small>VS 2013에서 갑자기 CPU 사용율이 치솟는 경우</a>
     </nav>
     

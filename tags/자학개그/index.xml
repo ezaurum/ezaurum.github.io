@@ -20,7 +20,7 @@
 				<link>https://ezaurum.com/2010/05/%EC%82%B4%EC%9D%B4-%EC%B0%8C%EA%B3%A0-%EC%9E%88%EB%8B%A4/</link>
 				<pubDate>Mon, 03 May 2010 00:00:00 +0000</pubDate>
 				<guid>https://ezaurum.com/2010/05/%EC%82%B4%EC%9D%B4-%EC%B0%8C%EA%B3%A0-%EC%9E%88%EB%8B%A4/</guid>
-				<description>&lt;p&gt;while( is_복무() )&#xA;{&#xA;if (야근())&#xA;{&#xA;야식();&#xA;}&#xA;잠();&#xA;}&lt;/p&gt;&#xA;&lt;p&gt;function 야근()&#xA;{&#xA;return true;&#xA;}&lt;/p&gt;&#xA;&lt;p&gt;function 야식()&#xA;{&#xA;몸+=살;&#xA;}&lt;/p&gt;&#xA;&lt;p&gt;이 프로세스를 죽여야 하는데&amp;hellip; 죽여도 죽여도 되살아나&amp;hellip;&lt;/p&gt;</description>
+				<description>&lt;p&gt;while( is_복무() )&lt;br&gt;&#xA;{&lt;br&gt;&#xA;if (야근())&lt;br&gt;&#xA;{&lt;br&gt;&#xA;야식();&lt;br&gt;&#xA;}&lt;br&gt;&#xA;잠();&lt;br&gt;&#xA;}&lt;/p&gt;&#xA;&lt;p&gt;function 야근()&lt;br&gt;&#xA;{&lt;br&gt;&#xA;return true;&lt;br&gt;&#xA;}&lt;/p&gt;&#xA;&lt;p&gt;function 야식()&lt;br&gt;&#xA;{&lt;br&gt;&#xA;몸+=살;&lt;br&gt;&#xA;}&lt;/p&gt;&#xA;&lt;p&gt;이 프로세스를 죽여야 하는데&amp;hellip; 죽여도 죽여도 되살아나&amp;hellip;&lt;/p&gt;</description>
 			</item>
 	</channel>
 </rss>

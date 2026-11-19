@@ -20,21 +20,21 @@
 				<link>https://ezaurum.com/2014/08/CRUD%EC%97%90-%EB%8C%80%EC%9D%91%ED%95%98%EB%8A%94-Http-Method/</link>
 				<pubDate>Mon, 18 Aug 2014 00:00:00 +0000</pubDate>
 				<guid>https://ezaurum.com/2014/08/CRUD%EC%97%90-%EB%8C%80%EC%9D%91%ED%95%98%EB%8A%94-Http-Method/</guid>
-				<description>&lt;p&gt;Create = Add ≒ AddOrUpdate = Put&#xA;Read = Get&#xA;Update = Post&#xA;Delete&lt;/p&gt;&#xA;&lt;p&gt;순전히 Put/Post 구분을 위해&lt;/p&gt;</description>
+				<description>&lt;p&gt;Create = Add ≒ AddOrUpdate = Put&lt;br&gt;&#xA;Read = Get&lt;br&gt;&#xA;Update = Post&lt;br&gt;&#xA;Delete&lt;/p&gt;&#xA;&lt;p&gt;순전히 Put/Post 구분을 위해&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Designing a Beautiful REST&#43;JSON API</title>
 				<link>https://ezaurum.com/2012/08/Designing-a-Beautiful-REST-JSON-API/</link>
 				<pubDate>Sat, 04 Aug 2012 00:00:00 +0000</pubDate>
 				<guid>https://ezaurum.com/2012/08/Designing-a-Beautiful-REST-JSON-API/</guid>
-				<description>&lt;p&gt;&lt;a href=&#34;http://marakana.com/s/designing_a_beautiful_rest_json_api_video,1221/index.html&#34;&gt;원문 링크&lt;/a&gt;&#xA;설명이 잘 되어 있는 영상.&#xA;개인적으로 포인트를 좀 잡아본다.&#xA;에러&#xA;HTTP 에러 코드를 넣고, 다른 설명이 필요. 가능한 많이.&#xA;ID는 순차를 피하고 숨길 것. UUID 같은 걸 쓰라.&#xA;캐시 - ETag&#xA;가능하면 세션 사용을 피할 것.&#xA;기본적으로 객체가 콜렉션이나 하위 객체를 포함하면, 그걸 다 뿌려주지 말고, 하위객체나 콜렉션에 대한 링크를 제공&#xA;파라마터를 이용해서 객체를 다 뿌릴지 말지를 결정. GET /object?expand=true&#xA;파라마터를 이용해서 필터링과 페이지구분. offset, limit사용.&#xA;페이지 제공하는 경우 next, prev 링크 제공&#xA;다대다 관계의 경우, 조인된 한 행을 하나의 객체로 보고 필요에 따라 필터링&#xA;MEDIA TYPE&#xA;포맷+파싱룰&#xA;request - Accept header&#xA;respons - content-type header&#xA;media type에 변수 넣기&#xA;application/foo+json;bar=baz&#xA;ISO 8601 UTC를 쓰라&#xA;POST vs PUT&#xA;POST는 멱등아님 - 전체 대체&#xA;PUT은 멱등 - 업데이트 or 전체 대체&#xA;app/collection/instance&#xA;POST로 전체 대체를 하는 경우, 부모 자원에다가 요청을 보내면 된다.&#xA;POST /app/collection -&amp;gt; 결과는 201 created. 생성된 주소를 location에 담아서 보내준다.&lt;/p&gt;</description>
+				<description>&lt;p&gt;&lt;a href=&#34;http://marakana.com/s/designing_a_beautiful_rest_json_api_video,1221/index.html&#34;&gt;원문 링크&lt;/a&gt;&lt;br&gt;&#xA;설명이 잘 되어 있는 영상.&lt;br&gt;&#xA;개인적으로 포인트를 좀 잡아본다.&lt;br&gt;&#xA;에러&lt;br&gt;&#xA;HTTP 에러 코드를 넣고, 다른 설명이 필요. 가능한 많이.&lt;br&gt;&#xA;ID는 순차를 피하고 숨길 것. UUID 같은 걸 쓰라.&lt;br&gt;&#xA;캐시 - ETag&lt;br&gt;&#xA;가능하면 세션 사용을 피할 것.&lt;br&gt;&#xA;기본적으로 객체가 콜렉션이나 하위 객체를 포함하면, 그걸 다 뿌려주지 말고, 하위객체나 콜렉션에 대한 링크를 제공&lt;br&gt;&#xA;파라마터를 이용해서 객체를 다 뿌릴지 말지를 결정. GET /object?expand=true&lt;br&gt;&#xA;파라마터를 이용해서 필터링과 페이지구분. offset, limit사용.&lt;br&gt;&#xA;페이지 제공하는 경우 next, prev 링크 제공&lt;br&gt;&#xA;다대다 관계의 경우, 조인된 한 행을 하나의 객체로 보고 필요에 따라 필터링&lt;br&gt;&#xA;MEDIA TYPE&lt;br&gt;&#xA;포맷+파싱룰&lt;br&gt;&#xA;request - Accept header&lt;br&gt;&#xA;respons - content-type header&lt;br&gt;&#xA;media type에 변수 넣기&lt;br&gt;&#xA;application/foo+json;bar=baz&lt;br&gt;&#xA;ISO 8601 UTC를 쓰라&lt;br&gt;&#xA;POST vs PUT&lt;br&gt;&#xA;POST는 멱등아님 - 전체 대체&lt;br&gt;&#xA;PUT은 멱등 - 업데이트 or 전체 대체&lt;br&gt;&#xA;app/collection/instance&lt;br&gt;&#xA;POST로 전체 대체를 하는 경우, 부모 자원에다가 요청을 보내면 된다.&lt;br&gt;&#xA;POST /app/collection -&amp;gt; 결과는 201 created. 생성된 주소를 location에 담아서 보내준다.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Spring multipart upload에서 put 메소드 사용</title>
 				<link>https://ezaurum.com/2012/07/Spring-multipart-upload%EC%97%90%EC%84%9C-put-%EB%A9%94%EC%86%8C%EB%93%9C-%EC%82%AC%EC%9A%A9/</link>
 				<pubDate>Wed, 11 Jul 2012 00:00:00 +0000</pubDate>
 				<guid>https://ezaurum.com/2012/07/Spring-multipart-upload%EC%97%90%EC%84%9C-put-%EB%A9%94%EC%86%8C%EB%93%9C-%EC%82%AC%EC%9A%A9/</guid>
-				<description>&lt;p&gt;&lt;a href=&#34;http://commons.apache.org/fileupload/&#34;&gt;org.apache.commons.fileupload.FileUploadBase 에서 multipart를 POST만 인식하게 되어 있으므로&lt;/a&gt;, 그냥은 안 된다. 자꾸 파라마터가 없다는 에러를 보게 될 것.&#xA;해결방법은 당연히 스택오버플로우에&amp;hellip; &lt;a href=&#34;http://stackoverflow.com/questions/7981640/spring-3-0-fileupload-only-with-post/10041789#10041789&#34;&gt;이 링크 참조&lt;/a&gt;&#xA;이 방법으로 CommonsMultipartResolver를 상속해서 put 메소드도 인식하게 해 주면, put으로 업로드 해도 정상 작동.&#xA;이방법을 쓴 건 3.0이지만, 소스 뜯어보니 아직 3.1도 안 되는 듯 하다.&#xA;당분간 이걸 써야지&amp;hellip;&lt;/p&gt;</description>
+				<description>&lt;p&gt;&lt;a href=&#34;http://commons.apache.org/fileupload/&#34;&gt;org.apache.commons.fileupload.FileUploadBase 에서 multipart를 POST만 인식하게 되어 있으므로&lt;/a&gt;, 그냥은 안 된다. 자꾸 파라마터가 없다는 에러를 보게 될 것.&lt;br&gt;&#xA;해결방법은 당연히 스택오버플로우에&amp;hellip; &lt;a href=&#34;http://stackoverflow.com/questions/7981640/spring-3-0-fileupload-only-with-post/10041789#10041789&#34;&gt;이 링크 참조&lt;/a&gt;&lt;br&gt;&#xA;이 방법으로 CommonsMultipartResolver를 상속해서 put 메소드도 인식하게 해 주면, put으로 업로드 해도 정상 작동.&lt;br&gt;&#xA;이방법을 쓴 건 3.0이지만, 소스 뜯어보니 아직 3.1도 안 되는 듯 하다.&lt;br&gt;&#xA;당분간 이걸 써야지&amp;hellip;&lt;/p&gt;</description>
 			</item>
 	</channel>
 </rss>

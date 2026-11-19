@@ -20,7 +20,7 @@
 				<link>https://ezaurum.com/2014/08/CRUD%EC%97%90-%EB%8C%80%EC%9D%91%ED%95%98%EB%8A%94-Http-Method/</link>
 				<pubDate>Mon, 18 Aug 2014 00:00:00 +0000</pubDate>
 				<guid>https://ezaurum.com/2014/08/CRUD%EC%97%90-%EB%8C%80%EC%9D%91%ED%95%98%EB%8A%94-Http-Method/</guid>
-				<description>&lt;p&gt;Create = Add ≒ AddOrUpdate = Put&#xA;Read = Get&#xA;Update = Post&#xA;Delete&lt;/p&gt;&#xA;&lt;p&gt;순전히 Put/Post 구분을 위해&lt;/p&gt;</description>
+				<description>&lt;p&gt;Create = Add ≒ AddOrUpdate = Put&lt;br&gt;&#xA;Read = Get&lt;br&gt;&#xA;Update = Post&lt;br&gt;&#xA;Delete&lt;/p&gt;&#xA;&lt;p&gt;순전히 Put/Post 구분을 위해&lt;/p&gt;</description>
 			</item>
 	</channel>
 </rss>

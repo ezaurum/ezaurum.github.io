@@ -72,10 +72,10 @@
     </div>
 </header>
 
-<div class="post-body"><p><a href="http://commons.apache.org/fileupload/">org.apache.commons.fileupload.FileUploadBase 에서 multipart를 POST만 인식하게 되어 있으므로</a>, 그냥은 안 된다. 자꾸 파라마터가 없다는 에러를 보게 될 것.
-해결방법은 당연히 스택오버플로우에&hellip; <a href="http://stackoverflow.com/questions/7981640/spring-3-0-fileupload-only-with-post/10041789#10041789">이 링크 참조</a>
-이 방법으로 CommonsMultipartResolver를 상속해서 put 메소드도 인식하게 해 주면, put으로 업로드 해도 정상 작동.
-이방법을 쓴 건 3.0이지만, 소스 뜯어보니 아직 3.1도 안 되는 듯 하다.
+<div class="post-body"><p><a href="http://commons.apache.org/fileupload/">org.apache.commons.fileupload.FileUploadBase 에서 multipart를 POST만 인식하게 되어 있으므로</a>, 그냥은 안 된다. 자꾸 파라마터가 없다는 에러를 보게 될 것.<br>
+해결방법은 당연히 스택오버플로우에&hellip; <a href="http://stackoverflow.com/questions/7981640/spring-3-0-fileupload-only-with-post/10041789#10041789">이 링크 참조</a><br>
+이 방법으로 CommonsMultipartResolver를 상속해서 put 메소드도 인식하게 해 주면, put으로 업로드 해도 정상 작동.<br>
+이방법을 쓴 건 3.0이지만, 소스 뜯어보니 아직 3.1도 안 되는 듯 하다.<br>
 당분간 이걸 써야지&hellip;</p>
 </div>
 
@@ -90,7 +90,6 @@
     
     
 
-    
     
     
     

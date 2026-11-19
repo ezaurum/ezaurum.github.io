@@ -20,7 +20,7 @@
 				<link>https://ezaurum.com/2013/04/Unity3D-3.x-%EB%8C%80%EC%97%90%EC%84%9C-Visual-Studio-%EC%97%B0%EB%8F%99/</link>
 				<pubDate>Tue, 30 Apr 2013 00:00:00 +0000</pubDate>
 				<guid>https://ezaurum.com/2013/04/Unity3D-3.x-%EB%8C%80%EC%97%90%EC%84%9C-Visual-Studio-%EC%97%B0%EB%8F%99/</guid>
-				<description>&lt;p&gt;Edit -&amp;gt; Preferences -&amp;gt; External Script Editor 에서 Browser를 해서 Visual Studio 실행파일을 선택.&#xA;이후에 Assets-&amp;gt;Sync Mono &amp;hellip; 를 하면 Visual Studio가 실행된다.&lt;/p&gt;</description>
+				<description>&lt;p&gt;Edit -&amp;gt; Preferences -&amp;gt; External Script Editor 에서 Browser를 해서 Visual Studio 실행파일을 선택.&lt;br&gt;&#xA;이후에 Assets-&amp;gt;Sync Mono &amp;hellip; 를 하면 Visual Studio가 실행된다.&lt;/p&gt;</description>
 			</item>
 	</channel>
 </rss>

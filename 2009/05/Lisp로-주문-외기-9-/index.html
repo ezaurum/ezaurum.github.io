@@ -75,17 +75,17 @@
 <div class="post-body"><h3>게임의 특별한 동작 만들기</h3>
 <p>이제 완성까지 딱 하나만 더 하면 됩니다. 플레이어가 게임을 끝내기 위한 특별한 동작을 좀 더하는 거죠. 첫 번째 명령은 플레이어가 쇠사슬을 다락방에 있던 양동이에 용접하는 게 될 겁니다.</p>
 <p><code>(setf <em>chain-welded</em> nil)</p>
-<p>(defun weld (subject object)
-(cond ((and (eq <em>location</em> &lsquo;attic)
-(eq subject &lsquo;chain)
-(eq object &lsquo;bucket)
-(have &lsquo;chain)
-(have &lsquo;bucket)
-(not <em>chain-welded</em>))
-(setf <em>chain-welded</em> &rsquo;t)
-&lsquo;(the chain is now securely welded to the bucket.))
+<p>(defun weld (subject object)<br>
+(cond ((and (eq <em>location</em> &lsquo;attic)<br>
+(eq subject &lsquo;chain)<br>
+(eq object &lsquo;bucket)<br>
+(have &lsquo;chain)<br>
+(have &lsquo;bucket)<br>
+(not <em>chain-welded</em>))<br>
+(setf <em>chain-welded</em> &rsquo;t)<br>
+&lsquo;(the chain is now securely welded to the bucket.))<br>
 (t &lsquo;(you cannot weld like that.))))</code></p>
-<p>그러니 일단 이미 행동을 했는지 안했는지 알려주는 새 전역변수를 만듭시다. 다음에, 용접할 수 있는 상황인지 확인하고 용접할 수 있게 해 주는 용접 함수를 만들어 봅시다.
+<p>그러니 일단 이미 행동을 했는지 안했는지 알려주는 새 전역변수를 만듭시다. 다음에, 용접할 수 있는 상황인지 확인하고 용접할 수 있게 해 주는 용접 함수를 만들어 봅시다.<br>
 <img src="/wordpress/wp-content/uploads/2009/05/weld.jpg" alt="weld" title="weld" width="500" height="504" class="alignnone size-full wp-image-618" /></p>
 <p>새 명령을 시험해 볼까요.</p>
 <p><code>(weld &lsquo;chain &lsquo;bucket)</code></p>
@@ -94,14 +94,14 @@
 <p>그럼 이제 쇠사슬과 양동이를 우물에 집어넣는 명령을 만들어 볼까요?</p>
 <code>
 (setf *bucket-filled* nil)
-<p>(defun dunk (subject object)
-(cond ((and (eq <em>location</em> &lsquo;garden)
-(eq subject &lsquo;bucket)
-(eq object &lsquo;well)
-(have &lsquo;bucket)
-<em>chain-welded</em>)
-(setf <em>bucket-filled</em> &rsquo;t) &lsquo;(the bucket is now full of water))
-(t &lsquo;(you cannot dunk like that.))))
+<p>(defun dunk (subject object)<br>
+(cond ((and (eq <em>location</em> &lsquo;garden)<br>
+(eq subject &lsquo;bucket)<br>
+(eq object &lsquo;well)<br>
+(have &lsquo;bucket)<br>
+<em>chain-welded</em>)<br>
+(setf <em>bucket-filled</em> &rsquo;t) &lsquo;(the bucket is now full of water))<br>
+(t &lsquo;(you cannot dunk like that.))))<br>
 </code></p>
 <p>주의를 기울였다면 이제, 이 명령이 용접 명령과 흡사하다는 걸 알아챘을 겁니다. 두 명령은 위치, 대상, 조건을 검사할 필요가 있습니다. 하지만 둘은 다른 점이 충분히 많아서, 비슷한 부분을 하나로 묶을 수가 없습니다. 슬프군요&hellip;</p>
 <p>&hellip;하지만 이건 Lisp니까, 그냥 함수를 쓰는 것보단 더 많은 일을 할 수 있어요. 주문(SPEL)을 욀 수 있죠! 아래의 주문(SPEL)을 만들어 봅시다.</p>
@@ -133,23 +133,23 @@
 ...아직도 용접하기엔 적합한 상황이 아니군요, 하지만 명령은 제대로 돌아가고 있어요.
 <img src="/wordpress/wp-content/uploads/2009/05/dunk.jpg" alt="dunk" title="dunk" width="500" height="298" class="alignnone size-full wp-image-620" />
 <p>다음엔 dunk 명령을 새로 짜 봅시다.</p>
-<p><code>(game-action dunk bucket well garden
-(cond (<em>chain-welded</em> (setf <em>bucket-filled</em> &rsquo;t) &lsquo;(the bucket is now full of water))
+<p><code>(game-action dunk bucket well garden<br>
+(cond (<em>chain-welded</em> (setf <em>bucket-filled</em> &rsquo;t) &lsquo;(the bucket is now full of water))<br>
 (t &lsquo;(the water level is too low to reach.))))</code></p>
 <p>용접(weld)명령이 어떻게 용접할 물체를 가지고 있는지 검사했는지에 주목하세요, 하지만 dunk 명령은 이 단계를 건너뜁니다. - 새 game-action 주문(SPEL)이 코드를 더 쉽게 쓰고 이해하도록 만들어줬습니다.</p>
 <img src="/wordpress/wp-content/uploads/2009/05/splash.jpg" alt="splash" title="splash" width="500" height="397" class="alignnone size-full wp-image-622" />
-<p>이제 마법사에게 물을 쏟아붇는 마지막 코드입니다.
-<code>
-(game-action splash bucket wizard living-room
-(cond ((not <em>bucket-filled</em>) &lsquo;(the bucket has nothing in it.))
-((have &lsquo;frog) &lsquo;(the wizard awakens and sees that you stole his frog.
-he is so upset he banishes you to the
-netherworlds- you lose! the end.))
-(t &lsquo;(the wizard awakens from his slumber and greets you warmly.
+<p>이제 마법사에게 물을 쏟아붇는 마지막 코드입니다.<br>
+<code><br>
+(game-action splash bucket wizard living-room<br>
+(cond ((not <em>bucket-filled</em>) &lsquo;(the bucket has nothing in it.))<br>
+((have &lsquo;frog) &lsquo;(the wizard awakens and sees that you stole his frog.<br>
+he is so upset he banishes you to the<br>
+netherworlds- you lose! the end.))<br>
+(t &lsquo;(the wizard awakens from his slumber and greets you warmly.<br>
 he hands you the magic low-carb donut- you win! the end.))))</code></p>
 <img src="/wordpress/wp-content/uploads/2009/05/donut.jpg" alt="donut" title="donut" width="500" height="447" class="alignnone size-full wp-image-619" />
 <strong>텍스트 어드벤처 게임을 완전히 다 만들었습니다!!</strong>
-<p>게임의 전체 진행을 보려면 <a href="http://lisperati.com/cheat.html">여기</a>를 클릭
+<p>게임의 전체 진행을 보려면 <a href="http://lisperati.com/cheat.html">여기</a>를 클릭<br>
 Lisp프롬프트에 한 번 Copy&amp;Paste 로 끝날 수 있는 소스코드를 보려면 <a href="http://lisperati.com/code.html">여기</a>를 클릭</p>
 <p>이 연습서를 가능한 간단히 만들기 위해, Lisp가 어떻게 작동하는가 하는 많은 세부 사항은 주석 처리되거나 별도 페이지로 넘어갔습니다. 그러니 그 세부 사항이 어떤지 봅시다&hellip;.</p>
 </div>
@@ -165,7 +165,6 @@ Lisp프롬프트에 한 번 Copy&amp;Paste 로 끝날 수 있는 소스코드를
     
     
 
-    
     
     
     

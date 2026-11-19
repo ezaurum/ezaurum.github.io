@@ -20,7 +20,7 @@
 				<link>https://ezaurum.com/2008/11/Ubuntu-Apache2-%EC%82%AC%EC%9A%A9%EC%9E%90%EB%B3%84-%EC%9B%B9-%EB%94%94%EB%A0%89%ED%86%A0%EB%A6%AC-%EC%84%A4%EC%A0%95/</link>
 				<pubDate>Sat, 29 Nov 2008 00:00:00 +0000</pubDate>
 				<guid>https://ezaurum.com/2008/11/Ubuntu-Apache2-%EC%82%AC%EC%9A%A9%EC%9E%90%EB%B3%84-%EC%9B%B9-%EB%94%94%EB%A0%89%ED%86%A0%EB%A6%AC-%EC%84%A4%EC%A0%95/</guid>
-				<description>&lt;p&gt;&lt;a href=&#34;http://leeted.egloos.com/1489000&#34;&gt;&lt;a href=&#34;http://leeted.egloos.com/1489000&#34;&gt;http://leeted.egloos.com/1489000&lt;/a&gt;&lt;/a&gt;&#xA;위 링크 참고 했음.&lt;/p&gt;&#xA;&lt;p&gt;콘솔에서 입력.&lt;/p&gt;&#xA;&lt;p&gt;cd /etc/apache2/mods-available&#xA;sudo cp userdir.conf userdir.load /etc/apache2/mods-enabled&#xA;sudo /etc/init.d/apache2 restart&lt;/p&gt;&#xA;&lt;p&gt;이후, 각 유자가 자기 홈 디렉 토리에다 public_html을 만들어주면 된다. 아래와 같은 식?&#xA;cd ~&#xA;mkdir public_html&#xA;public_html 디렉토리 아래에 index.html 생성&lt;/p&gt;</description>
+				<description>&lt;p&gt;&lt;a href=&#34;http://leeted.egloos.com/1489000&#34;&gt;&lt;a href=&#34;http://leeted.egloos.com/1489000&#34;&gt;http://leeted.egloos.com/1489000&lt;/a&gt;&lt;/a&gt;&lt;br&gt;&#xA;위 링크 참고 했음.&lt;/p&gt;&#xA;&lt;p&gt;콘솔에서 입력.&lt;/p&gt;&#xA;&lt;p&gt;cd /etc/apache2/mods-available&lt;br&gt;&#xA;sudo cp userdir.conf userdir.load /etc/apache2/mods-enabled&lt;br&gt;&#xA;sudo /etc/init.d/apache2 restart&lt;/p&gt;&#xA;&lt;p&gt;이후, 각 유자가 자기 홈 디렉 토리에다 public_html을 만들어주면 된다. 아래와 같은 식?&lt;br&gt;&#xA;cd ~&lt;br&gt;&#xA;mkdir public_html&lt;br&gt;&#xA;public_html 디렉토리 아래에 index.html 생성&lt;/p&gt;</description>
 			</item>
 	</channel>
 </rss>

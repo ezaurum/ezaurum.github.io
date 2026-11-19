@@ -20,7 +20,7 @@
 				<link>https://ezaurum.com/2013/07/Jackson%EC%9D%B4-null-%EC%9D%B8-%ED%94%84%EB%A1%9C%ED%8D%BC%ED%8B%B0%EB%A5%BC-%EB%B9%BC%EA%B3%A0-Serialize%ED%95%98%EA%B2%8C-%ED%95%98%EA%B8%B0/</link>
 				<pubDate>Thu, 25 Jul 2013 00:00:00 +0000</pubDate>
 				<guid>https://ezaurum.com/2013/07/Jackson%EC%9D%B4-null-%EC%9D%B8-%ED%94%84%EB%A1%9C%ED%8D%BC%ED%8B%B0%EB%A5%BC-%EB%B9%BC%EA%B3%A0-Serialize%ED%95%98%EA%B2%8C-%ED%95%98%EA%B8%B0/</guid>
-				<description>&lt;p&gt;클래스 선언부에 다음을 추가 &lt;code&gt;&#xA;@JsonSerialize(include = JsonSerialize.Inclusion.NON_NULL)&#xA;public class Blabla { &amp;hellip; }&#xA;&lt;/code&gt;&#xA;상속도 된다.&lt;/p&gt;</description>
+				<description>&lt;p&gt;클래스 선언부에 다음을 추가 &lt;code&gt;&lt;br&gt;&#xA;@JsonSerialize(include = JsonSerialize.Inclusion.NON_NULL)&lt;br&gt;&#xA;public class Blabla { &amp;hellip; }&lt;br&gt;&#xA;&lt;/code&gt;&lt;br&gt;&#xA;상속도 된다.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Spring mvc에서 로직에 이상이 없는데 406에러가 날 때</title>

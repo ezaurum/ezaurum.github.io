@@ -48,7 +48,7 @@
 				<link>https://ezaurum.com/bug/create-table-faield/</link>
 				<pubDate>Sun, 31 Jan 2021 13:11:01 +0900</pubDate>
 				<guid>https://ezaurum.com/bug/create-table-faield/</guid>
-				<description>&lt;p&gt;문제상황 - 틀린 게 없는데 테이블 생성 시 Foreign key constraint is incorrectly formed 가 계속 나올 때&lt;/p&gt;&#xA;&lt;p&gt;원인 - A 테이블에서 B 테이블의 a 에 대해서 FK를 만들었을 때, B테이블을 새로 생성하려면 A테이블의 이전 FK에 지정된 컬럼값과 새로 만들 값이 동일해야 한다.&#xA;B 테이블을 지우고 나도 A 테이블에 있는 a에 대한 FK는 유지됨&lt;/p&gt;&#xA;&lt;p&gt;해결방안 - A테이블의 FK를 삭제 후 재생성&#xA;재발 방지를 위해 - 테이블을 삭제할 때는 참조하는 FK를 모두 지우고 해 볼것&lt;/p&gt;</description>
+				<description>&lt;p&gt;문제상황 - 틀린 게 없는데 테이블 생성 시 Foreign key constraint is incorrectly formed 가 계속 나올 때&lt;/p&gt;&#xA;&lt;p&gt;원인 - A 테이블에서 B 테이블의 a 에 대해서 FK를 만들었을 때, B테이블을 새로 생성하려면 A테이블의 이전 FK에 지정된 컬럼값과 새로 만들 값이 동일해야 한다.&lt;br&gt;&#xA;B 테이블을 지우고 나도 A 테이블에 있는 a에 대한 FK는 유지됨&lt;/p&gt;&#xA;&lt;p&gt;해결방안 - A테이블의 FK를 삭제 후 재생성&lt;br&gt;&#xA;재발 방지를 위해 - 테이블을 삭제할 때는 참조하는 FK를 모두 지우고 해 볼것&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>2020년 전체 회고</title>
@@ -90,7 +90,7 @@
 				<link>https://ezaurum.com/bug/cloud-front-access-denied/</link>
 				<pubDate>Thu, 20 Jun 2019 22:31:05 +0900</pubDate>
 				<guid>https://ezaurum.com/bug/cloud-front-access-denied/</guid>
-				<description>&lt;h2 id=&#34;문제-상황&#34;&gt;문제 상황&lt;/h2&gt;&#xA;&lt;p&gt;CloudFront 를 웹사이트로 쓰기로 하고 S3의 파일을 연동했는데 메인 화면에서 AccessDenied가 뜸&#xA;읽기 권한은 있는 상태&lt;/p&gt;&#xA;&lt;h2 id=&#34;문제-원인&#34;&gt;문제 원인&lt;/h2&gt;&#xA;&lt;p&gt;CloudFront의 ᅟDefaultObject가 지정되지 않았다.&#xA;목록을 읽어오는 권한은 없으니 AccessDenied가 뜬 것&lt;/p&gt;&#xA;&lt;h2 id=&#34;재발-방지를-위해&#34;&gt;재발 방지를 위해&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;가끔 하는 작업은 진행 순서표 등을 이용해서 보고 따라한다.&lt;/li&gt;&#xA;&lt;li&gt;작업을 하면 진행 순서표를 만든다.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+				<description>&lt;h2 id=&#34;문제-상황&#34;&gt;문제 상황&lt;/h2&gt;&#xA;&lt;p&gt;CloudFront 를 웹사이트로 쓰기로 하고 S3의 파일을 연동했는데 메인 화면에서 AccessDenied가 뜸&lt;br&gt;&#xA;읽기 권한은 있는 상태&lt;/p&gt;&#xA;&lt;h2 id=&#34;문제-원인&#34;&gt;문제 원인&lt;/h2&gt;&#xA;&lt;p&gt;CloudFront의 ᅟDefaultObject가 지정되지 않았다.&lt;br&gt;&#xA;목록을 읽어오는 권한은 없으니 AccessDenied가 뜬 것&lt;/p&gt;&#xA;&lt;h2 id=&#34;재발-방지를-위해&#34;&gt;재발 방지를 위해&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;가끔 하는 작업은 진행 순서표 등을 이용해서 보고 따라한다.&lt;/li&gt;&#xA;&lt;li&gt;작업을 하면 진행 순서표를 만든다.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
 			</item>
 			<item>
 				<title>too many connection</title>
@@ -139,7 +139,7 @@
 				<link>https://ezaurum.com/bug/ajax-response-is-invalid-but-valid/</link>
 				<pubDate>Fri, 02 Nov 2018 02:08:41 +0900</pubDate>
 				<guid>https://ezaurum.com/bug/ajax-response-is-invalid-but-valid/</guid>
-				<description>&lt;p&gt;문제상황 - AJAX요청을 직접 구현해야 할 일이 생겨서 검색 후 복붙하고,  XHR을 써서 요청을 보내고, 응답을 받았는데, 이상하게 json parse에러가 나고 콘솔에 reponse를 찍어보니 빈 상태로 왔다. 그런데도 응답이 정상적으로 처리가 되었다.&lt;/p&gt;&#xA;&lt;p&gt;원인 - &lt;a href=&#34;https://xhr.spec.whatwg.org/#handler-xhr-onreadystatechange&#34;&gt;스펙문서&lt;/a&gt;를 보면 readystate 3이란 게 있고, 그 단계에서는 response가 다 도달하지 않은 상태다.&#xA;그 상태에서 콘솔에 찍으니 당연히 이상하게 나왔고, 코드가 진행되면서 값이 들어가니 처음에 파스 에러가 났다가 아래쪽 재시도에서는 정상이 된 거다. 결국 참고한 코드가 잘못되어 있었는데, 무작정 복붙해서 일어난 문제.&lt;/p&gt;</description>
+				<description>&lt;p&gt;문제상황 - AJAX요청을 직접 구현해야 할 일이 생겨서 검색 후 복붙하고,  XHR을 써서 요청을 보내고, 응답을 받았는데, 이상하게 json parse에러가 나고 콘솔에 reponse를 찍어보니 빈 상태로 왔다. 그런데도 응답이 정상적으로 처리가 되었다.&lt;/p&gt;&#xA;&lt;p&gt;원인 - &lt;a href=&#34;https://xhr.spec.whatwg.org/#handler-xhr-onreadystatechange&#34;&gt;스펙문서&lt;/a&gt;를 보면 readystate 3이란 게 있고, 그 단계에서는 response가 다 도달하지 않은 상태다.&lt;br&gt;&#xA;그 상태에서 콘솔에 찍으니 당연히 이상하게 나왔고, 코드가 진행되면서 값이 들어가니 처음에 파스 에러가 났다가 아래쪽 재시도에서는 정상이 된 거다. 결국 참고한 코드가 잘못되어 있었는데, 무작정 복붙해서 일어난 문제.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Font Awesome이 적용되지 않았던 문제</title>
@@ -160,7 +160,7 @@
 				<link>https://ezaurum.com/bug/vue-style-scoped/</link>
 				<pubDate>Fri, 31 Aug 2018 22:31:05 +0900</pubDate>
 				<guid>https://ezaurum.com/bug/vue-style-scoped/</guid>
-				<description>&lt;h2 id=&#34;문제-상황&#34;&gt;문제 상황&lt;/h2&gt;&#xA;&lt;p&gt;Vue 프로그래밍 중 외부 모듈을 사용했는데, 해당 모듈의 기본 css를 덮어씌우려고 불러오는 vue 페이지의 style을 변경했다.&#xA;클래스 이름을 분명히 지정했고, !important도 먹히지 않았음&lt;/p&gt;&#xA;&lt;h2 id=&#34;문제-원인&#34;&gt;문제 원인&lt;/h2&gt;&#xA;&lt;p&gt;알고 보니 style 태그에 scoped가 지정되어 있어서 자동으로 한정자가 붙어버린다. 그러니 단순히 클래스만 지정해서는 해당 모듈에 반영되지 않았다.&lt;/p&gt;&#xA;&lt;h2 id=&#34;재발-방지를-위해&#34;&gt;재발 방지를 위해&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;외부 모듈의 경우는 style태그를 따로 하나 더 만들어서 처리한다.&lt;/li&gt;&#xA;&lt;li&gt;CSS를 해당 외부 모듈을 감싸는 부모 태그를 포함해서 선언 한다.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+				<description>&lt;h2 id=&#34;문제-상황&#34;&gt;문제 상황&lt;/h2&gt;&#xA;&lt;p&gt;Vue 프로그래밍 중 외부 모듈을 사용했는데, 해당 모듈의 기본 css를 덮어씌우려고 불러오는 vue 페이지의 style을 변경했다.&lt;br&gt;&#xA;클래스 이름을 분명히 지정했고, !important도 먹히지 않았음&lt;/p&gt;&#xA;&lt;h2 id=&#34;문제-원인&#34;&gt;문제 원인&lt;/h2&gt;&#xA;&lt;p&gt;알고 보니 style 태그에 scoped가 지정되어 있어서 자동으로 한정자가 붙어버린다. 그러니 단순히 클래스만 지정해서는 해당 모듈에 반영되지 않았다.&lt;/p&gt;&#xA;&lt;h2 id=&#34;재발-방지를-위해&#34;&gt;재발 방지를 위해&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;외부 모듈의 경우는 style태그를 따로 하나 더 만들어서 처리한다.&lt;/li&gt;&#xA;&lt;li&gt;CSS를 해당 외부 모듈을 감싸는 부모 태그를 포함해서 선언 한다.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
 			</item>
 			<item>
 				<title>2009 하반기 - 2018 상반기 일/공부 회고</title>
@@ -195,7 +195,7 @@
 				<link>https://ezaurum.com/retrospective/2017-retrorespective/</link>
 				<pubDate>Mon, 01 Jan 2018 20:36:02 +0700</pubDate>
 				<guid>https://ezaurum.com/retrospective/2017-retrorespective/</guid>
-				<description>&lt;p&gt;실패 덕에 성공할 수 있었던 한 해였다.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;인간은 변하지 않고, 꿈은 이루어지지 않는다.&lt;/li&gt;&#xA;&lt;li&gt;그러니 적당한 환경과 좋은 도구가 필요하다.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;남의-회사에서의-일&#34;&gt;남의 회사에서의 일&lt;/h2&gt;&#xA;&lt;p&gt;작년부터 올해까지는 살면서 처음으로 이른바 &lt;em&gt;관리&lt;/em&gt;, &lt;em&gt;일 배분&lt;/em&gt; 그런 거에 신경 써 본 해였다.&#xA;대부분 실패했다. &lt;strong&gt;남&lt;/strong&gt;의 회사라는 걸 항상 마음에 두고 있지 않아서였다.&lt;/p&gt;&#xA;&lt;h3 id=&#34;돈-벌기&#34;&gt;돈 벌기&lt;/h3&gt;&#xA;&lt;p&gt;대박을 노린 것들은 지금까지 처럼 역시 안 되었다.&lt;/p&gt;&#xA;&lt;h4 id=&#34;원인&#34;&gt;원인&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;여전히 남에게 기대했다.&lt;/li&gt;&#xA;&lt;li&gt;남의 부족한 부분을 채워주면 그사람이 성공으로 가는 길을 열어줄 거라 생각했다.&lt;/li&gt;&#xA;&lt;li&gt;내가 할 수 없는 부분도 내가 하려고 했다.&lt;/li&gt;&#xA;&lt;li&gt;지쳐 있는데 일을 그만두지 않았다.&lt;/li&gt;&#xA;&lt;li&gt;믿지 못하면서 같이 일했다.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;해결제안&#34;&gt;해결제안&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;그냥 혼자 하자.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;남&lt;/strong&gt;의 일이라는 것을 마음에 두자. 무리하는 것은 책임감이 아니다.&lt;/li&gt;&#xA;&lt;li&gt;믿지 못하면 하지 말고, 했으면 믿자.&lt;/li&gt;&#xA;&lt;li&gt;힘들면 그만두자. 일은 쉬워야 한다. 자기 자리에 있기 위해서 노오오오력 해야 한다면 뭔가 잘못한 거다.&lt;/li&gt;&#xA;&lt;li&gt;계획과 원칙을 생각하자. 목표에서 벗어나지 않도록 하자.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;회사에서의-커뮤니케이션&#34;&gt;회사에서의 커뮤니케이션&lt;/h3&gt;&#xA;&lt;p&gt;확실한 실패&lt;/p&gt;</description>
+				<description>&lt;p&gt;실패 덕에 성공할 수 있었던 한 해였다.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;인간은 변하지 않고, 꿈은 이루어지지 않는다.&lt;/li&gt;&#xA;&lt;li&gt;그러니 적당한 환경과 좋은 도구가 필요하다.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;남의-회사에서의-일&#34;&gt;남의 회사에서의 일&lt;/h2&gt;&#xA;&lt;p&gt;작년부터 올해까지는 살면서 처음으로 이른바 &lt;em&gt;관리&lt;/em&gt;, &lt;em&gt;일 배분&lt;/em&gt; 그런 거에 신경 써 본 해였다.&lt;br&gt;&#xA;대부분 실패했다. &lt;strong&gt;남&lt;/strong&gt;의 회사라는 걸 항상 마음에 두고 있지 않아서였다.&lt;/p&gt;&#xA;&lt;h3 id=&#34;돈-벌기&#34;&gt;돈 벌기&lt;/h3&gt;&#xA;&lt;p&gt;대박을 노린 것들은 지금까지 처럼 역시 안 되었다.&lt;/p&gt;&#xA;&lt;h4 id=&#34;원인&#34;&gt;원인&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;여전히 남에게 기대했다.&lt;/li&gt;&#xA;&lt;li&gt;남의 부족한 부분을 채워주면 그사람이 성공으로 가는 길을 열어줄 거라 생각했다.&lt;/li&gt;&#xA;&lt;li&gt;내가 할 수 없는 부분도 내가 하려고 했다.&lt;/li&gt;&#xA;&lt;li&gt;지쳐 있는데 일을 그만두지 않았다.&lt;/li&gt;&#xA;&lt;li&gt;믿지 못하면서 같이 일했다.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;해결제안&#34;&gt;해결제안&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;그냥 혼자 하자.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;남&lt;/strong&gt;의 일이라는 것을 마음에 두자. 무리하는 것은 책임감이 아니다.&lt;/li&gt;&#xA;&lt;li&gt;믿지 못하면 하지 말고, 했으면 믿자.&lt;/li&gt;&#xA;&lt;li&gt;힘들면 그만두자. 일은 쉬워야 한다. 자기 자리에 있기 위해서 노오오오력 해야 한다면 뭔가 잘못한 거다.&lt;/li&gt;&#xA;&lt;li&gt;계획과 원칙을 생각하자. 목표에서 벗어나지 않도록 하자.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;회사에서의-커뮤니케이션&#34;&gt;회사에서의 커뮤니케이션&lt;/h3&gt;&#xA;&lt;p&gt;확실한 실패&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>인수 전달이 잘못된 문제</title>

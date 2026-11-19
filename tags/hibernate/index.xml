@@ -34,7 +34,7 @@
 				<link>https://ezaurum.com/2011/08/%EC%84%B1%EA%B3%BC%EB%AC%BC-2011%EB%85%84-8%EC%9B%94-%EB%A7%90/</link>
 				<pubDate>Sun, 28 Aug 2011 00:00:00 +0000</pubDate>
 				<guid>https://ezaurum.com/2011/08/%EC%84%B1%EA%B3%BC%EB%AC%BC-2011%EB%85%84-8%EC%9B%94-%EB%A7%90/</guid>
-				<description>&lt;p&gt;spring+hibernate로 짠 게시판 2개.&#xA;하나는 TDD적용(100%는 아님), 하나는 미적용.&#xA;기간은 똑같이 2주 걸렸지만, 역시 TDD 적용한 쪽이 상태가 낫다.&#xA;두 번째 건 RESTful하게 @MVC로 해 봤음.&#xA;어느 정도 확장성도 있고&amp;hellip;&#xA;다음번 물건은 좀 더 괜찮은 걸로!&lt;/p&gt;&#xA;&lt;p&gt;아, 추가로 토비의 스프링3 완독 정도가 있겠군.&lt;/p&gt;</description>
+				<description>&lt;p&gt;spring+hibernate로 짠 게시판 2개.&lt;br&gt;&#xA;하나는 TDD적용(100%는 아님), 하나는 미적용.&lt;br&gt;&#xA;기간은 똑같이 2주 걸렸지만, 역시 TDD 적용한 쪽이 상태가 낫다.&lt;br&gt;&#xA;두 번째 건 RESTful하게 @MVC로 해 봤음.&lt;br&gt;&#xA;어느 정도 확장성도 있고&amp;hellip;&lt;br&gt;&#xA;다음번 물건은 좀 더 괜찮은 걸로!&lt;/p&gt;&#xA;&lt;p&gt;아, 추가로 토비의 스프링3 완독 정도가 있겠군.&lt;/p&gt;</description>
 			</item>
 	</channel>
 </rss>

@@ -112,7 +112,7 @@
 </ol>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>timedatectl set-ntp true
 </span></span></code></pre></div><ol start="3">
-<li>키보드 레이아웃 및 폰트 설정
+<li>키보드 레이아웃 및 폰트 설정<br>
 보통은 미국 키보드 형태를 쓸 테니 필요는 없음</li>
 </ol>
 <h2 id="3-파티션-설정">3. 파티션 설정</h2>
@@ -122,18 +122,18 @@
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ls /sys/firmware/efi/efivars
 </span></span></code></pre></div><p>여기 뭔가 파일이 있으면 UEFI로 부팅된 것</p>
 <ol start="2">
-<li><code>cfdisk</code>로  파티션 나누기
-<code>fdisk</code>나 뭐 다른 걸 써도 관계없다.
-<code>lsblk</code>로 대상 disk의 경로를 알아내서 실행. 자기 환경에 맞춰서 경로 변경해야 함
-<code>cfdisk /dev/nvme0n1</code>
-<a href="https://wiki.archlinux.org/index.php/Partitioning#UEFI/GPT_example_layout">UEFI 파티셔닝 예제</a>
+<li><code>cfdisk</code>로  파티션 나누기<br>
+<code>fdisk</code>나 뭐 다른 걸 써도 관계없다.<br>
+<code>lsblk</code>로 대상 disk의 경로를 알아내서 실행. 자기 환경에 맞춰서 경로 변경해야 함<br>
+<code>cfdisk /dev/nvme0n1</code><br>
+<a href="https://wiki.archlinux.org/index.php/Partitioning#UEFI/GPT_example_layout">UEFI 파티셔닝 예제</a><br>
 개인적으로는 /boot 에 512M, swap에 4G, / 에 나머지를 지정하고 /home을 따로 잡지는 않는다.</li>
 </ol>
 <p>혹시 파티션을 지울 수 없다는 에러가 뜨면 파일 시스템을 지정해 준 다음 시도한다.</p>
 <ol start="3">
-<li>파티션 포맷
-UEFI는 FAT12, FAT16, FAT32를 지원한다.
-부트 파티션은 다른 OS와 같이 쓸 일도 있고 해서 fat32를 권장한다.
+<li>파티션 포맷<br>
+UEFI는 FAT12, FAT16, FAT32를 지원한다.<br>
+부트 파티션은 다른 OS와 같이 쓸 일도 있고 해서 fat32를 권장한다.<br>
 <a href="https://wiki.archlinux.org/index.php/EFI_system_partition">EFI 파티션</a> 참조</li>
 </ol>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>mkfs.fat -F32 /dev/nvme0n1p2
@@ -145,7 +145,7 @@ UEFI는 FAT12, FAT16, FAT32를 지원한다.
 </span></span></code></pre></div><p>잘 되었는지 확인하고 싶으면</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>swapon --show
 </span></span></code></pre></div><ol start="4">
-<li>파티션 마운트
+<li>파티션 마운트<br>
 nvme0n1p3 에 루트 파티션, nvme0n1p1에 boot 파티션을 만들었으므로 거기에 맞춰 마운트를 해 준다. 경로는 자기 환경에 맞추어 변경해 줄 것</li>
 </ol>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>mount /dev/nvme0n1p3 /mnt
@@ -156,7 +156,7 @@ nvme0n1p3 에 루트 파티션, nvme0n1p1에 boot 파티션을 만들었으므�
 <p>최소 기본 패키지는 라이브USB 상태에서 설치하고, 나머지는 <code>chroot</code>로 실제 시스템으로 들어간 다음 설치함</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>pacstrap /mnt linux linux-firmware base base-devel vim dhcpcd
 </span></span></code></pre></div><ol>
-<li>시스템 설정
+<li>시스템 설정<br>
 파일 시스템과 스왑 공간을 인식시킴 -L은 라벨 -U는 uuid</li>
 </ol>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>genfstab -U /mnt &gt;&gt; /mnt/etc/fstab
@@ -164,19 +164,19 @@ nvme0n1p3 에 루트 파티션, nvme0n1p1에 boot 파티션을 만들었으므�
 <li>루트 변경</li>
 </ol>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>arch-chroot /mnt
-</span></span></code></pre></div><p>드디어 설치된 시스템으로 들어왔다.
+</span></span></code></pre></div><p>드디어 설치된 시스템으로 들어왔다.<br>
 실제로 부팅된 것과 동일한 상태.</p>
 <h2 id="5기본-설정">5.기본 설정</h2>
 <ol>
-<li>로케일 설정
-/etc/locale.conf 에서 en_US.UTF-8 을 찾아서 주석을 제거한다.
+<li>로케일 설정<br>
+/etc/locale.conf 에서 en_US.UTF-8 을 찾아서 주석을 제거한다.<br>
 한국어 ko_KR.UTF-8을 지금 해제하면 에러메세지가 한글로 나오는데 폰트가 없어서 알아볼 수 없는 사태가 생긴다. 나중에 처리할것.</li>
 </ol>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ln -sf /usr/share/zoneinfo/Asis/Seoul /etc/localtime
 </span></span><span style="display:flex;"><span>hwclock --systohc
 </span></span><span style="display:flex;"><span>locale-gen
 </span></span></code></pre></div><ol start="2">
-<li>무선 설정
+<li>무선 설정<br>
 <em>막 설치한 시스템에는 무선랜이 설지되어 있지 않다</em>. 지금 연결이 되어 있는 것은 usb에서 부팅한 아치 리눅스. 그러니 일단 설치를 해야 함</li>
 </ol>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>pacman -S wpa_supplicant networkmanager
@@ -186,8 +186,8 @@ nvme0n1p3 에 루트 파티션, nvme0n1p1에 boot 파티션을 만들었으므�
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>passwd
 </span></span></code></pre></div><p>비번은 꼭 지정</p>
 <ol start="11">
-<li>부트 로더
-(Systemd-boot)[https://wiki.archlinux.org/index.php/Systemd-boot#Installation]를 부팅에 쓸 예정이다. Grub는 너무 복잡해서.
+<li>부트 로더<br>
+(Systemd-boot)[https://wiki.archlinux.org/index.php/Systemd-boot#Installation]를 부팅에 쓸 예정이다. Grub는 너무 복잡해서.<br>
 아까 /boot 에 부트 파티션을 마운트 했으니 거기에 맞춰 설치</li>
 </ol>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>bootctl --path<span style="color:#f92672">=</span>/boot install
@@ -202,7 +202,7 @@ nvme0n1p3 에 루트 파티션, nvme0n1p1에 boot 파티션을 만들었으므�
 </span></span><span style="display:flex;"><span>timeout  <span style="color:#ae81ff">4</span>
 </span></span><span style="display:flex;"><span>console-mode max
 </span></span><span style="display:flex;"><span>editor   no
-</span></span></code></pre></div><p>저기에 맞추어 arch 엔트리를 추가 위치는 <code>/boot/loader/entries/arch.conf</code>
+</span></span></code></pre></div><p>저기에 맞추어 arch 엔트리를 추가 위치는 <code>/boot/loader/entries/arch.conf</code><br>
 엔트리 설정은 아래와 같다. options 의 root 값은 /etc/fstab을 참조하여 설정</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>title          Arch Linux
 </span></span><span style="display:flex;"><span>linux          /vmlinuz-linux
@@ -212,8 +212,8 @@ nvme0n1p3 에 루트 파티션, nvme0n1p1에 boot 파티션을 만들었으므�
 <p>exit 나 Ctl+D 로 빠져나온다음</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>umount /mnt/boot
 </span></span><span style="display:flex;"><span>umount /mnt
-</span></span></code></pre></div><p>해당 명령으로 하나씩 마운트를 해제한다. 파티션을 추가로 나눈 게 있다면 더 해 줘야 하고, 루트는 제일 나중에 하면 된다.
-바로 리붓해도 되지만, 혹시나 작업이 덜 끝나서 락이 걸린게 있다면 그걸 확인하기 위한 과정.
+</span></span></code></pre></div><p>해당 명령으로 하나씩 마운트를 해제한다. 파티션을 추가로 나눈 게 있다면 더 해 줘야 하고, 루트는 제일 나중에 하면 된다.<br>
+바로 리붓해도 되지만, 혹시나 작업이 덜 끝나서 락이 걸린게 있다면 그걸 확인하기 위한 과정.<br>
 <code>reboot</code> 으로 재시작.</p>
 <h2 id="7-리부트-이후-wifi가-안-될-때">7. 리부트 이후 WIFI가 안 될 때</h2>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>systemctl enable dhcpcd
@@ -236,7 +236,7 @@ nvme0n1p3 에 루트 파티션, nvme0n1p1에 boot 파티션을 만들었으므�
     
     
     <section class="series-box">
-        <h2>시리즈 · <a href="/series/Arch-Linux-Setup/">Arch-Linux-Setup</a></h2>
+        <h2>시리즈 · <a href="/series/Arch-Linux-Setup/">Arch Linux Setup</a></h2>
         <ol>
         
             <li aria-current="page"><span>Install Arch Linux</span></li>
@@ -250,7 +250,6 @@ nvme0n1p3 에 루트 파티션, nvme0n1p1에 boot 파티션을 만들었으므�
     </section>
     
 
-    
     
     
     

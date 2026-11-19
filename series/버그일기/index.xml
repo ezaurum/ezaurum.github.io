@@ -20,14 +20,14 @@
 				<link>https://ezaurum.com/bug/create-table-faield/</link>
 				<pubDate>Sun, 31 Jan 2021 13:11:01 +0900</pubDate>
 				<guid>https://ezaurum.com/bug/create-table-faield/</guid>
-				<description>&lt;p&gt;문제상황 - 틀린 게 없는데 테이블 생성 시 Foreign key constraint is incorrectly formed 가 계속 나올 때&lt;/p&gt;&#xA;&lt;p&gt;원인 - A 테이블에서 B 테이블의 a 에 대해서 FK를 만들었을 때, B테이블을 새로 생성하려면 A테이블의 이전 FK에 지정된 컬럼값과 새로 만들 값이 동일해야 한다.&#xA;B 테이블을 지우고 나도 A 테이블에 있는 a에 대한 FK는 유지됨&lt;/p&gt;&#xA;&lt;p&gt;해결방안 - A테이블의 FK를 삭제 후 재생성&#xA;재발 방지를 위해 - 테이블을 삭제할 때는 참조하는 FK를 모두 지우고 해 볼것&lt;/p&gt;</description>
+				<description>&lt;p&gt;문제상황 - 틀린 게 없는데 테이블 생성 시 Foreign key constraint is incorrectly formed 가 계속 나올 때&lt;/p&gt;&#xA;&lt;p&gt;원인 - A 테이블에서 B 테이블의 a 에 대해서 FK를 만들었을 때, B테이블을 새로 생성하려면 A테이블의 이전 FK에 지정된 컬럼값과 새로 만들 값이 동일해야 한다.&lt;br&gt;&#xA;B 테이블을 지우고 나도 A 테이블에 있는 a에 대한 FK는 유지됨&lt;/p&gt;&#xA;&lt;p&gt;해결방안 - A테이블의 FK를 삭제 후 재생성&lt;br&gt;&#xA;재발 방지를 위해 - 테이블을 삭제할 때는 참조하는 FK를 모두 지우고 해 볼것&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>CloudFront에서 웹사이트 연동을 위해 S3의 파일을 불러올 때 Access Denied가 날 때</title>
 				<link>https://ezaurum.com/bug/cloud-front-access-denied/</link>
 				<pubDate>Thu, 20 Jun 2019 22:31:05 +0900</pubDate>
 				<guid>https://ezaurum.com/bug/cloud-front-access-denied/</guid>
-				<description>&lt;h2 id=&#34;문제-상황&#34;&gt;문제 상황&lt;/h2&gt;&#xA;&lt;p&gt;CloudFront 를 웹사이트로 쓰기로 하고 S3의 파일을 연동했는데 메인 화면에서 AccessDenied가 뜸&#xA;읽기 권한은 있는 상태&lt;/p&gt;&#xA;&lt;h2 id=&#34;문제-원인&#34;&gt;문제 원인&lt;/h2&gt;&#xA;&lt;p&gt;CloudFront의 ᅟDefaultObject가 지정되지 않았다.&#xA;목록을 읽어오는 권한은 없으니 AccessDenied가 뜬 것&lt;/p&gt;&#xA;&lt;h2 id=&#34;재발-방지를-위해&#34;&gt;재발 방지를 위해&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;가끔 하는 작업은 진행 순서표 등을 이용해서 보고 따라한다.&lt;/li&gt;&#xA;&lt;li&gt;작업을 하면 진행 순서표를 만든다.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+				<description>&lt;h2 id=&#34;문제-상황&#34;&gt;문제 상황&lt;/h2&gt;&#xA;&lt;p&gt;CloudFront 를 웹사이트로 쓰기로 하고 S3의 파일을 연동했는데 메인 화면에서 AccessDenied가 뜸&lt;br&gt;&#xA;읽기 권한은 있는 상태&lt;/p&gt;&#xA;&lt;h2 id=&#34;문제-원인&#34;&gt;문제 원인&lt;/h2&gt;&#xA;&lt;p&gt;CloudFront의 ᅟDefaultObject가 지정되지 않았다.&lt;br&gt;&#xA;목록을 읽어오는 권한은 없으니 AccessDenied가 뜬 것&lt;/p&gt;&#xA;&lt;h2 id=&#34;재발-방지를-위해&#34;&gt;재발 방지를 위해&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;가끔 하는 작업은 진행 순서표 등을 이용해서 보고 따라한다.&lt;/li&gt;&#xA;&lt;li&gt;작업을 하면 진행 순서표를 만든다.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
 			</item>
 			<item>
 				<title>too many connection</title>
@@ -62,7 +62,7 @@
 				<link>https://ezaurum.com/bug/ajax-response-is-invalid-but-valid/</link>
 				<pubDate>Fri, 02 Nov 2018 02:08:41 +0900</pubDate>
 				<guid>https://ezaurum.com/bug/ajax-response-is-invalid-but-valid/</guid>
-				<description>&lt;p&gt;문제상황 - AJAX요청을 직접 구현해야 할 일이 생겨서 검색 후 복붙하고,  XHR을 써서 요청을 보내고, 응답을 받았는데, 이상하게 json parse에러가 나고 콘솔에 reponse를 찍어보니 빈 상태로 왔다. 그런데도 응답이 정상적으로 처리가 되었다.&lt;/p&gt;&#xA;&lt;p&gt;원인 - &lt;a href=&#34;https://xhr.spec.whatwg.org/#handler-xhr-onreadystatechange&#34;&gt;스펙문서&lt;/a&gt;를 보면 readystate 3이란 게 있고, 그 단계에서는 response가 다 도달하지 않은 상태다.&#xA;그 상태에서 콘솔에 찍으니 당연히 이상하게 나왔고, 코드가 진행되면서 값이 들어가니 처음에 파스 에러가 났다가 아래쪽 재시도에서는 정상이 된 거다. 결국 참고한 코드가 잘못되어 있었는데, 무작정 복붙해서 일어난 문제.&lt;/p&gt;</description>
+				<description>&lt;p&gt;문제상황 - AJAX요청을 직접 구현해야 할 일이 생겨서 검색 후 복붙하고,  XHR을 써서 요청을 보내고, 응답을 받았는데, 이상하게 json parse에러가 나고 콘솔에 reponse를 찍어보니 빈 상태로 왔다. 그런데도 응답이 정상적으로 처리가 되었다.&lt;/p&gt;&#xA;&lt;p&gt;원인 - &lt;a href=&#34;https://xhr.spec.whatwg.org/#handler-xhr-onreadystatechange&#34;&gt;스펙문서&lt;/a&gt;를 보면 readystate 3이란 게 있고, 그 단계에서는 response가 다 도달하지 않은 상태다.&lt;br&gt;&#xA;그 상태에서 콘솔에 찍으니 당연히 이상하게 나왔고, 코드가 진행되면서 값이 들어가니 처음에 파스 에러가 났다가 아래쪽 재시도에서는 정상이 된 거다. 결국 참고한 코드가 잘못되어 있었는데, 무작정 복붙해서 일어난 문제.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Font Awesome이 적용되지 않았던 문제</title>
@@ -83,7 +83,7 @@
 				<link>https://ezaurum.com/bug/vue-style-scoped/</link>
 				<pubDate>Fri, 31 Aug 2018 22:31:05 +0900</pubDate>
 				<guid>https://ezaurum.com/bug/vue-style-scoped/</guid>
-				<description>&lt;h2 id=&#34;문제-상황&#34;&gt;문제 상황&lt;/h2&gt;&#xA;&lt;p&gt;Vue 프로그래밍 중 외부 모듈을 사용했는데, 해당 모듈의 기본 css를 덮어씌우려고 불러오는 vue 페이지의 style을 변경했다.&#xA;클래스 이름을 분명히 지정했고, !important도 먹히지 않았음&lt;/p&gt;&#xA;&lt;h2 id=&#34;문제-원인&#34;&gt;문제 원인&lt;/h2&gt;&#xA;&lt;p&gt;알고 보니 style 태그에 scoped가 지정되어 있어서 자동으로 한정자가 붙어버린다. 그러니 단순히 클래스만 지정해서는 해당 모듈에 반영되지 않았다.&lt;/p&gt;&#xA;&lt;h2 id=&#34;재발-방지를-위해&#34;&gt;재발 방지를 위해&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;외부 모듈의 경우는 style태그를 따로 하나 더 만들어서 처리한다.&lt;/li&gt;&#xA;&lt;li&gt;CSS를 해당 외부 모듈을 감싸는 부모 태그를 포함해서 선언 한다.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+				<description>&lt;h2 id=&#34;문제-상황&#34;&gt;문제 상황&lt;/h2&gt;&#xA;&lt;p&gt;Vue 프로그래밍 중 외부 모듈을 사용했는데, 해당 모듈의 기본 css를 덮어씌우려고 불러오는 vue 페이지의 style을 변경했다.&lt;br&gt;&#xA;클래스 이름을 분명히 지정했고, !important도 먹히지 않았음&lt;/p&gt;&#xA;&lt;h2 id=&#34;문제-원인&#34;&gt;문제 원인&lt;/h2&gt;&#xA;&lt;p&gt;알고 보니 style 태그에 scoped가 지정되어 있어서 자동으로 한정자가 붙어버린다. 그러니 단순히 클래스만 지정해서는 해당 모듈에 반영되지 않았다.&lt;/p&gt;&#xA;&lt;h2 id=&#34;재발-방지를-위해&#34;&gt;재발 방지를 위해&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;외부 모듈의 경우는 style태그를 따로 하나 더 만들어서 처리한다.&lt;/li&gt;&#xA;&lt;li&gt;CSS를 해당 외부 모듈을 감싸는 부모 태그를 포함해서 선언 한다.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
 			</item>
 			<item>
 				<title>VueJS 에서 템플릿을 리터럴로 선언 했을 때, 바인딩이 안됨</title>

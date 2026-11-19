@@ -72,18 +72,18 @@
     </div>
 </header>
 
-<div class="post-body"><p>일단 open jdk 7 을 설치한다.
-<code>sudo yum install java-1.7.0-openjdk
-</code>
-그 다음 java에 걸려 있는 심볼릭 링크를 바꿔줘야 하는데,
-/usr/bin/java -&gt; /etc/alternatives/java -&gt;  -&gt; /usr/lib/jvm/(현재 jre)/bin/java
-이렇게 되어 있으므로,
-<code>
-sudo ln -s /usr/lib/jvm/jre-1.7.0-openjdk.x86_64/bin/java /etc/alternatives/java7
-sudo mv /etc/alternatives/java7 /etc/alternatives/java
-</code>
+<div class="post-body"><p>일단 open jdk 7 을 설치한다.<br>
+<code>sudo yum install java-1.7.0-openjdk<br>
+</code><br>
+그 다음 java에 걸려 있는 심볼릭 링크를 바꿔줘야 하는데,<br>
+/usr/bin/java -&gt; /etc/alternatives/java -&gt;  -&gt; /usr/lib/jvm/(현재 jre)/bin/java<br>
+이렇게 되어 있으므로,<br>
+<code><br>
+sudo ln -s /usr/lib/jvm/jre-1.7.0-openjdk.x86_64/bin/java /etc/alternatives/java7<br>
+sudo mv /etc/alternatives/java7 /etc/alternatives/java<br>
+</code><br>
 을 실행해서 심볼릭 링크를 바꿔준다. 지우고 다시 걸어도 되지만, 일단 지우고 거는 사이에 전 링크가 끊어지므로 가능한 영향을 적게 하기 위해서&hellip;</p>
-<p>ln -s /location/to/link2 newlink
+<p>ln -s /location/to/link2 newlink<br>
 mv newlink linkname</p>
 </div>
 
@@ -102,9 +102,8 @@ mv newlink linkname</p>
     
     
     
-    
     <nav class="post-nav" aria-label="이전/다음 글">
-        
+        <a class="prev" href="/2013/05/mySQL-%EC%A0%84%EC%97%AD-%EC%84%A4%EC%A0%95-%EB%B3%80%EA%B2%BD/"><small>← 이전 글</small>mySQL 전역 설정 변경</a>
         <a class="next" href="/2013/05/spring-@RequestMapping-%EC%9A%B0%EC%84%A0%EC%88%9C%EC%9C%84/"><small>다음 글 →</small>spring @RequestMapping 우선순위</a>
     </nav>
     

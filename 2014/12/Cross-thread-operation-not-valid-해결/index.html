@@ -72,17 +72,17 @@
     </div>
 </header>
 
-<div class="post-body"><p><a href="http://stackoverflow.com/questions/8738767/backgroundworker-cross-thread-operation-not-valid">출처 - 스택오버플로우</a>
-<code>
-private void OnAction(string v)
-{
-richTextBox1.AppendText(v + Environment.NewLine);
-richTextBox1.ScrollToCaret();
+<div class="post-body"><p><a href="http://stackoverflow.com/questions/8738767/backgroundworker-cross-thread-operation-not-valid">출처 - 스택오버플로우</a><br>
+<code><br>
+private void OnAction(string v)<br>
+{<br>
+richTextBox1.AppendText(v + Environment.NewLine);<br>
+richTextBox1.ScrollToCaret();<br>
 }</p>
-<p>public void AddText(string value)
-{
-richTextBox1.Invoke((Action) OnAction, value);
-}
+<p>public void AddText(string value)<br>
+{<br>
+richTextBox1.Invoke((Action) OnAction, value);<br>
+}<br>
 </code></p>
 <p>기본적으로 invoke를 이용하면 해당 문제를 막을 수 있음.</p>
 </div>
@@ -98,7 +98,6 @@ richTextBox1.Invoke((Action) OnAction, value);
     
     
 
-    
     
     
     

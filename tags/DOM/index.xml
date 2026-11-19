@@ -20,7 +20,7 @@
 				<link>https://ezaurum.com/2010/08/input.value-textarea.innerHTML-%EC%9D%98-%EC%9E%91%EB%8F%99/</link>
 				<pubDate>Thu, 12 Aug 2010 00:00:00 +0000</pubDate>
 				<guid>https://ezaurum.com/2010/08/input.value-textarea.innerHTML-%EC%9D%98-%EC%9E%91%EB%8F%99/</guid>
-				<description>&lt;p&gt;input.value = textarea.innerHTML;&#xA;이라는 구문이 실행될 때, innerHTML안에 tag가 있으면 &amp;gt;가  &amp;amp;gt;로, &amp;lt;가 &amp;amp;lt;로 바뀐다.&#xA;(IE6에서 확인)&lt;/p&gt;</description>
+				<description>&lt;p&gt;input.value = textarea.innerHTML;&lt;br&gt;&#xA;이라는 구문이 실행될 때, innerHTML안에 tag가 있으면 &amp;gt;가  &amp;amp;gt;로, &amp;lt;가 &amp;amp;lt;로 바뀐다.&lt;br&gt;&#xA;(IE6에서 확인)&lt;/p&gt;</description>
 			</item>
 	</channel>
 </rss>

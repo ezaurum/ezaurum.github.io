@@ -73,20 +73,20 @@
 </header>
 
 <div class="post-body"><p><a href="http://www.pendrivelinux.com/usb-ubuntu-804-installation-from-windows/">이 사이트</a>의 내용 참고.</p>
-<p>준비물 - 7zip
-%drive% &ndash; drive 문자
-format %drive%: /FS:fat32 /V:Ubuntu8 /Q
-7z x <em>.iso -x!bin -x!programs -x!isolinuxisolinux.txt -x![BOOT] -o%drive%:
-mkdir %drive%:syslinuxwin32
-copy syslinuxwin32</em>.* %drive%:syslinuxwin32
-copy backg.png %drive%:
-copy syslinux.cfg %drive%:
-copy vesamenu.c32 %drive%:
-copy makeboot.bat %drive%:
-%drive%:
-copy isolinux*.*
-rd isolinux /s/q
-del isolinux.bin
+<p>준비물 - 7zip<br>
+%drive% &ndash; drive 문자<br>
+format %drive%: /FS:fat32 /V:Ubuntu8 /Q<br>
+7z x <em>.iso -x!bin -x!programs -x!isolinuxisolinux.txt -x![BOOT] -o%drive%:<br>
+mkdir %drive%:syslinuxwin32<br>
+copy syslinuxwin32</em>.* %drive%:syslinuxwin32<br>
+copy backg.png %drive%:<br>
+copy syslinux.cfg %drive%:<br>
+copy vesamenu.c32 %drive%:<br>
+copy makeboot.bat %drive%:<br>
+%drive%:<br>
+copy isolinux*.*<br>
+rd isolinux /s/q<br>
+del isolinux.bin<br>
 call %drive%:makeboot.bat</p>
 </div>
 
@@ -101,7 +101,6 @@ call %drive%:makeboot.bat</p>
     
     
 
-    
     
     
     

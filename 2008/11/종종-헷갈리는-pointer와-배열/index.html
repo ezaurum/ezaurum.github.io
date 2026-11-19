@@ -74,15 +74,15 @@
 
 <div class="post-body"><p><strong>*(pointer + n) 는 pointer[n] 과 같다. 겹쳐져 있으면 해석은 오른쪽부터.</strong></p>
 <p>이걸 알면 모두 OK.</p>
-<p>pointer[x][y][z] 는 *(pointer[x][y]+z)
-pointer[x][y] 는 *(pointer[x]+y)
+<p>pointer[x][y][z] 는 *(pointer[x][y]+z)<br>
+pointer[x][y] 는 *(pointer[x]+y)<br>
 pointer[x]는 *(pointer+x)</p>
 <p>그러니 pointer[x][y][z]는 <em>(</em>(*(pointer+x)+y)+z)</p>
-<p>추가로 알아둘 사항.
-<code>
-void * pp;
-int a=35;
-pp = &amp;a;
+<p>추가로 알아둘 사항.<br>
+<code><br>
+void * pp;<br>
+int a=35;<br>
+pp = &amp;a;<br>
 int ppp[5][5] = { 0, };</p>
 <pre><code>printf(&quot;%dn&quot;,sizeof(pp));
 printf(&quot;%dn&quot;,*(int*)pp);
@@ -112,7 +112,6 @@ printf(&quot;%pn&quot;,ppp[0][0]+1);
     
     
 
-    
     
     
     

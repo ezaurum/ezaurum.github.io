@@ -72,18 +72,18 @@
     </div>
 </header>
 
-<div class="post-body"><p><code>int partition(int * array, int leftIndex, int lastIndex, int pivotIndex) {
-int pivotValue = array[pivotIndex];
-swap(&amp;array[pivotIndex], &amp;array[lastIndex]);
-int storeIndex = leftIndex;
-for(int i = leftIndex; i &lt; lastIndex; i++) {
-if(array[i]  leftIndex) {
-int newPivotIndex = partition(array,leftIndex,lastIndex,lastIndex);
-quickSort(array, leftIndex,newPivotIndex-1);
-quickSort(array, newPivotIndex+1,lastIndex);
-}
+<div class="post-body"><p><code>int partition(int * array, int leftIndex, int lastIndex, int pivotIndex) {<br>
+int pivotValue = array[pivotIndex];<br>
+swap(&amp;array[pivotIndex], &amp;array[lastIndex]);<br>
+int storeIndex = leftIndex;<br>
+for(int i = leftIndex; i &lt; lastIndex; i++) {<br>
+if(array[i]  leftIndex) {<br>
+int newPivotIndex = partition(array,leftIndex,lastIndex,lastIndex);<br>
+quickSort(array, leftIndex,newPivotIndex-1);<br>
+quickSort(array, newPivotIndex+1,lastIndex);<br>
+}<br>
 }</code></p>
-<p>오늘은 정렬의 왕도, 퀵정렬. 사실 하다 꼬여서 이 소스는 위키에서 퍼온 의사코드를 그대로 옮긴 것.
+<p>오늘은 정렬의 왕도, 퀵정렬. 사실 하다 꼬여서 이 소스는 위키에서 퍼온 의사코드를 그대로 옮긴 것.<br>
 아놔. 내 뇌의 숫자개념에는 뭔가 문제가 있는 게 확실해. 지금와서 어떻게 할 수도 없고, 힘내서 외운 걸로 커버하자.</p>
 </div>
 
@@ -98,7 +98,6 @@ quickSort(array, newPivotIndex+1,lastIndex);
     
     
 
-    
     
     
     

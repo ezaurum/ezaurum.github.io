@@ -72,10 +72,10 @@
     </div>
 </header>
 
-<div class="post-body"><p>C#에서 소켓 프로그래밍을 할 때, Socket.AcceptAsync로 연결하는데 다음과 같은 예외가 발생했다.
-<code>System.InvalidOperationException이(가) 처리되지 않았습니다.
-Message=AcceptSocket: 소켓을 바인딩하거나 연결하면 안 됩니다.</code>
-원인은 AcceptAsync이후에 같은 SocketAsyncEventArgs객체를 이용해 계속 Accept를 받으려고 했는데, SocketAsyncEventArgs.AcceptSocket 프로퍼티를 null로 초기화하지 않았기 때문이다.
+<div class="post-body"><p>C#에서 소켓 프로그래밍을 할 때, Socket.AcceptAsync로 연결하는데 다음과 같은 예외가 발생했다.<br>
+<code>System.InvalidOperationException이(가) 처리되지 않았습니다.<br>
+Message=AcceptSocket: 소켓을 바인딩하거나 연결하면 안 됩니다.</code><br>
+원인은 AcceptAsync이후에 같은 SocketAsyncEventArgs객체를 이용해 계속 Accept를 받으려고 했는데, SocketAsyncEventArgs.AcceptSocket 프로퍼티를 null로 초기화하지 않았기 때문이다.<br>
 재사용하려면 AcceptSocket = null;을 넣어줄 것.</p>
 </div>
 
@@ -94,9 +94,8 @@ Message=AcceptSocket: 소켓을 바인딩하거나 연결하면 안 됩니다.</
     
     
     
-    
     <nav class="post-nav" aria-label="이전/다음 글">
-        
+        <a class="prev" href="/2013/11/%EC%86%8C%EC%8A%A4%ED%8A%B8%EB%A6%AC-%EC%82%AC%EC%9A%A9%EC%8B%9C-%EC%A0%80%EC%9E%A5%EC%86%8C-%EC%A0%91%EA%B7%BC-%ED%82%A4%EB%A5%BC-%EC%9E%90%EB%8F%99%EC%9C%BC%EB%A1%9C-%EB%A1%9C%EB%93%9C%ED%95%98%EA%B2%8C-%ED%95%98%EA%B8%B0/"><small>← 이전 글</small>소스트리 사용시 저장소 접근 키를 자동으로 로드하게 하기</a>
         <a class="next" href="/2013/11/.gitconfig-%EC%84%A4%EC%A0%95/"><small>다음 글 →</small>.gitconfig 설정</a>
     </nav>
     

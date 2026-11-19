@@ -72,39 +72,39 @@
     </div>
 </header>
 
-<div class="post-body"><p>라이센스 - <a href="http://www.gnu.org/licenses/licenses.html#FDL">The GNU Free Documentation License</a>
-원저자 - <a href="mailto:lisperati@gmail.com">Conrad Barski, M.D.</a>
+<div class="post-body"><p>라이센스 - <a href="http://www.gnu.org/licenses/licenses.html#FDL">The GNU Free Documentation License</a><br>
+원저자 - <a href="mailto:lisperati@gmail.com">Conrad Barski, M.D.</a><br>
 원본 출처 - <a href="http://lisperati.com/casting.html"><a href="http://lisperati.com/casting.html">http://lisperati.com/casting.html</a></a></p>
 <h3>주문(SPEL) 외기</h3>
-<p>이제 Lisp의 믿을 수 없을 만큼 강력한 기능을 배워 볼 겁니다. 바로 SPEL(주문)만들기지요! SPEL 은 &ldquo;Semantic Program Enhancement Logic&quot;의 줄임말이고 컴퓨터 코드의 세계 안에서 Lisp언어를 우리 필요에 따라 개조하기 위해 가장 기초적인 수준까지 바꾸는 행동을 만드는 걸 가능케 해 줍니다. - 이게 Lisp에서 가장 마술처럼 보이는 부분이지요. SPEL을 가능하게 하기 위해, 일단 Lisp 컴파일러에서 SPEL을 활성화 할 필요가 있습니다. (이 줄에 대해서 걱정하지 마세요. 더 나은 Lisp프로그래머로 나아가려면 <a href="/wordpress/2009/04/21/매크로가-아니다/">클릭</a>하세요.
+<p>이제 Lisp의 믿을 수 없을 만큼 강력한 기능을 배워 볼 겁니다. 바로 SPEL(주문)만들기지요! SPEL 은 &ldquo;Semantic Program Enhancement Logic&quot;의 줄임말이고 컴퓨터 코드의 세계 안에서 Lisp언어를 우리 필요에 따라 개조하기 위해 가장 기초적인 수준까지 바꾸는 행동을 만드는 걸 가능케 해 줍니다. - 이게 Lisp에서 가장 마술처럼 보이는 부분이지요. SPEL을 가능하게 하기 위해, 일단 Lisp 컴파일러에서 SPEL을 활성화 할 필요가 있습니다. (이 줄에 대해서 걱정하지 마세요. 더 나은 Lisp프로그래머로 나아가려면 <a href="/wordpress/2009/04/21/매크로가-아니다/">클릭</a>하세요.<br>
 <code>(defmacro defspel (&amp;rest rest) <code>(defmacro ,@rest))&lt;/code&gt; 자, 이제 활성화 되었습니다. 첫 번째 주문(spell)을 외워보죠. &lt;em&gt;walk&lt;/em&gt;입니다. &lt;code&gt;(defspel walk (direction)&lt;br&gt;  </code>(walk-direction &lsquo;,direction))</code></p>
-<p>이 코드가 하는 것은 Lisp컴파일러에 walk라는 단어는 실제로 <em>walk</em>라는 단어가 아니라, <em>walk-direction</em>이고, <em>direction</em>이란 단어는 보이진 않지만 실제로 앞에 작은 따옴표를 가지고 있다는 것을 알려줍니다.
-기본적으로 좀 특별한 코드를 프로그램 안에 살짝 넣을 수 있고, 컴파일러는 그게 컴파일 되기 전에 다른 걸로 바꾸게 됩니다.
-<img src="/wordpress/wp-content/uploads/2009/02/spel_compile.jpg" alt="spel_compile" title="spel_compile" width="500" height="301" class="alignnone size-full wp-image-586" />
-이 함수가 우리가 길을 묘사하기 위해 사용했던 코드와 얼마나 비슷한지를 주목하세요. Lisp에서, 코드와 데이터가 비슷하게 보일 뿐만 아니라, 코드와 컴파일러에 보내는 특수명령(SPELs)도 비슷하게 보입니다. 아주 일관적이고 깔끔한 모양새지요!
+<p>이 코드가 하는 것은 Lisp컴파일러에 walk라는 단어는 실제로 <em>walk</em>라는 단어가 아니라, <em>walk-direction</em>이고, <em>direction</em>이란 단어는 보이진 않지만 실제로 앞에 작은 따옴표를 가지고 있다는 것을 알려줍니다.<br>
+기본적으로 좀 특별한 코드를 프로그램 안에 살짝 넣을 수 있고, 컴파일러는 그게 컴파일 되기 전에 다른 걸로 바꾸게 됩니다.<br>
+<img src="/wordpress/wp-content/uploads/2009/02/spel_compile.jpg" alt="spel_compile" title="spel_compile" width="500" height="301" class="alignnone size-full wp-image-586" /><br>
+이 함수가 우리가 길을 묘사하기 위해 사용했던 코드와 얼마나 비슷한지를 주목하세요. Lisp에서, 코드와 데이터가 비슷하게 보일 뿐만 아니라, 코드와 컴파일러에 보내는 특수명령(SPELs)도 비슷하게 보입니다. 아주 일관적이고 깔끔한 모양새지요!<br>
 새 주문을 시험해 봅시다!</p>
 <p><code>(walk east)</code></p>
 <p><strong>==&gt; (YOU ARE IN THE LIVING ROOM OF A WIZARD&rsquo;S HOUSE.THERE IS A WIZARD SNORING LOUDLY ON THE COUCH.THERE IS A DOOR GOING WEST FROM HERE.THERE IS A STAIRWAY GOING UPSTAIRS FROM HERE.YOU SEE A WHISKEY-BOTTLE ON THE FLOOR.YOU SEE A BUCKET ON THE FLOOR)</strong></p>
 <p>훨씬 낫군요!</p>
 <p>이제 물건을 집어드는 명령을 만들 겁니다.</p>
-<p><code>(defun pickup-object (object)
-(cond ((is-at object <em>location</em> <em>object-locations</em>) (push (list object &lsquo;body) <em>object-locations</em>)
-`(you are now carrying the ,object))
+<p><code>(defun pickup-object (object)<br>
+(cond ((is-at object <em>location</em> <em>object-locations</em>) (push (list object &lsquo;body) <em>object-locations</em>)<br>
+`(you are now carrying the ,object))<br>
 (t &lsquo;(you cannot get that.))))</code></p>
-<p>이 함수는 현재 위치의 바닥에 물건이 있는지 검사하고- 만일 있다면 새로운 위치(플레이어의 몸)에다 목록을 밀어(push)놓습니다.(민다(push)는 것은 assoc 명령이 새 항목을 발견한다면 목록에 항목을 더하고 나서 지난 위치를 숨긴다는 겁니다.) 그리고 나서 성공했는지  알려주는 문장을 돌려줍니다.
+<p>이 함수는 현재 위치의 바닥에 물건이 있는지 검사하고- 만일 있다면 새로운 위치(플레이어의 몸)에다 목록을 밀어(push)놓습니다.(민다(push)는 것은 assoc 명령이 새 항목을 발견한다면 목록에 항목을 더하고 나서 지난 위치를 숨긴다는 겁니다.) 그리고 나서 성공했는지  알려주는 문장을 돌려줍니다.<br>
 이제 명령을 좀 더 사용하기 쉽게 만드는 다른 주문(SPEL)을 외어 봅시다.</p>
-<p><code>(defspel pickup (object)
+<p><code>(defspel pickup (object)<br>
 `(pickup-object &lsquo;,object))</code></p>
 <p>이제 새 주문(SPEL)을 써 봅시다!</p>
 <p><code>(pickup whiskey-bottle)</code></p>
 <p><strong>==&gt; (YOU ARE NOW CARRYING THE WHISKEY-BOTTLE)</strong></p>
 <p>이제 몇 가지 유용한 명령을 추가해 봅시다. 일단, 지금 들고다니고 있는 물건들을 보는 명령부터.</p>
-<p><code>(defun inventory ()
-(remove-if-not (lambda (x)
-(is-at x &lsquo;body <em>object-locations</em>))
+<p><code>(defun inventory ()<br>
+(remove-if-not (lambda (x)<br>
+(is-at x &lsquo;body <em>object-locations</em>))<br>
 <em>objects</em>))</code></p>
 <p>이제 어떤 물건을 얻었다면 알려주는 함수.</p>
-<p><code>(defun have (object)
+<p><code>(defun have (object)<br>
 (member object (inventory)))</code></p>
 </div>
 
@@ -119,7 +119,6 @@
     
     
 
-    
     
     
     

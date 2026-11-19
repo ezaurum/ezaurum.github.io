@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>js on Ezaurum&#39;s Blog</title>
-		<link>https://ezaurum.com/tags/js/</link>
-		<description>Recent content in js on Ezaurum&#39;s Blog</description>
+		<title>JS on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/JS/</link>
+		<description>Recent content in JS on Ezaurum&#39;s Blog</description>
 		<generator>Hugo</generator>
 		<language>ko-kr</language>
 		
@@ -14,7 +14,7 @@
 		
 			<lastBuildDate>Tue, 08 May 2018 00:16:20 +0900</lastBuildDate>
 		
-			<atom:link href="https://ezaurum.com/tags/js/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://ezaurum.com/tags/JS/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>VueJS 에서 템플릿을 리터럴로 선언 했을 때, 바인딩이 안됨</title>
 				<link>https://ezaurum.com/bug/vue-conflict-js-literal/</link>
@@ -27,7 +27,7 @@
 				<link>https://ezaurum.com/study/curring/</link>
 				<pubDate>Thu, 25 Dec 2014 00:00:00 +0000</pubDate>
 				<guid>https://ezaurum.com/study/curring/</guid>
-				<description>&lt;p&gt;자바스크립트에서 커링은 본래 함수와 인수를 유지하는 클로저로 구현된다.&#xA;&lt;a href=&#34;http://anster.tistory.com/144&#34;&gt;참고 링크&lt;/a&gt;&lt;/p&gt;</description>
+				<description>&lt;p&gt;자바스크립트에서 커링은 본래 함수와 인수를 유지하는 클로저로 구현된다.&lt;br&gt;&#xA;&lt;a href=&#34;http://anster.tistory.com/144&#34;&gt;참고 링크&lt;/a&gt;&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>이클립스에서 jquery validation 에러 해결</title>

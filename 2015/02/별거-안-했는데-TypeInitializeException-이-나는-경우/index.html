@@ -72,10 +72,10 @@
     </div>
 </header>
 
-<div class="post-body"><p>아래와 같은 코드를 실행하면, <a href="https://msdn.microsoft.com/ko-kr/library/system.typeinitializationexception(v=vs.110).aspx">TypeInitializeException</a>이 뜬다.
-<a href="https://gist.github.com/ezaurum/fdcb0dce79ed900d5fb8.js"><a href="https://gist.github.com/ezaurum/fdcb0dce79ed900d5fb8.js">https://gist.github.com/ezaurum/fdcb0dce79ed900d5fb8.js</a></a>
-자세히 보면, Dictionary에 같은 키로 값을 넣으려 하고 있다.
-이러면 <a href="https://msdn.microsoft.com/ko-kr/library/k7z0zy8k(v=vs.110).aspx">이렇게</a> <a href="https://msdn.microsoft.com/ko-kr/library/system.argumentexception(v=vs.110).aspx">ArgumentException</a>이 나게 되는데, 그게 static 변수를 할당하는 시점에 일어나므로, TypeInitializeException이 뜨게 된다.
+<div class="post-body"><p>아래와 같은 코드를 실행하면, <a href="https://msdn.microsoft.com/ko-kr/library/system.typeinitializationexception(v=vs.110).aspx">TypeInitializeException</a>이 뜬다.<br>
+<a href="https://gist.github.com/ezaurum/fdcb0dce79ed900d5fb8.js"><a href="https://gist.github.com/ezaurum/fdcb0dce79ed900d5fb8.js">https://gist.github.com/ezaurum/fdcb0dce79ed900d5fb8.js</a></a><br>
+자세히 보면, Dictionary에 같은 키로 값을 넣으려 하고 있다.<br>
+이러면 <a href="https://msdn.microsoft.com/ko-kr/library/k7z0zy8k(v=vs.110).aspx">이렇게</a> <a href="https://msdn.microsoft.com/ko-kr/library/system.argumentexception(v=vs.110).aspx">ArgumentException</a>이 나게 되는데, 그게 static 변수를 할당하는 시점에 일어나므로, TypeInitializeException이 뜨게 된다.<br>
 그러니 저거 원인을 못 찾을 때는 static으로 선언한 변수에 값이 들어가는 부분을 체크해 보자.</p>
 </div>
 
@@ -90,7 +90,6 @@
     
     
 
-    
     
     
     

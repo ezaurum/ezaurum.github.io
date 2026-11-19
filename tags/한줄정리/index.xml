@@ -34,14 +34,14 @@
 				<link>https://ezaurum.com/2019/02/%EC%97%91%EC%85%80%EC%97%90%EC%84%9C-%EC%BB%AC%EB%9F%BC%EC%9D%84-%EB%A1%9C%EC%9A%B0%EB%A1%9C-%EB%A1%9C%EC%9A%B0%EB%A5%BC-%EC%BB%AC%EB%9F%BC%EC%9C%BC%EB%A1%9C-%EB%B3%80%ED%99%98/</link>
 				<pubDate>Thu, 21 Feb 2019 18:20:40 +0900</pubDate>
 				<guid>https://ezaurum.com/2019/02/%EC%97%91%EC%85%80%EC%97%90%EC%84%9C-%EC%BB%AC%EB%9F%BC%EC%9D%84-%EB%A1%9C%EC%9A%B0%EB%A1%9C-%EB%A1%9C%EC%9A%B0%EB%A5%BC-%EC%BB%AC%EB%9F%BC%EC%9C%BC%EB%A1%9C-%EB%B3%80%ED%99%98/</guid>
-				<description>&lt;p&gt;TRANSPOSE(범위)&#xA;피봇 테이블 할 것도 없이 이거면 끝&lt;/p&gt;</description>
+				<description>&lt;p&gt;TRANSPOSE(범위)&lt;br&gt;&#xA;피봇 테이블 할 것도 없이 이거면 끝&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>몽고 DB ISODate객체로 검색</title>
 				<link>https://ezaurum.com/2015/02/%EB%AA%BD%EA%B3%A0-DB-ISODate%EA%B0%9D%EC%B2%B4%EB%A1%9C-%EA%B2%80%EC%83%89/</link>
 				<pubDate>Mon, 09 Feb 2015 00:00:00 +0000</pubDate>
 				<guid>https://ezaurum.com/2015/02/%EB%AA%BD%EA%B3%A0-DB-ISODate%EA%B0%9D%EC%B2%B4%EB%A1%9C-%EA%B2%80%EC%83%89/</guid>
-				<description>&lt;p&gt;&lt;code&gt;db.logs.find({&amp;ldquo;timestamp&amp;rdquo;: { &amp;ldquo;$gte&amp;rdquo;: new Date(&amp;ldquo;2015-02-05&amp;rdquo;)}, &amp;ldquo;level&amp;rdquo;:&amp;ldquo;ERROR&amp;rdquo;}) &lt;/code&gt;&#xA;$gte, $gt, $lt, $lte를 쓸 수 있고, new Date(&amp;ldquo;2015-02-01T00:00:00.000Z&amp;rdquo;) 형태로 검색한다.&lt;/p&gt;</description>
+				<description>&lt;p&gt;&lt;code&gt;db.logs.find({&amp;ldquo;timestamp&amp;rdquo;: { &amp;ldquo;$gte&amp;rdquo;: new Date(&amp;ldquo;2015-02-05&amp;rdquo;)}, &amp;ldquo;level&amp;rdquo;:&amp;ldquo;ERROR&amp;rdquo;}) &lt;/code&gt;&lt;br&gt;&#xA;$gte, $gt, $lt, $lte를 쓸 수 있고, new Date(&amp;ldquo;2015-02-01T00:00:00.000Z&amp;rdquo;) 형태로 검색한다.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>VS 2013에서 갑자기 CPU 사용율이 치솟는 경우</title>
@@ -55,14 +55,14 @@
 				<link>https://ezaurum.com/study/curring/</link>
 				<pubDate>Thu, 25 Dec 2014 00:00:00 +0000</pubDate>
 				<guid>https://ezaurum.com/study/curring/</guid>
-				<description>&lt;p&gt;자바스크립트에서 커링은 본래 함수와 인수를 유지하는 클로저로 구현된다.&#xA;&lt;a href=&#34;http://anster.tistory.com/144&#34;&gt;참고 링크&lt;/a&gt;&lt;/p&gt;</description>
+				<description>&lt;p&gt;자바스크립트에서 커링은 본래 함수와 인수를 유지하는 클로저로 구현된다.&lt;br&gt;&#xA;&lt;a href=&#34;http://anster.tistory.com/144&#34;&gt;참고 링크&lt;/a&gt;&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>AWS RDS time_zone 셋팅</title>
 				<link>https://ezaurum.com/2014/12/AWS-RDS-time_zone-%EC%85%8B%ED%8C%85/</link>
 				<pubDate>Wed, 24 Dec 2014 00:00:00 +0000</pubDate>
 				<guid>https://ezaurum.com/2014/12/AWS-RDS-time_zone-%EC%85%8B%ED%8C%85/</guid>
-				<description>&lt;p&gt;AWS RDS는 default_time_zone을 바꿀 수 없다. 그래서 각 연결마다 time_zone을 새로 셋팅해 주는 편법을 쓰는데, 모든 연결에 &lt;code&gt;SET time_zone = &amp;lsquo;Asia/Seoul&amp;rsquo;;&lt;/code&gt;을 설정하는 방법으로 같은 효과를 볼 수 있다.&#xA;그러기 위해서는 init_connect에다가 값을 넣어주면 된다.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://blog.suz-lab.com/2011/03/rdsutc.html&#34;&gt;참고 링크&lt;/a&gt;&lt;/p&gt;</description>
+				<description>&lt;p&gt;AWS RDS는 default_time_zone을 바꿀 수 없다. 그래서 각 연결마다 time_zone을 새로 셋팅해 주는 편법을 쓰는데, 모든 연결에 &lt;code&gt;SET time_zone = &amp;lsquo;Asia/Seoul&amp;rsquo;;&lt;/code&gt;을 설정하는 방법으로 같은 효과를 볼 수 있다.&lt;br&gt;&#xA;그러기 위해서는 init_connect에다가 값을 넣어주면 된다.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://blog.suz-lab.com/2011/03/rdsutc.html&#34;&gt;참고 링크&lt;/a&gt;&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Ninject 첫인상</title>
@@ -83,7 +83,7 @@
 				<link>https://ezaurum.com/2014/10/pg_hba.conf-load-fail-error/</link>
 				<pubDate>Fri, 10 Oct 2014 00:00:00 +0000</pubDate>
 				<guid>https://ezaurum.com/2014/10/pg_hba.conf-load-fail-error/</guid>
-				<description>&lt;p&gt;pg_hba.conf load fail error가 발생.&#xA;설정 파일 내부에 항목이 하나도 없으면 로드에 에러 발생&#xA;기본 항목 주석 해제로 해결&lt;/p&gt;</description>
+				<description>&lt;p&gt;pg_hba.conf load fail error가 발생.&lt;br&gt;&#xA;설정 파일 내부에 항목이 하나도 없으면 로드에 에러 발생&lt;br&gt;&#xA;기본 항목 주석 해제로 해결&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>인터페이스 타입에 대한 jpa 퍼시서턴트</title>
@@ -104,7 +104,7 @@
 				<link>https://ezaurum.com/2013/11/Git%EC%97%90%EC%84%9C-%ED%8A%B9%EC%A0%95%ED%8C%8C%EC%9D%BC-%EC%9E%84%EC%8B%9C%EB%A1%9C-%EC%BB%A4%EB%B0%8B%EB%82%B4%EC%97%AD%EC%97%90%EC%84%9C-%EC%A0%9C%EC%99%B8%ED%95%98%EA%B8%B0/</link>
 				<pubDate>Sun, 24 Nov 2013 00:00:00 +0000</pubDate>
 				<guid>https://ezaurum.com/2013/11/Git%EC%97%90%EC%84%9C-%ED%8A%B9%EC%A0%95%ED%8C%8C%EC%9D%BC-%EC%9E%84%EC%8B%9C%EB%A1%9C-%EC%BB%A4%EB%B0%8B%EB%82%B4%EC%97%AD%EC%97%90%EC%84%9C-%EC%A0%9C%EC%99%B8%ED%95%98%EA%B8%B0/</guid>
-				<description>&lt;h2 id=&#34;출처&#34;&gt;출처&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://blog.outsider.ne.kr/817&#34; title=&#34;Git에서 특정파일 임시로 커밋내역에서 제외하기&#34;&gt;&lt;a href=&#34;http://blog.outsider.ne.kr/817&#34;&gt;http://blog.outsider.ne.kr/817&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://stackoverflow.com/questions/13630849/git-difference-between-assume-unchanged-and-skip-worktree&#34;&gt;스택오버플로우&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://fallengamer.livejournal.com/93321.html&#34;&gt;FallenGameR&amp;rsquo;s blog&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Unity3D로 공동작업을 하다 보면 meta파일이 많이 생기고, 뭐 잠깐 이쪽에서 고쳐보고 싶은데 하던 작업 중에 일부는 또 올려야 할 때가 있고해서 골치 아플 때 유용함.&#xA;local 에만 적용해야 하는 환경파일 수정할 때도 유용&lt;/p&gt;&#xA;&lt;h3 id=&#34;리모트-파일이-바뀌어서-pull을-할-때-주의점&#34;&gt;리모트 파일이 바뀌어서 pull을 할 때 주의점&lt;/h3&gt;&#xA;&lt;p&gt;기본적으로 컨플릭트가 나고, 해결 방법이 다르다&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;assumed-unchanged - stash 가능하지만, stash 하면 데이터 날아감&lt;/li&gt;&#xA;&lt;li&gt;skip-worktree - stash 불가능, 플래그 꺼 줘야 함&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;git-reset---hard를-하는-경우-주의점&#34;&gt;&lt;code&gt;git reset --hard&lt;/code&gt;를 하는 경우 주의점&lt;/h3&gt;&#xA;&lt;p&gt;결국 둘 다 파일은 바뀐다.&lt;/p&gt;</description>
+				<description>&lt;h2 id=&#34;출처&#34;&gt;출처&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://blog.outsider.ne.kr/817&#34; title=&#34;Git에서 특정파일 임시로 커밋내역에서 제외하기&#34;&gt;&lt;a href=&#34;http://blog.outsider.ne.kr/817&#34;&gt;http://blog.outsider.ne.kr/817&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://stackoverflow.com/questions/13630849/git-difference-between-assume-unchanged-and-skip-worktree&#34;&gt;스택오버플로우&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://fallengamer.livejournal.com/93321.html&#34;&gt;FallenGameR&amp;rsquo;s blog&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Unity3D로 공동작업을 하다 보면 meta파일이 많이 생기고, 뭐 잠깐 이쪽에서 고쳐보고 싶은데 하던 작업 중에 일부는 또 올려야 할 때가 있고해서 골치 아플 때 유용함.&lt;br&gt;&#xA;local 에만 적용해야 하는 환경파일 수정할 때도 유용&lt;/p&gt;&#xA;&lt;h3 id=&#34;리모트-파일이-바뀌어서-pull을-할-때-주의점&#34;&gt;리모트 파일이 바뀌어서 pull을 할 때 주의점&lt;/h3&gt;&#xA;&lt;p&gt;기본적으로 컨플릭트가 나고, 해결 방법이 다르다&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;assumed-unchanged - stash 가능하지만, stash 하면 데이터 날아감&lt;/li&gt;&#xA;&lt;li&gt;skip-worktree - stash 불가능, 플래그 꺼 줘야 함&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;git-reset---hard를-하는-경우-주의점&#34;&gt;&lt;code&gt;git reset --hard&lt;/code&gt;를 하는 경우 주의점&lt;/h3&gt;&#xA;&lt;p&gt;결국 둘 다 파일은 바뀐다.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>java에서 arraylist 삭제하는 방법</title>
@@ -167,7 +167,7 @@
 				<link>https://ezaurum.com/2013/05/scp%EB%A7%8C%EC%9C%BC%EB%A1%9C-git-%EC%84%9C%EB%B2%84%EC%97%90-key%EC%97%AC%EB%9F%BF-%EC%B6%94%EA%B0%80%ED%95%98%EA%B8%B0/</link>
 				<pubDate>Mon, 20 May 2013 00:00:00 +0000</pubDate>
 				<guid>https://ezaurum.com/2013/05/scp%EB%A7%8C%EC%9C%BC%EB%A1%9C-git-%EC%84%9C%EB%B2%84%EC%97%90-key%EC%97%AC%EB%9F%BF-%EC%B6%94%EA%B0%80%ED%95%98%EA%B8%B0/</guid>
-				<description>&lt;p&gt;&lt;del datetime=&#34;2013-05-19T18:39:24+00:00&#34;&gt;&lt;a href=&#34;http://www.cyberciti.biz/tips/linux-multiple-ssh-key-based-authentication.html&#34;&gt;출처&lt;/a&gt;&#xA;역시 누군가 뭘 해 놨을 줄 알았어.&lt;/del&gt;&#xA;&lt;ins datetime=&#34;2013-05-19T18:39:24+00:00&#34;&gt;다 필요 없는 짓이었다. ssh-copy-id 라는 명령어가&amp;hellip; OTL&amp;hellip; 역시 무식하면 몸이 고생.&lt;/ins&gt;&#xA;&lt;code&gt;scp file_name &lt;a href=&#34;mailto:user@182.213.312.122&#34;&gt;user@182.213.312.122&lt;/a&gt;:path&lt;/code&gt;&#xA;&lt;ins datetime=&#34;2013-06-17T12:37:17+00:00&#34;&gt;다 하고 나면 보안을 위해 파일 권한이 600으로 되어 있는지 확인할 것&lt;/ins&gt;&#xA;&lt;a href=&#34;http://wiki.kldp.org/wiki.php/DocbookSgml/SSH-KLDP&#34;&gt;그 외 ssh에 대한 참고 링크&lt;/a&gt;&lt;/p&gt;</description>
+				<description>&lt;p&gt;&lt;del datetime=&#34;2013-05-19T18:39:24+00:00&#34;&gt;&lt;a href=&#34;http://www.cyberciti.biz/tips/linux-multiple-ssh-key-based-authentication.html&#34;&gt;출처&lt;/a&gt;&lt;br&gt;&#xA;역시 누군가 뭘 해 놨을 줄 알았어.&lt;/del&gt;&lt;br&gt;&#xA;&lt;ins datetime=&#34;2013-05-19T18:39:24+00:00&#34;&gt;다 필요 없는 짓이었다. ssh-copy-id 라는 명령어가&amp;hellip; OTL&amp;hellip; 역시 무식하면 몸이 고생.&lt;/ins&gt;&lt;br&gt;&#xA;&lt;code&gt;scp file_name &lt;a href=&#34;mailto:user@182.213.312.122&#34;&gt;user@182.213.312.122&lt;/a&gt;:path&lt;/code&gt;&lt;br&gt;&#xA;&lt;ins datetime=&#34;2013-06-17T12:37:17+00:00&#34;&gt;다 하고 나면 보안을 위해 파일 권한이 600으로 되어 있는지 확인할 것&lt;/ins&gt;&lt;br&gt;&#xA;&lt;a href=&#34;http://wiki.kldp.org/wiki.php/DocbookSgml/SSH-KLDP&#34;&gt;그 외 ssh에 대한 참고 링크&lt;/a&gt;&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>unbuntu(mint)에서 jenkins 실행 포트 바꾸기</title>
@@ -202,7 +202,7 @@
 				<link>https://ezaurum.com/2012/07/spring%EC%97%90%EC%84%9C-enum%EC%9D%84-select%EB%A1%9C-%EB%A7%A4%ED%95%91/</link>
 				<pubDate>Sun, 22 Jul 2012 00:00:00 +0000</pubDate>
 				<guid>https://ezaurum.com/2012/07/spring%EC%97%90%EC%84%9C-enum%EC%9D%84-select%EB%A1%9C-%EB%A7%A4%ED%95%91/</guid>
-				<description>&lt;p&gt;enum안에 desc라는 이름으로 label이 붙어 있는 경우.&lt;/p&gt;&#xA;&lt;p&gt;&amp;lt;form:select path=&amp;ldquo;status&amp;rdquo;&amp;gt;&#xA;&amp;lt;form:options itemLabel=&amp;ldquo;desc&amp;rdquo;/&amp;gt;&#xA;&amp;lt;/form:select&amp;gt;&lt;/p&gt;</description>
+				<description>&lt;p&gt;enum안에 desc라는 이름으로 label이 붙어 있는 경우.&lt;/p&gt;&#xA;&lt;p&gt;&amp;lt;form:select path=&amp;ldquo;status&amp;rdquo;&amp;gt;&lt;br&gt;&#xA;&amp;lt;form:options itemLabel=&amp;ldquo;desc&amp;rdquo;/&amp;gt;&lt;br&gt;&#xA;&amp;lt;/form:select&amp;gt;&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>이클립스에서 jquery validation 에러 해결</title>
@@ -216,7 +216,7 @@
 				<link>https://ezaurum.com/2012/06/Opera-webGL-%ED%99%9C%EC%84%B1%ED%99%94/</link>
 				<pubDate>Fri, 15 Jun 2012 00:00:00 +0000</pubDate>
 				<guid>https://ezaurum.com/2012/06/Opera-webGL-%ED%99%9C%EC%84%B1%ED%99%94/</guid>
-				<description>&lt;p&gt;&lt;a href=&#34;config#Enable%20WebGL&#34; title=&#34;웹GL 활성화&#34; target=&#34;_blank&#34;&gt;opera:config#Enable WebGL&lt;/a&gt; - 1로 설정&#xA;&lt;a href=&#34;config#Enable%20Hardware%20Acceleration&#34; title=&#34;하드웨어 가속&#34; target=&#34;_blank&#34;&gt;opera:config#Enable Hardware Acceleration&lt;/a&gt; - 1로 설정&#xA;&lt;a href=&#34;gpu&#34; title=&#34;gpu, 하드웨어 가속 여부 보기&#34; target=&#34;_blank&#34;&gt;opera:gpu&lt;/a&gt;&#xA;&lt;a href=&#34;config#Preferred%20renderer&#34; title=&#34;opengl과 directX 중 택1&#34;&gt;opera:config#Preferred%20renderer&lt;/a&gt; 0 - openGL, 1 - DirectX&lt;/p&gt;&#xA;&lt;p&gt;기타 자세한 사항은 &lt;a href=&#34;http://my.opera.com/desktopteam/blog/2012/06/14/twelve-under-the-hood-improvements-in-opera-12&#34; title=&#34;오페라 12 개선점&#34;&gt;여기&lt;/a&gt; 참고&lt;/p&gt;</description>
+				<description>&lt;p&gt;&lt;a href=&#34;config#Enable%20WebGL&#34; title=&#34;웹GL 활성화&#34; target=&#34;_blank&#34;&gt;opera:config#Enable WebGL&lt;/a&gt; - 1로 설정&lt;br&gt;&#xA;&lt;a href=&#34;config#Enable%20Hardware%20Acceleration&#34; title=&#34;하드웨어 가속&#34; target=&#34;_blank&#34;&gt;opera:config#Enable Hardware Acceleration&lt;/a&gt; - 1로 설정&lt;br&gt;&#xA;&lt;a href=&#34;gpu&#34; title=&#34;gpu, 하드웨어 가속 여부 보기&#34; target=&#34;_blank&#34;&gt;opera:gpu&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;config#Preferred%20renderer&#34; title=&#34;opengl과 directX 중 택1&#34;&gt;opera:config#Preferred%20renderer&lt;/a&gt; 0 - openGL, 1 - DirectX&lt;/p&gt;&#xA;&lt;p&gt;기타 자세한 사항은 &lt;a href=&#34;http://my.opera.com/desktopteam/blog/2012/06/14/twelve-under-the-hood-improvements-in-opera-12&#34; title=&#34;오페라 12 개선점&#34;&gt;여기&lt;/a&gt; 참고&lt;/p&gt;</description>
 			</item>
 	</channel>
 </rss>
