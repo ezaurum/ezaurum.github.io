@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Eric Meyer on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/eric-meyer/</link>
-    <description>Recent content in Eric Meyer on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Sun, 11 Sep 2011 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/eric-meyer/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>에릭 마이어의 CSS 노하우</title>
-      <link>https://ezaurum.com/2011/09/%EC%97%90%EB%A6%AD-%EB%A7%88%EC%9D%B4%EC%96%B4%EC%9D%98-CSS-%EB%85%B8%ED%95%98%EC%9A%B0/</link>
-      <pubDate>Sun, 11 Sep 2011 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2011/09/%EC%97%90%EB%A6%AD-%EB%A7%88%EC%9D%B4%EC%96%B4%EC%9D%98-CSS-%EB%85%B8%ED%95%98%EC%9A%B0/</guid>
-      <description>에릭 마이어의 CSS 노하우 - 에릭 마이어 지음, 한선용 옮김/인사이트&#xD;진짜 순전히 저자 보고 샀다.&#xD;사고 나서 깨달았는데, 최초로 산 CSS책이다. 그동안 안 본 건 아니지만 내돈으로 구매는 안 했으니까&amp;hellip;&#xA;결론적으로는 돈 값 한다.&#xA;기초를 다시 다지기에도 좋고, 급할 때 펼쳐보는 쿡북 용도로도 좋다.&#xA;CSS3에 대해서도 나와 있지만, 그게 주는 아니다.&#xA;CSS3만 필요하면 다른 책을 사는게 나을지도. 내용이 부실하다는 게 아니라 삐까뻔쩍한 CSS3로 채워져 있지는 않다는 얘기다.&#xA;그리고 CSS 초보(CSS가 뭔지 알고, 글자 색 바꿀 수 있는 정도)가 보기도 충분히 좋다.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Eric Meyer on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/eric-meyer/</link>
+		<description>Recent content in Eric Meyer on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Sun, 11 Sep 2011 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/eric-meyer/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>에릭 마이어의 CSS 노하우</title>
+				<link>https://ezaurum.com/2011/09/%EC%97%90%EB%A6%AD-%EB%A7%88%EC%9D%B4%EC%96%B4%EC%9D%98-CSS-%EB%85%B8%ED%95%98%EC%9A%B0/</link>
+				<pubDate>Sun, 11 Sep 2011 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2011/09/%EC%97%90%EB%A6%AD-%EB%A7%88%EC%9D%B4%EC%96%B4%EC%9D%98-CSS-%EB%85%B8%ED%95%98%EC%9A%B0/</guid>
+				<description>&lt;div class=&#34;hreview ttbReview&#34;&gt;&lt;span class=&#34;item vcard&#34;&gt;&lt;a href=&#34;http://www.aladin.co.kr/shop/wproduct.aspx?ISBN=896626008X&amp;amp;ttbkey=ttbgateopener0747003&amp;amp;paperid=5070290&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://image.aladin.co.kr/product/1266/77/cover/896626008x_1.jpg&#34; alt=&#34;에릭 마이어의 CSS 노하우&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;http://www.aladin.co.kr/shop/wproduct.aspx?ISBN=896626008X&amp;amp;ttbkey=ttbgateopener0747003&amp;amp;paperid=5070290&#34; target=&#34;_blank&#34; class=&#34;fn url&#34;&gt;에릭 마이어의 CSS 노하우&lt;/a&gt; - &lt;img src=&#34;http://image.aladin.co.kr/img/common/star_s8.gif&#34; border=&#34;0&#34; alt=&#34;8점&#34; /&gt;&lt;/span&gt;&lt;br /&gt;&lt;span style=&#34;color:#818181;&#34;&gt;에릭 마이어 지음, 한선용 옮김/인사이트&lt;/span&gt;&#xD;&#xA;&lt;span class=&#34;description&#34;&gt;&#xD;&#xA;진짜 순전히 저자 보고 샀다.&#xD;&#xA;&lt;p&gt;사고 나서 깨달았는데, 최초로 산 CSS책이다. 그동안 안 본 건 아니지만 내돈으로 구매는 안 했으니까&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;결론적으로는 &lt;strong&gt;돈 값 한다.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;기초를 다시 다지기에도 좋고, 급할 때 펼쳐보는 쿡북 용도로도 좋다.&lt;/p&gt;&#xA;&lt;p&gt;CSS3에 대해서도 나와 있지만, 그게 주는 아니다.&lt;/p&gt;&#xA;&lt;p&gt;CSS3만 필요하면 다른 책을 사는게 나을지도. 내용이 부실하다는 게 아니라 삐까뻔쩍한 CSS3로 채워져 있지는 않다는 얘기다.&lt;/p&gt;&#xA;&lt;p&gt;그리고 CSS 초보(CSS가 뭔지 알고, 글자 색 바꿀 수 있는 정도)가 보기도 충분히 좋다.&lt;/p&gt;&#xA;&lt;p&gt;책이 얇은데도 색인도 풍부하다. 값도 일단 2만원 아래니까 괜찮은 편.&#xA;&lt;/span&gt;&lt;/p&gt;&#xA;&lt;div style=&#34;display:none;&#34;&gt;&lt;span class=&#34;reviewer vcard&#34;&gt;&lt;span class=&#34;fn url&#34;&gt;http://xn--si2b20bg5cf32b.com/&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;dtreviewed&#34; title=&#34;2011-09-11T12:55:29&#34;&gt;2011-09-11T12:55:29&lt;/span&gt;&lt;span class=&#34;version&#34;&gt;0.3&lt;/span&gt;&lt;span class=&#34;rating&#34;&gt;&lt;span class=&#34;value&#34;&gt;8&lt;/span&gt;&lt;span class=&#34;best&#34;&gt;10&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;</description>
+			</item>
+	</channel>
 </rss>

@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Gpu on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/gpu/</link>
-    <description>Recent content in Gpu on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Fri, 15 Jun 2012 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/gpu/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Opera webGL 활성화</title>
-      <link>https://ezaurum.com/2012/06/Opera-webGL-%ED%99%9C%EC%84%B1%ED%99%94/</link>
-      <pubDate>Fri, 15 Jun 2012 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2012/06/Opera-webGL-%ED%99%9C%EC%84%B1%ED%99%94/</guid>
-      <description>opera:config#Enable WebGL - 1로 설정 opera:config#Enable Hardware Acceleration - 1로 설정 opera:gpu opera:config#Preferred%20renderer 0 - openGL, 1 - DirectX&#xA;기타 자세한 사항은 여기 참고</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Gpu on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/gpu/</link>
+		<description>Recent content in Gpu on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Fri, 15 Jun 2012 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/gpu/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Opera webGL 활성화</title>
+				<link>https://ezaurum.com/2012/06/Opera-webGL-%ED%99%9C%EC%84%B1%ED%99%94/</link>
+				<pubDate>Fri, 15 Jun 2012 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2012/06/Opera-webGL-%ED%99%9C%EC%84%B1%ED%99%94/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;config#Enable%20WebGL&#34; title=&#34;웹GL 활성화&#34; target=&#34;_blank&#34;&gt;opera:config#Enable WebGL&lt;/a&gt; - 1로 설정&#xA;&lt;a href=&#34;config#Enable%20Hardware%20Acceleration&#34; title=&#34;하드웨어 가속&#34; target=&#34;_blank&#34;&gt;opera:config#Enable Hardware Acceleration&lt;/a&gt; - 1로 설정&#xA;&lt;a href=&#34;gpu&#34; title=&#34;gpu, 하드웨어 가속 여부 보기&#34; target=&#34;_blank&#34;&gt;opera:gpu&lt;/a&gt;&#xA;&lt;a href=&#34;config#Preferred%20renderer&#34; title=&#34;opengl과 directX 중 택1&#34;&gt;opera:config#Preferred%20renderer&lt;/a&gt; 0 - openGL, 1 - DirectX&lt;/p&gt;&#xA;&lt;p&gt;기타 자세한 사항은 &lt;a href=&#34;http://my.opera.com/desktopteam/blog/2012/06/14/twelve-under-the-hood-improvements-in-opera-12&#34; title=&#34;오페라 12 개선점&#34;&gt;여기&lt;/a&gt; 참고&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

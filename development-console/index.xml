@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Development-Consoles on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/development-console/</link>
-    <description>Recent content in Development-Consoles on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate></lastBuildDate>
-    <atom:link href="https://ezaurum.com/development-console/index.xml" rel="self" type="application/rss+xml" />
-  </channel>
+	<channel>
+		<title>Development-Consoles on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/development-console/</link>
+		<description>Recent content in Development-Consoles on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<atom:link href="https://ezaurum.com/development-console/index.xml" rel="self" type="application/rss+xml" />
+	</channel>
 </rss>

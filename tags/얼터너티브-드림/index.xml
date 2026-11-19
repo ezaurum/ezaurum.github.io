@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>얼터너티브 드림 on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/%EC%96%BC%ED%84%B0%EB%84%88%ED%8B%B0%EB%B8%8C-%EB%93%9C%EB%A6%BC/</link>
-    <description>Recent content in 얼터너티브 드림 on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Mon, 19 May 2008 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/%EC%96%BC%ED%84%B0%EB%84%88%ED%8B%B0%EB%B8%8C-%EB%93%9C%EB%A6%BC/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>얼터너티브 드림을 읽었다.</title>
-      <link>https://ezaurum.com/2008/05/%EC%96%BC%ED%84%B0%EB%84%88%ED%8B%B0%EB%B8%8C-%EB%93%9C%EB%A6%BC%EC%9D%84-%EC%9D%BD%EC%97%88%EB%8B%A4./</link>
-      <pubDate>Mon, 19 May 2008 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2008/05/%EC%96%BC%ED%84%B0%EB%84%88%ED%8B%B0%EB%B8%8C-%EB%93%9C%EB%A6%BC%EC%9D%84-%EC%9D%BD%EC%97%88%EB%8B%A4./</guid>
-      <description>내가 이영도를 좋아하는 건, 단어에 의미를 농축해 담아낼 수 있기 때문이다.&#xA;하나의 이야기는 하나의 단어로 농축될 수 있다. 온가시버시라. 좋구나. 나도 열심히 해야지.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>얼터너티브 드림 on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/%EC%96%BC%ED%84%B0%EB%84%88%ED%8B%B0%EB%B8%8C-%EB%93%9C%EB%A6%BC/</link>
+		<description>Recent content in 얼터너티브 드림 on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Mon, 19 May 2008 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/%EC%96%BC%ED%84%B0%EB%84%88%ED%8B%B0%EB%B8%8C-%EB%93%9C%EB%A6%BC/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>얼터너티브 드림을 읽었다.</title>
+				<link>https://ezaurum.com/2008/05/%EC%96%BC%ED%84%B0%EB%84%88%ED%8B%B0%EB%B8%8C-%EB%93%9C%EB%A6%BC%EC%9D%84-%EC%9D%BD%EC%97%88%EB%8B%A4./</link>
+				<pubDate>Mon, 19 May 2008 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2008/05/%EC%96%BC%ED%84%B0%EB%84%88%ED%8B%B0%EB%B8%8C-%EB%93%9C%EB%A6%BC%EC%9D%84-%EC%9D%BD%EC%97%88%EB%8B%A4./</guid>
+				<description>&lt;p&gt;내가 이영도를 좋아하는 건, 단어에 의미를 농축해 담아낼 수 있기 때문이다.&lt;/p&gt;&#xA;&lt;p&gt;하나의 이야기는 하나의 단어로 농축될 수 있다. 온가시버시라. 좋구나. 나도 열심히 해야지.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

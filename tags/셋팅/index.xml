@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>셋팅 on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/%EC%85%8B%ED%8C%85/</link>
-    <description>Recent content in 셋팅 on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Sun, 25 Nov 2012 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/%EC%85%8B%ED%8C%85/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>가상머신에 서버 셋팅 하고 나니까 깨달았는데...</title>
-      <link>https://ezaurum.com/2012/11/%EA%B0%80%EC%83%81%EB%A8%B8%EC%8B%A0%EC%97%90-%EC%84%9C%EB%B2%84-%EC%85%8B%ED%8C%85-%ED%95%98%EA%B3%A0-%EB%82%98%EB%8B%88%EA%B9%8C-%EA%B9%A8%EB%8B%AC%EC%95%98%EB%8A%94%EB%8D%B0.../</link>
-      <pubDate>Sun, 25 Nov 2012 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2012/11/%EA%B0%80%EC%83%81%EB%A8%B8%EC%8B%A0%EC%97%90-%EC%84%9C%EB%B2%84-%EC%85%8B%ED%8C%85-%ED%95%98%EA%B3%A0-%EB%82%98%EB%8B%88%EA%B9%8C-%EA%B9%A8%EB%8B%AC%EC%95%98%EB%8A%94%EB%8D%B0.../</guid>
-      <description>나 왜 라즈베리 파이를 놀려두고 있었지.. OTL&amp;hellip;&#xA;&amp;hellip;그래서 오늘 밤은 거기다 다시 셋팅해야&amp;hellip; OTL&amp;hellip;&#xA;일단 할 거 목록을 적으면&amp;hellip;&#xA;라즈베리 파이에 필요한 것들을 깐다. - 기본 설정은 되어 있으니 apt-get으로 대충...&#xD;nexus - 지난 주에 배웠으니 어디...&#xD;git - github는 public이라.. 거기 돈을 내고 private을 할까 이거 전기세가 쌀까 생각중...&#xD;jenkins - 음.. 어디 한 번...&#xD;gradle - 어디 써 보자..&#xD;ftp - 혹시나.&#xD;아무거나 빌드해서 올려본다 - 되는가 test 해 봄&#xD;리셋해도 바뀌지 않도록 각 PC의 내부 IP를 고정한다.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>셋팅 on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/%EC%85%8B%ED%8C%85/</link>
+		<description>Recent content in 셋팅 on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Sun, 25 Nov 2012 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/%EC%85%8B%ED%8C%85/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>가상머신에 서버 셋팅 하고 나니까 깨달았는데...</title>
+				<link>https://ezaurum.com/2012/11/%EA%B0%80%EC%83%81%EB%A8%B8%EC%8B%A0%EC%97%90-%EC%84%9C%EB%B2%84-%EC%85%8B%ED%8C%85-%ED%95%98%EA%B3%A0-%EB%82%98%EB%8B%88%EA%B9%8C-%EA%B9%A8%EB%8B%AC%EC%95%98%EB%8A%94%EB%8D%B0.../</link>
+				<pubDate>Sun, 25 Nov 2012 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2012/11/%EA%B0%80%EC%83%81%EB%A8%B8%EC%8B%A0%EC%97%90-%EC%84%9C%EB%B2%84-%EC%85%8B%ED%8C%85-%ED%95%98%EA%B3%A0-%EB%82%98%EB%8B%88%EA%B9%8C-%EA%B9%A8%EB%8B%AC%EC%95%98%EB%8A%94%EB%8D%B0.../</guid>
+				<description>&lt;p&gt;나 왜 라즈베리 파이를 놀려두고 있었지.. OTL&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;&amp;hellip;그래서 오늘 밤은 거기다 다시 셋팅해야&amp;hellip; OTL&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;일단 할 거 목록을 적으면&amp;hellip;&lt;/p&gt;&#xA;&lt;ol&gt;&#xD;&#xA;&#x9;&lt;li&gt;라즈베리 파이에 필요한 것들을 깐다. - 기본 설정은 되어 있으니 apt-get으로 대충...&#xD;&#xA;&lt;ol&gt;&#xD;&#xA;&#x9;&lt;li&gt;nexus - 지난 주에 배웠으니 어디...&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;git - github는 public이라.. 거기 돈을 내고 private을 할까 이거 전기세가 쌀까 생각중...&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;jenkins - 음.. 어디 한 번...&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;gradle - 어디 써 보자..&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;ftp - 혹시나.&lt;/li&gt;&#xD;&#xA;&lt;/ol&gt;&#xD;&#xA;&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;아무거나 빌드해서 올려본다 - 되는가 test 해 봄&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;리셋해도 바뀌지 않도록 각 PC의 내부 IP를 고정한다. - 공유기 설정으로 쉽게 할 수 있음.&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;리셋을 해 봅니다&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;외부에서 접근 가능하도록 필요한 포트 포워딩 설정을 한다. - 공유기 설정. ssh, http, ftp 설정 정도면 되려나.&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;ip로 접근 되는가 test 해 봄&lt;/li&gt;&#xD;&#xA;&#x9;&lt;del datetime=&#34;2012-11-25T16:13:26+00:00&#34;&gt;&lt;li&gt;ip를 외우고 다닐 수 없으니 다이나믹 ip 설정을 해 준다. - dns ever를 이용해 볼까.&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;도메인 주소로 test&lt;/li&gt;&lt;/del&gt;&lt;ins datetime=&#34;2012-11-25T16:13:26+00:00&#34;&gt;dns ever에 아주 잘 나와 있다. 포트 포워딩만 잘 하면 됨.&lt;/ins&gt;&#xD;&#xA;&lt;li&gt;끝&lt;/li&gt;&#xD;&#xA;&lt;/ol&gt;&#xD;&#xA;&lt;p&gt;자, 이걸 하려면&amp;hellip; 일단 일을 빨리 끝내고 집에 가야지&amp;hellip;&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

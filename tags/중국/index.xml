@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>중국 on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/%EC%A4%91%EA%B5%AD/</link>
-    <description>Recent content in 중국 on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Sun, 15 Mar 2020 12:42:34 +0900</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/%EC%A4%91%EA%B5%AD/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>칭따오 여행</title>
-      <link>https://ezaurum.com/2020/03/%EC%B9%AD%EB%94%B0%EC%98%A4-%EC%97%AC%ED%96%89/</link>
-      <pubDate>Sun, 15 Mar 2020 12:42:34 +0900</pubDate>
-      <guid>https://ezaurum.com/2020/03/%EC%B9%AD%EB%94%B0%EC%98%A4-%EC%97%AC%ED%96%89/</guid>
-      <description>2019년 12월에 2박3일 예정으로 칭따오 여행을 갔다.&#xA;같이 간 동행자가 중국요리를 못 먹고 관심사가 심하게 달라서 제대로 여행을 못 한 게 아쉽다.&#xA;비자 비용도 있고, 동남아 대비 비용이 많이 싼 것도 아니고(호텔은 쌌다) 사실 중국요리는 어느 나라에서나 먹을 수 있기도 하고, 별로 따뜻하지도 않으면서 영어가 제대로 안 되는 것도 있고(번역기는 매우 좋음) 해서 다시 갈 거 같지는 않다.&#xA;중국에서 영문 상품은 모두 한자 병기가 되어 있다. 차도 그렇고. 도로가 널찍널찍하고 건물도 크다.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>중국 on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/%EC%A4%91%EA%B5%AD/</link>
+		<description>Recent content in 중국 on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Sun, 15 Mar 2020 12:42:34 +0900</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/%EC%A4%91%EA%B5%AD/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>칭따오 여행</title>
+				<link>https://ezaurum.com/2020/03/%EC%B9%AD%EB%94%B0%EC%98%A4-%EC%97%AC%ED%96%89/</link>
+				<pubDate>Sun, 15 Mar 2020 12:42:34 +0900</pubDate>
+				<guid>https://ezaurum.com/2020/03/%EC%B9%AD%EB%94%B0%EC%98%A4-%EC%97%AC%ED%96%89/</guid>
+				<description>&lt;p&gt;2019년 12월에 2박3일 예정으로 칭따오 여행을 갔다.&lt;/p&gt;&#xA;&lt;p&gt;같이 간 동행자가 중국요리를 못 먹고 관심사가 심하게 달라서 제대로 여행을 못 한 게 아쉽다.&lt;/p&gt;&#xA;&lt;p&gt;비자 비용도 있고, 동남아 대비 비용이 많이 싼 것도 아니고(호텔은 쌌다) 사실 중국요리는 어느 나라에서나 먹을 수 있기도 하고, 별로 따뜻하지도 않으면서 영어가 제대로 안 되는 것도 있고(번역기는 매우 좋음) 해서 다시 갈 거 같지는 않다.&lt;/p&gt;&#xA;&lt;p&gt;중국에서 영문 상품은 모두 한자 병기가 되어 있다. 차도 그렇고.&#xA;도로가 널찍널찍하고 건물도 크다. 하지만 뭔가 낡고 오래된 느낌. 실제로 그리 오래 되지 않았을텐데 말이지.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

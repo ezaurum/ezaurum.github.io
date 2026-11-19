@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>이기는 습관 on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/%EC%9D%B4%EA%B8%B0%EB%8A%94-%EC%8A%B5%EA%B4%80/</link>
-    <description>Recent content in 이기는 습관 on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Thu, 29 Jul 2010 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/%EC%9D%B4%EA%B8%B0%EB%8A%94-%EC%8A%B5%EA%B4%80/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>이기는 습관</title>
-      <link>https://ezaurum.com/2010/07/%EC%9D%B4%EA%B8%B0%EB%8A%94-%EC%8A%B5%EA%B4%80/</link>
-      <pubDate>Thu, 29 Jul 2010 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2010/07/%EC%9D%B4%EA%B8%B0%EB%8A%94-%EC%8A%B5%EA%B4%80/</guid>
-      <description>제목&#x9;이기는습관 저자&#x9;전옥표 발행인&#x9;쌤앤파커스, 2007 ISBN:8995881607, 9788995881606 길이&#x9;293페이지&#xA;자기계발서. 깔끔하고 이대로 하면 뭐든 된다라고 말하는 다른 책과는 달리 약간 사람 냄새가 난다. 사실 거의 제목에 낚여서 본 책. 되는 놈은 계속 되고, 안 되는 놈은 계속 안 되는 것도 어찌 보면 습관이라는 생각이 든다. 그런 의미로 이기는 습관을 좀 들여 보자. 나한테도, 세상한테도.&#xA;27/150</description>
-    </item>
-  </channel>
+	<channel>
+		<title>이기는 습관 on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/%EC%9D%B4%EA%B8%B0%EB%8A%94-%EC%8A%B5%EA%B4%80/</link>
+		<description>Recent content in 이기는 습관 on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Thu, 29 Jul 2010 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/%EC%9D%B4%EA%B8%B0%EB%8A%94-%EC%8A%B5%EA%B4%80/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>이기는 습관</title>
+				<link>https://ezaurum.com/2010/07/%EC%9D%B4%EA%B8%B0%EB%8A%94-%EC%8A%B5%EA%B4%80/</link>
+				<pubDate>Thu, 29 Jul 2010 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2010/07/%EC%9D%B4%EA%B8%B0%EB%8A%94-%EC%8A%B5%EA%B4%80/</guid>
+				<description>&lt;p&gt;제목&#x9;이기는습관&#xA;저자&#x9;전옥표&#xA;발행인&#x9;쌤앤파커스, 2007&#xA;ISBN:&lt;span class=&#34;ISBN&#34;&gt;8995881607, 9788995881606&lt;/span&gt;&#xA;길이&#x9;293페이지&lt;/p&gt;&#xA;&lt;p&gt;자기계발서. 깔끔하고 이대로 하면 뭐든 된다라고 말하는 다른 책과는 달리 약간 사람 냄새가 난다.&#xA;사실 거의 제목에 낚여서 본 책. 되는 놈은 계속 되고, 안 되는 놈은 계속 안 되는 것도 어찌 보면 습관이라는 생각이 든다.&#xA;그런 의미로 이기는 습관을 좀 들여 보자. 나한테도, 세상한테도.&lt;/p&gt;&#xA;&lt;p class=&#34;soul mission readBooks&#34;&gt;27/150&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

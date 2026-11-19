@@ -1,27 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Sql on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/sql/</link>
-    <description>Recent content in Sql on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Sun, 31 Jan 2021 13:11:01 +0900</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/sql/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>테이블 생성 시 Foreign key constraint is incorrectly formed 에러 발생</title>
-      <link>https://ezaurum.com/bug/create-table-faield/</link>
-      <pubDate>Sun, 31 Jan 2021 13:11:01 +0900</pubDate>
-      <guid>https://ezaurum.com/bug/create-table-faield/</guid>
-      <description>문제상황 - 틀린 게 없는데 테이블 생성 시 Foreign key constraint is incorrectly formed 가 계속 나올 때&#xA;원인 - A 테이블에서 B 테이블의 a 에 대해서 FK를 만들었을 때, B테이블을 새로 생성하려면 A테이블의 이전 FK에 지정된 컬럼값과 새로 만들 값이 동일해야 한다. B 테이블을 지우고 나도 A 테이블에 있는 a에 대한 FK는 유지됨&#xA;해결방안 - A테이블의 FK를 삭제 후 재생성 재발 방지를 위해 - 테이블을 삭제할 때는 참조하는 FK를 모두 지우고 해 볼것</description>
-    </item>
-    <item>
-      <title>쿼리 결과를 CSV 파일로 생성</title>
-      <link>https://ezaurum.com/2019/05/%EC%BF%BC%EB%A6%AC-%EA%B2%B0%EA%B3%BC%EB%A5%BC-CSV-%ED%8C%8C%EC%9D%BC%EB%A1%9C-%EC%83%9D%EC%84%B1/</link>
-      <pubDate>Sun, 12 May 2019 01:54:01 +0900</pubDate>
-      <guid>https://ezaurum.com/2019/05/%EC%BF%BC%EB%A6%AC-%EA%B2%B0%EA%B3%BC%EB%A5%BC-CSV-%ED%8C%8C%EC%9D%BC%EB%A1%9C-%EC%83%9D%EC%84%B1/</guid>
-      <description>select b.*, a.* from log_table a, somehow_table b where a.id = b.id and check_result=&amp;#39;Success&amp;#39; and a.column=123 INTO OUTFILE &amp;#39;orders.csv&amp;#39; FIELDS TERMINATED BY &amp;#39;,&amp;#39; ENCLOSED BY &amp;#39;&amp;#34;&amp;#39; LINES TERMINATED BY &amp;#39;\n&amp;#39;; </description>
-    </item>
-  </channel>
+	<channel>
+		<title>Sql on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/sql/</link>
+		<description>Recent content in Sql on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Sun, 31 Jan 2021 13:11:01 +0900</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/sql/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>테이블 생성 시 Foreign key constraint is incorrectly formed 에러 발생</title>
+				<link>https://ezaurum.com/bug/create-table-faield/</link>
+				<pubDate>Sun, 31 Jan 2021 13:11:01 +0900</pubDate>
+				<guid>https://ezaurum.com/bug/create-table-faield/</guid>
+				<description>&lt;p&gt;문제상황 - 틀린 게 없는데 테이블 생성 시 Foreign key constraint is incorrectly formed 가 계속 나올 때&lt;/p&gt;&#xA;&lt;p&gt;원인 - A 테이블에서 B 테이블의 a 에 대해서 FK를 만들었을 때, B테이블을 새로 생성하려면 A테이블의 이전 FK에 지정된 컬럼값과 새로 만들 값이 동일해야 한다.&#xA;B 테이블을 지우고 나도 A 테이블에 있는 a에 대한 FK는 유지됨&lt;/p&gt;&#xA;&lt;p&gt;해결방안 - A테이블의 FK를 삭제 후 재생성&#xA;재발 방지를 위해 - 테이블을 삭제할 때는 참조하는 FK를 모두 지우고 해 볼것&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>쿼리 결과를 CSV 파일로 생성</title>
+				<link>https://ezaurum.com/2019/05/%EC%BF%BC%EB%A6%AC-%EA%B2%B0%EA%B3%BC%EB%A5%BC-CSV-%ED%8C%8C%EC%9D%BC%EB%A1%9C-%EC%83%9D%EC%84%B1/</link>
+				<pubDate>Sun, 12 May 2019 01:54:01 +0900</pubDate>
+				<guid>https://ezaurum.com/2019/05/%EC%BF%BC%EB%A6%AC-%EA%B2%B0%EA%B3%BC%EB%A5%BC-CSV-%ED%8C%8C%EC%9D%BC%EB%A1%9C-%EC%83%9D%EC%84%B1/</guid>
+				<description>&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;select b.*, a.* from log_table a,&#xA;somehow_table b where a.id = b.id&#xA;and check_result=&amp;#39;Success&amp;#39; and a.column=123&#xA;INTO OUTFILE &amp;#39;orders.csv&amp;#39; FIELDS TERMINATED BY &amp;#39;,&amp;#39; ENCLOSED BY &amp;#39;&amp;#34;&amp;#39; LINES TERMINATED BY &amp;#39;\n&amp;#39;;&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
+			</item>
+	</channel>
 </rss>

@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>슬레이어즈 on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/%EC%8A%AC%EB%A0%88%EC%9D%B4%EC%96%B4%EC%A6%88/</link>
-    <description>Recent content in 슬레이어즈 on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Sat, 19 Jul 2008 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/%EC%8A%AC%EB%A0%88%EC%9D%B4%EC%96%B4%EC%A6%88/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>슬레이어즈 레볼루션</title>
-      <link>https://ezaurum.com/2008/07/%EC%8A%AC%EB%A0%88%EC%9D%B4%EC%96%B4%EC%A6%88-%EB%A0%88%EB%B3%BC%EB%A3%A8%EC%85%98/</link>
-      <pubDate>Sat, 19 Jul 2008 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2008/07/%EC%8A%AC%EB%A0%88%EC%9D%B4%EC%96%B4%EC%A6%88-%EB%A0%88%EB%B3%BC%EB%A3%A8%EC%85%98/</guid>
-      <description>십여년 전에 즐거웁게 보던 것이 돌아왔다. 문제는 여전히 저 가슴이 절벽이라는 것에는 동의할 수 없다는 것. B컵은 되겠구만&amp;hellip;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>슬레이어즈 on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/%EC%8A%AC%EB%A0%88%EC%9D%B4%EC%96%B4%EC%A6%88/</link>
+		<description>Recent content in 슬레이어즈 on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Sat, 19 Jul 2008 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/%EC%8A%AC%EB%A0%88%EC%9D%B4%EC%96%B4%EC%A6%88/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>슬레이어즈 레볼루션</title>
+				<link>https://ezaurum.com/2008/07/%EC%8A%AC%EB%A0%88%EC%9D%B4%EC%96%B4%EC%A6%88-%EB%A0%88%EB%B3%BC%EB%A3%A8%EC%85%98/</link>
+				<pubDate>Sat, 19 Jul 2008 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2008/07/%EC%8A%AC%EB%A0%88%EC%9D%B4%EC%96%B4%EC%A6%88-%EB%A0%88%EB%B3%BC%EB%A3%A8%EC%85%98/</guid>
+				<description>&lt;p&gt;&lt;a href=&#39;https://ezaurum.com/wordpress/wp-content/uploads/2008/07/slayers_revolution_03_xvid_720x41612-38-24.jpg&#39;&gt;&lt;img src=&#34;https://ezaurum.com/wordpress/wp-content/uploads/2008/07/slayers_revolution_03_xvid_720x41612-38-24-300x173.jpg&#34; alt=&#34;슬레이어즈 레볼루션&#34; title=&#34;slayers_revolution_03_xvid_720x41612-38-24&#34; width=&#34;300&#34; height=&#34;173&#34; class=&#34;alignnone size-medium wp-image-95&#34; /&gt;&lt;/a&gt;&#xA;십여년 전에 즐거웁게 보던 것이 돌아왔다.&#xA;문제는 여전히 저 가슴이 절벽이라는 것에는 동의할 수 없다는 것. B컵은 되겠구만&amp;hellip;&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

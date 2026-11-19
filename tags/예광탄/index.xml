@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>예광탄 on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/%EC%98%88%EA%B4%91%ED%83%84/</link>
-    <description>Recent content in 예광탄 on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Thu, 27 Jun 2013 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/%EC%98%88%EA%B4%91%ED%83%84/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>또 한달 지나서 쓰는 정리글</title>
-      <link>https://ezaurum.com/2013/06/%EB%98%90-%ED%95%9C%EB%8B%AC-%EC%A7%80%EB%82%98%EC%84%9C-%EC%93%B0%EB%8A%94-%EC%A0%95%EB%A6%AC%EA%B8%80/</link>
-      <pubDate>Thu, 27 Jun 2013 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2013/06/%EB%98%90-%ED%95%9C%EB%8B%AC-%EC%A7%80%EB%82%98%EC%84%9C-%EC%93%B0%EB%8A%94-%EC%A0%95%EB%A6%AC%EA%B8%80/</guid>
-      <description>의외로 했던 일 다시하고 다시하는 비율이 높다. 처음 했던 설계는 생각보다 더 쓸모없지만 안 할 수는 없다. 예광탄을 기억하자. 설계의 문제를 찾아내려면 한 번만 돌려봐도 된다. 테스트 코드는 만들어두니 좋지만, 하다 보니 또 안 하게 된다. 짬짬이 기억해내자.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>예광탄 on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/%EC%98%88%EA%B4%91%ED%83%84/</link>
+		<description>Recent content in 예광탄 on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Thu, 27 Jun 2013 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/%EC%98%88%EA%B4%91%ED%83%84/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>또 한달 지나서 쓰는 정리글</title>
+				<link>https://ezaurum.com/2013/06/%EB%98%90-%ED%95%9C%EB%8B%AC-%EC%A7%80%EB%82%98%EC%84%9C-%EC%93%B0%EB%8A%94-%EC%A0%95%EB%A6%AC%EA%B8%80/</link>
+				<pubDate>Thu, 27 Jun 2013 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2013/06/%EB%98%90-%ED%95%9C%EB%8B%AC-%EC%A7%80%EB%82%98%EC%84%9C-%EC%93%B0%EB%8A%94-%EC%A0%95%EB%A6%AC%EA%B8%80/</guid>
+				<description>&lt;p&gt;의외로 했던 일 다시하고 다시하는 비율이 높다.&#xA;처음 했던 설계는 생각보다 더 쓸모없지만 안 할 수는 없다.&#xA;예광탄을 기억하자. 설계의 문제를 찾아내려면 한 번만 돌려봐도 된다.&#xA;테스트 코드는 만들어두니 좋지만, 하다 보니 또 안 하게 된다. 짬짬이 기억해내자.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

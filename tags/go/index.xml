@@ -1,55 +1,61 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Go on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/go/</link>
-    <description>Recent content in Go on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Thu, 26 Mar 2020 01:42:28 +0900</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/go/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Golang에서 같은 패키지에 여러 도메인 객체를 넣으면 안 되는 이유</title>
-      <link>https://ezaurum.com/2020/03/Golang%EC%97%90%EC%84%9C-%EA%B0%99%EC%9D%80-%ED%8C%A8%ED%82%A4%EC%A7%80%EC%97%90-%EC%97%AC%EB%9F%AC-%EB%8F%84%EB%A9%94%EC%9D%B8-%EA%B0%9D%EC%B2%B4%EB%A5%BC-%EB%84%A3%EC%9C%BC%EB%A9%B4-%EC%95%88-%EB%90%98%EB%8A%94-%EC%9D%B4%EC%9C%A0/</link>
-      <pubDate>Thu, 26 Mar 2020 01:42:28 +0900</pubDate>
-      <guid>https://ezaurum.com/2020/03/Golang%EC%97%90%EC%84%9C-%EA%B0%99%EC%9D%80-%ED%8C%A8%ED%82%A4%EC%A7%80%EC%97%90-%EC%97%AC%EB%9F%AC-%EB%8F%84%EB%A9%94%EC%9D%B8-%EA%B0%9D%EC%B2%B4%EB%A5%BC-%EB%84%A3%EC%9C%BC%EB%A9%B4-%EC%95%88-%EB%90%98%EB%8A%94-%EC%9D%B4%EC%9C%A0/</guid>
-      <description>Go 는 순환참조에 대해 매우 민감하다. 컴파일조차 되지 않는다.&#xA;그게 불편해서 프로젝트의 도메인을 모두 한 곳에 집어넣는 경우가 있는데, 해 보니 다음과 같은 문제가 있었다.&#xA;네임스페이스가 겹쳐서 이름 짓기가 이상해진다 - 프로그래밍 레벨에서 이벤트를 쓰고, 행사라는 의미로 이벤트를 쓰면 둘 중 하나는 바꿔야 한다. 핸들러에서 메소드 이름으로 도메인 객체를 구분해야 하므로 매우 길어진다. create면 될 것을 createApplicationEvent 가 되는 식.&#xA;코드 복붙할 때 문제가 생긴다 - 자동 코드 생성기를 쓰든, 직접 복붙을 하든 1과 관련되어 패키지 이름이 겹치는 경우가 생기고, IDE의 리팩토링 툴을 쓰기도 곤란해진다.</description>
-    </item>
-    <item>
-      <title>too many connection</title>
-      <link>https://ezaurum.com/bug/too-many-connections/</link>
-      <pubDate>Thu, 20 Jun 2019 22:31:05 +0900</pubDate>
-      <guid>https://ezaurum.com/bug/too-many-connections/</guid>
-      <description>현상 일정 시간마다 ajax로 내용을 리프레시 해 주는 게시판에서 사용자 200여명이 넘어가자 DB엑세스 시 too many connection이 발생하고 연결을 하지 못하는 현상 발생&#xA;DB, API 서버의 cpu/mem 부하는 20% 전후인 상태&#xA;리셋 등으로 해결이 안 되고, 도커 컨테이너 늘려서도 해결이 안 됨&#xA;지속되는 경우 리퀘스트도 쌓이고 file open max 값이 넘어가서 사용 불가&#xA;원인 DB 처리량보다 부하 심함 IO 부분이 보틀넥으로 보임 도커 인스턴스가 값싼 거고 DB도 값싼 인스턴스 커넥션이 늘어남 실제 DB 커넥션이 45개 전후 RDS에서 가장 작은 인스턴스를 사용했는데 전체 DB 메모리 양과 CPU 사용량을 가지고 연결수 계산 도커 컨테이너의 Max Connection은 50 이전 네이버에서 직접 배포 때 잡은 설정 그대로 RDS 인스턴스가 여러 개 일 때는 괜찮았음 제일 작은 걸로 바꾸고 인스턴스도 줄여둔 상태 이미 늘어난 컨넥션은 없어지지 않고 CPU 사용량은 그리 많지 않음 재현 봇을 만들어서 로그인, 화면 리프레시를 하게 하니 100명 전후가 몰려서 접근시 문제 발생</description>
-    </item>
-    <item>
-      <title>Go 로 WASM 해보기</title>
-      <link>https://ezaurum.com/2018/06/Go-%EB%A1%9C-WASM-%ED%95%B4%EB%B3%B4%EA%B8%B0/</link>
-      <pubDate>Wed, 27 Jun 2018 14:46:48 +0900</pubDate>
-      <guid>https://ezaurum.com/2018/06/Go-%EB%A1%9C-WASM-%ED%95%B4%EB%B3%B4%EA%B8%B0/</guid>
-      <description>WASM은 WebAssembly의 약어로, 용어자체에서 보둣, 웹에서 ASM을 돌려보자는 프로젝트이다. 여러 장점이 있다고 하는데, 일단 가장 크게 느껴지는 건 익숙한 언어로 웹프로그래밍을 할 수 있을거라는 기대감이다.&#xA;이미 대부분의 브라우저에서 지원 해 주고 있고, Go에서도 1.10버전부터 정식 지원한다고 한다.&#xA;일단 검색해보니 참고 포스트가 하나 나와서 따라 해 봤다.&#xA;새 버전 go를 받아서 컴파일한다. 11버전부터니, Go 저장소에서 clone한다.&#xA;git clone https://github.com/golang/go 그 다음 src 에서 all.bash를 실행한다.&#xA;./all.bash 그럼 컴파일이 되고, ../bin에 go 가 생겨 있을 것이다.</description>
-    </item>
-    <item>
-      <title>GORM에서 Many To Many 값을 제대로 가져오지 못하는 문제</title>
-      <link>https://ezaurum.com/bug/gorm-related-bug/</link>
-      <pubDate>Tue, 01 May 2018 23:36:26 +0900</pubDate>
-      <guid>https://ezaurum.com/bug/gorm-related-bug/</guid>
-      <description>문제 상황 - GORM 문서대로 했는데 제대로 값이 불려오지 않았다.&#xA;문제 원인 - 문서에서는 db.Model(&amp;amp;language).Related(&amp;amp;users)식으로 하면 된다고 했는데, 실제로는 db.Model(&amp;amp;language).Related(&amp;amp;users,&amp;quot;Users&amp;quot;) 식으로 프로퍼티 이름을 적어줘야 했다. 연관 테이블을 쓰는 게 두 개 이상이라 문제가 생긴 모양.&#xA;재발 방지를 위해 - 일단 소스를 뒤지자</description>
-    </item>
-    <item>
-      <title>인수 전달이 잘못된 문제</title>
-      <link>https://ezaurum.com/bug/2017-12-29-bug-diary/</link>
-      <pubDate>Fri, 29 Dec 2017 19:36:26 +0700</pubDate>
-      <guid>https://ezaurum.com/bug/2017-12-29-bug-diary/</guid>
-      <description>문제 상황 - 에러가 없는데 DB에 자료가 기록되지 않았다.&#xA;문제 원인 -&#xA;func (dbm *Manager) transaction(action TransactionHandlerFunc, targets ...interface{}) 를 tranaction(action) 형태로 호출하고는 왜 안되는지를 못 찾아서 2시간 허비.&#xA;재발 방지를 위해 - 인수를 먼저 확인하자.</description>
-    </item>
-    <item>
-      <title>Go Web Server</title>
-      <link>https://ezaurum.com/2017/12/Go-Web-Server/</link>
-      <pubDate>Sat, 16 Dec 2017 18:01:25 +0700</pubDate>
-      <guid>https://ezaurum.com/2017/12/Go-Web-Server/</guid>
-      <description>Go는 기본적으로 web서버를 쉽게 만들 수 있게 되어 있다.&#xA;그래도 막상 하려고 하면 자잘하게 할 게 많아서 추가 라이브러리나 프레임워크가 필요하게 된다.&#xA;개중 쓸 만한 것이 gin이라, 소개 겸, 헬로 월드를 찍어봤다.&#xA;Github 저장소에도 하나씩 올릴 예정.&#xA;하는 김에 동영상도 찍어봤다</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Go on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/go/</link>
+		<description>Recent content in Go on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Thu, 26 Mar 2020 01:42:28 +0900</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/go/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Golang에서 같은 패키지에 여러 도메인 객체를 넣으면 안 되는 이유</title>
+				<link>https://ezaurum.com/2020/03/Golang%EC%97%90%EC%84%9C-%EA%B0%99%EC%9D%80-%ED%8C%A8%ED%82%A4%EC%A7%80%EC%97%90-%EC%97%AC%EB%9F%AC-%EB%8F%84%EB%A9%94%EC%9D%B8-%EA%B0%9D%EC%B2%B4%EB%A5%BC-%EB%84%A3%EC%9C%BC%EB%A9%B4-%EC%95%88-%EB%90%98%EB%8A%94-%EC%9D%B4%EC%9C%A0/</link>
+				<pubDate>Thu, 26 Mar 2020 01:42:28 +0900</pubDate>
+				<guid>https://ezaurum.com/2020/03/Golang%EC%97%90%EC%84%9C-%EA%B0%99%EC%9D%80-%ED%8C%A8%ED%82%A4%EC%A7%80%EC%97%90-%EC%97%AC%EB%9F%AC-%EB%8F%84%EB%A9%94%EC%9D%B8-%EA%B0%9D%EC%B2%B4%EB%A5%BC-%EB%84%A3%EC%9C%BC%EB%A9%B4-%EC%95%88-%EB%90%98%EB%8A%94-%EC%9D%B4%EC%9C%A0/</guid>
+				<description>&lt;p&gt;Go 는 순환참조에 대해 매우 민감하다. 컴파일조차 되지 않는다.&lt;/p&gt;&#xA;&lt;p&gt;그게 불편해서 프로젝트의 도메인을 모두 한 곳에 집어넣는 경우가 있는데, 해 보니 다음과 같은 문제가 있었다.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;네임스페이스가 겹쳐서 이름 짓기가 이상해진다 - 프로그래밍 레벨에서 이벤트를 쓰고, 행사라는 의미로 이벤트를 쓰면 둘 중 하나는 바꿔야 한다. 핸들러에서 메소드 이름으로 도메인 객체를 구분해야 하므로 매우 길어진다. create면 될 것을 createApplicationEvent 가 되는 식.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;코드 복붙할 때 문제가 생긴다 - 자동 코드 생성기를 쓰든, 직접 복붙을 하든 1과 관련되어 패키지 이름이 겹치는 경우가 생기고, IDE의 리팩토링 툴을 쓰기도 곤란해진다. 복붙하다가 하나 고치는 걸 빼먹었다면? 마침 테스트 코드도 복붙하면서 안 고쳤다면? 끔찍하다.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+			</item>
+			<item>
+				<title>too many connection</title>
+				<link>https://ezaurum.com/bug/too-many-connections/</link>
+				<pubDate>Thu, 20 Jun 2019 22:31:05 +0900</pubDate>
+				<guid>https://ezaurum.com/bug/too-many-connections/</guid>
+				<description>&lt;h1 id=&#34;현상&#34;&gt;현상&lt;/h1&gt;&#xA;&lt;p&gt;일정 시간마다 ajax로 내용을 리프레시 해 주는 게시판에서 사용자 200여명이 넘어가자 DB엑세스 시 too many connection이 발생하고 연결을 하지 못하는 현상 발생&lt;/p&gt;&#xA;&lt;p&gt;DB, API 서버의 cpu/mem 부하는 20% 전후인 상태&lt;/p&gt;&#xA;&lt;p&gt;리셋 등으로 해결이 안 되고, 도커 컨테이너 늘려서도 해결이 안 됨&lt;/p&gt;&#xA;&lt;p&gt;지속되는 경우 리퀘스트도 쌓이고 file open max 값이 넘어가서 사용 불가&lt;/p&gt;&#xA;&lt;h1 id=&#34;원인&#34;&gt;원인&lt;/h1&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;DB 처리량보다 부하 심함&#xA;&lt;ol&gt;&#xA;&lt;li&gt;IO 부분이 보틀넥으로 보임&lt;/li&gt;&#xA;&lt;li&gt;도커 인스턴스가 값싼 거고 DB도 값싼 인스턴스&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;커넥션이 늘어남&lt;/li&gt;&#xA;&lt;li&gt;실제 DB 커넥션이 45개 전후&#xA;&lt;ol&gt;&#xA;&lt;li&gt;RDS에서 가장 작은 인스턴스를 사용했는데 전체 DB 메모리 양과 CPU 사용량을 가지고 연결수 계산&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;도커 컨테이너의 Max Connection은 50&#xA;&lt;ol&gt;&#xA;&lt;li&gt;이전 네이버에서 직접 배포 때 잡은 설정 그대로&lt;/li&gt;&#xA;&lt;li&gt;RDS 인스턴스가 여러 개 일 때는 괜찮았음&lt;/li&gt;&#xA;&lt;li&gt;제일 작은 걸로 바꾸고 인스턴스도 줄여둔 상태&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;이미 늘어난 컨넥션은 없어지지 않고 CPU 사용량은 그리 많지 않음&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h1 id=&#34;재현&#34;&gt;재현&lt;/h1&gt;&#xA;&lt;p&gt;봇을 만들어서 로그인, 화면 리프레시를 하게 하니 100명 전후가 몰려서 접근시 문제 발생&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Go 로 WASM 해보기</title>
+				<link>https://ezaurum.com/2018/06/Go-%EB%A1%9C-WASM-%ED%95%B4%EB%B3%B4%EA%B8%B0/</link>
+				<pubDate>Wed, 27 Jun 2018 14:46:48 +0900</pubDate>
+				<guid>https://ezaurum.com/2018/06/Go-%EB%A1%9C-WASM-%ED%95%B4%EB%B3%B4%EA%B8%B0/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;https://webassembly.org&#34;&gt;WASM&lt;/a&gt;은 WebAssembly의 약어로, 용어자체에서 보둣, 웹에서 ASM을 돌려보자는 프로젝트이다.&#xA;여러 장점이 있다고 하는데, 일단 가장 크게 느껴지는 건 익숙한 언어로 웹프로그래밍을 할 수 있을거라는 기대감이다.&lt;/p&gt;&#xA;&lt;p&gt;이미 &lt;a href=&#34;https://webassembly.org/roadmap&#34;&gt;대부분의 브라우저에서 지원&lt;/a&gt; 해 주고 있고, Go에서도 1.10버전부터 정식 지원한다고 한다.&lt;br&gt;&#xA;일단 검색해보니 &lt;a href=&#34;httsp://blog.lazyhacker.com/2018/06/go-with-webassembly-early-examples.html&#34;&gt;참고 포스트&lt;/a&gt;가 하나 나와서 따라 해 봤다.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;새 버전 go를 받아서 컴파일한다.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;11버전부터니,  &lt;a href=&#34;https://github.com/golang/go&#34;&gt;Go 저장소&lt;/a&gt;에서 clone한다.&lt;br&gt;&#xA;&lt;code&gt;git clone https://github.com/golang/go&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;그 다음 src 에서 all.bash를 실행한다.&lt;br&gt;&#xA;&lt;code&gt;./all.bash&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;그럼 컴파일이 되고, ../bin에 go 가 생겨 있을 것이다. 당연하게도 컴파일 결과는 파일 하나다.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;helloworld를 찍어본다.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;script src=&#34;https://gist.github.com/ezaurum/d9086bf463fcf42455eaca67c7fb5358.js&#34;&gt;&lt;/script&gt; &#xA;&lt;p&gt;컴파일은 새로 받은 go로 해야 한다. 결과 파일 이름을 test.wasm으로 하면 이후 단계에서 타이핑이 줄어든다.&lt;br&gt;&#xA;&lt;code&gt;GOOS=js GOARCH=wasm ./go build -o test.wasm test.go&lt;/code&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>GORM에서 Many To Many 값을 제대로 가져오지 못하는 문제</title>
+				<link>https://ezaurum.com/bug/gorm-related-bug/</link>
+				<pubDate>Tue, 01 May 2018 23:36:26 +0900</pubDate>
+				<guid>https://ezaurum.com/bug/gorm-related-bug/</guid>
+				<description>&lt;p&gt;문제 상황 - &lt;a href=&#34;http://gorm.io/docs/many_to_many.html&#34;&gt;GORM 문서&lt;/a&gt;대로 했는데 제대로 값이 불려오지 않았다.&lt;/p&gt;&#xA;&lt;p&gt;문제 원인 - 문서에서는 &lt;code&gt;db.Model(&amp;amp;language).Related(&amp;amp;users)&lt;/code&gt;식으로 하면 된다고 했는데, 실제로는 &lt;code&gt;db.Model(&amp;amp;language).Related(&amp;amp;users,&amp;quot;Users&amp;quot;)&lt;/code&gt; 식으로 프로퍼티 이름을 적어줘야 했다. 연관 테이블을 쓰는 게 두 개 이상이라 문제가 생긴 모양.&lt;/p&gt;&#xA;&lt;p&gt;재발 방지를 위해 - 일단 소스를 뒤지자&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>인수 전달이 잘못된 문제</title>
+				<link>https://ezaurum.com/bug/2017-12-29-bug-diary/</link>
+				<pubDate>Fri, 29 Dec 2017 19:36:26 +0700</pubDate>
+				<guid>https://ezaurum.com/bug/2017-12-29-bug-diary/</guid>
+				<description>&lt;p&gt;문제 상황 - 에러가 없는데 DB에 자료가 기록되지 않았다.&lt;/p&gt;&#xA;&lt;p&gt;문제 원인 -&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;func (dbm *Manager) transaction(action TransactionHandlerFunc, targets ...interface{})&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;를 &lt;code&gt;tranaction(action)&lt;/code&gt; 형태로 호출하고는 왜 안되는지를 못 찾아서 2시간 허비.&lt;/p&gt;&#xA;&lt;p&gt;재발 방지를 위해 - 인수를 먼저 확인하자.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Go Web Server</title>
+				<link>https://ezaurum.com/2017/12/Go-Web-Server/</link>
+				<pubDate>Sat, 16 Dec 2017 18:01:25 +0700</pubDate>
+				<guid>https://ezaurum.com/2017/12/Go-Web-Server/</guid>
+				<description>&lt;p&gt;Go는 기본적으로 web서버를 쉽게 만들 수 있게 되어 있다.&lt;/p&gt;&#xA;&lt;p&gt;그래도 막상 하려고 하면 자잘하게 할 게 많아서 추가 라이브러리나 프레임워크가 필요하게 된다.&lt;/p&gt;&#xA;&lt;p&gt;개중 쓸 만한 것이 &lt;a href=&#34;https://github.com/gin-gonic/gin&#34;&gt;gin&lt;/a&gt;이라, 소개 겸, 헬로 월드를 찍어봤다.&lt;/p&gt;&#xA;&lt;script src=&#34;https://gist.github.com/ezaurum/5b4803114d915f907722c98bf82f4241.js&#34;&gt;&lt;/script&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/ezaurum/go-lectures/tree/master/web-hello&#34;&gt;Github 저장소&lt;/a&gt;에도 하나씩 올릴 예정.&lt;/p&gt;&#xA;&lt;p&gt;하는 김에 동영상도 찍어봤다&lt;/p&gt;&#xA;&lt;iframe width=&#34;640&#34; height=&#34;360&#34; src=&#34;https://www.youtube.com/embed/A46Mt3MYOC4&#34; frameborder=&#34;0&#34; gesture=&#34;media&#34; allow=&#34;encrypted-media&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
+			</item>
+	</channel>
 </rss>

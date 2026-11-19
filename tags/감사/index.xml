@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>감사 on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/%EA%B0%90%EC%82%AC/</link>
-    <description>Recent content in 감사 on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Fri, 30 Jan 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/%EA%B0%90%EC%82%AC/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>감사합니다</title>
-      <link>https://ezaurum.com/2015/01/%EA%B0%90%EC%82%AC%ED%95%A9%EB%8B%88%EB%8B%A4/</link>
-      <pubDate>Fri, 30 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2015/01/%EA%B0%90%EC%82%AC%ED%95%A9%EB%8B%88%EB%8B%A4/</guid>
-      <description>생각해 보면, 인복이 많은 삶이다.&#xA;좋은 친구들을 만나 무사히 의무교육도 마치고, 한 학기만 다닌 모 대학에서도 꼬박꼬박 연락해주고 아직까지 인연을 이어가는 친구들을 만났다.&#xA;그 뒤로 몇 년이나 손가락 사이로 흘러가는 세월을 바라보는 동안에도, 마음을 지탱해준 고마운 사람들.&#xA;그 와중에 출판이라는 것을 경험하게 해 준 고마운 인연.&#xA;새롭게 시작한 대학생활에서 술만 먹는 아저씨를 잘 챙겨준 동기, 선후배님들.&#xA;공부를 한다는 게 어떤 것인지 알려준 교수님들.&#xA;좋은 삶에 대해 견본을 보여준 형/누나들.&#xA;여러 모로 편의를 봐 주고 생존을 가능하게 해준 조교선생님들.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>감사 on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/%EA%B0%90%EC%82%AC/</link>
+		<description>Recent content in 감사 on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Fri, 30 Jan 2015 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/%EA%B0%90%EC%82%AC/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>감사합니다</title>
+				<link>https://ezaurum.com/2015/01/%EA%B0%90%EC%82%AC%ED%95%A9%EB%8B%88%EB%8B%A4/</link>
+				<pubDate>Fri, 30 Jan 2015 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2015/01/%EA%B0%90%EC%82%AC%ED%95%A9%EB%8B%88%EB%8B%A4/</guid>
+				<description>&lt;p&gt;생각해 보면, 인복이 많은 삶이다.&lt;/p&gt;&#xA;&lt;p&gt;좋은 친구들을 만나 무사히 의무교육도 마치고, 한 학기만 다닌 모 대학에서도 꼬박꼬박 연락해주고 아직까지 인연을 이어가는 친구들을 만났다.&lt;/p&gt;&#xA;&lt;p&gt;그 뒤로 몇 년이나 손가락 사이로 흘러가는 세월을 바라보는 동안에도,  마음을 지탱해준 고마운 사람들.&lt;/p&gt;&#xA;&lt;p&gt;그 와중에 출판이라는 것을 경험하게 해 준 고마운 인연.&lt;/p&gt;&#xA;&lt;p&gt;새롭게 시작한 대학생활에서 술만 먹는 아저씨를 잘 챙겨준 동기, 선후배님들.&lt;/p&gt;&#xA;&lt;p&gt;공부를 한다는 게 어떤 것인지 알려준 교수님들.&lt;/p&gt;&#xA;&lt;p&gt;좋은 삶에 대해 견본을 보여준 형/누나들.&lt;/p&gt;&#xA;&lt;p&gt;여러 모로 편의를 봐 주고 생존을 가능하게 해준 조교선생님들.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

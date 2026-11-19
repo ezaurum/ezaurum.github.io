@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>킹콩 on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/%ED%82%B9%EC%BD%A9/</link>
-    <description>Recent content in 킹콩 on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Wed, 20 Aug 2008 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/%ED%82%B9%EC%BD%A9/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>킹콩</title>
-      <link>https://ezaurum.com/2008/08/%ED%82%B9%EC%BD%A9/</link>
-      <pubDate>Wed, 20 Aug 2008 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2008/08/%ED%82%B9%EC%BD%A9/</guid>
-      <description>킹콩 2005 관람일 2005-12-19 대영시네마 3관 3회 16:20 나 열 - 71번&#xA;사실 난 킹콩을 킹콩2라고 TV에서 방영해 줬던 영화로 처음 접했다. 일단 영화라는 매체로 접한 건 말이다. 그 이전이라면야 뭐 게임이나, 기타 여러가지 매체에서 파편을 접한 건 많았지. 여튼 그래서 킹콩에 대한 엄청난 추억 같은 건 없는 상태에서, 이래저래 얘기는 많이 듣고 명작이라고 하고, 트레일러도 멋지고 해서 보러 갔는데…. 영화 보는 내내 감독이 부러웠다. 남의 돈 들여서 동인지 만들어낸 느낌이랄까.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>킹콩 on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/%ED%82%B9%EC%BD%A9/</link>
+		<description>Recent content in 킹콩 on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Wed, 20 Aug 2008 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/%ED%82%B9%EC%BD%A9/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>킹콩</title>
+				<link>https://ezaurum.com/2008/08/%ED%82%B9%EC%BD%A9/</link>
+				<pubDate>Wed, 20 Aug 2008 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2008/08/%ED%82%B9%EC%BD%A9/</guid>
+				<description>&lt;p&gt;킹콩 2005&#xA;관람일 2005-12-19&#xA;대영시네마 3관&#xA;3회 16:20&#xA;나 열 - 71번&lt;/p&gt;&#xA;&lt;p&gt;사실 난 킹콩을 &lt;a href=&#34;http://www.movist.com/movies/movie.asp?mid=10031&#34;&gt;킹콩2&lt;/a&gt;라고 TV에서 방영해 줬던 영화로 처음 접했다. 일단 영화라는 매체로 접한 건 말이다.&#xA;그 이전이라면야 뭐 게임이나, 기타 여러가지 매체에서 파편을 접한 건 많았지.&#xA;여튼 그래서 킹콩에 대한 엄청난 추억 같은 건 없는 상태에서, 이래저래 얘기는 많이 듣고 명작이라고 하고, 트레일러도 멋지고 해서 보러 갔는데…. 영화 보는 내내 감독이 부러웠다.&#xA;남의 돈 들여서 동인지 만들어낸 느낌이랄까. 자기 추억을 저렇게 생생하게 되살릴 수 있는 특권.&#xA;내가 좋아 하는 것을 치장하고 내 존재와 그것을 결부시키는 행위.&#xA;여기까지라면 그저그런 자위물이겠지만, 문제는 재밌다!&#xA;시간이 모자라 더 넣지 못했습니다. 라고 말하는 듯한 길다란 상영시간 내내 정말 정신없이 볼 수 있었다. DVD를 사고 싶었는데 그러고 보니. 아직 안 샀군.&#xA;남자는 힘! 그리고 죽은 남자는 필요없다. 정도가 역시 영화의 교훈? 니나 퍼플톤도 그렇고 금발은 이래서 안 된다 정도?&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

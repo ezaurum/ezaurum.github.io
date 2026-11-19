@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>커링 on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/%EC%BB%A4%EB%A7%81/</link>
-    <description>Recent content in 커링 on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Thu, 25 Dec 2014 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/%EC%BB%A4%EB%A7%81/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>커링</title>
-      <link>https://ezaurum.com/study/curring/</link>
-      <pubDate>Thu, 25 Dec 2014 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/study/curring/</guid>
-      <description>자바스크립트에서 커링은 본래 함수와 인수를 유지하는 클로저로 구현된다. 참고 링크</description>
-    </item>
-  </channel>
+	<channel>
+		<title>커링 on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/%EC%BB%A4%EB%A7%81/</link>
+		<description>Recent content in 커링 on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Thu, 25 Dec 2014 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/%EC%BB%A4%EB%A7%81/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>커링</title>
+				<link>https://ezaurum.com/study/curring/</link>
+				<pubDate>Thu, 25 Dec 2014 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/study/curring/</guid>
+				<description>&lt;p&gt;자바스크립트에서 커링은 본래 함수와 인수를 유지하는 클로저로 구현된다.&#xA;&lt;a href=&#34;http://anster.tistory.com/144&#34;&gt;참고 링크&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

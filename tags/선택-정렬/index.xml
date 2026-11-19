@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>선택 정렬 on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/%EC%84%A0%ED%83%9D-%EC%A0%95%EB%A0%AC/</link>
-    <description>Recent content in 선택 정렬 on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Thu, 13 Jan 2011 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/%EC%84%A0%ED%83%9D-%EC%A0%95%EB%A0%AC/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Selection Sort</title>
-      <link>https://ezaurum.com/2011/01/Selection-Sort/</link>
-      <pubDate>Thu, 13 Jan 2011 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2011/01/Selection-Sort/</guid>
-      <description>void selectSort(int * array, int size) { int minPoint = 0; for( int j = 0; j &amp;amp;lt; size -1; j++) { minPoint = j; for (int i = j; i &amp;amp;lt; size ; i++) { if(array[i] &amp;amp;lt; array[minPoint]) { minPoint = i; } } swap(array+j, array+minPoint); } } 오랜만에 공부 좀 하니까 머리가 돌아가는 듯.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>선택 정렬 on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/%EC%84%A0%ED%83%9D-%EC%A0%95%EB%A0%AC/</link>
+		<description>Recent content in 선택 정렬 on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Thu, 13 Jan 2011 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/%EC%84%A0%ED%83%9D-%EC%A0%95%EB%A0%AC/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Selection Sort</title>
+				<link>https://ezaurum.com/2011/01/Selection-Sort/</link>
+				<pubDate>Thu, 13 Jan 2011 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2011/01/Selection-Sort/</guid>
+				<description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-c&#34; data-lang=&#34;c&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;selectSort&lt;/span&gt;(&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt; array, &lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; size)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#x9;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; minPoint &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#x9;&lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt;( &lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; j &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;; j &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&lt;/span&gt;lt; size &lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;; j&lt;span style=&#34;color:#f92672&#34;&gt;++&lt;/span&gt;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#x9;{&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#x9;&#x9;minPoint &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; j;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#x9;&#x9;&lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; (&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; i &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; j; i &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&lt;/span&gt;lt; size ; i&lt;span style=&#34;color:#f92672&#34;&gt;++&lt;/span&gt;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#x9;&#x9;&#x9;{&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#x9;&#x9;&#x9;&#x9;&lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt;(array[i] &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&lt;/span&gt;lt; array[minPoint])&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#x9;&#x9;&#x9;&#x9;{&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#x9;&#x9;&#x9;&#x9;&#x9;minPoint &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; i;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#x9;&#x9;&#x9;&#x9;}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#x9;&#x9;&#x9;}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#x9;&#x9;&#x9;&lt;span style=&#34;color:#a6e22e&#34;&gt;swap&lt;/span&gt;(array&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;j, array&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;minPoint);&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#x9;}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;오랜만에 공부 좀 하니까 머리가 돌아가는 듯.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

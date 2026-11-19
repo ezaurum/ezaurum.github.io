@@ -1,111 +1,117 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Bugs on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/bug/</link>
-    <description>Recent content in Bugs on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Sun, 31 Jan 2021 13:11:01 +0900</lastBuildDate>
-    <atom:link href="https://ezaurum.com/bug/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>테이블 생성 시 Foreign key constraint is incorrectly formed 에러 발생</title>
-      <link>https://ezaurum.com/bug/create-table-faield/</link>
-      <pubDate>Sun, 31 Jan 2021 13:11:01 +0900</pubDate>
-      <guid>https://ezaurum.com/bug/create-table-faield/</guid>
-      <description>문제상황 - 틀린 게 없는데 테이블 생성 시 Foreign key constraint is incorrectly formed 가 계속 나올 때&#xA;원인 - A 테이블에서 B 테이블의 a 에 대해서 FK를 만들었을 때, B테이블을 새로 생성하려면 A테이블의 이전 FK에 지정된 컬럼값과 새로 만들 값이 동일해야 한다. B 테이블을 지우고 나도 A 테이블에 있는 a에 대한 FK는 유지됨&#xA;해결방안 - A테이블의 FK를 삭제 후 재생성 재발 방지를 위해 - 테이블을 삭제할 때는 참조하는 FK를 모두 지우고 해 볼것</description>
-    </item>
-    <item>
-      <title>CloudFront에서 웹사이트 연동을 위해 S3의 파일을 불러올 때 Access Denied가 날 때</title>
-      <link>https://ezaurum.com/bug/cloud-front-access-denied/</link>
-      <pubDate>Thu, 20 Jun 2019 22:31:05 +0900</pubDate>
-      <guid>https://ezaurum.com/bug/cloud-front-access-denied/</guid>
-      <description>문제 상황 CloudFront 를 웹사이트로 쓰기로 하고 S3의 파일을 연동했는데 메인 화면에서 AccessDenied가 뜸 읽기 권한은 있는 상태&#xA;문제 원인 CloudFront의 ᅟDefaultObject가 지정되지 않았다. 목록을 읽어오는 권한은 없으니 AccessDenied가 뜬 것&#xA;재발 방지를 위해 가끔 하는 작업은 진행 순서표 등을 이용해서 보고 따라한다. 작업을 하면 진행 순서표를 만든다. </description>
-    </item>
-    <item>
-      <title>too many connection</title>
-      <link>https://ezaurum.com/bug/too-many-connections/</link>
-      <pubDate>Thu, 20 Jun 2019 22:31:05 +0900</pubDate>
-      <guid>https://ezaurum.com/bug/too-many-connections/</guid>
-      <description>현상 일정 시간마다 ajax로 내용을 리프레시 해 주는 게시판에서 사용자 200여명이 넘어가자 DB엑세스 시 too many connection이 발생하고 연결을 하지 못하는 현상 발생&#xA;DB, API 서버의 cpu/mem 부하는 20% 전후인 상태&#xA;리셋 등으로 해결이 안 되고, 도커 컨테이너 늘려서도 해결이 안 됨&#xA;지속되는 경우 리퀘스트도 쌓이고 file open max 값이 넘어가서 사용 불가&#xA;원인 DB 처리량보다 부하 심함 IO 부분이 보틀넥으로 보임 도커 인스턴스가 값싼 거고 DB도 값싼 인스턴스 커넥션이 늘어남 실제 DB 커넥션이 45개 전후 RDS에서 가장 작은 인스턴스를 사용했는데 전체 DB 메모리 양과 CPU 사용량을 가지고 연결수 계산 도커 컨테이너의 Max Connection은 50 이전 네이버에서 직접 배포 때 잡은 설정 그대로 RDS 인스턴스가 여러 개 일 때는 괜찮았음 제일 작은 걸로 바꾸고 인스턴스도 줄여둔 상태 이미 늘어난 컨넥션은 없어지지 않고 CPU 사용량은 그리 많지 않음 재현 봇을 만들어서 로그인, 화면 리프레시를 하게 하니 100명 전후가 몰려서 접근시 문제 발생</description>
-    </item>
-    <item>
-      <title>배포 이후 변경이 안 되는 문제</title>
-      <link>https://ezaurum.com/bug/deploy-bug-not-changed/</link>
-      <pubDate>Sat, 27 Apr 2019 11:38:00 +0900</pubDate>
-      <guid>https://ezaurum.com/bug/deploy-bug-not-changed/</guid>
-      <description>문제 상황 - 버그를 고치고 배포했는데 고쳐지지 않았다&#xA;문제 원인 - ECS에서 배포하면서 Task에서 docker 버전을 지정하고 안 바꿨다&#xA;재발 방지를 위해 - 한 번 해서 안 되면 한 단계 더 들어가서 원인을 찾자</description>
-    </item>
-    <item>
-      <title>그래들 래퍼 버전을 잘못 입력 했을 때</title>
-      <link>https://ezaurum.com/bug/gradle-wrapper-version-mismatch/</link>
-      <pubDate>Fri, 05 Apr 2019 18:51:59 +0900</pubDate>
-      <guid>https://ezaurum.com/bug/gradle-wrapper-version-mismatch/</guid>
-      <description>문제상황 -그래들 버전 업데이트 후 그래들 태스크를 실행할 때 Exception in thread &amp;ldquo;main&amp;rdquo; java.io.FileNotFoundException&#xA;원인 - 그래들 래퍼 버전을 입력할 때 한 번 잘못 입력하면 계속 오류난다&#xA;해결방안 -그래들 버전을 잘못 입력 했으면 걍 gradle-wrapper.properites 에서 바로 수정&#xA;재발 방지를 위해 - 오류를 잘 보자</description>
-    </item>
-    <item>
-      <title>유니코드 문자를 Console.WriteLine으로 출력시 에러</title>
-      <link>https://ezaurum.com/bug/console-writeline/</link>
-      <pubDate>Tue, 05 Feb 2019 19:15:02 +0900</pubDate>
-      <guid>https://ezaurum.com/bug/console-writeline/</guid>
-      <description>문제상황 - Console.WriteLine 으로 스트링 출력시 에러&#xA;원인 - 기본 출력 인코딩이 ASCII라서 출력시 에러남.&#xA;해결방안 - Console.OutputEncoding = System.Text.Encoding.UTF8; 참고&#xA;재발 방지를 위해 - 미리 세팅해 두자</description>
-    </item>
-    <item>
-      <title>AJAX 요청응답이 왔는데 JSON parse에러가 났는데 정상 작동</title>
-      <link>https://ezaurum.com/bug/ajax-response-is-invalid-but-valid/</link>
-      <pubDate>Fri, 02 Nov 2018 02:08:41 +0900</pubDate>
-      <guid>https://ezaurum.com/bug/ajax-response-is-invalid-but-valid/</guid>
-      <description>문제상황 - AJAX요청을 직접 구현해야 할 일이 생겨서 검색 후 복붙하고, XHR을 써서 요청을 보내고, 응답을 받았는데, 이상하게 json parse에러가 나고 콘솔에 reponse를 찍어보니 빈 상태로 왔다. 그런데도 응답이 정상적으로 처리가 되었다.&#xA;원인 - 스펙문서를 보면 readystate 3이란 게 있고, 그 단계에서는 response가 다 도달하지 않은 상태다. 그 상태에서 콘솔에 찍으니 당연히 이상하게 나왔고, 코드가 진행되면서 값이 들어가니 처음에 파스 에러가 났다가 아래쪽 재시도에서는 정상이 된 거다. 결국 참고한 코드가 잘못되어 있었는데, 무작정 복붙해서 일어난 문제.</description>
-    </item>
-    <item>
-      <title>Font Awesome이 적용되지 않았던 문제</title>
-      <link>https://ezaurum.com/bug/font-awesome-not-apply/</link>
-      <pubDate>Tue, 02 Oct 2018 13:23:21 +0900</pubDate>
-      <guid>https://ezaurum.com/bug/font-awesome-not-apply/</guid>
-      <description>문제상황 - font awesome을 버전업 했는데, 아무리 해도 적용이 안 되었다. 되는 곳에서 복사해 온 거였는데.&#xA;원인 - 복사하면서 이전 버전의 font awsome data hash 값을 안 지우고, 새 것에 합쳐져 버렸다. hash값이 안 맞아서 다운로드가 안 되었던 것.&#xA;해결방안 - 지우고 새로 붙여넣었다.&#xA;재발 방지를 위해 - 완전히 지우고 새로 붙여넣자.</description>
-    </item>
-    <item>
-      <title>AJAX 요청이 간헐적으로 실패하는 문제</title>
-      <link>https://ezaurum.com/bug/not-modified-json-response/</link>
-      <pubDate>Wed, 19 Sep 2018 11:42:38 +0900</pubDate>
-      <guid>https://ezaurum.com/bug/not-modified-json-response/</guid>
-      <description>문제 상황 - Ajax 요청이 간헐적으로 잘못된 응답이뜨는데, Axios에서는 에러 메세지가 뜨지 않았다.&#xA;문제 원인 - 브라우저에서 If-Modified-Since 를 헤더에 넣어서 보냈고, echo에서는 304를 리턴해 줬다. ajax요청과 html 요청 주소가 같아서 브라우저는 캐시된 html을 로드했고, json 파싱이 되지 않았다.&#xA;해결 - HTTP헤더에 If-Modified-Since를 빈 값으로 넣어줬다.&#xA;재발 방지를 위해 - 기본으로 값을 넣어주자.</description>
-    </item>
-    <item>
-      <title>Vue에서 외부 모듈의 스타일을 적용했는데 적용되지 않을 때</title>
-      <link>https://ezaurum.com/bug/vue-style-scoped/</link>
-      <pubDate>Fri, 31 Aug 2018 22:31:05 +0900</pubDate>
-      <guid>https://ezaurum.com/bug/vue-style-scoped/</guid>
-      <description>문제 상황 Vue 프로그래밍 중 외부 모듈을 사용했는데, 해당 모듈의 기본 css를 덮어씌우려고 불러오는 vue 페이지의 style을 변경했다. 클래스 이름을 분명히 지정했고, !important도 먹히지 않았음&#xA;문제 원인 알고 보니 style 태그에 scoped가 지정되어 있어서 자동으로 한정자가 붙어버린다. 그러니 단순히 클래스만 지정해서는 해당 모듈에 반영되지 않았다.&#xA;재발 방지를 위해 외부 모듈의 경우는 style태그를 따로 하나 더 만들어서 처리한다. CSS를 해당 외부 모듈을 감싸는 부모 태그를 포함해서 선언 한다. </description>
-    </item>
-    <item>
-      <title>VueJS 에서 템플릿을 리터럴로 선언 했을 때, 바인딩이 안됨</title>
-      <link>https://ezaurum.com/bug/vue-conflict-js-literal/</link>
-      <pubDate>Tue, 08 May 2018 00:16:20 +0900</pubDate>
-      <guid>https://ezaurum.com/bug/vue-conflict-js-literal/</guid>
-      <description>문제상황 - VueJS를 시작하면서, go와 template이 겹쳐서 ${ }로 구분자를 변경해서 작업중이었는데, 이상하게도 한 컴포넌트에서 계속 row 가 undefined라는 에러가 떴음.&#xA;let reserveRow = `&amp;lt;li&amp;gt;${row.reserveName} - ${row.reservePhone}&amp;lt;/li&amp;gt;` 문제 원인 - ${ } 가 ES2016의 템플릿 리터럴에서 사용하는 구분자었다. 그래서 VueJS가 번역하기 전에 JS가 번역해버려서 에러가 났던 것.&#xA;해결방안 - 문서를 꼼꼼히, 그리고 실제로 go template과 겹치는 부분에서만 구분자를 변경하자.</description>
-    </item>
-    <item>
-      <title>GORM에서 Many To Many 값을 제대로 가져오지 못하는 문제</title>
-      <link>https://ezaurum.com/bug/gorm-related-bug/</link>
-      <pubDate>Tue, 01 May 2018 23:36:26 +0900</pubDate>
-      <guid>https://ezaurum.com/bug/gorm-related-bug/</guid>
-      <description>문제 상황 - GORM 문서대로 했는데 제대로 값이 불려오지 않았다.&#xA;문제 원인 - 문서에서는 db.Model(&amp;amp;language).Related(&amp;amp;users)식으로 하면 된다고 했는데, 실제로는 db.Model(&amp;amp;language).Related(&amp;amp;users,&amp;quot;Users&amp;quot;) 식으로 프로퍼티 이름을 적어줘야 했다. 연관 테이블을 쓰는 게 두 개 이상이라 문제가 생긴 모양.&#xA;재발 방지를 위해 - 일단 소스를 뒤지자</description>
-    </item>
-    <item>
-      <title>그래들은 컴파일이 되는데 인텔리J에서 컴파일이 안 되던 문제</title>
-      <link>https://ezaurum.com/bug/intellij-update-faile/</link>
-      <pubDate>Sun, 01 Apr 2018 13:36:26 +0700</pubDate>
-      <guid>https://ezaurum.com/bug/intellij-update-faile/</guid>
-      <description>문제 상황 - 그래들에서는 컴파일이 되는데, IntelliJ는 디펜던시를 인식하지 못하고 컴파일을 못 했다.&#xA;문제 원인 - 인텔리J 업데이트시, 존재하던 폴더에 새 버전을 그대로 덮어씌웠다.&#xA;재발 방지를 위해 - 업데이트시는 있던 버전을 지우고 하자.</description>
-    </item>
-    <item>
-      <title>인수 전달이 잘못된 문제</title>
-      <link>https://ezaurum.com/bug/2017-12-29-bug-diary/</link>
-      <pubDate>Fri, 29 Dec 2017 19:36:26 +0700</pubDate>
-      <guid>https://ezaurum.com/bug/2017-12-29-bug-diary/</guid>
-      <description>문제 상황 - 에러가 없는데 DB에 자료가 기록되지 않았다.&#xA;문제 원인 -&#xA;func (dbm *Manager) transaction(action TransactionHandlerFunc, targets ...interface{}) 를 tranaction(action) 형태로 호출하고는 왜 안되는지를 못 찾아서 2시간 허비.&#xA;재발 방지를 위해 - 인수를 먼저 확인하자.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Bugs on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/bug/</link>
+		<description>Recent content in Bugs on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Sun, 31 Jan 2021 13:11:01 +0900</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/bug/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>테이블 생성 시 Foreign key constraint is incorrectly formed 에러 발생</title>
+				<link>https://ezaurum.com/bug/create-table-faield/</link>
+				<pubDate>Sun, 31 Jan 2021 13:11:01 +0900</pubDate>
+				<guid>https://ezaurum.com/bug/create-table-faield/</guid>
+				<description>&lt;p&gt;문제상황 - 틀린 게 없는데 테이블 생성 시 Foreign key constraint is incorrectly formed 가 계속 나올 때&lt;/p&gt;&#xA;&lt;p&gt;원인 - A 테이블에서 B 테이블의 a 에 대해서 FK를 만들었을 때, B테이블을 새로 생성하려면 A테이블의 이전 FK에 지정된 컬럼값과 새로 만들 값이 동일해야 한다.&#xA;B 테이블을 지우고 나도 A 테이블에 있는 a에 대한 FK는 유지됨&lt;/p&gt;&#xA;&lt;p&gt;해결방안 - A테이블의 FK를 삭제 후 재생성&#xA;재발 방지를 위해 - 테이블을 삭제할 때는 참조하는 FK를 모두 지우고 해 볼것&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>CloudFront에서 웹사이트 연동을 위해 S3의 파일을 불러올 때 Access Denied가 날 때</title>
+				<link>https://ezaurum.com/bug/cloud-front-access-denied/</link>
+				<pubDate>Thu, 20 Jun 2019 22:31:05 +0900</pubDate>
+				<guid>https://ezaurum.com/bug/cloud-front-access-denied/</guid>
+				<description>&lt;h2 id=&#34;문제-상황&#34;&gt;문제 상황&lt;/h2&gt;&#xA;&lt;p&gt;CloudFront 를 웹사이트로 쓰기로 하고 S3의 파일을 연동했는데 메인 화면에서 AccessDenied가 뜸&#xA;읽기 권한은 있는 상태&lt;/p&gt;&#xA;&lt;h2 id=&#34;문제-원인&#34;&gt;문제 원인&lt;/h2&gt;&#xA;&lt;p&gt;CloudFront의 ᅟDefaultObject가 지정되지 않았다.&#xA;목록을 읽어오는 권한은 없으니 AccessDenied가 뜬 것&lt;/p&gt;&#xA;&lt;h2 id=&#34;재발-방지를-위해&#34;&gt;재발 방지를 위해&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;가끔 하는 작업은 진행 순서표 등을 이용해서 보고 따라한다.&lt;/li&gt;&#xA;&lt;li&gt;작업을 하면 진행 순서표를 만든다.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+			</item>
+			<item>
+				<title>too many connection</title>
+				<link>https://ezaurum.com/bug/too-many-connections/</link>
+				<pubDate>Thu, 20 Jun 2019 22:31:05 +0900</pubDate>
+				<guid>https://ezaurum.com/bug/too-many-connections/</guid>
+				<description>&lt;h1 id=&#34;현상&#34;&gt;현상&lt;/h1&gt;&#xA;&lt;p&gt;일정 시간마다 ajax로 내용을 리프레시 해 주는 게시판에서 사용자 200여명이 넘어가자 DB엑세스 시 too many connection이 발생하고 연결을 하지 못하는 현상 발생&lt;/p&gt;&#xA;&lt;p&gt;DB, API 서버의 cpu/mem 부하는 20% 전후인 상태&lt;/p&gt;&#xA;&lt;p&gt;리셋 등으로 해결이 안 되고, 도커 컨테이너 늘려서도 해결이 안 됨&lt;/p&gt;&#xA;&lt;p&gt;지속되는 경우 리퀘스트도 쌓이고 file open max 값이 넘어가서 사용 불가&lt;/p&gt;&#xA;&lt;h1 id=&#34;원인&#34;&gt;원인&lt;/h1&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;DB 처리량보다 부하 심함&#xA;&lt;ol&gt;&#xA;&lt;li&gt;IO 부분이 보틀넥으로 보임&lt;/li&gt;&#xA;&lt;li&gt;도커 인스턴스가 값싼 거고 DB도 값싼 인스턴스&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;커넥션이 늘어남&lt;/li&gt;&#xA;&lt;li&gt;실제 DB 커넥션이 45개 전후&#xA;&lt;ol&gt;&#xA;&lt;li&gt;RDS에서 가장 작은 인스턴스를 사용했는데 전체 DB 메모리 양과 CPU 사용량을 가지고 연결수 계산&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;도커 컨테이너의 Max Connection은 50&#xA;&lt;ol&gt;&#xA;&lt;li&gt;이전 네이버에서 직접 배포 때 잡은 설정 그대로&lt;/li&gt;&#xA;&lt;li&gt;RDS 인스턴스가 여러 개 일 때는 괜찮았음&lt;/li&gt;&#xA;&lt;li&gt;제일 작은 걸로 바꾸고 인스턴스도 줄여둔 상태&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;이미 늘어난 컨넥션은 없어지지 않고 CPU 사용량은 그리 많지 않음&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h1 id=&#34;재현&#34;&gt;재현&lt;/h1&gt;&#xA;&lt;p&gt;봇을 만들어서 로그인, 화면 리프레시를 하게 하니 100명 전후가 몰려서 접근시 문제 발생&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>배포 이후 변경이 안 되는 문제</title>
+				<link>https://ezaurum.com/bug/deploy-bug-not-changed/</link>
+				<pubDate>Sat, 27 Apr 2019 11:38:00 +0900</pubDate>
+				<guid>https://ezaurum.com/bug/deploy-bug-not-changed/</guid>
+				<description>&lt;p&gt;문제 상황 - 버그를 고치고 배포했는데 고쳐지지 않았다&lt;/p&gt;&#xA;&lt;p&gt;문제 원인 - ECS에서 배포하면서 Task에서 docker 버전을 지정하고 안 바꿨다&lt;/p&gt;&#xA;&lt;p&gt;재발 방지를 위해 - 한 번 해서 안 되면 한 단계 더 들어가서 원인을 찾자&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>그래들 래퍼 버전을 잘못 입력 했을 때</title>
+				<link>https://ezaurum.com/bug/gradle-wrapper-version-mismatch/</link>
+				<pubDate>Fri, 05 Apr 2019 18:51:59 +0900</pubDate>
+				<guid>https://ezaurum.com/bug/gradle-wrapper-version-mismatch/</guid>
+				<description>&lt;p&gt;문제상황 -그래들 버전 업데이트 후 그래들 태스크를 실행할 때 Exception in thread &amp;ldquo;main&amp;rdquo; java.io.FileNotFoundException&lt;/p&gt;&#xA;&lt;p&gt;원인 - 그래들 래퍼 버전을 입력할 때 한 번 잘못 입력하면 계속 오류난다&lt;/p&gt;&#xA;&lt;p&gt;해결방안 -그래들 버전을 잘못 입력 했으면 걍 gradle-wrapper.properites 에서 바로 수정&lt;/p&gt;&#xA;&lt;p&gt;재발 방지를 위해 - 오류를 잘 보자&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>유니코드 문자를 Console.WriteLine으로 출력시 에러</title>
+				<link>https://ezaurum.com/bug/console-writeline/</link>
+				<pubDate>Tue, 05 Feb 2019 19:15:02 +0900</pubDate>
+				<guid>https://ezaurum.com/bug/console-writeline/</guid>
+				<description>&lt;p&gt;문제상황 - Console.WriteLine 으로 스트링 출력시 에러&lt;/p&gt;&#xA;&lt;p&gt;원인 - 기본 출력 인코딩이 ASCII라서 출력시 에러남.&lt;/p&gt;&#xA;&lt;p&gt;해결방안 - &lt;code&gt;Console.OutputEncoding = System.Text.Encoding.UTF8;&lt;/code&gt; &lt;a href=&#34;https://stackoverflow.com/questions/5750203/how-to-write-unicode-characters-to-the-console&#34;&gt;참고&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;재발 방지를 위해 - 미리 세팅해 두자&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>AJAX 요청응답이 왔는데 JSON parse에러가 났는데 정상 작동</title>
+				<link>https://ezaurum.com/bug/ajax-response-is-invalid-but-valid/</link>
+				<pubDate>Fri, 02 Nov 2018 02:08:41 +0900</pubDate>
+				<guid>https://ezaurum.com/bug/ajax-response-is-invalid-but-valid/</guid>
+				<description>&lt;p&gt;문제상황 - AJAX요청을 직접 구현해야 할 일이 생겨서 검색 후 복붙하고,  XHR을 써서 요청을 보내고, 응답을 받았는데, 이상하게 json parse에러가 나고 콘솔에 reponse를 찍어보니 빈 상태로 왔다. 그런데도 응답이 정상적으로 처리가 되었다.&lt;/p&gt;&#xA;&lt;p&gt;원인 - &lt;a href=&#34;https://xhr.spec.whatwg.org/#handler-xhr-onreadystatechange&#34;&gt;스펙문서&lt;/a&gt;를 보면 readystate 3이란 게 있고, 그 단계에서는 response가 다 도달하지 않은 상태다.&#xA;그 상태에서 콘솔에 찍으니 당연히 이상하게 나왔고, 코드가 진행되면서 값이 들어가니 처음에 파스 에러가 났다가 아래쪽 재시도에서는 정상이 된 거다. 결국 참고한 코드가 잘못되어 있었는데, 무작정 복붙해서 일어난 문제.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Font Awesome이 적용되지 않았던 문제</title>
+				<link>https://ezaurum.com/bug/font-awesome-not-apply/</link>
+				<pubDate>Tue, 02 Oct 2018 13:23:21 +0900</pubDate>
+				<guid>https://ezaurum.com/bug/font-awesome-not-apply/</guid>
+				<description>&lt;p&gt;문제상황 - font awesome을 버전업 했는데, 아무리 해도 적용이 안 되었다. 되는 곳에서 복사해 온 거였는데.&lt;/p&gt;&#xA;&lt;p&gt;원인 - 복사하면서 이전 버전의 font awsome data hash 값을 안 지우고, 새 것에 합쳐져 버렸다. hash값이 안 맞아서 다운로드가 안 되었던 것.&lt;/p&gt;&#xA;&lt;p&gt;해결방안 - 지우고 새로 붙여넣었다.&lt;/p&gt;&#xA;&lt;p&gt;재발 방지를 위해 - 완전히 지우고 새로 붙여넣자.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>AJAX 요청이 간헐적으로 실패하는 문제</title>
+				<link>https://ezaurum.com/bug/not-modified-json-response/</link>
+				<pubDate>Wed, 19 Sep 2018 11:42:38 +0900</pubDate>
+				<guid>https://ezaurum.com/bug/not-modified-json-response/</guid>
+				<description>&lt;p&gt;문제 상황 - Ajax 요청이 간헐적으로 잘못된 응답이뜨는데, Axios에서는 에러 메세지가 뜨지 않았다.&lt;/p&gt;&#xA;&lt;p&gt;문제 원인 - 브라우저에서 &lt;code&gt;If-Modified-Since&lt;/code&gt; 를 헤더에 넣어서 보냈고, echo에서는 304를 리턴해 줬다. ajax요청과 html 요청 주소가 같아서 브라우저는 캐시된 html을 로드했고, json 파싱이 되지 않았다.&lt;/p&gt;&#xA;&lt;p&gt;해결 - HTTP헤더에 &lt;code&gt;If-Modified-Since&lt;/code&gt;를 빈 값으로 넣어줬다.&lt;/p&gt;&#xA;&lt;p&gt;재발 방지를 위해 - 기본으로 값을 넣어주자.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Vue에서 외부 모듈의 스타일을 적용했는데 적용되지 않을 때</title>
+				<link>https://ezaurum.com/bug/vue-style-scoped/</link>
+				<pubDate>Fri, 31 Aug 2018 22:31:05 +0900</pubDate>
+				<guid>https://ezaurum.com/bug/vue-style-scoped/</guid>
+				<description>&lt;h2 id=&#34;문제-상황&#34;&gt;문제 상황&lt;/h2&gt;&#xA;&lt;p&gt;Vue 프로그래밍 중 외부 모듈을 사용했는데, 해당 모듈의 기본 css를 덮어씌우려고 불러오는 vue 페이지의 style을 변경했다.&#xA;클래스 이름을 분명히 지정했고, !important도 먹히지 않았음&lt;/p&gt;&#xA;&lt;h2 id=&#34;문제-원인&#34;&gt;문제 원인&lt;/h2&gt;&#xA;&lt;p&gt;알고 보니 style 태그에 scoped가 지정되어 있어서 자동으로 한정자가 붙어버린다. 그러니 단순히 클래스만 지정해서는 해당 모듈에 반영되지 않았다.&lt;/p&gt;&#xA;&lt;h2 id=&#34;재발-방지를-위해&#34;&gt;재발 방지를 위해&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;외부 모듈의 경우는 style태그를 따로 하나 더 만들어서 처리한다.&lt;/li&gt;&#xA;&lt;li&gt;CSS를 해당 외부 모듈을 감싸는 부모 태그를 포함해서 선언 한다.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+			</item>
+			<item>
+				<title>VueJS 에서 템플릿을 리터럴로 선언 했을 때, 바인딩이 안됨</title>
+				<link>https://ezaurum.com/bug/vue-conflict-js-literal/</link>
+				<pubDate>Tue, 08 May 2018 00:16:20 +0900</pubDate>
+				<guid>https://ezaurum.com/bug/vue-conflict-js-literal/</guid>
+				<description>&lt;p&gt;문제상황 - VueJS를 시작하면서, go와 template이 겹쳐서 &lt;code&gt;${  }&lt;/code&gt;로 구분자를 변경해서 작업중이었는데, 이상하게도 한 컴포넌트에서 계속 row 가 undefined라는 에러가 떴음.&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;let reserveRow = `&amp;lt;li&amp;gt;${row.reserveName} - ${row.reservePhone}&amp;lt;/li&amp;gt;`&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;문제 원인 - &lt;code&gt;${ }&lt;/code&gt; 가 ES2016의 템플릿 리터럴에서 사용하는 구분자었다. 그래서 VueJS가 번역하기 전에 JS가 번역해버려서 에러가 났던 것.&lt;/p&gt;&#xA;&lt;p&gt;해결방안 - 문서를 꼼꼼히, 그리고 실제로 go template과 겹치는 부분에서만 구분자를 변경하자.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>GORM에서 Many To Many 값을 제대로 가져오지 못하는 문제</title>
+				<link>https://ezaurum.com/bug/gorm-related-bug/</link>
+				<pubDate>Tue, 01 May 2018 23:36:26 +0900</pubDate>
+				<guid>https://ezaurum.com/bug/gorm-related-bug/</guid>
+				<description>&lt;p&gt;문제 상황 - &lt;a href=&#34;http://gorm.io/docs/many_to_many.html&#34;&gt;GORM 문서&lt;/a&gt;대로 했는데 제대로 값이 불려오지 않았다.&lt;/p&gt;&#xA;&lt;p&gt;문제 원인 - 문서에서는 &lt;code&gt;db.Model(&amp;amp;language).Related(&amp;amp;users)&lt;/code&gt;식으로 하면 된다고 했는데, 실제로는 &lt;code&gt;db.Model(&amp;amp;language).Related(&amp;amp;users,&amp;quot;Users&amp;quot;)&lt;/code&gt; 식으로 프로퍼티 이름을 적어줘야 했다. 연관 테이블을 쓰는 게 두 개 이상이라 문제가 생긴 모양.&lt;/p&gt;&#xA;&lt;p&gt;재발 방지를 위해 - 일단 소스를 뒤지자&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>그래들은 컴파일이 되는데 인텔리J에서 컴파일이 안 되던 문제</title>
+				<link>https://ezaurum.com/bug/intellij-update-faile/</link>
+				<pubDate>Sun, 01 Apr 2018 13:36:26 +0700</pubDate>
+				<guid>https://ezaurum.com/bug/intellij-update-faile/</guid>
+				<description>&lt;p&gt;문제 상황 - 그래들에서는 컴파일이 되는데, IntelliJ는 디펜던시를 인식하지 못하고 컴파일을 못 했다.&lt;/p&gt;&#xA;&lt;p&gt;문제 원인 - 인텔리J 업데이트시, 존재하던 폴더에 새 버전을 그대로 덮어씌웠다.&lt;/p&gt;&#xA;&lt;p&gt;재발 방지를 위해 - 업데이트시는 있던 버전을 지우고 하자.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>인수 전달이 잘못된 문제</title>
+				<link>https://ezaurum.com/bug/2017-12-29-bug-diary/</link>
+				<pubDate>Fri, 29 Dec 2017 19:36:26 +0700</pubDate>
+				<guid>https://ezaurum.com/bug/2017-12-29-bug-diary/</guid>
+				<description>&lt;p&gt;문제 상황 - 에러가 없는데 DB에 자료가 기록되지 않았다.&lt;/p&gt;&#xA;&lt;p&gt;문제 원인 -&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;func (dbm *Manager) transaction(action TransactionHandlerFunc, targets ...interface{})&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;를 &lt;code&gt;tranaction(action)&lt;/code&gt; 형태로 호출하고는 왜 안되는지를 못 찾아서 2시간 허비.&lt;/p&gt;&#xA;&lt;p&gt;재발 방지를 위해 - 인수를 먼저 확인하자.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

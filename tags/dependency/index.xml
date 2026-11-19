@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Dependency on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/dependency/</link>
-    <description>Recent content in Dependency on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Thu, 24 May 2012 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/dependency/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Maven Dependency Management</title>
-      <link>https://ezaurum.com/2012/05/Maven-Dependency-Management/</link>
-      <pubDate>Thu, 24 May 2012 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2012/05/Maven-Dependency-Management/</guid>
-      <description>상위 프로젝트에서 dependencyManagement를 선언해 두고, 하위 프로젝트의 pom들에서 그걸 그냥 받아다 쓰면 된다는 것. 그러면 버전 관리도 한 곳에서 할 수 있다. eclipse에서 pom.xml 파일 열어보면 dependency 탭 오른쪽에 manage한 것들만 따로 보여준다.&#xA;참고 - http://stackoverflow.com/questions/2619598/differences-between-dependencymanagement-and-dependencies-of-maven http://stackoverflow.com/questions/6281422/clean-up-maven-dependency-management http://maven.apache.org/guides/introduction/introduction-to-dependency-mechanism.html#Dependency_Management</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Dependency on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/dependency/</link>
+		<description>Recent content in Dependency on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Thu, 24 May 2012 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/dependency/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Maven Dependency Management</title>
+				<link>https://ezaurum.com/2012/05/Maven-Dependency-Management/</link>
+				<pubDate>Thu, 24 May 2012 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2012/05/Maven-Dependency-Management/</guid>
+				<description>&lt;p&gt;상위 프로젝트에서 dependencyManagement를 선언해 두고, 하위 프로젝트의 pom들에서 그걸 그냥 받아다 쓰면 된다는 것. 그러면 버전 관리도 한 곳에서 할 수 있다.&#xA;eclipse에서 pom.xml 파일 열어보면 dependency 탭 오른쪽에 manage한 것들만 따로 보여준다.&lt;/p&gt;&#xA;&lt;p&gt;참고 - &lt;a href=&#34;http://stackoverflow.com/questions/2619598/differences-between-dependencymanagement-and-dependencies-of-maven&#34;&gt;http://stackoverflow.com/questions/2619598/differences-between-dependencymanagement-and-dependencies-of-maven&lt;/a&gt;&#xA;&lt;a href=&#34;http://stackoverflow.com/questions/6281422/clean-up-maven-dependency-management&#34;&gt;http://stackoverflow.com/questions/6281422/clean-up-maven-dependency-management&lt;/a&gt;&#xA;&lt;a href=&#34;http://maven.apache.org/guides/introduction/introduction-to-dependency-mechanism.html#Dependency_Management&#34;&gt;http://maven.apache.org/guides/introduction/introduction-to-dependency-mechanism.html#Dependency_Management&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

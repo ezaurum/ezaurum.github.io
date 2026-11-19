@@ -1,25 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Di on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/di/</link>
-    <description>Recent content in Di on Ezaurum&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Wed, 24 Dec 2014 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://ezaurum.com/tags/di/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Ninject 첫인상</title>
-      <link>https://ezaurum.com/2014/12/Ninject-%EC%B2%AB%EC%9D%B8%EC%83%81/</link>
-      <pubDate>Wed, 24 Dec 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://ezaurum.com/2014/12/Ninject-%EC%B2%AB%EC%9D%B8%EC%83%81/</guid>
-      <description>DI 를 위해 Ninject를 사용함. NInject는 Web API controller를 생성할 때, 컨트롤러에 해당 의존성 객체가 존재하는 생성자가 없으면, 제대로 DI가 되지 않으므로 주의</description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>DI on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/DI/</link>
+		<description>Recent content in DI on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Wed, 24 Dec 2014 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/DI/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Ninject 첫인상</title>
+				<link>https://ezaurum.com/2014/12/Ninject-%EC%B2%AB%EC%9D%B8%EC%83%81/</link>
+				<pubDate>Wed, 24 Dec 2014 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2014/12/Ninject-%EC%B2%AB%EC%9D%B8%EC%83%81/</guid>
+				<description>&lt;p&gt;DI 를 위해 Ninject를 사용함. NInject는 Web API controller를 생성할 때, 컨트롤러에 해당 의존성 객체가 존재하는 생성자가 없으면, 제대로 DI가 되지 않으므로 주의&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

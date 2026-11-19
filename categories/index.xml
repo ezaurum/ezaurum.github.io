@@ -1,125 +1,131 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Categories on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/categories/</link>
-    <description>Recent content in Categories on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Wed, 15 May 2024 16:45:16 +0900</lastBuildDate>
-    <atom:link href="https://ezaurum.com/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>회고</title>
-      <link>https://ezaurum.com/categories/%ED%9A%8C%EA%B3%A0/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/categories/%ED%9A%8C%EA%B3%A0/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>개발환경</title>
-      <link>https://ezaurum.com/categories/%EA%B0%9C%EB%B0%9C%ED%99%98%EA%B2%BD/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/categories/%EA%B0%9C%EB%B0%9C%ED%99%98%EA%B2%BD/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>레시피</title>
-      <link>https://ezaurum.com/categories/%EB%A0%88%EC%8B%9C%ED%94%BC/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/categories/%EB%A0%88%EC%8B%9C%ED%94%BC/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>정리</title>
-      <link>https://ezaurum.com/categories/%EC%A0%95%EB%A6%AC/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/categories/%EC%A0%95%EB%A6%AC/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>목표</title>
-      <link>https://ezaurum.com/categories/%EB%AA%A9%ED%91%9C/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/categories/%EB%AA%A9%ED%91%9C/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>일상</title>
-      <link>https://ezaurum.com/categories/%EC%9D%BC%EC%83%81/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/categories/%EC%9D%BC%EC%83%81/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>공부</title>
-      <link>https://ezaurum.com/categories/%EA%B3%B5%EB%B6%80/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/categories/%EA%B3%B5%EB%B6%80/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>독서기록</title>
-      <link>https://ezaurum.com/categories/%EB%8F%85%EC%84%9C%EA%B8%B0%EB%A1%9D/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/categories/%EB%8F%85%EC%84%9C%EA%B8%B0%EB%A1%9D/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>한줄정리</title>
-      <link>https://ezaurum.com/categories/%ED%95%9C%EC%A4%84%EC%A0%95%EB%A6%AC/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/categories/%ED%95%9C%EC%A4%84%EC%A0%95%EB%A6%AC/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>여행기</title>
-      <link>https://ezaurum.com/categories/%EC%97%AC%ED%96%89%EA%B8%B0/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/categories/%EC%97%AC%ED%96%89%EA%B8%B0/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>영화 감상</title>
-      <link>https://ezaurum.com/categories/%EC%98%81%ED%99%94-%EA%B0%90%EC%83%81/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/categories/%EC%98%81%ED%99%94-%EA%B0%90%EC%83%81/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Toy</title>
-      <link>https://ezaurum.com/categories/Toy/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/categories/Toy/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>생활기</title>
-      <link>https://ezaurum.com/categories/%EC%83%9D%ED%99%9C%EA%B8%B0/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/categories/%EC%83%9D%ED%99%9C%EA%B8%B0/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>지름</title>
-      <link>https://ezaurum.com/categories/%EC%A7%80%EB%A6%84/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/categories/%EC%A7%80%EB%A6%84/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>강의</title>
-      <link>https://ezaurum.com/categories/%EA%B0%95%EC%9D%98/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/categories/%EA%B0%95%EC%9D%98/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>이 책을 권한다</title>
-      <link>https://ezaurum.com/categories/%EC%9D%B4-%EC%B1%85%EC%9D%84-%EA%B6%8C%ED%95%9C%EB%8B%A4/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/categories/%EC%9D%B4-%EC%B1%85%EC%9D%84-%EA%B6%8C%ED%95%9C%EB%8B%A4/</guid>
-      <description></description>
-    </item>
-  </channel>
+	<channel>
+		<title>Categories on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/categories/</link>
+		<description>Recent content in Categories on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Wed, 15 May 2024 16:45:16 +0900</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/categories/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>회고</title>
+				<link>https://ezaurum.com/categories/%ED%9A%8C%EA%B3%A0/</link>
+				<pubDate>Wed, 15 May 2024 16:45:16 +0900</pubDate>
+				<guid>https://ezaurum.com/categories/%ED%9A%8C%EA%B3%A0/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>개발환경</title>
+				<link>https://ezaurum.com/categories/%EA%B0%9C%EB%B0%9C%ED%99%98%EA%B2%BD/</link>
+				<pubDate>Wed, 17 Jan 2024 00:00:00 +0900</pubDate>
+				<guid>https://ezaurum.com/categories/%EA%B0%9C%EB%B0%9C%ED%99%98%EA%B2%BD/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>레시피</title>
+				<link>https://ezaurum.com/categories/%EB%A0%88%EC%8B%9C%ED%94%BC/</link>
+				<pubDate>Wed, 17 Jan 2024 00:00:00 +0900</pubDate>
+				<guid>https://ezaurum.com/categories/%EB%A0%88%EC%8B%9C%ED%94%BC/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>정리</title>
+				<link>https://ezaurum.com/categories/%EC%A0%95%EB%A6%AC/</link>
+				<pubDate>Wed, 17 Jan 2024 00:00:00 +0900</pubDate>
+				<guid>https://ezaurum.com/categories/%EC%A0%95%EB%A6%AC/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>목표</title>
+				<link>https://ezaurum.com/categories/%EB%AA%A9%ED%91%9C/</link>
+				<pubDate>Tue, 02 Jan 2024 13:17:22 +0900</pubDate>
+				<guid>https://ezaurum.com/categories/%EB%AA%A9%ED%91%9C/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>일상</title>
+				<link>https://ezaurum.com/categories/%EC%9D%BC%EC%83%81/</link>
+				<pubDate>Tue, 02 Jan 2024 13:17:22 +0900</pubDate>
+				<guid>https://ezaurum.com/categories/%EC%9D%BC%EC%83%81/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>공부</title>
+				<link>https://ezaurum.com/categories/%EA%B3%B5%EB%B6%80/</link>
+				<pubDate>Thu, 08 Apr 2021 22:34:33 +0900</pubDate>
+				<guid>https://ezaurum.com/categories/%EA%B3%B5%EB%B6%80/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>독서기록</title>
+				<link>https://ezaurum.com/categories/%EB%8F%85%EC%84%9C%EA%B8%B0%EB%A1%9D/</link>
+				<pubDate>Sun, 19 Apr 2020 03:29:25 +0900</pubDate>
+				<guid>https://ezaurum.com/categories/%EB%8F%85%EC%84%9C%EA%B8%B0%EB%A1%9D/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>한줄정리</title>
+				<link>https://ezaurum.com/categories/%ED%95%9C%EC%A4%84%EC%A0%95%EB%A6%AC/</link>
+				<pubDate>Thu, 26 Mar 2020 02:00:18 +0900</pubDate>
+				<guid>https://ezaurum.com/categories/%ED%95%9C%EC%A4%84%EC%A0%95%EB%A6%AC/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>여행기</title>
+				<link>https://ezaurum.com/categories/%EC%97%AC%ED%96%89%EA%B8%B0/</link>
+				<pubDate>Sun, 15 Mar 2020 12:42:34 +0900</pubDate>
+				<guid>https://ezaurum.com/categories/%EC%97%AC%ED%96%89%EA%B8%B0/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>영화 감상</title>
+				<link>https://ezaurum.com/categories/%EC%98%81%ED%99%94-%EA%B0%90%EC%83%81/</link>
+				<pubDate>Sat, 14 Sep 2019 18:03:45 +0900</pubDate>
+				<guid>https://ezaurum.com/categories/%EC%98%81%ED%99%94-%EA%B0%90%EC%83%81/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Toy</title>
+				<link>https://ezaurum.com/categories/Toy/</link>
+				<pubDate>Wed, 27 Jun 2018 14:46:48 +0900</pubDate>
+				<guid>https://ezaurum.com/categories/Toy/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>생활기</title>
+				<link>https://ezaurum.com/categories/%EC%83%9D%ED%99%9C%EA%B8%B0/</link>
+				<pubDate>Thu, 08 Feb 2018 15:01:52 +0700</pubDate>
+				<guid>https://ezaurum.com/categories/%EC%83%9D%ED%99%9C%EA%B8%B0/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>지름</title>
+				<link>https://ezaurum.com/categories/%EC%A7%80%EB%A6%84/</link>
+				<pubDate>Wed, 27 Dec 2017 15:58:04 +0700</pubDate>
+				<guid>https://ezaurum.com/categories/%EC%A7%80%EB%A6%84/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>강의</title>
+				<link>https://ezaurum.com/categories/%EA%B0%95%EC%9D%98/</link>
+				<pubDate>Sat, 16 Dec 2017 18:01:25 +0700</pubDate>
+				<guid>https://ezaurum.com/categories/%EA%B0%95%EC%9D%98/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>이 책을 권한다</title>
+				<link>https://ezaurum.com/categories/%EC%9D%B4-%EC%B1%85%EC%9D%84-%EA%B6%8C%ED%95%9C%EB%8B%A4/</link>
+				<pubDate>Wed, 29 Dec 2010 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/categories/%EC%9D%B4-%EC%B1%85%EC%9D%84-%EA%B6%8C%ED%95%9C%EB%8B%A4/</guid>
+				<description></description>
+			</item>
+	</channel>
 </rss>

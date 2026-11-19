@@ -46,7 +46,7 @@
 2017-07-25
 <section><p><a href="https://www.elastic.co/guide/en/elasticsearch/reference/current/docker.html#docker-prod-cluster-composefile" title="공식 사이트 docker 설치 방법">참고는 역시 공식 사이트</a></p>
 <p>일단 docker-compose.yml 로 다음을 지정</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yml" data-lang="yml"><span style="display:flex;"><span><span style="color:#f92672">services</span>:
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-yml" data-lang="yml"><span style="display:flex;"><span><span style="color:#f92672">services</span>:
 </span></span><span style="display:flex;"><span>  <span style="color:#f92672">elasticsearch1</span>:
 </span></span><span style="display:flex;"><span>    <span style="color:#f92672">image</span>: <span style="color:#ae81ff">docker.elastic.co/elasticsearch/elasticsearch:5.5.0</span>
 </span></span><span style="display:flex;"><span>    <span style="color:#f92672">container_name</span>: <span style="color:#ae81ff">elasticsearch1</span>
@@ -91,9 +91,9 @@
 </span></span><span style="display:flex;"><span><span style="color:#f92672">networks</span>:
 </span></span><span style="display:flex;"><span>  <span style="color:#f92672">esnet</span>:
 </span></span></code></pre></div><p>그 다음 docker-compose 로 띄운다.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>docker-compose up
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>docker-compose up
 </span></span></code></pre></div><p>이제 제대로 떴는지 확인을 할 텐데, 기본 비번은 changeme, user id는 elastic 이고 http basic authentication으로 접속한다.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ curl -u elastic:changeme http://127.0.0.1:9200/_cat/health
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ curl -u elastic:changeme http://127.0.0.1:9200/_cat/health
 </span></span></code></pre></div><p>결과
 1500017692 07:34:52 docker-cluster green 2 2 10 5 0 0 0 0 - 100.0%</p>
 <p>green 이고 100%면 된다.
@@ -111,6 +111,30 @@
 <a href="https://ezaurum.com/2017/07/%EC%97%98%EB%9D%BC%EC%8A%A4%ED%8B%B1-%EC%84%9C%EC%B9%98-index-%EB%A7%8C%EB%93%A4%EA%B8%B0/">엘라스틱 서치 index 만들기</a>
 
 
+
+
+
+    <div id="disqus_thread"></div>
+<script>
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "ezaurum" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+		<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+		<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+	
 
 
 

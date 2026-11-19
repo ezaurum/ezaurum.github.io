@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>날붙이 on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/%EB%82%A0%EB%B6%99%EC%9D%B4/</link>
-    <description>Recent content in 날붙이 on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Wed, 30 Jun 2010 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/%EB%82%A0%EB%B6%99%EC%9D%B4/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>내 연애에 대한 이미지는 날붙이</title>
-      <link>https://ezaurum.com/2010/06/%EB%82%B4-%EC%97%B0%EC%95%A0%EC%97%90-%EB%8C%80%ED%95%9C-%EC%9D%B4%EB%AF%B8%EC%A7%80%EB%8A%94-%EB%82%A0%EB%B6%99%EC%9D%B4/</link>
-      <pubDate>Wed, 30 Jun 2010 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2010/06/%EB%82%B4-%EC%97%B0%EC%95%A0%EC%97%90-%EB%8C%80%ED%95%9C-%EC%9D%B4%EB%AF%B8%EC%A7%80%EB%8A%94-%EB%82%A0%EB%B6%99%EC%9D%B4/</guid>
-      <description>한 발 더 나가면 찔려 죽고 한 발 빼면 피가 흘러나와 죽어버리는&#xA;그런 건가.&#xA;날카롭고 눈부시고 차갑고 명확한 감정&#xA;그런 거다.&#xA;이 글은 2008년 12월 13일에 작성되었고, 2010년 6월 30일 오늘 오타 교정 후 올린다. 길구나.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>날붙이 on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/%EB%82%A0%EB%B6%99%EC%9D%B4/</link>
+		<description>Recent content in 날붙이 on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Wed, 30 Jun 2010 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/%EB%82%A0%EB%B6%99%EC%9D%B4/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>내 연애에 대한 이미지는 날붙이</title>
+				<link>https://ezaurum.com/2010/06/%EB%82%B4-%EC%97%B0%EC%95%A0%EC%97%90-%EB%8C%80%ED%95%9C-%EC%9D%B4%EB%AF%B8%EC%A7%80%EB%8A%94-%EB%82%A0%EB%B6%99%EC%9D%B4/</link>
+				<pubDate>Wed, 30 Jun 2010 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2010/06/%EB%82%B4-%EC%97%B0%EC%95%A0%EC%97%90-%EB%8C%80%ED%95%9C-%EC%9D%B4%EB%AF%B8%EC%A7%80%EB%8A%94-%EB%82%A0%EB%B6%99%EC%9D%B4/</guid>
+				<description>&lt;p&gt;한 발 더 나가면 찔려 죽고&#xA;한 발 빼면 피가 흘러나와 죽어버리는&lt;/p&gt;&#xA;&lt;p&gt;그런 건가.&lt;/p&gt;&#xA;&lt;p&gt;날카롭고&#xA;눈부시고&#xA;차갑고&#xA;명확한 감정&lt;/p&gt;&#xA;&lt;p&gt;그런 거다.&lt;/p&gt;&#xA;&lt;p&gt;이 글은 2008년 12월 13일에 작성되었고, 2010년 6월 30일 오늘 오타 교정 후 올린다.&#xA;길구나.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

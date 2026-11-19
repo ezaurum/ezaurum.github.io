@@ -1,27 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Framework on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/framework/</link>
-    <description>Recent content in Framework on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Thu, 25 Dec 2014 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/framework/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>C# DB 라이브러리 비교</title>
-      <link>https://ezaurum.com/2014/12/C%23-DB-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-%EB%B9%84%EA%B5%90/</link>
-      <pubDate>Thu, 25 Dec 2014 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2014/12/C%23-DB-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-%EB%B9%84%EA%B5%90/</guid>
-      <description>별로 구체적으로 비교를 해 본 것은 아니지만, 지난 두 달간 이런저런 삽질을 한 결과를 정리한다.&#xA;Linq To SQL - MS스러운 DB라이브러리&#xD;장점 - IDE에 통합된 사용환경, VS에서 DB에 연결 후, 테이블을 끌어오는 것만으로도 바로 도메인 객체가 생성된다. 속도가 빠르다. 복잡한 쿼리에 신경 안 써도 된다. 러닝커브 작음.&#xD;단점 - 자동생성되는 도메인 객체가 복잡하다. 로직이 들어가야 하는 경우 매우 곤란해진다. POCO객체는 불가능. 추가 수정도 귀찮다.&#xD;적절한 사용처 - 이미 DB가 존재하고, 거기에 간단한 CRUD연산을 해야 하는 웹 툴 정도를 붙이는 경우.</description>
-    </item>
-    <item>
-      <title>성과물 2010년 4월 초</title>
-      <link>https://ezaurum.com/2010/05/%EC%84%B1%EA%B3%BC%EB%AC%BC-2010%EB%85%84-4%EC%9B%94-%EC%B4%88/</link>
-      <pubDate>Wed, 05 May 2010 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2010/05/%EC%84%B1%EA%B3%BC%EB%AC%BC-2010%EB%85%84-4%EC%9B%94-%EC%B4%88/</guid>
-      <description>전시용 홈페이지 제작 JSP로 막 발랐음. 실 제작기간 - 한나절. 4-5시간 가량. 게시판류는 있는 것을 모두 iframe으로 가져다 씀. 만든 것은 메뉴를 class로 만들어서 추가, 삭제가 용의하게 한 부분 뿐. 실 작업시간의 대부분은 CSS노가다. 메인 네비게이션은 다른쪽에서 flash로 만들어 줌. 디자인도 거기서 해 줬음.&#xA;소득 JSP 내부에서 클래스를 생성하면 그 안의 어트리뷰트들은 모두 public이다. css도 framework나 그 비슷한 틀 짜는 사이트 등을 활용하는 게 좋겠다. struts2를 좀 연습해 뒀으면 더 빨리 했을텐데.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Framework on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/framework/</link>
+		<description>Recent content in Framework on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Thu, 25 Dec 2014 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/framework/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>C# DB 라이브러리 비교</title>
+				<link>https://ezaurum.com/2014/12/C%23-DB-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-%EB%B9%84%EA%B5%90/</link>
+				<pubDate>Thu, 25 Dec 2014 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2014/12/C%23-DB-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-%EB%B9%84%EA%B5%90/</guid>
+				<description>&lt;p&gt;별로 구체적으로 비교를 해 본 것은 아니지만, 지난 두 달간 이런저런 삽질을 한 결과를 정리한다.&lt;/p&gt;&#xA;&lt;ol&gt;&#xD;&#xA;&#x9;&lt;li&gt;&lt;a href=&#34;http://msdn.microsoft.com/en-us/library/bb425822.aspx&#34;&gt;Linq To SQL&lt;/a&gt; - MS스러운 DB라이브러리&#xD;&#xA;&lt;ol&gt;&#xD;&#xA;&#x9;&lt;li&gt;장점 - IDE에 통합된 사용환경, VS에서 DB에 연결 후, 테이블을 끌어오는 것만으로도 바로 도메인 객체가 생성된다. 속도가 빠르다. 복잡한 쿼리에 신경 안 써도 된다. 러닝커브 작음.&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;단점 - 자동생성되는 도메인 객체가 복잡하다. 로직이 들어가야 하는 경우 매우 곤란해진다. POCO객체는 불가능. 추가 수정도 귀찮다.&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;적절한 사용처 - 이미 DB가 존재하고, 거기에 간단한 CRUD연산을 해야 하는 웹 툴 정도를 붙이는 경우.&lt;/li&gt;&#xD;&#xA;&lt;/ol&gt;&#xD;&#xA;&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;&lt;a href=&#34;http://www.asp.net/entity-framework&#34;&gt;Entity Framework&lt;/a&gt; - Hibernate에 대응하는 ORM&#xD;&#xA;&lt;ol&gt;&#xD;&#xA;&#x9;&lt;li&gt;장점 - 일단 코드를 짜고 바로 연결하면 된다. 복잡한 쿼리에 신경 안 써도 된다.&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;단점 - 라이브러리 사용법이 복잡하다. 제대로 쓰려면 책 한권 잡고 봐야 한다. 초기 러닝커브 크다. 속도가 느리다.&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;적절한 사용처 - 최초 프로젝트를 시작하고, 엔터프라이즈 환경... 인 경우... 하고 시간이 많고, 속도에 그리 신경쓰지 않아도 되고, 도메인 구조가 복잡하고 자주 변경되는 경우.&lt;/li&gt;&#xD;&#xA;&lt;/ol&gt;&#xD;&#xA;&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;&lt;a href=&#34;https://github.com/StackExchange/dapper-dot-net&#34;&gt;Dapper&lt;/a&gt; - MyBatis 류에 대응하는 ORM&#xD;&#xA;&lt;ol&gt;&#xD;&#xA;&#x9;&lt;li&gt;장점 - 간단하다. 솔직히 SQL2LINQ보다 이게 더 간단해 보인다. 속도가 빠르다. 뭐 간단한 구조니까 당연하달까.&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;단점 - 쿼리를 직접 짜야 한다. 그러니 도메인 구조가 바뀌면 쿼리도 같이 바꿔줘야 하는 경우가 있다. 복잡한 매핑은 지원하지 않는다. 한 로우 마다 기본적으로 하나의 오브젝트에 대응하고, 대충 나눠서 여러 개를 매핑하는 것은 가능하지만, 조인해서 오브젝트 내부에 리스트를 넣는다든가 하는 것은 매핑 메소드를 따로 만들어줘야 한다.&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;적절한 사용처 - 속도가 중요하고, 초기 러닝커브가 크면 곤란한 경우. 개발자가 DB에 대해 좀 아는 경우.&lt;/li&gt;&#xD;&#xA;&lt;/ol&gt;&#xD;&#xA;&lt;/li&gt;&#xD;&#xA;&lt;/ol&gt;&#xD;&#xA;&lt;strong&gt;현재 내 프로젝트의 상황 &lt;/strong&gt;&#xD;&#xA;&lt;ul&gt;&#xD;&#xA;&#x9;&lt;li&gt;개발 기간이 얼마 남지 않았다.&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;내가 DB를 설계할 수 있음.&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;도메인 구조가 자주 바뀐다.&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;도메인에 로직이 들어가야 하는 경우가 많다.&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;속도가 매우 중요.&lt;/li&gt;&#xD;&#xA;&lt;/ul&gt;&#xD;&#xA;&lt;strong&gt;결론&lt;/strong&gt;&#xD;&#xA;&lt;ol&gt;&#xD;&#xA;&#x9;&lt;li&gt;개발 기간이 얼마 남지 않았다.&#xD;&#xA;&lt;ol&gt;&#xD;&#xA;&#x9;&lt;li&gt;Entity프레임워크는 일단 제외 - 하이버네이트 때도 그랬지만, 러닝커브가 큰 라이브러리의 경우 개발시간 내내 익숙해지지 않는 경우가 많다.&lt;/li&gt;&#xD;&#xA;&lt;/ol&gt;&#xD;&#xA;&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;속도가 매우 중요.&#xD;&#xA;&lt;ol&gt;&#xD;&#xA;&#x9;&lt;li&gt;Enitity 프레임워크가 일단 또 제외.&lt;/li&gt;&#xD;&#xA;&lt;/ol&gt;&#xD;&#xA;&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;도메인에 로직이 들어가야 한다.&#xD;&#xA;&lt;ol&gt;&#xD;&#xA;&#x9;&lt;li&gt;SQL2LINQ가 제외.&lt;/li&gt;&#xD;&#xA;&lt;/ol&gt;&#xD;&#xA;&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;내가 DB를 설계할 수 있다.&#xD;&#xA;&lt;ol&gt;&#xD;&#xA;&#x9;&lt;li&gt;Dapper의 단점이 좀 경감&lt;/li&gt;&#xD;&#xA;&lt;/ol&gt;&#xD;&#xA;&lt;/li&gt;&#xD;&#xA;&lt;/ol&gt;&#xD;&#xA;그러므로 Dapper를 사용하기로 함.</description>
+			</item>
+			<item>
+				<title>성과물 2010년 4월 초</title>
+				<link>https://ezaurum.com/2010/05/%EC%84%B1%EA%B3%BC%EB%AC%BC-2010%EB%85%84-4%EC%9B%94-%EC%B4%88/</link>
+				<pubDate>Wed, 05 May 2010 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2010/05/%EC%84%B1%EA%B3%BC%EB%AC%BC-2010%EB%85%84-4%EC%9B%94-%EC%B4%88/</guid>
+				<description>&lt;p&gt;전시용 홈페이지 제작&#xA;JSP로 막 발랐음.&#xA;실 제작기간 - 한나절. 4-5시간 가량.&#xA;게시판류는 있는 것을 모두 iframe으로 가져다 씀.&#xA;만든 것은 메뉴를 class로 만들어서 추가, 삭제가 용의하게 한 부분 뿐.&#xA;실 작업시간의 대부분은 CSS노가다.&#xA;메인 네비게이션은 다른쪽에서 flash로 만들어 줌.&#xA;디자인도 거기서 해 줬음.&lt;/p&gt;&#xA;&lt;p&gt;소득&#xA;JSP 내부에서 클래스를 생성하면 그 안의 어트리뷰트들은 모두 public이다.&#xA;css도 framework나 그 비슷한 틀 짜는 사이트 등을 활용하는 게 좋겠다.&#xA;struts2를 좀 연습해 뒀으면 더 빨리 했을텐데.&#xA;sql쿼리나 oracle에 대한 이해가 더 필요하다.&#xA;역시 자주하면 손이 좀 빨라진다.&#xA;작업할 때는 전화를 안 받는 게 효율적이다.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

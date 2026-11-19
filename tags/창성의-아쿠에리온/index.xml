@@ -1,27 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>창성의 아쿠에리온 on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/%EC%B0%BD%EC%84%B1%EC%9D%98-%EC%95%84%EC%BF%A0%EC%97%90%EB%A6%AC%EC%98%A8/</link>
-    <description>Recent content in 창성의 아쿠에리온 on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Sun, 04 Jan 2009 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/%EC%B0%BD%EC%84%B1%EC%9D%98-%EC%95%84%EC%BF%A0%EC%97%90%EB%A6%AC%EC%98%A8/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>창성의 아쿠에리온 1기 OP</title>
-      <link>https://ezaurum.com/2009/01/%EC%B0%BD%EC%84%B1%EC%9D%98-%EC%95%84%EC%BF%A0%EC%97%90%EB%A6%AC%EC%98%A8-1%EA%B8%B0-OP/</link>
-      <pubDate>Sun, 04 Jan 2009 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2009/01/%EC%B0%BD%EC%84%B1%EC%9D%98-%EC%95%84%EC%BF%A0%EC%97%90%EB%A6%AC%EC%98%A8-1%EA%B8%B0-OP/</guid>
-      <description>[youtube https://www.youtube.com/watch?v=w92S7SDxmh4&amp;amp;hl=ko&amp;amp;fs=1] [youtube https://www.youtube.com/watch?v=1IBN4q6JQ3I&amp;amp;hl=ko&amp;amp;fs=1] [youtube https://www.youtube.com/watch?v=BegEPVi3N1E&amp;amp;hl=ko&amp;amp;fs=1] [youtube https://www.youtube.com/watch?v=ThPJQmvw_ms&amp;amp;hl=ko&amp;amp;fs=1] 世界の 始まりの 日 세카이노 하지마리노 히 세상 처음 그 날&#xA;生命の 樹の 下で 이노치노 키노 시타데 생명의 나무 아래&#xA;くじらたちの 聲の 쿠지라타치노 코에노 고래 소리의&#xA;遠い盞響 토오이 잔쿄우 먼 메아리를&#xA;二人で 聞いた 후타리데 키이타 둘이서 들었어&#xA;失くしたもの すべて 나쿠시타모노 스베테 잃어버린 모든 것&#xA;愛したもの すべて 아이시타모노 스베테 사랑했던 모든 것&#xA;この 手に 抱きしめて 코노 테니 다키시메테 이 손으로 끌어안고서&#xA;現在(いま)は どこを 彷徨い行くの 이마와 도코오 사마요이이쿠노 지금은 어디를 방황하고 있는지</description>
-    </item>
-    <item>
-      <title>창성의 아쿠에리온</title>
-      <link>https://ezaurum.com/2008/10/%EC%B0%BD%EC%84%B1%EC%9D%98-%EC%95%84%EC%BF%A0%EC%97%90%EB%A6%AC%EC%98%A8/</link>
-      <pubDate>Sun, 19 Oct 2008 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2008/10/%EC%B0%BD%EC%84%B1%EC%9D%98-%EC%95%84%EC%BF%A0%EC%97%90%EB%A6%AC%EC%98%A8/</guid>
-      <description>슈퍼로봇대전Z 를 해 보니 겟타와 같은 합체 방식이라 보기 시작했는데, 일단 3체 합체라고 하는 모티브는 같지만 여기 같은 경우는 파일롯이 달라지면 특성이 달라지는 것도 있고 해서 여러모로 다양한 바리에이션을 볼 수 있다.&#xA;&amp;hellip; 뭐 사실 그건 아무래도 좋고.&#xA;이 애니의 중요한 감상 포인트는.(현재 15화까지 시청) 적의 보스로 보이는 토마인가 도마인가 하는 놈과, 주인공의 전생이라는 아폴로니어스의 러브라인.&#xA;&amp;hellip;시대는 21세기라&amp;hellip; 12화부터 본격적으로 둘의 관계가 드러나는데 보면 아무리 봐도 이건 내 것이 될 수 없으면 부숴버리겠어.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>창성의 아쿠에리온 on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/%EC%B0%BD%EC%84%B1%EC%9D%98-%EC%95%84%EC%BF%A0%EC%97%90%EB%A6%AC%EC%98%A8/</link>
+		<description>Recent content in 창성의 아쿠에리온 on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Sun, 04 Jan 2009 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/%EC%B0%BD%EC%84%B1%EC%9D%98-%EC%95%84%EC%BF%A0%EC%97%90%EB%A6%AC%EC%98%A8/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>창성의 아쿠에리온 1기 OP</title>
+				<link>https://ezaurum.com/2009/01/%EC%B0%BD%EC%84%B1%EC%9D%98-%EC%95%84%EC%BF%A0%EC%97%90%EB%A6%AC%EC%98%A8-1%EA%B8%B0-OP/</link>
+				<pubDate>Sun, 04 Jan 2009 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2009/01/%EC%B0%BD%EC%84%B1%EC%9D%98-%EC%95%84%EC%BF%A0%EC%97%90%EB%A6%AC%EC%98%A8-1%EA%B8%B0-OP/</guid>
+				<description>&lt;p&gt;[youtube https://www.youtube.com/watch?v=w92S7SDxmh4&amp;amp;hl=ko&amp;amp;fs=1]&#xA;[youtube https://www.youtube.com/watch?v=1IBN4q6JQ3I&amp;amp;hl=ko&amp;amp;fs=1]&#xA;[youtube https://www.youtube.com/watch?v=BegEPVi3N1E&amp;amp;hl=ko&amp;amp;fs=1]&#xA;[youtube https://www.youtube.com/watch?v=ThPJQmvw_ms&amp;amp;hl=ko&amp;amp;fs=1]&#xA;世界の 始まりの 日&#xA;세카이노 하지마리노 히&#xA;세상 처음 그 날&lt;/p&gt;&#xA;&lt;p&gt;生命の 樹の 下で&#xA;이노치노 키노 시타데&#xA;생명의 나무 아래&lt;/p&gt;&#xA;&lt;p&gt;くじらたちの 聲の&#xA;쿠지라타치노 코에노&#xA;고래 소리의&lt;/p&gt;&#xA;&lt;p&gt;遠い盞響&#xA;토오이 잔쿄우&#xA;먼 메아리를&lt;/p&gt;&#xA;&lt;p&gt;二人で 聞いた&#xA;후타리데 키이타&#xA;둘이서 들었어&lt;/p&gt;&#xA;&lt;p&gt;失くしたもの すべて&#xA;나쿠시타모노 스베테&#xA;잃어버린 모든 것&lt;/p&gt;&#xA;&lt;p&gt;愛したもの すべて&#xA;아이시타모노 스베테&#xA;사랑했던 모든 것&lt;/p&gt;&#xA;&lt;p&gt;この 手に 抱きしめて&#xA;코노 테니 다키시메테&#xA;이 손으로 끌어안고서&lt;/p&gt;&#xA;&lt;p&gt;現在(いま)は どこを 彷徨い行くの&#xA;이마와 도코오 사마요이이쿠노&#xA;지금은 어디를 방황하고 있는지&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>창성의 아쿠에리온</title>
+				<link>https://ezaurum.com/2008/10/%EC%B0%BD%EC%84%B1%EC%9D%98-%EC%95%84%EC%BF%A0%EC%97%90%EB%A6%AC%EC%98%A8/</link>
+				<pubDate>Sun, 19 Oct 2008 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2008/10/%EC%B0%BD%EC%84%B1%EC%9D%98-%EC%95%84%EC%BF%A0%EC%97%90%EB%A6%AC%EC%98%A8/</guid>
+				<description>&lt;p&gt;슈퍼로봇대전Z 를 해 보니 겟타와 같은 합체 방식이라 보기 시작했는데, 일단 3체 합체라고 하는 모티브는 같지만 여기 같은 경우는 파일롯이 달라지면 특성이 달라지는 것도 있고 해서 여러모로 다양한 바리에이션을 볼 수 있다.&lt;/p&gt;&#xA;&lt;p&gt;&amp;hellip; 뭐 사실 그건 아무래도 좋고.&lt;/p&gt;&#xA;&lt;p&gt;이 애니의 중요한 감상 포인트는.(현재 15화까지 시청)&#xA;적의 보스로 보이는 토마인가 도마인가 하는 놈과, 주인공의 전생이라는 아폴로니어스의 러브라인.&lt;/p&gt;&#xA;&lt;p&gt;&amp;hellip;시대는 21세기라&amp;hellip;&#xA;12화부터 본격적으로 둘의 관계가 드러나는데 보면 아무리 봐도 이건 내 것이 될 수 없으면 부숴버리겠어. 정도의 수준.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

@@ -1,27 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Form on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/form/</link>
-    <description>Recent content in Form on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Fri, 22 Oct 2010 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/form/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Java 컨테이너에 Form 값의 encoding 깨질 때</title>
-      <link>https://ezaurum.com/2010/10/Java-%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88%EC%97%90-Form-%EA%B0%92%EC%9D%98-encoding-%EA%B9%A8%EC%A7%88-%EB%95%8C/</link>
-      <pubDate>Fri, 22 Oct 2010 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2010/10/Java-%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88%EC%97%90-Form-%EA%B0%92%EC%9D%98-encoding-%EA%B9%A8%EC%A7%88-%EB%95%8C/</guid>
-      <description>점검사항은 아래 세가지.&#xA;폼에서 정확히 인코딩을 지정해서 넘겨주는가?&#xD;서버에서 정확히 인코딩을 인식하는가?&#xD;DB에서 정확히 인코딩을 인식하는가?&#xD;이다.&#xD;폼에서 정확히 인코딩을 지정해서 념겨주는가?&#xD;이 경우는 일단 문서 첫머리에 meta태그가 utf-8으로 지정되어 있고, 폼에 accept-charset 어트리뷰트가 지정되어 있고, 브라우저에서 확인해서 문서가 utf-8으로 읽히는 상황이라면 문제 없다고 보면 된다. UTF-8으로 나와야 하는 페이지가 UTF-8으로 안나오는 경우는 여기서 다룰 게 아니다.&#xA;&amp;lt;meta http-equiv=&#34;Content-Type&#34; content=&#34;text/html; charset=UTF-8&#34; /&amp;gt;&#xD;&amp;lt;meta charset=&#34;UTF-8&#34; /&amp;gt;&#xD;&amp;lt;form accept-charset=&#34;UTF-8&#34; &amp;gt;&#xD;서버에서 인코딩을 제대로 인식하는가?</description>
-    </item>
-    <item>
-      <title>다른 프레임으로 폼 값 전송</title>
-      <link>https://ezaurum.com/2009/09/%EB%8B%A4%EB%A5%B8-%ED%94%84%EB%A0%88%EC%9E%84%EC%9C%BC%EB%A1%9C-%ED%8F%BC-%EA%B0%92-%EC%A0%84%EC%86%A1/</link>
-      <pubDate>Sat, 19 Sep 2009 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2009/09/%EB%8B%A4%EB%A5%B8-%ED%94%84%EB%A0%88%EC%9E%84%EC%9C%BC%EB%A1%9C-%ED%8F%BC-%EA%B0%92-%EC%A0%84%EC%86%A1/</guid>
-      <description>자바스크립트 이용&#xA;window.open(&amp;ldquo;title&amp;rdquo;, &amp;ldquo;frameName&amp;rdquo;, &amp;ldquo;width=600, height=400, scrollbars=yes&amp;rdquo;); document.form1.action = &amp;ldquo;action.php&amp;rdquo;; document.form1.target = &amp;ldquo;frameName&amp;rdquo;; document.form1.method = &amp;ldquo;post&amp;rdquo;; document.form1.submit();</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Form on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/form/</link>
+		<description>Recent content in Form on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Fri, 22 Oct 2010 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/form/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Java 컨테이너에 Form 값의 encoding 깨질 때</title>
+				<link>https://ezaurum.com/2010/10/Java-%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88%EC%97%90-Form-%EA%B0%92%EC%9D%98-encoding-%EA%B9%A8%EC%A7%88-%EB%95%8C/</link>
+				<pubDate>Fri, 22 Oct 2010 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2010/10/Java-%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88%EC%97%90-Form-%EA%B0%92%EC%9D%98-encoding-%EA%B9%A8%EC%A7%88-%EB%95%8C/</guid>
+				<description>&lt;p&gt;점검사항은 아래 세가지.&lt;/p&gt;&#xA;&lt;ol&gt;&#xD;&#xA;&#x9;&lt;li&gt;폼에서 정확히 인코딩을 지정해서 넘겨주는가?&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;서버에서 정확히 인코딩을 인식하는가?&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;DB에서 정확히 인코딩을 인식하는가?&lt;/li&gt;&#xD;&#xA;&lt;/ol&gt;&#xD;&#xA;이다.&#xD;&#xA;&lt;ol&gt;&#x9;&lt;li&gt;폼에서 정확히 인코딩을 지정해서 념겨주는가?&#xD;&#xA;&lt;p&gt;이 경우는 일단 문서 첫머리에 meta태그가 utf-8으로 지정되어 있고, 폼에 accept-charset 어트리뷰트가 지정되어 있고, 브라우저에서 확인해서 문서가 utf-8으로 읽히는 상황이라면 문제 없다고 보면 된다. UTF-8으로 나와야 하는 페이지가 UTF-8으로 안나오는 경우는 여기서 다룰 게 아니다.&lt;/p&gt;&#xD;&#xA;&lt;code&gt;&#xD;&#xA;&amp;lt;meta http-equiv=&#34;Content-Type&#34; content=&#34;text/html; charset=UTF-8&#34; /&amp;gt;&#xD;&#xA;&amp;lt;meta charset=&#34;UTF-8&#34; /&amp;gt;&#xD;&#xA;&amp;lt;form accept-charset=&#34;UTF-8&#34; &amp;gt;&#xD;&#xA;&lt;/code&gt;&#xD;&#xA;&lt;/li&gt;&#x9;&lt;li&gt;서버에서 인코딩을 제대로 인식하는가?&#xD;&#xA;&lt;p&gt;경험상 대부분 문제는 여기서 발생한다. 특히 서버 관리자와 프로그래머가 독립적으로 있고, 서로 업무 연계가 힘든 상황이라면 더욱 문제다. 가능하면 인코딩을 서버 설정에 맞추자.&#xD;&#xA;java라면 아래와 같이 해결.&#xD;&#xA;&lt;code&gt;request.setCharacterSet(&#34;utf-8&#34;); &lt;/code&gt;&#xD;&#xA;php도 비슷한 게 있을 터다. 하지만 여기서는 문제를 못 봤으니까 빼고. 일단 대부분의 문제는 저걸로 해결될 거다.&#xD;&#xA;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>다른 프레임으로 폼 값 전송</title>
+				<link>https://ezaurum.com/2009/09/%EB%8B%A4%EB%A5%B8-%ED%94%84%EB%A0%88%EC%9E%84%EC%9C%BC%EB%A1%9C-%ED%8F%BC-%EA%B0%92-%EC%A0%84%EC%86%A1/</link>
+				<pubDate>Sat, 19 Sep 2009 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2009/09/%EB%8B%A4%EB%A5%B8-%ED%94%84%EB%A0%88%EC%9E%84%EC%9C%BC%EB%A1%9C-%ED%8F%BC-%EA%B0%92-%EC%A0%84%EC%86%A1/</guid>
+				<description>&lt;p&gt;자바스크립트 이용&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;window.open(&amp;ldquo;title&amp;rdquo;, &amp;ldquo;frameName&amp;rdquo;, &amp;ldquo;width=600, height=400, scrollbars=yes&amp;rdquo;);&#xA;document.form1.action = &amp;ldquo;action.php&amp;rdquo;;&#xA;document.form1.target = &amp;ldquo;frameName&amp;rdquo;;&#xA;document.form1.method = &amp;ldquo;post&amp;rdquo;;&#xA;document.form1.submit();&lt;/code&gt;&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

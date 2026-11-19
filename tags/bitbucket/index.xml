@@ -1,27 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Bitbucket on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/bitbucket/</link>
-    <description>Recent content in Bitbucket on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Sat, 04 Apr 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/bitbucket/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>bitbucket으로 정적 페이지 호스팅하기</title>
-      <link>https://ezaurum.com/2015/04/bitbucket%EC%9C%BC%EB%A1%9C-%EC%A0%95%EC%A0%81-%ED%8E%98%EC%9D%B4%EC%A7%80-%ED%98%B8%EC%8A%A4%ED%8C%85%ED%95%98%EA%B8%B0/</link>
-      <pubDate>Sat, 04 Apr 2015 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2015/04/bitbucket%EC%9C%BC%EB%A1%9C-%EC%A0%95%EC%A0%81-%ED%8E%98%EC%9D%B4%EC%A7%80-%ED%98%B8%EC%8A%A4%ED%8C%85%ED%95%98%EA%B8%B0/</guid>
-      <description>github에서 쉽게 사용할 수 있는 기능(참고 페이지)인데, bitbucket에서도 쓸 수 있다. 호스팅만 할 건데 따로 뭐 서비스 신청하기 뭣하고 해서&amp;hellip; 일단 공식 설명서가 있는데 필요한 부분만 발췌해서 간단히 한다.&#xA;일단 Bitbucket에 사용자이름.bitbucket.org 라는 이름으로 리포지토리를 만든다. 이 규칙을 꼭 지켜줘야 한다.&#xD;만든 페이지의 remote 저장소를 bitbucket으로 연결해준다. git remote add origin git@bitbucket:유저이름/유저이름.bitbucket.org.git&#xD;푸시하고 유저이름.bitbucket.org 으로 가서 확인&#xD;Bitbucket에서는 커스텀 도메인을 쓸 수 없다. 그냥 github를 쓰자.</description>
-    </item>
-    <item>
-      <title>이미 있는 도메인에 bitbucket 정적 페이지 연결하기</title>
-      <link>https://ezaurum.com/2015/04/%EC%9D%B4%EB%AF%B8-%EC%9E%88%EB%8A%94-%EB%8F%84%EB%A9%94%EC%9D%B8%EC%97%90-bitbucket-%EC%A0%95%EC%A0%81-%ED%8E%98%EC%9D%B4%EC%A7%80-%EC%97%B0%EA%B2%B0%ED%95%98%EA%B8%B0/</link>
-      <pubDate>Sat, 04 Apr 2015 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2015/04/%EC%9D%B4%EB%AF%B8-%EC%9E%88%EB%8A%94-%EB%8F%84%EB%A9%94%EC%9D%B8%EC%97%90-bitbucket-%EC%A0%95%EC%A0%81-%ED%8E%98%EC%9D%B4%EC%A7%80-%EC%97%B0%EA%B2%B0%ED%95%98%EA%B8%B0/</guid>
-      <description>이것도 github에서도 되는 기능이지만, 나는 bitbucket을 쓰고 있어서&amp;hellip; 공식 설명서&#xA;일단 DNS 서비스에서 해당 도메인의 CNAME을 사용자이름.bitbucket.org로 설정해준다.&#xD;bitbucket에서 오른쪽 위 모서리의 사용자 아바타를 클릭하면 계정관리 메뉴로 갈 수 있는데, 거기서 커스텀 도메인에 지정한 주소를 입력한다.&#xD;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Bitbucket on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/bitbucket/</link>
+		<description>Recent content in Bitbucket on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Sat, 04 Apr 2015 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/bitbucket/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>bitbucket으로 정적 페이지 호스팅하기</title>
+				<link>https://ezaurum.com/2015/04/bitbucket%EC%9C%BC%EB%A1%9C-%EC%A0%95%EC%A0%81-%ED%8E%98%EC%9D%B4%EC%A7%80-%ED%98%B8%EC%8A%A4%ED%8C%85%ED%95%98%EA%B8%B0/</link>
+				<pubDate>Sat, 04 Apr 2015 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2015/04/bitbucket%EC%9C%BC%EB%A1%9C-%EC%A0%95%EC%A0%81-%ED%8E%98%EC%9D%B4%EC%A7%80-%ED%98%B8%EC%8A%A4%ED%8C%85%ED%95%98%EA%B8%B0/</guid>
+				<description>&lt;p&gt;github에서 쉽게 사용할 수 있는 기능&lt;a href=&#34;http://dogfeet.github.io/articles/2012/github-pages.html&#34;&gt;(참고 페이지)&lt;/a&gt;인데, bitbucket에서도 쓸 수 있다.&#xA;호스팅만 할 건데 따로 뭐 서비스 신청하기 뭣하고 해서&amp;hellip;&#xA;일단 &lt;a href=&#34;https://confluence.atlassian.com/display/BITBUCKET/Publishing+a+Website+on+Bitbucket&#34;&gt;공식 설명서&lt;/a&gt;가 있는데 필요한 부분만 발췌해서 간단히 한다.&lt;/p&gt;&#xA;&lt;ol&gt;&#xD;&#xA;&#x9;&lt;li&gt;일단 Bitbucket에 사용자이름.bitbucket.org 라는 이름으로 리포지토리를 만든다. 이 규칙을 꼭 지켜줘야 한다.&lt;/li&gt;&#xD;&#xA;&lt;li&gt;만든 페이지의 remote 저장소를 bitbucket으로 연결해준다. &#xD;&#xA;&lt;code&gt;git remote add origin git@bitbucket:유저이름/유저이름.bitbucket.org.git&lt;/code&gt;&lt;/li&gt;&#xD;&#xA;&lt;li&gt;푸시하고 유저이름.bitbucket.org 으로 가서 확인&lt;/li&gt;&#xD;&#xA;&lt;/ol&gt;&#xD;&#xA;&lt;p&gt;&lt;a href=&#34;https://bitbucket.org/site/master/issue/2184/support-cnames-for-repositories-bb-3655&#34;&gt;Bitbucket에서는 커스텀 도메인을 쓸 수 없다&lt;/a&gt;. 그냥 github를 쓰자.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>이미 있는 도메인에 bitbucket 정적 페이지 연결하기</title>
+				<link>https://ezaurum.com/2015/04/%EC%9D%B4%EB%AF%B8-%EC%9E%88%EB%8A%94-%EB%8F%84%EB%A9%94%EC%9D%B8%EC%97%90-bitbucket-%EC%A0%95%EC%A0%81-%ED%8E%98%EC%9D%B4%EC%A7%80-%EC%97%B0%EA%B2%B0%ED%95%98%EA%B8%B0/</link>
+				<pubDate>Sat, 04 Apr 2015 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2015/04/%EC%9D%B4%EB%AF%B8-%EC%9E%88%EB%8A%94-%EB%8F%84%EB%A9%94%EC%9D%B8%EC%97%90-bitbucket-%EC%A0%95%EC%A0%81-%ED%8E%98%EC%9D%B4%EC%A7%80-%EC%97%B0%EA%B2%B0%ED%95%98%EA%B8%B0/</guid>
+				<description>&lt;p&gt;이것도 github에서도 되는 기능이지만, 나는 bitbucket을 쓰고 있어서&amp;hellip; &lt;a href=&#34;https://confluence.atlassian.com/display/BITBUCKET/Associate+an+existing+domain+with+an+account&#34;&gt;공식 설명서&lt;/a&gt;&lt;/p&gt;&#xA;&lt;ol&gt;&#xD;&#xA;&#x9;&lt;li&gt;일단 DNS 서비스에서 해당 도메인의 CNAME을 사용자이름.bitbucket.org로 설정해준다.&lt;/li&gt;&#xD;&#xA;&lt;li&gt;bitbucket에서 오른쪽 위 모서리의 사용자 아바타를 클릭하면 계정관리 메뉴로 갈 수 있는데, 거기서 커스텀 도메인에 지정한 주소를 입력한다.&lt;/li&gt;&#xD;&#xA;&lt;/ol&gt;</description>
+			</item>
+	</channel>
 </rss>

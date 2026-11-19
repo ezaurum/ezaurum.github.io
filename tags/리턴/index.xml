@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>리턴 on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/%EB%A6%AC%ED%84%B4/</link>
-    <description>Recent content in 리턴 on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Sat, 18 Aug 2007 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/%EB%A6%AC%ED%84%B4/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>리턴</title>
-      <link>https://ezaurum.com/2007/08/%EB%A6%AC%ED%84%B4/</link>
-      <pubDate>Sat, 18 Aug 2007 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2007/08/%EB%A6%AC%ED%84%B4/</guid>
-      <description>최면술이 나온 영화중에 제대로 된 게 없었다.&#xA;사실 최면술이 나오는 영화 중에 지금 기억 나는 건 오늘 본 리턴과 몇 년 전에 본H 정도겠다.&#xA;최면술이라는 게 어찌 보면 사람을 조종하는 반칙기-또는 최강기-라서 쓰면 스토리가 재밌기가 힘들다고 본다.&#xA;각본가-뭐든 이야기를만드 는 사람-입장에서 인물 행동의 일관성이나 개연성 등의 문제를 &amp;lsquo;사실은 조종당하고 있었다.&amp;lsquo;로 해결할 수 있는데 그걸 마구 안 쓰기는 힘든 일이고, 정신을 차려보면 스토리는 엉망이 되어 있을 것이다.&#xA;H는 그랬다.&#xA;다행히 리턴은 그렇지 않았다.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>리턴 on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/%EB%A6%AC%ED%84%B4/</link>
+		<description>Recent content in 리턴 on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Sat, 18 Aug 2007 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/%EB%A6%AC%ED%84%B4/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>리턴</title>
+				<link>https://ezaurum.com/2007/08/%EB%A6%AC%ED%84%B4/</link>
+				<pubDate>Sat, 18 Aug 2007 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2007/08/%EB%A6%AC%ED%84%B4/</guid>
+				<description>&lt;p&gt;최면술이 나온 영화중에 제대로 된 게 없었다.&lt;/p&gt;&#xA;&lt;p&gt;사실 최면술이 나오는 영화 중에 지금 기억 나는 건 오늘 본 &lt;a href=&#34;http://www.cine21.com/Movies/Mov_Movie/movie_detail.php?id=20120&#34;&gt;리턴&lt;/a&gt;과 몇 년 전에 본&lt;a href=&#34;http://movie.naver.com/movie/bi/mi/basic.nhn?code=33842&#34;&gt;H&lt;/a&gt; 정도겠다.&lt;/p&gt;&#xA;&lt;p&gt;최면술이라는 게 어찌 보면 사람을 조종하는 반칙기-또는 최강기-라서 쓰면 스토리가 재밌기가 힘들다고 본다.&lt;/p&gt;&#xA;&lt;p&gt;각본가-뭐든 이야기를만드 는 사람-입장에서 인물 행동의 일관성이나 개연성 등의 문제를 &amp;lsquo;사실은 조종당하고 있었다.&amp;lsquo;로 해결할 수 있는데 그걸 마구 안 쓰기는 힘든 일이고, 정신을 차려보면 스토리는 엉망이 되어 있을 것이다.&lt;/p&gt;&#xA;&lt;p&gt;H는 그랬다.&lt;/p&gt;&#xA;&lt;p&gt;다행히 리턴은 그렇지 않았다. 중간에 잠이 들까 걱정했던 H와는 달리, 스릴러라는 장르 이름에 충실하게, 영화 보는 내내 몸을 긴장하고 있어야 했다. 스토리가 칼같이 짜맞춰지고, 그 톱니가 돌아갈 때의 경탄이 나오거나 소름이 돋는 일은 없었지만.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

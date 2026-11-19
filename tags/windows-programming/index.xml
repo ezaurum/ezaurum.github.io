@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Windows Programming on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/windows-programming/</link>
-    <description>Recent content in Windows Programming on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Fri, 05 Dec 2014 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/windows-programming/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Cross-thread operation not valid 해결</title>
-      <link>https://ezaurum.com/2014/12/Cross-thread-operation-not-valid-%ED%95%B4%EA%B2%B0/</link>
-      <pubDate>Fri, 05 Dec 2014 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2014/12/Cross-thread-operation-not-valid-%ED%95%B4%EA%B2%B0/</guid>
-      <description>출처 - 스택오버플로우 private void OnAction(string v) { richTextBox1.AppendText(v + Environment.NewLine); richTextBox1.ScrollToCaret(); }&#xA;public void AddText(string value) { richTextBox1.Invoke((Action) OnAction, value); } 기본적으로 invoke를 이용하면 해당 문제를 막을 수 있음.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Windows Programming on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/windows-programming/</link>
+		<description>Recent content in Windows Programming on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Fri, 05 Dec 2014 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/windows-programming/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Cross-thread operation not valid 해결</title>
+				<link>https://ezaurum.com/2014/12/Cross-thread-operation-not-valid-%ED%95%B4%EA%B2%B0/</link>
+				<pubDate>Fri, 05 Dec 2014 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2014/12/Cross-thread-operation-not-valid-%ED%95%B4%EA%B2%B0/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;http://stackoverflow.com/questions/8738767/backgroundworker-cross-thread-operation-not-valid&#34;&gt;출처 - 스택오버플로우&lt;/a&gt;&#xA;&lt;code&gt;&#xA;private void OnAction(string v)&#xA;{&#xA;richTextBox1.AppendText(v + Environment.NewLine);&#xA;richTextBox1.ScrollToCaret();&#xA;}&lt;/p&gt;&#xA;&lt;p&gt;public void AddText(string value)&#xA;{&#xA;richTextBox1.Invoke((Action) OnAction, value);&#xA;}&#xA;&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;기본적으로 invoke를 이용하면 해당 문제를 막을 수 있음.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

@@ -1,25 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Image on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/image/</link>
-    <description>Recent content in Image on Ezaurum&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Fri, 05 Oct 2007 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://ezaurum.com/tags/image/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>현재 상태</title>
-      <link>https://ezaurum.com/2007/10/%ED%98%84%EC%9E%AC-%EC%83%81%ED%83%9C/</link>
-      <pubDate>Fri, 05 Oct 2007 00:00:00 +0000</pubDate>
-      
-      <guid>https://ezaurum.com/2007/10/%ED%98%84%EC%9E%AC-%EC%83%81%ED%83%9C/</guid>
-      <description></description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>Image on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/Image/</link>
+		<description>Recent content in Image on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Fri, 05 Oct 2007 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/Image/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>현재 상태</title>
+				<link>https://ezaurum.com/2007/10/%ED%98%84%EC%9E%AC-%EC%83%81%ED%83%9C/</link>
+				<pubDate>Fri, 05 Oct 2007 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2007/10/%ED%98%84%EC%9E%AC-%EC%83%81%ED%83%9C/</guid>
+				<description>&lt;img src=&#39;https://ezaurum.com/wordpress/wp-content/uploads/2007/10/head2wall.gif&#39; alt=&#39;벽에 머리 비비기&#39; /&gt;</description>
+			</item>
+	</channel>
 </rss>

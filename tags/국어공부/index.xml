@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>국어공부 on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/%EA%B5%AD%EC%96%B4%EA%B3%B5%EB%B6%80/</link>
-    <description>Recent content in 국어공부 on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Fri, 06 Feb 2009 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/%EA%B5%AD%EC%96%B4%EA%B3%B5%EB%B6%80/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>한국어의 시제·상·양태</title>
-      <link>https://ezaurum.com/2009/02/%ED%95%9C%EA%B5%AD%EC%96%B4%EC%9D%98-%EC%8B%9C%EC%A0%9C%EC%83%81%EC%96%91%ED%83%9C/</link>
-      <pubDate>Fri, 06 Feb 2009 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2009/02/%ED%95%9C%EA%B5%AD%EC%96%B4%EC%9D%98-%EC%8B%9C%EC%A0%9C%EC%83%81%EC%96%91%ED%83%9C/</guid>
-      <description>http://www.docin.com/DocinViewer-122584-144.swf&#xA;첨부된 문서를 찾은 곳은 DOC in 이란 서비스. 일본이나 중국 계열 같은데, 쓸만 할까나. 지금은 좀 불안한 듯 보인다. flash, AJAX, 등등&amp;hellip; 요즘은 완전히 새로운 플랫폼이나 기술보다는 이미 있는 것의 수정·보완·새로운 활용 등이 대세인 듯. 나는 나를 재활용할 수 있을까.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>국어공부 on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/%EA%B5%AD%EC%96%B4%EA%B3%B5%EB%B6%80/</link>
+		<description>Recent content in 국어공부 on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Fri, 06 Feb 2009 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/%EA%B5%AD%EC%96%B4%EA%B3%B5%EB%B6%80/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>한국어의 시제·상·양태</title>
+				<link>https://ezaurum.com/2009/02/%ED%95%9C%EA%B5%AD%EC%96%B4%EC%9D%98-%EC%8B%9C%EC%A0%9C%EC%83%81%EC%96%91%ED%83%9C/</link>
+				<pubDate>Fri, 06 Feb 2009 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2009/02/%ED%95%9C%EA%B5%AD%EC%96%B4%EC%9D%98-%EC%8B%9C%EC%A0%9C%EC%83%81%EC%96%91%ED%83%9C/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;http://www.docin.com/DocinViewer-122584-144.swf&#34;&gt;&lt;a href=&#34;http://www.docin.com/DocinViewer-122584-144.swf&#34;&gt;http://www.docin.com/DocinViewer-122584-144.swf&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;첨부된 문서를 찾은 곳은 DOC in 이란 서비스. 일본이나 중국 계열 같은데, 쓸만 할까나. 지금은 좀 불안한 듯 보인다.&#xA;flash,  AJAX, 등등&amp;hellip; 요즘은 완전히 새로운 플랫폼이나 기술보다는 이미 있는 것의 수정·보완·새로운 활용 등이 대세인 듯.&#xA;나는 나를 재활용할 수 있을까.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

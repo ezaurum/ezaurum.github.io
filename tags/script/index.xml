@@ -1,27 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Script on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/script/</link>
-    <description>Recent content in Script on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Thu, 02 May 2013 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/script/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>bash 셀에서 변수 사용</title>
-      <link>https://ezaurum.com/2013/05/bash-%EC%85%80%EC%97%90%EC%84%9C-%EB%B3%80%EC%88%98-%EC%82%AC%EC%9A%A9/</link>
-      <pubDate>Thu, 02 May 2013 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2013/05/bash-%EC%85%80%EC%97%90%EC%84%9C-%EB%B3%80%EC%88%98-%EC%82%AC%EC%9A%A9/</guid>
-      <description>&#xD;#!/bin/sh -e&#xD;TODAY=`date -u +%Y%m%d`&#xD;REDIS_HOME=&#34;/usr/redis-2.6.13/src&#34;&#xD;fileName=&#34;redis-&#34;$TODAY&#34;.log&#34;&#xD;$REDIS_HOME/redis-server &amp;gt;&amp;gt; $REDIS_HOME/$fileName &amp;amp;&#xD;보시다시피 그냥 변수이름=값 해주면 쓸 수 있고, $를 붙이면 값을 받아오고, 문자열과는 붙여놓으면 자동으로 달라붙는다.&#xD;</description>
-    </item>
-    <item>
-      <title>리눅스 민트에서 시작 스크립트 넣기</title>
-      <link>https://ezaurum.com/2013/05/%EB%A6%AC%EB%88%85%EC%8A%A4-%EB%AF%BC%ED%8A%B8%EC%97%90%EC%84%9C-%EC%8B%9C%EC%9E%91-%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EB%84%A3%EA%B8%B0/</link>
-      <pubDate>Thu, 02 May 2013 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2013/05/%EB%A6%AC%EB%88%85%EC%8A%A4-%EB%AF%BC%ED%8A%B8%EC%97%90%EC%84%9C-%EC%8B%9C%EC%9E%91-%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EB%84%A3%EA%B8%B0/</guid>
-      <description>/etc/rc.local 을 수정하면 된다. rc.local은 root권한으로 실행되므로, 안에 sudo를 붙일 필요는 없다.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Script on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/script/</link>
+		<description>Recent content in Script on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Thu, 02 May 2013 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/script/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>bash 셀에서 변수 사용</title>
+				<link>https://ezaurum.com/2013/05/bash-%EC%85%80%EC%97%90%EC%84%9C-%EB%B3%80%EC%88%98-%EC%82%AC%EC%9A%A9/</link>
+				<pubDate>Thu, 02 May 2013 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2013/05/bash-%EC%85%80%EC%97%90%EC%84%9C-%EB%B3%80%EC%88%98-%EC%82%AC%EC%9A%A9/</guid>
+				<description>&lt;code&gt;&#xD;&#xA;#!/bin/sh -e&#xD;&#xA;TODAY=`date -u +%Y%m%d`&#xD;&#xA;REDIS_HOME=&#34;/usr/redis-2.6.13/src&#34;&#xD;&#xA;fileName=&#34;redis-&#34;$TODAY&#34;.log&#34;&#xD;&#xA;$REDIS_HOME/redis-server &amp;gt;&amp;gt; $REDIS_HOME/$fileName &amp;amp;&#xD;&#xA;&lt;/code&gt;&#xD;&#xA;보시다시피 그냥 변수이름=값 해주면 쓸 수 있고, $를 붙이면 값을 받아오고, 문자열과는 붙여놓으면 자동으로 달라붙는다.</description>
+			</item>
+			<item>
+				<title>리눅스 민트에서 시작 스크립트 넣기</title>
+				<link>https://ezaurum.com/2013/05/%EB%A6%AC%EB%88%85%EC%8A%A4-%EB%AF%BC%ED%8A%B8%EC%97%90%EC%84%9C-%EC%8B%9C%EC%9E%91-%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EB%84%A3%EA%B8%B0/</link>
+				<pubDate>Thu, 02 May 2013 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2013/05/%EB%A6%AC%EB%88%85%EC%8A%A4-%EB%AF%BC%ED%8A%B8%EC%97%90%EC%84%9C-%EC%8B%9C%EC%9E%91-%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EB%84%A3%EA%B8%B0/</guid>
+				<description>&lt;p&gt;/etc/rc.local 을 수정하면 된다.&#xA;rc.local은 root권한으로 실행되므로, 안에 sudo를 붙일 필요는 없다.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

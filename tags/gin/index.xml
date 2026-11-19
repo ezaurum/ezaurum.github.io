@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Gin on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/gin/</link>
-    <description>Recent content in Gin on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Sat, 16 Dec 2017 18:01:25 +0700</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/gin/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Go Web Server</title>
-      <link>https://ezaurum.com/2017/12/Go-Web-Server/</link>
-      <pubDate>Sat, 16 Dec 2017 18:01:25 +0700</pubDate>
-      <guid>https://ezaurum.com/2017/12/Go-Web-Server/</guid>
-      <description>Go는 기본적으로 web서버를 쉽게 만들 수 있게 되어 있다.&#xA;그래도 막상 하려고 하면 자잘하게 할 게 많아서 추가 라이브러리나 프레임워크가 필요하게 된다.&#xA;개중 쓸 만한 것이 gin이라, 소개 겸, 헬로 월드를 찍어봤다.&#xA;Github 저장소에도 하나씩 올릴 예정.&#xA;하는 김에 동영상도 찍어봤다</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Gin on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/gin/</link>
+		<description>Recent content in Gin on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Sat, 16 Dec 2017 18:01:25 +0700</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/gin/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Go Web Server</title>
+				<link>https://ezaurum.com/2017/12/Go-Web-Server/</link>
+				<pubDate>Sat, 16 Dec 2017 18:01:25 +0700</pubDate>
+				<guid>https://ezaurum.com/2017/12/Go-Web-Server/</guid>
+				<description>&lt;p&gt;Go는 기본적으로 web서버를 쉽게 만들 수 있게 되어 있다.&lt;/p&gt;&#xA;&lt;p&gt;그래도 막상 하려고 하면 자잘하게 할 게 많아서 추가 라이브러리나 프레임워크가 필요하게 된다.&lt;/p&gt;&#xA;&lt;p&gt;개중 쓸 만한 것이 &lt;a href=&#34;https://github.com/gin-gonic/gin&#34;&gt;gin&lt;/a&gt;이라, 소개 겸, 헬로 월드를 찍어봤다.&lt;/p&gt;&#xA;&lt;script src=&#34;https://gist.github.com/ezaurum/5b4803114d915f907722c98bf82f4241.js&#34;&gt;&lt;/script&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/ezaurum/go-lectures/tree/master/web-hello&#34;&gt;Github 저장소&lt;/a&gt;에도 하나씩 올릴 예정.&lt;/p&gt;&#xA;&lt;p&gt;하는 김에 동영상도 찍어봤다&lt;/p&gt;&#xA;&lt;iframe width=&#34;640&#34; height=&#34;360&#34; src=&#34;https://www.youtube.com/embed/A46Mt3MYOC4&#34; frameborder=&#34;0&#34; gesture=&#34;media&#34; allow=&#34;encrypted-media&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
+			</item>
+	</channel>
 </rss>

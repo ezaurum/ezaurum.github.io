@@ -1,25 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Visual Studio on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/visual-studio/</link>
-    <description>Recent content in Visual Studio on Ezaurum&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Tue, 30 Apr 2013 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://ezaurum.com/tags/visual-studio/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Unity3D 3.x 대에서 Visual Studio 연동</title>
-      <link>https://ezaurum.com/2013/04/Unity3D-3.x-%EB%8C%80%EC%97%90%EC%84%9C-Visual-Studio-%EC%97%B0%EB%8F%99/</link>
-      <pubDate>Tue, 30 Apr 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://ezaurum.com/2013/04/Unity3D-3.x-%EB%8C%80%EC%97%90%EC%84%9C-Visual-Studio-%EC%97%B0%EB%8F%99/</guid>
-      <description>Edit -&amp;gt; Preferences -&amp;gt; External Script Editor 에서 Browser를 해서 Visual Studio 실행파일을 선택. 이후에 Assets-&amp;gt;Sync Mono &amp;hellip; 를 하면 Visual Studio가 실행된다.</description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>Visual Studio on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/Visual-Studio/</link>
+		<description>Recent content in Visual Studio on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Tue, 30 Apr 2013 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/Visual-Studio/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Unity3D 3.x 대에서 Visual Studio 연동</title>
+				<link>https://ezaurum.com/2013/04/Unity3D-3.x-%EB%8C%80%EC%97%90%EC%84%9C-Visual-Studio-%EC%97%B0%EB%8F%99/</link>
+				<pubDate>Tue, 30 Apr 2013 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2013/04/Unity3D-3.x-%EB%8C%80%EC%97%90%EC%84%9C-Visual-Studio-%EC%97%B0%EB%8F%99/</guid>
+				<description>&lt;p&gt;Edit -&amp;gt; Preferences -&amp;gt; External Script Editor 에서 Browser를 해서 Visual Studio 실행파일을 선택.&#xA;이후에 Assets-&amp;gt;Sync Mono &amp;hellip; 를 하면 Visual Studio가 실행된다.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

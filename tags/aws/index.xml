@@ -1,83 +1,89 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Aws on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/aws/</link>
-    <description>Recent content in Aws on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Wed, 25 Mar 2020 09:44:59 +0900</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/aws/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>CLI로 클라우드 와치 로그 보기</title>
-      <link>https://ezaurum.com/2020/03/CLI%EB%A1%9C-%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C-%EC%99%80%EC%B9%98-%EB%A1%9C%EA%B7%B8-%EB%B3%B4%EA%B8%B0/</link>
-      <pubDate>Wed, 25 Mar 2020 09:44:59 +0900</pubDate>
-      <guid>https://ezaurum.com/2020/03/CLI%EB%A1%9C-%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C-%EC%99%80%EC%B9%98-%EB%A1%9C%EA%B7%B8-%EB%B3%B4%EA%B8%B0/</guid>
-      <description>목적 aws cli 로 cloudwatch 로그 보기 방법(윈도에서 awslogs가 안 먹을때)&#xA;로그 그룹 이름으로 로그 스트림들을 얻어온다 aws logs describe-log-streams --log-group-name /log/group/name 받아온 JSON에서 logStreamName 을 찾아 필요한 log stream name 을 알아낸다. 찾은 log stream 으로 로그를 얻어온다. aws logs get-log-events --output text --log-group-name /log/group/name --log-stream-name 2019/10/01/[$LATEST]hash </description>
-    </item>
-    <item>
-      <title>클라우드 프론트에 웹사이트 배포</title>
-      <link>https://ezaurum.com/2019/06/%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C-%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%90-%EC%9B%B9%EC%82%AC%EC%9D%B4%ED%8A%B8-%EB%B0%B0%ED%8F%AC/</link>
-      <pubDate>Fri, 21 Jun 2019 09:44:59 +0900</pubDate>
-      <guid>https://ezaurum.com/2019/06/%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C-%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%90-%EC%9B%B9%EC%82%AC%EC%9D%B4%ED%8A%B8-%EB%B0%B0%ED%8F%AC/</guid>
-      <description>목적 클라우드 프론트에서 웹사이트 호스팅&#xA;S3 생성 권한 등은 건드릴 필요 없음 클라우드 프론트 생성 만들면서 권한 role, 생성, policy 업데이트 커스텀 도메인을 써야 하면 미리 인증서 생성. 인증서는 미국동부쪽에 생성- 클라우드 프론트에서는 여기서 지정한 것만 쓸 수 있음 CNAME에 커스텀 도메인 이름 써주기 behavior에서 DefaultObject 써주기 index.html으로. 하지 않으면 루트 접근시 403 에러 남. 설정에서 defaultRoot도 index파일 로 써주기 적절하게 404,403 리다이렉트. VUE나 PWA 를 쓸 때 Troubleshoot 클라우드 프론트에서 307이 리턴되고 S3파일로 리다이렉트 될 때 - S3가 us-east-1 이 아닌경우, 이름이 전파되는 데 최대 24시간 걸릴 수 있다.</description>
-    </item>
-    <item>
-      <title>CloudFront에서 웹사이트 연동을 위해 S3의 파일을 불러올 때 Access Denied가 날 때</title>
-      <link>https://ezaurum.com/bug/cloud-front-access-denied/</link>
-      <pubDate>Thu, 20 Jun 2019 22:31:05 +0900</pubDate>
-      <guid>https://ezaurum.com/bug/cloud-front-access-denied/</guid>
-      <description>문제 상황 CloudFront 를 웹사이트로 쓰기로 하고 S3의 파일을 연동했는데 메인 화면에서 AccessDenied가 뜸 읽기 권한은 있는 상태&#xA;문제 원인 CloudFront의 ᅟDefaultObject가 지정되지 않았다. 목록을 읽어오는 권한은 없으니 AccessDenied가 뜬 것&#xA;재발 방지를 위해 가끔 하는 작업은 진행 순서표 등을 이용해서 보고 따라한다. 작업을 하면 진행 순서표를 만든다. </description>
-    </item>
-    <item>
-      <title>too many connection</title>
-      <link>https://ezaurum.com/bug/too-many-connections/</link>
-      <pubDate>Thu, 20 Jun 2019 22:31:05 +0900</pubDate>
-      <guid>https://ezaurum.com/bug/too-many-connections/</guid>
-      <description>현상 일정 시간마다 ajax로 내용을 리프레시 해 주는 게시판에서 사용자 200여명이 넘어가자 DB엑세스 시 too many connection이 발생하고 연결을 하지 못하는 현상 발생&#xA;DB, API 서버의 cpu/mem 부하는 20% 전후인 상태&#xA;리셋 등으로 해결이 안 되고, 도커 컨테이너 늘려서도 해결이 안 됨&#xA;지속되는 경우 리퀘스트도 쌓이고 file open max 값이 넘어가서 사용 불가&#xA;원인 DB 처리량보다 부하 심함 IO 부분이 보틀넥으로 보임 도커 인스턴스가 값싼 거고 DB도 값싼 인스턴스 커넥션이 늘어남 실제 DB 커넥션이 45개 전후 RDS에서 가장 작은 인스턴스를 사용했는데 전체 DB 메모리 양과 CPU 사용량을 가지고 연결수 계산 도커 컨테이너의 Max Connection은 50 이전 네이버에서 직접 배포 때 잡은 설정 그대로 RDS 인스턴스가 여러 개 일 때는 괜찮았음 제일 작은 걸로 바꾸고 인스턴스도 줄여둔 상태 이미 늘어난 컨넥션은 없어지지 않고 CPU 사용량은 그리 많지 않음 재현 봇을 만들어서 로그인, 화면 리프레시를 하게 하니 100명 전후가 몰려서 접근시 문제 발생</description>
-    </item>
-    <item>
-      <title>배포 이후 변경이 안 되는 문제</title>
-      <link>https://ezaurum.com/bug/deploy-bug-not-changed/</link>
-      <pubDate>Sat, 27 Apr 2019 11:38:00 +0900</pubDate>
-      <guid>https://ezaurum.com/bug/deploy-bug-not-changed/</guid>
-      <description>문제 상황 - 버그를 고치고 배포했는데 고쳐지지 않았다&#xA;문제 원인 - ECS에서 배포하면서 Task에서 docker 버전을 지정하고 안 바꿨다&#xA;재발 방지를 위해 - 한 번 해서 안 되면 한 단계 더 들어가서 원인을 찾자</description>
-    </item>
-    <item>
-      <title>AWS RDS time_zone 셋팅</title>
-      <link>https://ezaurum.com/2014/12/AWS-RDS-time_zone-%EC%85%8B%ED%8C%85/</link>
-      <pubDate>Wed, 24 Dec 2014 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2014/12/AWS-RDS-time_zone-%EC%85%8B%ED%8C%85/</guid>
-      <description>AWS RDS는 default_time_zone을 바꿀 수 없다. 그래서 각 연결마다 time_zone을 새로 셋팅해 주는 편법을 쓰는데, 모든 연결에 SET time_zone = &amp;lsquo;Asia/Seoul&amp;rsquo;;을 설정하는 방법으로 같은 효과를 볼 수 있다. 그러기 위해서는 init_connect에다가 값을 넣어주면 된다.&#xA;참고 링크</description>
-    </item>
-    <item>
-      <title>AWS ec2 open-jdk7으로 업그레이드</title>
-      <link>https://ezaurum.com/2013/05/AWS-ec2-open-jdk7%EC%9C%BC%EB%A1%9C-%EC%97%85%EA%B7%B8%EB%A0%88%EC%9D%B4%EB%93%9C/</link>
-      <pubDate>Wed, 08 May 2013 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2013/05/AWS-ec2-open-jdk7%EC%9C%BC%EB%A1%9C-%EC%97%85%EA%B7%B8%EB%A0%88%EC%9D%B4%EB%93%9C/</guid>
-      <description>일단 open jdk 7 을 설치한다. sudo yum install java-1.7.0-openjdk 그 다음 java에 걸려 있는 심볼릭 링크를 바꿔줘야 하는데, /usr/bin/java -&amp;gt; /etc/alternatives/java -&amp;gt; -&amp;gt; /usr/lib/jvm/(현재 jre)/bin/java 이렇게 되어 있으므로, sudo ln -s /usr/lib/jvm/jre-1.7.0-openjdk.x86_64/bin/java /etc/alternatives/java7 sudo mv /etc/alternatives/java7 /etc/alternatives/java 을 실행해서 심볼릭 링크를 바꿔준다. 지우고 다시 걸어도 되지만, 일단 지우고 거는 사이에 전 링크가 끊어지므로 가능한 영향을 적게 하기 위해서&amp;hellip;&#xA;ln -s /location/to/link2 newlink mv newlink linkname</description>
-    </item>
-    <item>
-      <title>AWS RDS 인코딩 UTF-8으로 설정</title>
-      <link>https://ezaurum.com/2013/04/AWS-RDS-%EC%9D%B8%EC%BD%94%EB%94%A9-UTF-8%EC%9C%BC%EB%A1%9C-%EC%84%A4%EC%A0%95/</link>
-      <pubDate>Tue, 30 Apr 2013 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2013/04/AWS-RDS-%EC%9D%B8%EC%BD%94%EB%94%A9-UTF-8%EC%9C%BC%EB%A1%9C-%EC%84%A4%EC%A0%95/</guid>
-      <description>파라마터를 바꾼 다음, DB인스턴스를 리셋해야 한다. 있던 걸 자동으로 바꿔주는 건 아니다. 이미 있는 데이터는 뺀 다음 다시 넣든지 해야 할 듯. 지금은 데이터가 없는 상태라 새로 만들기만 함. 참고링크 일단 파라마터 그룹을 하나 만든다. 변경해야 할 것은 다음과 같다. character_set_client = utf8 character_set_connection = utf8 character_set_database = utf8 character_set_results = utf8 character_set_server = utf8 collation_connection = utf8_general_ci collation_server = utf8_general_ci 파라마터 그룹을 이걸로 바꾸고, 리셋을 해 준다. 그러면 그 다음부터 들어가는 값은 UTF-8으로 들어가게 된다.</description>
-    </item>
-    <item>
-      <title>부정기 정리</title>
-      <link>https://ezaurum.com/2013/01/%EB%B6%80%EC%A0%95%EA%B8%B0-%EC%A0%95%EB%A6%AC/</link>
-      <pubDate>Sun, 27 Jan 2013 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2013/01/%EB%B6%80%EC%A0%95%EA%B8%B0-%EC%A0%95%EB%A6%AC/</guid>
-      <description>모든 것에 의미있는 히스토리가 있어야 한다.&#xD;log, history 들은 AOP로 구현해야 한다.&#xD;필연적으로 데이터가 많아지므로 async&amp;amp;big data를 고려.&#xD;사용하는 객체는 UUID 류의 인덱스가 붙어 있는 게 편하다. 그러잖으면 검색이 계속 일어나야 함. hash든 뭐든 즉시 찾을 수 있게 하자.&#xD;JSON-object 변환시, 상황에 따라 내부 object를 다 변환할지 id만 뽑아올지를 생각해보자.&#xD;AWS S3에서 파일이 없어도 403이 뜬다. 보안상 당연한가...&#xD;switch 문에 케이스가 줄줄 붙어 있으면 제거해 보자.&#xD;요구 사항 명세, 문서와 테스트 케이스가 같으면 좋다.</description>
-    </item>
-    <item>
-      <title>호스팅 아마존으로 이전</title>
-      <link>https://ezaurum.com/2012/09/%ED%98%B8%EC%8A%A4%ED%8C%85-%EC%95%84%EB%A7%88%EC%A1%B4%EC%9C%BC%EB%A1%9C-%EC%9D%B4%EC%A0%84/</link>
-      <pubDate>Sat, 08 Sep 2012 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2012/09/%ED%98%B8%EC%8A%A4%ED%8C%85-%EC%95%84%EB%A7%88%EC%A1%B4%EC%9C%BC%EB%A1%9C-%EC%9D%B4%EC%A0%84/</guid>
-      <description>내년에는 돈을 내야 하니까 또 옮겨갈지는 모르겠지만&amp;hellip;.&#xA;여튼 일단은 여기로 왔음. 암 것도 안 했는데 뭔가 많이 바뀐 느낌인데 이상하게&amp;hellip;.&#xA;자꾸 404가 떠서 고생했는데 이 링크 에서 mod_rewite를 켜는 방법을 보고 해결&amp;hellip; OTL&amp;hellip; 한글 문제인줄 알고 계속 삽질.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Aws on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/aws/</link>
+		<description>Recent content in Aws on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Wed, 25 Mar 2020 09:44:59 +0900</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/aws/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>CLI로 클라우드 와치 로그 보기</title>
+				<link>https://ezaurum.com/2020/03/CLI%EB%A1%9C-%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C-%EC%99%80%EC%B9%98-%EB%A1%9C%EA%B7%B8-%EB%B3%B4%EA%B8%B0/</link>
+				<pubDate>Wed, 25 Mar 2020 09:44:59 +0900</pubDate>
+				<guid>https://ezaurum.com/2020/03/CLI%EB%A1%9C-%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C-%EC%99%80%EC%B9%98-%EB%A1%9C%EA%B7%B8-%EB%B3%B4%EA%B8%B0/</guid>
+				<description>&lt;h3 id=&#34;목적&#34;&gt;목적&lt;/h3&gt;&#xA;&lt;p&gt;aws cli 로 cloudwatch 로그 보기 방법(윈도에서 awslogs가 안 먹을때)&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;로그 그룹 이름으로 로그 스트림들을 얻어온다 &lt;code&gt;aws logs describe-log-streams --log-group-name /log/group/name&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;받아온 JSON에서 logStreamName 을 찾아 필요한 log stream name 을 알아낸다.&lt;/li&gt;&#xA;&lt;li&gt;찾은 log stream 으로 로그를 얻어온다. &lt;code&gt;aws logs get-log-events --output text --log-group-name /log/group/name --log-stream-name 2019/10/01/[$LATEST]hash&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+			</item>
+			<item>
+				<title>클라우드 프론트에 웹사이트 배포</title>
+				<link>https://ezaurum.com/2019/06/%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C-%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%90-%EC%9B%B9%EC%82%AC%EC%9D%B4%ED%8A%B8-%EB%B0%B0%ED%8F%AC/</link>
+				<pubDate>Fri, 21 Jun 2019 09:44:59 +0900</pubDate>
+				<guid>https://ezaurum.com/2019/06/%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C-%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%90-%EC%9B%B9%EC%82%AC%EC%9D%B4%ED%8A%B8-%EB%B0%B0%ED%8F%AC/</guid>
+				<description>&lt;h3 id=&#34;목적&#34;&gt;목적&lt;/h3&gt;&#xA;&lt;p&gt;클라우드 프론트에서 웹사이트 호스팅&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;S3 생성&#xA;권한 등은 건드릴 필요 없음&lt;/li&gt;&#xA;&lt;li&gt;클라우드 프론트 생성&#xA;&lt;ol&gt;&#xA;&lt;li&gt;만들면서 권한 role, 생성, policy 업데이트&lt;/li&gt;&#xA;&lt;li&gt;커스텀 도메인을 써야 하면 미리 인증서 생성.&lt;/li&gt;&#xA;&lt;li&gt;인증서는 미국동부쪽에 생성- 클라우드 프론트에서는 여기서 지정한 것만 쓸 수 있음&lt;/li&gt;&#xA;&lt;li&gt;CNAME에 커스텀 도메인 이름 써주기&lt;/li&gt;&#xA;&lt;li&gt;behavior에서 DefaultObject 써주기 index.html으로. 하지 않으면 루트 접근시 403 에러 남.&lt;/li&gt;&#xA;&lt;li&gt;설정에서 defaultRoot도 index파일 로 써주기&lt;/li&gt;&#xA;&lt;li&gt;적절하게 404,403 리다이렉트. VUE나 PWA 를 쓸 때&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;troubleshoot&#34;&gt;Troubleshoot&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;클라우드 프론트에서 307이 리턴되고 S3파일로 리다이렉트 될 때 - S3가 us-east-1 이 아닌경우, 이름이 전파되는 데 최대 24시간 걸릴 수 있다. 이름이 전파되지 않아서 일어나는 현상이므로 기다리면 된다.&#xA;&lt;a href=&#34;https://aws.amazon.com/ko/premiumsupport/knowledge-center/s3-http-307-response/&#34;&gt;아마존 문서&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+			</item>
+			<item>
+				<title>CloudFront에서 웹사이트 연동을 위해 S3의 파일을 불러올 때 Access Denied가 날 때</title>
+				<link>https://ezaurum.com/bug/cloud-front-access-denied/</link>
+				<pubDate>Thu, 20 Jun 2019 22:31:05 +0900</pubDate>
+				<guid>https://ezaurum.com/bug/cloud-front-access-denied/</guid>
+				<description>&lt;h2 id=&#34;문제-상황&#34;&gt;문제 상황&lt;/h2&gt;&#xA;&lt;p&gt;CloudFront 를 웹사이트로 쓰기로 하고 S3의 파일을 연동했는데 메인 화면에서 AccessDenied가 뜸&#xA;읽기 권한은 있는 상태&lt;/p&gt;&#xA;&lt;h2 id=&#34;문제-원인&#34;&gt;문제 원인&lt;/h2&gt;&#xA;&lt;p&gt;CloudFront의 ᅟDefaultObject가 지정되지 않았다.&#xA;목록을 읽어오는 권한은 없으니 AccessDenied가 뜬 것&lt;/p&gt;&#xA;&lt;h2 id=&#34;재발-방지를-위해&#34;&gt;재발 방지를 위해&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;가끔 하는 작업은 진행 순서표 등을 이용해서 보고 따라한다.&lt;/li&gt;&#xA;&lt;li&gt;작업을 하면 진행 순서표를 만든다.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+			</item>
+			<item>
+				<title>too many connection</title>
+				<link>https://ezaurum.com/bug/too-many-connections/</link>
+				<pubDate>Thu, 20 Jun 2019 22:31:05 +0900</pubDate>
+				<guid>https://ezaurum.com/bug/too-many-connections/</guid>
+				<description>&lt;h1 id=&#34;현상&#34;&gt;현상&lt;/h1&gt;&#xA;&lt;p&gt;일정 시간마다 ajax로 내용을 리프레시 해 주는 게시판에서 사용자 200여명이 넘어가자 DB엑세스 시 too many connection이 발생하고 연결을 하지 못하는 현상 발생&lt;/p&gt;&#xA;&lt;p&gt;DB, API 서버의 cpu/mem 부하는 20% 전후인 상태&lt;/p&gt;&#xA;&lt;p&gt;리셋 등으로 해결이 안 되고, 도커 컨테이너 늘려서도 해결이 안 됨&lt;/p&gt;&#xA;&lt;p&gt;지속되는 경우 리퀘스트도 쌓이고 file open max 값이 넘어가서 사용 불가&lt;/p&gt;&#xA;&lt;h1 id=&#34;원인&#34;&gt;원인&lt;/h1&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;DB 처리량보다 부하 심함&#xA;&lt;ol&gt;&#xA;&lt;li&gt;IO 부분이 보틀넥으로 보임&lt;/li&gt;&#xA;&lt;li&gt;도커 인스턴스가 값싼 거고 DB도 값싼 인스턴스&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;커넥션이 늘어남&lt;/li&gt;&#xA;&lt;li&gt;실제 DB 커넥션이 45개 전후&#xA;&lt;ol&gt;&#xA;&lt;li&gt;RDS에서 가장 작은 인스턴스를 사용했는데 전체 DB 메모리 양과 CPU 사용량을 가지고 연결수 계산&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;도커 컨테이너의 Max Connection은 50&#xA;&lt;ol&gt;&#xA;&lt;li&gt;이전 네이버에서 직접 배포 때 잡은 설정 그대로&lt;/li&gt;&#xA;&lt;li&gt;RDS 인스턴스가 여러 개 일 때는 괜찮았음&lt;/li&gt;&#xA;&lt;li&gt;제일 작은 걸로 바꾸고 인스턴스도 줄여둔 상태&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;이미 늘어난 컨넥션은 없어지지 않고 CPU 사용량은 그리 많지 않음&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h1 id=&#34;재현&#34;&gt;재현&lt;/h1&gt;&#xA;&lt;p&gt;봇을 만들어서 로그인, 화면 리프레시를 하게 하니 100명 전후가 몰려서 접근시 문제 발생&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>배포 이후 변경이 안 되는 문제</title>
+				<link>https://ezaurum.com/bug/deploy-bug-not-changed/</link>
+				<pubDate>Sat, 27 Apr 2019 11:38:00 +0900</pubDate>
+				<guid>https://ezaurum.com/bug/deploy-bug-not-changed/</guid>
+				<description>&lt;p&gt;문제 상황 - 버그를 고치고 배포했는데 고쳐지지 않았다&lt;/p&gt;&#xA;&lt;p&gt;문제 원인 - ECS에서 배포하면서 Task에서 docker 버전을 지정하고 안 바꿨다&lt;/p&gt;&#xA;&lt;p&gt;재발 방지를 위해 - 한 번 해서 안 되면 한 단계 더 들어가서 원인을 찾자&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>AWS RDS time_zone 셋팅</title>
+				<link>https://ezaurum.com/2014/12/AWS-RDS-time_zone-%EC%85%8B%ED%8C%85/</link>
+				<pubDate>Wed, 24 Dec 2014 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2014/12/AWS-RDS-time_zone-%EC%85%8B%ED%8C%85/</guid>
+				<description>&lt;p&gt;AWS RDS는 default_time_zone을 바꿀 수 없다. 그래서 각 연결마다 time_zone을 새로 셋팅해 주는 편법을 쓰는데, 모든 연결에 &lt;code&gt;SET time_zone = &amp;lsquo;Asia/Seoul&amp;rsquo;;&lt;/code&gt;을 설정하는 방법으로 같은 효과를 볼 수 있다.&#xA;그러기 위해서는 init_connect에다가 값을 넣어주면 된다.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://blog.suz-lab.com/2011/03/rdsutc.html&#34;&gt;참고 링크&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>AWS ec2 open-jdk7으로 업그레이드</title>
+				<link>https://ezaurum.com/2013/05/AWS-ec2-open-jdk7%EC%9C%BC%EB%A1%9C-%EC%97%85%EA%B7%B8%EB%A0%88%EC%9D%B4%EB%93%9C/</link>
+				<pubDate>Wed, 08 May 2013 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2013/05/AWS-ec2-open-jdk7%EC%9C%BC%EB%A1%9C-%EC%97%85%EA%B7%B8%EB%A0%88%EC%9D%B4%EB%93%9C/</guid>
+				<description>&lt;p&gt;일단 open jdk 7 을 설치한다.&#xA;&lt;code&gt;sudo yum install java-1.7.0-openjdk&#xA;&lt;/code&gt;&#xA;그 다음 java에 걸려 있는 심볼릭 링크를 바꿔줘야 하는데,&#xA;/usr/bin/java -&amp;gt; /etc/alternatives/java -&amp;gt;  -&amp;gt; /usr/lib/jvm/(현재 jre)/bin/java&#xA;이렇게 되어 있으므로,&#xA;&lt;code&gt;&#xA;sudo ln -s /usr/lib/jvm/jre-1.7.0-openjdk.x86_64/bin/java /etc/alternatives/java7&#xA;sudo mv /etc/alternatives/java7 /etc/alternatives/java&#xA;&lt;/code&gt;&#xA;을 실행해서 심볼릭 링크를 바꿔준다. 지우고 다시 걸어도 되지만, 일단 지우고 거는 사이에 전 링크가 끊어지므로 가능한 영향을 적게 하기 위해서&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;ln -s /location/to/link2 newlink&#xA;mv newlink linkname&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>AWS RDS 인코딩 UTF-8으로 설정</title>
+				<link>https://ezaurum.com/2013/04/AWS-RDS-%EC%9D%B8%EC%BD%94%EB%94%A9-UTF-8%EC%9C%BC%EB%A1%9C-%EC%84%A4%EC%A0%95/</link>
+				<pubDate>Tue, 30 Apr 2013 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2013/04/AWS-RDS-%EC%9D%B8%EC%BD%94%EB%94%A9-UTF-8%EC%9C%BC%EB%A1%9C-%EC%84%A4%EC%A0%95/</guid>
+				<description>&lt;p&gt;파라마터를 바꾼 다음, DB인스턴스를 리셋해야 한다. 있던 걸 자동으로 바꿔주는 건 아니다.&#xA;이미 있는 데이터는 뺀 다음 다시 넣든지 해야 할 듯. 지금은 데이터가 없는 상태라 새로 만들기만 함.&#xA;&lt;a href=&#34;http://serverfault.com/questions/364773/mysql-5-5-character-encoding-in-amazon-rds&#34;&gt;참고링크&lt;/a&gt;&#xA;일단 파라마터 그룹을 하나 만든다. 변경해야 할 것은 다음과 같다.&#xA;&lt;code&gt;&#xA;character_set_client = utf8&#xA;character_set_connection = utf8&#xA;character_set_database = utf8&#xA;character_set_results = utf8&#xA;character_set_server = utf8&#xA;collation_connection = utf8_general_ci&#xA;collation_server = utf8_general_ci&#xA;&lt;/code&gt;&#xA;파라마터 그룹을 이걸로 바꾸고, 리셋을 해 준다. 그러면 그 다음부터 들어가는 값은 UTF-8으로 들어가게 된다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>부정기 정리</title>
+				<link>https://ezaurum.com/2013/01/%EB%B6%80%EC%A0%95%EA%B8%B0-%EC%A0%95%EB%A6%AC/</link>
+				<pubDate>Sun, 27 Jan 2013 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2013/01/%EB%B6%80%EC%A0%95%EA%B8%B0-%EC%A0%95%EB%A6%AC/</guid>
+				<description>&lt;ul&gt;&#xD;&#xA;&lt;li&gt;모든 것에 의미있는 히스토리가 있어야 한다.&lt;/li&gt;&#xD;&#xA;&lt;li&gt;log, history 들은 AOP로 구현해야 한다.&lt;/li&gt;&#xD;&#xA;&lt;li&gt;필연적으로 데이터가 많아지므로 async&amp;amp;big data를 고려.&lt;/li&gt;&#xD;&#xA;&lt;li&gt;사용하는 객체는 UUID 류의 인덱스가 붙어 있는 게 편하다. 그러잖으면 검색이 계속 일어나야 함. hash든 뭐든 즉시 찾을 수 있게 하자.&lt;/li&gt;&#xD;&#xA;&lt;li&gt;JSON-object 변환시, 상황에 따라 내부 object를 다 변환할지 id만 뽑아올지를 생각해보자.&lt;/li&gt;&#xD;&#xA;&lt;li&gt;AWS S3에서 파일이 없어도 403이 뜬다. 보안상 당연한가...&lt;/li&gt;&#xD;&#xA;&lt;li&gt;switch 문에 케이스가 줄줄 붙어 있으면 제거해 보자.&lt;/li&gt;&#xD;&#xA;&lt;li&gt;요구 사항 명세, 문서와 테스트 케이스가 같으면 좋다. BDD?&lt;/li&gt;&#xD;&#xA;&lt;/ul&gt;</description>
+			</item>
+			<item>
+				<title>호스팅 아마존으로 이전</title>
+				<link>https://ezaurum.com/2012/09/%ED%98%B8%EC%8A%A4%ED%8C%85-%EC%95%84%EB%A7%88%EC%A1%B4%EC%9C%BC%EB%A1%9C-%EC%9D%B4%EC%A0%84/</link>
+				<pubDate>Sat, 08 Sep 2012 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2012/09/%ED%98%B8%EC%8A%A4%ED%8C%85-%EC%95%84%EB%A7%88%EC%A1%B4%EC%9C%BC%EB%A1%9C-%EC%9D%B4%EC%A0%84/</guid>
+				<description>&lt;p&gt;내년에는 돈을 내야 하니까 또 옮겨갈지는 모르겠지만&amp;hellip;.&lt;/p&gt;&#xA;&lt;p&gt;여튼 일단은 여기로 왔음. 암 것도 안 했는데 뭔가 많이 바뀐 느낌인데 이상하게&amp;hellip;.&lt;/p&gt;&#xA;&lt;p&gt;자꾸 404가 떠서 고생했는데 &lt;a href=&#34;http://www.lavluda.com/2007/07/15/how-to-enable-mod_rewrite-in-apache22-debian/&#34;&gt;이 링크&lt;/a&gt; 에서 mod_rewite를 켜는 방법을 보고 해결&amp;hellip; OTL&amp;hellip; 한글 문제인줄 알고 계속 삽질.&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

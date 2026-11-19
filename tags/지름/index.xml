@@ -1,27 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>지름 on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/%EC%A7%80%EB%A6%84/</link>
-    <description>Recent content in 지름 on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Wed, 27 Dec 2017 15:58:04 +0700</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/%EC%A7%80%EB%A6%84/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>2017년 지름 결산</title>
-      <link>https://ezaurum.com/2017/12/2017%EB%85%84-%EC%A7%80%EB%A6%84-%EA%B2%B0%EC%82%B0/</link>
-      <pubDate>Wed, 27 Dec 2017 15:58:04 +0700</pubDate>
-      <guid>https://ezaurum.com/2017/12/2017%EB%85%84-%EC%A7%80%EB%A6%84-%EA%B2%B0%EC%82%B0/</guid>
-      <description>다이슨 청소기 사긴 했는데 아직 직접 못 봤다. 한국 돌아가면 써 볼 예정&#xA;샤오미 트롤리 음.. 그럭저럭? 싸니까 의미가 있는 물건 정도.&#xA;기능성 티셔츠 홈웨어를 모두 이걸로 바꿨다. 땀이 많이 나는 체질상 매우 필요하다. 자전거 때문에 구매하기도 했고.&#xA;빨리 마른다. 땀냄새가 덜 난다. 싼거는 확실히 좀 성능이 나쁘다는 느낌인데, (원단부말고 바느질 마감이나 그런게) 홈웨어로는 쓸만하다. 미밴드 있으니까 조금이라도 더 돌아다니게 된다.&#xA;등산바지 아재티 난다고 하지만, 아재인데 뭐. 자전거 때문에 처음 구매했다.</description>
-    </item>
-    <item>
-      <title>와우북 페스티벌 후기</title>
-      <link>https://ezaurum.com/2013/10/%EC%99%80%EC%9A%B0%EB%B6%81-%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C-%ED%9B%84%EA%B8%B0/</link>
-      <pubDate>Sun, 13 Oct 2013 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2013/10/%EC%99%80%EC%9A%B0%EB%B6%81-%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C-%ED%9B%84%EA%B8%B0/</guid>
-      <description>결론:여전히 지갑이 탈탈탈 털렸다.&#xA;같이 갈 사람을 섭외하고 있었는데, 결국 실패. 혼자 가게 되었다. 날씨도 괜찮았고 이번엔 개인적으로 좌판을 깔고 이거저거 파는 사람들도 많아서 더 괜찮았던 것 같다. 거기서 레고 X윙을 삼. 싸다고 생각해서 샀는데 사고 보니 정식 만번대는 아니고 그냥 개인적으로 만든 물건인듯.&#xA;시작부터 한스미디어 부스에서 한국 슈퍼로봇 열전이랑 추리소설 좀 사고, 이리저리 주워담다가.&#xA;북스피어 부스에서 신간을 산 사람 대상으로 뽑기 행사를 하고 있어서(꼭 그래서만은 아니고) 신간을 다 사버리고, 퍼언 연대기도 50프로 세일하길래 다 집어버리고, 마쓰모토 세이쵸 소설도 하나 더 집어버렸다.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>지름 on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/%EC%A7%80%EB%A6%84/</link>
+		<description>Recent content in 지름 on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Wed, 27 Dec 2017 15:58:04 +0700</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/%EC%A7%80%EB%A6%84/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>2017년 지름 결산</title>
+				<link>https://ezaurum.com/2017/12/2017%EB%85%84-%EC%A7%80%EB%A6%84-%EA%B2%B0%EC%82%B0/</link>
+				<pubDate>Wed, 27 Dec 2017 15:58:04 +0700</pubDate>
+				<guid>https://ezaurum.com/2017/12/2017%EB%85%84-%EC%A7%80%EB%A6%84-%EA%B2%B0%EC%82%B0/</guid>
+				<description>&lt;ol start=&#34;10&#34;&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;다이슨 청소기&#xA;사긴 했는데 아직 직접 못 봤다. 한국 돌아가면 써 볼 예정&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;샤오미 트롤리&#xA;음.. 그럭저럭? 싸니까 의미가 있는 물건 정도.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;기능성 티셔츠&#xA;홈웨어를 모두 이걸로 바꿨다. 땀이 많이 나는 체질상 매우 필요하다. 자전거 때문에 구매하기도 했고.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;빨리 마른다.&lt;/li&gt;&#xA;&lt;li&gt;땀냄새가 덜 난다.&lt;/li&gt;&#xA;&lt;li&gt;싼거는 확실히 좀 성능이 나쁘다는 느낌인데, (원단부말고 바느질 마감이나 그런게) 홈웨어로는 쓸만하다.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;ol start=&#34;7&#34;&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;미밴드&#xA;있으니까 조금이라도 더 돌아다니게 된다.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;등산바지&#xA;아재티 난다고 하지만, 아재인데 뭐. 자전거 때문에 처음 구매했다.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+			</item>
+			<item>
+				<title>와우북 페스티벌 후기</title>
+				<link>https://ezaurum.com/2013/10/%EC%99%80%EC%9A%B0%EB%B6%81-%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C-%ED%9B%84%EA%B8%B0/</link>
+				<pubDate>Sun, 13 Oct 2013 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2013/10/%EC%99%80%EC%9A%B0%EB%B6%81-%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C-%ED%9B%84%EA%B8%B0/</guid>
+				<description>&lt;p&gt;결론:여전히 지갑이 탈탈탈 털렸다.&lt;/p&gt;&#xA;&lt;p&gt;같이 갈 사람을 섭외하고 있었는데, 결국 실패. 혼자 가게 되었다.&#xA;날씨도 괜찮았고 이번엔 개인적으로 좌판을 깔고 이거저거 파는 사람들도 많아서 더 괜찮았던 것 같다. 거기서 레고 X윙을 삼. 싸다고 생각해서 샀는데 사고 보니 정식 만번대는 아니고 그냥 개인적으로 만든 물건인듯.&lt;/p&gt;&#xA;&lt;p&gt;시작부터 한스미디어 부스에서 한국 슈퍼로봇 열전이랑 추리소설 좀 사고, 이리저리 주워담다가.&lt;/p&gt;&#xA;&lt;p&gt;북스피어 부스에서 신간을 산 사람 대상으로 뽑기 행사를 하고 있어서(꼭 그래서만은 아니고) 신간을 다 사버리고, 퍼언 연대기도 50프로 세일하길래 다 집어버리고, 마쓰모토 세이쵸 소설도 하나 더 집어버렸다.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

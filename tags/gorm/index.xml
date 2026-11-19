@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Gorm on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/gorm/</link>
-    <description>Recent content in Gorm on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Tue, 01 May 2018 23:36:26 +0900</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/gorm/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>GORM에서 Many To Many 값을 제대로 가져오지 못하는 문제</title>
-      <link>https://ezaurum.com/bug/gorm-related-bug/</link>
-      <pubDate>Tue, 01 May 2018 23:36:26 +0900</pubDate>
-      <guid>https://ezaurum.com/bug/gorm-related-bug/</guid>
-      <description>문제 상황 - GORM 문서대로 했는데 제대로 값이 불려오지 않았다.&#xA;문제 원인 - 문서에서는 db.Model(&amp;amp;language).Related(&amp;amp;users)식으로 하면 된다고 했는데, 실제로는 db.Model(&amp;amp;language).Related(&amp;amp;users,&amp;quot;Users&amp;quot;) 식으로 프로퍼티 이름을 적어줘야 했다. 연관 테이블을 쓰는 게 두 개 이상이라 문제가 생긴 모양.&#xA;재발 방지를 위해 - 일단 소스를 뒤지자</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Gorm on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/gorm/</link>
+		<description>Recent content in Gorm on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Tue, 01 May 2018 23:36:26 +0900</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/gorm/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>GORM에서 Many To Many 값을 제대로 가져오지 못하는 문제</title>
+				<link>https://ezaurum.com/bug/gorm-related-bug/</link>
+				<pubDate>Tue, 01 May 2018 23:36:26 +0900</pubDate>
+				<guid>https://ezaurum.com/bug/gorm-related-bug/</guid>
+				<description>&lt;p&gt;문제 상황 - &lt;a href=&#34;http://gorm.io/docs/many_to_many.html&#34;&gt;GORM 문서&lt;/a&gt;대로 했는데 제대로 값이 불려오지 않았다.&lt;/p&gt;&#xA;&lt;p&gt;문제 원인 - 문서에서는 &lt;code&gt;db.Model(&amp;amp;language).Related(&amp;amp;users)&lt;/code&gt;식으로 하면 된다고 했는데, 실제로는 &lt;code&gt;db.Model(&amp;amp;language).Related(&amp;amp;users,&amp;quot;Users&amp;quot;)&lt;/code&gt; 식으로 프로퍼티 이름을 적어줘야 했다. 연관 테이블을 쓰는 게 두 개 이상이라 문제가 생긴 모양.&lt;/p&gt;&#xA;&lt;p&gt;재발 방지를 위해 - 일단 소스를 뒤지자&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

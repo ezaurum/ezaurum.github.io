@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>영역 on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/%EC%98%81%EC%97%AD/</link>
-    <description>Recent content in 영역 on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Fri, 16 Jan 2009 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/%EC%98%81%EC%97%AD/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>시작은 정말 간단한 일이었다</title>
-      <link>https://ezaurum.com/2009/01/%EC%8B%9C%EC%9E%91%EC%9D%80-%EC%A0%95%EB%A7%90-%EA%B0%84%EB%8B%A8%ED%95%9C-%EC%9D%BC%EC%9D%B4%EC%97%88%EB%8B%A4/</link>
-      <pubDate>Fri, 16 Jan 2009 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2009/01/%EC%8B%9C%EC%9E%91%EC%9D%80-%EC%A0%95%EB%A7%90-%EA%B0%84%EB%8B%A8%ED%95%9C-%EC%9D%BC%EC%9D%B4%EC%97%88%EB%8B%A4/</guid>
-      <description>영역 이라고 표현할 수 있는 공간이 있다. 사회적 관계를 맺을 때, 인간과 인간 사이에는 적절한 공간이 있다. 사람마다, 문화적 차이마다 다르고, 거기에 대해서는&amp;hellip; 읽은 책이 있는데 제목이 기억나지 않는다. 여튼 그런데 말이지. 아무렇지 않게 그 공간-물리적-안으로 들어오는 사람이 있었다. 지금은 헤어졌다. 그게 정말 슬프다. 그래, 확실히 시작은 그거였고, 그것 뿐이었다. 그 아이는 반 발짝 안쪽으로 다가와서 말을 걸었다. 그건 그 아이에게는 아무런 의미 없는 일이었고, 지금은 피하는 일이다. 반 발짝이, 천상용섬도 아니고 말이지.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>영역 on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/%EC%98%81%EC%97%AD/</link>
+		<description>Recent content in 영역 on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Fri, 16 Jan 2009 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/%EC%98%81%EC%97%AD/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>시작은 정말 간단한 일이었다</title>
+				<link>https://ezaurum.com/2009/01/%EC%8B%9C%EC%9E%91%EC%9D%80-%EC%A0%95%EB%A7%90-%EA%B0%84%EB%8B%A8%ED%95%9C-%EC%9D%BC%EC%9D%B4%EC%97%88%EB%8B%A4/</link>
+				<pubDate>Fri, 16 Jan 2009 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2009/01/%EC%8B%9C%EC%9E%91%EC%9D%80-%EC%A0%95%EB%A7%90-%EA%B0%84%EB%8B%A8%ED%95%9C-%EC%9D%BC%EC%9D%B4%EC%97%88%EB%8B%A4/</guid>
+				<description>&lt;p&gt;&lt;strong&gt;영역&lt;/strong&gt; 이라고 표현할 수 있는 공간이 있다.&#xA;사회적 관계를 맺을 때, 인간과 인간 사이에는 적절한 공간이 있다. 사람마다, 문화적 차이마다 다르고, 거기에 대해서는&amp;hellip; 읽은 책이 있는데 제목이 기억나지 않는다.&#xA;여튼 그런데 말이지.&#xA;아무렇지 않게 그 공간-물리적-안으로 들어오는 사람이 있었다. 지금은 헤어졌다. 그게 정말 슬프다.&#xA;그래, 확실히 시작은 그거였고, 그것 뿐이었다. 그 아이는 반 발짝 안쪽으로 다가와서 말을 걸었다.&#xA;그건 그 아이에게는 아무런 의미 없는 일이었고, 지금은 피하는 일이다.&#xA;반 발짝이, 천상용섬도 아니고 말이지. 젠장.&#xA;원인과 결과는 어느 것이 먼저도 아니고, 동기와 행동은 종종 뒤바뀐다. 감정은 외부에서 들어오는 것이고, 내 안에 든 것은 모두 남이 들어 있다고 착각하는 것이다.&#xA;그냥 그것 뿐.&#xA;와인은 이제 바닥을 보인다.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

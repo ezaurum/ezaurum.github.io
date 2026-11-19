@@ -1,41 +1,47 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>정렬 on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/%EC%A0%95%EB%A0%AC/</link>
-    <description>Recent content in 정렬 on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Mon, 17 Jan 2011 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/%EC%A0%95%EB%A0%AC/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Quick Sort</title>
-      <link>https://ezaurum.com/2011/01/Quick-Sort/</link>
-      <pubDate>Mon, 17 Jan 2011 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2011/01/Quick-Sort/</guid>
-      <description>int partition(int * array, int leftIndex, int lastIndex, int pivotIndex) { int pivotValue = array[pivotIndex]; swap(&amp;amp;array[pivotIndex], &amp;amp;array[lastIndex]); int storeIndex = leftIndex; for(int i = leftIndex; i &amp;lt; lastIndex; i++) { if(array[i] leftIndex) { int newPivotIndex = partition(array,leftIndex,lastIndex,lastIndex); quickSort(array, leftIndex,newPivotIndex-1); quickSort(array, newPivotIndex+1,lastIndex); } }&#xA;오늘은 정렬의 왕도, 퀵정렬. 사실 하다 꼬여서 이 소스는 위키에서 퍼온 의사코드를 그대로 옮긴 것. 아놔. 내 뇌의 숫자개념에는 뭔가 문제가 있는 게 확실해. 지금와서 어떻게 할 수도 없고, 힘내서 외운 걸로 커버하자.</description>
-    </item>
-    <item>
-      <title>Insertion Sort</title>
-      <link>https://ezaurum.com/2011/01/Insertion-Sort/</link>
-      <pubDate>Fri, 14 Jan 2011 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2011/01/Insertion-Sort/</guid>
-      <description>void insertionSort(int * array, int size) { int j = 0; int temp = 0; for (int i = 1; i &amp;lt; size ; i++)&#x9;{ j = 0; while(j array[j]) { j++; } else { temp = array[i]; for ( int k = i; k &amp;gt; j; k&amp;ndash;) { array[k] = array[k-1]; } array[j] = temp; j = i; } } } }&#xA;void insertionSort2(int * array, int size) { int j = 0; for (int i = 1; i 0 &amp;amp;&amp;amp; array[j-1] &amp;gt; array[j] ) { swap(array[j-1],array[j]); j&amp;ndash;; } } }</description>
-    </item>
-    <item>
-      <title>Bubble Sort</title>
-      <link>https://ezaurum.com/2011/01/Bubble-Sort/</link>
-      <pubDate>Thu, 13 Jan 2011 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2011/01/Bubble-Sort/</guid>
-      <description>void bubbleSort(int * array, int size)&#xD;{&#xD;int temp = 0;&#xD;int j=0;&#xD;bool swapped = true;&#xD;while(swapped)&#xD;{&#xD;j++;&#xD;swapped = false;&#xD;for( int i = 0; i &amp;lt; size -1 -j ; i++)&#xD;{&#xD;if ( array[i] &amp;gt; array[i+1] )&#xD;{&#xD;temp = array[i];&#xD;array[i] = array[i+1];&#xD;array[i+1] = temp;&#xD;swapped = true;&#xD;}&#xD;}&#xD;j++;&#xD;}&#xD;}&#xD;void swap(int * a, int * b)&#xD;{&#xD;int temp = 0;&#xD;temp = *a;&#xD;*a = *b;&#xD;*b = temp;&#xD;}&#xD;bool swapif(int * a, int * b)&#xD;{&#xD;if ( *a &amp;gt; *b)&#xD;{&#xD;swap(a,b);&#xD;return true;&#xD;}&#xD;else&#xD;{&#xD;return false;&#xD;}&#xD;}&#xD;void bubbleSort2(int * array, int size) { int j=0; bool swapped = true; while(swapped) { swapped=false; for( int i = 0; i &amp;lt; size -j -1 ; i++) { swapped = swapif(array+i,array+i+1) ?</description>
-    </item>
-    <item>
-      <title>Selection Sort</title>
-      <link>https://ezaurum.com/2011/01/Selection-Sort/</link>
-      <pubDate>Thu, 13 Jan 2011 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2011/01/Selection-Sort/</guid>
-      <description>void selectSort(int * array, int size) { int minPoint = 0; for( int j = 0; j &amp;amp;lt; size -1; j++) { minPoint = j; for (int i = j; i &amp;amp;lt; size ; i++) { if(array[i] &amp;amp;lt; array[minPoint]) { minPoint = i; } } swap(array+j, array+minPoint); } } 오랜만에 공부 좀 하니까 머리가 돌아가는 듯.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>정렬 on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/%EC%A0%95%EB%A0%AC/</link>
+		<description>Recent content in 정렬 on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Mon, 17 Jan 2011 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/%EC%A0%95%EB%A0%AC/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Quick Sort</title>
+				<link>https://ezaurum.com/2011/01/Quick-Sort/</link>
+				<pubDate>Mon, 17 Jan 2011 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2011/01/Quick-Sort/</guid>
+				<description>&lt;p&gt;&lt;code&gt;int partition(int * array, int leftIndex, int lastIndex, int pivotIndex) {&#xA;int pivotValue = array[pivotIndex];&#xA;swap(&amp;amp;array[pivotIndex], &amp;amp;array[lastIndex]);&#xA;int storeIndex = leftIndex;&#xA;for(int i = leftIndex; i &amp;lt; lastIndex; i++) {&#xA;if(array[i]  leftIndex) {&#xA;int newPivotIndex = partition(array,leftIndex,lastIndex,lastIndex);&#xA;quickSort(array, leftIndex,newPivotIndex-1);&#xA;quickSort(array, newPivotIndex+1,lastIndex);&#xA;}&#xA;}&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;오늘은 정렬의 왕도, 퀵정렬. 사실 하다 꼬여서 이 소스는 위키에서 퍼온 의사코드를 그대로 옮긴 것.&#xA;아놔. 내 뇌의 숫자개념에는 뭔가 문제가 있는 게 확실해. 지금와서 어떻게 할 수도 없고, 힘내서 외운 걸로 커버하자.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Insertion Sort</title>
+				<link>https://ezaurum.com/2011/01/Insertion-Sort/</link>
+				<pubDate>Fri, 14 Jan 2011 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2011/01/Insertion-Sort/</guid>
+				<description>&lt;p&gt;&lt;code&gt;void  insertionSort(int * array, int size)&#xA;{&#xA;int j = 0;&#xA;int temp = 0;&#xA;for (int i = 1; i &amp;lt; size ; i++)&#x9;{&#xA;j = 0;&#xA;while(j&lt;i&gt; array[j]) {&#xA;j++;&#xA;}&#xA;else {&#xA;temp = array[i];&#xA;for ( int k = i; k &amp;gt; j; k&amp;ndash;) {&#xA;array[k] = array[k-1];&#xA;}&#xA;array[j] = temp;&#xA;j = i;&#xA;}&#xA;}&#xA;}&#xA;}&lt;/p&gt;&#xA;&lt;p&gt;&lt;ins datetime=&#34;2011-01-14T04:31:01+00:00&#34;&gt;void  insertionSort2(int * array, int size)&#xA;{&#xA;int j = 0;&#xA;for (int i = 1; i  0 &amp;amp;&amp;amp; array[j-1] &amp;gt; array[j] ) {&#xA;swap(array[j-1],array[j]);&#xA;j&amp;ndash;;&#xA;}&#xA;}&#xA;}&lt;/ins&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Bubble Sort</title>
+				<link>https://ezaurum.com/2011/01/Bubble-Sort/</link>
+				<pubDate>Thu, 13 Jan 2011 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2011/01/Bubble-Sort/</guid>
+				<description>&lt;code&gt;&#xD;&#xA;void bubbleSort(int * array, int size)&#xD;&#xA;{&#xD;&#xA;&#x9;int temp = 0;&#xD;&#xA;&#x9;int j=0;&#xD;&#xA;&#x9;bool swapped = true;&#xD;&#xA;&#x9;while(swapped)&#xD;&#xA;&#x9;{&#xD;&#xA;&lt;del datetime=&#34;2011-01-13T07:13:28+00:00&#34;&gt;&#x9;&#x9;j++;&lt;/del&gt;&#xD;&#xA;&#x9;&#x9;swapped = false;&#xD;&#xA;&#x9;for( int i = 0; i &amp;lt; size -1 &lt;ins datetime=&#34;2011-01-13T07:13:28+00:00&#34;&gt;-j&lt;/ins&gt; ; i++)&#xD;&#xA;&#x9;{&#xD;&#xA;&#x9;&#x9;if ( array[i] &amp;gt; array[i+1] )&#xD;&#xA;&#x9;&#x9;{&#xD;&#xA;&#x9;&#x9;&#x9;temp = array[i];&#xD;&#xA;&#x9;&#x9;&#x9;array[i] = array[i+1];&#xD;&#xA;&#x9;&#x9;&#x9;array[i+1] = temp;&#xD;&#xA;&#x9;&#x9;&#x9;swapped = true;&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;}&#xD;&#xA;&lt;ins datetime=&#34;2011-01-13T07:13:28+00:00&#34;&gt;j++;&lt;/ins&gt;&#xD;&#xA;&#x9;}&#xD;&#xA;}&#xD;&#xA;&lt;ins datetime=&#34;2011-01-13T08:05:15+00:00&#34;&gt;&#xD;&#xA;void swap(int * a, int * b)&#xD;&#xA;{&#xD;&#xA;&#x9;int temp = 0;&#xD;&#xA;&#x9;temp = *a;&#xD;&#xA;&#x9;*a = *b;&#xD;&#xA;&#x9;*b = temp;&#xD;&#xA;}&lt;/ins&gt;&#xD;&#xA;&lt;ins datetime=&#34;2011-01-13T08:06:26+00:00&#34;&gt;&#xD;&#xA;bool swapif(int * a, int * b)&#xD;&#xA;{&#xD;&#xA;&#x9;if ( *a &amp;gt; *b)&#xD;&#xA;&#x9;{&#xD;&#xA;&#x9;&#x9;swap(a,b);&#xD;&#xA;&#x9;&#x9;return true;&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;else&#xD;&#xA;&#x9;{&#xD;&#xA;&#x9;&#x9;return false;&#xD;&#xA;&#x9;}&#xD;&#xA;}&lt;/ins&gt;&#xD;&#xA;&lt;p&gt;&lt;ins datetime=&#34;2011-01-13T08:07:57+00:00&#34;&gt;void bubbleSort2(int * array, int size)&#xA;{&#xA;int j=0;&#xA;bool swapped = true;&#xA;while(swapped)&#xA;{&#xA;swapped=false;&#xA;for( int i = 0; i &amp;lt; size -j -1 ; i++)&#xA;{&#xA;swapped = swapif(array+i,array+i+1) ? true : swapped;&#xA;}&#xA;j++;&#xA;}&#xA;}&#xA;&lt;/ins&gt;&lt;/p&gt;&#xA;&lt;/code&gt;</description>
+			</item>
+			<item>
+				<title>Selection Sort</title>
+				<link>https://ezaurum.com/2011/01/Selection-Sort/</link>
+				<pubDate>Thu, 13 Jan 2011 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2011/01/Selection-Sort/</guid>
+				<description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-c&#34; data-lang=&#34;c&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;selectSort&lt;/span&gt;(&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt; array, &lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; size)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#x9;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; minPoint &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#x9;&lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt;( &lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; j &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;; j &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&lt;/span&gt;lt; size &lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;; j&lt;span style=&#34;color:#f92672&#34;&gt;++&lt;/span&gt;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#x9;{&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#x9;&#x9;minPoint &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; j;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#x9;&#x9;&lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; (&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; i &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; j; i &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&lt;/span&gt;lt; size ; i&lt;span style=&#34;color:#f92672&#34;&gt;++&lt;/span&gt;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#x9;&#x9;&#x9;{&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#x9;&#x9;&#x9;&#x9;&lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt;(array[i] &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&lt;/span&gt;lt; array[minPoint])&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#x9;&#x9;&#x9;&#x9;{&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#x9;&#x9;&#x9;&#x9;&#x9;minPoint &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; i;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#x9;&#x9;&#x9;&#x9;}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#x9;&#x9;&#x9;}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#x9;&#x9;&#x9;&lt;span style=&#34;color:#a6e22e&#34;&gt;swap&lt;/span&gt;(array&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;j, array&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;minPoint);&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#x9;}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;오랜만에 공부 좀 하니까 머리가 돌아가는 듯.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

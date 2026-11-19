@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>마도카 on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/%EB%A7%88%EB%8F%84%EC%B9%B4/</link>
-    <description>Recent content in 마도카 on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Sat, 05 Sep 2009 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/%EB%A7%88%EB%8F%84%EC%B9%B4/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>아유카와 마도카</title>
-      <link>https://ezaurum.com/2009/09/%EC%95%84%EC%9C%A0%EC%B9%B4%EC%99%80-%EB%A7%88%EB%8F%84%EC%B9%B4/</link>
-      <pubDate>Sat, 05 Sep 2009 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2009/09/%EC%95%84%EC%9C%A0%EC%B9%B4%EC%99%80-%EB%A7%88%EB%8F%84%EC%B9%B4/</guid>
-      <description>69년생. 물론 실존 인물은 아니다. 80년대를 풍미한 만화, 오렌지로드의 히로인이자 내 여성관에 지대한 영향을 끼친 사람을 꼽으면 상위 다섯명 안에 들어갈 인물. 간단히 말하자면, 엄친딸? 머리 길고, 예쁘고, 섬세하고, 잘 놀고, 요리도 잘하고, 집안 적당히 빠방하고, 노래 잘 하고, 거기다 싸움도 잘한다. 남자 말 한마디에 담배도 끊는 굉장한 순애보까지. 할 말이 없다. 예쁘다는 정도?&#xA;한없이 100에 가까운 99계단, 한없이 Love에 가까운 Like&#xA;여튼 중요한 것은 우리 동네에는 99계단도 없고, 난 이미 고교생이 아니잖아?</description>
-    </item>
-  </channel>
+	<channel>
+		<title>마도카 on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/%EB%A7%88%EB%8F%84%EC%B9%B4/</link>
+		<description>Recent content in 마도카 on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Sat, 05 Sep 2009 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/%EB%A7%88%EB%8F%84%EC%B9%B4/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>아유카와 마도카</title>
+				<link>https://ezaurum.com/2009/09/%EC%95%84%EC%9C%A0%EC%B9%B4%EC%99%80-%EB%A7%88%EB%8F%84%EC%B9%B4/</link>
+				<pubDate>Sat, 05 Sep 2009 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2009/09/%EC%95%84%EC%9C%A0%EC%B9%B4%EC%99%80-%EB%A7%88%EB%8F%84%EC%B9%B4/</guid>
+				<description>&lt;p&gt;69년생.&#xA;물론 실존 인물은 아니다.&#xA;80년대를 풍미한 만화, &lt;a href=&#34;http://ko.wikipedia.org/wiki/새콤달콤_오렌지_로드&#34;&gt;오렌지로드&lt;/a&gt;의 히로인이자 내 여성관에 지대한 영향을 끼친 사람을 꼽으면 상위 다섯명 안에 들어갈 인물.&#xA;간단히 말하자면, 엄친딸?&#xA;머리 길고, 예쁘고, 섬세하고, 잘 놀고, 요리도 잘하고, 집안 적당히 빠방하고, 노래 잘 하고, 거기다 싸움도 잘한다.&#xA;남자 말 한마디에 &lt;strong&gt;담배도 끊는&lt;/strong&gt; 굉장한 순애보까지.&#xA;할 말이 없다. 예쁘다는 정도?&lt;/p&gt;&#xA;&lt;p&gt;한없이 100에 가까운 99계단, 한없이 Love에 가까운 Like&lt;/p&gt;&#xA;&lt;p&gt;여튼 중요한 것은 우리 동네에는 99계단도 없고, 난 이미 고교생이 아니잖아?&#xA;안 될 거야&amp;hellip;&#xA;&lt;img src=&#34;https://ezaurum.com/wordpress/wp-content/uploads/2009/09/andamiro78_707528.jpg&#34; alt=&#34;andamiro78_707528&#34; title=&#34;andamiro78_707528&#34; width=&#34;500&#34; height=&#34;720&#34; class=&#34;alignnone size-full wp-image-689&#34; /&gt;&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

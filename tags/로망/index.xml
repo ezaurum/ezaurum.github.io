@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>로망 on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/%EB%A1%9C%EB%A7%9D/</link>
-    <description>Recent content in 로망 on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Mon, 11 Jul 2011 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/%EB%A1%9C%EB%A7%9D/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>세계 정복은 가능한가</title>
-      <link>https://ezaurum.com/2011/07/%EC%84%B8%EA%B3%84-%EC%A0%95%EB%B3%B5%EC%9D%80-%EA%B0%80%EB%8A%A5%ED%95%9C%EA%B0%80/</link>
-      <pubDate>Mon, 11 Jul 2011 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2011/07/%EC%84%B8%EA%B3%84-%EC%A0%95%EB%B3%B5%EC%9D%80-%EA%B0%80%EB%8A%A5%ED%95%9C%EA%B0%80/</guid>
-      <description>낚였다!&#xA;어찌보면 이 한 마디로 설명가능한 책이다.&#xA;번역서의 마케팅 방향은 가벼운 서브컬쳐인 양 잡혀 있지만, 실제로는 띠지에 나온 것과 비슷한 내용이다. 가벼운 것은 맞고, 서브컬쳐를 중심으로 설명하는 것도 맞지만 그 두 단어의 조합에서 나오는 이미지와는 많이 다르달까.&#xA;현대사회의 근본적인 문제를 짚어낸 책&#xD;뭐가 근본이고 뭐가 문제인지는 책을 보면 알 터, 사회를 보는 눈을 좀 더 넓혀주는 좋은 물건이다.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>로망 on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/%EB%A1%9C%EB%A7%9D/</link>
+		<description>Recent content in 로망 on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Mon, 11 Jul 2011 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/%EB%A1%9C%EB%A7%9D/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>세계 정복은 가능한가</title>
+				<link>https://ezaurum.com/2011/07/%EC%84%B8%EA%B3%84-%EC%A0%95%EB%B3%B5%EC%9D%80-%EA%B0%80%EB%8A%A5%ED%95%9C%EA%B0%80/</link>
+				<pubDate>Mon, 11 Jul 2011 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2011/07/%EC%84%B8%EA%B3%84-%EC%A0%95%EB%B3%B5%EC%9D%80-%EA%B0%80%EB%8A%A5%ED%95%9C%EA%B0%80/</guid>
+				<description>&lt;p&gt;낚였다!&lt;/p&gt;&#xA;&lt;p&gt;어찌보면 이 한 마디로 설명가능한 책이다.&lt;/p&gt;&#xA;&lt;p&gt;번역서의 마케팅 방향은 가벼운 서브컬쳐인 양 잡혀 있지만, 실제로는 띠지에 나온 것과 비슷한 내용이다. 가벼운 것은 맞고, 서브컬쳐를 중심으로 설명하는 것도 맞지만 그 두 단어의 조합에서 나오는 이미지와는 많이 다르달까.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xD;&#xA;현대사회의 근본적인 문제를 짚어낸 책&#xD;&#xA;&lt;/blockquote&gt;&#xD;&#xA;&lt;p&gt;뭐가 근본이고 뭐가 문제인지는 책을 보면 알 터, 사회를 보는 눈을 좀 더 넓혀주는 좋은 물건이다.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

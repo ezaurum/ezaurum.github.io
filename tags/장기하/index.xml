@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>장기하 on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/%EC%9E%A5%EA%B8%B0%ED%95%98/</link>
-    <description>Recent content in 장기하 on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Fri, 06 Feb 2009 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/%EC%9E%A5%EA%B8%B0%ED%95%98/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>싸구려 커피를 마신다</title>
-      <link>https://ezaurum.com/2009/02/%EC%8B%B8%EA%B5%AC%EB%A0%A4-%EC%BB%A4%ED%94%BC%EB%A5%BC-%EB%A7%88%EC%8B%A0%EB%8B%A4/</link>
-      <pubDate>Fri, 06 Feb 2009 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2009/02/%EC%8B%B8%EA%B5%AC%EB%A0%A4-%EC%BB%A4%ED%94%BC%EB%A5%BC-%EB%A7%88%EC%8B%A0%EB%8B%A4/</guid>
-      <description>[youtube https://www.youtube.com/watch?v=Ww8jdO8IlQA&amp;amp;hl=en&amp;amp;fs=1] 노래를 듣다보면, 공감이 간다. 나는 천천히 썩어가고 있다는 느낌. 이미 되돌리긴 늦었을까.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>장기하 on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/%EC%9E%A5%EA%B8%B0%ED%95%98/</link>
+		<description>Recent content in 장기하 on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Fri, 06 Feb 2009 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/%EC%9E%A5%EA%B8%B0%ED%95%98/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>싸구려 커피를 마신다</title>
+				<link>https://ezaurum.com/2009/02/%EC%8B%B8%EA%B5%AC%EB%A0%A4-%EC%BB%A4%ED%94%BC%EB%A5%BC-%EB%A7%88%EC%8B%A0%EB%8B%A4/</link>
+				<pubDate>Fri, 06 Feb 2009 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2009/02/%EC%8B%B8%EA%B5%AC%EB%A0%A4-%EC%BB%A4%ED%94%BC%EB%A5%BC-%EB%A7%88%EC%8B%A0%EB%8B%A4/</guid>
+				<description>&lt;p&gt;[youtube https://www.youtube.com/watch?v=Ww8jdO8IlQA&amp;amp;hl=en&amp;amp;fs=1]&#xA;노래를 듣다보면, 공감이 간다.&#xA;나는 천천히 썩어가고 있다는 느낌. 이미 되돌리긴 늦었을까.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

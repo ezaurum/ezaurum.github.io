@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>사소한 바람 on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/%EC%82%AC%EC%86%8C%ED%95%9C-%EB%B0%94%EB%9E%8C/</link>
-    <description>Recent content in 사소한 바람 on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Sun, 07 Dec 2008 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/%EC%82%AC%EC%86%8C%ED%95%9C-%EB%B0%94%EB%9E%8C/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>사소한 바람</title>
-      <link>https://ezaurum.com/2008/12/%EC%82%AC%EC%86%8C%ED%95%9C-%EB%B0%94%EB%9E%8C/</link>
-      <pubDate>Sun, 07 Dec 2008 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2008/12/%EC%82%AC%EC%86%8C%ED%95%9C-%EB%B0%94%EB%9E%8C/</guid>
-      <description>교수님이 서버-클라이언트 구조의 프로그램을 짜라고 했는데, 딴 애들은 다 예제에 있는 대로 fork나 select를 써서 짰는데 나만 poll을 사용해서 구현했어! 거기다 멀티쓰레드라구! 으쓱으쓱 이라고 하면 참 잘했어요♡하는 참한 처자가 있으면 좋겠다.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>사소한 바람 on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/%EC%82%AC%EC%86%8C%ED%95%9C-%EB%B0%94%EB%9E%8C/</link>
+		<description>Recent content in 사소한 바람 on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Sun, 07 Dec 2008 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/%EC%82%AC%EC%86%8C%ED%95%9C-%EB%B0%94%EB%9E%8C/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>사소한 바람</title>
+				<link>https://ezaurum.com/2008/12/%EC%82%AC%EC%86%8C%ED%95%9C-%EB%B0%94%EB%9E%8C/</link>
+				<pubDate>Sun, 07 Dec 2008 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2008/12/%EC%82%AC%EC%86%8C%ED%95%9C-%EB%B0%94%EB%9E%8C/</guid>
+				<description>&lt;p&gt;교수님이 서버-클라이언트 구조의 프로그램을 짜라고 했는데, 딴 애들은 다 예제에 있는 대로 fork나 select를 써서 짰는데 나만 poll을 사용해서 구현했어! 거기다 멀티쓰레드라구! 으쓱으쓱&#xA;이라고 하면 참 잘했어요♡하는 참한 처자가 있으면 좋겠다.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

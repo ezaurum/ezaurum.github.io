@@ -44,8 +44,8 @@
 <main class="post single">
 <h1>Git에서 Add가 안될 때</h1>
 2022-09-06
-<section><h3 id="rm---cached-로-지우고-새로-add-하기">rm &ndash;cached 로 지우고 새로 add 하기</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git rm --cached -r .
+<section><h3 id="rm-cached-로-지우고-새로-add-하기">rm &ndash;cached 로 지우고 새로 add 하기</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git rm --cached -r .
 </span></span><span style="display:flex;"><span>git add .
 </span></span><span style="display:flex;"><span>git commit -m <span style="color:#e6db74">&#34;fixed untracked files&#34;</span>
 </span></span></code></pre></div><p><a href="https://stackoverflow.com/questions/17798583/adding-file-to-gits-stage-does-nothing-and-cannot-be-committed">Stackoverflow link</a></p>
@@ -3875,6 +3875,30 @@
 
     
     </ul>
+
+
+
+    <div id="disqus_thread"></div>
+<script>
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "ezaurum" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+		<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+		<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+	
 
 
 

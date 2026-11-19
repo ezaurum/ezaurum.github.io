@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>흑심 on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/%ED%9D%91%EC%8B%AC/</link>
-    <description>Recent content in 흑심 on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Thu, 29 Jan 2009 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/%ED%9D%91%EC%8B%AC/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>남자가 여자에게 옷을 선물하는 이유</title>
-      <link>https://ezaurum.com/2009/01/%EB%82%A8%EC%9E%90%EA%B0%80-%EC%97%AC%EC%9E%90%EC%97%90%EA%B2%8C-%EC%98%B7%EC%9D%84-%EC%84%A0%EB%AC%BC%ED%95%98%EB%8A%94-%EC%9D%B4%EC%9C%A0/</link>
-      <pubDate>Thu, 29 Jan 2009 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2009/01/%EB%82%A8%EC%9E%90%EA%B0%80-%EC%97%AC%EC%9E%90%EC%97%90%EA%B2%8C-%EC%98%B7%EC%9D%84-%EC%84%A0%EB%AC%BC%ED%95%98%EB%8A%94-%EC%9D%B4%EC%9C%A0/</guid>
-      <description>[caption id=&amp;ldquo;attachment_347&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;352&amp;rdquo; caption=&amp;ldquo;남자가 여자에게 옷을 설물하는 이유&amp;rdquo;][/caption]&#xA;네. 그렇습니다. 누가 내 옷 선물 좀 받아주&amp;hellip; 출처는 나쯔키 타카야의 별은 노래한다 1권 57p</description>
-    </item>
-  </channel>
+	<channel>
+		<title>흑심 on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/%ED%9D%91%EC%8B%AC/</link>
+		<description>Recent content in 흑심 on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Thu, 29 Jan 2009 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/%ED%9D%91%EC%8B%AC/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>남자가 여자에게 옷을 선물하는 이유</title>
+				<link>https://ezaurum.com/2009/01/%EB%82%A8%EC%9E%90%EA%B0%80-%EC%97%AC%EC%9E%90%EC%97%90%EA%B2%8C-%EC%98%B7%EC%9D%84-%EC%84%A0%EB%AC%BC%ED%95%98%EB%8A%94-%EC%9D%B4%EC%9C%A0/</link>
+				<pubDate>Thu, 29 Jan 2009 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2009/01/%EB%82%A8%EC%9E%90%EA%B0%80-%EC%97%AC%EC%9E%90%EC%97%90%EA%B2%8C-%EC%98%B7%EC%9D%84-%EC%84%A0%EB%AC%BC%ED%95%98%EB%8A%94-%EC%9D%B4%EC%9C%A0/</guid>
+				<description>&lt;p&gt;[caption id=&amp;ldquo;attachment_347&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;352&amp;rdquo; caption=&amp;ldquo;남자가 여자에게 옷을 설물하는 이유&amp;rdquo;]&lt;img src=&#34;https://ezaurum.com/wordpress/wp-content/uploads/2009/01/eca7a4ebb0a9.png&#34; alt=&#34;남자가 여자에게 옷을 설물하는 이유는 벗기기 위해서이다&#34; title=&#34;남자가 여자에게 옷을 선물하는 이유&#34; width=&#34;352&#34; height=&#34;572&#34; class=&#34;size-full wp-image-347&#34; /&gt;[/caption]&lt;/p&gt;&#xA;&lt;p&gt;네. 그렇습니다. &lt;del datetime=&#34;2009-01-28T20:09:24+00:00&#34;&gt;누가 내 옷 선물 좀 받아주&amp;hellip;&lt;/del&gt;&#xA;출처는 나쯔키 타카야의 별은 노래한다 1권 57p&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

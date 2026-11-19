@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>이사 on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/%EC%9D%B4%EC%82%AC/</link>
-    <description>Recent content in 이사 on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Fri, 24 Apr 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/%EC%9D%B4%EC%82%AC/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>이사</title>
-      <link>https://ezaurum.com/2015/04/%EC%9D%B4%EC%82%AC/</link>
-      <pubDate>Fri, 24 Apr 2015 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2015/04/%EC%9D%B4%EC%82%AC/</guid>
-      <description>여전히 월세방이지만, 조금 넓은 집으로 이사를 왔다. 어머니와 살림을 합쳤는데, 어쩐지 내 짐이 더 많은 것도 같은 기분이다. 이틀을 짐을 옮기고 난리를 쳤는데 아직 완전히 정리가 안 되었다. 아마도 어머니께서 완전히 올라오는 6월이 되어야 정리가 마무리 될 것 같다.&#xA;사람이 간사해서, 고시원 있다가 반지하라도 내 방이 생기니까 정말 좋았는데, 천장이 높고 넓은 방으로 옮기니 언제 그랬냐는 듯 반지하는 살기 힘들어졌다. 계약이 끝나고 나서 여기보다 더 넓은 방으로 옮기려면 돈을 많이 벌어야겠다.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>이사 on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/%EC%9D%B4%EC%82%AC/</link>
+		<description>Recent content in 이사 on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Fri, 24 Apr 2015 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/%EC%9D%B4%EC%82%AC/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>이사</title>
+				<link>https://ezaurum.com/2015/04/%EC%9D%B4%EC%82%AC/</link>
+				<pubDate>Fri, 24 Apr 2015 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2015/04/%EC%9D%B4%EC%82%AC/</guid>
+				<description>&lt;p&gt;여전히 월세방이지만, 조금 넓은 집으로 이사를 왔다.&#xA;어머니와 살림을 합쳤는데, 어쩐지 내 짐이 더 많은 것도 같은 기분이다.&#xA;이틀을 짐을 옮기고 난리를 쳤는데 아직 완전히 정리가 안 되었다.&#xA;아마도 어머니께서 완전히 올라오는 6월이 되어야 정리가 마무리 될 것 같다.&lt;/p&gt;&#xA;&lt;p&gt;사람이 간사해서, 고시원 있다가 반지하라도 내 방이 생기니까 정말 좋았는데, 천장이 높고 넓은 방으로 옮기니 언제 그랬냐는 듯 반지하는 살기 힘들어졌다.&#xA;계약이 끝나고 나서 여기보다 더 넓은 방으로 옮기려면 돈을 많이 벌어야겠다.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

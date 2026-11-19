@@ -1,27 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Serialize on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/serialize/</link>
-    <description>Recent content in Serialize on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Thu, 25 Jul 2013 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/serialize/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Jackson이 null 인 프로퍼티를 빼고 Serialize하게 하기</title>
-      <link>https://ezaurum.com/2013/07/Jackson%EC%9D%B4-null-%EC%9D%B8-%ED%94%84%EB%A1%9C%ED%8D%BC%ED%8B%B0%EB%A5%BC-%EB%B9%BC%EA%B3%A0-Serialize%ED%95%98%EA%B2%8C-%ED%95%98%EA%B8%B0/</link>
-      <pubDate>Thu, 25 Jul 2013 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2013/07/Jackson%EC%9D%B4-null-%EC%9D%B8-%ED%94%84%EB%A1%9C%ED%8D%BC%ED%8B%B0%EB%A5%BC-%EB%B9%BC%EA%B3%A0-Serialize%ED%95%98%EA%B2%8C-%ED%95%98%EA%B8%B0/</guid>
-      <description>클래스 선언부에 다음을 추가 @JsonSerialize(include = JsonSerialize.Inclusion.NON_NULL) public class Blabla { &amp;hellip; } 상속도 된다.</description>
-    </item>
-    <item>
-      <title>부정기 정리</title>
-      <link>https://ezaurum.com/2013/01/%EB%B6%80%EC%A0%95%EA%B8%B0-%EC%A0%95%EB%A6%AC/</link>
-      <pubDate>Sun, 27 Jan 2013 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2013/01/%EB%B6%80%EC%A0%95%EA%B8%B0-%EC%A0%95%EB%A6%AC/</guid>
-      <description>모든 것에 의미있는 히스토리가 있어야 한다.&#xD;log, history 들은 AOP로 구현해야 한다.&#xD;필연적으로 데이터가 많아지므로 async&amp;amp;big data를 고려.&#xD;사용하는 객체는 UUID 류의 인덱스가 붙어 있는 게 편하다. 그러잖으면 검색이 계속 일어나야 함. hash든 뭐든 즉시 찾을 수 있게 하자.&#xD;JSON-object 변환시, 상황에 따라 내부 object를 다 변환할지 id만 뽑아올지를 생각해보자.&#xD;AWS S3에서 파일이 없어도 403이 뜬다. 보안상 당연한가...&#xD;switch 문에 케이스가 줄줄 붙어 있으면 제거해 보자.&#xD;요구 사항 명세, 문서와 테스트 케이스가 같으면 좋다.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Serialize on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/serialize/</link>
+		<description>Recent content in Serialize on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Thu, 25 Jul 2013 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/serialize/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Jackson이 null 인 프로퍼티를 빼고 Serialize하게 하기</title>
+				<link>https://ezaurum.com/2013/07/Jackson%EC%9D%B4-null-%EC%9D%B8-%ED%94%84%EB%A1%9C%ED%8D%BC%ED%8B%B0%EB%A5%BC-%EB%B9%BC%EA%B3%A0-Serialize%ED%95%98%EA%B2%8C-%ED%95%98%EA%B8%B0/</link>
+				<pubDate>Thu, 25 Jul 2013 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2013/07/Jackson%EC%9D%B4-null-%EC%9D%B8-%ED%94%84%EB%A1%9C%ED%8D%BC%ED%8B%B0%EB%A5%BC-%EB%B9%BC%EA%B3%A0-Serialize%ED%95%98%EA%B2%8C-%ED%95%98%EA%B8%B0/</guid>
+				<description>&lt;p&gt;클래스 선언부에 다음을 추가 &lt;code&gt;&#xA;@JsonSerialize(include = JsonSerialize.Inclusion.NON_NULL)&#xA;public class Blabla { &amp;hellip; }&#xA;&lt;/code&gt;&#xA;상속도 된다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>부정기 정리</title>
+				<link>https://ezaurum.com/2013/01/%EB%B6%80%EC%A0%95%EA%B8%B0-%EC%A0%95%EB%A6%AC/</link>
+				<pubDate>Sun, 27 Jan 2013 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2013/01/%EB%B6%80%EC%A0%95%EA%B8%B0-%EC%A0%95%EB%A6%AC/</guid>
+				<description>&lt;ul&gt;&#xD;&#xA;&lt;li&gt;모든 것에 의미있는 히스토리가 있어야 한다.&lt;/li&gt;&#xD;&#xA;&lt;li&gt;log, history 들은 AOP로 구현해야 한다.&lt;/li&gt;&#xD;&#xA;&lt;li&gt;필연적으로 데이터가 많아지므로 async&amp;amp;big data를 고려.&lt;/li&gt;&#xD;&#xA;&lt;li&gt;사용하는 객체는 UUID 류의 인덱스가 붙어 있는 게 편하다. 그러잖으면 검색이 계속 일어나야 함. hash든 뭐든 즉시 찾을 수 있게 하자.&lt;/li&gt;&#xD;&#xA;&lt;li&gt;JSON-object 변환시, 상황에 따라 내부 object를 다 변환할지 id만 뽑아올지를 생각해보자.&lt;/li&gt;&#xD;&#xA;&lt;li&gt;AWS S3에서 파일이 없어도 403이 뜬다. 보안상 당연한가...&lt;/li&gt;&#xD;&#xA;&lt;li&gt;switch 문에 케이스가 줄줄 붙어 있으면 제거해 보자.&lt;/li&gt;&#xD;&#xA;&lt;li&gt;요구 사항 명세, 문서와 테스트 케이스가 같으면 좋다. BDD?&lt;/li&gt;&#xD;&#xA;&lt;/ul&gt;</description>
+			</item>
+	</channel>
 </rss>

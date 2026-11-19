@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Csv on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/csv/</link>
-    <description>Recent content in Csv on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Sun, 12 May 2019 01:54:01 +0900</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/csv/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>쿼리 결과를 CSV 파일로 생성</title>
-      <link>https://ezaurum.com/2019/05/%EC%BF%BC%EB%A6%AC-%EA%B2%B0%EA%B3%BC%EB%A5%BC-CSV-%ED%8C%8C%EC%9D%BC%EB%A1%9C-%EC%83%9D%EC%84%B1/</link>
-      <pubDate>Sun, 12 May 2019 01:54:01 +0900</pubDate>
-      <guid>https://ezaurum.com/2019/05/%EC%BF%BC%EB%A6%AC-%EA%B2%B0%EA%B3%BC%EB%A5%BC-CSV-%ED%8C%8C%EC%9D%BC%EB%A1%9C-%EC%83%9D%EC%84%B1/</guid>
-      <description>select b.*, a.* from log_table a, somehow_table b where a.id = b.id and check_result=&amp;#39;Success&amp;#39; and a.column=123 INTO OUTFILE &amp;#39;orders.csv&amp;#39; FIELDS TERMINATED BY &amp;#39;,&amp;#39; ENCLOSED BY &amp;#39;&amp;#34;&amp;#39; LINES TERMINATED BY &amp;#39;\n&amp;#39;; </description>
-    </item>
-  </channel>
+	<channel>
+		<title>Csv on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/csv/</link>
+		<description>Recent content in Csv on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Sun, 12 May 2019 01:54:01 +0900</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/csv/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>쿼리 결과를 CSV 파일로 생성</title>
+				<link>https://ezaurum.com/2019/05/%EC%BF%BC%EB%A6%AC-%EA%B2%B0%EA%B3%BC%EB%A5%BC-CSV-%ED%8C%8C%EC%9D%BC%EB%A1%9C-%EC%83%9D%EC%84%B1/</link>
+				<pubDate>Sun, 12 May 2019 01:54:01 +0900</pubDate>
+				<guid>https://ezaurum.com/2019/05/%EC%BF%BC%EB%A6%AC-%EA%B2%B0%EA%B3%BC%EB%A5%BC-CSV-%ED%8C%8C%EC%9D%BC%EB%A1%9C-%EC%83%9D%EC%84%B1/</guid>
+				<description>&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;select b.*, a.* from log_table a,&#xA;somehow_table b where a.id = b.id&#xA;and check_result=&amp;#39;Success&amp;#39; and a.column=123&#xA;INTO OUTFILE &amp;#39;orders.csv&amp;#39; FIELDS TERMINATED BY &amp;#39;,&amp;#39; ENCLOSED BY &amp;#39;&amp;#34;&amp;#39; LINES TERMINATED BY &amp;#39;\n&amp;#39;;&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
+			</item>
+	</channel>
 </rss>

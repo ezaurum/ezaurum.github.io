@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Ppk on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/ppk/</link>
-    <description>Recent content in Ppk on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Tue, 23 Apr 2013 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/ppk/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Sourcetree 에서 access right 에러</title>
-      <link>https://ezaurum.com/2013/04/Sourcetree-%EC%97%90%EC%84%9C-access-right-%EC%97%90%EB%9F%AC/</link>
-      <pubDate>Tue, 23 Apr 2013 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2013/04/Sourcetree-%EC%97%90%EC%84%9C-access-right-%EC%97%90%EB%9F%AC/</guid>
-      <description>windows용 sourcetree는 개인키를 ppk파일로 지정해 줘야 한다. 그러니 git이 잘 돌아가고 있더라도 그대로는 저장소에 접근도 안 된다.&#xA;그러니 tool 메뉴에서 Create or import SSH keys를 선택하면 putty 키 생성기가 뜨는데, 거기서 Conversions 메뉴의 Import key를 선택한다. git이 사용하는 개인키를 선택해서 불러오고, save private keyy를 이용해서 ppk파일을 저장해준다.&#xA;다시 tool 메뉴에서 Launch SSH Agent를 클릭하면 ppk 파일을 지정하게 되고 그러면 문제는 모두 해결.&#xA;참고 링크</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Ppk on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/ppk/</link>
+		<description>Recent content in Ppk on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Tue, 23 Apr 2013 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/ppk/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Sourcetree 에서 access right 에러</title>
+				<link>https://ezaurum.com/2013/04/Sourcetree-%EC%97%90%EC%84%9C-access-right-%EC%97%90%EB%9F%AC/</link>
+				<pubDate>Tue, 23 Apr 2013 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2013/04/Sourcetree-%EC%97%90%EC%84%9C-access-right-%EC%97%90%EB%9F%AC/</guid>
+				<description>&lt;p&gt;windows용 sourcetree는 개인키를 ppk파일로 지정해 줘야 한다.&#xA;그러니 git이 잘 돌아가고 있더라도 그대로는 저장소에 접근도 안 된다.&lt;/p&gt;&#xA;&lt;p&gt;그러니 tool 메뉴에서 Create or import SSH keys를 선택하면 putty 키 생성기가 뜨는데, 거기서 Conversions 메뉴의 Import key를 선택한다.&#xA;git이 사용하는 개인키를 선택해서 불러오고, save private keyy를 이용해서 ppk파일을 저장해준다.&lt;/p&gt;&#xA;&lt;p&gt;다시 tool 메뉴에서 Launch SSH Agent를 클릭하면 ppk 파일을 지정하게 되고 그러면 문제는 모두 해결.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://stackoverflow.com/questions/15547331/sourcetree-for-windows-not-working&#34;&gt;참고 링크&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

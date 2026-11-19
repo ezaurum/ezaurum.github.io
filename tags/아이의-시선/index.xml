@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>아이의 시선 on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/%EC%95%84%EC%9D%B4%EC%9D%98-%EC%8B%9C%EC%84%A0/</link>
-    <description>Recent content in 아이의 시선 on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Sun, 25 May 2014 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/%EC%95%84%EC%9D%B4%EC%9D%98-%EC%8B%9C%EC%84%A0/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>엔더의 게임</title>
-      <link>https://ezaurum.com/2014/05/%EC%97%94%EB%8D%94%EC%9D%98-%EA%B2%8C%EC%9E%84/</link>
-      <pubDate>Sun, 25 May 2014 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2014/05/%EC%97%94%EB%8D%94%EC%9D%98-%EA%B2%8C%EC%9E%84/</guid>
-      <description>영화를 보자마자 사들고 왔다.&#xA;영화보다는 소설이 훨씬 낫구나.&#xA;어린아이의 시선이라는 점에서 이만큼 아이 자신의 시선에 근접한 것도 없어 보인다.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>아이의 시선 on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/%EC%95%84%EC%9D%B4%EC%9D%98-%EC%8B%9C%EC%84%A0/</link>
+		<description>Recent content in 아이의 시선 on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Sun, 25 May 2014 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/%EC%95%84%EC%9D%B4%EC%9D%98-%EC%8B%9C%EC%84%A0/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>엔더의 게임</title>
+				<link>https://ezaurum.com/2014/05/%EC%97%94%EB%8D%94%EC%9D%98-%EA%B2%8C%EC%9E%84/</link>
+				<pubDate>Sun, 25 May 2014 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2014/05/%EC%97%94%EB%8D%94%EC%9D%98-%EA%B2%8C%EC%9E%84/</guid>
+				<description>&lt;p&gt;영화를 보자마자 사들고 왔다.&lt;/p&gt;&#xA;&lt;p&gt;영화보다는 소설이 훨씬 낫구나.&lt;/p&gt;&#xA;&lt;p&gt;어린아이의 시선이라는 점에서 이만큼 아이 자신의 시선에 근접한 것도 없어 보인다.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

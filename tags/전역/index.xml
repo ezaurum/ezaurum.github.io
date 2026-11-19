@@ -1,27 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>전역 on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/%EC%A0%84%EC%97%AD/</link>
-    <description>Recent content in 전역 on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Wed, 22 Jun 2011 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/%EC%A0%84%EC%97%AD/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>전역전 목표 변경</title>
-      <link>https://ezaurum.com/2011/06/%EC%A0%84%EC%97%AD%EC%A0%84-%EB%AA%A9%ED%91%9C-%EB%B3%80%EA%B2%BD/</link>
-      <pubDate>Wed, 22 Jun 2011 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2011/06/%EC%A0%84%EC%97%AD%EC%A0%84-%EB%AA%A9%ED%91%9C-%EB%B3%80%EA%B2%BD/</guid>
-      <description>꽤나 많은 것을 목표로 하였으나, 제대 100일 정도를 남겨둔 시점에서 실제로 달성한 것은 하나 뿐&amp;hellip; ORL&#xA;그러므로 선택과 집중의 원칙에 의거, 정리를 하겠음. 마감이 다가오면 더 일이 제대로 안 되는 성격이라&amp;hellip;&#xA;체중 -5kg(72→67)&#xD;취업용 포트폴리오 제작(1/2 진행중)하나만 하기로 하고 완료&#xD;화이팅해보자!&#xD;</description>
-    </item>
-    <item>
-      <title>전역전 목표</title>
-      <link>https://ezaurum.com/2010/06/%EC%A0%84%EC%97%AD%EC%A0%84-%EB%AA%A9%ED%91%9C/</link>
-      <pubDate>Wed, 30 Jun 2010 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2010/06/%EC%A0%84%EC%97%AD%EC%A0%84-%EB%AA%A9%ED%91%9C/</guid>
-      <description>외부면&#xA;시간제한 없이 윗몸 일으키기 100회 (현재 30여 회)달성&#xD;시간제한 없이 팔굽혀 펴기 100회 (현재 40여 회)&#xD;3km 달리기 13분 대(현재 14-15분)&#xD;내부면&#xA;책 150권 읽기-(현재 104/150)&#xD;일본어 능력시험 1급달성&#xD;한자 자격증 1급&#xD;토익 900점대 (마지막 시험은 700대)&#xD;SICP와 Introduction to Algorithm 독파 - 인강 포함&#xD;달마다 하나씩 성과물 올릴 것&#xD;달마다 하나씩 글 올릴 것&#xD;소리내어 말해 버렸으니 돌이킬 수 없나? 힘내보자. 앞으로 1년 4개월.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>전역 on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/%EC%A0%84%EC%97%AD/</link>
+		<description>Recent content in 전역 on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Wed, 22 Jun 2011 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/%EC%A0%84%EC%97%AD/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>전역전 목표 변경</title>
+				<link>https://ezaurum.com/2011/06/%EC%A0%84%EC%97%AD%EC%A0%84-%EB%AA%A9%ED%91%9C-%EB%B3%80%EA%B2%BD/</link>
+				<pubDate>Wed, 22 Jun 2011 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2011/06/%EC%A0%84%EC%97%AD%EC%A0%84-%EB%AA%A9%ED%91%9C-%EB%B3%80%EA%B2%BD/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;http://xn--si2b20bg5cf32b.com/2010/06/30/%ec%a0%84%ec%97%ad%ec%a0%84-%eb%aa%a9%ed%91%9c/&#34; title=&#34;전역전 목표&#34;&gt;꽤나 많은 것을 목표&lt;/a&gt;로 하였으나, 제대 100일 정도를 남겨둔 시점에서 실제로 달성한 것은 하나 뿐&amp;hellip; ORL&lt;/p&gt;&#xA;&lt;p&gt;그러므로 선택과 집중의 원칙에 의거, 정리를 하겠음. 마감이 다가오면 더 일이 제대로 안 되는 성격이라&amp;hellip;&lt;/p&gt;&#xA;&lt;ol&gt;&#x9;&lt;li&gt;체중 -5kg(72→67)&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;&lt;del datetime=&#34;2011-09-20T14:35:28+00:00&#34;&gt;취업용 포트폴리오 제작(1/2 진행중)&lt;/del&gt;&lt;ins datetime=&#34;2011-09-20T14:35:28+00:00&#34;&gt;하나만 하기로 하고 완료&lt;/ins&gt;&lt;/li&gt;&lt;/ol&gt;&#xD;&#xA;화이팅해보자!</description>
+			</item>
+			<item>
+				<title>전역전 목표</title>
+				<link>https://ezaurum.com/2010/06/%EC%A0%84%EC%97%AD%EC%A0%84-%EB%AA%A9%ED%91%9C/</link>
+				<pubDate>Wed, 30 Jun 2010 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2010/06/%EC%A0%84%EC%97%AD%EC%A0%84-%EB%AA%A9%ED%91%9C/</guid>
+				<description>&lt;p&gt;외부면&lt;/p&gt;&#xA;&lt;ol class=&#34;flesh mission&#34;&gt;&#xD;&#xA;&lt;li&gt;&lt;del datetime=&#34;2010-08-15T23:13:44+00:00&#34;&gt;시간제한 없이 윗몸 일으키기 100회 (현재 30여 회)&lt;/del&gt;&lt;ins datetime=&#34;2010-08-15T23:13:44+00:00&#34;&gt;&lt;a href=&#34;http://xn--si2b20bg5cf32b.com/2010/08/16/%ec%9c%97%eb%aa%b8-%ec%9d%bc%ec%9c%bc%ed%82%a4%ea%b8%b0-100%ea%b0%9c/&#34; title=&#34;윗몸 일으키기 100개&#34;&gt;달성&lt;/a&gt;&lt;/ins&gt;&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;시간제한 없이 팔굽혀 펴기 100회 (현재 40여 회)&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;3km 달리기 13분 대(현재 14-15분)&lt;/li&gt;&#xD;&#xA;&lt;/ol&gt;&#xD;&#xA;&lt;p&gt;내부면&lt;/p&gt;&#xA;&lt;ol class=&#34;soul mission&#34;&gt;&#xD;&#xA;&#x9;&lt;li&gt;책 150권 읽기-(현재 104/150)&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;&lt;del datetime=&#34;2011-09-04T07:18:10+00:00&#34;&gt;일본어 능력시험 1급&lt;/del&gt;&lt;ins datetime=&#34;2011-09-04T07:18:10+00:00&#34;&gt;&lt;a href=&#34;http://xn--si2b20bg5cf32b.com/2011/09/04/jlpt-n1-%ed%95%a9%ea%b2%a9/&#34; title=&#34;JLPT N1 합격&#34;&gt;달성&lt;/a&gt;&lt;/ins&gt;&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;한자 자격증 1급&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;토익 900점대 (마지막 시험은 700대)&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;SICP와 Introduction to Algorithm 독파 - 인강 포함&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;달마다 하나씩 &lt;a href=&#34;https://ezaurum.com/tag/성과물/&#34;&gt;성과물&lt;/a&gt; 올릴 것&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;달마다 하나씩 글 올릴 것&lt;/li&gt;&#xD;&#xA;&lt;/ol&gt;&#xD;&#xA;&lt;p&gt;소리내어 말해 버렸으니 돌이킬 수 없나? 힘내보자. 앞으로 1년 4개월.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

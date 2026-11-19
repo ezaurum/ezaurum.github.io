@@ -1,55 +1,61 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Wordpress on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/wordpress/</link>
-    <description>Recent content in Wordpress on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Sat, 19 Jan 2013 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/wordpress/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>CodeColorer 설치</title>
-      <link>https://ezaurum.com/2013/01/CodeColorer-%EC%84%A4%EC%B9%98/</link>
-      <pubDate>Sat, 19 Jan 2013 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2013/01/CodeColorer-%EC%84%A4%EC%B9%98/</guid>
-      <description>var a;&#xD;a +=1; alert(a);</description>
-    </item>
-    <item>
-      <title>WP-Markdown 설치</title>
-      <link>https://ezaurum.com/2013/01/WP-Markdown-%EC%84%A4%EC%B9%98/</link>
-      <pubDate>Sat, 19 Jan 2013 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2013/01/WP-Markdown-%EC%84%A4%EC%B9%98/</guid>
-      <description>마크다운플러그인 설치함 시험용 포스팅&#xA;일단 써 보고&#xD;어케 되는지 봐야지&#xD;가 리스트군&#xD;흠...&#xA;printf(&#34;h&#34;);</description>
-    </item>
-    <item>
-      <title>워드프레스에서 UTF-8이 euc-kr로 나오는 경우</title>
-      <link>https://ezaurum.com/2009/09/%EC%9B%8C%EB%93%9C%ED%94%84%EB%A0%88%EC%8A%A4%EC%97%90%EC%84%9C-UTF-8%EC%9D%B4-euc-kr%EB%A1%9C-%EB%82%98%EC%98%A4%EB%8A%94-%EA%B2%BD%EC%9A%B0/</link>
-      <pubDate>Sat, 12 Sep 2009 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2009/09/%EC%9B%8C%EB%93%9C%ED%94%84%EB%A0%88%EC%8A%A4%EC%97%90%EC%84%9C-UTF-8%EC%9D%B4-euc-kr%EB%A1%9C-%EB%82%98%EC%98%A4%EB%8A%94-%EA%B2%BD%EC%9A%B0/</guid>
-      <description>공짜 호스팅을 쓰다가 용량 문제도 있고 이거저거 귀찮은 일들이 많아서 그냥 유료 호스팅을 하나 뚫었다. nayana.com 을 쓰기로 했는데&amp;hellip; &amp;hellip;아파치 설정이 이상한지 워드프레스에서 한글이 다 깨지는 거다. 이것저것 알아본 바, 다음 원인&amp;amp; 해결책이 나왔다.&#xA;utf-8을 지원한다더니&amp;hellip; mysql만 그걸 지원하고 아파치는 euc-kr로 해 뒀나 보더라. 하지만&amp;hellip; 이건 구버전용. 지금은 전부 class를 사용해서 짜 놨더라. 분석하고 있겠냐!&#xA;그래서&amp;hellip;워드프레스 포럼의 글을 참고했으나, 여기서도 실패한 결과. 어쨌든 지금 포스팅 내용은 멀쩡히 나오니까. 일단은 그냥 넘어가자.</description>
-    </item>
-    <item>
-      <title>워드프레스 테마 만들기 - 1 -</title>
-      <link>https://ezaurum.com/2008/05/%EC%9B%8C%EB%93%9C%ED%94%84%EB%A0%88%EC%8A%A4-%ED%85%8C%EB%A7%88-%EB%A7%8C%EB%93%A4%EA%B8%B0-1-/</link>
-      <pubDate>Mon, 19 May 2008 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2008/05/%EC%9B%8C%EB%93%9C%ED%94%84%EB%A0%88%EC%8A%A4-%ED%85%8C%EB%A7%88-%EB%A7%8C%EB%93%A4%EA%B8%B0-1-/</guid>
-      <description>내가 만든게 짱이야~ 라는 식은 아니지만, 아무래도 남이 만든 건 아무리 예뻐도 마음에 안 드는 부분이 있기 마련이다. 그러니 자, 시작해 보자. 워드프레스 테마 만들기!&#xA;일단 스텝 1. 블로그의 구조를 결정하자.&#xA;기본적으로 상단에는 블로그 제목, 가벼운 설명이나, 현재 위치한 페이지 정도가 들어간다. 하단에는 광고나, 블로그의 기술적 정보 정도가 들어가게 되겠다. 사이드 바라고 불리는 부분, 왼쪽이나 오른쪽의 실제 내용과 조금 동떨어진 부분에는 카테고리 구조나, 검색창, 태그 클라우드, 뭐 기타 등등이 들어갈 예정이다.</description>
-    </item>
-    <item>
-      <title>워드프레스를 업그레이드했다.</title>
-      <link>https://ezaurum.com/2008/02/%EC%9B%8C%EB%93%9C%ED%94%84%EB%A0%88%EC%8A%A4%EB%A5%BC-%EC%97%85%EA%B7%B8%EB%A0%88%EC%9D%B4%EB%93%9C%ED%96%88%EB%8B%A4./</link>
-      <pubDate>Mon, 18 Feb 2008 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2008/02/%EC%9B%8C%EB%93%9C%ED%94%84%EB%A0%88%EC%8A%A4%EB%A5%BC-%EC%97%85%EA%B7%B8%EB%A0%88%EC%9D%B4%EB%93%9C%ED%96%88%EB%8B%A4./</guid>
-      <description>언제부턴지 모르지만, 태그가 자동 지원된다. 으으. 포스트가 많지 않아서 다행이랄까. 여튼 그래서 좋긴 함. 그리고 스킨을 바꿨음. .. 별로 차이가 없어 보이는 건 기분 탓.</description>
-    </item>
-    <item>
-      <title>UTF-8 환경에서 한글 post slug 문제</title>
-      <link>https://ezaurum.com/2007/08/UTF-8-%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C-%ED%95%9C%EA%B8%80-post-slug-%EB%AC%B8%EC%A0%9C/</link>
-      <pubDate>Fri, 17 Aug 2007 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2007/08/UTF-8-%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C-%ED%95%9C%EA%B8%80-post-slug-%EB%AC%B8%EC%A0%9C/</guid>
-      <description>지난 번에 워드프레스를 쓰다가 결국 해결하지 못했던 문제가, 한글로 post slug(포스트의 url 을 숫자와 물음표가 범벅이 된 모양이 아니라 그냥 글자로 바꿔주는 기능이라고 생각하면 될 듯)를 쓰면 그 포스트를 찾지 못했던 것인데, 이번에 해결했다.&#xA;&amp;lt;IfModule mod_url.c&amp;gt;&#xD;CheckURL Off&#xD;&amp;lt;/IfModule&amp;gt;&#xD;문제점 : 옵션에서 퍼머링크를 누르기만 해도, WP가 .htaccess 파일을 자동으로 수정해 버리는 바람에 곤란.&#xD;문제점 해결 : .htaccess 파일의 권한을 755로 변경. 쓰지 못하게 해버렸음.&#xD;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Wordpress on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/wordpress/</link>
+		<description>Recent content in Wordpress on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Sat, 19 Jan 2013 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/wordpress/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>CodeColorer 설치</title>
+				<link>https://ezaurum.com/2013/01/CodeColorer-%EC%84%A4%EC%B9%98/</link>
+				<pubDate>Sat, 19 Jan 2013 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2013/01/CodeColorer-%EC%84%A4%EC%B9%98/</guid>
+				<description>&lt;p&gt;&lt;code&gt;var a;&#xD;&#xA;a +=1; &#xD;&#xA;alert(a);&lt;/code&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>WP-Markdown 설치</title>
+				<link>https://ezaurum.com/2013/01/WP-Markdown-%EC%84%A4%EC%B9%98/</link>
+				<pubDate>Sat, 19 Jan 2013 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2013/01/WP-Markdown-%EC%84%A4%EC%B9%98/</guid>
+				<description>&lt;p&gt;&lt;em&gt;마크다운&lt;/em&gt;플러그인 설치함 시험용 포스팅&lt;/p&gt;&#xD;&#xA;&lt;ol&gt;&#xD;&#xA;&lt;li&gt;일단 써 보고&lt;/li&gt;&#xD;&#xA;&lt;li&gt;어케 되는지 봐야지&lt;/li&gt;&#xD;&#xA;&lt;/ol&gt;&#xD;&#xA;&lt;ul&gt;&#xD;&#xA;&lt;li&gt;가 리스트군&lt;/li&gt;&#xD;&#xA;&lt;li&gt;&lt;p&gt;흠...&lt;/p&gt;&#xD;&#xA;&lt;p&gt;&lt;code&gt;printf(&#34;h&#34;);&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;&#xD;&#xA;&lt;/ul&gt;</description>
+			</item>
+			<item>
+				<title>워드프레스에서 UTF-8이 euc-kr로 나오는 경우</title>
+				<link>https://ezaurum.com/2009/09/%EC%9B%8C%EB%93%9C%ED%94%84%EB%A0%88%EC%8A%A4%EC%97%90%EC%84%9C-UTF-8%EC%9D%B4-euc-kr%EB%A1%9C-%EB%82%98%EC%98%A4%EB%8A%94-%EA%B2%BD%EC%9A%B0/</link>
+				<pubDate>Sat, 12 Sep 2009 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2009/09/%EC%9B%8C%EB%93%9C%ED%94%84%EB%A0%88%EC%8A%A4%EC%97%90%EC%84%9C-UTF-8%EC%9D%B4-euc-kr%EB%A1%9C-%EB%82%98%EC%98%A4%EB%8A%94-%EA%B2%BD%EC%9A%B0/</guid>
+				<description>&lt;p&gt;공짜 호스팅을 쓰다가 용량 문제도 있고 이거저거 귀찮은 일들이 많아서 그냥 유료 호스팅을 하나 뚫었다.&#xA;nayana.com 을 쓰기로 했는데&amp;hellip;&#xA;&amp;hellip;아파치 설정이 이상한지 워드프레스에서 한글이 다 깨지는 거다.&#xA;이것저것 알아본 바, 다음 &lt;a href=&#34;http://www.technote.co.kr/php/technote1/board.php?board=faq&amp;amp;command=body&amp;amp;no=20&#34;&gt;원인&lt;/a&gt;&amp;amp; &lt;a href=&#34;http://ebadac.com/wp/wordpress-utf8-troubleshooting/&#34;&gt;해결책&lt;/a&gt;이 나왔다.&lt;/p&gt;&#xA;&lt;p&gt;utf-8을 지원한다더니&amp;hellip; mysql만 그걸 지원하고 아파치는 euc-kr로 해 뒀나 보더라.&#xA;하지만&amp;hellip; 이건 구버전용. 지금은 전부 class를 사용해서 짜 놨더라.&#xA;분석하고 있겠냐!&lt;/p&gt;&#xA;&lt;p&gt;그래서&amp;hellip;&lt;a href=&#34;http://wordpress.org/support/topic/224874&#34;&gt;워드프레스 포럼의 글&lt;/a&gt;을 참고했으나, 여기서도 실패한 결과.&#xA;어쨌든 지금 포스팅 내용은 멀쩡히 나오니까. 일단은 그냥 넘어가자.&#xA;&amp;hellip;.하지만 군대가기 전에 수정해 놔야지.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>워드프레스 테마 만들기 - 1 -</title>
+				<link>https://ezaurum.com/2008/05/%EC%9B%8C%EB%93%9C%ED%94%84%EB%A0%88%EC%8A%A4-%ED%85%8C%EB%A7%88-%EB%A7%8C%EB%93%A4%EA%B8%B0-1-/</link>
+				<pubDate>Mon, 19 May 2008 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2008/05/%EC%9B%8C%EB%93%9C%ED%94%84%EB%A0%88%EC%8A%A4-%ED%85%8C%EB%A7%88-%EB%A7%8C%EB%93%A4%EA%B8%B0-1-/</guid>
+				<description>&lt;p&gt;내가 만든게 짱이야~ 라는 식은 아니지만, 아무래도 남이 만든 건 아무리 예뻐도 마음에 안 드는 부분이 있기 마련이다.&#xA;그러니 자, 시작해 보자. 워드프레스 테마 만들기!&lt;/p&gt;&#xA;&lt;p&gt;일단 스텝 1. 블로그의 구조를 결정하자.&lt;/p&gt;&#xA;&lt;p&gt;기본적으로 상단에는 블로그 제목, 가벼운 설명이나, 현재 위치한 페이지 정도가 들어간다.&#xA;하단에는 광고나, 블로그의 기술적 정보 정도가 들어가게 되겠다.&#xA;사이드 바라고 불리는 부분, 왼쪽이나 오른쪽의 실제 내용과 조금 동떨어진 부분에는 카테고리 구조나, 검색창, 태그 클라우드, 뭐 기타 등등이 들어갈 예정이다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>워드프레스를 업그레이드했다.</title>
+				<link>https://ezaurum.com/2008/02/%EC%9B%8C%EB%93%9C%ED%94%84%EB%A0%88%EC%8A%A4%EB%A5%BC-%EC%97%85%EA%B7%B8%EB%A0%88%EC%9D%B4%EB%93%9C%ED%96%88%EB%8B%A4./</link>
+				<pubDate>Mon, 18 Feb 2008 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2008/02/%EC%9B%8C%EB%93%9C%ED%94%84%EB%A0%88%EC%8A%A4%EB%A5%BC-%EC%97%85%EA%B7%B8%EB%A0%88%EC%9D%B4%EB%93%9C%ED%96%88%EB%8B%A4./</guid>
+				<description>&lt;p&gt;언제부턴지 모르지만, 태그가 자동 지원된다. 으으. 포스트가 많지 않아서 다행이랄까.&#xA;여튼 그래서 좋긴 함.&#xA;그리고 스킨을 바꿨음. .. 별로 차이가 없어 보이는 건 기분 탓.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>UTF-8 환경에서 한글 post slug 문제</title>
+				<link>https://ezaurum.com/2007/08/UTF-8-%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C-%ED%95%9C%EA%B8%80-post-slug-%EB%AC%B8%EC%A0%9C/</link>
+				<pubDate>Fri, 17 Aug 2007 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2007/08/UTF-8-%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C-%ED%95%9C%EA%B8%80-post-slug-%EB%AC%B8%EC%A0%9C/</guid>
+				<description>&lt;p&gt;지난 번에 워드프레스를 쓰다가 결국 해결하지 못했던 문제가, 한글로 post slug(포스트의 url 을 숫자와 물음표가 범벅이 된 모양이 아니라 그냥 글자로 바꿔주는 기능이라고 생각하면 될 듯)를 쓰면 그 포스트를 찾지 못했던 것인데, 이번에 해결했다.&lt;/p&gt;&#xA;&lt;blockquote title=&#34;http://www.soondesign.co.kr/709에서 찾은 post slug 문제 해결법&#34;&gt;&lt;code&gt;&#xD;&#xA;&amp;lt;IfModule mod_url.c&amp;gt;&#xD;&#xA;CheckURL Off&#xD;&#xA;&amp;lt;/IfModule&amp;gt;&#xD;&#xA;&lt;/code&gt;&#xD;&#xA;&lt;/blockquote&gt;&#xD;&#xA;&lt;ins&gt;&#xD;&#xA;문제점 : 옵션에서 퍼머링크를 누르기만 해도, WP가 .htaccess 파일을 자동으로 수정해 버리는 바람에 곤란.&#xD;&#xA;&lt;/ins&gt;&#xD;&#xA;&lt;ins&gt;&#xD;&#xA;문제점 해결 : .htaccess 파일의 권한을 755로 변경. 쓰지 못하게 해버렸음.&#xD;&#xA;&lt;/ins&gt;</description>
+			</item>
+	</channel>
 </rss>

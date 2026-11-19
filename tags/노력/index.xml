@@ -1,27 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>노력 on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/%EB%85%B8%EB%A0%A5/</link>
-    <description>Recent content in 노력 on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Sun, 13 Sep 2009 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/%EB%85%B8%EB%A0%A5/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>노력, 마감</title>
-      <link>https://ezaurum.com/2009/09/%EB%85%B8%EB%A0%A5-%EB%A7%88%EA%B0%90/</link>
-      <pubDate>Sun, 13 Sep 2009 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2009/09/%EB%85%B8%EB%A0%A5-%EB%A7%88%EA%B0%90/</guid>
-      <description>“네놈은 그 힘을 얻기 위해서 얼마나 노력했냐?”&#xD;마장호의 목소리에서 지금까지 본 것 중 가장 큰 살의가 배어나왔다&#xD;밤 동안 18kb, 약 2백라인 썼음. 과연 마감, 지킬 수 있을 것인가?</description>
-    </item>
-    <item>
-      <title>Dexter 2nd Season</title>
-      <link>https://ezaurum.com/2008/12/Dexter-2nd-Season/</link>
-      <pubDate>Wed, 24 Dec 2008 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2008/12/Dexter-2nd-Season/</guid>
-      <description>덱스터를 보고 있으면, 항상 “아 정말 이 녀석은 충실히 살고 있구나”하는 생각이 든다. 좀 부럽달까. 열정, 노력, 결단력, 헤메지 않는 그 굳건한 마음. 아아 정정하자. 많이 부럽다. 자기 일에 자부심을 가지고, 열심히 행하는 그 모습. 그래서 인기가 있는 건가. 자상한 오라버니, 쓸 만한 연인, 도움되는 아버지. 그런 모습도 좋고. 아아 그래. 여튼 이 드라마에서 가장 마음에 드는 부분은 목을 긋는 거긴 하지만. 그래 목을 긋는 거. 좋은 드라마다.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>노력 on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/%EB%85%B8%EB%A0%A5/</link>
+		<description>Recent content in 노력 on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Sun, 13 Sep 2009 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/%EB%85%B8%EB%A0%A5/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>노력, 마감</title>
+				<link>https://ezaurum.com/2009/09/%EB%85%B8%EB%A0%A5-%EB%A7%88%EA%B0%90/</link>
+				<pubDate>Sun, 13 Sep 2009 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2009/09/%EB%85%B8%EB%A0%A5-%EB%A7%88%EA%B0%90/</guid>
+				<description>&lt;blockquote&gt;“네놈은 그 힘을 얻기 위해서 얼마나 노력했냐?”&#xD;&#xA;마장호의 목소리에서 지금까지 본 것 중 가장 큰 살의가 배어나왔다&lt;/blockquote&gt;&#xD;&#xA;&lt;p&gt;밤 동안 18kb, 약 2백라인 썼음.&#xA;과연 마감, 지킬 수 있을 것인가?&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Dexter 2nd Season</title>
+				<link>https://ezaurum.com/2008/12/Dexter-2nd-Season/</link>
+				<pubDate>Wed, 24 Dec 2008 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2008/12/Dexter-2nd-Season/</guid>
+				<description>&lt;p&gt;덱스터를 보고 있으면, 항상 “아 정말 이 녀석은 충실히 살고 있구나”하는 생각이 든다.&#xA;좀 부럽달까.&#xA;열정, 노력, 결단력, 헤메지 않는 그 굳건한 마음.&#xA;아아 정정하자. 많이 부럽다.&#xA;자기 일에 자부심을 가지고, 열심히 행하는 그 모습.&#xA;그래서 인기가 있는 건가.&#xA;자상한 오라버니, 쓸 만한 연인, 도움되는 아버지. 그런 모습도 좋고.&#xA;아아 그래. 여튼 이 드라마에서 가장 마음에 드는 부분은 목을 긋는 거긴 하지만.&#xA;그래 목을 긋는 거. 좋은 드라마다.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Wasm on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/wasm/</link>
-    <description>Recent content in Wasm on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Wed, 27 Jun 2018 14:46:48 +0900</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/wasm/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Go 로 WASM 해보기</title>
-      <link>https://ezaurum.com/2018/06/Go-%EB%A1%9C-WASM-%ED%95%B4%EB%B3%B4%EA%B8%B0/</link>
-      <pubDate>Wed, 27 Jun 2018 14:46:48 +0900</pubDate>
-      <guid>https://ezaurum.com/2018/06/Go-%EB%A1%9C-WASM-%ED%95%B4%EB%B3%B4%EA%B8%B0/</guid>
-      <description>WASM은 WebAssembly의 약어로, 용어자체에서 보둣, 웹에서 ASM을 돌려보자는 프로젝트이다. 여러 장점이 있다고 하는데, 일단 가장 크게 느껴지는 건 익숙한 언어로 웹프로그래밍을 할 수 있을거라는 기대감이다.&#xA;이미 대부분의 브라우저에서 지원 해 주고 있고, Go에서도 1.10버전부터 정식 지원한다고 한다.&#xA;일단 검색해보니 참고 포스트가 하나 나와서 따라 해 봤다.&#xA;새 버전 go를 받아서 컴파일한다. 11버전부터니, Go 저장소에서 clone한다.&#xA;git clone https://github.com/golang/go 그 다음 src 에서 all.bash를 실행한다.&#xA;./all.bash 그럼 컴파일이 되고, ../bin에 go 가 생겨 있을 것이다.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Wasm on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/wasm/</link>
+		<description>Recent content in Wasm on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Wed, 27 Jun 2018 14:46:48 +0900</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/wasm/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Go 로 WASM 해보기</title>
+				<link>https://ezaurum.com/2018/06/Go-%EB%A1%9C-WASM-%ED%95%B4%EB%B3%B4%EA%B8%B0/</link>
+				<pubDate>Wed, 27 Jun 2018 14:46:48 +0900</pubDate>
+				<guid>https://ezaurum.com/2018/06/Go-%EB%A1%9C-WASM-%ED%95%B4%EB%B3%B4%EA%B8%B0/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;https://webassembly.org&#34;&gt;WASM&lt;/a&gt;은 WebAssembly의 약어로, 용어자체에서 보둣, 웹에서 ASM을 돌려보자는 프로젝트이다.&#xA;여러 장점이 있다고 하는데, 일단 가장 크게 느껴지는 건 익숙한 언어로 웹프로그래밍을 할 수 있을거라는 기대감이다.&lt;/p&gt;&#xA;&lt;p&gt;이미 &lt;a href=&#34;https://webassembly.org/roadmap&#34;&gt;대부분의 브라우저에서 지원&lt;/a&gt; 해 주고 있고, Go에서도 1.10버전부터 정식 지원한다고 한다.&lt;br&gt;&#xA;일단 검색해보니 &lt;a href=&#34;httsp://blog.lazyhacker.com/2018/06/go-with-webassembly-early-examples.html&#34;&gt;참고 포스트&lt;/a&gt;가 하나 나와서 따라 해 봤다.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;새 버전 go를 받아서 컴파일한다.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;11버전부터니,  &lt;a href=&#34;https://github.com/golang/go&#34;&gt;Go 저장소&lt;/a&gt;에서 clone한다.&lt;br&gt;&#xA;&lt;code&gt;git clone https://github.com/golang/go&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;그 다음 src 에서 all.bash를 실행한다.&lt;br&gt;&#xA;&lt;code&gt;./all.bash&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;그럼 컴파일이 되고, ../bin에 go 가 생겨 있을 것이다. 당연하게도 컴파일 결과는 파일 하나다.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;helloworld를 찍어본다.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;script src=&#34;https://gist.github.com/ezaurum/d9086bf463fcf42455eaca67c7fb5358.js&#34;&gt;&lt;/script&gt; &#xA;&lt;p&gt;컴파일은 새로 받은 go로 해야 한다. 결과 파일 이름을 test.wasm으로 하면 이후 단계에서 타이핑이 줄어든다.&lt;br&gt;&#xA;&lt;code&gt;GOOS=js GOARCH=wasm ./go build -o test.wasm test.go&lt;/code&gt;&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

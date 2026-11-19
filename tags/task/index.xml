@@ -1,27 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Task on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/task/</link>
-    <description>Recent content in Task on Ezaurum&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Mon, 16 Feb 2015 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://ezaurum.com/tags/task/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Task의 실행 시점</title>
-      <link>https://ezaurum.com/2015/02/Task%EC%9D%98-%EC%8B%A4%ED%96%89-%EC%8B%9C%EC%A0%90/</link>
-      <pubDate>Mon, 16 Feb 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://ezaurum.com/2015/02/Task%EC%9D%98-%EC%8B%A4%ED%96%89-%EC%8B%9C%EC%A0%90/</guid>
-      <description>Stackexchange redis에서 트랜잭션 진행이 멈춤이라는 질문과 답변을 보다가 Execute가 실제 명령어들보다 앞에서 await로 되어 있는 것을 보고 좀 이상하다는 느낌을 받았다. 그래서 열심히 검색하고 테스트 코드를 짜 보았다. https://gist.github.com/ezaurum/746ea24220b52b27b56c.js
-결론은, Task는 await로 되는 시점에 실행되는 것이 아니다. 단지 Task는 실행되고 있는 쓰레드(정확히 대응하는 것은 아니지만&amp;hellip;)에 대한 핸들러를 주는 것이고, await는 그게 종료 되었는지 확인 될 때까지 해당 프로시저를 멈추는 역할을 할 뿐이다. 그러니, 저 코드는 실제로는 다음과 같을 것이다.
- 트랜잭션 만든다.</description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>Task on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/Task/</link>
+		<description>Recent content in Task on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Mon, 16 Feb 2015 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/Task/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Task의 실행 시점</title>
+				<link>https://ezaurum.com/2015/02/Task%EC%9D%98-%EC%8B%A4%ED%96%89-%EC%8B%9C%EC%A0%90/</link>
+				<pubDate>Mon, 16 Feb 2015 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2015/02/Task%EC%9D%98-%EC%8B%A4%ED%96%89-%EC%8B%9C%EC%A0%90/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;http://stackoverflow.com/questions/25976231/stackexchange-redis-transaction-methods-freezes&#34;&gt;Stackexchange redis에서 트랜잭션 진행이 멈춤&lt;/a&gt;이라는 질문과 답변을 보다가 Execute가 실제 명령어들보다 앞에서 await로 되어 있는 것을 보고 좀 이상하다는 느낌을 받았다.&#xA;그래서 열심히 검색하고 테스트 코드를 짜 보았다.&#xA;&lt;a href=&#34;https://gist.github.com/ezaurum/746ea24220b52b27b56c.js&#34;&gt;&lt;a href=&#34;https://gist.github.com/ezaurum/746ea24220b52b27b56c.js&#34;&gt;https://gist.github.com/ezaurum/746ea24220b52b27b56c.js&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;결론은, Task는 await로 되는 시점에 실행되는 것이 아니다. 단지 Task는 실행되고 있는 쓰레드(정확히 대응하는 것은 아니지만&amp;hellip;)에 대한 핸들러를 주는 것이고, await는 그게 종료 되었는지 확인 될 때까지 해당 프로시저를 멈추는 역할을 할 뿐이다.&#xA;그러니, 저 코드는 실제로는 다음과 같을 것이다.&lt;/p&gt;&#xA;&lt;ul&gt;&#xD;&#xA;&#x9;&lt;li&gt;트랜잭션 만든다.&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;트랜잭션에 명령어 추가. 결과를 받아올 태스크 핸들러 받음&lt;/li&gt;&#xD;&#xA;&lt;li&gt;트랜잭션 실행&lt;/li&gt;&#xD;&#xA;&lt;li&gt;트랜잭션 종료&lt;/li&gt;&#xD;&#xA;&lt;li&gt;각 명령어를 다른 태스크 핸들러에서 받음.&lt;/li&gt;&#xD;&#xA;&lt;/ul&gt;&#xD;&#xA;&lt;p&gt;음. Task의 개념에 대해 공부를 한 충실한 오전이었&amp;hellip;나?&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

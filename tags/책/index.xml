@@ -1,48 +1,54 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>책 on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/%EC%B1%85/</link>
-    <description>Recent content in 책 on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Wed, 22 Jun 2011 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/%EC%B1%85/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>생각하는 프로그래밍</title>
-      <link>https://ezaurum.com/2011/06/%EC%83%9D%EA%B0%81%ED%95%98%EB%8A%94-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/</link>
-      <pubDate>Wed, 22 Jun 2011 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2011/06/%EC%83%9D%EA%B0%81%ED%95%98%EB%8A%94-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/</guid>
-      <description>어렵다&amp;hellip; 공부가 부족하구나 하고 느끼게 해 주는 책. 문제와 그 문제에 대한 해결법과 도출과정, 발전형 문제들을 제시해준다. 천천히, 느긋하게 읽기 좋겠다. 누군가는 한 달 동안 즐거울 거라는데, 난 내년이나 되어야 다 읽을 듯.</description>
-    </item>
-    <item>
-      <title>손에 잡히는 VIM</title>
-      <link>https://ezaurum.com/2011/06/%EC%86%90%EC%97%90-%EC%9E%A1%ED%9E%88%EB%8A%94-VIM/</link>
-      <pubDate>Wed, 22 Jun 2011 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2011/06/%EC%86%90%EC%97%90-%EC%9E%A1%ED%9E%88%EB%8A%94-VIM/</guid>
-      <description>책도 손에 잘 잡히는 사이즈고, 내용도 휘리릭 읽을 만하지만, 역시 한 번 본다고 해서 능통해지는 것은 아니다.&#xA;옆에 두고 필요할 때마다 뒤적뒤적하기 좋은 책.</description>
-    </item>
-    <item>
-      <title>이 책을 권한다</title>
-      <link>https://ezaurum.com/2010/12/%EC%9D%B4-%EC%B1%85%EC%9D%84-%EA%B6%8C%ED%95%9C%EB%8B%A4/</link>
-      <pubDate>Wed, 29 Dec 2010 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2010/12/%EC%9D%B4-%EC%B1%85%EC%9D%84-%EA%B6%8C%ED%95%9C%EB%8B%A4/</guid>
-      <description>회사에 리눅스 서버를 설치하겠다고 하는 친구 모 군에게 이 책을 권한다. 삽질 열심히 하시기를.&#xA;성공과 실패를 결정하는 1%의 네트워크 원리- 가지고 있어서 문제될 것 없는 책. 1%시리즈는 다 괜찮긴 하지. 서버 구축을 하려면 기본적인 네트워크 원리는 알고 있어야 하니까 꼭 읽어둘 것.&#xA;Unix가 보이는 그림책- 아주 친절한 유닉스/리눅스 입문서. 책장이 숙숙 넘어가서 좋다.&#xA;유닉스 리눅스 명령어 사전 - 이건 안 읽어봤다. 평이 좋더라고.&#xA;실제 구현하는 것은 인터넷 쪽에 자료가 더 많을 듯.</description>
-    </item>
-    <item>
-      <title>이 책을 권한다</title>
-      <link>https://ezaurum.com/2010/12/%EC%9D%B4-%EC%B1%85%EC%9D%84-%EA%B6%8C%ED%95%9C%EB%8B%A4/</link>
-      <pubDate>Mon, 27 Dec 2010 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2010/12/%EC%9D%B4-%EC%B1%85%EC%9D%84-%EA%B6%8C%ED%95%9C%EB%8B%A4/</guid>
-      <description>제멋대로 멍하니 사는 것 같은데 의외로 속 깊은 소리를 곧잘 하는 모 양에게 추천하는 책. 빨리 병이 낫길 바랍니다. 흑흑.&#xA;프로페셔널의 조건 - 자기 계발서라기보다는 피터드러커의 에세이에 가까운 글. 평생 공부하고 사는 사람은 이렇게 생각하고 산다는 점에서 배울 게 많다고 봄. 어설픈 인간이 설교식으로 늘어놓는 소리보다 대가가 자기 살아온 이야기를 해 주는게 훨씬 도움된다고 생각.&#xD;인간의 마음을 사로잡는 스무가지 플롯 - 실용서에 가까운 물건이라고 생각. 틈날 때마다 읽어주면서 패턴을 파악하려고 하고 있음.</description>
-    </item>
-    <item>
-      <title>휴가나오면 사려고 생각중인 책</title>
-      <link>https://ezaurum.com/2009/09/%ED%9C%B4%EA%B0%80%EB%82%98%EC%98%A4%EB%A9%B4-%EC%82%AC%EB%A0%A4%EA%B3%A0-%EC%83%9D%EA%B0%81%EC%A4%91%EC%9D%B8-%EC%B1%85/</link>
-      <pubDate>Sat, 19 Sep 2009 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2009/09/%ED%9C%B4%EA%B0%80%EB%82%98%EC%98%A4%EB%A9%B4-%EC%82%AC%EB%A0%A4%EA%B3%A0-%EC%83%9D%EA%B0%81%EC%A4%91%EC%9D%B8-%EC%B1%85/</guid>
-      <description>아직 가지도 않았는데 말이지 :D&#xA;몇 번이라도 좋다 이 지독한 삶이여 다시 - 토다 세이지 isbn샵에 재고가 있었는데.. 이 만화를 보고 결정&#xA;3월의 라이온 막내며느리 이야기 - 그쯤 되면 번역본이든 뭐든 나오겠지? 아니면 일판 사고</description>
-    </item>
-  </channel>
+	<channel>
+		<title>책 on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/%EC%B1%85/</link>
+		<description>Recent content in 책 on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Wed, 22 Jun 2011 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/%EC%B1%85/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>생각하는 프로그래밍</title>
+				<link>https://ezaurum.com/2011/06/%EC%83%9D%EA%B0%81%ED%95%98%EB%8A%94-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/</link>
+				<pubDate>Wed, 22 Jun 2011 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2011/06/%EC%83%9D%EA%B0%81%ED%95%98%EB%8A%94-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/</guid>
+				<description>&lt;p&gt;어렵다&amp;hellip;&#xA;공부가 부족하구나 하고 느끼게 해 주는 책.&#xA;문제와 그 문제에 대한 해결법과 도출과정, 발전형 문제들을 제시해준다.&#xA;천천히, 느긋하게 읽기 좋겠다. 누군가는 한 달 동안 즐거울 거라는데, 난 내년이나 되어야 다 읽을 듯.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>손에 잡히는 VIM</title>
+				<link>https://ezaurum.com/2011/06/%EC%86%90%EC%97%90-%EC%9E%A1%ED%9E%88%EB%8A%94-VIM/</link>
+				<pubDate>Wed, 22 Jun 2011 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2011/06/%EC%86%90%EC%97%90-%EC%9E%A1%ED%9E%88%EB%8A%94-VIM/</guid>
+				<description>&lt;p&gt;책도 손에 잘 잡히는 사이즈고, 내용도 휘리릭 읽을 만하지만, 역시 한 번 본다고 해서 능통해지는 것은 아니다.&lt;/p&gt;&#xA;&lt;p&gt;옆에 두고 필요할 때마다 뒤적뒤적하기 좋은 책.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>이 책을 권한다</title>
+				<link>https://ezaurum.com/2010/12/%EC%9D%B4-%EC%B1%85%EC%9D%84-%EA%B6%8C%ED%95%9C%EB%8B%A4/</link>
+				<pubDate>Wed, 29 Dec 2010 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2010/12/%EC%9D%B4-%EC%B1%85%EC%9D%84-%EA%B6%8C%ED%95%9C%EB%8B%A4/</guid>
+				<description>&lt;p&gt;회사에 리눅스 서버를 설치하겠다고 하는 친구 모 군에게 이 책을 권한다. 삽질 열심히 하시기를.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.google.com/search?hl=en&amp;amp;client=opera&amp;amp;hs=nYR&amp;amp;rls=ko&amp;amp;channel=suggest&amp;amp;q=%EC%84%B1%EA%B3%B5%EA%B3%BC+%EC%8B%A4%ED%8C%A8%EB%A5%BC+%EA%B2%B0%EC%A0%95%ED%95%98%EB%8A%94+1+%EC%9D%98+%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC+%EC%9B%90%EB%A6%AC&amp;amp;aq=f&amp;amp;aqi=&amp;amp;aql=&amp;amp;oq=&amp;amp;gs_rfai=&#34;&gt;성공과 실패를 결정하는 1%의 네트워크 원리&lt;/a&gt;- 가지고 있어서 문제될 것 없는 책. 1%시리즈는 다 괜찮긴 하지. 서버 구축을 하려면 기본적인 네트워크 원리는 알고 있어야 하니까 꼭 읽어둘 것.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.google.com/search?hl=en&amp;amp;client=opera&amp;amp;hs=7aR&amp;amp;rls=ko&amp;amp;channel=suggest&amp;amp;q=%EC%9C%A0%EB%8B%89%EC%8A%A4%EA%B0%80+%EB%B3%B4%EC%9D%B4%EB%8A%94+%EA%B7%B8%EB%A6%BC%EC%B1%85&amp;amp;aq=f&amp;amp;aqi=&amp;amp;aql=&amp;amp;oq=&amp;amp;gs_rfai=&#34;&gt;Unix가 보이는 그림책&lt;/a&gt;- 아주 친절한 유닉스/리눅스 입문서. 책장이 숙숙 넘어가서 좋다.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.google.com/search?hl=en&amp;amp;client=opera&amp;amp;hs=WHm&amp;amp;rls=ko&amp;amp;channel=suggest&amp;amp;q=%EC%9C%A0%EB%8B%89%EC%8A%A4+%EB%A6%AC%EB%88%85%EC%8A%A4+%EB%AA%85%EB%A0%B9%EC%96%B4%EC%82%AC%EC%A0%84&amp;amp;aq=f&amp;amp;aqi=&amp;amp;aql=&amp;amp;oq=&amp;amp;gs_rfai=&#34;&gt;유닉스 리눅스 명령어 사전&lt;/a&gt; - 이건 안 읽어봤다. 평이 좋더라고.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;실제 구현하는 것은 인터넷 쪽에 자료가 더 많을 듯.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>이 책을 권한다</title>
+				<link>https://ezaurum.com/2010/12/%EC%9D%B4-%EC%B1%85%EC%9D%84-%EA%B6%8C%ED%95%9C%EB%8B%A4/</link>
+				<pubDate>Mon, 27 Dec 2010 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2010/12/%EC%9D%B4-%EC%B1%85%EC%9D%84-%EA%B6%8C%ED%95%9C%EB%8B%A4/</guid>
+				<description>&lt;p&gt;제멋대로 멍하니 사는 것 같은데 의외로 속 깊은 소리를 곧잘 하는 모 양에게 추천하는 책.&#xA;빨리 병이 낫길 바랍니다. 흑흑.&lt;/p&gt;&#xA;&lt;ul&gt;&#xD;&#xA;&#x9;&lt;li&gt;&lt;a href=&#34;http://www.google.com/search?q=%ED%94%84%EB%A1%9C%ED%8E%98%EC%85%94%EB%84%90%EC%9D%98+%EC%A1%B0%EA%B1%B4&amp;amp;hl=en&amp;amp;source=lnms&amp;amp;ei=8BcYTbT_KYTEvgPb9fnxDQ&amp;amp;sa=X&amp;amp;oi=mode_link&amp;amp;ct=mode&amp;amp;ved=0CBoQ_AU&#34;&gt;프로페셔널의 조건&lt;/a&gt; - 자기 계발서라기보다는 피터드러커의 에세이에 가까운 글. 평생 공부하고 사는 사람은 이렇게 생각하고 산다는 점에서 배울 게 많다고 봄. 어설픈 인간이 설교식으로 늘어놓는 소리보다 대가가 자기 살아온 이야기를 해 주는게 훨씬 도움된다고 생각.&lt;/li&gt;&#xD;&#xA;&lt;li&gt;&lt;a href=&#34;http://www.google.com/search?hl=en&amp;amp;q=%EC%9D%B8%EA%B0%84%EC%9D%98+%EB%A7%88%EC%9D%8C%EC%9D%84+%EC%82%AC%EB%A1%9C%EC%9E%A1%EB%8A%94+%EC%8A%A4%EB%AC%B4%EA%B0%80%EC%A7%80+%ED%94%8C%EB%A1%AF&amp;amp;aq=f&amp;amp;aqi=&amp;amp;aql=&amp;amp;oq=&amp;amp;gs_rfai=&#34;&gt;인간의 마음을 사로잡는 스무가지 플롯&lt;/a&gt; - 실용서에 가까운 물건이라고 생각. 틈날 때마다 읽어주면서 패턴을 파악하려고 하고 있음.&lt;/li&gt;&#xD;&#xA;&lt;li&gt;&lt;a href=&#34;http://www.google.com/search?hl=en&amp;amp;q=%EC%9B%90%EA%B3%A0%EC%A7%80+%EC%97%B4+%EC%9E%A5%EC%9D%84+%EC%93%B0%EB%8A%94+%ED%9E%98&amp;amp;aq=f&amp;amp;aqi=&amp;amp;aql=&amp;amp;oq=&amp;amp;gs_rfai=&#34;&gt;원고지 열 장을 쓰는 힘&lt;/a&gt; - 이것도 실용서. 일단은 쓰자. 라고하는 진리를 말하고 있고, 책도 얇고 좋음. 애매하게 느끼고 있던 걸 명확히 정리해 주는 책. 그런데 난 읽고도 안 쓰고 있네...&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;&lt;a href=&#34;http://www.google.com/search?hl=en&amp;amp;q=%EB%85%BC%EC%A6%9D%EC%9D%98+%EA%B8%B0%EC%88%A0&amp;amp;aq=f&amp;amp;aqi=&amp;amp;aql=&amp;amp;oq=&amp;amp;gs_rfai=&#34;&gt;논증의 기술&lt;/a&gt; - 이것도 틈 날 때마다 조금씩 읽으며 생각할 만한 책. 논리야 놀자의 간략화 버전?&lt;/li&gt;&#xD;&#xA;&lt;pre&gt;&lt;code&gt;&amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;http://books.google.com/books?id=KkvqAAAACAAJ&amp;amp;amp;dq=%EC%98%A4%ED%83%80%EC%BF%A0&amp;amp;amp;hl=en&amp;amp;amp;ei=kB4YTZroJoG8vQOhromADg&amp;amp;amp;sa=X&amp;amp;amp;oi=book_result&amp;amp;amp;ct=result&amp;amp;amp;resnum=5&amp;amp;amp;ved=0CDMQ6AEwBA&amp;quot;&amp;gt;오타쿠&amp;lt;/a&amp;gt; - 제목대로의 책. 영상매체에 대한 접근법이라든가 하는 것을 생각해 볼 수 있음.&amp;lt;/li&amp;gt;&#xD;&#xA;&#xD;&#xA;&amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;http://books.google.com/books?id=YLs7MwAACAAJ&amp;amp;amp;dq=%EB%86%80%EC%9D%B4%EC%99%80+%EC%9D%B8%EA%B0%84&amp;amp;amp;hl=en&amp;amp;amp;ei=HR8YTfezFIj2vwOc_cWXDg&amp;amp;amp;sa=X&amp;amp;amp;oi=book_result&amp;amp;amp;ct=result&amp;amp;amp;resnum=1&amp;amp;amp;ved=0CCMQ6AEwAA&amp;quot;&amp;gt;놀이와 인간&amp;lt;/a&amp;gt; , &amp;lt;a href=&amp;quot;http://books.google.com/books?id=3aOhAAAACAAJ&amp;amp;amp;dq=%EB%86%80%EC%9D%B4%EC%99%80%20%EC%9D%B8%EA%B0%84&amp;amp;amp;source=gbs_similarbooks&amp;quot;&amp;gt;호모 루덴스&amp;lt;/a&amp;gt; - 즐거움, 놀이 그 자체에 대한 책. 재미있는 이야기가 어째서 더 재미있을까 하는 생각을 하게 해 준다. 뭔가 있어 보이는 설명도 붙여줄 수 있게 됨.&amp;lt;/li&amp;gt;&#xD;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;/ul&gt;</description>
+			</item>
+			<item>
+				<title>휴가나오면 사려고 생각중인 책</title>
+				<link>https://ezaurum.com/2009/09/%ED%9C%B4%EA%B0%80%EB%82%98%EC%98%A4%EB%A9%B4-%EC%82%AC%EB%A0%A4%EA%B3%A0-%EC%83%9D%EA%B0%81%EC%A4%91%EC%9D%B8-%EC%B1%85/</link>
+				<pubDate>Sat, 19 Sep 2009 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2009/09/%ED%9C%B4%EA%B0%80%EB%82%98%EC%98%A4%EB%A9%B4-%EC%82%AC%EB%A0%A4%EA%B3%A0-%EC%83%9D%EA%B0%81%EC%A4%91%EC%9D%B8-%EC%B1%85/</guid>
+				<description>&lt;p&gt;아직 가지도 않았는데 말이지 :D&lt;/p&gt;&#xA;&lt;p&gt;몇 번이라도 좋다 이 지독한 삶이여 다시 - 토다 세이지&#xA;isbn샵에 재고가 있었는데..&#xA;&lt;img src=&#34;http://gateopener.ncity.net/wordpress/wp-content/uploads/2009/09/e0020597_08071551.jpg&#34; alt=&#34;e0020597_0807155&#34; title=&#34;e0020597_0807155&#34; width=&#34;436&#34; height=&#34;690&#34; class=&#34;alignnone size-full wp-image-742&#34; /&gt;&#xA;이 만화를 보고 결정&lt;/p&gt;&#xA;&lt;p&gt;3월의 라이온&#xA;막내며느리 이야기 - 그쯤 되면 번역본이든 뭐든 나오겠지? 아니면 일판 사고&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

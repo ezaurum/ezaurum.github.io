@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Link on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/link/</link>
-    <description>Recent content in Link on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Sun, 11 Jan 2009 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/link/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>신기한 링크 몇 개</title>
-      <link>https://ezaurum.com/2009/01/%EC%8B%A0%EA%B8%B0%ED%95%9C-%EB%A7%81%ED%81%AC-%EB%AA%87-%EA%B0%9C/</link>
-      <pubDate>Sun, 11 Jan 2009 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2009/01/%EC%8B%A0%EA%B8%B0%ED%95%9C-%EB%A7%81%ED%81%AC-%EB%AA%87-%EA%B0%9C/</guid>
-      <description>http://www.textflow.com/ 첫 화면에 있는 1분짜리 동영상을 보면 안다. 플래쉬의 미래는 밝을지도? 굉장해&amp;hellip; http://www.pixel2life.com/ 그래픽 관련의 팁이 모여있는 사이트? 그런 듯. 참 쉽죠? 따위의 말을 하는 것 같다.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Link on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/link/</link>
+		<description>Recent content in Link on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Sun, 11 Jan 2009 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/link/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>신기한 링크 몇 개</title>
+				<link>https://ezaurum.com/2009/01/%EC%8B%A0%EA%B8%B0%ED%95%9C-%EB%A7%81%ED%81%AC-%EB%AA%87-%EA%B0%9C/</link>
+				<pubDate>Sun, 11 Jan 2009 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2009/01/%EC%8B%A0%EA%B8%B0%ED%95%9C-%EB%A7%81%ED%81%AC-%EB%AA%87-%EA%B0%9C/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;http://www.textflow.com/&#34;&gt;&lt;a href=&#34;http://www.textflow.com/&#34;&gt;http://www.textflow.com/&lt;/a&gt;&lt;/a&gt;&#xA;첫 화면에 있는 1분짜리 동영상을 보면 안다. 플래쉬의 미래는 밝을지도? 굉장해&amp;hellip;&#xA;&lt;a href=&#34;http://www.pixel2life.com/&#34;&gt;&lt;a href=&#34;http://www.pixel2life.com/&#34;&gt;http://www.pixel2life.com/&lt;/a&gt;&lt;/a&gt;&#xA;그래픽 관련의 팁이 모여있는 사이트? 그런 듯. &lt;q&gt;참 쉽죠?&lt;/q&gt; 따위의 말을 하는 것 같다.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

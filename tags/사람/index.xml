@@ -1,27 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>사람 on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/%EC%82%AC%EB%9E%8C/</link>
-    <description>Recent content in 사람 on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Sun, 16 May 2010 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/%EC%82%AC%EB%9E%8C/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>세계대전Z</title>
-      <link>https://ezaurum.com/2010/05/%EC%84%B8%EA%B3%84%EB%8C%80%EC%A0%84Z/</link>
-      <pubDate>Sun, 16 May 2010 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2010/05/%EC%84%B8%EA%B3%84%EB%8C%80%EC%A0%84Z/</guid>
-      <description>상민이한테서 빌려봄. ISBN(13자리) : 9788960171961&#xA;좀비물이라고 되어 있지만, 중요한 것은 좀비가 아니다. 사람이지.&#xA;어떻게 이런 생각을 할 수 있을까 싶을 정도로 참신했다.</description>
-    </item>
-    <item>
-      <title>겸손해지자</title>
-      <link>https://ezaurum.com/2008/11/%EA%B2%B8%EC%86%90%ED%95%B4%EC%A7%80%EC%9E%90/</link>
-      <pubDate>Sat, 29 Nov 2008 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2008/11/%EA%B2%B8%EC%86%90%ED%95%B4%EC%A7%80%EC%9E%90/</guid>
-      <description>지난 금요일, 선배와 술을 마시며 실습 갔다 와서 느낀 점이라든가 하는 것에 대해 이야기를 나눌 기회가 있었다. 나는&#xA;교사의 무기력함을 보고 미래의 내 모습을 겹쳐 보았다.&#xD;수업 내용이 쓸모 없어 보였다.&#xD;쓸모 없는 것을 가르치면서 무기력하게 되기는 싫다. 그래서 좀 혼란스럽다.&#xD;라고 말했고.&#xD;선배는&#xD;교사는 아이들만을 보아야 한다.&#xD;필요한지 안한지는 배운 아이가 결정할 일이고, 그것도 지금 당장 결정되는 것이 아니다.&#xD;네가 지금 결론을 내리는 것은 오만이다.&#xD;라고 말했다.&#xD;선배의 말이 맞는 것 같았다.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>사람 on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/%EC%82%AC%EB%9E%8C/</link>
+		<description>Recent content in 사람 on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Sun, 16 May 2010 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/%EC%82%AC%EB%9E%8C/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>세계대전Z</title>
+				<link>https://ezaurum.com/2010/05/%EC%84%B8%EA%B3%84%EB%8C%80%EC%A0%84Z/</link>
+				<pubDate>Sun, 16 May 2010 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2010/05/%EC%84%B8%EA%B3%84%EB%8C%80%EC%A0%84Z/</guid>
+				<description>&lt;p&gt;상민이한테서 빌려봄.&#xA;ISBN(13자리) : 9788960171961&lt;/p&gt;&#xA;&lt;p&gt;좀비물이라고 되어 있지만, 중요한 것은 좀비가 아니다. 사람이지.&lt;/p&gt;&#xA;&lt;p&gt;어떻게 이런 생각을 할 수 있을까 싶을 정도로 참신했다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>겸손해지자</title>
+				<link>https://ezaurum.com/2008/11/%EA%B2%B8%EC%86%90%ED%95%B4%EC%A7%80%EC%9E%90/</link>
+				<pubDate>Sat, 29 Nov 2008 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2008/11/%EA%B2%B8%EC%86%90%ED%95%B4%EC%A7%80%EC%9E%90/</guid>
+				<description>&lt;p&gt;지난 금요일, 선배와 술을 마시며 실습 갔다 와서 느낀 점이라든가 하는 것에 대해 이야기를 나눌 기회가 있었다.&#xA;나는&lt;/p&gt;&#xA;&lt;ol&gt;&#x9;&lt;li&gt;교사의 무기력함을 보고 미래의 내 모습을 겹쳐 보았다.&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;수업 내용이 쓸모 없어 보였다.&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;쓸모 없는 것을 가르치면서 무기력하게 되기는 싫다. 그래서 좀 혼란스럽다.&lt;/li&gt;&#xD;&#xA;&lt;/ol&gt;&#xD;&#xA;라고 말했고.&#xD;&#xA;선배는&#xD;&#xA;&lt;ol&gt;&#x9;&lt;li&gt;교사는 아이들만을 보아야 한다.&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;필요한지 안한지는 배운 아이가 결정할 일이고, 그것도 지금 당장 결정되는 것이 아니다.&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;네가 지금 결론을 내리는 것은 오만이다.&lt;/li&gt;&#xD;&#xA;&lt;/ol&gt;&#xD;&#xA;라고 말했다.&#xD;&#xA;&lt;p&gt;선배의 말이 맞는 것 같았다. 내 말이 틀린 것도 아닌 것 같았다. 하지만 교사의 입장, 그것도 아직 시작도 안 한 내 신분에서 아이에게 관심이 먼저 돌아가지 않는 것은 문제가 있다는 생각이 들었다.&#xA;확실히 나는 아이들에게 관심이 없었다. 친해진 아이도 없고, 기억나는 아이도 없다. 그게 내가 교사가 되어야 할까 하는 고민을 또 하게 만든 원인이기도 하다.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Classpath on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/classpath/</link>
-    <description>Recent content in Classpath on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Mon, 29 Apr 2013 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/classpath/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>java -jar 옵션은 classpath를 무시한다</title>
-      <link>https://ezaurum.com/2013/04/java-jar-%EC%98%B5%EC%85%98%EC%9D%80-classpath%EB%A5%BC-%EB%AC%B4%EC%8B%9C%ED%95%9C%EB%8B%A4/</link>
-      <pubDate>Mon, 29 Apr 2013 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2013/04/java-jar-%EC%98%B5%EC%85%98%EC%9D%80-classpath%EB%A5%BC-%EB%AC%B4%EC%8B%9C%ED%95%9C%EB%8B%A4/</guid>
-      <description>java 를 jar 형태로 실행할 때는 내부 MENIFEST.MF파일에 classpath를 적용해야 한다. 커맨드 라인으로 실행하는 것은 무시.&#xA;참고 링크&#xA;-jar Execute a program encapsulated in a JAR file. The first argument is the name of a JAR file instead of a startup class name. In order for this option to work, the manifest of the JAR file must contain a line of the form Main-Class: classname. Here, classname identifies the class having the public static void main(String[] args) method that serves as your application&#39;s starting point.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Classpath on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/classpath/</link>
+		<description>Recent content in Classpath on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Mon, 29 Apr 2013 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/classpath/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>java -jar 옵션은 classpath를 무시한다</title>
+				<link>https://ezaurum.com/2013/04/java-jar-%EC%98%B5%EC%85%98%EC%9D%80-classpath%EB%A5%BC-%EB%AC%B4%EC%8B%9C%ED%95%9C%EB%8B%A4/</link>
+				<pubDate>Mon, 29 Apr 2013 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2013/04/java-jar-%EC%98%B5%EC%85%98%EC%9D%80-classpath%EB%A5%BC-%EB%AC%B4%EC%8B%9C%ED%95%9C%EB%8B%A4/</guid>
+				<description>&lt;p&gt;java 를 jar 형태로 실행할 때는 내부 MENIFEST.MF파일에 classpath를 적용해야 한다. 커맨드 라인으로 실행하는 것은 무시.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://docs.oracle.com/javase/1.4.2/docs/tooldocs/linux/java.html&#34;&gt;참고 링크&lt;/a&gt;&lt;/p&gt;&#xA;&lt;blockquote cite=&#34;http://docs.oracle.com/javase/1.4.2/docs/tooldocs/linux/java.html&#34;&gt;-jar &#xD;&#xA;Execute a program encapsulated in a JAR file. The first argument is the name of a JAR file instead of a startup class name. In order for this option to work, the manifest of the JAR file must contain a line of the form Main-Class: classname. Here, classname identifies the class having the public static void main(String[] args) method that serves as your application&#39;s starting point. See the Jar tool reference page and the Jar trail of the Java Tutorial for information about working with Jar files and Jar-file manifests. &#xD;&#xA;&lt;p&gt;When you use this option, the JAR file is the source of all user classes, and other user class path settings are ignored.&lt;/p&gt;&#xA;&lt;p&gt;On Solaris 8, JAR files that can be run with the &amp;ldquo;java -jar&amp;rdquo; option can have their execute permissions set so they can be run without using &amp;ldquo;java -jar&amp;rdquo;.&lt;/blockquote&gt;</description>
+			</item>
+	</channel>
 </rss>

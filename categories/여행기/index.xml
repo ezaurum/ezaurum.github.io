@@ -1,34 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>여행기 on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/categories/%EC%97%AC%ED%96%89%EA%B8%B0/</link>
-    <description>Recent content in 여행기 on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Sun, 15 Mar 2020 12:42:34 +0900</lastBuildDate>
-    <atom:link href="https://ezaurum.com/categories/%EC%97%AC%ED%96%89%EA%B8%B0/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>칭따오 여행</title>
-      <link>https://ezaurum.com/2020/03/%EC%B9%AD%EB%94%B0%EC%98%A4-%EC%97%AC%ED%96%89/</link>
-      <pubDate>Sun, 15 Mar 2020 12:42:34 +0900</pubDate>
-      <guid>https://ezaurum.com/2020/03/%EC%B9%AD%EB%94%B0%EC%98%A4-%EC%97%AC%ED%96%89/</guid>
-      <description>2019년 12월에 2박3일 예정으로 칭따오 여행을 갔다.&#xA;같이 간 동행자가 중국요리를 못 먹고 관심사가 심하게 달라서 제대로 여행을 못 한 게 아쉽다.&#xA;비자 비용도 있고, 동남아 대비 비용이 많이 싼 것도 아니고(호텔은 쌌다) 사실 중국요리는 어느 나라에서나 먹을 수 있기도 하고, 별로 따뜻하지도 않으면서 영어가 제대로 안 되는 것도 있고(번역기는 매우 좋음) 해서 다시 갈 거 같지는 않다.&#xA;중국에서 영문 상품은 모두 한자 병기가 되어 있다. 차도 그렇고. 도로가 널찍널찍하고 건물도 크다.</description>
-    </item>
-    <item>
-      <title>홍콩 여행</title>
-      <link>https://ezaurum.com/2019/09/%ED%99%8D%EC%BD%A9-%EC%97%AC%ED%96%89/</link>
-      <pubDate>Fri, 13 Sep 2019 15:49:27 +0900</pubDate>
-      <guid>https://ezaurum.com/2019/09/%ED%99%8D%EC%BD%A9-%EC%97%AC%ED%96%89/</guid>
-      <description>2018년 2월에 치앙마이에서 한국으로 돌아올 때 홍콩-마카오 코스를 거쳤다. 입국장 통과하는데 한시간 반 걸렸다. 첨에 줄 서고 30분 기다려서 도착했는데 서류 하나 안 적어서 다시 30분 반복. 한밤중에 도착해서 택시를 탔다. 차는 낡았는데 꽤 차가 크다는 인상이었다. 치앙마이에서 일본 차를 타고 다녀서 그럴지도.&#xA;홍콩은 정말 건물이 높았다. 첫인상은&#xA;크다 마천루 공기 나빠 가로등이 버섯같이 서 있는 걸 보니 정말 공가 나쁘다는게 실감되었다.&#xA;시가 나오는 풍경이었어.&#xA;하늘을 끌어내리고 별을 손 쥐어 땅에 뿌린다.</description>
-    </item>
-    <item>
-      <title>보라카이 여행기</title>
-      <link>https://ezaurum.com/2015/07/%EB%B3%B4%EB%9D%BC%EC%B9%B4%EC%9D%B4-%EC%97%AC%ED%96%89%EA%B8%B0/</link>
-      <pubDate>Sun, 12 Jul 2015 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2015/07/%EB%B3%B4%EB%9D%BC%EC%B9%B4%EC%9D%B4-%EC%97%AC%ED%96%89%EA%B8%B0/</guid>
-      <description>첫날 - 보라카이에 가는데는 12시간이 걸린다 차타고 비행기 타고 배타고 하느라 하루종일 보냄. 집에서 오전 11시에 출발해서 인천공항까지 가는데 두시간. 비행기 출발 세 시간 전부터 탑승권 발매 가능한데, 비행기 한시간 늦게 옴. 그래서 한시간 동안 여유있게 밥 먹고 놀았음. 여튼 그래서 입국 심사 통과하는데 한시간 안 걸렸는데&amp;hellip; 백팩 안에 맥가이버 칼이 있어서 빠꾸. 맡겨 놓을 데도 없고 해서 택배로 집에 보내는데 공항에서 보내는 택배는 비쌌음. 만 이천원 내고 집으로 발송. 그 다음 다시 입국심사 거치고 입장.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>여행기 on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/categories/%EC%97%AC%ED%96%89%EA%B8%B0/</link>
+		<description>Recent content in 여행기 on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Sun, 15 Mar 2020 12:42:34 +0900</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/categories/%EC%97%AC%ED%96%89%EA%B8%B0/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>칭따오 여행</title>
+				<link>https://ezaurum.com/2020/03/%EC%B9%AD%EB%94%B0%EC%98%A4-%EC%97%AC%ED%96%89/</link>
+				<pubDate>Sun, 15 Mar 2020 12:42:34 +0900</pubDate>
+				<guid>https://ezaurum.com/2020/03/%EC%B9%AD%EB%94%B0%EC%98%A4-%EC%97%AC%ED%96%89/</guid>
+				<description>&lt;p&gt;2019년 12월에 2박3일 예정으로 칭따오 여행을 갔다.&lt;/p&gt;&#xA;&lt;p&gt;같이 간 동행자가 중국요리를 못 먹고 관심사가 심하게 달라서 제대로 여행을 못 한 게 아쉽다.&lt;/p&gt;&#xA;&lt;p&gt;비자 비용도 있고, 동남아 대비 비용이 많이 싼 것도 아니고(호텔은 쌌다) 사실 중국요리는 어느 나라에서나 먹을 수 있기도 하고, 별로 따뜻하지도 않으면서 영어가 제대로 안 되는 것도 있고(번역기는 매우 좋음) 해서 다시 갈 거 같지는 않다.&lt;/p&gt;&#xA;&lt;p&gt;중국에서 영문 상품은 모두 한자 병기가 되어 있다. 차도 그렇고.&#xA;도로가 널찍널찍하고 건물도 크다. 하지만 뭔가 낡고 오래된 느낌. 실제로 그리 오래 되지 않았을텐데 말이지.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>홍콩 여행</title>
+				<link>https://ezaurum.com/2019/09/%ED%99%8D%EC%BD%A9-%EC%97%AC%ED%96%89/</link>
+				<pubDate>Fri, 13 Sep 2019 15:49:27 +0900</pubDate>
+				<guid>https://ezaurum.com/2019/09/%ED%99%8D%EC%BD%A9-%EC%97%AC%ED%96%89/</guid>
+				<description>&lt;p&gt;2018년 2월에 치앙마이에서 한국으로 돌아올 때 홍콩-마카오 코스를 거쳤다.&#xA;입국장 통과하는데 한시간 반 걸렸다. 첨에 줄 서고 30분 기다려서 도착했는데 서류 하나 안 적어서 다시 30분 반복.&#xA;한밤중에 도착해서 택시를 탔다. 차는 낡았는데 꽤 차가 크다는 인상이었다. 치앙마이에서 일본 차를 타고 다녀서 그럴지도.&lt;/p&gt;&#xA;&lt;p&gt;홍콩은 정말 건물이 높았다. 첫인상은&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;크다&lt;/li&gt;&#xA;&lt;li&gt;마천루&lt;/li&gt;&#xA;&lt;li&gt;공기 나빠&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;가로등이 버섯같이 서 있는 걸 보니 정말 공가 나쁘다는게 실감되었다.&lt;/p&gt;&#xA;&lt;p&gt;시가 나오는 풍경이었어.&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;하늘을 끌어내리고&#xA;별을 손 쥐어 땅에 뿌린다.&#xA;&#xA;별은 크게 자라 하늘에 닿지 못하고&#xA;썩어들어간다.&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;전체적으로 시끄럽고, 비싸고, 방은 작고, 볼 건 없었다.&#xA;쇼핑을 하면 좋을 수도 있을텐데, 내 취향은 아니었어.&#xA;역시 사이버 펑크 세계관은 바깥에서 보는 거지 실제로 겪는 게 아니구나 싶었다.&#xA;홍콩은 돈 많~ 이 벌어서오는 걸로.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>보라카이 여행기</title>
+				<link>https://ezaurum.com/2015/07/%EB%B3%B4%EB%9D%BC%EC%B9%B4%EC%9D%B4-%EC%97%AC%ED%96%89%EA%B8%B0/</link>
+				<pubDate>Sun, 12 Jul 2015 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2015/07/%EB%B3%B4%EB%9D%BC%EC%B9%B4%EC%9D%B4-%EC%97%AC%ED%96%89%EA%B8%B0/</guid>
+				<description>&lt;h3 id=&#34;첫날---보라카이에-가는데는-12시간이-걸린다&#34;&gt;첫날 - 보라카이에 가는데는 12시간이 걸린다&lt;/h3&gt;&#xA;&lt;p&gt;차타고 비행기 타고 배타고 하느라 하루종일 보냄.&#xA;집에서 오전 11시에 출발해서 인천공항까지 가는데 두시간.&#xA;비행기 출발 세 시간 전부터 탑승권 발매 가능한데, 비행기 한시간 늦게 옴. 그래서 한시간 동안 여유있게 밥 먹고 놀았음.&#xA;여튼 그래서 입국 심사 통과하는데 한시간 안 걸렸는데&amp;hellip; 백팩 안에 맥가이버 칼이 있어서 빠꾸.&#xA;맡겨 놓을 데도 없고 해서 택배로 집에 보내는데 공항에서 보내는 택배는 비쌌음. 만 이천원 내고 집으로 발송.&#xA;그 다음 다시 입국심사 거치고 입장.&#xA;일단 면세구역까지 가니까 두시간 정도 남음. 상황보니 쇼핑할 시간이 문제라 세시간 전에 가라는 거 같음. 아마 큰 비행사 비행기를 타면 탑승권 발매하는데도 시간이 더 걸릴지도 모르지만&amp;hellip; 두시간 전에만 가도 매우 충분할 듯.&#xA;살 것도 별로 없었지만, 일단 술을 좀 사고, 선물용으로 쓸 담배도 좀 사고, 누나가 부탁한 화장품도 삼. 사실 화장품은 인터넷 면세점서 미리 골라서 주문해 두고 여기서 받기만 했음. 인터넷 면세점이 여러모로 싼듯.&#xA;어쨌든 뱅기타러 들어가서 다시 뱅기 문 나오는데 다섯시간 소요. 직항.&#xA;하지만 도착하면 여기가 한국보다 한 시간 늦음. GMT+8&#xA;뱅기 안에서 물을 마시려고 물통에 빨대를 꽂으니 물이 팍 하고 튀어올랐음. 기압차 때문으로 추정.&#xA;에어컨은 빵빵. 문 열고 나오니 정말 더웠음. 거기서 짐검사 하고 이래저래 하는데 한 시간쯤. 관세 물리기 위해 짐검사 많이 한다고 하던데 열어보라고는 했음.&#xA;나오니 택시인지 봉고인지 호객꾼들이 많았음. 하지만 호텔까지 데려다준다는 사우스웨스트 버스 예매를 해서 그걸 타고 감.&#xA;버스 한 시간 좀 넘게 걸리고 배 10분 그 다음에 호텔까지 15분 소요.&#xA;버스는 괜찮은데, 마지막 배에서 내릴 때 짐꾼들이 짐을 맘대로 내려버림.&#xA;특별히 막지도 않는 것으로 보아 대충 똑같은 인간들. 여튼 그래서 1달러 뜯김. 담번에 갈 때 큰 짐을 가져간다면 20페소쯤 줄 생각.&#xA;하지만 바다가 맑아서 기분나쁘지도 않음. 밤인데도 맑음.&#xA;도착하고 체크인, 어쩐지 보이가 팁을 바라는 거 같았지만 안줌 ㅋ&#xA;정신없었음. 방은 괜찮아서 씻고 자지만&amp;hellip; 정말 더움. 에어컨이 아주아주 시끄러운데도 걍 켜고 잠.&#xA;[gallery ids=&amp;ldquo;2571,2572,2573,2574,2575,2577,2578,2579,2580,2581,2582,2583,2586,2587,2588,2589,2590,2591,2592,2593,2594,2585,2576,2584&amp;rdquo;]&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

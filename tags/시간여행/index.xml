@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>시간여행 on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/%EC%8B%9C%EA%B0%84%EC%97%AC%ED%96%89/</link>
-    <description>Recent content in 시간여행 on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Thu, 25 Aug 2011 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/%EC%8B%9C%EA%B0%84%EC%97%AC%ED%96%89/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>시간을 달리는 소녀</title>
-      <link>https://ezaurum.com/2011/08/%EC%8B%9C%EA%B0%84%EC%9D%84-%EB%8B%AC%EB%A6%AC%EB%8A%94-%EC%86%8C%EB%85%80/</link>
-      <pubDate>Thu, 25 Aug 2011 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2011/08/%EC%8B%9C%EA%B0%84%EC%9D%84-%EB%8B%AC%EB%A6%AC%EB%8A%94-%EC%86%8C%EB%85%80/</guid>
-      <description>의외로 옛날 책이고, 짧아서 놀랐다. 애니메이션이랑 만화랑은 확실히 다르구나. 감상은 뭐&amp;hellip; 역시 옛날 책? 확실히 그 시절과 지금의 여성관, 학생관은 많이 다르다. 그러니 단쿠가를 지금 보면 사라가 요조숙녀로 보이지&amp;hellip;. 여튼 그 중심은 변하지 않아. 그러니까 명작은 오래 사는 거겠지.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>시간여행 on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/%EC%8B%9C%EA%B0%84%EC%97%AC%ED%96%89/</link>
+		<description>Recent content in 시간여행 on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Thu, 25 Aug 2011 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/%EC%8B%9C%EA%B0%84%EC%97%AC%ED%96%89/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>시간을 달리는 소녀</title>
+				<link>https://ezaurum.com/2011/08/%EC%8B%9C%EA%B0%84%EC%9D%84-%EB%8B%AC%EB%A6%AC%EB%8A%94-%EC%86%8C%EB%85%80/</link>
+				<pubDate>Thu, 25 Aug 2011 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2011/08/%EC%8B%9C%EA%B0%84%EC%9D%84-%EB%8B%AC%EB%A6%AC%EB%8A%94-%EC%86%8C%EB%85%80/</guid>
+				<description>&lt;p&gt;의외로 옛날 책이고, 짧아서 놀랐다.&#xA;애니메이션이랑 만화랑은 확실히 다르구나.&#xA;감상은 뭐&amp;hellip; 역시 옛날 책? 확실히 그 시절과 지금의 여성관, 학생관은 많이 다르다.&#xA;그러니 단쿠가를 지금 보면 사라가 요조숙녀로 보이지&amp;hellip;. 여튼 그 중심은 변하지 않아. 그러니까 명작은 오래 사는 거겠지.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

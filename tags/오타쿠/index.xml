@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>오타쿠 on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/%EC%98%A4%ED%83%80%EC%BF%A0/</link>
-    <description>Recent content in 오타쿠 on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Thu, 08 Jul 2010 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/%EC%98%A4%ED%83%80%EC%BF%A0/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>오타쿠</title>
-      <link>https://ezaurum.com/2010/07/%EC%98%A4%ED%83%80%EC%BF%A0/</link>
-      <pubDate>Thu, 08 Jul 2010 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2010/07/%EC%98%A4%ED%83%80%EC%BF%A0/</guid>
-      <description>제목 그대로 오타쿠에 대한 책 책 진행도 오타쿠스럽다. 애니메이션-실제로는 영상매체 전반-의 오타쿠스런 감상법에 대한 내용이 글쓰기에도 도움이 될 듯.&#xA;22/150</description>
-    </item>
-  </channel>
+	<channel>
+		<title>오타쿠 on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/%EC%98%A4%ED%83%80%EC%BF%A0/</link>
+		<description>Recent content in 오타쿠 on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Thu, 08 Jul 2010 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/%EC%98%A4%ED%83%80%EC%BF%A0/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>오타쿠</title>
+				<link>https://ezaurum.com/2010/07/%EC%98%A4%ED%83%80%EC%BF%A0/</link>
+				<pubDate>Thu, 08 Jul 2010 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2010/07/%EC%98%A4%ED%83%80%EC%BF%A0/</guid>
+				<description>&lt;p&gt;제목 그대로 오타쿠에 대한 책&#xA;책 진행도 오타쿠스럽다.&#xA;애니메이션-실제로는 영상매체 전반-의 오타쿠스런 감상법에 대한 내용이 글쓰기에도 도움이 될 듯.&lt;/p&gt;&#xA;&lt;p class=&#34;soul mission readBooks&#34;&gt;22/150&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

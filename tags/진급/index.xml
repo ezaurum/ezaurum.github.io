@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>진급 on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/%EC%A7%84%EA%B8%89/</link>
-    <description>Recent content in 진급 on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Fri, 20 Aug 2010 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/%EC%A7%84%EA%B8%89/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>상병</title>
-      <link>https://ezaurum.com/2010/08/%EC%83%81%EB%B3%91/</link>
-      <pubDate>Fri, 20 Aug 2010 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2010/08/%EC%83%81%EB%B3%91/</guid>
-      <description>상등병이 되었다.&#xA;&amp;hellip;.앞으로 13개월 21일.&#xA;선임의 말마따나, nothing to believe but God.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>진급 on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/%EC%A7%84%EA%B8%89/</link>
+		<description>Recent content in 진급 on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Fri, 20 Aug 2010 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/%EC%A7%84%EA%B8%89/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>상병</title>
+				<link>https://ezaurum.com/2010/08/%EC%83%81%EB%B3%91/</link>
+				<pubDate>Fri, 20 Aug 2010 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2010/08/%EC%83%81%EB%B3%91/</guid>
+				<description>&lt;p&gt;상등병이 되었다.&lt;/p&gt;&#xA;&lt;p&gt;&amp;hellip;.앞으로 13개월 21일.&lt;/p&gt;&#xA;&lt;p&gt;선임의 말마따나, &lt;strong&gt;nothing to believe but God.&lt;/strong&gt;&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

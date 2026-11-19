@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Bash on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/bash/</link>
-    <description>Recent content in Bash on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Thu, 02 May 2013 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/bash/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>bash 셀에서 변수 사용</title>
-      <link>https://ezaurum.com/2013/05/bash-%EC%85%80%EC%97%90%EC%84%9C-%EB%B3%80%EC%88%98-%EC%82%AC%EC%9A%A9/</link>
-      <pubDate>Thu, 02 May 2013 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2013/05/bash-%EC%85%80%EC%97%90%EC%84%9C-%EB%B3%80%EC%88%98-%EC%82%AC%EC%9A%A9/</guid>
-      <description>&#xD;#!/bin/sh -e&#xD;TODAY=`date -u +%Y%m%d`&#xD;REDIS_HOME=&#34;/usr/redis-2.6.13/src&#34;&#xD;fileName=&#34;redis-&#34;$TODAY&#34;.log&#34;&#xD;$REDIS_HOME/redis-server &amp;gt;&amp;gt; $REDIS_HOME/$fileName &amp;amp;&#xD;보시다시피 그냥 변수이름=값 해주면 쓸 수 있고, $를 붙이면 값을 받아오고, 문자열과는 붙여놓으면 자동으로 달라붙는다.&#xD;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Bash on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/bash/</link>
+		<description>Recent content in Bash on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Thu, 02 May 2013 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/bash/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>bash 셀에서 변수 사용</title>
+				<link>https://ezaurum.com/2013/05/bash-%EC%85%80%EC%97%90%EC%84%9C-%EB%B3%80%EC%88%98-%EC%82%AC%EC%9A%A9/</link>
+				<pubDate>Thu, 02 May 2013 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2013/05/bash-%EC%85%80%EC%97%90%EC%84%9C-%EB%B3%80%EC%88%98-%EC%82%AC%EC%9A%A9/</guid>
+				<description>&lt;code&gt;&#xD;&#xA;#!/bin/sh -e&#xD;&#xA;TODAY=`date -u +%Y%m%d`&#xD;&#xA;REDIS_HOME=&#34;/usr/redis-2.6.13/src&#34;&#xD;&#xA;fileName=&#34;redis-&#34;$TODAY&#34;.log&#34;&#xD;&#xA;$REDIS_HOME/redis-server &amp;gt;&amp;gt; $REDIS_HOME/$fileName &amp;amp;&#xD;&#xA;&lt;/code&gt;&#xD;&#xA;보시다시피 그냥 변수이름=값 해주면 쓸 수 있고, $를 붙이면 값을 받아오고, 문자열과는 붙여놓으면 자동으로 달라붙는다.</description>
+			</item>
+	</channel>
 </rss>

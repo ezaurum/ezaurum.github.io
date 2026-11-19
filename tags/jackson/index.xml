@@ -1,27 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Jackson on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/jackson/</link>
-    <description>Recent content in Jackson on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Thu, 25 Jul 2013 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/jackson/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Jackson이 null 인 프로퍼티를 빼고 Serialize하게 하기</title>
-      <link>https://ezaurum.com/2013/07/Jackson%EC%9D%B4-null-%EC%9D%B8-%ED%94%84%EB%A1%9C%ED%8D%BC%ED%8B%B0%EB%A5%BC-%EB%B9%BC%EA%B3%A0-Serialize%ED%95%98%EA%B2%8C-%ED%95%98%EA%B8%B0/</link>
-      <pubDate>Thu, 25 Jul 2013 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2013/07/Jackson%EC%9D%B4-null-%EC%9D%B8-%ED%94%84%EB%A1%9C%ED%8D%BC%ED%8B%B0%EB%A5%BC-%EB%B9%BC%EA%B3%A0-Serialize%ED%95%98%EA%B2%8C-%ED%95%98%EA%B8%B0/</guid>
-      <description>클래스 선언부에 다음을 추가 @JsonSerialize(include = JsonSerialize.Inclusion.NON_NULL) public class Blabla { &amp;hellip; } 상속도 된다.</description>
-    </item>
-    <item>
-      <title>Spring mvc에서 로직에 이상이 없는데 406에러가 날 때</title>
-      <link>https://ezaurum.com/2013/07/Spring-mvc%EC%97%90%EC%84%9C-%EB%A1%9C%EC%A7%81%EC%97%90-%EC%9D%B4%EC%83%81%EC%9D%B4-%EC%97%86%EB%8A%94%EB%8D%B0-406%EC%97%90%EB%9F%AC%EA%B0%80-%EB%82%A0-%EB%95%8C/</link>
-      <pubDate>Mon, 22 Jul 2013 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2013/07/Spring-mvc%EC%97%90%EC%84%9C-%EB%A1%9C%EC%A7%81%EC%97%90-%EC%9D%B4%EC%83%81%EC%9D%B4-%EC%97%86%EB%8A%94%EB%8D%B0-406%EC%97%90%EB%9F%AC%EA%B0%80-%EB%82%A0-%EB%95%8C/</guid>
-      <description>JSON변환 중, 필드의 jsonProperty가 서로 겹치면 406이 뜬다.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Jackson on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/jackson/</link>
+		<description>Recent content in Jackson on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Thu, 25 Jul 2013 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/jackson/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Jackson이 null 인 프로퍼티를 빼고 Serialize하게 하기</title>
+				<link>https://ezaurum.com/2013/07/Jackson%EC%9D%B4-null-%EC%9D%B8-%ED%94%84%EB%A1%9C%ED%8D%BC%ED%8B%B0%EB%A5%BC-%EB%B9%BC%EA%B3%A0-Serialize%ED%95%98%EA%B2%8C-%ED%95%98%EA%B8%B0/</link>
+				<pubDate>Thu, 25 Jul 2013 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2013/07/Jackson%EC%9D%B4-null-%EC%9D%B8-%ED%94%84%EB%A1%9C%ED%8D%BC%ED%8B%B0%EB%A5%BC-%EB%B9%BC%EA%B3%A0-Serialize%ED%95%98%EA%B2%8C-%ED%95%98%EA%B8%B0/</guid>
+				<description>&lt;p&gt;클래스 선언부에 다음을 추가 &lt;code&gt;&#xA;@JsonSerialize(include = JsonSerialize.Inclusion.NON_NULL)&#xA;public class Blabla { &amp;hellip; }&#xA;&lt;/code&gt;&#xA;상속도 된다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Spring mvc에서 로직에 이상이 없는데 406에러가 날 때</title>
+				<link>https://ezaurum.com/2013/07/Spring-mvc%EC%97%90%EC%84%9C-%EB%A1%9C%EC%A7%81%EC%97%90-%EC%9D%B4%EC%83%81%EC%9D%B4-%EC%97%86%EB%8A%94%EB%8D%B0-406%EC%97%90%EB%9F%AC%EA%B0%80-%EB%82%A0-%EB%95%8C/</link>
+				<pubDate>Mon, 22 Jul 2013 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2013/07/Spring-mvc%EC%97%90%EC%84%9C-%EB%A1%9C%EC%A7%81%EC%97%90-%EC%9D%B4%EC%83%81%EC%9D%B4-%EC%97%86%EB%8A%94%EB%8D%B0-406%EC%97%90%EB%9F%AC%EA%B0%80-%EB%82%A0-%EB%95%8C/</guid>
+				<description>&lt;p&gt;JSON변환 중, 필드의 jsonProperty가 서로 겹치면 406이 뜬다.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

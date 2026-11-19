@@ -1,34 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Request on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/request/</link>
-    <description>Recent content in Request on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Thu, 16 May 2013 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/request/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>json 요청 보내기</title>
-      <link>https://ezaurum.com/2013/05/json-%EC%9A%94%EC%B2%AD-%EB%B3%B4%EB%82%B4%EA%B8%B0/</link>
-      <pubDate>Thu, 16 May 2013 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2013/05/json-%EC%9A%94%EC%B2%AD-%EB%B3%B4%EB%82%B4%EA%B8%B0/</guid>
-      <description>curl -v -H &amp;ldquo;Accept: application/json&amp;rdquo; -H &amp;ldquo;Content-type: application/json&amp;rdquo; -X POST -d &amp;lsquo;{&amp;ldquo;email&amp;rdquo;:&amp;ldquo;abesteail@mailcom&amp;rdquo;,&amp;ldquo;password&amp;rdquo;:&amp;ldquo;234234&amp;rdquo;}&amp;rsquo; http://localhost:8080/json</description>
-    </item>
-    <item>
-      <title>Request 객체를 파라마터로 받아오지 않고 참조하기</title>
-      <link>https://ezaurum.com/2012/07/Request-%EA%B0%9D%EC%B2%B4%EB%A5%BC-%ED%8C%8C%EB%9D%BC%EB%A7%88%ED%84%B0%EB%A1%9C-%EB%B0%9B%EC%95%84%EC%98%A4%EC%A7%80-%EC%95%8A%EA%B3%A0-%EC%B0%B8%EC%A1%B0%ED%95%98%EA%B8%B0/</link>
-      <pubDate>Fri, 13 Jul 2012 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2012/07/Request-%EA%B0%9D%EC%B2%B4%EB%A5%BC-%ED%8C%8C%EB%9D%BC%EB%A7%88%ED%84%B0%EB%A1%9C-%EB%B0%9B%EC%95%84%EC%98%A4%EC%A7%80-%EC%95%8A%EA%B3%A0-%EC%B0%B8%EC%A1%B0%ED%95%98%EA%B8%B0/</guid>
-      <description>RequestContextHolder를 쓰면 됨. 쓰레드에다가 필요 정보가 다 저장되므로 같은 쓰레드에서 돌아가는 애들은 정보 공유가 됨. &amp;hellip;그럼 한 쓰레드에서 두 개 이상이 돌아가는&amp;hellip; 건 없나? 모르겠네. 깔끔해 지긴 하지만 직관적이진 않은 방법같다. 그래도 서비스단에 request가 주렁주렁 달려서 내려가거나 컨트롤러에서 체크를 하느니 이걸 하겠어.</description>
-    </item>
-    <item>
-      <title>Java 컨테이너에 Form 값의 encoding 깨질 때</title>
-      <link>https://ezaurum.com/2010/10/Java-%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88%EC%97%90-Form-%EA%B0%92%EC%9D%98-encoding-%EA%B9%A8%EC%A7%88-%EB%95%8C/</link>
-      <pubDate>Fri, 22 Oct 2010 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2010/10/Java-%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88%EC%97%90-Form-%EA%B0%92%EC%9D%98-encoding-%EA%B9%A8%EC%A7%88-%EB%95%8C/</guid>
-      <description>점검사항은 아래 세가지.&#xA;폼에서 정확히 인코딩을 지정해서 넘겨주는가?&#xD;서버에서 정확히 인코딩을 인식하는가?&#xD;DB에서 정확히 인코딩을 인식하는가?&#xD;이다.&#xD;폼에서 정확히 인코딩을 지정해서 념겨주는가?&#xD;이 경우는 일단 문서 첫머리에 meta태그가 utf-8으로 지정되어 있고, 폼에 accept-charset 어트리뷰트가 지정되어 있고, 브라우저에서 확인해서 문서가 utf-8으로 읽히는 상황이라면 문제 없다고 보면 된다. UTF-8으로 나와야 하는 페이지가 UTF-8으로 안나오는 경우는 여기서 다룰 게 아니다.&#xA;&amp;lt;meta http-equiv=&#34;Content-Type&#34; content=&#34;text/html; charset=UTF-8&#34; /&amp;gt;&#xD;&amp;lt;meta charset=&#34;UTF-8&#34; /&amp;gt;&#xD;&amp;lt;form accept-charset=&#34;UTF-8&#34; &amp;gt;&#xD;서버에서 인코딩을 제대로 인식하는가?</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Request on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/request/</link>
+		<description>Recent content in Request on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Thu, 16 May 2013 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/request/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>json 요청 보내기</title>
+				<link>https://ezaurum.com/2013/05/json-%EC%9A%94%EC%B2%AD-%EB%B3%B4%EB%82%B4%EA%B8%B0/</link>
+				<pubDate>Thu, 16 May 2013 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2013/05/json-%EC%9A%94%EC%B2%AD-%EB%B3%B4%EB%82%B4%EA%B8%B0/</guid>
+				<description>&lt;p&gt;&lt;code&gt;curl -v -H &amp;ldquo;Accept: application/json&amp;rdquo; -H &amp;ldquo;Content-type: application/json&amp;rdquo; -X POST -d &amp;lsquo;{&amp;ldquo;email&amp;rdquo;:&amp;ldquo;abesteail@mailcom&amp;rdquo;,&amp;ldquo;password&amp;rdquo;:&amp;ldquo;234234&amp;rdquo;}&amp;rsquo;  http://localhost:8080/json&lt;/code&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Request 객체를 파라마터로 받아오지 않고 참조하기</title>
+				<link>https://ezaurum.com/2012/07/Request-%EA%B0%9D%EC%B2%B4%EB%A5%BC-%ED%8C%8C%EB%9D%BC%EB%A7%88%ED%84%B0%EB%A1%9C-%EB%B0%9B%EC%95%84%EC%98%A4%EC%A7%80-%EC%95%8A%EA%B3%A0-%EC%B0%B8%EC%A1%B0%ED%95%98%EA%B8%B0/</link>
+				<pubDate>Fri, 13 Jul 2012 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2012/07/Request-%EA%B0%9D%EC%B2%B4%EB%A5%BC-%ED%8C%8C%EB%9D%BC%EB%A7%88%ED%84%B0%EB%A1%9C-%EB%B0%9B%EC%95%84%EC%98%A4%EC%A7%80-%EC%95%8A%EA%B3%A0-%EC%B0%B8%EC%A1%B0%ED%95%98%EA%B8%B0/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;http://static.springsource.org/spring/docs/2.0.x/api/org/springframework/web/context/request/RequestContextHolder.html&#34;&gt;RequestContextHolder&lt;/a&gt;를 쓰면 됨.&#xA;쓰레드에다가 필요 정보가 다 저장되므로 같은 쓰레드에서 돌아가는 애들은 정보 공유가 됨. &amp;hellip;그럼 한 쓰레드에서 두 개 이상이 돌아가는&amp;hellip; 건 없나? 모르겠네.&#xA;깔끔해 지긴 하지만 직관적이진 않은 방법같다. 그래도 서비스단에 request가 주렁주렁 달려서 내려가거나 컨트롤러에서 체크를 하느니 이걸 하겠어.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Java 컨테이너에 Form 값의 encoding 깨질 때</title>
+				<link>https://ezaurum.com/2010/10/Java-%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88%EC%97%90-Form-%EA%B0%92%EC%9D%98-encoding-%EA%B9%A8%EC%A7%88-%EB%95%8C/</link>
+				<pubDate>Fri, 22 Oct 2010 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2010/10/Java-%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88%EC%97%90-Form-%EA%B0%92%EC%9D%98-encoding-%EA%B9%A8%EC%A7%88-%EB%95%8C/</guid>
+				<description>&lt;p&gt;점검사항은 아래 세가지.&lt;/p&gt;&#xA;&lt;ol&gt;&#xD;&#xA;&#x9;&lt;li&gt;폼에서 정확히 인코딩을 지정해서 넘겨주는가?&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;서버에서 정확히 인코딩을 인식하는가?&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;DB에서 정확히 인코딩을 인식하는가?&lt;/li&gt;&#xD;&#xA;&lt;/ol&gt;&#xD;&#xA;이다.&#xD;&#xA;&lt;ol&gt;&#x9;&lt;li&gt;폼에서 정확히 인코딩을 지정해서 념겨주는가?&#xD;&#xA;&lt;p&gt;이 경우는 일단 문서 첫머리에 meta태그가 utf-8으로 지정되어 있고, 폼에 accept-charset 어트리뷰트가 지정되어 있고, 브라우저에서 확인해서 문서가 utf-8으로 읽히는 상황이라면 문제 없다고 보면 된다. UTF-8으로 나와야 하는 페이지가 UTF-8으로 안나오는 경우는 여기서 다룰 게 아니다.&lt;/p&gt;&#xD;&#xA;&lt;code&gt;&#xD;&#xA;&amp;lt;meta http-equiv=&#34;Content-Type&#34; content=&#34;text/html; charset=UTF-8&#34; /&amp;gt;&#xD;&#xA;&amp;lt;meta charset=&#34;UTF-8&#34; /&amp;gt;&#xD;&#xA;&amp;lt;form accept-charset=&#34;UTF-8&#34; &amp;gt;&#xD;&#xA;&lt;/code&gt;&#xD;&#xA;&lt;/li&gt;&#x9;&lt;li&gt;서버에서 인코딩을 제대로 인식하는가?&#xD;&#xA;&lt;p&gt;경험상 대부분 문제는 여기서 발생한다. 특히 서버 관리자와 프로그래머가 독립적으로 있고, 서로 업무 연계가 힘든 상황이라면 더욱 문제다. 가능하면 인코딩을 서버 설정에 맞추자.&#xD;&#xA;java라면 아래와 같이 해결.&#xD;&#xA;&lt;code&gt;request.setCharacterSet(&#34;utf-8&#34;); &lt;/code&gt;&#xD;&#xA;php도 비슷한 게 있을 터다. 하지만 여기서는 문제를 못 봤으니까 빼고. 일단 대부분의 문제는 저걸로 해결될 거다.&#xD;&#xA;&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

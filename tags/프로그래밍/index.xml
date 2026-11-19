@@ -1,104 +1,110 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>프로그래밍 on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/</link>
-    <description>Recent content in 프로그래밍 on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Thu, 18 Mar 2021 13:49:20 +0900</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>2018 카카오 블라인드 테스트 추석 트래픽 풀이</title>
-      <link>https://ezaurum.com/study/sweep-algorithm/</link>
-      <pubDate>Thu, 18 Mar 2021 13:49:20 +0900</pubDate>
-      <guid>https://ezaurum.com/study/sweep-algorithm/</guid>
-      <description>알고리즘 스터디를 하다 6시간 이상 낑낑대며 풀어서 아까워서 정리 언젠가는 쉽게 풀 수 있겠지.&#xA;문제 2018카카오 블라인드 테스트&#xA;신경써야 하는 부분 정렬된 기준점에서 시작해야 함 Sweeping Algorithm 참조&#xA;일반 풀이 Sweep a line across problem plane. 문제를 평면에 놓고 줄을 긋는다&#xA;As the line sweeps across the plane, events of interest occur, keep track of these events. 줄이 평면에 그어지면서 뭔가 사건이 생기면 그걸 추적한다.&#xA;Deal with events that occur at the line leaving a solved problem behind.</description>
-    </item>
-    <item>
-      <title>프로그래밍 심리학</title>
-      <link>https://ezaurum.com/2011/11/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EC%8B%AC%EB%A6%AC%ED%95%99/</link>
-      <pubDate>Tue, 08 Nov 2011 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2011/11/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EC%8B%AC%EB%A6%AC%ED%95%99/</guid>
-      <description>일단 이게 옛날 책이라는 게 놀랍다. 나온지 몇 년 안 된 책 같아. 그 동안 이 업계가 발전이 없었던 건 아니다. 책에서 나오는 이야기 중에 많은 것들은 오늘날 개선을 위한 노력이 결실을 맺고 있고, 뒤쪽에 추가된 글에도 그 이야기들이 많다. 하지만 결국 이것은 사람에 대한 책이다. 그래서 몇 년이 지나더라도 쓸모가 있을 거라 생각한다. GUI가 아무리 화려해도 뭔가 하려면 결국 커맨드 라인으로 가야 하는 것처럼. 결국 프로그래밍은 사람이 하는 일이다. 그러니 사람을 알아야 한다.</description>
-    </item>
-    <item>
-      <title>생각하는 프로그래밍</title>
-      <link>https://ezaurum.com/2011/06/%EC%83%9D%EA%B0%81%ED%95%98%EB%8A%94-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/</link>
-      <pubDate>Wed, 22 Jun 2011 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2011/06/%EC%83%9D%EA%B0%81%ED%95%98%EB%8A%94-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/</guid>
-      <description>어렵다&amp;hellip; 공부가 부족하구나 하고 느끼게 해 주는 책. 문제와 그 문제에 대한 해결법과 도출과정, 발전형 문제들을 제시해준다. 천천히, 느긋하게 읽기 좋겠다. 누군가는 한 달 동안 즐거울 거라는데, 난 내년이나 되어야 다 읽을 듯.</description>
-    </item>
-    <item>
-      <title>자바스크립트에서 카운트다운 타이머를 만들 때 유의점</title>
-      <link>https://ezaurum.com/2011/03/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EC%97%90%EC%84%9C-%EC%B9%B4%EC%9A%B4%ED%8A%B8%EB%8B%A4%EC%9A%B4-%ED%83%80%EC%9D%B4%EB%A8%B8%EB%A5%BC-%EB%A7%8C%EB%93%A4-%EB%95%8C-%EC%9C%A0%EC%9D%98%EC%A0%90/</link>
-      <pubDate>Tue, 08 Mar 2011 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2011/03/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EC%97%90%EC%84%9C-%EC%B9%B4%EC%9A%B4%ED%8A%B8%EB%8B%A4%EC%9A%B4-%ED%83%80%EC%9D%B4%EB%A8%B8%EB%A5%BC-%EB%A7%8C%EB%93%A4-%EB%95%8C-%EC%9C%A0%EC%9D%98%EC%A0%90/</guid>
-      <description>영문 - http://ejohn.org/blog/how-javascript-timers-work/ 한글 - http://okjungsoo.tistory.com/entry/JavaScript-Timer&#xA;뽀모도로 타이머를 만들던 중, setInterval을 이용하여 코드를 짜니 25분 짜리 타이머에서 한 15초 가량 오차가 나는 것을 발견, 이리저리 뒤지자 이런 것이 나왔다.&#xA;간단한 결론은, 오차가 적어야 하는 상황이면 setTimeout을 쓰라는 것.setTimeout을 쓴다고 해도 그래도 오차가 없어지지는 않음&amp;hellip;.(new Date()).getMillisecond()를 쓰면 시각 자체에 대한 정확성은 그래도 어느 정도까지는 보장할 수 있을테니까 그것으로 타협.&#xA;타이머 성능 관련 링크</description>
-    </item>
-    <item>
-      <title>군 복무 중 읽은 기술 서적 정리</title>
-      <link>https://ezaurum.com/2011/03/%EA%B5%B0-%EB%B3%B5%EB%AC%B4-%EC%A4%91-%EC%9D%BD%EC%9D%80-%EA%B8%B0%EC%88%A0-%EC%84%9C%EC%A0%81-%EC%A0%95%EB%A6%AC/</link>
-      <pubDate>Wed, 02 Mar 2011 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2011/03/%EA%B5%B0-%EB%B3%B5%EB%AC%B4-%EC%A4%91-%EC%9D%BD%EC%9D%80-%EA%B8%B0%EC%88%A0-%EC%84%9C%EC%A0%81-%EC%A0%95%EB%A6%AC/</guid>
-      <description>크게 혼자서 보면서 배우는 튜토리얼 계와 아무 때나 펼쳐서 볼 수 있는 레퍼런스. 두가지로 분류.&#xA;성공과 실패를 결정하는 1%의 네트워크 원리 2nd edtion&#xD;-1%시리즈 답게 간략하고 필요한 부분만 담겨 있다. 재판은 그림이 좀 더 많아지고 두꺼워져서 좋은 듯.&#xD;+가벼운 레퍼런스&amp;amp;튜토리얼&#xD;성공과 실패를 결정하는 1%의 프로그래밍 원리&#xD;-오랜만에 다시 읽으니 안 보이던 부분이 보인다.&#xD;+가벼운 레퍼런스&amp;amp;튜토리얼&#xD;성공과 실패를 결정하는 1%의 컴퓨터 원리&#xD;-후임이 샀길래 살짝 봤는데 괜찮은 듯, 사도 좋을 것 같다.</description>
-    </item>
-    <item>
-      <title>Quick Sort</title>
-      <link>https://ezaurum.com/2011/01/Quick-Sort/</link>
-      <pubDate>Mon, 17 Jan 2011 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2011/01/Quick-Sort/</guid>
-      <description>int partition(int * array, int leftIndex, int lastIndex, int pivotIndex) { int pivotValue = array[pivotIndex]; swap(&amp;amp;array[pivotIndex], &amp;amp;array[lastIndex]); int storeIndex = leftIndex; for(int i = leftIndex; i &amp;lt; lastIndex; i++) { if(array[i] leftIndex) { int newPivotIndex = partition(array,leftIndex,lastIndex,lastIndex); quickSort(array, leftIndex,newPivotIndex-1); quickSort(array, newPivotIndex+1,lastIndex); } }&#xA;오늘은 정렬의 왕도, 퀵정렬. 사실 하다 꼬여서 이 소스는 위키에서 퍼온 의사코드를 그대로 옮긴 것. 아놔. 내 뇌의 숫자개념에는 뭔가 문제가 있는 게 확실해. 지금와서 어떻게 할 수도 없고, 힘내서 외운 걸로 커버하자.</description>
-    </item>
-    <item>
-      <title>Insertion Sort</title>
-      <link>https://ezaurum.com/2011/01/Insertion-Sort/</link>
-      <pubDate>Fri, 14 Jan 2011 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2011/01/Insertion-Sort/</guid>
-      <description>void insertionSort(int * array, int size) { int j = 0; int temp = 0; for (int i = 1; i &amp;lt; size ; i++)&#x9;{ j = 0; while(j array[j]) { j++; } else { temp = array[i]; for ( int k = i; k &amp;gt; j; k&amp;ndash;) { array[k] = array[k-1]; } array[j] = temp; j = i; } } } }&#xA;void insertionSort2(int * array, int size) { int j = 0; for (int i = 1; i 0 &amp;amp;&amp;amp; array[j-1] &amp;gt; array[j] ) { swap(array[j-1],array[j]); j&amp;ndash;; } } }</description>
-    </item>
-    <item>
-      <title>Bubble Sort</title>
-      <link>https://ezaurum.com/2011/01/Bubble-Sort/</link>
-      <pubDate>Thu, 13 Jan 2011 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2011/01/Bubble-Sort/</guid>
-      <description>void bubbleSort(int * array, int size)&#xD;{&#xD;int temp = 0;&#xD;int j=0;&#xD;bool swapped = true;&#xD;while(swapped)&#xD;{&#xD;j++;&#xD;swapped = false;&#xD;for( int i = 0; i &amp;lt; size -1 -j ; i++)&#xD;{&#xD;if ( array[i] &amp;gt; array[i+1] )&#xD;{&#xD;temp = array[i];&#xD;array[i] = array[i+1];&#xD;array[i+1] = temp;&#xD;swapped = true;&#xD;}&#xD;}&#xD;j++;&#xD;}&#xD;}&#xD;void swap(int * a, int * b)&#xD;{&#xD;int temp = 0;&#xD;temp = *a;&#xD;*a = *b;&#xD;*b = temp;&#xD;}&#xD;bool swapif(int * a, int * b)&#xD;{&#xD;if ( *a &amp;gt; *b)&#xD;{&#xD;swap(a,b);&#xD;return true;&#xD;}&#xD;else&#xD;{&#xD;return false;&#xD;}&#xD;}&#xD;void bubbleSort2(int * array, int size) { int j=0; bool swapped = true; while(swapped) { swapped=false; for( int i = 0; i &amp;lt; size -j -1 ; i++) { swapped = swapif(array+i,array+i+1) ?</description>
-    </item>
-    <item>
-      <title>Selection Sort</title>
-      <link>https://ezaurum.com/2011/01/Selection-Sort/</link>
-      <pubDate>Thu, 13 Jan 2011 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2011/01/Selection-Sort/</guid>
-      <description>void selectSort(int * array, int size) { int minPoint = 0; for( int j = 0; j &amp;amp;lt; size -1; j++) { minPoint = j; for (int i = j; i &amp;amp;lt; size ; i++) { if(array[i] &amp;amp;lt; array[minPoint]) { minPoint = i; } } swap(array+j, array+minPoint); } } 오랜만에 공부 좀 하니까 머리가 돌아가는 듯.</description>
-    </item>
-    <item>
-      <title>내가 프로그래밍을 해서 먹고 살 수 있을까</title>
-      <link>https://ezaurum.com/2010/08/%EB%82%B4%EA%B0%80-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EC%9D%84-%ED%95%B4%EC%84%9C-%EB%A8%B9%EA%B3%A0-%EC%82%B4-%EC%88%98-%EC%9E%88%EC%9D%84%EA%B9%8C/</link>
-      <pubDate>Thu, 19 Aug 2010 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2010/08/%EB%82%B4%EA%B0%80-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EC%9D%84-%ED%95%B4%EC%84%9C-%EB%A8%B9%EA%B3%A0-%EC%82%B4-%EC%88%98-%EC%9E%88%EC%9D%84%EA%B9%8C/</guid>
-      <description>이걸 짜는데 이틀 걸렸다면 믿으시겠습니까? 젠장&#xA;private String a(int initial, int max, String leftValue) { String returnValue = &amp;ldquo;&amp;rdquo;;&#xA;if (initial &amp;amp;lt; max) {&#xD;if (initial != -1) {&#xD;if (leftValue != null) {&#xD;leftValue += &amp;amp;quot; &amp;amp;quot;;&#xD;leftValue += initial;&#xD;} else {&#xD;leftValue = String.valueOf(initial);&#xD;}&#xD;}&#xD;for (int i = initial + 1; i &amp;amp;lt;= max; i++) {&#xD;returnValue += a(i, max, leftValue);&#xD;}&#xD;return returnValue;&#xD;} else {&#xD;if (leftValue !</description>
-    </item>
-    <item>
-      <title>jUnit4 annotations</title>
-      <link>https://ezaurum.com/2010/08/jUnit4-annotations/</link>
-      <pubDate>Tue, 10 Aug 2010 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2010/08/jUnit4-annotations/</guid>
-      <description>package testCases;&#xA;import static org.junit.Assert.assertEquals;&#xA;import org.junit.Test; import org.junit.Before; import org.junit.After;&#xA;public class myTest { @Test public void testCodes() throws Exception { System.out.println(&amp;ldquo;3&amp;rdquo;); }&#xA;@Before&#xD;public void testMakeClass1()&#xD;{&#xD;System.out.println(&amp;quot;2&amp;quot;);&#x9;}&#x9;@Before&#xD;public void testMakeClass()&#xD;{&#xD;System.out.println(&amp;quot;1&amp;quot;);&#x9;}&#xD;@After public void afterClass() { System.out.println(&amp;ldquo;4&amp;rdquo;);&#xA;}&#xD;@After&#xD;public void afterClass1()&#xD;{&#xD;System.out.println(&amp;quot;5&amp;quot;);&#xD;}&#x9;} 실행 결과는 적힌 대로 12345가 된다.</description>
-    </item>
-    <item>
-      <title>TDD 시작</title>
-      <link>https://ezaurum.com/2010/08/TDD-%EC%8B%9C%EC%9E%91/</link>
-      <pubDate>Fri, 06 Aug 2010 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2010/08/TDD-%EC%8B%9C%EC%9E%91/</guid>
-      <description>TDD란 걸 시작했다. 좋은 튜토리얼을 발견해서 그걸 보고 대충 익혔는데, 여기의 글들과 관련해서 좀 공부를 더 해야 겠다.&#xA;테스트를 작성한다. &amp;lt;li&amp;gt;작성한 테스트를 통과할 수 있도록 가장 빠른 방법으로 코드를 작성한다. 이 과정에 중복된 코드를 만들어도 상관 없다. &amp;lt;/li&amp;gt;&#xD;&amp;lt;li&amp;gt;테스트를 수행한다. &amp;lt;/li&amp;gt;&#xD;&amp;lt;li&amp;gt;&#xD;테스트를 통과하면 작성한 코드에서 중복을 제거한다. 아니면 2번으로 돌아간다. 테스트를 수행한다. &amp;lt;li&amp;gt;테스트를 통과하면 완성. 다음 테스트를 1번부터 시작한다. 실패하면 4로 돌아가서 디버깅한다.&amp;lt;/li&amp;gt;&amp;lt;/ol&amp;gt;&#xD;TDD(TestDrivenDevelopement)이런 식으로 진행되는데, 개발 속도가 엄청나게 빨라진다고 한다.</description>
-    </item>
-    <item>
-      <title>상자 4개</title>
-      <link>https://ezaurum.com/2010/08/%EC%83%81%EC%9E%90-4%EA%B0%9C/</link>
-      <pubDate>Fri, 06 Aug 2010 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2010/08/%EC%83%81%EC%9E%90-4%EA%B0%9C/</guid>
-      <description>문제 출처 - http://xper.org/wiki/seminar/FourBoxes&#xA;4개의 직사각형이 평면에 있는데 밑변이 모두 가로축에 평행하다. 이 직사각형들이 차지하는 면적을 구하는 프로그램을 작성하시오. 이 네 개의 직사각형들은 서로 떨어져 있을 수도 있고 겹쳐 있을 수도 있다. 또한 하나가 다른 하나를 포함할 수도 있으며, 변이나 꼭지점이 겹쳐질 수도 있다. 실행 파일의 이름은 RECT.EXE로 하시오. 입력형식&#xA;하나의 직사각형은 왼쪽 아래의 꼭지점과 오른쪽 위의 꼭지점의 좌표로 주어진다. 입력은 네 줄이며, 각 줄은 네 개의 정수로 하나의 직사각형을 나타낸다.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>프로그래밍 on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/</link>
+		<description>Recent content in 프로그래밍 on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Thu, 18 Mar 2021 13:49:20 +0900</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>2018 카카오 블라인드 테스트 추석 트래픽 풀이</title>
+				<link>https://ezaurum.com/study/sweep-algorithm/</link>
+				<pubDate>Thu, 18 Mar 2021 13:49:20 +0900</pubDate>
+				<guid>https://ezaurum.com/study/sweep-algorithm/</guid>
+				<description>&lt;p&gt;알고리즘 스터디를 하다 6시간 이상 낑낑대며 풀어서 아까워서 정리&#xA;언젠가는 쉽게 풀 수 있겠지.&lt;/p&gt;&#xA;&lt;h2 id=&#34;문제&#34;&gt;문제&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://programmers.co.kr/learn/courses/30/lessons/17676&#34;&gt;2018카카오 블라인드 테스트&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;신경써야-하는-부분&#34;&gt;신경써야 하는 부분&lt;/h2&gt;&#xA;&lt;p&gt;정렬된 기준점에서 시작해야 함&#xA;&lt;a href=&#34;http://courses.csail.mit.edu/6.854/17/Scribe/s25-sweepline.html&#34;&gt;Sweeping Algorithm 참조&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;일반-풀이&#34;&gt;일반 풀이&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Sweep a line across problem plane.&#xA;문제를 평면에 놓고 줄을 긋는다&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;As the line sweeps across the plane, events of interest occur, keep track of these events.&#xA;줄이 평면에 그어지면서 뭔가 사건이 생기면 그걸 추적한다.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Deal with events that occur at the line leaving a solved problem behind.&#xA;일어난 문제를 해결하면서 해결된 문제는 뒤에 둔다(더 이상 신경쓰지 않는다)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+			</item>
+			<item>
+				<title>프로그래밍 심리학</title>
+				<link>https://ezaurum.com/2011/11/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EC%8B%AC%EB%A6%AC%ED%95%99/</link>
+				<pubDate>Tue, 08 Nov 2011 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2011/11/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EC%8B%AC%EB%A6%AC%ED%95%99/</guid>
+				<description>&lt;p&gt;일단 이게 옛날 책이라는 게 놀랍다.&#xA;나온지 몇 년 안 된 책 같아.&#xA;그 동안 이 업계가 발전이 없었던 건 아니다. 책에서 나오는 이야기 중에 많은 것들은 오늘날 개선을 위한 노력이 결실을 맺고 있고, 뒤쪽에 추가된 글에도 그 이야기들이 많다.&#xA;하지만 결국 이것은 사람에 대한 책이다. 그래서 몇 년이 지나더라도 쓸모가 있을 거라 생각한다.&#xA;GUI가 아무리 화려해도 뭔가 하려면 결국 커맨드 라인으로 가야 하는 것처럼.&#xA;결국 프로그래밍은 사람이 하는 일이다. 그러니 사람을 알아야 한다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>생각하는 프로그래밍</title>
+				<link>https://ezaurum.com/2011/06/%EC%83%9D%EA%B0%81%ED%95%98%EB%8A%94-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/</link>
+				<pubDate>Wed, 22 Jun 2011 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2011/06/%EC%83%9D%EA%B0%81%ED%95%98%EB%8A%94-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/</guid>
+				<description>&lt;p&gt;어렵다&amp;hellip;&#xA;공부가 부족하구나 하고 느끼게 해 주는 책.&#xA;문제와 그 문제에 대한 해결법과 도출과정, 발전형 문제들을 제시해준다.&#xA;천천히, 느긋하게 읽기 좋겠다. 누군가는 한 달 동안 즐거울 거라는데, 난 내년이나 되어야 다 읽을 듯.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>자바스크립트에서 카운트다운 타이머를 만들 때 유의점</title>
+				<link>https://ezaurum.com/2011/03/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EC%97%90%EC%84%9C-%EC%B9%B4%EC%9A%B4%ED%8A%B8%EB%8B%A4%EC%9A%B4-%ED%83%80%EC%9D%B4%EB%A8%B8%EB%A5%BC-%EB%A7%8C%EB%93%A4-%EB%95%8C-%EC%9C%A0%EC%9D%98%EC%A0%90/</link>
+				<pubDate>Tue, 08 Mar 2011 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2011/03/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EC%97%90%EC%84%9C-%EC%B9%B4%EC%9A%B4%ED%8A%B8%EB%8B%A4%EC%9A%B4-%ED%83%80%EC%9D%B4%EB%A8%B8%EB%A5%BC-%EB%A7%8C%EB%93%A4-%EB%95%8C-%EC%9C%A0%EC%9D%98%EC%A0%90/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;http://ejohn.org/blog/how-javascript-timers-work/&#34;&gt;영문 - &lt;a href=&#34;http://ejohn.org/blog/how-javascript-timers-work/&#34;&gt;http://ejohn.org/blog/how-javascript-timers-work/&lt;/a&gt;&lt;/a&gt;&#xA;&lt;a href=&#34;http://okjungsoo.tistory.com/entry/JavaScript-Timer&#34;&gt;한글 - &lt;a href=&#34;http://okjungsoo.tistory.com/entry/JavaScript-Timer&#34;&gt;http://okjungsoo.tistory.com/entry/JavaScript-Timer&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;뽀모도로 타이머를 만들던 중, setInterval을 이용하여 코드를 짜니 25분 짜리 타이머에서 한 15초 가량 오차가 나는 것을 발견, 이리저리 뒤지자 이런 것이 나왔다.&lt;/p&gt;&#xA;&lt;p&gt;간단한 결론은, &lt;del datetime=&#34;2011-03-08T23:02:56+00:00&#34;&gt;오차가 적어야 하는 상황이면 setTimeout을 쓰라는 것.&lt;/del&gt;&lt;ins datetime=&#34;2011-03-08T23:02:56+00:00&#34;&gt;setTimeout을 쓴다고 해도 그래도 오차가 없어지지는 않음&amp;hellip;.(new Date()).getMillisecond()를 쓰면 시각 자체에 대한 정확성은 그래도 어느 정도까지는 보장할 수 있을테니까 그것으로 타협.&lt;/ins&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://okjungsoo.tistory.com/entry/Google-code-blog에-소개된-JavaScript-Timer&#34;&gt;타이머 성능 관련 링크&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>군 복무 중 읽은 기술 서적 정리</title>
+				<link>https://ezaurum.com/2011/03/%EA%B5%B0-%EB%B3%B5%EB%AC%B4-%EC%A4%91-%EC%9D%BD%EC%9D%80-%EA%B8%B0%EC%88%A0-%EC%84%9C%EC%A0%81-%EC%A0%95%EB%A6%AC/</link>
+				<pubDate>Wed, 02 Mar 2011 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2011/03/%EA%B5%B0-%EB%B3%B5%EB%AC%B4-%EC%A4%91-%EC%9D%BD%EC%9D%80-%EA%B8%B0%EC%88%A0-%EC%84%9C%EC%A0%81-%EC%A0%95%EB%A6%AC/</guid>
+				<description>&lt;p&gt;크게 혼자서 보면서 배우는 튜토리얼 계와 아무 때나 펼쳐서 볼 수 있는 레퍼런스. 두가지로 분류.&lt;/p&gt;&#xA;&lt;ol&gt;&#xD;&#xA;&lt;li&gt;성공과 실패를 결정하는 1%의 네트워크 원리 2nd edtion&#xD;&#xA;-1%시리즈 답게 간략하고 필요한 부분만 담겨 있다. 재판은 그림이 좀 더 많아지고 두꺼워져서 좋은 듯.&#xD;&#xA;+가벼운 레퍼런스&amp;amp;튜토리얼&lt;/li&gt;&#xD;&#xA;&lt;li&gt;&#xD;&#xA;성공과 실패를 결정하는 1%의 프로그래밍 원리&#xD;&#xA;-오랜만에 다시 읽으니 안 보이던 부분이 보인다.&#xD;&#xA;+가벼운 레퍼런스&amp;amp;튜토리얼&#xD;&#xA;&lt;/li&gt;&#xD;&#xA;&lt;li&gt;&#xD;&#xA;성공과 실패를 결정하는 1%의 컴퓨터 원리&#xD;&#xA;-후임이 샀길래 살짝 봤는데 괜찮은 듯, 사도 좋을 것 같다.&#xD;&#xA;+튜토리얼&amp;amp;가벼운 레퍼런스&#xD;&#xA;&lt;/li&gt;&#xD;&#xA; &lt;li&gt;Beginning oracle programming&#xD;&#xA;-DB쓸 일이 많아져서 샀는데, 의외로 많이 안 읽게 되었다. 하지만 없기엔 좀 허전하고... 본격적으로 DB공부를 하려면 좀 더 책이 있어야 하고, 여튼 계륵같은 느낌.&#xD;&#xA;+레퍼런스&lt;/li&gt;&#xD;&#xA; &lt;li&gt;유쾌한 자바 퍼즐러&#xD;&#xA;-자바 공부를 하는 김에 봤는데, 예제를 따라 만들지를 않고 한 번 보기만 했다. 다시 보면서 예제를 해 볼 예정.&#xD;&#xA;+튜토리얼&lt;/li&gt;&#xD;&#xA; &lt;li&gt;Head First OOP&#xD;&#xA;-OOP 개념도 좋고, 프로젝트 실제 진행방법에 대한 것이 조금 나와 있어서 괜찮은 것 같다.&#xD;&#xA;+튜토리얼&amp;amp;가벼운 레퍼런스&lt;/li&gt;&#xD;&#xA; &lt;li&gt;Head First JSP&amp;amp;Servlet&#xD;&#xA;-역시 기본은 커맨드라인. 기초 다지기에 부족하지 않다.&#xD;&#xA;+튜토리얼&amp;amp;가벼운 레퍼런스&lt;/li&gt;&#xD;&#xA; &lt;li&gt;Head First Java&#xD;&#xA;-이하동문&#xD;&#xA;+튜토리얼&lt;/li&gt;&#xD;&#xA; &lt;li&gt;Head First Design Pattern&#xD;&#xA;-헤드 퍼스트는 쉬워서 좋다. 토비의 스프링3와 함께 읽으니 이해도 up. GoF책은 좀 이따 읽어봐야지.&#xD;&#xA;+튜토리얼&amp;amp;레퍼런스&lt;/li&gt;&#xD;&#xA; &lt;li&gt;DOM Script&#xD;&#xA;-DOM에 대한 설명과 적합한 개발방법이 나와있다. 빌려서 읽어도 괜찮았을텐데.&#xD;&#xA;+튜토리얼&lt;/li&gt;&#xD;&#xA; &lt;li&gt;C언어로 배우는 알고리즘 입문&#xD;&#xA;-양으로 압도한다. 아주 맘에 들었음. 하지만 아직 많이 진행은 못 했다.&#xD;&#xA;+튜토리얼&amp;amp;레퍼런스&lt;/li&gt;&#xD;&#xA; &lt;li&gt;숏코딩&#xD;&#xA;-이거 자체로 뭔가 도움이 된다기 보다는, 재밌다. 며칠쯤 진지하게 해도 될 만한 물건. 번역 포인트&amp;amp;반값행사로 구한 물건.&#xD;&#xA;+튜토리얼&lt;/li&gt;&#xD;&#xA; &lt;li&gt;하이버네이트 - Harnessing Hibernate&#xD;&#xA;-책이 그리 좋지는 않다. 디자인 패턴과 스프링을 읽고 나니까 이해가 되더라. 하이버네이트를 제대로 하려면 다른 책을 구해야겠다.&#xD;&#xA;+튜토리얼&lt;/li&gt;&#xD;&#xA; &lt;li&gt;토비의 스프링3&#xD;&#xA;-최근 본 기술서적 중 최고. 스프링에 대한 것 뿐만 아니라 나같은 초보는 보는 것만으로도 능력이 올라가는 기분이 드는 놀라운 척이다.&#xD;&#xA;+튜토리얼&lt;/li&gt;&#xD;&#xA; &lt;li&gt;SICP&#xD;&#xA;-공개된 영문판 PDF의 제본. 역시 어렵다... 아직 제대로 보지도 못했음.&#xD;&#xA;+튜토리얼&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;Introduction to Algorithm&#xD;&#xA;-이것도 공개된 영문판 PDF의 제본. 1과 정도를 음성강의 들으면서 진행.&#xD;&#xA;+튜토리얼&amp;amp;레퍼런스&#xD;&#xA;&lt;/li&gt;&#xD;&#xA; &lt;li&gt;Art of Programming&#xD;&#xA;-GG&#xD;&#xA;+벽돌...ORL&#xD;&#xA;&lt;/li&gt;&#xD;&#xA;&lt;li&gt;Common LISP&#xD;&#xA;-공개된 영문판 PDF 제본. 4장까지 봤던가. 이건 내용도 그럭저럭 따라갈 만 하다. 아니 정확하게 말하자면 쉬울 정도인데, 이것만 가지고는 뭘 못 하겠다.&#xD;&#xA;+튜토리얼&#xD;&#xA;&lt;/li&gt;&#xD;&#xA; &lt;li&gt;테스트 주도 개발 : 고품질 쾌속개발을 위한 TDD 실천법과 도구&#xD;&#xA;-공개된 PDF만 읽었음. 전체 책은 일단 여기 나온 것을 체화한 다음에... 방향성 자체는 좋은 것 같다.&#xD;&#xA;+튜토리얼&#xD;&#xA;&lt;/li&gt;&#xD;&#xA; &lt;li&gt;DO it! HTML5 + CSS3&#xD;&#xA;-몇 개 따라해 봤다. 개념에 대한 설명보다는 실제로 따라할 수 있는 예제중심.&#xD;&#xA;+튜토리얼&#xD;&#xA;&lt;/li&gt;&#xD;&#xA;&lt;li&gt;&#xD;&#xA;웹디자인 2.0 고급 CSS&#xD;&#xA;-아주 맘에 들었다. 디자인에 대한 이야기가 많으면서도 중요한 태그개념이나 CSS의 기술적 설명도 되어 있다. 풀컬러라는 점도 포인트&#xD;&#xA;+튜토리얼&lt;/li&gt;&#xD;&#xA; &lt;li&gt;스타일로 말해요&#xD;&#xA;-부제가 css아는 웹디자이너 되기인데, 프로그래머보다는 웹디자이너에게 설명하는 책. 그래서 다른 사람에게 CSS와 HTML을 어떻게 설명할지를 알게 되었다.&#xD;&#xA;+튜토리얼&lt;/li&gt;&#xD;&#xA; &lt;li&gt;&#xD;&#xA;리팩토링&#xD;&#xA;-리팩토링에 대한 내용. 일단은 1장까지 밖에...&#xD;&#xA;+튜토리얼&amp;amp;레퍼런스&#xD;&#xA;&lt;/li&gt;&#xD;&#xA; &lt;li&gt;레거시 코드 활용&#xD;&#xA;-옛날 코드 수정에 필요해 보여서 빌렸는데 마음에 여유가 없고 능력이 없으니 눈에 들어오질 않더라.&#xD;&#xA;+모르겠음&#xD;&#xA;&lt;/li&gt;&#xD;&#xA;&lt;/ol&gt;&#xD;&#xA;&lt;p&gt;우와&amp;hellip; 이렇게 보니 꽤 많이 읽었다&amp;hellip; 힘내서 공부해야지. 자잘하게 더 읽은 것도 있는 것 같긴 하지만 제목도 생각 안 나는 건 쓰기가 뭣해서 패스.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Quick Sort</title>
+				<link>https://ezaurum.com/2011/01/Quick-Sort/</link>
+				<pubDate>Mon, 17 Jan 2011 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2011/01/Quick-Sort/</guid>
+				<description>&lt;p&gt;&lt;code&gt;int partition(int * array, int leftIndex, int lastIndex, int pivotIndex) {&#xA;int pivotValue = array[pivotIndex];&#xA;swap(&amp;amp;array[pivotIndex], &amp;amp;array[lastIndex]);&#xA;int storeIndex = leftIndex;&#xA;for(int i = leftIndex; i &amp;lt; lastIndex; i++) {&#xA;if(array[i]  leftIndex) {&#xA;int newPivotIndex = partition(array,leftIndex,lastIndex,lastIndex);&#xA;quickSort(array, leftIndex,newPivotIndex-1);&#xA;quickSort(array, newPivotIndex+1,lastIndex);&#xA;}&#xA;}&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;오늘은 정렬의 왕도, 퀵정렬. 사실 하다 꼬여서 이 소스는 위키에서 퍼온 의사코드를 그대로 옮긴 것.&#xA;아놔. 내 뇌의 숫자개념에는 뭔가 문제가 있는 게 확실해. 지금와서 어떻게 할 수도 없고, 힘내서 외운 걸로 커버하자.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Insertion Sort</title>
+				<link>https://ezaurum.com/2011/01/Insertion-Sort/</link>
+				<pubDate>Fri, 14 Jan 2011 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2011/01/Insertion-Sort/</guid>
+				<description>&lt;p&gt;&lt;code&gt;void  insertionSort(int * array, int size)&#xA;{&#xA;int j = 0;&#xA;int temp = 0;&#xA;for (int i = 1; i &amp;lt; size ; i++)&#x9;{&#xA;j = 0;&#xA;while(j&lt;i&gt; array[j]) {&#xA;j++;&#xA;}&#xA;else {&#xA;temp = array[i];&#xA;for ( int k = i; k &amp;gt; j; k&amp;ndash;) {&#xA;array[k] = array[k-1];&#xA;}&#xA;array[j] = temp;&#xA;j = i;&#xA;}&#xA;}&#xA;}&#xA;}&lt;/p&gt;&#xA;&lt;p&gt;&lt;ins datetime=&#34;2011-01-14T04:31:01+00:00&#34;&gt;void  insertionSort2(int * array, int size)&#xA;{&#xA;int j = 0;&#xA;for (int i = 1; i  0 &amp;amp;&amp;amp; array[j-1] &amp;gt; array[j] ) {&#xA;swap(array[j-1],array[j]);&#xA;j&amp;ndash;;&#xA;}&#xA;}&#xA;}&lt;/ins&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Bubble Sort</title>
+				<link>https://ezaurum.com/2011/01/Bubble-Sort/</link>
+				<pubDate>Thu, 13 Jan 2011 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2011/01/Bubble-Sort/</guid>
+				<description>&lt;code&gt;&#xD;&#xA;void bubbleSort(int * array, int size)&#xD;&#xA;{&#xD;&#xA;&#x9;int temp = 0;&#xD;&#xA;&#x9;int j=0;&#xD;&#xA;&#x9;bool swapped = true;&#xD;&#xA;&#x9;while(swapped)&#xD;&#xA;&#x9;{&#xD;&#xA;&lt;del datetime=&#34;2011-01-13T07:13:28+00:00&#34;&gt;&#x9;&#x9;j++;&lt;/del&gt;&#xD;&#xA;&#x9;&#x9;swapped = false;&#xD;&#xA;&#x9;for( int i = 0; i &amp;lt; size -1 &lt;ins datetime=&#34;2011-01-13T07:13:28+00:00&#34;&gt;-j&lt;/ins&gt; ; i++)&#xD;&#xA;&#x9;{&#xD;&#xA;&#x9;&#x9;if ( array[i] &amp;gt; array[i+1] )&#xD;&#xA;&#x9;&#x9;{&#xD;&#xA;&#x9;&#x9;&#x9;temp = array[i];&#xD;&#xA;&#x9;&#x9;&#x9;array[i] = array[i+1];&#xD;&#xA;&#x9;&#x9;&#x9;array[i+1] = temp;&#xD;&#xA;&#x9;&#x9;&#x9;swapped = true;&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;}&#xD;&#xA;&lt;ins datetime=&#34;2011-01-13T07:13:28+00:00&#34;&gt;j++;&lt;/ins&gt;&#xD;&#xA;&#x9;}&#xD;&#xA;}&#xD;&#xA;&lt;ins datetime=&#34;2011-01-13T08:05:15+00:00&#34;&gt;&#xD;&#xA;void swap(int * a, int * b)&#xD;&#xA;{&#xD;&#xA;&#x9;int temp = 0;&#xD;&#xA;&#x9;temp = *a;&#xD;&#xA;&#x9;*a = *b;&#xD;&#xA;&#x9;*b = temp;&#xD;&#xA;}&lt;/ins&gt;&#xD;&#xA;&lt;ins datetime=&#34;2011-01-13T08:06:26+00:00&#34;&gt;&#xD;&#xA;bool swapif(int * a, int * b)&#xD;&#xA;{&#xD;&#xA;&#x9;if ( *a &amp;gt; *b)&#xD;&#xA;&#x9;{&#xD;&#xA;&#x9;&#x9;swap(a,b);&#xD;&#xA;&#x9;&#x9;return true;&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;else&#xD;&#xA;&#x9;{&#xD;&#xA;&#x9;&#x9;return false;&#xD;&#xA;&#x9;}&#xD;&#xA;}&lt;/ins&gt;&#xD;&#xA;&lt;p&gt;&lt;ins datetime=&#34;2011-01-13T08:07:57+00:00&#34;&gt;void bubbleSort2(int * array, int size)&#xA;{&#xA;int j=0;&#xA;bool swapped = true;&#xA;while(swapped)&#xA;{&#xA;swapped=false;&#xA;for( int i = 0; i &amp;lt; size -j -1 ; i++)&#xA;{&#xA;swapped = swapif(array+i,array+i+1) ? true : swapped;&#xA;}&#xA;j++;&#xA;}&#xA;}&#xA;&lt;/ins&gt;&lt;/p&gt;&#xA;&lt;/code&gt;</description>
+			</item>
+			<item>
+				<title>Selection Sort</title>
+				<link>https://ezaurum.com/2011/01/Selection-Sort/</link>
+				<pubDate>Thu, 13 Jan 2011 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2011/01/Selection-Sort/</guid>
+				<description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-c&#34; data-lang=&#34;c&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;selectSort&lt;/span&gt;(&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt; array, &lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; size)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#x9;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; minPoint &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#x9;&lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt;( &lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; j &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;; j &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&lt;/span&gt;lt; size &lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;; j&lt;span style=&#34;color:#f92672&#34;&gt;++&lt;/span&gt;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#x9;{&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#x9;&#x9;minPoint &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; j;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#x9;&#x9;&lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; (&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; i &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; j; i &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&lt;/span&gt;lt; size ; i&lt;span style=&#34;color:#f92672&#34;&gt;++&lt;/span&gt;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#x9;&#x9;&#x9;{&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#x9;&#x9;&#x9;&#x9;&lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt;(array[i] &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&lt;/span&gt;lt; array[minPoint])&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#x9;&#x9;&#x9;&#x9;{&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#x9;&#x9;&#x9;&#x9;&#x9;minPoint &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; i;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#x9;&#x9;&#x9;&#x9;}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#x9;&#x9;&#x9;}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#x9;&#x9;&#x9;&lt;span style=&#34;color:#a6e22e&#34;&gt;swap&lt;/span&gt;(array&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;j, array&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;minPoint);&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#x9;}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;오랜만에 공부 좀 하니까 머리가 돌아가는 듯.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>내가 프로그래밍을 해서 먹고 살 수 있을까</title>
+				<link>https://ezaurum.com/2010/08/%EB%82%B4%EA%B0%80-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EC%9D%84-%ED%95%B4%EC%84%9C-%EB%A8%B9%EA%B3%A0-%EC%82%B4-%EC%88%98-%EC%9E%88%EC%9D%84%EA%B9%8C/</link>
+				<pubDate>Thu, 19 Aug 2010 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2010/08/%EB%82%B4%EA%B0%80-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EC%9D%84-%ED%95%B4%EC%84%9C-%EB%A8%B9%EA%B3%A0-%EC%82%B4-%EC%88%98-%EC%9E%88%EC%9D%84%EA%B9%8C/</guid>
+				<description>&lt;p&gt;이걸 짜는데 이틀 걸렸다면 믿으시겠습니까?&#xA;젠장&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;private String a(int initial, int max, String leftValue) {&#xA;String returnValue = &amp;ldquo;&amp;rdquo;;&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;&#x9;if (initial &amp;amp;lt; max) {&#xD;&#xA;&#xD;&#xA;&#x9;&#x9;if (initial != -1) {&#xD;&#xA;&#xD;&#xA;&#x9;&#x9;&#x9;if (leftValue != null) {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;leftValue += &amp;amp;quot; &amp;amp;quot;;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;leftValue += initial;&#xD;&#xA;&#xD;&#xA;&#x9;&#x9;&#x9;} else {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;leftValue = String.valueOf(initial);&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#xD;&#xA;&#x9;&#x9;for (int i = initial + 1; i &amp;amp;lt;= max; i++) {&#xD;&#xA;&#x9;&#x9;&#x9;returnValue += a(i, max, leftValue);&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#xD;&#xA;&#x9;&#x9;return returnValue;&#xD;&#xA;&#x9;} else {&#xD;&#xA;&#x9;&#x9;if (leftValue != null)&#xD;&#xA;&#x9;&#x9;&#x9;leftValue += &amp;amp;quot;n&amp;amp;quot;;&#xD;&#xA;&#x9;&#x9;else&#xD;&#xA;&#x9;&#x9;&#x9;leftValue = &amp;amp;quot;&amp;amp;quot;;&#xD;&#xA;&#x9;&#x9;return leftValue;&#xD;&#xA;&#x9;}&#xD;&#xA;&#xD;&#xA;}&#xD;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;/code&gt;</description>
+			</item>
+			<item>
+				<title>jUnit4 annotations</title>
+				<link>https://ezaurum.com/2010/08/jUnit4-annotations/</link>
+				<pubDate>Tue, 10 Aug 2010 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2010/08/jUnit4-annotations/</guid>
+				<description>&lt;p&gt;&lt;code&gt;package testCases;&lt;/p&gt;&#xA;&lt;p&gt;import static org.junit.Assert.assertEquals;&lt;/p&gt;&#xA;&lt;p&gt;import org.junit.Test;&#xA;import org.junit.Before;&#xA;import org.junit.After;&lt;/p&gt;&#xA;&lt;p&gt;public class myTest {&#xA;@Test&#xA;public void testCodes() throws Exception&#xA;{&#xA;System.out.println(&amp;ldquo;3&amp;rdquo;);&#xA;}&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;@Before&#xD;&#xA;public void testMakeClass1()&#xD;&#xA;{&#xD;&#xA;&#x9;System.out.println(&amp;quot;2&amp;quot;);&#x9;&#x9;&#xD;&#xA;}&#x9;&#xD;&#xA;@Before&#xD;&#xA;public void testMakeClass()&#xD;&#xA;{&#xD;&#xA;&#x9;System.out.println(&amp;quot;1&amp;quot;);&#x9;&#x9;&#xD;&#xA;}&#xD;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;@After&#xA;public void afterClass()&#xA;{&#xA;System.out.println(&amp;ldquo;4&amp;rdquo;);&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;}&#xD;&#xA;@After&#xD;&#xA;public void afterClass1()&#xD;&#xA;{&#xD;&#xA;&#x9;System.out.println(&amp;quot;5&amp;quot;);&#xD;&#xA;&#x9;&#xD;&#xA;}&#x9;&#xD;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;}&#xA;&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;실행 결과는 적힌 대로 12345가 된다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>TDD 시작</title>
+				<link>https://ezaurum.com/2010/08/TDD-%EC%8B%9C%EC%9E%91/</link>
+				<pubDate>Fri, 06 Aug 2010 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2010/08/TDD-%EC%8B%9C%EC%9E%91/</guid>
+				<description>&lt;p&gt;TDD란 걸 시작했다.&#xA;&lt;a href=&#34;http://www.javajigi.net/display/OSS/TDD&#34;&gt;좋은 튜토리얼&lt;/a&gt;을 발견해서 그걸 보고 대충 익혔는데, &lt;a href=&#34;http://xper.org/wiki/xp/&#34;&gt;여기&lt;/a&gt;의 글들과 관련해서 좀 공부를 더 해야 겠다.&lt;/p&gt;&#xA;&lt;blockquote cite=&#34;http://xper.org/wiki/xp/TestDrivenDevelopment&#34;&gt;&#xD;&#xA;&lt;ol&gt;&lt;li&gt;&#xD;&#xA;테스트를 작성한다. &lt;/li&gt;&#xD;&#xA;&lt;pre&gt;&lt;code&gt;&amp;lt;li&amp;gt;작성한 테스트를 통과할 수 있도록 가장 빠른 방법으로 코드를 작성한다. 이 과정에 중복된 코드를 만들어도 상관 없다. &amp;lt;/li&amp;gt;&#xD;&#xA;&#xD;&#xA;&amp;lt;li&amp;gt;테스트를 수행한다. &amp;lt;/li&amp;gt;&#xD;&#xA;&amp;lt;li&amp;gt;&#xD;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;테스트를 통과하면 작성한 코드에서 중복을 제거한다. 아니면 2번으로 돌아간다. &lt;/li&gt;&#x9;&lt;li&gt;&lt;/p&gt;&#xA;&lt;p&gt;테스트를 수행한다. &lt;/li&gt;&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;&amp;lt;li&amp;gt;테스트를 통과하면 완성. 다음 테스트를 1번부터 시작한다. 실패하면 4로 돌아가서 디버깅한다.&amp;lt;/li&amp;gt;&amp;lt;/ol&amp;gt;&#xD;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;/blockquote&gt;&#xD;&#xA;TDD(TestDrivenDevelopement)이런 식으로 진행되는데, 개발 속도가 엄청나게 빨라진다고 한다.&#xD;&#xA;그 와중에 &lt;a href=&#34;http://www.google.co.kr/search?hl=ko&amp;amp;newwindow=1&amp;amp;client=opera&amp;amp;hs=GQI&amp;amp;rls=ko&amp;amp;q=mylin&amp;amp;aq=f&amp;amp;aqi=&amp;amp;aql=&amp;amp;oq=&amp;amp;gs_rfai=&#34;&gt;Mylin&lt;/a&gt;이란 물건도 알게 되었지만, 여기에 대해서는 다음에.&#xD;&#xA;어쨌든, 이미 만든 &lt;a href=&#34;https://ezaurum.com/2010/08/06/4boxes/&#34;&gt;상자 4개&lt;/a&gt;의 문제에 대해 TDD를 적용해서 다시 해 보도록 하겠다.&#xD;&#xA;이제 퇴근시간이니 실제 적용은 다음 주 월요일에.&#xD;&#xA;TDD가 무사히 적용되면 LISP로 한번, C++로 한번 더 만들어 보겠음.</description>
+			</item>
+			<item>
+				<title>상자 4개</title>
+				<link>https://ezaurum.com/2010/08/%EC%83%81%EC%9E%90-4%EA%B0%9C/</link>
+				<pubDate>Fri, 06 Aug 2010 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2010/08/%EC%83%81%EC%9E%90-4%EA%B0%9C/</guid>
+				<description>&lt;p&gt;문제 출처 - &lt;a href=&#34;http://xper.org/wiki/seminar/FourBoxes&#34;&gt;&lt;a href=&#34;http://xper.org/wiki/seminar/FourBoxes&#34;&gt;http://xper.org/wiki/seminar/FourBoxes&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xD;&#xA;4개의 직사각형이 평면에 있는데 밑변이 모두 가로축에 평행하다. 이 직사각형들이 차지하는 면적을 구하는 프로그램을 작성하시오. 이 네 개의 직사각형들은 서로 떨어져 있을 수도 있고 겹쳐 있을 수도 있다. 또한 하나가 다른 하나를 포함할 수도 있으며, 변이나 꼭지점이 겹쳐질 수도 있다. 실행 파일의 이름은 RECT.EXE로 하시오. &#xD;&#xA;&lt;p&gt;입력형식&lt;/p&gt;&#xA;&lt;p&gt;하나의 직사각형은 왼쪽 아래의 꼭지점과 오른쪽 위의 꼭지점의 좌표로 주어진다. 입력은 네 줄이며, 각 줄은 네 개의 정수로 하나의 직사각형을 나타낸다. 첫 번째와 두 번째의 정수는 사각형의 왼쪽 아래 꼭지점의 x좌표, y좌표이고, 세 번째와 네 번째의 정수는 사각형의 오른쪽 위 꼭지점의 x좌표, y좌표이다. 단, x좌표와 y좌표는 1 이상이고 1000 이하인 정수이다.&lt;/p&gt;&#xA;&lt;p&gt;출력형식&lt;/p&gt;&#xA;&lt;p&gt;화면에 4개의 직사각형이 차지하는 면적을 출력한다.&lt;/p&gt;&#xA;&lt;p&gt;입력예제&lt;/p&gt;&#xA;&lt;p&gt;1 2 4 4&#xA;2 3 5 7&#xA;3 1 6 5&#xA;7 3 8 6&lt;/p&gt;&#xA;&lt;p&gt;출력예제&lt;/p&gt;&#xA;&lt;p&gt;26&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+			</item>
+	</channel>
 </rss>

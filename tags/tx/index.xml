@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Tx on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/tx/</link>
-    <description>Recent content in Tx on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Thu, 20 Jun 2019 22:31:05 +0900</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/tx/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>too many connection</title>
-      <link>https://ezaurum.com/bug/too-many-connections/</link>
-      <pubDate>Thu, 20 Jun 2019 22:31:05 +0900</pubDate>
-      <guid>https://ezaurum.com/bug/too-many-connections/</guid>
-      <description>현상 일정 시간마다 ajax로 내용을 리프레시 해 주는 게시판에서 사용자 200여명이 넘어가자 DB엑세스 시 too many connection이 발생하고 연결을 하지 못하는 현상 발생&#xA;DB, API 서버의 cpu/mem 부하는 20% 전후인 상태&#xA;리셋 등으로 해결이 안 되고, 도커 컨테이너 늘려서도 해결이 안 됨&#xA;지속되는 경우 리퀘스트도 쌓이고 file open max 값이 넘어가서 사용 불가&#xA;원인 DB 처리량보다 부하 심함 IO 부분이 보틀넥으로 보임 도커 인스턴스가 값싼 거고 DB도 값싼 인스턴스 커넥션이 늘어남 실제 DB 커넥션이 45개 전후 RDS에서 가장 작은 인스턴스를 사용했는데 전체 DB 메모리 양과 CPU 사용량을 가지고 연결수 계산 도커 컨테이너의 Max Connection은 50 이전 네이버에서 직접 배포 때 잡은 설정 그대로 RDS 인스턴스가 여러 개 일 때는 괜찮았음 제일 작은 걸로 바꾸고 인스턴스도 줄여둔 상태 이미 늘어난 컨넥션은 없어지지 않고 CPU 사용량은 그리 많지 않음 재현 봇을 만들어서 로그인, 화면 리프레시를 하게 하니 100명 전후가 몰려서 접근시 문제 발생</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Tx on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/tx/</link>
+		<description>Recent content in Tx on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Thu, 20 Jun 2019 22:31:05 +0900</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/tx/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>too many connection</title>
+				<link>https://ezaurum.com/bug/too-many-connections/</link>
+				<pubDate>Thu, 20 Jun 2019 22:31:05 +0900</pubDate>
+				<guid>https://ezaurum.com/bug/too-many-connections/</guid>
+				<description>&lt;h1 id=&#34;현상&#34;&gt;현상&lt;/h1&gt;&#xA;&lt;p&gt;일정 시간마다 ajax로 내용을 리프레시 해 주는 게시판에서 사용자 200여명이 넘어가자 DB엑세스 시 too many connection이 발생하고 연결을 하지 못하는 현상 발생&lt;/p&gt;&#xA;&lt;p&gt;DB, API 서버의 cpu/mem 부하는 20% 전후인 상태&lt;/p&gt;&#xA;&lt;p&gt;리셋 등으로 해결이 안 되고, 도커 컨테이너 늘려서도 해결이 안 됨&lt;/p&gt;&#xA;&lt;p&gt;지속되는 경우 리퀘스트도 쌓이고 file open max 값이 넘어가서 사용 불가&lt;/p&gt;&#xA;&lt;h1 id=&#34;원인&#34;&gt;원인&lt;/h1&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;DB 처리량보다 부하 심함&#xA;&lt;ol&gt;&#xA;&lt;li&gt;IO 부분이 보틀넥으로 보임&lt;/li&gt;&#xA;&lt;li&gt;도커 인스턴스가 값싼 거고 DB도 값싼 인스턴스&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;커넥션이 늘어남&lt;/li&gt;&#xA;&lt;li&gt;실제 DB 커넥션이 45개 전후&#xA;&lt;ol&gt;&#xA;&lt;li&gt;RDS에서 가장 작은 인스턴스를 사용했는데 전체 DB 메모리 양과 CPU 사용량을 가지고 연결수 계산&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;도커 컨테이너의 Max Connection은 50&#xA;&lt;ol&gt;&#xA;&lt;li&gt;이전 네이버에서 직접 배포 때 잡은 설정 그대로&lt;/li&gt;&#xA;&lt;li&gt;RDS 인스턴스가 여러 개 일 때는 괜찮았음&lt;/li&gt;&#xA;&lt;li&gt;제일 작은 걸로 바꾸고 인스턴스도 줄여둔 상태&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;이미 늘어난 컨넥션은 없어지지 않고 CPU 사용량은 그리 많지 않음&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h1 id=&#34;재현&#34;&gt;재현&lt;/h1&gt;&#xA;&lt;p&gt;봇을 만들어서 로그인, 화면 리프레시를 하게 하니 100명 전후가 몰려서 접근시 문제 발생&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

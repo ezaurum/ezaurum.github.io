@@ -1,34 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>판타지 on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/%ED%8C%90%ED%83%80%EC%A7%80/</link>
-    <description>Recent content in 판타지 on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Fri, 05 Apr 2013 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/%ED%8C%90%ED%83%80%EC%A7%80/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>바람의 열두 방향</title>
-      <link>https://ezaurum.com/2013/04/%EB%B0%94%EB%9E%8C%EC%9D%98-%EC%97%B4%EB%91%90-%EB%B0%A9%ED%96%A5/</link>
-      <pubDate>Fri, 05 Apr 2013 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2013/04/%EB%B0%94%EB%9E%8C%EC%9D%98-%EC%97%B4%EB%91%90-%EB%B0%A9%ED%96%A5/</guid>
-      <description>책 제일 뒷 장 홍보 문구에 땅바다 라고 어스시를 번역해서 적은 게 있는데, 어스시보다는 땅바다가 더 맘에 든다.&#xA;실려 있는 단편은 하나하나 아주 좋았는데, 제일 마음에 들었던 건 길의 방향. 발상이 정말 신선했다.</description>
-    </item>
-    <item>
-      <title>꿈꾸는 책들의 도시</title>
-      <link>https://ezaurum.com/2010/08/%EA%BF%88%EA%BE%B8%EB%8A%94-%EC%B1%85%EB%93%A4%EC%9D%98-%EB%8F%84%EC%8B%9C/</link>
-      <pubDate>Mon, 23 Aug 2010 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2010/08/%EA%BF%88%EA%BE%B8%EB%8A%94-%EC%B1%85%EB%93%A4%EC%9D%98-%EB%8F%84%EC%8B%9C/</guid>
-      <description>제목&#x9;꿈꾸는책들의도시: 차모니아출신힐데군스트폰미텐메츠의장편소설 Volume 1/Kkumkkunŭn chʻaekdŭlŭi tŏsĭ, Walter Moers, ISBN 8975274861, 9788975274862 꿈꾸는책들의도시: 차모니아출신힐데군스트폰미텐메츠의장편소설, 두행숙, ISBN 8975274861, 9788975274862 저자&#x9;발터뫼르스 번역자&#x9;두행숙 발행인&#x9;들녘, 2005 ISBN&#x9;897527487X, 9788975274879 길이&#x9;350페이지&#xA;38/150&#xA;오름이라는 개념이 흥미로왔다. 어쨌든 글쟁이가 주인공이라면 글을 잘 쓰고 싶어하고 좋은 글을 읽고 싶어하는 것이 정상. 여하튼 공룡 쵝오. 다른 책도 보고 싶다. 모모, 끝없는 이야기 정도 포지션을 차지하는 좋은 물건. 여튼 오름이란 거, 나도 좀&amp;hellip;</description>
-    </item>
-    <item>
-      <title>한 때, 판타지계에 기념비적인 작품이 있었다</title>
-      <link>https://ezaurum.com/2008/09/%ED%95%9C-%EB%95%8C-%ED%8C%90%ED%83%80%EC%A7%80%EA%B3%84%EC%97%90-%EA%B8%B0%EB%85%90%EB%B9%84%EC%A0%81%EC%9D%B8-%EC%9E%91%ED%92%88%EC%9D%B4-%EC%9E%88%EC%97%88%EB%8B%A4/</link>
-      <pubDate>Wed, 10 Sep 2008 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2008/09/%ED%95%9C-%EB%95%8C-%ED%8C%90%ED%83%80%EC%A7%80%EA%B3%84%EC%97%90-%EA%B8%B0%EB%85%90%EB%B9%84%EC%A0%81%EC%9D%B8-%EC%9E%91%ED%92%88%EC%9D%B4-%EC%9E%88%EC%97%88%EB%8B%A4/</guid>
-      <description>강자가 존재했다. 그는 자신의 힘을 믿었다. 그래도 될 정도로 그는 강했다. 그는 그 힘에 취해 약자들을 유린했다. 강자들이 차례로 그에게 도전했지만, 아무런 소용도 없었다. 그렇지만 위에는 위가 있는 법, 그보다 더 강한 자가 존재했다. 그는 그 강자와의 결투에서 간신히 목숨만 건져서 돌아와 노력을 거듭했다. 그리하여 오만에 빠져 수련을 게을리한 강자를 꺾고, 다시 자신감을 회복한다. 그리하여 그는 자신의 동족, 혈육에게 도전하기로 결정한다. 넘을 수 없는 벽이라고 생각했던 그 형에게 도전하고, 결투의 와중, 새로운 힘에 눈을 뜬다.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>판타지 on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/%ED%8C%90%ED%83%80%EC%A7%80/</link>
+		<description>Recent content in 판타지 on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Fri, 05 Apr 2013 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/%ED%8C%90%ED%83%80%EC%A7%80/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>바람의 열두 방향</title>
+				<link>https://ezaurum.com/2013/04/%EB%B0%94%EB%9E%8C%EC%9D%98-%EC%97%B4%EB%91%90-%EB%B0%A9%ED%96%A5/</link>
+				<pubDate>Fri, 05 Apr 2013 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2013/04/%EB%B0%94%EB%9E%8C%EC%9D%98-%EC%97%B4%EB%91%90-%EB%B0%A9%ED%96%A5/</guid>
+				<description>&lt;p&gt;책 제일 뒷 장 홍보 문구에 땅바다 라고 어스시를 번역해서 적은 게 있는데, 어스시보다는 땅바다가 더 맘에 든다.&lt;/p&gt;&#xA;&lt;p&gt;실려 있는 단편은 하나하나 아주 좋았는데, 제일 마음에 들었던 건 &lt;q&gt;길의 방향&lt;/q&gt;. 발상이 정말 신선했다.&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>꿈꾸는 책들의 도시</title>
+				<link>https://ezaurum.com/2010/08/%EA%BF%88%EA%BE%B8%EB%8A%94-%EC%B1%85%EB%93%A4%EC%9D%98-%EB%8F%84%EC%8B%9C/</link>
+				<pubDate>Mon, 23 Aug 2010 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2010/08/%EA%BF%88%EA%BE%B8%EB%8A%94-%EC%B1%85%EB%93%A4%EC%9D%98-%EB%8F%84%EC%8B%9C/</guid>
+				<description>&lt;p&gt;제목&#x9;꿈꾸는책들의도시: 차모니아출신힐데군스트폰미텐메츠의장편소설&#xA;Volume 1/Kkumkkunŭn chʻaekdŭlŭi tŏsĭ, Walter Moers, ISBN 8975274861, 9788975274862&#xA;꿈꾸는책들의도시: 차모니아출신힐데군스트폰미텐메츠의장편소설, 두행숙, ISBN 8975274861, 9788975274862&#xA;저자&#x9;발터뫼르스&#xA;번역자&#x9;두행숙&#xA;발행인&#x9;들녘, 2005&#xA;ISBN&#x9;897527487X, 9788975274879&#xA;길이&#x9;350페이지&lt;/p&gt;&#xA;&lt;p class=&#34;soul mission readBooks&#34;&gt;38/150&lt;/p&gt;&#xD;&#xA;&lt;p&gt;&lt;strong&gt;오름&lt;/strong&gt;이라는 개념이 흥미로왔다. 어쨌든 글쟁이가 주인공이라면 글을 잘 쓰고 싶어하고 좋은 글을 읽고 싶어하는 것이 정상.&#xA;여하튼 공룡 쵝오.&#xA;다른 책도 보고 싶다. 모모, 끝없는 이야기 정도 포지션을 차지하는 좋은 물건.&#xA;여튼 오름이란 거, 나도 좀&amp;hellip;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>한 때, 판타지계에 기념비적인 작품이 있었다</title>
+				<link>https://ezaurum.com/2008/09/%ED%95%9C-%EB%95%8C-%ED%8C%90%ED%83%80%EC%A7%80%EA%B3%84%EC%97%90-%EA%B8%B0%EB%85%90%EB%B9%84%EC%A0%81%EC%9D%B8-%EC%9E%91%ED%92%88%EC%9D%B4-%EC%9E%88%EC%97%88%EB%8B%A4/</link>
+				<pubDate>Wed, 10 Sep 2008 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2008/09/%ED%95%9C-%EB%95%8C-%ED%8C%90%ED%83%80%EC%A7%80%EA%B3%84%EC%97%90-%EA%B8%B0%EB%85%90%EB%B9%84%EC%A0%81%EC%9D%B8-%EC%9E%91%ED%92%88%EC%9D%B4-%EC%9E%88%EC%97%88%EB%8B%A4/</guid>
+				<description>&lt;p&gt;강자가 존재했다.&#xA;그는 자신의 힘을 믿었다. 그래도 될 정도로 그는 강했다.&#xA;그는 그 힘에 취해 약자들을 유린했다. 강자들이 차례로 그에게 도전했지만, 아무런 소용도 없었다.&#xA;그렇지만 위에는 위가 있는 법, 그보다 더 강한 자가 존재했다.&#xA;그는 그 강자와의 결투에서 간신히 목숨만 건져서 돌아와 노력을 거듭했다.&#xA;그리하여 오만에 빠져 수련을 게을리한 강자를 꺾고, 다시 자신감을 회복한다.&#xA;그리하여 그는 자신의 동족, 혈육에게 도전하기로 결정한다. 넘을 수 없는 벽이라고 생각했던 그 형에게 도전하고, 결투의 와중, 새로운 힘에 눈을 뜬다.&#xA;그는 결국 형을 이기고, 마지막 일격을 날리려던 찰나, 형의 동귀어진의 술수에 의해 위기에 처한다.&#xA;하지만, 비장의 수를 발휘, 간신히 그 술수는 피했으나, 어딘지 알지 못하는 곳에 떨어지게 되고, 그는 새로운 전투와 승리의 예감에 몸을 떤다.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

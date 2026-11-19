@@ -1,25 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Java_home on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/java_home/</link>
-    <description>Recent content in Java_home on Ezaurum&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Sun, 17 Feb 2013 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://ezaurum.com/tags/java_home/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>intelliJ에서 gradle 프로젝트 import 시 JAVA_HOME is different 에러가 날때</title>
-      <link>https://ezaurum.com/2013/02/intelliJ%EC%97%90%EC%84%9C-gradle-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-import-%EC%8B%9C-JAVA_HOME-is-different-%EC%97%90%EB%9F%AC%EA%B0%80-%EB%82%A0%EB%95%8C/</link>
-      <pubDate>Sun, 17 Feb 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://ezaurum.com/2013/02/intelliJ%EC%97%90%EC%84%9C-gradle-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-import-%EC%8B%9C-JAVA_HOME-is-different-%EC%97%90%EB%9F%AC%EA%B0%80-%EB%82%A0%EB%95%8C/</guid>
-      <description>윈도우 환경에서, intelliJ로 gradle 빌드 파일을 import하려고 하니 JAVA_HOME is different라는 에러가 난다. 메세지를 보니 다 똑같은데, intelliJ가 expect라고 하는 건 디렉토리가 다 소문자, 실제로 있는 건 대문자가 섞여 있다. 보통 JDK는 C:Program FilesJava 아래에 깔리게 되는데, 그냥 c:jdk로 옮겨주고, 시스템 설정에서 JAVA_HOME도 바꿔줬다. 그걸로 해결.</description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>JAVA_HOME on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/JAVA_HOME/</link>
+		<description>Recent content in JAVA_HOME on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Sun, 17 Feb 2013 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/JAVA_HOME/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>intelliJ에서 gradle 프로젝트 import 시 JAVA_HOME is different 에러가 날때</title>
+				<link>https://ezaurum.com/2013/02/intelliJ%EC%97%90%EC%84%9C-gradle-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-import-%EC%8B%9C-JAVA_HOME-is-different-%EC%97%90%EB%9F%AC%EA%B0%80-%EB%82%A0%EB%95%8C/</link>
+				<pubDate>Sun, 17 Feb 2013 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2013/02/intelliJ%EC%97%90%EC%84%9C-gradle-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-import-%EC%8B%9C-JAVA_HOME-is-different-%EC%97%90%EB%9F%AC%EA%B0%80-%EB%82%A0%EB%95%8C/</guid>
+				<description>&lt;p&gt;윈도우 환경에서, intelliJ로 gradle 빌드 파일을 import하려고 하니 JAVA_HOME is different라는 에러가 난다.&#xD;&#xA;메세지를 보니 다 똑같은데, intelliJ가 expect라고 하는 건 디렉토리가 다 소문자, 실제로 있는 건 대문자가 섞여 있다.&#xD;&#xA;보통 JDK는 C:Program FilesJava 아래에 깔리게 되는데, 그냥 c:jdk로 옮겨주고, 시스템 설정에서 JAVA_HOME도 바꿔줬다.&#xD;&#xA;그걸로 해결.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

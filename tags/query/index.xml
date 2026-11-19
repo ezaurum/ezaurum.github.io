@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Query on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/query/</link>
-    <description>Recent content in Query on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Mon, 09 Feb 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/query/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>몽고 DB ISODate객체로 검색</title>
-      <link>https://ezaurum.com/2015/02/%EB%AA%BD%EA%B3%A0-DB-ISODate%EA%B0%9D%EC%B2%B4%EB%A1%9C-%EA%B2%80%EC%83%89/</link>
-      <pubDate>Mon, 09 Feb 2015 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2015/02/%EB%AA%BD%EA%B3%A0-DB-ISODate%EA%B0%9D%EC%B2%B4%EB%A1%9C-%EA%B2%80%EC%83%89/</guid>
-      <description>db.logs.find({&amp;ldquo;timestamp&amp;rdquo;: { &amp;ldquo;$gte&amp;rdquo;: new Date(&amp;ldquo;2015-02-05&amp;rdquo;)}, &amp;ldquo;level&amp;rdquo;:&amp;ldquo;ERROR&amp;rdquo;}) $gte, $gt, $lt, $lte를 쓸 수 있고, new Date(&amp;ldquo;2015-02-01T00:00:00.000Z&amp;rdquo;) 형태로 검색한다.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Query on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/query/</link>
+		<description>Recent content in Query on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Mon, 09 Feb 2015 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/query/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>몽고 DB ISODate객체로 검색</title>
+				<link>https://ezaurum.com/2015/02/%EB%AA%BD%EA%B3%A0-DB-ISODate%EA%B0%9D%EC%B2%B4%EB%A1%9C-%EA%B2%80%EC%83%89/</link>
+				<pubDate>Mon, 09 Feb 2015 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2015/02/%EB%AA%BD%EA%B3%A0-DB-ISODate%EA%B0%9D%EC%B2%B4%EB%A1%9C-%EA%B2%80%EC%83%89/</guid>
+				<description>&lt;p&gt;&lt;code&gt;db.logs.find({&amp;ldquo;timestamp&amp;rdquo;: { &amp;ldquo;$gte&amp;rdquo;: new Date(&amp;ldquo;2015-02-05&amp;rdquo;)}, &amp;ldquo;level&amp;rdquo;:&amp;ldquo;ERROR&amp;rdquo;}) &lt;/code&gt;&#xA;$gte, $gt, $lt, $lte를 쓸 수 있고, new Date(&amp;ldquo;2015-02-01T00:00:00.000Z&amp;rdquo;) 형태로 검색한다.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

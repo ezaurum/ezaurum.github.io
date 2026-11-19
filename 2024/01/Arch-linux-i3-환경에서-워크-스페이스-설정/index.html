@@ -45,10 +45,10 @@
 <h1>Arch linux i3 환경에서 워크 스페이스 설정</h1>
 2024-01-17
 <section><p>모니터가 여럿인 경우, 원하는 프로그램을 원하는 위치에 띄워두고 싶을 때가 있다. 이런 경우를 위해 i3 config 파일에 다음과 같은 설정을 추가한다.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e"># ~/.config/i3/config</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e"># ~/.config/i3/config</span>
 </span></span><span style="display:flex;"><span>bindsym $mod+Shift+1 ~/prepare-workspace.sh 
 </span></span></code></pre></div><p>이렇게 하면 <code>$mod+Shift+1</code>을 누르면 <code>~/prepare-workspace.sh</code>가 실행된다. 이 스크립트는 다음과 같이 작성한다.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e"># ~/prepare-workspace.sh</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e"># ~/prepare-workspace.sh</span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># 워크스페이스 1번에 firefox를 띄우고, 2번에 IntelliJ, 3번에 터미널을 띄운다.</span>
 </span></span><span style="display:flex;"><span>i3-msg <span style="color:#e6db74">&#39;workspace 1; exec firefox -new-window https://www.google.com&#39;</span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># 실행이 빨리 되지 않으면 다음과 같이 sleep을 준다. 그러지 않으면 workspace가 다시 바뀌어 버린다.</span>
@@ -3872,6 +3872,30 @@
 
     
     </ul>
+
+
+
+    <div id="disqus_thread"></div>
+<script>
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "ezaurum" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+		<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+		<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+	
 
 
 

@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>창의성 on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/%EC%B0%BD%EC%9D%98%EC%84%B1/</link>
-    <description>Recent content in 창의성 on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Tue, 11 Dec 2007 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/%EC%B0%BD%EC%9D%98%EC%84%B1/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>지능과 창의성의 관계</title>
-      <link>https://ezaurum.com/2007/12/%EC%A7%80%EB%8A%A5%EA%B3%BC-%EC%B0%BD%EC%9D%98%EC%84%B1%EC%9D%98-%EA%B4%80%EA%B3%84/</link>
-      <pubDate>Tue, 11 Dec 2007 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2007/12/%EC%A7%80%EB%8A%A5%EA%B3%BC-%EC%B0%BD%EC%9D%98%EC%84%B1%EC%9D%98-%EA%B4%80%EA%B3%84/</guid>
-      <description>창의성과 지능에 대한 얘기는 무지하게 많은 이론이 있다. 일단 지능과 창의성이라고 하는 말 자체에 대한 정의가 명확하지가 않아서, 어떻게 정의하느냐에 따라 다양한 견해가 나온다. 생각해 보면 웃긴게, 정의가 전혀 다른 말을 가지고 이론을 만드니 당연히 생판 다른 이론이 나오는건 당연한데, 이걸 가지고 지능과 창의성에 대한 견해가 어느게 가장 맞는 것 같다고 생각하는 게 참&amp;hellip; 돼지고기 김치찌개랑 참치 김치찌개랑 레시피를 놓고 하는 얘기 같달까.&#xA;여튼 지능의 정의부터 해 보자면, 일단 Guilford라는 사람(길포드라고 읽는 건가?</description>
-    </item>
-  </channel>
+	<channel>
+		<title>창의성 on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/%EC%B0%BD%EC%9D%98%EC%84%B1/</link>
+		<description>Recent content in 창의성 on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Tue, 11 Dec 2007 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/%EC%B0%BD%EC%9D%98%EC%84%B1/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>지능과 창의성의 관계</title>
+				<link>https://ezaurum.com/2007/12/%EC%A7%80%EB%8A%A5%EA%B3%BC-%EC%B0%BD%EC%9D%98%EC%84%B1%EC%9D%98-%EA%B4%80%EA%B3%84/</link>
+				<pubDate>Tue, 11 Dec 2007 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2007/12/%EC%A7%80%EB%8A%A5%EA%B3%BC-%EC%B0%BD%EC%9D%98%EC%84%B1%EC%9D%98-%EA%B4%80%EA%B3%84/</guid>
+				<description>&lt;p&gt;창의성과 지능에 대한 얘기는 무지하게 많은 이론이 있다.&#xA;일단 지능과 창의성이라고 하는 말 자체에 대한 정의가 명확하지가 않아서, 어떻게 정의하느냐에 따라 다양한 견해가 나온다.&#xA;생각해 보면 웃긴게, 정의가 전혀 다른 말을 가지고 이론을 만드니 당연히 생판 다른 이론이 나오는건 당연한데, 이걸 가지고 지능과 창의성에 대한 견해가 어느게 가장 맞는 것 같다고 생각하는 게 참&amp;hellip; 돼지고기 김치찌개랑 참치 김치찌개랑 레시피를 놓고 하는 얘기 같달까.&lt;/p&gt;&#xA;&lt;p&gt;여튼 지능의 정의부터 해 보자면, 일단 Guilford라는 사람(길포드라고 읽는 건가?)이 한 지능구조 모형 Structure of intellect - SOI 라는 게 제일 맘에든다.-맘에 든다는 거다. 논리 다 필요 없다.-&#xA;이 아저씨는 내용영역차원에서 시각, 청각, 상징, 의미론, 행동의 다섯 가지. 결과 차원에서 단위(unit), 유목(類目, classes - 번역 참;;)관계, 변환, 함축 으로 여섯가지. 인지활동 차원에서 평가, 수렴적 생산, 발산적 생산, 기억파지(memory retention - 파지 [把持] [명사] 1 꽉 움키어 쥐고 있음. 2 경험에서 얻은 정보를 유지하고 있는 작용. ≒파주(把住).), 기억저장, 인지 의 여섯가지로 나뉘는데, 이게 각 차원을 축으로하는 입방체를 만들고 있댄다.&#xA;그래서 총 5&lt;em&gt;6&lt;/em&gt;6 = 180 개의 상이한 정신능력이 만들어진댄다. 예를들면, (단위,시각,평가) 가 모여서 개개의 사물을 시각적으로 평가하는 능력이 만들어진다는 거다.&#xA;게임에쓰기 딱 좋을 이론이다 이거.여튼 이게 너무 복잡해서 공식적으로 교실에서 쓰기가 힘들댄다. 그렇기도 하겠다. 180개 영역 골고루 발전시키려면 과목수가 180개야. 선생이 180명 필요해. 이거 좋은데? :D T.O.무진장 나오겠다.&#xA;&lt;strong&gt;여튼 그럼 지능을 지능구조 모형으로 정의한다고 하면, 어찌보면 당연한건데, 창의성은 발산적 생산능력을 가진 능력들이다. 즉 창의성 능력은 30개 영역에서 나타나는 지능의 하위 영역이라는 거지.&lt;/strong&gt;&#xA;뭐 그럼 그냥 그대로 땡이다. 이렇게 되면 관계성 형성도 끝났고, 더 할 말도 없지만&amp;hellip; 재미가 없으니까 좀 더 써 보자면, Gardner란 사람이 다중지능 얘기를 했는데, 이사람은 180개가 아니라 8개다. 여하튼 이사람 입장도 이쪽이다 &lt;strong&gt;창의성은 지능에 종속된다.&lt;/strong&gt;라는 입장.&#xA;대충 논거라는 걸 들어보자면, 창의성에 대한 정의도 여러가지가 있는데, 지금 보통 합의를 봤다고들 하는 정의는 &lt;strong&gt;새롭고 적절한 것&lt;/strong&gt;을 생성해 낼 수 있는 능력을 창의성이라고 보고 있다. 새롭기만 해서는 쓸모가 없고-낯설게 하기가 문학적 기법이기는 하지만 낯설기만 해서 무슨 얘긴지 못 알아들으면 쓸모가 없다는 거다.- 적절하기만 해도-딱 맞는 표현만 썼으면 문학은 발전하지 못했다- 창의성은 아니라는 거다. 거기다 Finke라는 사람이 1990년에 한 연구에 따르면, 과제에 제약이 가해졌을 때-창작물이 속해야 하는 범주가 정해지는 경우, 마치 변신소녀물에는 변신씬이 꼭 들어가야 한다는 것처럼- 창의적인 산물의 개수가 증가하였다는 것을 보면, 저 적절함을 찾아낼 수 있는 지적 능력과 그 이외의 다양한 지적 능력이 결합해서 발산적으로 표현하는 것이 창의성이라고 하는 데 별 무리가 없을 것 같다.&#xA;Eberle의 SCAMPER라고 하는 것도 보면, Substitute(대치하기), Combine(결합하기), Adapt(동화), Modify(수정), Magnify(확대)/Minify(축소), Put to other uses(다르게 사용), Eliminate(제거하기), Rearrange(재배열) or Reverse(반전) 이라고 하고, 즉 고정된 것-적절성-이 있고 그 다음에 저런 과정을 거쳐 창의적 물건을 만들어낼 수 있다고 한다. 별로 틀렸다는 말이 없는 걸 보면 틀린 소리는 아닌 것 같고.&#xA;여튼 그러니까 적절하다고 하는 닻을 내려두고, 랜덤으로 새로운 연을 골라서 날려보면, 적절하고도 새로운 창의적인 것이 나올 수 있고, 그걸 빠르게 알아채는 것이 창의성이라고 하는 능력이다. 고 결론을 주면 되겠군.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

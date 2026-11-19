@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>배포 on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/%EB%B0%B0%ED%8F%AC/</link>
-    <description>Recent content in 배포 on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Sun, 08 Feb 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/%EB%B0%B0%ED%8F%AC/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Nuget 패키지에 의존성 지정하기</title>
-      <link>https://ezaurum.com/2015/02/Nuget-%ED%8C%A8%ED%82%A4%EC%A7%80%EC%97%90-%EC%9D%98%EC%A1%B4%EC%84%B1-%EC%A7%80%EC%A0%95%ED%95%98%EA%B8%B0/</link>
-      <pubDate>Sun, 08 Feb 2015 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2015/02/Nuget-%ED%8C%A8%ED%82%A4%EC%A7%80%EC%97%90-%EC%9D%98%EC%A1%B4%EC%84%B1-%EC%A7%80%EC%A0%95%ED%95%98%EA%B8%B0/</guid>
-      <description>출처 - Nuget 매뉴얼 Nuget 패키지를 만들 때 의존성을 지정하려면, .nuspec 파일 안의 metadata 태그의 자식으로 &amp;lt;/code&amp;gt;&#xD;이렇게 지정해 주면 된다.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>배포 on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/%EB%B0%B0%ED%8F%AC/</link>
+		<description>Recent content in 배포 on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Sun, 08 Feb 2015 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/%EB%B0%B0%ED%8F%AC/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Nuget 패키지에 의존성 지정하기</title>
+				<link>https://ezaurum.com/2015/02/Nuget-%ED%8C%A8%ED%82%A4%EC%A7%80%EC%97%90-%EC%9D%98%EC%A1%B4%EC%84%B1-%EC%A7%80%EC%A0%95%ED%95%98%EA%B8%B0/</link>
+				<pubDate>Sun, 08 Feb 2015 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2015/02/Nuget-%ED%8C%A8%ED%82%A4%EC%A7%80%EC%97%90-%EC%9D%98%EC%A1%B4%EC%84%B1-%EC%A7%80%EC%A0%95%ED%95%98%EA%B8%B0/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;http://docs.nuget.org/create/nuspec-reference#specifying-dependencies&#34;&gt;출처 - Nuget 매뉴얼&lt;/a&gt;&#xA;Nuget 패키지를 만들 때 의존성을 지정하려면, .nuspec 파일 안의 metadata 태그의 자식으로&#xA;&lt;code&gt;&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;&amp;lt;/code&amp;gt;&#xD;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;이렇게 지정해 주면 된다.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

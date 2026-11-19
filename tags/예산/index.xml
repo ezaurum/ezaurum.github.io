@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>예산 on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/%EC%98%88%EC%82%B0/</link>
-    <description>Recent content in 예산 on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Thu, 08 Feb 2018 15:01:52 +0700</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/%EC%98%88%EC%82%B0/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Chiangmai Life 15 - 정리</title>
-      <link>https://ezaurum.com/2018/02/Chiangmai-Life-15-%EC%A0%95%EB%A6%AC/</link>
-      <pubDate>Thu, 08 Feb 2018 15:01:52 +0700</pubDate>
-      <guid>https://ezaurum.com/2018/02/Chiangmai-Life-15-%EC%A0%95%EB%A6%AC/</guid>
-      <description>경비 총 소모 경비 250만원(83만/월, 비행기 제외) 식비 - 5500B/M 생활비 - 2000B/M 교통비 - 1000B/M 여가 - 6000B/M, 근교 여행 1주일 포함 방세 - 9000B/M 근교 1주일 여행 4인팟 - 6500밧 카드를 쓸 수 없으니 예산을 세우고 예산 내에서 집행하는 연습이 강제로 되었다.&#xA;절약 가능해 보이는 포인트는&#xA;식비 - -1000B/M, 조리법이 간단한 고기요리나 쌀국수 종류는 집에서 해먹는게 나을듯 하다. 방세 - -3000B/M, 너무 방이 컸다. 두 명이 올 수 있으면 괜찮을 듯.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>예산 on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/%EC%98%88%EC%82%B0/</link>
+		<description>Recent content in 예산 on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Thu, 08 Feb 2018 15:01:52 +0700</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/%EC%98%88%EC%82%B0/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Chiangmai Life 15 - 정리</title>
+				<link>https://ezaurum.com/2018/02/Chiangmai-Life-15-%EC%A0%95%EB%A6%AC/</link>
+				<pubDate>Thu, 08 Feb 2018 15:01:52 +0700</pubDate>
+				<guid>https://ezaurum.com/2018/02/Chiangmai-Life-15-%EC%A0%95%EB%A6%AC/</guid>
+				<description>&lt;h2 id=&#34;경비&#34;&gt;경비&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;총 소모 경비 250만원(83만/월, 비행기 제외)&#xA;&lt;ul&gt;&#xA;&lt;li&gt;식비 - 5500B/M&lt;/li&gt;&#xA;&lt;li&gt;생활비 - 2000B/M&lt;/li&gt;&#xA;&lt;li&gt;교통비 - 1000B/M&lt;/li&gt;&#xA;&lt;li&gt;여가 - 6000B/M, 근교 여행 1주일 포함&lt;/li&gt;&#xA;&lt;li&gt;방세 - 9000B/M&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;근교 1주일 여행 4인팟 - 6500밧&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;카드를 쓸 수 없으니 예산을 세우고 예산 내에서 집행하는 연습이 강제로 되었다.&lt;/p&gt;&#xA;&lt;p&gt;절약 가능해 보이는 포인트는&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;식비 - -1000B/M, 조리법이 간단한 고기요리나 쌀국수 종류는 집에서 해먹는게 나을듯 하다.&lt;/li&gt;&#xA;&lt;li&gt;방세 - -3000B/M, 너무 방이 컸다. 두 명이 올 수 있으면 괜찮을 듯.&lt;/li&gt;&#xA;&lt;li&gt;여가 - -2000B/M, 일단 술을 좀 줄이는 게 건강을 위해서도 좋겠다.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;프로젝트&#34;&gt;프로젝트&lt;/h2&gt;&#xA;&lt;p&gt;망했다고 할 만큼은 아닌데, 원하는 만큼은 진행을 못 했다.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

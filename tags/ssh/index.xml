@@ -1,41 +1,47 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Ssh on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/ssh/</link>
-    <description>Recent content in Ssh on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Wed, 15 Aug 2018 23:15:09 +0900</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>여러 Github 계정 SSH로 접근</title>
-      <link>https://ezaurum.com/2018/08/%EC%97%AC%EB%9F%AC-Github-%EA%B3%84%EC%A0%95-SSH%EB%A1%9C-%EC%A0%91%EA%B7%BC/</link>
-      <pubDate>Wed, 15 Aug 2018 23:15:09 +0900</pubDate>
-      <guid>https://ezaurum.com/2018/08/%EC%97%AC%EB%9F%AC-Github-%EA%B3%84%EC%A0%95-SSH%EB%A1%9C-%EC%A0%91%EA%B7%BC/</guid>
-      <description>Github 계정이 두 개 이상인 경우, ssh 로 접근하기 위해서는 좀 다른 세팅이 필요하다. 참고링크&#xA;1.다른 이름으로 키를 하나 만든다 ssh-keygen -t rsa -b 4096 -C “your_email@example.com” 이러면 파일 이름을 물어볼텐데, 그걸 적당히 다른 이름으로 지정해 준다.&#xA;id_rsa_personal 뭐 이런 식으로&#xA;2.만든 키를 Github 계정에 등록한다. 3.Git 이 ssh 키를 인식하게 한다 ~/.ssh/config Git 은 이 파일을 가지고 ssh 키를 인식한다.&#xA;Host other.github.com HostName github.com PreferredAuthentications publickey IdentityFile ~/.ssh/id_rsa_personal 여기서 other.</description>
-    </item>
-    <item>
-      <title>jenkins-git 연동시 주의점</title>
-      <link>https://ezaurum.com/2013/05/jenkins-git-%EC%97%B0%EB%8F%99%EC%8B%9C-%EC%A3%BC%EC%9D%98%EC%A0%90/</link>
-      <pubDate>Mon, 20 May 2013 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2013/05/jenkins-git-%EC%97%B0%EB%8F%99%EC%8B%9C-%EC%A3%BC%EC%9D%98%EC%A0%90/</guid>
-      <description>git 서버에 public 키를 추가할 때, jenkins 유저로 들어가서 추가해야 함.</description>
-    </item>
-    <item>
-      <title>scp만으로 git 서버에 key여럿 추가하기</title>
-      <link>https://ezaurum.com/2013/05/scp%EB%A7%8C%EC%9C%BC%EB%A1%9C-git-%EC%84%9C%EB%B2%84%EC%97%90-key%EC%97%AC%EB%9F%BF-%EC%B6%94%EA%B0%80%ED%95%98%EA%B8%B0/</link>
-      <pubDate>Mon, 20 May 2013 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2013/05/scp%EB%A7%8C%EC%9C%BC%EB%A1%9C-git-%EC%84%9C%EB%B2%84%EC%97%90-key%EC%97%AC%EB%9F%BF-%EC%B6%94%EA%B0%80%ED%95%98%EA%B8%B0/</guid>
-      <description>출처 역시 누군가 뭘 해 놨을 줄 알았어. 다 필요 없는 짓이었다. ssh-copy-id 라는 명령어가&amp;hellip; OTL&amp;hellip; 역시 무식하면 몸이 고생. scp file_name user@182.213.312.122:path 다 하고 나면 보안을 위해 파일 권한이 600으로 되어 있는지 확인할 것 그 외 ssh에 대한 참고 링크</description>
-    </item>
-    <item>
-      <title>Edit plus sftp 문제</title>
-      <link>https://ezaurum.com/2008/12/Edit-plus-sftp-%EB%AC%B8%EC%A0%9C/</link>
-      <pubDate>Mon, 08 Dec 2008 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2008/12/Edit-plus-sftp-%EB%AC%B8%EC%A0%9C/</guid>
-      <description>http://quiin.com/13&#xA;이 설명은 데비안이지만, 당연히 우분투에서도 그대로 된다.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Ssh on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/ssh/</link>
+		<description>Recent content in Ssh on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Wed, 15 Aug 2018 23:15:09 +0900</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>여러 Github 계정 SSH로 접근</title>
+				<link>https://ezaurum.com/2018/08/%EC%97%AC%EB%9F%AC-Github-%EA%B3%84%EC%A0%95-SSH%EB%A1%9C-%EC%A0%91%EA%B7%BC/</link>
+				<pubDate>Wed, 15 Aug 2018 23:15:09 +0900</pubDate>
+				<guid>https://ezaurum.com/2018/08/%EC%97%AC%EB%9F%AC-Github-%EA%B3%84%EC%A0%95-SSH%EB%A1%9C-%EC%A0%91%EA%B7%BC/</guid>
+				<description>&lt;p&gt;Github 계정이 두 개 이상인 경우, ssh 로 접근하기 위해서는 좀 다른 세팅이 필요하다.&#xA;&lt;a href=&#34;https://medium.com/@trionkidnapper/ssh-keys-with-multiple-github-accounts-c67db56f191e&#34;&gt;참고링크&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;1다른-이름으로-키를-하나-만든다&#34;&gt;1.다른 이름으로 키를 하나 만든다&lt;/h3&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;ssh-keygen -t rsa -b 4096 -C “your_email@example.com”&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;이러면 파일 이름을 물어볼텐데, 그걸 적당히 다른 이름으로 지정해 준다.&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;id_rsa_personal&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;뭐 이런 식으로&lt;/p&gt;&#xA;&lt;h3 id=&#34;2만든-키를-github-계정에-등록한다&#34;&gt;2.만든 키를 Github 계정에 등록한다.&lt;/h3&gt;&#xA;&lt;h3 id=&#34;3git-이-ssh-키를-인식하게-한다&#34;&gt;3.Git 이 ssh 키를 인식하게 한다&lt;/h3&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;~/.ssh/config &#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Git 은 이 파일을 가지고 ssh 키를 인식한다.&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Host other.github.com&#xA;HostName github.com&#xA;PreferredAuthentications publickey&#xA;IdentityFile ~/.ssh/id_rsa_personal&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;여기서 other.github.com 이 포인트. 원하는 이름으로 도메인을 지정한다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>jenkins-git 연동시 주의점</title>
+				<link>https://ezaurum.com/2013/05/jenkins-git-%EC%97%B0%EB%8F%99%EC%8B%9C-%EC%A3%BC%EC%9D%98%EC%A0%90/</link>
+				<pubDate>Mon, 20 May 2013 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2013/05/jenkins-git-%EC%97%B0%EB%8F%99%EC%8B%9C-%EC%A3%BC%EC%9D%98%EC%A0%90/</guid>
+				<description>&lt;p&gt;git 서버에 public 키를 추가할 때, jenkins 유저로 들어가서 추가해야 함.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>scp만으로 git 서버에 key여럿 추가하기</title>
+				<link>https://ezaurum.com/2013/05/scp%EB%A7%8C%EC%9C%BC%EB%A1%9C-git-%EC%84%9C%EB%B2%84%EC%97%90-key%EC%97%AC%EB%9F%BF-%EC%B6%94%EA%B0%80%ED%95%98%EA%B8%B0/</link>
+				<pubDate>Mon, 20 May 2013 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2013/05/scp%EB%A7%8C%EC%9C%BC%EB%A1%9C-git-%EC%84%9C%EB%B2%84%EC%97%90-key%EC%97%AC%EB%9F%BF-%EC%B6%94%EA%B0%80%ED%95%98%EA%B8%B0/</guid>
+				<description>&lt;p&gt;&lt;del datetime=&#34;2013-05-19T18:39:24+00:00&#34;&gt;&lt;a href=&#34;http://www.cyberciti.biz/tips/linux-multiple-ssh-key-based-authentication.html&#34;&gt;출처&lt;/a&gt;&#xA;역시 누군가 뭘 해 놨을 줄 알았어.&lt;/del&gt;&#xA;&lt;ins datetime=&#34;2013-05-19T18:39:24+00:00&#34;&gt;다 필요 없는 짓이었다. ssh-copy-id 라는 명령어가&amp;hellip; OTL&amp;hellip; 역시 무식하면 몸이 고생.&lt;/ins&gt;&#xA;&lt;code&gt;scp file_name &lt;a href=&#34;mailto:user@182.213.312.122&#34;&gt;user@182.213.312.122&lt;/a&gt;:path&lt;/code&gt;&#xA;&lt;ins datetime=&#34;2013-06-17T12:37:17+00:00&#34;&gt;다 하고 나면 보안을 위해 파일 권한이 600으로 되어 있는지 확인할 것&lt;/ins&gt;&#xA;&lt;a href=&#34;http://wiki.kldp.org/wiki.php/DocbookSgml/SSH-KLDP&#34;&gt;그 외 ssh에 대한 참고 링크&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Edit plus sftp 문제</title>
+				<link>https://ezaurum.com/2008/12/Edit-plus-sftp-%EB%AC%B8%EC%A0%9C/</link>
+				<pubDate>Mon, 08 Dec 2008 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2008/12/Edit-plus-sftp-%EB%AC%B8%EC%A0%9C/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;http://quiin.com/13&#34;&gt;&lt;a href=&#34;http://quiin.com/13&#34;&gt;http://quiin.com/13&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;이 설명은 데비안이지만, 당연히 우분투에서도 그대로 된다.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

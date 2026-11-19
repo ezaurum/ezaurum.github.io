@@ -1,34 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>한줄정리 on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/categories/%ED%95%9C%EC%A4%84%EC%A0%95%EB%A6%AC/</link>
-    <description>Recent content in 한줄정리 on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Thu, 26 Mar 2020 02:00:18 +0900</lastBuildDate>
-    <atom:link href="https://ezaurum.com/categories/%ED%95%9C%EC%A4%84%EC%A0%95%EB%A6%AC/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Vue에서 form 조건부 validation</title>
-      <link>https://ezaurum.com/2020/03/Vue%EC%97%90%EC%84%9C-form-%EC%A1%B0%EA%B1%B4%EB%B6%80-validation/</link>
-      <pubDate>Thu, 26 Mar 2020 02:00:18 +0900</pubDate>
-      <guid>https://ezaurum.com/2020/03/Vue%EC%97%90%EC%84%9C-form-%EC%A1%B0%EA%B1%B4%EB%B6%80-validation/</guid>
-      <description>Vue에서 특정 경우에만 나타나는 항목에 대해 validation을 하려면, v-show말코 v-if를 써서 꺼버리면 validation 이 아예 돌지 않는다.</description>
-    </item>
-    <item>
-      <title>쿼리 결과를 CSV 파일로 생성</title>
-      <link>https://ezaurum.com/2019/05/%EC%BF%BC%EB%A6%AC-%EA%B2%B0%EA%B3%BC%EB%A5%BC-CSV-%ED%8C%8C%EC%9D%BC%EB%A1%9C-%EC%83%9D%EC%84%B1/</link>
-      <pubDate>Sun, 12 May 2019 01:54:01 +0900</pubDate>
-      <guid>https://ezaurum.com/2019/05/%EC%BF%BC%EB%A6%AC-%EA%B2%B0%EA%B3%BC%EB%A5%BC-CSV-%ED%8C%8C%EC%9D%BC%EB%A1%9C-%EC%83%9D%EC%84%B1/</guid>
-      <description>select b.*, a.* from log_table a, somehow_table b where a.id = b.id and check_result=&amp;#39;Success&amp;#39; and a.column=123 INTO OUTFILE &amp;#39;orders.csv&amp;#39; FIELDS TERMINATED BY &amp;#39;,&amp;#39; ENCLOSED BY &amp;#39;&amp;#34;&amp;#39; LINES TERMINATED BY &amp;#39;\n&amp;#39;; </description>
-    </item>
-    <item>
-      <title>Git에서 특정파일 임시로 커밋내역에서 제외하기</title>
-      <link>https://ezaurum.com/2013/11/Git%EC%97%90%EC%84%9C-%ED%8A%B9%EC%A0%95%ED%8C%8C%EC%9D%BC-%EC%9E%84%EC%8B%9C%EB%A1%9C-%EC%BB%A4%EB%B0%8B%EB%82%B4%EC%97%AD%EC%97%90%EC%84%9C-%EC%A0%9C%EC%99%B8%ED%95%98%EA%B8%B0/</link>
-      <pubDate>Sun, 24 Nov 2013 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2013/11/Git%EC%97%90%EC%84%9C-%ED%8A%B9%EC%A0%95%ED%8C%8C%EC%9D%BC-%EC%9E%84%EC%8B%9C%EB%A1%9C-%EC%BB%A4%EB%B0%8B%EB%82%B4%EC%97%AD%EC%97%90%EC%84%9C-%EC%A0%9C%EC%99%B8%ED%95%98%EA%B8%B0/</guid>
-      <description>출처 http://blog.outsider.ne.kr/817 스택오버플로우 FallenGameR&amp;rsquo;s blog Unity3D로 공동작업을 하다 보면 meta파일이 많이 생기고, 뭐 잠깐 이쪽에서 고쳐보고 싶은데 하던 작업 중에 일부는 또 올려야 할 때가 있고해서 골치 아플 때 유용함. local 에만 적용해야 하는 환경파일 수정할 때도 유용&#xA;리모트 파일이 바뀌어서 pull을 할 때 주의점 기본적으로 컨플릭트가 나고, 해결 방법이 다르다&#xA;assumed-unchanged - stash 가능하지만, stash 하면 데이터 날아감 skip-worktree - stash 불가능, 플래그 꺼 줘야 함 git reset --hard를 하는 경우 주의점 결국 둘 다 파일은 바뀐다.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>한줄정리 on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/categories/%ED%95%9C%EC%A4%84%EC%A0%95%EB%A6%AC/</link>
+		<description>Recent content in 한줄정리 on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Thu, 26 Mar 2020 02:00:18 +0900</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/categories/%ED%95%9C%EC%A4%84%EC%A0%95%EB%A6%AC/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Vue에서 form 조건부 validation</title>
+				<link>https://ezaurum.com/2020/03/Vue%EC%97%90%EC%84%9C-form-%EC%A1%B0%EA%B1%B4%EB%B6%80-validation/</link>
+				<pubDate>Thu, 26 Mar 2020 02:00:18 +0900</pubDate>
+				<guid>https://ezaurum.com/2020/03/Vue%EC%97%90%EC%84%9C-form-%EC%A1%B0%EA%B1%B4%EB%B6%80-validation/</guid>
+				<description>&lt;p&gt;Vue에서 특정 경우에만 나타나는 항목에 대해 validation을 하려면, &lt;code&gt;v-show&lt;/code&gt;말코 &lt;code&gt;v-if&lt;/code&gt;를 써서 꺼버리면 validation 이 아예 돌지 않는다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>쿼리 결과를 CSV 파일로 생성</title>
+				<link>https://ezaurum.com/2019/05/%EC%BF%BC%EB%A6%AC-%EA%B2%B0%EA%B3%BC%EB%A5%BC-CSV-%ED%8C%8C%EC%9D%BC%EB%A1%9C-%EC%83%9D%EC%84%B1/</link>
+				<pubDate>Sun, 12 May 2019 01:54:01 +0900</pubDate>
+				<guid>https://ezaurum.com/2019/05/%EC%BF%BC%EB%A6%AC-%EA%B2%B0%EA%B3%BC%EB%A5%BC-CSV-%ED%8C%8C%EC%9D%BC%EB%A1%9C-%EC%83%9D%EC%84%B1/</guid>
+				<description>&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;select b.*, a.* from log_table a,&#xA;somehow_table b where a.id = b.id&#xA;and check_result=&amp;#39;Success&amp;#39; and a.column=123&#xA;INTO OUTFILE &amp;#39;orders.csv&amp;#39; FIELDS TERMINATED BY &amp;#39;,&amp;#39; ENCLOSED BY &amp;#39;&amp;#34;&amp;#39; LINES TERMINATED BY &amp;#39;\n&amp;#39;;&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
+			</item>
+			<item>
+				<title>Git에서 특정파일 임시로 커밋내역에서 제외하기</title>
+				<link>https://ezaurum.com/2013/11/Git%EC%97%90%EC%84%9C-%ED%8A%B9%EC%A0%95%ED%8C%8C%EC%9D%BC-%EC%9E%84%EC%8B%9C%EB%A1%9C-%EC%BB%A4%EB%B0%8B%EB%82%B4%EC%97%AD%EC%97%90%EC%84%9C-%EC%A0%9C%EC%99%B8%ED%95%98%EA%B8%B0/</link>
+				<pubDate>Sun, 24 Nov 2013 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2013/11/Git%EC%97%90%EC%84%9C-%ED%8A%B9%EC%A0%95%ED%8C%8C%EC%9D%BC-%EC%9E%84%EC%8B%9C%EB%A1%9C-%EC%BB%A4%EB%B0%8B%EB%82%B4%EC%97%AD%EC%97%90%EC%84%9C-%EC%A0%9C%EC%99%B8%ED%95%98%EA%B8%B0/</guid>
+				<description>&lt;h2 id=&#34;출처&#34;&gt;출처&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://blog.outsider.ne.kr/817&#34; title=&#34;Git에서 특정파일 임시로 커밋내역에서 제외하기&#34;&gt;&lt;a href=&#34;http://blog.outsider.ne.kr/817&#34;&gt;http://blog.outsider.ne.kr/817&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://stackoverflow.com/questions/13630849/git-difference-between-assume-unchanged-and-skip-worktree&#34;&gt;스택오버플로우&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://fallengamer.livejournal.com/93321.html&#34;&gt;FallenGameR&amp;rsquo;s blog&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Unity3D로 공동작업을 하다 보면 meta파일이 많이 생기고, 뭐 잠깐 이쪽에서 고쳐보고 싶은데 하던 작업 중에 일부는 또 올려야 할 때가 있고해서 골치 아플 때 유용함.&#xA;local 에만 적용해야 하는 환경파일 수정할 때도 유용&lt;/p&gt;&#xA;&lt;h3 id=&#34;리모트-파일이-바뀌어서-pull을-할-때-주의점&#34;&gt;리모트 파일이 바뀌어서 pull을 할 때 주의점&lt;/h3&gt;&#xA;&lt;p&gt;기본적으로 컨플릭트가 나고, 해결 방법이 다르다&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;assumed-unchanged - stash 가능하지만, stash 하면 데이터 날아감&lt;/li&gt;&#xA;&lt;li&gt;skip-worktree - stash 불가능, 플래그 꺼 줘야 함&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;git-reset---hard를-하는-경우-주의점&#34;&gt;&lt;code&gt;git reset --hard&lt;/code&gt;를 하는 경우 주의점&lt;/h3&gt;&#xA;&lt;p&gt;결국 둘 다 파일은 바뀐다.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

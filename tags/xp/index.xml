@@ -1,65 +1,54 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Xp on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/xp/</link>
-    <description>Recent content in Xp on Ezaurum&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Thu, 16 Sep 2010 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://ezaurum.com/tags/xp/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>IE9이 나왔다</title>
-      <link>https://ezaurum.com/2010/09/IE9%EC%9D%B4-%EB%82%98%EC%99%94%EB%8B%A4/</link>
-      <pubDate>Thu, 16 Sep 2010 00:00:00 +0000</pubDate>
-      
-      <guid>https://ezaurum.com/2010/09/IE9%EC%9D%B4-%EB%82%98%EC%99%94%EB%8B%A4/</guid>
-      <description>윈도우7 이후로 가장 기대되는 M$물건. 하지만 XP에서는 깔아볼 수도 없&amp;hellip; &amp;hellip;휴가 보내주세요. 현기증 난단 말이에요. ORL</description>
-    </item>
-    
-    <item>
-      <title>TDD 시작</title>
-      <link>https://ezaurum.com/2010/08/TDD-%EC%8B%9C%EC%9E%91/</link>
-      <pubDate>Fri, 06 Aug 2010 00:00:00 +0000</pubDate>
-      
-      <guid>https://ezaurum.com/2010/08/TDD-%EC%8B%9C%EC%9E%91/</guid>
-      <description>TDD란 걸 시작했다. 좋은 튜토리얼을 발견해서 그걸 보고 대충 익혔는데, 여기의 글들과 관련해서 좀 공부를 더 해야 겠다.  테스트를 작성한다. 
-&amp;lt;li&amp;gt;작성한 테스트를 통과할 수 있도록 가장 빠른 방법으로 코드를 작성한다. 이 과정에 중복된 코드를 만들어도 상관 없다. &amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;테스트를 수행한다. &amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;  테스트를 통과하면 작성한 코드에서 중복을 제거한다. 아니면 2번으로 돌아간다.  
-테스트를 수행한다. 
-&amp;lt;li&amp;gt;테스트를 통과하면 완성. 다음 테스트를 1번부터 시작한다. 실패하면 4로 돌아가서 디버깅한다.&amp;lt;/li&amp;gt;&amp;lt;/ol&amp;gt;   TDD(TestDrivenDevelopement)이런 식으로 진행되는데, 개발 속도가 엄청나게 빨라진다고 한다.</description>
-    </item>
-    
-    <item>
-      <title>윈도XP 시스템 파일 복구법</title>
-      <link>https://ezaurum.com/2009/02/%EC%9C%88%EB%8F%84XP-%EC%8B%9C%EC%8A%A4%ED%85%9C-%ED%8C%8C%EC%9D%BC-%EB%B3%B5%EA%B5%AC%EB%B2%95/</link>
-      <pubDate>Thu, 12 Feb 2009 00:00:00 +0000</pubDate>
-      
-      <guid>https://ezaurum.com/2009/02/%EC%9C%88%EB%8F%84XP-%EC%8B%9C%EC%8A%A4%ED%85%9C-%ED%8C%8C%EC%9D%BC-%EB%B3%B5%EA%B5%AC%EB%B2%95/</guid>
-      <description>적용대상  winlogon.exe, userinit.exe, lsass.exe등의 파일이 없거나, 손상되어 정상적인 부팅이 불가능할 때 뭔지는 모르겠지만, 일단 윈도우 시작은 됐는데, 사용자 이름을 눌러도 로그인이 안되거나, 바탕화면이 뜨지 않거나 할 때. 기타 이유로 파일 복구가 필요할 때winlogon.exe, userinit.exe, lsass.exe등의 파일이 없거나, 손상되어 정상적인 부팅이 불가능할 때 
-준비물  1, 2 중 하나만 있으면 됨. 깔려있는 것과 동일한 버전의 XP 정품 씨디 깔린 게 SP2면 SP2, SP3면 SP3여야 하는 게 원칙이나, 될 수도 있음.</description>
-    </item>
-    
-    <item>
-      <title>Windows XP 사용자 계정 비밀번호를 잊었을 때</title>
-      <link>https://ezaurum.com/2008/11/Windows-XP-%EC%82%AC%EC%9A%A9%EC%9E%90-%EA%B3%84%EC%A0%95-%EB%B9%84%EB%B0%80%EB%B2%88%ED%98%B8%EB%A5%BC-%EC%9E%8A%EC%97%88%EC%9D%84-%EB%95%8C/</link>
-      <pubDate>Fri, 21 Nov 2008 00:00:00 +0000</pubDate>
-      
-      <guid>https://ezaurum.com/2008/11/Windows-XP-%EC%82%AC%EC%9A%A9%EC%9E%90-%EA%B3%84%EC%A0%95-%EB%B9%84%EB%B0%80%EB%B2%88%ED%98%B8%EB%A5%BC-%EC%9E%8A%EC%97%88%EC%9D%84-%EB%95%8C/</guid>
-      <description>관리자 -Administrator 계정의 비번을 알 경우 관리자 계정 로그인-제어판-사용자 계정-비번을 잊은 계정 선택-비밀번호 변경 관리자 계정이 보통 때 뜨지 않는 경우는, 부팅 시, F8을 눌러서 안전모드로 들어간다.  관리자 계정 비번을 모를 경우 F8을 눌러서 안전모드 명령 프롬프트 사용 을 선택해서, net user 필요한아이디 *ENTER를 입력. 그럼 비번 재설정 가능.  둘 다 여의치 않을 경우 안전모드든, hiren&#39;s CD를 이용하든 윈도우즈 폴더의 system32config 폴더 안에 있는 SAM파일을 지우고 재부팅 - 이 방법은 위험하다고 함.</description>
-    </item>
-    
-    <item>
-      <title>XP용 Intel AHCI driver</title>
-      <link>https://ezaurum.com/2008/11/XP%EC%9A%A9-Intel-AHCI-driver/</link>
-      <pubDate>Thu, 20 Nov 2008 00:00:00 +0000</pubDate>
-      
-      <guid>https://ezaurum.com/2008/11/XP%EC%9A%A9-Intel-AHCI-driver/</guid>
-      <description>XP란 게 SATA2를 제대로 지원하지는 못한다. AHCI를 쓰려고 많은 삽질을 했는데, 일하다가 AHCI 모드로 XP가 깔린 놋북을 복구해야 할 일이 생겼다. 요즘 학교에 또 만연하는 로그온 실패를 유발하는 바이러스다. 그런데 문제가, 일반 XP씨디를 이용해서 손상된 userinit.exe라든가, lsass.exe라든가 winlogon.exe를 복구하려고 하면, 이놈이 AHCI 모드인 하드를 인식하지를 못한다. 요즘 놋북에 FDD가 있을리 만무. 그래서 USB FDD를 어렵사리 찾아서, 그걸 이용해서 드라이버를 깔려고 하는데, 이런 망할 놈들이 윈도용 드라이버-설치된 후 사용하는-는 흔한데, 설치할 때 쓰는 드라이버는 안 보이는 거다!</description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>XP on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/XP/</link>
+		<description>Recent content in XP on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Thu, 16 Sep 2010 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/XP/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>IE9이 나왔다</title>
+				<link>https://ezaurum.com/2010/09/IE9%EC%9D%B4-%EB%82%98%EC%99%94%EB%8B%A4/</link>
+				<pubDate>Thu, 16 Sep 2010 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2010/09/IE9%EC%9D%B4-%EB%82%98%EC%99%94%EB%8B%A4/</guid>
+				<description>&lt;p&gt;윈도우7 이후로 가장 기대되는 M$물건.&#xA;하지만 XP에서는 깔아볼 수도 없&amp;hellip;&#xA;&amp;hellip;휴가 보내주세요. 현기증 난단 말이에요. ORL&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>TDD 시작</title>
+				<link>https://ezaurum.com/2010/08/TDD-%EC%8B%9C%EC%9E%91/</link>
+				<pubDate>Fri, 06 Aug 2010 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2010/08/TDD-%EC%8B%9C%EC%9E%91/</guid>
+				<description>&lt;p&gt;TDD란 걸 시작했다.&#xA;&lt;a href=&#34;http://www.javajigi.net/display/OSS/TDD&#34;&gt;좋은 튜토리얼&lt;/a&gt;을 발견해서 그걸 보고 대충 익혔는데, &lt;a href=&#34;http://xper.org/wiki/xp/&#34;&gt;여기&lt;/a&gt;의 글들과 관련해서 좀 공부를 더 해야 겠다.&lt;/p&gt;&#xA;&lt;blockquote cite=&#34;http://xper.org/wiki/xp/TestDrivenDevelopment&#34;&gt;&#xD;&#xA;&lt;ol&gt;&lt;li&gt;&#xD;&#xA;테스트를 작성한다. &lt;/li&gt;&#xD;&#xA;&lt;pre&gt;&lt;code&gt;&amp;lt;li&amp;gt;작성한 테스트를 통과할 수 있도록 가장 빠른 방법으로 코드를 작성한다. 이 과정에 중복된 코드를 만들어도 상관 없다. &amp;lt;/li&amp;gt;&#xD;&#xA;&#xD;&#xA;&amp;lt;li&amp;gt;테스트를 수행한다. &amp;lt;/li&amp;gt;&#xD;&#xA;&amp;lt;li&amp;gt;&#xD;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;테스트를 통과하면 작성한 코드에서 중복을 제거한다. 아니면 2번으로 돌아간다. &lt;/li&gt;&#x9;&lt;li&gt;&lt;/p&gt;&#xA;&lt;p&gt;테스트를 수행한다. &lt;/li&gt;&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;&amp;lt;li&amp;gt;테스트를 통과하면 완성. 다음 테스트를 1번부터 시작한다. 실패하면 4로 돌아가서 디버깅한다.&amp;lt;/li&amp;gt;&amp;lt;/ol&amp;gt;&#xD;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;/blockquote&gt;&#xD;&#xA;TDD(TestDrivenDevelopement)이런 식으로 진행되는데, 개발 속도가 엄청나게 빨라진다고 한다.&#xD;&#xA;그 와중에 &lt;a href=&#34;http://www.google.co.kr/search?hl=ko&amp;amp;newwindow=1&amp;amp;client=opera&amp;amp;hs=GQI&amp;amp;rls=ko&amp;amp;q=mylin&amp;amp;aq=f&amp;amp;aqi=&amp;amp;aql=&amp;amp;oq=&amp;amp;gs_rfai=&#34;&gt;Mylin&lt;/a&gt;이란 물건도 알게 되었지만, 여기에 대해서는 다음에.&#xD;&#xA;어쨌든, 이미 만든 &lt;a href=&#34;https://ezaurum.com/2010/08/06/4boxes/&#34;&gt;상자 4개&lt;/a&gt;의 문제에 대해 TDD를 적용해서 다시 해 보도록 하겠다.&#xD;&#xA;이제 퇴근시간이니 실제 적용은 다음 주 월요일에.&#xD;&#xA;TDD가 무사히 적용되면 LISP로 한번, C++로 한번 더 만들어 보겠음.</description>
+			</item>
+			<item>
+				<title>윈도XP 시스템 파일 복구법</title>
+				<link>https://ezaurum.com/2009/02/%EC%9C%88%EB%8F%84XP-%EC%8B%9C%EC%8A%A4%ED%85%9C-%ED%8C%8C%EC%9D%BC-%EB%B3%B5%EA%B5%AC%EB%B2%95/</link>
+				<pubDate>Thu, 12 Feb 2009 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2009/02/%EC%9C%88%EB%8F%84XP-%EC%8B%9C%EC%8A%A4%ED%85%9C-%ED%8C%8C%EC%9D%BC-%EB%B3%B5%EA%B5%AC%EB%B2%95/</guid>
+				<description>&lt;h3&gt;적용대상&lt;/h3&gt;&#xD;&#xA;&lt;ol&gt;&#xD;&#xA;&#x9;&lt;li&gt;winlogon.exe, userinit.exe, lsass.exe등의 파일이 없거나, 손상되어 정상적인 부팅이 불가능할 때&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;뭔지는 모르겠지만, 일단 윈도우 시작은 됐는데, 사용자 이름을 눌러도 로그인이 안되거나, 바탕화면이 뜨지 않거나 할 때.&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;기타 이유로 파일 복구가 필요할 때winlogon.exe, userinit.exe, lsass.exe등의 파일이 없거나, 손상되어 정상적인 부팅이 불가능할 때&lt;/li&gt;&#xD;&#xA;&lt;/ol&gt;&#xD;&#xA;&lt;h3&gt;준비물&lt;/h3&gt;&#xD;&#xA;&lt;ol&gt;&#xD;&#xA;1, 2 중 하나만 있으면 됨.&#xD;&#xA;&#x9;&lt;li&gt;깔려있는 것과 동일한 버전의 XP 정품 씨디&lt;/li&gt;&#xD;&#xA;깔린 게 SP2면 SP2, SP3면 SP3여야 하는 게 원칙이나, 될 수도 있음. &lt;strong&gt;자동설치 CD는 복구 콘솔이 뜨질 않아서 안 됨&lt;/strong&gt;.&#xD;&#xA;&lt;li&gt;&lt;a href=&#34;http://qaos.com/article.php?sid=2330&#34;&gt;Hiren&#39;s CD&lt;/a&gt; 등의 응급 부팅 CD와, 복구에 필요한 파일&lt;/li&gt;&#xD;&#xA;망가진 게 winlogon.exe면, winlogon.exe등을 다른 &lt;strong&gt;멀쩡한 컴&lt;/strong&gt;에서 복사해 둔다.(usb flash memory, floppydisk, cd, dvd... etc)&#xD;&#xA;&lt;/ol&gt;&#xD;&#xA;&lt;h3&gt;해결방법&lt;/h3&gt;&#xD;&#xA;이 해결방법의 원리는 &lt;strong&gt;손상된 파일을 멀쩡한 것으로 대체&lt;/strong&gt;하는 것이다. 그러니 할 수 있다면 하드디스크 표면의 자기장 정보를 원하는 식으로 변화시켜도 제대로 돌아간다. 꼭 이대로 할 필요는 없다.&#xD;&#xA;&lt;ol&gt;&lt;li&gt;XP씨디로 부팅하는 경우&lt;/li&gt;&#xD;&#xA;&lt;ol&gt;&lt;li&gt;기다리다 보면, 윈도를 복구하려면 &lt;kbd&gt;R&lt;/kbd&gt;을 누르라는 메세지가 뜬다.&lt;/li&gt;&#xD;&#xA;시키는 대로 한다. 키보드 종류선택하라는 건 알아서 선택. 아무거나 한대도 크게 차이는 없다.&#xD;&#xA;&lt;li&gt;좀 기다려 보면, 로그온 할 디렉토리를 선택하라고 한다.&lt;/li&gt;&#xD;&#xA;여기 선택지가 여러 개 뜨는 사람은, 그냥 근처에 컴 잘 아는 사람을 부르는 게 나을 것 같다. 아니면 전부 다 한 번씩 선택해서 아래의 과정을 반복하든가.&#xD;&#xA;&lt;li&gt;숫자를 누르고 엔터를 누른다.&lt;/li&gt;&#xD;&#xA;암호를 물으면 암호를 친다. 없다면 그냥 &lt;kbd&gt;enter&lt;/kbd&gt;&#xD;&#xA;&lt;li&gt;커서가 깜빡이면, &lt;code&gt;cd c:windowssystem32&lt;/code&gt;라고 치고 &lt;kbd&gt;enter&lt;/kbd&gt;&lt;/li&gt;&#xD;&#xA;저기서 c:windows 부분은 아까 처음에 로그인 한 디렉토리와 같다. &lt;strong&gt;혹시 다르다면 자기가 로그인 한 디렉토리를 입력하자.&lt;/strong&gt;&#xD;&#xA;system32는 대부분의 윈도우 시스템 파일이 몰려있는 디렉토리. 파일 위치가 어딘지 모르겠다면 저기다 넣자. 안다면 system32대신에 그 쪽으로 가 주면 된다.&#xD;&#xA;&lt;li&gt;&lt;code&gt;expand d:i386example.ex_ example.exe&lt;/code&gt;라고 치고 &lt;kbd&gt;enter&lt;/kbd&gt;&lt;/li&gt;&#xD;&#xA;여기서 d:는 자기 cdrom드라이브다. e라면 e:라고 친다. example은 그냥 말 그대로 예시용 파일. 원하는 파일 이름을 적어준다. 확장자의 마지막 글자는 _로 바꿔준다.&#xD;&#xA;예를 들자면, userinit.exe를 복구하려면, &lt;code&gt;d:i386userinit.ex_ userinit.exe&lt;/code&gt;다. 덮어쓰겠냐고 물어보면 당연히 덮어써준다.&#xD;&#xA;&lt;li&gt;다 되면 리부팅. 리셋버튼이 있으면 그거 누르고, 아니면 그냥 파워 버튼 껐다 키면 된다.&lt;/li&gt;&#xD;&#xA;&lt;/ol&gt;&#xD;&#xA;참고&#xD;&#xA;&lt;a href=&#34;http://micingamja.egloos.com/4480609&#34;&gt;lsass복구법이 나와있는 미친감자님의 블로그&lt;/a&gt;&#xD;&#xA;&lt;a href=&#34;http://skysummer.com/538&#34;&gt;프로세스와 보안에 대한 여름하늘님의 글&lt;/a&gt;&#xD;&#xA;&lt;a href=&#34;http://www.what-is-exe.com/&#34;&gt;각 프로세스가 뭐하는 건지, 어디 있는지 알려주는 사이트&lt;/a&gt; &#xD;&#xA;&lt;li&gt;기타의 경우&lt;/li&gt;&#xD;&#xA;알아서 하자. 위의 사이트들을 참고하면 잘 할 수 있을 것이다.&#xD;&#xA;&lt;a href=&#34;http://www.what-is-exe.com/&#34;&gt;여기&lt;/a&gt;서 원하는 프로세스의 이름을 찾아서 위치를 찾을 수 있다면, 멀쩡한 컴에서 이상한 컴에다 그걸 복사해 넣으면 된다.&#xD;&#xA;&lt;ol&gt;&#xD;&#xA;&lt;li&gt;문제 파일을 찾는다. - 모르겠다면 userinit.exe, lsass.exe, winlogon.exe, crss.exe, ntoskrnl.exe든 뭐든 일단 다 복사하고 보자.(NTLDR은 루트폴더)&lt;/li&gt;&#xD;&#xA;&lt;li&gt;문제 파일의 위치를 찾는다.&lt;/li&gt;&#xD;&#xA;&lt;li&gt;멀쩡한 컴에서 그 파일을 찾아서 구해둔다.&lt;/li&gt;&#xD;&#xA;&lt;li&gt;이상한 컴을 부팅한다.&lt;/li&gt;&#xD;&#xA;&lt;li&gt;문제 파일을 멀쩡한 파일로 대체한다.&lt;/li&gt;&#xD;&#xA;&lt;/ol&gt;&#xD;&#xA;참 쉽죠?&#xD;&#xA;&lt;/ol&gt;&#xD;&#xA;&lt;p&gt;또 다른 참고 사이트&#xA;&lt;a href=&#34;http://ntfaq.co.kr/&#34;&gt;NTFAQ&lt;/a&gt; - NT기반의 설명이지만 XP에서도 대부분 된다.&#xA;&lt;a href=&#34;http://manian.paran.com/?mid=B0204004&amp;amp;sort_index=voted_count&amp;amp;order_type=desc&amp;amp;page=10&amp;amp;document_srl=1035023&#34;&gt;복구 콘솔 명령어와 팁&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Windows XP 사용자 계정 비밀번호를 잊었을 때</title>
+				<link>https://ezaurum.com/2008/11/Windows-XP-%EC%82%AC%EC%9A%A9%EC%9E%90-%EA%B3%84%EC%A0%95-%EB%B9%84%EB%B0%80%EB%B2%88%ED%98%B8%EB%A5%BC-%EC%9E%8A%EC%97%88%EC%9D%84-%EB%95%8C/</link>
+				<pubDate>Fri, 21 Nov 2008 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2008/11/Windows-XP-%EC%82%AC%EC%9A%A9%EC%9E%90-%EA%B3%84%EC%A0%95-%EB%B9%84%EB%B0%80%EB%B2%88%ED%98%B8%EB%A5%BC-%EC%9E%8A%EC%97%88%EC%9D%84-%EB%95%8C/</guid>
+				<description>&lt;ol&gt;&#xD;&#xA;&lt;li&gt;&lt;h4&gt;관리자 -Administrator 계정의 비번을 알 경우&lt;/h4&gt;&#xD;&#xA;관리자 계정 로그인-제어판-사용자 계정-비번을 잊은 계정 선택-비밀번호 변경&#xD;&#xA;관리자 계정이 보통 때 뜨지 않는 경우는, 부팅 시, &lt;kbd&gt;F8&lt;/kbd&gt;을 눌러서 &lt;a href=&#34;http://ko.wikipedia.org/wiki/안전_모드&#34;&gt;안전모드&lt;/a&gt;로 들어간다.&#xD;&#xA;&lt;/li&gt;&#xD;&#xA;&lt;li&gt;&lt;h4&gt;관리자 계정 비번을 모를 경우&lt;/h4&gt;&#xD;&#xA;&lt;kbd&gt;F8&lt;/kbd&gt;을 눌러서 &lt;a href=&#34;http://ko.wikipedia.org/wiki/안전_모드&#34;&gt;안전모드&lt;/a&gt; 명령 프롬프트 사용 을 선택해서, &lt;code&gt;net user 필요한아이디 *&lt;/code&gt;&lt;kbd&gt;ENTER&lt;/kbd&gt;를 입력. 그럼 비번 재설정 가능.&#xD;&#xA;&lt;/li&gt;&#xD;&#xA;&lt;li&gt;&lt;h4&gt;둘 다 여의치 않을 경우&lt;/h4&gt;&#xD;&#xA;안전모드든, hiren&#39;s CD를 이용하든 윈도우즈 폴더의 system32config 폴더 안에 있는 SAM파일을 지우고 재부팅 - 이 방법은 위험하다고 함.&#xD;&#xA;&lt;/li&gt;&#xD;&#xA;&lt;/ol&gt;</description>
+			</item>
+			<item>
+				<title>XP용 Intel AHCI driver</title>
+				<link>https://ezaurum.com/2008/11/XP%EC%9A%A9-Intel-AHCI-driver/</link>
+				<pubDate>Thu, 20 Nov 2008 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2008/11/XP%EC%9A%A9-Intel-AHCI-driver/</guid>
+				<description>&lt;p&gt;XP란 게 SATA2를 제대로 지원하지는 못한다. AHCI를 쓰려고 많은 삽질을 했는데,&#xA;일하다가 AHCI 모드로 XP가 깔린 놋북을 복구해야 할 일이 생겼다. 요즘 학교에 또 만연하는 로그온 실패를 유발하는 바이러스다.&#xA;그런데 문제가, 일반 XP씨디를 이용해서 손상된 userinit.exe라든가, lsass.exe라든가 winlogon.exe를 복구하려고 하면, 이놈이 AHCI 모드인 하드를 인식하지를 못한다.&#xA;요즘 놋북에 FDD가 있을리 만무. 그래서 USB FDD를 어렵사리 찾아서, 그걸 이용해서 드라이버를 깔려고 하는데, 이런 망할 놈들이 윈도용 드라이버-설치된 후 사용하는-는 흔한데, 설치할 때 쓰는 드라이버는 안 보이는 거다!&#xA;내가 못 찾는 건지도 모르지만, 여튼 그래서 30분 가량이나 찾아다니다가 간신히 찾고 혹시 몰라서 여기다 백업해둔다.&lt;a href=&#39;http://gateopener.ncity.net/wordpress/wp-content/uploads/2008/11/intel_ahci1.exe&#39;&gt;intel_ahci&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

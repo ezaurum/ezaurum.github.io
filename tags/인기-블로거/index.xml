@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>인기 블로거 on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/%EC%9D%B8%EA%B8%B0-%EB%B8%94%EB%A1%9C%EA%B1%B0/</link>
-    <description>Recent content in 인기 블로거 on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Sat, 29 Nov 2008 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/%EC%9D%B8%EA%B8%B0-%EB%B8%94%EB%A1%9C%EA%B1%B0/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>리퍼러 플러그인을 설치했다</title>
-      <link>https://ezaurum.com/2008/11/%EB%A6%AC%ED%8D%BC%EB%9F%AC-%ED%94%8C%EB%9F%AC%EA%B7%B8%EC%9D%B8%EC%9D%84-%EC%84%A4%EC%B9%98%ED%96%88%EB%8B%A4/</link>
-      <pubDate>Sat, 29 Nov 2008 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2008/11/%EB%A6%AC%ED%8D%BC%EB%9F%AC-%ED%94%8C%EB%9F%AC%EA%B7%B8%EC%9D%B8%EC%9D%84-%EC%84%A4%EC%B9%98%ED%96%88%EB%8B%A4/</guid>
-      <description>WassUp 이란 녀석인데, 통계를 분석해 본 결과-통계랄 것도 없이 한 열명 오는 거지만;&#xA;내 블로그의 최고 인기 글은 XP 사용자 계정 비밀번호를 잊었을 때인 것으로 결론.&#xA;음. 올리길 잘 했군. 일단 XP 메인터넌스라든지, 응급 복구 방법이라든지를 조금씩 올려봐야겠다.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>인기 블로거 on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/%EC%9D%B8%EA%B8%B0-%EB%B8%94%EB%A1%9C%EA%B1%B0/</link>
+		<description>Recent content in 인기 블로거 on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Sat, 29 Nov 2008 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/%EC%9D%B8%EA%B8%B0-%EB%B8%94%EB%A1%9C%EA%B1%B0/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>리퍼러 플러그인을 설치했다</title>
+				<link>https://ezaurum.com/2008/11/%EB%A6%AC%ED%8D%BC%EB%9F%AC-%ED%94%8C%EB%9F%AC%EA%B7%B8%EC%9D%B8%EC%9D%84-%EC%84%A4%EC%B9%98%ED%96%88%EB%8B%A4/</link>
+				<pubDate>Sat, 29 Nov 2008 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2008/11/%EB%A6%AC%ED%8D%BC%EB%9F%AC-%ED%94%8C%EB%9F%AC%EA%B7%B8%EC%9D%B8%EC%9D%84-%EC%84%A4%EC%B9%98%ED%96%88%EB%8B%A4/</guid>
+				<description>&lt;p&gt;WassUp 이란 녀석인데, 통계를 분석해 본 결과-통계랄 것도 없이 한 열명 오는 거지만;&lt;/p&gt;&#xA;&lt;p&gt;내 블로그의 최고 인기 글은 &lt;a href=&#34;https://ezaurum.com/2008/11/21/windows-xp-사용자-계정-비밀번호를-잊었을-때/&#34;&gt;XP 사용자 계정 비밀번호를 잊었을 때&lt;/a&gt;인 것으로 결론.&lt;/p&gt;&#xA;&lt;p&gt;음. 올리길 잘 했군. 일단 XP 메인터넌스라든지, 응급 복구 방법이라든지를 조금씩 올려봐야겠다.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

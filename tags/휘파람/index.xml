@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>휘파람 on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/%ED%9C%98%ED%8C%8C%EB%9E%8C/</link>
-    <description>Recent content in 휘파람 on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Sat, 15 Aug 2009 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/%ED%9C%98%ED%8C%8C%EB%9E%8C/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>휘파람</title>
-      <link>https://ezaurum.com/2009/08/%ED%9C%98%ED%8C%8C%EB%9E%8C/</link>
-      <pubDate>Sat, 15 Aug 2009 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2009/08/%ED%9C%98%ED%8C%8C%EB%9E%8C/</guid>
-      <description>나는 휘파람을 불 줄 모른다. 시도도 많이 해 봤지만, 안 되었다. 그런데 요즘, 제법 휘파람에 가깝다고 할 만한 소리가 난다. 매 끼, 밥을 먹으러 방에 돌아갈 때마다 입을 오므리고 소리를 내 본 덕이다. 여전히 휘파람이라 부르기는 힘든 수준이지만, 언젠가는 휘파람을 불 수 있으리란 희망이 생겼다. 그냥 그런 것 같다. 기대하지 않으면 조급해하지 않는다. 꾸준히, 계속 하다보면 언젠가는 희망이 보인다. 그럼 전력으로 달릴 수 있어. 그렇게 되기 위해서 지금은 포기하지 않을란다. 세상, 살 만한 곳이 될 것 같지는 않지만, 그래도 실패는 내 의사와 상관없이 찾아오는 거니까.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>휘파람 on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/%ED%9C%98%ED%8C%8C%EB%9E%8C/</link>
+		<description>Recent content in 휘파람 on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Sat, 15 Aug 2009 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/%ED%9C%98%ED%8C%8C%EB%9E%8C/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>휘파람</title>
+				<link>https://ezaurum.com/2009/08/%ED%9C%98%ED%8C%8C%EB%9E%8C/</link>
+				<pubDate>Sat, 15 Aug 2009 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2009/08/%ED%9C%98%ED%8C%8C%EB%9E%8C/</guid>
+				<description>&lt;p&gt;나는 휘파람을 불 줄 모른다.&#xA;시도도 많이 해 봤지만, 안 되었다.&#xA;그런데 요즘, 제법 휘파람에 가깝다고 할 만한 소리가 난다.&#xA;매 끼, 밥을 먹으러 방에 돌아갈 때마다 입을 오므리고  소리를 내 본 덕이다.&#xA;여전히 휘파람이라 부르기는 힘든 수준이지만, 언젠가는 휘파람을 불 수 있으리란 희망이 생겼다.&#xA;그냥 그런 것 같다. 기대하지 않으면 조급해하지 않는다.&#xA;꾸준히, 계속 하다보면 언젠가는 희망이 보인다. 그럼 전력으로 달릴 수 있어.&#xA;그렇게 되기 위해서 지금은 포기하지 않을란다.&#xA;세상, 살 만한 곳이 될 것 같지는 않지만, 그래도 실패는 내 의사와 상관없이 찾아오는 거니까. 나는 실패를 바라지는 않을란다.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

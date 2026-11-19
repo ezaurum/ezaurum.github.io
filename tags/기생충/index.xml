@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>기생충 on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/%EA%B8%B0%EC%83%9D%EC%B6%A9/</link>
-    <description>Recent content in 기생충 on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Tue, 16 Aug 2011 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/%EA%B8%B0%EC%83%9D%EC%B6%A9/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>피프</title>
-      <link>https://ezaurum.com/2011/08/%ED%94%BC%ED%94%84/</link>
-      <pubDate>Tue, 16 Aug 2011 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2011/08/%ED%94%BC%ED%94%84/</guid>
-      <description>시원시원하니 재미있는 모험활극.&#xA;딱 미드 스타일. 기생충에 대한 설명이 많아서 좋았다. 어디서 설명이 본 듯하다고 했더니 참고도서에 기생충 제국이 있었음.&#xA;드라마 나오려나? 재밌을텐데.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>기생충 on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/%EA%B8%B0%EC%83%9D%EC%B6%A9/</link>
+		<description>Recent content in 기생충 on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Tue, 16 Aug 2011 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/%EA%B8%B0%EC%83%9D%EC%B6%A9/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>피프</title>
+				<link>https://ezaurum.com/2011/08/%ED%94%BC%ED%94%84/</link>
+				<pubDate>Tue, 16 Aug 2011 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2011/08/%ED%94%BC%ED%94%84/</guid>
+				<description>&lt;p&gt;시원시원하니 재미있는 모험활극.&lt;/p&gt;&#xA;&lt;p&gt;딱 미드 스타일. 기생충에 대한 설명이 많아서 좋았다. 어디서 설명이 본 듯하다고 했더니 참고도서에 기생충 제국이 있었음.&lt;/p&gt;&#xA;&lt;p&gt;드라마 나오려나? 재밌을텐데.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>환경 on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/%ED%99%98%EA%B2%BD/</link>
-    <description>Recent content in 환경 on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Mon, 01 Aug 2011 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/%ED%99%98%EA%B2%BD/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>가정교육</title>
-      <link>https://ezaurum.com/2011/08/%EA%B0%80%EC%A0%95%EA%B5%90%EC%9C%A1/</link>
-      <pubDate>Mon, 01 Aug 2011 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2011/08/%EA%B0%80%EC%A0%95%EA%B5%90%EC%9C%A1/</guid>
-      <description>여름 사도학교를 가서 보니, 우리 성당 애들이 줄도 잘 서고 시간관념도 비교적 확실해 보였다.&#xA;역시 군인집안 자녀가 많아서일까.&#xA;힘이 넘쳐서 12시 넘어서 자고는 6시에 일어나기도 하고&amp;hellip;&#xA;일단 일어나면(말을 안 해도) 이불도 잘 개고, 점호는 언제해요?라고도 물어보고&amp;hellip; 엄마 부른다 or 아빠 부른다 등의 협박도 매우 유효하다&amp;hellip; 아침에 일어나서 머리 감고 드라이하고 대기하고 있는 걸 보고 깜짝. 하긴 고데기 가져온 여자애도 있었지&amp;hellip;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>환경 on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/%ED%99%98%EA%B2%BD/</link>
+		<description>Recent content in 환경 on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Mon, 01 Aug 2011 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/%ED%99%98%EA%B2%BD/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>가정교육</title>
+				<link>https://ezaurum.com/2011/08/%EA%B0%80%EC%A0%95%EA%B5%90%EC%9C%A1/</link>
+				<pubDate>Mon, 01 Aug 2011 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2011/08/%EA%B0%80%EC%A0%95%EA%B5%90%EC%9C%A1/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;https://ezaurum.com/2011/08/01/여름-사도학교/&#34;&gt;여름 사도학교&lt;/a&gt;를 가서 보니, 우리 성당 애들이 줄도 잘 서고 시간관념도 비교적 확실해 보였다.&lt;/p&gt;&#xA;&lt;p&gt;역시 군인집안 자녀가 많아서일까.&lt;/p&gt;&#xA;&lt;p&gt;힘이 넘쳐서 12시 넘어서 자고는 6시에 일어나기도 하고&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;일단 일어나면(말을 안 해도) 이불도 잘 개고, &lt;q&gt;점호는 언제해요?&lt;/q&gt;라고도 물어보고&amp;hellip; 엄마 부른다 or 아빠 부른다 등의 협박도 매우 유효하다&amp;hellip; 아침에 일어나서 머리 감고 드라이하고 대기하고 있는 걸 보고 깜짝. 하긴 고데기 가져온 여자애도 있었지&amp;hellip;&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

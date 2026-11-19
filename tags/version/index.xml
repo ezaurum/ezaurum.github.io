@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Version on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/version/</link>
-    <description>Recent content in Version on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Thu, 24 May 2012 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/version/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Spring application context schema version 지정</title>
-      <link>https://ezaurum.com/2012/05/Spring-application-context-schema-version-%EC%A7%80%EC%A0%95/</link>
-      <pubDate>Thu, 24 May 2012 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2012/05/Spring-application-context-schema-version-%EC%A7%80%EC%A0%95/</guid>
-      <description>스프링 어플리케이션 콘텍스트 파일 처음에 스키마를 지정해 주는데, 스키마 파일 버전 지정 안 하면 그냥 알아서 가져온다. 링크 들어가서 파일 직접 받아보니 최신(현재 3.1)과 버전 지정 안 한 파일이 똑같다. 최신버전으로 자동 갱신 되는 듯. 그러니 모를 때는 귀찮게 검색하지 말고 그냥 적으면 되겠다. 출처 - http://stackoverflow.com/questions/9197141/spring-config-files-and-specifying-schema-versions</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Version on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/version/</link>
+		<description>Recent content in Version on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Thu, 24 May 2012 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/version/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Spring application context schema version 지정</title>
+				<link>https://ezaurum.com/2012/05/Spring-application-context-schema-version-%EC%A7%80%EC%A0%95/</link>
+				<pubDate>Thu, 24 May 2012 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2012/05/Spring-application-context-schema-version-%EC%A7%80%EC%A0%95/</guid>
+				<description>&lt;p&gt;스프링 어플리케이션 콘텍스트 파일 처음에 스키마를 지정해 주는데, 스키마 파일 버전 지정 안 하면 그냥 알아서 가져온다.&#xA;링크 들어가서 파일 직접 받아보니 최신(현재 3.1)과 버전 지정 안 한 파일이 똑같다. 최신버전으로 자동 갱신 되는 듯.&#xA;그러니 모를 때는 귀찮게 검색하지 말고 그냥 적으면 되겠다.&#xA;출처 - &lt;a href=&#34;http://stackoverflow.com/questions/9197141/spring-config-files-and-specifying-schema-versions&#34;&gt;http://stackoverflow.com/questions/9197141/spring-config-files-and-specifying-schema-versions&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

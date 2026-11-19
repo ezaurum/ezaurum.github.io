@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>에쿠니 가오리 on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/%EC%97%90%EC%BF%A0%EB%8B%88-%EA%B0%80%EC%98%A4%EB%A6%AC/</link>
-    <description>Recent content in 에쿠니 가오리 on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Thu, 08 Jul 2010 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/%EC%97%90%EC%BF%A0%EB%8B%88-%EA%B0%80%EC%98%A4%EB%A6%AC/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>마미야 형제</title>
-      <link>https://ezaurum.com/2010/07/%EB%A7%88%EB%AF%B8%EC%95%BC-%ED%98%95%EC%A0%9C/</link>
-      <pubDate>Thu, 08 Jul 2010 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2010/07/%EB%A7%88%EB%AF%B8%EC%95%BC-%ED%98%95%EC%A0%9C/</guid>
-      <description>에쿠니 가오리 저&#xA;보는 내내 가슴이 짠하고 울렸다. 감정이입이 심하게 되는, 내 미래의 모습 같은 느낌이랄까. 그리 멀지도 않네.&#xA;&amp;hellip;그래 연애 따위 안 해도 재미있는 거야 많지.&#xA;영화는 차마 가슴아파서 못 볼 듯.&#xA;21/150</description>
-    </item>
-  </channel>
+	<channel>
+		<title>에쿠니 가오리 on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/%EC%97%90%EC%BF%A0%EB%8B%88-%EA%B0%80%EC%98%A4%EB%A6%AC/</link>
+		<description>Recent content in 에쿠니 가오리 on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Thu, 08 Jul 2010 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/%EC%97%90%EC%BF%A0%EB%8B%88-%EA%B0%80%EC%98%A4%EB%A6%AC/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>마미야 형제</title>
+				<link>https://ezaurum.com/2010/07/%EB%A7%88%EB%AF%B8%EC%95%BC-%ED%98%95%EC%A0%9C/</link>
+				<pubDate>Thu, 08 Jul 2010 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2010/07/%EB%A7%88%EB%AF%B8%EC%95%BC-%ED%98%95%EC%A0%9C/</guid>
+				<description>&lt;p&gt;에쿠니 가오리 저&lt;/p&gt;&#xA;&lt;p&gt;보는 내내 가슴이 짠하고 울렸다.&#xA;감정이입이 심하게 되는, 내 미래의 모습 같은 느낌이랄까.&#xA;그리 멀지도 않네.&lt;/p&gt;&#xA;&lt;p&gt;&amp;hellip;그래 연애 따위 안 해도 재미있는 거야 많지.&lt;/p&gt;&#xA;&lt;p&gt;영화는 차마 가슴아파서 못 볼 듯.&lt;/p&gt;&#xA;&lt;p class=&#34;soul mission readBooks&#34;&gt;21/150&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Macross on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/macross/</link>
-    <description>Recent content in Macross on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Tue, 26 May 2009 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/macross/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Voices</title>
-      <link>https://ezaurum.com/2009/05/Voices/</link>
-      <pubDate>Tue, 26 May 2009 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2009/05/Voices/</guid>
-      <description>[youtube https://www.youtube.com/watch?v=tud4JUiPDRk&amp;amp;hl=ko&amp;amp;fs=1]&#xA;VOICES (MACROSS PLUS OPENING THEME)&#xA;ひとつめの ことばは ゆめ 첫번째 말은 꿈 ねむりの なかから 잠든 가운데서 むねの おくの くらやみを 마음 저 속 어둠을 そっと つれだすの 살짝 데려가버려&#xA;ふたつめの ことばは かぜ 두번째 말은 바람 ゆくてを おしえて 나갈 길을 알려주고 かみさまの うでの なかへ 하느님의 품 속으로 つばさを あおるの 날개를 펄럭여&#xA;とけていった かなしい ことを 녹아버린 슬픈 일을 かぞえるように 세는 것처럼 きんいろの りんごが 황금색 사과가 また ひとつ おちる 또 하나 떨어진다&#xA;みた ことも ない ふうけい 본 적 없는 풍경 そこが かえる ばしょ 거기가 돌아갈 장소 たった ひとつの いのちに 딱 하나의 목숨으으로 たどりつく ばしょ 다다를 장소</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Macross on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/macross/</link>
+		<description>Recent content in Macross on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Tue, 26 May 2009 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/macross/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Voices</title>
+				<link>https://ezaurum.com/2009/05/Voices/</link>
+				<pubDate>Tue, 26 May 2009 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2009/05/Voices/</guid>
+				<description>&lt;p&gt;[youtube https://www.youtube.com/watch?v=tud4JUiPDRk&amp;amp;hl=ko&amp;amp;fs=1]&lt;/p&gt;&#xA;&lt;p&gt;VOICES (MACROSS PLUS OPENING THEME)&lt;/p&gt;&#xA;&lt;p&gt;ひとつめの ことばは ゆめ&#xA;첫번째 말은 꿈&#xA;ねむりの なかから&#xA;잠든 가운데서&#xA;むねの おくの くらやみを&#xA;마음 저 속 어둠을&#xA;そっと つれだすの&#xA;살짝 데려가버려&lt;/p&gt;&#xA;&lt;p&gt;ふたつめの ことばは かぜ&#xA;두번째 말은 바람&#xA;ゆくてを おしえて&#xA;나갈 길을 알려주고&#xA;かみさまの うでの なかへ&#xA;하느님의 품 속으로&#xA;つばさを あおるの&#xA;날개를 펄럭여&lt;/p&gt;&#xA;&lt;p&gt;とけていった かなしい ことを&#xA;녹아버린 슬픈 일을&#xA;かぞえるように&#xA;세는 것처럼&#xA;きんいろの りんごが&#xA;황금색 사과가&#xA;また ひとつ おちる&#xA;또 하나 떨어진다&lt;/p&gt;&#xA;&lt;p&gt;みた ことも ない ふうけい&#xA;본 적 없는 풍경&#xA;そこが かえる ばしょ&#xA;거기가 돌아갈 장소&#xA;たった ひとつの いのちに&#xA;딱 하나의 목숨으으로&#xA;たどりつく ばしょ&#xA;다다를 장소&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

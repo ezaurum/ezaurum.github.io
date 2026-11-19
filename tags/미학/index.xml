@@ -1,34 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>미학 on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/%EB%AF%B8%ED%95%99/</link>
-    <description>Recent content in 미학 on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Tue, 19 Apr 2011 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/%EB%AF%B8%ED%95%99/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>놀이와 예술 그리고 상상력</title>
-      <link>https://ezaurum.com/2011/04/%EB%86%80%EC%9D%B4%EC%99%80-%EC%98%88%EC%88%A0-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EC%83%81%EC%83%81%EB%A0%A5/</link>
-      <pubDate>Tue, 19 Apr 2011 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2011/04/%EB%86%80%EC%9D%B4%EC%99%80-%EC%98%88%EC%88%A0-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EC%83%81%EC%83%81%EB%A0%A5/</guid>
-      <description>놀이와 예술 그리고 상상력 이것도 교양서. 놀이하는 기분으로 아름다움을 보는, 미학에 대한 책이다. 이런 걸 보다 보면 내 지력이 올라가는 느낌이다. 120골드에 지력 8을 올려주는&amp;hellip;&#xA;그냥 느낌은 그렇다고.</description>
-    </item>
-    <item>
-      <title>三人三色 미학 오디세이</title>
-      <link>https://ezaurum.com/2010/08/%E4%B8%89%E4%BA%BA%E4%B8%89%E8%89%B2-%EB%AF%B8%ED%95%99-%EC%98%A4%EB%94%94%EC%84%B8%EC%9D%B4/</link>
-      <pubDate>Mon, 02 Aug 2010 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2010/08/%E4%B8%89%E4%BA%BA%E4%B8%89%E8%89%B2-%EB%AF%B8%ED%95%99-%EC%98%A4%EB%94%94%EC%84%B8%EC%9D%B4/</guid>
-      <description>제목&#x9;삼인삼색 미학 오디세이 세트(전3권) 저자&#x9;김태권 발행인&#x9;휴머니스트, 2006 ISBN&#x9;8958621060, 9788958621065 디 재밌음. 삼인삼색이라는 말 답게 세 권 모두 색깔이 분명히 다르다. 하나의 시리즈로 접근한다면 좀 곤란할 듯 싶기도 하고. 원작인 진중권의 미학 오디세이를 보고 싶게 만드는 물건이라는 점에서는 공통적이다.&#xA;원작을 읽고 나서 다시 한 번 읽어봐야겠다.&#xA;30/150</description>
-    </item>
-    <item>
-      <title>뇌 아름다움을 말하다</title>
-      <link>https://ezaurum.com/2010/07/%EB%87%8C-%EC%95%84%EB%A6%84%EB%8B%A4%EC%9B%80%EC%9D%84-%EB%A7%90%ED%95%98%EB%8B%A4/</link>
-      <pubDate>Thu, 22 Jul 2010 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2010/07/%EB%87%8C-%EC%95%84%EB%A6%84%EB%8B%A4%EC%9B%80%EC%9D%84-%EB%A7%90%ED%95%98%EB%8B%A4/</guid>
-      <description>지상현 해나무 2005 248쪽 ISBN:9788989799443&#xA;아름다움을 느끼는 원리에 대해 과학적으로 접근한 책. 나처럼 감각적으로 잘 못느끼는 사람들에게 도움이 될 것 같다. 요즘 읽는 중인 三人三色미학 오디세이와 함께 보니 더욱 괜찮다.&#xA;26/150</description>
-    </item>
-  </channel>
+	<channel>
+		<title>미학 on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/%EB%AF%B8%ED%95%99/</link>
+		<description>Recent content in 미학 on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Tue, 19 Apr 2011 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/%EB%AF%B8%ED%95%99/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>놀이와 예술 그리고 상상력</title>
+				<link>https://ezaurum.com/2011/04/%EB%86%80%EC%9D%B4%EC%99%80-%EC%98%88%EC%88%A0-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EC%83%81%EC%83%81%EB%A0%A5/</link>
+				<pubDate>Tue, 19 Apr 2011 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2011/04/%EB%86%80%EC%9D%B4%EC%99%80-%EC%98%88%EC%88%A0-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EC%83%81%EC%83%81%EB%A0%A5/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;http://books.google.com/books?id=FEhWAAAACAAJ&amp;amp;dq=%EC%A7%84%EC%A4%91%EA%B6%8C&amp;amp;hl=en&amp;amp;ei=yRtJTYbjLMnZrQf_5NmDDw&amp;amp;sa=X&amp;amp;oi=book_result&amp;amp;ct=result&amp;amp;resnum=6&amp;amp;ved=0CDoQ6AEwBQ&#34;&gt;놀이와 예술 그리고 상상력&lt;/a&gt;&#xA;이것도 교양서. 놀이하는 기분으로 아름다움을 보는, 미학에 대한 책이다.&#xA;이런 걸 보다 보면 내 지력이 올라가는 느낌이다. 120골드에 지력 8을 올려주는&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;그냥 느낌은 그렇다고.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>三人三色 미학 오디세이</title>
+				<link>https://ezaurum.com/2010/08/%E4%B8%89%E4%BA%BA%E4%B8%89%E8%89%B2-%EB%AF%B8%ED%95%99-%EC%98%A4%EB%94%94%EC%84%B8%EC%9D%B4/</link>
+				<pubDate>Mon, 02 Aug 2010 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2010/08/%E4%B8%89%E4%BA%BA%E4%B8%89%E8%89%B2-%EB%AF%B8%ED%95%99-%EC%98%A4%EB%94%94%EC%84%B8%EC%9D%B4/</guid>
+				<description>&lt;p&gt;제목&#x9;삼인삼색 미학 오디세이 세트(전3권)&#xA;저자&#x9;김태권&#xA;발행인&#x9;휴머니스트, 2006&#xA;ISBN&#x9;&lt;span class=&#34;ISBN&#34;&gt;8958621060, 9788958621065&lt;/span&gt;&#xA;디&#xA;재밌음. 삼인삼색이라는 말 답게 세 권 모두 색깔이 분명히 다르다. 하나의 시리즈로 접근한다면 좀 곤란할 듯 싶기도 하고. 원작인 진중권의 미학 오디세이를 보고 싶게 만드는 물건이라는 점에서는 공통적이다.&lt;/p&gt;&#xA;&lt;p&gt;원작을 읽고 나서 다시 한 번 읽어봐야겠다.&lt;/p&gt;&#xA;&lt;p class=&#34;soul mission readBooks&#34;&gt;30/150&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>뇌 아름다움을 말하다</title>
+				<link>https://ezaurum.com/2010/07/%EB%87%8C-%EC%95%84%EB%A6%84%EB%8B%A4%EC%9B%80%EC%9D%84-%EB%A7%90%ED%95%98%EB%8B%A4/</link>
+				<pubDate>Thu, 22 Jul 2010 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2010/07/%EB%87%8C-%EC%95%84%EB%A6%84%EB%8B%A4%EC%9B%80%EC%9D%84-%EB%A7%90%ED%95%98%EB%8B%A4/</guid>
+				<description>&lt;p&gt;지상현&#xA;해나무&#xA;2005&#xA;248쪽&#xA;ISBN:&lt;span class=&#34;ISBN&#34;&gt;9788989799443&lt;/span&gt;&lt;/p&gt;&#xA;&lt;p&gt;아름다움을 느끼는 원리에 대해 과학적으로 접근한 책.&#xA;나처럼 감각적으로 잘 못느끼는 사람들에게 도움이 될 것 같다.&#xA;요즘 읽는 중인 三人三色미학 오디세이와 함께 보니 더욱 괜찮다.&lt;/p&gt;&#xA;&lt;p class=&#34;soul mission readBooks&#34;&gt;26/150&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

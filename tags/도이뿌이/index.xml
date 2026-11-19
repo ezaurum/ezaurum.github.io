@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>도이뿌이 on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/%EB%8F%84%EC%9D%B4%EB%BF%8C%EC%9D%B4/</link>
-    <description>Recent content in 도이뿌이 on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Wed, 07 Feb 2018 16:26:52 +0700</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/%EB%8F%84%EC%9D%B4%EB%BF%8C%EC%9D%B4/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Chiangmai Life 12 - 도이수텝</title>
-      <link>https://ezaurum.com/2018/02/Chiangmai-Life-12-%EB%8F%84%EC%9D%B4%EC%88%98%ED%85%9D/</link>
-      <pubDate>Wed, 07 Feb 2018 16:26:52 +0700</pubDate>
-      <guid>https://ezaurum.com/2018/02/Chiangmai-Life-12-%EB%8F%84%EC%9D%B4%EC%88%98%ED%85%9D/</guid>
-      <description>도이수텝 (수텝 산) 교통비 : 40밧(편도) 시간 : 30분 정도 입장료 : 40인가&amp;hellip; 치앙마이의 구경거리. 왓 프라탓 이라는 사원이 있다.&#xA;치앙마이 대학 정문(나머)에서 썽태우들이 대기하고 있다가 태워간다. 도이수텝까지 인당 편도 40밧. 4명쯤 되면 사실 Grab 같은 걸 이용하는 것도 나쁘지 않을 듯 하다. 우린 도이뿌이까지 가는 장거리 코스라 안 했지만.&#xA;우리 일행(4명)은 천 밧에 도이뿌이-도이수텝 코스로 갔다. 도이뿌이를 먼저 가는 게 안된다고 해서 열심히 설득했다.&#xA;야경이 유명하니 일몰 시간을 맞춰서 해질 때쯤 도착하게 가면 좋을 것 같다.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>도이뿌이 on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/%EB%8F%84%EC%9D%B4%EB%BF%8C%EC%9D%B4/</link>
+		<description>Recent content in 도이뿌이 on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Wed, 07 Feb 2018 16:26:52 +0700</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/%EB%8F%84%EC%9D%B4%EB%BF%8C%EC%9D%B4/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Chiangmai Life 12 - 도이수텝</title>
+				<link>https://ezaurum.com/2018/02/Chiangmai-Life-12-%EB%8F%84%EC%9D%B4%EC%88%98%ED%85%9D/</link>
+				<pubDate>Wed, 07 Feb 2018 16:26:52 +0700</pubDate>
+				<guid>https://ezaurum.com/2018/02/Chiangmai-Life-12-%EB%8F%84%EC%9D%B4%EC%88%98%ED%85%9D/</guid>
+				<description>&lt;h2 id=&#34;도이수텝-수텝-산&#34;&gt;도이수텝 (수텝 산)&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;교통비 : 40밧(편도)&lt;/li&gt;&#xA;&lt;li&gt;시간 : 30분 정도&lt;/li&gt;&#xA;&lt;li&gt;입장료 : 40인가&amp;hellip;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;치앙마이의 구경거리. 왓 프라탓 이라는 사원이 있다.&lt;/p&gt;&#xA;&lt;p&gt;치앙마이 대학 정문(나머)에서 썽태우들이 대기하고 있다가 태워간다.&#xA;도이수텝까지 인당 편도 40밧. 4명쯤 되면 사실 Grab 같은 걸 이용하는 것도 나쁘지 않을 듯 하다. 우린 도이뿌이까지 가는 장거리 코스라 안 했지만.&lt;/p&gt;&#xA;&lt;p&gt;우리 일행(4명)은 천 밧에 도이뿌이-도이수텝 코스로 갔다. 도이뿌이를 먼저 가는 게 안된다고 해서 열심히 설득했다.&lt;/p&gt;&#xA;&lt;p&gt;야경이 유명하니 일몰 시간을 맞춰서 해질 때쯤 도착하게 가면 좋을 것 같다.&#xA;외국인에게는 입장료를 받는다. 인당 얼만지는 기억이 안 나지만 40안쪽이었던 것 같다.&#xA;&lt;img src=&#34;https://ezaurum.com/images/doisuthep/ticket.jpg&#34; alt=&#34;&#34;&gt;&#xA;&lt;img src=&#34;https://ezaurum.com/images/doisuthep/stairs.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

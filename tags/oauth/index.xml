@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Oauth on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/oauth/</link>
-    <description>Recent content in Oauth on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Mon, 05 Jan 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/oauth/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>oAuth 정리</title>
-      <link>https://ezaurum.com/2015/01/oAuth-%EC%A0%95%EB%A6%AC/</link>
-      <pubDate>Mon, 05 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2015/01/oAuth-%EC%A0%95%EB%A6%AC/</guid>
-      <description>OAuth를 통해 보는 안전한 통신 프로토콜의 조건 oAuth와 춤을 oAuth 공식 사이트</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Oauth on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/oauth/</link>
+		<description>Recent content in Oauth on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Mon, 05 Jan 2015 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/oauth/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>oAuth 정리</title>
+				<link>https://ezaurum.com/2015/01/oAuth-%EC%A0%95%EB%A6%AC/</link>
+				<pubDate>Mon, 05 Jan 2015 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2015/01/oAuth-%EC%A0%95%EB%A6%AC/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;http://gamedevforever.com/201&#34;&gt;OAuth를 통해 보는 안전한 통신 프로토콜의 조건&lt;/a&gt;&#xA;&lt;a href=&#34;http://helloworld.naver.com/helloworld/24942&#34;&gt;oAuth와 춤을&lt;/a&gt;&#xA;&lt;a href=&#34;http://oauth.net&#34;&gt;oAuth 공식 사이트&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

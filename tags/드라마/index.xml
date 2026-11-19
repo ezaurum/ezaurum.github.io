@@ -1,27 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>드라마 on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/%EB%93%9C%EB%9D%BC%EB%A7%88/</link>
-    <description>Recent content in 드라마 on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Sun, 21 Jun 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/%EB%93%9C%EB%9D%BC%EB%A7%88/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>프로듀사</title>
-      <link>https://ezaurum.com/2015/06/%ED%94%84%EB%A1%9C%EB%93%80%EC%82%AC/</link>
-      <pubDate>Sun, 21 Jun 2015 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2015/06/%ED%94%84%EB%A1%9C%EB%93%80%EC%82%AC/</guid>
-      <description>아주 오랜만에 진지하게 챙겨본 한국드라마. 아이유가 아니면 망했을 물건이다. 정말. 진지하게. 스토리를 너무 만만하게 썼어. 게다가 내부자이야기니까 결국 다들 착한 사람이다 라는 분위기로 가니까 악역도 없고 긴장감도 없고&amp;hellip; 그냥 아이유가 이뻐서 봤다. &amp;hellip;뭐 그것만 해도 충분할 정도였지만.</description>
-    </item>
-    <item>
-      <title>女くどき飯</title>
-      <link>https://ezaurum.com/2015/03/%E5%A5%B3%E3%81%8F%E3%81%A9%E3%81%8D%E9%A3%AF/</link>
-      <pubDate>Fri, 13 Mar 2015 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2015/03/%E5%A5%B3%E3%81%8F%E3%81%A9%E3%81%8D%E9%A3%AF/</guid>
-      <description>공식 홈피 요즘 재밌게 보고 있는 일드. 프리라이터인 주인공이 매 회 맛있는 밥을 먹으면서 남자랑 소개팅을 하는 잡지 기획 연재물을 진행한다는 내용이다. 주인공 여자가 나이가 느껴지는 게 맘에 든다. 거기다 곤란한 표정이 정말 곤란해 보여서 참 귀엽다. 음식도 맛있고 나오는 남자들은 별로 왕자님이나 엄친아가 아닌데 좋은 점을 잘 집어내서 표현하는 것도 좋고. 일본의 초식남이나 절식남 풍조 때문에 이런게 더 잘 팔리는 걸까. 여튼 보고 있으면 맛난게 먹고 싶어지고&amp;hellip; 야근하다 배도 고파서 일단 참치에 밥 비벼서 뚝딱.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>드라마 on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/%EB%93%9C%EB%9D%BC%EB%A7%88/</link>
+		<description>Recent content in 드라마 on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Sun, 21 Jun 2015 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/%EB%93%9C%EB%9D%BC%EB%A7%88/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>프로듀사</title>
+				<link>https://ezaurum.com/2015/06/%ED%94%84%EB%A1%9C%EB%93%80%EC%82%AC/</link>
+				<pubDate>Sun, 21 Jun 2015 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2015/06/%ED%94%84%EB%A1%9C%EB%93%80%EC%82%AC/</guid>
+				<description>&lt;p&gt;아주 오랜만에 진지하게 챙겨본 한국드라마.&#xA;아이유가 아니면 망했을 물건이다.&#xA;정말. 진지하게.&#xA;스토리를 너무 만만하게 썼어. 게다가 내부자이야기니까 결국 다들 착한 사람이다 라는 분위기로 가니까 악역도 없고 긴장감도 없고&amp;hellip;&#xA;그냥 아이유가 이뻐서 봤다.&#xA;&amp;hellip;뭐 그것만 해도 충분할 정도였지만.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>女くどき飯</title>
+				<link>https://ezaurum.com/2015/03/%E5%A5%B3%E3%81%8F%E3%81%A9%E3%81%8D%E9%A3%AF/</link>
+				<pubDate>Fri, 13 Mar 2015 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2015/03/%E5%A5%B3%E3%81%8F%E3%81%A9%E3%81%8D%E9%A3%AF/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;http://www.mbs.jp/kudokimeshi/&#34;&gt;공식 홈피&lt;/a&gt;&#xA;요즘 재밌게 보고 있는 일드.&#xA;프리라이터인 주인공이 매 회 맛있는 밥을 먹으면서 남자랑 소개팅을 하는 잡지 기획 연재물을 진행한다는 내용이다.&#xA;주인공 여자가 나이가 느껴지는 게 맘에 든다.&#xA;거기다 곤란한 표정이 정말 곤란해 보여서 참 귀엽다.&#xA;음식도 맛있고 나오는 남자들은 별로 왕자님이나 엄친아가 아닌데 좋은 점을 잘 집어내서 표현하는 것도 좋고.&#xA;일본의 초식남이나 절식남 풍조 때문에 이런게 더 잘 팔리는 걸까.&#xA;여튼 보고 있으면 맛난게 먹고 싶어지고&amp;hellip; 야근하다 배도 고파서 일단 참치에 밥 비벼서 뚝딱.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

@@ -1,26 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Filter on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/filter/</link>
-    <description>Recent content in Filter on Ezaurum&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Mon, 04 Jun 2012 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://ezaurum.com/tags/filter/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Filter의 사용</title>
-      <link>https://ezaurum.com/2012/06/Filter%EC%9D%98-%EC%82%AC%EC%9A%A9/</link>
-      <pubDate>Mon, 04 Jun 2012 00:00:00 +0000</pubDate>
-      
-      <guid>https://ezaurum.com/2012/06/Filter%EC%9D%98-%EC%82%AC%EC%9A%A9/</guid>
-      <description>IE 3rd party cookie정책 때문에, 모든 응답 헤더에 특정 구문을 넣을 일이 있어서 filter기능을 이용해 보기로 했다. P3P라든가 기타등등에 대한 설명 만든 필터 모든 리퀘스트에 대해 필터 적용 필터 만드는 법 예제
-스택 오버플로우 없었으면 어쩔 뻔&amp;hellip;</description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>Filter on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/Filter/</link>
+		<description>Recent content in Filter on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Mon, 04 Jun 2012 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/Filter/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Filter의 사용</title>
+				<link>https://ezaurum.com/2012/06/Filter%EC%9D%98-%EC%82%AC%EC%9A%A9/</link>
+				<pubDate>Mon, 04 Jun 2012 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2012/06/Filter%EC%9D%98-%EC%82%AC%EC%9A%A9/</guid>
+				<description>&lt;p&gt;IE 3rd party cookie정책 때문에, 모든 응답 헤더에 특정 구문을 넣을 일이 있어서 filter기능을 이용해 보기로 했다.&#xA;&lt;a href=&#34;http://stackoverflow.com/questions/389456/cookie-blocked-not-saved-in-iframe-in-internet-explorer&#34;&gt;P3P라든가 기타등등에 대한 설명&lt;/a&gt;&#xA;&lt;a href=&#34;http://ideone.com/DxmHP&#34;&gt;만든 필터&lt;/a&gt;&#xA;&lt;a href=&#34;http://stackoverflow.com/questions/7949908/servlet-filter-for-all-requests&#34;&gt;모든 리퀘스트에 대해 필터 적용&lt;/a&gt;&#xA;&lt;a href=&#34;http://stackoverflow.com/questions/1087140/adding-custom-http-headers-in-java&#34;&gt;필터 만드는 법 예제&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;스택 오버플로우 없었으면 어쩔 뻔&amp;hellip;&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

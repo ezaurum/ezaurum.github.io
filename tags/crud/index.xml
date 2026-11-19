@@ -1,26 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Crud on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/crud/</link>
-    <description>Recent content in Crud on Ezaurum&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Mon, 18 Aug 2014 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://ezaurum.com/tags/crud/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>CRUD에 대응하는 Http Method</title>
-      <link>https://ezaurum.com/2014/08/CRUD%EC%97%90-%EB%8C%80%EC%9D%91%ED%95%98%EB%8A%94-Http-Method/</link>
-      <pubDate>Mon, 18 Aug 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://ezaurum.com/2014/08/CRUD%EC%97%90-%EB%8C%80%EC%9D%91%ED%95%98%EB%8A%94-Http-Method/</guid>
-      <description>Create = Add ≒ AddOrUpdate = Put Read = Get Update = Post Delete
-순전히 Put/Post 구분을 위해</description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>CRUD on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/CRUD/</link>
+		<description>Recent content in CRUD on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Mon, 18 Aug 2014 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/CRUD/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>CRUD에 대응하는 Http Method</title>
+				<link>https://ezaurum.com/2014/08/CRUD%EC%97%90-%EB%8C%80%EC%9D%91%ED%95%98%EB%8A%94-Http-Method/</link>
+				<pubDate>Mon, 18 Aug 2014 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2014/08/CRUD%EC%97%90-%EB%8C%80%EC%9D%91%ED%95%98%EB%8A%94-Http-Method/</guid>
+				<description>&lt;p&gt;Create = Add ≒ AddOrUpdate = Put&#xA;Read = Get&#xA;Update = Post&#xA;Delete&lt;/p&gt;&#xA;&lt;p&gt;순전히 Put/Post 구분을 위해&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

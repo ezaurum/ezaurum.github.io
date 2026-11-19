@@ -1,26 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>딘 R.쿤츠 on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/%EB%94%98-r.%EC%BF%A4%EC%B8%A0/</link>
-    <description>Recent content in 딘 R.쿤츠 on Ezaurum&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Mon, 02 Aug 2010 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://ezaurum.com/tags/%EB%94%98-r.%EC%BF%A4%EC%B8%A0/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>백색의 가면</title>
-      <link>https://ezaurum.com/2010/08/%EB%B0%B1%EC%83%89%EC%9D%98-%EA%B0%80%EB%A9%B4/</link>
-      <pubDate>Mon, 02 Aug 2010 00:00:00 +0000</pubDate>
-      
-      <guid>https://ezaurum.com/2010/08/%EB%B0%B1%EC%83%89%EC%9D%98-%EA%B0%80%EB%A9%B4/</guid>
-      <description>제목 백색의 가면 저자 딘 R.쿤츠 번역자 박주동 발행인 고려원, 1993 ISBN 8912111493, 9788912111496 길이 410페이지
-오래된 소설. 특별한 점은 발견되지 않지만 끝까지 읽을 만 했다. 아마 영화가 나왔으면 최소한 B+이상 급은 뽑아주지 않을까 싶은 물건. 마지막 결론은 약간 뜬금없었지만 그건 시대의 차이때문일지도. 이런 게 이쪽 소설이 갖춰야할 미덕일까. 하나 더 성과 비슷한 걸 꼽자면 옛날 번역이라 그런지 내 국어 실력이 모자라서인지 국어사전을 찾아볼 일이 생겼다는 정도일까. 29&amp;frasl;150</description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>딘 R.쿤츠 on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/%EB%94%98-R.%EC%BF%A4%EC%B8%A0/</link>
+		<description>Recent content in 딘 R.쿤츠 on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Mon, 02 Aug 2010 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/%EB%94%98-R.%EC%BF%A4%EC%B8%A0/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>백색의 가면</title>
+				<link>https://ezaurum.com/2010/08/%EB%B0%B1%EC%83%89%EC%9D%98-%EA%B0%80%EB%A9%B4/</link>
+				<pubDate>Mon, 02 Aug 2010 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2010/08/%EB%B0%B1%EC%83%89%EC%9D%98-%EA%B0%80%EB%A9%B4/</guid>
+				<description>&lt;p&gt;제목&#x9;백색의 가면&#xA;저자&#x9;딘 R.쿤츠&#xA;번역자&#x9;박주동&#xA;발행인&#x9;고려원, 1993&#xA;ISBN&#x9;&lt;span class=&#34;ISBN&#34;&gt;8912111493, 9788912111496&lt;/span&gt;&#xA;길이&#x9;410페이지&lt;/p&gt;&#xA;&lt;p&gt;오래된 소설. 특별한 점은 발견되지 않지만 끝까지 읽을 만 했다. 아마 영화가 나왔으면 최소한 B+이상 급은 뽑아주지 않을까 싶은 물건. 마지막 결론은 약간 뜬금없었지만 그건 시대의 차이때문일지도. 이런 게 이쪽 소설이 갖춰야할 미덕일까.&#xA;하나 더 성과 비슷한 걸 꼽자면 옛날 번역이라 그런지 내 국어 실력이 모자라서인지 국어사전을 찾아볼 일이 생겼다는 정도일까.&lt;/p&gt;&#xA;&lt;p class=&#34;soul mission readBooks&#34;&gt;29/150&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Cloudwatch on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/Cloudwatch/</link>
-    <description>Recent content in Cloudwatch on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Wed, 25 Mar 2020 09:44:59 +0900</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/Cloudwatch/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>CLI로 클라우드 와치 로그 보기</title>
-      <link>https://ezaurum.com/2020/03/CLI%EB%A1%9C-%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C-%EC%99%80%EC%B9%98-%EB%A1%9C%EA%B7%B8-%EB%B3%B4%EA%B8%B0/</link>
-      <pubDate>Wed, 25 Mar 2020 09:44:59 +0900</pubDate>
-      <guid>https://ezaurum.com/2020/03/CLI%EB%A1%9C-%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C-%EC%99%80%EC%B9%98-%EB%A1%9C%EA%B7%B8-%EB%B3%B4%EA%B8%B0/</guid>
-      <description>목적 aws cli 로 cloudwatch 로그 보기 방법(윈도에서 awslogs가 안 먹을때)&#xA;로그 그룹 이름으로 로그 스트림들을 얻어온다 aws logs describe-log-streams --log-group-name /log/group/name 받아온 JSON에서 logStreamName 을 찾아 필요한 log stream name 을 알아낸다. 찾은 log stream 으로 로그를 얻어온다. aws logs get-log-events --output text --log-group-name /log/group/name --log-stream-name 2019/10/01/[$LATEST]hash </description>
-    </item>
-  </channel>
+	<channel>
+		<title>Cloudwatch on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/Cloudwatch/</link>
+		<description>Recent content in Cloudwatch on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Wed, 25 Mar 2020 09:44:59 +0900</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/Cloudwatch/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>CLI로 클라우드 와치 로그 보기</title>
+				<link>https://ezaurum.com/2020/03/CLI%EB%A1%9C-%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C-%EC%99%80%EC%B9%98-%EB%A1%9C%EA%B7%B8-%EB%B3%B4%EA%B8%B0/</link>
+				<pubDate>Wed, 25 Mar 2020 09:44:59 +0900</pubDate>
+				<guid>https://ezaurum.com/2020/03/CLI%EB%A1%9C-%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C-%EC%99%80%EC%B9%98-%EB%A1%9C%EA%B7%B8-%EB%B3%B4%EA%B8%B0/</guid>
+				<description>&lt;h3 id=&#34;목적&#34;&gt;목적&lt;/h3&gt;&#xA;&lt;p&gt;aws cli 로 cloudwatch 로그 보기 방법(윈도에서 awslogs가 안 먹을때)&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;로그 그룹 이름으로 로그 스트림들을 얻어온다 &lt;code&gt;aws logs describe-log-streams --log-group-name /log/group/name&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;받아온 JSON에서 logStreamName 을 찾아 필요한 log stream name 을 알아낸다.&lt;/li&gt;&#xA;&lt;li&gt;찾은 log stream 으로 로그를 얻어온다. &lt;code&gt;aws logs get-log-events --output text --log-group-name /log/group/name --log-stream-name 2019/10/01/[$LATEST]hash&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+			</item>
+	</channel>
 </rss>

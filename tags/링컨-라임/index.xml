@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>링컨 라임 on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/%EB%A7%81%EC%BB%A8-%EB%9D%BC%EC%9E%84/</link>
-    <description>Recent content in 링컨 라임 on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Mon, 09 Aug 2010 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/%EB%A7%81%EC%BB%A8-%EB%9D%BC%EC%9E%84/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>코핀 댄서</title>
-      <link>https://ezaurum.com/2010/08/%EC%BD%94%ED%95%80-%EB%8C%84%EC%84%9C/</link>
-      <pubDate>Mon, 09 Aug 2010 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2010/08/%EC%BD%94%ED%95%80-%EB%8C%84%EC%84%9C/</guid>
-      <description>제목&#x9;코핀댄서(전2권) - 암살자의 문신 저자&#x9;제프리디버 번역자&#x9;유소영 발행인&#x9;노블하우스, 2005 ISBN&#x9;8991207499, 9788991207493 길이&#x9;631페이지&#xA;표지를 보기에도 미드, 읽어봐도 미드다. 반전이 약간 반칙성. 하지만 재미는 있다. 여주인공의 관절염이 약간 안습.&#xA;35/150</description>
-    </item>
-  </channel>
+	<channel>
+		<title>링컨 라임 on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/%EB%A7%81%EC%BB%A8-%EB%9D%BC%EC%9E%84/</link>
+		<description>Recent content in 링컨 라임 on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Mon, 09 Aug 2010 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/%EB%A7%81%EC%BB%A8-%EB%9D%BC%EC%9E%84/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>코핀 댄서</title>
+				<link>https://ezaurum.com/2010/08/%EC%BD%94%ED%95%80-%EB%8C%84%EC%84%9C/</link>
+				<pubDate>Mon, 09 Aug 2010 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2010/08/%EC%BD%94%ED%95%80-%EB%8C%84%EC%84%9C/</guid>
+				<description>&lt;p&gt;제목&#x9;코핀댄서(전2권) - 암살자의 문신&#xA;저자&#x9;제프리디버&#xA;번역자&#x9;유소영&#xA;발행인&#x9;노블하우스, 2005&#xA;ISBN&#x9;&lt;span class=&#34;ISBN&#34;&gt;8991207499, 9788991207493&lt;/span&gt;&#xA;길이&#x9;631페이지&lt;/p&gt;&#xA;&lt;p&gt;표지를 보기에도 미드, 읽어봐도 미드다. 반전이 약간 반칙성. 하지만 재미는 있다. 여주인공의 관절염이 약간 안습.&lt;/p&gt;&#xA;&lt;p class=&#34;soul mission readBooks&#34;&gt;35/150&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

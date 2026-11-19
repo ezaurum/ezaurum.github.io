@@ -46,7 +46,7 @@
 2020-04-03
 <section><h3 id="목적">목적</h3>
 <p>mysql 사용자 및 DB 추가</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-mysql" data-lang="mysql"><span style="display:flex;"><span><span style="color:#66d9ef">CREATE</span> <span style="color:#66d9ef">DATABASE</span> example;
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-mysql" data-lang="mysql"><span style="display:flex;"><span><span style="color:#66d9ef">CREATE</span> <span style="color:#66d9ef">DATABASE</span> example;
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">CREATE</span> <span style="color:#66d9ef">USER</span> <span style="color:#e6db74">&#39;user_name&#39;</span><span style="color:#f92672">@</span><span style="color:#e6db74">&#39;%&#39;</span> <span style="color:#66d9ef">IDENTIFIED</span> <span style="color:#66d9ef">BY</span> <span style="color:#e6db74">&#39;pass-word&#39;</span>;
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">GRANT</span> <span style="color:#66d9ef">ALL</span> <span style="color:#66d9ef">PRIVILEGES</span>  <span style="color:#66d9ef">ON</span> example.<span style="color:#f92672">*</span> <span style="color:#66d9ef">TO</span> <span style="color:#e6db74">&#39;user_name&#39;</span><span style="color:#f92672">@</span><span style="color:#e6db74">&#39;%&#39;</span>;
 </span></span></code></pre></div></section>
@@ -3875,6 +3875,30 @@
 
     
     </ul>
+
+
+
+    <div id="disqus_thread"></div>
+<script>
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "ezaurum" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+		<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+		<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+	
 
 
 

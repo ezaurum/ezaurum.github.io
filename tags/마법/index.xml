@@ -1,27 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>마법 on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/%EB%A7%88%EB%B2%95/</link>
-    <description>Recent content in 마법 on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Sun, 12 Aug 2012 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/%EB%A7%88%EB%B2%95/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>테하누</title>
-      <link>https://ezaurum.com/2012/08/%ED%85%8C%ED%95%98%EB%88%84/</link>
-      <pubDate>Sun, 12 Aug 2012 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2012/08/%ED%85%8C%ED%95%98%EB%88%84/</guid>
-      <description>오랜만에 어스시 시리즈. 이번은 세계관의 변화랄까 그런 게 느껴진다. 여하튼 즐거웁게 보았음.</description>
-    </item>
-    <item>
-      <title>별 가루에서는 오래된 책 냄새가 난다.</title>
-      <link>https://ezaurum.com/2007/08/%EB%B3%84-%EA%B0%80%EB%A3%A8%EC%97%90%EC%84%9C%EB%8A%94-%EC%98%A4%EB%9E%98%EB%90%9C-%EC%B1%85-%EB%83%84%EC%83%88%EA%B0%80-%EB%82%9C%EB%8B%A4./</link>
-      <pubDate>Tue, 21 Aug 2007 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2007/08/%EB%B3%84-%EA%B0%80%EB%A3%A8%EC%97%90%EC%84%9C%EB%8A%94-%EC%98%A4%EB%9E%98%EB%90%9C-%EC%B1%85-%EB%83%84%EC%83%88%EA%B0%80-%EB%82%9C%EB%8B%A4./</guid>
-      <description>스타 더스트를 보고 왔다.&#xA;말로 저주하고, 심장을 도려내 먹는&amp;hellip;&#xA;멋진 영화다.&#xA;&amp;hellip;&amp;hellip;&amp;hellip; 이렇게만 말하면 뭔가 문제 많은 것 같은데. 보면 평범한 연애물이다.&#xA;악역인 마녀의 표현이 정말 환타지-해리짐꾼보다 한 세대 더 이전의-같은 느낌이라, 좋았다.&#xA;학급문고에 있던 7-80년대 그림동화 번역본을 보는 느낌? 낡은 책 곰팡이 냄새가 나고, 노란 종이에 쓰인 글자는 군데군데 보이지 않지만 즐겁게 읽을 수 있는 그런 내용.&#xA;여하튼 솔로는 서럽다.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>마법 on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/%EB%A7%88%EB%B2%95/</link>
+		<description>Recent content in 마법 on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Sun, 12 Aug 2012 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/%EB%A7%88%EB%B2%95/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>테하누</title>
+				<link>https://ezaurum.com/2012/08/%ED%85%8C%ED%95%98%EB%88%84/</link>
+				<pubDate>Sun, 12 Aug 2012 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2012/08/%ED%85%8C%ED%95%98%EB%88%84/</guid>
+				<description>&lt;p&gt;오랜만에 어스시 시리즈.&#xA;이번은 세계관의 변화랄까 그런 게 느껴진다.&#xA;여하튼 즐거웁게 보았음.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>별 가루에서는 오래된 책 냄새가 난다.</title>
+				<link>https://ezaurum.com/2007/08/%EB%B3%84-%EA%B0%80%EB%A3%A8%EC%97%90%EC%84%9C%EB%8A%94-%EC%98%A4%EB%9E%98%EB%90%9C-%EC%B1%85-%EB%83%84%EC%83%88%EA%B0%80-%EB%82%9C%EB%8B%A4./</link>
+				<pubDate>Tue, 21 Aug 2007 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2007/08/%EB%B3%84-%EA%B0%80%EB%A3%A8%EC%97%90%EC%84%9C%EB%8A%94-%EC%98%A4%EB%9E%98%EB%90%9C-%EC%B1%85-%EB%83%84%EC%83%88%EA%B0%80-%EB%82%9C%EB%8B%A4./</guid>
+				<description>&lt;p&gt;스타 더스트를 보고 왔다.&lt;/p&gt;&#xA;&lt;p&gt;말로 저주하고, 심장을 도려내 먹는&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;멋진 영화다.&lt;/p&gt;&#xA;&lt;p&gt;&amp;hellip;&amp;hellip;&amp;hellip; 이렇게만 말하면 뭔가 문제 많은 것 같은데. 보면 평범한 연애물이다.&lt;/p&gt;&#xA;&lt;p&gt;악역인 마녀의 표현이 정말 환타지-해리짐꾼보다 한 세대 더 이전의-같은 느낌이라, 좋았다.&lt;/p&gt;&#xA;&lt;p&gt;학급문고에 있던 7-80년대 그림동화 번역본을 보는 느낌? 낡은 책 곰팡이 냄새가 나고, 노란 종이에 쓰인 글자는 군데군데 보이지 않지만 즐겁게 읽을 수 있는 그런 내용.&lt;/p&gt;&#xA;&lt;p&gt;여하튼 솔로는 서럽다.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>소련 on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/%EC%86%8C%EB%A0%A8/</link>
-    <description>Recent content in 소련 on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Sat, 20 Jun 2020 02:37:59 +0900</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/%EC%86%8C%EB%A0%A8/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>어느 날 보니 소련이 붕괴했다</title>
-      <link>https://ezaurum.com/2020/06/%EC%96%B4%EB%8A%90-%EB%82%A0-%EB%B3%B4%EB%8B%88-%EC%86%8C%EB%A0%A8%EC%9D%B4-%EB%B6%95%EA%B4%B4%ED%96%88%EB%8B%A4/</link>
-      <pubDate>Sat, 20 Jun 2020 02:37:59 +0900</pubDate>
-      <guid>https://ezaurum.com/2020/06/%EC%96%B4%EB%8A%90-%EB%82%A0-%EB%B3%B4%EB%8B%88-%EC%86%8C%EB%A0%A8%EC%9D%B4-%EB%B6%95%EA%B4%B4%ED%96%88%EB%8B%A4/</guid>
-      <description>어느날 보니 소련이 붕괴했다. 그 정도에 지구공동설, 렙탈리언, 라엘리안, CIA 세뇌 병사, 꼬리를 끄는 공룡, 인간과 공룡 동시 생존설, 영국에 흔한 유령, 미국과 소련의 우주 전쟁, 튜브트레인, 백두산 소풍, 손목시계 전화, 그 전화를 받고 오는 자동차, 화성 콜로니, 숙제 해 주는 로봇이 소년의 꿈에서 사라졌다.&#xA;지금 그걸 얘기하고 있는 건 이미 죽은 미국 사람이랑 가끔 사기꾼으로 불리는 미국 사람, 예고편만 보고 지쳐서 떨어지게 만드는 미국 스트리밍 서비스에서 돈 대줘서 만든 드라마 정도다.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>소련 on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/%EC%86%8C%EB%A0%A8/</link>
+		<description>Recent content in 소련 on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Sat, 20 Jun 2020 02:37:59 +0900</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/%EC%86%8C%EB%A0%A8/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>어느 날 보니 소련이 붕괴했다</title>
+				<link>https://ezaurum.com/2020/06/%EC%96%B4%EB%8A%90-%EB%82%A0-%EB%B3%B4%EB%8B%88-%EC%86%8C%EB%A0%A8%EC%9D%B4-%EB%B6%95%EA%B4%B4%ED%96%88%EB%8B%A4/</link>
+				<pubDate>Sat, 20 Jun 2020 02:37:59 +0900</pubDate>
+				<guid>https://ezaurum.com/2020/06/%EC%96%B4%EB%8A%90-%EB%82%A0-%EB%B3%B4%EB%8B%88-%EC%86%8C%EB%A0%A8%EC%9D%B4-%EB%B6%95%EA%B4%B4%ED%96%88%EB%8B%A4/</guid>
+				<description>&lt;p&gt;어느날 보니 소련이 붕괴했다.&#xA;그 정도에 지구공동설, 렙탈리언, 라엘리안, CIA 세뇌 병사, 꼬리를 끄는 공룡, 인간과 공룡 동시 생존설, 영국에 흔한 유령, 미국과 소련의 우주 전쟁, 튜브트레인, 백두산 소풍, 손목시계 전화, 그 전화를 받고 오는 자동차, 화성 콜로니, 숙제 해 주는 로봇이 소년의 꿈에서 사라졌다.&lt;/p&gt;&#xA;&lt;p&gt;지금 그걸 얘기하고 있는 건 이미 죽은 미국 사람이랑 가끔 사기꾼으로 불리는 미국 사람, 예고편만 보고 지쳐서 떨어지게 만드는 미국 스트리밍 서비스에서 돈 대줘서 만든 드라마 정도다.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

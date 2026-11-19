@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>제대 on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/%EC%A0%9C%EB%8C%80/</link>
-    <description>Recent content in 제대 on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Wed, 22 Jun 2011 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/%EC%A0%9C%EB%8C%80/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>전역전 목표 변경</title>
-      <link>https://ezaurum.com/2011/06/%EC%A0%84%EC%97%AD%EC%A0%84-%EB%AA%A9%ED%91%9C-%EB%B3%80%EA%B2%BD/</link>
-      <pubDate>Wed, 22 Jun 2011 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2011/06/%EC%A0%84%EC%97%AD%EC%A0%84-%EB%AA%A9%ED%91%9C-%EB%B3%80%EA%B2%BD/</guid>
-      <description>꽤나 많은 것을 목표로 하였으나, 제대 100일 정도를 남겨둔 시점에서 실제로 달성한 것은 하나 뿐&amp;hellip; ORL&#xA;그러므로 선택과 집중의 원칙에 의거, 정리를 하겠음. 마감이 다가오면 더 일이 제대로 안 되는 성격이라&amp;hellip;&#xA;체중 -5kg(72→67)&#xD;취업용 포트폴리오 제작(1/2 진행중)하나만 하기로 하고 완료&#xD;화이팅해보자!&#xD;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>제대 on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/%EC%A0%9C%EB%8C%80/</link>
+		<description>Recent content in 제대 on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Wed, 22 Jun 2011 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/%EC%A0%9C%EB%8C%80/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>전역전 목표 변경</title>
+				<link>https://ezaurum.com/2011/06/%EC%A0%84%EC%97%AD%EC%A0%84-%EB%AA%A9%ED%91%9C-%EB%B3%80%EA%B2%BD/</link>
+				<pubDate>Wed, 22 Jun 2011 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2011/06/%EC%A0%84%EC%97%AD%EC%A0%84-%EB%AA%A9%ED%91%9C-%EB%B3%80%EA%B2%BD/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;http://xn--si2b20bg5cf32b.com/2010/06/30/%ec%a0%84%ec%97%ad%ec%a0%84-%eb%aa%a9%ed%91%9c/&#34; title=&#34;전역전 목표&#34;&gt;꽤나 많은 것을 목표&lt;/a&gt;로 하였으나, 제대 100일 정도를 남겨둔 시점에서 실제로 달성한 것은 하나 뿐&amp;hellip; ORL&lt;/p&gt;&#xA;&lt;p&gt;그러므로 선택과 집중의 원칙에 의거, 정리를 하겠음. 마감이 다가오면 더 일이 제대로 안 되는 성격이라&amp;hellip;&lt;/p&gt;&#xA;&lt;ol&gt;&#x9;&lt;li&gt;체중 -5kg(72→67)&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;&lt;del datetime=&#34;2011-09-20T14:35:28+00:00&#34;&gt;취업용 포트폴리오 제작(1/2 진행중)&lt;/del&gt;&lt;ins datetime=&#34;2011-09-20T14:35:28+00:00&#34;&gt;하나만 하기로 하고 완료&lt;/ins&gt;&lt;/li&gt;&lt;/ol&gt;&#xD;&#xA;화이팅해보자!</description>
+			</item>
+	</channel>
 </rss>

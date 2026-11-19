@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>하늘 on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/%ED%95%98%EB%8A%98/</link>
-    <description>Recent content in 하늘 on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Fri, 28 Nov 2008 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/%ED%95%98%EB%8A%98/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>회색 하늘</title>
-      <link>https://ezaurum.com/2008/11/%ED%9A%8C%EC%83%89-%ED%95%98%EB%8A%98/</link>
-      <pubDate>Fri, 28 Nov 2008 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2008/11/%ED%9A%8C%EC%83%89-%ED%95%98%EB%8A%98/</guid>
-      <description>겨울이 왔다. 하늘이 회색이라는 느낌. 풍경에서 색이 없어진다.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>하늘 on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/%ED%95%98%EB%8A%98/</link>
+		<description>Recent content in 하늘 on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Fri, 28 Nov 2008 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/%ED%95%98%EB%8A%98/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>회색 하늘</title>
+				<link>https://ezaurum.com/2008/11/%ED%9A%8C%EC%83%89-%ED%95%98%EB%8A%98/</link>
+				<pubDate>Fri, 28 Nov 2008 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2008/11/%ED%9A%8C%EC%83%89-%ED%95%98%EB%8A%98/</guid>
+				<description>&lt;p&gt;겨울이 왔다.&#xA;하늘이 회색이라는 느낌.&#xA;풍경에서 색이 없어진다.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

@@ -1,34 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>캐릭터 on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/%EC%BA%90%EB%A6%AD%ED%84%B0/</link>
-    <description>Recent content in 캐릭터 on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Sun, 16 May 2010 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/%EC%BA%90%EB%A6%AD%ED%84%B0/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>세계대전Z</title>
-      <link>https://ezaurum.com/2010/05/%EC%84%B8%EA%B3%84%EB%8C%80%EC%A0%84Z/</link>
-      <pubDate>Sun, 16 May 2010 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2010/05/%EC%84%B8%EA%B3%84%EB%8C%80%EC%A0%84Z/</guid>
-      <description>상민이한테서 빌려봄. ISBN(13자리) : 9788960171961&#xA;좀비물이라고 되어 있지만, 중요한 것은 좀비가 아니다. 사람이지.&#xA;어떻게 이런 생각을 할 수 있을까 싶을 정도로 참신했다.</description>
-    </item>
-    <item>
-      <title>가면 라이더 신작 - 가면 라이더 W</title>
-      <link>https://ezaurum.com/2009/09/%EA%B0%80%EB%A9%B4-%EB%9D%BC%EC%9D%B4%EB%8D%94-%EC%8B%A0%EC%9E%91-%EA%B0%80%EB%A9%B4-%EB%9D%BC%EC%9D%B4%EB%8D%94-W/</link>
-      <pubDate>Wed, 09 Sep 2009 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2009/09/%EA%B0%80%EB%A9%B4-%EB%9D%BC%EC%9D%B4%EB%8D%94-%EC%8B%A0%EC%9E%91-%EA%B0%80%EB%A9%B4-%EB%9D%BC%EC%9D%B4%EB%8D%94-W/</guid>
-      <description>USB 메모리, 하드보일드, 탐정, 둘이서 하나, 어려보이는 히로인, 검색엔진</description>
-    </item>
-    <item>
-      <title>해운대</title>
-      <link>https://ezaurum.com/2009/08/%ED%95%B4%EC%9A%B4%EB%8C%80/</link>
-      <pubDate>Mon, 24 Aug 2009 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2009/08/%ED%95%B4%EC%9A%B4%EB%8C%80/</guid>
-      <description>솔직히 말해서 난 이 영화가 망할 거라고 생각했다. 예고편이 영 별로였달까 느낌이 안 왔는데 &amp;hellip;.오산이었다.&#xA;눈시울이 좀 뜨겁더라.&#xA;&amp;hellip;뭐 이대호에 대한 얘기는 아는 사람만 알고 있지 않을까 싶기도&amp;hellip; 아 사직구장 가고싶다. 롯데는 언제나 가을에 야구 하려나&amp;hellip;&#xA;여튼 CG는 좀 부족하지만, 이미 그 때는 CG가 중요한 상황이 아니니까. 캐릭터가 좀 많은데도 지루하지 않게 충분히 감정이입할 시간을 준다. 그게 좋음.&#xA;캐릭터들이 죽기 직전의 행동이랄까 그런 것도 좋고.&#xA;넥타이는 진리임.&#xA;부산 사투리도 정겹다. 경상도 권이라면 감정이입 2배.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>캐릭터 on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/%EC%BA%90%EB%A6%AD%ED%84%B0/</link>
+		<description>Recent content in 캐릭터 on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Sun, 16 May 2010 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/%EC%BA%90%EB%A6%AD%ED%84%B0/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>세계대전Z</title>
+				<link>https://ezaurum.com/2010/05/%EC%84%B8%EA%B3%84%EB%8C%80%EC%A0%84Z/</link>
+				<pubDate>Sun, 16 May 2010 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2010/05/%EC%84%B8%EA%B3%84%EB%8C%80%EC%A0%84Z/</guid>
+				<description>&lt;p&gt;상민이한테서 빌려봄.&#xA;ISBN(13자리) : 9788960171961&lt;/p&gt;&#xA;&lt;p&gt;좀비물이라고 되어 있지만, 중요한 것은 좀비가 아니다. 사람이지.&lt;/p&gt;&#xA;&lt;p&gt;어떻게 이런 생각을 할 수 있을까 싶을 정도로 참신했다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>가면 라이더 신작 - 가면 라이더 W</title>
+				<link>https://ezaurum.com/2009/09/%EA%B0%80%EB%A9%B4-%EB%9D%BC%EC%9D%B4%EB%8D%94-%EC%8B%A0%EC%9E%91-%EA%B0%80%EB%A9%B4-%EB%9D%BC%EC%9D%B4%EB%8D%94-W/</link>
+				<pubDate>Wed, 09 Sep 2009 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2009/09/%EA%B0%80%EB%A9%B4-%EB%9D%BC%EC%9D%B4%EB%8D%94-%EC%8B%A0%EC%9E%91-%EA%B0%80%EB%A9%B4-%EB%9D%BC%EC%9D%B4%EB%8D%94-W/</guid>
+				<description>&lt;p&gt;USB 메모리, 하드보일드, 탐정, 둘이서 하나, 어려보이는 히로인, 검색엔진&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>해운대</title>
+				<link>https://ezaurum.com/2009/08/%ED%95%B4%EC%9A%B4%EB%8C%80/</link>
+				<pubDate>Mon, 24 Aug 2009 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2009/08/%ED%95%B4%EC%9A%B4%EB%8C%80/</guid>
+				<description>&lt;p&gt;솔직히 말해서 난 이 영화가 망할 거라고 생각했다.&#xA;예고편이 영 별로였달까 느낌이 안 왔는데&#xA;&amp;hellip;.오산이었다.&lt;/p&gt;&#xA;&lt;p&gt;눈시울이 좀 뜨겁더라.&lt;/p&gt;&#xA;&lt;p&gt;&amp;hellip;뭐 이대호에 대한 얘기는 아는 사람만 알고 있지 않을까 싶기도&amp;hellip; 아 사직구장 가고싶다. 롯데는 언제나 가을에 야구 하려나&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;여튼 CG는 좀 부족하지만, 이미 그 때는 CG가 중요한 상황이 아니니까. 캐릭터가 좀 많은데도 지루하지 않게 충분히 감정이입할 시간을 준다. 그게 좋음.&lt;/p&gt;&#xA;&lt;p&gt;캐릭터들이 죽기 직전의 행동이랄까 그런 것도 좋고.&lt;/p&gt;&#xA;&lt;p&gt;넥타이는 진리임.&lt;/p&gt;&#xA;&lt;p&gt;부산 사투리도 정겹다. 경상도 권이라면 감정이입 2배.&#xA;하지원의 사투리는 중간중간 대구랄까 어디 좀 다른 지방 같은 느낌이 섞이고, 설경구도 약간 어설픈 것 같지만 몰입에 방해되지 않을 수준.&#xA;이민기는 진짜 부산 애 &lt;del datetime=&#34;2009-09-04T19:57:10+00:00&#34;&gt;같은 느낌이었음&lt;/del&gt;&lt;ins datetime=&#34;2009-09-04T19:57:10+00:00&#34;&gt;라더라 놀랐음. 하긴 너무 자연스럽더라.&lt;/ins&gt; 좀 수줍어하는 것도 귀엽고.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

@@ -1,25 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Bubble Sort on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/bubble-sort/</link>
-    <description>Recent content in Bubble Sort on Ezaurum&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Thu, 13 Jan 2011 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://ezaurum.com/tags/bubble-sort/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Bubble Sort</title>
-      <link>https://ezaurum.com/2011/01/Bubble-Sort/</link>
-      <pubDate>Thu, 13 Jan 2011 00:00:00 +0000</pubDate>
-      
-      <guid>https://ezaurum.com/2011/01/Bubble-Sort/</guid>
-      <description>void bubbleSort(int * array, int size) { int temp = 0; int j=0; bool swapped = true; while(swapped) { j++; swapped = false; for( int i = 0; i &amp;lt; size -1 -j ; i++) { if ( array[i] &amp;gt; array[i+1] ) { temp = array[i]; array[i] = array[i+1]; array[i+1] = temp; swapped = true; } } j++; } } void swap(int * a, int * b) { int temp = 0; temp = *a; *a = *b; *b = temp; } bool swapif(int * a, int * b) { if ( *a &amp;gt; *b) { swap(a,b); return true; } else { return false; } }</description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>Bubble Sort on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/Bubble-Sort/</link>
+		<description>Recent content in Bubble Sort on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Thu, 13 Jan 2011 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/Bubble-Sort/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Bubble Sort</title>
+				<link>https://ezaurum.com/2011/01/Bubble-Sort/</link>
+				<pubDate>Thu, 13 Jan 2011 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2011/01/Bubble-Sort/</guid>
+				<description>&lt;code&gt;&#xD;&#xA;void bubbleSort(int * array, int size)&#xD;&#xA;{&#xD;&#xA;&#x9;int temp = 0;&#xD;&#xA;&#x9;int j=0;&#xD;&#xA;&#x9;bool swapped = true;&#xD;&#xA;&#x9;while(swapped)&#xD;&#xA;&#x9;{&#xD;&#xA;&lt;del datetime=&#34;2011-01-13T07:13:28+00:00&#34;&gt;&#x9;&#x9;j++;&lt;/del&gt;&#xD;&#xA;&#x9;&#x9;swapped = false;&#xD;&#xA;&#x9;for( int i = 0; i &amp;lt; size -1 &lt;ins datetime=&#34;2011-01-13T07:13:28+00:00&#34;&gt;-j&lt;/ins&gt; ; i++)&#xD;&#xA;&#x9;{&#xD;&#xA;&#x9;&#x9;if ( array[i] &amp;gt; array[i+1] )&#xD;&#xA;&#x9;&#x9;{&#xD;&#xA;&#x9;&#x9;&#x9;temp = array[i];&#xD;&#xA;&#x9;&#x9;&#x9;array[i] = array[i+1];&#xD;&#xA;&#x9;&#x9;&#x9;array[i+1] = temp;&#xD;&#xA;&#x9;&#x9;&#x9;swapped = true;&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;}&#xD;&#xA;&lt;ins datetime=&#34;2011-01-13T07:13:28+00:00&#34;&gt;j++;&lt;/ins&gt;&#xD;&#xA;&#x9;}&#xD;&#xA;}&#xD;&#xA;&lt;ins datetime=&#34;2011-01-13T08:05:15+00:00&#34;&gt;&#xD;&#xA;void swap(int * a, int * b)&#xD;&#xA;{&#xD;&#xA;&#x9;int temp = 0;&#xD;&#xA;&#x9;temp = *a;&#xD;&#xA;&#x9;*a = *b;&#xD;&#xA;&#x9;*b = temp;&#xD;&#xA;}&lt;/ins&gt;&#xD;&#xA;&lt;ins datetime=&#34;2011-01-13T08:06:26+00:00&#34;&gt;&#xD;&#xA;bool swapif(int * a, int * b)&#xD;&#xA;{&#xD;&#xA;&#x9;if ( *a &amp;gt; *b)&#xD;&#xA;&#x9;{&#xD;&#xA;&#x9;&#x9;swap(a,b);&#xD;&#xA;&#x9;&#x9;return true;&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;else&#xD;&#xA;&#x9;{&#xD;&#xA;&#x9;&#x9;return false;&#xD;&#xA;&#x9;}&#xD;&#xA;}&lt;/ins&gt;&#xD;&#xA;&lt;p&gt;&lt;ins datetime=&#34;2011-01-13T08:07:57+00:00&#34;&gt;void bubbleSort2(int * array, int size)&#xA;{&#xA;int j=0;&#xA;bool swapped = true;&#xA;while(swapped)&#xA;{&#xA;swapped=false;&#xA;for( int i = 0; i &amp;lt; size -j -1 ; i++)&#xA;{&#xA;swapped = swapif(array+i,array+i+1) ? true : swapped;&#xA;}&#xA;j++;&#xA;}&#xA;}&#xA;&lt;/ins&gt;&lt;/p&gt;&#xA;&lt;/code&gt;</description>
+			</item>
+	</channel>
 </rss>

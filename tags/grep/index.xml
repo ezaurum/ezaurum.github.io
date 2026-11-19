@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Grep on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/grep/</link>
-    <description>Recent content in Grep on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Sun, 19 Apr 2020 20:41:52 +0900</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/grep/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>특정 문자열을 가지고 있는 파일만 골라 이동</title>
-      <link>https://ezaurum.com/2020/04/%ED%8A%B9%EC%A0%95-%EB%AC%B8%EC%9E%90%EC%97%B4%EC%9D%84-%EA%B0%80%EC%A7%80%EA%B3%A0-%EC%9E%88%EB%8A%94-%ED%8C%8C%EC%9D%BC%EB%A7%8C-%EA%B3%A8%EB%9D%BC-%EC%9D%B4%EB%8F%99/</link>
-      <pubDate>Sun, 19 Apr 2020 20:41:52 +0900</pubDate>
-      <guid>https://ezaurum.com/2020/04/%ED%8A%B9%EC%A0%95-%EB%AC%B8%EC%9E%90%EC%97%B4%EC%9D%84-%EA%B0%80%EC%A7%80%EA%B3%A0-%EC%9E%88%EB%8A%94-%ED%8C%8C%EC%9D%BC%EB%A7%8C-%EA%B3%A8%EB%9D%BC-%EC%9D%B4%EB%8F%99/</guid>
-      <description>목적 특정 문자열을 가진 파일을 골라서 이동 또는 복사&#xA;grep -rwl &amp;#39;original/directory/&amp;#39; -e &amp;#39;target-string&amp;#39; | xargs -I % sh -c &amp;#39;mv % target/directory&amp;#39; </description>
-    </item>
-  </channel>
+	<channel>
+		<title>Grep on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/grep/</link>
+		<description>Recent content in Grep on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Sun, 19 Apr 2020 20:41:52 +0900</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/grep/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>특정 문자열을 가지고 있는 파일만 골라 이동</title>
+				<link>https://ezaurum.com/2020/04/%ED%8A%B9%EC%A0%95-%EB%AC%B8%EC%9E%90%EC%97%B4%EC%9D%84-%EA%B0%80%EC%A7%80%EA%B3%A0-%EC%9E%88%EB%8A%94-%ED%8C%8C%EC%9D%BC%EB%A7%8C-%EA%B3%A8%EB%9D%BC-%EC%9D%B4%EB%8F%99/</link>
+				<pubDate>Sun, 19 Apr 2020 20:41:52 +0900</pubDate>
+				<guid>https://ezaurum.com/2020/04/%ED%8A%B9%EC%A0%95-%EB%AC%B8%EC%9E%90%EC%97%B4%EC%9D%84-%EA%B0%80%EC%A7%80%EA%B3%A0-%EC%9E%88%EB%8A%94-%ED%8C%8C%EC%9D%BC%EB%A7%8C-%EA%B3%A8%EB%9D%BC-%EC%9D%B4%EB%8F%99/</guid>
+				<description>&lt;h3 id=&#34;목적&#34;&gt;목적&lt;/h3&gt;&#xA;&lt;p&gt;특정 문자열을 가진 파일을 골라서 이동 또는 복사&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;grep -rwl &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;original/directory/&amp;#39;&lt;/span&gt; -e  &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;target-string&amp;#39;&lt;/span&gt; | xargs -I % sh -c &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;mv % target/directory&amp;#39;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+			</item>
+	</channel>
 </rss>

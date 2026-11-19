@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Startup on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/startup/</link>
-    <description>Recent content in Startup on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Thu, 02 May 2013 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/startup/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>리눅스 민트에서 시작 스크립트 넣기</title>
-      <link>https://ezaurum.com/2013/05/%EB%A6%AC%EB%88%85%EC%8A%A4-%EB%AF%BC%ED%8A%B8%EC%97%90%EC%84%9C-%EC%8B%9C%EC%9E%91-%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EB%84%A3%EA%B8%B0/</link>
-      <pubDate>Thu, 02 May 2013 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2013/05/%EB%A6%AC%EB%88%85%EC%8A%A4-%EB%AF%BC%ED%8A%B8%EC%97%90%EC%84%9C-%EC%8B%9C%EC%9E%91-%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EB%84%A3%EA%B8%B0/</guid>
-      <description>/etc/rc.local 을 수정하면 된다. rc.local은 root권한으로 실행되므로, 안에 sudo를 붙일 필요는 없다.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Startup on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/startup/</link>
+		<description>Recent content in Startup on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Thu, 02 May 2013 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/startup/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>리눅스 민트에서 시작 스크립트 넣기</title>
+				<link>https://ezaurum.com/2013/05/%EB%A6%AC%EB%88%85%EC%8A%A4-%EB%AF%BC%ED%8A%B8%EC%97%90%EC%84%9C-%EC%8B%9C%EC%9E%91-%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EB%84%A3%EA%B8%B0/</link>
+				<pubDate>Thu, 02 May 2013 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2013/05/%EB%A6%AC%EB%88%85%EC%8A%A4-%EB%AF%BC%ED%8A%B8%EC%97%90%EC%84%9C-%EC%8B%9C%EC%9E%91-%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EB%84%A3%EA%B8%B0/</guid>
+				<description>&lt;p&gt;/etc/rc.local 을 수정하면 된다.&#xA;rc.local은 root권한으로 실행되므로, 안에 sudo를 붙일 필요는 없다.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

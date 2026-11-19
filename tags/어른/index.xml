@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>어른 on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/%EC%96%B4%EB%A5%B8/</link>
-    <description>Recent content in 어른 on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Wed, 02 Feb 2011 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/%EC%96%B4%EB%A5%B8/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>서투름</title>
-      <link>https://ezaurum.com/2011/02/%EC%84%9C%ED%88%AC%EB%A6%84/</link>
-      <pubDate>Wed, 02 Feb 2011 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2011/02/%EC%84%9C%ED%88%AC%EB%A6%84/</guid>
-      <description>나는 인간관계에 서투르다. 나이를 먹을수록 더 서툴러지는 것 같다. 특히 문제를 처리하는 방법에 있어서 더 그렇다. 나랑 언성을 높여서 싸웠던 사람은 그리 많지 않다. 지금까지 한 손에 꼽을 정도? 가족을 빼면 지금 기억나는 게 네 명 정도 되는군. 그 중에 하나는 아예 연을 끊었고, 하나는 한 2-3년간 말을 안 하고 지냈다. 아, 나한테 그냥 화를 내고 내가 비는 경우는 제외. 특히 내가 뭔가를 잘못했을 돌발 상황에 대한 대처가 그리 기민하지도 않아서 패닉에 쉽게 빠지는 탓에 계속 빌고만 있는 경우가 많다.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>어른 on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/%EC%96%B4%EB%A5%B8/</link>
+		<description>Recent content in 어른 on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Wed, 02 Feb 2011 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/%EC%96%B4%EB%A5%B8/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>서투름</title>
+				<link>https://ezaurum.com/2011/02/%EC%84%9C%ED%88%AC%EB%A6%84/</link>
+				<pubDate>Wed, 02 Feb 2011 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2011/02/%EC%84%9C%ED%88%AC%EB%A6%84/</guid>
+				<description>&lt;p&gt;나는 인간관계에 서투르다.&#xA;나이를 먹을수록 더 서툴러지는 것 같다.&#xA;특히 문제를 처리하는 방법에 있어서 더 그렇다.&#xA;나랑 언성을 높여서 싸웠던 사람은 그리 많지 않다. 지금까지 한 손에 꼽을 정도? 가족을 빼면 지금 기억나는 게 네 명 정도 되는군. 그 중에 하나는 아예 연을 끊었고, 하나는 한 2-3년간 말을 안 하고 지냈다.&#xA;아, 나한테 그냥 화를 내고 내가 비는 경우는 제외.&#xA;특히 내가 뭔가를 잘못했을 돌발 상황에 대한 대처가 그리 기민하지도 않아서 패닉에 쉽게 빠지는 탓에 계속 빌고만 있는 경우가 많다. 그래서 가능하면 이른바 정치적으로 올바른 선택만 하려고 하는 경향이 있다. 이런 걸 피하려고. 그런데 나는 그리 도덕적인 인간은 아니고 쾌락지향의 인간이기 때문에 그리 올바르게 살게 되지는 않는다. 그러니 당연히 사과할 일이 자꾸 생길 수 밖에 없다.&#xA;그런 이유로 오늘도 일이 손에 안 잡혀서 깨작깨작하고 있다가 마침 연락이 닿은 친구들과 이야기를 하고, 조언을 듣고 결론을 내렸다.&#xA;Let it be.&#xA;그 쪽도 나름의 입장이 있을 거고, 칼자루는 저 쪽으로 넘어간 거니까 일단 난 얌전히 처분을 기다리는 게 정상.&#xA;아 서른 먹어서 참 어른스러운 고민에 어른스러운 포스팅하고 있다&amp;hellip; OTL 우린 글러먹은 놈들이라는 친구 말이 맞을지도 몰라.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

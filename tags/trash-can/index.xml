@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Trash Can on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/trash-can/</link>
-    <description>Recent content in Trash Can on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Fri, 28 Jun 2013 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/trash-can/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>루분투 휴지통 위치</title>
-      <link>https://ezaurum.com/2013/06/%EB%A3%A8%EB%B6%84%ED%88%AC-%ED%9C%B4%EC%A7%80%ED%86%B5-%EC%9C%84%EC%B9%98/</link>
-      <pubDate>Fri, 28 Jun 2013 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2013/06/%EB%A3%A8%EB%B6%84%ED%88%AC-%ED%9C%B4%EC%A7%80%ED%86%B5-%EC%9C%84%EC%B9%98/</guid>
-      <description>루분투 휴지통은 ~/.local/share/Trash 에 있다.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Trash Can on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/trash-can/</link>
+		<description>Recent content in Trash Can on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Fri, 28 Jun 2013 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/trash-can/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>루분투 휴지통 위치</title>
+				<link>https://ezaurum.com/2013/06/%EB%A3%A8%EB%B6%84%ED%88%AC-%ED%9C%B4%EC%A7%80%ED%86%B5-%EC%9C%84%EC%B9%98/</link>
+				<pubDate>Fri, 28 Jun 2013 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2013/06/%EB%A3%A8%EB%B6%84%ED%88%AC-%ED%9C%B4%EC%A7%80%ED%86%B5-%EC%9C%84%EC%B9%98/</guid>
+				<description>&lt;p&gt;루분투 휴지통은 ~/.local/share/Trash 에 있다.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>담력훈련 on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/%EB%8B%B4%EB%A0%A5%ED%9B%88%EB%A0%A8/</link>
-    <description>Recent content in 담력훈련 on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Mon, 01 Aug 2011 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/%EB%8B%B4%EB%A0%A5%ED%9B%88%EB%A0%A8/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>여름 사도학교</title>
-      <link>https://ezaurum.com/2011/08/%EC%97%AC%EB%A6%84-%EC%82%AC%EB%8F%84%ED%95%99%EA%B5%90/</link>
-      <pubDate>Mon, 01 Aug 2011 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2011/08/%EC%97%AC%EB%A6%84-%EC%82%AC%EB%8F%84%ED%95%99%EA%B5%90/</guid>
-      <description>성당에서 여름 사도학교를 다녀왔다.&#xA;생전 처음 가 봤는데 의외로 프로그램이 신선하고 재미있었다. 애들도 만족스러워 하는 것 같고.&#xA;애들은 귀엽고, 이쁘고, 귀엽고, 이쁘고, 끔찍하다. 떠들고 웃고 뛰고 하는게 아주 그냥 이뻐 죽겠더라. 그리고 끔찍하게 말을 안 듣지&amp;hellip;정신없는 사흘간이었다.&#xA;아직 피로가 덜 풀리긴 했지만, 또 가자면 가긴 갈 것 같다. 이런 걸 계속 하는 거기 스탭들이 이해는 되면서도 굉장해 보인다.&#xA;그리고 나는 귀신 분장을 하고 애들을 놀래켰다. 반응이 아주 격렬해서 매우 좋았다. 사진은&amp;hellip; 네이트 클럽에 올라와 있을텐데 내가 네이트 비번을 잊은 관계로 패스.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>담력훈련 on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/%EB%8B%B4%EB%A0%A5%ED%9B%88%EB%A0%A8/</link>
+		<description>Recent content in 담력훈련 on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Mon, 01 Aug 2011 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/%EB%8B%B4%EB%A0%A5%ED%9B%88%EB%A0%A8/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>여름 사도학교</title>
+				<link>https://ezaurum.com/2011/08/%EC%97%AC%EB%A6%84-%EC%82%AC%EB%8F%84%ED%95%99%EA%B5%90/</link>
+				<pubDate>Mon, 01 Aug 2011 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2011/08/%EC%97%AC%EB%A6%84-%EC%82%AC%EB%8F%84%ED%95%99%EA%B5%90/</guid>
+				<description>&lt;p&gt;성당에서 여름 사도학교를 다녀왔다.&lt;/p&gt;&#xA;&lt;p&gt;생전 처음 가 봤는데 의외로 프로그램이 신선하고 재미있었다. 애들도 만족스러워 하는 것 같고.&lt;/p&gt;&#xA;&lt;p&gt;애들은 귀엽고, 이쁘고, 귀엽고, 이쁘고, 끔찍하다. 떠들고 웃고 뛰고 하는게 아주 그냥 이뻐 죽겠더라. 그리고 끔찍하게 말을 안 듣지&amp;hellip;정신없는 사흘간이었다.&lt;/p&gt;&#xA;&lt;p&gt;아직 피로가 덜 풀리긴 했지만, 또 가자면 가긴 갈 것 같다. 이런 걸 계속 하는 거기 스탭들이 이해는 되면서도 굉장해 보인다.&lt;/p&gt;&#xA;&lt;p&gt;그리고 나는 귀신 분장을 하고 애들을 놀래켰다. 반응이 아주 격렬해서 매우 좋았다. 사진은&amp;hellip; 네이트 클럽에 올라와 있을텐데 내가 네이트 비번을 잊은 관계로 패스.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

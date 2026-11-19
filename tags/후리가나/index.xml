@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>후리가나 on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/%ED%9B%84%EB%A6%AC%EA%B0%80%EB%82%98/</link>
-    <description>Recent content in 후리가나 on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Mon, 09 Aug 2010 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/%ED%9B%84%EB%A6%AC%EA%B0%80%EB%82%98/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>RD-P1 - 구형 전자사전의 한계</title>
-      <link>https://ezaurum.com/2010/08/RD-P1-%EA%B5%AC%ED%98%95-%EC%A0%84%EC%9E%90%EC%82%AC%EC%A0%84%EC%9D%98-%ED%95%9C%EA%B3%84/</link>
-      <pubDate>Mon, 09 Aug 2010 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2010/08/RD-P1-%EA%B5%AC%ED%98%95-%EC%A0%84%EC%9E%90%EC%82%AC%EC%A0%84%EC%9D%98-%ED%95%9C%EA%B3%84/</guid>
-      <description>RD-P1이라는 전자사전을 쓰고 있다. 필요로 하는 필기인식 기능이 있고, 흑백이라 가격도 저렴하고 동영상 기능이 없어서 공부에 집중할 수 있을 거라는 생각에 구입했는데, 이게 좀 거슬리는 것이. 일본어에는 四つ目垣(よつ-めがき)식으로 한자와 히라가나를 섞어 쓰는 경우가 많은데, 이 형식을 검색할 수가 없다. 일단 한자를 찾고, 음을 찾아서 아마 이거일 것이다 하는 음을 결정하고, 뒤의 히라가나와 합성해서, 검색하게 되는데&amp;hellip; 이 과정이 꽤 귀찮다. 위의 물건처럼 한자사이에 히라가나가 한두자씩 섞여있고 그 한자를 읽을 줄 모르면 다 찾아서 음을 모두 합성해야 한다.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>후리가나 on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/%ED%9B%84%EB%A6%AC%EA%B0%80%EB%82%98/</link>
+		<description>Recent content in 후리가나 on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Mon, 09 Aug 2010 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/%ED%9B%84%EB%A6%AC%EA%B0%80%EB%82%98/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>RD-P1 - 구형 전자사전의 한계</title>
+				<link>https://ezaurum.com/2010/08/RD-P1-%EA%B5%AC%ED%98%95-%EC%A0%84%EC%9E%90%EC%82%AC%EC%A0%84%EC%9D%98-%ED%95%9C%EA%B3%84/</link>
+				<pubDate>Mon, 09 Aug 2010 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2010/08/RD-P1-%EA%B5%AC%ED%98%95-%EC%A0%84%EC%9E%90%EC%82%AC%EC%A0%84%EC%9D%98-%ED%95%9C%EA%B3%84/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;http://www.sharp-korea.co.kr/html/product/product_info.asp?pid=415&#34;&gt;RD-P1&lt;/a&gt;이라는 전자사전을 쓰고 있다. 필요로 하는 필기인식 기능이 있고, 흑백이라 가격도 저렴하고 동영상 기능이 없어서 공부에 집중할 수 있을 거라는 생각에 구입했는데, 이게 좀 거슬리는 것이.&#xA;일본어에는 四つ目垣(よつ-めがき)식으로 한자와 히라가나를 섞어 쓰는 경우가 많은데, 이 형식을 검색할 수가 없다.&#xA;일단 한자를 찾고, 음을 찾아서 아마 이거일 것이다 하는 음을 결정하고, 뒤의 히라가나와 합성해서, 검색하게 되는데&amp;hellip; 이 과정이 꽤 귀찮다. 위의 물건처럼 한자사이에 히라가나가 한두자씩 섞여있고 그 한자를 읽을 줄 모르면 다 찾아서 음을 모두 합성해야 한다.&#xA;그래도 안 나오는 경우가 많다.&#xA;&amp;hellip;좀 띄어쓰기를 하라고!&#xA;일본어는 띄어쓰기가 없다. 그래서 어디까지가 한 단어인지 알기가 힘들다. 거기다 RD-P1은 부분 검색이 안 된다. 따라서 단어 경계를 잘못 찾으면 아무리 찾아도 안 나온다.&#xA;&amp;hellip;.아놔&amp;hellip;&#xA;&lt;a href=&#34;http://jpdic.naver.com/entry_jpkr.nhn?entryId=103130&#34;&gt;四つ目垣&lt;/a&gt;를 찾으려고 얼마나 고생했는데&amp;hellip; 역시 컴을 상대할 수는 없는 건가.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

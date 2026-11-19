@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Layout on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/layout/</link>
-    <description>Recent content in Layout on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Fri, 30 Jul 2010 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/layout/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>CSS옆으로 누운 品자형 만들기</title>
-      <link>https://ezaurum.com/2010/07/CSS%EC%98%86%EC%9C%BC%EB%A1%9C-%EB%88%84%EC%9A%B4-%E5%93%81%EC%9E%90%ED%98%95-%EB%A7%8C%EB%93%A4%EA%B8%B0/</link>
-      <pubDate>Fri, 30 Jul 2010 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2010/07/CSS%EC%98%86%EC%9C%BC%EB%A1%9C-%EB%88%84%EC%9A%B4-%E5%93%81%EC%9E%90%ED%98%95-%EB%A7%8C%EB%93%A4%EA%B8%B0/</guid>
-      <description>옆으로 누운 品자형 만들기 이런 걸 만들려고 한다.&#xA;방안 1 -div를 3개만 쓰는 경우 &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;style&amp;gt; div{ margin:0px; float:left; background:gray; height:20px; }&#xA;#first {height:40px;}&#xA;#second{ width:140px; background:green; }&#xA;#last{ width:140px;&#xA;position:relative; left:-140px; top:20px;&#xA;background:yellow; } &amp;lt;/style&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt;&#xA;길다란 가변형 문자열&#xD;고정폭/고정높이&#xD;고정폭&#xD;&amp;lt;/body&amp;gt;&#xD;&amp;lt;/html&amp;gt;&#xD;문제점 - 부모 element가 보이는 것보다 좀 더-div#last의 폭이 추가된만큼- 커야 한다.&#xD;방안 2 -div를 4개 쓰는 경우, 즉 부모 엘리먼트를 하나 두는 경우 &amp;lt;!</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Layout on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/layout/</link>
+		<description>Recent content in Layout on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Fri, 30 Jul 2010 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/layout/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>CSS옆으로 누운 品자형 만들기</title>
+				<link>https://ezaurum.com/2010/07/CSS%EC%98%86%EC%9C%BC%EB%A1%9C-%EB%88%84%EC%9A%B4-%E5%93%81%EC%9E%90%ED%98%95-%EB%A7%8C%EB%93%A4%EA%B8%B0/</link>
+				<pubDate>Fri, 30 Jul 2010 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2010/07/CSS%EC%98%86%EC%9C%BC%EB%A1%9C-%EB%88%84%EC%9A%B4-%E5%93%81%EC%9E%90%ED%98%95-%EB%A7%8C%EB%93%A4%EA%B8%B0/</guid>
+				<description>&lt;p&gt;옆으로 누운 品자형 만들기&#xA;&lt;img class=&#34;alignnone size-full wp-image-976&#34; title=&#34;옆으로 누운 品자형 레이아웃&#34; src=&#34;http://gateopener.ncity.net/wordpress/wp-content/uploads/2010/07/Untitled-11.png&#34; alt=&#34;&#34; width=&#34;296&#34; height=&#34;42&#34; /&gt;&#xA;이런 걸 만들려고 한다.&lt;/p&gt;&#xA;&lt;p&gt;방안 1 -div를 3개만 쓰는 경우&#xA;&amp;lt;!DOCTYPE html&amp;gt;&#xA;&amp;lt;html&amp;gt;&#xA;&amp;lt;head&amp;gt;&#xA;&amp;lt;style&amp;gt;&#xA;div{&#xA;margin:0px;&#xA;float:left;&#xA;background:gray;&#xA;height:20px;&#xA;}&lt;/p&gt;&#xA;&lt;p&gt;#first {height:40px;}&lt;/p&gt;&#xA;&lt;p&gt;#second{&#xA;width:140px;&#xA;background:green;&#xA;}&lt;/p&gt;&#xA;&lt;p&gt;#last{&#xA;width:140px;&lt;/p&gt;&#xA;&lt;p&gt;position:relative;&#xA;left:-140px;&#xA;top:20px;&lt;/p&gt;&#xA;&lt;p&gt;background:yellow;&#xA;}&#xA;&amp;lt;/style&amp;gt;&#xA;&amp;lt;/head&amp;gt;&#xA;&amp;lt;body&amp;gt;&lt;/p&gt;&#xA;&lt;div id=&#34;first&#34;&gt;길다란 가변형 문자열&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;div id=&#34;second&#34;&gt;고정폭/고정높이&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;div id=&#34;last&#34;&gt;고정폭&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&amp;lt;/body&amp;gt;&#xD;&#xA;&amp;lt;/html&amp;gt;&#xD;&#xA;문제점 - 부모 element가 보이는 것보다 좀 더-div#last의 폭이 추가된만큼- 커야 한다.&#xD;&#xA;&lt;p&gt;방안 2 -div를 4개 쓰는 경우, 즉 부모 엘리먼트를 하나 두는 경우&#xA;&amp;lt;!DOCTYPE html&amp;gt;&#xA;&amp;lt;html&amp;gt;&#xA;&amp;lt;head&amp;gt;&#xA;&amp;lt;style&amp;gt;&#xA;div{&#xA;margin:0px;&#xA;background:gray;&#xA;}&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

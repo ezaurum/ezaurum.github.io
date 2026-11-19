@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>용두사미 on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/%EC%9A%A9%EB%91%90%EC%82%AC%EB%AF%B8/</link>
-    <description>Recent content in 용두사미 on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Mon, 14 Mar 2011 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/%EC%9A%A9%EB%91%90%EC%82%AC%EB%AF%B8/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>변신</title>
-      <link>https://ezaurum.com/2011/03/%EB%B3%80%EC%8B%A0/</link>
-      <pubDate>Mon, 14 Mar 2011 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2011/03/%EB%B3%80%EC%8B%A0/</guid>
-      <description>마무리가 약간 용두사미? 그런 느낌이었다. 스릴러라든가 추리라든가 하는 재미 보다는 여기 오고 나서부터 내가 옛날과는 다르게 변했다는 느낌을 많이 받아서 공감하면서 읽을 만 했다. 나도 어디 정신과 진료를 받든지 해야 하나&amp;hellip; 여하튼 제대가 답인가.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>용두사미 on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/%EC%9A%A9%EB%91%90%EC%82%AC%EB%AF%B8/</link>
+		<description>Recent content in 용두사미 on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Mon, 14 Mar 2011 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/%EC%9A%A9%EB%91%90%EC%82%AC%EB%AF%B8/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>변신</title>
+				<link>https://ezaurum.com/2011/03/%EB%B3%80%EC%8B%A0/</link>
+				<pubDate>Mon, 14 Mar 2011 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2011/03/%EB%B3%80%EC%8B%A0/</guid>
+				<description>&lt;p&gt;마무리가 약간 용두사미? 그런 느낌이었다.&#xA;스릴러라든가 추리라든가 하는 재미 보다는 여기 오고 나서부터 내가 옛날과는 다르게 변했다는 느낌을 많이 받아서 공감하면서 읽을 만 했다.&#xA;나도 어디 정신과 진료를 받든지 해야 하나&amp;hellip; 여하튼 제대가 답인가.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

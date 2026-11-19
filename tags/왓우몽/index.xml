@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>왓우몽 on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/%EC%99%93%EC%9A%B0%EB%AA%BD/</link>
-    <description>Recent content in 왓우몽 on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Thu, 01 Feb 2018 17:01:52 +0700</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/%EC%99%93%EC%9A%B0%EB%AA%BD/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Chiangmai Life 09 - 왓우몽</title>
-      <link>https://ezaurum.com/2018/02/Chiangmai-Life-09-%EC%99%93%EC%9A%B0%EB%AA%BD/</link>
-      <pubDate>Thu, 01 Feb 2018 17:01:52 +0700</pubDate>
-      <guid>https://ezaurum.com/2018/02/Chiangmai-Life-09-%EC%99%93%EC%9A%B0%EB%AA%BD/</guid>
-      <description>왓우몽 태국은 어디나 사원이 있다.&#xA;대부분 관광지는 절이고, 우리가 생각하는 그런 고즈넉한 분위기는 아니다. 사원 내에 매점, 식당, 안마시술소 등이 있고, 때로 야시장도 열린다. 실생활에 가까운 곳이랄까.&#xA;왓 우몽도 그런 사원 중 하나다. 절 건물이 동굴 내부에 있다는 점이 특이하지만, 그 이외에 크게 볼 건 없다. 뭐 불상의 미술 양식이라든가 역사적 가치라든가를 아는 것도 아니니까.&#xA;알고는 있었지만, 살고 있는 곳에서 1km정도만 걸으면 갈 수 있어서 가 봤다.&#xA;그런 것 보다 특이한 부분은 비둘기와 물고기다.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>왓우몽 on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/%EC%99%93%EC%9A%B0%EB%AA%BD/</link>
+		<description>Recent content in 왓우몽 on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Thu, 01 Feb 2018 17:01:52 +0700</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/%EC%99%93%EC%9A%B0%EB%AA%BD/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Chiangmai Life 09 - 왓우몽</title>
+				<link>https://ezaurum.com/2018/02/Chiangmai-Life-09-%EC%99%93%EC%9A%B0%EB%AA%BD/</link>
+				<pubDate>Thu, 01 Feb 2018 17:01:52 +0700</pubDate>
+				<guid>https://ezaurum.com/2018/02/Chiangmai-Life-09-%EC%99%93%EC%9A%B0%EB%AA%BD/</guid>
+				<description>&lt;h2 id=&#34;왓우몽&#34;&gt;왓우몽&lt;/h2&gt;&#xA;&lt;p&gt;태국은 어디나 사원이 있다.&lt;/p&gt;&#xA;&lt;p&gt;대부분 관광지는 절이고, 우리가 생각하는 그런 고즈넉한 분위기는 아니다. 사원 내에 매점, 식당, 안마시술소 등이 있고, 때로 야시장도 열린다. 실생활에 가까운 곳이랄까.&lt;/p&gt;&#xA;&lt;p&gt;왓 우몽도 그런 사원 중 하나다. 절 건물이 동굴 내부에 있다는 점이 특이하지만, 그 이외에 크게 볼 건 없다.&#xA;&lt;img src=&#34;https://ezaurum.com/images/watumong/cave0.jpg&#34; alt=&#34;&#34;&gt;&#xA;&lt;img src=&#34;https://ezaurum.com/images/watumong/cave1.jpg&#34; alt=&#34;&#34;&gt;&#xA;&lt;img src=&#34;https://ezaurum.com/images/watumong/stairs.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;뭐 불상의 미술 양식이라든가 역사적 가치라든가를 아는 것도 아니니까.&lt;/p&gt;&#xA;&lt;p&gt;알고는 있었지만, 살고 있는 곳에서 1km정도만 걸으면 갈 수 있어서 가 봤다.&lt;/p&gt;&#xA;&lt;p&gt;그런 것 보다 특이한 부분은 비둘기와 물고기다. 아주 많다.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

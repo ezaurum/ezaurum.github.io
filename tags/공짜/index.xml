@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>공짜 on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/%EA%B3%B5%EC%A7%9C/</link>
-    <description>Recent content in 공짜 on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Wed, 21 Jul 2010 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/%EA%B3%B5%EC%A7%9C/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>군인은 에버랜드 공짜</title>
-      <link>https://ezaurum.com/2010/07/%EA%B5%B0%EC%9D%B8%EC%9D%80-%EC%97%90%EB%B2%84%EB%9E%9C%EB%93%9C-%EA%B3%B5%EC%A7%9C/</link>
-      <pubDate>Wed, 21 Jul 2010 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2010/07/%EA%B5%B0%EC%9D%B8%EC%9D%80-%EC%97%90%EB%B2%84%EB%9E%9C%EB%93%9C-%EA%B3%B5%EC%A7%9C/</guid>
-      <description>군인은 향후 3년간 에버랜드가 공짜란다.&#xA;&amp;hellip;하지만 난 같이 갈 여자사람이 없잖아?&#xA;거기다 우리집은 부산&amp;hellip; 우하하&amp;hellip;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>공짜 on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/%EA%B3%B5%EC%A7%9C/</link>
+		<description>Recent content in 공짜 on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Wed, 21 Jul 2010 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/%EA%B3%B5%EC%A7%9C/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>군인은 에버랜드 공짜</title>
+				<link>https://ezaurum.com/2010/07/%EA%B5%B0%EC%9D%B8%EC%9D%80-%EC%97%90%EB%B2%84%EB%9E%9C%EB%93%9C-%EA%B3%B5%EC%A7%9C/</link>
+				<pubDate>Wed, 21 Jul 2010 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2010/07/%EA%B5%B0%EC%9D%B8%EC%9D%80-%EC%97%90%EB%B2%84%EB%9E%9C%EB%93%9C-%EA%B3%B5%EC%A7%9C/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;http://blog.daum.net/mma9090/1512&#34;&gt;군인은 향후 3년간 에버랜드가 공짜란다.&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&amp;hellip;하지만 난 같이 갈 &lt;del datetime=&#34;2010-07-21T04:06:21+00:00&#34;&gt;여자&lt;/del&gt;&lt;ins datetime=&#34;2010-07-21T04:06:21+00:00&#34;&gt;사람&lt;/ins&gt;이 없잖아?&lt;/p&gt;&#xA;&lt;p&gt;거기다 우리집은 부산&amp;hellip; 우하하&amp;hellip;&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>이 책을 권한다 on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/categories/%EC%9D%B4-%EC%B1%85%EC%9D%84-%EA%B6%8C%ED%95%9C%EB%8B%A4/</link>
-    <description>Recent content in 이 책을 권한다 on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Wed, 29 Dec 2010 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ezaurum.com/categories/%EC%9D%B4-%EC%B1%85%EC%9D%84-%EA%B6%8C%ED%95%9C%EB%8B%A4/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>이 책을 권한다</title>
-      <link>https://ezaurum.com/2010/12/%EC%9D%B4-%EC%B1%85%EC%9D%84-%EA%B6%8C%ED%95%9C%EB%8B%A4/</link>
-      <pubDate>Wed, 29 Dec 2010 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2010/12/%EC%9D%B4-%EC%B1%85%EC%9D%84-%EA%B6%8C%ED%95%9C%EB%8B%A4/</guid>
-      <description>회사에 리눅스 서버를 설치하겠다고 하는 친구 모 군에게 이 책을 권한다. 삽질 열심히 하시기를.&#xA;성공과 실패를 결정하는 1%의 네트워크 원리- 가지고 있어서 문제될 것 없는 책. 1%시리즈는 다 괜찮긴 하지. 서버 구축을 하려면 기본적인 네트워크 원리는 알고 있어야 하니까 꼭 읽어둘 것.&#xA;Unix가 보이는 그림책- 아주 친절한 유닉스/리눅스 입문서. 책장이 숙숙 넘어가서 좋다.&#xA;유닉스 리눅스 명령어 사전 - 이건 안 읽어봤다. 평이 좋더라고.&#xA;실제 구현하는 것은 인터넷 쪽에 자료가 더 많을 듯.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>이 책을 권한다 on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/categories/%EC%9D%B4-%EC%B1%85%EC%9D%84-%EA%B6%8C%ED%95%9C%EB%8B%A4/</link>
+		<description>Recent content in 이 책을 권한다 on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Wed, 29 Dec 2010 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/categories/%EC%9D%B4-%EC%B1%85%EC%9D%84-%EA%B6%8C%ED%95%9C%EB%8B%A4/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>이 책을 권한다</title>
+				<link>https://ezaurum.com/2010/12/%EC%9D%B4-%EC%B1%85%EC%9D%84-%EA%B6%8C%ED%95%9C%EB%8B%A4/</link>
+				<pubDate>Wed, 29 Dec 2010 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2010/12/%EC%9D%B4-%EC%B1%85%EC%9D%84-%EA%B6%8C%ED%95%9C%EB%8B%A4/</guid>
+				<description>&lt;p&gt;회사에 리눅스 서버를 설치하겠다고 하는 친구 모 군에게 이 책을 권한다. 삽질 열심히 하시기를.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.google.com/search?hl=en&amp;amp;client=opera&amp;amp;hs=nYR&amp;amp;rls=ko&amp;amp;channel=suggest&amp;amp;q=%EC%84%B1%EA%B3%B5%EA%B3%BC+%EC%8B%A4%ED%8C%A8%EB%A5%BC+%EA%B2%B0%EC%A0%95%ED%95%98%EB%8A%94+1+%EC%9D%98+%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC+%EC%9B%90%EB%A6%AC&amp;amp;aq=f&amp;amp;aqi=&amp;amp;aql=&amp;amp;oq=&amp;amp;gs_rfai=&#34;&gt;성공과 실패를 결정하는 1%의 네트워크 원리&lt;/a&gt;- 가지고 있어서 문제될 것 없는 책. 1%시리즈는 다 괜찮긴 하지. 서버 구축을 하려면 기본적인 네트워크 원리는 알고 있어야 하니까 꼭 읽어둘 것.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.google.com/search?hl=en&amp;amp;client=opera&amp;amp;hs=7aR&amp;amp;rls=ko&amp;amp;channel=suggest&amp;amp;q=%EC%9C%A0%EB%8B%89%EC%8A%A4%EA%B0%80+%EB%B3%B4%EC%9D%B4%EB%8A%94+%EA%B7%B8%EB%A6%BC%EC%B1%85&amp;amp;aq=f&amp;amp;aqi=&amp;amp;aql=&amp;amp;oq=&amp;amp;gs_rfai=&#34;&gt;Unix가 보이는 그림책&lt;/a&gt;- 아주 친절한 유닉스/리눅스 입문서. 책장이 숙숙 넘어가서 좋다.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.google.com/search?hl=en&amp;amp;client=opera&amp;amp;hs=WHm&amp;amp;rls=ko&amp;amp;channel=suggest&amp;amp;q=%EC%9C%A0%EB%8B%89%EC%8A%A4+%EB%A6%AC%EB%88%85%EC%8A%A4+%EB%AA%85%EB%A0%B9%EC%96%B4%EC%82%AC%EC%A0%84&amp;amp;aq=f&amp;amp;aqi=&amp;amp;aql=&amp;amp;oq=&amp;amp;gs_rfai=&#34;&gt;유닉스 리눅스 명령어 사전&lt;/a&gt; - 이건 안 읽어봤다. 평이 좋더라고.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;실제 구현하는 것은 인터넷 쪽에 자료가 더 많을 듯.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>
