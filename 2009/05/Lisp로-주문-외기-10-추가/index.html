@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang='ko-kr'>
+<html lang='en'>
 <head>
     <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
     
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-40920966-1"></script>
@@ -14,37 +15,64 @@
 </script>
 
 
-    <title>   Lisp로 주문 외기 - 10 - 추가 -  Ezaurum&#39;s Blog </title>
-    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+    <title>Lisp로 주문 외기 - 10 - 추가 - Ezaurum&#39;s Blog</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
     <link rel="stylesheet" href="/css/style.css">
 
     </head>
 <body>
-
-    <header>
-    <nav>
+<header class="site-header">
+    <div class="wrap">
+        <a class="site-title" href="/">Ezaurum&#39;s Blog</a>
+        
+<nav class="site-nav" aria-label="사이트 메뉴">
     
-        <a href="https://ezaurum.com/">Ezaurum&#39;s Blog</a>
+        
+        <a href="/post/" aria-current="page">글</a>
+        
     
-        <a href="https://ezaurum.com/about/">About</a>
+        
+        <a href="/reading/">독서</a>
+        
     
-        <a href="https://ezaurum.com/tools/">사용하는 툴</a>
+        
+        <a href="/recipe/">레시피</a>
+        
     
-        <a href="https://ezaurum.com/pragmatic-programmer/">실용주의 프로그래머</a>
+        
+        <a href="/bug/">버그일기</a>
+        
     
-    <a href="/bug">버그일기</a>
-    <a href="/retrospective">회고</a>
+        
+        <a href="/retrospective/">회고</a>
+        
+    
+    
+        <a href="/about/">About</a>
+    
+        <a href="/tools/">사용하는 툴</a>
+    
+        <a href="/pragmatic-programmer/">실용주의 프로그래머</a>
+    
 </nav>
 
+    </div>
 </header>
 
 
+<main class="wrap">
 
+<article class="post">
+<header class="post-header">
+    <h1 class="page-title">Lisp로 주문 외기 - 10 - 추가</h1>
+    <div class="post-meta">
+        <time datetime="2009-05-26">2009년 5월 26일</time>
+        <a href="/post/">글</a>
+        
+    </div>
+</header>
 
-<main class="post single">
-<h1>Lisp로 주문 외기 - 10 - 추가</h1>
-2009-05-26
-<section><h3>추가</h3>
+<div class="post-body"><h3>추가</h3>
 <p>좋아요. 이제 이 설명서에서 대충 얼버무리고 지나간 것들에 대해 얘기해 봅시다&hellip;</p>
 <p>무엇보다, Lisp 코드는 컴파일 되기도 하고 종종 실행시간에 번역(interpreted) 되기도 합니다. 같은 프로그램 안에서도 말이죠. 이 때문에, Lisp 환경은 컴파일러라고 불리지 않고, <em>구현(implementations)</em>이라 불리고 있습니다.
 (비록 실행시간에 번역되는 Lisp코드가 보통은 일단 바이트코드로 컴파일되긴 하지만, 그건 일단 다른 얘기고&hellip;)</p>
@@ -61,40 +89,36 @@
 <p><a href="http://www.cliki.net/Lisp%20books">cliki 사이트</a>에서 볼 수 있는 굉장한 Lisp 책들이 아주 많습니다.(개중 몇은 내려받을 수 있죠).</p>
 <p>아주 극도로 이론적인 문서에 관심이 있다면, Paul Graham의 <a href="http://www.paulgraham.com/onlisp.html">On Lisp</a>의 eBook을 권해드립니다. 그가 쓴 다른 책과 수필은 그의 웹사이트에서 볼 수 있고 상당히 멋져요.</p>
 <p>더 실질적인 전략에 관심이 있다면, 많은 Lisp 사용자가 지금 Peter Seibel의 <a href="http://www.amazon.com/exec/obidos/tg/detail/-/1590592395/qid=1102288668/sr=8-1/ref=sr_8_xs_ap_i1_xgl14/104-7821785-4266358?v=glance&amp;s=books&amp;n=507846">Practical Common Lisp</a>에 환호하고 있습니다. 이 책의 <a href="http://www.gigamonkeys.com/book/">몇 장은 인터넷</a>에서도 볼 수 있어요.</p>
-</section>
+</div>
 
+<footer class="post-footer">
+    
+    
+    <div class="post-terms"><span>태그</span>
+        <ul class="chips"><li><a href="/tags/casting-spels/">casting-spels</a></li><li><a href="/tags/%EB%B2%88%EC%97%AD/">번역</a></li><li><a href="/tags/%EA%B2%B0%EA%B3%BC%EB%AC%BC/">결과물</a></li><li><a href="/tags/%EA%B3%B5%EB%B6%80/">공부</a></li><li><a href="/tags/LISP/">LISP</a></li></ul>
+    </div>
+    
 
+    
+    
 
-
-    <ul class="taxonomy tag">
-        Tag
+    
+    
+    
+    
+    
+    <nav class="post-nav" aria-label="이전/다음 글">
         
-        <li><a href="/tags/casting-spels">casting-spels</a></li>
-        
-        <li><a href="/tags/%EB%B2%88%EC%97%AD">번역</a></li>
-        
-        <li><a href="/tags/%EA%B2%B0%EA%B3%BC%EB%AC%BC">결과물</a></li>
-        
-        <li><a href="/tags/%EA%B3%B5%EB%B6%80">공부</a></li>
-        
-        <li><a href="/tags/LISP">LISP</a></li>
-        </ul>
-    </ul>
+        <a class="next" href="/2009/06/Ubuntu-%EC%97%90%EC%84%9C-%EB%98%90-%EC%9C%88%EB%8F%84%EB%A1%9C.../"><small>다음 글 →</small>Ubuntu 에서 또 윈도로...</a>
+    </nav>
+    
+    
+</footer>
+</article>
 
 
-
-<a href="https://ezaurum.com/2009/06/Ubuntu-%EC%97%90%EC%84%9C-%EB%98%90-%EC%9C%88%EB%8F%84%EB%A1%9C.../"> Ubuntu 에서 또 윈도로...</a>
-
-
-<a href="https://ezaurum.com/2009/05/Voices/">Voices</a>
-
-
-
-
-
-
+<div class="adsense">
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
 <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-3471055249244195"
@@ -103,24 +127,19 @@
 <script>
     (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+</div>
+
 
 
 </main>
 
-
-
-    <footer>
-© Ezaurum 2001-
+<footer class="site-footer">
+    <div class="wrap">© Ezaurum 2001-2026</div>
 </footer>
 
-
-
-
-
-    <script>
+<script>
 
 </script>
-
 
 </body>
 </html>

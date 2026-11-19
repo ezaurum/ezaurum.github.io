@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang='ko-kr'>
+<html lang='en'>
 <head>
     <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
     
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-40920966-1"></script>
@@ -14,37 +15,64 @@
 </script>
 
 
-    <title>   Lisp로 주문 외기 - 4 - -  Ezaurum&#39;s Blog </title>
-    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+    <title>Lisp로 주문 외기 - 4 - - Ezaurum&#39;s Blog</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
     <link rel="stylesheet" href="/css/style.css">
 
     </head>
 <body>
-
-    <header>
-    <nav>
+<header class="site-header">
+    <div class="wrap">
+        <a class="site-title" href="/">Ezaurum&#39;s Blog</a>
+        
+<nav class="site-nav" aria-label="사이트 메뉴">
     
-        <a href="https://ezaurum.com/">Ezaurum&#39;s Blog</a>
+        
+        <a href="/post/" aria-current="page">글</a>
+        
     
-        <a href="https://ezaurum.com/about/">About</a>
+        
+        <a href="/reading/">독서</a>
+        
     
-        <a href="https://ezaurum.com/tools/">사용하는 툴</a>
+        
+        <a href="/recipe/">레시피</a>
+        
     
-        <a href="https://ezaurum.com/pragmatic-programmer/">실용주의 프로그래머</a>
+        
+        <a href="/bug/">버그일기</a>
+        
     
-    <a href="/bug">버그일기</a>
-    <a href="/retrospective">회고</a>
+        
+        <a href="/retrospective/">회고</a>
+        
+    
+    
+        <a href="/about/">About</a>
+    
+        <a href="/tools/">사용하는 툴</a>
+    
+        <a href="/pragmatic-programmer/">실용주의 프로그래머</a>
+    
 </nav>
 
+    </div>
 </header>
 
 
+<main class="wrap">
 
+<article class="post">
+<header class="post-header">
+    <h1 class="page-title">Lisp로 주문 외기 - 4 -</h1>
+    <div class="post-meta">
+        <time datetime="2009-02-03">2009년 2월 3일</time>
+        <a href="/post/">글</a>
+        
+    </div>
+</header>
 
-<main class="post single">
-<h1>Lisp로 주문 외기 - 4 -</h1>
-2009-02-03
-<section><p>라이센스 - <a href="http://www.gnu.org/licenses/licenses.html#FDL">The GNU Free Documentation License</a>
+<div class="post-body"><p>라이센스 - <a href="http://www.gnu.org/licenses/licenses.html#FDL">The GNU Free Documentation License</a>
 원저자 - <a href="mailto:lisperati@gmail.com">Conrad Barski, M.D.</a>
 원본 출처 - <a href="http://lisperati.com/casting.html"><a href="http://lisperati.com/casting.html">http://lisperati.com/casting.html</a></a></p>
 <h3>문법과 의미</h3>
@@ -57,40 +85,36 @@ Lisp가 특별한 첫 번째 점은 유명한 프로그래밍 언어중에서 �
 <p>추가로, Lisp 컴파일러는 코드를 읽을 때 두 가지 형태를 사용합니다. 바로 <strong>코드 모드(Code mode)</strong>와 <strong>데이터 모드(Data mode)</strong>지요. 데이터 모드에서는, 목록에 원하는 무었이든지 넣을 수 있습니다. 하지만 컴파일러가 일단 코드 모드로 코드를 읽기 시작하면, 코드 모드에서는 목록은 <strong>형식(Form)</strong>이라고 하는 특별한 모양이 되어야 합니다.
 <img src="/wordpress/wp-content/uploads/2009/02/frame.jpg" alt="frame" title="frame" width="500" height="281" class="alignnone size-full wp-image-389" />
 형식(Form)은 목록의 첫번째 기호가 컴파일러가 알아들을 수 있는 특별한 단어로 시작되는 목록입니다. 보통은 함수의 이름이지요. 이 경우, 컴파일러는 목록의 다른 항목들을 함수에 인수로 보내줍니다. 이 인수들로 문장을 읽을 때는, 데이터모드로 바꾸기 전에는 보통 그것들도 코드 모드로 가정하고 읽습니다.</p>
-</section>
+</div>
 
+<footer class="post-footer">
+    
+    
+    <div class="post-terms"><span>태그</span>
+        <ul class="chips"><li><a href="/tags/casting-spels/">casting-spels</a></li><li><a href="/tags/%EB%B2%88%EC%97%AD/">번역</a></li><li><a href="/tags/%EA%B2%B0%EA%B3%BC%EB%AC%BC/">결과물</a></li><li><a href="/tags/%EA%B3%B5%EB%B6%80/">공부</a></li><li><a href="/tags/LISP/">LISP</a></li></ul>
+    </div>
+    
 
+    
+    
 
-
-    <ul class="taxonomy tag">
-        Tag
+    
+    
+    
+    
+    
+    <nav class="post-nav" aria-label="이전/다음 글">
         
-        <li><a href="/tags/casting-spels">casting-spels</a></li>
-        
-        <li><a href="/tags/%EB%B2%88%EC%97%AD">번역</a></li>
-        
-        <li><a href="/tags/%EA%B2%B0%EA%B3%BC%EB%AC%BC">결과물</a></li>
-        
-        <li><a href="/tags/%EA%B3%B5%EB%B6%80">공부</a></li>
-        
-        <li><a href="/tags/LISP">LISP</a></li>
-        </ul>
-    </ul>
+        <a class="next" href="/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-3-/"><small>다음 글 →</small>Lisp로 주문 외기 - 3 -</a>
+    </nav>
+    
+    
+</footer>
+</article>
 
 
-
-<a href="https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-3-/"> Lisp로 주문 외기 - 3 -</a>
-
-
-<a href="https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-5-/">Lisp로 주문 외기 - 5 -</a>
-
-
-
-
-
-
+<div class="adsense">
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
 <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-3471055249244195"
@@ -99,24 +123,19 @@ Lisp가 특별한 첫 번째 점은 유명한 프로그래밍 언어중에서 �
 <script>
     (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+</div>
+
 
 
 </main>
 
-
-
-    <footer>
-© Ezaurum 2001-
+<footer class="site-footer">
+    <div class="wrap">© Ezaurum 2001-2026</div>
 </footer>
 
-
-
-
-
-    <script>
+<script>
 
 </script>
-
 
 </body>
 </html>

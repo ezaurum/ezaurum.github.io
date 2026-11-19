@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang='ko-kr'>
+<html lang='en'>
 <head>
     <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
     
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-40920966-1"></script>
@@ -14,77 +15,100 @@
 </script>
 
 
-    <title>   IP network 주소 -  Ezaurum&#39;s Blog </title>
-    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+    <title>IP network 주소 - Ezaurum&#39;s Blog</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
     <link rel="stylesheet" href="/css/style.css">
 
     </head>
 <body>
-
-    <header>
-    <nav>
+<header class="site-header">
+    <div class="wrap">
+        <a class="site-title" href="/">Ezaurum&#39;s Blog</a>
+        
+<nav class="site-nav" aria-label="사이트 메뉴">
     
-        <a href="https://ezaurum.com/">Ezaurum&#39;s Blog</a>
+        
+        <a href="/post/" aria-current="page">글</a>
+        
     
-        <a href="https://ezaurum.com/about/">About</a>
+        
+        <a href="/reading/">독서</a>
+        
     
-        <a href="https://ezaurum.com/tools/">사용하는 툴</a>
+        
+        <a href="/recipe/">레시피</a>
+        
     
-        <a href="https://ezaurum.com/pragmatic-programmer/">실용주의 프로그래머</a>
+        
+        <a href="/bug/">버그일기</a>
+        
     
-    <a href="/bug">버그일기</a>
-    <a href="/retrospective">회고</a>
+        
+        <a href="/retrospective/">회고</a>
+        
+    
+    
+        <a href="/about/">About</a>
+    
+        <a href="/tools/">사용하는 툴</a>
+    
+        <a href="/pragmatic-programmer/">실용주의 프로그래머</a>
+    
 </nav>
 
+    </div>
 </header>
 
 
+<main class="wrap">
 
+<article class="post">
+<header class="post-header">
+    <h1 class="page-title">IP network 주소</h1>
+    <div class="post-meta">
+        <time datetime="2010-08-03">2010년 8월 3일</time>
+        <a href="/post/">글</a>
+        
+    </div>
+</header>
 
-<main class="post single">
-<h1>IP network 주소</h1>
-2010-08-03
-<section><img src="/wordpress/wp-content/uploads/2010/08/host.png" alt="ip 주소 구조" title="host" width="480" height="316" class="alignnone size-full wp-image-1032" />
+<div class="post-body"><img src="/wordpress/wp-content/uploads/2010/08/host.png" alt="ip 주소 구조" title="host" width="480" height="316" class="alignnone size-full wp-image-1032" />
 <p>0### ####.xxxx xxxx.xxxx xxxx.xxxx xxxx A class(0-127) 네트워크 2^7 -2개, 각 네트워크마다 호스트 2^24-2개
 10## ####.#### ####.xxxx xxxx.xxxx xxxx B class(128-191) 네트워크 2^14-2개, 각 네트워크마다  호스트 2^16-2개
 110# ####.#### ####.#### ####.xxxx xxxx C class(192-223) 네트워크 2^21-2개, 각 네트워크마다  호스트 2^8-2개</p>
 <p>각 위치마다 빠지는 두 개는 네트워크부(#로 표시된 것)와 호스트부(x로 표시된 것)0과 1로 채운 2가지.
 네트워크부를 모두 0으로 채운 것은 이 네트워크 그 자체를 의미한다고 한다. <a href="http://freesoft.org/CIE/RFC/791/index.htm">RFC 791</a>참조
 네트워크부를 1로 채운 것은 <a href="http://en.wikipedia.org/wiki/Broadcast_address">브로드 캐스트 주소</a>로 쓰인다. <a href="http://freesoft.org/CIE/RFC/922/index.htm">RFC 922 참조</a> 127.0.0.1은 보통 localhost(this machine, 지금 사용하고 있는 바로 그 기계)를 의미한다.</p>
-</section>
+</div>
 
+<footer class="post-footer">
+    
+    
+    <div class="post-terms"><span>태그</span>
+        <ul class="chips"><li><a href="/tags/%EA%B3%B5%EB%B6%80/">공부</a></li><li><a href="/tags/ip/">ip</a></li><li><a href="/tags/IPv4/">IPv4</a></li><li><a href="/tags/network/">network</a></li><li><a href="/tags/web/">web</a></li></ul>
+    </div>
+    
 
+    
+    
 
-
-    <ul class="taxonomy tag">
-        Tag
+    
+    
+    
+    
+    
+    <nav class="post-nav" aria-label="이전/다음 글">
         
-        <li><a href="/tags/%EA%B3%B5%EB%B6%80">공부</a></li>
-        
-        <li><a href="/tags/ip">ip</a></li>
-        
-        <li><a href="/tags/IPv4">IPv4</a></li>
-        
-        <li><a href="/tags/network">network</a></li>
-        
-        <li><a href="/tags/web">web</a></li>
-        </ul>
-    </ul>
+        <a class="next" href="/2010/08/%EB%B0%A9%EC%9E%90%EC%A0%84/"><small>다음 글 →</small>방자전</a>
+    </nav>
+    
+    
+</footer>
+</article>
 
 
-
-<a href="https://ezaurum.com/2010/08/%EB%B0%A9%EC%9E%90%EC%A0%84/"> 방자전</a>
-
-
-<a href="https://ezaurum.com/2010/08/%EA%B3%A0%EC%96%91%EC%9D%B4%EB%8B%98-%EB%91%90-%EB%B6%84/">고양이님 두 분</a>
-
-
-
-
-
-
+<div class="adsense">
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
 <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-3471055249244195"
@@ -93,24 +117,19 @@
 <script>
     (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+</div>
+
 
 
 </main>
 
-
-
-    <footer>
-© Ezaurum 2001-
+<footer class="site-footer">
+    <div class="wrap">© Ezaurum 2001-2026</div>
 </footer>
 
-
-
-
-
-    <script>
+<script>
 
 </script>
-
 
 </body>
 </html>

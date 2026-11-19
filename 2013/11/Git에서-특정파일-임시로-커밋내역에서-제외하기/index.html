@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang='ko-kr'>
+<html lang='en'>
 <head>
     <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
     
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-40920966-1"></script>
@@ -14,37 +15,64 @@
 </script>
 
 
-    <title>   Git에서 특정파일 임시로 커밋내역에서 제외하기 -  Ezaurum&#39;s Blog </title>
-    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+    <title>Git에서 특정파일 임시로 커밋내역에서 제외하기 - Ezaurum&#39;s Blog</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
     <link rel="stylesheet" href="/css/style.css">
 
     </head>
 <body>
-
-    <header>
-    <nav>
+<header class="site-header">
+    <div class="wrap">
+        <a class="site-title" href="/">Ezaurum&#39;s Blog</a>
+        
+<nav class="site-nav" aria-label="사이트 메뉴">
     
-        <a href="https://ezaurum.com/">Ezaurum&#39;s Blog</a>
+        
+        <a href="/post/">글</a>
+        
     
-        <a href="https://ezaurum.com/about/">About</a>
+        
+        <a href="/reading/">독서</a>
+        
     
-        <a href="https://ezaurum.com/tools/">사용하는 툴</a>
+        
+        <a href="/recipe/" aria-current="page">레시피</a>
+        
     
-        <a href="https://ezaurum.com/pragmatic-programmer/">실용주의 프로그래머</a>
+        
+        <a href="/bug/">버그일기</a>
+        
     
-    <a href="/bug">버그일기</a>
-    <a href="/retrospective">회고</a>
+        
+        <a href="/retrospective/">회고</a>
+        
+    
+    
+        <a href="/about/">About</a>
+    
+        <a href="/tools/">사용하는 툴</a>
+    
+        <a href="/pragmatic-programmer/">실용주의 프로그래머</a>
+    
 </nav>
 
+    </div>
 </header>
 
 
+<main class="wrap">
 
+<article class="post">
+<header class="post-header">
+    <h1 class="page-title">Git에서 특정파일 임시로 커밋내역에서 제외하기</h1>
+    <div class="post-meta">
+        <time datetime="2013-11-24">2013년 11월 24일</time>
+        <a href="/recipe/">레시피</a>
+        
+    </div>
+</header>
 
-<main class="post single">
-<h1>Git에서 특정파일 임시로 커밋내역에서 제외하기</h1>
-2013-11-24
-<section><h2 id="출처">출처</h2>
+<div class="post-body"><h2 id="출처">출처</h2>
 <ul>
 <li><a href="http://blog.outsider.ne.kr/817" title="Git에서 특정파일 임시로 커밋내역에서 제외하기"><a href="http://blog.outsider.ne.kr/817">http://blog.outsider.ne.kr/817</a></a></li>
 <li><a href="https://stackoverflow.com/questions/13630849/git-difference-between-assume-unchanged-and-skip-worktree">스택오버플로우</a></li>
@@ -77,45 +105,40 @@ git update-index --no-skip-worktree 파일명
 </code></pre><p>제외 - <code>git update-index &ndash;assume-unchanged 파일명</code>
 복구 - <code>git update-index &ndash;no-assume-unchanged 파일명</code>
 초기화 - <code>git update-index &ndash;really-refresh</code></p>
-</section>
+</div>
 
-
-<ul class="taxonomy category">
-    Category
+<footer class="post-footer">
     
-    <li><a href="/categories/%ED%95%9C%EC%A4%84%EC%A0%95%EB%A6%AC">한줄정리</a></li>
-    </ul>
-</ul>
+    <div class="post-terms"><span>카테고리</span>
+        <ul class="chips"><li><a href="/categories/%ED%95%9C%EC%A4%84%EC%A0%95%EB%A6%AC/">한줄정리</a></li></ul>
+    </div>
+    
+    
+    <div class="post-terms"><span>태그</span>
+        <ul class="chips"><li><a href="/tags/git/">git</a></li><li><a href="/tags/%ED%95%9C%EC%A4%84%EC%A0%95%EB%A6%AC/">한줄정리</a></li><li><a href="/tags/%ED%95%B4%EA%B2%B0%EB%B2%95/">해결법</a></li><li><a href="/tags/programming/">programming</a></li></ul>
+    </div>
+    
 
+    
+    
 
-
-    <ul class="taxonomy tag">
-        Tag
+    
+    
+    
+    
+    
+    <nav class="post-nav" aria-label="이전/다음 글">
         
-        <li><a href="/tags/git">git</a></li>
-        
-        <li><a href="/tags/%ED%95%9C%EC%A4%84%EC%A0%95%EB%A6%AC">한줄정리</a></li>
-        
-        <li><a href="/tags/%ED%95%B4%EA%B2%B0%EB%B2%95">해결법</a></li>
-        
-        <li><a href="/tags/programming">programming</a></li>
-        </ul>
-    </ul>
+        <a class="next" href="/2013/11/git-%ED%98%84%EC%9E%AC-%EB%82%A0%EC%A7%9C%EB%A1%9C-%EB%B2%88%EB%93%A4-%EB%A7%8C%EB%93%A4%EC%96%B4%EC%84%9C-%EC%A7%80%EC%A0%95-%EB%94%94%EB%A0%89%ED%86%A0%EB%A6%AC%EB%A1%9C-%EC%9D%B4%EB%8F%99%ED%95%98%EB%8A%94-%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8/"><small>다음 글 →</small>git 현재 날짜로 번들 만들어서 지정 디렉토리로 이동하는 스크립트</a>
+    </nav>
+    
+    
+</footer>
+</article>
 
 
-
-<a href="https://ezaurum.com/2013/11/git-%ED%98%84%EC%9E%AC-%EB%82%A0%EC%A7%9C%EB%A1%9C-%EB%B2%88%EB%93%A4-%EB%A7%8C%EB%93%A4%EC%96%B4%EC%84%9C-%EC%A7%80%EC%A0%95-%EB%94%94%EB%A0%89%ED%86%A0%EB%A6%AC%EB%A1%9C-%EC%9D%B4%EB%8F%99%ED%95%98%EB%8A%94-%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8/"> git 현재 날짜로 번들 만들어서 지정 디렉토리로 이동하는 스크립트</a>
-
-
-<a href="https://ezaurum.com/2013/11/java%EC%97%90%EC%84%9C-arraylist-%EC%82%AD%EC%A0%9C%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/">java에서 arraylist 삭제하는 방법</a>
-
-
-
-
-
-
+<div class="adsense">
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
 <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-3471055249244195"
@@ -124,24 +147,19 @@ git update-index --no-skip-worktree 파일명
 <script>
     (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+</div>
+
 
 
 </main>
 
-
-
-    <footer>
-© Ezaurum 2001-
+<footer class="site-footer">
+    <div class="wrap">© Ezaurum 2001-2026</div>
 </footer>
 
-
-
-
-
-    <script>
+<script>
 
 </script>
-
 
 </body>
 </html>

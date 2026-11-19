@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang='ko-kr'>
+<html lang='en'>
 <head>
     <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
     
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-40920966-1"></script>
@@ -14,77 +15,101 @@
 </script>
 
 
-    <title>   쿼리 결과를 CSV 파일로 생성 -  Ezaurum&#39;s Blog </title>
-    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+    <title>쿼리 결과를 CSV 파일로 생성 - Ezaurum&#39;s Blog</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
     <link rel="stylesheet" href="/css/style.css">
 
     </head>
 <body>
-
-    <header>
-    <nav>
+<header class="site-header">
+    <div class="wrap">
+        <a class="site-title" href="/">Ezaurum&#39;s Blog</a>
+        
+<nav class="site-nav" aria-label="사이트 메뉴">
     
-        <a href="https://ezaurum.com/">Ezaurum&#39;s Blog</a>
+        
+        <a href="/post/">글</a>
+        
     
-        <a href="https://ezaurum.com/about/">About</a>
+        
+        <a href="/reading/">독서</a>
+        
     
-        <a href="https://ezaurum.com/tools/">사용하는 툴</a>
+        
+        <a href="/recipe/" aria-current="page">레시피</a>
+        
     
-        <a href="https://ezaurum.com/pragmatic-programmer/">실용주의 프로그래머</a>
+        
+        <a href="/bug/">버그일기</a>
+        
     
-    <a href="/bug">버그일기</a>
-    <a href="/retrospective">회고</a>
+        
+        <a href="/retrospective/">회고</a>
+        
+    
+    
+        <a href="/about/">About</a>
+    
+        <a href="/tools/">사용하는 툴</a>
+    
+        <a href="/pragmatic-programmer/">실용주의 프로그래머</a>
+    
 </nav>
 
+    </div>
 </header>
 
 
+<main class="wrap">
 
+<article class="post">
+<header class="post-header">
+    <h1 class="page-title">쿼리 결과를 CSV 파일로 생성</h1>
+    <div class="post-meta">
+        <time datetime="2019-05-12">2019년 5월 12일</time>
+        <a href="/recipe/">레시피</a>
+        
+    </div>
+</header>
 
-<main class="post single">
-<h1>쿼리 결과를 CSV 파일로 생성</h1>
-2019-05-12
-<section><pre tabindex="0"><code>select b.*, a.* from log_table a,
+<div class="post-body"><pre tabindex="0"><code>select b.*, a.* from log_table a,
 somehow_table b where a.id = b.id
 and check_result=&#39;Success&#39; and a.column=123
 INTO OUTFILE &#39;orders.csv&#39; FIELDS TERMINATED BY &#39;,&#39; ENCLOSED BY &#39;&#34;&#39; LINES TERMINATED BY &#39;\n&#39;;
-</code></pre></section>
+</code></pre></div>
 
-
-<ul class="taxonomy category">
-    Category
+<footer class="post-footer">
     
-    <li><a href="/categories/%ED%95%9C%EC%A4%84%EC%A0%95%EB%A6%AC">한줄정리</a></li>
-    </ul>
-</ul>
+    <div class="post-terms"><span>카테고리</span>
+        <ul class="chips"><li><a href="/categories/%ED%95%9C%EC%A4%84%EC%A0%95%EB%A6%AC/">한줄정리</a></li></ul>
+    </div>
+    
+    
+    <div class="post-terms"><span>태그</span>
+        <ul class="chips"><li><a href="/tags/csv/">csv</a></li><li><a href="/tags/sql/">sql</a></li><li><a href="/tags/cli/">cli</a></li></ul>
+    </div>
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    <nav class="post-nav" aria-label="이전/다음 글">
+        <a class="prev" href="/2019/02/%EC%97%91%EC%85%80%EC%97%90%EC%84%9C-%EC%BB%AC%EB%9F%BC%EC%9D%84-%EB%A1%9C%EC%9A%B0%EB%A1%9C-%EB%A1%9C%EC%9A%B0%EB%A5%BC-%EC%BB%AC%EB%9F%BC%EC%9C%BC%EB%A1%9C-%EB%B3%80%ED%99%98/"><small>← 이전 글</small>엑셀에서 컬럼을 로우로, 로우를 컬럼으로 변환</a>
+        <a class="next" href="/2019/06/%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C-%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%90-%EC%9B%B9%EC%82%AC%EC%9D%B4%ED%8A%B8-%EB%B0%B0%ED%8F%AC/"><small>다음 글 →</small>클라우드 프론트에 웹사이트 배포</a>
+    </nav>
+    
+    
+</footer>
+</article>
 
 
-
-    <ul class="taxonomy tag">
-        Tag
-        
-        <li><a href="/tags/csv">csv</a></li>
-        
-        <li><a href="/tags/sql">sql</a></li>
-        
-        <li><a href="/tags/cli">cli</a></li>
-        </ul>
-    </ul>
-
-
-
-<a href="https://ezaurum.com/retrospective/2019-1st-quater/"> 2019년 1사분기 회고</a>
-
-
-<a href="https://ezaurum.com/bug/deploy-bug-not-changed/">배포 이후 변경이 안 되는 문제</a>
-
-
-
-
-
-
+<div class="adsense">
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
 <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-3471055249244195"
@@ -93,24 +118,19 @@ INTO OUTFILE &#39;orders.csv&#39; FIELDS TERMINATED BY &#39;,&#39; ENCLOSED BY &
 <script>
     (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+</div>
+
 
 
 </main>
 
-
-
-    <footer>
-© Ezaurum 2001-
+<footer class="site-footer">
+    <div class="wrap">© Ezaurum 2001-2026</div>
 </footer>
 
-
-
-
-
-    <script>
+<script>
 
 </script>
-
 
 </body>
 </html>

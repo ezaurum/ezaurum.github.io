@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang='ko-kr'>
+<html lang='en'>
 <head>
     <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
     
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-40920966-1"></script>
@@ -14,37 +15,64 @@
 </script>
 
 
-    <title>   Lisp로 주문 외기 - 9 - -  Ezaurum&#39;s Blog </title>
-    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+    <title>Lisp로 주문 외기 - 9 - - Ezaurum&#39;s Blog</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
     <link rel="stylesheet" href="/css/style.css">
 
     </head>
 <body>
-
-    <header>
-    <nav>
+<header class="site-header">
+    <div class="wrap">
+        <a class="site-title" href="/">Ezaurum&#39;s Blog</a>
+        
+<nav class="site-nav" aria-label="사이트 메뉴">
     
-        <a href="https://ezaurum.com/">Ezaurum&#39;s Blog</a>
+        
+        <a href="/post/" aria-current="page">글</a>
+        
     
-        <a href="https://ezaurum.com/about/">About</a>
+        
+        <a href="/reading/">독서</a>
+        
     
-        <a href="https://ezaurum.com/tools/">사용하는 툴</a>
+        
+        <a href="/recipe/">레시피</a>
+        
     
-        <a href="https://ezaurum.com/pragmatic-programmer/">실용주의 프로그래머</a>
+        
+        <a href="/bug/">버그일기</a>
+        
     
-    <a href="/bug">버그일기</a>
-    <a href="/retrospective">회고</a>
+        
+        <a href="/retrospective/">회고</a>
+        
+    
+    
+        <a href="/about/">About</a>
+    
+        <a href="/tools/">사용하는 툴</a>
+    
+        <a href="/pragmatic-programmer/">실용주의 프로그래머</a>
+    
 </nav>
 
+    </div>
 </header>
 
 
+<main class="wrap">
 
+<article class="post">
+<header class="post-header">
+    <h1 class="page-title">Lisp로 주문 외기 - 9 -</h1>
+    <div class="post-meta">
+        <time datetime="2009-05-25">2009년 5월 25일</time>
+        <a href="/post/">글</a>
+        
+    </div>
+</header>
 
-<main class="post single">
-<h1>Lisp로 주문 외기 - 9 -</h1>
-2009-05-25
-<section><h3>게임의 특별한 동작 만들기</h3>
+<div class="post-body"><h3>게임의 특별한 동작 만들기</h3>
 <p>이제 완성까지 딱 하나만 더 하면 됩니다. 플레이어가 게임을 끝내기 위한 특별한 동작을 좀 더하는 거죠. 첫 번째 명령은 플레이어가 쇠사슬을 다락방에 있던 양동이에 용접하는 게 될 겁니다.</p>
 <p><code>(setf <em>chain-welded</em> nil)</p>
 <p>(defun weld (subject object)
@@ -124,40 +152,36 @@ he hands you the magic low-carb donut- you win! the end.))))</code></p>
 <p>게임의 전체 진행을 보려면 <a href="http://lisperati.com/cheat.html">여기</a>를 클릭
 Lisp프롬프트에 한 번 Copy&amp;Paste 로 끝날 수 있는 소스코드를 보려면 <a href="http://lisperati.com/code.html">여기</a>를 클릭</p>
 <p>이 연습서를 가능한 간단히 만들기 위해, Lisp가 어떻게 작동하는가 하는 많은 세부 사항은 주석 처리되거나 별도 페이지로 넘어갔습니다. 그러니 그 세부 사항이 어떤지 봅시다&hellip;.</p>
-</section>
+</div>
+
+<footer class="post-footer">
+    
+    
+    <div class="post-terms"><span>태그</span>
+        <ul class="chips"><li><a href="/tags/casting-spels/">casting-spels</a></li><li><a href="/tags/%EB%B2%88%EC%97%AD/">번역</a></li><li><a href="/tags/%EA%B2%B0%EA%B3%BC%EB%AC%BC/">결과물</a></li><li><a href="/tags/%EA%B3%B5%EB%B6%80/">공부</a></li><li><a href="/tags/LISP/">LISP</a></li></ul>
+    </div>
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    <nav class="post-nav" aria-label="이전/다음 글">
+        <a class="prev" href="/2009/05/%EB%82%9C-%EB%AA%85%EB%B3%B5-%EB%AA%BB-%EB%B9%8C%EA%B2%A0%EB%8B%A4./"><small>← 이전 글</small>난 명복 못 빌겠다.</a>
+        <a class="next" href="/2009/05/%EC%9C%88%EB%8F%84%EC%97%90%EC%84%9C-USB-%EB%A9%94%EB%AA%A8%EB%A6%AC%EC%97%90-%EC%9A%B0%EB%B6%84%ED%88%AC-%EC%84%A4%EC%B9%98-%EC%94%A8%EB%94%94-%EB%8B%B4%EA%B8%B0/"><small>다음 글 →</small>윈도에서 USB 메모리에 우분투 설치 씨디 담기</a>
+    </nav>
+    
+    
+</footer>
+</article>
 
 
-
-
-    <ul class="taxonomy tag">
-        Tag
-        
-        <li><a href="/tags/casting-spels">casting-spels</a></li>
-        
-        <li><a href="/tags/%EB%B2%88%EC%97%AD">번역</a></li>
-        
-        <li><a href="/tags/%EA%B2%B0%EA%B3%BC%EB%AC%BC">결과물</a></li>
-        
-        <li><a href="/tags/%EA%B3%B5%EB%B6%80">공부</a></li>
-        
-        <li><a href="/tags/LISP">LISP</a></li>
-        </ul>
-    </ul>
-
-
-
-<a href="https://ezaurum.com/2009/05/%EC%9C%88%EB%8F%84%EC%97%90%EC%84%9C-USB-%EB%A9%94%EB%AA%A8%EB%A6%AC%EC%97%90-%EC%9A%B0%EB%B6%84%ED%88%AC-%EC%84%A4%EC%B9%98-%EC%94%A8%EB%94%94-%EB%8B%B4%EA%B8%B0/"> 윈도에서 USB 메모리에 우분투 설치 씨디 담기</a>
-
-
-<a href="https://ezaurum.com/2009/05/%EB%82%9C-%EB%AA%85%EB%B3%B5-%EB%AA%BB-%EB%B9%8C%EA%B2%A0%EB%8B%A4./">난 명복 못 빌겠다.</a>
-
-
-
-
-
-
+<div class="adsense">
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
 <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-3471055249244195"
@@ -166,24 +190,19 @@ Lisp프롬프트에 한 번 Copy&amp;Paste 로 끝날 수 있는 소스코드를
 <script>
     (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+</div>
+
 
 
 </main>
 
-
-
-    <footer>
-© Ezaurum 2001-
+<footer class="site-footer">
+    <div class="wrap">© Ezaurum 2001-2026</div>
 </footer>
 
-
-
-
-
-    <script>
+<script>
 
 </script>
-
 
 </body>
 </html>

@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang='ko-kr'>
+<html lang='en'>
 <head>
     <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
     
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-40920966-1"></script>
@@ -14,37 +15,64 @@
 </script>
 
 
-    <title>   7월 첫째 주 정리 -  Ezaurum&#39;s Blog </title>
-    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+    <title>7월 첫째 주 정리 - Ezaurum&#39;s Blog</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
     <link rel="stylesheet" href="/css/style.css">
 
     </head>
 <body>
-
-    <header>
-    <nav>
+<header class="site-header">
+    <div class="wrap">
+        <a class="site-title" href="/">Ezaurum&#39;s Blog</a>
+        
+<nav class="site-nav" aria-label="사이트 메뉴">
     
-        <a href="https://ezaurum.com/">Ezaurum&#39;s Blog</a>
+        
+        <a href="/post/" aria-current="page">글</a>
+        
     
-        <a href="https://ezaurum.com/about/">About</a>
+        
+        <a href="/reading/">독서</a>
+        
     
-        <a href="https://ezaurum.com/tools/">사용하는 툴</a>
+        
+        <a href="/recipe/">레시피</a>
+        
     
-        <a href="https://ezaurum.com/pragmatic-programmer/">실용주의 프로그래머</a>
+        
+        <a href="/bug/">버그일기</a>
+        
     
-    <a href="/bug">버그일기</a>
-    <a href="/retrospective">회고</a>
+        
+        <a href="/retrospective/">회고</a>
+        
+    
+    
+        <a href="/about/">About</a>
+    
+        <a href="/tools/">사용하는 툴</a>
+    
+        <a href="/pragmatic-programmer/">실용주의 프로그래머</a>
+    
 </nav>
 
+    </div>
 </header>
 
 
+<main class="wrap">
 
+<article class="post">
+<header class="post-header">
+    <h1 class="page-title">7월 첫째 주 정리</h1>
+    <div class="post-meta">
+        <time datetime="2012-07-10">2012년 7월 10일</time>
+        <a href="/post/">글</a>
+        
+    </div>
+</header>
 
-<main class="post single">
-<h1>7월 첫째 주 정리</h1>
-2012-07-10
-<section><p>data db바로 임포트 몇 건 함. 와중에 데이터가 잘못된 걸 발견해서 수정요청하고, 다시 받고 검증하고 그랬음.
+<div class="post-body"><p>data db바로 임포트 몇 건 함. 와중에 데이터가 잘못된 걸 발견해서 수정요청하고, 다시 받고 검증하고 그랬음.
 엑셀은 좋은 툴인 것 같다. 엑셀을 이용해서 입력 툴을 만드는 노력을 좀 최소화 해 봐야겠다.
 google drive에서 수정하고 API를 통해 그걸 바로 DB에 매핑하려던 건 fail. 어차피 csv 같은 걸 통해서 해야 하고, 그렇다면 엑셀이 더 접근성이 좋다. 아직 구글 드라이브는 느리니까. 네트워크 안 되면 곤란하기도 하고.
 자꾸 나타나던 정체 모를 에러를 차장님이해결. 데이터 오류였음.
@@ -57,36 +85,36 @@ data validation이 안 된 상태에서 데이터가 많이 쌓인 경우, 제�
 그 외 JS로 이것저것 손 댐. jquery로 막 짠 물건은 리팩토링이 힘들구나 하고 느꼈음.
 분리하는 방법을 알아봐야 하나 하던 중에 백본.js라는 걸 조금 봄. 아직 잘 모르겠다. 이번 기능에 추가해 보려고 했더니, 이벤트가 하나야. 화면에 뿌려줄 필요도 없어.
 그래도 좀 시도는 해 봐야지.</p>
-</section>
+</div>
 
+<footer class="post-footer">
+    
+    
+    <div class="post-terms"><span>태그</span>
+        <ul class="chips"><li><a href="/tags/7%EC%9B%94/">7월</a></li><li><a href="/tags/%EC%9D%BC%EC%83%81/">일상</a></li><li><a href="/tags/%EC%A0%95%EB%A6%AC/">정리</a></li></ul>
+    </div>
+    
 
+    
+    
 
-
-    <ul class="taxonomy tag">
-        Tag
+    
+    
+    
+    
+    
+    <nav class="post-nav" aria-label="이전/다음 글">
         
-        <li><a href="/tags/7%EC%9B%94">7월</a></li>
-        
-        <li><a href="/tags/%EC%9D%BC%EC%83%81">일상</a></li>
-        
-        <li><a href="/tags/%EC%A0%95%EB%A6%AC">정리</a></li>
-        </ul>
-    </ul>
+        <a class="next" href="/2012/07/Spring-multipart-upload%EC%97%90%EC%84%9C-put-%EB%A9%94%EC%86%8C%EB%93%9C-%EC%82%AC%EC%9A%A9/"><small>다음 글 →</small>Spring multipart upload에서 put 메소드 사용</a>
+    </nav>
+    
+    
+</footer>
+</article>
 
 
-
-<a href="https://ezaurum.com/2012/07/Spring-multipart-upload%EC%97%90%EC%84%9C-put-%EB%A9%94%EC%86%8C%EB%93%9C-%EC%82%AC%EC%9A%A9/"> Spring multipart upload에서 put 메소드 사용</a>
-
-
-<a href="https://ezaurum.com/2012/07/%EC%9A%B4%EB%8F%99%EC%9D%BC%EA%B8%B0/">운동일기</a>
-
-
-
-
-
-
+<div class="adsense">
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
 <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-3471055249244195"
@@ -95,24 +123,19 @@ data validation이 안 된 상태에서 데이터가 많이 쌓인 경우, 제�
 <script>
     (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+</div>
+
 
 
 </main>
 
-
-
-    <footer>
-© Ezaurum 2001-
+<footer class="site-footer">
+    <div class="wrap">© Ezaurum 2001-2026</div>
 </footer>
 
-
-
-
-
-    <script>
+<script>
 
 </script>
-
 
 </body>
 </html>

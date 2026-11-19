@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>Series on Ezaurum&#39;s Blog</title>
+		<title>series on Ezaurum&#39;s Blog</title>
 		<link>https://ezaurum.com/series/</link>
-		<description>Recent content in Series on Ezaurum&#39;s Blog</description>
+		<description>Recent content in series on Ezaurum&#39;s Blog</description>
 		<generator>Hugo</generator>
 		<language>ko-kr</language>
 		
@@ -23,7 +23,7 @@
 				<description></description>
 			</item>
 			<item>
-				<title>Arch Linux Setup</title>
+				<title>Arch-Linux-Setup</title>
 				<link>https://ezaurum.com/series/Arch-Linux-Setup/</link>
 				<pubDate>Wed, 17 Jan 2024 00:00:00 +0900</pubDate>
 				<guid>https://ezaurum.com/series/Arch-Linux-Setup/</guid>
@@ -65,7 +65,7 @@
 				<description></description>
 			</item>
 			<item>
-				<title>Css</title>
+				<title>css</title>
 				<link>https://ezaurum.com/series/css/</link>
 				<pubDate>Tue, 31 Mar 2020 22:14:16 +0900</pubDate>
 				<guid>https://ezaurum.com/series/css/</guid>

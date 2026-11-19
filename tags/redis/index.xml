@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>Redis on Ezaurum&#39;s Blog</title>
+		<title>redis on Ezaurum&#39;s Blog</title>
 		<link>https://ezaurum.com/tags/redis/</link>
-		<description>Recent content in Redis on Ezaurum&#39;s Blog</description>
+		<description>Recent content in redis on Ezaurum&#39;s Blog</description>
 		<generator>Hugo</generator>
 		<language>ko-kr</language>
 		

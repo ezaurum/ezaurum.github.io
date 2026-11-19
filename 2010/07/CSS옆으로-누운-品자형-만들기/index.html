@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang='ko-kr'>
+<html lang='en'>
 <head>
     <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
     
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-40920966-1"></script>
@@ -14,37 +15,64 @@
 </script>
 
 
-    <title>   CSS옆으로 누운 品자형 만들기 -  Ezaurum&#39;s Blog </title>
-    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+    <title>CSS옆으로 누운 品자형 만들기 - Ezaurum&#39;s Blog</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
     <link rel="stylesheet" href="/css/style.css">
 
     </head>
 <body>
-
-    <header>
-    <nav>
+<header class="site-header">
+    <div class="wrap">
+        <a class="site-title" href="/">Ezaurum&#39;s Blog</a>
+        
+<nav class="site-nav" aria-label="사이트 메뉴">
     
-        <a href="https://ezaurum.com/">Ezaurum&#39;s Blog</a>
+        
+        <a href="/post/" aria-current="page">글</a>
+        
     
-        <a href="https://ezaurum.com/about/">About</a>
+        
+        <a href="/reading/">독서</a>
+        
     
-        <a href="https://ezaurum.com/tools/">사용하는 툴</a>
+        
+        <a href="/recipe/">레시피</a>
+        
     
-        <a href="https://ezaurum.com/pragmatic-programmer/">실용주의 프로그래머</a>
+        
+        <a href="/bug/">버그일기</a>
+        
     
-    <a href="/bug">버그일기</a>
-    <a href="/retrospective">회고</a>
+        
+        <a href="/retrospective/">회고</a>
+        
+    
+    
+        <a href="/about/">About</a>
+    
+        <a href="/tools/">사용하는 툴</a>
+    
+        <a href="/pragmatic-programmer/">실용주의 프로그래머</a>
+    
 </nav>
 
+    </div>
 </header>
 
 
+<main class="wrap">
 
+<article class="post">
+<header class="post-header">
+    <h1 class="page-title">CSS옆으로 누운 品자형 만들기</h1>
+    <div class="post-meta">
+        <time datetime="2010-07-30">2010년 7월 30일</time>
+        <a href="/post/">글</a>
+        
+    </div>
+</header>
 
-<main class="post single">
-<h1>CSS옆으로 누운 品자형 만들기</h1>
-2010-07-30
-<section><p>옆으로 누운 品자형 만들기
+<div class="post-body"><p>옆으로 누운 品자형 만들기
 <img class="alignnone size-full wp-image-976" title="옆으로 누운 品자형 레이아웃" src="http://gateopener.ncity.net/wordpress/wp-content/uploads/2010/07/Untitled-11.png" alt="" width="296" height="42" />
 이런 걸 만들려고 한다.</p>
 <p>방안 1 -div를 3개만 쓰는 경우
@@ -165,38 +193,36 @@ min-width:220px;
 &lt;/html&gt;
 단점 - 최소 폭을 정확히 지정해 주어야 한다.
 일단 생각나는 것은 이 셋 정도. 기록용.
-</section>
+</div>
 
+<footer class="post-footer">
+    
+    
+    <div class="post-terms"><span>태그</span>
+        <ul class="chips"><li><a href="/tags/css/">css</a></li><li><a href="/tags/%ED%95%B4%EA%B2%B0%EB%B2%95/">해결법</a></li><li><a href="/tags/layout/">layout</a></li><li><a href="/tags/web/">web</a></li></ul>
+    </div>
+    
 
+    
+    
 
-
-    <ul class="taxonomy tag">
-        Tag
+    
+    
+    
+    
+    
+    <nav class="post-nav" aria-label="이전/다음 글">
         
-        <li><a href="/tags/css">css</a></li>
-        
-        <li><a href="/tags/%ED%95%B4%EA%B2%B0%EB%B2%95">해결법</a></li>
-        
-        <li><a href="/tags/layout">layout</a></li>
-        
-        <li><a href="/tags/web">web</a></li>
-        </ul>
-    </ul>
+        <a class="next" href="/2010/08/%EA%B3%A0%EC%96%91%EC%9D%B4%EB%8B%98-%EB%91%90-%EB%B6%84/"><small>다음 글 →</small>고양이님 두 분</a>
+    </nav>
+    
+    
+</footer>
+</article>
 
 
-
-<a href="https://ezaurum.com/2010/08/%E4%B8%89%E4%BA%BA%E4%B8%89%E8%89%B2-%EB%AF%B8%ED%95%99-%EC%98%A4%EB%94%94%EC%84%B8%EC%9D%B4/"> 三人三色 미학 오디세이</a>
-
-
-<a href="https://ezaurum.com/2010/07/%EB%82%98%EB%9E%80-%EC%9D%B8%EA%B0%84%EC%9D%80-%EB%B0%9C%EC%A0%84%EC%9D%B4-%EC%97%86%EB%8A%94-%EA%B1%B4%EA%B0%80/">나란 인간은 발전이 없는 건가</a>
-
-
-
-
-
-
+<div class="adsense">
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
 <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-3471055249244195"
@@ -205,24 +231,19 @@ min-width:220px;
 <script>
     (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+</div>
+
 
 
 </main>
 
-
-
-    <footer>
-© Ezaurum 2001-
+<footer class="site-footer">
+    <div class="wrap">© Ezaurum 2001-2026</div>
 </footer>
 
-
-
-
-
-    <script>
+<script>
 
 </script>
-
 
 </body>
 </html>

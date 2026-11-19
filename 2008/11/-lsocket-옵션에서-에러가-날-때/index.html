@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang='ko-kr'>
+<html lang='en'>
 <head>
     <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
     
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-40920966-1"></script>
@@ -14,78 +15,97 @@
 </script>
 
 
-    <title>   -lsocket 옵션에서 에러가 날 때 -  Ezaurum&#39;s Blog </title>
-    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+    <title>-lsocket 옵션에서 에러가 날 때 - Ezaurum&#39;s Blog</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
     <link rel="stylesheet" href="/css/style.css">
 
     </head>
 <body>
-
-    <header>
-    <nav>
+<header class="site-header">
+    <div class="wrap">
+        <a class="site-title" href="/">Ezaurum&#39;s Blog</a>
+        
+<nav class="site-nav" aria-label="사이트 메뉴">
     
-        <a href="https://ezaurum.com/">Ezaurum&#39;s Blog</a>
+        
+        <a href="/post/" aria-current="page">글</a>
+        
     
-        <a href="https://ezaurum.com/about/">About</a>
+        
+        <a href="/reading/">독서</a>
+        
     
-        <a href="https://ezaurum.com/tools/">사용하는 툴</a>
+        
+        <a href="/recipe/">레시피</a>
+        
     
-        <a href="https://ezaurum.com/pragmatic-programmer/">실용주의 프로그래머</a>
+        
+        <a href="/bug/">버그일기</a>
+        
     
-    <a href="/bug">버그일기</a>
-    <a href="/retrospective">회고</a>
+        
+        <a href="/retrospective/">회고</a>
+        
+    
+    
+        <a href="/about/">About</a>
+    
+        <a href="/tools/">사용하는 툴</a>
+    
+        <a href="/pragmatic-programmer/">실용주의 프로그래머</a>
+    
 </nav>
 
+    </div>
 </header>
 
 
+<main class="wrap">
 
+<article class="post">
+<header class="post-header">
+    <h1 class="page-title">-lsocket 옵션에서 에러가 날 때</h1>
+    <div class="post-meta">
+        <time datetime="2008-11-28">2008년 11월 28일</time>
+        <a href="/post/">글</a>
+        
+    </div>
+</header>
 
-<main class="post single">
-<h1>-lsocket 옵션에서 에러가 날 때</h1>
-2008-11-28
-<section><p>소켓 프로그래밍을 하는데 프린트물에 있는 대로 -lsocket 옵션을 주니 계속 cc 가 에러를 뱉었다.</p>
+<div class="post-body"><p>소켓 프로그래밍을 하는데 프린트물에 있는 대로 -lsocket 옵션을 주니 계속 cc 가 에러를 뱉었다.</p>
 <p><a href="http://kldp.org/node/1377"><a href="http://kldp.org/node/1377">http://kldp.org/node/1377</a></a></p>
 <p>결론은 <strong>Sun 계열 유닉스에서 작업하는 게 아니면, -lnsl -lsocket 옵션을 주지 말고 컴파일하라는 것.</strong></p>
 <p>한참 헤매다가 답 발견. 학교 서버가 sun 계열이라 그런 듯.</p>
-</section>
+</div>
 
+<footer class="post-footer">
+    
+    
+    <div class="post-terms"><span>태그</span>
+        <ul class="chips"><li><a href="/tags/gcc/">gcc</a></li><li><a href="/tags/%ED%95%B4%EA%B2%B0%EB%B2%95/">해결법</a></li><li><a href="/tags/linux/">linux</a></li><li><a href="/tags/programming/">programming</a></li><li><a href="/tags/socket/">socket</a></li><li><a href="/tags/Sun/">Sun</a></li><li><a href="/tags/Unix/">Unix</a></li></ul>
+    </div>
+    
 
+    
+    
 
-
-    <ul class="taxonomy tag">
-        Tag
+    
+    
+    
+    
+    
+    <nav class="post-nav" aria-label="이전/다음 글">
         
-        <li><a href="/tags/gcc">gcc</a></li>
-        
-        <li><a href="/tags/%ED%95%B4%EA%B2%B0%EB%B2%95">해결법</a></li>
-        
-        <li><a href="/tags/linux">linux</a></li>
-        
-        <li><a href="/tags/Programming">Programming</a></li>
-        
-        <li><a href="/tags/socket">socket</a></li>
-        
-        <li><a href="/tags/Sun">Sun</a></li>
-        
-        <li><a href="/tags/Unix">Unix</a></li>
-        </ul>
-    </ul>
+        <a class="next" href="/2008/11/%EB%A6%AC%ED%8D%BC%EB%9F%AC-%ED%94%8C%EB%9F%AC%EA%B7%B8%EC%9D%B8%EC%9D%84-%EC%84%A4%EC%B9%98%ED%96%88%EB%8B%A4/"><small>다음 글 →</small>리퍼러 플러그인을 설치했다</a>
+    </nav>
+    
+    
+</footer>
+</article>
 
 
-
-<a href="https://ezaurum.com/2008/11/%EB%A6%AC%ED%8D%BC%EB%9F%AC-%ED%94%8C%EB%9F%AC%EA%B7%B8%EC%9D%B8%EC%9D%84-%EC%84%A4%EC%B9%98%ED%96%88%EB%8B%A4/"> 리퍼러 플러그인을 설치했다</a>
-
-
-<a href="https://ezaurum.com/2008/11/%ED%9A%8C%EC%83%89-%ED%95%98%EB%8A%98/">회색 하늘</a>
-
-
-
-
-
-
+<div class="adsense">
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
 <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-3471055249244195"
@@ -94,24 +114,19 @@
 <script>
     (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+</div>
+
 
 
 </main>
 
-
-
-    <footer>
-© Ezaurum 2001-
+<footer class="site-footer">
+    <div class="wrap">© Ezaurum 2001-2026</div>
 </footer>
 
-
-
-
-
-    <script>
+<script>
 
 </script>
-
 
 </body>
 </html>

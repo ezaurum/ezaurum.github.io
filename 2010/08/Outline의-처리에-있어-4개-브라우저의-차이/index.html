@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang='ko-kr'>
+<html lang='en'>
 <head>
     <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
     
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-40920966-1"></script>
@@ -14,37 +15,64 @@
 </script>
 
 
-    <title>   Outline의 처리에 있어 4개 브라우저의 차이 -  Ezaurum&#39;s Blog </title>
-    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+    <title>Outline의 처리에 있어 4개 브라우저의 차이 - Ezaurum&#39;s Blog</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
     <link rel="stylesheet" href="/css/style.css">
 
     </head>
 <body>
-
-    <header>
-    <nav>
+<header class="site-header">
+    <div class="wrap">
+        <a class="site-title" href="/">Ezaurum&#39;s Blog</a>
+        
+<nav class="site-nav" aria-label="사이트 메뉴">
     
-        <a href="https://ezaurum.com/">Ezaurum&#39;s Blog</a>
+        
+        <a href="/post/" aria-current="page">글</a>
+        
     
-        <a href="https://ezaurum.com/about/">About</a>
+        
+        <a href="/reading/">독서</a>
+        
     
-        <a href="https://ezaurum.com/tools/">사용하는 툴</a>
+        
+        <a href="/recipe/">레시피</a>
+        
     
-        <a href="https://ezaurum.com/pragmatic-programmer/">실용주의 프로그래머</a>
+        
+        <a href="/bug/">버그일기</a>
+        
     
-    <a href="/bug">버그일기</a>
-    <a href="/retrospective">회고</a>
+        
+        <a href="/retrospective/">회고</a>
+        
+    
+    
+        <a href="/about/">About</a>
+    
+        <a href="/tools/">사용하는 툴</a>
+    
+        <a href="/pragmatic-programmer/">실용주의 프로그래머</a>
+    
 </nav>
 
+    </div>
 </header>
 
 
+<main class="wrap">
 
+<article class="post">
+<header class="post-header">
+    <h1 class="page-title">Outline의 처리에 있어 4개 브라우저의 차이</h1>
+    <div class="post-meta">
+        <time datetime="2010-08-16">2010년 8월 16일</time>
+        <a href="/post/">글</a>
+        
+    </div>
+</header>
 
-<main class="post single">
-<h1>Outline의 처리에 있어 4개 브라우저의 차이</h1>
-2010-08-16
-<section><p><a href="http://gateopener.ncity.net/wordpress/wp-content/uploads/2010/08/Untitled-12.png"><img class="alignnone size-full wp-image-1145" title="Untitled-1" src="http://gateopener.ncity.net/wordpress/wp-content/uploads/2010/08/Untitled-12.png" alt="" width="400" height="322" /></a></p>
+<div class="post-body"><p><a href="http://gateopener.ncity.net/wordpress/wp-content/uploads/2010/08/Untitled-12.png"><img class="alignnone size-full wp-image-1145" title="Untitled-1" src="http://gateopener.ncity.net/wordpress/wp-content/uploads/2010/08/Untitled-12.png" alt="" width="400" height="322" /></a></p>
 <p>Chrome - outline을 element와 같이 그린다.(다음 엘리먼트에 가려진다.) outline이 많이 두꺼우면 모서리에 대각선이 보인다.</p>
 <p>IE, opera - outline을 나중에 그린다.(다음 엘리먼트에 가려지지 않는다.)  대각선 없다.</p>
 <p>FF - 내용이 없는 경우, outline을 나중에 그리고, 내용이 있는 경우, outline을 먼저 그린다. img가 block 이 아니므로 width, height안 먹는다.</p>
@@ -75,48 +103,36 @@ margin:5px;
 &lt;img src=&ldquo;aa&rdquo;/&gt;&lt;img src=&ldquo;aa&rdquo;/&gt;
 &lt;/body&gt;
 &lt;/html&gt;</p>
-</section>
+</div>
 
+<footer class="post-footer">
+    
+    
+    <div class="post-terms"><span>태그</span>
+        <ul class="chips"><li><a href="/tags/chrome/">chrome</a></li><li><a href="/tags/css/">css</a></li><li><a href="/tags/FF/">FF</a></li><li><a href="/tags/ie/">ie</a></li><li><a href="/tags/%EC%9D%BC%EC%83%81/">일상</a></li><li><a href="/tags/Opera/">Opera</a></li><li><a href="/tags/outline/">outline</a></li><li><a href="/tags/rendergin-%EC%88%9C%EC%84%9C/">rendergin 순서</a></li><li><a href="/tags/web/">web</a></li></ul>
+    </div>
+    
 
+    
+    
 
-
-    <ul class="taxonomy tag">
-        Tag
+    
+    
+    
+    
+    
+    <nav class="post-nav" aria-label="이전/다음 글">
         
-        <li><a href="/tags/chrome">chrome</a></li>
-        
-        <li><a href="/tags/css">css</a></li>
-        
-        <li><a href="/tags/FF">FF</a></li>
-        
-        <li><a href="/tags/ie">ie</a></li>
-        
-        <li><a href="/tags/%EC%9D%BC%EC%83%81">일상</a></li>
-        
-        <li><a href="/tags/Opera">Opera</a></li>
-        
-        <li><a href="/tags/outline">outline</a></li>
-        
-        <li><a href="/tags/rendergin-%EC%88%9C%EC%84%9C">rendergin 순서</a></li>
-        
-        <li><a href="/tags/web">web</a></li>
-        </ul>
-    </ul>
+        <a class="next" href="/2010/08/%EB%82%B4%EA%B0%80-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EC%9D%84-%ED%95%B4%EC%84%9C-%EB%A8%B9%EA%B3%A0-%EC%82%B4-%EC%88%98-%EC%9E%88%EC%9D%84%EA%B9%8C/"><small>다음 글 →</small>내가 프로그래밍을 해서 먹고 살 수 있을까</a>
+    </nav>
+    
+    
+</footer>
+</article>
 
 
-
-<a href="https://ezaurum.com/2010/08/%EB%82%B4%EA%B0%80-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EC%9D%84-%ED%95%B4%EC%84%9C-%EB%A8%B9%EA%B3%A0-%EC%82%B4-%EC%88%98-%EC%9E%88%EC%9D%84%EA%B9%8C/"> 내가 프로그래밍을 해서 먹고 살 수 있을까</a>
-
-
-<a href="https://ezaurum.com/2010/08/%EC%9C%97%EB%AA%B8-%EC%9D%BC%EC%9C%BC%ED%82%A4%EA%B8%B0-100%EA%B0%9C/">윗몸 일으키기 100개</a>
-
-
-
-
-
-
+<div class="adsense">
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
 <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-3471055249244195"
@@ -125,24 +141,19 @@ margin:5px;
 <script>
     (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+</div>
+
 
 
 </main>
 
-
-
-    <footer>
-© Ezaurum 2001-
+<footer class="site-footer">
+    <div class="wrap">© Ezaurum 2001-2026</div>
 </footer>
 
-
-
-
-
-    <script>
+<script>
 
 </script>
-
 
 </body>
 </html>

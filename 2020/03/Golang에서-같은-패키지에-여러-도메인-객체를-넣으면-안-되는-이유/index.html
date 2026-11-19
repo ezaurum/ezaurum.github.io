@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang='ko-kr'>
+<html lang='en'>
 <head>
     <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
     
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-40920966-1"></script>
@@ -14,37 +15,64 @@
 </script>
 
 
-    <title>   Golang에서 같은 패키지에 여러 도메인 객체를 넣으면 안 되는 이유 -  Ezaurum&#39;s Blog </title>
-    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+    <title>Golang에서 같은 패키지에 여러 도메인 객체를 넣으면 안 되는 이유 - Ezaurum&#39;s Blog</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
     <link rel="stylesheet" href="/css/style.css">
 
     </head>
 <body>
-
-    <header>
-    <nav>
+<header class="site-header">
+    <div class="wrap">
+        <a class="site-title" href="/">Ezaurum&#39;s Blog</a>
+        
+<nav class="site-nav" aria-label="사이트 메뉴">
     
-        <a href="https://ezaurum.com/">Ezaurum&#39;s Blog</a>
+        
+        <a href="/post/" aria-current="page">글</a>
+        
     
-        <a href="https://ezaurum.com/about/">About</a>
+        
+        <a href="/reading/">독서</a>
+        
     
-        <a href="https://ezaurum.com/tools/">사용하는 툴</a>
+        
+        <a href="/recipe/">레시피</a>
+        
     
-        <a href="https://ezaurum.com/pragmatic-programmer/">실용주의 프로그래머</a>
+        
+        <a href="/bug/">버그일기</a>
+        
     
-    <a href="/bug">버그일기</a>
-    <a href="/retrospective">회고</a>
+        
+        <a href="/retrospective/">회고</a>
+        
+    
+    
+        <a href="/about/">About</a>
+    
+        <a href="/tools/">사용하는 툴</a>
+    
+        <a href="/pragmatic-programmer/">실용주의 프로그래머</a>
+    
 </nav>
 
+    </div>
 </header>
 
 
+<main class="wrap">
 
+<article class="post">
+<header class="post-header">
+    <h1 class="page-title">Golang에서 같은 패키지에 여러 도메인 객체를 넣으면 안 되는 이유</h1>
+    <div class="post-meta">
+        <time datetime="2020-03-26">2020년 3월 26일</time>
+        <a href="/post/">글</a>
+        
+    </div>
+</header>
 
-<main class="post single">
-<h1>Golang에서 같은 패키지에 여러 도메인 객체를 넣으면 안 되는 이유</h1>
-2020-03-26
-<section><p>Go 는 순환참조에 대해 매우 민감하다. 컴파일조차 되지 않는다.</p>
+<div class="post-body"><p>Go 는 순환참조에 대해 매우 민감하다. 컴파일조차 되지 않는다.</p>
 <p>그게 불편해서 프로젝트의 도메인을 모두 한 곳에 집어넣는 경우가 있는데, 해 보니 다음과 같은 문제가 있었다.</p>
 <ol>
 <li>
@@ -54,43 +82,40 @@
 <p>코드 복붙할 때 문제가 생긴다 - 자동 코드 생성기를 쓰든, 직접 복붙을 하든 1과 관련되어 패키지 이름이 겹치는 경우가 생기고, IDE의 리팩토링 툴을 쓰기도 곤란해진다. 복붙하다가 하나 고치는 걸 빼먹었다면? 마침 테스트 코드도 복붙하면서 안 고쳤다면? 끔찍하다.</p>
 </li>
 </ol>
-</section>
+</div>
 
-
-<ul class="taxonomy category">
-    Category
+<footer class="post-footer">
     
-    <li><a href="/categories/%EC%A0%95%EB%A6%AC">정리</a></li>
-    </ul>
-</ul>
+    <div class="post-terms"><span>카테고리</span>
+        <ul class="chips"><li><a href="/categories/%EC%A0%95%EB%A6%AC/">정리</a></li></ul>
+    </div>
+    
+    
+    <div class="post-terms"><span>태그</span>
+        <ul class="chips"><li><a href="/tags/go/">go</a></li><li><a href="/tags/package/">package</a></li><li><a href="/tags/refactoring/">refactoring</a></li></ul>
+    </div>
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    <nav class="post-nav" aria-label="이전/다음 글">
+        <a class="prev" href="/2020/03/%EC%B9%AD%EB%94%B0%EC%98%A4-%EC%97%AC%ED%96%89/"><small>← 이전 글</small>칭따오 여행</a>
+        <a class="next" href="/2020/06/%EC%96%B4%EB%8A%90-%EB%82%A0-%EB%B3%B4%EB%8B%88-%EC%86%8C%EB%A0%A8%EC%9D%B4-%EB%B6%95%EA%B4%B4%ED%96%88%EB%8B%A4/"><small>다음 글 →</small>어느 날 보니 소련이 붕괴했다</a>
+    </nav>
+    
+    
+</footer>
+</article>
 
 
-
-    <ul class="taxonomy tag">
-        Tag
-        
-        <li><a href="/tags/Go">Go</a></li>
-        
-        <li><a href="/tags/package">package</a></li>
-        
-        <li><a href="/tags/refactoring">refactoring</a></li>
-        </ul>
-    </ul>
-
-
-
-<a href="https://ezaurum.com/2020/03/Vue%EC%97%90%EC%84%9C-form-%EC%A1%B0%EA%B1%B4%EB%B6%80-validation/"> Vue에서 form 조건부 validation</a>
-
-
-<a href="https://ezaurum.com/2020/03/CLI%EB%A1%9C-%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C-%EC%99%80%EC%B9%98-%EB%A1%9C%EA%B7%B8-%EB%B3%B4%EA%B8%B0/">CLI로 클라우드 와치 로그 보기</a>
-
-
-
-
-
-
+<div class="adsense">
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
 <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-3471055249244195"
@@ -99,24 +124,19 @@
 <script>
     (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+</div>
+
 
 
 </main>
 
-
-
-    <footer>
-© Ezaurum 2001-
+<footer class="site-footer">
+    <div class="wrap">© Ezaurum 2001-2026</div>
 </footer>
 
-
-
-
-
-    <script>
+<script>
 
 </script>
-
 
 </body>
 </html>

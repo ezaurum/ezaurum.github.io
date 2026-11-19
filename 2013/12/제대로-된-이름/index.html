@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang='ko-kr'>
+<html lang='en'>
 <head>
     <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
     
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-40920966-1"></script>
@@ -14,75 +15,96 @@
 </script>
 
 
-    <title>   제대로 된 이름 -  Ezaurum&#39;s Blog </title>
-    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+    <title>제대로 된 이름 - Ezaurum&#39;s Blog</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
     <link rel="stylesheet" href="/css/style.css">
 
     </head>
 <body>
-
-    <header>
-    <nav>
+<header class="site-header">
+    <div class="wrap">
+        <a class="site-title" href="/">Ezaurum&#39;s Blog</a>
+        
+<nav class="site-nav" aria-label="사이트 메뉴">
     
-        <a href="https://ezaurum.com/">Ezaurum&#39;s Blog</a>
+        
+        <a href="/post/" aria-current="page">글</a>
+        
     
-        <a href="https://ezaurum.com/about/">About</a>
+        
+        <a href="/reading/">독서</a>
+        
     
-        <a href="https://ezaurum.com/tools/">사용하는 툴</a>
+        
+        <a href="/recipe/">레시피</a>
+        
     
-        <a href="https://ezaurum.com/pragmatic-programmer/">실용주의 프로그래머</a>
+        
+        <a href="/bug/">버그일기</a>
+        
     
-    <a href="/bug">버그일기</a>
-    <a href="/retrospective">회고</a>
+        
+        <a href="/retrospective/">회고</a>
+        
+    
+    
+        <a href="/about/">About</a>
+    
+        <a href="/tools/">사용하는 툴</a>
+    
+        <a href="/pragmatic-programmer/">실용주의 프로그래머</a>
+    
 </nav>
 
+    </div>
 </header>
 
 
+<main class="wrap">
 
+<article class="post">
+<header class="post-header">
+    <h1 class="page-title">제대로 된 이름</h1>
+    <div class="post-meta">
+        <time datetime="2013-12-01">2013년 12월 1일</time>
+        <a href="/post/">글</a>
+        
+    </div>
+</header>
 
-<main class="post single">
-<h1>제대로 된 이름</h1>
-2013-12-01
-<section><p>2주일간 만들던 게임 네트워크 엔진을 손봤는데, 초기 코드가 흔적도 없이 사라졌다.
+<div class="post-body"><p>2주일간 만들던 게임 네트워크 엔진을 손봤는데, 초기 코드가 흔적도 없이 사라졌다.
 C#으로 메세지가 조립되면 이벤트를 호출하는 식으로 만들었는데, 이게 메소드랑 연관 객체들이 모이고 흩어지고 하다보니까 메세지 객체를 내뱉고 받아들이는 소켓 비슷한 게 되더라. 정확히는 소캣을 감싸는 그 어떤 것. 그 때 얘의 이름이 소켓으로 결정되었다. 그 전에는 UserToken, Raja, Session(으악!), MessageProcessor&hellip; 저 Raja는 드래곤 라자에서 나온 그것, 멍청하게도 이 이름을 지으면서 꽤 잘 된 이름이라고 생각했다. 중간에서 메세지를 받고 보내주고 하는 역할을 한다고 생각하면서 지었는데도 그 때는 소켓이 생각나지 않았다. 잘 된, 제대로 된 이름이라는 것은 그게 뭘 하는지, 어떤 정보를 가지고 있는지가 이름만으로 유추가 된다는 것이다. 그래서 나에겐 메세지 프로세서보다는 소켓이 와 닿았던 것이고, 이건 네트워크 프로그래밍경험이 있는 프로그래머라면 비슷하리라 생각한다.
 소켓이라고 이름을 짓고 나자 무언가 정리가 되었다. 2주가 걸렸고, 그 사이에 소스코드는 좀 더 좋아지고, 이런저런 개선이 많았지만, 본질적으로 바뀐 것은 제대로 된 이름을 찾아간 것이다. 그것만으로도 전체를 조작하기가 더 편해졌다. 그래서 성경에서 신이 아담에게 만물의 이름을 지으라 했나보다.</p>
-</section>
+</div>
+
+<footer class="post-footer">
+    
+    
+    <div class="post-terms"><span>태그</span>
+        <ul class="chips"><li><a href="/tags/definition/">definition</a></li><li><a href="/tags/%EB%AA%A9%EC%A0%81/">목적</a></li><li><a href="/tags/%ED%8C%A8%ED%84%B4/">패턴</a></li><li><a href="/tags/%EC%9D%B4%EB%A6%84/">이름</a></li><li><a href="/tags/%EC%A0%95%EC%9D%98/">정의</a></li><li><a href="/tags/programming/">programming</a></li></ul>
+    </div>
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    <nav class="post-nav" aria-label="이전/다음 글">
+        <a class="prev" href="/2013/11/.gitconfig-%EC%84%A4%EC%A0%95/"><small>← 이전 글</small>.gitconfig 설정</a>
+        <a class="next" href="/2013/12/%EA%B8%B0%EC%88%A0-%EC%8A%B5%EB%93%9D-%ED%8C%A8%ED%84%B4/"><small>다음 글 →</small>기술 습득 패턴</a>
+    </nav>
+    
+    
+</footer>
+</article>
 
 
-
-
-    <ul class="taxonomy tag">
-        Tag
-        
-        <li><a href="/tags/definition">definition</a></li>
-        
-        <li><a href="/tags/%EB%AA%A9%EC%A0%81">목적</a></li>
-        
-        <li><a href="/tags/%ED%8C%A8%ED%84%B4">패턴</a></li>
-        
-        <li><a href="/tags/%EC%9D%B4%EB%A6%84">이름</a></li>
-        
-        <li><a href="/tags/%EC%A0%95%EC%9D%98">정의</a></li>
-        
-        <li><a href="/tags/programming">programming</a></li>
-        </ul>
-    </ul>
-
-
-
-<a href="https://ezaurum.com/2013/12/%EA%B8%B0%EC%88%A0-%EC%8A%B5%EB%93%9D-%ED%8C%A8%ED%84%B4/"> 기술 습득 패턴</a>
-
-
-<a href="https://ezaurum.com/2013/11/.gitconfig-%EC%84%A4%EC%A0%95/">.gitconfig 설정</a>
-
-
-
-
-
-
+<div class="adsense">
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
 <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-3471055249244195"
@@ -91,24 +113,19 @@ C#으로 메세지가 조립되면 이벤트를 호출하는 식으로 만들었
 <script>
     (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+</div>
+
 
 
 </main>
 
-
-
-    <footer>
-© Ezaurum 2001-
+<footer class="site-footer">
+    <div class="wrap">© Ezaurum 2001-2026</div>
 </footer>
 
-
-
-
-
-    <script>
+<script>
 
 </script>
-
 
 </body>
 </html>

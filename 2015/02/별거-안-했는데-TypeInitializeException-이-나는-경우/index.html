@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang='ko-kr'>
+<html lang='en'>
 <head>
     <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
     
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-40920966-1"></script>
@@ -14,73 +15,98 @@
 </script>
 
 
-    <title>   별거 안 했는데 TypeInitializeException 이 나는 경우 -  Ezaurum&#39;s Blog </title>
-    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+    <title>별거 안 했는데 TypeInitializeException 이 나는 경우 - Ezaurum&#39;s Blog</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
     <link rel="stylesheet" href="/css/style.css">
 
     </head>
 <body>
-
-    <header>
-    <nav>
+<header class="site-header">
+    <div class="wrap">
+        <a class="site-title" href="/">Ezaurum&#39;s Blog</a>
+        
+<nav class="site-nav" aria-label="사이트 메뉴">
     
-        <a href="https://ezaurum.com/">Ezaurum&#39;s Blog</a>
+        
+        <a href="/post/" aria-current="page">글</a>
+        
     
-        <a href="https://ezaurum.com/about/">About</a>
+        
+        <a href="/reading/">독서</a>
+        
     
-        <a href="https://ezaurum.com/tools/">사용하는 툴</a>
+        
+        <a href="/recipe/">레시피</a>
+        
     
-        <a href="https://ezaurum.com/pragmatic-programmer/">실용주의 프로그래머</a>
+        
+        <a href="/bug/">버그일기</a>
+        
     
-    <a href="/bug">버그일기</a>
-    <a href="/retrospective">회고</a>
+        
+        <a href="/retrospective/">회고</a>
+        
+    
+    
+        <a href="/about/">About</a>
+    
+        <a href="/tools/">사용하는 툴</a>
+    
+        <a href="/pragmatic-programmer/">실용주의 프로그래머</a>
+    
 </nav>
 
+    </div>
 </header>
 
 
+<main class="wrap">
 
+<article class="post">
+<header class="post-header">
+    <h1 class="page-title">별거 안 했는데 TypeInitializeException 이 나는 경우</h1>
+    <div class="post-meta">
+        <time datetime="2015-02-05">2015년 2월 5일</time>
+        <a href="/post/">글</a>
+        
+    </div>
+</header>
 
-<main class="post single">
-<h1>별거 안 했는데 TypeInitializeException 이 나는 경우</h1>
-2015-02-05
-<section><p>아래와 같은 코드를 실행하면, <a href="https://msdn.microsoft.com/ko-kr/library/system.typeinitializationexception(v=vs.110).aspx">TypeInitializeException</a>이 뜬다.
+<div class="post-body"><p>아래와 같은 코드를 실행하면, <a href="https://msdn.microsoft.com/ko-kr/library/system.typeinitializationexception(v=vs.110).aspx">TypeInitializeException</a>이 뜬다.
 <a href="https://gist.github.com/ezaurum/fdcb0dce79ed900d5fb8.js"><a href="https://gist.github.com/ezaurum/fdcb0dce79ed900d5fb8.js">https://gist.github.com/ezaurum/fdcb0dce79ed900d5fb8.js</a></a>
 자세히 보면, Dictionary에 같은 키로 값을 넣으려 하고 있다.
 이러면 <a href="https://msdn.microsoft.com/ko-kr/library/k7z0zy8k(v=vs.110).aspx">이렇게</a> <a href="https://msdn.microsoft.com/ko-kr/library/system.argumentexception(v=vs.110).aspx">ArgumentException</a>이 나게 되는데, 그게 static 변수를 할당하는 시점에 일어나므로, TypeInitializeException이 뜨게 된다.
 그러니 저거 원인을 못 찾을 때는 static으로 선언한 변수에 값이 들어가는 부분을 체크해 보자.</p>
-</section>
+</div>
+
+<footer class="post-footer">
+    
+    
+    <div class="post-terms"><span>태그</span>
+        <ul class="chips"><li><a href="/tags/ArgumentException/">ArgumentException</a></li><li><a href="/tags/c/">c</a></li><li><a href="/tags/%EB%B2%84%EA%B7%B8%EB%85%B8%ED%8A%B8/">버그노트</a></li><li><a href="/tags/TypeInitializeException/">TypeInitializeException</a></li></ul>
+    </div>
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    <nav class="post-nav" aria-label="이전/다음 글">
+        <a class="prev" href="/2015/01/%EA%B0%90%EC%82%AC%ED%95%A9%EB%8B%88%EB%8B%A4/"><small>← 이전 글</small>감사합니다</a>
+        <a class="next" href="/2015/02/%EC%9A%B4%EB%8F%99%EC%9D%BC%EA%B8%B0/"><small>다음 글 →</small>운동일기</a>
+    </nav>
+    
+    
+</footer>
+</article>
 
 
-
-
-    <ul class="taxonomy tag">
-        Tag
-        
-        <li><a href="/tags/ArgumentException">ArgumentException</a></li>
-        
-        <li><a href="/tags/c">c</a></li>
-        
-        <li><a href="/tags/%EB%B2%84%EA%B7%B8%EB%85%B8%ED%8A%B8">버그노트</a></li>
-        
-        <li><a href="/tags/TypeInitializeException">TypeInitializeException</a></li>
-        </ul>
-    </ul>
-
-
-
-<a href="https://ezaurum.com/2015/02/%EC%9B%B9%ED%88%B0-%EB%B3%B4%EB%8B%A4-%EC%9A%B8%EB%8B%A4/"> 웹툰 보다 울다</a>
-
-
-<a href="https://ezaurum.com/2015/01/%EA%B0%90%EC%82%AC%ED%95%A9%EB%8B%88%EB%8B%A4/">감사합니다</a>
-
-
-
-
-
-
+<div class="adsense">
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
 <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-3471055249244195"
@@ -89,24 +115,19 @@
 <script>
     (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+</div>
+
 
 
 </main>
 
-
-
-    <footer>
-© Ezaurum 2001-
+<footer class="site-footer">
+    <div class="wrap">© Ezaurum 2001-2026</div>
 </footer>
 
-
-
-
-
-    <script>
+<script>
 
 </script>
-
 
 </body>
 </html>

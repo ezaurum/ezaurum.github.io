@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang='ko-kr'>
+<html lang='en'>
 <head>
     <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
     
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-40920966-1"></script>
@@ -14,37 +15,64 @@
 </script>
 
 
-    <title>   unity3d 시작 에러 -  Ezaurum&#39;s Blog </title>
-    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+    <title>unity3d 시작 에러 - Ezaurum&#39;s Blog</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
     <link rel="stylesheet" href="/css/style.css">
 
     </head>
 <body>
-
-    <header>
-    <nav>
+<header class="site-header">
+    <div class="wrap">
+        <a class="site-title" href="/">Ezaurum&#39;s Blog</a>
+        
+<nav class="site-nav" aria-label="사이트 메뉴">
     
-        <a href="https://ezaurum.com/">Ezaurum&#39;s Blog</a>
+        
+        <a href="/post/" aria-current="page">글</a>
+        
     
-        <a href="https://ezaurum.com/about/">About</a>
+        
+        <a href="/reading/">독서</a>
+        
     
-        <a href="https://ezaurum.com/tools/">사용하는 툴</a>
+        
+        <a href="/recipe/">레시피</a>
+        
     
-        <a href="https://ezaurum.com/pragmatic-programmer/">실용주의 프로그래머</a>
+        
+        <a href="/bug/">버그일기</a>
+        
     
-    <a href="/bug">버그일기</a>
-    <a href="/retrospective">회고</a>
+        
+        <a href="/retrospective/">회고</a>
+        
+    
+    
+        <a href="/about/">About</a>
+    
+        <a href="/tools/">사용하는 툴</a>
+    
+        <a href="/pragmatic-programmer/">실용주의 프로그래머</a>
+    
 </nav>
 
+    </div>
 </header>
 
 
+<main class="wrap">
 
+<article class="post">
+<header class="post-header">
+    <h1 class="page-title">unity3d 시작 에러</h1>
+    <div class="post-meta">
+        <time datetime="2013-08-07">2013년 8월 7일</time>
+        <a href="/post/">글</a>
+        
+    </div>
+</header>
 
-<main class="post single">
-<h1>unity3d 시작 에러</h1>
-2013-08-07
-<section><p><a href="http://answers.unity3d.com/questions/499583/why-is-my-fresh-unity-42-crashing-on-windows-8.html">참고</a>
+<div class="post-body"><p><a href="http://answers.unity3d.com/questions/499583/why-is-my-fresh-unity-42-crashing-on-windows-8.html">참고</a>
 윈도우 7에서 unity3d를 실행하다가
 <code>Automatic import for &lsquo;Assets/Standard Assets/Terrain Assets/Terrain Textures/Cliff (Layered Rock).psd&rsquo; was disabled because the asset importer crashed on it last time.
 You can use &lsquo;Assets -&gt; Reimport&rsquo; to enable automatic importing again.</code>
@@ -53,44 +81,36 @@ You can use &lsquo;Assets -&gt; Reimport&rsquo; to enable automatic importing ag
 문제가 일어난 환경은 i5, Intel HD4600, 윈7</p>
 <p>더블 클릭해서 열 때도 dx11모드로 실행하게 하려면 레지스트리에서 다음 키를 찾아서 옵션을 추가함
 HKEY_CLASSES_ROOTcom.unity3d.kharmashellOpencommand</p>
-</section>
+</div>
+
+<footer class="post-footer">
+    
+    
+    <div class="post-terms"><span>태그</span>
+        <ul class="chips"><li><a href="/tags/crash/">crash</a></li><li><a href="/tags/dx11/">dx11</a></li><li><a href="/tags/HD4600/">HD4600</a></li><li><a href="/tags/i5/">i5</a></li><li><a href="/tags/%ED%95%B4%EA%B2%B0%EB%B2%95/">해결법</a></li><li><a href="/tags/psd/">psd</a></li><li><a href="/tags/Unity3D/">Unity3D</a></li></ul>
+    </div>
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    <nav class="post-nav" aria-label="이전/다음 글">
+        <a class="prev" href="/2013/07/Jackson%EC%9D%B4-null-%EC%9D%B8-%ED%94%84%EB%A1%9C%ED%8D%BC%ED%8B%B0%EB%A5%BC-%EB%B9%BC%EA%B3%A0-Serialize%ED%95%98%EA%B2%8C-%ED%95%98%EA%B8%B0/"><small>← 이전 글</small>Jackson이 null 인 프로퍼티를 빼고 Serialize하게 하기</a>
+        <a class="next" href="/2013/09/Visual-studio-2013-%EC%97%90%EC%84%9C-Resharper8%EC%9D%98-%EB%8B%A8%EC%B6%95%EA%B8%B0%EA%B0%80-%EC%95%88-%EB%A8%B9%EC%9D%84-%EB%95%8C/"><small>다음 글 →</small>Visual studio 2013 에서 Resharper8의 단축기가 안 먹을 때</a>
+    </nav>
+    
+    
+</footer>
+</article>
 
 
-
-
-    <ul class="taxonomy tag">
-        Tag
-        
-        <li><a href="/tags/crash">crash</a></li>
-        
-        <li><a href="/tags/dx11">dx11</a></li>
-        
-        <li><a href="/tags/HD4600">HD4600</a></li>
-        
-        <li><a href="/tags/i5">i5</a></li>
-        
-        <li><a href="/tags/%ED%95%B4%EA%B2%B0%EB%B2%95">해결법</a></li>
-        
-        <li><a href="/tags/psd">psd</a></li>
-        
-        <li><a href="/tags/Unity3D">Unity3D</a></li>
-        </ul>
-    </ul>
-
-
-
-<a href="https://ezaurum.com/2013/08/jaxb-%EB%A1%9C-xsd%EB%A5%BC-java-class%EB%A1%9C-%EB%A7%8C%EB%93%A4-%EB%95%8C/"> jaxb 로 xsd를 java class로 만들 때</a>
-
-
-<a href="https://ezaurum.com/2013/07/Jackson%EC%9D%B4-null-%EC%9D%B8-%ED%94%84%EB%A1%9C%ED%8D%BC%ED%8B%B0%EB%A5%BC-%EB%B9%BC%EA%B3%A0-Serialize%ED%95%98%EA%B2%8C-%ED%95%98%EA%B8%B0/">Jackson이 null 인 프로퍼티를 빼고 Serialize하게 하기</a>
-
-
-
-
-
-
+<div class="adsense">
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
 <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-3471055249244195"
@@ -99,24 +119,19 @@ HKEY_CLASSES_ROOTcom.unity3d.kharmashellOpencommand</p>
 <script>
     (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+</div>
+
 
 
 </main>
 
-
-
-    <footer>
-© Ezaurum 2001-
+<footer class="site-footer">
+    <div class="wrap">© Ezaurum 2001-2026</div>
 </footer>
 
-
-
-
-
-    <script>
+<script>
 
 </script>
-
 
 </body>
 </html>

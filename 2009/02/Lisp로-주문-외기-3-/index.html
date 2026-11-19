@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang='ko-kr'>
+<html lang='en'>
 <head>
     <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
     
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-40920966-1"></script>
@@ -14,37 +15,64 @@
 </script>
 
 
-    <title>   Lisp로 주문 외기 - 3 - -  Ezaurum&#39;s Blog </title>
-    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+    <title>Lisp로 주문 외기 - 3 - - Ezaurum&#39;s Blog</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
     <link rel="stylesheet" href="/css/style.css">
 
     </head>
 <body>
-
-    <header>
-    <nav>
+<header class="site-header">
+    <div class="wrap">
+        <a class="site-title" href="/">Ezaurum&#39;s Blog</a>
+        
+<nav class="site-nav" aria-label="사이트 메뉴">
     
-        <a href="https://ezaurum.com/">Ezaurum&#39;s Blog</a>
+        
+        <a href="/post/" aria-current="page">글</a>
+        
     
-        <a href="https://ezaurum.com/about/">About</a>
+        
+        <a href="/reading/">독서</a>
+        
     
-        <a href="https://ezaurum.com/tools/">사용하는 툴</a>
+        
+        <a href="/recipe/">레시피</a>
+        
     
-        <a href="https://ezaurum.com/pragmatic-programmer/">실용주의 프로그래머</a>
+        
+        <a href="/bug/">버그일기</a>
+        
     
-    <a href="/bug">버그일기</a>
-    <a href="/retrospective">회고</a>
+        
+        <a href="/retrospective/">회고</a>
+        
+    
+    
+        <a href="/about/">About</a>
+    
+        <a href="/tools/">사용하는 툴</a>
+    
+        <a href="/pragmatic-programmer/">실용주의 프로그래머</a>
+    
 </nav>
 
+    </div>
 </header>
 
 
+<main class="wrap">
 
+<article class="post">
+<header class="post-header">
+    <h1 class="page-title">Lisp로 주문 외기 - 3 -</h1>
+    <div class="post-meta">
+        <time datetime="2009-02-03">2009년 2월 3일</time>
+        <a href="/post/">글</a>
+        
+    </div>
+</header>
 
-<main class="post single">
-<h1>Lisp로 주문 외기 - 3 -</h1>
-2009-02-03
-<section><p>라이센스 - <a href="http://www.gnu.org/licenses/licenses.html#FDL">The GNU Free Documentation License</a>
+<div class="post-body"><p>라이센스 - <a href="http://www.gnu.org/licenses/licenses.html#FDL">The GNU Free Documentation License</a>
 원저자 - <a href="mailto:lisperati@gmail.com">Conrad Barski, M.D.</a>
 원본 출처 - <a href="http://lisperati.com/casting.html"><a href="http://lisperati.com/casting.html">http://lisperati.com/casting.html</a></a></p>
 <p>엄청나게 좋은 Lisp컴파일러가 많이 있지만, 이 강좌를 들으며 쓰기 가장 쉬운 것은 Franz의 <a href="http://www.franz.com/">Allegro Common Lisp</a>, 매우 강력한 상업용 Lisp입니다. Franz, Inc. 는 친절하게도 텔넷환경을 통해서 사용할 수 있도록 해 주었지요. <a href="telnet://prompt.franz.com">여기</a>에 있으니까 컴퓨터에 아무 것도 깔 필요는 없어요. 그냥 이 링크를 클릭하면 원하는 모든 것을 제공해주는 텔넷 화면이 뜰 겁니다!
@@ -54,40 +82,36 @@
 Allegro Common Lisp를 쓰고 있다면, Lisp 명령줄에서 다음을 실행해 보세요.
 <code>(setf tpl:<em>print-length</em> nil)</code>
 일단 브라우저에서 이걸 복사해서 텔넷 창에서 오른쪽 클릭을 하고, 붙여넣기를 선택합니다. 이 줄에 대해서 너무 신경쓸 필요는 없어요. 이건 그냥 알레그로가 우리의 텍스트 게임에서 출력되는 문장을 썰어대는 걸 방지하는 것 뿐이에요.</p>
-</section>
+</div>
 
+<footer class="post-footer">
+    
+    
+    <div class="post-terms"><span>태그</span>
+        <ul class="chips"><li><a href="/tags/casting-spels/">casting-spels</a></li><li><a href="/tags/%EB%B2%88%EC%97%AD/">번역</a></li><li><a href="/tags/%EA%B2%B0%EA%B3%BC%EB%AC%BC/">결과물</a></li><li><a href="/tags/%EA%B3%B5%EB%B6%80/">공부</a></li><li><a href="/tags/LISP/">LISP</a></li></ul>
+    </div>
+    
 
+    
+    
 
-
-    <ul class="taxonomy tag">
-        Tag
+    
+    
+    
+    
+    
+    <nav class="post-nav" aria-label="이전/다음 글">
         
-        <li><a href="/tags/casting-spels">casting-spels</a></li>
-        
-        <li><a href="/tags/%EB%B2%88%EC%97%AD">번역</a></li>
-        
-        <li><a href="/tags/%EA%B2%B0%EA%B3%BC%EB%AC%BC">결과물</a></li>
-        
-        <li><a href="/tags/%EA%B3%B5%EB%B6%80">공부</a></li>
-        
-        <li><a href="/tags/LISP">LISP</a></li>
-        </ul>
-    </ul>
+        <a class="next" href="/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-2-/"><small>다음 글 →</small>Lisp로 주문 외기 - 2 -</a>
+    </nav>
+    
+    
+</footer>
+</article>
 
 
-
-<a href="https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-2-/"> Lisp로 주문 외기 - 2 -</a>
-
-
-<a href="https://ezaurum.com/2009/02/Lisp%EB%A1%9C-%EC%A3%BC%EB%AC%B8-%EC%99%B8%EA%B8%B0-4-/">Lisp로 주문 외기 - 4 -</a>
-
-
-
-
-
-
+<div class="adsense">
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
 <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-3471055249244195"
@@ -96,24 +120,19 @@ Allegro Common Lisp를 쓰고 있다면, Lisp 명령줄에서 다음을 실행�
 <script>
     (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+</div>
+
 
 
 </main>
 
-
-
-    <footer>
-© Ezaurum 2001-
+<footer class="site-footer">
+    <div class="wrap">© Ezaurum 2001-2026</div>
 </footer>
 
-
-
-
-
-    <script>
+<script>
 
 </script>
-
 
 </body>
 </html>

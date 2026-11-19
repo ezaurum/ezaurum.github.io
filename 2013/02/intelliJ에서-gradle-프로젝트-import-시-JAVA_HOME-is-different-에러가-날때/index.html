@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang='ko-kr'>
+<html lang='en'>
 <head>
     <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
     
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-40920966-1"></script>
@@ -14,74 +15,97 @@
 </script>
 
 
-    <title>   intelliJ에서 gradle 프로젝트 import 시 JAVA_HOME is different 에러가 날때 -  Ezaurum&#39;s Blog </title>
-    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+    <title>intelliJ에서 gradle 프로젝트 import 시 JAVA_HOME is different 에러가 날때 - Ezaurum&#39;s Blog</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
     <link rel="stylesheet" href="/css/style.css">
 
     </head>
 <body>
-
-    <header>
-    <nav>
+<header class="site-header">
+    <div class="wrap">
+        <a class="site-title" href="/">Ezaurum&#39;s Blog</a>
+        
+<nav class="site-nav" aria-label="사이트 메뉴">
     
-        <a href="https://ezaurum.com/">Ezaurum&#39;s Blog</a>
+        
+        <a href="/post/" aria-current="page">글</a>
+        
     
-        <a href="https://ezaurum.com/about/">About</a>
+        
+        <a href="/reading/">독서</a>
+        
     
-        <a href="https://ezaurum.com/tools/">사용하는 툴</a>
+        
+        <a href="/recipe/">레시피</a>
+        
     
-        <a href="https://ezaurum.com/pragmatic-programmer/">실용주의 프로그래머</a>
+        
+        <a href="/bug/">버그일기</a>
+        
     
-    <a href="/bug">버그일기</a>
-    <a href="/retrospective">회고</a>
+        
+        <a href="/retrospective/">회고</a>
+        
+    
+    
+        <a href="/about/">About</a>
+    
+        <a href="/tools/">사용하는 툴</a>
+    
+        <a href="/pragmatic-programmer/">실용주의 프로그래머</a>
+    
 </nav>
 
+    </div>
 </header>
 
 
+<main class="wrap">
 
+<article class="post">
+<header class="post-header">
+    <h1 class="page-title">intelliJ에서 gradle 프로젝트 import 시 JAVA_HOME is different 에러가 날때</h1>
+    <div class="post-meta">
+        <time datetime="2013-02-17">2013년 2월 17일</time>
+        <a href="/post/">글</a>
+        
+    </div>
+</header>
 
-<main class="post single">
-<h1>intelliJ에서 gradle 프로젝트 import 시 JAVA_HOME is different 에러가 날때</h1>
-2013-02-17
-<section><p>윈도우 환경에서, intelliJ로 gradle 빌드 파일을 import하려고 하니 JAVA_HOME is different라는 에러가 난다.
+<div class="post-body"><p>윈도우 환경에서, intelliJ로 gradle 빌드 파일을 import하려고 하니 JAVA_HOME is different라는 에러가 난다.
 메세지를 보니 다 똑같은데, intelliJ가 expect라고 하는 건 디렉토리가 다 소문자, 실제로 있는 건 대문자가 섞여 있다.
 보통 JDK는 C:Program FilesJava 아래에 깔리게 되는데, 그냥 c:jdk로 옮겨주고, 시스템 설정에서 JAVA_HOME도 바꿔줬다.
 그걸로 해결.</p>
-</section>
+</div>
+
+<footer class="post-footer">
+    
+    
+    <div class="post-terms"><span>태그</span>
+        <ul class="chips"><li><a href="/tags/graddle/">graddle</a></li><li><a href="/tags/import/">import</a></li><li><a href="/tags/intellij/">intellij</a></li><li><a href="/tags/JAVA_HOME/">JAVA_HOME</a></li><li><a href="/tags/Windows7/">Windows7</a></li></ul>
+    </div>
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    <nav class="post-nav" aria-label="이전/다음 글">
+        <a class="prev" href="/2013/02/%EB%AF%B8%EB%94%94%EC%96%B4-%EC%9C%84%ED%82%A4-%EC%82%AC%EC%9A%A9%EC%97%90-%EB%8C%80%ED%95%9C-%ED%9A%8C%EC%9D%98/"><small>← 이전 글</small>미디어 위키 사용에 대한 회의</a>
+        <a class="next" href="/2013/03/%EB%82%A8%EC%9D%80-%EC%B9%98%ED%82%A8%EC%9C%BC%EB%A1%9C-%EB%A7%8C%EB%93%9C%EB%8A%94-%EC%98%A4%EC%95%BC%EC%BD%94%EB%8F%99/"><small>다음 글 →</small>남은 치킨으로 만드는 오야코동</a>
+    </nav>
+    
+    
+</footer>
+</article>
 
 
-
-
-    <ul class="taxonomy tag">
-        Tag
-        
-        <li><a href="/tags/graddle">graddle</a></li>
-        
-        <li><a href="/tags/import">import</a></li>
-        
-        <li><a href="/tags/intelliJ">intelliJ</a></li>
-        
-        <li><a href="/tags/JAVA_HOME">JAVA_HOME</a></li>
-        
-        <li><a href="/tags/Windows7">Windows7</a></li>
-        </ul>
-    </ul>
-
-
-
-<a href="https://ezaurum.com/2013/03/%EB%82%A8%EC%9D%80-%EC%B9%98%ED%82%A8%EC%9C%BC%EB%A1%9C-%EB%A7%8C%EB%93%9C%EB%8A%94-%EC%98%A4%EC%95%BC%EC%BD%94%EB%8F%99/"> 남은 치킨으로 만드는 오야코동</a>
-
-
-<a href="https://ezaurum.com/2013/02/%EB%AF%B8%EB%94%94%EC%96%B4-%EC%9C%84%ED%82%A4-%EC%82%AC%EC%9A%A9%EC%97%90-%EB%8C%80%ED%95%9C-%ED%9A%8C%EC%9D%98/">미디어 위키 사용에 대한 회의</a>
-
-
-
-
-
-
+<div class="adsense">
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
 <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-3471055249244195"
@@ -90,24 +114,19 @@
 <script>
     (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+</div>
+
 
 
 </main>
 
-
-
-    <footer>
-© Ezaurum 2001-
+<footer class="site-footer">
+    <div class="wrap">© Ezaurum 2001-2026</div>
 </footer>
 
-
-
-
-
-    <script>
+<script>
 
 </script>
-
 
 </body>
 </html>
