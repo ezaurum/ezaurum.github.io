@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Oracle on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/Oracle/</link>
-    <description>Recent content in Oracle on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Fri, 11 Nov 2011 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/Oracle/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>PL/SQL for 문</title>
-      <link>https://ezaurum.com/2011/11/PL/SQL-for-%EB%AC%B8/</link>
-      <pubDate>Fri, 11 Nov 2011 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2011/11/PL/SQL-for-%EB%AC%B8/</guid>
-      <description>기억을 위한 메모용이라고 되어 있는 글을 복구.&#xA;상황 몇 개 게시판의 글 내용을 모두 하나의 게시판(id=111)으로 옮겨야 했다. 게시판은 글 제목과 글 번호가 있는 board게시판이 하나, 글내용과 글 번호, 내용 순서 번호가 들어있는 contents게시판이 하나 있는 상황이었다. 게시판이 이 상황이 된 이유는, 언제적인지 모르지만, 한 컬럼에 들어가는 용량제한이 있었던 모양이고, 그 용량제한을 회피하고자 이렇게 짠 모양인데&amp;hellip; 문제는 소스가 잘못되서 제한보다 훨씬 적은 용량으로 글을 잘랐&amp;hellip; 일단 그래서 간단히 PL/SQL을 짜 봤다.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Oracle on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/Oracle/</link>
+		<description>Recent content in Oracle on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Fri, 11 Nov 2011 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/Oracle/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>PL/SQL for 문</title>
+				<link>https://ezaurum.com/2011/11/PL-SQL-for-%EB%AC%B8/</link>
+				<pubDate>Fri, 11 Nov 2011 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2011/11/PL-SQL-for-%EB%AC%B8/</guid>
+				<description>&lt;p&gt;기억을 위한 메모용이라고 되어 있는 글을 복구.&lt;/p&gt;&#xA;&lt;p&gt;상황&#xA;몇 개 게시판의 글 내용을 모두 하나의 게시판(id=111)으로 옮겨야 했다.&#xA;게시판은 글 제목과 글 번호가 있는 board게시판이 하나, 글내용과 글 번호, 내용 순서 번호가 들어있는 contents게시판이 하나 있는 상황이었다.&#xA;게시판이 이 상황이 된 이유는, 언제적인지 모르지만, 한 컬럼에 들어가는 용량제한이 있었던 모양이고, 그 용량제한을 회피하고자 이렇게 짠 모양인데&amp;hellip;  문제는 소스가 잘못되서 제한보다 훨씬 적은 용량으로 글을 잘랐&amp;hellip;&#xA;일단 그래서 간단히 PL/SQL을 짜 봤다.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

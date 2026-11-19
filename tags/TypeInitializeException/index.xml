@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>TypeInitializeException on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/TypeInitializeException/</link>
-    <description>Recent content in TypeInitializeException on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Thu, 05 Feb 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/TypeInitializeException/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>별거 안 했는데 TypeInitializeException 이 나는 경우</title>
-      <link>https://ezaurum.com/2015/02/%EB%B3%84%EA%B1%B0-%EC%95%88-%ED%96%88%EB%8A%94%EB%8D%B0-TypeInitializeException-%EC%9D%B4-%EB%82%98%EB%8A%94-%EA%B2%BD%EC%9A%B0/</link>
-      <pubDate>Thu, 05 Feb 2015 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2015/02/%EB%B3%84%EA%B1%B0-%EC%95%88-%ED%96%88%EB%8A%94%EB%8D%B0-TypeInitializeException-%EC%9D%B4-%EB%82%98%EB%8A%94-%EA%B2%BD%EC%9A%B0/</guid>
-      <description>아래와 같은 코드를 실행하면, TypeInitializeException이 뜬다. https://gist.github.com/ezaurum/fdcb0dce79ed900d5fb8.js 자세히 보면, Dictionary에 같은 키로 값을 넣으려 하고 있다. 이러면 이렇게 ArgumentException이 나게 되는데, 그게 static 변수를 할당하는 시점에 일어나므로, TypeInitializeException이 뜨게 된다. 그러니 저거 원인을 못 찾을 때는 static으로 선언한 변수에 값이 들어가는 부분을 체크해 보자.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>TypeInitializeException on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/TypeInitializeException/</link>
+		<description>Recent content in TypeInitializeException on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Thu, 05 Feb 2015 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/TypeInitializeException/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>별거 안 했는데 TypeInitializeException 이 나는 경우</title>
+				<link>https://ezaurum.com/2015/02/%EB%B3%84%EA%B1%B0-%EC%95%88-%ED%96%88%EB%8A%94%EB%8D%B0-TypeInitializeException-%EC%9D%B4-%EB%82%98%EB%8A%94-%EA%B2%BD%EC%9A%B0/</link>
+				<pubDate>Thu, 05 Feb 2015 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2015/02/%EB%B3%84%EA%B1%B0-%EC%95%88-%ED%96%88%EB%8A%94%EB%8D%B0-TypeInitializeException-%EC%9D%B4-%EB%82%98%EB%8A%94-%EA%B2%BD%EC%9A%B0/</guid>
+				<description>&lt;p&gt;아래와 같은 코드를 실행하면, &lt;a href=&#34;https://msdn.microsoft.com/ko-kr/library/system.typeinitializationexception(v=vs.110).aspx&#34;&gt;TypeInitializeException&lt;/a&gt;이 뜬다.&#xA;&lt;a href=&#34;https://gist.github.com/ezaurum/fdcb0dce79ed900d5fb8.js&#34;&gt;&lt;a href=&#34;https://gist.github.com/ezaurum/fdcb0dce79ed900d5fb8.js&#34;&gt;https://gist.github.com/ezaurum/fdcb0dce79ed900d5fb8.js&lt;/a&gt;&lt;/a&gt;&#xA;자세히 보면, Dictionary에 같은 키로 값을 넣으려 하고 있다.&#xA;이러면 &lt;a href=&#34;https://msdn.microsoft.com/ko-kr/library/k7z0zy8k(v=vs.110).aspx&#34;&gt;이렇게&lt;/a&gt; &lt;a href=&#34;https://msdn.microsoft.com/ko-kr/library/system.argumentexception(v=vs.110).aspx&#34;&gt;ArgumentException&lt;/a&gt;이 나게 되는데, 그게 static 변수를 할당하는 시점에 일어나므로, TypeInitializeException이 뜨게 된다.&#xA;그러니 저거 원인을 못 찾을 때는 static으로 선언한 변수에 값이 들어가는 부분을 체크해 보자.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

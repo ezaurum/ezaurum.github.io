@@ -1,41 +1,47 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>DB on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/DB/</link>
-    <description>Recent content in DB on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Thu, 20 Jun 2019 22:31:05 +0900</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/DB/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>too many connection</title>
-      <link>https://ezaurum.com/bug/too-many-connections/</link>
-      <pubDate>Thu, 20 Jun 2019 22:31:05 +0900</pubDate>
-      <guid>https://ezaurum.com/bug/too-many-connections/</guid>
-      <description>현상 일정 시간마다 ajax로 내용을 리프레시 해 주는 게시판에서 사용자 200여명이 넘어가자 DB엑세스 시 too many connection이 발생하고 연결을 하지 못하는 현상 발생&#xA;DB, API 서버의 cpu/mem 부하는 20% 전후인 상태&#xA;리셋 등으로 해결이 안 되고, 도커 컨테이너 늘려서도 해결이 안 됨&#xA;지속되는 경우 리퀘스트도 쌓이고 file open max 값이 넘어가서 사용 불가&#xA;원인 DB 처리량보다 부하 심함 IO 부분이 보틀넥으로 보임 도커 인스턴스가 값싼 거고 DB도 값싼 인스턴스 커넥션이 늘어남 실제 DB 커넥션이 45개 전후 RDS에서 가장 작은 인스턴스를 사용했는데 전체 DB 메모리 양과 CPU 사용량을 가지고 연결수 계산 도커 컨테이너의 Max Connection은 50 이전 네이버에서 직접 배포 때 잡은 설정 그대로 RDS 인스턴스가 여러 개 일 때는 괜찮았음 제일 작은 걸로 바꾸고 인스턴스도 줄여둔 상태 이미 늘어난 컨넥션은 없어지지 않고 CPU 사용량은 그리 많지 않음 재현 봇을 만들어서 로그인, 화면 리프레시를 하게 하니 100명 전후가 몰려서 접근시 문제 발생</description>
-    </item>
-    <item>
-      <title>C# DB 라이브러리 비교</title>
-      <link>https://ezaurum.com/2014/12/C%23-DB-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-%EB%B9%84%EA%B5%90/</link>
-      <pubDate>Thu, 25 Dec 2014 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2014/12/C%23-DB-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-%EB%B9%84%EA%B5%90/</guid>
-      <description>별로 구체적으로 비교를 해 본 것은 아니지만, 지난 두 달간 이런저런 삽질을 한 결과를 정리한다.&#xA;Linq To SQL - MS스러운 DB라이브러리&#xD;장점 - IDE에 통합된 사용환경, VS에서 DB에 연결 후, 테이블을 끌어오는 것만으로도 바로 도메인 객체가 생성된다. 속도가 빠르다. 복잡한 쿼리에 신경 안 써도 된다. 러닝커브 작음.&#xD;단점 - 자동생성되는 도메인 객체가 복잡하다. 로직이 들어가야 하는 경우 매우 곤란해진다. POCO객체는 불가능. 추가 수정도 귀찮다.&#xD;적절한 사용처 - 이미 DB가 존재하고, 거기에 간단한 CRUD연산을 해야 하는 웹 툴 정도를 붙이는 경우.</description>
-    </item>
-    <item>
-      <title>pg_hba.conf load fail error</title>
-      <link>https://ezaurum.com/2014/10/pg_hba.conf-load-fail-error/</link>
-      <pubDate>Fri, 10 Oct 2014 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2014/10/pg_hba.conf-load-fail-error/</guid>
-      <description>pg_hba.conf load fail error가 발생. 설정 파일 내부에 항목이 하나도 없으면 로드에 에러 발생 기본 항목 주석 해제로 해결</description>
-    </item>
-    <item>
-      <title>PL/SQL for 문</title>
-      <link>https://ezaurum.com/2011/11/PL/SQL-for-%EB%AC%B8/</link>
-      <pubDate>Fri, 11 Nov 2011 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2011/11/PL/SQL-for-%EB%AC%B8/</guid>
-      <description>기억을 위한 메모용이라고 되어 있는 글을 복구.&#xA;상황 몇 개 게시판의 글 내용을 모두 하나의 게시판(id=111)으로 옮겨야 했다. 게시판은 글 제목과 글 번호가 있는 board게시판이 하나, 글내용과 글 번호, 내용 순서 번호가 들어있는 contents게시판이 하나 있는 상황이었다. 게시판이 이 상황이 된 이유는, 언제적인지 모르지만, 한 컬럼에 들어가는 용량제한이 있었던 모양이고, 그 용량제한을 회피하고자 이렇게 짠 모양인데&amp;hellip; 문제는 소스가 잘못되서 제한보다 훨씬 적은 용량으로 글을 잘랐&amp;hellip; 일단 그래서 간단히 PL/SQL을 짜 봤다.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>DB on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/DB/</link>
+		<description>Recent content in DB on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Thu, 20 Jun 2019 22:31:05 +0900</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/DB/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>too many connection</title>
+				<link>https://ezaurum.com/bug/too-many-connections/</link>
+				<pubDate>Thu, 20 Jun 2019 22:31:05 +0900</pubDate>
+				<guid>https://ezaurum.com/bug/too-many-connections/</guid>
+				<description>&lt;h1 id=&#34;현상&#34;&gt;현상&lt;/h1&gt;&#xA;&lt;p&gt;일정 시간마다 ajax로 내용을 리프레시 해 주는 게시판에서 사용자 200여명이 넘어가자 DB엑세스 시 too many connection이 발생하고 연결을 하지 못하는 현상 발생&lt;/p&gt;&#xA;&lt;p&gt;DB, API 서버의 cpu/mem 부하는 20% 전후인 상태&lt;/p&gt;&#xA;&lt;p&gt;리셋 등으로 해결이 안 되고, 도커 컨테이너 늘려서도 해결이 안 됨&lt;/p&gt;&#xA;&lt;p&gt;지속되는 경우 리퀘스트도 쌓이고 file open max 값이 넘어가서 사용 불가&lt;/p&gt;&#xA;&lt;h1 id=&#34;원인&#34;&gt;원인&lt;/h1&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;DB 처리량보다 부하 심함&#xA;&lt;ol&gt;&#xA;&lt;li&gt;IO 부분이 보틀넥으로 보임&lt;/li&gt;&#xA;&lt;li&gt;도커 인스턴스가 값싼 거고 DB도 값싼 인스턴스&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;커넥션이 늘어남&lt;/li&gt;&#xA;&lt;li&gt;실제 DB 커넥션이 45개 전후&#xA;&lt;ol&gt;&#xA;&lt;li&gt;RDS에서 가장 작은 인스턴스를 사용했는데 전체 DB 메모리 양과 CPU 사용량을 가지고 연결수 계산&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;도커 컨테이너의 Max Connection은 50&#xA;&lt;ol&gt;&#xA;&lt;li&gt;이전 네이버에서 직접 배포 때 잡은 설정 그대로&lt;/li&gt;&#xA;&lt;li&gt;RDS 인스턴스가 여러 개 일 때는 괜찮았음&lt;/li&gt;&#xA;&lt;li&gt;제일 작은 걸로 바꾸고 인스턴스도 줄여둔 상태&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;이미 늘어난 컨넥션은 없어지지 않고 CPU 사용량은 그리 많지 않음&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h1 id=&#34;재현&#34;&gt;재현&lt;/h1&gt;&#xA;&lt;p&gt;봇을 만들어서 로그인, 화면 리프레시를 하게 하니 100명 전후가 몰려서 접근시 문제 발생&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>C# DB 라이브러리 비교</title>
+				<link>https://ezaurum.com/2014/12/C%23-DB-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-%EB%B9%84%EA%B5%90/</link>
+				<pubDate>Thu, 25 Dec 2014 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2014/12/C%23-DB-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-%EB%B9%84%EA%B5%90/</guid>
+				<description>&lt;p&gt;별로 구체적으로 비교를 해 본 것은 아니지만, 지난 두 달간 이런저런 삽질을 한 결과를 정리한다.&lt;/p&gt;&#xA;&lt;ol&gt;&#xD;&#xA;&#x9;&lt;li&gt;&lt;a href=&#34;http://msdn.microsoft.com/en-us/library/bb425822.aspx&#34;&gt;Linq To SQL&lt;/a&gt; - MS스러운 DB라이브러리&#xD;&#xA;&lt;ol&gt;&#xD;&#xA;&#x9;&lt;li&gt;장점 - IDE에 통합된 사용환경, VS에서 DB에 연결 후, 테이블을 끌어오는 것만으로도 바로 도메인 객체가 생성된다. 속도가 빠르다. 복잡한 쿼리에 신경 안 써도 된다. 러닝커브 작음.&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;단점 - 자동생성되는 도메인 객체가 복잡하다. 로직이 들어가야 하는 경우 매우 곤란해진다. POCO객체는 불가능. 추가 수정도 귀찮다.&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;적절한 사용처 - 이미 DB가 존재하고, 거기에 간단한 CRUD연산을 해야 하는 웹 툴 정도를 붙이는 경우.&lt;/li&gt;&#xD;&#xA;&lt;/ol&gt;&#xD;&#xA;&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;&lt;a href=&#34;http://www.asp.net/entity-framework&#34;&gt;Entity Framework&lt;/a&gt; - Hibernate에 대응하는 ORM&#xD;&#xA;&lt;ol&gt;&#xD;&#xA;&#x9;&lt;li&gt;장점 - 일단 코드를 짜고 바로 연결하면 된다. 복잡한 쿼리에 신경 안 써도 된다.&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;단점 - 라이브러리 사용법이 복잡하다. 제대로 쓰려면 책 한권 잡고 봐야 한다. 초기 러닝커브 크다. 속도가 느리다.&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;적절한 사용처 - 최초 프로젝트를 시작하고, 엔터프라이즈 환경... 인 경우... 하고 시간이 많고, 속도에 그리 신경쓰지 않아도 되고, 도메인 구조가 복잡하고 자주 변경되는 경우.&lt;/li&gt;&#xD;&#xA;&lt;/ol&gt;&#xD;&#xA;&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;&lt;a href=&#34;https://github.com/StackExchange/dapper-dot-net&#34;&gt;Dapper&lt;/a&gt; - MyBatis 류에 대응하는 ORM&#xD;&#xA;&lt;ol&gt;&#xD;&#xA;&#x9;&lt;li&gt;장점 - 간단하다. 솔직히 SQL2LINQ보다 이게 더 간단해 보인다. 속도가 빠르다. 뭐 간단한 구조니까 당연하달까.&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;단점 - 쿼리를 직접 짜야 한다. 그러니 도메인 구조가 바뀌면 쿼리도 같이 바꿔줘야 하는 경우가 있다. 복잡한 매핑은 지원하지 않는다. 한 로우 마다 기본적으로 하나의 오브젝트에 대응하고, 대충 나눠서 여러 개를 매핑하는 것은 가능하지만, 조인해서 오브젝트 내부에 리스트를 넣는다든가 하는 것은 매핑 메소드를 따로 만들어줘야 한다.&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;적절한 사용처 - 속도가 중요하고, 초기 러닝커브가 크면 곤란한 경우. 개발자가 DB에 대해 좀 아는 경우.&lt;/li&gt;&#xD;&#xA;&lt;/ol&gt;&#xD;&#xA;&lt;/li&gt;&#xD;&#xA;&lt;/ol&gt;&#xD;&#xA;&lt;strong&gt;현재 내 프로젝트의 상황 &lt;/strong&gt;&#xD;&#xA;&lt;ul&gt;&#xD;&#xA;&#x9;&lt;li&gt;개발 기간이 얼마 남지 않았다.&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;내가 DB를 설계할 수 있음.&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;도메인 구조가 자주 바뀐다.&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;도메인에 로직이 들어가야 하는 경우가 많다.&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;속도가 매우 중요.&lt;/li&gt;&#xD;&#xA;&lt;/ul&gt;&#xD;&#xA;&lt;strong&gt;결론&lt;/strong&gt;&#xD;&#xA;&lt;ol&gt;&#xD;&#xA;&#x9;&lt;li&gt;개발 기간이 얼마 남지 않았다.&#xD;&#xA;&lt;ol&gt;&#xD;&#xA;&#x9;&lt;li&gt;Entity프레임워크는 일단 제외 - 하이버네이트 때도 그랬지만, 러닝커브가 큰 라이브러리의 경우 개발시간 내내 익숙해지지 않는 경우가 많다.&lt;/li&gt;&#xD;&#xA;&lt;/ol&gt;&#xD;&#xA;&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;속도가 매우 중요.&#xD;&#xA;&lt;ol&gt;&#xD;&#xA;&#x9;&lt;li&gt;Enitity 프레임워크가 일단 또 제외.&lt;/li&gt;&#xD;&#xA;&lt;/ol&gt;&#xD;&#xA;&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;도메인에 로직이 들어가야 한다.&#xD;&#xA;&lt;ol&gt;&#xD;&#xA;&#x9;&lt;li&gt;SQL2LINQ가 제외.&lt;/li&gt;&#xD;&#xA;&lt;/ol&gt;&#xD;&#xA;&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;내가 DB를 설계할 수 있다.&#xD;&#xA;&lt;ol&gt;&#xD;&#xA;&#x9;&lt;li&gt;Dapper의 단점이 좀 경감&lt;/li&gt;&#xD;&#xA;&lt;/ol&gt;&#xD;&#xA;&lt;/li&gt;&#xD;&#xA;&lt;/ol&gt;&#xD;&#xA;그러므로 Dapper를 사용하기로 함.</description>
+			</item>
+			<item>
+				<title>pg_hba.conf load fail error</title>
+				<link>https://ezaurum.com/2014/10/pg_hba.conf-load-fail-error/</link>
+				<pubDate>Fri, 10 Oct 2014 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2014/10/pg_hba.conf-load-fail-error/</guid>
+				<description>&lt;p&gt;pg_hba.conf load fail error가 발생.&#xA;설정 파일 내부에 항목이 하나도 없으면 로드에 에러 발생&#xA;기본 항목 주석 해제로 해결&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>PL/SQL for 문</title>
+				<link>https://ezaurum.com/2011/11/PL-SQL-for-%EB%AC%B8/</link>
+				<pubDate>Fri, 11 Nov 2011 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2011/11/PL-SQL-for-%EB%AC%B8/</guid>
+				<description>&lt;p&gt;기억을 위한 메모용이라고 되어 있는 글을 복구.&lt;/p&gt;&#xA;&lt;p&gt;상황&#xA;몇 개 게시판의 글 내용을 모두 하나의 게시판(id=111)으로 옮겨야 했다.&#xA;게시판은 글 제목과 글 번호가 있는 board게시판이 하나, 글내용과 글 번호, 내용 순서 번호가 들어있는 contents게시판이 하나 있는 상황이었다.&#xA;게시판이 이 상황이 된 이유는, 언제적인지 모르지만, 한 컬럼에 들어가는 용량제한이 있었던 모양이고, 그 용량제한을 회피하고자 이렇게 짠 모양인데&amp;hellip;  문제는 소스가 잘못되서 제한보다 훨씬 적은 용량으로 글을 잘랐&amp;hellip;&#xA;일단 그래서 간단히 PL/SQL을 짜 봤다.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

@@ -1,27 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>ZPD on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/ZPD/</link>
-    <description>Recent content in ZPD on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Wed, 30 Jun 2010 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/ZPD/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>성과물 2010년 6월 말</title>
-      <link>https://ezaurum.com/2010/06/%EC%84%B1%EA%B3%BC%EB%AC%BC-2010%EB%85%84-6%EC%9B%94-%EB%A7%90/</link>
-      <pubDate>Wed, 30 Jun 2010 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2010/06/%EC%84%B1%EA%B3%BC%EB%AC%BC-2010%EB%85%84-6%EC%9B%94-%EB%A7%90/</guid>
-      <description>이미 있는 홈페이지에서 팝업으로 폼을 입력받아 그 결과 처리&#xA;실 소요시간 16시간 정도.&#xA;간단한 작업 이지만, 프레임워크에 대한 이해가 없어서 꽤 오래 걸렸다.&#xA;소득 - iBatis, Struts에 대한 이해가 조금 늘었다.&#xA;역시 프로젝트를 하면서 이해하는 쪽이 빠르다. - 또한 가르쳐줄 사람이 있는 쪽이 훨씬 빠르다.&#xA;ZPD에 대한 생각을 하게 되었다.&#xA;그것과 관련해서 인강이 쓸모없지는 않구나 하는 생각을 하였다. - 그래서 PMP에 대한 구매욕구가 생겼다.</description>
-    </item>
-    <item>
-      <title>ZPD</title>
-      <link>https://ezaurum.com/2007/12/ZPD/</link>
-      <pubDate>Tue, 11 Dec 2007 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2007/12/ZPD/</guid>
-      <description>ZPD - 근접발달 영역 이라는 게 있다. 비고츠키란 아저씨가 주장한 건데, 간단히 얘기하면, 혼자서는 못 푸는 문젠데, 옆에서 힌트 조금만 주면 풀 수 있는 문제들의 영역 이라는 거다. 이게 꽤 중요한게, 생각해 보면, 나고 중고교 때 무언가 꽉 막혀 있는데 옆에서 살짝 도와주면 쉽게 문제를 풀 수 있는 경우가 있었고, 대부분 이런 문제는 어느 정도 도전의식을 자극하는 부분이 있다는 거다. 조금의 도움이라는 게 상황에 따라 많은 차이가 있을테지만, 일단은 가장 학습자에게 이상적인 의미의 조금의 도움이라고 한다면, 아주 풀고싶어서 힘들 지경일 때, 가뭄에 단비처럼 도움이 내려오는 거다.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>ZPD on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/ZPD/</link>
+		<description>Recent content in ZPD on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Wed, 30 Jun 2010 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/ZPD/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>성과물 2010년 6월 말</title>
+				<link>https://ezaurum.com/2010/06/%EC%84%B1%EA%B3%BC%EB%AC%BC-2010%EB%85%84-6%EC%9B%94-%EB%A7%90/</link>
+				<pubDate>Wed, 30 Jun 2010 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2010/06/%EC%84%B1%EA%B3%BC%EB%AC%BC-2010%EB%85%84-6%EC%9B%94-%EB%A7%90/</guid>
+				<description>&lt;p&gt;이미 있는 홈페이지에서 팝업으로 폼을 입력받아 그 결과 처리&lt;/p&gt;&#xA;&lt;p&gt;실 소요시간 16시간 정도.&lt;/p&gt;&#xA;&lt;p&gt;간단한 작업 이지만, 프레임워크에 대한 이해가 없어서 꽤 오래 걸렸다.&lt;/p&gt;&#xA;&lt;p&gt;소득 - iBatis, Struts에 대한 이해가 조금 늘었다.&lt;/p&gt;&#xA;&lt;p&gt;역시 프로젝트를 하면서 이해하는 쪽이 빠르다. - 또한 가르쳐줄 사람이 있는 쪽이 훨씬 빠르다.&lt;/p&gt;&#xA;&lt;p&gt;ZPD에 대한 생각을 하게 되었다.&lt;/p&gt;&#xA;&lt;p&gt;그것과 관련해서 인강이 쓸모없지는 않구나 하는 생각을 하였다.  - 그래서 PMP에 대한 구매욕구가 생겼다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>ZPD</title>
+				<link>https://ezaurum.com/2007/12/ZPD/</link>
+				<pubDate>Tue, 11 Dec 2007 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2007/12/ZPD/</guid>
+				<description>&lt;p&gt;ZPD - 근접발달 영역 이라는 게 있다.&#xA;비고츠키란 아저씨가 주장한 건데, 간단히 얘기하면, 혼자서는 못 푸는 문젠데, 옆에서 힌트 조금만 주면 풀 수 있는 문제들의 영역 이라는 거다.&#xA;이게 꽤 중요한게, 생각해 보면, 나고 중고교 때 무언가 꽉 막혀 있는데 옆에서 살짝 도와주면 쉽게 문제를 풀 수 있는 경우가 있었고, 대부분 이런 문제는 어느 정도 도전의식을 자극하는 부분이 있다는 거다. 조금의 도움이라는 게 상황에 따라 많은 차이가 있을테지만, 일단은 가장 학습자에게 이상적인 의미의 조금의 도움이라고 한다면, 아주 풀고싶어서 힘들 지경일 때, 가뭄에 단비처럼 도움이 내려오는 거다. 그러면 푼 문제에 대해서도 잘 기억하고, 그 다음에 자기도 누군가에게 도움을 줄 수도 있고, 자기가  막혀있던 방향에 대해 고찰을 하게 되니까, 이후 비슷한 식으로 막혀 있을 때, 돌파구를 마련할 계기도 된다고 본다. 이 이론에 촛점을 맞춰 보자면, 교사의 역할이라는게, 이런 근접발달 영역을 정확하게 알아내서 그 영역을 확장할 수 있도록 도움을 주고, 또는 도움을 줄 수 있는 사람과 연결시켜주라는 거지. 생각해 보면 멘토링도 조금은 비슷한 것 같기도?&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

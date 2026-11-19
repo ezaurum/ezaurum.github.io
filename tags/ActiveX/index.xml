@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>ActiveX on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/ActiveX/</link>
-    <description>Recent content in ActiveX on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Mon, 02 Feb 2009 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/ActiveX/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>sticube</title>
-      <link>https://ezaurum.com/2009/02/sticube/</link>
-      <pubDate>Mon, 02 Feb 2009 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2009/02/sticube/</guid>
-      <description>sticube란 이런 서비스 결론부터 말하자면 대실망 픽짜같은 Adobe AIR기반인가 했더니, 결국 또 클라이이언트를 깔라고 한다. 사실 난 flash도 별로 좋아하지 않는다. 느리니까. 생각해보면 어차피 ActiveX나 flash나 클라이언트에 뭔가 따로 깔리는 건 마찬가지도 하고. 하지만 서비스마다 다른 다운로드 클라이언트를 깔라고 하는 작태는 도저히 참을 수가 없다. 거기다 Opera에서는 안 돌아간다고! ActiveX를 쓸 거면 다른 브라우저에서 실행을 시도할 거란 것 정도는 알아 두란 말이지. 왜 안 돌아가는가 한참 고민했잖아! 에러 메세지 정도는 제대로 뱉으라고!</description>
-    </item>
-  </channel>
+	<channel>
+		<title>ActiveX on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/ActiveX/</link>
+		<description>Recent content in ActiveX on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Mon, 02 Feb 2009 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/ActiveX/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>sticube</title>
+				<link>https://ezaurum.com/2009/02/sticube/</link>
+				<pubDate>Mon, 02 Feb 2009 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2009/02/sticube/</guid>
+				<description>&lt;p&gt;&lt;a href=&#39;http://sticube.clubbox.co.kr/&#39;&gt;sticube란 이런 서비스&lt;/a&gt;&#xA;결론부터 말하자면 &lt;strong&gt;대실망&lt;/strong&gt;&#xA;&lt;a href=&#39;http://www.piczza.com/&#39;&gt;픽짜&lt;/a&gt;같은 &lt;a href=&#39;http://www.adobe.com/products/air/&#39;&gt;Adobe AIR&lt;/a&gt;기반인가 했더니, 결국 또 클라이이언트를 깔라고 한다.&#xA;사실 난 flash도 별로 좋아하지 않는다. 느리니까. 생각해보면 어차피 ActiveX나 flash나 클라이언트에 뭔가 따로 깔리는 건 마찬가지도 하고.&#xA;하지만 서비스마다 다른 다운로드 클라이언트를 깔라고 하는 작태는 도저히 참을 수가 없다. 거기다 Opera에서는 안 돌아간다고! ActiveX를 쓸 거면 다른 브라우저에서 실행을 시도할 거란 것 정도는 알아 두란 말이지. 왜 안 돌아가는가 한참 고민했잖아! 에러 메세지 정도는 제대로 뱉으라고!&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

@@ -1,216 +1,222 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Programming on Ezaurum&#39;s Blog</title>
-    <link>https://ezaurum.com/tags/Programming/</link>
-    <description>Recent content in Programming on Ezaurum&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>ko-kr</language>
-    <copyright>© Ezaurum 2001-</copyright>
-    <lastBuildDate>Thu, 08 Apr 2021 22:34:33 +0900</lastBuildDate>
-    <atom:link href="https://ezaurum.com/tags/Programming/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Async/Sync vs Block/Non-Block</title>
-      <link>https://ezaurum.com/study/async-sync-vs-block-non-block/</link>
-      <pubDate>Thu, 08 Apr 2021 22:34:33 +0900</pubDate>
-      <guid>https://ezaurum.com/study/async-sync-vs-block-non-block/</guid>
-      <description>옛날에 어느 N사 면접에서 나온 질문인데 대답이 명확하게 나오지 않아서 나중에 알아봐야지 하다가 말았던 것.&#xA;결론은 결국 영어 공부였다. Async/Sync - Block/Non-Block 의 의미를 이해하면 될 문제였던 것.&#xA;Block/Non-Block Block/Non-Block 은 프로시저의 실행이 멈추는가를 표현하는 용어다.&#xA;실행 중인 프로시저A가 다른 프로시저B를 호출 할 때, 호출된 프로시저B가 자기가 끝날 때까지 A 를 멈추면(Block) Block이고 안 멈추면(Non-Block) Non-Block이다.&#xA;실제 구현된 프로그램 함수로 생각한다면 호출된 함수가 모든 작업이 끝난 다음에 return 하냐 작업이 끝나기 전에 return 하냐 하는 것을 생각하면 되겠다.</description>
-    </item>
-    <item>
-      <title>2018 카카오 블라인드 테스트 추석 트래픽 풀이</title>
-      <link>https://ezaurum.com/study/sweep-algorithm/</link>
-      <pubDate>Thu, 18 Mar 2021 13:49:20 +0900</pubDate>
-      <guid>https://ezaurum.com/study/sweep-algorithm/</guid>
-      <description>알고리즘 스터디를 하다 6시간 이상 낑낑대며 풀어서 아까워서 정리 언젠가는 쉽게 풀 수 있겠지.&#xA;문제 2018카카오 블라인드 테스트&#xA;신경써야 하는 부분 정렬된 기준점에서 시작해야 함 Sweeping Algorithm 참조&#xA;일반 풀이 Sweep a line across problem plane. 문제를 평면에 놓고 줄을 긋는다&#xA;As the line sweeps across the plane, events of interest occur, keep track of these events. 줄이 평면에 그어지면서 뭔가 사건이 생기면 그걸 추적한다.&#xA;Deal with events that occur at the line leaving a solved problem behind.</description>
-    </item>
-    <item>
-      <title>Nuget 패키지에 의존성 지정하기</title>
-      <link>https://ezaurum.com/2015/02/Nuget-%ED%8C%A8%ED%82%A4%EC%A7%80%EC%97%90-%EC%9D%98%EC%A1%B4%EC%84%B1-%EC%A7%80%EC%A0%95%ED%95%98%EA%B8%B0/</link>
-      <pubDate>Sun, 08 Feb 2015 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2015/02/Nuget-%ED%8C%A8%ED%82%A4%EC%A7%80%EC%97%90-%EC%9D%98%EC%A1%B4%EC%84%B1-%EC%A7%80%EC%A0%95%ED%95%98%EA%B8%B0/</guid>
-      <description>출처 - Nuget 매뉴얼 Nuget 패키지를 만들 때 의존성을 지정하려면, .nuspec 파일 안의 metadata 태그의 자식으로 &amp;lt;/code&amp;gt;&#xD;이렇게 지정해 주면 된다.</description>
-    </item>
-    <item>
-      <title>oAuth 정리</title>
-      <link>https://ezaurum.com/2015/01/oAuth-%EC%A0%95%EB%A6%AC/</link>
-      <pubDate>Mon, 05 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2015/01/oAuth-%EC%A0%95%EB%A6%AC/</guid>
-      <description>OAuth를 통해 보는 안전한 통신 프로토콜의 조건 oAuth와 춤을 oAuth 공식 사이트</description>
-    </item>
-    <item>
-      <title>C# DB 라이브러리 비교</title>
-      <link>https://ezaurum.com/2014/12/C%23-DB-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-%EB%B9%84%EA%B5%90/</link>
-      <pubDate>Thu, 25 Dec 2014 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2014/12/C%23-DB-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-%EB%B9%84%EA%B5%90/</guid>
-      <description>별로 구체적으로 비교를 해 본 것은 아니지만, 지난 두 달간 이런저런 삽질을 한 결과를 정리한다.&#xA;Linq To SQL - MS스러운 DB라이브러리&#xD;장점 - IDE에 통합된 사용환경, VS에서 DB에 연결 후, 테이블을 끌어오는 것만으로도 바로 도메인 객체가 생성된다. 속도가 빠르다. 복잡한 쿼리에 신경 안 써도 된다. 러닝커브 작음.&#xD;단점 - 자동생성되는 도메인 객체가 복잡하다. 로직이 들어가야 하는 경우 매우 곤란해진다. POCO객체는 불가능. 추가 수정도 귀찮다.&#xD;적절한 사용처 - 이미 DB가 존재하고, 거기에 간단한 CRUD연산을 해야 하는 웹 툴 정도를 붙이는 경우.</description>
-    </item>
-    <item>
-      <title>Ninject 첫인상</title>
-      <link>https://ezaurum.com/2014/12/Ninject-%EC%B2%AB%EC%9D%B8%EC%83%81/</link>
-      <pubDate>Wed, 24 Dec 2014 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2014/12/Ninject-%EC%B2%AB%EC%9D%B8%EC%83%81/</guid>
-      <description>DI 를 위해 Ninject를 사용함. NInject는 Web API controller를 생성할 때, 컨트롤러에 해당 의존성 객체가 존재하는 생성자가 없으면, 제대로 DI가 되지 않으므로 주의</description>
-    </item>
-    <item>
-      <title>nuget 패키지 자동으로 만들기</title>
-      <link>https://ezaurum.com/2014/12/nuget-%ED%8C%A8%ED%82%A4%EC%A7%80-%EC%9E%90%EB%8F%99%EC%9C%BC%EB%A1%9C-%EB%A7%8C%EB%93%A4%EA%B8%B0/</link>
-      <pubDate>Wed, 24 Dec 2014 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2014/12/nuget-%ED%8C%A8%ED%82%A4%EC%A7%80-%EC%9E%90%EB%8F%99%EC%9C%BC%EB%A1%9C-%EB%A7%8C%EB%93%A4%EA%B8%B0/</guid>
-      <description>msbuild를 사용해서 만들기 </description>
-    </item>
-    <item>
-      <title>Cross-thread operation not valid 해결</title>
-      <link>https://ezaurum.com/2014/12/Cross-thread-operation-not-valid-%ED%95%B4%EA%B2%B0/</link>
-      <pubDate>Fri, 05 Dec 2014 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2014/12/Cross-thread-operation-not-valid-%ED%95%B4%EA%B2%B0/</guid>
-      <description>출처 - 스택오버플로우 private void OnAction(string v) { richTextBox1.AppendText(v + Environment.NewLine); richTextBox1.ScrollToCaret(); }&#xA;public void AddText(string value) { richTextBox1.Invoke((Action) OnAction, value); } 기본적으로 invoke를 이용하면 해당 문제를 막을 수 있음.</description>
-    </item>
-    <item>
-      <title>MSSQL에서 유니코드 텍스트는 nvarchar로</title>
-      <link>https://ezaurum.com/2014/12/MSSQL%EC%97%90%EC%84%9C-%EC%9C%A0%EB%8B%88%EC%BD%94%EB%93%9C-%ED%85%8D%EC%8A%A4%ED%8A%B8%EB%8A%94-nvarchar%EB%A1%9C/</link>
-      <pubDate>Mon, 01 Dec 2014 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2014/12/MSSQL%EC%97%90%EC%84%9C-%EC%9C%A0%EB%8B%88%EC%BD%94%EB%93%9C-%ED%85%8D%EC%8A%A4%ED%8A%B8%EB%8A%94-nvarchar%EB%A1%9C/</guid>
-      <description>mssql에서 유니코드로 된 텍스트를 저장해야 하면 varchar대신 nvarchar를 쓰자.&#xA;그래야 DB 관리툴이라든가 쿼리 등에서 문제가 없다.</description>
-    </item>
-    <item>
-      <title>제대로 된 이름</title>
-      <link>https://ezaurum.com/2013/12/%EC%A0%9C%EB%8C%80%EB%A1%9C-%EB%90%9C-%EC%9D%B4%EB%A6%84/</link>
-      <pubDate>Sun, 01 Dec 2013 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2013/12/%EC%A0%9C%EB%8C%80%EB%A1%9C-%EB%90%9C-%EC%9D%B4%EB%A6%84/</guid>
-      <description>2주일간 만들던 게임 네트워크 엔진을 손봤는데, 초기 코드가 흔적도 없이 사라졌다. C#으로 메세지가 조립되면 이벤트를 호출하는 식으로 만들었는데, 이게 메소드랑 연관 객체들이 모이고 흩어지고 하다보니까 메세지 객체를 내뱉고 받아들이는 소켓 비슷한 게 되더라. 정확히는 소캣을 감싸는 그 어떤 것. 그 때 얘의 이름이 소켓으로 결정되었다. 그 전에는 UserToken, Raja, Session(으악!), MessageProcessor&amp;hellip; 저 Raja는 드래곤 라자에서 나온 그것, 멍청하게도 이 이름을 지으면서 꽤 잘 된 이름이라고 생각했다. 중간에서 메세지를 받고 보내주고 하는 역할을 한다고 생각하면서 지었는데도 그 때는 소켓이 생각나지 않았다.</description>
-    </item>
-    <item>
-      <title>C# Socket.AcceptAsync에서 invalidOperationException이 날 때</title>
-      <link>https://ezaurum.com/2013/11/C%23-Socket.AcceptAsync%EC%97%90%EC%84%9C-invalidOperationException%EC%9D%B4-%EB%82%A0-%EB%95%8C/</link>
-      <pubDate>Sun, 24 Nov 2013 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2013/11/C%23-Socket.AcceptAsync%EC%97%90%EC%84%9C-invalidOperationException%EC%9D%B4-%EB%82%A0-%EB%95%8C/</guid>
-      <description>C#에서 소켓 프로그래밍을 할 때, Socket.AcceptAsync로 연결하는데 다음과 같은 예외가 발생했다. System.InvalidOperationException이(가) 처리되지 않았습니다. Message=AcceptSocket: 소켓을 바인딩하거나 연결하면 안 됩니다. 원인은 AcceptAsync이후에 같은 SocketAsyncEventArgs객체를 이용해 계속 Accept를 받으려고 했는데, SocketAsyncEventArgs.AcceptSocket 프로퍼티를 null로 초기화하지 않았기 때문이다. 재사용하려면 AcceptSocket = null;을 넣어줄 것.</description>
-    </item>
-    <item>
-      <title>Git에서 특정파일 임시로 커밋내역에서 제외하기</title>
-      <link>https://ezaurum.com/2013/11/Git%EC%97%90%EC%84%9C-%ED%8A%B9%EC%A0%95%ED%8C%8C%EC%9D%BC-%EC%9E%84%EC%8B%9C%EB%A1%9C-%EC%BB%A4%EB%B0%8B%EB%82%B4%EC%97%AD%EC%97%90%EC%84%9C-%EC%A0%9C%EC%99%B8%ED%95%98%EA%B8%B0/</link>
-      <pubDate>Sun, 24 Nov 2013 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2013/11/Git%EC%97%90%EC%84%9C-%ED%8A%B9%EC%A0%95%ED%8C%8C%EC%9D%BC-%EC%9E%84%EC%8B%9C%EB%A1%9C-%EC%BB%A4%EB%B0%8B%EB%82%B4%EC%97%AD%EC%97%90%EC%84%9C-%EC%A0%9C%EC%99%B8%ED%95%98%EA%B8%B0/</guid>
-      <description>출처 http://blog.outsider.ne.kr/817 스택오버플로우 FallenGameR&amp;rsquo;s blog Unity3D로 공동작업을 하다 보면 meta파일이 많이 생기고, 뭐 잠깐 이쪽에서 고쳐보고 싶은데 하던 작업 중에 일부는 또 올려야 할 때가 있고해서 골치 아플 때 유용함. local 에만 적용해야 하는 환경파일 수정할 때도 유용&#xA;리모트 파일이 바뀌어서 pull을 할 때 주의점 기본적으로 컨플릭트가 나고, 해결 방법이 다르다&#xA;assumed-unchanged - stash 가능하지만, stash 하면 데이터 날아감 skip-worktree - stash 불가능, 플래그 꺼 줘야 함 git reset --hard를 하는 경우 주의점 결국 둘 다 파일은 바뀐다.</description>
-    </item>
-    <item>
-      <title>java에서 arraylist 삭제하는 방법</title>
-      <link>https://ezaurum.com/2013/11/java%EC%97%90%EC%84%9C-arraylist-%EC%82%AD%EC%A0%9C%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/</link>
-      <pubDate>Sun, 24 Nov 2013 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2013/11/java%EC%97%90%EC%84%9C-arraylist-%EC%82%AD%EC%A0%9C%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/</guid>
-      <description>iterator를 사용한다.&#xA;참고 - removeAlll은 hashset과 arrayList가 구현이 다르게 되어 있다.</description>
-    </item>
-    <item>
-      <title>인증과 인가의 차이</title>
-      <link>https://ezaurum.com/2013/11/%EC%9D%B8%EC%A6%9D%EA%B3%BC-%EC%9D%B8%EA%B0%80%EC%9D%98-%EC%B0%A8%EC%9D%B4/</link>
-      <pubDate>Sun, 24 Nov 2013 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2013/11/%EC%9D%B8%EC%A6%9D%EA%B3%BC-%EC%9D%B8%EA%B0%80%EC%9D%98-%EC%B0%A8%EC%9D%B4/</guid>
-      <description>인증(Authorization,認證)은 본인 인증&#xD;인가(Authentication,認可)는 사용 인가&#xD;인증은 누가 &amp;ldquo;내가 장동건인데~&amp;rdquo; 라고 했을 때, 말하는 사람이 장동건인지 아닌지 확인하는 과정. 인가는 누가 타인에게 뭘 요구할 때, 그걸 요구할 권한이 있는지 확인하는 과정.</description>
-    </item>
-    <item>
-      <title>C# TDD</title>
-      <link>https://ezaurum.com/2013/09/C%23-TDD/</link>
-      <pubDate>Mon, 30 Sep 2013 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2013/09/C%23-TDD/</guid>
-      <description>C# 개발을 시작하면서 일단 두 개를 써 보기로 했다. Moq Quick Start NUnit 2.6.2 quick start Resharper를 쓰고 있어서 그런지, NUnit 테스트는 alt+Enter로 실행이 되고, 결과도 따로 창 안 뜨고 옆에 보인다. moq는 람다식 덕에 자바에서 mockito를 쓸 때보다 좀 더 편해보인다.</description>
-    </item>
-    <item>
-      <title>gradle에서 jetty 9 쓰기</title>
-      <link>https://ezaurum.com/2013/05/gradle%EC%97%90%EC%84%9C-jetty-9-%EC%93%B0%EA%B8%B0/</link>
-      <pubDate>Thu, 23 May 2013 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2013/05/gradle%EC%97%90%EC%84%9C-jetty-9-%EC%93%B0%EA%B8%B0/</guid>
-      <description>gradle에 plugin으로 사용되는 jetty는 jetty 9이 아니다. 그러므로 WebApplicationInitializer를 써서 만든 앱은 돌아가지 않는다.&#xA;저 이슈 말미의 커멘트에 나온 방법으로 해결. 이걸로 6시간 넘게 잡아먹었다&amp;hellip;</description>
-    </item>
-    <item>
-      <title>Designing a Beautiful REST&#43;JSON API</title>
-      <link>https://ezaurum.com/2012/08/Designing-a-Beautiful-REST-JSON-API/</link>
-      <pubDate>Sat, 04 Aug 2012 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2012/08/Designing-a-Beautiful-REST-JSON-API/</guid>
-      <description>원문 링크 설명이 잘 되어 있는 영상. 개인적으로 포인트를 좀 잡아본다. 에러 HTTP 에러 코드를 넣고, 다른 설명이 필요. 가능한 많이. ID는 순차를 피하고 숨길 것. UUID 같은 걸 쓰라. 캐시 - ETag 가능하면 세션 사용을 피할 것. 기본적으로 객체가 콜렉션이나 하위 객체를 포함하면, 그걸 다 뿌려주지 말고, 하위객체나 콜렉션에 대한 링크를 제공 파라마터를 이용해서 객체를 다 뿌릴지 말지를 결정. GET /object?expand=true 파라마터를 이용해서 필터링과 페이지구분. offset, limit사용. 페이지 제공하는 경우 next, prev 링크 제공 다대다 관계의 경우, 조인된 한 행을 하나의 객체로 보고 필요에 따라 필터링 MEDIA TYPE 포맷+파싱룰 request - Accept header respons - content-type header media type에 변수 넣기 application/foo+json;bar=baz ISO 8601 UTC를 쓰라 POST vs PUT POST는 멱등아님 - 전체 대체 PUT은 멱등 - 업데이트 or 전체 대체 app/collection/instance POST로 전체 대체를 하는 경우, 부모 자원에다가 요청을 보내면 된다.</description>
-    </item>
-    <item>
-      <title>Request 객체를 파라마터로 받아오지 않고 참조하기</title>
-      <link>https://ezaurum.com/2012/07/Request-%EA%B0%9D%EC%B2%B4%EB%A5%BC-%ED%8C%8C%EB%9D%BC%EB%A7%88%ED%84%B0%EB%A1%9C-%EB%B0%9B%EC%95%84%EC%98%A4%EC%A7%80-%EC%95%8A%EA%B3%A0-%EC%B0%B8%EC%A1%B0%ED%95%98%EA%B8%B0/</link>
-      <pubDate>Fri, 13 Jul 2012 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2012/07/Request-%EA%B0%9D%EC%B2%B4%EB%A5%BC-%ED%8C%8C%EB%9D%BC%EB%A7%88%ED%84%B0%EB%A1%9C-%EB%B0%9B%EC%95%84%EC%98%A4%EC%A7%80-%EC%95%8A%EA%B3%A0-%EC%B0%B8%EC%A1%B0%ED%95%98%EA%B8%B0/</guid>
-      <description>RequestContextHolder를 쓰면 됨. 쓰레드에다가 필요 정보가 다 저장되므로 같은 쓰레드에서 돌아가는 애들은 정보 공유가 됨. &amp;hellip;그럼 한 쓰레드에서 두 개 이상이 돌아가는&amp;hellip; 건 없나? 모르겠네. 깔끔해 지긴 하지만 직관적이진 않은 방법같다. 그래도 서비스단에 request가 주렁주렁 달려서 내려가거나 컨트롤러에서 체크를 하느니 이걸 하겠어.</description>
-    </item>
-    <item>
-      <title>Spring multipart upload에서 put 메소드 사용</title>
-      <link>https://ezaurum.com/2012/07/Spring-multipart-upload%EC%97%90%EC%84%9C-put-%EB%A9%94%EC%86%8C%EB%93%9C-%EC%82%AC%EC%9A%A9/</link>
-      <pubDate>Wed, 11 Jul 2012 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2012/07/Spring-multipart-upload%EC%97%90%EC%84%9C-put-%EB%A9%94%EC%86%8C%EB%93%9C-%EC%82%AC%EC%9A%A9/</guid>
-      <description>org.apache.commons.fileupload.FileUploadBase 에서 multipart를 POST만 인식하게 되어 있으므로, 그냥은 안 된다. 자꾸 파라마터가 없다는 에러를 보게 될 것. 해결방법은 당연히 스택오버플로우에&amp;hellip; 이 링크 참조 이 방법으로 CommonsMultipartResolver를 상속해서 put 메소드도 인식하게 해 주면, put으로 업로드 해도 정상 작동. 이방법을 쓴 건 3.0이지만, 소스 뜯어보니 아직 3.1도 안 되는 듯 하다. 당분간 이걸 써야지&amp;hellip;</description>
-    </item>
-    <item>
-      <title>이클립스에서 jquery validation 에러 해결</title>
-      <link>https://ezaurum.com/2012/07/%EC%9D%B4%ED%81%B4%EB%A6%BD%EC%8A%A4%EC%97%90%EC%84%9C-jquery-validation-%EC%97%90%EB%9F%AC-%ED%95%B4%EA%B2%B0/</link>
-      <pubDate>Tue, 10 Jul 2012 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2012/07/%EC%9D%B4%ED%81%B4%EB%A6%BD%EC%8A%A4%EC%97%90%EC%84%9C-jquery-validation-%EC%97%90%EB%9F%AC-%ED%95%B4%EA%B2%B0/</guid>
-      <description>jquery validation 에러 해결 방법</description>
-    </item>
-    <item>
-      <title>이클립스에서 JSP를 열 때 JSP editor가 기본으로 열리게 하기</title>
-      <link>https://ezaurum.com/2012/07/%EC%9D%B4%ED%81%B4%EB%A6%BD%EC%8A%A4%EC%97%90%EC%84%9C-JSP%EB%A5%BC-%EC%97%B4-%EB%95%8C-JSP-editor%EA%B0%80-%EA%B8%B0%EB%B3%B8%EC%9C%BC%EB%A1%9C-%EC%97%B4%EB%A6%AC%EA%B2%8C-%ED%95%98%EA%B8%B0/</link>
-      <pubDate>Tue, 03 Jul 2012 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2012/07/%EC%9D%B4%ED%81%B4%EB%A6%BD%EC%8A%A4%EC%97%90%EC%84%9C-JSP%EB%A5%BC-%EC%97%B4-%EB%95%8C-JSP-editor%EA%B0%80-%EA%B8%B0%EB%B3%B8%EC%9C%BC%EB%A1%9C-%EC%97%B4%EB%A6%AC%EA%B2%8C-%ED%95%98%EA%B8%B0/</guid>
-      <description>어째선지 가끔 JSP가 디자인 모드(HTML 디자인 편집기 같은 형태) 로 열릴 때가 있다. 그럴 때는 Window-&amp;gt;General-&amp;gt;Editors-&amp;gt;File Associations에서 JSP 파일을 찾고 아래쪽에서 JSP editor를 디폴트로 지정! </description>
-    </item>
-    <item>
-      <title>Spring application context schema version 지정</title>
-      <link>https://ezaurum.com/2012/05/Spring-application-context-schema-version-%EC%A7%80%EC%A0%95/</link>
-      <pubDate>Thu, 24 May 2012 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2012/05/Spring-application-context-schema-version-%EC%A7%80%EC%A0%95/</guid>
-      <description>스프링 어플리케이션 콘텍스트 파일 처음에 스키마를 지정해 주는데, 스키마 파일 버전 지정 안 하면 그냥 알아서 가져온다. 링크 들어가서 파일 직접 받아보니 최신(현재 3.1)과 버전 지정 안 한 파일이 똑같다. 최신버전으로 자동 갱신 되는 듯. 그러니 모를 때는 귀찮게 검색하지 말고 그냥 적으면 되겠다. 출처 - http://stackoverflow.com/questions/9197141/spring-config-files-and-specifying-schema-versions</description>
-    </item>
-    <item>
-      <title>Java Enum</title>
-      <link>https://ezaurum.com/2012/03/Java-Enum/</link>
-      <pubDate>Mon, 26 Mar 2012 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2012/03/Java-Enum/</guid>
-      <description>import java.lang.IllegalArgumentException;&#xD;public enum EnumStudy { JAVA(1), C(2),RUBY(3); private int value; public int intValue() { return value;} private EnumStudy(int value) { this.value = value; } public static EnumStudy valueOf(int value) { switch (value) { case 1: return JAVA; case 2: return C; case 3: return RUBY; default: throw new IllegalArgumentException(&amp;ldquo;There is no matching for &amp;ldquo;+value); } }&#xA;public static void main(String args[]) { System.out.println(EnumStudy.valueOf(1)); System.out.println(EnumStudy.valueOf(&amp;ldquo;JAVA&amp;rdquo;)); //이건 enum들은 기본적으로 선언되는 메소드.</description>
-    </item>
-    <item>
-      <title>String, StringBuilder, StringBuffer 중 뭘 써야 할까?</title>
-      <link>https://ezaurum.com/2011/12/String-StringBuilder-StringBuffer-%EC%A4%91-%EB%AD%98-%EC%8D%A8%EC%95%BC-%ED%95%A0%EA%B9%8C/</link>
-      <pubDate>Sat, 10 Dec 2011 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2011/12/String-StringBuilder-StringBuffer-%EC%A4%91-%EB%AD%98-%EC%8D%A8%EC%95%BC-%ED%95%A0%EA%B9%8C/</guid>
-      <description>출처 -http://www.a2ztechguide.com/2011/12/difference-between-string-stringbuffer.html&#xA;값이 변하지 않으면 불변객체 String&#xD;String은 immutable 이다. 한 번 만들어두고 걍 읽어만 올 거면 대부분의 경우 String을 쓰면 되는 모양.&#xD;자주 변하는 경우, 그때마다 새로 만들어줘야 하므로 비추천.&#xD;equals가 오버라이드 되어 있다.&#xD;싱글 스레드라면 StringBuilder&#xD;mutable함. 데이터가 막 바뀌는 경우 사용.&#xD;나온지 얼마 안 된 신삥. StringBuffer랑 synchronization 빼고 동일.&#xD;출처 포스트에는 StringBuffer보다 빠르다고 한다.&#xD;equals오버라이드 안 되어 있음.&#xD;멀티스레드라면 StringBuffer&#xD;equals오버라이드 안 되어 있음.&#xD;StringBuilder랑 synchronization 빼고는 동일&#xD;</description>
-    </item>
-    <item>
-      <title>Java 컨테이너에 Form 값의 encoding 깨질 때</title>
-      <link>https://ezaurum.com/2010/10/Java-%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88%EC%97%90-Form-%EA%B0%92%EC%9D%98-encoding-%EA%B9%A8%EC%A7%88-%EB%95%8C/</link>
-      <pubDate>Fri, 22 Oct 2010 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2010/10/Java-%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88%EC%97%90-Form-%EA%B0%92%EC%9D%98-encoding-%EA%B9%A8%EC%A7%88-%EB%95%8C/</guid>
-      <description>점검사항은 아래 세가지.&#xA;폼에서 정확히 인코딩을 지정해서 넘겨주는가?&#xD;서버에서 정확히 인코딩을 인식하는가?&#xD;DB에서 정확히 인코딩을 인식하는가?&#xD;이다.&#xD;폼에서 정확히 인코딩을 지정해서 념겨주는가?&#xD;이 경우는 일단 문서 첫머리에 meta태그가 utf-8으로 지정되어 있고, 폼에 accept-charset 어트리뷰트가 지정되어 있고, 브라우저에서 확인해서 문서가 utf-8으로 읽히는 상황이라면 문제 없다고 보면 된다. UTF-8으로 나와야 하는 페이지가 UTF-8으로 안나오는 경우는 여기서 다룰 게 아니다.&#xA;&amp;lt;meta http-equiv=&#34;Content-Type&#34; content=&#34;text/html; charset=UTF-8&#34; /&amp;gt;&#xD;&amp;lt;meta charset=&#34;UTF-8&#34; /&amp;gt;&#xD;&amp;lt;form accept-charset=&#34;UTF-8&#34; &amp;gt;&#xD;서버에서 인코딩을 제대로 인식하는가?</description>
-    </item>
-    <item>
-      <title>오늘의 교훈</title>
-      <link>https://ezaurum.com/2010/05/%EC%98%A4%EB%8A%98%EC%9D%98-%EA%B5%90%ED%9B%88/</link>
-      <pubDate>Fri, 14 May 2010 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2010/05/%EC%98%A4%EB%8A%98%EC%9D%98-%EA%B5%90%ED%9B%88/</guid>
-      <description>잠을 자자 충분히 푹&#xA;오 분만에 해결책이 안 보이면 좀 걷자.&#xA;&amp;hellip;.이름만 적어야 하는데 괄호까지 같이 적어서 콜을 해 버렸어&amp;hellip; &amp;hellip;그게 왜 안 되는지 세시간을 찾았다&amp;hellip;&#xA;&amp;hellip;. 덕분에 jQuery에 대해 좀 더 알았음.&#xA;.ready - DOM 객체가 메모리에 만들어졌을 때 - 이미지나 동영상 등은 로드되는 중일 수 있음. .load - 페이지가 render된 이후 - 정말 로드가 다 끝났을 때.</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://ezaurum.com/2008/12/</link>
-      <pubDate>Mon, 08 Dec 2008 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2008/12/</guid>
-      <description>아마도 원인은 이 아래 링크 http://kldp.org/node/92618 따라서, extern 키워드를 활용하도록 한다!</description>
-    </item>
-    <item>
-      <title>소켓 프로그래밍을 할 때 read가 생각대로 작동하지 않는 경우</title>
-      <link>https://ezaurum.com/2008/12/%EC%86%8C%EC%BC%93-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EC%9D%84-%ED%95%A0-%EB%95%8C-read%EA%B0%80-%EC%83%9D%EA%B0%81%EB%8C%80%EB%A1%9C-%EC%9E%91%EB%8F%99%ED%95%98%EC%A7%80-%EC%95%8A%EB%8A%94-%EA%B2%BD%EC%9A%B0/</link>
-      <pubDate>Thu, 04 Dec 2008 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2008/12/%EC%86%8C%EC%BC%93-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EC%9D%84-%ED%95%A0-%EB%95%8C-read%EA%B0%80-%EC%83%9D%EA%B0%81%EB%8C%80%EB%A1%9C-%EC%9E%91%EB%8F%99%ED%95%98%EC%A7%80-%EC%95%8A%EB%8A%94-%EA%B2%BD%EC%9A%B0/</guid>
-      <description>기말고사용으로 채팅 프로그램을 만들던 중, close를 하지 않고, 연결을 유지한 채로 write함수로 EOF값 만을 보내서 대화 내용의 종결을 알리려고 했으나, 잘 작동하지 않았다.&#xA;read는 socket 이 close되지 않으면 EOF를 읽더라도 1을 반환한다. 따라서 연결을 유지하고 read/write를 하려면 읽은 값이 EOF인지를 체크해준다! 이거 알아내려고 이틀 밤 샜다. 젠장. 나만 병신인가. while (temp) { read(sockfd, &amp;amp;s, 1); if ( s == EOF) break; printf(&amp;quot;%c&amp;quot;,s); } read 의 리턴값 - 기본적으로 실제로 읽은 바이트 수 만큼.</description>
-    </item>
-    <item>
-      <title>-lsocket 옵션에서 에러가 날 때</title>
-      <link>https://ezaurum.com/2008/11/-lsocket-%EC%98%B5%EC%85%98%EC%97%90%EC%84%9C-%EC%97%90%EB%9F%AC%EA%B0%80-%EB%82%A0-%EB%95%8C/</link>
-      <pubDate>Fri, 28 Nov 2008 00:00:00 +0000</pubDate>
-      <guid>https://ezaurum.com/2008/11/-lsocket-%EC%98%B5%EC%85%98%EC%97%90%EC%84%9C-%EC%97%90%EB%9F%AC%EA%B0%80-%EB%82%A0-%EB%95%8C/</guid>
-      <description>소켓 프로그래밍을 하는데 프린트물에 있는 대로 -lsocket 옵션을 주니 계속 cc 가 에러를 뱉었다.&#xA;http://kldp.org/node/1377&#xA;결론은 Sun 계열 유닉스에서 작업하는 게 아니면, -lnsl -lsocket 옵션을 주지 말고 컴파일하라는 것.&#xA;한참 헤매다가 답 발견. 학교 서버가 sun 계열이라 그런 듯.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Programming on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/Programming/</link>
+		<description>Recent content in Programming on Ezaurum&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>ko-kr</language>
+		
+		
+		
+			<copyright>© Ezaurum 2001-</copyright>
+		
+		
+			<lastBuildDate>Thu, 08 Apr 2021 22:34:33 +0900</lastBuildDate>
+		
+			<atom:link href="https://ezaurum.com/tags/Programming/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Async/Sync vs Block/Non-Block</title>
+				<link>https://ezaurum.com/study/async-sync-vs-block-non-block/</link>
+				<pubDate>Thu, 08 Apr 2021 22:34:33 +0900</pubDate>
+				<guid>https://ezaurum.com/study/async-sync-vs-block-non-block/</guid>
+				<description>&lt;p&gt;옛날에 어느 N사 면접에서 나온 질문인데 대답이 명확하게 나오지 않아서 나중에 알아봐야지 하다가 말았던 것.&lt;/p&gt;&#xA;&lt;p&gt;결론은 결국 영어 공부였다. Async/Sync - Block/Non-Block 의 의미를 이해하면 될 문제였던 것.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;blocknon-block&#34;&gt;Block/Non-Block&lt;/h2&gt;&#xA;&lt;p&gt;Block/Non-Block 은 프로시저의 실행이 멈추는가를 표현하는 용어다.&lt;/p&gt;&#xA;&lt;p&gt;실행 중인 프로시저A가 다른 프로시저B를 호출 할 때, 호출된 프로시저B가 자기가 끝날 때까지 A 를 멈추면(Block) Block이고 안 멈추면(Non-Block) Non-Block이다.&lt;/p&gt;&#xA;&lt;p&gt;실제 구현된 프로그램 함수로 생각한다면 호출된 함수가 모든 작업이 끝난 다음에 return 하냐 작업이 끝나기 전에 return 하냐 하는 것을 생각하면 되겠다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>2018 카카오 블라인드 테스트 추석 트래픽 풀이</title>
+				<link>https://ezaurum.com/study/sweep-algorithm/</link>
+				<pubDate>Thu, 18 Mar 2021 13:49:20 +0900</pubDate>
+				<guid>https://ezaurum.com/study/sweep-algorithm/</guid>
+				<description>&lt;p&gt;알고리즘 스터디를 하다 6시간 이상 낑낑대며 풀어서 아까워서 정리&#xA;언젠가는 쉽게 풀 수 있겠지.&lt;/p&gt;&#xA;&lt;h2 id=&#34;문제&#34;&gt;문제&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://programmers.co.kr/learn/courses/30/lessons/17676&#34;&gt;2018카카오 블라인드 테스트&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;신경써야-하는-부분&#34;&gt;신경써야 하는 부분&lt;/h2&gt;&#xA;&lt;p&gt;정렬된 기준점에서 시작해야 함&#xA;&lt;a href=&#34;http://courses.csail.mit.edu/6.854/17/Scribe/s25-sweepline.html&#34;&gt;Sweeping Algorithm 참조&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;일반-풀이&#34;&gt;일반 풀이&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Sweep a line across problem plane.&#xA;문제를 평면에 놓고 줄을 긋는다&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;As the line sweeps across the plane, events of interest occur, keep track of these events.&#xA;줄이 평면에 그어지면서 뭔가 사건이 생기면 그걸 추적한다.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Deal with events that occur at the line leaving a solved problem behind.&#xA;일어난 문제를 해결하면서 해결된 문제는 뒤에 둔다(더 이상 신경쓰지 않는다)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+			</item>
+			<item>
+				<title>Nuget 패키지에 의존성 지정하기</title>
+				<link>https://ezaurum.com/2015/02/Nuget-%ED%8C%A8%ED%82%A4%EC%A7%80%EC%97%90-%EC%9D%98%EC%A1%B4%EC%84%B1-%EC%A7%80%EC%A0%95%ED%95%98%EA%B8%B0/</link>
+				<pubDate>Sun, 08 Feb 2015 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2015/02/Nuget-%ED%8C%A8%ED%82%A4%EC%A7%80%EC%97%90-%EC%9D%98%EC%A1%B4%EC%84%B1-%EC%A7%80%EC%A0%95%ED%95%98%EA%B8%B0/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;http://docs.nuget.org/create/nuspec-reference#specifying-dependencies&#34;&gt;출처 - Nuget 매뉴얼&lt;/a&gt;&#xA;Nuget 패키지를 만들 때 의존성을 지정하려면, .nuspec 파일 안의 metadata 태그의 자식으로&#xA;&lt;code&gt;&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;&amp;lt;/code&amp;gt;&#xD;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;이렇게 지정해 주면 된다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>oAuth 정리</title>
+				<link>https://ezaurum.com/2015/01/oAuth-%EC%A0%95%EB%A6%AC/</link>
+				<pubDate>Mon, 05 Jan 2015 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2015/01/oAuth-%EC%A0%95%EB%A6%AC/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;http://gamedevforever.com/201&#34;&gt;OAuth를 통해 보는 안전한 통신 프로토콜의 조건&lt;/a&gt;&#xA;&lt;a href=&#34;http://helloworld.naver.com/helloworld/24942&#34;&gt;oAuth와 춤을&lt;/a&gt;&#xA;&lt;a href=&#34;http://oauth.net&#34;&gt;oAuth 공식 사이트&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>C# DB 라이브러리 비교</title>
+				<link>https://ezaurum.com/2014/12/C%23-DB-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-%EB%B9%84%EA%B5%90/</link>
+				<pubDate>Thu, 25 Dec 2014 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2014/12/C%23-DB-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-%EB%B9%84%EA%B5%90/</guid>
+				<description>&lt;p&gt;별로 구체적으로 비교를 해 본 것은 아니지만, 지난 두 달간 이런저런 삽질을 한 결과를 정리한다.&lt;/p&gt;&#xA;&lt;ol&gt;&#xD;&#xA;&#x9;&lt;li&gt;&lt;a href=&#34;http://msdn.microsoft.com/en-us/library/bb425822.aspx&#34;&gt;Linq To SQL&lt;/a&gt; - MS스러운 DB라이브러리&#xD;&#xA;&lt;ol&gt;&#xD;&#xA;&#x9;&lt;li&gt;장점 - IDE에 통합된 사용환경, VS에서 DB에 연결 후, 테이블을 끌어오는 것만으로도 바로 도메인 객체가 생성된다. 속도가 빠르다. 복잡한 쿼리에 신경 안 써도 된다. 러닝커브 작음.&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;단점 - 자동생성되는 도메인 객체가 복잡하다. 로직이 들어가야 하는 경우 매우 곤란해진다. POCO객체는 불가능. 추가 수정도 귀찮다.&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;적절한 사용처 - 이미 DB가 존재하고, 거기에 간단한 CRUD연산을 해야 하는 웹 툴 정도를 붙이는 경우.&lt;/li&gt;&#xD;&#xA;&lt;/ol&gt;&#xD;&#xA;&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;&lt;a href=&#34;http://www.asp.net/entity-framework&#34;&gt;Entity Framework&lt;/a&gt; - Hibernate에 대응하는 ORM&#xD;&#xA;&lt;ol&gt;&#xD;&#xA;&#x9;&lt;li&gt;장점 - 일단 코드를 짜고 바로 연결하면 된다. 복잡한 쿼리에 신경 안 써도 된다.&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;단점 - 라이브러리 사용법이 복잡하다. 제대로 쓰려면 책 한권 잡고 봐야 한다. 초기 러닝커브 크다. 속도가 느리다.&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;적절한 사용처 - 최초 프로젝트를 시작하고, 엔터프라이즈 환경... 인 경우... 하고 시간이 많고, 속도에 그리 신경쓰지 않아도 되고, 도메인 구조가 복잡하고 자주 변경되는 경우.&lt;/li&gt;&#xD;&#xA;&lt;/ol&gt;&#xD;&#xA;&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;&lt;a href=&#34;https://github.com/StackExchange/dapper-dot-net&#34;&gt;Dapper&lt;/a&gt; - MyBatis 류에 대응하는 ORM&#xD;&#xA;&lt;ol&gt;&#xD;&#xA;&#x9;&lt;li&gt;장점 - 간단하다. 솔직히 SQL2LINQ보다 이게 더 간단해 보인다. 속도가 빠르다. 뭐 간단한 구조니까 당연하달까.&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;단점 - 쿼리를 직접 짜야 한다. 그러니 도메인 구조가 바뀌면 쿼리도 같이 바꿔줘야 하는 경우가 있다. 복잡한 매핑은 지원하지 않는다. 한 로우 마다 기본적으로 하나의 오브젝트에 대응하고, 대충 나눠서 여러 개를 매핑하는 것은 가능하지만, 조인해서 오브젝트 내부에 리스트를 넣는다든가 하는 것은 매핑 메소드를 따로 만들어줘야 한다.&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;적절한 사용처 - 속도가 중요하고, 초기 러닝커브가 크면 곤란한 경우. 개발자가 DB에 대해 좀 아는 경우.&lt;/li&gt;&#xD;&#xA;&lt;/ol&gt;&#xD;&#xA;&lt;/li&gt;&#xD;&#xA;&lt;/ol&gt;&#xD;&#xA;&lt;strong&gt;현재 내 프로젝트의 상황 &lt;/strong&gt;&#xD;&#xA;&lt;ul&gt;&#xD;&#xA;&#x9;&lt;li&gt;개발 기간이 얼마 남지 않았다.&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;내가 DB를 설계할 수 있음.&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;도메인 구조가 자주 바뀐다.&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;도메인에 로직이 들어가야 하는 경우가 많다.&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;속도가 매우 중요.&lt;/li&gt;&#xD;&#xA;&lt;/ul&gt;&#xD;&#xA;&lt;strong&gt;결론&lt;/strong&gt;&#xD;&#xA;&lt;ol&gt;&#xD;&#xA;&#x9;&lt;li&gt;개발 기간이 얼마 남지 않았다.&#xD;&#xA;&lt;ol&gt;&#xD;&#xA;&#x9;&lt;li&gt;Entity프레임워크는 일단 제외 - 하이버네이트 때도 그랬지만, 러닝커브가 큰 라이브러리의 경우 개발시간 내내 익숙해지지 않는 경우가 많다.&lt;/li&gt;&#xD;&#xA;&lt;/ol&gt;&#xD;&#xA;&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;속도가 매우 중요.&#xD;&#xA;&lt;ol&gt;&#xD;&#xA;&#x9;&lt;li&gt;Enitity 프레임워크가 일단 또 제외.&lt;/li&gt;&#xD;&#xA;&lt;/ol&gt;&#xD;&#xA;&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;도메인에 로직이 들어가야 한다.&#xD;&#xA;&lt;ol&gt;&#xD;&#xA;&#x9;&lt;li&gt;SQL2LINQ가 제외.&lt;/li&gt;&#xD;&#xA;&lt;/ol&gt;&#xD;&#xA;&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;내가 DB를 설계할 수 있다.&#xD;&#xA;&lt;ol&gt;&#xD;&#xA;&#x9;&lt;li&gt;Dapper의 단점이 좀 경감&lt;/li&gt;&#xD;&#xA;&lt;/ol&gt;&#xD;&#xA;&lt;/li&gt;&#xD;&#xA;&lt;/ol&gt;&#xD;&#xA;그러므로 Dapper를 사용하기로 함.</description>
+			</item>
+			<item>
+				<title>Ninject 첫인상</title>
+				<link>https://ezaurum.com/2014/12/Ninject-%EC%B2%AB%EC%9D%B8%EC%83%81/</link>
+				<pubDate>Wed, 24 Dec 2014 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2014/12/Ninject-%EC%B2%AB%EC%9D%B8%EC%83%81/</guid>
+				<description>&lt;p&gt;DI 를 위해 Ninject를 사용함. NInject는 Web API controller를 생성할 때, 컨트롤러에 해당 의존성 객체가 존재하는 생성자가 없으면, 제대로 DI가 되지 않으므로 주의&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>nuget 패키지 자동으로 만들기</title>
+				<link>https://ezaurum.com/2014/12/nuget-%ED%8C%A8%ED%82%A4%EC%A7%80-%EC%9E%90%EB%8F%99%EC%9C%BC%EB%A1%9C-%EB%A7%8C%EB%93%A4%EA%B8%B0/</link>
+				<pubDate>Wed, 24 Dec 2014 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2014/12/nuget-%ED%8C%A8%ED%82%A4%EC%A7%80-%EC%9E%90%EB%8F%99%EC%9C%BC%EB%A1%9C-%EB%A7%8C%EB%93%A4%EA%B8%B0/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;http://ihadthisideaonce.com/2012/02/21/creating-packages-with-nuget-the-msbuild-way/&#34;&gt;msbuild를 사용해서 만들기&lt;/a&gt;&#xA;&lt;a href=&#34;http://www.hanselman.com/blog/NuGetForTheEnterpriseNuGetInAContinuousIntegrationAutomatedBuildSystem.aspx&#34; title=&#34;빌드 서버를 이용해서 만들기&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Cross-thread operation not valid 해결</title>
+				<link>https://ezaurum.com/2014/12/Cross-thread-operation-not-valid-%ED%95%B4%EA%B2%B0/</link>
+				<pubDate>Fri, 05 Dec 2014 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2014/12/Cross-thread-operation-not-valid-%ED%95%B4%EA%B2%B0/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;http://stackoverflow.com/questions/8738767/backgroundworker-cross-thread-operation-not-valid&#34;&gt;출처 - 스택오버플로우&lt;/a&gt;&#xA;&lt;code&gt;&#xA;private void OnAction(string v)&#xA;{&#xA;richTextBox1.AppendText(v + Environment.NewLine);&#xA;richTextBox1.ScrollToCaret();&#xA;}&lt;/p&gt;&#xA;&lt;p&gt;public void AddText(string value)&#xA;{&#xA;richTextBox1.Invoke((Action) OnAction, value);&#xA;}&#xA;&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;기본적으로 invoke를 이용하면 해당 문제를 막을 수 있음.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>MSSQL에서 유니코드 텍스트는 nvarchar로</title>
+				<link>https://ezaurum.com/2014/12/MSSQL%EC%97%90%EC%84%9C-%EC%9C%A0%EB%8B%88%EC%BD%94%EB%93%9C-%ED%85%8D%EC%8A%A4%ED%8A%B8%EB%8A%94-nvarchar%EB%A1%9C/</link>
+				<pubDate>Mon, 01 Dec 2014 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2014/12/MSSQL%EC%97%90%EC%84%9C-%EC%9C%A0%EB%8B%88%EC%BD%94%EB%93%9C-%ED%85%8D%EC%8A%A4%ED%8A%B8%EB%8A%94-nvarchar%EB%A1%9C/</guid>
+				<description>&lt;p&gt;mssql에서 유니코드로 된 텍스트를 저장해야 하면 varchar대신 nvarchar를 쓰자.&lt;/p&gt;&#xA;&lt;p&gt;그래야 DB 관리툴이라든가 쿼리 등에서 문제가 없다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>제대로 된 이름</title>
+				<link>https://ezaurum.com/2013/12/%EC%A0%9C%EB%8C%80%EB%A1%9C-%EB%90%9C-%EC%9D%B4%EB%A6%84/</link>
+				<pubDate>Sun, 01 Dec 2013 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2013/12/%EC%A0%9C%EB%8C%80%EB%A1%9C-%EB%90%9C-%EC%9D%B4%EB%A6%84/</guid>
+				<description>&lt;p&gt;2주일간 만들던 게임 네트워크 엔진을 손봤는데, 초기 코드가 흔적도 없이 사라졌다.&#xA;C#으로 메세지가 조립되면 이벤트를 호출하는 식으로 만들었는데, 이게 메소드랑 연관 객체들이 모이고 흩어지고 하다보니까 메세지 객체를 내뱉고 받아들이는 소켓 비슷한 게 되더라. 정확히는 소캣을 감싸는 그 어떤 것. 그 때 얘의 이름이 소켓으로 결정되었다. 그 전에는 UserToken, Raja, Session(으악!), MessageProcessor&amp;hellip; 저 Raja는 드래곤 라자에서 나온 그것, 멍청하게도 이 이름을 지으면서 꽤 잘 된 이름이라고 생각했다. 중간에서 메세지를 받고 보내주고 하는 역할을 한다고 생각하면서 지었는데도 그 때는 소켓이 생각나지 않았다. 잘 된, 제대로 된 이름이라는 것은 그게 뭘 하는지, 어떤 정보를 가지고 있는지가 이름만으로 유추가 된다는 것이다. 그래서 나에겐 메세지 프로세서보다는 소켓이 와 닿았던 것이고, 이건 네트워크 프로그래밍경험이 있는 프로그래머라면 비슷하리라 생각한다.&#xA;소켓이라고 이름을 짓고 나자 무언가 정리가 되었다. 2주가 걸렸고, 그 사이에 소스코드는 좀 더 좋아지고, 이런저런 개선이 많았지만, 본질적으로 바뀐 것은 제대로 된 이름을 찾아간 것이다. 그것만으로도 전체를 조작하기가 더 편해졌다. 그래서 성경에서 신이 아담에게 만물의 이름을 지으라 했나보다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>C# Socket.AcceptAsync에서 invalidOperationException이 날 때</title>
+				<link>https://ezaurum.com/2013/11/C%23-Socket.AcceptAsync%EC%97%90%EC%84%9C-invalidOperationException%EC%9D%B4-%EB%82%A0-%EB%95%8C/</link>
+				<pubDate>Sun, 24 Nov 2013 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2013/11/C%23-Socket.AcceptAsync%EC%97%90%EC%84%9C-invalidOperationException%EC%9D%B4-%EB%82%A0-%EB%95%8C/</guid>
+				<description>&lt;p&gt;C#에서 소켓 프로그래밍을 할 때, Socket.AcceptAsync로 연결하는데 다음과 같은 예외가 발생했다.&#xA;&lt;code&gt;System.InvalidOperationException이(가) 처리되지 않았습니다.&#xA;Message=AcceptSocket: 소켓을 바인딩하거나 연결하면 안 됩니다.&lt;/code&gt;&#xA;원인은 AcceptAsync이후에 같은 SocketAsyncEventArgs객체를 이용해 계속 Accept를 받으려고 했는데, SocketAsyncEventArgs.AcceptSocket 프로퍼티를 null로 초기화하지 않았기 때문이다.&#xA;재사용하려면 AcceptSocket = null;을 넣어줄 것.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Git에서 특정파일 임시로 커밋내역에서 제외하기</title>
+				<link>https://ezaurum.com/2013/11/Git%EC%97%90%EC%84%9C-%ED%8A%B9%EC%A0%95%ED%8C%8C%EC%9D%BC-%EC%9E%84%EC%8B%9C%EB%A1%9C-%EC%BB%A4%EB%B0%8B%EB%82%B4%EC%97%AD%EC%97%90%EC%84%9C-%EC%A0%9C%EC%99%B8%ED%95%98%EA%B8%B0/</link>
+				<pubDate>Sun, 24 Nov 2013 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2013/11/Git%EC%97%90%EC%84%9C-%ED%8A%B9%EC%A0%95%ED%8C%8C%EC%9D%BC-%EC%9E%84%EC%8B%9C%EB%A1%9C-%EC%BB%A4%EB%B0%8B%EB%82%B4%EC%97%AD%EC%97%90%EC%84%9C-%EC%A0%9C%EC%99%B8%ED%95%98%EA%B8%B0/</guid>
+				<description>&lt;h2 id=&#34;출처&#34;&gt;출처&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://blog.outsider.ne.kr/817&#34; title=&#34;Git에서 특정파일 임시로 커밋내역에서 제외하기&#34;&gt;&lt;a href=&#34;http://blog.outsider.ne.kr/817&#34;&gt;http://blog.outsider.ne.kr/817&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://stackoverflow.com/questions/13630849/git-difference-between-assume-unchanged-and-skip-worktree&#34;&gt;스택오버플로우&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://fallengamer.livejournal.com/93321.html&#34;&gt;FallenGameR&amp;rsquo;s blog&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Unity3D로 공동작업을 하다 보면 meta파일이 많이 생기고, 뭐 잠깐 이쪽에서 고쳐보고 싶은데 하던 작업 중에 일부는 또 올려야 할 때가 있고해서 골치 아플 때 유용함.&#xA;local 에만 적용해야 하는 환경파일 수정할 때도 유용&lt;/p&gt;&#xA;&lt;h3 id=&#34;리모트-파일이-바뀌어서-pull을-할-때-주의점&#34;&gt;리모트 파일이 바뀌어서 pull을 할 때 주의점&lt;/h3&gt;&#xA;&lt;p&gt;기본적으로 컨플릭트가 나고, 해결 방법이 다르다&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;assumed-unchanged - stash 가능하지만, stash 하면 데이터 날아감&lt;/li&gt;&#xA;&lt;li&gt;skip-worktree - stash 불가능, 플래그 꺼 줘야 함&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;git-reset---hard를-하는-경우-주의점&#34;&gt;&lt;code&gt;git reset --hard&lt;/code&gt;를 하는 경우 주의점&lt;/h3&gt;&#xA;&lt;p&gt;결국 둘 다 파일은 바뀐다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>java에서 arraylist 삭제하는 방법</title>
+				<link>https://ezaurum.com/2013/11/java%EC%97%90%EC%84%9C-arraylist-%EC%82%AD%EC%A0%9C%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/</link>
+				<pubDate>Sun, 24 Nov 2013 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2013/11/java%EC%97%90%EC%84%9C-arraylist-%EC%82%AD%EC%A0%9C%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/</guid>
+				<description>&lt;p&gt;iterator를 사용한다.&lt;/p&gt;&#xA;&lt;p&gt;참고 - removeAlll은 hashset과 arrayList가 구현이 다르게 되어 있다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>인증과 인가의 차이</title>
+				<link>https://ezaurum.com/2013/11/%EC%9D%B8%EC%A6%9D%EA%B3%BC-%EC%9D%B8%EA%B0%80%EC%9D%98-%EC%B0%A8%EC%9D%B4/</link>
+				<pubDate>Sun, 24 Nov 2013 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2013/11/%EC%9D%B8%EC%A6%9D%EA%B3%BC-%EC%9D%B8%EA%B0%80%EC%9D%98-%EC%B0%A8%EC%9D%B4/</guid>
+				<description>&lt;ol&gt;&#xD;&#xA;&#x9;&lt;li&gt;인증(Authorization,認證)은 본인 인증&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;인가(Authentication,認可)는 사용 인가&lt;/li&gt;&#xD;&#xA;&lt;/ol&gt;&#xD;&#xA;&lt;p&gt;인증은 누가 &amp;ldquo;내가 장동건인데~&amp;rdquo; 라고 했을 때, 말하는 사람이 장동건인지 아닌지 확인하는 과정.&#xA;인가는 누가 타인에게 뭘 요구할 때, 그걸 요구할 권한이 있는지 확인하는 과정.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>C# TDD</title>
+				<link>https://ezaurum.com/2013/09/C%23-TDD/</link>
+				<pubDate>Mon, 30 Sep 2013 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2013/09/C%23-TDD/</guid>
+				<description>&lt;p&gt;C# 개발을 시작하면서 일단 두 개를 써 보기로 했다.&#xA;&lt;a href=&#34;https://github.com/Moq/moq4/wiki/Quickstart&#34;&gt;Moq Quick Start&lt;/a&gt;&#xA;&lt;a href=&#34;http://www.nunit.org/index.php?p=getStarted&amp;amp;r=2.6.2&#34;&gt;NUnit 2.6.2 quick start&lt;/a&gt;&#xA;Resharper를 쓰고 있어서 그런지, NUnit 테스트는 alt+Enter로 실행이 되고, 결과도 따로 창 안 뜨고 옆에 보인다. moq는 람다식 덕에 자바에서 mockito를 쓸 때보다 좀 더 편해보인다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>gradle에서 jetty 9 쓰기</title>
+				<link>https://ezaurum.com/2013/05/gradle%EC%97%90%EC%84%9C-jetty-9-%EC%93%B0%EA%B8%B0/</link>
+				<pubDate>Thu, 23 May 2013 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2013/05/gradle%EC%97%90%EC%84%9C-jetty-9-%EC%93%B0%EA%B8%B0/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;http://issues.gradle.org/browse/GRADLE-1956&#34;&gt;gradle에 plugin으로 사용되는 jetty는 jetty 9이 아니다.&lt;/a&gt;&#xA;그러므로 WebApplicationInitializer를 써서 만든 앱은 돌아가지 않는다.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://issues.gradle.org/browse/GRADLE-1956?focusedCommentId=17019&amp;amp;page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-17019&#34;&gt;저 이슈 말미의 커멘트&lt;/a&gt;에 나온 방법으로 해결. 이걸로 6시간 넘게 잡아먹었다&amp;hellip;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Designing a Beautiful REST&#43;JSON API</title>
+				<link>https://ezaurum.com/2012/08/Designing-a-Beautiful-REST-JSON-API/</link>
+				<pubDate>Sat, 04 Aug 2012 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2012/08/Designing-a-Beautiful-REST-JSON-API/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;http://marakana.com/s/designing_a_beautiful_rest_json_api_video,1221/index.html&#34;&gt;원문 링크&lt;/a&gt;&#xA;설명이 잘 되어 있는 영상.&#xA;개인적으로 포인트를 좀 잡아본다.&#xA;에러&#xA;HTTP 에러 코드를 넣고, 다른 설명이 필요. 가능한 많이.&#xA;ID는 순차를 피하고 숨길 것. UUID 같은 걸 쓰라.&#xA;캐시 - ETag&#xA;가능하면 세션 사용을 피할 것.&#xA;기본적으로 객체가 콜렉션이나 하위 객체를 포함하면, 그걸 다 뿌려주지 말고, 하위객체나 콜렉션에 대한 링크를 제공&#xA;파라마터를 이용해서 객체를 다 뿌릴지 말지를 결정. GET /object?expand=true&#xA;파라마터를 이용해서 필터링과 페이지구분. offset, limit사용.&#xA;페이지 제공하는 경우 next, prev 링크 제공&#xA;다대다 관계의 경우, 조인된 한 행을 하나의 객체로 보고 필요에 따라 필터링&#xA;MEDIA TYPE&#xA;포맷+파싱룰&#xA;request - Accept header&#xA;respons - content-type header&#xA;media type에 변수 넣기&#xA;application/foo+json;bar=baz&#xA;ISO 8601 UTC를 쓰라&#xA;POST vs PUT&#xA;POST는 멱등아님 - 전체 대체&#xA;PUT은 멱등 - 업데이트 or 전체 대체&#xA;app/collection/instance&#xA;POST로 전체 대체를 하는 경우, 부모 자원에다가 요청을 보내면 된다.&#xA;POST /app/collection -&amp;gt; 결과는 201 created. 생성된 주소를 location에 담아서 보내준다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Request 객체를 파라마터로 받아오지 않고 참조하기</title>
+				<link>https://ezaurum.com/2012/07/Request-%EA%B0%9D%EC%B2%B4%EB%A5%BC-%ED%8C%8C%EB%9D%BC%EB%A7%88%ED%84%B0%EB%A1%9C-%EB%B0%9B%EC%95%84%EC%98%A4%EC%A7%80-%EC%95%8A%EA%B3%A0-%EC%B0%B8%EC%A1%B0%ED%95%98%EA%B8%B0/</link>
+				<pubDate>Fri, 13 Jul 2012 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2012/07/Request-%EA%B0%9D%EC%B2%B4%EB%A5%BC-%ED%8C%8C%EB%9D%BC%EB%A7%88%ED%84%B0%EB%A1%9C-%EB%B0%9B%EC%95%84%EC%98%A4%EC%A7%80-%EC%95%8A%EA%B3%A0-%EC%B0%B8%EC%A1%B0%ED%95%98%EA%B8%B0/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;http://static.springsource.org/spring/docs/2.0.x/api/org/springframework/web/context/request/RequestContextHolder.html&#34;&gt;RequestContextHolder&lt;/a&gt;를 쓰면 됨.&#xA;쓰레드에다가 필요 정보가 다 저장되므로 같은 쓰레드에서 돌아가는 애들은 정보 공유가 됨. &amp;hellip;그럼 한 쓰레드에서 두 개 이상이 돌아가는&amp;hellip; 건 없나? 모르겠네.&#xA;깔끔해 지긴 하지만 직관적이진 않은 방법같다. 그래도 서비스단에 request가 주렁주렁 달려서 내려가거나 컨트롤러에서 체크를 하느니 이걸 하겠어.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Spring multipart upload에서 put 메소드 사용</title>
+				<link>https://ezaurum.com/2012/07/Spring-multipart-upload%EC%97%90%EC%84%9C-put-%EB%A9%94%EC%86%8C%EB%93%9C-%EC%82%AC%EC%9A%A9/</link>
+				<pubDate>Wed, 11 Jul 2012 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2012/07/Spring-multipart-upload%EC%97%90%EC%84%9C-put-%EB%A9%94%EC%86%8C%EB%93%9C-%EC%82%AC%EC%9A%A9/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;http://commons.apache.org/fileupload/&#34;&gt;org.apache.commons.fileupload.FileUploadBase 에서 multipart를 POST만 인식하게 되어 있으므로&lt;/a&gt;, 그냥은 안 된다. 자꾸 파라마터가 없다는 에러를 보게 될 것.&#xA;해결방법은 당연히 스택오버플로우에&amp;hellip; &lt;a href=&#34;http://stackoverflow.com/questions/7981640/spring-3-0-fileupload-only-with-post/10041789#10041789&#34;&gt;이 링크 참조&lt;/a&gt;&#xA;이 방법으로 CommonsMultipartResolver를 상속해서 put 메소드도 인식하게 해 주면, put으로 업로드 해도 정상 작동.&#xA;이방법을 쓴 건 3.0이지만, 소스 뜯어보니 아직 3.1도 안 되는 듯 하다.&#xA;당분간 이걸 써야지&amp;hellip;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>이클립스에서 jquery validation 에러 해결</title>
+				<link>https://ezaurum.com/2012/07/%EC%9D%B4%ED%81%B4%EB%A6%BD%EC%8A%A4%EC%97%90%EC%84%9C-jquery-validation-%EC%97%90%EB%9F%AC-%ED%95%B4%EA%B2%B0/</link>
+				<pubDate>Tue, 10 Jul 2012 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2012/07/%EC%9D%B4%ED%81%B4%EB%A6%BD%EC%8A%A4%EC%97%90%EC%84%9C-jquery-validation-%EC%97%90%EB%9F%AC-%ED%95%B4%EA%B2%B0/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;http://stackoverflow.com/questions/4282448/change-eclipse-settings-to-ignore-errors-on-a-specific-file&#34;&gt;jquery validation 에러 해결 방법&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>이클립스에서 JSP를 열 때 JSP editor가 기본으로 열리게 하기</title>
+				<link>https://ezaurum.com/2012/07/%EC%9D%B4%ED%81%B4%EB%A6%BD%EC%8A%A4%EC%97%90%EC%84%9C-JSP%EB%A5%BC-%EC%97%B4-%EB%95%8C-JSP-editor%EA%B0%80-%EA%B8%B0%EB%B3%B8%EC%9C%BC%EB%A1%9C-%EC%97%B4%EB%A6%AC%EA%B2%8C-%ED%95%98%EA%B8%B0/</link>
+				<pubDate>Tue, 03 Jul 2012 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2012/07/%EC%9D%B4%ED%81%B4%EB%A6%BD%EC%8A%A4%EC%97%90%EC%84%9C-JSP%EB%A5%BC-%EC%97%B4-%EB%95%8C-JSP-editor%EA%B0%80-%EA%B8%B0%EB%B3%B8%EC%9C%BC%EB%A1%9C-%EC%97%B4%EB%A6%AC%EA%B2%8C-%ED%95%98%EA%B8%B0/</guid>
+				<description>&lt;p&gt;어째선지 가끔 JSP가 디자인 모드(HTML 디자인 편집기 같은 형태) 로 열릴 때가 있다.&#xA;그럴 때는 Window-&amp;gt;General-&amp;gt;Editors-&amp;gt;File Associations에서 JSP 파일을 찾고 아래쪽에서 JSP editor를 디폴트로 지정!&#xA;&lt;a href=&#34;http://gateopener.ncity.net/wordpress/wp-content/uploads/2012/07/11.png&#34;&gt;&lt;img src=&#34;http://gateopener.ncity.net/wordpress/wp-content/uploads/2012/07/11.png&#34; alt=&#34;&#34; title=&#34;1&#34; width=&#34;674&#34; height=&#34;684&#34; class=&#34;alignnone size-full wp-image-1772&#34; /&gt;&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Spring application context schema version 지정</title>
+				<link>https://ezaurum.com/2012/05/Spring-application-context-schema-version-%EC%A7%80%EC%A0%95/</link>
+				<pubDate>Thu, 24 May 2012 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2012/05/Spring-application-context-schema-version-%EC%A7%80%EC%A0%95/</guid>
+				<description>&lt;p&gt;스프링 어플리케이션 콘텍스트 파일 처음에 스키마를 지정해 주는데, 스키마 파일 버전 지정 안 하면 그냥 알아서 가져온다.&#xA;링크 들어가서 파일 직접 받아보니 최신(현재 3.1)과 버전 지정 안 한 파일이 똑같다. 최신버전으로 자동 갱신 되는 듯.&#xA;그러니 모를 때는 귀찮게 검색하지 말고 그냥 적으면 되겠다.&#xA;출처 - &lt;a href=&#34;http://stackoverflow.com/questions/9197141/spring-config-files-and-specifying-schema-versions&#34;&gt;http://stackoverflow.com/questions/9197141/spring-config-files-and-specifying-schema-versions&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Java Enum</title>
+				<link>https://ezaurum.com/2012/03/Java-Enum/</link>
+				<pubDate>Mon, 26 Mar 2012 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2012/03/Java-Enum/</guid>
+				<description>&lt;code&gt;&#xD;&#xA;import java.lang.IllegalArgumentException;&#xD;&#xA;&lt;p&gt;public enum EnumStudy {&#xA;JAVA(1), C(2),RUBY(3);&#xA;private int value;&#xA;public int intValue() {&#xA;return value;}&#xA;private EnumStudy(int value) {&#xA;this.value = value;&#xA;}&#xA;public static EnumStudy valueOf(int value) {&#xA;switch (value) {&#xA;case 1: return JAVA;&#xA;case 2: return C;&#xA;case 3: return RUBY;&#xA;default: throw new IllegalArgumentException(&amp;ldquo;There is no matching for &amp;ldquo;+value);&#xA;}&#xA;}&lt;/p&gt;&#xA;&lt;p&gt;public static void main(String args[]) {&#xA;System.out.println(EnumStudy.valueOf(1));&#xA;System.out.println(EnumStudy.valueOf(&amp;ldquo;JAVA&amp;rdquo;)); //이건 enum들은 기본적으로 선언되는 메소드.&#xA;System.out.println(EnumStudy.JAVA);&#xA;System.out.println(EnumStudy.JAVA.intValue());&#xA;}&#xA;}&#xA;&lt;/code&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>String, StringBuilder, StringBuffer 중 뭘 써야 할까?</title>
+				<link>https://ezaurum.com/2011/12/String-StringBuilder-StringBuffer-%EC%A4%91-%EB%AD%98-%EC%8D%A8%EC%95%BC-%ED%95%A0%EA%B9%8C/</link>
+				<pubDate>Sat, 10 Dec 2011 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2011/12/String-StringBuilder-StringBuffer-%EC%A4%91-%EB%AD%98-%EC%8D%A8%EC%95%BC-%ED%95%A0%EA%B9%8C/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;http://www.a2ztechguide.com/2011/12/difference-between-string-stringbuffer.html&#34;&gt;출처 -http://www.a2ztechguide.com/2011/12/difference-between-string-stringbuffer.html&lt;/a&gt;&lt;/p&gt;&#xA;&lt;ol&gt;&#xD;&#xA;&lt;li&gt;&lt;h4&gt;값이 변하지 않으면 불변객체 String&lt;/h4&gt;&#xD;&#xA;String은 immutable 이다. 한 번 만들어두고 걍 읽어만 올 거면 대부분의 경우 String을 쓰면 되는 모양.&#xD;&#xA;자주 변하는 경우, 그때마다 새로 만들어줘야 하므로 비추천.&#xD;&#xA;equals가 오버라이드 되어 있다.&#xD;&#xA;&lt;/li&gt;&#xD;&#xA;&lt;li&gt;&lt;h4&gt;싱글 스레드라면 StringBuilder&lt;/h4&gt;&#xD;&#xA;mutable함. 데이터가 막 바뀌는 경우 사용.&#xD;&#xA;나온지 얼마 안 된 신삥. StringBuffer랑 synchronization 빼고 동일.&#xD;&#xA;출처 포스트에는 StringBuffer보다 빠르다고 한다.&#xD;&#xA;equals오버라이드 안 되어 있음.&lt;/li&gt;&#xD;&#xA;&lt;li&gt;&lt;h4&gt;멀티스레드라면 StringBuffer&lt;/h4&gt;&#xD;&#xA;equals오버라이드 안 되어 있음.&#xD;&#xA;StringBuilder랑 synchronization 빼고는 동일&#xD;&#xA;&lt;/li&gt;&lt;/ol&gt;</description>
+			</item>
+			<item>
+				<title>Java 컨테이너에 Form 값의 encoding 깨질 때</title>
+				<link>https://ezaurum.com/2010/10/Java-%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88%EC%97%90-Form-%EA%B0%92%EC%9D%98-encoding-%EA%B9%A8%EC%A7%88-%EB%95%8C/</link>
+				<pubDate>Fri, 22 Oct 2010 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2010/10/Java-%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88%EC%97%90-Form-%EA%B0%92%EC%9D%98-encoding-%EA%B9%A8%EC%A7%88-%EB%95%8C/</guid>
+				<description>&lt;p&gt;점검사항은 아래 세가지.&lt;/p&gt;&#xA;&lt;ol&gt;&#xD;&#xA;&#x9;&lt;li&gt;폼에서 정확히 인코딩을 지정해서 넘겨주는가?&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;서버에서 정확히 인코딩을 인식하는가?&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;DB에서 정확히 인코딩을 인식하는가?&lt;/li&gt;&#xD;&#xA;&lt;/ol&gt;&#xD;&#xA;이다.&#xD;&#xA;&lt;ol&gt;&#x9;&lt;li&gt;폼에서 정확히 인코딩을 지정해서 념겨주는가?&#xD;&#xA;&lt;p&gt;이 경우는 일단 문서 첫머리에 meta태그가 utf-8으로 지정되어 있고, 폼에 accept-charset 어트리뷰트가 지정되어 있고, 브라우저에서 확인해서 문서가 utf-8으로 읽히는 상황이라면 문제 없다고 보면 된다. UTF-8으로 나와야 하는 페이지가 UTF-8으로 안나오는 경우는 여기서 다룰 게 아니다.&lt;/p&gt;&#xD;&#xA;&lt;code&gt;&#xD;&#xA;&amp;lt;meta http-equiv=&#34;Content-Type&#34; content=&#34;text/html; charset=UTF-8&#34; /&amp;gt;&#xD;&#xA;&amp;lt;meta charset=&#34;UTF-8&#34; /&amp;gt;&#xD;&#xA;&amp;lt;form accept-charset=&#34;UTF-8&#34; &amp;gt;&#xD;&#xA;&lt;/code&gt;&#xD;&#xA;&lt;/li&gt;&#x9;&lt;li&gt;서버에서 인코딩을 제대로 인식하는가?&#xD;&#xA;&lt;p&gt;경험상 대부분 문제는 여기서 발생한다. 특히 서버 관리자와 프로그래머가 독립적으로 있고, 서로 업무 연계가 힘든 상황이라면 더욱 문제다. 가능하면 인코딩을 서버 설정에 맞추자.&#xD;&#xA;java라면 아래와 같이 해결.&#xD;&#xA;&lt;code&gt;request.setCharacterSet(&#34;utf-8&#34;); &lt;/code&gt;&#xD;&#xA;php도 비슷한 게 있을 터다. 하지만 여기서는 문제를 못 봤으니까 빼고. 일단 대부분의 문제는 저걸로 해결될 거다.&#xD;&#xA;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>오늘의 교훈</title>
+				<link>https://ezaurum.com/2010/05/%EC%98%A4%EB%8A%98%EC%9D%98-%EA%B5%90%ED%9B%88/</link>
+				<pubDate>Fri, 14 May 2010 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2010/05/%EC%98%A4%EB%8A%98%EC%9D%98-%EA%B5%90%ED%9B%88/</guid>
+				<description>&lt;p&gt;잠을 자자&#xA;충분히&#xA;푹&lt;/p&gt;&#xA;&lt;p&gt;오 분만에 해결책이 안 보이면 좀 걷자.&lt;/p&gt;&#xA;&lt;p&gt;&amp;hellip;.이름만 적어야 하는데 괄호까지 같이 적어서 콜을 해 버렸어&amp;hellip;&#xA;&amp;hellip;그게 왜 안 되는지 세시간을 찾았다&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;&amp;hellip;. 덕분에 jQuery에 대해 좀 더 알았음.&lt;/p&gt;&#xA;&lt;p&gt;.ready - DOM 객체가 메모리에 만들어졌을 때 - 이미지나 동영상 등은 로드되는 중일 수 있음.&#xA;.load - 페이지가 render된 이후 - 정말 로드가 다 끝났을 때.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title></title>
+				<link>https://ezaurum.com/2008/12/</link>
+				<pubDate>Mon, 08 Dec 2008 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2008/12/</guid>
+				<description>&lt;p&gt;아마도 원인은 이 아래 링크&#xA;&lt;a href=&#34;http://kldp.org/node/92618&#34;&gt;&lt;a href=&#34;http://kldp.org/node/92618&#34;&gt;http://kldp.org/node/92618&lt;/a&gt;&lt;/a&gt;&#xA;따라서, &lt;a href=&#34;http://jof4002.net/?CppKeywords/extern&#34;&gt;extern&lt;/a&gt; 키워드를 활용하도록 한다!&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>소켓 프로그래밍을 할 때 read가 생각대로 작동하지 않는 경우</title>
+				<link>https://ezaurum.com/2008/12/%EC%86%8C%EC%BC%93-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EC%9D%84-%ED%95%A0-%EB%95%8C-read%EA%B0%80-%EC%83%9D%EA%B0%81%EB%8C%80%EB%A1%9C-%EC%9E%91%EB%8F%99%ED%95%98%EC%A7%80-%EC%95%8A%EB%8A%94-%EA%B2%BD%EC%9A%B0/</link>
+				<pubDate>Thu, 04 Dec 2008 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2008/12/%EC%86%8C%EC%BC%93-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EC%9D%84-%ED%95%A0-%EB%95%8C-read%EA%B0%80-%EC%83%9D%EA%B0%81%EB%8C%80%EB%A1%9C-%EC%9E%91%EB%8F%99%ED%95%98%EC%A7%80-%EC%95%8A%EB%8A%94-%EA%B2%BD%EC%9A%B0/</guid>
+				<description>&lt;p&gt;&lt;ins datetime=&#34;2009-02-19T18:16:26+00:00&#34;&gt;기말고사용으로 채팅 프로그램을 만들던 중, close를 하지 않고, 연결을 유지한 채로 write함수로 EOF값 만을 보내서 대화 내용의 종결을 알리려고 했으나, 잘 작동하지 않았다.&lt;/ins&gt;&lt;/p&gt;&#xA;&lt;p&gt;read는 socket 이 close되지 않으면 EOF를 읽더라도 1을 반환한다. 따라서 연결을 유지하고 read/write를 하려면 읽은 값이 EOF인지를 체크해준다!&#xA;이거 알아내려고 이틀 밤 샜다. 젠장. 나만 병신인가.&#xA;&lt;code&gt;&#xA;while (temp)&#xA;{&#xA;read(sockfd, &amp;amp;s, 1);&#xA;if ( s == EOF) break;&#xA;printf(&amp;quot;%c&amp;quot;,s);&#xA;}&#xA;&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;read 의 리턴값 - 기본적으로 실제로 읽은 바이트 수 만큼. 만일 파일 기술자가 socket 일 경우, 연결이 종료되어야 파일이 끝난 것으로 인식. 0을 리턴한&amp;hellip;&#xA;이거 쓰고 보니 쪽팔리는데 당연한 거잖아.&#xA;socket 형식의 파일일 경우는, &lt;strong&gt;연결 종료 = 파일 끝&lt;/strong&gt;인데&amp;hellip;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>-lsocket 옵션에서 에러가 날 때</title>
+				<link>https://ezaurum.com/2008/11/-lsocket-%EC%98%B5%EC%85%98%EC%97%90%EC%84%9C-%EC%97%90%EB%9F%AC%EA%B0%80-%EB%82%A0-%EB%95%8C/</link>
+				<pubDate>Fri, 28 Nov 2008 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2008/11/-lsocket-%EC%98%B5%EC%85%98%EC%97%90%EC%84%9C-%EC%97%90%EB%9F%AC%EA%B0%80-%EB%82%A0-%EB%95%8C/</guid>
+				<description>&lt;p&gt;소켓 프로그래밍을 하는데 프린트물에 있는 대로 -lsocket 옵션을 주니 계속 cc 가 에러를 뱉었다.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://kldp.org/node/1377&#34;&gt;&lt;a href=&#34;http://kldp.org/node/1377&#34;&gt;http://kldp.org/node/1377&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;결론은 &lt;strong&gt;Sun 계열 유닉스에서 작업하는 게 아니면, -lnsl -lsocket 옵션을 주지 말고 컴파일하라는 것.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;한참 헤매다가 답 발견. 학교 서버가 sun 계열이라 그런 듯.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

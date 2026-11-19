@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>C/C&#43;&#43; on Ezaurum&#39;s Blog</title>
-		<link>https://ezaurum.com/tags/c/tags/C/C&#43;&#43;/</link>
-		<description>Recent content in C/C&#43;&#43; on Ezaurum&#39;s Blog</description>
+		<title>C on Ezaurum&#39;s Blog</title>
+		<link>https://ezaurum.com/tags/c/</link>
+		<description>Recent content in C on Ezaurum&#39;s Blog</description>
 		<generator>Hugo</generator>
 		<language>ko-kr</language>
 		
@@ -12,9 +12,51 @@
 			<copyright>© Ezaurum 2001-</copyright>
 		
 		
-			<lastBuildDate>Mon, 17 Jan 2011 00:00:00 +0000</lastBuildDate>
+			<lastBuildDate>Fri, 11 Dec 2015 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="https://ezaurum.com/tags/c/tags/C/C++/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://ezaurum.com/tags/c/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>페북 로그인 연동</title>
+				<link>https://ezaurum.com/2015/12/%ED%8E%98%EB%B6%81-%EB%A1%9C%EA%B7%B8%EC%9D%B8-%EC%97%B0%EB%8F%99/</link>
+				<pubDate>Fri, 11 Dec 2015 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2015/12/%ED%8E%98%EB%B6%81-%EB%A1%9C%EA%B7%B8%EC%9D%B8-%EC%97%B0%EB%8F%99/</guid>
+				<description>&lt;p&gt;페이스북 유니티3D 연동은 좋은 자료가 많다.&lt;/p&gt;&#xA;&lt;p&gt;페이스 북 연동이라고 해도 사실 Graph API를 쓸 일은 잘 없으니 액세스 토큰 받아오는 거랑, 퍼미션 창 띄우는 부분에서 에디터인 경우 레거시 GUI를 쓰고 있어서 그 부분만 정리했다.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://gist.github.com/ezaurum/80c7b509fe5d6458e831.js&#34;&gt;&lt;a href=&#34;https://gist.github.com/ezaurum/80c7b509fe5d6458e831.js&#34;&gt;https://gist.github.com/ezaurum/80c7b509fe5d6458e831.js&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>C# 에서 Dispose, Close, Stop의 차이</title>
+				<link>https://ezaurum.com/2015/02/C%23-%EC%97%90%EC%84%9C-Dispose-Close-Stop%EC%9D%98-%EC%B0%A8%EC%9D%B4/</link>
+				<pubDate>Fri, 20 Feb 2015 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2015/02/C%23-%EC%97%90%EC%84%9C-Dispose-Close-Stop%EC%9D%98-%EC%B0%A8%EC%9D%B4/</guid>
+				<description>&lt;p&gt;내가 정리를 할 필요가 있어서&amp;hellip;&#xA;Dispose - 더 이상 이 오브젝트를 쓰지 않음. 관련 리소스를 정리함. 자동으로 Null로 만들지는 않음. 여러 번 호출해도 괜찮음.&#xA;Close, Stop - Dispose의 하위집합이거나 기능상 동일할 수 있음. 보통 Close/Open, Start/Stop 이며, 하위집합인 경우, Close이후 재 Open이 가능. Stop이후 Start가 가능.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Task의 실행 시점</title>
+				<link>https://ezaurum.com/2015/02/Task%EC%9D%98-%EC%8B%A4%ED%96%89-%EC%8B%9C%EC%A0%90/</link>
+				<pubDate>Mon, 16 Feb 2015 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2015/02/Task%EC%9D%98-%EC%8B%A4%ED%96%89-%EC%8B%9C%EC%A0%90/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;http://stackoverflow.com/questions/25976231/stackexchange-redis-transaction-methods-freezes&#34;&gt;Stackexchange redis에서 트랜잭션 진행이 멈춤&lt;/a&gt;이라는 질문과 답변을 보다가 Execute가 실제 명령어들보다 앞에서 await로 되어 있는 것을 보고 좀 이상하다는 느낌을 받았다.&#xA;그래서 열심히 검색하고 테스트 코드를 짜 보았다.&#xA;&lt;a href=&#34;https://gist.github.com/ezaurum/746ea24220b52b27b56c.js&#34;&gt;&lt;a href=&#34;https://gist.github.com/ezaurum/746ea24220b52b27b56c.js&#34;&gt;https://gist.github.com/ezaurum/746ea24220b52b27b56c.js&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;결론은, Task는 await로 되는 시점에 실행되는 것이 아니다. 단지 Task는 실행되고 있는 쓰레드(정확히 대응하는 것은 아니지만&amp;hellip;)에 대한 핸들러를 주는 것이고, await는 그게 종료 되었는지 확인 될 때까지 해당 프로시저를 멈추는 역할을 할 뿐이다.&#xA;그러니, 저 코드는 실제로는 다음과 같을 것이다.&lt;/p&gt;&#xA;&lt;ul&gt;&#xD;&#xA;&#x9;&lt;li&gt;트랜잭션 만든다.&lt;/li&gt;&#xD;&#xA;&#x9;&lt;li&gt;트랜잭션에 명령어 추가. 결과를 받아올 태스크 핸들러 받음&lt;/li&gt;&#xD;&#xA;&lt;li&gt;트랜잭션 실행&lt;/li&gt;&#xD;&#xA;&lt;li&gt;트랜잭션 종료&lt;/li&gt;&#xD;&#xA;&lt;li&gt;각 명령어를 다른 태스크 핸들러에서 받음.&lt;/li&gt;&#xD;&#xA;&lt;/ul&gt;&#xD;&#xA;&lt;p&gt;음. Task의 개념에 대해 공부를 한 충실한 오전이었&amp;hellip;나?&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Nuget 패키지에 의존성 지정하기</title>
+				<link>https://ezaurum.com/2015/02/Nuget-%ED%8C%A8%ED%82%A4%EC%A7%80%EC%97%90-%EC%9D%98%EC%A1%B4%EC%84%B1-%EC%A7%80%EC%A0%95%ED%95%98%EA%B8%B0/</link>
+				<pubDate>Sun, 08 Feb 2015 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2015/02/Nuget-%ED%8C%A8%ED%82%A4%EC%A7%80%EC%97%90-%EC%9D%98%EC%A1%B4%EC%84%B1-%EC%A7%80%EC%A0%95%ED%95%98%EA%B8%B0/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;http://docs.nuget.org/create/nuspec-reference#specifying-dependencies&#34;&gt;출처 - Nuget 매뉴얼&lt;/a&gt;&#xA;Nuget 패키지를 만들 때 의존성을 지정하려면, .nuspec 파일 안의 metadata 태그의 자식으로&#xA;&lt;code&gt;&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;&amp;lt;/code&amp;gt;&#xD;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;이렇게 지정해 주면 된다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>별거 안 했는데 TypeInitializeException 이 나는 경우</title>
+				<link>https://ezaurum.com/2015/02/%EB%B3%84%EA%B1%B0-%EC%95%88-%ED%96%88%EB%8A%94%EB%8D%B0-TypeInitializeException-%EC%9D%B4-%EB%82%98%EB%8A%94-%EA%B2%BD%EC%9A%B0/</link>
+				<pubDate>Thu, 05 Feb 2015 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2015/02/%EB%B3%84%EA%B1%B0-%EC%95%88-%ED%96%88%EB%8A%94%EB%8D%B0-TypeInitializeException-%EC%9D%B4-%EB%82%98%EB%8A%94-%EA%B2%BD%EC%9A%B0/</guid>
+				<description>&lt;p&gt;아래와 같은 코드를 실행하면, &lt;a href=&#34;https://msdn.microsoft.com/ko-kr/library/system.typeinitializationexception(v=vs.110).aspx&#34;&gt;TypeInitializeException&lt;/a&gt;이 뜬다.&#xA;&lt;a href=&#34;https://gist.github.com/ezaurum/fdcb0dce79ed900d5fb8.js&#34;&gt;&lt;a href=&#34;https://gist.github.com/ezaurum/fdcb0dce79ed900d5fb8.js&#34;&gt;https://gist.github.com/ezaurum/fdcb0dce79ed900d5fb8.js&lt;/a&gt;&lt;/a&gt;&#xA;자세히 보면, Dictionary에 같은 키로 값을 넣으려 하고 있다.&#xA;이러면 &lt;a href=&#34;https://msdn.microsoft.com/ko-kr/library/k7z0zy8k(v=vs.110).aspx&#34;&gt;이렇게&lt;/a&gt; &lt;a href=&#34;https://msdn.microsoft.com/ko-kr/library/system.argumentexception(v=vs.110).aspx&#34;&gt;ArgumentException&lt;/a&gt;이 나게 되는데, 그게 static 변수를 할당하는 시점에 일어나므로, TypeInitializeException이 뜨게 된다.&#xA;그러니 저거 원인을 못 찾을 때는 static으로 선언한 변수에 값이 들어가는 부분을 체크해 보자.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>C# Socket.AcceptAsync에서 invalidOperationException이 날 때</title>
+				<link>https://ezaurum.com/2013/11/C%23-Socket.AcceptAsync%EC%97%90%EC%84%9C-invalidOperationException%EC%9D%B4-%EB%82%A0-%EB%95%8C/</link>
+				<pubDate>Sun, 24 Nov 2013 00:00:00 +0000</pubDate>
+				<guid>https://ezaurum.com/2013/11/C%23-Socket.AcceptAsync%EC%97%90%EC%84%9C-invalidOperationException%EC%9D%B4-%EB%82%A0-%EB%95%8C/</guid>
+				<description>&lt;p&gt;C#에서 소켓 프로그래밍을 할 때, Socket.AcceptAsync로 연결하는데 다음과 같은 예외가 발생했다.&#xA;&lt;code&gt;System.InvalidOperationException이(가) 처리되지 않았습니다.&#xA;Message=AcceptSocket: 소켓을 바인딩하거나 연결하면 안 됩니다.&lt;/code&gt;&#xA;원인은 AcceptAsync이후에 같은 SocketAsyncEventArgs객체를 이용해 계속 Accept를 받으려고 했는데, SocketAsyncEventArgs.AcceptSocket 프로퍼티를 null로 초기화하지 않았기 때문이다.&#xA;재사용하려면 AcceptSocket = null;을 넣어줄 것.&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>Quick Sort</title>
 				<link>https://ezaurum.com/2011/01/Quick-Sort/</link>
